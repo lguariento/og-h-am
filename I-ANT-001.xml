@@ -8,8 +8,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <title>Carncome 1</title>
-             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
-                 <orgName>University of Glasgow</orgName></editor>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -17,7 +17,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <respStmt>
                 <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
                 <resp>data collection, editing and encoding</resp>
-                </respStmt>
+                </respStmt>                
                  <respStmt>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
@@ -42,7 +42,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>In situ (inaccessible souterrain)</repository>
+                        <repository></repository>
                         <idno type="invNo"></idno>
                     </msIdentifier>
                     <msContents>
@@ -53,33 +53,37 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Northern Ireland Sites and Monuments Record: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=2648"><idno type="HER">ANT038:032</idno></ref>
-                                    <material>Stone</material> <objectType>Pillar (reused as souterrain lintel)</objectType> 
-                                    <dimensions unit="m">
-                                        <height>8.08</height>
-                                        <width>unknown</width>
-                                        <depth>unknown</depth>
-                                    </dimensions></support>
-                                <condition/>
+                                <support>Northern Ireland Sites and Monuments Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">ANT038:032</ref>
+                                    <material>Basalt</material> 
+                                    <objectType>Pillar</objectType> 
+                                     <dimensions unit="m">
+                                            <height>c.1.22</height>
+                                            <width></width>
+                                            <depth></depth>
+                                     </dimensions> 
+                                    <p>Noted by Buick (1900, 266) to be a little over 4 feet long.</p>
+                                </support>
+                                <condition>One of two ogham-inscribed pillars (see also I-ANT-002) reused as lintels in a souterrain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with an ogham inscription on one angle. The inscription likely reads upwards but this is unknown given the stone's location. The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> and described as <q>so lightly cut - little more than pin-scrapes - that decipherment is difficult</q><bibl><ptr target="MAC1945"/>Macalister 1945 <citedRange unit="page">297</citedRange>.</bibl></layout>
+                                <layout>The inscritions runs along one edge for '2 feet' or approximately 60cm (Buick 1900, 266)</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote>The ogham strokes in this inscription (also it's companion I-ANT-002) are particularly <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">lightly cut</rs>, described by Macalister (1945, 297) as 'little more than pin-scrapes'. Buick (1900, 266) noted that 'the average length of most of the consonants is three-fourths of an inch [c. 1.9cm]. Others, however, run up to an inch [2.5cm], and a few, such as Rs and Ms, to a couple of inches [c. 5cm]. All of them look as if they had been scored in with a nail'. The I of MAQI was observed to be 'quiite crowded' (Buick 1900, 268).<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Carncome</placeName>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/61366">
+                                <placeName type="townland">Carncome (<foreign xml:lang="ga">Carn Coim</foreign>)</placeName>, <placeName type="county">Co. Antrim</placeName>
                                 <geo>54.804566, -6.196192</geo></origPlace>
-                            <origDate>Unknown</origDate>
+                            <origDate></origDate>
                         </origin>
-                        <provenance type="found">1898
+                        <provenance type="found">Discovered by Rev. W. P. (afterwards Dean) Carmody, then rector of Connor, in the year 1898. One of two inscribed stones, used in roofing a souterrain 26' 6" [c. 8m] long [last but one at each end of 9 roofing stones in total]. This stone remains where it was found, and, as the souterrain is now closed, is at present inaccessible. The second (I-ANT-002] is in the National Museum, Dublin.
                         </provenance>
-                        <provenance type="observed">In situ (inaccessible souterrain)
+                        <provenance type="observed">Currently in situ in the souterrain but inaccessible.
                         </provenance>
                     </history>
                 </msDesc>
@@ -112,46 +116,51 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
+<change when="2023-11-26" who="#JB">
 Jef Bucas autogenerated EpiDoc output from spreadsheet
 </change>
-    <change when="2023-07-26" who="#BM">Bodil Malmose edited information to incorporate info from Macalister's Corpus Inscriptionum Insularum Celtic Arum entry.</change>
+<change when="2023-11-28" who="#NW">Nora White added and encoded further data</change>
+<change when="2023-12-11" who="#NW">Nora White added ogham edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="example.jpg"/>
-<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve">
-                <div type="textpart" n="1" xml:lang="pgl-ogam">
-                <ab><title>Edition</title>:
-                    <lb n="1" style="text-direction:unknown"/><persName>&#x1688;&#x1691;&#x168F;&#x1690;&#x1693;	&#x1684;&#x1689;&#x1693;&#x1692;&#x1684;&#x1690;&#x1684; <w lemma="#maqqas">&#x168B;&#x1690;&#x168A;&#x1694;</w> &#x168B;&#x1692;&#x1689;	&#x1691;&#x1694; &#x168B;&#x1693;&#x1692;&#x1688;&#x1694;&#x1685;&#x1694;</persName>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                     <persName><name nymRef="#...">ᚈᚑᚏᚐᚓᚄᚉ<unclear reason="ambiguous">ᚓᚒ</unclear>ᚄᚐᚄ</name><w lemma="maqqas">ᚋᚐᚊᚔ</w><w lemma="mucoi?">ᚋ<app type="alternative"><lem>ᚒ</lem><rdg>ᚑ</rdg></app>ᚉᚑᚔ</w><name nymRef="#...">ᚋᚓᚒᚈᚔᚅᚔ</name></persName>
+                   </ab>
+            </div>
+            <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#...">TORAESC<unclear reason="ambiguous">EU</unclear>SAS</name><w lemma="maqqas">MAQI</w><w lemma="mucoi?">M<app type="alternative"><lem>U</lem><rdg>O</rdg></app>COI</w><name nymRef="#...">MEUTINI</name></persName>                
                 </ab>
-            </div>
-            </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve">
-                <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Transliteration</title>:
-                    <lb n="1" style="text-direction:unknown"/><persName>TORAESCEUSAS <w lemma="#maqqas">MAQI</w> MUCOI MEUTINI</persName>
-                </ab>
-                </div>
-            </div>
+            </div>         
             <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
-                <p>No translation offered but inscription is likely a name.</p>
-            </div>
             <div type="commentary">
-                <p>Interpretation of the inscription is limited given the present location of the stone which makes the inscription inaccessible. The stone is one of two used to roof a souterrain. The other stone (CIIC 310) was removed to the National museum, Dublin while this one remained. Macalister based his reading on prior accounts published and noted that there was <q>some hesitation as to the double vowel EI in the first word. It has been suggested to divide this word into two, TORAES CEUSAS, but there is no obvious advantage in doing so</q><bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">297</citedRange></bibl></p>
+                <p>Rhys commented that he 'agreed with Dr. Buick in treating the second vowel group as AE rather than I; but as to the next, I could only convince myself that it consisted of seven or eight notches, without indication where they should be divided. Taking them to be seven they should read OI or IO, EU or UE' (Buick 1900, 268).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
-                <listBibl>
-                    <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">297</citedRange></bibl>
+                 <listBibl>
+                     <bibl><ptr target="#BUI1900"/>Buick 1900
+                        <citedRange>265-271</citedRange>
+                    </bibl>
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>297</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
