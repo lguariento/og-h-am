@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rusheens West</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2021-10-23"/> and processed using Agisoft Metashape.</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MAY-003</idno>
+                 <idno type="CIIC">5</idno>
+                <idno type="CISP">RUSHE/1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                     <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                      National Monuments Service Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA073-012----</ref>
+                                        <material ref="materials.xml#stone">Stone</material> 
+                                        <objectType ref="objects.xml#mon1">Pillar</objectType>                                   
+                                        <dimensions unit="m">
+                                            <height>1.28</height>
+                                            <width>0.40</width>
+                                            <depth>0.40</depth>
+                                         </dimensions>
+                                    <p>Described by Macalister (1945, 7) as <q>schist</q>, the stone is <q>square in cross-section and rectangular in shape, tapering slightly towards the top, bearing an ogham inscription on the NE angle... The flattish top (0.4m E−W; 0.25m N−S) of the stone has a slight slope to S, and is corrugated on a roughly N−S axis by several natural fissures which continue as fine striations or cracks obliquely down the N and S faces of the stone. There is an angular indentation in the lower SW corner of the stone, giving the stone an irregular cross-section at ground level. All exposed surfaces of the stone are moderately blotched with lichens</q> (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs> up on approximately the upper two thirds of the NE angle. Macalister (1945, 7) notes a possible single vowel notch towards the top of the opposite angle. He also notes the <q>deceptive score-like appearance</q> of the natural fissures running down from the top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The scores and notches are generally fairly uniform and evenly spaced (although the S scores appear a little cramped) with only the two T's sperated by extra space.
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/36692">
+                                <placeName type="townland">Rusheens West</placeName>, in parish of <placeName type="parish"> Kilmovee (<foreign xml:lang="ga">Cill Moibhí</foreign></placeName> 'Church of Mobhí'), <placeName
+                    type="county">Co. Mayo</placeName>
+                                <geo>53.896213, -8.674923</geo>.
+                            </origPlace>
+                            <origDate notBefore="0400" notAfter="0500" precision="low" datingMethod="#julian" evidence="linguistic">fifth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1916"><p>First published in 1916 by Macalister noting the discovery <q>several years</q> previously by Sergeant Lyons of Athenry. Macalister (1945, 7-8) records that the stone had previously been a <q>kneeling-stone</q> on a dwarf wall surrounding a well dedicated to St Mobhi' [<foreign xml:lang="ga">Tobar na Bachaille</foreign> 'the Well of the Crozier'], and that at some later date it was moved to its current site: <q>upright on a low altar-like structure north of the well</q>. Macalister suggested that a fracture across the stone's top, cutting off the inscription, was the result of deliberate action, <q>presumably by the masons who built the wall around the well</q></p>.
+                        </provenance>
+                        <provenance type="observed">Located <q>in the NE corner of a field of rough, damp, rush-grown pasture, located on a low rise, 2m to N of a holy well (MA073-013----). A church (MA073-014001-) and graveyard (MA073-014002-) are located c. 250m to SE, and there is a possible ecclesiastical enclosure (MA073-011001-), named <ref target="https://monasticon.celt.dias.ie/5554">Killerrikeen [<foreign xml:lang="ga">Cill Ericín</foreign>]</ref>, c. 240m to W... The stone is set upright in a bed of concrete on top of a circular stone-built platform (diam. 3.2m; H 0.45m at N, 1m at S). The perimeter of the platform is defined by a roughly coursed wall of boulders and large, horizontally-laid stones, rising slightly proud of the flat top of the platform. The platform is built up on the S side to compensate for a gentle fall of ground on that side. The top and sides are largely obscured by sod and moss</q> (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->). 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/265.html">Monumental</term>
+</keywords>-->
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-10-29" who="#NW">
+Nora White created xml doc
+</change>
+    <change when="2023-08-28" who="#NW">
+        Nora White updated edition and added unicode ogham codes
+    </change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+   <!-- <facsimile>
+        <!-\-<graphic url="CIIC5.jpg"><desc>Macalister 1945 sketch from CISP</desc></graphic>-\->
+    </facsimile>-->
+    <facsimile>
+         <graphic url="Rusheens.jpg"><desc>Sketch by Macalister 1945</desc></graphic>      
+        <media url="https://sketchfab.com/3d-models/ma073-012-kilmovee-371f70c582cb45c295bec7263c41bc38" mimeType="text/html"><desc>3d model on Sketchfab by Digital Heritage Age</desc></media>       
+    </facsimile>
+    <text>
+        <body>
+              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#allatis">&#x1690;&#x1682;<unclear reason="faded">&#x1690;</unclear>&#x1688;&#x1688;&#x1691;&#x1684;</name>
+                    <w lemma="maqqas">&#x168B;&#x1690;&#x168A;&#x1694;</w>
+                    <name>&#x1681;&#x168F;<gap reason="lost" extent="unknown"/></name></persName>                     
+                   </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#allatis">AL<unclear reason="faded">A</unclear>TTOS</name>
+                    <w lemma="maqqas">MAQI</w>
+                    <name>BR<gap reason="lost" extent="unknown"/></name></persName>                     
+                   </ab>
+            </div>
+            <div type="apparatus">
+                 
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>of <foreign xml:lang="sga">Allaid</foreign> son of Br...</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The personal name ALATTOS (gen. sg. of ALLATIS) appears to be a substantivised form ('wild one') of the old Irish adjective <hi rend="italic" corresp="http://www.dil.ie/2930">allaid</hi> 'wild'. The name is also found in other ogham inscriptions with some variation in spelling with regard to L(L) and T(T): ALATTO Whitefield, Co. Kerry; ALLATO Corkaboy, Co. Kerry and ALOTTO Droumatouk, Co. Kerry. The example here is the only one displaying a pre-apocope ending -S, suggesting that it is the ealiest and probably pre-6th century (McManus 1991, 103, 116). Only the first two letters of the father’s name (BR) survive. Although we cannot say what letters may have followed, two of the most common personal name elements found in ogham inscriptions which also start with BR are <hi rend="italic">bran</hi> ‘raven’ and <hi rend="italic">broc</hi> ‘badger’.</p></item></list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                 <listBibl> 
+                   <bibl><ptr target="#MAC1916"/>Macalister 1916 
+                        <citedRange>92</citedRange>
+                    </bibl>                                                               
+                    <bibl><ptr target="#MAC1945"/>Macalister 1945 
+                        <citedRange>7-8</citedRange>
+                    </bibl>
+                    <bibl><ptr target="#MCM1991"/>McManus 1991 
+                        <citedRange>103, 116</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>            
+        </body>
+    </text>
+</TEI>

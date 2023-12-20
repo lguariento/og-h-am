@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Chrois (Cross Abbey)</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2022-05-28"/> and processed using Agisoft Metashape.</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MAY-009</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA016-004004-</ref>
+                                    <material>Stone</material> 
+                                    <objectType>Pillar</objectType> 
+                                     <dimensions unit="m">
+                                            <height>1.95</height>
+                                            <width>0.20</width>
+                                            <depth>0.15</depth>                                   
+                                    </dimensions>
+                                    <p>Although not included in Macalister’s 1945 <hi rend="italic">Corpus</hi>, Westropp (1914, 77) recorded this stone as showing <q>notches on the natural-squared edge and faint traces of straight and slant scores</q>.</p>                                    
+                                </support>
+                                <condition>The stone is quite weathered and spalled.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Traces of a possible ogham inscription can be seen on the north-west angle of the pillar</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The strokes near the ground are slanted but only evident on the B side (<foreign xml:lang="ga">Aicme Beithe</foreign>) of the angle.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/1399343">
+                                 <placeName type="site">Cross Abbey (<foreign xml:lang="ga">Mainistir na Croise</foreign>)</placeName>, 
+                                 <placeName type="townland">Cross (Boyd) (<foreign xml:lang="ga">An Chrois</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                                <geo>54.208993, -10.083446</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">Westropp (1914, 77) recorded this stone as one of two tall stone pillars, one on either side of a ‘walled burial space, 7 feet wide [2.1m],’ which spanned the width of the church... on the E side of the burial space at Cross Abbey, which was possibly an early Christian church site (<ref target="https://monasticon.celt.dias.ie/2930">Monasticon Hibernicum</ref>).
+                        </provenance>
+                        <provenance type="observed">The ogham stone is incorporated into the outer edge of the low E wall of the grave structure, at a distance of 1.1m from the N wall of the church. The base of the stone is flanked on the S, W and N sides by the grave wall; the E face is more or less flush with the external face of the grave wall (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->). 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-07-04" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>    
+<change when="2023-10-10" who="#NW">
+Nora White added and encoded further data
+</change>   
+<change when="2023-12-11" who="#NW">
+Nora White added ogham edition
+</change> 
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://sketchfab.com/3d-models/ma016-004004-an-chrois-83063b7445c641b5bf2236037ff1cf66" mimeType="text/html"><desc>3d model by Gary Dempsey (Digital Heritage Age) on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/> 
+                    <unclear reason="weathered">ᚂ</unclear><gap reason="lost" unit="stroke" quantity="5"/><unclear reason="weathered">ᚏ</unclear><gap reason="illegible" unit="stroke" quantity="6"/><unclear reason="weathered">ᚃ</unclear><gap reason="lost" unit="stroke" quantity="4"/><unclear reason="damage">ᚅ</unclear><gap reason="lost" unit="stroke" quantity="6"/><unclear reason="damage">ᚐᚋᚒ</unclear>ᚁᚐ
+                </ab>
+            </div>
+            <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/>
+                    <unclear reason="weathered">L</unclear><gap reason="lost" unit="stroke" quantity="5"/><unclear reason="weathered">R</unclear><gap reason="illegible" unit="stroke" quantity="6"/><unclear reason="weathered">V</unclear><gap reason="lost" unit="stroke" quantity="4"/><unclear reason="damage">N</unclear><gap reason="lost" unit="stroke" quantity="6"/><unclear reason="damage">AMU</unclear>BA
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                     <bibl><ptr target="#WES1914"/>Westropp 1914
+                        <citedRange>77</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ballybeg</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2022-05-27"/> and processed using Agisoft Metashape.</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MAY-004</idno>
+                 <idno type="CIIC">6</idno>
+                <idno type="CISP">TULLA/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA103-022----</ref>
+                                    <material ref="materials.xml#stone">Stone</material> 
+                                    <objectType ref="objects.xml#mon1">Pillar</objectType>
+                                    <dimensions unit="m">
+                                            <height>2.20</height>
+                                            <width>0.57</width>
+                                            <depth>0.50</depth>
+                                    </dimensions>
+                                    <p>Roughly rectangular in profile, narrowing towards the top.</p>
+                                </support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The ogham inscription is cut across the sharply right-angled south-east corner.  However, sections of the inscription appear to have been damaged by flaking or abrasion of the stone surface, and in parts the sharpness of the corner has been somewhat rounded by use of the stone as a scratching post by farm stock (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The scores are large, broad and regularly spaced. However, some characters are unclear due to damage. For example, Macalister (1945, 8-9) read the inital character as a Q but only 4 scores, at most are evident. Four of the expected five notches of the final I in the personal name survive. Although there is no trace on the stone, a final I in MAQI may have been lost, as suggested by Macalister.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/36181">
+                                <placeName type="townland">Ballybeg (<foreign xml:lang="ga">An Baile Beag</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>                                
+                                <geo>53.726342, -8.697455</geo></origPlace>
+                            <origDate><!--Insufficient evidence?--></origDate>
+                        </origin>
+                        <provenance type="found">First noticed by Sergeant Lyons in 1900. Recorded that ‘the stone had fallen from its erect position, and had lain on the ground until it was re-erected in the year 1861’ (Macalister 1945, 8-9). Mistakenly recorded by Macalister (1945, 8) and others to be in the neighbouring townland of Tullaghaun.</provenance>
+                        <provenance type="observed">In situ on a broad level terrace on a ridge. To the south of the stone, the ridge slope falls steeply, giving extensive views south-east to west across a broad valley. On the far side of the valley to the south-south-west, the horizon is defined by a high ridge, Kiltullagh Hill, on the summit of which a standing stone is visible, and to the east of that Killtullagh church. Both the ogham stone and the standing stone are located close to the Mayo/Roscommon border which follows a roughly north-east, south-west zig-zag path through the landscape (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->). 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-07-04" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-08-24" who="#NW">
+Nora White added and encoded extra descriptive info and edition
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://sketchfab.com/3d-models/ma103-022-ballybeg-920aa00f87e64bd88fbd0eba5e3f8888" mimeType="text/html"><desc>3d model on Sketchfab by Gary Dempsey, Digital Heritage Age</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                     <persName><name nymRef="#cassignias"><unclear reason="damage">&#x1689;</unclear><supplied reason="lost">&#x1690;</supplied>&#x1684;<unclear reason="damage">&#x1693;</unclear>&#x168C;&#x1685;&#x1694;</name>
+                    <w lemma="maqqas">&#x168B;<unclear reason="damaged">&#x1690;&#x168A;</unclear><supplied reason="lost" cert="medium">&#x1694;</supplied><gap reason="lost" extent="unknown"/></w>                        
+                    </persName>                   
+                   </ab>
+            </div>
+            <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#cassignias"><unclear reason="damage">C</unclear><supplied reason="lost">A</supplied>S<unclear reason="damage">E</unclear>GNI</name>
+                    <w lemma="maqqas">M<unclear reason="damage">AQ</unclear><supplied reason="lost" cert="medium">I</supplied><gap reason="lost" extent="unknown"></gap></w>
+                    </persName>                        
+                </ab>
+            </div>
+            <div type="apparatus">
+                    <listApp>
+                <app>
+            <rdg source="#MAC1945">
+                <persName><name>QASIGN<supplied reason="lost">I</supplied></name>
+                    <w>MAQ<supplied reason="lost">I</supplied><gap reason="lost" extent="unknown"/></w>
+                    </persName>  
+               </rdg></app>  
+                </listApp>               
+            </div>
+             <div type="translation" xml:lang="en">
+                <p>'of <foreign xml:lang="sga">Caissíne</foreign>, son of...’</p>            
+            </div>
+            <div type="commentary">
+                <p>Some letters read by Macalister (1945, 8) are not now clear, including the initial Q, which looks more like a C. However, there are traces of most of the notches of the final I in the personal name, which would later be something like <foreign xml:lang="sga">Caissíne</foreign> ‘little curly-haired one’ (<foreign xml:lang="sga" source="https://dil.ie/8289">cas</foreign> ‘curly (haired)’ + diminutive -<foreign xml:lang="sga">íne</foreign>). Unfortunately, nothing remains of the father's name.</p>
+            </div>
+            <div type="bibliography">
+               <listBibl>                                                                                   
+                    <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>8-9</citedRange>
+                    </bibl>
+               </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

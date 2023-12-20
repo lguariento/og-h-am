@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Breastagh</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Robert Shaw</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D laser scanned using Artec Eva scanner <date when="2014-08-01"/> and later processed
+                        using Geomagic software</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MAY-008</idno>
+                 <idno type="CIIC">10</idno>
+                <idno type="CISP">BREAS/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA015-018001-</ref>
+                                    <material>Stone</material> 
+                                    <objectType>Pillar</objectType> 
+                                    <dimensions unit="m">
+                                            <height>2.75</height>
+                                            <width>0.98</width>
+                                            <depth>0.58</depth>
+                                    </dimensions><p>This ogham stone is a national monument (no. 415) in state guardianship.</p></support>
+                                <condition>Sections of the inscription have been eroded and damaged by spalling.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>There are ogham inscriptions on the NE and SE angles (lines 1 and 2 in the edition). The inscription extends the entire length of the NE angle (line 2); it is partly obscured by lichen. On the SE angle (line 1), the inscription begins 1.2m above ground level (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                           <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34606">
+                                <placeName type="townland">Breastagh (<foreign xml:lang="ga">Bréisteach</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                                <geo>54.246449, -9.253630</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">Discovered lying (total length 3.6m) in a field in the townland in 1874 by an English tourist and brought to the attention of antiquarian Samuel Ferguson. 
+It appeared to overlie a possible grave, a cavity at the south end of which was identified as the socket in which the stone once stood (Ferguson, 1870-9, 201-206). 
+                        </provenance>
+                        <provenance type="observed">Re-erected after discovery in its current position.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>    
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-07-04" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>    
+<change when="2023-10-02" who="#NW">
+Nora White added and encoded further data
+</change>    
+<change when="2023-12-11" who="#NW">
+Nora White added ogham edition
+</change> 
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme on SketchFab/3dhop?-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                    <orig>L<unclear reason="damaged">ᚓᚌᚌ</unclear><gap reason="lost" unit="score" quantity="15"/>ᚄᚇ<supplied reason="lost" cert="low" evidence="space">ᚔ</supplied>ᚒᚂᚓᚌᚍ<unclear reason="faded">ᚓᚄᚉᚐ</unclear><supplied reason="lost" evidence="previouseditor">ᚇ</supplied></orig>                 
+                    <lb n="2" style="text-direction:up"/>
+                    <persName><w lemma="maqqas">ᚋᚐᚊ</w> <name nymRef="#?">ᚉᚑᚏᚏᚁ<unclear reason="damaged">ᚏ</unclear>ᚔ</name> <w lemma="maqqas">ᚋᚐᚊ</w> <name nymRef="#?">ᚐᚋᚋᚂ<unclear reason="damaged">ᚂᚑᚌ</unclear><supplied reason="lost">ᚔ</supplied><unclear reason="damaged">ᚈ</unclear>ᚈ</name></persName>
+                </ab>
+            </div>
+            <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/>
+                   <orig>L<unclear reason="damaged">EGG</unclear><gap reason="lost" unit="score" quantity="15"/>SD<supplied reason="lost" cert="low" evidence="space">I</supplied>ULEGGw<unclear reason="faded">ESCA</unclear><supplied reason="lost" evidence="previouseditor">D</supplied></orig>                 
+                    <lb n="2" style="text-direction:up"/>
+                    <persName><w lemma="maqqas">MAQ</w> <name nymRef="#?">CORRB<unclear reason="damaged">Ṛ</unclear>I</name> <w lemma="maqqas">MAQ</w> <name nymRef="#?">AMML<unclear reason="damaged">LOG</unclear><supplied reason="lost">I</supplied><unclear reason="damaged">T</unclear>T</name></persName>
+                </ab>
+            </div>         
+           
+            <div type="apparatus">
+                <listApp>
+                    <app></app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>'... of the son of <foreign xml:lang="sga">Coirpre</foreign> son of <foreign xml:lang="sga">Amalgaid</foreign>'?</p>
+            </div>
+            <div type="commentary">
+                <p>Little can be said about the unintelligible reading of the first (SE) angle. With regard to the second (NE) angle, the father’s name (possibly <foreign xml:lang="sga">Amalgaid</foreign>, or the like) was previously identified by Macalister and others with a king of Connacht who died between 440 and 450 AD but the linguistic forms in the inscription rather suggest a late sixth or even early seventh century date. However, since <foreign xml:lang="sga">Amalgaid</foreign> could be the grandfather of the commemorated person, a 6th-century date isn’t beyond possibility.</p>
+            </div>
+            <div type="bibliography">
+              <listBibl>
+                  <bibl><ptr target="#FER1874"/>Ferguson, 1874
+                        <citedRange>201-206</citedRange>                      
+                  </bibl>
+                   <bibl><ptr target="#MAC1919"/>Macalister 1919
+                        <citedRange>402</citedRange>
+                    </bibl>
+                   <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>13-15</citedRange>
+                    </bibl>
+              </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

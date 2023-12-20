@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kilgarvan</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2022-05-28"/> and processed using Agisoft Metashape.</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MAY-010</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">KILGA/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                 <support>National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA040-031004-</ref>
+                                    <material>Granite</material> 
+                                     <objectType>Pillar</objectType> 
+                                      <dimensions unit="m">
+                                            <height>1.35</height>
+                                            <width>0.30</width>
+                                            <depth>0.20</depth>                                   
+                                    </dimensions>
+                                 </support>
+                                <condition>.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The ogham inscription runs along an upper angle of the pillar (left side of the broad face) extending from roughly mid-way along its length to the top of the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The broad, evenly-spaced strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>                          
+                                <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34677">
+                                <placeName type="townland">Kilgarvan (<foreign xml:lang="ga">Cill na nGarbhán</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                                <geo>54.089953, -9.027587</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">Discovered by Gerry Cribben and others while carrying out fieldwork in 2000 in the north-east quadrant of Kilgarvan graveyard (Moore 2000, 33). <ref target="https://monasticon.celt.dias.ie/1683">Kilgarvan (<foreign xml:lang="ga">Cill na nGarbhán</foreign> ‘Church of the Garbháns’)</ref> is said to have been founded by St Féichéine of <ref target="https://monasticon.celt.dias.ie/3689">Fore (<foreign xml:lang="ga">Fobar</foreign>)</ref>, a Connacht man, in the seventh century.
+                        </provenance>
+                        <provenance type="observed">The pillar was observed (May 2022) lying flat on the ground orientated N-S in the graveyard of Kilgarvan.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-10-30" who="#NW">
+Nora White added and encoded further data
+</change>
+<change when="2023-12-11" who="#NW">
+Nora White added ogham edition
+</change> 
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://sketchfab.com/3d-models/ma040-031004-kilgavan-b908ba931f0d4fdf873eba0d7acaaea5" mimeType="text/html"><desc>3d model on Sketchfab by Gary Dempsey, Digital Heritage Age</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+          <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                        <persName><name nymRef="#dotagnas?">ᚇᚑᚈᚐᚌᚅᚔ</name></persName>               
+                   </ab>
+            </div>
+            <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#dotagnas?">DOTAGNI</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p>'of <foreign xml:lang="sga">Dothán</foreign>'</p>
+            </div>
+            <div type="commentary">
+                <p>The reasonably clear ogham inscription has been read as DOTAGNI. However, a possible original COTAGNI was noted by Fionnbarr Moore (2001, 33), as the spall at the start of the inscription may have removed a couple of scores. A later version of the former name would be something like <foreign xml:lang="sga">Dothán</foreign>, but no such name appears to be attested in the later sources. The name may consist of the word <foreign xml:lang="sga">doth</foreign> ‘bearing, bringing forth, hatching (of animals)’ or, if COTHAGNI, possibly <foreign xml:lang="sga">coth</foreign> ‘food, sustenance’.
+</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="#MOR2001"/>Moore 2001
+                        <citedRange>33</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

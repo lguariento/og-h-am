@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corrower</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2022-05-27"/> and processed using Agisoft Metashape.</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MAY-005</idno>
+                 <idno type="CIIC">7</idno>
+                <idno type="CISP">CORRO/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                     National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA040-048----</ref>
+                                    <material ref="materials.xml#stone">Stone</material> 
+                                    <objectType ref="objects.xml#mon4">Slab</objectType>  
+                                     <dimensions unit="m">
+                                            <height>3.00</height>
+                                            <width>1.05</width>
+                                            <depth>0.30</depth>
+                                    </dimensions>
+                                  <p>Described by Macalister (1945, 9) as <q>grit</q>. Roughly rectangular in shape but tapering gently at the base, and tapering also in thickness to relatively narrow edges at the north and south ends, both of which bear an ogham inscription. The exceptional size of the stone suggested to Macalister (1945, 9-10) that it was originally a prehistoric standing stone, adapted by a later ogham carver for an inscription.</p>
+                                </support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Macalister (1945, 9-10) read the inscription (running upwards) on both edges but one angle is now almost totally illegible. The north end is thickly obscured by lichen, and only a number of slight indentations or possible notches can be seen (3 strokes of a possible N), which may be part of the ogham inscription. On the south end of the stone, the ogham inscription, weathered but clearly visible in places, extends from the top of the stone to a point roughly 1.3m above ground (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Macalister (1945, 10) noted that on both edges the scores are rather broad and shallow, <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed smooth</rs>.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34668">
+                                <placeName type="townland">Corrower (<foreign xml:lang="ga">Corr Odhar</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                                <geo>54.072257, -9.078265</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">Discovered in 1945 by Mr. Austin Cunney (National School Teacher, Attymass), in a pasture field adjacent to a farmyard. 
+                        </provenance>
+                        <provenance type="observed">In situ in a pasture field adjacent to a farmyard, located on a low rise in an undulating landscape of low rounded hills and ridges... Ground rises gently for c. 65m to S to an elevation topped by a cairn (MA040-105----). A rath (MA040-046----) is visible on a low hill c. 380m to NNE (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-07-04" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-09-18" who="#NW">
+Nora White added and encoded further data including edition
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://sketchfab.com/3d-models/ma040-048-corrower-c667fc17d83c4b83834aaafec856b84e" mimeType="text/html"><desc>3d model by Gary Dempsey (Digital Heritage Age) on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                     <persName><w lemma="maqqas"><supplied reason="lost">&#x168B;&#x1690;</supplied><supplied reason="undefined" evidence="previouseditor">&#x168A;</supplied></w> 
+                        <name nymRef="#ceragnas"><supplied reason="undefined" evidence="previouseditor">&#x1689;&#x1693;&#x168F;&#x1690;</supplied><unclear reason="lichen">&#x1685;</unclear></name> 
+                     <lb n="2" style="text-direction:up"/>
+                        <w lemma="avias"><unclear reason="faded">&#x1690;</unclear>VI</w> 
+                         <name>&#x1690;<unclear reason="faded" cert="low">&#x1687;</unclear>&#x1693;&#x1689;&#x1693;&#x1688;&#x1690;<unclear reason="faded">&#x1694;</unclear>&#x168B;&#x1694;&#x1685;</name></persName>
+                </ab>
+            </div>
+            <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/>                
+                    <persName><w lemma="maqqas"><supplied reason="lost">MA</supplied><supplied reason="undefined" evidence="previouseditor">Q</supplied></w> 
+                        <name nymRef="#ceragnas"><supplied reason="undefined" evidence="previouseditor">CERA</supplied><unclear reason="lichen">N</unclear></name> 
+                     <lb n="2" style="text-direction:up"/>
+                        <w lemma="avias"><unclear reason="faded">A</unclear>VI</w> <name>A<unclear reason="faded" cert="low">D</unclear>ECETA<unclear reason="faded">I</unclear>MIN</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                    <listApp>
+                <app>
+            <rdg source="#MAC1945">
+                <w><gap reason="lost" extent="unknown"/><supplied reason="lost">MA</supplied>Q</w>
+                <name>CERAN<supplied reason="lost">I</supplied></name>
+                <w>AVI</w> <name>A<c type="forfid">TH</c>ECETAIMIN</name>
+            </rdg>
+                </app>   
+                </listApp>                
+            </div>
+            <div type="translation">
+                <p>‘...son of <foreign xml:lang="sga">Cíarán</foreign> grandson/descendant of A?’</p>
+            </div>
+            <div type="commentary">
+                <p>Although only a few scores of a possible N survive of Macalister's MA]Q CERAN[I] on the left angle, if correct, this is a late spelling of the commonly occuring name <foreign xml:lang="sga">Cíarán</foreign> (in Old Irish, <foreign xml:lang="pgl">*ceragni</foreign> in Prim. Irish) 'little dark one' (<foreign xml:lang="sga" corresp="https://dil.ie/9011">cíar</foreign> plus a diminutive suffix).</p>
+                <p>The second name has not been identified and some of the letters are unclear. Macalister’s reading ‘TH’ in the last name is especially uncertain. This is his interpretation of what he describes as 'two lines on the H-surface, converging upward, though their actual meeting-point is effaced, and a curve, which it is just possible to discern on the B surface, closing the figure thus formed'. He takes this to be the 0-forfid (ᚖ or θ) but with a consonant value as it appears to be between two vowels. The only other example noted by Macalister of the use of this forfid on stone is in his equally dubious reading of it in the Kilcolman inscription, Co. Kerry (I-KER-061).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>9-10</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

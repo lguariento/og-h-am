@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aghaleague</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2022-05-27"/> and processed using Agisoft Metashape.</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MAY-007</idno>
+                 <idno type="CIIC">9</idno>
+                <idno type="CISP">AGHAL/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA014-101----</ref>
+                                    <material>Stone (sandstone)</material> 
+                                    <objectType>Slab</objectType> 
+                                     <dimensions unit="m">
+                                            <height>1.90</height>
+                                            <width>2.20</width>
+                                            <depth>0.15</depth>
+                                     </dimensions>
+                                    <p><q>The stone leans markedly to the north-west: the current height of the stone (i.e. vertical drop from top to the ground surface) is 1.9m, however, if the stone were fully vertical, its height would be c. 2.3m</q> (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</p>
+                                </support>
+                                <condition>The stone is weathered and largely lichen-covered. The middle section of the south-west face presents a smooth, almost polished surface, probably the result of farm stock using this side of the stone as a scratching post; part of the inscription may have been obliterated here.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The ogham inscription runs upwards on the narrow south-west face of the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">Pocked and rubbed</rs> in broad, shallow grooves (Macalister (1945, 12).
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34228">
+                                <placeName type="townland">Aghaleague (<foreign xml:lang="ga">Achadh Liag</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                                <geo>54.257414, -9.332316</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">Discovered by Macalister and first published by him in 1919. The townland name in Irish is <foreign xml:lang="ga">Achadh Liag</foreign>, 
+                            meaning ‘field of the pillar-stone’.
+                        </provenance>
+                        <provenance type="observed">In situ in pasture, in damp, flat, low-lying ground on the west side of a stream valley. The north-flowing stream is located 40m to the east of the stone between the road and the stone.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>   
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-07-04" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-09-25" who="#NW">
+Nora White added and encoded further data
+</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://sketchfab.com/3d-models/ma014-101-aghaleague-9ce2d916d7c54667a3bd155dfdee0a15" mimeType="text/html"><desc>3d model by Gary Dempsey (Digital Heritage Age) on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                      <persName><name nymRef="#maqqas-actos?"><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">&#x168B;&#x1690;</supplied><unclear reason="fissure">&#x168A;&#x1689;</unclear><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">&#x1688;&#x1691;</supplied></name>
+                        <w lemma="maqqas">&#x168B;&#x1690;&#x168A;</w> <name nymRef="#gar?">&#x168C;&#x1690;<unclear reason="damage">&#x168F;</unclear><gap reason="lost" extent="unknown"/></name>                      
+                    </persName>                   
+                   </ab>
+            </div>
+            <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#maqqas-actos?"><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">MA</supplied><unclear reason="fissure">Q</unclear><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">A</supplied><unclear reason="fissure">C</unclear><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">TO</supplied></name>
+                        <w lemma="maqqas">MAQ</w> <name nymRef="#gar?">GA<unclear reason="damage">R</unclear><gap reason="lost" extent="unknown"/></name>
+                    </persName>                        
+                </ab>
+            </div>          
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <rdg source="#MAC1919">OTTACI MAQ GARA<gap reason="lost" extent="unknown"/></rdg>                    
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>Macalister's ACTO, if correct (note earlier reading: OTTACI), may be related to the Old Irish verb <foreign xml:lang="sga" corresp="https://dil.ie/933">aigid</foreign> ‘to lead, drive’ and the later attested name <foreign xml:lang="sga">Achtán</foreign>. The name ACTO also occurs in inscription I-COR-041 (Ballyknock, Co. Cork). The remaining start of the father's name may contain the adjective <foreign xml:lang="sga" corresp="https://dil.ie/25369">gar</foreign> ‘short’ or <foreign xml:lang="sga" corresp="https://dil.ie/25380">garb</foreign> ‘rough’ but it is impossible to be sure with so little surviving. Names such as <foreign xml:lang="sga">Garbán</foreign> and <foreign xml:lang="sga">Garbith</foreign> appear in later manuscript sources.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="#MAC1919"/>Macalister 1919
+                        <citedRange>401</citedRange>
+                    </bibl>
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>12-13</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

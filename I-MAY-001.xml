@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Island</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2022-05-27"/> and processed using Agisoft Metashape.</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MAY-001</idno>
+                 <idno type="CIIC">3</idno>
+                <idno type="CISP">ISLAN/1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>                   
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>                         
+                        <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                   National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">MA093-038001-</ref>. 
+                                        <material ref="materials.xml#stone">Stone</material> 
+                                        <objectType ref="objects.xml#mon1">Pillar</objectType>                                     
+                                         <dimensions unit="m" source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">
+                                            <height>1.80</height>
+                                            <width>0.60</width>
+                                            <depth>0.35</depth>
+                                         </dimensions>
+                                       <p>Described by Macalister (1945, 5) as <q>grit</q>, the pillar <q>has a rectangular cross-section, straight sides which taper at the top to form an asymmetrical triangular peak, and an ogham inscription on the angles of the top and both sides of the E (or uppermost) face. This face of the stone has a rather rough and weathered surface, with several irregularities and areas of possible flaking or chipping, particularly toward the apex/west end of the stone. The surface is moderately blotched with lichen. The scores on the narrow N and S sides of the stones appear somewhat better preserved than some of those on the more weathered broad face</q> (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>As the stone is currently leaning to an almost horizontal position, <q>the ogham inscription is, therefore, on what now presents as the uppermost surface of the stone, formerly the E face when the stone was vertical</q> (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).
+                                  The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs> on two angles (up-top-down)<q>. AVI (except the A notch and distal ends of the V) and parts of some other scores are chipped away : a flake about 2-in. wide (measured at right angles to the arris) has here been broken off. The space available does not confirm Rhys's contention that the second word should be AVE, not AVI</q> (Macalister 1945, 5). Some letters in the first name are also damaged. Only one clear notch of the U remains, one damaged and three full scores to the right follow before the A notch. However, the space allows for a more likely UN reading. The last name is remarkably clear and undamaged.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The lines and notches are, in general, sharply delineated, up to 1cm in width, with the lines measuring up to <height>10-12cm in length</height>, but some variation is evident in the thickness and spacing of the scores.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/36095">
+                                <placeName  type="townland">Island (<foreign xml:lang="ga">An tOileán</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                                <geo>53.773466, -8.799564</geo>.
+                            </origPlace>
+                            <origDate notBefore="0400" notAfter="0500" precision="low" datingMethod="#julian" evidence="linguistic">fifth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1898"><p>First published in 1898 by John Rhys. The stone presumably once stood upright in the barrow but when first recorded it was already tilting to the W at an angle of 75 degrees, with ‘the apex at a height of five feet [1.5m] from the ground level’ (Cochrane 1898, 401; <ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">ASI field report, 2017</ref>).</p>
+                        </provenance>
+                        <provenance type="observed">Embedded in the top of a barrow (MA093-038002-) crowning the NE end of a steep-sided ridge. Incremental tilting to the W has continued since it's discovery in 1898, to the extent that the stone is now almost prostrate; the base remains embedded in the top of the NE perimeter of the barrow, with apex/top now tilted to a height of 0.43m above the surface of the shallow, central hollow of the barrow (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->). 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.2</p>
+<p><!--Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-20" who="#NW">
+Nora White created xml doc
+</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+         <media url="https://sketchfab.com/3d-models/ma093-038001-island-16e2ad134f3a4362bd950e945dfb2d2a" mimeType="text/html"><desc>3d model on Sketchfab by Gary Dempsey, Digital Heritage Age</desc></media>        
+    </facsimile>
+    <text>
+        <body>
+             <div type="edition" subtype="transcription" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transcription (ogham)</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#cunalenga">ᚉ<unclear reason="damage">ᚒᚅ</unclear>ᚐᚂᚓᚌ<choice><unclear>ᚔ</unclear><unclear>ᚓᚐ</unclear></choice></name>
+                        <space quantity="1" unit="stroke"/><w lemma="avias" pos="">ᚐ<unclear reason="damage">ᚃ</unclear><supplied reason="lost">ᚔ</supplied></w>
+                        <lb n="2" style="text-direction:down"/><name nymRef="#cunacanis"><choice><corr>ᚊ</corr><sic>ᚉ</sic></choice>ᚒᚅᚐᚉᚐᚅᚑᚄ</name>
+                    </persName>
+                </ab>
+             </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration (Roman)</title>:  
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#cunalenga">C<unclear reason="damage">UN</unclear>ALEG<choice><unclear>I</unclear><unclear>EA</unclear></choice></name>
+                        <space quantity="1" unit="stroke"/><w lemma="avias">A<unclear reason="damage">V</unclear><supplied reason="lost">I</supplied></w>
+                    <lb n="2" style="text-direction:down"/><name nymRef="#cunacanis"><choice><corr>Q</corr><sic>C</sic></choice>UNACANOS</name></persName>                   
+                   </ab>
+            </div>
+            <div type="apparatus">
+                 
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>'of <foreign xml:lang="sga">Conlang</foreign>, grandson/descendant of <foreign xml:lang="sga">Conchaín</foreign>’</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>Macalister (1945, 5) noted that although this inscription is 'injured by wear and chipping', the reading is 'certain'. However, there are a couple of uncertainties with regard to interpretation. In the first name (CUNALEGI), the five vowel notches at the top left of the stone are equally spaced suggested an I, but we would rather expect(and perhaps should read this as) a gen. sg. ending -EA (of ā-stem, nom. sg. CUNALENGA) which would also be five notches but usually grouped 4 (for E) + 1 (for A). There is, however, a definite space between this and the A of the following word, AVI. What may be the same name appears in later genealogies as <foreign xml:lang="sga">Conlang</foreign> and is made up of the elements <foreign xml:lang="sga" corresp="https://dil.ie/13291">cú</foreign> ‘hound’ and probably a form of <foreign xml:lang="sga" corresp="https://dil.ie/30262">lingid</foreign> ‘leaps’. In the ancestor’s name (QUNACANOS), initial Q is either a hypercorrection (suggesting a later date) or an error for C. CUNACANOS, gen. sg. of i-stem CUNACANIS, which doesn't appear to be attested later (*Conchaín?), again has the element <foreign xml:lang="sga" corresp="https://dil.ie/13291">cú</foreign> ‘hound’, this time probably with <foreign xml:lang="sga" corresp="https://dil.ie/7787">caín</foreign> ‘good/beautiful’.</p></item></list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                 <listBibl>                                                                            
+                    <bibl><ptr target="#MAC1945"/>Macalister 1945 
+                        <citedRange>5</citedRange>
+                    </bibl>
+                    <bibl><ptr target="#MCM1991"/>McManus 1991
+                        <citedRange>95, 113</citedRange>
+                    </bibl>
+                    <bibl><ptr target="#RHY1898"/>Rhys 1898
+                        <citedRange>396–398</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>            
+        </body>
+    </text>
+</TEI>
