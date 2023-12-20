@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carncome 1</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-ANT-001</idno>
+                 <idno type="CIIC">309</idno>
+                <idno type="CISP">CRCOM/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>In situ (inaccessible souterrain)</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Northern Ireland Sites and Monuments Record: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=2648"><idno type="HER">ANT038:032</idno></ref>
+                                    <material>Stone</material> <objectType>Pillar (reused as souterrain lintel)</objectType> 
+                                    <dimensions unit="m">
+                                        <height>8.08</height>
+                                        <width>unknown</width>
+                                        <depth>unknown</depth>
+                                    </dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with an ogham inscription on one angle. The inscription likely reads upwards but this is unknown given the stone's location. The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> and described as <q>so lightly cut - little more than pin-scrapes - that decipherment is difficult</q><bibl><ptr target="MAC1945"/>Macalister 1945 <citedRange unit="page">297</citedRange>.</bibl></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Carncome</placeName>
+                                <geo>54.804566, -6.196192</geo></origPlace>
+                            <origDate>Unknown</origDate>
+                        </origin>
+                        <provenance type="found">1898
+                        </provenance>
+                        <provenance type="observed">In situ (inaccessible souterrain)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-26" who="#BM">Bodil Malmose edited information to incorporate info from Macalister's Corpus Inscriptionum Insularum Celtic Arum entry.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-ogam">
+                <ab><title>Edition</title>:
+                    <lb n="1" style="text-direction:unknown"/><persName>&#x1688;&#x1691;&#x168F;&#x1690;&#x1693;	&#x1684;&#x1689;&#x1693;&#x1692;&#x1684;&#x1690;&#x1684; <w lemma="#maqqas">&#x168B;&#x1690;&#x168A;&#x1694;</w> &#x168B;&#x1692;&#x1689;	&#x1691;&#x1694; &#x168B;&#x1693;&#x1692;&#x1688;&#x1694;&#x1685;&#x1694;</persName>
+                </ab>
+            </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Transliteration</title>:
+                    <lb n="1" style="text-direction:unknown"/><persName>TORAESCEUSAS <w lemma="#maqqas">MAQI</w> MUCOI MEUTINI</persName>
+                </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>No translation offered but inscription is likely a name.</p>
+            </div>
+            <div type="commentary">
+                <p>Interpretation of the inscription is limited given the present location of the stone which makes the inscription inaccessible. The stone is one of two used to roof a souterrain. The other stone (CIIC 310) was removed to the National museum, Dublin while this one remained. Macalister based his reading on prior accounts published and noted that there was <q>some hesitation as to the double vowel EI in the first word. It has been suggested to divide this word into two, TORAES CEUSAS, but there is no obvious advantage in doing so</q><bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">297</citedRange></bibl></p>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">297</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
