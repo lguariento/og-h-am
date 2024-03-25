@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kilgrovan 6</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>                
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D laser scanned using Cobra FastScan scanner <date when="2013-01-25"/> and later processed
+                        using Geomagic software</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WAT-030</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">KLGRV/6</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>NMI</repository>
+                        <idno type="invNo">1966:96</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">WA031-045008-</ref>
+                                    <material>Stone (Grey, fine grained sandstone)</material> 
+                                    <objectType>pillar</objectType> 
+                                     <dimensions unit="m">                                        
+                                            <height>0.98</height>
+                                            <width>0.42</width>
+                                            <depth>0.13</depth>                                         
+                                     </dimensions>                                  
+                                </support>
+                                <condition>Broken off at one end and 'subjected to fracture cleavage' (Raftery 1969, 105).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is incomplete at both ends, running up one angle and across the top, posibly originally continuing down the opposite angle. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham strokes have been <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel and are evenly spaced without word division. The distal ends of the M and Q of MAQI have been lost due to vertical fracturing of the stone.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/49368">
+                                <placeName type="townland">Kilgrovan (<foreign xml:lang="ga">Cill Ghruabháin</foreign>)</placeName>, <placeName type="county">Co. Waterford</placeName>
+                                <geo>52.089906, -7.549858 (approx.)</geo></origPlace>
+                            <origDate notBefore="0525" notAfter="0575" precision="low" datingMethod="#julian" evidence="linguistic">Mid 6th century AD</origDate>
+                        </origin>
+                        <provenance type="found">Discovered, along with a fragment of an ogham stone (I-WAT-031), in 1966 during a non-archaeological dig `in surface soil of an earthwork... which was destroyed by bulldozer' (Raftery 1969, 105). Known locally as a <ref target="https://en.wikipedia.org/wiki/Cill%C3%ADn">Cillín/killeen</ref>, a more recent geophysical survey has confirmed the existence of an <ref target="https://monasticon.celt.dias.ie/1720">ecclesiastical enclosure (Cill Ghruabháin)</ref>. The enclosure is bivallate (int. diam. c. 50m; ext. diam. c. 60m), perhaps with an annexe or secondary enclosure attached to the SE, which may be the arc represented on the 1927 map. A number of smaller circular features (diam. c. 10m) within the enclosure could represent hut-sites, or even the church (Purcell 2003, 6-8). Five other ogham stones previously discovered at this site (I-WAT-025 – I-WAT-029), by Mr. Willliam Williams of Dungarvan in 1857, are now at Mount Melleray Abbey. 
+                            xii in McManus, p. 73
+                        </provenance>
+                        <provenance type="observed">National Museum of Ireland (seen and recorded in 3d in Jan 2013)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-02-29" who="#NW">Nora White added and encoded further data, including edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by DP not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+         <body> <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><gap reason="lost" extent="unknown"/>U <w lemma="maqqas">MAQI</w> <name nymRef="*comiggodias?">CUMUGOD<unclear reason="ambiguous">U</unclear><lb n="2" style="text-direction:across" break="no"/><unclear reason="ambiguous">U</unclear></name> <w lemma="mucoi?">MUCO<supplied reason="lost">I</supplied></w><gap reason="lost" extent="unknown"/></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
+                <p>‘... son of *Cumcaide (?) from the sept of ...’</p>
+            </div>
+            <div type="commentary">
+                <p>Reading: The three vowel strokes at the beginning are perhaps the remnants of an I, the genitive ending of the preceding, lost name. At end of the name CUMUGODU|U, after the D, six vowel strokes are written, three on either side of a 90° angle of the stone. The six strokes are here provisionally rendered as U|U, but they could also represent IA or perhaps a supernumerary spelling of I.
+Discussion: The inscription contains the fragment of an IN, a PN, and the two formula words MAQI and MUCO[I]. After MUCOI another name must have followed to complete the gentilic formula.</p>
+                <p>Linguistic Analysis: Motta (1981: 135) proposes several comparisons. One is with the name COMOGANN (I-KER-012 = CIIC 145, Arraglen, Co. Kerry), COMMAGGAGNI (I-KER-131 = CIC 1083, Rathkenny, Co. Kerry), OIr. Comgán. However, that name goes back to *komago- ‘co-fighter’ + *-agno-. There is no way that the U of the first syllable could be explained by this analysis, let alone the -UGODU|U at the end, which would have to contain a different suffix. The comparisons with the names Cumma (a hypocoristically shortened name) and Cum­mascach ‘mixed, disturbed’ @lt; *kom-miskāko- likewise lead nowhere for elucidating the present name. The only analyses that are formally able to account for CUMUGODU|U are a com­pari­son with OIr. cumcae ‘difficulty, strait’ (Ziegler 1994: 158) or with the verb con·ic ‘to be able, powerful’. Cumcae is the abstract of the adjective cumung ‘narrow’ @lt; PrimIr. *kom-ingu- @lt; PC *kom-angu-. Unexpectedly, cumcae has a [g] instead of the [ng] of the adjective; the lack of palatalisation of the middle cluster -mc- is also unclear. Formally, CUMUGODU|U could re­present /kuμəgodi̯a-/, i.e. a derivative with the productive OIr. adjectival suffix -dae @lt; *-odi̯o- from this abstract cumcae. The meaning would be appro­ximately ‘the one characterised by nar­row­ness or difficulty’. In order to explain the spelling of the present form, it has to be assu­med that the vowel of the second syllable has already been reduced to a schwa, represented by U in this case. Alternatively, the name could be connected with the verb con·ic @lt; PrimIr. *kom-igge/o-. The phonological analysis would be the same. Morphologically, the name would con­sist of the verbal stem *kuμig- @lt; *kom-igg- + the adjec­tival suffix *-odi̯o-; its meaning would perhaps be ‘mighty, the one with power’. In either case, the name would appear as *Cumcaide in Old Irish, but no such name is attested to my know­ledge. Also in either case, it would be easiest to emend the final -U|U to -I, the genitive singular ending of a i̯o-stem. Adjectives in OIr. -dae are typically derived from nouns (Wodtko 1995: 224–289), which favours the con­nection with cumcae ‘difficulty, strait’, unless the derivational basis of the second op­tion is not the verbal stem *kom-igge/o-, but an otherwise unattested o-stem noun *kom-iggo- ‘power’ (for the formation, cf. OIr. comrac ‘encounter’ @lt; *kom-ro-iggo‑).</p>
+                <p>Evidence for dating: The fragmentary state of the inscription renders it difficult to assess the value of the final vowels. If the foregoing etymological speculations are correct, the second syllable of the name would display reduction in its quality, pointing to the time shortly before or around the time of syncope in the mid-6th century.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MCM1991"/>McManus 1991
+                       <citedRange>73</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MOO1999"/>Moore 1999
+                       <citedRange>178-179, 199</citedRange>
+                     </bibl>
+                      <bibl><ptr target="MOT1981"/>Motta 1981
+                       <citedRange>135</citedRange>
+                     </bibl>
+                      <bibl><ptr target="PUR2003"/>Purcell 2003
+                       <citedRange>6-8</citedRange>
+                     </bibl>
+                      <bibl><ptr target="RAF1969"/>Raftery 1969
+                       <citedRange>178-179, 199</citedRange>
+                     </bibl>
+                     <bibl><ptr target="ZIE1994"/>Ziegler 1994
+                        <citedRange>158</citedRange>
+                     </bibl>                      
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

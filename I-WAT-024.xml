@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kilbeg</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>                 
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                   <name>David Jackson</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                <resp>3D laser scanned using Polhemus FastSCAN Cobra scanner <date when="2011-05-03"/> and afterwards processed
+                        using Rapidform software</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WAT-024</idno>
+                 <idno type="CIIC">285</idno>
+                <idno type="CISP">KLBEG/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>NMI</repository>
+                        <idno type="invNo"><!--?Check!--></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">WA025-078----</ref>
+                                    <material>Stone (greywacke sandstone)</material> 
+                                    <objectType>An irregular-shaped stone (possibly a fragment)</objectType> 
+                                     <dimensions unit="m">
+                                        <height>1.17</height>
+                                            <width>0.27</width>
+                                            <depth>0.14</depth> <!--(converted from Macalister) - Fionnbarr supplying?-->   
+                                     </dimensions>                                   
+                                </support>
+                                <condition>A stone, or fragment of a stone, pointed at one end and with what appears to be a section broken off at the other end. Macalister’s dimensions, e.g. 3 feet 10 inches in length, differ quite considerably to Barry’s (1896, 129) 4 feet 7 and a half inches in length (converted: 1.40m x 0.35m x 0.25m). Perhaps the stone was further damaged and broken by the time Macalister saw it. It is also noteworthy that Barry’s reading (see below) is very different to Macalister’s, agreeing with Brash (1879, 278) who doesn’t supply dimensions or a description. Barry also says that the inscription is on three angles rather than two but unfortunately doesn’t supply an illustration.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The ogham inscription runs along two angles of the stone (up-up). There is no sign of ogham strokes along a third angle as suggested by Barry (1896, 129). It is quite damaged towards the end of the inscription at the pointed top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with large strokes relative to the size of the stone (<height>10cm</height> long x 1.5cm wide), taking up most of the width of the narrow side.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/49777">
+                                <placeName type="townland">Kilbeg (<foreign xml:lang="ga">An Chill Bheag</foreign></placeName>, Civil Parish of ​Kilbarrymeaden/<foreign xml:lang="ga">Cill Bhairméidín</foreign>), <placeName type="county">Co. Waterford</placeName>
+                                <geo><!--precise location unknown--></geo></origPlace>
+                            <origDate notBefore="0550" notAfter="0625" precision="medium" datingMethod="#julian" evidence="linguistic">well into 6th or even early 7th century AD</origDate>
+                        </origin>
+                        <provenance type="found">This stone was dug up on farmland in the townland before 1875 (Barry 1896, 129). The stone may be associated with Kilbarrymeaden early ecclesiastical site in the neighbouring townland, consisting of a church (in ruins) within a small rectangular graveyard and a double bullaun and well nearby (Moore 1999, 177).
+                        </provenance>
+                        <provenance type="observed">National Museum of Ireland (seen and recorded in 3d in May 2011)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-02-23" who="#NW">Nora White added and encoded further data, including edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+     <facsimile>
+         <graphic url="example.jpg"/> <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by David Jackson (needs re-doing) not currently on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>       
+    <text>
+         <body> <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="*bivaidū">ᚁᚔᚃᚑᚇᚑᚅ</name>
+                    <lb n="2" style="text-direction:up"/>
+                    <w lemma="mucoi?">ᚋᚒᚉᚑᚔ</w> <name nymRef="*atīr?"><unclear reason="faded">ᚐ</unclear>ᚈ<unclear reason="faded">ᚐ</unclear>ᚏ</name></persName>
+                    </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/>
+                     <persName><name nymRef="*bivaidū">BIVODON</name>
+                      <lb n="2" style="text-direction:up"/>
+                     <w lemma="mucoi?">MUCOI</w> <name nymRef="*atīr?"><unclear reason="faded">A</unclear>T<unclear reason="faded">A</unclear>R</name></persName>
+                </ab>
+            </div>       
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
+                <p>‘of <foreign xml:lang="sga">Béoáed</foreign> from the sept of *<foreign xml:lang="sga">Aithir</foreign>’</p>
+            </div>
+            <div type="commentary">
+                <p>This inscriptions records an individual name followed by a gentilic phrase with the formula word MUCOI.</p>
+<p>Linguistic Analysis: BIVODON is a compound of the o-stem adjective *biu̯o- ‘alive, living’ (OIr. béo) and the common n-stem second element *ai̯don- ‘having fire’, a derivative of *ai̯du- ‘fire’ (cf. OIr. áed; see Uhlich 1993: 145; Ziegler 1994: 98). The compound *biu̯-ai̯donos ‘having living fire’ is also attested in the more conservative form BIVAI[DO]NAS on an ogam stone from Ballaqueeney on the Isle of Man (M-IOM-002). The ending *-as has already been lost here and the middle vowel of BIVODON appears to have under­gone reduction, perhaps to a schwa that was rounded by contact with the preceding *u̯. McManus (1991: 121) wonders if the middle O represents just a graphic, not a phonetic reduction of the fully preserved diphthong *oi̯, which arose from inherited *ai̯ by rounding after the *u̯. The vowel of the third syllable is still written with its inherited value *o and may not yet have been reduced, but perhaps this spelling is just chance.</p>
+<p>Since no kin group that corresponds to MUCOI ATAR, such as OIr. *Moccu Athar, is known from later historical sources, the morphological analysis of ATAR is ambiguous. It could simp­ly be the genitive of the r-stem word for ‘father’ (Ziegler 1994: 130), i.e. correspond­ing to OIr. athar @lt; *aθər @lt; *aθr̥ @lt; *aθrah @lt; PrimIr. *atras @lt; PC *φatros @lt; qPIE *ph₂tr-os. In that case, the vowel of the second syllable would be due to epenthesis (an instance not included in Eska 2010–12). It would be remarkable that a kin group should be called ‘sept of the father’. Alter­natively, the name could continue the genitive of a name derived by suffixation with the thema­tic vowel *-o- from ‘father’. In the attested form, the final *-ī would already be lost, namely either of PrimIr. *atrī > *aθrī > *aθ’r̥’ > *aθ’ər’ (again with epenthetic vowel), or PrimIr. *atarī > *aθarī > *aθar’ > *aθər’, corresponding respectively to OIr. *aithir or *athair, the hypothetical genitives of an unattested name *athar @lt; *atros or *ataros.</p>
+<p>Apocope in both names and reduction of the internal vowel place the inscription well in the 6th century or maybe even in the early 7th.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="BAR1896"/>Barry 1896
+                       <citedRange>122-135</citedRange>
+                     </bibl>
+                      <bibl><ptr target="MAC1945"/>Macalister 1945
+                       <citedRange>280</citedRange>
+                     </bibl>
+                      <bibl><ptr target="MCM1991"/>McManus 1991
+                       <citedRange>95, 97, 103, 105, 112, 118</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MOO1999"/>Moore 1999
+                       <citedRange>177, 198</citedRange>
+                     </bibl>
+                     <bibl><ptr target="UHL1993"/>Uhlich 1993
+                        <citedRange>145, 176</citedRange>
+                     </bibl>
+                     <bibl><ptr target="ZIE1994"/>Ziegler 1994
+                        <citedRange>98, 130, 137–138</citedRange>
+                     </bibl>                      
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

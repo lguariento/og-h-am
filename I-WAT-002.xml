@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ardmore 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>                    
+                     <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D laser scanned using Artec Eva scanner <date when="2012-10-24"/> and later processed
+                        using Geomagic software</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WAT-002</idno>
+                 <idno type="CIIC">263</idno>
+                <idno type="CISP">AMORE/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">WA040-008005-</ref>
+                                     <material>Stone (sandstone?)</material> 
+                                    <objectType>Pillar</objectType> 
+                                    <dimensions unit="m">                                        
+                                            <height>1.27</height>
+                                            <width>0.28</width>
+                                            <depth>0.30</depth>  <!--.27m x 0.28m x 0.30m (converted from Macalister) - Fionnbarr supplying?-->                                        
+                                     </dimensions>                                   
+                                </support>
+                                <condition>The top of the stone has been spalled away, probably by the masons who reused it as building material.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>There is ogham on three angles of this pillar. On two of the angles it clearly reads up-down. On the third it appears to read upwards.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Macalister's claim that the pillar 'bears two independent inscriptions in Ogham : the first, on two angles (up-down), pocked ; the second, on a third angle, chiselled' is questionable. The 'first' text, running up the left angle and down the right, follows an expected ogham formula (X MAQI Y MUCOI Z) with recognisable personal names. The text on the 'third' angle, however, appears to be unintelligible. Nevertheless, the carving technique (<rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>) and style of both are identical. For example, it is noteworthy that all of the consonant scores are at right angle to the angle/stemline. Consonants from the <foreign xml:lang="ga">Aicme Muine</foreign> (Ms and Gs in this inscription) are generally distinguished by their oblique angle. Although this distinction is not always strictly adhered to within the corpus, the consistency of the style of the text on all angles of this stone would suggest that it was carved by the same hand. Whether or not it is a single inscription or two seperate inscriptions is difficult to determine without an interpretation of the 'third' angle.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/50546">
+                                <placeName type="townland">Ardocheasty (<foreign xml:lang="ga">Ard Ó Séasta</foreign>)</placeName>, <placeName type="town">Ardmore (<foreign xml:lang="ga">Aird Mhór</foreign>)</placeName> <placeName type="county">Co. Waterford</placeName>
+                                <geo>51.948752, -7.725680</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">First noted in 1855 as having been discovered built into the east wall of St Declan’s Oratory by Mr. Windele (Fitzgerald 1855, 230). One of three ogham stones discovered at this site (see also I-WAT-003 and I-WAT-004). 
+                        </provenance>
+                        <provenance type="observed">Displayed in a niche of the chancel of the ruined cathedral at Ardmore opposite Ardmore 3 (I-WAT-004).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-01-22" who="#NW">Nora White added and encoded further data, including edition</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by the Discovery Programme not currently on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                     <persName><name nymRef="#lugudics">ᚂᚒᚌᚒᚇᚓᚉᚉᚐᚄ</name> <w lemma="maqqas">ᚋᚐᚊ<unclear reason="faded">ᚔ</unclear><gap reason="lost" extent="unknown"/></w>
+                    <lb n="2" style="text-direction:down"/>
+                        <w lemma="mucoi?"><supplied reason="lost" cert="high">ᚋᚒ</supplied><unclear reason="damage">ᚉ</unclear>ᚑᚔ</w> <name nymRef="#neta-Segamū">ᚅᚓᚈᚐᚄᚓᚌᚐᚋᚑᚅᚐᚄ</name></persName>
+                    <lb n="3" style="text-direction:up"/>                         
+                        <orig>ᚇᚑᚂᚐᚈᚔᚁᚔᚌ<unclear>ᚐᚔ</unclear>ᚄᚌᚑ</orig><gap reason="lost" extent="unknown"/>
+                    </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#lugudics">LUGUDECCAS</name> <w lemma="maqqas">MAQ<unclear reason="faded">I</unclear><gap reason="lost" extent="unknown"/></w>
+                    <lb n="2" style="text-direction:down"/>
+                        <w lemma="mucoi?"><supplied reason="lost" cert="high">MU</supplied><unclear reason="damage">C</unclear>OI</w> <name nymRef="#neta-Segamū">NETASEGAMONAS</name></persName>
+                    <lb n="3" style="text-direction:up"/>                         
+                        <orig>DOLATIBIG<unclear>AI</unclear>SGO</orig><gap reason="lost" extent="unknown"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                      <app><rdg source="MAC1945">
+                <lb n="3"/> 
+                          <w>DOLATI</w> <w>BIGAISGOB<gap reason="lost"/></w>                    
+               </rdg></app>                
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>of <foreign xml:lang="sga">Luguid</foreign> son of [...] from the kin of <foreign xml:lang="sga">Nad Segamon</foreign></p>
+            </div>
+            <div type="commentary">
+                <p>The personal name of the person commemorated is based on the the divine name <foreign xml:lang="sga" corresp="https://dil.ie/30937">Lug</foreign>. This name is well attested in the Old Irish period; and is still in use in the Modern Irish form <foreign xml:lang="ga">Lughaí</foreign>. It is a popular name on Irish ogham stones. It occurs also as LUGUDEC (I-MAY-002 = CIIC 4, Kilmannin, Co. Mayo; LUGUDECA (I-WAT-025 = CIIC 286, Kilgrovan, Co. Waterford), and LUGUDUC (I-COR-057 = CIIC 108, Kilcullen South, Co. Cork). The various forms of the name reflect consecutive stages of language change from PrimIr. *Lugudikas to OIr. Lugaid, gen. Luigdech under the effects of apocope and stress reduction. The second element of the name is the root *dik- ‘to show, point out’. The name therefore means ‘showing or pointing out Lug’, perhaps in the sense of an intermediary between the god and ordinary people. The popular analysis as Lug + the root *dek- ‘to show respect’ (McManus 1991: 103, 178 n.17) is phonologically difficult to justify (Stifter 2010: 23–24) and is therefore rejected here.</p>
+                <p>Unfortunatley the father's name, which would have followed MAQI 'son of', has been lost due to the damage at the top of the stone. However, the inscription continues with a kin group or sept name, MUCOI NETA SEGAMONAS ‘the kin of <foreign xml:lang="sga" corresp="https://dil.ie/33151">Nad Segamon</foreign> (‘champion of *Segamū')'. It is noteworthy that a <foreign xml:lang="sga">Nia Segamon</foreign> is listed in the historical sources as a prehistoric king of Cashel and that his <q>supposed grandson, <hi rend="italic">Lugaid Luaigni</hi>, is also listed as a prehistoric king of Munster and Ireland</q> (Bhreathnach 2014, 43-44). Although it is impossible to say for certain, it may be that this inscription commemorates this important king. The fact that MUCOI NETA-SEGAMONAS is also found on an ogham stone at nearby Island (I-WAT-042) and possibly also Knockboy (I-WAT-033) may suggest that this was a dynasty which controlled the area of west Waterford in the 5th century.</p>
+                <p>Macalister reads the third angle as two words, DOLATI (presumably he takes this as a name) and BIGA-ISGOB = uici episcopus 'rural or assistant bishop' and says 'this Ogham, therefore, intruded on the earlier inscription, is of a Christian character'. There are a few problems with this interpretation, which McManus (1991, 61) rightly describes as 'extremely doubtful'. 
+                BIGU bec DS p. 18</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                      <bibl><ptr target="BHR2014"/>Bhreathnach 2014
+                         <citedRange>43-44</citedRange>
+                     </bibl>
+                      <bibl><ptr target="FIT1855"/>Fitzgerald 1855
+                         <citedRange>226, 230-231</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>Macalister 1945
+                        <citedRange>257-260</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MCM1991"/>McManus 1991
+                        <citedRange>61</citedRange>
+                    </bibl>
+                       <bibl><ptr target="MOO1999"/>Moore 1999
+                     <citedRange>197</citedRange>
+                       </bibl>
+                      <bibl><ptr target="RYS1903"/>Rhys 1903
+                     <citedRange>381–386</citedRange>
+                       </bibl>
+                     <bibl><ptr target="WES1903"/>Westropp 1903
+                     <citedRange>353–380</citedRange>
+                       </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
