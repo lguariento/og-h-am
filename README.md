@@ -15,7 +15,7 @@ Katherine Forsyth, Professor of Celtic Studies, University of Glasgow; David Sti
 ### Co-Investigator: 
 Deborah Hayden, Associate Professor in Early Irish, Maynooth University.
 ### Post-doctoral researchers: 
-Dr Nora White, Maynooth Univ.; Dr Megan Kasten, Univ. of Glasgow.
+Dr Nora White and Dr Patricia O Conno, Maynooth Univ.; Dr Megan Kasten, Univ. of Glasgow.
 ### Digital officer: 
 Dr Luca Guariento, University of Glasgow.
 ### Student Intern: 
