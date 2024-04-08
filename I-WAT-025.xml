@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kilgrovan 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt> <name>Nora White</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                <resp>3D photogrammetry (but indoor without lights) <date when="2017-02-20"/> and processed
+                        using Agisoft Photoscan software</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WAT-025</idno>
+                 <idno type="CIIC">286</idno>
+                <idno type="CISP">KLGRV/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>Mount Mellary Abbey Heritage Center</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">WA031-045002-</ref>
+                                    <material>Stone (sandstone?)</material> 
+                                    <objectType>Slab?</objectType> 
+                                     <dimensions unit="m">
+                                            <height>1.19</height>
+                                            <width>0.36</width>
+                                            <depth>0.05</depth> <!--(converted from Macalister) - Fionnbarr supplying?-->   
+                                     </dimensions>                                   
+                                </support>
+                                <condition>The lower end of the stone is broken off and we are missing the beginning of the inscription. The top is also damaged resulting in the loss of some ogham strokes. The stone appears to have suffered a cleavage fracture (similar to that of I-WAT-030), although this appears to have been before the inscription was added. </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription runs up the sinister angle (rather than the more usual dexter), continues across the top and down the opposite angle.
+                                     </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham strokes have been <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel and are evenly spaced without word division. Some of the strokes of the B-aicme (N and L, also B half of G) are longer and stretch the width of the stone on this narrow side. This is paralled on another ogham stone from the site (I-WAT-030), although in this case on the B-aicme, which suggests that both inscriptions may have been carved by the same person. The strokes of the N and L are also sloped, matching the slope of the M and G.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/49368">
+                               <placeName type="townland">Kilgrovan (<foreign xml:lang="ga">Cill Ghruabháin</foreign>)</placeName>, <placeName type="county">Co. Waterford</placeName>
+                                <geo>52.089906, -7.549858 (approx.)</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">Discovered in 1857, along with four other ogham stones (I-WAT-026 to I-WAT-029), by <ref target="https://www.waterfordmuseum.ie/exhibit/web/Display/article/250/Williams_William.html;jsessionid=BDD18A19E9C6560DDD4D9DE11AB9105D">William Williams</ref>. The find site is known locally as a <ref target="https://en.wikipedia.org/wiki/Cill%C3%ADn">Cillín/killeen</ref>, a more recent geophysical survey has confirmed the existence of an <ref target="https://monasticon.celt.dias.ie/1720">ecclesiastical enclosure (Cill Ghruabháin)</ref>. The enclosure is bivallate (int. diam. c. 50m; ext. diam. c. 60m), perhaps with an annexe or secondary enclosure attached to the SE, which may be the arc represented on the 1927 map. A number of smaller circular features (diam. c. 10m) within the enclosure could represent hut-sites, or even the church (Purcell 2003, 6-8). Another ogham stone (I-WAT-030) and a fragment of an ogham stone (I-WAT-031) were discovered in 1966 during a non-archaeological dig at the same site.
+                        </provenance>
+                        <provenance type="observed">Mount Mellary Abbey Heritage Centre (seen and photographed in Feb 2017). The five stones originally lay in a fenced off grove off trees at Melleray for over 40 years. In 1977 they were moved indoors and were erected in the foyer of the old secondary school, now the Heritage Centre (<ref target="https://www.waterfordmuseum.ie/exhibit/web/Display/article/305/1/">https://www.waterfordmuseum.ie/exhibit/web/Display/article/305/1/</ref>. 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-04-07" who="#NW">Nora White added and encoded further data, including edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://sketchfab.com/3d-models/kilgrovan-i-ogham-stone-f90485169a3b4f6dabc545be5a2923f8" mimeType="text/html"><desc>3d model by Nora White on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>           
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">ᚉᚒ</supplied>ᚅᚐᚋᚐᚊᚔ</name> <name nymRef="#lugudics">ᚂᚒᚌᚒᚇᚓᚉᚐ</name> <w lemma="mucoi?">ᚋᚒᚉ<lb n="2" style="text-direction:across" break="no"/>ᚊ<supplied reason="lost">ᚔ</supplied></w> <lb n="3" style="text-direction:down"/><name nymRef="?"><unclear reason="damage">ᚉ</unclear>ᚒᚅᚓᚐ</name></persName>
+                </ab>
+                     </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">CU</supplied>NAMAQI</name> <name nymRef="#lugudics">LUGUDECA</name> <w lemma="mucoi?">MUC<lb n="2" style="text-direction:across" break="no"/>O<supplied reason="lost">I</supplied></w> <lb n="3" style="text-direction:down"/><name nymRef="?"><unclear reason="damage">C</unclear>UNEA</name>                        
+                         </persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
+                <p>'of <foreign xml:lang="sga">[Co]nmac</foreign> of <foreign xml:lang="sga">Luguid</foreign> from the sept of Con?</p>
+            </div>
+            <div type="commentary">
+                <p>Of the intial name, all that survives is -NAMAQI, with CU- a reasonable suggested reconstruction of the start of the name by Macalister (1945, 281. The name CUNAMAQ(Q)I is attested elsewhere in the ogham corpus, for example, I-KER-029 (Ballintaggart, Co. Kerry) and I-KER-021 (Ballinrannig, Co. Kerry). However, it is also possible that MAQI should be taken as a seperate word (MAQI 'son of') and that -NA is the end of different personal name.</p> 
+                <p>The following name (preumably the father's name) is based on the the divine name <foreign xml:lang="sga" corresp="https://dil.ie/30937">Lug</foreign>. This name is well attested in the Old Irish period; and is still in use in the Modern Irish form <foreign xml:lang="ga">Lughaí</foreign>. It is a popular name on Irish ogham stones. It occurs also as LUGUDECCAS (I-WAT-002, Ardmore, Co. Waterford), LUGUDEC (I-MAY-002, Kilmannin, Co. Mayo) and LUGUDUC (I-COR-057, Kilcullen South, Co. Cork). The various forms of the name reflect consecutive stages of language change from PrimIr. *Lugudikas to OIr. Lugaid, gen. Luigdech under the effects of apocope and stress reduction. The second element of the name is the root *dik- ‘to show, point out’. The name therefore means ‘showing or pointing out Lug’, perhaps in the sense of an intermediary between the god and ordinary people. The popular analysis as Lug + the root *dek- ‘to show respect’ (McManus 1991: 103, 178 n.17) is phonologically difficult to justify (Stifter 2010: 23–24) and is therefore rejected here.</p>
+                <p>Only two strokes of the initial letter of the kin group name survives and so this could be D, T or C. Considering that MUCOI CUNIA is found in another ogham inscription from this site (I-WAT-028), C is tentatively suggested here. However, CUNEA/CUNIA does not appear to be attested elsewhere and seems to be a feminine form of CUNA?</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>280-281</citedRange>
+                    </bibl>
+                     <bibl><ptr target="MCM1991"/>McManus 1991
+                       <citedRange>103, 178 n.17</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

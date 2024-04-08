@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Portersgate</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                     <name>Robert Shaw</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D laser scanned using Artec Eva scanner <date when="2015-01-07"/> and later processed
+                        using Geomagic software</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WEX-003</idno>
+                 <idno type="CIIC">46</idno>
+                <idno type="CISP"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>NMI</repository>
+                        <idno type="invNo">1930:67</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">WX054-004----</ref>
+                                    <material>Stone (reddish medium-grained sandstone)</material> 
+                                    <objectType>Three fragments of a pillar</objectType> 
+                                     <dimensions unit="m">                                         
+                                           <height>1.18</height>
+                                            <width>0.30</width>
+                                            <depth>0.20</depth> <!--(converted from Macalister) - Fionnbarr supplying?-->  
+                                     </dimensions>                                   
+                                </support>
+                                <condition>As pointed out by Macalister (1945, 50-51), the break between the two larger fragments <q>must have been of long standing as the broken surfaces are weathered and waterworn</q>. The third, smaller fragment shows less signs of weathering and may have been buried for some time. The surviving inscription is quite legible except the R, where the fifth stroke and part of the fourth are lost at the break in the stone, and the following C, which is spalled away except the distal ends. Based on the space available and what might be reasonably expected, Macalister (1945, 50, including illustration) suggested a restoration of the inscription. The third fragment discovered in 1987 is too small to confirm Macalister's restoration but, with four identifiable scores and the remains of a probable fifth, it could be a Q of his suggested MAQQI. </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is on the rounded sides running up-top-down. It begins and ends at roughly the same position on each side, approximately a third of the way up the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham strokes appear to have been <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel and are generally clear and evenly spaced without word division.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/53564">
+                                <placeName type="townland">Portersgate (<foreign xml:lang="ga">Geata an Phóirtéaraigh</foreign>)</placeName>, <placeName type="county">Co. Wexford</placeName>
+                                <geo>52.151453, -6.889423 (approx.)</geo></origPlace>
+                            <origDate  notBefore="0550" notAfter="0650" precision="low" datingMethod="#julian" evidence="linguistic">late sixth or early seventh century AD</origDate>
+                        </origin>
+                        <provenance type="found">The lower (and largest) fragment of the stone was discovered <q>beneath the clay cliff under the ruins of St. Bricane's Church</q> in 1845 by Mr Hugh Nevin of Waterford <q>in the course of some geological researches on the promontory of Hook</q> (Graves and Nevin 1854, 179). The second fragment (most of the top) was discovered almost 100 years later <q>near the church</q> by Rev. Thos. Cloney, P.P., Templetown, Fethard (Macalister 1930, 54). The third small fragment was recovered in the 1987 excavation (Breen 1988, 30-1). Although Macalister (1945, 50) names this stone 'Houseland', the find site is actually in the townland of Portersgate. <q>The [ruined remains of the] early church (WX054-003002-) known as St. Brecaun’s church is situated at the edge of a low clay cliff (H c. 5m) on the E side of the low-lying and narrow part of the Hook peninsula. The graveyard was regarded as eroded away long ago by the sea (Redmond 1898, 32-3), and archaeological excavation in 1987 found [fragments of human bone but] no burials anywhere. However, evidence of an enclosing ditch feature is confirmed in a fosse (Wth c. 2m) partly excavated c. 12m WSW of the church (Breen 1988). This feature (Wth c. 3m; D c. 0.8m) can also be seen in the cliff-face c. 25m N of the church</q> (ASI database, www.archaeology.ie). Most of the church has now also been lost through coastal erosion.  
+                        </provenance>
+                        <provenance type="observed">National Museum of Ireland (seen and recorded in 3d in Jan 2015)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-03-29" who="#NW">Nora White added and encoded further data, including edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://sketchfab.com/3d-models/portersgate-ogham-stone-ac8531977cdf42b8a996e3c5cc595157" mimeType="text/html"><desc>3d model by Discovery Programme on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>           
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="*?">ᚄᚓᚇᚐᚅ<supplied reason="lost">ᚔ</supplied></name> <w lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied><unclear reason="damage">ᚊ</unclear><supplied reason="lost">ᚔ</supplied></w> <name nymRef="*?"><supplied reason="lost">ᚉᚐ<lb n="2" style="text-direction:across" break="no"/>ᚈ</supplied><unclear reason="damage">ᚈ</unclear>ᚐᚁᚁᚑ<lb n="3" style="text-direction:down" break="no"/>ᚈᚈ</name> <w lemma="avias">ᚐᚃᚃᚔ</w> <name nymRef="*?">ᚇᚓ<unclear reason="damage">ᚏᚉ</unclear>ᚋᚐᚄᚑᚉ</name></persName>                    
+                     </ab>
+                     </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="*?">SEDAN<supplied reason="lost">I</supplied></name> <w lemma="maqqas"><supplied reason="lost">MA</supplied><unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied></w> <name nymRef="*?"><supplied reason="lost">CA<lb n="2" style="text-direction:across" break="no"/>T</supplied><unclear reason="damage">T</unclear>ABBO<lb n="3" style="text-direction:down" break="no"/>TT</name> <w lemma="avias">AVVI</w> <name nymRef="*?">DE<unclear reason="damage">RC</unclear>MASOC</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
+                <p>‘of <foreign xml:lang="sga">Sétnae</foreign> son of <foreign xml:lang="sga">Cathub Uí Dercmossaig</foreign>’</p>
+            </div>
+            <div type="commentary">
+                <p>AVVI DERCMASOC ‘descendants of Dercmossach’ appears to be the Uí Dercmossaig kin group. However, according to later genealogical sources, this group were located further North in the Dublin area.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>                    
+                     <bibl><ptr target="BRE1988"/>Breen 1988
+                         <citedRange>30-31</citedRange>
+                     </bibl>
+                      <bibl><ptr target="GRA1854"/>Graves and Nevin 1854
+                          <citedRange>179</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1930"/>Macalister 1930
+                         <citedRange>52-55</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>Macalister 1945
+                       <citedRange>50-51</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM1991"/>McManus 1991
+                       <citedRange>96-97</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

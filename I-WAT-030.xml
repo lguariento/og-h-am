@@ -56,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                     National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">WA031-045008-</ref>
-                                    <material>Stone (Grey, fine grained sandstone)</material> 
+                                    <material>Stone (grey, fine-grained sandstone)</material> 
                                     <objectType>pillar</objectType> 
                                      <dimensions unit="m">                                        
                                             <height>0.98</height>
@@ -64,14 +64,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.13</depth>                                         
                                      </dimensions>                                  
                                 </support>
-                                <condition>Broken off at one end and 'subjected to fracture cleavage' (Raftery 1969, 105).</condition>
+                                <condition>Broken off at one end and 'subjected to fracture cleavage' (Raftery 1969, 105). There appears to be a similar cleavage fracture to I-WAT-025 found at the same site over 100 years earlier. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is incomplete at both ends, running up one angle and across the top, posibly originally continuing down the opposite angle. </layout>
+                                <layout>The inscription is incomplete at both ends, running up one angle and across the top, posibly originally continuing down the damaged opposite angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes have been <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel and are evenly spaced without word division. The distal ends of the M and Q of MAQI have been lost due to vertical fracturing of the stone.<height></height>
+                            <handNote>The ogham strokes have been <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel and are evenly spaced without word division. The M strokes are straight rather than sloped. The distal ends of the M and Q of MAQI (i.e. the H-aicme) may have been lost due to the vertical fracturing of the stone. However, it is noteworthy that the C, further on at a wider section of the stone, also strecthes the entire width of this side of the stone in a manner very similar to that found on I-WAT-025, where the same stretching of scores the width of the stone occurs on the opposite B-aicme. This may suggest that the same person carved both.<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -83,7 +83,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origDate notBefore="0525" notAfter="0575" precision="low" datingMethod="#julian" evidence="linguistic">Mid 6th century AD</origDate>
                         </origin>
                         <provenance type="found">Discovered, along with a fragment of an ogham stone (I-WAT-031), in 1966 during a non-archaeological dig `in surface soil of an earthwork... which was destroyed by bulldozer' (Raftery 1969, 105). Known locally as a <ref target="https://en.wikipedia.org/wiki/Cill%C3%ADn">Cillín/killeen</ref>, a more recent geophysical survey has confirmed the existence of an <ref target="https://monasticon.celt.dias.ie/1720">ecclesiastical enclosure (Cill Ghruabháin)</ref>. The enclosure is bivallate (int. diam. c. 50m; ext. diam. c. 60m), perhaps with an annexe or secondary enclosure attached to the SE, which may be the arc represented on the 1927 map. A number of smaller circular features (diam. c. 10m) within the enclosure could represent hut-sites, or even the church (Purcell 2003, 6-8). Five other ogham stones previously discovered at this site (I-WAT-025 – I-WAT-029), by Mr. Willliam Williams of Dungarvan in 1857, are now at Mount Melleray Abbey. 
-                            xii in McManus, p. 73
                         </provenance>
                         <provenance type="observed">National Museum of Ireland (seen and recorded in 3d in Jan 2013)
                         </provenance>
@@ -128,10 +127,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by DP not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
-         <body> <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+         <body> 
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab><title>Ogham</title>: 
-                    <lb n="1" style="text-direction:up"/>
-                    <persName><gap reason="lost" extent="unknown"/>U <w lemma="maqqas">MAQI</w> <name nymRef="*comiggodias?">CUMUGOD<unclear reason="ambiguous">U</unclear><lb n="2" style="text-direction:across" break="no"/><unclear reason="ambiguous">U</unclear></name> <w lemma="mucoi?">MUCO<supplied reason="lost">I</supplied></w><gap reason="lost" extent="unknown"/></persName>
+                    <lb n="1" style="text-direction:up"/><persName><gap reason="lost" extent="unknown"/>ᚒ <w lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="*comiggodias?">ᚉᚒᚋᚒᚌᚑᚇ<unclear reason="ambiguous">ᚒ</unclear>
+                        <lb n="2" style="text-direction:across" break="no"/><unclear reason="ambiguous">ᚒ</unclear></name> <w lemma="mucoi?">ᚋᚒᚉᚑ<supplied reason="lost">ᚔ</supplied></w><gap reason="lost" extent="unknown"/></persName>
+                </ab>
+                     </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:  
+                    <lb n="1" style="text-direction:up"/><persName><gap reason="lost" extent="unknown"/>U <w lemma="maqqas">MAQI</w> <name nymRef="*comiggodias?">CUMUGOD<unclear reason="ambiguous">U</unclear>
+                        <lb n="2" style="text-direction:across" break="no"/><unclear reason="ambiguous">U</unclear></name> <w lemma="mucoi?">MUCO<supplied reason="lost">I</supplied></w><gap reason="lost" extent="unknown"/></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -151,7 +157,7 @@ Discussion: The inscription contains the fragment of an IN, a PN, and the two fo
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MCM1991"/>McManus 1991
-                       <citedRange>73</citedRange>
+                       <citedRange>73 (xii)</citedRange>
                      </bibl>
                      <bibl><ptr target="MOO1999"/>Moore 1999
                        <citedRange>178-179, 199</citedRange>
