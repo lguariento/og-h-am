@@ -10,11 +10,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Fox’s Castle</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
-                 <!-- <editor>Add name, id etc here</editor>-->
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <!-- <editor>Add name, id etc here</editor>-->
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
                 </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
                 <respStmt>
                 <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
                 <resp>data collection, editing and encoding</resp>
@@ -68,12 +74,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The stone is quite damaged and irregularly shaped, which may be the result of its reuse as a souterrain lintel.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Only one angle has part of a damaged inscription surviving. The original orietation of the stone/inscription when it was upright is unclear. Macalister (1935, 150) describes the ogham here as follows: 'A large flake, broken from the beginning, has carried with it the initial A and the first score of the V; the bare tip of the latter can just be discerned on the edge of the fracture. The following I is much worn, the first and third notches being effaced, DAI is quite clear. The B-half of the M (which is drawn at right angles to the edge, not sloped) is broken. The vowel following M looks at first sight like O, but the second notch, on careful examination with a strong electric lamp, is seen to be an accidental fracture and the first notch is centrally placed between the M and the G. The G is quite clear, but a spall has carried off all but the butts of the following
-N-scores, so that a careless reader might take the letter for I. The final I is quite clear'.</layout>
+                                <layout>Only one angle has part of a damaged inscription surviving. The original orietation of the stone/inscription when it was upright is unclear. Macalister (1935, 150) describes the ogham here as follows: <q>'A large flake, broken from the beginning, has carried with it the initial A and the first score of the V; the bare tip of the latter can just be discerned on the edge of the fracture. The following I is much worn, the first and third notches being effaced, DAI is quite clear. The B-half of the M (which is drawn at right angles to the edge, not sloped) is broken. The vowel following M looks at first sight like O, but the second notch, on careful examination with a strong electric lamp, is seen to be an accidental fracture and the first notch is centrally placed between the M and the G. The G is quite clear, but a spall has carried off all but the butts of the following
+N-scores, so that a careless reader might take the letter for I. The final I is quite clear'</q>.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister (1935, 150) notes that 'some of the consonantal scores in this inscription give an impression that I have derived from other inscriptions that the engraver began by making a series of vowel-like notches upon the edge of the stone and then developed these into consonant scores as was required by the sense to be conveyed. There is a nick between the second and third scores of the V, which has no meaning - it may be a piece of faulty setting-out, stopped just after it had begun'.<height></height>
+                            <handNote>Macalister (1935, 150) notes that <q>'some of the consonantal scores in this inscription give an impression that I have derived from other inscriptions that the engraver began by making a series of vowel-like notches upon the edge of the stone and then developed these into consonant scores as was required by the sense to be conveyed. There is a nick between the second and third scores of the V, which has no meaning - it may be a piece of faulty setting-out, stopped just after it had begun'</q>.
+                                <height><!--letter heights--></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -84,9 +91,9 @@ N-scores, so that a careless reader might take the letter for I. The final I is 
                                 <geo>52.153610, -7.501680 (very approx.)</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">Discovered during excavation in 1934, lying 'lengthwise along the passage' of a souterrain, 'just under the
-surface soil, on top of the filling stones'(Mongey 1935, 267). A fragment with ogham-like marks was also found and read by Macalister (1935, 149) as BHOH or BHOH. He dismissed it as 'of no epigraphic importance' (1949, 278 including sketch). It was reportedly sent to the museum with the larger stone but its current whereabouts is unknown.                        </provenance>
-                        <provenance type="observed">National Museum of Ireland (seen and recorded in 3d in May 2016)
+                        <provenance type="found">Discovered during excavation in <date>1934</date>, lying <q>'lengthwise along the passage'</q> of a souterrain, <q>'just under the
+surface soil, on top of the filling stones'</q>(Mongey 1935, 267). A fragment with ogham-like marks was also found and read by <persName><surname>Macalister</surname></persName> (1935, 149) as BHOH or BHOH. He dismissed it as <q>'of no epigraphic importance'</q> (1949, 278 including sketch). It was reportedly sent to the museum with the larger stone but its current whereabouts is unknown.</provenance>
+                        <provenance type="observed">National Museum of Ireland (seen and recorded in 3d in <date>May 2016</date>)
                         </provenance>
                     </history>
                 </msDesc>
@@ -119,8 +126,9 @@ surface soil, on top of the filling stones'(Mongey 1935, 267). A fragment with o
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-04-16" who="#POC">Patricia O Connor encoded date and name information within provenance</change>
 <change when="2024-03-22" who="#NW">Nora White added and encoded further data, including edition</change>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
