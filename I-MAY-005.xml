@@ -10,10 +10,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Corrower</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor> 
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
                 </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
                 <respStmt>
                 <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
                 <resp>data collection, editing and encoding</resp>
@@ -64,14 +70,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     </dimensions>
                                   <p>Described by Macalister (1945, 9) as <q>grit</q>. Roughly rectangular in shape but tapering gently at the base, and tapering also in thickness to relatively narrow edges at the north and south ends, both of which bear an ogham inscription. The exceptional size of the stone suggested to Macalister (1945, 9-10) that it was originally a prehistoric standing stone, adapted by a later ogham carver for an inscription.</p>
                                 </support>
-                                <condition/>
+                                <condition>The north end of the stone is thickly obscured by lichen, and only a number of slight indentations or possible notches can be seen (3 strokes of a possible N), which may be part of the ogham inscription. On the south end of the stone, the ogham inscription is weathered but clearly visible in places (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 9-10) read the inscription (running upwards) on both edges but one angle is now almost totally illegible. The north end is thickly obscured by lichen, and only a number of slight indentations or possible notches can be seen (3 strokes of a possible N), which may be part of the ogham inscription. On the south end of the stone, the ogham inscription, weathered but clearly visible in places, extends from the top of the stone to a point roughly 1.3m above ground (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</layout>
+                                <layout>Macalister (1945, 9-10) read the inscription (running upwards) on both edges but the north angle is now almost totally illegible. On the south end of the stone, the ogham inscription extends from the top of the stone to a point roughly 1.3m above ground (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister (1945, 10) noted that on both edges the scores are rather broad and shallow, <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed smooth</rs>.<height></height>
+                            <handNote>Macalister (1945, 10) noted that on both edges the scores are rather broad and shallow, <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed smooth</rs>.
+                                <height><!--letter-heights--></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -82,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>54.072257, -9.078265</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">Discovered in 1945 by Mr. Austin Cunney (National School Teacher, Attymass), in a pasture field adjacent to a farmyard. 
+                        <provenance type="found">Discovered in <date>1945</date> by <persName>Mr. Austin Cunney</persName> (National School Teacher, Attymass), in a pasture field adjacent to a farmyard. 
                         </provenance>
                         <provenance type="observed">In situ in a pasture field adjacent to a farmyard, located on a low rise in an undulating landscape of low rounded hills and ridges... Ground rises gently for c. 65m to S to an elevation topped by a cairn (MA040-105----). A rath (MA040-046----) is visible on a low hill c. 380m to NNE (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).
                         </provenance>
@@ -116,12 +123,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-07-04" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
+    <change when="2024-04-16" who="#POC">
+Patricia O Connor moved information from layout to condition, and encoded date, personal and placename information in provenance.   
 </change>
-<change when="2023-09-18" who="#NW">
+    <change when="2023-09-18" who="#NW">
 Nora White added and encoded further data including edition
 </change>
+    <change when="2023-07-04" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+
 </listChange>
 </revisionDesc>
     </teiHeader>
