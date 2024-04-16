@@ -15,6 +15,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
                 </funder>
                 <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
                 <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
                 <resp>data collection, editing and encoding</resp>
                 </respStmt>
@@ -64,14 +68,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     </dimensions>
                                     <p>Roughly rectangular in profile, narrowing towards the top.</p>
                                 </support>
-                                <condition/>
+                                <condition>Sections of the inscription appear to have been damaged by flaking or abrasion of the stone surface, and in parts the sharpness of the corner has been somewhat rounded by use of the stone as a scratching post by farm stock (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is cut across the sharply right-angled south-east corner.  However, sections of the inscription appear to have been damaged by flaking or abrasion of the stone surface, and in parts the sharpness of the corner has been somewhat rounded by use of the stone as a scratching post by farm stock (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</layout>
+                                <layout>The ogham inscription is cut across the sharply right-angled south-east corner.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The scores are large, broad and regularly spaced. However, some characters are unclear due to damage. For example, Macalister (1945, 8-9) read the inital character as a Q but only 4 scores, at most are evident. Four of the expected five notches of the final I in the personal name survive. Although there is no trace on the stone, a final I in MAQI may have been lost, as suggested by Macalister.<height></height>
+                            <handNote>The scores are large, broad and regularly spaced. However, some characters are unclear due to damage. For example, Macalister (1945, 8-9) read the inital character as a Q but only 4 scores, at most are evident. Four of the expected five notches of the final I in the personal name survive. Although there is no trace on the stone, a final I in MAQI may have been lost, as suggested by Macalister.
+                                <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -82,8 +87,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>53.726342, -8.697455</geo></origPlace>
                             <origDate><!--Insufficient evidence?--></origDate>
                         </origin>
-                        <provenance type="found">First noticed by Sergeant Lyons in 1900. Recorded that ‘the stone had fallen from its erect position, and had lain on the ground until it was re-erected in the year 1861’ (Macalister 1945, 8-9). Mistakenly recorded by Macalister (1945, 8) and others to be in the neighbouring townland of Tullaghaun.</provenance>
-                        <provenance type="observed">In situ on a broad level terrace on a ridge. To the south of the stone, the ridge slope falls steeply, giving extensive views south-east to west across a broad valley. On the far side of the valley to the south-south-west, the horizon is defined by a high ridge, Kiltullagh Hill, on the summit of which a standing stone is visible, and to the east of that Killtullagh church. Both the ogham stone and the standing stone are located close to the Mayo/Roscommon border which follows a roughly north-east, south-west zig-zag path through the landscape (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->). 
+                        <provenance type="found">First noticed by <persName><roleName>Sergeant</roleName> Lyons</persName> in <date>1900</date>. Recorded that <q>‘the stone had fallen from its erect position, and had lain on the ground until it was re-erected in the year 1861’</q> (Macalister 1945, 8-9). Mistakenly recorded by Macalister (1945, 8) and others to be in the neighbouring townland of <placeName type="townland">Tullaghaun</placeName>.</provenance>
+                        <provenance type="observed">In situ on a broad level terrace on a ridge. To the south of the stone, the ridge slope falls steeply, giving extensive views south-east to west across a broad valley. On the far side of the valley to the south-south-west, the horizon is defined by a high ridge, Kiltullagh Hill, on the summit of which a standing stone is visible, and to the east of that Killtullagh church. Both the ogham stone and the standing stone are located close to the <placeName type="county">Mayo</placeName>/<placeName type="county">Roscommon</placeName> border which follows a roughly north-east, south-west zig-zag path through the landscape (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->). 
                         </provenance>
                     </history>
                 </msDesc>
@@ -115,11 +120,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-07-04" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
+<change when="2024-04-16" who="#POC">
+Patricia O Connor moved information from layout to condition, and encoded date, personal and placename information in provenance.   
 </change>
 <change when="2023-08-24" who="#NW">
 Nora White added and encoded extra descriptive info and edition
+</change>
+<change when="2023-07-04" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
 </change>
 </listChange>
 </revisionDesc>
