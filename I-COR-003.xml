@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greenhill 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-003</idno>
+                 <idno type="CIIC">57</idno>
+                <idno type="CISP">GRENL/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049002- </ref>
+                                    <material></material> 
+                                    <objectType>pillar</objectType> 
+                                     <dimensions unit="m">
+                                         <dim></dim>
+                                            <height>2.5</height>
+                                            <width>0.6</width>
+                                            <depth>0.3</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>The stone is heavily covered by lichen in parts, and the <q>'inscription is weathered and defaced by cattle rubbing and hone scores'</q> (Power 1992, 163). On inspection of the 3d data, some of the ogham scores and notches are now lost (MA of MAQI) or unclear (I of MAQI, R and U of TRENU) due to wear, lichen and damage. 
+                        It is now impossible to be sure of the intended final vowel in Macalister's TRENU as the notches are very worn. Two can be just about made out on the 3d model (which would give an O) but there would be space for three (giving a U).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription runs upwards along the SE edge starting 0.45m from ground to near full height of the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11670">
+                                <placeName type="townland">Greenhill (<foreign xml:lang="ga">Plácas</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <geo>52.077602, -8.606835</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">First mentioned by <name type="author">Brash</name> in <date>1879</date>. The stone was found in a field <q>'with extensive views to S'</q> in <placeName type="townland">Greenhill</placeName> townland, barony of <placeName
+                                type="barony">Barretts</placeName> (Power 1992, 168). A circular cattlegrid was installed around the stone in <date>1985</date> by OPW; an excavation of the ground under the circular strip limited to 1m wide with its inner edge and 1m from the centre of the stone revealed nothing except N-S cultivation furrows and ploughmarks (Manning 2000, 107). A second ogham stone (7964) lies c. 40m to the N in the next field. <placeName type="townland">Burnfort</placeName> ogham stone (7965) is found c. 900m to SE. (Power et al. 1997, no. 7965)
+                        </provenance>
+                        <provenance type="observed">On find site at <placeName type="townland">Greenhill</placeName>. 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2024-04-18" who="#POC">Patricia O Connor added and encoded information, including measurements, provenance, and transliteration.</change>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+                <ab><title xml:lang="en">Transliteration</title>
+                    <lb n="1"/><persName><w lemma="TRENU">
+                        T<unclear reason="spalled">R</unclear>EN<unclear reason="worn">U</unclear></w></persName>
+                    <w type="formula" lemma="MAQI"><supplied reason="lost">MA</supplied>Q<unclear reason="worn">I</unclear></w>
+                    <w type="formula" lemma="MUCOI">MUCOI</w>
+                    <persName><w lemma="QRITTI">
+                        QRITTI</w></persName> 
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>of Trén/Trian son of the descendant of Creth? (Crothrige?)</q></p>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>A genitive TRENI (OI <hi rend="italic">o</hi>-stem <hi rend="italic">Trén</hi>) might be expected here, as in MAQI-TRENI (CIIC <name type="stone"
+                        >86. <placeName>Ballyknock</placeName> V</name> and
+                        in <placeName>Wales</placeName>: <name type="stone">341. <placeName>Llywell</placeName></name> and <name
+                                type="stone">428. <placeName>Cillgerran</placeName></name>). However, <ref
+                                        type="bibliog" target="#MCM1991"><bibl><author>McManus</author> 
+                                            (<date>1991</date>, <biblScope unit="page"
+                                                >179, note 35</biblScope></bibl>)</ref> notes that <q>MacNeill (1909, 361) 
+                                        compares the MS gen. <hi rend="italic">Tréno</hi>, <hi rend="italic">Tréna</hi> and suggests reading TRENO, which is possible</q>. 
+                        The retention of the -I in QRITTI would suggest dating this 
+                        inscription to the <origDate notBefore="0500" notAfter="0550">first half of the sixth century</origDate>.
+                       </p></item>
+                    <item n="2"><p>cp. CIIC 146. Ballineanig, Co. Kerry: LỤGỤQṚỊT MAQ̣Ị QRITTỊ. Also, <name type="stone">68.
+                        <placeName>Kilcaskan</placeName></name>, <placeName
+                            type="county">Cork</placeName> (<foreign xml:lang="ga">LUGUQRIT <gap
+                                reason="lost" extent="unknown"/> LONAS</foreign>); ?<name
+                                    type="stone">207. <placeName>Kilcoolaght</placeName> II</name>,
+                        <placeName type="county">Kerry</placeName> (<foreign xml:lang="ga">
+                            <gap reason="lost" extent="unknown"/>]ECC MAQI 
+                            L[UGUQ]RRIT</foreign>).</p></item>
+                    <item n="3"><p>Labialised guttural /<hi rend="italic">k<hi rend="superscript">w</hi></hi>/ preserved in
+                        <foreign xml:lang="ga">QRITTI</foreign>, related to <foreign
+                            xml:lang="ga"><hi rend="italic">cruth</hi></foreign> '<gloss>form</gloss>' <ref
+                                type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
+                                    <date>1991</date>, <biblScope unit="page"
+                                        >121</biblScope></bibl>)</ref>.</p></item>
+                </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="#BRA1879"/>Brash 1879
+                     <citedRange></citedRange>
+                     </bibl>
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>62</citedRange>
+                     </bibl>
+                     <bibl><ptr target="#MAN2000"/>Manning 2000
+                     <citedRange>107–112</citedRange>
+                     </bibl>
+                         <bibl><ptr target="MCM1991"/>McManus 1991
+                         <citedRange>121-179</citedRange>
+                         </bibl>
+                         <bibl><ptr target="#POW1992"/>Power 1992
+                         <citedRange>163</citedRange>
+                         </bibl>
+                    
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

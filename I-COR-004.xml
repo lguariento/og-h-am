@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greenhill 2</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <resp>3D laser scanned on <date>7/8/2013</date> using Artec scanner and processed using Geomagic software</resp>
+                    <name>Gary Devlin</name>
+                    <orgName>Discovery Programme</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-004</idno>
+                 <idno type="CIIC">58</idno>
+                <idno type="CISP">GRENL/2</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049001- </ref>
+                                    <material></material> 
+                                    <objectType>pillar</objectType> 
+                                     <dimensions unit="m">
+                                         <dim></dim>
+                                            <height>1.54</height>
+                                            <width>0.46</width>
+                                            <depth>0.36</depth><!-- Measurements taken from 3D data !-->
+                                     </dimensions>                                   
+                                </support>
+                                <condition>The lower fragment of an ogham stone. The inscription is clear but incomplete.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The incomplete inscription is on one angle of the stone fragment.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11670">
+                                <placeName type="townland">Greenhill (<foreign xml:lang="ga">Plácas</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <geo>52.078072, -8.606918</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">Discovered in <date>1906</date> when the landowner <q>'was lowering a headland'</q> (Buckley 1907,116), c. 40m N of, and in next field to, existing ogham stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049002-</ref>).
+                            Found lying against a field fence in <date>1985</date> when a semi-circular cattle grid was laid around the stone. A short excavation by OPW revealed a recent shallow trench cut into much a larger ditch possibly belonging to an ancient enclosure (Manning 2000, 109); the marked curve in field fence here might respect the line of an ancient enclosure of which there is no other visible surface trace.
+                        </provenance>
+                        <provenance type="observed">In situ at <placeName type="townland">Greenhill</placeName>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2024-04-19" who="#POC">Patricia O Connor added and encoded information, including measurements, provenance, transliteration, and commentary.</change>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>CATTUBUTTAS MA[Q][-- 
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+                <ab><title xml:lang="en">Transliteration</title>
+                    <lb/>
+                    <persName><w lemma="CATTUBUTTAS">
+                        CATTUBUTTAS</w></persName>
+                    <w type="formula" lemma="MAQI"><unclear reason="damaged">M</unclear><supplied reason="lost">AQI</supplied></w>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+              <div type="translation" xml:lang="en">
+                <head>Translation</head>
+                <p><q>of Cathub [son of]</q></p>
+            </div>
+            <div type="commentary">
+                <head>Commentary</head>
+                <list type="witDetail">
+                    <item n="1"><p>This personal name contains one of the most commonly occurring elements found 
+                        in ogham inscriptions CATU- (OI <hi rend="italic">cath</hi> 'battle'). The EOI form of the 
+                        name is <hi rend="italic">Cathub</hi>, gen. <hi rend="italic">Cathboth</hi>, later <hi rend="italic">Cathbad</hi> (<ref
+                                        type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
+                                            <date>1991</date>, <biblScope unit="page"
+                                                >102</biblScope></bibl>)</ref>. </p></item>
+                    <item n="2"> <p>This is one of the inscriptions listed by <ref type="bibliog"
+                        target="#MCM1991"><bibl><author>McManus</author> (<date when="1945"
+                            >1991</date>, <biblScope unit="page"
+                                >93-4</biblScope></bibl>)</ref> to be among the earliest in the
+                        corpus showing no trace of vowel affection. 
+                        It may be dated to the <origDate notBefore="0400" notAfter="0470">first half, or the early second half, of the fifth century</origDate> 
+                        <ref type="bibliog"
+                            target="#MCM1991">(<bibl><author>McManus</author>
+                                <date when="1991">1991</date>, <biblScope unit="page"
+                                    >97</biblScope></bibl>)</ref>.</p></item>
+                </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="#BUC1907"/>Buckley 1907
+                     <citedRange>116-8</citedRange>
+                     </bibl>
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>62</citedRange>
+                    </bibl>
+                     <bibl><ptr target="#MAN2000"/>Manning 2000
+                     <citedRange>107–112</citedRange>
+                     </bibl>
+                     <bibl><ptr target="#MCM1991"/>McManus 1991
+                     <citedRange>89-117</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

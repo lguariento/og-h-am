@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Coomleagh East</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor> 
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-001</idno>
+                 <idno type="CIIC">55</idno>
+                <idno type="CISP">COOME/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO106-064---- </ref>
+                                    <material>Stone</material> 
+                                    <objectType>pillar</objectType> 
+                                     <dimensions unit="m">
+                                           <height>2.00</height>
+                                            <width>1.10</width>
+                                            <depth>0.60</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>The inscription was badly damaged some time after <date>1845</date>. The traces of the inscription that remain are faint and difficult to discern.<p>(<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Macalister noted that the inscription is found on the right angle of the <q>eastern face, and runs from near the ground to a height of 3 feet 6 inches</q> (1945, 60)</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham scores have been <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">knife-cut</rs>, which is consistent with many Cork ogham inscriptions. The consonant scores are small, measuring from 2 to 4 centimeters in length.
+                                <height min="2" max="4" unit="cm"/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/en/8558">
+                                <placeName type="townland">Coomleagh East (<foreign xml:lang="ga">An Com Liath Thoir</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <geo>51.72827, -9.30337</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found" when="1845"><p>The ogham inscription was first discovered in <date>1845</date> by <persName>Roger Downing</persName>. The ogham stone was part of a prehistoric stone alignment which originally consisted of 3 stones in a row in <date>1845</date> but was reduced to 2 stones before <date>1907</date>. The remaining uninscribed stone was found <q>already prostrate and partly buried in the ground</q> by Downing in <date>1845</date> (Macalister 1945, 59).</p>
+                        </provenance>
+                        <provenance type="observed">In situ in pasture, on a gentle south facing slope on the north side of the valley of the Mealagh River.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2024-04-10" who="#POC">
+Patricia O Connor updated information on the condition, layout, and execution of the inscription; the placename in Irish; as well as the provenance of the ogham stone.   
+</change>
+    <change when="2024-04-10" who="#POC">
+Patricia O Connor added and encoded further data, including measurements as well as information about the condition and execution of the inscription and updated the edition.    
+</change>
+    <change when="2023-11-26" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet.
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://sketchfab.com/3d-models/co106-064-coomleagh-east-f01816e79f994896a9415862874f2fd9" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <!--><div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#POC">
+                <ab><title>Transliteration</title>:
+                </ab>
+            </div></!-->
+            <div type="apparatus">
+               <listApp>
+                <app>
+                    <rdg source="MAC1945">
+                        <lb n="1"/><w><supplied reason="lost">AN</supplied>M</w> <persName><name nymRef="#?"><supplied reason="lost">SAINA</supplied></name> <w><supplied reason="lost">M</supplied>A<supplied reason="lost">Q</supplied></w> <name nymRef="#?">OGAL<supplied reason="lost">A</supplied></name> <w>M<supplied reason="lost">UCOI</supplied></w> <name nymRef="#?">TEMOCA</name></persName> 
+                    </rdg>
+                </app>
+                </listApp>
+            </div>
+            <!--><div type="translation">
+                <p></p>
+            </div></!-->
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>Macalister 1945
+                       <citedRange>59-61</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
