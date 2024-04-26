@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                      National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA040-048----</ref>
-                                    <material ref="materials.xml#stone">Stone</material> 
-                                    <objectType ref="objects.xml#mon4">Slab</objectType>  
+                                    <material>Stone</material> 
+                                    <objectType>Slab</objectType>  
                                      <dimensions unit="m">
                                             <height>3.00</height>
                                             <width>1.05</width>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     </dimensions>
                                   <p>Described by Macalister (1945, 9) as <q>grit</q>. Roughly rectangular in shape but tapering gently at the base, and tapering also in thickness to relatively narrow edges at the north and south ends, both of which bear an ogham inscription. The exceptional size of the stone suggested to Macalister (1945, 9-10) that it was originally a prehistoric standing stone, adapted by a later ogham carver for an inscription.</p>
                                 </support>
-                                <condition>The north end of the stone is thickly obscured by lichen, and only a number of slight indentations or possible notches can be seen (3 strokes of a possible N), which may be part of the ogham inscription. On the south end of the stone, the ogham inscription is weathered but clearly visible in places (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</condition>
+                                <condition>The north end of the stone is thickly obscured by lichen, and only a number of slight indentations or possible notches can be seen (3 strokes of a possible N), which may be part of the ogham inscription. On the south end of the stone, the ogham inscription is weathered but clearly visible in places (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: MA040-048----</ref>).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 9-10) read the inscription (running upwards) on both edges but the north angle is now almost totally illegible. On the south end of the stone, the ogham inscription extends from the top of the stone to a point roughly 1.3m above ground (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</layout>
+                                <layout>Macalister (1945, 9-10) read the inscription (reading <rs type="style">up-up</rs>) on both edges but the north angle is now almost totally illegible. On the south end of the stone, the ogham inscription extends from the top of the stone to a point roughly 1.3m above ground.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,9 +89,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>54.072257, -9.078265</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">Discovered in <date>1945</date> by <persName>Mr. Austin Cunney</persName> (National School Teacher, Attymass), in a pasture field adjacent to a farmyard. 
+                        <provenance type="found" notAfter="1945">Discovered before, or possibly in, <date>1945</date> by <persName>Mr. Austin Cunney</persName> (National School Teacher, Attymass), at the back of a farmhouse in the townland (Macalister 1945, 9). 
                         </provenance>
-                        <provenance type="observed">In situ in a pasture field adjacent to a farmyard, located on a low rise in an undulating landscape of low rounded hills and ridges... Ground rises gently for c. 65m to S to an elevation topped by a cairn (MA040-105----). A rath (MA040-046----) is visible on a low hill c. 380m to NNE (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).
+                        <provenance type="observed" when="2022">In situ in a pasture field adjacent to a farmyard, located on a low rise in an undulating landscape of low rounded hills and ridges... Ground rises gently for c. 65m to S to an elevation topped by a cairn (MA040-105----). A rath (MA040-046----) is visible on a low hill c. 380m to NNE (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, field report <date>2017</date>, SMR ID: MA040-048----</ref>). 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
                         </provenance>
                     </history>
                 </msDesc>
@@ -123,15 +123,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-    <change when="2024-04-16" who="#POC">
-Patricia O Connor moved information from layout to condition, and encoded date, personal and placename information in provenance.   
-</change>
-    <change when="2023-09-18" who="#NW">
-Nora White added and encoded further data including edition
-</change>
-    <change when="2023-07-04" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+    <change when="2024-04-26" who="#NW">Nora White added refs to ASI and info on observed provenance and date</change> 
+    <change when="2024-04-16" who="#POC">Patricia O Connor moved information from layout to condition, and encoded date, personal and placename information in provenance</change>
+    <change when="2023-09-18" who="#NW">Nora White added and encoded further data including edition</change>
+    <change when="2023-07-04" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 
 </listChange>
 </revisionDesc>

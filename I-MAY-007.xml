@@ -59,7 +59,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA014-101----</ref>
+                                <support>National Monuments Service Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA014-101----</ref>
                                     <material>Stone (sandstone)</material> 
                                     <objectType>Slab</objectType> 
                                      <dimensions unit="m">
@@ -67,12 +67,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width>2.20</width>
                                             <depth>0.15</depth>
                                      </dimensions>
-                                    <p><q>The stone leans markedly to the north-west: the current height of the stone (i.e. vertical drop from top to the ground surface) is 1.9m, however, if the stone were fully vertical, its height would be c. 2.3m</q> (<!--<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=???">-->Archaeological Survey of Ireland (ASI) field report<!--</ref>-->).</p>
+                                    <p><q>The stone leans markedly to the north-west: the current height of the stone (i.e. vertical drop from top to the ground surface) is 1.9m, however, if the stone were fully vertical, its height would be c. 2.3m</q> (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: MA014-101----</ref>).</p>
                                 </support>
                                 <condition>The stone is weathered and largely lichen-covered. The middle section of the south-west face presents a smooth, almost polished surface, probably the result of farm stock using this side of the stone as a scratching post; part of the inscription may have been obliterated here.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription runs upwards on the narrow south-west face of the stone.</layout>
+                                <layout>The ogham inscription reads (<rs type="style">up</rs> on one angle of the narrow south-west face of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -88,10 +88,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>54.257414, -9.332316</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">Discovered by <persName><surname>Macalister</surname></persName> and first published by him in <date>1919</date>. The townland name in Irish is <placeName type="townland"><foreign xml:lang="ga">Achadh Liag</foreign>, 
-                            meaning ‘field of the pillar-stone’.</placeName>
+                        <provenance type="found" notAfter="1919">Discovered by <persName><surname>Macalister</surname></persName> and first published by him in <date>1919</date>. The townland name in Irish is <placeName type="townland"><foreign xml:lang="ga">Achadh Liag</foreign>, meaning ‘field of the pillar-stone’.</placeName>
                         </provenance>
-                        <provenance type="observed">In situ in pasture, in damp, flat, low-lying ground on the west side of a stream valley. The north-flowing stream is located 40m to the east of the stone between the road and the stone.
+                        <provenance type="observed" when="2022">In situ in pasture, in damp, flat, low-lying ground on the west side of a stream valley. The north-flowing stream is located 40m to the east of the stone between the road and the stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, field report <date>2017</date>, SMR ID: MA014-101----</ref>). Visited and 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
                         </provenance>
                     </history>
                 </msDesc>
@@ -123,13 +122,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
+<change when="2024-04-23" who="#NW">Nora White added refs to ASI and info on observed provenance and date</change> 
 <change when="2024-04-16" who="#POC">Patricia O Connor encoded date and personal and place name information within provenance</change>
-    <change when="2023-09-25" who="#NW">
-Nora White added and encoded further data
-</change>
-    <change when="2023-07-04" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2023-09-25" who="#NW">Nora White added and encoded further data, including edition</change>
+<change when="2023-07-04" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
