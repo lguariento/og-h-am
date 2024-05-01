@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Glenawillin 2</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-012</idno>
+                 <idno type="CIIC">64</idno>
+                <idno type="CISP">GLEWI/2</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-033---- </ref>
+                                    <material></material> 
+                                    <objectType>pillar (reused in souterrain)</objectType> 
+                                     <dimensions unit="m">
+                                         <dim></dim>
+                                            <height>1.9</height>
+                                            <width>0.5</width>
+                                            <depth>0.3</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>The inscription is in fair condition, but worn. According to Macalister, the sixth letter <q>O is there, but very faint. The N depends, not on the edge of the stone but on a crack which runs from the edge into the B-surface</q> (Macalister 1945, 69).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Macalister noted that the inscription is on the dexter angle of the SE face and reads <rs type="style">downward</rs> <q>suggesting that the stone (in its pre-souterrain days) was erect as an uninscribed pillar-stone on another site, and that it was inscribed when in that position</q>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Macalister described the scores as <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> (1945, 68). 
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/12562">
+                                <placeName type="townland">Glenawillin (<foreign xml:lang="ga">Gleann an Mhuilinn</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <geo>51.969371, -8.179727</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found" when="1844">Found within a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-03202-</ref>) opened by <persName><roleName>Rev.</roleName> J Cotter</persName> and <persName>W. Hackett</persName> of <placeName>Midleton</placeName> in <date>1844</date> inside a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-03201-</ref>) next to Ballynatrasna House. A second ogham stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-098----</ref>) found in the same souterrain in now on permanent display in the Stone Corridor, University College Cork (see <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO074-146----</ref>). 
+                        </provenance>
+                        <provenance type="observed">Re-erected within the townland on the site of <q>'another erased rath'</q> (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-097----</ref>) (Atkinson 1883-84, 309).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2024-05-01" who="#POC">Patricia O Connor added and encoded information, including image urls</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\images\IRE\I-COR\I-COR-012_Glenawillin_II.jpg"/>
+        <media url="https://sketchfab.com/3d-models/glenawillin-ogham-stone-7b35b009397746e6a11a9da8236152cd" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+                <ab><title xml:lang="en">Transliteration</title>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#?">LODIMONI</name></persName> 
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>Read by Macalister (1945, 68, no. 64) as LODIMONI and read by O'Kelly (1945, 152-3) as LADIMANI.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><!--<ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>9-10</citedRange>-->
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
