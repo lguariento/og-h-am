@@ -90,8 +90,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>52.072146, -8.597752</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">Discovered by Cork antiquarians, <persName>J. Windele</persName> and <persName>A. Abell</persName>, in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-052002-</ref>) of a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-052001-</ref>) called <placeName><foreign xml:lang="ga">Ráth an Tóiteáin</foreign> ('Fort of the Burning')</placeName>. 
-                            The Greenhill ogham stones are c. 900m to NW (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049001-</ref>, <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049002-</ref>) (Power et al. 1997, no. 7956). The ogham stone was deposited in the museum of the Royal Cork Institution in <date>1835</date>. 
+                        <provenance type="found">Discovered by Cork antiquarians, <persName>J. Windele</persName> and <persName>A. Abell</persName>, in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO042-052002-</ref>) of a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO042-052001-</ref>) called <placeName><foreign xml:lang="ga">Ráth an Tóiteáin</foreign> ('Fort of the Burning')</placeName>. 
+                            The Greenhill ogham stones (I-COR-003 and I-COR-004) are c. 900m to NW (Power et al. 1997, no. 7956). This ogham stone was deposited in the museum of the Royal Cork Institution in <date>1835</date>. 
                         </provenance>
                         <provenance type="observed">Subsequently lost from Museum of the Royal Cork Institution, probably when the Institution building was replaced by the Athenaeum in <date>1853</date> (Macalister 1945, 61).
                         </provenance>
@@ -116,11 +116,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="sga">Old Irish</language>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
-</langUsage>
+    </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
    <!-- <creation>Transcription from previous editor.</creation>-->
 </profileDesc>
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-04-23">Patricia O Connor encoded the edition, added more information to commentary, updated the bibliography, and converted Macalister's measurements</change>
 <change when="2024-04-29" who="#POC">Patricia O Connor added image url for Macalister drawing of stone</change>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
+    <change when="2024-05-07" who="#NW">Nora White added Text Class, referencing FAIR vocabularies for epigraphy, OG(H)AM codes to other referenced ogham stones and updated edition including resp to MAC1945 as his reading.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -140,7 +141,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="MAC1945">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚄᚐᚌᚔᚈᚈᚐᚏᚔ</name></persName> 
+                </ab>
+             </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="MAC1945">
                 <ab><title xml:lang="en">Transliteration</title>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">SAGITTARI</name></persName> 
                 </ab>

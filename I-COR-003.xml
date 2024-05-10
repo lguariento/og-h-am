@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>scanned using Faro terrestrial scanner (too large for tent and too bright for Artec Eva) <date when="2013-08-07"/> and processed using Geomagic software</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and possibly also <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -88,12 +88,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11670">
                                 <placeName type="townland">Greenhill (<foreign xml:lang="ga">Plácas</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.077602, -8.606835</geo></origPlace>
-                            <origDate></origDate>
+                            <origDate notBefore="0500" notAfter="0550">First half of the sixth century</origDate>
                         </origin>
-                        <provenance type="found">First mentioned by <name type="author">Brash</name> in <date>1879</date>. The stone was found in a field <q>'with extensive views to S'</q> in <placeName type="townland">Greenhill</placeName> townland, barony of <placeName
-                                type="barony">Barretts</placeName> (Power 1992, 168). A circular cattlegrid was installed around the stone in <date>1985</date> by OPW; an excavation of the ground under the circular strip limited to 1m wide with its inner edge and 1m from the centre of the stone revealed nothing except N-S cultivation furrows and ploughmarks (Manning 2000, 107). A second ogham stone (7964) lies c. 40m to the N in the next field. <placeName type="townland">Burnfort</placeName> ogham stone (7965) is found c. 900m to SE. (Power et al. 1997, no. 7965)
+                        <provenance type="found">First mentioned by <name type="author">Brash</name> in <date>1879</date>. The stone was found in a field in the townland <q>'with extensive views to S'</q> (Power 1992, 168). A circular cattlegrid was installed around the stone in <date>1985</date> by OPW; an excavation of the ground under the circular strip limited to 1m wide with its inner edge and 1m from the centre of the stone revealed nothing except N-S cultivation furrows and ploughmarks (Manning 2000, 107). A second ogham stone (I-COR-004) lies c. 40m to the N in the next field and <placeName type="townland">Burnfort</placeName> ogham stone (I-COR-002) is found c. 900m to SE. (Power et al. 1997, no. 7965)
                         </provenance>
-                        <provenance type="observed">On find site at <placeName type="townland">Greenhill</placeName>. 
+                        <provenance type="observed" when="2013">On find site at <placeName type="townland">Greenhill</placeName> where it was visited and 3d recorded for the OG(H)AM project in August <date>2013</date>. 
                         </provenance>
                     </history>
                 </msDesc>
@@ -117,12 +116,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 </langUsage>
-<textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
-</textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+    <textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>  
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -131,22 +129,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-04-23" who="#POC">Patricia O Connor deleted NISMR from support</change>
     <change when="2024-04-29" who="#POC">Patricia O Connor added image url</change>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
+    <change when="2024-05-10" who="#NW">
+Nora White added 3d recording information (respStmt), Text Class (referencing FAIR vocabularies for epigraphy), OG(H)AM codes to other referenced ogham stones and provenance (observed) info. Also standardised edition (adding Unicode) and commentary and added origDate and execution type. 
+</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="\images\IRE\I-COR\I-COR-003_Greenhill_I.jpg"/>
-        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">
+                        ᚈ<unclear reason="spalled">ᚏ</unclear>ᚓᚅ<unclear reason="worn">ᚒ</unclear></name>
+                    <w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied>ᚊ<unclear reason="worn">ᚔ</unclear></w>
+                    <w type="formula" lemma="mucoi">ᚋᚒᚉᚑᚔ</w>
+                    <name nymRef="#?">
+                        ᚊᚏᚔᚈᚈᚔ</name></persName>                     
+                </ab>
+            </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
                 <ab><title xml:lang="en">Transliteration</title>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="trenu">
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">
                         T<unclear reason="spalled">R</unclear>EN<unclear reason="worn">U</unclear></name>
                     <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied>Q<unclear reason="worn">I</unclear></w>
                     <w type="formula" lemma="mucoi">MUCOI</w>
-                    <name nymRef="qritti">
+                    <name nymRef="#?">
                         QRITTI</name></persName> 
                 </ab>
             </div>
@@ -162,31 +173,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="commentary">
                 <head>Commentary</head>
                 <list type="witDetail">
-                    <item n="1"><p>A genitive TRENI (OI <hi rend="italic">o</hi>-stem <hi rend="italic">Trén</hi>) might be expected here, as in MAQI-TRENI (CIIC <name type="stone"
-                        >86. <placeName>Ballyknock</placeName> V</name> and
-                        in <placeName>Wales</placeName>: <name type="stone">341. <placeName>Llywell</placeName></name> and <name
-                                type="stone">428. <placeName>Cillgerran</placeName></name>). However, <ref
-                                        type="bibliog" target="#MCM1991"><bibl><author>McManus</author> 
-                                            (<date>1991</date>, <biblScope unit="page"
-                                                >179, note 35</biblScope></bibl>)</ref> notes that <q>MacNeill (1909, 361) 
-                                        compares the MS gen. <hi rend="italic">Tréno</hi>, <hi rend="italic">Tréna</hi> and suggests reading TRENO, which is possible</q>. 
-                        The retention of the -I in QRITTI would suggest dating this 
-                        inscription to the <origDate notBefore="0500" notAfter="0550">first half of the sixth century</origDate>.
-                       </p></item>
-                    <item n="2"><p>cp. CIIC 146. Ballineanig, Co. Kerry: LỤGỤQṚỊT MAQ̣Ị QRITTỊ. Also, <name type="stone">68.
-                        <placeName>Kilcaskan</placeName></name>, <placeName
-                            type="county">Cork</placeName> (<foreign xml:lang="ga">LUGUQRIT <gap
-                                reason="lost" extent="unknown"/> LONAS</foreign>); ?<name
-                                    type="stone">207. <placeName>Kilcoolaght</placeName> II</name>,
-                        <placeName type="county">Kerry</placeName> (<foreign xml:lang="ga">
-                            <gap reason="lost" extent="unknown"/>]ECC MAQI 
-                            L[UGUQ]RRIT</foreign>).</p></item>
-                    <item n="3"><p>Labialised guttural /<hi rend="italic">k<hi rend="superscript">w</hi></hi>/ preserved in
-                        <foreign xml:lang="ga">QRITTI</foreign>, related to <foreign
-                            xml:lang="ga"><hi rend="italic">cruth</hi></foreign> '<gloss>form</gloss>' <ref
-                                type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
-                                    <date>1991</date>, <biblScope unit="page"
-                                        >121</biblScope></bibl>)</ref>.</p></item>
+                    <item n="1"><p>A genitive TRENI (OI <hi rend="italic">o</hi>-stem <hi rend="italic">Trén</hi>) might be expected here, as in MAQI-TRENI (I-COR-035 / CIIC 86. <placeName>Ballyknock</placeName> V and in <placeName>Wales</placeName>: W-BRE-006 / CIIC 341. <placeName>Llywell</placeName> and W-PEM-004 / CIIC 428. <placeName>Cillgerran</placeName>). However, McManus (1991, 179, note 35) notes that <q>MacNeill (1909, 361) compares the MS gen. <hi rend="italic">Tréno</hi>, <hi rend="italic">Tréna</hi> and suggests reading TRENO, which is possible</q>. The retention of the -I in QRITTI would suggest dating this inscription to the first half og the sixth century.</p></item>
+                    <item n="2"><p>cp. I-KER-013 / CIIC 146. <placeName>Ballineanig</placeName>, Co. <placeName>Kerry</placeName>: <foreign xml:lang="pgl">LỤGỤQṚỊT MAQ̣Ị QRITTỊ</foreign>. Also, I-COR-016 / CIIC 68. <placeName>Kilcaskan</placeName>, <foreign xml:lang="pgl">LUGUQRIT[...]LONAS</foreign>); CIIC 207. <placeName>Kilcoolaght</placeName> II, <placeName type="county">Kerry</placeName> (<foreign xml:lang="pgl">[...]ECC MAQI L[UGUQ]RRIT</foreign>).</p></item>
+                    <item n="3"><p>Labialised guttural /<hi rend="italic">k<hi rend="superscript">w</hi></hi>/ preserved in <foreign xml:lang="pgl">QRITTI</foreign>, related to <foreign xml:lang="ga"><hi rend="italic">cruth</hi></foreign> 'form' (McManus 1991, 121).</p></item>
                 </list>
             </div>
             <div type="bibliography">

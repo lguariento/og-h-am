@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <resp>3D laser scanned on <date>7/8/2013</date> using Artec scanner and processed using Geomagic software</resp>
                     <name>Gary Devlin</name>
-                    <orgName>Discovery Programme</orgName>
+                     <orgName>Discovery Programme</orgName>
+                <resp>scanned using rtec Eva structured light scanner <date when="2013-08-07"/> and processed using Geomagic software</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -70,14 +70,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.36</depth><!-- Measurements taken from 3D data !-->
                                      </dimensions>                                   
                                 </support>
-                                <condition>The lower fragment of an ogham stone. The inscription is clear but incomplete. Macalister noted that the letters after the letter Q had <q>"broken away"</q> (1945, 62).</condition>
+                                <condition>The inscription is clear but possibly incomplete, as the top of the stone looks damaged. Macalister (1945, 62) thought he could see traces at the top of MAQI (cut off mid Q) but this is very uncertain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The incomplete inscription is on the dexter angle of the stone fragment. <!-- Dexter angle determined by looking at image on Ogham in 3d website: https://ogham.celt.dias.ie/stone.php?lang=en&site=Greenhill&stone=58._Greenhill_II --></layout>
+                                <layout>The inscription is running <rs type="style">up</rs> one angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and possibly also <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -87,12 +87,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11670">
                                 <placeName type="townland">Greenhill (<foreign xml:lang="ga">Plácas</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.078072, -8.606918</geo></origPlace>
-                            <origDate></origDate>
+                            <origDate notBefore="0400" notAfter="0470">First half, or the early second half, of the fifth century</origDate>
                         </origin>
-                        <provenance type="found">Discovered in <date>1906</date> when the landowner <q>'was lowering a headland'</q> (Buckley 1907,116), c. 40m N of, and in next field to, existing ogham stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049002-</ref>).
+                        <provenance type="found">Discovered in <date>1906</date> when the landowner <q>'was lowering a headland'</q> (Buckley 1907,116), c. 40m N of, and in next field to, existing ogham stone (I-COR-003) <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO042-049002-</ref>).
                             Found lying against a field fence in <date>1985</date> when a semi-circular cattle grid was laid around the stone. A short excavation by OPW revealed a recent shallow trench cut into much a larger ditch possibly belonging to an ancient enclosure (Manning 2000, 109); the marked curve in field fence here might respect the line of an ancient enclosure of which there is no other visible surface trace.
                         </provenance>
-                        <provenance type="observed">In situ at <placeName type="townland">Greenhill</placeName>.
+                        <provenance type="observed" when="2013">On find site at <placeName type="townland">Greenhill</placeName> where it was visited and 3d recorded for the OG(H)AM project in August <date>2013</date>. 
                         </provenance>
                     </history>
                 </msDesc>
@@ -117,11 +117,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
-</textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass> 
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -130,33 +129,36 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-04-23" who="#POC">Patricia O Connor removed NISMR abbreviation, added more information about the inscription's condition, and re-encoded Macalister's reading using apparatus.</change>
    <change when="2024-04-29" who="#POC">Patricia O Connor added image url and reverted list change order.</change>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
+     <change when="2024-05-10" who="#NW">
+Nora White added 3d recording information (respStmt), Text Class (referencing FAIR vocabularies for epigraphy), OG(H)AM codes to other referenced ogham stones and provenance (observed) info. Also standardised edition (adding Unicode) and commentary and added origDate and execution type. 
+</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="\images\IRE\I-COR\I-COR-004-MAC1945-62-Greenhill-II.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
         <graphic url="\images\IRE\I-COR\I-COR-004_Greenhill_II.jpg"/>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by DP but not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-            <!--<div type="edition" xml:space="preserve">
-                <ab>
-                     <lb n="1"/>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><w lemma="#?">ᚉᚐᚈᚈᚒᚁᚒᚈᚈᚐᚄ</w>
+                    <w type="formula" lemma="maqqas"><unclear reason="damaged" cert="low">ᚋ</unclear><supplied reason="lost" evidence="previouseditor" cert="low">ᚐᚊᚔ</supplied></w></persName>
                 </ab>
-            </div>-->
+            </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
                 <ab><title xml:lang="en">Transliteration</title>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><w lemma="cattubuttas">CATTUBUTTAS</w>
-                    <w type="formula" lemma="maqqas"><unclear reason="damaged">M</unclear><supplied reason="lost">[AQI]</supplied></w></persName>
+                    <persName><w lemma="#?">CATTUBUTTAS</w>
+                    <w type="formula" lemma="maqqas"><unclear reason="damaged" cert="low">M</unclear><supplied reason="lost" evidence="previouseditor" cert="low">AQI</supplied></w></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
-                    <rdg source="MAC1945"><lb n="1" style="text-direction:up"/><persName><name nymRef="cattubuttas">
-                        CATTUBUTTAS</name> <w type="formula" lemma="maqqas">MAQ</w> <unclear reason="damaged">[---</unclear></persName></rdg>
+                <app>                    
                 </app>
                 </listApp>
             </div>
@@ -168,21 +170,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <head>Commentary</head>
                 <list type="witDetail">
                     <item n="1"><p>This personal name contains one of the most commonly occurring elements found 
-                        in ogham inscriptions CATU- (OI <hi rend="italic">cath</hi> 'battle'). The EOI form of the 
-                        name is <hi rend="italic">Cathub</hi>, gen. <hi rend="italic">Cathboth</hi>, later <hi rend="italic">Cathbad</hi> (<ref
-                                        type="bibliog" target="#MCM1991">(<bibl><author>McManus</author>
-                                            <date>1991</date>, <biblScope unit="page"
-                                                >102</biblScope></bibl>)</ref>. </p></item>
-                    <item n="2"> <p>This is one of the inscriptions listed by <ref type="bibliog"
-                        target="#MCM1991"><bibl><author>McManus</author> (<date when="1945"
-                            >1991</date>, <biblScope unit="page"
-                                >93-4</biblScope></bibl>)</ref> to be among the earliest in the
-                        corpus showing no trace of vowel affection. 
-                        It may be dated to the <origDate notBefore="0400" notAfter="0470">first half, or the early second half, of the fifth century</origDate> 
-                        <ref type="bibliog"
-                            target="#MCM1991">(<bibl><author>McManus</author>
-                                <date when="1991">1991</date>, <biblScope unit="page"
-                                    >97</biblScope></bibl>)</ref>.</p></item>
+                        in ogham inscriptions CATU- (OI <foreign xml:lang="sga">cath</foreign> 'battle'). The early Old Irish form of the 
+                        name is <foreign xml:lang="sga">Cathub</foreign>, gen. <foreign xml:lang="sga">Cathboth</foreign>, later <foreign xml:lang="sga">Cathbad</foreign> (McManus 1991, 102). </p></item>
+                    <item n="2"><p>This is one of the inscriptions listed by McManus 1991, 93-4) to be among the earliest in the
+                        corpus showing no trace of vowel affection (McManus 1991, 97).</p></item>
                 </list>
             </div>
             <div type="bibliography">
