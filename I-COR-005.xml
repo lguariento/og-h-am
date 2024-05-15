@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                     <name>Nora White</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2017-04-20"/> and processed using Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -60,24 +60,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-039001- </ref>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-039001-</ref>
                                     <material>Sandstone</material> 
-                                    <objectType>pillar<!-- slab? --></objectType> 
+                                    <objectType>Slab</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
                                             <height>2.22</height>
-                                            <width>1.8</width>
+                                            <width>1.80</width>
                                             <depth>0.38</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is worn or covered in lichen in places and the lower portion is damaged.</condition>
+                                <condition>The ogham inscription is worn or covered in lichen in places and the lower portion is lost through damage to the stone.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is on the S and SE edges, but is badly flaked on the lower edges.</layout>
+                                <layout>The fragmentary inscription is located on one of the narrow sides of the slab, running <rs type="style">up-up</rs> on the S and SE edges.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister noted that the inscription is <q><rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> on the two angles of the narrow edge facing the SE</q> (1945, 63).
+                            <handNote>The inscription is <q><rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with large, unevenly spaced consonant strokes of up to 8cm long, where they survive</q>.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -89,9 +89,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>52.000015, -8.433359</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">Found in pasture, on a N-facing slope in <date>1839</date>. It was part of a complex series of monuments of which this is a sole survivor.
+                        <provenance type="found" when="1839">Discovered in <date>1839?</date>. It was part of a complex series of monuments, including another ogham stone (I-COR-006), of which this is the sole survivor above ground. Macalister (1945, 62-3) supplies an inventory from one of <ref target="https://www.ria.ie/windele-collection">Windele's notebooks</ref> of what was to be seen here in his time.  'Dallaun' is marked on the 1842 OS 6-inch map outside the NW corner of a now levelled square enclosure (CO052-039002-). This would correspond reasonably with the present position of this ogham stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-039001-</ref>). However, Macalister (1945, 63), quoting Windele, described four standing stones inside the enclosure, of which he says this was one.  
                         </provenance>
-                        <provenance type="observed">in situ
+                        <provenance type="observed" when="2017">In situ in pasture, on a N-facing slope. Visited and 3d recorded for the Ogham in 3D project in August <date>2017</date>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -119,8 +119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
-</textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+</textClass>  
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -128,7 +127,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-04-19" who="#POC">Patricia O Connor added and encoded information, including measurements, condition, layout, and provenance.</change>
 <change when="2024-04-29" who="#POC">Patricia O Connor added image urls, including Macalister drawing</change>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
-<change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change>   
+<change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change> 
+<change when="2024-05-15" who="#NW">Nora White updated details from fieldwork notes and images, both support description and edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -136,14 +136,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <graphic url="\images\IRE\I-COR\I-COR-005-MAC1945-63-Ballynabortagh-I.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
         <graphic url="\images\IRE\I-COR\I-COR-005-Ballynabortagh-I_stone.jpg"/>
         <graphic url="\images\IRE\I-COR\I-COR-005-Ballynabortagh-I_Inscription.jpg"/>
-        <media url="https://sketchfab.com/3d-models/ballynabortagh-ogham-stone-3c947a7d128b4783abe836e47bdf4858" mimeType="text/html"><desc>3d model by Gary on SketchFab.</desc></media>
+        <media url="https://sketchfab.com/3d-models/ballynabortagh-ogham-stone-3c947a7d128b4783abe836e47bdf4858" mimeType="text/html"><desc>3d model by Nora White on SketchFab.</desc></media>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/>
+                    
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab><title xml:lang="en">Transliteration</title>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="...uivaibes"><unclear reason="damaged">--]</unclear>UIVAIBES</name> 
-                        <lb n="2" style="text-direction:up"/><name nymRef="...rthagnas"><unclear reason="damaged">[--]</unclear>RTAGNI</name></persName> 
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" unit="cm" atMost="60"/><name nymRef="#?"><unclear reason="damaged">U</unclear><gap reason="illegible" unit="cm" extent="8"/><unclear reason="damaged">I</unclear><supplied reason="lost" evidence="previouseditor">VA</supplied><unclear reason="damage" cert="low">I</unclear>BOTS</name> 
+                        <lb n="2" style="text-direction:up"/><gap reason="lost" unit="cm" atMost="50"/><name nymRef="#...rthagnas"><unclear reason="damaged" cert="medium">R</unclear>TAG<unclear reason="damaged">N</unclear>I</name> 
                 </ab>
             </div>
             <div type="apparatus">

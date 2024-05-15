@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-053---- </ref>
                                     <material></material> 
-                                    <objectType>pillar</objectType> 
+                                    <objectType>Pillar?</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
                                            <!-- <height></height>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Destroyed in the mid-nineteenth century, only a drawing of the stone and inscription remain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>According to <persName>Hitchcock</persName>'s drawing, the inscription was on the sinister angle of the stone (Macalister 1945, 64).</layout>
+                                <layout>According to <persName>Hitchcock</persName>'s drawing, the inscription ran <rs type="style">up</rs> on the sinister angle of one of the broad faces of the stone (Macalister 1945, 64).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,9 +89,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.999800, -8.433359?</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">Found in pasture, on a N-facing slope in <date>1839</date> by <persName><surname>Windele</surname></persName>. It was once part of a complex series of monuments of which the ogham stone <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-039001- </ref> is the sole survivor. 
+                       <provenance type="found" when="1839">Discovered in <date>1839?</date>. It was part of a complex series of monuments, including another ogham stone (I-COR-005), which is the sole survivor above ground. Macalister (1945, 62-3) supplies an inventory from one of <ref target="https://www.ria.ie/windele-collection">Windele's notebooks</ref> of what was to be seen here in his time.   
                         </provenance>
-                        <provenance type="observed"> 
+                        <provenance type="observed">Lost
                         </provenance>
                     </history>
                 </msDesc>
@@ -120,7 +120,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+    <creation>Transcription from previous editor.</creation>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -128,19 +128,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-04-22" who="#POC">Patricia O Connor added and encoded information</change>
 <change when="2024-04-29" who="#POC">Patricia O Connor added image url for Macalister drawing, reverted change list order</change>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
-<change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change>    
+<change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change>   
+<change when="2024-05-15" who="#NW">Nora White updated details in line with I-COR-005 fieldwork notes, as well as translation and commentary</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="\images\IRE\I-COR\I-COR-006-MAC1945-64-Ballynabortagh-II.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <graphic url="\images\IRE\I-COR\I-COR-006-MAC1945-64-Ballynabortagh-II.jpg"><desc>Sketch from Macalister 1945</desc></graphic>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/><name nymRef="#mailagnas">ᚋᚐᚔᚂᚐᚌᚅ<supplied reason="lost">ᚔ</supplied></name>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="MAC1945">
                 <ab><title xml:lang="en">Transliteration</title>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#mailagnas">MAILAGN[<supplied reason="lost">I</supplied>]</name></persName> 
+                    <lb n="1" style="text-direction:up"/><name nymRef="#mailagnas">MAILAGN<supplied reason="lost">I</supplied></name> 
                 </ab>
             </div>
             <div type="apparatus">
@@ -149,10 +155,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>-->
             </div>
             <div type="translation">
-                <p></p>
+                <p>'of Máelán’</p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p>The name here is known elsewhere in the ogham corpus (e.g. I-KER-027 and I-LIM-002), as well as in later epigraphic and manuscript sources, and consists of the word <foreign xml:lang="sga" corresp="https://dil.ie/31242">máel</foreign> ‘bald, cropped’ with the diminutive suffix -án (earlier/ogham -AGNI).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
