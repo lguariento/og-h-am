@@ -32,8 +32,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </respStmt>
                 <respStmt>
                     <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2022-09-10"/> and processed using Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -88,9 +89,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.999912, -8.433859</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">The ogham stone was discovered in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061001-</ref>) in <date>2005</date> where it was one of four pillars supporting the roof (McCarthy 2005). The NE pillar stone also bears an ogham inscription (see <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061002-</ref>). 
+                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006; see also Macalister 1945, 63-4), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (SW upright) supporting the roof. The NE pillar stone also bears an ogham inscription (I-COR-007) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061001-</ref>).
                         </provenance>
-                        <provenance type="observed">in situ
+                        <provenance type="observed">In situ in souterrain. Visited and 3d recorded for the OG(H)AM project in September <date>2022</date>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -128,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-04-30" who="#POC">Patricia O Connor added townland info to image url</change>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
 <change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change>
+<change when="2024-05-16" who="#NW">Nora White updated details from fieldwork notes and images, both support description and edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,9 +157,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><!--<ptr target="#MAC1945"/>Macalister 1945
-                        <citedRange>9-10</citedRange>-->
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>63-4</citedRange>
                     </bibl>
+                     <bibl>
+                         <ptr target="#RON2009"/>Ronan et al. 2009
+                         <citedRange> no. 16163</citedRange> 
+                     </bibl>
                 </listBibl>
             </div>
         </body>
