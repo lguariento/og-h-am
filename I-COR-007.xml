@@ -31,9 +31,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                     <name></name>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2022-09-10"/> and processed using Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -60,25 +61,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061002- </ref>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061002-</ref>
                                     <material>Sandstone</material> 
-                                    <objectType>pillar (NE upright in souterrain)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
-                                            <height>1.4</height>
-                                            <width>0.5</width>
+                                            <height>1.40</height>
+                                            <width>0.50</width>
                                             <depth>0.26</depth>
-                                     </dimensions>                                   
+                                     </dimensions>                                  
                                 </support>
-                                <condition>The lettering, particularly the vowel notches, are quite worn, possibly indicating that the stone had been exposed to the elements for a long time, possibly centuries before it was appropriated for use in the souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland (ASI field report), SMR ID: CO052-061001-</ref>).</condition>
+                                <condition>This pillar (subrectangular in section narrowing towards the top), along with I-COR-008, has been repurposed as an upright in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>). The lettering, particularly the vowel notches, are quite worn, though still legible. The end of the inscription is lost or not accessible. It is also noteworthy that this stone has numerous <rs type="features" ref="features.xml#grooves">v-sectioned groove marks</rs> on the side to the right of the inscription. There is also an area (beside and to the right of the first few charaters of the inscription) that is <rs type="features" ref="features.xml#smoothing">rubbed or polished smooth</rs>. This is very similar to the 'scoring' and 'smoothing' found on other (both inscribed and uninscribed) stones, for example Ratass ogham stone, Co. Kerry (I-KER-139).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the right angle and reads <rs style="up">up</rs> the stone (ASI field report).</layout>
+                                <layout>The inscription reads <rs style="up">up</rs> on the outward facing angle the stone. It is not possible to examine the entire pillar due to its position in the souterrain.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham scores are <rs type="execution" key="scalpro" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> and average <width unit="cm">1cm</width> in width by <height unit="cm" min="4" max="6">4-6cm</height> in length. 
-                            </handNote>
+                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and average <width unit="cm">1cm</width> in width by <height unit="cm" min="4" max="6">4-6cm</height> in length.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -88,9 +88,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.999912, -8.433859</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">The ogham stone was discovered in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061001-</ref>) in <date>2005</date> where it was one of four pillars supporting the roof (McCarthy 2005). The SW pillar stone also bears an ogham inscription (see <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061003-</ref>).
+                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006; see also Macalister 1945, 63-4), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (NE upright) supporting the roof. The SW pillar stone also bears an ogham inscription (I-COR-008) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061001-</ref>.
                         </provenance>
-                        <provenance type="observed">in situ
+                        <provenance type="observed" when="2022">In situ in souterrain. Visited and 3d recorded for the OG(H)AM project in September <date>2022</date>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -127,19 +127,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-04-22" who="#POC">Patricia O Connor added and encoded information, including condition, layout, handNote, and provenance.</change>
 <change when="2024-04-30" who="#POC">Patricia O Connor added townland to image url and reverted change list order</change>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
-<change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change>    
+<change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change> 
+<change when="2024-05-16" who="#NW">Nora White updated details from fieldwork notes and images, both support description and edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="\images\IRE\I-COR\I-COR-007-Ballynabortagh-NE.jpg"/>
-        <media url="https://sketchfab.com/3d-models/co052-061002-ogham-ballynabortagh-fc7948ec07774c0c9cbc85e976fafb82" mimeType="text/html"><desc>3d model by Gary on SketchFab.</desc></media>
+        <media url="https://sketchfab.com/3d-models/co052-061002-ogham-ballynabortagh-fc7948ec07774c0c9cbc85e976fafb82" mimeType="text/html"><desc>3d model by Gary Dempsey on SketchFab.</desc></media>
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
                 <ab><title xml:lang="en">Transliteration</title>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="maqi-trenu">MAQI-TRENI</name> <w lemma="avias">AVI</w> <w>(<unclear reason="damage">T</unclear>)<unclear reason="damage">……</unclear></w></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-trenas?">MAQI-TRENI</name> <w lemma="avias"><supplied reason="omitted">A</supplied>V<unclear reason="damage" cert="high">I</unclear></w> <w><unclear reason="damage" cert="medium">T</unclear><gap reason="lost" extent="unknown"/></w></persName> 
                 </ab>
             </div>
             <div type="apparatus">
@@ -154,13 +155,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>
             <div type="bibliography">
-                 <listBibl>
-                     <bibl><ptr target="#MCC2005"/>McCarthy 2005
-                        <citedRange>9-10</citedRange>
-                    </bibl>
+                 <listBibl>                    
                      <bibl><ptr target="#MAC1945"/>Macalister 1945
-                        <citedRange><!--9-10--></citedRange>
+                        <citedRange>63-4</citedRange>
                     </bibl>
+                     <bibl>
+                         <ptr target="#RON2009"/>Ronan et al. 2009
+                         <citedRange>no. 16162</citedRange> 
+                     </bibl>
                 </listBibl>
             </div>
         </body>
