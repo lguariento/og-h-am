@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Carhoovauler 2</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor> 
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-022</idno>
+                 <idno type="CIIC">74</idno>
+                <idno type="CISP">CARHA/2</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO122-001004- </ref>
+                                    <material></material> 
+                                    <objectType>pillar (upright pillar in entrance chamber of souterrain)</objectType> 
+                                     <dimensions unit="m">
+                                         <dim></dim>
+                                            <height>0.8</height>
+                                            <width>0.2</width>
+                                            <depth>0.2</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>According to Macalister (1945, 78, no. 74), this stone was broken to a suitable size for use as an upright support to a roofing stone of the first entrance chamber.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is on the lower remaining portion of the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The stone is inscribed in minute scores.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9111">
+                                <placeName type="townland">Carhoovauler</placeName> (<foreign xml:lang="ga">Ceathrú Bhaldair</foreign>), <placeName type="county">Co. Cork</placeName>
+                                <geo>51.690842, -8.962643</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found">One of three ogham stones (also <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO122-001003</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO122-001005-</ref>) discovered by Mr <persName>J. J. O'Crowley</persName> of <placeName>Clonakilty</placeName> in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO122-001002-</ref>) in <date>1905</date> or <date>1906</date>. 
+                        </provenance>
+                        <provenance type="observed">in situ
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-05-17" who="#POC">Patricia O Connor added and encoded information, including Text Class referencing FAIR vocabularies for epigraphy and the edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\images\IRE\I-COR\I-COR-021-MAC1945-78-Carhoovauler.jpg"/>
+        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1"/><persName><name nymRef="#?">CONANN</name> <w type="formula" lemma="maqqas">M<supplied reason="lost">AQI</supplied></w> S[-- </persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>77-78</citedRange>
+                    </bibl>
+                     <bibl><ptr target="#POW1992"/>Power et al. 1992
+                     <citedRange>no. 1033</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
