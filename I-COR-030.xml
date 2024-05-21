@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Garranes</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor> 
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-030</idno>
+                 <idno type="CIIC">81</idno>
+                <idno type="CISP">GARES/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>UCC</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO084-090003- </ref>
+                                    <material></material> 
+                                    <objectType>pillar (possibly reused in souterrain)</objectType> 
+                                     <dimensions unit="m">
+                                         <dim></dim>
+                                           <!-- <height></height>
+                                            <width></width>
+                                            <depth></depth>-->
+                                     </dimensions>                                   
+                                </support>
+                                <condition>Macalister noted that the inscription was <q>a little chipped, so that some of the vowels are lost</q> (1945, 84).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>According to Macalister, the inscription begins at 0.76m from the bottom of one angle, runs over the top, and ends 0.91m from the bottom of the adjacent angle (Macalister 1945, 84).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Macalister remarked that the inscription was made with <q>bold scores, <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> and rubbed</q> (1945, 84).
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/8299">
+                                <placeName type="townland">Garranes</placeName> (<foreign xml:lang="ga">An Garrán</foreign>), <placeName type="county">Co. Cork</placeName>
+                                <geo>51.816848, -8.765479</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found" when="1852">Found in a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO084-090001-</ref>) and thought to have come from the souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO084-090002-</ref>) discovered later.
+                        </provenance>
+                        <provenance type="observed">Now on permanent display in the Stone Corridor, University College Cork (See <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO074-148----</ref>). 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-05-21" who="#POC">Patricia O Connor added and encoded information, including the edition and the Text Class referencing FAIR vocabularies for epigraphy</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="\images\IRE\I-COR\I-COR-030-MAC1945-83-Garranes.jpg"/>
+        <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1"/><persName><name nymRef="#?">C[A]SSITT[A]S</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula">MUCOI</w> <name nymRef="#?">CALLITI</name></persName> 
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>McManus (2004, 15, no. 4) is generally in agreement with Macalister's reading of the inscription but notes that the first name could end in -AS or -OS.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>83</citedRange>
+                    </bibl>
+                     <bibl><ptr target="#MCM2004"/>McManus 2004
+                     <citedRange>15, no. 4</citedRange>
+                     </bibl>
+                     <bibl><ptr target="#POW1992"/>Power et al. 1992
+                     <citedRange>no. 1037</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
