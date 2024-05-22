@@ -129,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
 <change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change> 
 <change when="2024-05-15" who="#NW">Nora White updated details from fieldwork notes and images, both support description and edition</change>
+<change when="2024-05-22" who="#NW">Nora White updated edition based on examination of newly processed 3d model and added earlier readings by Macalister and Rhys to Apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,20 +143,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab><title>Ogham</title>: 
-                    <lb n="1" style="text-direction:up"/>
-                    
+                    <lb n="1" style="text-direction:up"/><name nymRef="#?"><gap reason="lost" unit="cm" atMost="60"/><unclear reason="damaged">ᚒ</unclear><gap reason="illegible" unit="cm" extent="8"/><unclear reason="damaged" cert="low">ᚔᚐ</unclear><unclear reason="damage" cert="low">ᚔ</unclear>ᚁᚑᚇᚐᚄ</name>
+                        <lb n="2" style="text-direction:up"/><gap reason="lost" unit="cm" atMost="50"/><name nymRef="#...rthagnas"><unclear reason="damaged" cert="high">ᚏ</unclear>ᚈᚐᚌ<unclear reason="damaged" cert="high">ᚅ</unclear>ᚔ</name>                     
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab><title xml:lang="en">Transliteration</title>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" unit="cm" atMost="60"/><name nymRef="#?"><unclear reason="damaged">U</unclear><gap reason="illegible" unit="cm" extent="8"/><unclear reason="damaged">I</unclear><supplied reason="lost" evidence="previouseditor">VA</supplied><unclear reason="damage" cert="low">I</unclear>BOTS</name> 
-                        <lb n="2" style="text-direction:up"/><gap reason="lost" unit="cm" atMost="50"/><name nymRef="#...rthagnas"><unclear reason="damaged" cert="medium">R</unclear>TAG<unclear reason="damaged">N</unclear>I</name> 
+                    <lb n="1" style="text-direction:up"/><name nymRef="#?"><gap reason="lost" unit="cm" atMost="60"/><unclear reason="damaged">U</unclear><gap reason="illegible" unit="cm" extent="8"/><unclear reason="damaged" cert="low">IA</unclear><unclear reason="damage" cert="low">I</unclear>BODAS</name>
+                        <lb n="2" style="text-direction:up"/><gap reason="lost" unit="cm" atMost="50"/><name nymRef="#...rthagnas"><unclear reason="damaged" cert="high">R</unclear>TAG<unclear reason="damaged" cert="medium">N</unclear>I</name> 
                 </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app></app>
-                </listApp>-->
+                <listApp>
+                <app> 
+                    <rdg source="MAC1945"><lb n="1" style="text-direction:up"/><gap reason="lost"/>U<unclear reason="damaged">IV</unclear>AIBES
+                    </rdg>
+                </app>
+                    <app>
+                        <rdg source="RHY1908"><lb n="1" style="text-direction:up"/><unclear reason="damaged">VINI</unclear>OBODAS</rdg>
+                    </app>
+                </listApp>
             </div>
             <div type="translation">
                 <p></p>
@@ -170,7 +177,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </bibl>
                       <bibl><ptr target="#POW1994"/>Power et al. 1994
                          <citedRange>no. 4230</citedRange>
-                         </bibl>                     
+                         </bibl>  
+                     <bibl><ptr target="#Rhy1908"/>Rhys 1908
+                        <citedRange>203</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
