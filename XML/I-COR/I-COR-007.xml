@@ -88,7 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.999912, -8.433859</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006; see also Macalister 1945, 63-4), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (NE upright) supporting the roof. The SW pillar stone also bears an ogham inscription (I-COR-008) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061001-</ref>.
+                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006; see also Macalister 1945, 63-4), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (NE upright) supporting the roof. The SW pillar stone also bears an ogham inscription (I-COR-008) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>.
                         </provenance>
                         <provenance type="observed" when="2022">In situ in souterrain. Visited and 3d recorded for the OG(H)AM project in September <date>2022</date>.
                         </provenance>
@@ -129,19 +129,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
 <change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change> 
 <change when="2024-05-16" who="#NW">Nora White updated details from fieldwork notes and images, both support description and edition</change>
-<change when="2024-05-22" who="#POC">Patricia O Connor corrected image path</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="../..\images\IRE\I-COR\I-COR-007-Ballynabortagh-NE.jpg"/>
+        <graphic url="\images\IRE\I-COR\I-COR-007-Ballynabortagh-NE.jpg"/>
         <media url="https://sketchfab.com/3d-models/co052-061002-ogham-ballynabortagh-fc7948ec07774c0c9cbc85e976fafb82" mimeType="text/html"><desc>3d model by Gary Dempsey on SketchFab.</desc></media>
     </facsimile>    
     <text>
         <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-trenas?">ᚋᚐᚊᚔᚈᚏᚓᚅᚔ</name> <w lemma="avias"><supplied reason="omitted">ᚐ</supplied>ᚃ<unclear reason="damage" cert="high">ᚔ</unclear></w> <w><unclear reason="damage" cert="medium">ᚈ</unclear><gap reason="lost" extent="unknown"/></w></persName>                     
+                </ab>
+             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
                 <ab><title xml:lang="en">Transliteration</title>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-trenas?">MAQI-TRENI</name> <w lemma="avias"><supplied reason="omitted">A</supplied>V<unclear reason="damage" cert="high">I</unclear></w> <w><unclear reason="damage" cert="medium">T</unclear><gap reason="lost" extent="unknown"/></w></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-trenas?">MAQITRENI</name> <w lemma="avias"><supplied reason="omitted">A</supplied>V<unclear reason="damage" cert="high">I</unclear></w> <w><unclear reason="damage" cert="medium">T</unclear><gap reason="lost" extent="unknown"/></w></persName> 
                 </ab>
             </div>
             <div type="apparatus">

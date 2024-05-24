@@ -61,7 +61,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061003- </ref>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061003-</ref>
                                     <material>Sandstone</material> 
                                     <objectType>pillar (SW upright in souterrain)</objectType> 
                                      <dimensions unit="m">
@@ -74,7 +74,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Only a few letters of the inscription survive.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>This is an irregularly shaped, rough, sandstone pillar, subrectangular in section, inscribed on the right angle of one of the narrower faces. The inscribed face of the stone widens towards the top and the ogham inscription, in so far as it survives, is confined to the narrower lower part of the stone (Archaeological Survey of Ireland (ASI) field report).</layout>
+                                <layout>This is an irregularly shaped, rough, sandstone pillar, subrectangular in section, inscribed on the right angle of one of the narrower faces. The inscribed face of the stone widens towards the top and the ogham inscription, in so far as it survives, is confined to the narrower lower part of the stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061003-</ref>; Ronan 2009, no. 16163).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.999912, -8.433859</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006; see also Macalister 1945, 63-4), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (SW upright) supporting the roof. The NE pillar stone also bears an ogham inscription (I-COR-007) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061001-</ref>).
+                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006; see also Macalister 1945, 63-4), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (SW upright) supporting the roof. The NE pillar stone also bears an ogham inscription (I-COR-007) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>).
                         </provenance>
                         <provenance type="observed">In situ in souterrain. Visited and 3d recorded for the OG(H)AM project in September <date>2022</date>.
                         </provenance>
@@ -130,19 +130,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
 <change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-05-16" who="#NW">Nora White updated details from fieldwork notes and images, both support description and edition</change>
-<change when="2024-05-22" who="#POC">Patricia O Connor corrected image path</change>
+<change when="2024-05-24" who="#NW">Nora White updated the edition and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="../..\images\IRE\I-COR\I-COR-008-Ballynabortagh-SW.jpg"/>
+        <graphic url="\images\IRE\I-COR\I-COR-008-Ballynabortagh-SW.jpg"/>
         <media url="https://sketchfab.com/3d-models/co052-061003-ogham-ballynabortagh-7fa1b8cc4bdd447296a6361e488fcff8" mimeType="text/html"><desc>3d model by Gary on SketchFab</desc></media>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Ogham</title>: 
+                    <lb n="1" style="text-direction:up"/><choice><unclear>ᚇ</unclear><unclear>ᚈ</unclear><unclear>ᚉ</unclear><unclear>ᚊ</unclear></choice>ᚉ<unclear reason="damage">ᚐ</unclear><gap reason="lost" unit="stroke" atMost="5"/>ᚉᚔ<unclear reason="damage">ᚑ</unclear>ᚈ
+                </ab>
+             </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab><title xml:lang="en">Transliteration</title>
-                    <lb n="1" style="text-direction:up"/><persName><name>L……</name><w type="formula" lemma="maqqas" >[<supplied reason="lost">MA</supplied>](<unclear reason="damage">Q</unclear>)I</w> <w type="formula" lemma="mucoi">[<supplied reason="lost">MU</supplied>]COI</w> <name>T…</name></persName>
+                    <lb n="1" style="text-direction:up"/><choice><unclear>D</unclear><unclear>T</unclear><unclear>C</unclear><unclear>Q</unclear></choice>C<unclear reason="damage">A</unclear><gap reason="lost" unit="stroke" atMost="5"/>CI<unclear reason="damage">O</unclear>T
                 </ab>
             </div>
             <div type="apparatus">
@@ -154,7 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>
             <div type="commentary">
-                <p>At first glance it would appear that nothing intelligible can be gleaned from this reading but given what is known about ogham inscriptions and the range of formulae used in its monumental phase, it is likely that we are looking at an inscription using the MAQI MUCOI formula, meaning son of a remote ancestor.</p>
+                <p>Unfortunately, this inscription is too fragmentary to identify a name or even part of a name. The first relatively clear letter is C but a single score from the same <foreign xml:lang="ga">aicme (húatha)</foreign> was visible on examination (and in imagry from 2022) just at ground level. An earlier photograph of the stone by the National Monuments Service (2005? ground level slightly lower?) shows 2 strokes here, which would make a D or, if more strokes survive below ground, a T, C or Q. It is unclear if this is perhaps the L (2 strokes to the right of the stemline/<foreign xml:lang="ga">aicme béithe</foreign>) of the earlier reading, (L)……C(A)……. CIOT (interpreted as L……[MA](Q)I [MU]COI T…) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061003-</ref>; Ronan 2009, no. 16163).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -163,7 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </bibl>
                      <bibl>
                          <ptr target="#RON2009"/>Ronan et al. 2009
-                         <citedRange> no. 16163</citedRange> 
+                         <citedRange>no. 16163</citedRange> 
                      </bibl>
                 </listBibl>
             </div>
