@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ballyknock 10</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor> 
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-040</idno>
+                 <idno type="CIIC">91</idno>
+                <idno type="CISP">BAKNK/10</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007013- </ref>
+                                    <material></material> 
+                                    <objectType>pillar (reused in souterrain)</objectType> 
+                                     <dimensions unit="m">
+                                         <dim></dim>
+                                            <height>1.24</height>
+                                            <width></width>
+                                            <depth></depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
+                                <placeName type="townland">Ballyknock North</placeName> <foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                                <geo>52.034620, -8.082370</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found" when="1890">One of 15 ogham stones (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007002-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007005-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007018-</ref>) found covering a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007003-</ref>). It was lifted and read by <persName><roleName>Rev.</roleName> E. Barry</persName> (1890, 518) in the 19th century and then replaced. 
+                        </provenance>
+                        <provenance type="observed" when="1920">The stone is recorded as having been moved to Lismore Castle (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">WA021-019023-</ref>) in <date>1920</date> (Power 1932, 11). It is unconfirmed as to whether it is still at this location. 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-05-28" who="#POC">Patricia O Connor added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="../..\images\IRE\I-COR\I-COR-040-MAC1945-90-Ballyknock-91.jpg"/>
+        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab><title>Transliteration</title>:
+                    <lb n="1" style="text-direction:up"/><persName>BLO/ATEGSI</persName> 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <rdg source="MAC1945">
+                        <lb n="1" style="text-direction:up"/><persName>BLOTEGSI</persName>
+                    </rdg>
+                </app>
+                    <app>
+                        <rdg source="BAR1890">
+                            <lb n="1" style="text-direction:up"/><persName>BLATEGSI</persName>
+                        </rdg>
+                    </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>Macalister (1945, 90, no. 91) initially read BLOTEGSI, but according to Barry the extra notch changing the reading was caused by crowbar damage after initial lifting (Archaeological Survey of Ireland, Field Report).</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="#BAR1890"/>Barry 1890
+                         <citedRange>518</citedRange>
+                     </bibl>
+                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                        <citedRange>90, no. 91</citedRange>
+                    </bibl>
+                     <bibl><ptr target="#POW1994"/>Power et al. 1994
+                         <citedRange>no. 4224</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
