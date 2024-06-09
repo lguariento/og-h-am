@@ -30,27 +30,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
-                <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                <respStmt>                  
+                    <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 in <date when="2003-09-18"/> and <date when="2006-04-20"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-COR-009</idno>
                  <idno type="CIIC">61</idno>
-                <idno type="CISP">BIISL/1</idno>
+                <idno type="CISP">BIISL/1</idno>                
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence> 
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>UCC</repository>
-                        <idno type="invNo"></idno>
+                        <repository>University College Cork</repository>
+                        <idno type="invNo">24</idno>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,25 +60,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO053-072---- </ref>
-                                    <material></material> 
-                                    <objectType>pillar (reused as gate-post)</objectType> 
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO053-072----</ref><!--Not in database? Added present location SMR below, which is there-->
+                                    <material>Stone (sandstone?)</material> 
+                                    <objectType>pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
                                             <height>0.97</height>
-                                            <width>0.30</width>
-                                            <depth>0.13</depth><!-- Measurements converted from Maclister (1945, 65)!-->
+                                            <width>0.28</width>
+                                            <depth>0.15</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The top of the inscription is broken away after the letter Q and Macalister noted that <q>some of the scores are clogged with lime</q> (1945, 65).</condition>
+                                <condition>According to Macalister (1945, 65) the height of the stone was 97cm (3 feet 2 inches) but only 89cm are currently accessible above the display box. The stone is damaged at both ends leaving the inscription fragmentary.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><!--The inscription is on the left angle of the stone, need to double check this with model --></layout>
+                                <layout>The inscription reads <rs style="up">up</rs> on one angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed.
-                                <height></height>
+                            <handNote>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed with large, well-spaced strokes (e.g. the two G strokes are <height>13cm</height> long, with 3.5cm space between them).
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -91,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1914">The stone was found repurposed as a gate-post for a farm wall by <persName><roleName>Rev.</roleName> Canon Power</persName> in <date>1914</date>.
                         </provenance>
-                        <provenance type="observed">Now in the collection at UCC
+                        <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), at University College Cork (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO074-151----</ref>). 
                         </provenance>
                     </history>
                 </msDesc>
@@ -120,7 +119,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -129,21 +127,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-04-29" who="#POC">Patricia O Connor added image url.</change>
 <change when="2024-04-30" who="#POC">Patricia O Connor added townland info to image url</change>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
-<change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change>    
-<change when="2024-05-22" who="#POC">Patricia O Connor corrected image path</change>
+<change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change> 
+<change when="2024-06-09" who="#NW">Nora White updated support description (including dimensions) and edition based on fieldwork notes</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="../..\images\IRE\I-COR\I-COR-009-MAC1945-65-BishopsIsland.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
-        <graphic url="../..\images\IRE\I-COR\I-COR-009_BishopsIsland.jpg"/>
-        <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <graphic url="\images\IRE\I-COR\I-COR-009-MAC1945-65-BishopsIsland.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
+        <graphic url="\images\IRE\I-COR\I-COR-009_BishopsIsland.jpg"/><!--Will need to replace this with new image-->
+        <!--<media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab><title xml:lang="en">Transliteration</title>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><unclear reason="damage">--</unclear>]OLAGNI</name> <w type="formula" lemma="maqqas">MAQ[<unclear reason="damage">--</unclear></w></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#olagnas?">OLAGNI</name> <w type="formula" lemma="maqqas">MA<unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied><gap reason="lost"/></w></persName> 
                 </ab>
             </div>
             <div type="apparatus">
@@ -152,16 +150,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>-->
             </div>
             <div type="translation">
-                <p></p>
+                <p>‘of Ollán son of …’</p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p>As there is damage to both ends of the stone, we cannot be certain that there isn't something lost before the O of OLAGNI. As noted by Macalister (1945, 65), the H-surface is flaked away as far as the L. However, OLAGNAS (in the nominative) may correspond to Gaulish <foreign xml:lang="xtg">Ollognus</foreign>, containing the element attested later in Irish as <foreign xml:lang="sga">oll</foreign> 'great' (McManus 2004, 22). Only three strokes of the Q of MAQI survive before the break at the other end.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="#MAC1945"/>Macalister 1945
                         <citedRange>65, no. 61</citedRange>
                     </bibl>
+                     <bibl><ptr target="#MCM2004"/>McManus 2004
+                        <citedRange>21-22</citedRange>></bibl>
                 </listBibl>
             </div>
         </body>
