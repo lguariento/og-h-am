@@ -51,7 +51,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>On open moorland at 455m above sea level, west of the track from Merthyr Tydfil to Talybont</repository>
+                        <repository></repository>
                         <idno type="invNo"></idno>
                     </msIdentifier>
                     <msContents>
@@ -62,32 +62,32 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">928</idno>Ystrad</ref>
-                                    <material>stone</material> <objectType>pillar</objectType>, described as <q>pale grey, darker-grey weathering, coarse-grained sandstone...considered to be locally derived</q> <bibl> <ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">177-8</citedRange></bibl>.
-                                    <dimensions unit="m">
+                                <support> CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">928</idno>Ystrad</ref>
+                                    <material>Sandstone</material> <objectType>pillar</objectType>, described as <q>pale grey, darker-grey weathering, coarse-grained sandstone...considered to be locally derived</q> (Redknap and Lewis 2007, 177-8).
+                                    <dimensions unit="m" source="RED2007">
                                         <height>1.20</height>
                                         <width>0.38</width>
                                         <depth>0.36</depth></dimensions></support>
-                                <condition/>
+                                <condition>Badly weathered, the outline of the characters rounded and some completely obliterated (Redknap and Lewis 2007, 178).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a worn Ogham inscription along the left-hand edge reading vertically upwards. The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs>. In addition to the Ogham inscription, Webley described detecting a series of weathered horizontal lines potentially representing a Latin inscription which today is illegible <bibl> <ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">178</citedRange> <ptr target="WEB1957"/>Webley 1957</bibl>.</layout>
+                                <layout>The stone is inscribed with a worn Ogham inscription along the left-hand edge reading vertically upwards. In addition to the Ogham inscription, Webley described detecting a series of weathered horizontal lines potentially representing a Latin inscription which today is illegible(Redknap and Lewis 2007, 178; Webley 1957, 118-21).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The vowels in the inscription have largely worn away but the spaces between the legible characters suggest their original presence <bibl> <ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">178</citedRange></bibl>.
+                            <handNote>The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs>. The vowels in the inscription have largely worn away but the spaces between the legible characters suggest their original presence(Redknap and Lewis 2007, 178).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Llanddeti</placeName>
+                            <origPlace><placeName type="parish">Llanddeti</placeName>,<placeName type="county">Breconshire <foreign xml:lang="cy">Brycheiniog</foreign></placeName>
                                 <geo>51.809722, -3.346017</geo></origPlace>
                             <origDate notBefore="0400" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic"> fifth or sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">Recorded and sketched in 1695 by or on behalf of Lhuyd; published illustration in 1910 by Lhwyd which shows ogham - first reading given by Macalister in 1945.
+                        <provenance type="found" when="1695">Recorded and sketched in 1695 by or on behalf of Lhuyd; published illustration in 1910 by Lhuyd which shows ogham - first reading given by Macalister in 1945.
                         </provenance>
-                        <provenance type="observed">On open moorland at 455m above sea level, west of the track from Merthyr Tydfil to Talybont.
+                        <provenance type="observed" source="RED2007">On open moorland at 455m above sea level, west of the track from Merthyr Tydfil to Talybont.
                         </provenance>
                     </history>
                 </msDesc>
@@ -138,14 +138,14 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
-                <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="RED2007">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam" source="RED2007" resp="#BM">
                 <ab><title>Edition</title>:
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas deceddas"><unclear reason="worn">&#x168B;</unclear>&#x1690; &#x168A; <unclear reason="worn">&#x1694;</unclear>&#x1687;<unclear reason="worn">&#x1693;</unclear>&#x1689;<unclear reason="worn">&#x1693;</unclear>&#x1687;<unclear reason="worn">&#x1690;</unclear></name></persName>
                                     </ab>
             </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve">
-                <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="RED2007">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam" source="RED2007" resp="#BM">
                     <ab><title>Transliteration</title>:
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas deceddas"><unclear reason="worn">M</unclear>AQ<unclear reason="worn">I</unclear>D<unclear reason="worn">E</unclear>C<unclear reason="worn">E</unclear>D<unclear reason="worn">A</unclear></name></persName>
                     </ab>
@@ -155,14 +155,14 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 <p></p>
             </div>
             <div type="translation" xml:lang="en">
-                <div type="textpart" n="1" resp="RED2007">
-                <p>[M]AQ[I]D[E]C[E]D[A] or '[The stone] of <foreign xml:lang="pgl"> Maqas-Deceda</foreign>'</p>
+                <div type="textpart" n="1" source="RED2007" resp="#BM">
+                <p>'[The stone] of <foreign xml:lang="pgl"> Maqas-Deceda</foreign>'</p>
             </div>
             </div>
             <div type="commentary">
                 <list type="witDetail">
                     <item n="1">
-                        <p>The Ogham inscription is probably a commemorative formula, naming an individual with the popular Irish name <hi rend="italic">*Makʷkʷas-Dekantos</hi> 'son of [the divinity] Dekans', which is also found elsewhere in Britain as <hi rend="italic">CIIC:</hi> no. 326; <hi rend="italic">CIIC:</hi> no. 429; <hi rend="italic">CIIC:</hi> no. 440. The Welsh Corpus notes that <q>in these other forms the genitive ending -I has been rounded to U or O by the preceding labiovelar /kʷ/</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">178</citedRange></bibl>. It is uncertain whether that is the case for this inscription, due to its worn nature, but the Welsh Corpus argues for the ending [I]. The present location of the stone is high and may be the same as when it was originally described but there is a slight possibility that the stone has been moved down the hill and re-erected since it was first described <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">178</citedRange></bibl>.</p>
+                        <p>The Ogham inscription is probably a commemorative formula, naming an individual with the popular Irish name <hi rend="italic">*Makʷkʷas-Dekantos</hi> 'son of [the divinity] Dekans', which is also found elsewhere in Britain as <hi rend="italic">CIIC:</hi> no. 326; <hi rend="italic">CIIC:</hi> no. 429; <hi rend="italic">CIIC:</hi> no. 440. The Welsh Corpus notes that <q>in these other forms the genitive ending -I has been rounded to U or O by the preceding labiovelar /kʷ/</q>(Redknap and Lewis 2007, 178). It is uncertain whether that is the case for this inscription, due to its worn nature, but the Welsh Corpus argues for the ending [I]. The present location of the stone is high and may be the same as when it was originally described but there is a slight possibility that the stone has been moved down the hill and re-erected since it was first described(Redknap and Lewis 2007, 178).</p>
                     </item>
                 </list>
             </div>
@@ -170,7 +170,8 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 <head>Bibliography</head>
                 <listBibl>
                     <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">177-8</citedRange></bibl>
-                    <bibl><ptr target="WEB1957"/>Webley 1957</bibl>
+                    <bibl><ptr target="WEB1957"/>Webley 1957 <citedRange unit="page">118-21</citedRange></bibl>
+                    <bibl><ptr target="LHW1910"/>Lhwyd 1910 <citedRange unit="page">90</citedRange></bibl>
                 </listBibl>
                </div>
         </body>
