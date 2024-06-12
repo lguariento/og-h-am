@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Llanfaelog 2</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>             
+                <editor role="editor" xml:id="MK"><persName>Megan Kasten</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-AGY-001</idno>
+                 <idno type="CIIC">N/A</idno>
+                <idno type="CISP">LFAEL/1</idno>
+                <idno type="WelshCorpus">AN13</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Set in the ground in an outbuilding north of the farmhouse at Trecastell (SH 3346 7066</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>  
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>  
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Gwynedd Archaeological Trust Regional Historic Environment Record: <ref target="https://archwilio.org.uk/her/"><idno type="HER">3033</idno>Penseri Farm (Penseri Bach, Penseiri Bach)</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType>, described as <q>brown weathering, grey-green coarse-grained sandstone...derived from the local Ordovician strata...[which] occur 1.5km to the north-west</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">163</citedRange></bibl>. 
+                                    <dimensions unit="m">
+                                        <height>1.6</height>
+                                        <width>0.45</width>
+                                       <depth>0.35</depth></dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with a Roman-letter inscription in the centre of its largest smooth face just beneath a diagonal fault line. The inscription is in one line reading vertically downwards. The stone is also inscribed with an Ogham inscription in one line on the right-hand edge of the face inscribed with Roman letters. The Ogham inscription reads vertically upwards. Both inscriptions are <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">163</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The characters in the Roman-letter inscription are capitals <q>MA are ligatures, the strokes are widely spaced and touch the line; the horizontal of the L slopes downwards below the line and the second smaller I is tucked above; S is larger; final I is horizontal [...] The roman-letter capitals, though not evenly set out, do appear ordered and are visually pleasing<bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">163-5</citedRange></bibl>.</q> About the Ogham inscription, the Welsh Corpus notes that <q>the position of the ogams, on the right angle of [the Roman-letter inscribed face] rather than on the left, is less usual, but their closeness to the roman-letter inscription was presumably to indicate that one was the translation of the other <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">165</citedRange></bibl>.</q>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Llanfaelog</placeName>
+                                <geo>53.221267, -4.497758</geo></origPlace>
+                            <origDate notBefore="0500" notAfter="0570" precision="low" datingMethod="#julian" evidence="linguistic">Early to mid-sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Ogham first discovered in August 2007 - not mentioned in CISP
+                        </provenance>
+                        <provenance type="observed">Set in the ground in an outbuilding north of the farmhouse at Trecastell (SH 3346 7066)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+ <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-10" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when ="2023-07-13" who="#MK">Megan Kasten checked information and formatting to ensure consistency with OGHAM standards.</change>
+    <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
+    <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2024-06-12" who="#MK">Megan edited formatting to ensure consistency with OGHAM standards.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Latn" resp="EDW2013">
+                    <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#maila isu"><hi rend="ligature">MA</hi>ILIS<hi rend="inverted">I</hi></name></persName>
+                </ab>
+                </div>
+              <div type="edition" subtype="ogham" xml:space="preserve">
+                  <div type="textpart" n="2" xml:lang="pgl-Ogam" resp="EDW2013">
+                  <ab><title>Ogham</title>:
+                      <lb n="1" style="text-direction:up"/><persName><name nymRef="#maila isu">&#x168B;&#x1690;<gap reason="lost" quantity="3" unit="character"/>&#x1684;<unclear reason="worn">&#x1692;</unclear></name></persName>
+                  </ab>    
+              </div>  
+            </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve">
+                <div type="textpart" n="2" xml:lang="pgl-Ogam" resp="EDW2013">
+                    <ab><title>Transliteration</title>:
+                      <lb n="1" style="text-direction:up"/><persName><name nymRef="#maila isu">MA<gap reason="lost" quantity="3" unit="character"/>S<unclear reason="worn">U</unclear></name></persName>
+                  </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p><title>Latin</title>: of <foreign xml:lang="pgl">Mailisus</foreign></p>
+                </div>
+                <div type="textpart" n="2">
+                    <p><title>Ogham</title>: <foreign xml:lang="pgl">Mailisu</foreign></p>
+                </div>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                    <item n="1">
+                        <p>The Roman-letter inscription commemorates, <hi rend="italic">Mailisi</hi>, and consists solely of this name. On the linguistics, the Welsh Corpus notes that <q>in theory, MAILISI could be formed from Welsh...the occurrence of ogam on the stone and the fact that the other name from Llanfaelog (CVNOGVSI on Llanfaelog 1(AN12)) is Irish make it much more likely that MAILISI is Irish, presumably with the element <hi rend="italic">mael</hi> 'bald/tonsured one', common in ecclesiastical names...it seems that MAILISI must be a brutal Latinization of <hi rend="italic">Máel Ísu</hi> ('bald one of Jesus'), with the ubiquitous Latin 'epigraphic -I' genitive having been added inappropriately to an Irish name, as also in Llanfaelog 1 and elsewhere in Britain</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">165</citedRange></bibl>.</p>
+                    </item>
+                    <item n="2">
+                        <p>The fragmentary Ogham inscription has been reconstructed with the assumption that it corresponds to the Roman-letter inscription as well as the spacing between the surviving characters <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">164-5</citedRange></bibl>. The Welsh Corpus notes that <q>only three strokes are visible in the ogam, so it should be read, as expected in Irish, as MA[ILI]SU...if there is a connection between MAILISI and the name <hi rend="italic">Llanfaelog</hi>, one must assume that the Irish name <hi rend="italic">Máel Ísu</hi> was assimilated to the well-known Welsh name <hi rend="italic">Maelog</hi>; the latter may have been employed here as a hypocoristic form of <hi rend="italic">Máel Ísu</hi></q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">165</citedRange></bibl>.</p>
+                    </item>
+                </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">162-5</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
