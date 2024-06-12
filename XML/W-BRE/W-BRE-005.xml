@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trallwng</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>     
+                 <editor role="editor" xml:id="MK"><persName>Megan Kasten</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-BRE-005</idno>
+                 <idno type="CIIC">342</idno>
+                <idno type="CISP">TRLLW/1</idno>
+                <idno type="WelshCorpus">B45</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Inside St David's church, fixed to the north wall of the nave, to the right of the porch</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
+                              <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">579</idno>St David's Church</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType>, described as <q>Mid-red, coarse-grained quartzose sand-stone...the stone is locally derived</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page"> 242</citedRange>.</bibl>
+                                    <dimensions unit="m">
+                                        <height>1.77</height>
+                                        <width>0.36</width>
+                                        <depth>0.15</depth></dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with an Ogham inscription running vertically along the left edge of the stone, reading upwards. The stone also has a Roman-letter inscription in two lines, reading vertically downwards. The stone was later inverted and reused for a cross-carving so inscriptions are inverted in current display as is also seen in B41 and B42 <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">242-4</citedRange></bibl>. Both inscriptions are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved.</rs></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The Roman-letter inscription is in <q>light Roman capitals with one minuscule F and two 'gate' forms of N...in this inscription the C is beginning to become angular; the two Ns, one abot the other, of the repeated element CUNO, show a standard capital above and a 'gate' N below. The dating of the first half of the sixth century suggests that the range of written forms was widening during this century to extend the range of letters thought suitable for monumental use</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">242</citedRange>.</bibl>.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Trallwng</placeName>
+                                <geo>51.949739, -3.514631</geo></origPlace>
+                            <origDate notBefore="0500" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">first half of the sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Discovered c1860 before the rebuilding of the church; Jones publishes a reading of the ogham in 1862.
+                        </provenance>
+                        <provenance type="observed">Inside the church, fixed to the north wall of the nave, to the right of the porch
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-03" who="#BM"> Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-10" who="#MK">Megan Kasten edited formatting and information to match OG(H)AM formatting.</change>
+    <change when="2023-07-19" who="#MK"> Megan Kasten checked formatting to ensure it matched OGHAM standards.</change>
+    <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+     <change when="2024-06-12" who="#MK">Megan edited formatting to ensure consistency with OGHAM standards.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="RED2007">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunaqennas">&#x1689;&#x1692;&#x1685;&#x1690;&#x1689;&#x1693;&#x1685;&#x1685;<unclear reason="worn">&#x1694;</unclear></name><w lemma="avi"><unclear reason="worn">&#x1690;</unclear>&#x1683;<gap reason="lost" extent="1" unit="character"/></w><name nymRef="#eluvetus">&#x1694;&#x1682;&#x1683;&#x1683;&#x1693;&#x1688;&#x1691;</name></persName>
+                </ab>
+                </div>
+                <div type="edition" subtype="roman" xml:space="preserve">
+                <div type="textpart" n="2" xml:lang="pgl-Latn" resp="RED2007">
+                    <ab><title>Latin</title>:
+                        <lb n="1" style="text:direction:down"/><persName><name nymRef="#cunaqennas">CVNOCENNI</name>FILIVS 
+                        <lb n="2" style="text-direction:down"/>CVNOGENIHICIACIT</persName>
+                    </ab>
+                </div>
+                </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve">
+            <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="RED2007">
+                <ab><title>Transliteration</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunaqennas">CUNACENN<unclear reason="worn">I</unclear></name><w lemma="avi"><unclear reason="worn">A</unclear>V<gap reason="lost" extent="1" unit="character"/></w><name nymRef="#eluvetus">ILVVETO</name></persName>
+                </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1" resp="RED2007">
+                <p><title>Ogham</title>:[The stone of] <foreign xml:lang="pgl">Cunacennus</foreign>, descendant of <foreign xml:lang="pgl">Ilvvetus</foreign></p>
+                </div>
+                <div type="textpart" n="2" resp="RED2007">
+                    <p><title>Latin</title>:{The stone] of <foreign xml:lang="pgl">Cunocennus</foreign>. The son of <foreign xml:lang="pgl">Cunogenus</foreign> lies here</p>
+                </div>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                    <item n="1">
+                        <p>The Welsh Corpus notes that <q>[A]V[I] means either 'grandson' or 'descendant' in ogam Irish. The use of this word and ogam script suggests that the name and patronymic are Irish, but they could very well be Old Welsh...the composition vowel A in the ogam suits Irish</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">242</citedRange></bibl>. In the Ogham inscription <q>ILVVETO looks Irish, with Irish genitive in -O...but there are exceptions in Welsh, such as <hi rend="italic">Illtud</hi>...the -O could be due to Hibernicization of a Welsh name. ILVVETO appears to have syncope, but this may be an illusion; the VV may correspond to /uw/ (which should properly be written UV in ogam) or, alternatively, it may be related to the Continental Celtic tribal name <hi rend="italic">Elvetii, Helvetii</hi>. Other etymologies connect it with <hi rend="italic">*wed-</hi> as in Welsh <hi rend="italic">dy-wed-yd</hi>, 'to say', hence 'much-speaking, eloquent' or 'much-spoken-of, famous' or with OI <hi rend="italic">Féth</hi>, gen. <hi rend="italic">Fétho</hi>, '?calm, polished'</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">242-4</citedRange></bibl>.</p>
+                    </item>
+                    <item n="2">
+                        <p>The Roman-letter inscription commemorates the same person as the Ogham inscription but in a different formulae. The Welsh Corpus notes that compared with the composition vowel A in the Ogam script, which suits Irish, <q>the O in the Roman letters suits Britonnic, so there has been an attempt to translate the name from one language into the other</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">242</citedRange></bibl>. A similar attempt has been made in the 'Bamberg Cryptogram' from Gwynedd <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">242-4</citedRange></bibl>.</p>
+                    </item>
+                </list>
+                            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">242-4</citedRange></bibl>
+                </listBibl>
+             </div>
+        </body>
+    </text>
+</TEI>
