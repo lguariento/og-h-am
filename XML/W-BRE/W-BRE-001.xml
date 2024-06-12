@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Llanddeti 1</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>     
+                 <editor role="editor" xml:id="MK"><persName>Megan Kasten</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+               <respStmt>
+                <name ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-BRE-001</idno>
+                 <idno type="CIIC">336</idno>
+                <idno type="CISP">PONTS/1</idno>
+                <idno type="WelshCorpus">B11</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>On open moorland at 455m above sea level, west of the track from Merthyr Tydfil to Talybont</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">928</idno>Ystrad</ref>
+                                    <material>stone</material> <objectType>pillar</objectType>, described as <q>pale grey, darker-grey weathering, coarse-grained sandstone...considered to be locally derived</q> <bibl> <ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">177-8</citedRange></bibl>.
+                                    <dimensions unit="m">
+                                        <height>1.20</height>
+                                        <width>0.38</width>
+                                        <depth>0.36</depth></dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with a worn Ogham inscription along the left-hand edge reading vertically upwards. The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs>. In addition to the Ogham inscription, Webley described detecting a series of weathered horizontal lines potentially representing a Latin inscription which today is illegible <bibl> <ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">178</citedRange> <ptr target="WEB1957"/>Webley 1957</bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The vowels in the inscription have largely worn away but the spaces between the legible characters suggest their original presence <bibl> <ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">178</citedRange></bibl>.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Llanddeti</placeName>
+                                <geo>51.809722, -3.346017</geo></origPlace>
+                            <origDate notBefore="0400" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic"> fifth or sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Recorded and sketched in 1695 by or on behalf of Lhuyd; published illustration in 1910 by Lhwyd which shows ogham - first reading given by Macalister in 1945.
+                        </provenance>
+                        <provenance type="observed">On open moorland at 455m above sea level, west of the track from Merthyr Tydfil to Talybont.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-01" who="#BM"> Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-06" who="#MK">Megan Kasten checked to ensure consistency across OG(H)AM Epidocs.</change>
+        <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
+    <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+     <change when="2024-06-12" who="#MK">Megan edited formatting to ensure consistency with OGHAM standards.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="RED2007">
+                <ab><title>Edition</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas deceddas"><unclear reason="worn">&#x168B;</unclear>&#x1690; &#x168A; <unclear reason="worn">&#x1694;</unclear>&#x1687;<unclear reason="worn">&#x1693;</unclear>&#x1689;<unclear reason="worn">&#x1693;</unclear>&#x1687;<unclear reason="worn">&#x1690;</unclear></name></persName>
+                                    </ab>
+            </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="RED2007">
+                    <ab><title>Transliteration</title>:
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas deceddas"><unclear reason="worn">M</unclear>AQ<unclear reason="worn">I</unclear>D<unclear reason="worn">E</unclear>C<unclear reason="worn">E</unclear>D<unclear reason="worn">A</unclear></name></persName>
+                    </ab>
+            </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1" resp="RED2007">
+                <p>[M]AQ[I]D[E]C[E]D[A] or '[The stone] of <foreign xml:lang="pgl"> Maqas-Deceda</foreign>'</p>
+            </div>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                    <item n="1">
+                        <p>The Ogham inscription is probably a commemorative formula, naming an individual with the popular Irish name <hi rend="italic">*Makʷkʷas-Dekantos</hi> 'son of [the divinity] Dekans', which is also found elsewhere in Britain as <hi rend="italic">CIIC:</hi> no. 326; <hi rend="italic">CIIC:</hi> no. 429; <hi rend="italic">CIIC:</hi> no. 440. The Welsh Corpus notes that <q>in these other forms the genitive ending -I has been rounded to U or O by the preceding labiovelar /kʷ/</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">178</citedRange></bibl>. It is uncertain whether that is the case for this inscription, due to its worn nature, but the Welsh Corpus argues for the ending [I]. The present location of the stone is high and may be the same as when it was originally described but there is a slight possibility that the stone has been moved down the hill and re-erected since it was first described <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">178</citedRange></bibl>.</p>
+                    </item>
+                </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">177-8</citedRange></bibl>
+                    <bibl><ptr target="WEB1957"/>Webley 1957</bibl>
+                </listBibl>
+               </div>
+        </body>
+    </text>
+</TEI>
