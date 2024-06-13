@@ -43,7 +43,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <idno type="CIIC"></idno>
                 <idno type="CISP"></idno>
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>      
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -61,11 +61,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061002-</ref>
+                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061002-</ref>
                                     <material>Sandstone</material> 
                                     <objectType>Pillar (reused as a roof support in a souterrain)</objectType> 
-                                     <dimensions unit="m">
-                                         <dim></dim>
+                                     <dimensions unit="m" source="RON2009">
                                             <height>1.40</height>
                                             <width>0.50</width>
                                             <depth>0.26</depth>
@@ -74,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>This pillar (subrectangular in section narrowing towards the top), along with I-COR-008, has been repurposed as an upright in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>). The lettering, particularly the vowel notches, are quite worn, though still legible. The end of the inscription is lost or not accessible. It is also noteworthy that this stone has numerous <rs type="features" ref="features.xml#grooves">v-sectioned groove marks</rs> on the side to the right of the inscription. There is also an area (beside and to the right of the first few charaters of the inscription) that is <rs type="features" ref="features.xml#smoothing">rubbed or polished smooth</rs>. This is very similar to the 'scoring' and 'smoothing' found on other (both inscribed and uninscribed) stones, for example Ratass ogham stone, Co. Kerry (I-KER-139).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads <rs style="up">up</rs> on the outward facing angle the stone. It is not possible to examine the entire pillar due to its position in the souterrain.</layout>
+                                <layout>The inscription reads up on the outward facing angle the stone. It is not possible to examine the entire pillar due to its position in the souterrain.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -131,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-16" who="#NW">Nora White updated details from fieldwork notes and images, both support description and edition</change>
 <change when="2024-05-24" who="#POC">Patricia O Connor corrected image path</change>
 <change when="2024-05-31" who="#NW">Nora White updated reuse in souterrain to 'object type'</change>
+    <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -163,11 +163,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>                    
-                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                     <bibl><ptr target="MAC1945"/>Macalister 1945
                         <citedRange>63-4</citedRange>
                     </bibl>
                      <bibl>
-                         <ptr target="#RON2009"/>Ronan et al. 2009
+                         <ptr target="RON2009"/>Ronan et al. 2009
                          <citedRange>no. 16162</citedRange> 
                      </bibl>
                 </listBibl>

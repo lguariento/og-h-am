@@ -60,11 +60,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO053-072----</ref><!--Not in database? Added present location SMR below, which is there-->
+                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO053-072----</ref><!--Not in database? Added present location SMR below, which is there-->
                                     <material>Stone (sandstone?)</material> 
                                     <objectType>pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim></dim>
+                                     <dimensions unit="m" source="#NW">
                                             <height>0.97</height>
                                             <width>0.28</width>
                                             <depth>0.15</depth>
@@ -73,11 +72,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>According to Macalister (1945, 65) the height of the stone was 97cm (3 feet 2 inches) but only 89cm are currently accessible above the display box. The stone is damaged at both ends leaving the inscription fragmentary.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads <rs style="up">up</rs> on one angle.</layout>
+                                <layout>The inscription reads up on one angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed with large, well-spaced strokes (e.g. the two G strokes are <height>13cm</height> long, with 3.5cm space between them).
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed with large, well-spaced strokes (e.g. the two G strokes are <height>13cm</height> long, with 3.5cm space between them).
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -90,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1914">The stone was found repurposed as a gate-post for a farm wall by <persName><roleName>Rev.</roleName> Canon Power</persName> in <date>1914</date>.
                         </provenance>
-                        <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), at University College Cork (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO074-151----</ref>). 
+                        <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), at University College Cork (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO074-151----</ref>). <!--Add coordinates for UCC? -->
                         </provenance>
                     </history>
                 </msDesc>
@@ -130,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change> 
 <change when="2024-06-09" who="#NW">Nora White updated support description (including dimensions) and edition based on fieldwork notes</change>
 <change when="2024-06-11" who="#NW">Added resp to translation</change>
+    <change when="2024-06-13" who="#NW">Removed rs style from layout and # from bibl</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -163,10 +163,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                     <bibl><ptr target="MAC1945"/>Macalister 1945
                         <citedRange>65, no. 61</citedRange>
                     </bibl>
-                     <bibl><ptr target="#MCM2004"/>McManus 2004
+                     <bibl><ptr target="MCM2004"/>McManus 2004
                         <citedRange>21-22, no. 24</citedRange>></bibl>
                 </listBibl>
             </div>

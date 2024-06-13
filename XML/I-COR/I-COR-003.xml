@@ -60,21 +60,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049002- </ref>
+                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049002- </ref>
                                     <material></material> 
                                     <objectType>pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim></dim>
-                                            <height>2.5</height>
-                                            <width>0.6</width>
-                                            <depth>0.3</depth>
+                                     <dimensions unit="m" source="MAN2000">
+                                            <height>2.50</height>
+                                            <width>0.60</width>
+                                            <depth>0.30</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The stone is heavily covered by lichen in parts, and the <q>'inscription is weathered and defaced by cattle rubbing and hone scores'</q> (Power 1992, 163). Macalister reported that the inscription was vandalised, rendering its interpretation difficult <q>"for anyone who had not previously been familiar with it" (1945, 62).</q>  On inspection of the 3d data, some of the ogham scores and notches are now lost (MA of MAQI) or unclear (I of MAQI, R and U of TRENU) due to wear, lichen and damage. 
-                        It is now impossible to be sure of the intended final vowel in Macalister's TRENU as the notches are very worn. Two can be just about made out on the 3d model (which would give an O) but there would be space for three (giving a U).</condition>
+                                <condition>The stone is heavily covered by lichen in parts, and the <q>inscription is weathered and defaced by cattle rubbing and hone scores</q> (Power 1992, 163). Macalister (1945, 62) reported that the inscription was vandalised, rendering its interpretation difficult <q>for anyone who had not previously been familiar with it</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription runs <rs type="style">upwards</rs> along the SE edge starting 0.45m from ground to near full height of the stone.</layout>
+                                <layout>The inscription runs upwards along the SE edge starting 0.45m from ground to near full height of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -131,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
 <change when="2024-05-10" who="#NW">Nora White added 3d recording information (respStmt), Text Class (referencing FAIR vocabularies for epigraphy), OG(H)AM codes to other referenced ogham stones and provenance (observed) info. Also standardised edition (adding Unicode) and commentary and added origDate and execution type. </change>
 <change when="2024-05-24" who="#POC">Patricia O Connor corrected image path</change>
+     <change when="2024-06-13" who="#NW">Updated foreign language codes (pgl to sga), removed rs style from layout, # from bibl and added source to dimensions</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -167,31 +166,32 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation" xml:lang="en">
                 <head>Translation</head>
-                <p><q>of Trén/Trian son of the descendant of Creth? (Crothrige?)</q></p>
+                <p><q>of <foreign xml:lang="sga">Trén/Trian</foreign> son of the descendant of <foreign xml:lang="sga">Creth</foreign>? (Crothrige?)</q></p>
             </div>
             <div type="commentary">
                 <head>Commentary</head>
                 <list type="witDetail">
-                    <item n="1"><p>A genitive TRENI (Old Irish <foreign xml:lang="sga">o</foreign>-stem <foreign xml:lang="sga" corresp="https://dil.ie/41798">Trén</foreign> 'strong') might be expected here, as in MAQI-TRENI (I-COR-035 / CIIC 86. <placeName>Ballyknock</placeName> V and in <placeName>Wales</placeName>: W-BRE-006 / CIIC 341. <placeName>Llywell</placeName> and W-PEM-004 / CIIC 428. <placeName>Cillgerran</placeName>). However, McManus (1991, 179, note 35) notes that <q>MacNeill (1909, 361) compares the MS gen. <foreign xml:lang="pgl">Tréno</foreign>, <foreign xml:lang="pgl">Tréna</foreign> and suggests reading TRENO, which is possible</q>. The retention of the -I in QRITTI would suggest dating this inscription to the first half of the sixth century.</p></item>
-                    <item n="2"><p>cp. I-KER-013 / CIIC 146. <placeName>Ballineanig</placeName>, Co. <placeName>Kerry</placeName>: <foreign xml:lang="pgl">LỤGỤQṚỊT MAQ̣Ị QRITTỊ</foreign>. Also, I-COR-016 / CIIC 68. <placeName>Kilcaskan</placeName>, <foreign xml:lang="pgl">LUGUQRIT[...]LONAS</foreign>); CIIC 207. <placeName>Kilcoolaght</placeName> II, <placeName type="county">Kerry</placeName> (<foreign xml:lang="pgl">[...]ECC MAQI L[UGUQ]RRIT</foreign>).</p></item>
-                    <item n="3"><p>Labialised guttural /<hi rend="italic">k<hi rend="superscript">w</hi></hi>/ preserved in <foreign xml:lang="pgl">QRITTI</foreign>, related to <foreign xml:lang="sga" corresp="https://dil.ie/13271">cruth</foreign> 'form, shape' (McManus 1991, 121).</p></item>
+                    <item n="1"><p>On inspection of the 3d data, some of the ogham scores and notches are now lost (MA of MAQI) or unclear (I of MAQI, R and U of TRENU) due to wear, lichen and damage. It is now impossible to be sure of the intended final vowel in Macalister's TRENU as the notches are very worn. Two can be just about made out on the 3d model (which would give an O) but there would be space for three (giving a U).</p></item>
+                    <item n="2"><p>A genitive TRENI (Old Irish <foreign xml:lang="sga">o</foreign>-stem <foreign xml:lang="sga" corresp="https://dil.ie/41798">Trén</foreign> 'strong') might be expected here, as in MAQI-TRENI (I-COR-035 / CIIC 86. <placeName>Ballyknock</placeName> V and in <placeName>Wales</placeName>: W-BRE-006 / CIIC 341. <placeName>Llywell</placeName> and W-PEM-004 / CIIC 428. <placeName>Cillgerran</placeName>). However, McManus (1991, 179, note 35) notes that <q>MacNeill (1909, 361) compares the MS gen. <foreign xml:lang="sga">Tréno</foreign>, <foreign xml:lang="sga">Tréna</foreign> and suggests reading TRENO, which is possible</q>. The retention of the -I in QRITTI would suggest dating this inscription to the first half of the sixth century.</p></item>
+                    <item n="3"><p>cp. I-KER-013 / CIIC 146. <placeName>Ballineanig</placeName>, Co. <placeName>Kerry</placeName>: LỤGỤQṚỊT MAQ̣Ị QRITTỊ. Also, I-COR-016 / CIIC 68. <placeName>Kilcaskan</placeName>, LUGUQRIT[...]LONAS); CIIC 207. <placeName>Kilcoolaght</placeName> II, <placeName type="county">Kerry</placeName> ([...]ECC MAQI L[UGUQ]RRIT).</p></item>
+                    <item n="4"><p>Labialised guttural /<hi rend="italic">k<hi rend="superscript">w</hi></hi>/ preserved in QRITTI, related to <foreign xml:lang="sga" corresp="https://dil.ie/13271">cruth</foreign> 'form, shape' (McManus 1991, 121).</p></item>
                 </list>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="#BRA1879"/>Brash 1879
+                     <bibl><ptr target="RA1879"/>Brash 1879
                      <citedRange></citedRange>
                      </bibl>
-                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                     <bibl><ptr target="MAC1945"/>Macalister 1945
                         <citedRange>62, no. 57</citedRange>
                      </bibl>
-                     <bibl><ptr target="#MAN2000"/>Manning 2000
+                     <bibl><ptr target="MAN2000"/>Manning 2000
                      <citedRange>107–112</citedRange>
                      </bibl>
                          <bibl><ptr target="MCM1991"/>McManus 1991
                          <citedRange>121-179</citedRange>
                          </bibl>
-                        <bibl><ptr target="#POW1997"/>Power et al. 1997
+                        <bibl><ptr target="POW1997"/>Power et al. 1997
                          <citedRange>no. 7965</citedRange>
                          </bibl>                    
                 </listBibl>

@@ -60,11 +60,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049001- </ref>
+                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO042-049001- </ref>
                                     <material></material> 
                                     <objectType>pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim></dim>
+                                     <dimensions unit="m" source="#NW">                                         
                                             <height>1.54</height>
                                             <width>0.46</width>
                                             <depth>0.36</depth><!-- Measurements taken from 3D data !-->
@@ -73,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The inscription is clear but possibly incomplete, as the top of the stone looks damaged. Macalister (1945, 62) thought he could see traces at the top of MAQI (cut off mid Q) but this is very uncertain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is running <rs type="style">up</rs> one angle.</layout>
+                                <layout>The inscription is running up one angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -131,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition</change>
 <change when="2024-05-10" who="#NW">Nora White added 3d recording information (respStmt), Text Class (referencing FAIR vocabularies for epigraphy), OG(H)AM codes to other referenced ogham stones and provenance (observed) info. Also standardised edition (adding Unicode) and commentary and added origDate and execution type. </change>
 <change when="2024-05-24" who="#POC">Patricia O Connor corrected image path</change>
+    <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -163,7 +163,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
               <div type="translation" xml:lang="en">
                 <head>Translation</head>
-                <p><q>of Cathub [son of]</q></p>
+                <p>'of <foreign xml:lang="sga">Cathub</foreign> [son of]'</p>
             </div>
             <div type="commentary">
                 <head>Commentary</head>
@@ -175,19 +175,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="#BUC1907"/>Buckley 1907
+                     <bibl><ptr target="BUC1907"/>Buckley 1907
                      <citedRange>116-8</citedRange>
                      </bibl>
-                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                     <bibl><ptr target="MAC1945"/>Macalister 1945
                         <citedRange>62, no. 58</citedRange>
                     </bibl>
-                     <bibl><ptr target="#MAN2000"/>Manning 2000
+                     <bibl><ptr target="MAN2000"/>Manning 2000
                      <citedRange>107–112</citedRange>
                      </bibl>
-                     <bibl><ptr target="#MCM1991"/>McManus 1991
+                     <bibl><ptr target="MCM1991"/>McManus 1991
                      <citedRange>89-117</citedRange>
                      </bibl>
-                      <bibl><ptr target="#POW1997"/>Power et al. 1997
+                      <bibl><ptr target="POW1997"/>Power et al. 1997
                          <citedRange>no. 7964</citedRange>
                          </bibl>
                 </listBibl>

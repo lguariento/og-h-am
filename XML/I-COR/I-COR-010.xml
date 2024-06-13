@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO063-026----</ref>
                                     <material>reddish clay slate</material> 
                                     <objectType>pillar</objectType> 
-                                     <dimensions unit="m">
+                                     <dimensions unit="m" source="MAC1945">
                                          <dim></dim>
                                             <height>1.3</height>
                                             <width>0.7</width>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>This stone was removed from the site at some stage since the 1940s and its current location is unknown. The dimensions supplied here have been converted from Macalister (1945, 65-6) who described the inscription as worn away by cattle and almost illegible.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription ran <rs style="up">up</rs> on the dexter angle of the S face of the stone.</layout>
+                                <layout>The inscription ran up on the dexter angle of the S face of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-22" who="#POC">Patricia O Connor corrected image path</change>
 <change when="2024-06-09" who="#NW">Nora White updated support description (adding that the stone is now lost and Macalister's converted dimensions) and edition</change>
 <change when="2024-06-09" who="#NW">Updated resp and source in edition</change>
+    <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -141,12 +142,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="#MAC1945">
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
                 <ab><title>Ogham</title>: 
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="undefined" evidence="previouseditor" cert="low">ᚇᚑᚉᚏᚐᚅᚑ<unclear reason="damage">ᚏ</unclear>ᚔ</supplied></name></persName>  
                 </ab>
              </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW" source="#MAC1945">
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW" source="MAC1945">
                 <ab><title xml:lang="en">Transliteration</title>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="undefined" evidence="previouseditor" cert="low">DOCRANO<unclear reason="damage">R</unclear>I</supplied></name></persName> 
                 </ab>
@@ -164,7 +165,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                     <bibl><ptr target="MAC1945"/>Macalister 1945
                         <citedRange>65-66, no. 62</citedRange>
                     </bibl>
                 </listBibl>

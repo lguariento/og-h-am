@@ -61,12 +61,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061003-</ref>
+                                <support> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO052-061003-</ref>
                                     <material>Sandstone</material> 
                                     <objectType>pillar (reused as a roof support in a souterrain)</objectType> 
-                                     <dimensions unit="m">
-                                         <dim></dim>
-                                            <height>1.5</height>
+                                     <dimensions unit="m" source="RON2009">
+                                            <height>1.50</height>
                                             <width>0.24</width>
                                             <depth>0.35</depth>
                                      </dimensions>                                   
@@ -74,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Only a few letters of the inscription survive.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>This is an irregularly shaped, rough, sandstone pillar, subrectangular in section, inscribed (reading <rs style="up">up</rs>) on the right angle of one of the narrower faces. The inscribed face of the stone widens towards the top and the ogham inscription, in so far as it survives, is confined to the narrower lower part of the stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061003-</ref>; Ronan 2009, no. 16163).</layout>
+                                <layout>This is an irregularly shaped, rough, sandstone pillar, subrectangular in section, inscribed (reading up) on the right angle of one of the narrower faces. The inscribed face of the stone widens towards the top and the ogham inscription, in so far as it survives, is confined to the narrower lower part of the stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061003-</ref>; Ronan 2009, no. 16163).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -132,7 +131,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-16" who="#NW">Nora White updated details from fieldwork notes and images, both support description and edition</change>
 <change when="2024-05-24" who="#NW">Nora White updated the edition and commentary</change>
 <change when="2024-05-24" who="#POC">Patricia O Connor corrected image path</change>
-<change when="2024-05-31" who="#NW">Nora White updated reuse in souterrain to 'object type' and style tupe to layout</change>    
+<change when="2024-05-31" who="#NW">Nora White updated reuse in souterrain to 'object type' and style tupe to layout</change> 
+    <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -165,11 +165,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="#MAC1945"/>Macalister 1945
+                     <bibl><ptr target="MAC1945"/>Macalister 1945
                         <citedRange>63-4</citedRange>
                     </bibl>
                      <bibl>
-                         <ptr target="#RON2009"/>Ronan et al. 2009
+                         <ptr target="RON2009"/>Ronan et al. 2009
                          <citedRange>no. 16163</citedRange> 
                      </bibl>
                 </listBibl>

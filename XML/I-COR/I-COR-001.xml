@@ -60,10 +60,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO106-064---- </ref>
+                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO106-064----</ref>
                                     <material>Stone</material> 
                                     <objectType>pillar (one of stone pair/alignment)</objectType> 
-                                     <dimensions unit="m">
+                                     <dimensions unit="m" source="RON2009"> <!--check!-->
                                            <height>2.00</height>
                                             <width>1.10</width>
                                             <depth>0.60</depth>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The inscription was badly damaged some time after <date>1845</date>. When examined by <persName>Fionnbarr Moore</persName> in the early <date>1980</date>s only traces of the final four letters of the inscription could be discerned and while these were quite vague they were undoubtedly ogham scores (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO106-064----</ref>).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 60) noted that the inscription is found on the lower half of the stone on the right angle of the eastern face, and runs <rs type="style">up</rs> from near the ground to a height of 1.1m.</layout>
+                                <layout>Macalister (1945, 60) noted that the inscription is found on the lower half of the stone on the right angle of the eastern face, and runs up from near the ground to a height of 1.1m.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-01" who="#POC">Patricia O Connor added text direction to edition.</change>
 <change when="2024-05-07" who="#NW">Nora White added Text Class, referencing FAIR vocabularies for epigraphy and updated edition with latest (tentative) reading.</change>
 <change when="2024-05-24" who="#POC">Patricia O Connor corrected image path</change>
+    <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
