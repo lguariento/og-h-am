@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Name</title>
+                <title>Name (usually townland or parish and number if multiple inscribed stones)</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
 <!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName>
@@ -28,55 +28,65 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <respStmt>
                     <name></name>
                      <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
-                <idno type="filename">OG_H_AM</idno>
+                <idno type="filename">OG_H_AM e.g. I-COR-004</idno>
                  <idno type="CIIC">CIIC ref</idno>
                 <idno type="CISP">CISP ref</idno>
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>Repository</repository>
+                        <repository>Repository/museum</repository>
                         <idno type="invNo">Inventory/Reg</idno>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
                            </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>Medium</term> National Monuments Service SMR/NISMR ID: <ref target="HER Link">Alternative name(s)</ref>
-                                    <material></material> <objectType>Type</objectType> <dimensions><dim>BB</dim></dimensions></support>
-                                <condition/>
+                                <support>National Monuments Service SMR/NISMR ID or other regional authority: <ref target="HER Link">Alternative name(s)/IDs</ref>
+                                    <material>e.g. stone, or specific type if known</material> 
+                                    <objectType>e.g. pillar or slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height></height>
+                                            <width></width>
+                                            <depth></depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>Any damage to the stone/object</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout>Description of the layout of the inscription on the stone/object</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
+                            <handNote>Description of the ogham letters/characters including encoded execution/carving type (e.g. <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>), if known. <height>length of ogham stroke, if known</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Parish</placeName>
+                            <origPlace><placeName type="townland">Parish/townland(Ire)</placeName>
                                 <geo>Decimal Coordinates</geo></origPlace>
-                            <origDate></origDate>
+                            <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found">Earliest Reference or Year of discovery
+                        <provenance type="found">Year (including attribute when in provenance) and circumstances of discovery
                         </provenance>
-                        <provenance type="observed">Current Loc
+                        <provenance type="observed">Current Loc (including attribute when last examined in provenance, if known)
                         </provenance>
                     </history>
                 </msDesc>
@@ -103,41 +113,59 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <textClass>
 <!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
 <!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
-    <creation>Transcription from previous editor.</creation>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
 <change when="2022-09-28" who="#JB">
 Jef Bucas autogenerated EpiDoc output from spreadsheet
 </change>
-
+    <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="example.jpg"/>
-        <media url="3D Data" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-            <div type="edition" xml:space="preserve">
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1"/>Reading
+                    <lb n="1" style="text-direction:up"/>Reading in ogham script (Check direction of reading if known and update where necessary, add new lb if text continues on another angles)
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>Reading transliterated to Latin script, mark-up same as above
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
             </div>
-            <div type="translation">
+            <div type="translation" xml:lang="en">
                 <p></p>
             </div>
             <div type="commentary">
-                <p></p>
+                 <list type="witDetail">
+                    <item n="1"><p></p>
+                    </item>
+                 </list>
             </div>
             <div type="bibliography">
-                <p></p>
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>Author year
+                     <citedRange>page numbers</citedRange>
+                     </bibl>
+                 </listBibl>
             </div>
         </body>
     </text>
