@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-10" who="#NW">Nora White added 3d recording information (respStmt), Text Class (referencing FAIR vocabularies for epigraphy), OG(H)AM codes to other referenced ogham stones and provenance (observed) info. Also standardised edition (adding Unicode) and commentary and added origDate and execution type. </change>
 <change when="2024-05-24" who="#POC">Patricia O Connor corrected image path</change>
     <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
+    <change when="2024-06-14" who="#NW">Removed titles from edition as test</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,14 +143,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
-                <ab><title>Ogham</title>: 
+                <ab>
                     <lb n="1" style="text-direction:up"/>
                     <persName><w lemma="#?">ᚉᚐᚈᚈᚒᚁᚒᚈᚈᚐᚄ</w>
                     <w type="formula" lemma="maqqas"><unclear reason="damaged" cert="low">ᚋ</unclear><supplied reason="lost" evidence="previouseditor" cert="low">ᚐᚊᚔ</supplied></w></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
-                <ab><title xml:lang="en">Transliteration</title>
+                <ab>
                     <lb n="1" style="text-direction:up"/>
                     <persName><w lemma="#?">CATTUBUTTAS</w>
                     <w type="formula" lemma="maqqas"><unclear reason="damaged" cert="low">M</unclear><supplied reason="lost" evidence="previouseditor" cert="low">AQI</supplied></w></persName>
