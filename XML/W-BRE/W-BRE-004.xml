@@ -63,9 +63,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"> <idno type="HER">699</idno></ref>
-                                    <material>Stone</material> <objectType>pillar</objectType>, described as <q>Pale red, imbedded conglomerate and sandstone</q><bibl><ptr target="RED2007"/> Redknap and Lewis 2007<citedRange unit="page">160</citedRange></bibl>.
-                                    <dimensions unit="m">
+                                <support>CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"> <idno type="HER">699</idno></ref>
+                                    <material>Stone</material> <objectType>pillar</objectType>, described as <q>Pale red, imbedded conglomerate and sandstone</q>(Redknap and Lewis 2007, 160).
+                                    <dimensions unit="m" source="RED2007">
                                         <height>2.20</height>
                                         <width>0.55</width>
                                         <depth>0.27</depth>
@@ -73,17 +73,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a roman-letter inscription in four lines reading vertically downwards. The first and final line in the inscription are the final words of the middle lines due to lack of space. A corresponding ogham insciption starts at the bottom left edge continuing upwards along the top of the stone, and ending one third of the way along the top. Both inscriptions are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved some with a bevel.</rs> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 160-1</citedRange></bibl></layout>
+                                <layout>The stone is inscribed with a roman-letter inscription in four lines reading vertically downwards. The first and final line in the inscription are the final words of the middle lines due to lack of space. A corresponding ogham insciption starts at the bottom left edge continuing upwards along the top of the stone, and ending one third of the way along the top. Both inscriptions are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved some with a bevel.(Redknap and Lewis 2007, 160-1).</rs> </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The layout of the roman-letter inscription in four lines as a response to lack of space is similar to the Brynkir inscription and shows the letter-cutters' understanding of Roman convention for inscriptions of more than one line to be right-justified a certain height above the ground. The letters seem to reflect a higher degree of care put into the carving of TURPILLI, the name of the dead, than in the rest given more cramped letters in the rest of the inscription. In the ogham inscription, the fourth letter seems to be X, a variation of a character to represent P. <bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 160-1</citedRange></bibl>  
+                            <handNote>The layout of the roman-letter inscription in four lines as a response to lack of space is similar to the Brynkir inscription and shows the letter-cutters' understanding of Roman convention for inscriptions of more than one line to be right-justified a certain height above the ground. The letters seem to reflect a higher degree of care put into the carving of TURPILLI, the name of the dead, than in the rest given more cramped letters in the rest of the inscription. In the ogham inscription, the fourth letter seems to be X, a variation of a character to represent P (Redknap and Lewis 2007, 160-1). 
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Crickhowell</placeName>
+                            <origPlace corresp="findspot" ref="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/50acad97-3c7e-415d-9b64-222497e7e5ed"><placeName type="parish">Crickhowell</placeName>,<placeName type="county">Brecknockhire (<foreign xml:lang="cy">Brycheiniog</foreign>)</placeName>.
                                 <geo>51.866872, -3.126958</geo></origPlace>
                             <origDate notBefore="0500" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic"> sixth century A.D.</origDate>
                         </origin>
@@ -131,6 +131,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-07-19" who="#MK">Megan Kasten edited formatting to ensure consistency with new OGHAM formatting decisions.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
          <change when="2024-06-12" who="#MK">Megan edited formatting to ensure consistency with OGHAM standards.</change>
+    <change when="2024-06-17" who="#MK">Removed excessive bibl ptrs and added placename reference. Removed text from bibl section and changed resp/source info on editions. Translation requires additional attention from #DS/#KF</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -141,7 +142,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
-                <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="RED2007">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="#BM" source="RED2007">
                 <ab><title>Ogham</title>:
                     <lb n="1" style="text-direction:up"/> <persName><name nymRef="#turpilius">&#x1688;&#x1692;&#x168F;<c type="forfid">&#x1695;</c><unclear reason="worn">&#x1694;</unclear>&#x1682;<unclear reason="worn">&#x1682;&#x1694;</unclear><gap reason="lost" extent="unknown" unit="character"/>&#x1682;<unclear reason="worn">&#x1692;</unclear>&#x1685;
                     <lb n="2" style="text-direction:across" break="no"/> <unclear reason="worn"> &#x1694; </unclear></name></persName>
@@ -149,7 +150,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 </div>
             </div>
                     <div type="edition" subtype="roman" xml:space="preserve">
-                    <div type="textpart" n="2" xml:lang="pgl-Latn" resp="RED2007">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn" resp="#BM" source="RED2007">
                         <ab><title>Latin</title>:
                             <lb n="1" style="text-direction:down"/>CIT
                             <lb n="2" style="text-direction:down" break="no"/><persName><name nymRef="#turpilius">TVRPILLIICIA</name>
@@ -159,7 +160,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                                </div>
                     </div>
             <div type="edition" subtype="transliteration" xml:space="preserve">
-                 <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="RED2007">
+                 <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="#BM" source="RED2007">
                      <ab><title>Transliteration</title>:
                          <lb n="1" style="text-direction:up"/><persName><name nymRef="#turpilius">TURP<unclear reason="worn">I</unclear>L<unclear reason="worn">LI </unclear><gap reason="lost" extent="unknown" unit="character"/>L<unclear reason="worn">U</unclear>N
                          <lb n="2" style="text-direction:across" break="no"/><unclear reason="worn">I</unclear></name></persName>
@@ -169,29 +170,29 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                   <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+<!--            Needs #DS/#KF attention <div type="translation" xml:lang="en">
                 <div type="textpart" n="1" resp="RED2007">
                     <p><title>Ogham</title>:[The stone] of <foreign xml:lang="pgl">Turpillius</foreign> (or <foreign xml:lang="pgl">Turpilus</foreign>), the son of <foreign xml:lang="pgl">Trillunus</foreign></p>        
                 </div>
             </div>
                 <div type="textpart" n="2" resp="RED2007">
                     <p><title>Latin</title>:[The stone] of <foreign xml:lang="pgl">Turpilius</foreign> (or <foreign xml:lang="pgl">Turpilus</foreign>). He lies here, the son of <foreign xml:lang="pgl">Trilunus Dunocatus</foreign></p>
-            </div>
+            </div>-->
             <div type="commentary">
                 <list type="witDetail">
                         <item n="1">
-                <p>The ogam inscription consists of the same commemoration as the Latin inscription. The date depends on<q> the significance of the use of U for /u/>/ö/ in TVRPILLI...Assuming that the name DVNOCATI is Irish; if it were British, the insription would be very early and probably incompatible with the epigraphic date...The first name is either <hi rend="italic">Turpilius</hi> or <hi rend="italic">Turpilus</hi> both well attested. They are orignially pejorative Latin names from <hi rend="italic">turpis</hi> and would have been borne by a Welshman or an Irishman </q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 161</citedRange>.</bibl> The ogam corresponding to TRILVNI has been read in various ways including T[RA]LL[O]NI but TRILLUNI is more likely.<q>Various Welsh etymologies can be suggested, such as 'of three forms'(<bibl><ptr target="RHY1897"/>Rhys 1897 <citedRange unit="page"> 381-2</citedRange></bibl>), 'very abundant'(<hi rend="italic">trylawn</hi>), 'very strong'(<hi rend="italic">trylonn</hi>) or 'of three moons', perhaps referrring to the time of birth </q>.<bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 162</citedRange></bibl> It is also possible that TRILVNI is a mis-transcription of the ogam with the L symbol potentially really representing a BB in TRIBBUNI and BB standing in for /b/ or P.<q>The ogam inscription is notable for containing the symbol 'X', a rare attempt to represent the Latin P...Dunacatus is made up of Irish elements, but is a name not found in ogam inscriptions, though it developed later into the Old Irish name 'Dúnchad'.</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 161-2</citedRange></bibl>.</p></item>
+                <p>The ogam inscription consists of the same commemoration as the Latin inscription. The date depends on<q> the significance of the use of U for /u/>/ö/ in TVRPILLI...Assuming that the name DVNOCATI is Irish; if it were British, the insription would be very early and probably incompatible with the epigraphic date...The first name is either <hi rend="italic">Turpilius</hi> or <hi rend="italic">Turpilus</hi> both well attested. They are orignially pejorative Latin names from <hi rend="italic">turpis</hi> and would have been borne by a Welshman or an Irishman </q>(Redknap and Lewis 2007, 161). The ogam corresponding to TRILVNI has been read in various ways including T[RA]LL[O]NI but TRILLUNI is more likely.<q>Various Welsh etymologies can be suggested, such as 'of three forms' (Rhys 1897, 381-2), 'very abundant'(<hi rend="italic">trylawn</hi>), 'very strong'(<hi rend="italic">trylonn</hi>) or 'of three moons', perhaps referrring to the time of birth </q>(Redknap and Lewis 2007, 162). It is also possible that TRILVNI is a mis-transcription of the ogam with the L symbol potentially really representing a BB in TRIBBUNI and BB standing in for /b/ or P.<q>The ogam inscription is notable for containing the symbol 'X', a rare attempt to represent the Latin P...Dunacatus is made up of Irish elements, but is a name not found in ogam inscriptions, though it developed later into the Old Irish name 'Dúnchad'</q> (Redknap and Lewis 2007, 161-2).</p></item>
                     <item n="2">
-                   <p>The Latin inscription corresponds to the ogam inscription. Corresponding to the ogam inscription's MOSAC, the Latin inscription has PVVERI instead of Classical Latin <hi rend="italic">pueri</hi>, 'of the boy'. Here the VV denotes the British pronunciation /uṷ/. <q>Charles <bibl><ptr target="THO1994"/>Thomas 1994<citedRange unit="page"> 124</citedRange></bibl> suggests that TRILVNI was intended for TRIBUNI, as in <hi rend="italic">CIIC</hi>: no. 476/<bibl><ptr target="OKA1993"/>Okasha 1993</bibl>: no. 45, TRIBVNI (Latin tribunus or personal name Tribunus), with Roman B miscopied as L, and suggests that it is the same name as Triphun in the Dyfed king-list...DVNOCATI (also attested in Britain in <hi rend="italic">CIIC</hi>:no. 457/<bibl><ptr target="OKA1993"/>Okasha 1993</bibl>: no. 18 DVNOCATI with Irish patronymic) can be the ancestor of either Irish <hi rend="italic">Dúnchad</hi> or OW <hi rend="italic">Din(a)cat</hi>, MW <hi rend="italic">Din(o)gat</hi>, both well attested personal names. It is probably Irish since /u:/ has already changed via /ü:/ to /i:/ in Britonnic in the 'middle of the fifth century' according to Jackson...The Primitive Irish genetive would be <hi rend="italic">*Dūnacatōs</hi>, but Latinate -I can be expected to replace the Irish -OS in Britain. It is less likely that DVNOCATI is a place-name (functioning like SALICIDVNI in the Llywel inscription) although a place in south Wales called <hi rend="italic">Brehant Din Cat</hi>, 'guttur receptaculum pugnae' is mentioned by the ninth-century Breton hagiographer Wrmonoc.</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 161-2</citedRange></bibl>.</p> </item>
+                   <p>The Latin inscription corresponds to the ogam inscription. Corresponding to the ogam inscription's MOSAC, the Latin inscription has PVVERI instead of Classical Latin <hi rend="italic">pueri</hi>, 'of the boy'. Here the VV denotes the British pronunciation /uṷ/. <q>Charles Thomas (1994, 124) suggests that TRILVNI was intended for TRIBUNI, as in <hi rend="italic">CIIC</hi>: no. 476/Okasha 1993: no. 45, TRIBVNI (Latin tribunus or personal name Tribunus), with Roman B miscopied as L, and suggests that it is the same name as Triphun in the Dyfed king-list...DVNOCATI (also attested in Britain in <hi rend="italic">CIIC</hi>:no. 457/Okasha 1993: no. 18 DVNOCATI with Irish patronymic) can be the ancestor of either Irish <hi rend="italic">Dúnchad</hi> or OW <hi rend="italic">Din(a)cat</hi>, MW <hi rend="italic">Din(o)gat</hi>, both well attested personal names. It is probably Irish since /u:/ has already changed via /ü:/ to /i:/ in Britonnic in the 'middle of the fifth century' according to Jackson...The Primitive Irish genetive would be <hi rend="italic">*Dūnacatōs</hi>, but Latinate -I can be expected to replace the Irish -OS in Britain. It is less likely that DVNOCATI is a place-name (functioning like SALICIDVNI in the Llywel inscription) although a place in south Wales called <hi rend="italic">Brehant Din Cat</hi>, 'guttur receptaculum pugnae' is mentioned by the ninth-century Breton hagiographer Wrmonoc.</q>(Redknap and Lewis 2007, 161-2).</p> </item>
                 </list>
             </div>
             <div type="bibliography">
                 <head>Bibliography</head>
                 <listBibl>
-                <bibl><ptr target="OKA1993"/>Okasha 1993</bibl>
-                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 160-2</citedRange></bibl>
-                    <bibl><ptr target="RHY1897"/>Rhys 1897 <citedRange unit="page"> 381-2</citedRange></bibl>
-                <bibl><ptr target="THO1994"/>Thomas 1994<citedRange unit="page"> 124</citedRange></bibl>                   
+                <bibl><ptr target="OKA1993"/></bibl>
+                    <bibl><ptr target="RED2007"/><citedRange unit="page"> 160-2</citedRange></bibl>
+                    <bibl><ptr target="RHY1897"/><citedRange unit="page"> 381-2</citedRange></bibl>
+                <bibl><ptr target="THO1994"/><citedRange unit="page"> 124</citedRange></bibl>                   
                 </listBibl>
                             </div>
         </body>
