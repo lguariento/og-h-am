@@ -1,5 +1,5 @@
 # og-h-am
-Harnessing digital technologies to transform understanding of ogham writing, from the 4th century to the 21st. 
+Harnessing digital technologies to transform understanding of ogham writing, from the 4th century to the 21st.
 ### Overview: 
 The project will harness digital tools from different fields to transform scholarly and popular understanding of ogham—an ancient script unique to Ireland and Britain.
 This project provides the long-awaited opportunity to complete the corpus of ogham-inscribed Irish stones begun by the Dublin Institute for Advanced Studies Ogham in 3D project (2012-15, 2016-17; created by White with our partner organisations, the Discovery Programme, and the Irish Government’s National Monuments Service) and to extend it to include oghams in all media, including the many outside the Republic of Ireland.
