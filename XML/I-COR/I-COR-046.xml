@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ballyhank 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-046</idno>
+                 <idno type="CIIC">97</idno>
+                <idno type="CISP">BAHAN/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>NMI</repository>
+                        <idno type="invNo">W2</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO085-067003- </ref>
+                                    <material></material> 
+                                    <objectType>pillar (reused in souterrain)</objectType> 
+                                     <dimensions unit="m">
+                                         <dim></dim>
+                                            <height>0.6</height>
+                                            <width>0.3</width>
+                                            <depth>0.1</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>The stone is broken and missing the beginning of the first part of the inscription.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>There is evidence of two inscriptions on the stone. The first inscription is on two angles of the stone and reads upwards, across the top and then down. According to Macalister, the first inscription which is given as ...]LL MAQI VORRTIGURN is a secondary inscription. The older inscription on the stone which is given as DIOBI reads upwards was apparently copied <q>in minute pin-scrapes on the unoccupied part of the second inscribed angle</q> (Macalister 1945, 93). </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Macalister described the inscription's minute scores as <q>like rather straggling <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">knife-cuts</rs></q> (1945, 93).<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9212">
+                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga">Baile Sheanc</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <geo>51.831516, -8.609832</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found" when="1846">Discovered by <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain (CO085-067002-) in the SW quadrant of a ringfort (CO085-067001-), with five other ogham stones (I-COR-047); (I-COR-048); (I-COR-049); (I-COR-050); and (I-COR-051).
+                        </provenance>
+                        <provenance type="observed">Now in the collection of the National Museum of Ireland (see DU018-369----).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass> 
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-06-20" who="#POC">Added and encoded information, including edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-COR/I-COR-046-MAC1945-94-Ballyhank-97.jpg"><desc>Sketch by Macalister</desc></graphic>
+        <media url="https://sketchfab.com/3d-models/ballyhank-97-ogham-stone-223326e7b5dd4d139ec7ab3cd8481a70" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC">
+                <div type="textpart" n="1">
+                    <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">ᚐᚔᚂᚓ</supplied>ᚂᚂᚐ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="?">ᚃᚑᚏᚏ
+                        <lb n="2" style="text-direction:across" break="no"/>ᚈᚔᚌᚒ
+                        <lb n="3" style="text-direction:down" break="no"/>ᚏᚅ</name></persName>
+                </ab>
+                </div>
+                <div type="textpart" n="2">
+                    <ab>
+                        <lb n="1" style="text-direction:up" source="MAC1945"/>ᚇᚔᚑᚁᚔ
+                    </ab>
+            </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+                <div type="textpart" n="1">
+                    <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">AILE</supplied>LLA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORR
+                        <lb n="2" style="text-direction:across" break="no"/>TIGU
+                        <lb n="3" style="text-direction:down" break="no"/>RN</name></persName>
+                </ab>
+                </div>
+                <div type="textpart" n="2">
+                    <ab>
+                        <lb n="1" style="text-direction:up" source="MAC1945"/>DIOBI
+                    </ab>
+            </div>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>93-94</citedRange>
+                    </bibl>
+                     <bibl><ptr target="POW1997"/>
+                     <citedRange>no. 7948</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
