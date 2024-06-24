@@ -136,18 +136,32 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
-                <ab><title>Transliteration</title>:
-                    <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">MAQI</w> LAS?OG, B/M[ ]TTM[ ]Cge</persName> (McManus)
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC">
+            <ab>
+                <lb n="1" style="text-direction:up"/>
+                <lb n="2" style="text-direction:up" break="no"/>
+            </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MCM2004">
+                <ab>                    
+                    <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">MAQI</w> LAS<unclear reason="ambiguous">?</unclear>OG, 
+                        <lb n="2" style="text-direction:up" break="no"/><choice><unclear>B</unclear><unclear>M</unclear></choice><gap reason="lost" quantity="1" unit="character"/>TTM<gap reason="lost" quantity="1" unit="character"/>Cge</persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app>
                     <rdg source="MCM2004">
-                        <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">MAQI</w> LAS?OG, B/M[ ]TTM[ ]Cge</persName> (McManus)
+                        <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">MAQI</w> LAS<unclear reason="ambiguous">?</unclear>OG, 
+                            <lb n="2" style="text-direction:up" break="no"/><choice><unclear>B</unclear><unclear>M</unclear></choice><gap reason="lost" quantity="1" unit="character"/>TTM<gap reason="lost" quantity="1" unit="character"/>Cge</persName>                     
                     </rdg>
                 </app>
+                    <app>
+                        <rdg source="MAC1945">
+                            <lb n="1" style="text-direction:up"/><persName>MAQILASPOG
+                <lb n="2" style="text-direction:up" break="no"/>B<gap reason="lost" quantity="1" unit="character"/>TTMACDE</persName>
+                        </rdg>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
