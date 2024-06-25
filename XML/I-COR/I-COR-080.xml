@@ -127,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-30" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-21" who="#POC">Added and encoded the ogham edition, updated the  transliteration edition, added supplied encoding for damaged characters, deleted Transliteration title, updated provenance with details about being bought in 1940 by the public museum, added details about the damaged characters in the inscription, deleted free text in bibliography.</change>
 <change when="2024-06-24" who="#POC">Removed the rs element from layout.</change>
-<change when="2024-06-25" who="#POC">Added idno element to SMR numbers.</change>
+<change when="2024-06-25" who="#POC">Added idno element to SMR numbers, moved Macalister reading to apparatus, updated transliteration and ogham edition</change>
 
 </listChange>
 </revisionDesc>
@@ -138,26 +138,33 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">ᚇᚑᚃᚓᚈᚔ</name> <w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied>ᚊ<supplied reason="lost">ᚔ</supplied></w> <name nymRef="#">ᚂᚑᚉᚐᚏᚓᚅᚐ
-                        <lb n="2" style="text-direction: across" break="no"/>ᚄ</name> 
-                    <lb n="3" style="text-direction:up" break="no"/><w type="formula" lemma="celi">ᚉ<supplied reason="lost">ᚓᚂ</supplied>ᚔ</w> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost">ᚐ</supplied>ᚊ<supplied reason="lost">ᚔ</supplied></w> <name nymRef="#">ᚉᚒᚂᚔᚇ
-                        <lb n="4" style="text-direction:across" break="no"/>ᚑᚃᚔ</name></persName> 
+                    <lb n="1" style="text-direction:up"/>
+                    <lb n="2" style="text-direction: across" break="no"/>
+                    <lb n="3" style="text-direction:up" break="no"/>
+                    <lb n="4" style="text-direction:across" break="no"/> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">DOVETI</name> <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">LOCARENA
-                        <lb n="2" style="text-direction:across" break="no"/>S</name> 
-                    <lb n="3" style="text-direction:up"/><w type="formula" lemma="celi">C<supplied reason="lost">EL</supplied>I</w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">CULID
-                        <lb n="4" style="text-direction:across" break="no"/>OVI</name></persName> 
+                    <lb n="1" style="text-direction:up"/>
+                    <lb n="2" style="text-direction: across" break="no"/>
+                    <lb n="3" style="text-direction:up" break="no"/>
+                    <lb n="4" style="text-direction:across" break="no"/>
                 </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app></app>
-                </listApp>-->
+                <listApp>
+                <app>
+                <rdg source="MAC1945">
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">DOVETI</name> <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">LOCARENA
+                        <lb n="2" style="text-direction:across" break="no"/>S</name> 
+                    <lb n="3" style="text-direction:up"/><w type="formula" lemma="celi">C<supplied reason="lost">EL</supplied>I</w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">CULID
+                        <lb n="4" style="text-direction:across" break="no"/>OVI</name></persName>
+                </rdg>
+                </app>
+                </listApp>
             </div>
             <div type="translation">
                 <p></p>
