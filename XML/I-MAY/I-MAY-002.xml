@@ -56,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    National Monuments Service Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">MA093-045003-</ref>
+                                    National Monuments Service Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">MA093-045003-</idno></ref>
                                         <material>Stone</material> 
                                         <objectType>Pillar</objectType>                                    
                                          <dimensions unit="m">
@@ -117,13 +117,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2021-11-25" who="#NW">Nora White manually converted from O3D schema/8.13</change>
-<change when="2024-04-15" who="#POC">Patricia O Connor encoded personal and place name information within provenance and also added information to condition</change>
-<change when="2024-04-23" who="#NW">Nora White added info on observed provenance and date</change> 
-<change when="2024-04-30" who="#POC">Patricia O Connor reverted change list order, added Macalister sketch</change>
-<change when="2024-05-07" who="#NW">Nora White added Text Class, referencing FAIR vocabularies for epigraphy</change>  
-<change when="2024-05-22" who="#POC">Patricia O Connor corrected image path</change>
-<change when="2024-06-10" who="#NW">Nora White added palaeographic info in handnote regarding similarity of two inscriptions</change>
+<change when="2021-11-25" who="#NW">Manually converted from O3D schema/8.13</change>
+<change when="2024-04-15" who="#POC">Encoded personal and place name information within provenance and also added information to condition</change>
+<change when="2024-04-23" who="#NW">Added info on observed provenance and date</change> 
+<change when="2024-04-30" who="#POC">Reverted change list order, added Macalister sketch</change>
+<change when="2024-05-07" who="#NW">Added Text Class, referencing FAIR vocabularies for epigraphy</change>  
+<change when="2024-05-22" who="#POC">Corrected image path</change>
+<change when="2024-06-10" who="#NW">Added palaeographic info in handnote regarding similarity of two inscriptions</change>
+<change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
+
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -137,7 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                  <div type="textpart" n="1">
-                <ab><title>Ogham</title>:
+                <ab>:
                     <lb n="1" style="text-direction:up"/>
                     <persName><name nymRef="#lugaidu">&#x1682;&#x1692;&#x168C;&#x1690;&#x1687;&#x1687;&#x1691;&#x1685;</name>
                     <w lemma="maqqas">&#x168B;&#x1690;<unclear reason="damage">&#x168A;</unclear>                 
@@ -157,7 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga" resp="#NW">
                  <div type="textpart" n="1">
-                <ab><title>Transliteration</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/>
                     <persName><name nymRef="#lugaidu">LUGADDON</name>
                     <w lemma="maqqas">MA<unclear reason="damage">Q</unclear>
@@ -195,21 +197,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="bibliography">
                  <head>Bibliography</head>
                 <listBibl>                                                                                   
-                    <bibl><ptr target="MAC1945"/>Macalister 1945
+                    <bibl><ptr target="MAC1945"/>
                         <citedRange>6-7</citedRange>
                     </bibl>
-                    <bibl><ptr target="MCM1991"/>McManus 1991
+                    <bibl><ptr target="MCM1991"/>
                         <citedRange>65, 79, 95, 96,
                             103, 113, 116, 117, 120, 122, 181</citedRange>
                     </bibl>
-                    <bibl><ptr target="RHY1907"/>Rhys 1907
+                    <bibl><ptr target="RHY1907"/>
                         <citedRange>61-68</citedRange>
                     </bibl>
                     <bibl>
-                        <ptr target="STI2010"/>Stifter 2010
+                        <ptr target="STI2010"/>
                         <citedRange>23-24</citedRange>
                     </bibl>
-                    <bibl><ptr target="UHL1989"/>Uhlich 1989
+                    <bibl><ptr target="UHL1989"/>
                         <citedRange>131</citedRange>
                     </bibl>
                 </listBibl>
