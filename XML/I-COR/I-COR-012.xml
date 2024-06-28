@@ -63,17 +63,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO065-033----</idno> </ref>
                                     <material></material> 
                                     <objectType>pillar (reused in souterrain)</objectType> 
-                                     <dimensions unit="m">
-                                         <dim></dim>
-                                            <height>1.9</height>
-                                            <width>0.5</width>
-                                            <depth>0.3</depth>
+                                     <dimensions unit="m" source="MAC1945">                                         
+                                            <height>1.93</height>
+                                            <width>0.50</width>
+                                            <depth>0.30</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is in fair condition, but worn. According to Macalister, the sixth letter <q>O is there, but very faint. The N depends, not on the edge of the stone but on a crack which runs from the edge into the B-surface</q> (Macalister 1945, 69).</condition>
+                                <condition>The inscription is in fair condition, but worn. According to Macalister (1945, 69), the sixth letter, O, <q> is there, but very faint. The N depends, not on the edge of the stone but on a crack which runs from the edge into the B-surface</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister noted that the inscription is on the dexter angle of the SE face and reads downward <q>suggesting that the stone (in its pre-souterrain days) was erect as an uninscribed pillar-stone on another site, and that it was inscribed when in that position</q>.</layout>
+                                <layout>Macalister noted that the inscription is on the dexter angle of the SE face and, unusually, reads downward.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -131,11 +130,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-24" who="#POC">Removed rs from layout; replaced historic environment viewer with Ogham project code</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-06-28" who="#NW">added 3d recording info, updated edition, apparatus and bibliography and removed extra broken NMS links</change>
+<change when="2024-06-28" who="#NW">added source to dimensions and corrected image path</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="../..\images/IRE/I-COR/I-COR-012-MAC1945-69-Glenawillin-II.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-012-MAC1945-69-Glenawillin-II.jpg"/>
         <graphic url="IRE/I-COR/I-COR-012_Glenawillin_II.jpg"/>
         <media url="https://sketchfab.com/3d-models/glenawillin-ogham-stone-7b35b009397746e6a11a9da8236152cd" mimeType="text/html"><desc>3d model by Nora White on SketchFab</desc></media>
     </facsimile>    
