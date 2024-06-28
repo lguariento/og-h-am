@@ -85,7 +85,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11538">
                                 <placeName type="townland">Tullig More</placeName> (<foreign xml:lang="ga">An Tulaigh Mhór</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>findspot uncertain</geo></origPlace>
+                                <geo></geo>
+                            <note>coordinates unknown</note>
+                            </origPlace>
                             <origDate></origDate>
                         </origin>
                         <provenance type="found" when="1841">Found by <persName>Mr. E. Hawkesworth</persName> and transferred to the Royal Cork Institution.
@@ -127,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-30" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-24" who="#POC">Removed the rs element from layout.</change>
 <change when="2024-06-25" who="#POC">Added idno element to SMR numbers and ogham edition, moved McManus reading to apparatus, deleted free text from bibliography and added Power details.</change>
+<change when="2024-06-28" who="#NW">Added geo note</change>
 
 </listChange>
 </revisionDesc>

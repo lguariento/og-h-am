@@ -85,7 +85,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11451">
                                 <placeName type="townland">Carrigagulla</placeName> (<foreign xml:lang="ga">Carraig an Ghiolla</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>findspot uncertain</geo></origPlace>
+                                <geo></geo>
+                            <note>coordinates unknown</note>
+                            </origPlace>
                             <origDate></origDate>
                         </origin>
                         <provenance type="found">The precise original location is unknown. The stone was found while digging peat in a bog in this townland and was purchased by Cork Public Museum in <date>1940</date>.
@@ -128,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-21" who="#POC">Added and encoded the ogham edition, updated the  transliteration edition, added supplied encoding for damaged characters, deleted Transliteration title, updated provenance with details about being bought in 1940 by the public museum, added details about the damaged characters in the inscription, deleted free text in bibliography.</change>
 <change when="2024-06-24" who="#POC">Removed the rs element from layout.</change>
 <change when="2024-06-25" who="#POC">Added idno element to SMR numbers, moved Macalister reading to apparatus, updated transliteration and ogham edition</change>
+<change when="2024-06-28" who="#NW">Added geo note</change>
 
 </listChange>
 </revisionDesc>

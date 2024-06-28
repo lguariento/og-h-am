@@ -85,7 +85,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9946">
                                 <placeName type="townland">Mountmusic</placeName> (<foreign xml:lang="ga">Cnoc Amhráin</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>findspot uncertain</geo></origPlace>
+                                <geo></geo>
+                            <note>coordinates unknown</note>
+                            </origPlace>
                             <origDate></origDate>
                         </origin>
                         <provenance type="found" when="1845"><persName>Windele</persName> found the stone lying prostrate in a field and <q>had it set up again, but afterwards moved it to his own house</q> (Macalister 1945, 131).
@@ -128,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-30" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-21" who="#POC">Added and encoded the ogham edition, added a note element for the extra information in objectType, added extra information to layout and condition about the inscription and the cross, added another provenance element for McManus observations.</change>
 <change when="2024-06-25" who="#POC">Added idno element to SMR numbers, encoded the cross with rs element for decoration, deleted free text from bibliography.</change>
+<change when="2024-06-28" who="#NW">Added geo note</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
