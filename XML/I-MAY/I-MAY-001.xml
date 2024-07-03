@@ -55,7 +55,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                   National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">MA093-038001-</ref>. 
+                                   National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-"><idno type="SMR">MA093-038001-</idno></ref>. 
                                         <material>Stone</material> 
                                         <objectType>Pillar</objectType>                                     
                                          <dimensions unit="m" source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">
@@ -86,7 +86,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" notAfter="1898"><p>First published in <date>1898</date> by <persName>John Rhys</persName>. The stone presumably once stood upright in the barrow but when first recorded it was already tilting to the W at an angle of 75 degrees, with ‘the apex at a height of five feet [1.5m] from the ground level’ (Cochrane 1898, 401; <ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">ASI field report, 2017</ref>).</p>
                         </provenance>
-                        <provenance type="observed" when="2022">Embedded in the top of a barrow (MA093-038002-) crowning the NE end of a steep-sided ridge. Incremental tilting to the W has continued since it's discovery in <date>1898</date>, to the extent that the stone is now almost prostrate; the base remains embedded in the top of the NE perimeter of the barrow, with apex/top now tilted to a <height max="0.43" unit="metre">height of 0.43m</height> above the surface of the shallow, central hollow of the barrow (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, field report <date>2017</date>, SMR ID: MA093-038001-</ref>). Visited and 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
+                        <provenance type="observed" when="2022">Embedded in the top of a barrow (<idno type="SMR">MA093-038002-</idno>) crowning the NE end of a steep-sided ridge. Incremental tilting to the W has continued since it's discovery in <date>1898</date>, to the extent that the stone is now almost prostrate; the base remains embedded in the top of the NE perimeter of the barrow, with apex/top now tilted to a <height max="0.43" unit="metre">height of 0.43m</height> above the surface of the shallow, central hollow of the barrow (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, field report <date>2017</date>, SMR ID: MA093-038001-</ref>). Visited and 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
                         </provenance>
                     </history>
                 </msDesc>
@@ -116,12 +116,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange> 
-<change when="2022-09-20" who="#NW">Nora White created xml doc</change>
-<change when="2024-04-15" who="#POC">Patricia O Connor encoded the date and personal name information in provenance and encoded information concerning the condition of the stone and inscription</change>
-<change when="2024-04-23" who="#NW">Nora White added refs to ASI and info on observed provenance and date</change>
-<change when="2024-04-29" who="#POC">Patricia O Connor reverted change list order, and added image url for Macalister sketch</change>
-<change when="2024-05-07" who="#NW">Nora White added Text Class, referencing FAIR vocabularies for epigraphy</change>   
-<change when="2024-05-22" who="#POC">Patricia O Connor corrected image path and added Text Class referencing FAIR vocabularies for epigraphy</change>
+<change when="2022-09-20" who="#NW">Created xml doc</change>
+<change when="2024-04-15" who="#POC">Encoded the date and personal name information in provenance and encoded information concerning the condition of the stone and inscription</change>
+<change when="2024-04-23" who="#NW">Added refs to ASI and info on observed provenance and date</change>
+<change when="2024-04-29" who="#POC">Reverted change list order, and added image url for Macalister sketch</change>
+<change when="2024-05-07" who="#NW">Added Text Class, referencing FAIR vocabularies for epigraphy</change>   
+<change when="2024-05-22" who="#POC">Corrected image path and added Text Class referencing FAIR vocabularies for epigraphy</change>
+<change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -132,7 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
              <div type="edition" subtype="transcription" xml:space="preserve" xml:lang="pgl" resp="#NW">
-                <ab><title>Transcription (ogham)</title>: 
+                <ab>
                     <lb n="1" style="text-direction:up"/>
                     <persName><name nymRef="#cunalenga">ᚉ<unclear reason="damage">ᚒᚅ</unclear>ᚐᚂᚓᚌ<choice><unclear>ᚔ</unclear><unclear>ᚓᚐ</unclear></choice></name>
                         <space quantity="1" unit="stroke"/><w lemma="avias" pos="">ᚐ<unclear reason="damage">ᚃ</unclear><supplied reason="lost">ᚔ</supplied></w>
@@ -141,7 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
              </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
-                <ab><title>Transliteration (Roman)</title>:  
+                <ab>
                     <lb n="1" style="text-direction:up"/>
                     <persName><name nymRef="#cunalenga">C<unclear reason="damage">UN</unclear>ALEG<choice><unclear>I</unclear><unclear>EA</unclear></choice></name>
                         <space quantity="1" unit="stroke"/><w lemma="avias">A<unclear reason="damage">V</unclear><supplied reason="lost">I</supplied></w>
@@ -161,13 +162,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="bibliography">
                  <head>Bibliography</head>
                  <listBibl>                                                                            
-                    <bibl><ptr target="MAC1945"/>Macalister 1945 
+                    <bibl><ptr target="MAC1945"/> 
                         <citedRange>5</citedRange>
                     </bibl>
-                    <bibl><ptr target="MCM1991"/>McManus 1991
+                    <bibl><ptr target="MCM1991"/>
                         <citedRange>95, 113</citedRange>
                     </bibl>
-                    <bibl><ptr target="RHY1898"/>Rhys 1898
+                    <bibl><ptr target="RHY1898"/>
                         <citedRange>396–398</citedRange>
                     </bibl>
                  </listBibl>

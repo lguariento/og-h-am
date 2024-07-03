@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007002- </ref>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO055-007002-</idno> </ref>
                                     <material>Sandstone</material> 
                                     <objectType>pillar (found ‘loose’ in a souterrain with 14 other ogham stones)</objectType> 
                                      <dimensions unit="m">
@@ -88,9 +88,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>52.034620, -8.082370</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1890">Discovered in the NW quadrant of a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007001-</ref>). According to <persName>Barry</persName> (1890, 518), the stone was <q>'found loose in the cave'</q> (souterrain <ref>CO055-007003-</ref>) where fourteen other ogham stones were found: (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007005-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007006-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007007-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007008-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007009-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007010-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007011-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007012-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007013-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007014-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007015-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007016-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007017-</ref>; <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007018-</ref>).
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO055-007001-</idno></ref>). According to <persName>Barry</persName> (1890, 518), the stone was <q>'found loose in the cave'</q> (souterrain <idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were found: (I-COR-032; I-COR-033; I-COR-034; I-COR-035; I-COR-036; I-COR-037; I-COR-038; I-COR-039; I-COR-040; I-COR-041; I-COR-042; I-COR-043; I-COR-044; I-COR-045).
                         </provenance>
-                        <provenance type="observed">This stone was retained by the farmer when 13 others were removed to University College Cork (12) and Lismore Castle (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO055-007013-</ref>) in the early 20th century (Power 1932, 11). However, according to Macalister (1945, 85, No. 82), who returned to examine the stone before <date>1945</date>, the farm was deserted and there was no trace of the stone (Power et al. 1994, no. 4215).
+                        <provenance type="observed">This stone was retained by the farmer when 13 others were removed to University College Cork (12) and Lismore Castle (<idno type="SMR">CO055-007013-</idno>) in the early 20th century (Power 1932, 11). However, according to Macalister (1945, 85, No. 82), who returned to examine the stone before <date>1945</date>, the farm was deserted and there was no trace of the stone (Power et al. 1994, no. 4215).
                         </provenance>
                     </history>
                 </msDesc>
@@ -124,7 +124,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
 <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-24" who="#POC">Patricia O Connor added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
+<change when="2024-05-24" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
+<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham codes in provenance, moved encoded Macalister reading to apparatus, added ogham division.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -134,15 +135,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                <lb n="1" style="text-direction:up"/>
+            </ab>
+            </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
-                <ab><title>Transliteration</title>:
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">MAILAGURO</name> <w type="formula" lemma="maqqas">MAQ<supplied reason="lost" resp="#MAC1945">I</supplied></w>[--]VILEB[--</persName> 
+                <ab>
+                    <lb n="1" style="text-direction:up"/> 
                 </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app></app>
-                </listApp>-->
+                <listApp>
+                <app>
+                    <rdg source="MAC1945">
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">MAILAGURO</name> <w type="formula" lemma="maqqas">MAQ<supplied reason="lost" resp="#MAC1945">I</supplied></w><gap reason="lost" quantity="2" unit="character"/>VILEB<gap reason="lost" quantity="2" unit="character"/></persName>
+                    </rdg>
+                </app>
+                </listApp>
             </div>
             <div type="translation">
                 <p></p>
@@ -152,13 +162,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="BAR1890"/>Barry 1890
+                     <!--<bibl><ptr target="BAR1890"/>
                          <citedRange>518</citedRange>
-                     </bibl>
-                     <bibl><ptr target="MAC1945"/>Macalister 1945
+                     </bibl> Need to find reference and add to zotero-->
+                     <bibl><ptr target="MAC1945"/>
                         <citedRange>84-85, no. 82</citedRange>
                     </bibl>
-                     <bibl><ptr target="POW1994"/>Power et al. 1994, 
+                     <bibl><ptr target="POW1994"/> 
                          <citedRange>no. 4215</citedRange>
                      </bibl>
                 </listBibl>

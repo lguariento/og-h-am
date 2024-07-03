@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Nora White</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2017-11-10"/> and processed using Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -60,20 +60,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-033---- </ref>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO065-033----</idno> </ref>
                                     <material></material> 
                                     <objectType>pillar (reused in souterrain)</objectType> 
-                                     <dimensions unit="m">
-                                         <dim></dim>
-                                            <height>1.9</height>
-                                            <width>0.5</width>
-                                            <depth>0.3</depth>
+                                     <dimensions unit="m" source="MAC1945">                                         
+                                            <height>1.93</height>
+                                            <width>0.50</width>
+                                            <depth>0.30</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is in fair condition, but worn. According to Macalister, the sixth letter <q>O is there, but very faint. The N depends, not on the edge of the stone but on a crack which runs from the edge into the B-surface</q> (Macalister 1945, 69).</condition>
+                                <condition>The inscription is in fair condition, but worn. According to Macalister (1945, 69), the sixth letter, O, <q> is there, but very faint. The N depends, not on the edge of the stone but on a crack which runs from the edge into the B-surface</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister noted that the inscription is on the dexter angle of the SE face and reads <rs type="style">downward</rs> <q>suggesting that the stone (in its pre-souterrain days) was erect as an uninscribed pillar-stone on another site, and that it was inscribed when in that position</q>.</layout>
+                                <layout>Macalister noted that the inscription is on the dexter angle of the SE face and, unusually, reads downward.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,9 +88,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.969371, -8.179727</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1844">Found within a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-03202-</ref>) opened by <persName><roleName>Rev.</roleName> J Cotter</persName> and <persName>W. Hackett</persName> of <placeName>Midleton</placeName> in <date>1844</date> inside a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-03201-</ref>) next to Ballynatrasna House. A second ogham stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-098----</ref>) found in the same souterrain in now on permanent display in the Stone Corridor, University College Cork (see <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO074-146----</ref>). 
+                        <provenance type="found" when="1844">Found within a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-03202-</ref>) opened by <persName><roleName>Rev.</roleName> J Cotter</persName> and <persName>W. Hackett</persName> of <placeName>Midleton</placeName> in <date>1844</date> inside a ringfort next to Ballynatrasna House (Archaeological Survey of Ireland (ASI), field report). A second ogham stone (I-COR-011) found in the same souterrain is now on permanent display in the Stone Corridor, University College Cork. 
                         </provenance>
-                        <provenance type="observed">Re-erected within the townland on the site of <q>'another erased rath'</q> (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-097----</ref>) (Atkinson 1883-84, 309).
+                        <provenance type="observed" when="2017">Re-erected within the townland on the site of another now erased rath.
                         </provenance>
                     </history>
                 </msDesc>
@@ -125,40 +124,60 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
 <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-01" who="#POC">Patricia O Connor added and encoded information, including image urls</change>
-<change when="2024-05-13" who="#POC">Patricia O Connor added Text Class, referencing FAIR vocabularies for epigraphy</change>
-<change when="2024-05-22" who="#POC">Patricia O Connor added Macalister sketch of inscription</change>
+<change when="2024-05-01" who="#POC">Added and encoded information, including image urls</change>
+<change when="2024-05-13" who="#POC">Added Text Class, referencing FAIR vocabularies for epigraphy</change>
+<change when="2024-05-22" who="#POC">Added Macalister sketch of inscription</change>
+<change when="2024-06-24" who="#POC">Removed rs from layout; replaced historic environment viewer with Ogham project code</change>
+<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
+<change when="2024-06-28" who="#NW">added 3d recording info, updated edition, apparatus and bibliography and removed extra broken NMS links</change>
+<change when="2024-06-28" who="#NW">added source to dimensions and corrected image path</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="../..\images/IRE/I-COR/I-COR-012-MAC1945-69-Glenawillin-II.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-012-MAC1945-69-Glenawillin-II.jpg"/>
         <graphic url="IRE/I-COR/I-COR-012_Glenawillin_II.jpg"/>
-        <media url="https://sketchfab.com/3d-models/glenawillin-ogham-stone-7b35b009397746e6a11a9da8236152cd" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <media url="https://sketchfab.com/3d-models/glenawillin-ogham-stone-7b35b009397746e6a11a9da8236152cd" mimeType="text/html"><desc>3d model by Nora White on SketchFab</desc></media>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
-                <ab><title xml:lang="en">Transliteration</title>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#?">LODIMONI</name></persName> 
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#?">ᚂᚑᚇᚔ<unclear reason="faded">ᚋᚐ</unclear>ᚅᚔ</name></persName> 
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#?">LODI<unclear reason="faded">MA</unclear>NI</name></persName> 
                 </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app></app>
-                </listApp>-->
+                <listApp>
+                <app>
+                    <rdg source="MAC1945">
+                        <lb n="1" style="text-direction:down"/>LODIMONI
+                    </rdg>
+                    <rdg source="OKE1945">
+                        <lb n="1" style="text-direction:down"/>LADIMANI
+                    </rdg>
+                </app>
+                </listApp>
             </div>
             <div type="translation">
                 <p></p>
             </div>
             <div type="commentary">
-                <p>Read by Macalister (1945, 68, no. 64) as LODIMONI and read by O'Kelly (1945, 152-3) as LADIMANI.</p>
+                <p></p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>Macalister 1945
+                     <bibl><ptr target="MAC1945"/>
                         <citedRange>68-69, no. 64</citedRange>
                     </bibl>
+                     <bibl><ptr target="OKE1945"/>
+                     <citedRange>152-153</citedRange>
+                     </bibl>
                 </listBibl>
             </div>
         </body>
