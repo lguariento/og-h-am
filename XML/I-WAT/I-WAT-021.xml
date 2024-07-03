@@ -133,7 +133,9 @@ surface soil, on top of the filling stones'</q>(Mongey 1935, 267). A fragment wi
 <change when="2024-04-30" who="#POC">Reverted list change order, and added Macalister sketches</change>
 <change when="2024-05-22" who="#POC">Corrected image path and added Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
-<change when="2024-06-28" who="#NW">Added geo note</change>   
+<change when="2024-06-28" who="#NW">Added geo note</change> 
+<change when="2024-07-03" who="#NW">Updated edition e.g. 'reason="ambiguous"' attribute to unclear tag to indicate could be any character from this aicme, and translation</change>
+
 
 </listChange>
 </revisionDesc>
@@ -148,13 +150,13 @@ surface soil, on top of the filling stones'</q>(Mongey 1935, 267). A fragment wi
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1"/>
-                     <w lemma="avias"><supplied reason="lost">ᚐ</supplied><unclear reason="damage">ᚃ</unclear>ᚔ</w> <name nymRef="*?">ᚇᚐᚔᚋᚐᚌ<unclear reason="damage">ᚅ</unclear>ᚔ</name>
+                     <w lemma="avias"><supplied reason="lost">ᚐ</supplied><unclear reason="ambiguous">ᚃ</unclear><unclear reason="damage">ᚔ</unclear></w> <name nymRef="*daimagnas">ᚇᚐᚔᚋᚐᚌ<unclear reason="damage">ᚅ</unclear>ᚔ</name>
                 </ab>
             </div>
              <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>  
                     <lb n="1"/>                     
-                     <w lemma="avias"><supplied reason="lost">A</supplied><unclear reason="damage">V</unclear>I</w> <name nymRef="*?">DAIMAG<unclear reason="damage">N</unclear>I</name>
+                     <gap reason="lost" extent="unknown"/><w lemma="avias"><supplied reason="lost">A</supplied><unclear reason="ambiguous">V</unclear><unclear reason="damage">I</unclear></w> <name nymRef="*daimagnas">DAIMAG<unclear reason="damage">N</unclear>I</name>
                 </ab>
             </div>       
             <div type="apparatus">
@@ -163,7 +165,7 @@ surface soil, on top of the filling stones'</q>(Mongey 1935, 267). A fragment wi
                 </listApp>-->
             </div>
             <div type="translation">
-                <p>'of the sept of <foreign xml:lang="sga" corresp="https://dil.ie/14224">Daimíne</foreign>'</p>
+                <p>'of the descendant of *Dáemán'</p>
             </div>
             <div type="commentary">
                 <p></p>

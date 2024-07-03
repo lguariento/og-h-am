@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-04-30" who="#POC">Reverted change list order, and added Macalister sketch</change>
 <change when="2024-05-22" who="#POC">Corrected image path and added Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
+<change when="2024-07-03" who="#NW">Updated edition with 'reason="ambiguous"' attribute to unclear tag to indicate could be any character from this aicme</change>
 
 </listChange>
 </revisionDesc>
@@ -143,13 +144,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><gap reason="lost" extent="unknown"/><name nymRef="*…nacas"><unclear>ᚐ</unclear>ᚅᚐᚉᚔ</name> <w lemma="maqqas">ᚋᚐᚊᚔ</w><gap reason="lost" extent="unknown"/></persName>
+                    <persName><gap reason="lost" extent="unknown"/><name nymRef="*…nacas"><unclear reason="ambiguous">ᚐ</unclear>ᚅᚐᚉᚔ</name> <w lemma="maqqas">ᚋᚐᚊᚔ</w><gap reason="lost" extent="unknown"/></persName>
                     </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
                     <lb n="1" style="text-direction:up"/>
-                     <persName><gap reason="lost" extent="unknown"/><name nymRef="*…nacas"><unclear>A</unclear>NACI</name> <w lemma="maqqas">MAQI</w><gap reason="lost" extent="unknown"/></persName>
+                     <persName><gap reason="lost" extent="unknown"/><name nymRef="*…nacas"><unclear reason="ambiguous">A</unclear>NACI</name> <w lemma="maqqas">MAQI</w><gap reason="lost" extent="unknown"/></persName>
                 </ab>
             </div>
             <div type="apparatus">
