@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Font test</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>             
+                <editor role="editor" xml:id="MK"><persName>Megan Kasten</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">Test</idno>
+                 <idno type="CIIC">N/A</idno>
+                <idno type="CISP"></idno>
+                <idno type="WelshCorpus"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>  
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>  
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Sandstone</material> <objectType>pillar</objectType>, described as <q>brown weathering, grey-green coarse-grained sandstone...derived from the local Ordovician strata...[which] occur 1.5km to the north-west</q>(Edwards 2013, 163). 
+                                    <dimensions unit="m">
+                                        <height>1.6</height>
+                                        <width>0.45</width>
+                                       <depth>0.35</depth></dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Test</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Test
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/d9aa7b97-6b6b-4fc2-b941-51175cefe8ee"><placeName type="parish"></placeName>,<placeName type="county">Brecknockhire (<foreign xml:lang="cy">Brycheiniog</foreign>)</placeName>
+                                <geo>53.221267, -4.497758</geo></origPlace>
+                            <origDate notBefore="0500" notAfter="0570" precision="low" datingMethod="#julian" evidence="linguistic">Early to mid-sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Ogham first discovered in August 2007 - not mentioned in CISP
+                        </provenance>
+                        <provenance type="observed" source="EDW2013">Set in the ground in an outbuilding north of the farmhouse at Trecastell (SH 3346 7066)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+ <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-10" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when ="2023-07-13" who="#MK">Megan Kasten checked information and formatting to ensure consistency with OGHAM standards.</change>
+    <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
+    <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2024-06-12" who="#MK">Megan edited formatting to ensure consistency with OGHAM standards.</change>
+    <change when="2024-06-18" who="#MK">Added placename info, removed unnecessary bibl ptrs, titles from edition, repository info, text from bibliography, and monument tag</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Latn" resp="#BM" source="EDW2013">
+                    <ab>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#maila isu"><hi rend="ligature">MA</hi>ILIS<hi rend="inverted">I</hi></name></persName>
+                </ab>
+                </div>
+              <div type="edition" subtype="ogham" xml:space="preserve">
+                  <div type="textpart" n="2" xml:lang="pgl-Ogam" resp="#BM" source="EDW2013">
+                  <ab>
+                      <lb n="1" style="text-direction:up"/>test: ᚁᚂᚃᚄᚅᚆᚇᚈᚉᚊᚋᚌᚍᚎᚏᚐᚑᚒᚓᚔᚕᚖᚗᚘᚙᚚ᚛᚜ 
+                  </ab>    
+              </div>  
+            </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve">
+                <div type="textpart" n="2" xml:lang="pgl-Ogam"  resp="#BM" source="EDW2013">
+                    <ab>
+                      <lb n="1" style="text-direction:up"/>test: GwӾOᴵUᴵΦEᴬЖUᴬA͕O͕U͕E͕I͕A̱ḎḂ Ḋ Ġ Ṗ Ċ Ṫ Ṁ Ḟ ṠN̅D̎ℝᶴ
+                  </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+<!--            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p><title>Latin</title>: of <foreign xml:lang="pgl">Mailisus</foreign></p>
+                </div>
+                <div type="textpart" n="2">
+                    <p><title>Ogham</title>: <foreign xml:lang="pgl">Mailisu</foreign></p>
+                </div>-->
+            <!--</div>-->
+            <div type="commentary">
+                <list type="witDetail">
+                    <item n="1">
+                        <p>Test</p>
+                    </item>
+                    <item n="2">
+                        <p>Test</p>
+                    </item>
+                </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="EDW2013"/><citedRange unit="page">162-5</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
