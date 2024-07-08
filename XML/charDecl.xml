@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>nmi</repository>
+                        <idno></idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support> <material/>
+                                     <objectType/> <dimensions/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found"> 
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <charDecl>
+                 <glyph xml:id="forfid_X">
+  <mapping type="ogham">ᚕ</mapping>
+  <mapping type="diplomatic">Ӿ</mapping>
+  <mapping type="interpretation">E/K</mapping> 
+ </glyph>
+                     <glyph xml:id="forfid_disjoined-X">
+  <mapping type="ogham" rend="babel_special">ᚕ</mapping> 
+  <mapping type="diplomatic">Ж</mapping>  
+  <mapping type="interpretation">K, E, X</mapping>  
+ </glyph> 
+                  <glyph xml:id="forfid_OI">
+  <mapping type="ogham">ᚖ</mapping>  
+  <mapping type="diplomatic">Oᴵ</mapping>
+  <mapping type="interpretation">OI, Ó?</mapping>
+ </glyph>
+                     <glyph xml:id="forfid_UI">
+  <mapping type="ogham">ᚗ</mapping>  
+  <mapping type="diplomatic">Uᴵ</mapping>
+  <mapping type="interpretation">UI</mapping>
+ </glyph>
+                     <glyph xml:id="forfid_alternative-UI">
+  <mapping type="ogham" rend="babel_special">ᚗ</mapping>  
+  <mapping type="diplomatic">?</mapping>
+  <mapping type="interpretation">?</mapping>
+ </glyph>
+                <glyph xml:id="forfid_I">
+  <mapping type="ogham">ᚘ</mapping>  
+  <mapping type="diplomatic">Φ</mapping>
+  <mapping type="interpretation">Ph, I?</mapping>
+ </glyph>
+                 <glyph xml:id="forfid_EA">
+  <mapping type="ogham">ᚙ</mapping>  
+  <mapping type="diplomatic">Eᴬ</mapping>
+  <mapping type="interpretation">EA</mapping>
+ </glyph>
+                <glyph xml:id="forfid_P">
+  <mapping type="ogham">ᚚ</mapping>  
+  <mapping type="diplomatic">P</mapping>
+  <mapping type="interpretation">P</mapping>
+ </glyph>
+                 <glyph xml:id="angled_A">
+  <mapping type="ogham" rend="babel_pictish_italic">ᚐ</mapping>  
+  <mapping type="diplomatic">A͕</mapping>
+  <mapping type="interpretation">A?</mapping>
+ </glyph>
+                
+            </charDecl>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <listApp>
+                   <app></app>
+               </listApp>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+               <listBibl>
+                   <bibl></bibl>
+               </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
