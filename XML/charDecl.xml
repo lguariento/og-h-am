@@ -1,21 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
+                <title/>
             </titleStmt>
             <publicationStmt>
-                <authority></authority>
-                <idno type="filename"></idno>
+                <authority/>
+                <idno type="filename"/>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <repository>nmi</repository>
-                        <idno></idno>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc>
@@ -28,14 +25,14 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <height></height>
+                            <handNote> <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace></origPlace>
-                            <origDate></origDate>
+                            <origPlace/>
+                            <origDate/>
                         </origin>
                         <provenance type="found"> 
                         </provenance>
@@ -46,7 +43,7 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <charDecl>
+            <charDecl xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="symbols" xml:base="charDecl.xml">
                  <glyph xml:id="forfid_X">
   <mapping type="ogham">ᚕ</mapping>
   <mapping type="diplomatic">Ӿ</mapping>
