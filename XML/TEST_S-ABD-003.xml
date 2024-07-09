@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Formaston</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MK" ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                     <orgName>University of Glasgow</orgName>
+                <resp><date when="2023-08-08"/><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-ABD-003</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">FRMSN/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                             
+                            <textLang mainLang="sga-Ogam">Old Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang> <!--check language, please -->                              
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore<ref target="https://canmore.org.uk/site/17507/aboyne-old-parish-church-cross-slab"><idno type="Canmore">17507</idno></ref>
+                                    <material>granite</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>1.124</height>
+                                            <width max="0.443" min="0.335">0.443-0.335</width>
+                                            <depth>0.12</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>The surviving cross-slab is only a fragment of the original. <q>'The extant portion represents the bottom right-hand
+quadrant of a cross-slab which has fractured horizontally immediately under the arm'</q> (Forsyth 1996, 262). The carving is well-preserved and the inscription clear (ibid).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The fragment of the Class II symbol-inscribed cross-slab is carved on one face and consists of <q>'the remains of an interlace cross, the mirror symbol, and two vertical lines of incised ogham, one on the moulding at the outer margin of the slab the other, parallel to it, up the face of the slab'</q> (Forsyth 1996, 262). The ogham is carved on the flat surface, not on the angle, and the outer inscription <q>'occupies the whole of the flat band at the margin of the slab'</q> (Forsyth 1996, 267).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Both inscriptions are deeply <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>. The stem of the outer inscription is 55cm long and the stem of the inner inscription is c.56cm long (Forsyth 1996, 267). No word division is indicated (Forsyth 1996, 279).<height>The strokes of the outer inscription are c.3.5cm for the long strokes and c.2cm for the short strokes. The strokes of the inner inscription are c.5cm for the long strokes and c.4cm for the short strokes (Forsyth 1996, 267).</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Aboyne</placeName> <placeName type="county">Aberdeenshire</placeName>
+                                <geo>57.090000, -2.758611</geo></origPlace>
+                            <origDate>late eighth to early ninth century</origDate>
+                        </origin>
+                        <provenance type="found">A mention of the stone was first published in the Proceedings of the Society of Antiquaries of Scoland Journal by Lord Southesk (Southesk 1884, 186). The stone was found lying in the kirkyard at Formaston some time before <date>1874</date> and moved to the grounds of Aboyne Castle by <date>1883</date> (Forsyth 1996, 261). It was taken to Inverurie Museum in <date>1974</date> and thence to the Victory Hall, Aboyne (ibid).
+                        </provenance>
+                        <provenance type="observed" when="2023-08-08">Recorded in <placeName>Aboyne Victory hall</placeName> on <date>August 8th 2023</date>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-02" who="#LH">Encoded physical description, provenance and text</change>   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+         <media url="Complete " mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH">            
+                <ab>
+                    <lb n="1" style="text-direction:up" type="inner"/>
+                    <w  lemma="maqqas">ᚋᚐᚊᚊ</w><orig>ᚖ</orig><persName><name nymRef="#?">ᚈᚐ<hi rend="babel_pictish_italic"><g ref="#angled_L"/></hi><hi rend="babel_pictish_italic"><g ref="#angled_L"/></hi>ᚒᚑᚏᚏ<hi rend="babel_pictish_italic"><g ref="#angled_H"/></hi></name></persName> 
+                    <lb n="2" style="text-direction:up" type="outer"/>
+                    <persName><name nymRef="#?"></name>ᚅ<hi rend="babel_special"><g ref="#forfid_disjoined-X"/></hi>ᚆᚆᚈ</persName><orig>ᚃᚏ<hi rend="babel_pictish_italic"><g ref="#angled_O"/></hi><hi rend="babel_pictish_bold"><g ref="#hammerhead_A"/></hi><unclear reason="illegible">ᚉ</unclear></orig><placeName cert="low">ᚉᚕᚅᚅᚓ<hi rend="babel_pictish_italic"><g ref="#angled_V"/></hi><hi rend="babel_pictish_italic"><g ref="#angled_V"/></hi></placeName> 
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="1" style="text-direction:up" type="inner"/>
+                    <w  lemma="maqqas">MAQQ</w><orig><g type="variant_2" ref="#forfid_OI"/></orig><persName><name nymRef="#?">TA<g ref="#angled_L"/><g ref="#angled_L"/>UORR<g ref="#angled_H"/></name></persName> 
+                    <lb n="2" style="text-direction:up" type="outer"/>
+                    <persName><name nymRef="#?"></name>N<g type="variant_1" ref="#forfid_disjoined-X"/>HHT</persName><orig>VR<g ref="#angled_O"/><g ref="#hammerhead_A"/><unclear reason="illegible">C̣</unclear></orig><placeName cert="low">C<g type="variant_1" ref="#forfid_X"/>NNE<g ref="#angled_V"/><g ref="#angled_V"/></placeName>                   
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>The form of the cross and its decoration suggest that the slab dates between the late eighth and early ninth century, with the ogham inscription likely post-dating the breaking of the monument (Forsyth 1996, 278). Though the dating to the first two decades of the ninth century is most likely, according to Forsyth, she also commemorates that a date in the tenth century or later cannot be completely ruled out (ibid).</p>
+                    </item>
+                    <item n="2"><p>Both ogham inscriptions appear identical in form and carving technique, notes Forsyth, and can therefore be assumed to be contemporaries (Forsyth 1996, 263). Considering the layout of the slab, relating the positioning of the ogham inscription and the other symbols, the ogham is most likely a secondary addition (ibid). This is supported by the fact that both oghams are a complete and intact text as they are (Forsyth 1966, 268).</p>
+                    </item>
+                    <item n="3"><p>The 8th character of outer inscription is an angled-vowel O consisting of two long 'herring-bone' strokes across the stem, angled at the mid-point to point forwards (Forsyth 1996, 271). According to Forsyth, this character is employed in five Scottish ogham inscriptions but not in any other epigraphic context (Forsyth 1996, 275).</p>
+                    </item>
+                    <item n="4"><p>The 11th character of the outer inscription is a 'hammer-head' A consisting of <q>'a single long stroke perpendicularly across the stem with a horizontal bar at its right tip'</q> (Forsyth 1996, 271). According to Forsyth, it appears in five Scottish ogham inscriptions (Forsyth 1996, 277).</p>
+                    </item>
+                    <item n="5"><p>While a certain form of two personal names of Pictish origin, 'Nehht' and 'Talorc', as well as the lemmatized word for 'son' in Irish can be identified, an exact and complete translation of the inscription is not readily available (Forsyth 1996, 278-85).</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>261-287</citedRange>
+                     </bibl>
+                     <bibl><ptr target="SOU1884"/>
+                     <citedRange>186-188</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
