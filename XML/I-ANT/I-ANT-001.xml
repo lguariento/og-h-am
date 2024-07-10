@@ -59,7 +59,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Northern Ireland Sites and Monuments Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">ANT038:032</ref>
+                                <support>Northern Ireland Sites and Monuments Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="NISMR">ANT038:032</idno></ref>
                                     <material>Basalt</material> 
                                     <objectType>Pillar (reused as a roofing stone in a souterrain)</objectType> 
                                      <dimensions unit="m">
@@ -131,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-07" who="#NW">Nora White added Text Class, referencing FAIR vocabularies for epigraphy</change>  
 <change when="2024-05-31" who="#NW">Nora White updated reuse in souterrain to 'object type'</change>
 <change when="2024-06-12" who="#NW">Updated tagging of unclear vowels (choice) in edition</change>
-<change when="2024-07-10" who="#NW">Corrected omission in ogham edition</change>    
+<change when="2024-07-10" who="#NW">Corrected omission in ogham edition, added idno element for SMR number, deleted titles in edition, and removed free text in bibl</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,12 +142,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="MAC1945">
-                <ab><title>Ogham</title>: 
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#...">ᚈᚑᚏᚐᚓᚄᚉ<unclear reason="ambiguous">ᚓᚒ</unclear>ᚄᚐᚄ</name> <w lemma="maqqas">ᚋᚐᚊᚔ</w> <w lemma="mucoi?">ᚋ<choice><unclear>ᚒ</unclear><unclear>ᚒ</unclear><unclear>ᚑ</unclear></choice>ᚉᚑᚔ</w> <name nymRef="#...">ᚋᚓᚒᚈᚔᚅᚔ</name></persName>
                    </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="MAC1945">
-                <ab><title>Transliteration</title>:  
+                <ab> 
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#...">TORAESC<unclear reason="ambiguous">EU</unclear>SAS</name> <w lemma="maqqas">MAQI</w> <w lemma="mucoi?">M<choice><unclear>U</unclear><unclear>O</unclear></choice>COI</w> <name nymRef="#...">MEUTINI</name></persName>                
                 </ab>
             </div>         
@@ -164,10 +164,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="BUI1900"/>Buick 1900
+                     <bibl><ptr target="BUI1900"/>
                         <citedRange>265-271</citedRange>
                     </bibl>
-                     <bibl><ptr target="MAC1945"/>Macalister 1945
+                     <bibl><ptr target="MAC1945"/>
                         <citedRange>297</citedRange>
                     </bibl>
                 </listBibl>
