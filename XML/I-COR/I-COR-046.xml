@@ -127,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-20" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-07-09" who="#POC">Added note for additional info in objectType, updated measurements and layout</change>
-
+<change when="2024-07-11" who="#POC">Changed source to resp in apparatus reading</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -168,7 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app>
-                    <rdg source="MAC1945">
+                    <rdg resp="MAC1945">
                         <div type="textpart" n="1">
                     <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">AILE</supplied>LLA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORR
@@ -178,7 +178,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
                 <div type="textpart" n="2">
                     <ab>
-                        <lb n="1" style="text-direction:up" source="MAC1945"/>DIOBI
+                        <lb n="1" style="text-direction:up" resp="MAC1945"/>DIOBI
                     </ab>
             </div>
                     </rdg>
