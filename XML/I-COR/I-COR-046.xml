@@ -125,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-07-09" who="#POC">Added note for additional info in objectType, updated measurements and layout</change>
 <change when="2024-07-11" who="#POC">Changed source to resp in apparatus reading</change>
+<change when="2024-07-12" who="#POC">Added ogham and transliteration edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -137,28 +138,28 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up"/>
-                        <lb n="2" style="text-direction:across" break="no"/>
-                        <lb n="3" style="text-direction:down" break="no"/>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">ᚐᚔᚂᚓ</supplied>ᚂᚂᚐ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="?">ᚃᚑᚏᚏ
+                        <lb n="2" style="text-direction:across" break="no"/>ᚈᚔᚌᚒ
+                        <lb n="3" style="text-direction:down" break="no"/>ᚏᚅ</name></persName>
                 </ab>
                 </div>
                 <div type="textpart" n="2">
                     <ab>
-                        <lb n="1" style="text-direction:up"/>
+                        <lb n="1" style="text-direction:up"/>ᚇᚔᚑᚁᚔ
                     </ab>
             </div>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up"/>
-                        <lb n="2" style="text-direction:across" break="no"/>
-                        <lb n="3" style="text-direction:down" break="no"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">AILE</supplied>LLA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORR
+                        <lb n="2" style="text-direction:across" break="no"/>TIGU
+                        <lb n="3" style="text-direction:down" break="no"/>RN</name></persName>
                 </ab>
                 </div>
                 <div type="textpart" n="2">
                     <ab>
-                        <lb n="1" style="text-direction:up"/>
+                        <lb n="1" style="text-direction:up"/>DIOBI
                     </ab>
             </div>
             </div>
@@ -168,14 +169,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg resp="MAC1945">
                         <div type="textpart" n="1">
                     <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">AILE</supplied>LLA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORR
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><gap reason="lost" quantity="3" unit="character"/>LLA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORR
                         <lb n="2" style="text-direction:across" break="no"/>TIGU
                         <lb n="3" style="text-direction:down" break="no"/>RN</name></persName>
                 </ab>
                 </div>
                 <div type="textpart" n="2">
                     <ab>
-                        <lb n="1" style="text-direction:up" resp="MAC1945"/>DIOBI
+                        <lb n="1" style="text-direction:up"/>DIOBI
                     </ab>
             </div>
                     </rdg>
