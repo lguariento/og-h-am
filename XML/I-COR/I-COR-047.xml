@@ -124,7 +124,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-20" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, added ogham edition division, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-07-09" who="#POC">Added note for additional info in objectType, updated measurements and layout</change>
-<change when="2024-07-11" who="#POC">Changed source to resp in apparatus reading</change></listChange>
+<change when="2024-07-11" who="#POC">Changed source to resp in apparatus reading</change><change when="2024-07-12" who="#POC">Added ogham and transliteration edition</change>
+
+</listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -135,16 +137,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                     <lb n="2" style="text-direction:up" break="no"/>
-                     <lb n="3" style="text-direction:down" break="no"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?">ᚉᚑᚏᚁᚐᚌᚅᚔ </name>
+                     <lb n="2" style="text-direction:up" break="no"/><w type="formula" lemma="?">ᚊ<supplied reason="lost">ᚑᚔ</supplied></w> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost">ᚐ</supplied>ᚊ<supplied reason="lost">ᚔ</supplied></w> <w type="formula" lemma="?">ᚋᚑᚉ 
+                     <lb n="3" style="text-direction:down" break="no"/>ᚉᚑᚔ</w> <name nymRef="?">ᚉᚑᚏᚑᚈᚐᚅᚔ</name></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
                  <ab>
-                    <lb n="1" style="text-direction:up"/>
-                     <lb n="2" style="text-direction:up" break="no"/> 
-                     <lb n="3" style="text-direction:down" break="no"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?">CORBAGNI </name>
+                     <lb n="2" style="text-direction:up" break="no"/><w type="formula" lemma="?">K<supplied reason="lost">OI</supplied></w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied>Q<supplied reason="lost">I</supplied></w> <w type="formula" lemma="?">MOC 
+                     <lb n="3" style="text-direction:down" break="no"/>COI</w> <name nymRef="?">COROTANI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
