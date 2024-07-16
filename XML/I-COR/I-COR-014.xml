@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally record stone <date when="2023-08-16"/> and processed using Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -61,23 +61,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO102-013----</idno> </ref>
-                                    <material></material> 
+                                    <material source="BRA1879b">Clay slate</material> 
                                     <objectType>pillar</objectType> 
-                                     <dimensions unit="m">
+                                     <dimensions unit="m" source="POW1992">
                                          <dim></dim>
                                             <height>4.70</height>
                                             <width>1.02</width>
                                             <depth>0.32</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The stone is tall and rectangular, narrowing towards the top. The inscription is worn but still legible throughout.</condition>
+                                <condition>This monument is subject to a preservation order made under the National Monuments Acts 1930 to 2014 (PO no. 172/1942). The pillar is exceptionally tall and slender, narrowing towards the top and supported at the base with concrete. Brash (1879b, 197) recorded a height of 17 feet, 6 inches (5.33m) above ground level in 1874. It was presumably straightened and concrete added to the base around the time the Preservation Order was put in place in 1942. The monument is likely a prehistoric standing stone, onto which an ogham inscription was later added. The inscription is worn but still legible throughout. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is on the NW edge.</layout>
+                                <layout>The ogham inscription runs upwards, for 8ft. 3ins. (2.51m), as recorded by Brash (1879, 197), on the left edge of the SSW face which looks towards the bay.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister noted that <q>the letter N in TURANIAS is as a height of somewhere about to 10 ft. [<height unit="m">3.0</height> measurement converted from Macalister] from the ground. Its scores leave the angle to cross the adjacent face of the stone, doubtless because the stance of the lapidary was not high enough to enable him to control his operations adequately. He heightened it - certainly by adding stones to a heap which he had piled up against the pillar - and could then cut the following IA correctly on to the angle; but with the final S he again fell short, and this letter also curves to the right</q> (1945, 71).
+                            <handNote>As pointed out by Macalister (1945, 71 and earlier Rhys), towards the end of the inscription, two of the characters (N and S) curve to the right away from the angle, as if the carver were having difficulty reaching high enough to position them properly.Macalister noted that <q>the letter N in TURANIAS is as a height of somewhere about to 10 ft. [<height unit="m">3.0</height> measurement converted from Macalister] from the ground. Its scores leave the angle to cross the adjacent face of the stone, doubtless because the stance of the lapidary was not high enough to enable him to control his operations adequately. He heightened it - certainly by adding stones to a heap which he had piled up against the pillar - and could then cut the following IA correctly on to the angle; but with the final S he again fell short, and this letter also curves to the right</q> (1945, 71).
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -87,17 +87,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/8780">
                                 <placeName type="townland">Faunkill and the Woods (<foreign xml:lang="ga">Fánchoill agus Na Coillte</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.712874, -9.944582</geo></origPlace>
-                            <origDate></origDate>
+                            <origDate notBefore="0400" notAfter="0475">First half, or early second half, of the fifth century</origDate>
                         </origin>
-                        <provenance type="found" when="1849">Macalister confirmed Sir John Rhys' proposal that this was a <q>bronze-age megalith</q> that was <q>adapted for the purpose of an inscribed monument</q> (1945, 71).<!-- Not sure if this should go here!-->
+                        <provenance type="found" when="1874">First recorded by Brash (1879, 196-200) in 1874 and described by him as 'leaning considrably' with many loose stones around the base. 
                         </provenance>
-                        <provenance type="observed">On a rockcrop overlooking Ballycrovane Harbour to the West. 
+                        <provenance type="observed">On a rockcrop overlooking Ballycrovane Harbour to the west and better known as the 'Ballycrovane' ogham stone. Visited and 3d recorded for the OG(H)AM project in August <date>2023</date>.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>             
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -126,26 +126,28 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-13" who="#POC">Added Text Class, referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-05-22" who="#POC">Added Macalister inscription sketch</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
+<change when="2024-07-16" who="#NW">Updates based on fieldnotes, including edition, dating, respSttm and provenance. Added refs to bibliography.</change>
 
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <graphic url="IRE/I-COR/I-COR-014-MAC1945-71-Faunkill%26Woods.jpg"/>
+    <facsimile>        
         <graphic url="IRE/I-COR/I-COR-014_Faunkill_stone.jpg"/>
         <graphic url="IRE/I-COR/I-COR-014_Faunkill_inscription.jpg"/>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <graphic url="IRE/I-COR/I-COR-014-MAC1945-71-Faunkill%26Woods.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-014_Faunkill_Macalister_1907.jpg"><desc>Macalister (Studies in Irish Epigraphy) 1907 photograph</desc></graphic>
+        <media url="https://sketchfab.com/3d-models/co102-013-ogham-faunkill-and-the-woods-78f64a9071d441a8bb97eb8e8447b45a" mimeType="text/html"><desc>3d model by Gary Dempsey on SketchFab</desc></media>
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-decedas?">ᚋᚐᚊᚔ ᚇᚓᚉᚉᚓᚇᚇᚐᚄ</name><!--<space atMost="1" unit="stroke"/>--> <w lemma="avias">ᚐᚃᚔ</w> <name nymRef="#turania">ᚈᚒᚏᚐᚅᚔᚐᚄ </name></persName>
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">MAQI-DECCEDDAS</name> <w type="formula" lemma="avias">AVI</w> <name nymRef="#?">TURANIAS</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-decedas?"><addName type="element_1">MA<damage>Q</damage>I</addName><addName type="element_2"><damage>D</damage>E<damage>C</damage>C<damage>E</damage>D<damage>D</damage>AS</addName></name> <!--<space atMost="1" unit="stroke"/>--> <w type="formula" lemma="avias">AV<unclear reason="damage">I</unclear></w> <name nymRef="#turania">T<unclear reason="damage">U</unclear>RANIAS</name></persName> 
                 </ab>
             </div>
             <div type="apparatus">
@@ -154,15 +156,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>-->
             </div>
             <div type="translation">
-                <p></p>
+                <p>‘of Mac Deichet, descendant of Tornae’</p>
             </div>
             <div type="commentary">
-                <p><q>The retention of the final S in the first name is unique</q> (Macalister 1945, 72).</p>
+                <p>The person commemorated may be tentatively identified with a ‘<foreign xml:lang="ga">Mac-Deched m. Cuirp m. Ai m. Tornai</foreign>’ in the <foreign xml:lang="ga">Uí Thornai</foreign> genealogies, where what appears to be an original feminine ancestor name (TURANIAS) is later masculinised. The name MAQI-DECCEDDAS is quite frequently found in ogham inscriptions where there is some variation in the spelling of the name (MAQ(Q)I DEC(C)ED(D)A). This is the only example surviving with the final consonant intact and may be dated to the first half, or the early second half, of the fifth century (McManus 1991, 93, 97).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="BRA1879b"/>
+                        <citedRange>196-200</citedRange>
+                    </bibl>
+                      <bibl><ptr target="MAC1907"/>
+                        <citedRange>48 (facing)</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>70-72, no. 66</citedRange>
+                    </bibl>
+                      <bibl><ptr target="MCM1991"/>
+                        <citedRange>93, 97, 112</citedRange>
+                    </bibl>                     
+                     <bibl><ptr target="POW1992"/>
+                        <citedRange>125</citedRange>
                     </bibl>
                 </listBibl>
             </div>
