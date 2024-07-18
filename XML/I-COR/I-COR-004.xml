@@ -88,10 +88,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>52.078072, -8.606918</geo></origPlace>
                             <origDate notBefore="0400" notAfter="0470">First half, or the early second half, of the fifth century</origDate>
                         </origin>
-                        <provenance type="found">Discovered in <date>1906</date> when the landowner <q>'was lowering a headland'</q> (Buckley 1907,116), c. 40m N of, and in next field to, existing ogham stone (I-COR-003) <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO042-049002-</ref>).
-                            Found lying against a field fence in <date>1985</date> when a semi-circular cattle grid was laid around the stone. A short excavation by OPW revealed a recent shallow trench cut into much a larger ditch possibly belonging to an ancient enclosure (Manning 2000, 109); the marked curve in field fence here might respect the line of an ancient enclosure of which there is no other visible surface trace.
+                        <provenance type="found" when="1906">Discovered in <date>1906</date> when the landowner <q>'was lowering a headland'</q> (Buckley 1907,116), c. 40m N of, and in next field to, existing ogham stone (I-COR-003). The immediate area around both stones was excavated in 1985 'to facilitate the installation of cattle grids' with no significant finds. However 'the curving east and south boundaries of the field here are possibly of an ancient elongated oval enclosure' (Manning 2000, 107, 112). 
                         </provenance>
-                        <provenance type="observed" when="2013">On find site at <placeName type="townland">Greenhill</placeName> where it was visited and 3d recorded for the Ogham in 3D project in August <date>2013</date>. 
+                        <provenance type="observed" when="2013">On find site (againt the field fence) at <placeName type="townland">Greenhill</placeName> where it was visited and 3d recorded for the Ogham in 3D project in August <date>2013</date>. 
                         </provenance>
                     </history>
                 </msDesc>
@@ -130,14 +129,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
     <change when="2024-06-14" who="#NW">Removed titles from edition as test</change>
     <change when="2024-06-20" who="#POC">Changed word element to name element to correct edition and transliteration of Cattubuttas</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography.</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography.</change>
+    <change when="2024-07-18" who="#NW">Updates based on fieldnotes, including support description/condition and edition. Removed headings from translation and commentary.</change> 
 
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-004_Greenhill_II.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-004-MAC1945-62-Greenhill-II.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-004_Greenhill_II.jpg"/>
         <!--<media url="" mimeType="text/html"><desc><!-\-3d model by DP but not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -146,32 +146,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <persName><name nymRef="?">ᚉᚐᚈᚈᚒᚁᚒᚈᚈᚐᚄ</name>
-                    <w type="formula" lemma="maqqas"><unclear reason="damaged" cert="low">ᚋ</unclear><supplied reason="lost" evidence="previouseditor" cert="low">ᚐᚊᚔ</supplied></w></persName>
+                    <w type="formula" lemma="maqqas"><unclear reason="damaged" cert="low">ᚋ</unclear><supplied reason="lost" cert="low">ᚐᚊᚔ</supplied></w></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <persName><name nymRef="?">CATTUBUTTAS</name>
-                    <w type="formula" lemma="maqqas"><unclear reason="damaged" cert="low">M</unclear><supplied reason="lost" evidence="previouseditor" cert="low">AQI</supplied></w></persName>
+                    <w type="formula" lemma="maqqas"><unclear reason="damaged" cert="low">M</unclear><supplied reason="lost" cert="low">AQI</supplied></w></persName>
                 </ab>
             </div>
-            <div type="apparatus">
+           <!-- <div type="apparatus">
                 <listApp>
                 <app>                    
                 </app>
                 </listApp>
-            </div>
-              <div type="translation" xml:lang="en">
-                <head>Translation</head>
+            </div>-->
+              <div type="translation" xml:lang="en">                
                 <p>'of <foreign xml:lang="sga">Cathub</foreign> [son of]'</p>
             </div>
-            <div type="commentary">
-                <head>Commentary</head>
+            <div type="commentary">                
                 <list type="witDetail">
                     <item n="1"><p>This personal name contains one of the most commonly occurring elements found in ogham inscriptions: CATU- (OI <foreign xml:lang="sga" corresp="https://dil.ie/8344">cath</foreign> 'battle'). The early Old Irish form of the name is <foreign xml:lang="sga">Cathub</foreign>, gen. <foreign xml:lang="sga">Cathboth</foreign>, later <foreign xml:lang="sga">Cathbad</foreign> (McManus 1991, 102). </p></item>
-                    <item n="2"><p>This is one of the inscriptions listed by McManus 1991, 93-4) to be among the earliest in the
-                        corpus showing no trace of vowel affection (McManus 1991, 97).</p></item>
+                    <item n="2"><p>This is one of the inscriptions listed by McManus 1991, 93-4) to be among the earliest in the corpus showing no trace of vowel affection (McManus 1991, 97).</p></item>
                 </list>
             </div>
             <div type="bibliography">
