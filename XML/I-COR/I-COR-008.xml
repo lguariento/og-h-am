@@ -70,14 +70,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.35</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Only a few letters of the inscription survive.</condition>
+                                <condition>This is an irregularly shaped, rough, sandstone pillar, subrectangular in section. Only a few letters of the ogham inscription survive.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>This is an irregularly shaped, rough, sandstone pillar, subrectangular in section, inscribed (reading up) on the right angle of one of the narrower faces. The inscribed face of the stone widens towards the top and the ogham inscription, in so far as it survives, is confined to the narrower lower part of the stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061003-</ref>; Ronan 2009, no. 16163).</layout>
+                                <layout>Inscribed (reading up) on the right angle of one of the narrower faces. The inscribed face of the stone widens towards the top and the ogham inscription, in so far as it survives, is confined to the narrower lower part of the stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061003-</ref>; Ronan 2009, no. 16163).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
+                            <handNote>The ogham strokes appear to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. The surviving consonant strokes (all from the aicme húatha) are slanted rather than straight.<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -88,7 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.999912, -8.433859</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006; see also Macalister 1945, 63-4), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (SW upright) supporting the roof. The NE pillar stone also bears an ogham inscription (I-COR-007) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>).
+                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (SW upright) supporting the roof. The NE pillar stone also bears an ogham inscription (I-COR-007) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>).
                         </provenance>
                         <provenance type="observed">In situ in souterrain. Visited and 3d recorded for the OG(H)AM project in September <date>2022</date>.
                         </provenance>
@@ -131,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-31" who="#NW">Updated reuse in souterrain to 'object type' and style tupe to layout</change> 
 <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
-
+<change when="2024-07-20" who="#NW">Updated support description, edition and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,30 +143,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
-                    <lb n="1" style="text-direction:up"/><choice><unclear>ᚇ</unclear><unclear>ᚈ</unclear><unclear>ᚉ</unclear><unclear>ᚊ</unclear></choice>ᚉ<unclear reason="damage">ᚐ</unclear><gap reason="lost" unit="stroke" atMost="5"/>ᚉᚔ<unclear reason="damage">ᚑ</unclear>ᚈ
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/><unclear reason="obscured">ᚇ</unclear>ᚉᚐ<gap reason="lost" unit="stroke" atMost="5"/>ᚉᚔᚑᚈ
                 </ab>
              </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><choice><unclear>D</unclear><unclear>T</unclear><unclear>C</unclear><unclear>Q</unclear></choice>C<unclear reason="damage">A</unclear><gap reason="lost" unit="stroke" atMost="5"/>CI<unclear reason="damage">O</unclear>T
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/><unclear reason="obscured">D</unclear>CA<gap reason="lost" unit="stroke" atMost="5"/>CIOT
                 </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app></app>
-                </listApp>-->
+                <listApp>
+                <app>
+                    <!--<note>Ronan (2009, no. 16163): </note>-->
+                    <rdg source="RON2009"><unclear reason="obscured">L</unclear>C<unclear>A</unclear><gap reason="lost"/>CIOT</rdg>
+                </app>
+                </listApp>
             </div>
             <div type="translation">
                 <p></p>
             </div>
             <div type="commentary">
-                <p>Unfortunately, this inscription is too fragmentary to identify a name or even part of a name. The first relatively clear letter is C but a single score from the same <foreign xml:lang="ga">aicme (húatha)</foreign> was visible on examination (and in imagry from 2022) just at ground level. An earlier photograph of the stone by the National Monuments Service (2005? ground level slightly lower?) shows 2 strokes here, which would make a D or, if more strokes survive below ground, a T, C or Q. It is unclear if this is perhaps the L (2 strokes to the right of the stemline/<foreign xml:lang="ga">aicme béithe</foreign>) of the earlier reading, (L)……C(A)……. CIOT (interpreted as L……[MA](Q)I [MU]COI T…) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061003-</ref>; Ronan 2009, no. 16163).</p>
-            </div>
+                <p>Unfortunately, this inscription is too fragmentary to identify a name or even part of a name. The first relatively clear letter is C but a single score from the same <foreign xml:lang="ga">aicme (húatha)</foreign> was visible on examination (and in imagry from 2022) just at ground level. An earlier photograph of the stone by the National Monuments Service (2005? ground level slightly lower?) shows 2 strokes here, which would make a D or, if more strokes survive below ground, a T, C or Q. It is unclear if this is perhaps the L (2 strokes to the right of the stemline/<foreign xml:lang="ga">aicme béithe</foreign>) of the earlier reading, interpreted as the remains of L……[MA](Q)I [MU]COI T… (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061003-</ref>; Ronan 2009, no. 16163). However, the MAQI MUCOI interpretation isn't very well supported. For example, the vowel notches do appear to be grouped IO (5+2), rather than OI (2+5). Reading in the opposite direction doesn't give much sense either (SOIV...ASL?).</p> </div>
             <div type="bibliography">
-                 <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                        <citedRange>63-4</citedRange>
-                    </bibl>
+                 <listBibl>                    
                      <bibl>
                          <ptr target="RON2009"/>
                          <citedRange>no. 16163</citedRange> 
