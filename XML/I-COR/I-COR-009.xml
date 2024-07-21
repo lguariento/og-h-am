@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO053-072----</idno></ref><!--Not in database? Added present location SMR below, which is there-->
+                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO053-072----</idno></ref>
                                     <material>Stone (sandstone?)</material> 
                                     <objectType>pillar</objectType> 
                                      <dimensions unit="m" source="#NW">
@@ -84,12 +84,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9533">
                                 <placeName type="townland">Bishop’s Island (<foreign xml:lang="ga">Oileán an Easpaig</foreign></placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo></geo></origPlace>
+                                <!--<geo></geo>--></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1914">The stone was found repurposed as a gate-post for a farm wall by <persName><roleName>Rev.</roleName> Canon Power</persName> in <date>1914</date>.
+                        <provenance type="found" when="1914">The stone was found repurposed as a gate-post for a farm wall by <persName><roleName>Rev.</roleName> Canon Power</persName> in <date>1914</date> (Macalister 1945, 65).
                         </provenance>
-                        <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), at University College Cork (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO074-151----</ref>). <!--Add coordinates for UCC? -->
+                        <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), at University College Cork (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO074-151----</ref>). 
                         </provenance>
                     </history>
                 </msDesc>
@@ -128,13 +128,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-11" who="#NW">Added resp to translation</change>
 <change when="2024-06-13" who="#NW">Removed rs style from layout and # from bibl</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
-
+<change when="2024-07-21" who="#NW">Corrected image path. Removed geo, as orig location unknown, and resp from translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="\images\IRE/I-COR/I-COR-009-MAC1945-65-BishopsIsland.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
-        <graphic url="\images\IRE/I-COR/I-COR-009_BishopsIsland.jpg"/><!--Will need to replace this with new image-->
+        <graphic url="IRE/I-COR/I-COR-009-MAC1945-65-BishopsIsland.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-009_BishopsIsland.jpg"/><!--Will need to replace this with new image-->
         <!--<media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -149,12 +149,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#olagnas?">OLAGNI</name> <w type="formula" lemma="maqqas">MA<unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied><gap reason="lost"/></w></persName> 
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+               <!-\- <listApp>
                 <app></app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en" resp="#NW">
+                </listApp>-\->
+            </div>-->
+            <div type="translation" xml:lang="en">
                 <p>‘of Ollán son of …’</p>
             </div>
             <div type="commentary">
