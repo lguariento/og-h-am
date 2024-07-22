@@ -70,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.26</depth>
                                      </dimensions>                                  
                                 </support>
-                                <condition>This pillar (subrectangular in section narrowing towards the top), along with I-COR-008, has been repurposed as an upright in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>). The lettering, particularly the vowel notches, are quite worn, though still legible. The end of the inscription is lost or not accessible. It is also noteworthy that this stone has numerous <rs type="features" ref="features.xml#grooves">v-sectioned groove marks</rs> on the side to the right of the inscription. There is also an area (beside and to the right of the first few charaters of the inscription) that is <rs type="features" ref="features.xml#smoothing">rubbed or polished smooth</rs>. This is very similar to the 'scoring' and 'smoothing' found on other (both inscribed and uninscribed) stones, for example Greenhill 1 (I-COR-003) and Ratass ogham stone, Co. Kerry (I-KER-139).</condition>
+                                <condition>This pillar (subrectangular in section narrowing towards the top), along with I-COR-008, has been repurposed as an upright in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>). The lettering, particularly the vowel notches, are quite worn, though still legible. The end of the inscription is lost, proabably due to a break at the top of the stone. It is also noteworthy that this stone has numerous <rs type="features" ref="features.xml#grooves">v-sectioned groove marks</rs> on the side to the right of the inscription. There is also an area (beside and to the right of the first few charaters of the inscription) that is <rs type="features" ref="features.xml#smoothing">rubbed or polished smooth</rs>. This is very similar to the 'scoring' and 'smoothing' found on other (both inscribed and uninscribed) stones, for example Greenhill 1 (I-COR-003) and Ratass ogham stone, Co. Kerry (I-KER-139).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The inscription reads up on the outward facing angle the stone. It is not possible to examine the entire pillar due to its position in the souterrain.</layout>
@@ -87,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.999912, -8.433859</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (NE upright) supporting the roof. The SW pillar stone also bears an ogham inscription (I-COR-008) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>).
+                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (NE upright) supporting the roof. The SW pillar stone also bears an ogham inscription (I-COR-008) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>); McCarthy 2005).
                         </provenance>
                         <provenance type="observed" when="2022">In situ in souterrain. Visited and 3d recorded for the OG(H)AM project in September <date>2022</date>.
                         </provenance>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-07-20" who="#NW">Updated rs features grooves in condition and added addname elements to name with 2 elements but (with toggle comment for now). Added translation and notes to commentary</change>
+<change when="2024-07-22" who="#NW">Updates from Archaeological Inventory</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -158,14 +159,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>'of <foreign xml:lang="sga">Mac-Thréuin</foreign> descendant? of T...'</p>
             </div>
             <div type="commentary">
-                <p>The name MAQI-TRENI is attested elsewhere in the ogham corpus (probably in I-COR-035 <placeName>Ballyknock</placeName> V, and in <placeName>Wales</placeName>: W-BRE-006 <placeName>Llywell</placeName> and W-PEM-004 <placeName>Cillgerran</placeName>) and the element -TREN- is also found in other names, for example NETTA-TTRENALUGOS (I-COR-071) from Montaggart, Co. Cork and TRENAGUSU (W-PEM-004) from Cilgerran in Pembrokeshire.</p>
-                <p>Only three strokes from the <foreign xml:lang="ga">aicme hÚatha</foreign> are visible at the top of the stone in its position in the souterrain. These probably represents a T, but the rest of this name may be on a hidden angle or lost.</p>
+                <p>The name MAQI-TRENI is attested elsewhere in the ogham corpus (probably in I-COR-035 <placeName>Ballyknock</placeName> V, and in <placeName>Wales</placeName>: W-BRE-006 <placeName>Llywell</placeName> and W-PEM-004 <placeName>Cillgerran</placeName>) and the element -TREN- (Old Irish <foreign xml:lang="sga" corresp="https://dil.ie/41798">trén</foreign> 'strong') is also found in other names, for example NETTA-TTRENALUGOS (I-COR-071) from Montaggart, Co. Cork and TRENAGUSU (W-PEM-004) from Cilgerran in Pembrokeshire. As noted by Moore (Ronan 2009, 152), the single-element name <foreign xml:lang="ga">Trén</foreign> <q>occurs in the <foreign xml:lang="ga">Eôganacht</foreign>, <foreign xml:lang="ga">UÍ Liathǽin</foreign> and <foreign xml:lang="ga">Corco Loígde</foreign> genealogies of Munster and it is interesting to speculate that the ogham evidence may indicate a link between Wales and Cork in the 5th-6th centuries</q> AD.</p>
+                <p>Only three strokes from the <foreign xml:lang="ga">aicme hÚatha</foreign> are visible at the top of the stone, probably representing a T, but the rest of this name has been lost, presumably when the topof the stone was broken.</p>
             </div>
             <div type="bibliography">
                  <listBibl>        
                      <bibl>
                          <ptr target="RON2009"/>
-                         <citedRange>no. 16162</citedRange> 
+                         <citedRange>151-152, no. 16162</citedRange> 
+                     </bibl>
+                      <bibl>
+                         <ptr target="MAC2005"/>
+                         <citedRange></citedRange> 
                      </bibl>
                 </listBibl>
             </div>
