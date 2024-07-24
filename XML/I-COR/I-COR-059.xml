@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Knockrour 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-059</idno>
+                 <idno type="CIIC">110</idno>
+                <idno type="CISP">KNOUR/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO060-187----</idno> </ref>
+                                    <material></material> 
+                                    <objectType>pillar</objectType> 
+                                     <dimensions unit="m">
+                                         <dim></dim>
+                                            <height>1.52</height>
+                                            <width min="0.25" max="0.33"/>
+                                            <!--<depth></depth>--> 
+                                     </dimensions>                                   
+                                </support>
+                                <condition>The stone is <q>triangular in horizontal section, the three sides being, respectively, 1' 1", 1' 0", and 0' 10" [(0.33m, 0.30m, and 0.25m)] broad</q> (Macalister 1945, 111). Neither Brash nor Macalister give a measurement for the depth of the stone (Brash 1879, 133). The inscription is much worn.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription was in the centre of one of the angles of the stone. According to Macalister, <q>The first two letters look like remains of MAQI, but otherwise nothing can be made of</q> the inscription (1945, 111).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11552">
+                                <placeName type="townland">Knockrour/Oughtihery</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <geo>51.969997, -8.845821</geo><note>(approx.)</note>
+                                <!--<note>ITM coordinates: 541859 , 580127</note>--></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found" when="1856">According to Brash (1879, 133) a stone <q>'bearing a mutilated inscription'</q> was found in 1856 in a burial ground <idno type="SMR">(CO060-040002-)</idno> within an enclosure <idno type="SMR">(CO060-040001-)</idno> at <placeName type="townland">Knockrour</placeName> (in fact the site straddles two townlands, the other being <placeName type="townland">Oughtihery</placeName>). Two further possible ogham stones (<idno type="SMR">CO060-185----</idno>, <idno type="SMR">CO060-188----</idno>) are also associated with the site (Power et al. 1997, no. 7993).
+                        </provenance>
+                        <provenance type="observed">The stone was lost shortly after its discovery and nothing is now known of its whereabouts.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-07-24" who="#POC">Added and encoded information, including edition</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"><desc></desc></graphic>
+        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="BRA1879">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>ᚁ<gap reason="lost" extent="unknown" unit="character"/>ᚊ<gap reason="lost" extent="unknown" unit="character"/>ᚆᚐᚌᚐ<gap reason="lost" extent="unknown" unit="character"/>ᚇᚂ 
+                    <!-- Used OGHAM LETTER UATH ᚆ for H -->
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                <lb n="1" style="text-direction:up"/>B<gap reason="lost" extent="unknown" unit="character"/>Q<gap reason="lost" extent="unknown" unit="character"/>HAGA<gap reason="lost" extent="unknown" unit="character"/>DL 
+            </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app></app>
+                </listApp>-->
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="BRA1879"/>
+                         <citedRange>133</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>111</citedRange>
+                    </bibl>
+                     <bibl><ptr target="POW1997"/>
+                        <citedRange>no. 7993</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
