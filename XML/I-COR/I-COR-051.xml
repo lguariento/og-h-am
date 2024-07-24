@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO085-067008-</idno> </ref>
                                     <material></material> 
-                                    <objectType>pillar <note>(reused in souterrain)</note></objectType> 
+                                    <objectType>pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim><!--converted from Macalister--></dim>
                                             <height>1.12</height>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.30</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>A very smooth pillar, <q>almost triangular in horizontal section</q> (Macalister 1945, 100). Macalister designated the three faces as A, B, and C and noted that <q>A and B each meet C at an angle, but do not actually meet one another, for a rounded edge about 3" [(0.91m)] across runs between them</q> (1945, 100). The original inscription is almost entirely erased, <q>the whole of face A, except for a narrow strip along the right-hand angle extending up to the first score of the supposed T, has been chipped away; as has also the top of the stone</q> (Macalister 1945, 101). In respect to the second inscription, Macalister remarked that above the letters <q>the whole angle is flaked away and there is no evidence to suggest that it bore any further writing</q> (1945, 102).</condition>
+                                <condition>A very smooth pillar, <q>almost triangular in horizontal section</q>, reused in a souterrain (Macalister 1945, 100). Macalister designated the three faces as A, B, and C and noted that <q>A and B each meet C at an angle, but do not actually meet one another, for a rounded edge about 3" [(0.91m)] across runs between them</q> (1945, 100). The original inscription is almost entirely erased, <q>the whole of face A, except for a narrow strip along the right-hand angle extending up to the first score of the supposed T, has been chipped away; as has also the top of the stone</q> (Macalister 1945, 101). In respect to the second inscription, Macalister remarked that above the letters <q>the whole angle is flaked away and there is no evidence to suggest that it bore any further writing</q> (1945, 102).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister noted that there was an older inscription on the sinister angle of face A which ran up to the top and then down the rounded edge between faces A and B. Only <q>the proximal ends of what may have been TEC, on the sinister angle of face A; the distal ends of an N on the top of the stone; and the vowels AI upon the rounded edge between faces A and B</q> remain of this inscription (1945, 100-1). There is another inscription, which Macalister described as <q>a mere graffito</q> on the dexter angle of face B, which occupies the space between 2.57m and 0.41m above the stand (1945, 101).</layout>
+                                <layout>Macalister noted that there was an older inscription on the sinister angle of face A which ran up to the top and then down the rounded edge between faces A and B. All that remains of this inscription are <q>the proximal ends of what may have been TEC, on the sinister angle of face A; the distal ends of an N on the top of the stone; and the vowels AI upon the rounded edge between faces A and B</q> (1945, 100-1). There is another inscription, which Macalister described as <q>a mere graffito</q> on the dexter angle of face B, which occupies the space between 2.57m and 0.41m above the stand (1945, 101).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,10 +85,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9212">
                                 <placeName type="townland">Ballyhank (<foreign xml:lang="ga">Baile Sheanc</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.831516, -8.609832</geo></origPlace>
+                                <geo>51.831516, -8.609832</geo>
+                            <!--<note>ITM Coordinates: 557971 , 564534 </note>--></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1846">Discovered in a souterrain (CO085-067002-) with five other ogham stones (I-COR-046); (I-COR-047); (I-COR-048); (I-COR-049); (I-COR-050).
+                        <provenance type="found" when="1846">Discovered in a souterrain <idno type="SMR">(CO085-067002-)</idno> with five other ogham stones <idno type="SMR">(I-COR-046)</idno>; <idno type="SMR">(I-COR-047)</idno>; <idno type="SMR">(I-COR-048)</idno>; <idno type="SMR">(I-COR-049)</idno>; <idno type="SMR">(I-COR-050)</idno>.
                         </provenance>
                         <provenance type="observed">Now in the collection of the National Museum of Ireland (see <idno type="SMR">DU018-374----</idno>).
                         </provenance>
@@ -123,12 +124,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listChange>
 <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2024-07-12" who="#POC">Added and encoded information, including edition</change>
+<change when="2024-07-24" who="#POC">Added and encoded ITM coordinates, moved note from objectType to condition, added idno for SMR IDs in provenance.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-051-MAC1945-101-Ballyhank-102.jpg"><desc>Sketch by Macalister</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-051-MAC1945-102-Ballyhank-102.jpg"><desc>Inscription sketch by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-051-MAC1945-101-Ballyhank-102.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-051-MAC1945-102-Ballyhank-102.jpg"><desc>Drawing of inscription by Macalister</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ballyhank-6-ogham-stone-8842242c73d64684bedc39759b40ce21" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -144,15 +146,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app></app>
-                </listApp>-->
+                <listApp>
+                <app><note>According to Macalister, there is a degree of ambiguity with this inscription <q>due to the fact that the I, which is...represented by the forfid - a unique circumstance in the case of this letter - is below, rather than to one side or the other of the D on the opposite face. The D might be interpreted as a T or a C, if we take in two scratches which flank its scores, but to these I feel that no importance is to be attached</q> (1945, 102).</note></app>
+                </listApp>
             </div>
             <div type="translation">
                 <p></p>
             </div>
             <div type="commentary">
-                <p>Macalister acknowledged that there is a degree of ambiguity with this inscription <q>due to the fact that the I, which is...represented by the forfid - a unique circumstance in the case of this letter - is below, rather than to one side or the other of the D on the opposite face. The D might be interpreted as a T or a C, if we take in two scratches which flank its scores, but to these I feel that no importance is to be attached</q> (1945, 102).</p>
+                <p></p>
             </div>
             <div type="bibliography">
                  <listBibl>
