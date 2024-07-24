@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO061-080005-</idno> </ref>
                                     <material>Sandstone</material> 
-                                    <objectType>pillar <note>(2x plain crosses)</note></objectType> 
+                                    <objectType>pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
                                             <height>1.57</height>
@@ -86,10 +86,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11342">
                                 <placeName type="townland">Coolineagh</placeName> (<foreign xml:lang="ga">Cúil an Fhéich</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.952236, -8.815354</geo></origPlace>
+                                <geo>51.952236, -8.815354</geo>
+                            <!--<note>ITM Coordinates: 543956 , 578104</note>--></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1817">The inscription was discovered by <persName>Mr. Joseph Humphreys</persName> of <placeName type="county">Cork</placeName> on an upright stone standing at the head of a grave 20m SE of the ruined parish church in <placeName type="parish">Aghabulloge</placeName> graveyard (CO061-08002-). 
+                        <provenance type="found" when="1817">The inscription was discovered by <persName>Mr. Joseph Humphreys</persName> of <placeName type="county">Cork</placeName> on an upright stone standing at the head of a grave 20m SE of the ruined parish church in <placeName type="parish">Aghabulloge</placeName> graveyard <idno type="SMR">(CO061-08002-)</idno>. 
                         </provenance>
                         <provenance type="observed">In situ in <placeName type="parish">Aghabulloge</placeName> graveyard.
                         </provenance>
@@ -126,11 +127,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-15" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-07-18" who="#POC">Updated edition to delete comment</change>
 <change when="2024-07-23" who="#POC">Updated handNote description and encoded placeName information to provenance</change>
+<change when="2024-07-24" who="#POC">Added and encoded ITM coordinates, deleted noted from objectType as it is mentioned in layout, added idno for SMR IDs in provenance.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-053-MAC1945-104-Coolineagh.jpg"><desc>Sketch by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-053-MAC1945-104-Coolineagh.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://sketchfab.com/3d-models/coolineagh-ogham-stone-c95c769336b44d899e2f50b98f114bc5" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
