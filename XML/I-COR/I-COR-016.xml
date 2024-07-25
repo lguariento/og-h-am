@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,7 +61,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO103-003003-</idno> </ref>
-                                    <material></material> 
+                                    <material/> 
                                     <objectType>pillar</objectType> 
                                      <dimensions unit="m" source="POW1992">
                                             <height>1.20</height>
@@ -76,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is posked with strokes quite large in relation to the size of the stone (e.g. the L strokes are <height>6cm</height> long and the C strokes <height>7cm</height>, with approximately <width>2cm</width> between each stroke).</handNote>
+                            <handNote>The inscription is pocked with strokes quite large in relation to the size of the stone (e.g. the L strokes are <height>6cm</height> long and the C strokes <height>7cm</height>, with approximately <width>2cm</width> between each stroke).</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -85,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="townland">Kilcaskan (<foreign xml:lang="ga">Chill Cháscann</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.708247, -9.710550</geo>
                             <!--<note>ITM Coordinates: 481786, 552037</note>--></origPlace>
-                            <origDate></origDate>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1872">Discovered by <persName><roleName>Rev.</roleName>T. Olden</persName> in Kilcaskan graveyard (SMR ID: CO103-003001-) just SE of the church (SMR ID: CO103-003002-). Brash confirmed that the stone bears an ogham inscription in <date>1873</date> (Macalister 1949, 72). 
                         </provenance>
@@ -123,6 +123,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-22" who="#POC">Corrected image path</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-07-23" who="#NW">Updates to support description and edition based on fieldnotes and archaeological inventory (Power 1992).</change>  
+<change when="2024-07-25" who="#NW">Closed tags where no info e.g. repository and id no, material, origdate.</change>
     
 </listChange>
 </revisionDesc>
