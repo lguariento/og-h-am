@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO072-078008-</idno> </ref>
                                     <material></material> 
-                                    <objectType>pillar (reused as lintel in souterrain)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
                                             <height>1.8</height>
@@ -70,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.25</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Macalister noted that the top of the stone <q>has been broken off by the fort-builders</q> and the letter <q>S injured by flaking</q> (1945, 116).</condition>
+                                <condition>Reused as a lintel in a souterrain, the top of the stone <q>has been broken off by the fort-builders</q> and the letter <q>S injured by flaking</q> (Macalister 1945, 116).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The surviving part of the inscription is on the left-hand angle of the stone and measures 0.28m in length.</layout>
@@ -87,18 +87,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/en/8237">
                                 <placeName type="townland">Knockshanawee</placeName> (<foreign xml:lang="ga">Cnoc Seanmhaí</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.872673, -8.796211</geo></origPlace>
+                                <geo>51.872673, -8.796211</geo>
+                            <note>ITM Coordinates: 545175 , 569241</note></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1910">This stone is the eighth lintel and is one of six ogham stones (also I-COR-062, I-COR-063, I-COR-064, I-COR-065, I-COR-066) used in the construction of a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO072-078002-</idno></ref>). 
+                        <provenance type="found" when="1910">This stone is the eighth lintel and is one of six ogham stones (also <idno type="SMR">I-COR-062</idno>, <idno type="SMR">I-COR-063</idno>, <idno type="SMR">I-COR-064</idno>, <idno type="SMR">I-COR-065</idno>, <idno type="SMR">I-COR-066</idno>) used in the construction of a souterrain (<idno type="SMR">CO072-078002-</idno>). 
                         </provenance>
-                        <provenance type="observed">Now on permanent display in the Stone Corridor, University College Cork (See <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO074-135----</idno></ref>).
+                        <provenance type="observed">Now on permanent display in the Stone Corridor, University College Cork (see <idno type="SMR">CO074-135----</idno>).
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -126,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-30" who="#POC">Patricia O Connor added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-24" who="#POC">Added the key and ref attribute values to the rs element in handnote, replaced historic viewer numbers with Ogham project numbers</change>
 <change when="2024-06-25" who="#POC">Added idno element to SMR numbers, deleted title element from edition, added ogham edition division, moved Macalister and McManus readings to apparatus, deleted free text from bibliography</change>
-
+<change when="2024-07-25" who="#POC">Added note for ITM coordinates, moved information in note from objectType to condition, deleted URL in provenance, added idno for SMR numbers.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
