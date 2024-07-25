@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bac Mhic Connain</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+             <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+             <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>  
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MK" ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                     <orgName>University of Glasgow</orgName>
+                <resp><date when="2022-05-06"></date><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-INV-001</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository>National Museums of Scotland</repository>
+                        <idno type="invNo">GNB134</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="sga-Ogam"> Old Irish written in igham script</textLang>
+<!--<textLang> is unclear and cannot be determined with certainty (Forsyth 1996)-->
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/10054/north-uist-vallay-bac-mic-connain"><idno type="Canmore">10054</idno></ref>
+                                    <material>cetacean bone</material> 
+                                    <objectType>knife-handle</objectType>                                                            
+                                    <dimensions unit="cm" source="FOR1996">
+                                            <height>10.8</height>
+                                            <dim type="diameter">1.6</dim>
+                                            <dim type="tang">0.6</dim>
+                                    </dimensions>         
+                                </support>
+                                <condition>All of the blade missing except rusted tang of an <material>iron</material> blade, <material>bone</material> well preserved and carving clear, but a fracture has occurred near the blade-end (Forsyth 1996, 58).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><q>'The bone has been planed to produce a slight ridge for one line of ogham lettering'</q> (Forsyth 1996, 58). <q>'The inscription begins about half-way along the handle and continues for approximately 50mm, almost to the handle's end'</q> (Forsyth 1966, 59).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The lines are fine and appear to have been <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> with a sharp blade.  
+                                <height>Longest consonant strokes are c.0.6cm long (Forsyth 1996, 59).</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">North Uist</placeName>, <placeName type="county">Inverness-shire</placeName>
+                                <geo>57.659167, -7.419167</geo></origPlace>
+                            <origDate notBefore="0400" notAfter="0800" precision="low">fifth to eighth century</origDate>
+                        </origin>
+                        <provenance type="found" when="1919">Discovered in <date>1919</date> during Erskine Beveridge's excavation (Forsyth 1996, 55).
+                        </provenance>
+                        <provenance type="observed" when="2022-05-06">Recorded in the <placeName>National Museum of Scotland</placeName> on <date>May 6th 2022</date>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>      
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-06-21" who="#LH">Added and encoded information including general discription, measurements and provenance</change>
+    <change when="2024-06-24" who="#LH">Added, encoded and edited information including the physical discription and text</change>
+    <change when="2024-06-26" who="#LH">Edited information including textClass, provenance and text</change>
+    <change when="2024-06-28" who="#LH">Edited information including commentary and transliteration</change>
+    <change when="2024-07-01" who="#LH">Encoded information about images and responsibility for 3D model</change>
+    <change when="2024-07-11" who="#LH">Deleted orig tag and included spacing in edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="S-INV-001-a.jpg"/>
+        <graphic url="S-INV-001-b.png"/>
+         <media url="YYY" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    <w lemma="maqqas">ᚋ<unclear reason="damaged">ᚑ</unclear>ᚊᚒ</w> ᚅᚈᚓᚅᚉ<unclear reason="damaged">ᚐ</unclear>ᚈ
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="2" style="text-direction:up"/>
+                    <w lemma="maqqas">M<unclear reason="damaged">Ọ</unclear>QU</w> NTENC<unclear reason="damaged">Ạ</unclear>T
+            <!-- double-check whether to include the lemma MAQQAS or not, please (given the O and Megan's blog analysis that O is more likely than A-->
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>There is no obvious interpretation of this inscription and several readings could be suggested (Forsyth 1996, 61-5). Forsyth maintains that the three initial letters MAQ are very likely to stand for 'son' in Irish (Forsyth 1996, 62) and that, more generally, <q>'the text appears to be a single male personal name and as such probably records the identity of the owner or maker (or donor if it was given as a gift)'</q> (Forsyth 1996, 66).</p>
+                    </item>
+                     <item n="2"><p>The use of RTI and photogrammetry conducted by Megan Kasten has confirmed the reading provided as the most feasible. The measurements taken from the 3D model enabled a more precise estimation of the average spacing between individual letters and therefore suggest that the second letter is most likely to be an O (two strokes). Similarly, given the space between the third to last and the last letter, and considering what is left of the damaged surface, the second to last character is most likely to have been an A or a B with A being linguistically more probable (Kasten 2023).</p>
+                     </item>
+                    <item n="3"><p>Forsyth commemorates that <q>'the Bac Mhic Connain knife-handle is one of a very small group of ogham-inscribed household objects, and as such provides important evidence for the non-monumental use of the script'</q> (Forsyth 1996, 65).</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                        <citedRange unit="page">55-68</citedRange>
+                     </bibl>
+                     <bibl><ptr target="KAS2023"/>
+                         <citedRange/>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
