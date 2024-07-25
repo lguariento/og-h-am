@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inchmarnock 2</title>
+             <editor role="editor" xml:id="NW">
+                 <persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName>
+             </editor>
+                <editor role="editor" xml:id="XS">
+                    <persName>Xenia Spanachi</persName>
+                    <orgName>University of Glasgow</orgName>
+                </editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Xenia Spanachi</name>
+                    <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-BUT-004</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">x</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository>Bute Museum</repository>
+                        <idno type="invNo">X.HRE 187, X.HRE 29, X.HRE 3</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark"><idno type="Canmore"></idno>40268</ref> <ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark">IS.1 SF402/625/430</ref>
+                                    <material>natural water-worn pebble</material> 
+                                    <objectType>graffiti gaming board</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height></height>
+                                            <width></width>
+                                            <depth></depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition><p>Indistinct and difficult to make out with a lot of wear and a fracture on the edge. The ogham stone as Forsyth and Tedeschi note, now <q>'looks rather scrappy'</q> but isncriptions like this are not carved with posterity in mind (2008, 146)</p></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><p>At the edge of the ruled grid and mass of curving lines located on the rest of the stone, which it post-dates.</p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>
+                                <p>A tiny ogham inscription of about <dim type="length" unit="m">0.020</dim> in total length at the margin of the stone, casually carved. As Forsyth and Tedeschi comment <q>'the key features which distinguish different letters, spacing, relative length and slope, are less than rigorously indicated (not surprisingly, perhaps, on this minute scale)'</q> (2008,146). The tail of the stem-line is visible beyond the first and last letters indicating it is complete, with an erratic spacing of letters, the first half appearing generously spaced while the latter hald is more cramped.</p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">North Bute</placeName> <placeName type="county">Bute</placeName>
+                                <geo>55.789444, -5.153611</geo></origPlace>
+                            <!--<note>additional info, e.g. approximate only</note>-->
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="2001-04">
+                        </provenance>
+                        <provenance type="observed">NMS unreg. On loan to Bute Museum
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+                 <p>Encoded following the latest EpiDoc guidelines</p>
+                 <p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+                <language ident="xpi">Pictish</language>   
+            </langUsage>
+            <textClass>      
+               <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
+                    <!--<term xml:lang="en">graffiti</term> MENTIONED IN THE SUPPORT DESC AS WELL-->
+                </keywords>
+            </textClass>
+            <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+                <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+                <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+                <change when="2024-07-13" who="#XS">Xenia Spanachi updated body to include ogham characters and transliteration</change>
+                <change when="2024-07-13" who="#XS">Updated to include further information such as dimensions, layout, handnote, condition and witness commentary</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+         <media url="Captured" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#KF">            
+                <ab>
+                    <lb n="1" style="text-direction:right"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    ᚌᚓᚁᚐᚋ
+                    <gap reason="lost" quantity="2" unit="character"/>
+                    <unclear>ᚓ</unclear>ᚕ
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#KF">
+                <ab>
+                    <lb n="1" style="text-direction:right"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    GEBAM
+                    <gap reason="lost" quantity="2" unit="character"/>
+                    <unclear>E</unclear><g ref="#forfid_X"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1">
+                        <p>Forsyth and Tedeschi comment that <q>'this is the first find of non-monumental ogham from an ecclestial site'</q> (2008,130)</p>
+                    </item>
+                     <item n="2">
+                         <p>From the Inchmarnock ogham inscriptions it is clear that <q>'Gaelic-speaking scribes were familiar with the ogham alphabet and used it in informal sometimes jocular way, for brief marginal glosses and comments'</q> (Forsyth, Tedeschi 2008,130)</p>
+                     </item>
+                     <item n="3">
+                         <p>Oghams are usually read left to right, as is the convention followed here, however it is unclear from the orientation of the slab which end is the beginning.</p>
+                     </item>
+                     <item n="4">
+                         <p>The ogham inscription as Forsyth and Tedeschi comment <q>'although pronouncable does not yield any obvious sense'</q> (2008,147). The spacing of the letters and the carving in general may suggest however some additional strokes in the sections that are now completely invinsible, which could potentially aid a better reading.</p>
+                     </item>
+                     <item n="5">
+                         <p>Regardless of the lack of viable interpertation, this ogham inscription, Forsyth and Tedeschi argue, is <q>'important evidence of ogham literacy at the site, not just in a school-room context, but in 'recreational' use'</q> (2008,147).</p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="LOW2008"/>
+                     <citedRange>146-147</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

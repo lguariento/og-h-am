@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Blackwaterfoot 2</title>
+                <editor role="editor" xml:id="NW">
+                    <persName>Nora White</persName>
+                    <orgName>Maynooth University, Department of Early Irish</orgName>
+                </editor>
+             <editor role="editor" xml:id="XS">
+                 <persName>Xenia Spanachi</persName>
+                <orgName>University of Glasgow</orgName>
+                </editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Xenia Spanachi</name>
+                    <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Liz Fitzpatrick</name>
+                     <orgName>??</orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-BUT-002</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">BLFOO/2</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="TA-Ogam">Possibly Brittonic written in OGHAM scipt</textLang> <!--language needs fixing, no id for brittonic-->                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave"><idno type="Canmore">39229</idno>King's Cave, Drumadoon</ref>
+                                    <material>sandstone</material> 
+                                    <objectType>cave graffiti</objectType>                                     
+                                    <!--<dimensions unit="m">
+                                        <depth>37</depth>
+                                        <width>9</width>
+                                        <height>15 in greatest height</height>CAVE DIMENSIONS-->
+                                    <!--</dimensions>-->  
+                                </support>
+                                <condition>
+                                    <p>
+                                        Some natural fissures with a rough patch at the bottom, which potentially obscures part of the stem-line, and a protrubance at the top on the rock face. (Forstyh 1996, 97-100)
+                                    </p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        The inscription is about <depth unit="m">11</depth> from the entrance of the cave.<q>'From the photograph, approximately <height unit="cm">29</height> of stem-line is visible'</q> (Forsyth 1996, 97).The inscription has a near-vertical stem-line.
+                                    </p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>
+                                <p>
+                                        Strokes and letters are widely spaced and vary in length.<q>'The strokes appear V-shaped in section and are slashed across the surface of the rock. Some strokes, especially to the right of the stem, seem exceptionally long'</q> (Forsyth 1996, 97).
+                                </p>
+                                <height>Varies, with longer strokes to the right</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                         <origin> 
+                        <origPlace>
+                            <placeName type="parish">Kilmory</placeName>
+                            <placeName type="county">Bute</placeName>
+                            <geo>55.526111, -5.353333</geo>
+                        </origPlace>
+                            <origDate notBefore-custom="600" precision="low" evidence="lettering">
+                                    Represent examples of simple Type II inscriptions lacking the late features so they should be placed near the beginning of the Type II series. <q>'At best this 
+would offer a relative date, but since simple Type n ogham continued in use alongside more ambitious, 
+formal varieties of the script, inscriptions using this form cannot be closely dated. They could be as early 
+as the Pool ogham <date>sixth century</date> or later than Dunadd <date>late eight century</date>'</q> (Forsyth 1996, 99).
+                            </origDate>
+                         </origin>
+                        <provenance type="found" when="1992">
+                            <q>'Though only a short distance away, the second ogham<name xml:id="S-BUT-002">Blackwaterfoot 2</name> was not discovered until <date>1992</date> by Ian Fisher of the RCAHMS'</q> (Forsyth 1996, 94).
+                        </provenance>
+                        <provenance type="observed" when="1992">In situ
+                            <p>
+                              In <date>1992</date> Ian Fisher of the RCAHMS carried out further survey work of the cave which is also when he discovered Blackwaterfoot 2 (Forsyth 1996, 94).
+                            </p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+                 <p>Encoded following the latest EpiDoc guidelines</p>
+                 <p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+                <language ident="xpi">Pictish</language>   
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+                    <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+    <!--<term xml:lang="en">graffiti</term> also mentioned in the objectType-->
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+                <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+                <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+                <change when="2024-06-26" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content and condition</change>
+                <change when="2024-06-27" who="#XS">Xenia Spanachi added and encoded further data, including information on layout, execution and provenance</change>
+                <change when="2024-07-10" who="#XS">Xenia Spanachi altered transcription and transliteration encodings to fit new updated readings spreadsheet</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="LizFitzpatrick?" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="TA" resp="#XS"><!--language needs updating, Brittonic-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                   <gap reason="lost" extent="unknown" unit="character"/> 
+                    ᚃᚒᚓᚇᚂᚐ
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="TA" xml:space="preserve" resp="#KF"><!--language is Brittonic no lang code for it-->
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><!--may have begun further down but not sure-->
+                    VUEDLA
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>The divergence of the second stroke to the first letter raises the possibility possibility that it is two letters B and L</p>
+                    </item>
+                        <item n="2"><p><q>The name Vuedla calls to mind the uidlua, 'wise woman, witch' of the famous Gualish inscription from Larzac'</q> (Forsyth 1996,99).</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>93-100</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
