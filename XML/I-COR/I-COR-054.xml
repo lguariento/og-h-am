@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO061-080007-</idno> </ref>
                                     <material></material> 
-                                    <objectType>pillar (found when demolishing old church but more details?)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
                                            <!-- <height></height>
@@ -85,19 +85,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11342">
                                 <placeName type="townland">Coolineagh</placeName> (<foreign xml:lang="ga">Cúil an Fhéich</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.952526, -8.815681</geo>
-                            <note>approximate only</note></origPlace>
+                                <geo>51.952526, -8.815681</geo><note>approximate only</note>
+                                <!--<note>ITM Coordinates: 543865 , 578136 </note>-->
+                            </origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1838">Discovered during the demolition of an 18th century Church of Ireland parish church in <placeName type="parish">Aghabulloge</placeName> graveyard (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO061-080002-</idno></ref>). It is one of two ogham stones from the site, the second (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO061-080005-</ref>) remains in situ.
+                        <provenance type="found" when="1838">Discovered during the demolition of an 18th century Church of Ireland parish church in <placeName type="parish">Aghabulloge</placeName> graveyard (<idno type="SMR">CO061-080002-</idno>). It is one of two ogham stones from the site, the second (<idno type="SMR">CO061-080005-</idno>) remains in situ.
                         </provenance>
-                        <provenance type="observed">This stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO074-142----</idno></ref> ).
+                        <provenance type="observed">This stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-142----</idno> ).
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -125,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-29" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, added ogham edition division, deleted free text from bibliography, deleted title from Transliteration division, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-06-28" who="#NW">Added geo note</change>
+<change when="2024-07-24" who="#POC">Added and encoded ITM coordinates and added idno for SMR numbers in provenance</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
