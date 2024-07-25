@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dunadd</title>
+             <editor role="editor" xml:id="NW">
+                 <persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName>
+             </editor>
+                <editor role="editor" xml:id="XS">
+                    <persName>Xenia Spanachi</persName>
+                    <orgName>University of Glasgow</orgName>
+                </editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Xenia Spanachi</name>
+                    <resp>encoding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Historic Environment Scotland</name>
+                     <orgName></orgName>
+                    <resp>3D recording through Sketchfab<date when="2021"/></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-ARL-003</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">DUNAD/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="gd-Ogam">Arguably Gaelic written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/212008/dunadd"><idno type="Canmore">212008</idno></ref>
+                                    <material>Pyritous slate, probably Easdale Slate</material> 
+                                    <objectType>rock-face</objectType>                                     
+                                    <dimensions unit="cm">
+                                        <height>0.5</height>
+                                            <dim type="diameter">4</dim>
+                                     </dimensions>         
+                                </support>
+                                <condition>
+                                    <p>
+                                        <q>'The inscription is largely contained in an area bound by two oblique fissures, though the upper line continues for a few strokes beyond the right-hand fissure'</q> (Forsyth 1996,230). The upper arris is more weathered and indistinct while the lower remains more defined.<q>'Though the carving is badly weathered, the component strokes are generally even and consistent'</q> (ibid.,236).
+                                    </p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>
+                                        Described as a <q>'flattish terrace of bare rock riven with fissures and bearing a number of carvings'</q> the <name xml:id="S-ARL-003">Dunadd</name> ogham can be located below the entrance of the summit, <q>'through the NE wall of the summit fort, and <dim type="length" unit="m">2</dim> to the north-east spread over a distance of about <dim type="length" unit="m">3</dim>'</q> lay a foot-print, an <rs type="decoration">incised boar</rs>, another foot-print and the ogham inscription (Forsyth 1996,230).   
+                                    </p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>
+                                    <q>'The strokes are too weathered to determine whether they were cut or pocked</q> (Forsyth 1996,230-231).The horizontal fissures act as the stem-line for the ogham inscription. Written in simple and unremarkable form of the script with the b- and h-aicme consonants slightly sloped in the expected direction while the m-aicme is steeply sloped. The vowels are formed of short lines that extend no more than the middle quarter of the ogham band. The letters are clearly spaced, and as Forsyth comments <q>'with extra distance placed between successive letters of the same aicme'</q> (ibid., 236). More notably the Dunadd ogham is an indication of how the simple forms of scripture were in use beyond the seventh century abandonment, as Forsyth comments, <q>'of the individual inscribed memorial monument-type'</q> (ibid., 236).
+                                </p> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="parish">Kilmichael Glassary</placeName>
+                                <placeName type="county">Argyll</placeName>
+                                <geo>56.085833, -5.478889</geo>
+                            </origPlace>
+                            <origDate notBefore-custom="8th century" precision="low" evidence="form of script"/>
+                                <p>Forsyth comments that the ogham inscription is comparable to the Bac Mhic Connain, and even more closely to that of Gurness which suggest that<q>'If the proposed reading is accepted then it precludes a date earlier than the eight century'</q> (1996,236).</p>
+                        </origin>
+                        <provenance type="found" when="1953">
+                            <p>The rock carvings where known since 1929, however the Ogham inscription went unnoticed until 1950s and officially published and recognized by the scholarly community in 1953 through Stewart Cruden of the Ancient Monuments Inspectorate</p>
+                        </provenance>
+                        <provenance type="observed" when="1995">
+                            <p>Forsyth visited Dunadd in August 1995 in situ, <q>'by which time the fascimile had been in place for 18 years'</q> (1996, 232).</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+                 <p>Encoded following the latest EpiDoc guidelines</p>
+                 <p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+                <language ident="xpi">Pictish</language>
+                <language ident="gd">Scottish Gaelic</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
+                </keywords>
+            </textClass>
+          <!--  <creation>         </creation>-->
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+                <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+                <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+                <change when="2024-07-06" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+         <media url="https://skfb.ly/oo7Mt" mimeType="text/html"><desc>3D model done by the Historic Environment Scotland in 2021</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd" resp="#XS">         
+                <ab>
+                    <lb n="1" style="text-direction:right"/>
+                    ᚐᚓᚄᚇ	
+                     <gap reason="lost" extent="unknown" unit="character"/> 
+                    ᚈ
+                    <gap reason="lost" quantity="2" unit="character"/>
+                    ᚅᚐ
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                    ᚈ
+                   <gap extent="unknown" reason="illegible"/>
+                    <lb n="2" style="text-direction:right"/>
+                    ᚃᚔᚏᚏᚋᚑᚅᚐᚔ 
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="gd" xml:space="preserve" resp="#KF">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                        AESD	
+                    <gap reason="lost" extent="unknown" unit="character"/> 
+                         T
+                    <gap reason="lost" extent="unknown" unit="character"/> 
+                       V
+                    <gap reason="lost " quantity="2" unit="character"/>
+                    NA
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    T
+                    <lb n="2" style="text-direction:right"/>
+                    VIRRMONAI 
+                </ab>
+            </div>
+            <div type="apparatus">
+               <listApp>
+                <app> 
+                     <wit>Upper: HCSD[.]t[..]v[.](N/LV)H[.]T Lower: L[....]VQR(R/I)HMDNHQ (Jackson 1965)</wit>
+                     <wit>Upper: AESD[-]T[-]V[-](N/LV)A [-]T[V Lower: L [....]VIRR(H/A)MDNA (Padel 1972)</wit>
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1">
+                        <p>
+                           With the snatches of text available it is difficult to comment on what kind of text this inscription is meant to detail. Forsyth comments that the carving is <q>'neither too 'monumental' nor too 'casual' to preclude either interpertation'</q> (1996,236). 
+                        </p>
+                    </item>
+                     <item n="2">
+                         <p>
+                            Bearing in mind the snatches of text we are able to grasp, the upper portion of the inscription AES could be the OIr noun aes meaning 'folk,people,those who'. Forsyth argues that this is most commonly followed by a qualifying clause, adjective or noun in the genetive, in this case there is insufficient evidence to make sense of what follows (1996,237).   
+                         </p>
+                     </item>
+                     <item n="3">
+                         <p>
+                             The lower part, or the second arris, is argued by Forsyth to contain two words, Finn Manach. Potentially Old Irish Finn is the personal name and Monach an adjectival epithet connoting status or ethnic origin. The first word Finn or Fionn means according to Forsyth <q>'fair, bright, white, light-hued'</q> (1996,237). However despite the carving being on a fairly small scale, it is too grand to be a graffiti but it is still not evident enough that it is official, especially when factoring its potential dating after the site's greatness.
+                         </p>
+                     </item>
+                     <item n="4">
+                         <p>
+                            Forsyth against previous arguments of Pictish origins from Curle (1940), Thomas (1964), Radford (1953) and Jackson (1965), argues that such notions reduce the ogham to provocative graffiti, on the unstable basis that there have been no subsequent raids on Dunadd which escaped the record. Contrastingly, Forsyth argues that <q>'there can be absolutely no grounds for describing the Dunadd ogham 'Pictish'</q> but rather its physical location and ogham script is more common throughout all the areas in which this alphabet was used. Its unusual location has now been paralleled to Ireland enforcing, under Forsyth's interpertation, Gaelic origins (1996, 241)
+                         </p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>227-242</citedRange>
+                     </bibl>
+                     <bibl><ptr target="JAC1965"/>
+                     <citedRange></citedRange>
+                     </bibl>
+                     <bibl><ptr target="PAD1972"/>
+                     <citedRange></citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
+

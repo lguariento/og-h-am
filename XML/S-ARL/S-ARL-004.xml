@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lochgoilhead</title>
+             <editor role="editor" xml:id="NW">
+                 <persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName>
+             </editor>
+                 <editor role="editor" xml:id="XS">
+                    <persName>Xenia Spanachi</persName>
+                    <orgName>University of Glasgow</orgName>
+                </editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Xenia Spanachi</name>
+                    <resp>encoding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-ARL-004</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">LOHED/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/318854/lochgoilhead-1"><idno type="Canmore">318854</idno></ref>
+                                    <material>Fine-grained sandstone</material> 
+                                    <objectType>unclassified</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>0.420</height>
+                                            <width>160</width>
+                                            <depth>0.115-0.075</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>
+                                    <p>The stone is fragmentary and damaged with the surface severely abraded at points.However as Forsyth notes <q>'only a small portion has been lost'</q> (1996,375). Interestingly, the patterns of wear suggest a full life with a potential of time in the sea.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The stone is one of six located inside the Lochgoilhead parish church in Lochgoilhead and Kilmory. The church has frst been recorded at the closing of the 14th century and later sources Forsyth traces, amount it as a dedication to the Three Holy Brethen. The <name xml:id="S-ARL-004">Loghgoilhead</name> ogham stone itself looks unfinished with possibly various different hands crafting each letter over periods of time. Forsyth comments that <q>'Perhaps the block of stone was selected for carving then...abandoned ending up as chisel-fodder'</q> (1996,375). The ogham inscription itself is located on edge C of the RCAHMS diagram, to the right of the groove as part of two lines of lettering. The upper appears to be roman while the lower is in the ogham alphabet.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>
+                                <p>
+                                    The stem-line of the inscription is <height unit="cm">19.5</height> long, running parallel to the edge of the stone. The individual strokes are of varying lenght between <height unit="cm">2.0 and 3.5</height> and <width unit="cm">0.3 and 0.6</width>.The carving is as Forsyth observed <q>'course and scrappy, doubtless because of the intractability of the stone and the subsequent abuse the block has suffered.'</q> (1996,377).The begining and end of the inscription are badly worn making any reading of those portions uncertain.
+                                </p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Unknown</origPlace>
+                                <placeName type="parish">Lochgoilhead And Kilmorich</placeName> <placeName type="county">Argyll</placeName>
+                                <geo>56.171667, -4.903333</geo>
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found">
+                            <p><q>The ogham inscripton was discovered inside the church in the early 1990s'</q> yet nothing is known about when or from where it was brought into the building (Forsyth 1996,374).</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p>The <name>Lochgoilhead</name> inscription itself was examined and observed by Forsyth in November 1992 during its time in Edinbrugh in the care of the RCAHMS team.</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+                 <p>Encoded following the latest EpiDoc guidelines</p>
+                 <p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+                <language ident="xpi">Pictish</language>   
+            </langUsage>
+            <textClass>   
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
+                </keywords>
+            </textClass><!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+                <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+                <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+                <change when="2024-07-10" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+         <media url="https://sketchfab.com/3d-models/ogham-inscribed-stone-lochgoilhead-077a860718ec455ea996a324ca9de524" mimeType="html">
+             <desc>3D Model produced by <persName>Rachel J. McRae</persName> on SketchFab</desc>
+         </media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#XS"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    <choice resp="#KF"><unclear cert="low">᚛</unclear><unclear cert="low">ᚆ</unclear></choice>ᚋᚒᚇᚋᶴᚐᚂᚔ<unclear>ᚇᚋ</unclear>
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#KF">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                     <choice resp="#KF"><unclear cert="low">></unclear><unclear cert="low">H</unclear></choice>MUD<g ref="#s-shaped_M"/>ALI<unclear>DM</unclear>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <listApp>
+                <app>                    
+                </app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1">
+                        <p>If the suggested reading is correct it could be interperted as the personal name MUD-MALI. The first element may be from the adjective muad meaning noble or good while the second element may be correlated to the common personal name MAGL which normally found in compound names such as this one. As Forsyth comments <q>Although there is no extant example of the two elements MOD/MUAD and 
+MAGL-/MAL together, the combination is theoretically possible, perhaps with meaning 'noble prince'</q> (1996, 380-381).</p>
+                    </item>
+                     <item n="2">
+                         <p>If the fifth letter is not M as the suggested reading implies then another possibility offered by Forsyth is the interpertation VALI from the root wal meaning to be strong, a very common element in celtic personal names (1996, 382).</p>
+                     </item>
+                     <item n="3">
+                         <p>If letter 5 is a modified A then the potential reading Forsyth purposes is the Mudali. It is important to note that these readings do not exhaust all possibilities. A better understanding in how the three texts (the groove, the roman and the ogham inscription) relate to one another would assist a more accurate interpertation.</p>
+                     </item>
+                     <item n="4">
+                         <p>The difficulty in defining the original purpose of the Lochgoilhead stone has led to many explanations of which, as Forsyth comments one<q>'is no more implausible than any other'</q> (1996, 383).</p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>374-384</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
