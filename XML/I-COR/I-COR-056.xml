@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO060-190----</idno> </ref>
                                     <material>Sandstone grit</material> 
-                                    <objectType>pillar (said to have formed part of a stone circle)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
                                             <height>1.85</height>
@@ -70,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.09</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The end of the inscription is <q>fractured away</q> (Macalister 1945, 109).</condition>
+                                <condition>This ogham stone was once part of a stone circle and was reused as a lintel for a pigstye, the end of the inscription has <q>fractured away</q> (Macalister 1945, 109).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout></layout>
@@ -96,8 +96,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -125,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-29" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, added ogham edition division, deleted free text from bibliography, deleted title from Transliteration division, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-06-28" who="#NW">Added geo note</change>
+<change when="2024-07-25" who="#POC">Moved information in note from objectType to condition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
