@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kirriemuir</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-ANS-002</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository>Meffan Museum and Gallery, Forfar</repository>
+                        <idno type="invNo">K1999.352</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/32300/kirriemuir"><idno type="Canmore">32300</idno></ref>
+                                    <material>sandstone</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>1.15</height>
+                                            <width min="0.51" max="0.59">0.51-0.59</width>
+                                            <depth>0.11</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>Weathered but intact.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The left-hand edge of the slab possibly features an ogham inscription below a <rs type="decoration">key pattern</rs>. The front face is decorated with a <rs type="decoration">cross</rs> with <q>'a <rs type="decoration">cloaked man</rs> clutching a small square shield and a staff on one side of the shaft and a <rs type="decoration">hunting scene</rs> on the other'</q> (Fraser 2008, 56). The back face depicts <rs type="decoration">two huntsmen on horseback</rs> with a <rs type="decoration">double-disc and Z-rod symbol</rs> accompanying the upper figure (ibid).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><!--Katherine?/someone add observation about characters, please--> 
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Kirriemuir</placeName> <placeName type="county">Angus</placeName>
+                                <geo>56.678056, -2.998056</geo></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1787">The first recording of the ogham inscription is an illustration by John Borland as part of the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS) collection published online on Canmore <ref target="https://canmore.org.uk/site/32300/kirriemuir"/>. The stone was re-used for the foundations of the old <placeName>Parish Church of Kirriemuir</placeName> and was found in <date>1787</date> when the church was being demolished (Stuart 1856, 14).
+                        </provenance>
+                        <provenance type="observed">Recorded in <placeName>Meffan Museum and Gallery, Forfar</placeName> <!--on <date></date>-->
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-09" who="#LH">Encoded description</change>
+    <change when="2024-07-10" who="#LH">Encoded transliteration and ogham</change>
+    <change when="2024-07-12" who="#LH">Encoded layout and provenance</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/> <!--update image-->
+         <media url="https://skfb.ly/6RtTv" mimeType="text/html"><desc>3D model <!--by Megan?--> on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">            
+                <ab>
+                    <lb n="1" style="text-direction:up"/>ᚑᚂᚉᚋᚋᚔ
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="2" style="text-direction:up"/>OLCMMI <!--how to encode inscription not verified?-->
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>Also known as Kirriemuir 2.</p>
+                    </item>
+                    <item n="2"><p>Information about the ogham inscription and its analysis is limited due to the lack of publications.</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FRA2008"/>
+                     <citedRange>56-57</citedRange>
+                     </bibl>
+                     <bibl><ptr target="STU1856"/>
+                     <citedRange>14-15</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

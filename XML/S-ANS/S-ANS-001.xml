@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St Vigeans</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-ANS-001</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository>St Vigeans Museum</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/35586/st-vigeans"><idno type="Canmore">35586</idno></ref>
+                                    <material>sandstone</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="cm">                                         
+                                            <height>11</height>
+                                            <width>26</width>
+                                            <depth>60</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>It is a small fragment of a free-standing cross.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The incision on the left face may be an ogham inscription. The front face is decorated with a panel of <rs type="decoration">interlace</rs>, and the back face contains a <rs type="decoration">double-disc</rs> and a <rs type="decoration">Z-rod symbol</rs> (Allen 1903, 242).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><!--Katherine?/someone add observation about characters, please--> 
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="town">Arbroath</placeName> <placeName type="parish">St Vigeans</placeName> <placeName type="county">Angus</placeName>
+                                <geo>56.576944, -2.590278</geo></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1888">The first recording of the ogham inscription is a photo from the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS) collection taken in <date>2000</date> and published online on Canmore<ref target="https://canmore.org.uk/site/35586/st-vigeans"/>. The fragment of the slab was found during grave-digging in <date>1888</date> and was taken into the church (Geddes 2017, 183). In <date>1960</date>, it was removed and taken into St Vigeans Museum (Geddes 2017, 184). 
+                        </provenance>
+                        <provenance type="observed">Recorded in <placeName>St Vigeans Museum (HES)</placeName> <!--on <date></date>.-->
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-05" who="#LH">Encoded dimensions, county and text</change>
+    <change when="2024-07-09" who="#LH">Encoded description and provenance</change>
+    <change when="2024-07-11" who="#LH">Added spacing in support and edited provenance</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="St-Vigeans-sc_09.jpg"/>
+        <graphic url="St-Vigeans-sc_11.jpg"/>
+         <media url="https://skfb.ly/6RApA" mimeType="text/html"><desc>3D model <!--by Dr Hugo Anderson-Whymark ?--> on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>ᚏ<unclear>ᚏ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="2" style="text-direction:up"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>R<unclear>Ṛ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                     <item n="1"><p>Also known as St Vigean's 6.</p>
+                     </item>
+                     <item n="2"><p>There is doubt over whether this is ogham or not. Combined with the brevity of the inscription, both its language and meaning cannot be readily determined.</p>
+                     </item>
+                     <item n="3"><p>The ogham inscription was originally recognised by Duke in 1887-8, who noted they were so defaced they were unintelligible (Geddes 2017, 184). Later, in 1903, Allen read it as a T-pattern (ibid). In 2005, Borland recognised the T-pattern but discerned two ogham letters 'RR' with a drawn stem-line (ibid). In Forsyth's view, the stem-line is questionable and the strength of the ogham strokes seem to be very similar to the other cuts on the face (ibid).</p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="ALL1903"/>
+                     <citedRange>241-242</citedRange>
+                     </bibl>
+                     <bibl><ptr target="CRU1964"/>
+                     <citedRange>25</citedRange>
+                     </bibl>
+                     <bibl><ptr target="FRA2008"/>
+                     <citedRange>58-59</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GED2017"/>
+                     <citedRange>183-184</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
