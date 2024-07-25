@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scoonie</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="XS">
+                    <persName>Xenia Spanachi</persName>
+                    <orgName>University of Glasgow</orgName>
+                </editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Xenia Spanachi</name>
+                    <resp>encoding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-FIF-001</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">SCNIE/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository>NMS</repository>
+                        <idno type="invNo">X.IB.110</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="xpi-Ogam">Pictish written in ogham script</textLang>   <!--Unsure?  -->                     
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/31328/scoonie"><idno type="Canmore">31328</idno></ref>
+                                    <material>Sandstone</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>1.06</height>
+                                            <width>07</width>
+                                            <depth>0.1</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition><p><q>'portions missing from the top and probably also from the bottom. Front severely weathered, reverse better preserved. Ogham inscription clear and possibly complete'</q> (Forsyth 1996,481). The top of the slab has been sheered off with a portion of unknown dimensions lost.</p></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The cross-slab is sculpted on both sides, on the front is a badly weathered <rs type="decoration">cross</rs> while on the reverse side is of an <rs type="decoration">incised beast</rs> that occupies the whole width of the top of the extant portion accompanied by a hunting scene of three horsemen and two dogs chasing a stag. The ogham inscription runs on the right hand of the reverse side. The current position of the slab makes it impossible to make out if anything has been lost from the bottom. Forsyth comments that <q>'cross-slab is the only archaeological evidence for early medieval activity at the site'</q>  (1996,480). </p></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"/>
+                                <p>The ogham inscription has a drawn-in stem-line which according to Forsyth <q>'gently undulates up the reverse face of the cross-slab close to and parallel with the right-hand edge'</q> (1996,483). The spacing of the strokes is generous except letter 9 which is squeezed in order to fir the stag's muzzle. Forsyth on the form of the script notes that the inscription is <q>'carved in a simple Type Ila ogham, with a drawn-in stem-line and long vowel-strokes 
+occupying virtually the full ogham band'</q> (1996,486).
+                                </p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Scoonie (Kirkcaldy)</placeName> <placeName type="county">Fife</placeName>
+                                <geo>56.203611, -2.994444</geo></origPlace>
+                            <!--<note>additional info, e.g. approximate only</note>-->
+                            <origDate notBefore-custom="1750" evidence="workmanship"/>
+                            <p>Forsyth speculates that <q>'its inferior workmanship and comparatively small size point to a date in the second half of the eighth century or later'</q> (1996,491).</p>
+                        </origin>
+                        <provenance type="found" when="1879">
+                            <p>First publication: <date>1879</date> <persName>R. Rolt Brash</persName>, Ogam Monuments of the Gaedhil, p 353 and pl. 48. Found in <placeName>Scoonie churchyard</placeName> and taken to <placeName>Leven church</placeName>, until the Heritors agreed in <date>1868</date> that it should go to NMAS.</p>
+                        </provenance>
+                        <provenance type="observed" when="2022-06-16">
+                            <placeName>NMS</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+                 <p>Encoded following the latest EpiDoc guidelines</p>
+                 <p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+                <language ident="xpi">Pictish</language>   
+            </langUsage>
+            <textClass>     
+                <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+                    <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+                </keywords>
+            </textClass>
+            <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+                <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+                <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+                <change when="2024-07-13" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+         <media url="Complete" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi" resp="#XS">              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    ᚓᚇᚇᚐᚏᚏᚅᚑᚅᚅ
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="xpi" xml:space="preserve" resp="#KF">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    EDDARRNONN
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1">
+                        <p>The beast symbol which is usually carved in a customary pair hints to a loss of symbol.</p>
+                    </item>
+                     <item n="2">
+                         <p>The hunting scene could potentially have either christian or pictish origins, as it is a symbolism found within both.</p>
+                     </item>
+                     <item n="3">
+                         <p>As all the lettering is clear there is an unusual doubtlessness to the reading which Forsyth comments <q>'has been universally, and surely correctly, interperted as the male personal name Etharnon'</q> (1996,486). This is peculiar in the sense that its appearence in Pictish inscriptons has been limited to four times while the name is not to be found on the Pictish King-List <q>'or any other source of Pictish secular names'</q> (ibid.,489). However Forsyth notes that there is <q>'an important Pictish saint called Etheman and it is tempting to interpret some or all of these 
+inscriptions as honouring the saint rather than a string of local magnates coincidentally all called Etheman'</q> (ibid.,489).</p>
+                     </item>
+                     <item n="4">
+                         <p> Forsyth comments that the outline of the original design indicates that the ogham is contemporary with the rest of the carving, as the symbols allowed space for the ogham inscriptions. More specifically, <q>'the stag stepping across the stem and interrupting the letters with its fore-leg and muzzle'</q> indicates how the two were integrated. (ibid.,483). As the right-hand text makes independent sense there is no need to debate over missing text, however the lone hammerhead A on the left hints at material lost.</p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>480-494</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
+
