@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Selkirk</title>
+                <editor role="editor" xml:id="XS">
+                    <persName>Xenia Spanachi</persName>
+                    <orgName>University of Glasgow</orgName>
+                </editor>
+                <funder>
+                    Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)
+                </funder>
+                <funder>
+                    <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to Epidoc</resp>
+                </respStmt>
+                <!--<respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!-\-3d recording, technique and software used, date e.g. <date when="2003-09-17"/>-\-></resp>
+                </respStmt>-->
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">OG_H_AM S-SEL-001</idno>
+                <idno type="CIIC">CIIC ref</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Scotland</country>
+                        <repository>Live Borders Library HQ, Selkirk</repository>
+                        <idno type="invNo">TT50/03</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <textLang></textLang>
+                            <!-- not sure as Canmore won't load <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Live Borders Library HQ, Selkirk<ref target="HER Link">Deer Park</ref>
+<!--                                    <material>CANMORE DOWN DONT KNOW</material>-->
+                                    <objectType>Pillar</objectType>
+                                    <dimensions unit="m">
+                                        <height>T/A</height>
+                                        <width>T/A</width>
+                                        <depth>T/A</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>T/A</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>T/A</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>T/A</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="Parish">Selkirk</placeName>
+                                <geo>55.538333, -2.836667</geo>
+                            </origPlace>
+                        </origin>
+                        <provenance type="found" subtype="when">Jun-02</provenance>
+                        <provenance type="observed" subtype="when">09 May 2024</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded following the latest EpiDoc guidelines</p>
+            <p>???</p>
+        </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!--                    <term ref="https://www.eagle-network.eu/voc/typeins/lod/63.html"></term>-->
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2024-06-18" who="XS">Xenia Spanachi autogenerated EpiDoc output from spreadsheet</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <fascimile>
+        <!--<graphic url="example.jpg"/>
+        <media url="3D Data" mimeType="text/hmtl">
+            <desc>insert here</desc>
+        </media>-->
+    </fascimile>
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="??">
+                <ab>
+                    <lb n="1" style="text-direction:?"/>
+                    Insert reading in OGHAM script, add new lb if text continue
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW?">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    Reading transliterated to Latin Script
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app>
+                        
+                    </app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p/> insert
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                    <item n="1">
+                        <p/>
+                    </item>
+                </list>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl>
+                        <ptr target=""
+                    </bibl>
+                </listBibl>
+                    </item>
+                </list>
+                        
+                
