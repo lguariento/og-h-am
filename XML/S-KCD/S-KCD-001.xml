@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Auquhollie</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><date when="2022-05-20"/><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-KCD-001</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">AUQUH/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                            <textLang mainLang="xpi-Ogam">Pictish written in ogham script</textLang>                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/37143/auquhollie-lang-stane"><idno type="Canmore">37143</idno></ref>
+                                    <material>quartzose gneiss</material> 
+                                    <objectType>menhir</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>2.35</height>
+                                            <width>0.7</width> <!--check width and depth, please. Katherine's thesis indicated 0.43 x 0.66 x 0.7 at base-->
+                                            <depth>0.43</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>Good condition, some wear at arris (Forsyth 1996, 43).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The ogham inscription <q>'is carved up the south-east edge of the stone, beginning about 0.3m from the bottom and continuing for a further 1.25m'</q> and the natural edge of the stone serves as the stem-line (Forsyth 1996, 44). There is no other inscription or carving on the stone (ibid).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription was likely <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and smoothed and the carving was sharpened in modern times (Forsyth 1996, 43-4). The vowels are indicated with very short notches on the arris (Forsyth 1996, 47). <q>'The stem wavers to such an extent that it is not always easy to evaluate the slope of letters, but most seem roughly perpendicular to the stem'</q> (ibid).
+                                <height>The consonant strokes are 5cm long on average (Forsyth 1996, 44).</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Fetteresso</placeName> <placeName type="county">Kincardineshire</placeName>
+                                <geo>57.008056, -2.292500</geo></origPlace>
+                            <origDate cert="low">fifth to seventh century</origDate>
+                        </origin>
+                        <provenance type="found" when="1886">The presence of an ogham inscription was noted in <date>1886</date> by  Rev. John G. Michie, of Dinnet, Aberdeenshire (Southesk 1886, 37).
+                        </provenance>
+                        <provenance type="observed" when="2024-05-20">Recorded in situ on a hillside near <placeName>Nether Auquhollie farmhouse</placeName> on <date>May 20th 2022</date>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>      
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-12" who="#LH">Encoded description, provenance and edition</change>
+    <change when="2024-07-15" who="#LH">Edited description, provenance and edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/> <!--update image, please-->
+         <media url="ttps://skfb.ly/EGE7" mimeType="text/html"><desc>3D model <!--by Megan?--> on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>ᚃᚒᚓᚅᚑᚅ<unclear>ᚔᚓ</unclear>ᚈᚓᚇᚑᚃᚒ<unclear>ᚏᚔ</unclear>
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="2" style="text-direction:up"/>VUENON<unclear>ỊẸ</unclear>TEDOVU<unclear>ṚỊ</unclear>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>As a Type I pillar, the Auquhollie ogham could be expected to be an Irish-language text representing Irish names; however, this is complicated by its geogrpahical location within sight of the eastern coast of Pictland (Forsyth 1996, 48). Even if the names were Pictish; however, <q>'the orthography would have to have been derived from Irish ogham, and so an Irish aspect would be inevitable'</q> (Forsyth 1996, 51).</p> 
+                    </item>
+                    <item n="2"><p>The exact dating of the ogham cannot be readily determined, though it is most likely to date between the fifth and the seventh century (Forsyth 1996, 54). If found in Ireland, Forsyth argues, a pillar with these characteristics would be dated to the sixth or, at the latest, the seventh century; however, this is cast into doubt by its geographical location (Forsyth 1996, 48). The only known Irish settlement in this period is understood to be in Argyll, so such a strong Irish influence in the North-East is difficult to explain (ibid).</p>
+                    </item>
+                    <item n="3"><p>The exact translation of the inscription cannot be readily determined. It is clear that it lacks the central MAQI, typical of Irish pillar oghams, but it can be assumed that it represents names (Forsyth 1996, 51). Given the length of the inscription, Forsyth suggests it is too long for a single name and therefore represents two names linked together (ibid).</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="ALL1903"/>
+                     <citedRange>203-204</citedRange>
+                     </bibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>41-54</citedRange>
+                     </bibl>
+                     <bibl><ptr target="SOU1886"/>
+                     <citedRange>37</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

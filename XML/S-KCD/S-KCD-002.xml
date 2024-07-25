@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fordoun</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><date when="2022-05-16"/><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-KCD-002</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">FORDN/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
+                            <textLang mainLang="pgl-Latn">imitive Irish written in Latin script</textLang>
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                            <textLang mainLang="sga-Latn">Old Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/36458/auchenblae-fordoun-parish-church-fordoun-stone"><idno type="Canmore"></idno>36458</ref>
+                                    <material>red sandstone</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>1.5</height> <!--double-check dimensions, please, sources vary slightly-->
+                                            <width>0.84</width>
+                                            <depth>0.09</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>Weathered and incomplete.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The ogham inscription runs up the <!--left/right? unclear from sources--> narrow face of the slab. The front is decorated with a <rs type="decoration">cross</rs>. Its centre is decorated with <rs type="decoration">interlace</rs>, the top arm of the <rs type="decoration">cross</rs> includes the lower part of a <rs type="decoration">sea monster</rs>, the left arm is decorated with <rs type="decoration">Stafford knots</rs>, the right arm may have also been carved but is now defaced, and the bottom arm contains a <rs type="decoration">horseman carrying a spear</rs>. Surrounding the bottom arm of the <rs type="decoration">cross</rs> are the remainders of a hunting scene, consisting of two more<rs type="decoration">horsemen carrying spears and accompanied by hounds</rs>, as well as a <rs type="decoration">double-disc and Z-shaped rod symbol</rs>. The top left corner of the slab includes the remnants of an inscription in Hiberno-Saxon miniscules.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><!--Katherine?/someone add observation about characters, please-->
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Fordoun</placeName> <placeName type="county">Kincardineshire</placeName>
+                                <geo>56.896111, -2.451111</geo></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1822">The ogham inscription was first noticed in the late twentieth century. Rhys is the first to mention an ogham inscription in connection with the slab in <date>1898</date>, but indicates the transliteration of the second inscription instead, casting some doubt on the recognition (Rhys 1898, 380). The stone was found in the late eighteenth century, re-used horizontally as the base for the pulpit in the old parish church, and was subsequently placed in St Palladius Chapel, in the churchyard of Fourdon (Stuart 1856, 20). An illustration of the stone is provided by John Stuart in <date>1822</date>, missing the top and with the right-hand portion having flaked away (Stuart 1822, 314). <!--The missing surface was restored in concrete sometime before <date>1848</date>, and the slab was fixed to the wall inside St Palladius Chapel probably in <date>1872</date> when the chapel itself was restored. In <date>1966</date> it was moved into the adjacent parish church. --> <!--Sorry, I could not trace the sourcing of this apart from Canmore :( (it is not in Fraser 2008, Allen 1903 or Stuart 1822, which are the three sources listed-->
+                        </provenance>
+                        <provenance type="observed" when="2022-05-16">Recorded in <placeName>Auchenblae church</placeName> on <date>May 16th 2022</date>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-15" who="#LH">Encoded description, provenance and edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/> <!--update image, please-->
+         <media url="YYY" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚑ</unclear>ᚃᚃ<gap reason="lost" extent="unknown" unit="character"/>ᚊᚋ<gap reason="lost" extent="unknown" unit="character"/>ᚉ<gap reason="lost" extent="unknown" unit="character"/>
+                </ab> 
+            </div>
+<!-- Decision to be made on whether to encode the second inscription 
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga" resp="#">
+                <ab>
+                    <lb n="x" style="text-direction:right"/>PIDARNOIN
+                </ab>
+            </div>-->
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="2" style="text-direction:up"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">O!</unclear>VV<gap reason="lost" extent="unknown" unit="character"/>QM<gap reason="lost" extent="unknown" unit="character"/>C<gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>Information about the ogham inscription is limited due to a lack of publications.</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="ALL1903"/>
+                     <citedRange>201-203</citedRange>
+                     </bibl>
+                     <bibl><ptr target="RHY1898b"/>
+                     <citedRange>380</citedRange>
+                     </bibl>
+                     <bibl><ptr target="STU1822"/>
+                     <citedRange>314-316</citedRange>
+                     </bibl>
+                     <bibl><ptr target="STU1856"/>
+                     <citedRange>20</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
