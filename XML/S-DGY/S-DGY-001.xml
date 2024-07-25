@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lochnaw</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="XS">
+                    <persName>Xenia Spanachi</persName>
+                    <orgName>University of Glasgow</orgName>
+                </editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Xenia Spanachi</name>
+                    <resp>encoding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-DGY-001</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">LONAW/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository>Dumfries Museum</repository>
+                        <idno type="invNo">DUMFM:0201.71</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!-- Language unknown due to condition and questionability of Ogham validity   -->                     
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/60396/lochnaw"><idno type="Canmore">60396</idno></ref>
+                                    <material></material> 
+                                    <objectType>pillar</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>0.420-0.540</height>
+                                            <width>0.390</width>
+                                            <depth>0.410</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>
+                                    <p>The fragment is described by Forsyth as being <q>'Poor, fragmentary, surface severely abraded</q> (1996,519). There appears to be a lot of decay on the surface of the stone with portions broken off, especially at the right and back face of it which is too damaged to discern if any carvings where there initially. The surfaces that have been incised are also worn suggesting exposure to the elements before being buried.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>As one fragment of the five-sided pillar, the stone's faces are home to some, questionable, ogham inscriptions on its front face, while the left-hand face has some incised lines that appear to be artificial, yet their form, origin and purpose remain unknown.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">Carved</rs>
+                                <p>Due to the condition of the fragmentary stone, there is speculation on the authenticity and validity of the inscriptions being of the ogham alphabet altogether. It is impossible to know how long the stem, which has been drawn-in, was originally, but currently as it stands it is <dim type="lenght" unit="m">0.390</dim> long. Forsyth, based on the clearer patches on the stone argues that the incisions where deeper, and that <q>'when first cut, the lines had a broad, V-shaped section</q> (1996, 521). A detailed description by Forsyth follows:
+                               <list>
+                                   <item> Stroke 1, is a long stroke of <dim type="length" unit="m">0.080</dim> perpendicularly across the stem</item>
+                                   <item>Stroke 2, is a short stroke of <dim type="length" unit="m">0.045</dim> to the left of and perpendicular to the stem</item>
+                                   <item>Stroke 3, is a long stroke of <dim type="length" unit="m">0.110</dim> obliquely across the stem-line, sloping backwards</item>
+                                   <item>Stroke 4, is a long stroke of <dim type="length" unit="m">0.110</dim> running parallel with 3</item>
+                                   <item>Stroke 5, is a short stroke of <dim type="length" unit="m">0.090</dim> to the left of the stem, parallel with 3 and 4</item>
+                                   <item>Stroke 6, is a short stroke of <dim type="length" unit="m">0.080</dim> to the left of and perpendicular to the stem</item>
+                                   <item>Stroke 7, is a short stroke of <dim type="length" unit="m">0.070</dim> to the left of and perpendicular to the stem</item> 
+                               </list> (1996, 521).    
+                                </p>                       
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Leswalt</placeName> <placeName type="county">Dumfries and Galloway</placeName>
+                                <geo>54.912222, -5.137222</geo></origPlace>
+                            <!--<note>additional info, e.g. approximate only</note>-->
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found">
+                            <p>The fragment was found in the late <date>1960s or 1970s</date> during ploughing, however the exact original date of discovery is unknown</p> <!--letter to Dr A Ritchie 1986?-->
+                        </provenance>
+                        <provenance type="observed" when="2023">
+                            <p>Observed at the <placeName type="building">Dumfries Museum</placeName> on <date>25th of June 2023</date></p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+                 <p>Encoded following the latest EpiDoc guidelines</p>
+                 <p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+                <language ident="xpi">Pictish</language>   
+            </langUsage>
+            <textClass>
+               <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                    <term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
+               </keywords>
+            </textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+                <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+                <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+                <change when="2024-07-11" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="example.jpg" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#XS"><!--lang note unknown-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    ᚐᚋ<choice resp="#KF"><unclear cert="low">ᚋ</unclear><unclear>ᚌ</unclear></choice>ᚆ<unclear reason="ambiguous">ᚈ</unclear>
+                    <gap reason="lost" extent="unknown" unit="character"/> 
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#KF"> <!--lang note unknown-->  
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    AM<choice resp="#KF"><unclear cert="low">M</unclear><unclear>G</unclear></choice>H<unclear reason="ambiguous">T</unclear>
+                    <gap reason="lost" extent="unknown" unit="character"/> 
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1">
+                        <p>According to Forsyth, the inscriptions on the left-hand face of the fragmentary stone could belong to any period with no indication as to whether they are contemporary with each-other or with the ogham ones on the front-face (1996, 519)</p>
+                    </item>
+                     <item n="2">
+                         <p>There are gaps between each ogham stroke ranging from <dim type="length" unit="m">0.025-0.080</dim> which is unclear weather other ogham strokes used to be there or if the gaps where intentional. Forsyth however notes that <q>'The inscription, however, is so short and 
+fragmented that it would be unwise to make too much of the spacing between strokes'</q> (1996,522).</p>
+                     </item>
+                     <item n="3">
+                         <p>Taken as ogham text, the inscription should be read from bottom up, however Forsyth warns there is no way to know that its present position is its original, and the stone could potentially have been stood the other way around.</p>
+                     </item>
+                     <item n="4">
+                         <p>The form of the ogham carvings proves problematic in identifying the inscription as ogham in general. Forsyth through comparison with other Scottish ogham comments that the backwards slope of the long oblique strokes is opposite to the usual forward slope of the strokes on other inscriptions found in Scotland (1996,522). </p>
+                     </item>
+                     <item n="5">
+                         <p>Another issue that arises with the form is the use of both short perpendicular and short oblique strokes which otherwise one of the two is usually used. When both are in use, Forsyth comments, oghamists <q>'rarely differentiate so sharply between the two kinds, but rather have strokes which slope either a little or not at all'</q> (1996,523). As such if the lines are ogham, the oghamist <q>'was either innovative or inept'</q> (ibid.,524).</p>
+                     </item>
+                     <item n="6">
+                         <p>Despite speculation however, the <name xml:id="S-DGY-001">Lochnaw</name> stone has some parallels, in terms of its morphology, located in Scotland on the same western, northern seaboard it is found. Moreover, Lochnaw is, according to Forsyth <q>'well placed to participate cultural dissemination along the sea routes between Ireland, Mann and the west Coast of Scotland'</q> (1996,524).</p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>519-525</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
