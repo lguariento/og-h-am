@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inchyra</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                  <editor role="editor" xml:id="XS">
+                    <persName>Xenia Spanachi</persName>
+                    <orgName>University of Glasgow</orgName>
+                </editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Xenia Spanachi</name>
+                    <resp>encoding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-PER-003</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">INCHY/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository>Perth Museum</repository>
+                        <idno type="invNo">PMAG: 5/1945</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="xpl-Ogam">Potentially Pictish written in ogham script</textLang> 
+                              <textLang mainLang="gpl-Ogam">Primitive Irish written in ogham script</textLang> <!--We do not even know if we should be looking for the text in Irish or Pictish' pg355 Forsyth 1996-->
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/28250/st-madoes-inchyra-stone"><idno type="Canmore">28250</idno></ref>
+                                    <material>Fine grained local Sandstone, mica-rich, containing both biotite and muscovite</material> 
+                                    <objectType>Class I Pictish symbol stone</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>1.6</height>
+                                            <width>narrow end-0.31, broad end-0.43</width>
+                                            <depth>0.07-0.09</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>
+                                    <p>The narrow end of the slab is intact but the broad end is broken with a portion missing. The face of the slab is smooth while the other side is rough with general flaking, especially noticeable on the edges, that has affected parts of the carving, some of which have been recovered. The rough side may indicate that it was exposed to water.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>The stone was found <q>'oriented WNW-ESE'</q> and was <q>'lying flat about <dim type="depth" unit="m">0.3</dim> below ground level...resting on forty-nine water-rolled stones'</q> (Forsyth 1996,333). From the carvings, the stone appears to have been reused three times. The important area in which it was found is, as Forsyth notes <q>'rich in early medieval remains'</q> with <q>'hings of early connections with Ireland'</q> (1996,335). Stevenson notes that <q>'both long sides and the narrow ends are smooth, and their edge to the smooth surface is rounded whule the other edge is sharp'</q> (1961,34). Forsyth follows Stevendon in naming the smooth surface the front for conventional reasons, without implying any carving as primary to the rest.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <p>The ogham inscriptions appear at five different positions on the stone with potentially three different hands and carving techniques at three different phases. Forsyth labels the inscriptions according to Padel only seperating A as A(i), A(ii) (read together), and the subsequent B and C. Forsyth also provides the alternative labels of Stevenson (b,c,a and d accordingly), and Wainwright (2,2,1, and 3 accordingly). A more detailed description by Forstyh follows:
+                                <list>
+                                    <item>A(i) and A(ii): A(i) starts <dim type="length" unit="m">0.045</dim> below B along the narrow edge at a total of <height unit="m">0.450</height> long with a blank section of <height unit="m">0.230</height> long. This is read with A(ii), vertically upwards as casual inscriptions that Forsyth denotes as potentially grafitti. A(ii) starts on the opposite long edge, ending at a wear section of <height unit="m">0.230</height>, itself running at <height unit="m">0.240</height> in total. While Padel was inclined to associate the ogham wih the incomplete symbols on the smooth face, Forsyth thinks they need not necessarily be associated with any symbol. While the stemline is haphazard and erratic, the ogham inscriptions are legible. <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">Carved</rs>. Written in an informan and cursive hand the spacing, length and slope of inscriptions A are somewhat of a careless nature. The vowels are found as short strokes across the stem and occupy a minimum of the middle third of the ogham band. </item>
+                                    <item>B: The boldest inscription on the slab, ogham inscripton B was the only one noticed initially, starting midway along the long side at a total of <height unit="m">0.790</height> length. The inscription contunues up to the narrow end and around the corner across the top neatly framing the <rs type="decoration">fish and notched double-disc</rs>. Sharing the same execution of a deeply <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> technique, the ogham can potentially be associated with the decoration.Ogham inscription B has bind-strokes with vowels that occupy the entire ogham band. The strokes vary in space width giving the letters an uneven quality.</item>
+                                    <item>C: Being the shortest ogham on the slab, inscription C runs without a stem-line on the broad rough face of the slab, to the right of the fish's back. The inscripton is a little to the left of vertical yet reads upwards confidently. Ogham inscription C is associated with the <rs type="decoration">fish and serpent</rs>. <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. Forsyth comments that the <q>'incongruity of Ichyra C, is merely that a stemless ogham was carved on a slab with sharp and angular arrises'</q> which may point to the theory that C was the third ogham carved on the basis that both narrow edges of the broad end where occupied by A(i-ii) (1996,353)</item>
+                                </list>
+                                    (Forsyth 1996,342-354).
+                                </p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">St Madoes</placeName> <placeName type="county">Perthshire</placeName>
+                                <geo>56.376111, -3.312500</geo></origPlace>
+                            <!--<note>additional info, e.g. approximate only</note>-->
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1945-02-19">
+                            <p><q>'The Inchyra slab was found on <date>19th of February 1945</date> during ploughing in former parkland on the <placeName>Carse of Gowrie</placeName>, <dim type="length" unit="m">120</dim> south of <placeName>Inchyra House, in the parish of St Madoes, Perthshire</placeName>'</q> (Forsyth 1996,333).</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p><q>'Dr James Richrdson re-examined the slab and recognized the third set of symbols, and three further lines of ogham'</q> (Forsyth 1996,334). The slab was examined byt Forsyth at the <placeName>Perth Art Gallery and Museum</placeName></p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+                 <p>Encoded following the latest EpiDoc guidelines</p>
+                 <p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+                <language ident="xpi">Pictish</language>   
+            </langUsage>
+            <textClass>
+               <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                     <term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term> <!--not sure if this is correct?    -->                <!--<term xml:lang="en">graffiti</term>-->
+               </keywords>
+            </textClass>
+            <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+                <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+                <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+                <change when="2024-07-13" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://skfb.ly/6py9S" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    ᚓᚈᚈᚂᚔᚓᚈᚏᚓᚅ<unclear>ᚖ</unclear>ᚔᚇᚇᚑᚏᚄ
+                    <lb n="2" style="text-direction:up" break="no"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <choice resp="#KF"><unclear>ᚒ</unclear></choice>ᚆᚈᚒᚐ
+                    <gap reason="lost" quantity="1" unit="character"/> 
+                    ᚌ<unclear>ᚓ</unclear>ᚇ
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3" style="text-direction:up" break="yes"/>
+                    ᚔᚅᚓᚆᚆᚓᚈᚓᚄᚉᚔᚓ
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    <lb n="4" style="text-direction:up" break="no"/>
+                    ᚔᚅᚅᚓ
+                    <lb n="5" style="text-direction:up" break="yes"/>
+                    <app type="alternative"><lem>ᚄ</lem><rdg>ᚅ</rdg></app>ᚓᚈ<choice resp="#KF"><unclear>ᚒ</unclear></choice>
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/>
+                    ETTLIETREN<unclear>Ó</unclear>IDDORS
+                    <lb n="2" style="text-direction:up" break="no"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <choice resp="#KF"><unclear>U</unclear></choice>HTUA
+                    <gap reason="lost" quantity="1" unit="character"/> 
+                    G<unclear>E</unclear>D
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3" style="text-direction:up" break="yes"/>
+                    INEHHETESCIE
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    <lb n="4" style="text-direction:up" break="no"/>
+                    INNE
+                    <lb n="5" style="text-direction:up" break="yes"/>
+                    <app type="alternative"><lem>S</lem><rdg>N</rdg></app>ET<choice resp="#KF"><unclear>U</unclear></choice>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1">
+                        <p>While the three ogham inscriptions may look radically different, Forsyth argues that <q>'the variation in scripts is not as great as might at first appear'</q> (1996,352). All inscriptions are written in a fairly simple form of the script with similar over-all proportions in letter size and spacing. Forstyh notes that all <q>'have b- and h-aicme letters which slope and, with the exception of character A(i)11, there is a noticeable lack of supllementary letters and other developed forms'</q> (ibid.,352). However despite similarities there are distinct hands with differences ranging beyond carving technique.</p>
+                    </item>
+                     <item n="2">
+                         <p>For the interpertation of the scripts, the difficulty arises in the unclarity of segmentation when the texts do not conform to the standard formulas of ogham such as 'X MAQ Y'. Moreover, Forsyth comments that <q>'since we do not know the functions of the monument in its various phases of use we have few clues as to the kind of message to expect'</q> (1996,354). On the same basis there is a general uncertainty if in the inscriptions we should be looking for text in Irish or Pictish.</p>
+                     </item>
+                     <item n="3">
+                         <p>While ogham inscriptions B and C are for Forsyth complete and independent, A (i-ii) may be part of a single text.</p>
+                     </item>
+                     <item n="4">
+                         <p>For the interpertation of ogham inscription A(i), Forsyth comments that <q>'the sequence of letters is too long for a single personal name yet no word division is indicated'</q> (1996,355). Moreover, <q>'the initial ETT is paralleled in the roman alphabet inscription from St. Vigeans, where it appears between two personal names'</q> potentially as a variant spelling of et meaning 'and'. The ETT also found in the opening sequence of Cunningsburgh and Lunnasting, may be some form of the copula it-e taken with the -S at the end of the section to mean 'this is'. Alternatively in irish terms, the Lie may mean <q>'OIr. lie 'stone''</q>, the word also later came to mean <q>''grave' or 'tomb' or  a stone functioning as a landmark'</q> (ibid., 356). Additionally, <q>'irish tren is an adjective meaning 'strong', but is also used as a substantive meaning 'strong man''</q> (ibid.,356). The TREN- element also appears alone as an independent name as TRENU, or it could also be the genetive of the name Tren.</p>
+                     </item>
+                     <item n="5">
+                         <p>For the interpertation of ogham inscription A(ii) the text is, as Forsyth comments <q>'too short and fragmentary to be made much sense of'</q> (1996,357).</p>
+                     </item>
+                     <item n="6">
+                         <p>For the interpertation of ogham inscription B, Forsyth argues it is a formal one of a different kind of message from ogham A which is more closely associated with graffiti. The beginning INNE of both sections means 'wealth' or 'private possesions'. As with A, B has a lack of clarity with segmentation which makes interpertation difficult.</p>
+                     </item>
+                     <item n="7">
+                         <p>For the interpertation of ogham inscription C, Forsyth places it closer to the informality of A. The clear correlation with the fish symbol is strengthened by oghams Ackergill (NEHT-), Golspie (NET-), and Latheron (NETU) all featuring fish.</p>
+                     </item>
+                     <item n="8">
+                         <p>The Inchyra slab reflects the standard Class I symbol stone oghams in not conforming to the formula 'X MAQI Y'. Impossible to date closely, Forsyth comments that <q>'the slab's regular shape, the use of chisel for some of the carving, and certain features of the ogham script, are more than plausible interperted at ta date later rather than earlier in the sequence of class I monuments'</q> (1996,358).</p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl>
+                         <ptr target="FOR1996"/>
+                     <citedRange>333-359</citedRange>
+                         <ptr target="STE1961"/>
+                         <citedRange>33-55</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+

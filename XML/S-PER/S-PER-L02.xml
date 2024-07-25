@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abernethy 2</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="XS">
+                    <persName>Xenia Spanachi</persName>
+                    <orgName>University of Glasgow</orgName>
+                </editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Xenia Spanachi</name>
+                    <resp>encoding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-PER-L02</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">x</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--Language not specified, questionable if ogham at all-->                             
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/27998/abernethy-churchyard"><idno type="Canmore">27998</idno></ref>
+                                    <material>sharp silicious grit</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>0.48</height>
+                                            <width>0.33</width>
+                                            <depth>0.10</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>
+                                    <p>Not much is known about the condition of the stone, other than that there is some moss at the edge of the stone which may hint that <q>'that part of it must have been not long ago exposed to the air. Such vegetation could not exist on a stone that had been buried for centuries'</q> (12). Of larger concern is the fresh whiteness of the lines which could indicate that they are modern and perhaps fabricated.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Found in the churchyard of Abernethy in Perthshire, the stone was supposedly dug out <q>'a little north of the foundation wall of the ancient Celtic church...about 4 and a half feet under the soil'</q> (12). The stone has on one face an <rs type="decoration">incised crown, a bird and the letter N,</rs> with the ogham inscription in a horizontal position.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>
+                                <p>The lines have been described by Southesk as scratches though some parts appear to be chiselled. The stem-line is drawn-in horizontally at exactly <dim type="length" unit="feet">1</dim> foot and as straight as the run of a ruler.</p>                             </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName>
+                                <geo>56.333056, -3.311668</geo></origPlace>
+                            <!--<note>additional info, e.g. approximate only</note>-->
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1895-01-30">
+                            <p>The stone was discovered on <date>Tuesday 29th of January 1895</date> by the sexton of the Abernethy church while a grave digging was taking place, just north of the ruins.</p>
+                        </provenance>
+                        <provenance type="observed">
+                            <p><q>'The stone was sent for inspection to the Museum of Antiquities in Edinbrugh, where, owing to peculiarities...doubts arose as to the character of its inscriptions'</q> (12).</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+                 <p>Encoded following the latest EpiDoc guidelines</p>
+                 <p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+                <language ident="xpi">Pictish</language>   
+            </langUsage>
+            <textClass>
+                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+                     <term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
+                 </keywords>
+            </textClass>
+            <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+                <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+                <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+                <change when="2024-07-12" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+         <media url="example.jpg" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" source="SOU1895" resp="#XS"><!--Lang not specified needs updating accordingly-->              
+                <ab>
+                    <lb n="1" style="text-direction:right"/>
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    ᚋ<!--angled ᚒ--><unclear>ᚋ</unclear>
+                    <gap reason="lost" quantity="1" unit="character"/>
+                   <!-- angled ᚓ-->ᚁᚇᚌ
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" source="SOU1895" resp="#KF">
+                <ab>[
+                    <lb n="1" style="text-direction:right"/>
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    M<g ref="#angled_U"/><unclear>M</unclear>
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    <g ref="#angled_E"/>:BDG
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1">
+                        <p><q>'The opening marks appear to consist of a semi-circle below the stem containing three dots - 
+interpretation unclear.'</q> with the same mark above the stem slightly overlapping with the first stroke (Forsyth 1996,504).</p>
+                    </item>
+                     <item n="2">
+                         <p>There is an additional semi-circle above the stem, at the 7th character, containing a dot of which as Forsyth comments any interpertation is unclear (1996,505).</p>
+                     </item>
+                     <item n="3">
+                         <p>The authenticity of the stone itself is doubtful with subsequent writers condeming it as fabrication. Southesk comments that the text which appears highly improbable shows in the least that the stone has <q>'been tampered with in modern times'</q> (Southesk 1895, 244).</p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="SOU1895"/>
+                     <citedRange>24-251</citedRange>
+                         <ptr target="FOR1996"/>
+                         <citedRange>504-506</citedRange>         
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

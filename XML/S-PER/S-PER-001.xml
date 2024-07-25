@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abernethy 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="XS">
+                    <persName>Xenia Spanachi</persName>
+                    <orgName>University of Glasgow</orgName>
+                </editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Xenia Spanachi</name>
+                    <resp>encoding and editing</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-PER-001</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">ABNTY/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository>NMS</repository>
+                        <idno type="invNo">IB98</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="xpi-Ogam">Potentially Pictish written in ogham script</textLang> <!--not sure on language its speculative-->                              
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/27926/abernethy-churchyard-ogam-stone"><idno type="Canmore">27926</idno></ref>
+                                    <material>Old Red Sandstone</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>0.360</height>
+                                            <width>0.200-0.230</width>
+                                            <depth>0.070</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>
+                                    <p>Forsyth notes that the sandstone is <q>'Fragmentary, but otherwise in good condition, letters clear'</q> (1996,4). The fragment is especially damaged on its upper half obscuring the area with only two legs of a <rs type="decoration">horse or deer </rs> surviving facing left. Meanwhile in the bottom left corner of the sandstone, Forsyth describes <q>'a semi-circular portion which has been deliberately defaced'</q> (1996,5).</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Abernethy, the area in which the ogham fragment is located, has been defined in the past as <q>'one of the principal ecclestical sites of early medieval Scotland'</q> (Forsyth 1996, 2). Forsyth from source comparison, concludes that Abernethy was possibly founded by a Pictish King. The sandstone fragment itself which has been severely cut down, is the exception to the rest of the fragments found in the area that have been built into modern structures. Representing potentially only a small portion of the original, the ogham sandstone has no signs to indicate the proportions of its original state.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                                <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>
+                                <p>The band for the ogham is <dim type="breadth" unit="m">0.090</dim> broad, while the stem-line is <dim type="length" unit="m">0.225</dim> occupying the whole width of the fragment. Due to the stem extending beyond it's outer strokes Forsyth proposes that <q>'it extended further in both directions'</q> (1996,7). The individual strokes are of deep U-section grooves that have been initially <rs type="execution">pecked</rs> and then smoothed out. The carving itself despite the fragmentary condition of the sandstone are clear and well-preserved. Forsyth gives the detailed description:
+                                    <list>
+                                        <item> First letter has individual strokes raging from <dim type="length" unit="m">0.035-0.040</dim> with even spacing between strokes of total <width unit="m">0.065</width></item>
+                                        <item>Second letter has one long <dim type="length" unit="m">0.050</dim> stroke, sloping forwards</item>
+                                        <item> Third letter has five long strokes, bound and perpendicular across the stem, of <dim type="length" unit="m">0.052</dim> individual strokes, with even spacing surmounting to <width unit="m">0.055</width> total (1996,8).</item>
+                                    </list>
+                                    (1996,8)
+                                </p>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName>
+                                <geo>56.333056, -3.311667</geo></origPlace>
+                            <!--<note>additional info, e.g. approximate only</note>-->
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1890">
+                            <p>Found in the churchyard in <date>1890</date> and presented to the museum in <date>1892</date> by Alexander Laing</p>                        
+                        </provenance>
+                        <provenance type="observed" when="2022-06-15">
+                           <p>Observation and recording was completed on the <date>15th of June 2022</date> at <placeName>NMS</placeName> by the ogham team</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+                 <p>Encoded following the latest EpiDoc guidelines</p>
+                 <p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             </encodingDesc>
+        <profileDesc>
+            <calendarDesc>
+                <calendar xml:id="julian">
+                    <p>Julian Calendar</p>
+                </calendar>
+            </calendarDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="pgl">Primitive Irish</language>
+                <language ident="sga">Old Irish</language>
+                <language ident="mga">Middle Irish</language>
+                <language ident="ga">Irish</language>
+                <language ident="xpi">Pictish</language>   
+            </langUsage>
+            <textClass>     
+                <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+                    <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+                </keywords>
+            </textClass>
+            <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+                <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+                <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+                <change when="2024-07-11" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="Complete" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi" resp="#XS"><!--Language unsure-->              
+                <ab>
+                    <lb n="1" style="text-direction:left"/>
+                    <gap reason="lost" extent="unknown" unit="character"/> 
+                    ᚊᚋᚔ
+                    <gap reason="lost" extent="unknown" unit="character"/> 
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="xpi" xml:space="preserve" resp="#KF">
+                <ab>
+                     <lb n="1" style="text-direction:left"/>
+                    <gap reason="lost" extent="unknown" unit="character"/> 
+                    QMI
+                    <gap reason="lost" extent="unknown" unit="character"/> 
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1">
+                        <p>Forsyth comments on the type of fragment that <q>' Free-standing cross-slabs are 
+the most common monuments of the period in the area, but the Abemethy fragment could have been a 
+recumbent...or an architectual element such as a frieze</q> (1996,5).</p>
+                    </item>
+                     <item n="2">
+                         <p>Another element which may strengthen the Pictish origins of Abernethy is Forsyth's observation that <q>'Horses, with or without riders, are a common motif on Pictish 
+sculpture, especially in the south of the Mounth</q> (1996,5).</p>
+                     </item>
+                     <item n="3">
+                         <p>There is some difficulty and debate in regards to the direction the ogham should be read due to the conflicting orientations of the text and the horses. While the explanation of <q>'the horses walking in procession along the ogham band'</q> is the favored interpertation amongst Rhys, Allen and Macalister, Forsyth is contrarily in favor of reading the ogham script right-to-left as based on the form of the recumbent Meigle 11 (1996,6). This allows <q>'both horse and ogham to go forward in opposite directions simultaneously'</q> (ibid., 6). Moreover this arrangment of the text facing in, is in alignment with other seventh century Scottish gravestones.</p>
+                     </item>
+                     <item n="4">
+                         <p>Due to the limited surviving letters there is not a lot that can be discerned from the ogham fragment <q>'other than that it was written in an accomplished, monumental form of Type IIc'</q> (Forsyth 1996, 8).</p>
+                     </item>
+                     <item n="5">
+                         <p>While the spacing of the letters is irregular and uneven according to Forsyth it would be unwise to make any interpretations on this basis as there is too little matterial survivng from the Abernethy ogham.</p>
+                     </item>
+                     <item n="6">
+                         <p>For linguistic analysis, due to the limited text, Forsyth offers that the presence of the letter Q may  suggest a variant of the formula MAQQI. Under such understanding, the Mi proceeding the Q could derive from <q>'a handful of Irish male and female personal names [that] begin Mi-'</q> such as <persName>Minchloth</persName>  or <persName>Midgna</persName> (1996,9).</p>
+                     </item>
+                     <item n="6">
+                         <p>Despite the little that survives of this text, Forsyth notes that <q>' it provides important evidence for the use of ogham at a major 
+ecclesiastical site'</q> (1996, 9)</p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>2-10</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
