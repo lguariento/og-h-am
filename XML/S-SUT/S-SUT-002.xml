@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Latheron</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><date when="2022-06-17"/><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-SUT-002</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">LARON/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository>NMS</repository>
+                        <idno type="invNo">IB183</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/8144/latheron"><idno type="Canmore">8144</idno></ref>
+                                    <material>Caithness sandstone</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>0.90</height>
+                                            <width>0.43</width>
+                                            <depth>0.10</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>The carving is worn but generally clear. Only the left edge is intact, all the others are fractured and portions of unknown length have therefore been lost from both the top and the bottom.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The cross-slab is carved on one face with, one above the other, the lower pan of a <rs type="decoration">cross</rs> in relief, an incised <rs type="decoration">bird and fish</rs>, and two incised <rs type="decoration">horsemen</rs>. The upper section of the <rs type="decoration">cross</rs> is decorated with a <rs type="decoration">spiral ornament</rs> arranged in C-shaped scrolls placed back to back, the lower and narrower section is decorated with <rs type="decoration">interlace</rs>. The ogham inscription is incised vertically up the left-hand side on an incised stem-line.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham inscription appears to have been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The letters are well-spaced and component strokes are mostly of equal length and are generally evenly spaced; however, between letters there is considerable difference between the more generously spaced and the more cramped. Vowels consist of long strokes occupying the whole width of the ogham band.
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Latheron</placeName> <placeName type="county">Sutherland</placeName>
+                                <geo>58.279722, -3.369167</geo></origPlace>
+                            <origDate cert="low">ninth century</origDate>
+                        </origin>
+                        <provenance type="found" when="1903">The ogham was first published in <date>1904</date> in the Proceedings of the Society of Antiquaries of Scotland (Anderson 1904, 534). The stone was found by John Nicholson in <date>1903</date> in the interior face of the wall of an old byre and was taken to the National Antiquities Museum in <date>1905</date> (Forsyth 1996, 360). 
+                        </provenance>
+                        <provenance type="observed" when="2022-06-17">Observed in the National Antiquities Scotland on <date>June 17th 2022</date>.   
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>     
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-18" who="#LH">Encoded provenance, description and edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Animalinteraction_Latheron.jpg"/>
+         <media url="YYY" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH">    <!--update lang here  -->     
+                <ab>
+                    <lb n="1" style="text-direction:up"/> <!--encode stem-line?-->
+                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚁ</unclear> <persName><name nymRef="#?">ᚇᚒ<unclear reason="damage">ᚅ</unclear>ᚅᚑᚇᚅᚅᚐᚈ</name></persName> <w lemma="MAQQAS">ᚋᚐᚊᚊ</w> <persName><name nymRef="#?">ᚅᚐ<gap reason="lost" quantity="1" unit="character"/>ᚈ<unclear reason="ambiguous">ᚒ</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="2" style="text-direction:up"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B!</unclear> <persName><name nymRef="#?">DU<unclear reason="damage">Ṇ</unclear>NODNNA<!--this is a hammer-head A in Katherine's thesis...?-->T</name></persName> <w lemma="MAQQAS">MAQQ</w> <persName><name nymRef="#?">NA<gap reason="lost" quantity="1" unit="character"/>T<unclear reason="ambiguous">U!</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>The carving is rather worn towards the top and a fracture occurs part way through a letter. According to Forsyth, it seems very likely that the inscription continued at least a little longer given the extant text (Forsyth 1996, 364).</p>
+                    </item>
+                    <item n="2"><p>While the names of the inscription remain debatable, it seems the text follows the formula of X MAQQ Y (Forsyth 1996, 372).</p>
+                    </item>
+                    <item n="3"><p>The ogham appears contemporary to the rest of the carving and, as Forsyth suggests, therefore likely refers to the patron or honorand of the cross, or less likely the craftsman (Forsyth 1996, 373).</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="AND1904"/>
+                     <citedRange>534-538</citedRange>
+                     </bibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>360-373</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
