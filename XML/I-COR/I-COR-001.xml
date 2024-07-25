@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -62,18 +62,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO106-064----</idno></ref></p>
                                     <material>Stone</material> 
-                                    <objectType>pillar (one of stone pair/alignment)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="RON2009"> <!--check!-->
                                            <height>2.00</height>
                                             <width>1.10</width>
                                             <depth>0.60</depth>
                                      </dimensions> 
-                                     <p>Macalister (1945, 59) recorded an ogham inscription on the upright stone of a pair of standing stones (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO106-035----</ref>, the second lies prostrate 1.m to E). He also noted that there was a row of three stones here in <date>1879</date>, reduced to two by <date>1907</date> (Macalister 1907, 31-7). The ogham stone was probably part of a prehistoric stone alignment and the inscription added at a later date to emphasise a land ownership or territorial claim. It is in an area with a concentration of such prehistoric monuments. The long axis of the stone is NE/SW (F. Moore field notes) which would support the suggestion that it is prehistoric in origin (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland (ASI field report), SMR ID: CO106-064----</ref>).</p>                                  
+                                     <p>An ogham inscription is recorded on the upright stone of a pair of standing stones (SMR ID: CO106-035----, the second lies prostrate 1.m to E). Macalister (1907, 31-7; 1945, 59) noted that there was a row of three stones here in <date>1879</date>, reduced to two by <date>1907</date>.</p> 
                                 </support>
-                                <condition>The inscription was badly damaged some time after <date>1845</date>. When examined by <persName>Fionnbarr Moore</persName> in the early <date>1980</date>s only traces of the final four letters of the inscription could be discerned and while these were quite vague they were undoubtedly ogham scores (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO106-064----</ref>).</condition>
+                                <condition>The inscription was badly damaged some time after <date>1845</date> (Macalister 1945, 59). When examined by <persName>Fionnbarr Moore</persName> in the early <date>1980</date>s only traces of the final four letters of the inscription could be discerned and while these were quite vague they were undoubtedly ogham scores (Ronan 2009, 154).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 60) noted that the inscription is found on the lower half of the stone on the right angle of the eastern face, and runs up from near the ground to a height of 1.1m.</layout>
+                                <layout>The inscription is found on the lower half of the stone on the right angle of the eastern face, and runs up from near the ground to a height of 1.1m.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,8 +85,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/en/8558">
                                 <placeName type="townland">Coomleagh East (<foreign xml:lang="ga">An Com Liath Thoir</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.72827, -9.30337</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>51.72827, -9.30337</geo>
+                            <note>ITM Coordinates: 509969, 553646</note>
+                            </origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1845"><p>The ogham inscription was first discovered in <date>1845</date> by <persName>Roger Downing</persName> of Bantry. <q>It was afterwards seen and copied by <persName>Windele</persName>. <persName>Brash</persName>, visiting the stone later, found that only a week previously a man had flaked off most of the inscribed angle with the back of an axe. The two copies made before this act are almost identical so far as the number of the scores goes, but otherwise they cannot be reconciled; nor can any sense be extracted from either of them </q> (Macalister 1945, 59).</p>
                         </provenance>
@@ -95,8 +97,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>             
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -132,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-07-17" who="#NW">Added toggled out note to apparatus - to be discussed.</change>  
+<change when="2024-07-25" who="#NW">Added paragraph to support around NMS, added ITM coords, closed empty tags and updated support desc.</change>     
     
 </listChange>
 </revisionDesc>
@@ -157,19 +160,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                <listApp>
-                <app><!--<note>Macalister (1945, 60): </note>-->
+                <app><note>Macalister (1945, 60-61): </note>
                     <rdg source="MAC1945">
                         <lb n="1" style="text-direction:up"/><w lemma="?"><supplied reason="lost">AN</supplied>M</w> <persName><name nymRef="#?"><supplied reason="lost">SAINA</supplied></name> <w lemma="maqqas"><supplied reason="lost">M</supplied>A<supplied reason="lost">Q</supplied></w> <name nymRef="#?">OGAL<supplied reason="lost">A</supplied></name> <w lemma="?">M<supplied reason="lost">UCOI</supplied></w> <name nymRef="#?">TEMOCA</name></persName> 
                     </rdg>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
-                <p></p>
-            </div>
-            <div type="commentary">
-                <p></p>
-            </div>
+            <div type="translation"/>
+              
+            <div type="commentary"/>                
+            
             <div type="bibliography">
                  <listBibl>
                  <bibl><ptr target="MAC1907"/>
@@ -180,7 +181,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </bibl>
                       <bibl>
                          <ptr target="RON2009"/>
-                         <citedRange>no. 16165</citedRange> 
+                         <citedRange>153-154, no. 16165</citedRange> 
                      </bibl>                   
                 </listBibl>
             </div>
