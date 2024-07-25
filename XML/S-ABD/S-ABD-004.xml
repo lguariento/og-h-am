@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brandsbutt</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                     <name xml:id="JB">Jef Bucas</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                    <orgName></orgName>
+                <resp><date when="2022-05-19"></date><!--3d recording, technique and software used + who--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-ABD-004</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">BRATT/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang> <!--check language, please -->                                
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/18894/brandsbutt-inverurie-symbol-stone"><idno type="Canmore">18894</idno></ref>
+                                    <material>dark whinstone</material> 
+                                    <objectType>Class I Pictish symbol stone/menhir</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>1.07</height>
+                                            <width>1.27</width>
+                                            <depth>0.91</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>The stone is a large roughly triangular mass broken into several pieces, but the extant carving is well-preserved (Forsyth 1996, 103).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The smoothest face of the stone is incised with two <rs type="decoration">Pictish symbols</rs>, a <rs type="decoration">crescent-and-V-rod</rs> and a <rs type="decoration">snake-and-Z-rod</rs>, and and an ogham inscription runs parrallel with the left edge (Forsyth 1996, 103).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and subsequently smoothed (Gordon 1956, 44). According to Gordon's description, both the symbols and the ogham inscription were <q>'improved to such an extent that its shallow grooves are smooth and regular, contrasting clearly with the flat but roughish surface of the boulder'</q> (ibid). Individual strokes as well as letters are tightly packed (Forsyth 1996, 112). The stem-line is arranged vertically on the face, is more or less straight, though it wavers slightly, and it runs roughly parallel with the stone's left-hand edge (Forsyth 1996, 109). It is 3cm across at the surface, but only 1cm at the bottom of the channel (Forsyth 1996, 105).
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Inverurie</placeName> <placeName type="county">Aberdeenshire</placeName>
+                                <geo>57.291667, -2.400000</geo></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found">The Ogham was first reported in the Proceedings of the Society of Antiquaries of Scoland Journal in <date>1901</date> by Frederick R. Coles (Coles 1901, 230). The stone was broken up and used to build a field dyke at some time prior to the late nineteenth century. The large lower portion was recorded in the wall in <date>1899</date>, and when shortly afterwards the wall was dismantled other fragments were found. The fragments were reassembled and cemented together sometime prior to <date>1950</date> (Forsyth 1996, 102-3).
+                        </provenance>
+                        <provenance type="observed" when="2022-05-19">Recorded in a small enclosure near the junction of Brankie Road and Gordon Terrace in the north-west area of <placeName>Inverurie</placeName> on <date>May 19th 2022</date>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-02" who="#LH">Encoded physical description, county of origin and text</change>
+    <change when="2024-07-03" who="#LH">Encoded provenance</change>
+    <change when="2024-07-11" who="#LH">Deleted orig tag from edition, corrected lb numbering, added spacing in support and rs decoration in layout</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/> <!--update image-->
+         <media url="https://skfb.ly/LyMV" mimeType="text/html"><desc>3D model by <!--Megan Kasten?--> on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH"><!--update lang here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    ᚔᚏᚐᚈᚐᚇᚇᚑᚐᚏᚓᚅᚄ<gap reason="lost" extent="unknown" unit="character"/>
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="2" style="text-direction:up"/>
+                    IRATADDOARENS<gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>The dimensions are approximate metric equivalents of dimensions listed by Romilly Allen (Allen 1903, 507). Forsyth noted that precise measurements are difficult to obtain given the irregular shape of the stone (Forsyth 1996, 103-4).</p>
+                    </item>
+                    <item n="2"><p>The original orientation of the stone is assumed to have been vertical. Given that the ogham inscription is situated vertically relative to the intact sides of the stone, it is further assumed that the original orientation of the inscription was vertical as well despite its current diagonal axis (Forsyth 1996, 104).</p>
+                    </item>
+                    <item n="3"><p>While the transliteration of the ogham inscription is unambiguous, the interpretation remains uncertain. The most likely interpretation is a single personal name, taking into consideration the length of the text. However, it is uncertain whether the thirteen letters are a complete text as they are, or whether there are any letters missing from the end (Forsyth 1996, 112-3).</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="ALL1903"/>
+                     <citedRange>506-7</citedRange>
+                     </bibl>
+                     <bibl><ptr target="COL1901"/>
+                     <citedRange>230</citedRange>
+                     </bibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>102-116</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GOR1956"/>
+                     <citedRange>40-44</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

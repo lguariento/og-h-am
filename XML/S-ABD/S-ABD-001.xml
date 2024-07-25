@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Newton</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MK" ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                     <orgName>University of Glasgow</orgName>
+                <resp><date when="2022-05-15"/><!--specify 3d recording technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-ABD-001</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">NEWT/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+<!--                            <textLang mainLang="sga-Latin">Old Irish written in Latin script</textLang> ??
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>   -->                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/18086/newton-house-the-newton-stone"><idno type="Canmore"></idno>18086</ref>
+                                    <material>grey gneissose granite</material> 
+                                    <objectType>menhir</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>2.09</height>
+                                            <width>0.70</width>
+                                            <depth>0.40</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>Complete and carving well preserved, though the final portion of the longer text has been defaced (Forsyth 1996, 424, 426).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>There are six lines of seemingly Roman alphabetic characters at the top right of the pillar and an ogham inscription runs on the left-hand edge, consisting of a longer <dimensions unit="cm" quantity="14.5"><height>(14.5 cm)</height></dimensions> and a shorter <dimensions unit="cm" quantity="5"><height>(5cm)</height></dimensions> section and reading from the top down (Forsyth 1996, 424-6). The shorter section of ogham script has a drawn-in stem <q>'inserted between the distal tips of the first two strokes of'</q> the 20th letter (Forsyth 1996, 430). It curves sharply preceding the 21st letter and then continues straight up, parallel to the initial hypothetical stem (ibid).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and subsequently smoothed (Gordon 1956, 41). From the 14th letter onwards, the incription is more tightly packed but there are clear gaps between all the ogham letters throughout (Forsyth 1996, 426, 430).
+                                <height>An average of 4-6cm for the longer section, and for the shorter section, an average of 7.5cm for long strokes and 5cm for short strokes (Forsyth 1996, 425).</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Culsalmond</placeName> <placeName type="county">Aberdeenshire</placeName>
+                                <geo>57.356667, -2.562778</geo></origPlace>
+                            <origDate notAfter="0800" precision="low">sixth to eighth century</origDate>
+                        </origin>
+                        <provenance type="found" when="1803">Found around <date>1803</date> and first recorded by John Stuart in <date>1835</date> in a wood about a mile from Newton House, and subsequently moved to the grounds of the house (Forsyth 1996, 420-2).
+                        </provenance>
+                        <provenance type="observed" when="2022-05-15">Recorded on the grounds of <placeName>Newton House</placeName> on <date>May 15th 2022</date>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>     
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-06-27" who="#LH">Added and encoded information including the object description, place of origin and idno</change>
+    <change when="2024-06-28" who="#LH">Encoded information including physical description, origin, textClass and facsimile</change>
+    <change when="2024-06-30" who="#LH">Encoded information about text and transliteration</change>
+    <change when="2024-07-01" who="#LH">Encoded text, transliteration and language</change>
+    <change when="2024-07-10" who="#LH">Edited edition</change>
+    <change when="2024-07-11" who="#LH">Corrected quotation marks in layout, spacing in support and lb numbering in edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+<!--        <graphic url="example.jpg"/>-->
+         <media url="https://sketchfab.com/3d-models/ogham-stone-cast-aberdeen-scotland-0059af6fd0284cfd886a13fd50c57163" mimeType="text/html"><desc>3D model by Megan Kasten on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH">              
+                <ab>
+                    <lb n="1" style="text-direction:down"/>ᚔᚇᚇᚐᚏᚏᚃᚑᚏᚓᚅᚅᚔᚕ<add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
+                    <lb n="2" style="text-direction:up" break="no"/><add place="right">ᚔᚑᚄᚏ<unclear reason="illegible">ᚏ</unclear></add> <!--encode drawn stem-line?-->
+                </ab> 
+            </div> 
+<!--            Decision to be made on whether to encode the second inscription
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga" resp="#LH">
+                <ab>
+                    <lb/>
+                </ab>
+            </div>-->
+            <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="3" style="text-direction:down"/>IDDARRVORENNIӾ<add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
+                    <lb n="4" style="text-direction:up" break="no"/><add place="right">IOSR<unclear reason="illegible">Ṛ</unclear></add> <!--encode drawn stem-line?-->
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>The ogham and non-ogham inscriptions are not transliterations of each other and do not seem to correspond with any section of the other (Forsyth 1996, 425). The non-ogham inscription was initially believed to be a forgery from the early nineteenth century, but Gordon disproved this in his study, showing that the two had indeed been carved by different hands but used a similar technique (Gordon 1956, 41, 44).</p>
+                    </item>
+                     <item n="2"><p>It is unclear whether the defaced portion of the longer ogham section is repeated at the start of the drawn stem-line. The shorter section could be a correction or an alteration, but it seems more likely that it is a continuation of the longer section (Forsyth 1996, 426).</p>                      
+                     </item>
+                     <item n="3"><p>While unusual, reading the ogham inscription from the top down (left-to-right with the head to the right) is more feasible because it provides a more intelligible reading and would also explain the curving of the shorter section at the bottom of the stone (Forsyth 1996, 427). If the inscription had started at the bottom, the inscription could have progressed upwards and could have continued across the top of the stone and down if more space was needed, as is the case for certain Irish stones (ibid).</p>                        
+                     </item>
+                     <item n="4"><p>Given the uncertainty of the final section of the inscription, it is not possible to assuredly determine its syntax and in extension its meaning. Nevertheless, Forsyth suggests three possibilities: 1) three personal names with no formula words: 'Idamon (, or :) Vorenn (and) [?]', 2) three names plus KOI: 'Idamon: Vorenn hoi [?]' and 3) three names plus ipe: either 'X, Y ipe Z ', or 'X, Y, ipe-Z' (Forsyth 1996, 436).</p>
+                     </item>
+                     <item n="5"><p>Without an improved understanding of the text, it is not possible to accurately determine the date of origin. It could be dated anywhere between the sixth or eighth century, though more likely in the seventh century and earlier given the subsequent decline of the individual inscribed memorial as a monument type throughout the British Isles (Forsyth 1996, 441).</p>
+                     </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>420-442</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GOR1956"/>
+                     <citedRange>40-44</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

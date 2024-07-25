@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Logie Elphinstone</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                    <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="MK" ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                     <orgName>University of Glasgow</orgName>
+                <resp><date when="2022-05-18"/><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-ABD-002</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">LPHIN/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="xpi-Ogam"><!--Pictish written in ogham script--></textLang> <!-- update language here-->                             
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/18855/logie-elphinstone"><idno type="Canmore">18855</idno></ref>
+                                    <material>blue granite</material> 
+                                    <objectType>Class I Pictish symbol stone/menhir</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>1.37</height>
+                                            <width>0.76</width>
+                                            <depth>0.45</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>Carving intact and well-preserved.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The ogham inscription is cut on a circular stem in the middle of the top third of the pointed pillar. The lower two-thirds are occupied by a pair of <rs type="decoration">Pictish symbols</rs> and traces of a third (Forsyth 1996, 390-1).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Both inscriptions were <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> as is typical of Pictich Class I carvings (Forsyth 1996, 391). Strokes are generally evenly spaced and there are generous gaps between letters, though it is important to keep in mind the possibility of distortion due to the circular stem (Forsyth 1996, 396).
+                                <height>The shortest letter strokes are 3cm long, the longest are 7cm, and the remainder vary between 4 and 6cm (Forsyth 1996, 393).</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Chapel Of Garioch</placeName> <placeName type="county">Aberdeenshire</placeName>
+                                <geo>57.322500, -2.494167</geo></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1856"> First mentioned by J Stuart in <date>1856</date>. This was one of four stones found lying on the ground on the Moor of Carden to the west of Logie Elphinstone House in or prior to about 1821. At that time the moor was planted and three of the stones were built into the enclosing wall, while the fourth (which is not known certainly to have been carved) was used as a floor slab in a kiln and <q>‘split by the heat and destroyed’</q> (Stuart 1856,4). The three symbol stones were subsequently removed from the wall and erected in the house grounds (Forsyth 1996, 385).
+                        </provenance>
+                        <provenance type="observed" when="2022-05-18">Recorded on the grounds of <placeName>Logie Elphinstone House</placeName>, to the west of the house at NJ 7033 2588, on <date>May 18th 2022</date>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>      
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-01" who="#LH">Encoded physical description, provenance, image url and text</change>
+    <change when="2024-07-11" who="#LH">Deleted orig tag and corrected lb numbering in edition, added attribute when to provenance and rs decoration to layout, and corrected spacing in support</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="LogieOOM.png"/>
+         <media url="YYY" mimeType="text/html"><desc><!--3d model by Megan on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">              
+                <ab>
+                    <lb n="1" style="text-direction:clockwise"/>ᚊᚃᚈᚊᚒ
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH"> 
+                <ab>
+                    <lb n="2" style="text-direction:clockwise"/>QFTQU
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>The placement of the symbols suggests that the ogham was accounted for in the original design, which further implies that the ogham relates to the same phase as the symbols. The stone is a palimpsest as there are visible remains of a partially-erased double-disc and Z-rod under the symbols; however, the overall layout strongly supports the assumption that the ogham relates to the second phase (Forsyth 1996, 391-2).</p>
+                    </item>
+                    <item n="2"><p>The reading starts from the 10 o'clock position, as this is where the largest gap is located, and continues clockwise (Forsyth 1996, 394).</p>                      
+                    </item>
+                    <item n="3"><p>Logie is the shortest complete monumental ogham text in Scotland (Forsyth 1996, 398) and as such cannot be readily interpreted. According to Forsyth, the lack of vowels <q>'strongly suggests that the sequence is either encoded, or has no linguistic significance'</q> (ibid).</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>385-401</citedRange>
+                     </bibl>
+                     <bibl><ptr target="STU1856"/>
+                     <citedRange>4</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
