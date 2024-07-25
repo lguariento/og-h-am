@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Altyre</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><date when="2023-05-23"/><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-MOR-002</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">ALTYR/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--check language, please-->
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/15812/altyre-house"><idno type="Canmore">15812</idno></ref>
+                                    <material>grey sandstone</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>3.3</height>
+                                            <width>0.86</width>
+                                            <depth>0.18</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>Severely weathered and covered in lichen (Forsyth 1996, 27). There may be a section of ogham missing from the beginning and certain portions of the ogham are doubtful (ibid).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The slab is sculpted in relief on two faces with <rs type="decoration">crosses</rs>; an ogham inscription runs up one narrow edge and possibly another up the side of one cross shaft (Forsyth 1996, 27). The <rs type="decoration">cross</rs> on the back is cut in shallow relief and only the vertical shaft survives (Forsyth 1996, 28). On the front face, the <rs type="decoration">square-armed cross</rs> with double square hollows for arm pits protrudes by 1,5 cm from the surface and its outline is still preserved (ibid). </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>It appears the carving was <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and smoothed, though the surface is too weathered and lichen-encrusted to be certain (Forsyth 1996, 30). The incised stem-line is wider and deeper than the strokes, which are quite thin, and stops with the last letter (Forsyth 1996, 30, 35). The letters are generously spaced, with long straight vowel strokes taking up the whole width of the ogham band (Forsyth 1996, 35).
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Rafford</placeName> <placeName type="county">Moray</placeName>
+                                <geo>57.578056, -3.608611</geo></origPlace>
+                            <origDate cert="low">later eighth or ninth century</origDate>
+                        </origin>
+                        <provenance type="found">The stone was moved from somewhere in the Laigh of Moray around <date cert="low">1820</date> to a field north of Altyre House; however, the exact original location is not known (Calder and Jackson 1957, 246; Forsyth 1996, 23). William Rhind may have been unknowingly referring to the ogham letters when he mentioned Runic knots on the Altyre Stone in <date>1839</date> and he was later quoted by John Stuart in his description of the stone  in <date>1856</date>, where he noted the considerable weathering of the carving (Forsyth 1996, 24; Stuart 1856, 35). The first intimation of an ogham inscription specifically, however, comes from a hand-written note in the National Museums of Scotland Library's copy of the Early Christian Monuments of Scotland by J. Graham Callander, who was keeper between the years 1919-1938 (Forsyth 1996, 24). Following this note, an official reading along with an illustration was first published in <date>1957</date> in the Proceedings of the Society of Antiquaries of Scotland (Calder and Jackson 1957, 247). 
+                        </provenance>
+                        <provenance type="observed" when="2023-05-23">Recorded in <placeName>Altyre House estate</placeName>, NJ 0391 5537, on <date>May 23rd 2023</date>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-16" who="#LH">Encoded description, provenance and edition</change>
+    <change when="2024-07-17" who="#LH">Edited provenance</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/><!--update image, please-->
+         <media url="YYY" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
+                <ab>    <!--encode incised stem-line ?-->
+                    <lb n="1" style="text-direction:up"/>
+                    <!--<gap reason="lost" extent="unknown" unit="character"/>? NOT included in Revised readings 2024, but Katherine mentions the beginning was lost (Forsyth 1996, 29)-->ᚐᚋ <w lemma="MAQQAS">ᚋᚐᚊᚊ</w><gap reason="illegible" quantity="1" unit="character"/>ᚐᚂᚂᚋ<gap reason="lost" extent="unknown" unit="character"/>ᚐᚆᚆᚏᚏᚐᚄᚄᚒᚇᚇᚄ
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="2" style="text-direction:up"/>
+                    <!--<gap reason="lost" extent="unknown" unit="character"/>? NOT included in Revised readings 2024, but Katherine mentions the beginning was lost (Forsyth 1996, 29)-->AM <w lemma="MAQQAS">MAQQ</w><gap reason="illegible" quantity="1" unit="character"/>ALLM<gap reason="lost" extent="unknown" unit="character"/>AHHRRASSUDDS
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>There is doubt over whether there is a second ogham inscription on the front face of the slab (Forsyth 1996, 29). An incised line around the cross can be discerned and while this could be the stem-line of an ogham inscription, its primary purpose is to outline the cross, which in turn suggests that the ogham would have been a secondary addition (ibid). The surviving carving is too weathered to be able to reconstruct the text (ibid). As Forsyth suggests, if this inscription were to be accepted as genuine and secondary to the original carving, then this would imply that the ogham on the edge of the slab is also a later addition (ibid).</p>
+                    </item>
+                    <item n="2"><p>The extant text is not sufficient to identify the language or the meaning of the text (Forsyth 1996, 39). It is likewise difficult to determine its significance given its precise original location is unknown (ibid).</p>
+                    </item>
+                    <item n="3"><p><q>'At its current height of 3.3m, Altyre is the second tallest sculptured slab from early medieval Scotland, shorter only than the giant Sueno's Stone (6.10m)'</q> (Forsyth 1996, 39).</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="ALL1903"/>
+                     <citedRange>136</citedRange>
+                     </bibl>
+                     <bibl><ptr target="CAL1957"/>
+                     <citedRange>246-250</citedRange>
+                     </bibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>23-40</citedRange>
+                     </bibl>
+                     <bibl><ptr target="STU1856"/>
+                     <citedRange>35</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

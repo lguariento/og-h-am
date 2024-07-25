@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dyke</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="LH"><persName>Lucie Haase</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                    <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Lucie Haase</name>
+                    <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><date when="2023-05-24"/><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">S-MOR-001</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP">BROD/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Scotland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                             
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang> <!--check language, please-->
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Canmore <ref target="https://canmore.org.uk/site/15529/brodie-rodneys-stone"><idno type="Canmore">15529</idno></ref>
+                                    <material>grey sandstone</material> 
+                                    <objectType>cross-slab</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height min="1.875" max="1.905">1.875-1.905</height>
+                                            <width min="0.95" max="1.05">0.95-1.05</width>
+                                            <depth>0.1</depth>
+                                     </dimensions>         
+                                </support>
+                                <condition>The ogham inscription is severely damaged with only short sections being legible (Forsyth 1996, 142). The front face is badly weathered, the carving on the reverse is in good condition (ibid). The lower edge of the slab is broken with a portion missing from the back (ibid).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The ogham inscriptions run on the right edge (front and back) and the left edge (back only) of the slab on a raised band approximately 5 cm wide and with an incised stem-line (Forsyth 1996, 145). The entire front face is carved with a <rs type="decoration">cross</rs> with small rounded hollows at its armpits (Forsyth 1996, 142). The <rs type="decoration">cross</rs> is outlined in a thick roll-moulding and it is decorated with complex <rs type="decoration">interlace</rs> (Forsyth 1996, 143). Each of the background quadrants created by the arms includes <rs type="decoration">interlaced beasts</rs> (ibid). Towards the bottom of the two lower panels inverted initials AC (right) and KD (left) are incised (ibid). The back is dominated by a large pair of <rs type="decoration">sea monsters</rs> occupying the full width of the slab and almost half its length (ibid). Below are two large symbols, a <rs type="decoration">Pictish beast</rs> and a <rs type="decoration">double-disc and Z-rod symbol</rs> (ibid). The space between the pair of <rs type="decoration">sea monsters</rs> is carved with curvilinear motifs, including a <rs type="decoration">large spiral disc decorated with pellets</rs> in the centre, a <rs type="decoration">penanular brooch with expanded terminals</rs> above, a <rs type="decoration">crescent with pellets</rs> to the right, a <rs type="decoration">circular disc decorated with triskele</rs> to the left and another smaller <rs type="decoration">disc decorated with triskele</rs> at the bottom (ibid).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><!--double-check/edit execution type, please-->The inscription was likely <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. The strokes are of no more than medium length and the vowel strokes are long, occupying the entire width of the raised band (Forsyth 1996, 155). There are occasional angled-vowels with one case of what appears to be a mix of straight and angled strokes (ibid). Individual letters are carefully spaced and component strokes are parallel and evenly-spaced (ibid).
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Dyke and Moy</placeName> <placeName type="county">Moray</placeName>
+                                <geo>57.597500, -3.701111</geo></origPlace>
+                            <origDate cert="low">850</origDate>
+                        </origin>
+                        <provenance type="found" when="1781">The ogham inscription was first noted by Lord Southesk in <date>1885</date> (Southesk 1886, 14). The stone was found in <date>1781</date> in the old churchyard during digging for the foundations of a new parish church at Dyke (Forsyth 1996, 139). It was set up first in Dyke village and sometime before <date notAfter="1842">1842</date> it was moved to the grounds of Brodie Castle (ibid). It had been re-used as a recumbent grave-slab, probably in the early eighteenth century; <q>'on the front face two recessed panels were cut into the interlace designs either side of the cross-shaft, and two pairs of initials incised'</q> (Forsyth 1996, 140).
+                        </provenance>
+                        <provenance type="observed" when="2023-05-24">Recorded on <placeName>Brodie Castle</placeName> grounds on <date>May 24th 2023</date>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+<language ident="xpi">Pictish</language>   
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2024-01-22" who="#NW">Nora White updated template, including removing # from bibl tag</change>
+    <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
+    <change when="2024-07-15" who="#LH">Encoded physical description and provenance</change>   
+    <change when="2024-07-16" who="#LH">Edited description and provenance and encoded edition and language</change>
+    <change when="2024-07-17" who="#LH">Encoded image</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Brodie.jpg"/> 
+         <media url="https://skfb.ly/6tXOC" mimeType="text/html"><desc>3D model by <!--Eleanor Harrison? -->on SketchFab</desc></media> 
+        <!--Archaeoptix has this dataset from 2010 (for NTS) - may be interesting to compare? current model not sufficiently detailed for groove analysis-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH"><!--update lang here-->              
+                <ab>    <!--encode incised stem-line ?-->
+                    <lb n="1" style="text-direction:up"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>ᚏᚏ<choice><unclear>ᚋ</unclear><unclear>ᚐ</unclear></choice><choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice>ᚊ<unclear reason="damage">ᚊ</unclear>ᚇᚔ<unclear reason="damage">ᚈ</unclear>ᚈ<hi rend="babel_pictish_italic"><g ref="#angled_O"><!--angled O ᚑ --></g></hi>ᚄᚄᚄ<gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="2" style="text-direction:up"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#?"></name>ᚓᚇᚇ<hi rend="babel_special"><g ref="#s-shaped_A"><!--Aᶴ ᚐ--></g></hi>ᚏᚏᚅᚑᚅ<unclear reason="ambiguous">V!</unclear></persName><gap reason="lost" extent="unknown" unit="character"/>ᚈᚆᚔᚆᚐᚂ<gap reason="lost" extent="unknown" unit="character"/>ᚔᚏᚏ<gap reason="lost" extent="unknown" unit="character"/>ᚒᚔᚁᚒ<unclear reason="ambiguous"></unclear>ᚎ<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3" style="text-direction:up"/>
+                    <unclear reason="ambiguous">ᚄ</unclear>ᚑᚅ<choice><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice><unclear reason="damage">ᚓ</unclear>ᚂᚉᚉ<hi rend="babel_pictish_italic"><g ref="#angled_O"><!--angled O ᚑ--></g></hi><gap reason="lost" extent="unknown" unit="character"/>
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
+                <ab>
+                    <lb n="4" style="text-direction:up"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>RR<choice><unclear>M</unclear><unclear>A</unclear></choice><choice><unclear>O</unclear><unclear>G</unclear></choice>Q<unclear reason="damage">Q̣</unclear>DI<unclear reason="damage">Ṭ</unclear>T<hi rend="babel_pictish_italic"><g ref="#angled_O"><!--angled O--></g></hi>SSS<gap reason="lost" extent="unknown" unit="character"/>     
+                    <lb n="5" style="text-direction:up"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#?"></name>EDD<hi rend="babel_special"><g ref="#s-shaped_A">Aᶴ</g></hi>RRNON<unclear reason="ambiguous">V!</unclear></persName><gap reason="lost" extent="unknown" unit="character"/>THIHAL<gap reason="lost" extent="unknown" unit="character"/>IRR<gap reason="lost" extent="unknown" unit="character"/>UIBU<unclear reason="ambiguous"></unclear>Z!<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="6" style="text-direction:up"/>
+                    <unclear reason="ambiguous">S!</unclear>ON<choice><unclear>S</unclear><unclear>N</unclear></choice><unclear reason="damage">Ẹ</unclear>LCC<hi rend="babel_pictish_italic"><g ref="#angled_O"><!--angled O--></g></hi><gap reason="lost" extent="unknown" unit="character"/>            
+                </ab>
+            </div>
+            <div type="apparatus">
+               <!-- <listApp>
+                <app>                    
+                </app>
+                </listApp>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p></p>
+            </div>
+            <div type="commentary">
+                 <list type="witDetail">
+                    <item n="1"><p>The slab is also known as Rodney's Stone (Forsyth 1996, 139).</p>
+                    </item>
+                    <item n="2"><p>The fact that the Brodie Stone has been carefully dressed and all its carvings, apart from the ogham inscription, are in relatively high relief suggests a date later in the Pictish period (Forsyth 1996, 142).</p>
+                    </item>
+                    <item n="3"><p>Forsyth asserts that the raised bands on the slab were intended to bear the ogham and that all three inscriptions were part of the original design since the left-hand edge without ogham is only decorated with a narrower moulding similar to that outlining the cross (Forsyth 1996, 146).</p>
+                    </item>
+                    <item n="4"><p>The three inscriptions may be part of one continuous text, or represent independent units; either way, it is unclear in which order they should be read due to the poor condition of the carving (Forsyth 1996, 146). It is apparent though that all three oghams were carved in the same hand (Forsyth 1996, 155).</p>
+                    </item>
+                    <item n="5"><p>Due to the poor condition of the inscription, neither the language nor the full translation can be determined (Forsyth 1996, 156). Given the length of the inscripion combined with the fact that the typical 'MAQQ' does not seem to appear at any point, it is likely the original text incorporated more than proper nouns (ibid). Only one section, the EDDARRNONN on the back left representing the male personal name Etheman/ldamon, can be established with certainty (ibid). Though the name is Brittonic, the spelling could be Irish or Pictish (ibid).</p>
+                    </item>                    
+                    <item n="6"><p>The Brodie ogham is by far the longest ogham inscription from Scotland, originally consisting of up to seventy or eighty characters (Forsyth 1996, 157). Furthermore, <q>'it is noteworthy that, despite the length of the text, Brodie appears to lack both the x-forfid and the hammerhead A, the two most common forfeda in Scotland'</q> (Forsyth 1996, 156).</p>
+                    </item>
+                 </list>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="ALL1903"/>
+                     <citedRange>132-135</citedRange>
+                     </bibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>139-159</citedRange>
+                     </bibl>
+                     <bibl><ptr target="SOU1886"/>
+                     <citedRange>14-22</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
