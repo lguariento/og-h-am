@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO072-078003-</idno> </ref>
                                     <material>Clayslate</material> 
-                                    <objectType>pillar (reused as innermost lintel in souterrain)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
                                             <height>1.95</height>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.2</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is <q>badly scaled, but quite decipherable</q> (Macalister 1945, 112). Macalister noted that the <q>C is broken, the U's are very faint</q> and the final I is <q>quite gone</q> (1945, 113).</condition>
+                                <condition>Reused as an innermost lintel in a souterrain, the inscription is <q>badly scaled, but quite decipherable</q> (Macalister 1945, 112).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister noted that the words of the inscription are spaced <q>which is exceptional: there is a gap of 4 inches after the first word, and of 2 1/2 inches after the second</q> (1945, 113).</layout>
+                                <layout>The words of the inscription are spaced <q>which is exceptional: there is a gap of 4 inches after the first word, and of 2 1/2 inches after the second</q> (Macalister 1945, 113).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,18 +85,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/en/8237">
                                 <placeName type="townland">Knockshanawee</placeName> (<foreign xml:lang="ga">Cnoc Seanmhaí</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.872673, -8.796211</geo></origPlace>
+                                <geo>51.872673, -8.796211</geo>
+                            <!--<note>ITM Coordinates: 545175 , 569241</note>--></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1910">One of six ogham stones (also I-COR-063, I-COR-064, I-COR-065, I-COR-066, I-COR-067) used in the construction of a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO072-078002-</idno></ref>). This stone formed the innermost lintel. 
+                        <provenance type="found" when="1910">One of six ogham stones (also <idno type="SMR">I-COR-063</idno>, <idno type="SMR">I-COR-064</idno>, <idno type="SMR">I-COR-065</idno>, <idno type="SMR">I-COR-066</idno>, <idno type="SMR">I-COR-067</idno>) used in the construction of a souterrain (<idno type="SMR">CO072-078002-</idno>). This stone formed the innermost lintel. 
                         </provenance>
-                        <provenance type="observed">This ogham stone is now on permanent display in the Stone Corridor, University College Cork (See <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO074-138----</idno></ref>).
+                        <provenance type="observed">This ogham stone is now on permanent display in the Stone Corridor, University College Cork (see <idno type="SMR">CO074-138----</idno>).
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -124,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-29" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-24" who="#POC">Replaced historic viewer numbers with Ogham project numbers</change>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, added ogham edition division, deleted free text from bibliography, deleted title from Transliteration division, moved encoded Macalister reading to apparatus.</change>
+<change when="2024-07-25" who="#POC">Added note for ITM coordinates, moved information in note from objectType to condition, deleted URL in provenance, added idno for SMR numbers.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,6 +151,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg source="MAC1945">
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><supplied reason="lost">M</supplied>I<supplied reason="lost">C</supplied>ANAVVI</name> <w type="formula" lemma="maqqas">MAQ</w> <name nymRef="#?">L<supplied reason="lost">U</supplied>G<supplied reason="lost">U</supplied>N<supplied reason="lost">I</supplied></name></persName> 
                     </rdg>
+                    <note>Macalister noted that the <q>C is broken, the U's are very faint</q> and the final I is <q>quite gone</q> (1945, 113).</note>
                 </app>
                 </listApp>
             </div>
