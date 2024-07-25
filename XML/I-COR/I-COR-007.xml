@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-07-20" who="#NW">Updated rs features grooves in condition and added addname elements to name with 2 elements but (with toggle comment for now). Added translation and notes to commentary</change>
 <change when="2024-07-22" who="#NW">Updates from Archaeological Inventory</change>
+<change when="2024-07-25" who="#NW">Moved reading comment from commentary to apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,17 +150,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-trenas?"><!--<addName type="element_1">-->MAQI<!--</addName><addName type="element_1">-->TRENI<!--</addName>--></name> <w lemma="avias"><supplied reason="omitted">A</supplied>VI</w> <w><unclear reason="damage">T</unclear><gap reason="lost" extent="unknown"/></w></persName> 
                 </ab>
             </div>
-           <!-- <div type="apparatus">
-               <!-\- <listApp>
-                <app></app>
-                </listApp>-\->
-            </div>-->
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note>Only three strokes from the <foreign xml:lang="ga">aicme hÚatha</foreign> are visible at the top of the stone, probably representing an initial T, but this could alternatively be the remains of a C or Q.</note>
+                </app>
+                </listApp>
+            </div>
             <div type="translation">
                 <p>'of <foreign xml:lang="sga">Mac-Thréuin</foreign> descendant? of T...'</p>
             </div>
             <div type="commentary">
-                <p>The name MAQI-TRENI is attested elsewhere in the ogham corpus (probably in I-COR-035 <placeName>Ballyknock</placeName> V, and in <placeName>Wales</placeName>: W-BRE-006 <placeName>Llywell</placeName> and W-PEM-004 <placeName>Cillgerran</placeName>) and the element -TREN- (Old Irish <foreign xml:lang="sga" corresp="https://dil.ie/41798">trén</foreign> 'strong') is also found in other names, for example NETTA-TTRENALUGOS (I-COR-071) from Montaggart, Co. Cork and TRENAGUSU (W-PEM-004) from Cilgerran in Pembrokeshire. As noted by Moore (Ronan 2009, 152), the single-element name <foreign xml:lang="ga">Trén</foreign> <q>occurs in the <foreign xml:lang="ga">Eôganacht</foreign>, <foreign xml:lang="ga">UÍ Liathǽin</foreign> and <foreign xml:lang="ga">Corco Loígde</foreign> genealogies of Munster and it is interesting to speculate that the ogham evidence may indicate a link between Wales and Cork in the 5th-6th centuries</q> AD.</p>
-                <p>Only three strokes from the <foreign xml:lang="ga">aicme hÚatha</foreign> are visible at the top of the stone, probably representing a T, but the rest of this name has been lost, presumably when the topof the stone was broken.</p>
+                <p>The name MAQI-TRENI is attested elsewhere in the ogham corpus (probably in I-COR-035 <placeName>Ballyknock</placeName> V, and in <placeName>Wales</placeName>: W-BRE-006 <placeName>Llywell</placeName> and W-PEM-004 <placeName>Cillgerran</placeName>) and the element -TREN- (Old Irish <foreign xml:lang="sga" corresp="https://dil.ie/41798">trén</foreign> 'strong') is also found in other names, for example NETTA-TTRENALUGOS (I-COR-071) from Montaggart, Co. Cork and TRENAGUSU (W-PEM-004) from Cilgerran in Pembrokeshire. As noted by Moore (Ronan 2009, 152), the single-element name <foreign xml:lang="ga">Trén</foreign> <q>occurs in the <foreign xml:lang="ga">Eôganacht</foreign>, <foreign xml:lang="ga">UÍ Liathǽin</foreign> and <foreign xml:lang="ga">Corco Loígde</foreign> genealogies of Munster and it is interesting to speculate that the ogham evidence may indicate a link between Wales and Cork in the 5th-6th centuries</q> AD.</p>                
             </div>
             <div type="bibliography">
                  <listBibl>        
