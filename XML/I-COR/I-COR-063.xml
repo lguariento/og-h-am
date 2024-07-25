@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO072-078004-</idno> </ref>
                                     <material>Slate</material> 
-                                    <objectType>pillar (reused as support stone in souterrain)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim></dim>
                                             <height>1.75</height>
@@ -70,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.25</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is <q>perfectly legible</q> (Macalister 1945, 113).</condition>
+                                <condition>Reused as a support stone in a souterrain, the inscription is <q>perfectly legible</q> (Macalister 1945, 113).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout></layout>
@@ -85,18 +85,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/en/8237">
                                 <placeName type="townland">Knockshanawee</placeName> (<foreign xml:lang="ga">Cnoc Seanmhaí</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.872673, -8.796211</geo></origPlace>
+                                <geo>51.872673, -8.796211</geo>
+                            <!--<note>ITM Coordinates: 545175 , 569241 </note>--></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1910">One of six ogham stones (also I-COR-062, I-COR-064, I-COR-065, I-COR-066, I-COR-067) used in the construction of a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO072-078002-</idno></ref>). This stone stood upright in the souterrain supporting a lintel.
+                        <provenance type="found" when="1910">One of six ogham stones (also <idno type="SMR">I-COR-062</idno>, <idno type="SMR">I-COR-064</idno>, <idno type="SMR">I-COR-065</idno>, <idno type="SMR">I-COR-066</idno>, <idno type="SMR">I-COR-067</idno>) used in the construction of a souterrain (<idno type="SMR">CO072-078002-</idno>). This stone stood upright in the souterrain supporting a lintel.
                         </provenance>
-                        <provenance type="observed">Now on permanent display in the Stone Corridor, University College Cork (See <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO074-136----</idno></ref>).
+                        <provenance type="observed">Now on permanent display in the Stone Corridor, University College Cork (see <idno type="SMR">CO074-136----</idno>).
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -124,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-30" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-24" who="#POC">Replaced historic viewer numbers with Ogham project numbers</change>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, added ogham edition division, deleted free text from bibliography, deleted title from Transliteration division, moved encoded Macalister reading to apparatus.</change>
+<change when="2024-07-25" who="#POC">Added note for ITM coordinates, moved information in note from objectType to condition, deleted URL in provenance, added idno for SMR numbers.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
