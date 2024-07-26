@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO049-052----</idno> </ref>
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO049-052----</idno></p> 
                                     <material>Yellow sandstone</material> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                             <height>1.6</height>
                                             <width>0.23</width>
                                             <depth>0.23</depth>
@@ -86,9 +86,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11451">
                                 <placeName type="townland">Carrigagulla</placeName> (<foreign xml:lang="ga">Carraig an Ghiolla</foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo></geo>
-                            <note>coordinates unknown</note>
+                            <note>Coordinates unknown</note>
                             </origPlace>
-                            <origDate></origDate>
+                            <origDate/>
                         </origin>
                         <provenance type="found">The precise original location is unknown. The stone was found while digging peat in a bog in this townland and was purchased by Cork Public Museum in <date>1940</date>.
                         </provenance>
@@ -128,12 +128,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-24" who="#POC">Removed the rs element from layout.</change>
 <change when="2024-06-25" who="#POC">Added idno element to SMR numbers, moved Macalister reading to apparatus, updated transliteration and ogham edition</change>
 <change when="2024-06-28" who="#NW">Added geo note</change>
-
+<change when="2024-07-26" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed empty origDate element, numbered apparatus, added description for graphic.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-080-MAC1945-127-Carrigagulla-128.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-080-MAC1945-127-Carrigagulla-128.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -156,7 +156,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1945, 127) read:</note>
                 <rdg source="MAC1945">
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#">DOVETI</name> <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">LOCARENA
                         <lb n="2" style="text-direction:across" break="no"/>S</name> 
