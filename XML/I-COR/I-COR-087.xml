@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO082-095----</idno> </ref>
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO082-095----</idno> </p>
                                     <material>Clayslate</material> 
                                     <objectType>Pillar <note>sunken maltese/cross-of-arcs? cross near the head/end of the pillar, carved some time after the ogham and inverted in relation to it</note></objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                             <height>1.6</height>
                                             <width>0.23</width>
                                             <depth>0.20</depth>
@@ -86,9 +86,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9946">
                                 <placeName type="townland">Mountmusic</placeName> (<foreign xml:lang="ga">Cnoc Amhráin</foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo></geo>
-                            <note>coordinates unknown</note>
+                            <note>Coordinates unknown</note>
                             </origPlace>
-                            <origDate></origDate>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1845"><persName>Windele</persName> found the stone lying prostrate in a field and <q>had it set up again, but afterwards moved it to his own house</q> (Macalister 1945, 131).
                         </provenance>
@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-21" who="#POC">Added and encoded the ogham edition, added a note element for the extra information in objectType, added extra information to layout and condition about the inscription and the cross, added another provenance element for McManus observations.</change>
 <change when="2024-06-25" who="#POC">Added idno element to SMR numbers, encoded the cross with rs element for decoration, deleted free text from bibliography.</change>
 <change when="2024-06-28" who="#NW">Added geo note</change>
+<change when="2024-07-26" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed empty origDate element, numbered apparatus.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,7 +150,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1945, 131) read: </note>
                     <rdg source="MAC1945">
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#"><supplied reason="lost">MI</supplied>NNACCANNI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">AILLUATTAN</name></persName>
                     </rdg>
