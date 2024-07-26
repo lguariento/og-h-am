@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO061-182----</idno> </ref>
+                                <support><!--<term>monument</term>--> <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO061-182----</idno> 
                                     <material>Red sandstone</material> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                             <height>1.57</height>
                                             <width>0.53</width>
                                             <depth>0.45</depth>
@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is coarsely <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. Macalister remarked that the <q>scores in the dexter line are more coarsely pocked than those in the sinister</q> (1945, 125). <height></height>
+                            <handNote>The inscription is coarsely <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. Macalister remarked that the <q>scores in the dexter line are more coarsely pocked than those in the sinister</q> (1945, 125). <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,10 +85,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11538">
                                 <placeName type="townland">Tullig More</placeName> (<foreign xml:lang="ga">An Tulaigh Mhór</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo></geo>
-                            <note>coordinates unknown</note>
+                                <geo/>
+                            <note>Coordinates unknown</note>
                             </origPlace>
-                            <origDate></origDate>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1841">Found by <persName>Mr. E. Hawkesworth</persName> and transferred to the Royal Cork Institution.
                         </provenance>
@@ -127,12 +127,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-24" who="#POC">Removed the rs element from layout.</change>
 <change when="2024-06-25" who="#POC">Added idno element to SMR numbers and ogham edition, moved McManus reading to apparatus, deleted free text from bibliography and added Power details.</change>
 <change when="2024-06-28" who="#NW">Added geo note</change>
-
+<change when="2024-07-26" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed empty origDate element, numbered apparatus, added description for graphic.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-079-MAC1945-125-TulligMore-127.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-079-MAC1945-125-TulligMore-127.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -151,13 +151,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>McManus (2004, 20) read:</note>
                     <rdg source="MCM2004">
-                        <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">MAQI</w> LAS<unclear reason="ambiguous">?</unclear>OG 
+                        <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">MAQI</w> LAS<unclear reason="ambiguous" quantity="1" unit="character"/>OG 
                             <lb n="2" style="text-direction:up" break="no"/><choice><unclear>B</unclear><unclear>M</unclear></choice><gap reason="lost" quantity="1" unit="character"/>TTM<gap reason="lost" quantity="1" unit="character"/>C<unclear>GE</unclear></persName>                     
                     </rdg>
                 </app>
-                    <app>
+                    <app n="2">
+                        <note>Macalister (1945, 124) read:</note>
                         <rdg source="MAC1945">
                             <lb n="1" style="text-direction:up"/><persName>MAQILASPOG
                 <lb n="2" style="text-direction:up" break="no"/>B<gap reason="lost" quantity="1" unit="character"/>TTMACDE</persName>
