@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, added ogham edition division, deleted free text from bibliography, deleted title from Transliteration division, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-07-25" who="#POC">Added note for ITM coordinates, moved information in note from objectType to condition, deleted URL in provenance, added idno for SMR numbers.</change>
 <change when="2024-07-27" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description for graphic.</change>
+<change when="2024-07-29" who="#POC">Closed unused idno element for inventory number in repository</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
