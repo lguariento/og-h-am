@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo">https://acrheritage.info/blog/archaeology/travels-of-an-ogham-stone-from-aghabullogue-church-to-ucc/</idno>
+                        <idno type="invNo" >https://acrheritage.info/blog/archaeology/travels-of-an-ogham-stone-from-aghabullogue-church-to-ucc/</idno>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO061-080007-</idno> </ref>
-                                    <material></material> 
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO061-080007-</idno></p> 
+                                    <material/> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                            <!-- <height></height>
                                             <width></width>
                                             <depth></depth>-->
@@ -73,12 +73,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The inscription is damaged.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
-                            </handNote>
+                            <handNote/>
+                            
                         </handDesc>
                     </physDesc>
                     <history>
@@ -86,13 +86,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11342">
                                 <placeName type="townland">Coolineagh</placeName> (<foreign xml:lang="ga">Cúil an Fhéich</foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.952526, -8.815681</geo><note>approximate only</note>
-                                <!--<note>ITM Coordinates: 543865 , 578136 </note>-->
+                                <note>ITM Coordinates: 543865 , 578136 </note>
                             </origPlace>
-                            <origDate></origDate>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1838">Discovered during the demolition of an 18th century Church of Ireland parish church in <placeName type="parish">Aghabulloge</placeName> graveyard (<idno type="SMR">CO061-080002-</idno>). It is one of two ogham stones from the site, the second (<idno type="SMR">CO061-080005-</idno>) remains in situ.
                         </provenance>
-                        <provenance type="observed">This stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-142----</idno> ).
+                        <provenance type="observed">This stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-142----</idno>).
                         </provenance>
                     </history>
                 </msDesc>
@@ -127,11 +127,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, added ogham edition division, deleted free text from bibliography, deleted title from Transliteration division, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-06-28" who="#NW">Added geo note</change>
 <change when="2024-07-24" who="#POC">Added and encoded ITM coordinates and added idno for SMR numbers in provenance</change>
+<change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description to graphic.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-054-MAC1945-103-Coolineagh-105.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-054-MAC1945-103-Coolineagh-105.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -148,7 +149,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1945, 106) read:</note>
                     <rdg source="MAC1945">
                         <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="anm">ANM</w> <name nymRef="#?">N<supplied reason="lost">ETACU</supplied>N<supplied reason="lost">A</supplied>S</name> <w type="formula" lemma="celi"><supplied reason="lost">CE</supplied>L<supplied reason="lost">I</supplied></w> <name nymRef="#?">VIDETTAS</name></persName>
                     </rdg>

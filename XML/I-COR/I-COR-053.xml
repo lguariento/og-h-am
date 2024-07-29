@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO061-080005-</idno> </ref>
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO061-080005-</idno></p> 
                                     <material>Sandstone</material> 
-                                    <objectType>pillar</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                             <height>1.57</height>
                                             <width>0.29</width>
                                             <depth>0.17</depth>
@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>Macalister noted that the scores of the inscription <q>are smoothed out by rubbing</q> and are <q>much rubbed in the middle</q> of the inscription (1945, 104). 
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -87,8 +87,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11342">
                                 <placeName type="townland">Coolineagh</placeName> (<foreign xml:lang="ga">Cúil an Fhéich</foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.952236, -8.815354</geo>
-                            <!--<note>ITM Coordinates: 543956 , 578104</note>--></origPlace>
-                            <origDate></origDate>
+                            <note>ITM Coordinates: 543956 , 578104</note></origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1817">The inscription was discovered by <persName>Mr. Joseph Humphreys</persName> of <placeName type="county">Cork</placeName> on an upright stone standing at the head of a grave 20m SE of the ruined parish church in <placeName type="parish">Aghabulloge</placeName> graveyard <idno type="SMR">(CO061-08002-)</idno>. 
                         </provenance>
@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-18" who="#POC">Updated edition to delete comment</change>
 <change when="2024-07-23" who="#POC">Updated handNote description and encoded placeName information to provenance</change>
 <change when="2024-07-24" who="#POC">Added and encoded ITM coordinates, deleted noted from objectType as it is mentioned in layout, added idno for SMR IDs in provenance.</change>
+<change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, commented out apparatus, added description to graphic.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,15 +148,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><w type="formula">ANM</w> <name nymRef="?">CORRE</name> <w type="formula">MAQVI</w> <name nymRef="?">UDD<supplied reason="lost">GLO</supplied>METT</name></persName>
                 </ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
-                <app>
-                    <rdg resp="GIPXXXX"><!--(Gippert) need to find out the year of the reference.-->
-                        <lb n="1" style="text-direction:up"/><persName><w type="formula">ANM</w> <name nymRef="?">CORREA</name> <w type="formula">MAQ</w> <name nymRef="?">VVEDDELMEATT</name></persName> 
+                <app n="1">
+                    <note></note>
+                    <rdg>
+                        <lb n="1" style="text-direction:up"/>
                     </rdg>
                 </app>
                 </listApp>
-            </div>
+            </div>-->
             <div type="translation">
                 <p></p>
             </div>
@@ -167,9 +169,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl><ptr target="BRA1879"/>
                          <citedRange>130</citedRange>
                      </bibl>
-                     <!--<bibl><ptr target="GIPXXXX"/> add year here as well!
-                         <citedRange>XXX</citedRange>
-                     </bibl>-->
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>103-5</citedRange>
                     </bibl>
