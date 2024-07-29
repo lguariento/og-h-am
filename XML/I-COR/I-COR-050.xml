@@ -49,7 +49,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>NMI  </repository>
+                        <repository>NMI</repository>
                         <idno type="invNo">1872.2</idno>
                     </msIdentifier>
                     <msContents>
@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO085-067007-</idno> </ref>
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067007-</idno></p> 
                                     <material>Clayslate</material> 
-                                    <objectType>pillar</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim><!--(converted from Macalister)--></dim>
+                                         <dim/><!--(converted from Macalister)-->
                                             <height>1.42</height>
                                             <width>0.53</width>
                                             <depth>0.41</depth>
@@ -77,8 +77,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
-                            </handNote>
+                            <handNote/>
+                            
                         </handDesc>
                     </physDesc>
                     <history>
@@ -86,8 +86,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9212">
                                 <placeName type="townland">Ballyhank (<foreign xml:lang="ga">Baile Sheanc</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.831516, -8.609832</geo>
-                            <!--<note>ITM Coordinates: 557971 , 564534</note>--></origPlace>
-                            <origDate></origDate>
+                            <note>ITM Coordinates: 557971 , 564534</note></origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1846">Discovered in 1846 built into a souterrain <idno type="SMR">(CO085-067002-)</idno> with five other ogham stones <idno type="SMR">(I-COR-046)</idno>; <idno type="SMR">(I-COR-047)</idno>; <idno type="SMR">(I-COR-048)</idno>; <idno type="SMR">(I-COR-049)</idno>; <idno type="SMR">(I-COR-051)</idno>.
                         </provenance>
@@ -96,8 +96,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -125,12 +125,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-11" who="#POC">Added and encoded information</change>
 <change when="2024-07-12" who="#POC">Added text direction to edition</change>
 <change when="2024-07-24" who="#POC">Added ITM coordinates, moved note from objectType and to condition, added idno for SMR IDs in provenance</change>
+<change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-050-MAC1945-98-Ballyhank-101.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-050-MAC1945-99-Ballyhank-101.jpg"><desc>Drawing of the angle with enigmatical letters by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-050-MAC1945-99-Ballyhank-101.jpg"><desc>Drawing of the enigmatical letters by Macalister</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ballyhank-ogham-stone-8b384098fcb74ed8b19fd51cde19d838" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -145,11 +146,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="?">MAQI ESEA</name> <w type="formula">MAQI</w> <name nymRef="?">DOMANEQI</name></persName> 
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+           <!-- <div type="apparatus">
+                <listApp>
                 <app></app>
-                </listApp>-->
-            </div>
+                </listApp>
+            </div>-->
             <div type="translation">
                 <p></p>
             </div>
