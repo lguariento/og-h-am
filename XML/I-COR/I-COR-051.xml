@@ -49,7 +49,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>NMI  </repository>
+                        <repository>NMI</repository>
                         <idno type="invNo">1872.23</idno>
                     </msIdentifier>
                     <msContents>
@@ -60,14 +60,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO085-067008-</idno> </ref>
-                                    <material></material> 
-                                    <objectType>pillar</objectType> 
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067008-</idno></p> 
+                                    <material/> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim><!--converted from Macalister--></dim>
+                                         <dim/>
                                             <height>1.12</height>
                                             <width>0.30</width>
-                                            <depth>0.30</depth>
+                                            <depth>0.30</depth><!--converted from Macalister-->
                                      </dimensions>                                   
                                 </support>
                                 <condition>A very smooth pillar, <q>almost triangular in horizontal section</q>, reused in a souterrain (Macalister 1945, 100). Macalister designated the three faces as A, B, and C and noted that <q>A and B each meet C at an angle, but do not actually meet one another, for a rounded edge about 3" [(0.91m)] across runs between them</q> (1945, 100). The original inscription is almost entirely erased, <q>the whole of face A, except for a narrow strip along the right-hand angle extending up to the first score of the supposed T, has been chipped away; as has also the top of the stone</q> (Macalister 1945, 101). In respect to the second inscription, Macalister remarked that above the letters <q>the whole angle is flaked away and there is no evidence to suggest that it bore any further writing</q> (1945, 102).</condition>
@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The original inscription was <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> with <q>bold, well-spaced scores</q> (Macalister 1945, 101). In contrast, the second inscription was roughly <q> <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs></q>(Macalister 1945, 101). <height></height>
+                            <handNote>The original inscription was <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> with <q>bold, well-spaced scores</q> (Macalister 1945, 101). In contrast, the second inscription was roughly <q> <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs></q>(Macalister 1945, 101). <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -86,8 +86,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9212">
                                 <placeName type="townland">Ballyhank (<foreign xml:lang="ga">Baile Sheanc</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.831516, -8.609832</geo>
-                            <!--<note>ITM Coordinates: 557971 , 564534 </note>--></origPlace>
-                            <origDate></origDate>
+                            <note>ITM Coordinates: 557971 , 564534 </note></origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1846">Discovered in a souterrain <idno type="SMR">(CO085-067002-)</idno> with five other ogham stones <idno type="SMR">(I-COR-046)</idno>; <idno type="SMR">(I-COR-047)</idno>; <idno type="SMR">(I-COR-048)</idno>; <idno type="SMR">(I-COR-049)</idno>; <idno type="SMR">(I-COR-050)</idno>.
                         </provenance>
@@ -98,7 +98,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </sourceDesc>
         </fileDesc>
              <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -125,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2024-07-12" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-07-24" who="#POC">Added and encoded ITM coordinates, moved note from objectType to condition, added idno for SMR IDs in provenance.</change>
+<change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
