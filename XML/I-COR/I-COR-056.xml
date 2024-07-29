@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO060-190----</idno> </ref>
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO060-190----</idno></p> 
                                     <material>Sandstone grit</material> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                             <height>1.85</height>
                                             <width>0.27</width>
                                             <depth>0.09</depth>
@@ -73,11 +73,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>This ogham stone was once part of a stone circle and was reused as a lintel for a pigstye, the end of the inscription has <q>fractured away</q> (Macalister 1945, 109).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister noted that the <q>first six letters are <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine lines</q> and <q>the remainder is boldy <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs>, evidently by someone (in ancient times) who endeavoured to strengthen the letters and to make them more prominent and permanent</q> (1945, 109).<height></height>
+                            <handNote>Macalister noted that the <q>first six letters are <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine lines</q> and <q>the remainder is boldy <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs>, evidently by someone (in ancient times) who endeavoured to strengthen the letters and to make them more prominent and permanent</q> (1945, 109).<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,9 +85,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/en/11549">
                                 <placeName type="townland">Glenaglogh North?</placeName> (<foreign xml:lang="ga">Gleann na gCloch Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo></geo>
+                                <geo/>
                             <note>Coordinates unknown</note></origPlace>
-                            <origDate></origDate>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1849">Formerly part of a stone circle, this ogham stone was repurposed as a lintel for a pigstye, where it was discovered by <persName>Croker</persName> and <persName>Abell</persName> (Macalister 1945, 109). In <date>1835</date>, the ogham stone was removed to the Royal Cork Institution.
                         </provenance>
@@ -126,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, added ogham edition division, deleted free text from bibliography, deleted title from Transliteration division, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-06-28" who="#NW">Added geo note</change>
 <change when="2024-07-25" who="#POC">Moved information in note from objectType to condition</change>
+<change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,7 +148,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1945, 109) read:</note>
                     <rdg source="MAC1945">
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CUNAGUSSOS</name> <w>MA<gap reason="lost" extent="unknown" unit="character"/></w></persName> 
                     </rdg>
@@ -163,7 +165,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
-                        <citedRange>108-109, no. 107</citedRange>
+                        <citedRange>108-9, no. 107</citedRange>
                     </bibl>
                 </listBibl>
             </div>
