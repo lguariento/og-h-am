@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,24 +60,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO055-007014-</idno> </ref>
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007014-</idno></p> 
                                     <material>Grit</material> 
-                                    <objectType>pillar (reused in souterrain)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                             <height>1.22</height>
                                             <width>0.38</width>
                                             <depth>0.15</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is chipped, resulting in a lacuna which could hold 8-10 scores (Archaeological Survey of Ireland, Field Report).</condition>
+                                <condition>Reused in a souterrain, the inscription is chipped, resulting in a lacuna which could hold 8-10 scores (Archaeological Survey of Ireland, Field Report).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is boldly <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. <height></height>
+                            <handNote>The inscription is boldly <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,18 +85,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
                                 <placeName type="townland">Ballyknock North</placeName> <foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>52.034620, -8.082370</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>52.034620, -8.082370</geo>
+                            <note>ITM Coordinates: 594327 , 586954</note></origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">One of 15 ogham stones (I-COR-031; I-COR-032; I-COR-045) found covering a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO055-007003-</idno></ref>). 
+                        <provenance type="found" when="1890">One of 15 ogham stones (<idno type="SMR">I-COR-031</idno>; <idno type="SMR">I-COR-032</idno>; <idno type="SMR">I-COR-045</idno>) found covering a souterrain (<idno type="SMR">CO055-007003-</idno>). 
                         </provenance>
-                        <provenance type="observed">The stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO074-156----</idno></ref>). 
+                        <provenance type="observed">The stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-156----</idno>). 
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -123,11 +124,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2024-05-28" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham code in provenance, moved encoded Macalister reading to apparatus, added ogham edition.</change>
+<change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-041-MAC1945-90-Ballyknock-92.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-041-MAC1945-90-Ballyknock-92.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -144,12 +147,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1945, 91) read:</note>
                     <rdg source="MAC1945">
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ACTO</name> <w type="formula" lemma="maqqas">MAQI</w> <gap reason="lost" quantity="3" unit="character"/>MAGO</persName> 
                     </rdg>
                 </app>
-                    <app>
+                    <app n="2">
+                        <note>McManus (2004, 19) read:</note>
                         <rdg source="MCM2004">
                            <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ACTO</name> <w type="formula" lemma="maqqas">MAQI</w> <gap reason="lost" quantity="3" unit="character"/>MAGO</persName> 
                         </rdg>
