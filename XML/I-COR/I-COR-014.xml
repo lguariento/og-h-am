@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO102-013----</idno> </ref>
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO102-013----</idno></p> 
                                     <material source="BRA1879b">Clay slate</material> 
-                                    <objectType>pillar</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="POW1992">
-                                         <dim></dim>
+                                         <dim/>
                                             <height>4.70</height>
                                             <width>1.02</width>
                                             <depth>0.32</depth>
@@ -85,7 +85,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/8780">
                                 <placeName type="townland">Faunkill and the Woods (<foreign xml:lang="ga">Fánchoill agus Na Coillte</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.712874, -9.944582</geo></origPlace>
+                                <geo>51.712874, -9.944582</geo>
+                            <note>ITM Coordinates: 465690 , 552974</note></origPlace>
                             <origDate notBefore="0400" notAfter="0475">First half, or early second half, of the fifth century</origDate>
                         </origin>
                         <provenance type="found" when="1874">First recorded by Brash (1879, 196-200) in 1874 and described by him as 'leaning considrably' (see Macalister's 1907 photograph) with many loose stones around the base. 
@@ -127,13 +128,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-07-16" who="#NW">Updates based on fieldnotes, including edition, dating, respSttm and provenance. Added refs to bibliography.</change>
 <change when="2024-07-21" who="#NW">Reduced encoding in edition to minimum and updated handnote</change>
+<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>        
-        <graphic url="IRE/I-COR/I-COR-014_Faunkill_stone.jpg"/>
-        <graphic url="IRE/I-COR/I-COR-014_Faunkill_inscription.jpg"/>
-        <graphic url="IRE/I-COR/I-COR-014-MAC1945-71-Faunkill%26Woods.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-014_Faunkill_stone.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-014_Faunkill_inscription.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-014-MAC1945-71-Faunkill%26Woods.jpg"><desc>Drawing by Macalister</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-014_Faunkill_Macalister_1907.jpg"><desc>Macalister (Studies in Irish Epigraphy) 1907 photograph</desc></graphic>
         <media url="https://sketchfab.com/3d-models/co102-013-ogham-faunkill-and-the-woods-78f64a9071d441a8bb97eb8e8447b45a" mimeType="text/html"><desc>3d model by Gary Dempsey on SketchFab</desc></media>
     </facsimile>    
@@ -149,11 +151,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-decedas?"><!--<addName type="element_1">-->MAQI<!--</addName><addName type="element_2">-->DECCEDDAS<!--</addName>--></name> <w type="formula" lemma="avias">AVI</w> <name nymRef="#turania">TURANIAS</name></persName> 
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app></app>
-                </listApp>-->
-            </div>
+                </listApp>
+            </div>-->
             <div type="translation">
                 <p>‘of Mac Deichet, descendant of Tornae’</p>
             </div>
