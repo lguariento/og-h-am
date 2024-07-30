@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Glenaphuca/Rathcanning 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
-                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>                 
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>              
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>  
                 <!-- <editor>Add name, id etc here</editor>-->
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -49,7 +49,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>NMI (Daingean)</repository>
+                        <repository>NMI <note>(Daingean)</note></repository>
                         <idno type="invNo">?</idno>
                     </msIdentifier>
                     <msContents>
@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO066-009----</idno> </ref>
-                                    <material></material> 
-                                    <objectType>pillar</objectType> 
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO066-009----</idno></p> 
+                                    <material/> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim>(converted from Macalister)</dim>
+                                         <dim/><!-- (converted from Macalister) -->
                                             <height>1.73</height>
                                             <width>0.61</width>
                                             <depth>0.14</depth>
@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>Macalister noted that the slab is <q>so thickly coated with whitewash that it is impossible to determine the technique of the scoring.</q> (1945, 82, no. 79).
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -86,18 +86,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/12339">
                                 <placeName type="townland">Glenaphuca</placeName> (<foreign xml:id="ga">Gleann an Phúca</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.967973, -8.072345</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>51.967973, -8.072345</geo>
+                            <note>ITM Coordinates: 595063 , 579538</note></origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found" when="1896"> <!--Barry, E.--> Formerly acting as the jamb of a cart-house door in a farmyard, Macalister and O'Kelly (1944, 9) imply that the ogham stone is from a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO066-01002-</ref>) in Rathcanning fort (<ref>CO066-01001-</ref>) c. 450m to the N, in which a possible ogham fragment was also found I-COR-029). Barry, however, states that the slab had been in position at the time of his visit for 80 years and had been taken from a souterrain 'in the next field' (<ref >CO066-00054---</ref>).
+                        <provenance type="found" when="1896"> <!--Barry, E.--> Formerly acting as the jamb of a cart-house door in a farmyard, Macalister and O'Kelly (1944, 9) imply that the ogham stone is from a souterrain (<idno type="SMR">CO066-01002-</idno>) in Rathcanning fort (<idno type="SMR">CO066-01001-</idno>) c. 450m to the N, in which a possible ogham fragment was also found I-COR-029). Barry, however, states that the slab had been in position at the time of his visit for 80 years and had been taken from a souterrain 'in the next field' (<idno type="SMR" >CO066-00054---</idno>).
                         </provenance>
-                        <provenance type="observed">This stone is in the National Museum of Ireland storage facility at Daingean, <placeName type="county">Co. Offaly</placeName> (<ref>OF018-198----</ref>). 
+                        <provenance type="observed">This stone is in the National Museum of Ireland storage facility at Daingean, <placeName type="county">Co. Offaly</placeName> (<idno type="SMR">OF018-198----</idno>). 
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -125,11 +126,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-21" who="#POC">Added and encoded information, including the edition and the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-05-22" who="#POC">Corrected image path and added text direction to edition</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, moved encoded Macalister reading to apparatus, added ogham division.</change>
+<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-028-MAC1945-82-Rathcanning-79.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-028-MAC1945-82-Rathcanning-79.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -146,7 +148,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1945, 82) read:</note>
                     <rdg source="MAC1945">
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><supplied reason="lost">T</supplied><unclear>U</unclear>LENA</name> MU<unclear>C</unclear>  <gap reason="lost" extent="unknown" unit="character"/><unclear>R</unclear>A<unclear>N</unclear></persName> 
                     </rdg>
@@ -161,9 +164,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <!--<bibl><ptr target="BAR1897"/>
+                     <bibl><ptr target="BAR1897"/>
                      <citedRange>41-4</citedRange>
-                     </bibl> Need to find reference and add it to Zotero -->
+                     </bibl>  
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>82, no. 79</citedRange>
                     </bibl>
