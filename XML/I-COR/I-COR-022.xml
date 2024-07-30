@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Carhoovauler 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
-                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>                 
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>             
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor> 
                 <!-- <editor>Add name, id etc here</editor>-->
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,24 +60,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO122-001004-</idno> </ref>
-                                    <material></material> 
-                                    <objectType>pillar (upright pillar in entrance chamber of souterrain)</objectType> 
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-001004-</idno></p> 
+                                    <material/> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
-                                            <height>0.8</height>
-                                            <width>0.2</width>
-                                            <depth>0.2</depth>
+                                         <dim/>
+                                            <height>0.79</height>
+                                            <width>0.20</width>
+                                            <depth>0.18</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>According to Macalister (1945, 78, no. 74), this stone was broken to a suitable size for use as an upright support to a roofing stone of the first entrance chamber.</condition>
+                                <condition>The stone was broken to a suitable size for use as an upright support for a roofing stone of the first entrance chamber (Macalister 1945, 78, no. 74).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The inscription is on the lower remaining portion of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The stone is inscribed in minute scores.<height></height>
+                            <handNote>The stone is inscribed in minute scores.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,18 +85,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9111">
                                 <placeName type="townland">Carhoovauler</placeName> (<foreign xml:lang="ga">Ceathrú Bhaldair</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.690842, -8.962643</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>51.690842, -8.962643</geo>
+                            <note>ITM Coordinates: 533446 , 549155 </note></origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found">One of three ogham stones (also I-COR-021; I-COR-023) discovered by Mr <persName>J. J. O'Crowley</persName> of <placeName>Clonakilty</placeName> in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO122-001002-</ref>) in <date>1905</date> or <date>1906</date>. 
+                        <provenance type="found">One of three ogham stones (also I-COR-021; I-COR-023) discovered by Mr <persName>J. J. O'Crowley</persName> of <placeName>Clonakilty</placeName> in a souterrain (<idno type="SMR">CO122-001002-</idno>) in <date>1905</date> or <date>1906</date>. 
                         </provenance>
-                        <provenance type="observed">in situ
+                        <provenance type="observed">In situ.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -124,11 +125,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-17" who="#POC">Added and encoded information, including Text Class referencing FAIR vocabularies for epigraphy and the edition</change>
 <change when="2024-05-22" who="#POC">Corrected image path and added text direction</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, replaced refs with ogham codes in provenance, deleted free text in bibliography, added ogham edition.</change>
+<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image, updated condition, deleted note in objectType since it was already mentioned in condition.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-021-MAC1945-78-Carhoovauler.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-021-MAC1945-78-Carhoovauler.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -143,11 +145,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CONANN</name> <w type="formula" lemma="maqqas">M<supplied reason="lost" resp="#MAC1945">AQI</supplied></w> S<gap reason="lost" quantity="2" unit="character"/></persName>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app></app>
-                </listApp>-->
-            </div>
+                </listApp>
+            </div>-->
             <div type="translation">
                 <p></p>
             </div>
