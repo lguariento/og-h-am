@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO052-039001-</idno></ref>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO052-039001-</idno>.</p> 
                                     <material>Sandstone</material> 
                                     <objectType>Slab</objectType> 
                                      <dimensions unit="m" source="POW1994">   
@@ -76,17 +76,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with large, somewhat unevenly spaced consonant strokes of up to 8cm long where they survive and shorter vowel strokes, which are more evenly spaced.
-                                <height></height>
-                            </handNote>
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with large, somewhat unevenly spaced consonant strokes of up to <height>8cm</height> long where they survive and shorter (<height>1.5-2cm</height>) vowel strokes, which are more evenly spaced.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9511">
                                 <placeName type="townland">Ballynabortagh (<foreign xml:lang="ga">Baile na bPórtach</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>52.000015, -8.433359</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>52.000015, -8.433359</geo>
+                            <note>ITM Coordinates: 570245, 583199</note>
+                            </origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" notAfter="1839">Discovered by <date>1839</date> and noted by Windele. It was part of a complex series of monuments, including another ogham stone (I-COR-006), of which this is the sole survivor above ground. Macalister (1945, 62-3) supplies an inventory from one of <ref target="https://www.ria.ie/collections/john-windele-1801-65/">Windele</ref>'s notebooks of what was to be seen here in his time. 'Dallaun' is marked on the 1842 OS 6-inch map outside the NW corner of a now levelled square enclosure (CO052-039002-). This would correspond reasonably with the present position of this ogham stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-039001-</ref>). However, Macalister (1945, 63), quoting Windele, described four standing stones inside the enclosure, of which he says this was one.  
                         </provenance>
@@ -95,8 +95,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-06-28" who="#NW">Updated resp statement re 3d recording</change>
 <change when="2024-07-19" who="#NW">Further updates to support description and edition.</change>
+<change when="2024-07-30" who="#NW">Added paragraph to support around NMS, added ITM coords, closed empty tags and added note to apparatus.</change>  
     
 </listChange>
 </revisionDesc>
@@ -157,21 +158,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app> 
+                <app n="1">
+                    <note>Reading by Macalister 1945:</note> 
                     <rdg source="MAC1945"><lb n="1" style="text-direction:up"/><gap reason="lost"/>U<unclear reason="damaged">IV</unclear>AIBES
                     </rdg>
                 </app>
-                    <app>
+                    <app n="2">
+                        <note>Reading by Rhys 1908:</note> 
                         <rdg source="RHY1908"><lb n="1" style="text-direction:up"/><unclear reason="damaged">VINI</unclear>OBODAS</rdg>
                     </app>
                 </listApp>
             </div>
-            <div type="translation">
-                <p></p>
-            </div>
-            <div type="commentary">
-                <p></p>
-            </div>
+            <div type="translation"/>
+            
+            <div type="commentary"/>
+            
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
