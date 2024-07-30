@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,17 +60,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO084-090003-</idno> </ref>
-                                    <material></material> 
-                                    <objectType>pillar (possibly reused in souterrain)</objectType> 
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO084-090003-</idno></p> 
+                                    <material/> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                            <!-- <height></height>
                                             <width></width>
                                             <depth></depth>-->
                                      </dimensions>                                   
                                 </support>
-                                <condition>Macalister noted that the inscription was <q>a little chipped, so that some of the vowels are lost</q> (1945, 84).</condition>
+                                <condition>Possibly reused in a souterrain, the inscription was <q>a little chipped, so that some of the vowels are lost</q> (1945, 84).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>According to Macalister, the inscription begins at 0.76m from the bottom of one angle, runs over the top, and ends 0.91m from the bottom of the adjacent angle (Macalister 1945, 84).</layout>
@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>Macalister remarked that the inscription was made with <q>bold scores, <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> and rubbed</q> (1945, 84).
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -86,18 +86,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/8299">
                                 <placeName type="townland">Garranes</placeName> (<foreign xml:lang="ga">An Garrán</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.816848, -8.765479</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>51.816848, -8.765479</geo>
+                            <note>ITM Coordinates: 547221 , 563003</note></origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found" when="1852">Found in a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO084-090001-</ref>) and thought to have come from the souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO084-090002-</ref>) discovered later.
+                        <provenance type="found" when="1852">Found in a ringfort (<idno type="SMR">CO084-090001-</idno>) and thought to have come from the souterrain (<idno type="SMR">CO084-090002-</idno>) discovered later.
                         </provenance>
-                        <provenance type="observed">Now on permanent display in the Stone Corridor, University College Cork (See <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO074-148----</ref>). 
+                        <provenance type="observed">Now on permanent display in the Stone Corridor, University College Cork (See <idno type="SMr">CO074-148----</idno>). 
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -125,11 +126,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-21" who="#POC">Added and encoded information, including the edition and the Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-05-22" who="#POC">Corrected image path and added text direction to the edition</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, moved encoded Macalister reading to apparatus, added ogham division.</change>
+<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-030-MAC1945-83-Garranes.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-030-MAC1945-83-Garranes.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -146,7 +148,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1945, 83) read:</note>
                     <rdg>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">C<supplied reason="lost">A</supplied>SSITT<supplied reason="lost">A</supplied>S</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula">MUCOI</w> <name nymRef="#?">CALLITI</name></persName>
                     </rdg>
@@ -162,7 +165,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
-                        <citedRange>83, no. 81</citedRange>
+                        <citedRange>83-4, no. 81</citedRange>
                     </bibl>
                      <bibl><ptr target="MCM2004"/>
                      <citedRange>15, no. 4</citedRange>
