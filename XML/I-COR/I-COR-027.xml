@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Coolowen</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
-                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>                 
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>               
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <!-- <editor>Add name, id etc here</editor>-->
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,24 +60,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO063-101----</idno> </ref>
-                                    <material></material> 
-                                    <objectType>square stone</objectType> 
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO063-101----</idno></p> 
+                                    <material/> 
+                                    <objectType>Square stone</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                            <!-- <height></height>
                                             <width></width>
                                             <depth></depth>-->
                                      </dimensions>                                   
                                 </support>
-                                <condition/>
+                                <condition>A stone <q>square in section</q> (Macalister 1945, 81).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription was on the angle of the square stone (Macalister 1945, 81).</layout>
+                                <layout>The inscription was on the angle of the stone (Macalister 1945, 81).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription contained 25 scores.<height></height>
+                            <handNote>The inscription contained 25 scores.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,18 +85,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9671">
                                 <placeName type="townland">Coolowen</placeName> (<foreign xml:lang="ga">Cúil Eoghain</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo></geo></origPlace>
-                            <origDate></origDate>
+                                <geo/>
+                            <note>Coordinates unknown</note></origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found" when="1819"><q>Discovered by <persName>Windele</persName> in <date>1819</date> in the ditch surrounding a ring-fort (Macalister 1945, 81).</q> Windele returned to copy the inscription sixteen years later only to discover that the stone had been broken up for building material.
+                        <provenance type="found" when="1819"><q>Discovered by <persName>Windele</persName> in <date>1819</date> in the ditch surrounding a ring-fort (Macalister 1945, 81).</q> 
                         </provenance>
-                        <provenance type="observed">
+                        <provenance type="observed" when="1835">
+                            Windele returned to copy the inscription sixteen years later only to discover that the stone had been broken up for building material.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -123,7 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2024-05-20" who="#POC">Added and encoded information, including Text Class references FAIR vocabularies for epigraphy</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, added ogham division.</change>
-
+<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented apparatus, added idno elements for SMR numbers.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,11 +145,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app></app>
-                </listApp>-->
-            </div>
+                </listApp>
+            </div>-->
             <div type="translation">
                 <p></p>
             </div>
