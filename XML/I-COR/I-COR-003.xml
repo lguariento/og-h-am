@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,9 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO042-049002-</idno> </ref>
-                                    <material></material> 
-                                    <objectType>pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO042-049002-</idno>.</p>
+                                    <material/> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="MAN2000">
                                             <height>2.50</height>
                                             <width>0.60</width>
@@ -76,8 +76,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and possibly also <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel.
-                                <height></height>
+                            <handNote>The ogham strokes appear to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and possibly also <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel.
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,7 +85,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11670">
                                 <placeName type="townland">Greenhill (<foreign xml:lang="ga">Plácas</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>52.077602, -8.606835</geo></origPlace>
+                                <geo>52.077602, -8.606835</geo>
+                            <note>ITM Coordinates: 558399, 591925 </note>
+                            </origPlace>
                             <origDate notBefore="0500" notAfter="0550">First half of the sixth century</origDate>
                         </origin>
                         <provenance type="found" notAfter="1852">First published by <name type="author">Brash</name> (1879, 137) as having been reported to Windele by one of his 'ogam scouts'. The stone was found in 'an open field' in the townland. A circular cattlegrid was installed around the stone in <date>1985</date> by OPW; an excavation of the ground under the circular strip limited to 1m wide with its inner edge and 1m from the centre of the stone revealed nothing except N-S cultivation furrows and ploughmarks (Manning 2000, 107). A second ogham stone (I-COR-004) lies c. 40m to the N in the next field and <placeName type="townland">Burnfort</placeName> ogham stone (I-COR-002) is found c. 900m to SE. (Power et al. 1997, no. 7965)
@@ -95,8 +97,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -131,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-17" who="#NW">Removed headings from translation and commentary.</change> 
 <change when="2024-07-18" who="#NW">Updates based on fieldnotes, including support description/condition and edition. Added details to bibliography.</change>    
 <change when="2024-07-20" who="#NW">Updated rs features grooves in condition.</change>
+<change when="2024-07-30" who="#NW">Added paragraph to support around NMS, added ITM coords, closed empty tags and moved comment to apparatus.</change>     
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -158,20 +161,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name nymRef="#?">QRITTI</name></persName> 
                 </ab>
             </div>
-            <!--<div type="apparatus">
-               <!-\- <listApp>
-                <app></app>
-                </listApp>-\->
-            </div>-->
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+                    <note>Some of the ogham strokes and notches are lost (MA of MAQI) or unclear (I of MAQI, R and U of TRENU) due to wear, lichen and damage. For example, the B-side of the first three R strokes have been lost, which led Brash (1979, 138) to read this as TTGENU. It is also impossible to be sure of the intended final vowel in TRENU, as the inscription is very worn at this point. Two notches seem fairly certain, three likely (space enough) but nothing legible after this until the Q of a possible MAQI</note>
+                </app>
+                </listApp>
+            </div>
             <div type="translation">
                 <p>'of <foreign xml:lang="sga">Trén/Trian</foreign> son of the descendant of <foreign xml:lang="sga">Creth</foreign>? (Crothrige?)'</p>
             </div>
             <div type="commentary">
                 <list type="witDetail">
-                    <item n="1"><p>On inspection of the stone itself and the 3d data, some of the ogham strokes and notches are now lost (MA of MAQI) or unclear (I of MAQI, R and U of TRENU) due to wear, lichen and damage. For example, the B-side of the first three R strokes have been lost, which led Brash (1979, 138) to read this as TTGENU. It is also impossible to be sure of the intended final vowel in TRENU, as the inscription is very worn at this point. Two notches seem fairly certain, three likely (space enough) but nothing legible after this until the Q of a possible MAQI.</p></item>
-                    <item n="2"><p>A genitive TRENI (Old Irish <foreign xml:lang="sga">o</foreign>-stem <foreign xml:lang="sga" corresp="https://dil.ie/41798">Trén</foreign> 'strong') might be expected here, as in MAQI-TRENI (I-COR-007 <placeName>Ballynabortagh</placeName> 3; I-COR-035 / CIIC 86. <placeName>Ballyknock</placeName> V, although also uncertain, and in <placeName>Wales</placeName>: W-BRE-006 / CIIC 341. <placeName>Llywell</placeName> and W-PEM-004 / CIIC 428. <placeName>Cillgerran</placeName>). However, McManus (1991, 179, note 35) notes that <q>MacNeill (1909, 361) compares the MS gen. <foreign xml:lang="sga">Tréno</foreign>, <foreign xml:lang="sga">Tréna</foreign> and suggests reading TRENO, which is possible</q>. The retention of the -I in QRITTI would suggest dating this inscription to the first half of the sixth century.</p></item>
-                    <item n="3"><p>cp. I-KER-013 / CIIC 146. <placeName>Ballineanig</placeName>, Co. <placeName>Kerry</placeName>: LỤGỤQṚỊT MAQ̣Ị QRITTỊ. Also, I-COR-016 / CIIC 68. <placeName>Kilcaskan</placeName>, LUGUQRIT[...]LONAS); CIIC 207. <placeName>Kilcoolaght</placeName> II, <placeName type="county">Kerry</placeName> ([...]ECC MAQI L[UGUQ]RRIT).</p></item>
-                    <item n="4"><p>Labialised guttural /<hi rend="italic">k<hi rend="superscript">w</hi></hi>/ preserved in QRITTI, related to <foreign xml:lang="sga" corresp="https://dil.ie/13271">cruth</foreign> 'form, shape' (McManus 1991, 121).</p></item>
+                    <item n="1"><p>A genitive TRENI (Old Irish <foreign xml:lang="sga">o</foreign>-stem <foreign xml:lang="sga" corresp="https://dil.ie/41798">Trén</foreign> 'strong') might be expected here, as in MAQI-TRENI (I-COR-007 <placeName>Ballynabortagh</placeName> 3; I-COR-035 / CIIC 86. <placeName>Ballyknock</placeName> V, although also uncertain, and in <placeName>Wales</placeName>: W-BRE-006 / CIIC 341. <placeName>Llywell</placeName> and W-PEM-004 / CIIC 428. <placeName>Cillgerran</placeName>). However, McManus (1991, 179, note 35) notes that <q>MacNeill (1909, 361) compares the MS gen. <foreign xml:lang="sga">Tréno</foreign>, <foreign xml:lang="sga">Tréna</foreign> and suggests reading TRENO, which is possible</q>. The retention of the -I in QRITTI would suggest dating this inscription to the first half of the sixth century.</p></item>
+                    <item n="2"><p>cp. I-KER-013 / CIIC 146. <placeName>Ballineanig</placeName>, Co. <placeName>Kerry</placeName>: LỤGỤQṚỊT MAQ̣Ị QRITTỊ. Also, I-COR-016 / CIIC 68. <placeName>Kilcaskan</placeName>, LUGUQRIT[...]LONAS); CIIC 207. <placeName>Kilcoolaght</placeName> II, <placeName type="county">Kerry</placeName> ([...]ECC MAQI L[UGUQ]RRIT).</p></item>
+                    <item n="3"><p>Labialised guttural /<hi rend="italic">k<hi rend="superscript">w</hi></hi>/ preserved in QRITTI, related to <foreign xml:lang="sga" corresp="https://dil.ie/13271">cruth</foreign> 'form, shape' (McManus 1991, 121).</p></item>
                 </list>
             </div>
             <div type="bibliography">

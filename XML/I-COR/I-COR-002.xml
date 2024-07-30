@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,9 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO042-052003-</idno> </ref>
-                                    <material></material> 
-                                    <objectType>pillar (reused in souterrain)</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO042-052003-</idno>. An ogham stone reused in a souterrain and now lost.</p>
+                                    <material/> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>1.68</height>
                                             <width>0.48</width>
@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -86,18 +86,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11662">
                                 <placeName type="townland">Burnfort (<foreign xml:lang="ga">Ráth an Tóiteáin</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.072146, -8.597752</geo></origPlace>
-                            <origDate></origDate>
+                            <note>ITM Coordinates: 559024, 591294 </note>
+                            <origDate/>
                         </origin>
-                        <provenance type="found">Discovered by Cork antiquarians, <persName>J. Windele</persName> and <persName>A. Abell</persName>, in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO042-052002-</ref>) of a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO042-052001-</ref>) called <placeName><foreign xml:lang="ga">Ráth an Tóiteáin</foreign> ('Fort of the Burning')</placeName>. 
-                            The Greenhill ogham stones (I-COR-003 and I-COR-004) are c. 900m to NW (Power et al. 1997, no. 7956). This ogham stone was deposited in the museum of the Royal Cork Institution in <date>1835</date>. 
+                        <provenance type="found">Discovered by Cork antiquarians, <persName>J. Windele</persName> and <persName>A. Abell</persName>, in a souterrain (SMR ID: CO042-052002-) of a ringfort (SMR ID: CO042-052001-) called <placeName><foreign xml:lang="ga">Ráth an Tóiteáin</foreign> ('Fort of the Burning')</placeName>, which gave the townland its name. The Greenhill ogham stones (I-COR-003 and I-COR-004) are c. 900m to NW (Power et al. 1997, no. 7956). This ogham stone was deposited in the museum of the Royal Cork Institution in <date>1835</date>. 
                         </provenance>
                         <provenance type="observed">Subsequently lost from Museum of the Royal Cork Institution, probably when the Institution building was replaced by the Athenaeum in <date>1853</date> (Macalister 1945, 61).
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-11" who="#NW">Updated edition resp and source</change>
 <change when="2024-06-13" who="#NW">Added source of dimensions</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
+<change when="2024-07-30" who="#NW">Added paragraph to support around NMS, added ITM coords, closed empty tags and updated support desc.</change>  
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,14 +151,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><supplied reason="undefined" evidence="previouseditor">SAGITTARI</supplied></name></persName> 
                 </ab>
             </div>
-            <!--<div type="apparatus">
-               <!-\- <listApp>
-                <app></app>
-                </listApp>-\->
-            </div>-->
-            <div type="translation">
-                <p></p>
-            </div>
+            <div type="apparatus"/>
+            <div type="translation"/>      
             <div type="commentary">
                 <p>The interpretation of this inscription was the subject of much debate in the 19th century (Macalister 1945, 61, no.56). Windele included this inscription as an example in his publication on the controversy over ogham inscriptions being pagan or christian (1850, 142-145).</p>
             </div>
