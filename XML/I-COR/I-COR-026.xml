@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Burgatia</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
-                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>                 
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>               
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor> 
                 <!-- <editor>Add name, id etc here</editor>-->
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO143-100----</idno> </ref>
-                                    <material></material> 
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO143-100----</idno></p> 
+                                    <material/> 
                                     <objectType>'rectangular block of stone’</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                             <height>1.06</height>
                                             <width>0.47</width>
                                             <depth>0.22</depth>
@@ -77,26 +77,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
-                            </handNote>
+                            <handNote/>
+                            
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9138">
                                 <placeName type="townland">Burgatia</placeName> (<foreign xml:lang="ga">An Bhuirgéiseach</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.578654, -9.008003</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>51.578654, -9.008003</geo>
+                            <note>ITM Coordinates: 530105 , 536690</note></origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found"><!--? (1830s?)-->A rectangular block of stone discovered by <persName>Windele</persName> partly concealed by the long grass in the NW corner of a graveyard (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO143-029001-</ref>) in which are the remains of Templefachtna (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO143-029002-</ref>)(Macalister 1945, 81).   
+                        <provenance type="found"><!--? (1830s?)-->A rectangular block of stone discovered by <persName>Windele</persName> partly concealed by the long grass in the NW corner of a graveyard (<idno type="SMR">CO143-029001-</idno>) in which are the remains of Templefachtna (<idno type="SMR">CO143-029002-</idno>)(Macalister 1945, 81).   
                         </provenance>
                         <provenance type="observed">This stone could not be located in the graveyard and no local information about its whereabouts was gained (Ronan et al. 2009, no. 16164).
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -123,7 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2024-05-20" who="#POC">Added and encoded information, including the edition and Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, added ogham division.</change>
-
+<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,11 +144,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>Q/N?
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app></app>
-                </listApp>-->
-            </div>
+                </listApp>
+            </div>-->
             <div type="translation">
                 <p></p>
             </div>
