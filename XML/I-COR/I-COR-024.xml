@@ -10,7 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Keenrath</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
-                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>                 
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>               
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>  
                 <!-- <editor>Add name, id etc here</editor>-->
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO093-063----</idno> </ref>
-                                    <material></material> 
-                                    <objectType>pillar</objectType> 
+                                <support><!--<term>monument</term>--> <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO093-063----</idno> 
+                                    <material/> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
+                                         <dim/>
                                             <height>2.2</height>
                                             <width>0.46</width>
                                             <depth>0.37</depth>
@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister ascertained that the inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>.<height></height>
+                            <handNote>Macalister ascertained that the inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,18 +85,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9881">
                                 <placeName type="townland">Keenrath</placeName> (<foreign xml:lang="ga">Caoinráth</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.759532, -9.177449</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>51.759532, -9.177449</geo>
+                            <note>ITM Coordinates: 518717 , 557012</note></origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1906">Found in level pasture on a field boundary.
                         </provenance>
-                        <provenance type="observed">in situ
+                        <provenance type="observed">In situ.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -124,11 +125,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-20" who="#POC">Added and encoded information, including edition and Text Class referencing FAIR vocabularies for epigraphy</change>
 <change when="2024-05-22" who="#POC">Corrected image path and added text direction to edition</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, added ogham edition, moved encoded Macalister inscription to apparatus.</change>
+<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-024-MAC1945-79-Keenrath-inscription.jpg"></graphic>
+        <graphic url="IRE/I-COR/I-COR-024-MAC1945-79-Keenrath-inscription.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -145,7 +147,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1945, 79) read:</note>
                     <rdg source="MAC1945">
                        <lb n="1" style="text-direction:up"/><persName><w type="formula">ANM</w> <name nymRef="#?">CASONI</name> <w type="formula" lemma="maqqas"><supplied reason="lost" resp="#MAC1945">MAQ</supplied>I</w> <name nymRef="#?">RODAGNI</name></persName> 
                     </rdg>
