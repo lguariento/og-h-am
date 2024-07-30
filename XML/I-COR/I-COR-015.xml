@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,11 +60,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO127-006----</idno> </ref>
-                                    <material>clay slate</material> 
-                                    <objectType>pillar</objectType> 
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO127-006----</idno></p> 
+                                    <material>Clay slate</material> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="POW1992">
-                                            <height>2.1</height>
+                                            <height>2.13</height>
                                             <width>0.65</width>
                                             <depth>0.15</depth>
                                      </dimensions>                                   
@@ -85,8 +85,9 @@ the C, but they cannot be explained as remains of letters</q>. Possible ogham st
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/8815">
                                 <placeName type="townland">Gour</placeName> (<foreign xml:lang="ga">Gamhair</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.634283, -9.978493</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>51.634283, -9.978493</geo>
+                            <note>ITM Coordinates: 463052 , 544287</note></origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1907">Located in scrub on an E-facing slope in a field surrounded by a bend in the main road west from Castletownbere.
                         </provenance>
@@ -95,8 +96,8 @@ the C, but they cannot be explained as remains of letters</q>. Possible ogham st
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -127,14 +128,14 @@ the C, but they cannot be explained as remains of letters</q>. Possible ogham st
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-07-21" who="#NW">Updates to support description and edition based on fieldnotes. Added images.</change>  
 <change when="2024-07-21" who="#NW">Added measurement to handnote.</change> 
-
+<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-015_Gour_stone.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-015_Gour_inscription.jpg"><desc>Photograph by Nora White</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-015-MAC1945-72-Gour.jpg"><desc>Macalister 1945</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-015-MAC1945-72-Gour.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://sketchfab.com/3d-models/co127-006-ogham-gour-50f3ba9b729042ac9115665cd4fbdcb7" mimeType="text/html"><desc>3d model by Gary Dempsey on SketchFab</desc></media>
     </facsimile>    
     <text>
