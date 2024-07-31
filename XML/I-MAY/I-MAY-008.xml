@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,23 +60,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">MA015-018001-</idno></ref>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">MA015-018001-</idno></p>
                                     <material>Stone</material> 
                                     <objectType>Pillar</objectType> 
                                     <dimensions unit="m">
                                             <height>2.75</height>
                                             <width>0.98</width>
                                             <depth>0.58</depth>
-                                    </dimensions><p>This ogham stone is a national monument (no. 415) in state guardianship.</p></support>
+                                    </dimensions>
+                                    <p>This ogham stone is a national monument (no. 415) in state guardianship.</p></support>
                                 <condition>Sections of the inscription have been eroded and damaged by spalling.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>There are ogham inscriptions on the NE and SE angles (<rs type="style">>up-up</rs>, lines 1 and 2 in the edition). The inscription extends the entire length of the NE angle (line 2); it is partly obscured by lichen. On the SE angle (line 1), the inscription begins 1.2m above ground level (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: MA015-018001-</ref>).</layout>
+                                <layout>There are ogham inscriptions on the NE and SE angles (<rs type="style">up-up</rs>, lines 1 and 2 in the edition). The inscription extends the entire length of the NE angle (line 2); it is partly obscured by lichen. On the SE angle (line 1), the inscription begins 1.2m above ground level (Archaeological Survey of Ireland, Field Report).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>.
-                                <height><!--letter-heights--></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -84,8 +85,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34606">
                                 <placeName type="townland">Breastagh (<foreign xml:lang="ga">Bréisteach</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
-                                <geo>54.246449, -9.253630</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>54.246449, -9.253630</geo>
+                           <note>ITM Coordinates: 518294 , 833798</note></origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="1874">Discovered lying (total length 3.6m) in a field in the townland in <date>1874</date> by an English tourist and brought to the attention of antiquarian <persName>Samuel Ferguson</persName>. It appeared to overlie a possible grave, a cavity at the south end of which was identified as the socket in which the stone once stood (Ferguson, 1870-9, 201-206). 
                         </provenance>
@@ -94,8 +96,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -125,11 +127,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-04-30" who="#POC">Reverted change list order, and added Macalister sketch</change>
 <change when="2024-05-07" who="#NW">Added Text Class, referencing FAIR vocabularies for epigraphy</change>  
 <change when="2024-05-24" who="#POC">Corrected image path</change>
+<change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus.</change>
+
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-MAY/I-MAY-008-MAC1945-14-Breastagh.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
+        <graphic url="IRE/I-MAY/I-MAY-008-MAC1945-14-Breastagh.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://sketchfab.com/3d-models/breastagh-ogham-stone-mayo-60185a7bf9e24756a2d0b7bb740bde7a" mimeType="text/html"><desc>3d model by Discovery Programme on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -151,11 +155,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
             </div>         
            
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
                     <app></app>
                 </listApp>
-            </div>
+            </div>-->
             <div type="translation">
                 <p>'... of the son of <foreign xml:lang="sga">Coirpre</foreign> son of <foreign xml:lang="sga">Amalgaid</foreign>'?</p>
             </div>
