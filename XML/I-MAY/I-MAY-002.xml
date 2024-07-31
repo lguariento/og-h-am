@@ -56,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    National Monuments Service Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">MA093-045003-</idno></ref>
+                                    <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> Record Number: <idno type="SMR">MA093-045003-</idno></p>
                                         <material>Stone</material> 
                                         <objectType>Pillar</objectType>                                    
                                          <dimensions unit="m">
@@ -64,12 +64,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width>0.51</width>
                                             <depth>0.30</depth>
                                          </dimensions>
-                                    <p>Described by Macalister (1945, 6) as <q>Stratified sandstone</q>.</p>
                                 </support>
-                                <condition>The stone is damaged in places and also contains small fractures which run along the two inscriptions. In the first inscription, there is <q>a small fracture on the angle following 2G</q> while in the second inscription <q>a fracture follows O, large enough to contain two scores or notches, but had they actually been there some trace of them would probably have remained</q> (Macalister 1945, 6). Additionally, three letters from the end of the second inscription, <q>S2 and S3 are seen to form a character resembling a 6, broken at the bottom</q>, which Macalister (1945, 7) suggests looks like the U-<hi rend="italic">forfid</hi>, but it could be just damage to the stone.</condition>
+                                <condition>Described by Macalister (1945, 6) as <q>Stratified sandstone</q>,the stone is damaged in places and also contains small fractures which run along the two inscriptions. In the first inscription, there is <q>a small fracture on the angle following 2G</q> while in the second inscription <q>a fracture follows O, large enough to contain two scores or notches, but had they actually been there some trace of them would probably have remained</q> (Macalister 1945, 6). Additionally, three letters from the end of the second inscription, <q>S2 and S3 are seen to form a character resembling a 6, broken at the bottom</q>, which Macalister (1945, 7) suggests looks like the U-<hi rend="italic">forfid</hi>, but it could be just damage to the stone.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>There is ogham on all four angles with what appears to be two seperate inscriptions (one surrounding each face, <rs type="style">up-top-down</rs>), the second of which is unintelligible. </layout>
+                                <layout>There is ogham on all four angles with what appears to be two seperate inscriptions (one surrounding each face, <rs type="style">up-top-down</rs>), the second of which is unintelligible.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -83,6 +82,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/36377">
                                 <placeName  type="townland">Kilmannin (<foreign xml:lang="ga">Cill Mhainín</foreign></placeName> ‘Mainín’s church’?), <placeName type="county">Co. Mayo</placeName>
                                 (<geo>53.772989, -8.765170</geo>).
+                            <note>ITM Coordinates: 549559 , 780647</note>
                             </origPlace>
                             <origDate notBefore="0550" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">mid to late sixth century A.D.</origDate>
                         </origin>
@@ -93,8 +93,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-        
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -122,13 +122,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-22" who="#POC">Corrected image path</change>
 <change when="2024-06-10" who="#NW">Added palaeographic info in handnote regarding similarity of two inscriptions</change>
 <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
-
+<change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, deleted heading from bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="https://www.ucl.ac.uk/archaeology/cisp/database/picpage/kilma_1_1.html"><desc>Macalister 1945 sketch from CISP</desc></graphic>
-        <graphic url="IRE/I-MAY/I-MAY-002-MAC1945-6-Kilmannin.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
+        <graphic url="IRE/I-MAY/I-MAY-002-MAC1945-6-Kilmannin.jpg"><desc>Drawing by Macalister 1945</desc></graphic>
         <graphic url="Kilmannin.jpg"><desc>Photograph from NMS (copyright NMI)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/kilmannin-ogham-stone-3c7490f9be964763b444aa6fd60c3c86" mimeType="text/html"><desc>3d model on Sketchfab by Discovery Programme</desc></media>
     </facsimile>
@@ -173,9 +173,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </ab>
                 </div>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                  
-            </div>
+            </div>-->
             <div type="translation" xml:lang="en">
                 <div type="textpart" n="1">
                 <p>of <foreign xml:lang="sga">Lugáed</foreign> son of <foreign xml:lang="sga">Luguid</foreign></p>
@@ -192,7 +192,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="bibliography">
-                 <head>Bibliography</head>
                 <listBibl>                                                                                   
                     <bibl><ptr target="MAC1945"/>
                         <citedRange>6-7</citedRange>
