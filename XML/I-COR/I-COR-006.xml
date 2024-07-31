@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,11 +60,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO052-053----</idno> </ref>
-                                    <material></material> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO052-053----</idno>.</p>
+                                    <material/> 
                                     <objectType>Pillar?</objectType> 
-                                     <dimensions unit="m"/>                                         
-                                                                        
+                                     <dimensions unit="m"/>            
                                 </support>
                                 <condition>Destroyed in the mid-nineteenth century, only a drawing of the stone and inscription remain.</condition>
                             </supportDesc>
@@ -74,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -82,19 +81,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9511">
                                 <placeName type="townland">Ballynabortagh (<foreign xml:lang="ga">Baile na bPórtach</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.999800, -8.433359</geo>
-                            <note>approximate only</note></origPlace>
+                                <geo>51.999763 , -8.433330</geo>
+                            <note>ITM Coordinates: 570245, 583170 (approximate only)</note></origPlace>
                             <origDate/>
                         </origin>
                        <provenance type="found" notAfter="1839">Discovered by <date>1839</date> and noted by Windele. It was part of a complex series of monuments, including another ogham stone (I-COR-005), which is the sole survivor above ground. Macalister (1945, 62-3) supplies an inventory from one of <ref target="https://www.ria.ie/collections/john-windele-1801-65/">Windele</ref>'s notebooks of what was to be seen here in his time.
                         </provenance>
                         <provenance type="observed"/>
-                        
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -130,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-06-27" who="#NW">Added geo note</change>
 <change when="2024-07-25" who="#NW">Closed tags where no info e.g. apparatus, origdate, dimensions.</change>
+<change when="2024-07-31" who="#NW">Added paragraph to support around NMS and ITM coords.</change>  
     
 </listChange>
 </revisionDesc>
@@ -151,10 +150,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
             </div>
             <div type="apparatus"/>
-              
             
             <div type="translation">
-                <p>'of Máelán’</p>
+                <p>'of <foreign xml:lang="sga">Máelán</foreign>’</p>
             </div>
             <div type="commentary">
                 <p>The name here is known elsewhere in the ogham corpus (e.g. I-KER-027 and I-LIM-002), as well as in later epigraphic and manuscript sources, and consists of the word <foreign xml:lang="sga" corresp="https://dil.ie/31242">máel</foreign> ‘bald, cropped’ with the diminutive suffix -án (earlier/ogham -AGNI).</p>
