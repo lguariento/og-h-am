@@ -48,8 +48,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -59,15 +59,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">MA014-101----</idno></ref>
-                                    <material>Stone (sandstone)</material> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> Record Number: <idno type="SMR">MA014-101----</idno></p>
+                                    <material>Stone <note>(sandstone)</note></material> 
                                     <objectType>Slab</objectType> 
                                      <dimensions unit="m">
                                             <height>1.90</height>
                                             <width>2.20</width>
                                             <depth>0.15</depth>
                                      </dimensions>
-                                    <p><q>The stone leans markedly to the north-west: the current height of the stone (i.e. vertical drop from top to the ground surface) is 1.9m, however, if the stone were fully vertical, its height would be c. 2.3m</q> (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: MA014-101----</ref>).</p>
+                                    <p><q>The stone leans markedly to the north-west: the current height of the stone (i.e. vertical drop from top to the ground surface) is 1.9m, however, if the stone were fully vertical, its height would be c. 2.3m</q> (Archaeological Survey of Ireland, Field Report).</p>
                                 </support>
                                 <condition>The stone is weathered and largely lichen-covered. The middle section of the south-west face presents a smooth, almost polished surface, probably the result of farm stock using this side of the stone as a scratching post; part of the inscription may have been obliterated here.</condition>
                             </supportDesc>
@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote><rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">Pocked and rubbed</rs> in broad, shallow grooves (Macalister (1945, 12).
-                                <height><!--letter-heights--></height>
+                                <height/><!--letter-heights-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,18 +85,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34228">
                                 <placeName type="townland">Aghaleague (<foreign xml:lang="ga">Achadh Liag</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
-                                <geo>54.257414, -9.332316</geo></origPlace>
+                                <geo>54.257414, -9.332316</geo>
+                            <note>ITM Coordinates: 513189 , 835110</note></origPlace>
                             <origDate></origDate>
                         </origin>
                         <provenance type="found" notAfter="1919">Discovered by <persName><surname>Macalister</surname></persName> and first published by him in <date>1919</date>. The townland name in Irish is <placeName type="townland"><foreign xml:lang="ga">Achadh Liag</foreign>, meaning ‘field of the pillar-stone’.</placeName>
                         </provenance>
-                        <provenance type="observed" when="2022">In situ in pasture, in damp, flat, low-lying ground on the west side of a stream valley. The north-flowing stream is located 40m to the east of the stone between the road and the stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, field report <date>2017</date>, SMR ID: MA014-101----</ref>). Visited and 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
+                        <provenance type="observed" when="2022">In situ in pasture, in damp, flat, low-lying ground on the west side of a stream valley. The north-flowing stream is located 40m to the east of the stone between the road and the stone (Archaeological Survey of Ireland, Field Report 2017). Visited and 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -127,12 +128,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-07" who="#NW">Added Text Class, referencing FAIR vocabularies for epigraphy</change>  
 <change when="2024-05-24" who="#POC">Corrected image path</change>
 <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
-
+<change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, updated apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-MAY/I-MAY-007-MAC1945-12-Aghaleague.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
+        <graphic url="IRE/I-MAY/I-MAY-007-MAC1945-12-Aghaleague.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ma014-101-aghaleague-9ce2d916d7c54667a3bd155dfdee0a15" mimeType="text/html"><desc>3d model by Gary Dempsey (Digital Heritage Age) on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -155,7 +156,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>          
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1919, 401) read:</note>
                     <rdg source="MAC1919">OTTACI MAQ GARA<gap reason="lost" extent="unknown"/></rdg>                    
                 </app>
                 </listApp>
