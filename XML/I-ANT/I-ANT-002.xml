@@ -60,9 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Northern Ireland Sites and Monuments Record Number: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">ANT038:032 </ref>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Northern Ireland Sites and Monuments Record Number</ref>: <idno type="NISMR">ANT038:032</idno></p> 
                                      <material>Basalt</material> 
-                                    <objectType>Pillar (reused as a roofing stone in a souterrain)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
                                             <height>0.95</height>
                                             <width>0.25</width>
@@ -72,11 +72,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>One of two ogham-inscribed pillars (see also I-ANT-001) reused as lintels in a souterrain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscritions runs along one edge for '14 inches' (Buick 1900, 266) or approximately 35cm.</layout>
+                                <layout>The inscritions runs along one edge for <q>'14 inches'</q> (Buick 1900, 266) or approximately 35cm.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                             <handNote>The ogham strokes in this inscription (also it's companion (I-ANT-001) are particularly <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">lightly cut</rs>, described by Macalister (1945, 297) as 'little more than pin-scrapes'. <height>Buick (1900, 266) noted that 'the average length of most of the consonants is three-fourths of an inch [c. 1.9cm]. Others, however, run up to an inch [2.5cm], and a few, such as Rs and Ms, to a couple of inches [c. 5cm]. All of them look as if they had been scored in with a nail'</height>.
+                             <handNote>The ogham strokes in this inscription (also it's companion (I-ANT-001) are particularly <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">lightly cut</rs>, described by Macalister (1945, 297) as <q>'little more than pin-scrapes'</q>. Buick (1900, 266) noted that <q><height>'the average length of most of the consonants is three-fourths of an inch [c. 1.9cm]. Others, however, run up to an inch [2.5cm], and a few, such as Rs and Ms, to a couple of inches [c. 5cm]. All of them look as if they had been scored in with a nail'</height></q>.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -84,8 +84,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/61366">
                                 <placeName type="townland">Carncome (<foreign xml:lang="ga">Carn Coim</foreign>)</placeName>, <placeName type="county">Co. Antrim</placeName>
-                                <geo>54.804566, -6.196192</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>54.804566, -6.196192</geo>
+                           <note></note></origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found">Discovered by <persName><roleName>Rev.</roleName> W. P. (afterwards <roleName>Dean</roleName>) Carmody</persName>, then <roleName>rector of Connor</roleName>, in the year <date>1898</date>. One of two inscribed stones, used in roofing a souterrain 26' 6" [c. 8m] long [last but one at each end of 9 roofing stones in total]. The other ogham stone (I-ANT-001] remains where it was found, and, as the souterrain is now closed, is inaccessible. There are now no visible remains of this souterrain.
                         </provenance>
@@ -94,7 +95,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -124,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-07" who="#NW">Nora White added Text Class, referencing FAIR vocabularies for epigraphy</change>  
 <change when="2024-05-31" who="#NW">Nora White updated reuse in souterrain to 'object type'</change>
     <change when="2024-06-12" who="#NW">Updated tagging of unclear vowels (choice) in edition</change>
+<change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, commented out apparatus, added idno elements for NISMR numbers, removed title elements from edition.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -134,20 +137,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>            
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
-                <ab><title>Ogham</title>: 
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#..."><choice><unclear>ᚉ</unclear><unclear>ᚈ</unclear></choice>ᚐ<unclear reason="faded">ᚌ</unclear>ᚔᚅ<unclear reason="background_noise">ᚐ</unclear><choice><unclear>ᚇᚔ</unclear><unclear>ᚈᚓ</unclear></choice></name> <w lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#...">ᚃᚑᚁᚐᚏᚐᚉᚔ</name></persName>
                    </ab>
             </div>
             <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
-                <ab><title>Transliteration</title>:  
+                <ab> 
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#..."><choice><unclear>C</unclear><unclear>T</unclear></choice>A<unclear reason="faded">G</unclear>IN<unclear reason="background_noise">A</unclear><choice><unclear>DI</unclear><unclear>TE</unclear></choice></name> <w lemma="maqqas">MAQI</w> <name nymRef="#...">VOBARACI</name></persName>                
                 </ab>
             </div>         
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app></app>
-                </listApp>-->
-            </div>
+                </listApp>
+            </div>-->
             <div type="translation">
                 <p></p>
             </div>
