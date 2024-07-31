@@ -48,8 +48,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="idno">MA103-022----</idno></ref>
+                                    <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="idno">MA103-022----</idno></p>
                                     <material>Stone</material> 
                                     <objectType>Pillar</objectType>
                                     <dimensions unit="m">
@@ -68,9 +68,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width>0.57</width>
                                             <depth>0.50</depth>
                                     </dimensions>
-                                    <p>Roughly rectangular in profile, narrowing towards the top.</p>
                                 </support>
-                                <condition>Sections of the inscription appear to have been damaged by flaking or abrasion of the stone surface, and in parts the sharpness of the corner has been somewhat rounded by use of the stone as a scratching post by farm stock (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: MA103-022----</ref>). The inscriptions is also quite weathered and some characters are unclear due to damage. For example, Macalister (1945, 8-9) read the inital character as a Q but only 4 scores, at most are evident. Four of the expected five notches of the final I in the personal name survive. Although there is no trace on the stone, a final I in MAQI may have been lost, as suggested by Macalister.</condition>
+                                <condition>Roughly rectangular in profile, narrowing towards the top. Sections of the inscription appear to have been damaged by flaking or abrasion of the stone surface, and in parts the sharpness of the corner has been somewhat rounded by use of the stone as a scratching post by farm stock (Archaeological Survey of Ireland, Field Report). The inscriptions is also quite weathered and some characters are unclear due to damage. For example, Macalister (1945, 8-9) read the inital character as a Q but only 4 scores, at most are evident. Four of the expected five notches of the final I in the personal name survive. Although there is no trace on the stone, a final I in MAQI may have been lost, as suggested by Macalister.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The ogham inscription is cut across the sharply right-angled south-east corner (reading <rs type="style">up</rs>).</layout>
@@ -86,17 +85,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/36181">
                                 <placeName type="townland">Ballybeg (<foreign xml:lang="ga">An Baile Beag</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>                                
-                                <geo>53.726342, -8.697455</geo></origPlace>
-                            <origDate><!--Insufficient evidence?--></origDate>
+                                <geo>53.726342, -8.697455</geo>
+                            <note>ITM Coordinates: 553975 , 775414</note></origPlace>
+                            <origDate/><!--Insufficient evidence?-->
                         </origin>
                         <provenance type="found" when="1900">First noticed by <persName><roleName>Sergeant</roleName> Lyons</persName> in <date>1900</date>. Recorded that <q>the stone had fallen from its erect position, and had lain on the ground until it was re-erected in the year 1861</q> (Macalister 1945, 8-9). Mistakenly recorded by Macalister (1945, 8) and others to be in the neighbouring townland of <placeName type="townland">Tullaghaun</placeName>.</provenance>
-                        <provenance type="observed" when="2022">In situ on a broad level terrace on a ridge. To the south of the stone, the ridge slope falls steeply, giving extensive views south-east to west across a broad valley. On the far side of the valley to the south-south-west, the horizon is defined by a high ridge, Kiltullagh Hill, on the summit of which a standing stone is visible, and to the east of that Killtullagh church. Both the ogham stone and the standing stone are located close to the <placeName type="county">Mayo</placeName>/<placeName type="county">Roscommon</placeName> border (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, field report <date>2017</date>, SMR ID: MA103-022----</ref>). Visited and 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
+                        <provenance type="observed" when="2022">In situ on a broad level terrace on a ridge. To the south of the stone, the ridge slope falls steeply, giving extensive views south-east to west across a broad valley. On the far side of the valley to the south-south-west, the horizon is defined by a high ridge, Kiltullagh Hill, on the summit of which a standing stone is visible, and to the east of that Killtullagh church. Both the ogham stone and the standing stone are located close to the <placeName type="county">Mayo</placeName>/<placeName type="county">Roscommon</placeName> border (Archaeological Survey of Ireland, Field Report <date>2017</date>). Visited and 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -127,12 +127,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-05-07" who="#NW">Added Text Class, referencing FAIR vocabularies for epigraphy</change>  
 <change when="2024-05-22" who="#POC">Corrected image path</change>
 <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
-
+<change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, updated apparatus.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-MAY/I-MAY-004-MAC1945-8-Ballybeg.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
+        <graphic url="IRE/I-MAY/I-MAY-004-MAC1945-8-Ballybeg.jpg"><desc>Drawing by Macalister</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ma103-022-ballybeg-920aa00f87e64bd88fbd0eba5e3f8888" mimeType="text/html"><desc>3d model on Sketchfab by Gary Dempsey, Digital Heritage Age</desc></media>
     </facsimile>    
     <text>
@@ -155,7 +155,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                     <listApp>
-                <app>
+                <app n="1">
+                    <note>Macalister (1945, 9) read:</note>
             <rdg source="MAC1945">
                 <persName><name>QASIGN<supplied reason="lost">I</supplied></name>
                     <w>MAQ<supplied reason="lost">I</supplied><gap reason="lost" extent="unknown"/></w>
