@@ -60,9 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO053-072----</idno></ref>
-                                    <material>Stone (sandstone?)</material> 
-                                    <objectType>pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO053-072----</idno>.</p>
+                                    <material>Sandstone?</material> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="#NW">
                                             <height>0.97</height>
                                             <width>0.28</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>According to Macalister (1945, 65) the height of the stone was 97cm (3 feet 2 inches) but only 89cm are currently accessible above the display box. The stone is damaged at both ends leaving the inscription fragmentary.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads up on one angle.</layout>
+                                <layout>The inscription reads up on one angle, to the right of one of the faces.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -84,18 +84,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9533">
                                 <placeName type="townland">Bishop’s Island (<foreign xml:lang="ga">Oileán an Easpaig</foreign></placeName>, <placeName type="county">Co. Cork</placeName>
-                                <!--<geo></geo>--></origPlace>
-                            <origDate></origDate>
+                                <geo/></origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found" when="1914">The stone was found repurposed as a gate-post for a farm wall by <persName><roleName>Rev.</roleName> Canon Power</persName> in <date>1914</date> (Macalister 1945, 65).
+                        <provenance type="found" when="1914">The stone was found repurposed as a gate-post for a farm wall by <persName><roleName>Rev.</roleName> Canon Power</persName> in <date>1914</date> (Macalister 1945, 65). The precise original location is unknown.
                         </provenance>
                         <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), at University College Cork (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO074-151----</ref>). 
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>             
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -129,6 +129,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-13" who="#NW">Removed rs style from layout and # from bibl</change>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-07-21" who="#NW">Corrected image path. Removed geo, as orig location unknown, and resp from translation</change>
+<change when="2024-08-01" who="#NW">Added paragraph to support around NMS, closed empty tags. Moved comments on reading to apparatus</change> 
+
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,16 +151,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#olagnas?">OLAGNI</name> <w type="formula" lemma="maqqas">MA<unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied><gap reason="lost"/></w></persName> 
                 </ab>
             </div>
-            <!--<div type="apparatus">
-               <!-\- <listApp>
-                <app></app>
-                </listApp>-\->
-            </div>-->
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+                    <note>As there is damage to both ends of the stone, we cannot be certain that there isn't something lost before the O of OLAGNI. As noted by Macalister (1945, 65), the H-surface is flaked away as far as the L.</note>
+                </app>
+                    <app n="2">
+                        <note>Only three strokes of the Q of MAQI survive before the break at the other end.</note>
+                    </app>
+                </listApp>
+            </div>
             <div type="translation" xml:lang="en">
                 <p>‘of Ollán son of …’</p>
             </div>
             <div type="commentary">
-                <p>As there is damage to both ends of the stone, we cannot be certain that there isn't something lost before the O of OLAGNI. As noted by Macalister (1945, 65), the H-surface is flaked away as far as the L. However, OLAGNAS (in the nominative) may correspond to Gaulish <foreign xml:lang="xtg">Ollognus</foreign>, containing the element attested later in Irish as <foreign xml:lang="sga">oll</foreign> 'great' (McManus 2004, 22). Only three strokes of the Q of MAQI survive before the break at the other end.</p>
+                <p>OLAGNI (OLAGNAS in the nominative) may correspond to Gaulish <foreign xml:lang="xtg">Ollognus</foreign>, containing the element attested later in Irish as <foreign xml:lang="sga">oll</foreign> 'great' (McManus 2004, 22).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
