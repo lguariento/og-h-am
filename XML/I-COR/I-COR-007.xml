@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,16 +60,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO052-061002-</idno></ref>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO052-061002-</idno>.</p>
                                     <material>Sandstone</material> 
-                                    <objectType>Pillar (reused as a roof support in a souterrain)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="RON2009">
                                             <height>1.40</height>
                                             <width>0.50</width>
                                             <depth>0.26</depth>
                                      </dimensions>                                  
                                 </support>
-                                <condition>This pillar (subrectangular in section narrowing towards the top), along with I-COR-008, has been repurposed as an upright in a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>). The lettering, particularly the vowel notches, are quite worn, though still legible. The end of the inscription is lost, proabably due to a break at the top of the stone. It is also noteworthy that this stone has numerous <rs type="features" ref="features.xml#grooves">v-sectioned groove marks</rs> on the side to the right of the inscription. There is also an area (beside and to the right of the first few charaters of the inscription) that is <rs type="features" ref="features.xml#smoothing">rubbed or polished smooth</rs>. This is very similar to the 'scoring' and 'smoothing' found on other (both inscribed and uninscribed) stones, for example Greenhill 1 (I-COR-003) and Ratass ogham stone, Co. Kerry (I-KER-139).</condition>
+                                <condition>This pillar (subrectangular in section narrowing towards the top), along with I-COR-008, has been repurposed as an upright in a souterrain (SMR ID: CO052-061001-). The inscription, particularly the vowel notches, are quite worn, though still legible. The end of the inscription is lost, proabably due to a break at the top of the stone. It is also noteworthy that this stone has numerous <rs type="features" ref="features.xml#grooves">v-sectioned groove marks</rs> on the side to the right of the inscription. There is also an area (beside and to the right of the first few charaters of the inscription) that is <rs type="features" ref="features.xml#smoothing">rubbed or polished smooth</rs>. This is very similar to the 'scoring' and 'smoothing' found on other (both inscribed and uninscribed) stones, for example Greenhill 1 (I-COR-003) and Ratass ogham stone, Co. Kerry (I-KER-139).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The inscription reads up on the outward facing angle the stone. It is not possible to examine the entire pillar due to its position in the souterrain.</layout>
@@ -84,17 +84,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9511">
                                 <placeName type="townland">Ballynabortagh (<foreign xml:lang="ga">Baile na bPórtach</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.999912, -8.433859</geo></origPlace>
-                            <origDate></origDate>
+                            <note>ITM Coordinates: 570210, 583188</note>
+                            <origDate/>
                         </origin>
-                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (NE upright) supporting the roof. The SW pillar stone also bears an ogham inscription (I-COR-008) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>); McCarthy 2005).
+                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date> (McCarthy 2005). This ogham stone is one of four pillars (NE upright) supporting the roof. The SW pillar stone also bears an ogham inscription (I-COR-008).
                         </provenance>
                         <provenance type="observed" when="2022">In situ in souterrain. Visited and 3d recorded for the OG(H)AM project in September <date>2022</date>.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -131,6 +132,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-20" who="#NW">Updated rs features grooves in condition and added addname elements to name with 2 elements but (with toggle comment for now). Added translation and notes to commentary</change>
 <change when="2024-07-22" who="#NW">Updates from Archaeological Inventory</change>
 <change when="2024-07-25" who="#NW">Moved reading comment from commentary to apparatus</change>
+<change when="2024-08-01" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords.</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,7 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
+                <app n="1">
                     <note>Only three strokes from the <foreign xml:lang="ga">aicme hÚatha</foreign> are visible at the top of the stone, probably representing an initial T, but this could alternatively be the remains of a C or Q.</note>
                 </app>
                 </listApp>
