@@ -48,8 +48,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -59,7 +59,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">MA016-004004-</idno></ref>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">MA016-004004-</idno></p>
                                     <material>Stone</material> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
@@ -67,7 +67,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width>0.20</width>
                                             <depth>0.15</depth>                                   
                                     </dimensions>
-                                    <p>Although not included in Macalister’s 1945 <hi rend="italic">Corpus</hi>, Westropp (1914, 77) recorded this stone as showing <q>notches on the natural-squared edge and faint traces of straight and slant scores</q>.</p>                                    
+                                    <p>Although not included in Macalister’s 1945 <hi rend="italic">Corpus</hi>, Westropp (1914, 77) recorded this stone as showing <q>notches on the natural-squared edge and faint traces of straight and slant scores</q>.</p>                                
                                 </support>
                                 <condition>The stone is quite weathered and spalled.</condition>
                             </supportDesc>
@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>The strokes near the ground are slanted and probably <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> but only evident on the B side (<foreign xml:lang="ga">Aicme Beithe</foreign>) of the angle.
-                                <height><!--letter-heights--></height>
+                                <height/><!--letter-heights-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -86,18 +86,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                              <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/1399343">
                                  <placeName type="site">Cross Abbey (<foreign xml:lang="ga">Mainistir na Croise</foreign>)</placeName>, 
                                  <placeName type="townland">Cross (Boyd) (<foreign xml:lang="ga">An Chrois</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
-                                <geo>54.208993, -10.083446</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>54.208993, -10.083446</geo>
+                             <note>ITM Coordinates: 464096 , 830903</note></origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" notAfter="1914"><persName><surname>Westropp</surname></persName> (1914, 77) recorded this stone as one of two tall stone pillars, one on either side of a ‘walled burial space, 7 feet wide [2.1m],’ which spanned the width of the church... on the E side of the burial space at Cross Abbey, which was possibly an early Christian church site (<ref target="https://monasticon.celt.dias.ie/2930">Monasticon Hibernicum</ref>).
                         </provenance>
-                        <provenance type="observed" when="2022">The ogham stone is incorporated into the outer edge of the low E wall of the grave structure, at a distance of 1.1m from the N wall of the church. The base of the stone is flanked on the S, W and N sides by the grave wall; the E face is more or less flush with the external face of the grave wall (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, field report, SMR ID: MA016-004004-</ref>). 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
+                        <provenance type="observed" when="2022">The ogham stone is incorporated into the outer edge of the low E wall of the grave structure, at a distance of 1.1m from the N wall of the church. The base of the stone is flanked on the S, W and N sides by the grave wall; the E face is more or less flush with the external face of the grave wall (Archaeological Survey of Ireland, Field Report). 3d recorded as part of the Mayo Ogham project <date>2022</date>, funded by The Heritage Council and Mayo County Council.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -128,7 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-04-30" who="#POC">Reverted change list order</change>
 <change when="2024-05-07" who="#NW">Added Text Class, referencing FAIR vocabularies for epigraphy</change>  
 <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
-
+<change when="2024-08-01" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, deleted unnecessary ref elements, commented out apparatus.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,9 +151,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <unclear reason="weathered">L</unclear><gap reason="lost" unit="stroke" quantity="5"/><unclear reason="weathered">R</unclear><gap reason="illegible" unit="stroke" quantity="6"/><unclear reason="weathered">V</unclear><gap reason="lost" unit="stroke" quantity="4"/><unclear reason="damage">N</unclear><gap reason="lost" unit="stroke" quantity="6"/><unclear reason="damage">AMU</unclear>BA
                 </ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <p></p>
-            </div>
+            </div>-->
             <div type="translation">
                 <p></p>
             </div>
