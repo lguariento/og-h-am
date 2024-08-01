@@ -48,8 +48,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -59,7 +59,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                 <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">MA040-031004-</idno></ref>
+                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">MA040-031004-</idno></p>
                                     <material>Granite</material> 
                                      <objectType>Pillar</objectType> 
                                       <dimensions unit="m">
@@ -68,7 +68,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.20</depth>                                   
                                     </dimensions>
                                  </support>
-                                <condition>The surface of the stone is moderately blotched with lichens and moss, with denser growth on the W face (Jane O’Shaughnessy, 2017 field report). The start of the ogham inscription has been spalled away which may have removed a couple of scores (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: MA040-031004-</ref>).</condition>
+                                <condition>The surface of the stone is moderately blotched with lichens and moss, with denser growth on the W face (Jane O’Shaughnessy, 2017 field report). The start of the ogham inscription has been spalled away which may have removed a couple of scores (Archaeological Survey of Ireland, Field Report).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The ogham inscription runs <rs type="style">up</rs> along an upper angle of the pillar (left side of the broad face) extending from roughly mid-way along its length to the top of the stone.</layout>
@@ -76,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>The broad, evenly-spaced strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>.
-                                <height><!--letter-heights--></height>
+                                <height/><!--letter-heights-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -84,8 +84,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>                          
                                 <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34677">
                                 <placeName type="townland">Kilgarvan (<foreign xml:lang="ga">Cill na nGarbhán</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
-                                <geo>54.089953, -9.027587</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>54.089953, -9.027587</geo>
+                                <note>ITM Coordinates: 532776 , 816140</note></origPlace>
+                            <origDate/>
                         </origin>
                         <provenance type="found" when="2000">Discovered by <persName>Gerry Cribben</persName> and others while carrying out fieldwork in <date>2000</date> in the north-east quadrant of <placeName type="townland">Kilgarvan</placeName> graveyard (Moore 2000, 33). <ref target="https://monasticon.celt.dias.ie/1683"><placeName type="townland">Kilgarvan (<foreign xml:lang="ga">Cill na nGarbhán</foreign> ‘Church of the Garbháns’</placeName>)</ref> is said to have been founded by St Féichéine of <ref target="https://monasticon.celt.dias.ie/3689">Fore (<foreign xml:lang="ga">Fobar</foreign>)</ref>, a Connacht man, in the seventh century.
                         </provenance>
@@ -94,8 +95,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -125,7 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-04-30" who="#POC">Reverted change list order</change>
 <change when="2024-05-07" who="#NW">Added Text Class, referencing FAIR vocabularies for epigraphy</change>  
 <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
-
+<change when="2024-08-01" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, deleted unnecessary ref elements, moved inscription information into apparatus.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,13 +149,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p>The reasonably clear ogham inscription has been read as DOTAGNI. However, a possible original COTAGNI was noted by Fionnbarr Moore (2001, 33), as the spall at the start of the inscription may have removed a couple of scores.</p>
             </div>
             <div type="translation">
                 <p>'of <foreign xml:lang="sga">Dothán</foreign>'</p>
             </div>
             <div type="commentary">
-                <p>The reasonably clear ogham inscription has been read as DOTAGNI. However, a possible original COTAGNI was noted by Fionnbarr Moore (2001, 33), as the spall at the start of the inscription may have removed a couple of scores. A later version of the former name would be something like <foreign xml:lang="sga">Dothán</foreign>, but no such name appears to be attested in the later sources. The name may consist of the word <foreign xml:lang="sga">doth</foreign> ‘bearing, bringing forth, hatching (of animals)’ or, if COTHAGNI, possibly <foreign xml:lang="sga">coth</foreign> ‘food, sustenance’.
+                <p>A later version of DOTAGNI would be something like <foreign xml:lang="sga">Dothán</foreign>, but no such name appears to be attested in the later sources. The name may consist of the word <foreign xml:lang="sga">doth</foreign> ‘bearing, bringing forth, hatching (of animals)’ or, if COTHAGNI, possibly <foreign xml:lang="sga">coth</foreign> ‘food, sustenance’.
 </p>
             </div>
             <div type="bibliography">
