@@ -50,8 +50,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,19 +61,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO052-061003-</idno></ref>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO052-061003-</idno>.</p>
                                     <material>Sandstone</material> 
-                                    <objectType>pillar (reused as a roof support in a souterrain)</objectType> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="RON2009">
                                             <height>1.50</height>
                                             <width>0.24</width>
                                             <depth>0.35</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>This is an irregularly shaped, rough, sandstone pillar, subrectangular in section. Only 6 or 7 letters of the worn ogham inscription survive.</condition>
+                                <condition>This is an irregularly-shaped, rough, sandstone pillar, subrectangular in section, that was reused as a roof support in a souterrain. Only 6 or 7 letters of the worn ogham inscription survive.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Inscribed (reading up) on the right angle of one of the narrower faces. The inscribed face of the stone widens towards the top and the ogham inscription, in so far as it survives, is confined to the narrower lower part of the stone (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061003-</ref>; Ronan 2009, no. 16163).</layout>
+                                <layout>Inscribed (reading up) on the right angle of one of the narrower faces. The inscribed face of the stone widens towards the top and the ogham inscription, in so far as it survives, is confined to the narrower lower part of the stone (Ronan 2009, no. 16163).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,18 +85,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9511">
                                 <placeName type="townland">Ballynabortagh (<foreign xml:lang="ga">Baile na bPórtach</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.999912, -8.433859</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>51.999912, -8.433859</geo>
+                            <note>ITM Coordinates: 570210, 583188</note>
+                            </origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006), a souterrain containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date>. This ogham stone is one of four pillars (SW upright) supporting the roof. The NE pillar stone also bears an ogham inscription (I-COR-007) (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">Archaeological Survey of Ireland, SMR ID: CO052-061001-</ref>).
+                        <provenance type="found" when="2005">At the site of two previously known ogham stones (I-COR-005 and I-COR-006), a souterrain (SMR ID: CO052-061001-) containing two further ogham stones was (re-)discovered when the ground collapsed during silage cutting in <date>2005</date> (McCarthy 2005). This ogham stone is one of four pillars (SW upright) supporting the roof. The NE pillar stone also bears an ogham inscription (I-COR-007).
                         </provenance>
-                        <provenance type="observed">In situ in souterrain. Visited and 3d recorded for the OG(H)AM project in September <date>2022</date>.
+                        <provenance type="observed" when="2022">In situ in souterrain. Visited and 3d recorded for the OG(H)AM project in September <date>2022</date>.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -133,6 +135,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
 <change when="2024-07-20" who="#NW">Updated support description, edition and commentary</change>
 <change when="2024-07-22" who="#NW">Updates from Archaeological Inventory</change>
+<change when="2024-08-01" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords. Moved comments on reading to apparatus</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -154,18 +158,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
-                    <!--<note>Ronan (2009, 153, no. 16163): </note>-->
+                <app n="1">
+                    <note>Reading supplied in Ronan (2009, 153, no. 16163): </note>
                     <rdg source="RON2009"><space unit="cm" quantity="4"/>L<gap reason="lost" unit="cm" quantity="14"></gap>CA<gap reason="lost" unit="cm" quantity="14"/>CIOT</rdg>
                 </app>
+                    <app n="2">
+                        <note>The first relatively clear letter is C but there appeared to be a single stroke from the same <foreign xml:lang="ga">aicme (húatha)</foreign> visible just above ground level (and just below the 4 C-strokes) on examination (and in imagry) from 2022. An earlier photograph of the stone by the National Monuments Service (2005? ground level slightly lower?) shows signs of 2 strokes here, which would make a D or, if more strokes survive below ground, a T, C or Q. However, this not not mentioned in the Archaeological Inventory description (Ronan 2009, 153). What is mentioned here is two strokes to the right of the stemline (<foreign xml:lang="ga">aicme beithe</foreign>) 4cm above then ground level, probably an L, followed by a gap of 14cm before the 4 C-strokes. Therefore, ground level must have been almost 20cm lower than in 2022.</note>
+                    </app>
+                    <app n="3">
+                        <note>Moore (Ronan 2009, 153) suggests interpreting CA[...]CIOT as the remains of MAQI MUCOI, taking what looks rather more like IO to be OI and the CA to be the remains of a QI. Perhaps the two possibly strokes (D) before the C are the remains of a double Q ([MAQ]Q̣Ị). While worth noting the possibility, unfortunately the evidence is not very strong. Reading in the opposite direction doesn't give a likely reading (SOIV...ASL?).</note>
+                    </app>
                 </listApp>
             </div>
-            <div type="translation">
-                <p></p>
-            </div>
+            <div type="translation"/>
+                
+            
             <div type="commentary">
-                <p>Unfortunately, this inscription is too fragmentary to identify a name or even part of a name. The first relatively clear letter is C but there appeared to be a single score from the same <foreign xml:lang="ga">aicme (húatha)</foreign> visible just above ground level (and just below the 4 C-strokes) on examination (and in imagry) from 2022. An earlier photograph of the stone by the National Monuments Service (2005? ground level slightly lower?) shows signs of 2 strokes here, which would make a D or, if more strokes survive below ground, a T, C or Q. However, this not not mentioned in the Archaeological Inventory description (Ronan 2009, 153). What is mentioned here is two strokes to the right of the stemline (<foreign xml:lang="ga">aicme beithe</foreign>) 4cm above then ground level, probably an L, followed by a gap of 14cm before the 4 C-strokes. Therefore, ground level must have been almost 20cm lower than in 2022.</p>
-                <p>Moore (Ronan 2009, 153) suggests interpreting CA[...]CIOT as the remains of MAQI MUCOI, taking what looks rather more like IO to be OI and the CA to be the remains of a QI. Perhaps the two possibly strokes (D) before the C are the remains of a double Q ([MAQ]Q̣Ị). While worth noting the possibility, unfortunately the evidence is not very strong. Reading in the opposite direction doesn't give a likely reading (SOIV...ASL?).</p> </div>
+                <p>Unfortunately, this inscription is too fragmentary to identify a name or even part of a name.</p>
+               </div>
             <div type="bibliography">
                  <listBibl>                    
                      <bibl>
