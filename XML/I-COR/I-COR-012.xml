@@ -42,15 +42,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <idno type="CIIC">64</idno>
                 <idno type="CISP">GLEWI/2</idno>
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,24 +60,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO065-033----</idno> </ref>
-                                    <material></material> 
-                                    <objectType>pillar (reused in souterrain)</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO065-033----</idno>. One of two ogham stones reused in a souterrain.</p>
+                                    <material/> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">                                         
                                             <height>1.93</height>
                                             <width>0.50</width>
                                             <depth>0.30</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is in fair condition, but worn. According to Macalister (1945, 69), the sixth letter, O, <q> is there, but very faint. The N depends, not on the edge of the stone but on a crack which runs from the edge into the B-surface</q>.</condition>
+                                <condition>The stone is quite rough and weathered, with lichen on the top section. The inscription is in fair condition, but worn.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister noted that, in its current position, the inscription is on the dexter angle of the SE face and, unusually, reads downward.</layout>
+                                <layout>As Macalister noted, in its current position, the inscription is on the dexter angle of the SE face and, unusually, reads downward.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in quite evenly-spaced strokes. Some of the vowel notches (especially in the first I) appear slightly longer than usual but they are still shorter than the consonant strokes. 
-                                <height></height>
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in fairly evenly-spaced strokes. Some of the vowel notches (especially in the first I) appear slightly longer than usual but they are still shorter than the consonant strokes. As noted by Macalister (1945, 69), the N depends, <q>not on the edge of the stone but on a crack which runs from the edge into the B-surface</q>.
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,18 +85,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/12562">
                                 <placeName type="townland">Glenawillin (<foreign xml:lang="ga">Gleann an Mhuilinn</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.969371, -8.179727</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>51.969371, -8.179727</geo>
+                            <note>ITM Coordinates: 587934, 579450</note>
+                            </origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found" when="1844">Found within a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO065-03202-</ref>) opened by <persName><roleName>Rev.</roleName> J Cotter</persName> and <persName>W. Hackett</persName> of <placeName>Midleton</placeName> in <date>1844</date> inside a ringfort next to Ballynatrasna House (Archaeological Survey of Ireland (ASI), field report). A second ogham stone (I-COR-011) found in the same souterrain is now on permanent display in the Stone Corridor, University College Cork. 
+                        <provenance type="found" when="1844">Found within a souterrain (SMR no. CO065-03202-) opened by <persName><roleName>Rev.</roleName> J Cotter</persName> and <persName>W. Hackett</persName> of <placeName>Midleton</placeName> in <date>1844</date> inside a ringfort next to Ballynatrasna House (Power 1994, 63, no. 4238). A second ogham stone (I-COR-011) found in the same souterrain is now on permanent display in the Stone Corridor, University College Cork (SMR ID: CO074-151----). 
                         </provenance>
                         <provenance type="observed" when="2017">Re-erected within the townland on the site of another now erased rath. Visted and recorded using photogrammetry for the Ogham in 3D project in 2017.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -120,15 +122,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-01" who="#POC">Added and encoded information, including image urls</change>
-<change when="2024-05-13" who="#POC">Added Text Class, referencing FAIR vocabularies for epigraphy</change>
-<change when="2024-05-22" who="#POC">Added Macalister sketch of inscription</change>
-<change when="2024-06-24" who="#POC">Removed rs from layout; replaced historic environment viewer with Ogham project code</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
-<change when="2024-06-28" who="#NW">added 3d recording info, updated edition, apparatus and bibliography and removed extra broken NMS links</change>
-<change when="2024-06-28" who="#NW">added source to dimensions and corrected image path</change>
-<change when="2024-07-21" who="NW">Updated provenance observed, handnote and added notes to apparatus (toggle commented for now)</change>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-01" who="#POC">Added and encoded information, including image urls</change>
+    <change when="2024-05-13" who="#POC">Added Text Class, referencing FAIR vocabularies for epigraphy</change>
+    <change when="2024-05-22" who="#POC">Added Macalister sketch of inscription</change>
+    <change when="2024-06-24" who="#POC">Removed rs from layout; replaced historic environment viewer with Ogham project code</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
+    <change when="2024-06-28" who="#NW">added 3d recording info, updated edition, apparatus and bibliography and removed extra broken NMS links</change>
+    <change when="2024-06-28" who="#NW">added source to dimensions and corrected image path</change>
+    <change when="2024-07-21" who="NW">Updated provenance observed, handnote and added notes to apparatus (toggle commented for now)</change>
+    <change when="2024-08-03" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords. Added ref to bibl.</change>
     
 </listChange>
 </revisionDesc>
@@ -152,21 +155,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>
-                    <rdg source="MAC1945"><!--<note>Macalister (1945, 68-69): </note>-->
+                <app n="1">
+                    <rdg source="MAC1945"><note>Read by Macalister (1945, 68-69) as:</note> 
                         <lb n="1" style="text-direction:down"/>LODIMONI
                     </rdg>
-                    <rdg source="OKE1945"><!--<note>O'Kelly (1945, 60): </note>-->
+                    <rdg source="OKE1945"><note>Read by O'Kelly (1945, 60) as:</note> 
                         <lb n="1" style="text-direction:down"/>LADIMANI
                     </rdg>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p/>
             </div>
             <div type="commentary">
-                <p></p>
+                <p/>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -175,6 +178,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </bibl>
                      <bibl><ptr target="OKE1945"/>
                      <citedRange>152-153</citedRange>
+                     </bibl>
+                      <bibl><ptr target="POW1994"/>
+                     <citedRange>63, no. 4238</citedRange>
                      </bibl>
                 </listBibl>
             </div>
