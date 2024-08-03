@@ -42,15 +42,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <idno type="CIIC">65</idno>
                 <idno type="CISP">RACOB/1</idno>
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,17 +60,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO054-067----</idno> </ref>
-                                    <material></material> 
-                                    <objectType>pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO054-067----</idno>.</p>
+                                    <material/> 
+                                    <objectType>Pillar</objectType> 
                                      <dimensions unit="m" resp="NW">
-                                         <dim></dim>
                                             <height>1.20</height>
                                             <width>0.33</width>
                                             <depth>0.26</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Macalister (1945, 70) recorded that the inscription is in <q>good condition, except that the H-half of the G has been flaked away</q>. He recorded the height as 1.30m but in it's current position it measures 1.20m above round level.</condition>
+                                <condition>As recorded by Macalister (1945, 70), the inscription is in good condition, except that the H-half of the G has been flaked away. He recorded the height as 1.30m but in it's current position it measures 1.20m above round level.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The earlier inscription is found on the dexter edge (reading upwatds) of one of the narrower faces of the stone. Macalister (1945, 70) also noted that one James Ward has written his name in ogham and in Irish on the other edge of the same face (reading downwards).</layout>
@@ -88,18 +87,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/12537">
                                 <placeName type="townland">Rathcobane</placeName> (<foreign xml:lang="ga">Ráth Ghobáin</foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>52.008924, -8.251918</geo>
-                            <note>approximate only</note></origPlace>
+                            <note>ITM Coordinates: 582705, 584120</note>
+                            </origPlace>
                             <origDate></origDate>
                         </origin>
                         <provenance type="found" when="1885">Discovered in 1885 by <persName>Edmond Barry</persName> in pasture, on the east side of a townland boundary fence between Ballyrobert and Rathcobane. According to Barry (1879-1888, 485), the stone was removed from its socket in <date>1885</date> and <q>'two or three fragments of "crockery", each two or three inches square'</q> were found at its base. The second inscription does not appear to have been on the stone when it was first recorded by Barry. Therefore, it was presumably added sometime between <date notBefore="1885" notAfter="1945">1885 and 1945</date>.  
                         </provenance>
-                        <provenance type="observed" when="2017"> In <date>1986</date>, subsequent to a survey visit, the stone was moved to the grounds of Scoil an Easpaig O Briain, Bartlemy (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO044-111----</ref>). The stone was examined and recorded at the school by the Ogham in 3D project in 2017.
+                        <provenance type="observed" when="2017"> In <date>1986</date>, subsequent to a survey visit, the stone was moved to the grounds of Scoil an Easpaig O Briain, Bartlemy (SMR no. CO044-111----). The stone was examined and recorded at the school by the Ogham in 3D project in 2017.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -123,15 +123,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-01" who="#POC">Added and encoded information, including measurements, provenance, edition, and images</change>
-<change when="2024-05-13" who="#POC">Added Text Class, referencing FAIR vocabularies for epigraphy</change>
-<change when="2024-05-22" who="#POC">Corrected image path</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
-<change when="2024-06-27" who="#NW">Added geo note</change>
-<change when="2024-07-04" who="#NW">Updates based on fieldnotes, including edition, respSttm and provenance</change>
-<change when="2024-07-15" who="#NW">Added unicode ogham to edition</change>
-<change when="2024-07-21" who="#NW">Added detail to handnote</change>    
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-01" who="#POC">Added and encoded information, including measurements, provenance, edition, and images</change>
+    <change when="2024-05-13" who="#POC">Added Text Class, referencing FAIR vocabularies for epigraphy</change>
+    <change when="2024-05-22" who="#POC">Corrected image path</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>
+    <change when="2024-06-27" who="#NW">Added geo note</change>
+    <change when="2024-07-04" who="#NW">Updates based on fieldnotes, including edition, respSttm and provenance</change>
+    <change when="2024-07-15" who="#NW">Added unicode ogham to edition</change>
+    <change when="2024-07-21" who="#NW">Added detail to handnote</change>  
+    <change when="2024-08-03" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -166,11 +168,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
             </div>
             </div>
-            <!--<div type="apparatus">
-               <!-\- <listApp>
-                <app></app>
-                </listApp>-\->
-            </div>-->
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+                    <note>Of the earlier inscription, Macalister (1945, 70) noted that the H-half of the G has been 'flaked away'. The M is partly damaged on this side and only a couple of partial Q strokes can be made out.</note>
+                </app>
+                </listApp>
+            </div>
             <div type="translation">
                 <div type="textpart" n="1">
                    <p>'of Lug? son of ?'</p> 
@@ -181,7 +185,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary">
                 <div type="textpart" n="1">
-                <p>Of the earlier inscription, Macalister (1945, 70) noted that the H-half of the G has been 'flaked away'. The M is partly damaged on this side and only a couple of partial Q strokes can be made out. It is unclear how the NB should be read as there is no clear distinction between these 6 strokes, all from the same aicme. It is also difficult to interpret as SD is not a usual combination in irish. Perhaps it is related to the word for tin, which is <foreign xml:lang="sga" corresp="https://dil.ie/38899">stán</foreign>. <!--See also 'Staniub' in Book of Leinster genealogies (ref Barry 1879, 489) https://celt.ucc.ie/published/G800011F.html--></p>
+                <p>It is unclear how the NB should be read as there is no clear distinction between these 6 strokes, all from the same aicme. It is also difficult to interpret as SD is not a usual combination in irish. Perhaps it is related to the word for tin, which is <foreign xml:lang="sga" corresp="https://dil.ie/38899">stán</foreign>. <!--See also 'Staniub' in Book of Leinster genealogies (ref Barry 1879, 489) https://celt.ucc.ie/published/G800011F.html--></p>
                 </div>
                 <div type="textpart" n="2">
                     <p>The reading of the later inscription is also uncertain, partly due to the faintness of the strokes and the use of long vowel strokes, which are difficult to distinguish from consonant strokes, especially as the stemline seems to be following an irregular ridge on this side of the stone . It does appear, as suggested by Macalister (1945, 70), to be the name James Ward in Irish. However, we would rather expect something like: Séamus Mac an Bhaird.</p>
