@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Thierry Daubos</name>
+                     <orgName>Irish Inscribed Stones Project, Moore Institute, Galway</orgName>
+                <resp>3d scanned using Scorpian FastScan scanner <date when="2010-01-28"/> and later processed using Rapidform software</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -42,7 +42,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <idno type="CIIC">71</idno>
                 <idno type="CISP">AHLIS/3</idno>
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>      
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -60,24 +60,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-049005-</idno></p> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-049005-</idno>.</p> 
                                     <material/> 
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/><!--(converted from Macalister)-->
+                                     <dimensions unit="m" source="MAC1945">
                                             <height>0.97</height>
-                                            <width>0.3</width>
+                                            <width>0.30</width>
                                             <depth>0.13</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused as support stone in a souterrain, the last word of the inscription is <q>worn and flaked away except the first two letters</q> (Macalister 1945, 75).</condition>
+                                <condition>Reused in the construction of a souterrain, the last word of the inscription is lost apart from the first letter.</condition>
                             </supportDesc>
-                            <layoutDesc>
-                                <layout/>
+                            <layoutDesc> 
+                                <layout>The inscription reads up on the left-hand angle of one of the faces.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The scores of the insciption are finely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> and increasingly reduce in size towards the end.
+                            <handNote>The strokes are finely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in the 'Cork style' and increasingly reduce in size towards the end. However, unlike the other two inscriptions from the same (secondary) location, the vowel strokes here are distinctly shorter. This may be due to the acute angle used as a stemline.
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -87,12 +86,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9071">
                                 <placeName type="townland">Ahalisky</placeName> (<foreign xml:lang="ga">Achadh Loiscthe</foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.681206, -8.847020</geo>
-                            <note>ITM Coordinates: 541423 , 547985</note></origPlace>
+                            <note>ITM Coordinates: 541423, 547985</note>
+                            </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1868">Found by <persName>Brash</persName> in <date>1868</date>. Two other ogham stones (I-COR-017 and I-COR-018) were also discovered within the souterrain (<idno type="SMR">CO122-049002-</idno>). 
+                        <provenance type="found" when="1868">Found by <persName>Brash</persName> in <date>1868</date> reused as a support stone in a souterrain (<idno type="SMR">SMR No. CO122-049002-</idno>) where two other ogham stones (I-COR-017 and I-COR-018) had previously been discovered used as lintels. All three stones were <q>'taken out of the cave sometime toward the end of the nineteenth century, by the proprietor, the late Mr. R. Bence Jones, and placed on a rockery in his garden: but afterwards acquired from him by the Royal Irish Academy'</q> (Macalister 1945, 73). 
                         </provenance>
-                        <provenance type="observed">Now in the National Museum of Ireland (see <idno type="SMR">DU018-377----</idno>) (Power et al. 1992, no. 1030).
+                        <provenance type="observed" when="2010">Now in the National Museum of Ireland (<idno type="SMR">SMR ID: DU018-377----</idno>), where it was examined and recorded by the Ogham in 3D project in 2010.
                         </provenance>
                     </history>
                 </msDesc>
@@ -122,12 +122,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-16" who="#POC">Added and encoded information, including edition and Text Class with FAIR vocabulary for epigraphy.</change>
-<change when="2024-05-22" who="#POC">Corrected image path and added text direction</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, added ogham edition, replaced SMR numbers with ogham codes in provenance.</change>
-<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image.</change>
-</listChange>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-16" who="#POC">Added and encoded information, including edition and Text Class with FAIR vocabulary for epigraphy.</change>
+    <change when="2024-05-22" who="#POC">Corrected image path and added text direction</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, added ogham edition, replaced SMR numbers with ogham codes in provenance.</change>
+    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image.</change>
+    </listChange>
+    <change when="2024-08-06" who="#NW">Updated file (support and edition) from notes and images.</change>
+    
 </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -138,36 +140,36 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚉᚑ<supplied reason="lost">ᚔ</supplied>ᚋᚐᚌᚅᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="mucoi">ᚋᚑᚉᚑᚔ</w> <name nymRef="#?">ᚌ<gap reason="lost" quantity="2" unit="character"/></name> </persName>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#coimagnas">ᚉᚑ<unclear reason="damage">ᚔ</unclear>ᚋᚐᚌᚅᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="mucoi">ᚋᚑᚉᚑ<unclear reason="damage">ᚔ</unclear></w> <name nymRef="#?">ᚌ<gap reason="lost" quantity="2" unit="character"/></name> </persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CO<supplied reason="lost">I</supplied>MAGNI</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="mucoi">MOCOI</w> <name nymRef="#?">G<gap reason="lost" quantity="2" unit="character"/></name> </persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coimagnas">CO<unclear reason="damage">I</unclear>MAGNI</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="mucoi">MOCO<unclear reason="damage">I</unclear></w> <name nymRef="#?">G<gap reason="lost" extent="unknown"/></name></persName>
                 </ab>
             </div>
-            <!--<div type="apparatus">
+           <!-- <div type="apparatus">
                 <listApp>
                 <app>
-                    <rdg source="MAC1945">
-                        
-                    </rdg>
                 </app>
-                </listApp>
-            </div>-->
+                </listApp>-->
+            <!--</div>-->
             <div type="translation">
-                <p></p>
+                <p>'of <foreign xml:lang="sga">Cóemán</foreign> son of the sept...'</p>
             </div>
             <div type="commentary">
                 <p></p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="BRA1879"/>
+                        <citedRange>145-148</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>75, no. 71</citedRange>
                     </bibl>
                      <bibl><ptr target="POW1992"/>
-                     <citedRange>no. 1030</citedRange>
+                     <citedRange>124, no. 1030</citedRange>
                      </bibl>
                 </listBibl>
             </div>
