@@ -126,10 +126,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-05-16" who="#POC">Added and encoded information, including edition and Text Class with FAIR vocabulary for epigraphy.</change>
     <change when="2024-05-22" who="#POC">Corrected image path and added text direction</change>
     <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, added ogham edition, replaced SMR numbers with ogham codes in provenance.</change>
-    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image.</change>
-    </listChange>
-    <change when="2024-08-06" who="#NW">Updated file (support and edition) from notes and images.</change>
+    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image.</change>       
+    <change when="2024-08-06" who="#NW">Updated file (support and edition, including lemmata) from notes and images.</change>
     
+</listChange>    
 </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -145,7 +145,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coimagnas">CO<unclear reason="damage">I</unclear>MAGNI</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="mucoi">MOCO<unclear reason="damage">I</unclear></w> <name nymRef="#?">G<gap reason="lost" extent="unknown"/></name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coimagnas">CO<unclear reason="damage">I</unclear>MAGNI</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="muccoviias">MOCO<unclear reason="damage">I</unclear></w> <name nymRef="#?">G<gap reason="lost" extent="unknown"/></name></persName>
                 </ab>
             </div>
            <!-- <div type="apparatus">
@@ -155,7 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>-->
             <!--</div>-->
             <div type="translation">
-                <p>'of <foreign xml:lang="sga">Cóemán</foreign> son of the sept...'</p>
+                <p>'of <foreign xml:lang="sga">Cóemán</foreign> son of the sept/litter?...'</p>
             </div>
             <div type="commentary">
                 <p></p>
