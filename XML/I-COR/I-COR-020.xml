@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Gary Dempsey</name>
+                     <orgName>Digital Heritage Age</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2022-09-10"/> and processed using Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -42,7 +42,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <idno type="CIIC">72</idno>
                 <idno type="CISP">AUTAG/1</idno>
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -60,11 +60,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO094-073----</idno></p> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO094-073----</idno></p> 
                                     <material/> 
                                     <objectType>Boulder?</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/>
+                                     <dimensions unit="m" source="MAC1945">
                                             <height>1.12</height>
                                             <width>0.76</width>
                                             <depth>0.36</depth>
@@ -73,11 +72,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the flat face of a fallen stone. The edge is not used as a stem-line for a continuous inscription. Instead, the inscription is divided in two and the join is indicated by star-like marks.</layout>
+                                <layout>The inscription is on the flat face of a boulder. The ogham-like characters are position on two stemlines, along with one of two star-like marks also on the stone.</layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister noted that the presence of long strokes interspersed throughout the inscription as well as some miscut and misplaced scores (1945, 77).
+                            <handNote>
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -88,12 +87,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="townland">Aultagh</placeName> (<foreign xml:lang="ga">Alltach</foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.769999, -9.090371</geo>
                             <note>approximate only</note>
-                            <note>ITM Coordinates: 524750 , 558081</note></origPlace>
+                            <note>ITM Coordinates: 524750, 558081</note>
+                            </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1898">Located on a W-facing slope in Aultagh Wood.
+                        <provenance type="found" when="1898">The first publication of this inscription was by <persName>Rhys</persName> in <date>1898</date>
                         </provenance>
-                        <provenance type="observed">In situ.
+                        <provenance type="observed" when="2022">In situ on a W-facing slope in Aultagh Wood. Visited and recorded in 2022 for the OG(H)AM project.
                         </provenance>
                     </history>
                 </msDesc>
@@ -123,12 +123,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-16" who="#POC">Added and encoded information, including edition and Text Class, referencing FAIR vocabulary for epigraphy.</change>
-<change when="2024-05-22" who="#POC">Corrected image path and added text direction</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, added ogham edition division, moved encoded Macalister reading to apparatus.</change>
-<change when="2024-06-28" who="#NW">Added geo note</change>
-<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image, updated measurements.</change>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-16" who="#POC">Added and encoded information, including edition and Text Class, referencing FAIR vocabulary for epigraphy.</change>
+    <change when="2024-05-22" who="#POC">Corrected image path and added text direction</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, added ogham edition division, moved encoded Macalister reading to apparatus.</change>
+    <change when="2024-06-28" who="#NW">Added geo note</change>
+    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image, updated measurements.</change>
+    <change when="2024-08-07" who="#NW">Updated details from field notes.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -166,11 +168,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="RHY1898"/>
+                        <citedRange>397-398</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>75-77, no. 72</citedRange>
                     </bibl>
                 <bibl><ptr target="POW1992"/>
-                     <citedRange>no. 1031</citedRange>
+                     <citedRange>124, no. 1031</citedRange>
                      </bibl>
                  </listBibl>
             </div>
