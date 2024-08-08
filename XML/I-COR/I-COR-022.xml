@@ -42,7 +42,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <idno type="CIIC">74</idno>
                 <idno type="CISP">CARHA/2</idno>
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -60,24 +60,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-001004-</idno></p> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-001004-</idno>.</p> 
                                     <material/> 
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/>
+                                     <dimensions unit="m" source="MAC1945">
                                             <height>0.79</height>
                                             <width>0.20</width>
                                             <depth>0.18</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The stone was broken to a suitable size for use as an upright support for a roofing stone of the first entrance chamber (Macalister 1945, 78, no. 74).</condition>
+                                <condition>Macalister (1945, 77) recorded that this stone was broken to a suitable size for reuse as in a souterrain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the lower remaining portion of the stone.</layout>
+                                <layout>Very little information has been recorded except that the inscription is on the lower remaining portion of the ogham stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The stone is inscribed in minute scores.<height/>
+                            <handNote>Macalister (1945, 78) noted that the ogham is inscribed in <q>'minute scores'</q>.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -86,12 +85,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9111">
                                 <placeName type="townland">Carhoovauler</placeName> (<foreign xml:lang="ga">Ceathrú Bhaldair</foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.690842, -8.962643</geo>
-                            <note>ITM Coordinates: 533446 , 549155 </note></origPlace>
+                            <note>ITM Coordinates: 533446, 549155 </note>
+                            </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">One of three ogham stones (also I-COR-021; I-COR-023) discovered by Mr <persName>J. J. O'Crowley</persName> of <placeName>Clonakilty</placeName> in a souterrain (<idno type="SMR">CO122-001002-</idno>) in <date>1905</date> or <date>1906</date>. 
+                       <provenance type="found" when="1906">One of two ogham stones (also I-COR-021) found by Mr <persName>J. J. O'Crowley</persName> reused as upright supports for a roofing stone in the entrance chamber of a souterrain (<idno type="SMR">SMR ID: CO122-001002-</idno>) in <date>1906</date>. A third ogham stone (I-COR-023) was discovered in the same souterrain in 1976.
                         </provenance>
-                        <provenance type="observed">In situ.
+                        <provenance type="observed">In situ  but no longer accessible.
                         </provenance>
                     </history>
                 </msDesc>
@@ -117,39 +117,43 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+    <creation>Transcription from previous editor.</creation>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-17" who="#POC">Added and encoded information, including Text Class referencing FAIR vocabularies for epigraphy and the edition</change>
-<change when="2024-05-22" who="#POC">Corrected image path and added text direction</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, replaced refs with ogham codes in provenance, deleted free text in bibliography, added ogham edition.</change>
-<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image, updated condition, deleted note in objectType since it was already mentioned in condition.</change>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-17" who="#POC">Added and encoded information, including Text Class referencing FAIR vocabularies for epigraphy and the edition</change>
+    <change when="2024-05-22" who="#POC">Corrected image path and added text direction</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, replaced refs with ogham codes in provenance, deleted free text in bibliography, added ogham edition.</change>
+    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image, updated condition, deleted note in objectType since it was already mentioned in condition.</change>
+    <change when="2024-08-07" who="#NW">Updated details in support desc, edition and bibl.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-021-MAC1945-78-Carhoovauler.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+      <!--  <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
             <ab>
-                <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚉᚑᚅᚐᚅᚅ</name> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost" resp="#MAC1945">ᚐᚊᚔ</supplied></w> S<gap reason="lost" quantity="2" unit="character"/></persName>
+                <lb n="1"/><supplied reason="undefined" evidence="previouseditor"><persName><name nymRef="#cunagnas">ᚉᚑᚅᚐᚅᚅ</name> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost" resp="#MAC1945">ᚐᚊᚔ</supplied></w> S<gap reason="lost" extent="unknown"/></persName></supplied>
             </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CONANN</name> <w type="formula" lemma="maqqas">M<supplied reason="lost" resp="#MAC1945">AQI</supplied></w> S<gap reason="lost" quantity="2" unit="character"/></persName>
+                    <lb n="1"/><supplied reason="undefined" evidence="previouseditor"><persName><name nymRef="#cunagnas">CONANN</name> <w type="formula" lemma="maqqas">M<supplied reason="lost" resp="#MAC1945">AQI</supplied></w> S<gap reason="lost" extent="unknown"/></persName></supplied>
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app></app>
+                <app n="1">
+                    <note>Macalister (1945, 78) noted that: <q>'A flake, knocked off from the H-surface, had carried away all of the word MAQI except the B-half of the M'</q>.</note>
+                </app>
                 </listApp>
-            </div>-->
+            </div>
             <div type="translation">
                 <p></p>
             </div>
@@ -158,11 +162,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="OCR1906"/>
+                        <citedRange>204</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>78, no. 74</citedRange>
                     </bibl>
                      <bibl><ptr target="POW1992"/>
-                     <citedRange>no. 1033</citedRange>
+                     <citedRange>124, no. 1033</citedRange>
                      </bibl>
                 </listBibl>
             </div>
