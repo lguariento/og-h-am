@@ -118,7 +118,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-    <creation>Transcription from previous editor.</creation>
+    <!--<creation>Transcription from previous editor.</creation>-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -129,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
     <change when="2024-08-07" who="#NW">Updated details in support desc, edition and bibl.</change>
     <change when="2024-08-09" who="#NW">Added image.</change>
+    <change when="2024-08-14" who="#NW">Added note re reading from photo and updated edition.</change>
         
 </listChange>
 </revisionDesc>
@@ -140,17 +141,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><persName><name nymRef="#dumnagenas">ᚇᚑᚋᚅᚌᚓᚅ</name></persName></supplied>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#dumnagenas">ᚇᚑᚋᚅᚌᚓᚅ</name></persName>
             </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                  <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><persName><name nymRef="#dumnagenas">DOMNGEN</name></persName></supplied>
+                  <lb n="1" style="text-direction:up"/><persName><name nymRef="#dumnagenas">DOMNGEN</name></persName>
                 </ab>
             </div>
-            <div type="apparatus"/>                
+            <div type="apparatus">
+                <listApp>
+                    <app n="1">
+                    <note>Reading confirmed from photographs as souterrain now inaccessible.</note>
+                    </app>
+                </listApp>
+            </div>                
             
             <div type="translation">
                 <p></p>
