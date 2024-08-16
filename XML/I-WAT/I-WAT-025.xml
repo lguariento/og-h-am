@@ -59,8 +59,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>
-                                    National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">WA031-045002-</idno></ref>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA031-045002-</idno></p>
                                     <material>Stone (sandstone?)</material> 
                                     <objectType>Slab?</objectType> 
                                      <dimensions unit="m">
@@ -86,12 +85,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/49368">
                                <placeName type="townland">Kilgrovan (<foreign xml:lang="ga">Cill Ghruabháin</foreign>)</placeName>, <placeName type="county">Co. Waterford</placeName>
-                                <geo>52.089906, -7.549858 (approx.)</geo></origPlace>
-                            <origDate></origDate>
+                                <geo>52.089906, -7.549858</geo>
+                            <note>ITM Coordinates (approximate): 630844, 593197</note>
+                            </origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found">Discovered in <date>1857</date>, along with four other ogham stones (I-WAT-026 to I-WAT-029), by <ref target="https://www.waterfordmuseum.ie/exhibit/web/Display/article/250/Williams_William.html;jsessionid=BDD18A19E9C6560DDD4D9DE11AB9105D"><persName>William Williams</persName></ref>. The find site is known locally as a <ref target="https://en.wikipedia.org/wiki/Cill%C3%ADn">Cillín/killeen</ref>, a more recent geophysical survey has confirmed the existence of an <ref target="https://monasticon.celt.dias.ie/1720">ecclesiastical enclosure (Cill Ghruabháin)</ref>. The enclosure is bivallate (int. diam. c. 50m; ext. diam. c. 60m), perhaps with an annexe or secondary enclosure attached to the SE, which may be the arc represented on the 1927 map. A number of smaller circular features (diam. c. 10m) within the enclosure could represent hut-sites, or even the church (Purcell 2003, 6-8). Another ogham stone (I-WAT-030) and a fragment of an ogham stone (I-WAT-031) were discovered in <date>1966</date> during a non-archaeological dig at the same site.
+                        <provenance type="found" when="1857">Discovered in <date>1857</date>, along with four other ogham stones (I-WAT-026 to I-WAT-029), by <ref target="https://www.waterfordmuseum.ie/exhibit/web/Display/article/250/Williams_William.html;jsessionid=BDD18A19E9C6560DDD4D9DE11AB9105D"><persName>William Williams</persName></ref>. The find site is known locally as a <ref target="https://en.wikipedia.org/wiki/Cill%C3%ADn">Cillín/killeen</ref>, a more recent geophysical survey has confirmed the existence of an <ref target="https://monasticon.celt.dias.ie/1720">ecclesiastical enclosure (Cill Ghruabháin)</ref>. The enclosure is bivallate (int. diam. c. 50m; ext. diam. c. 60m), perhaps with an annexe or secondary enclosure attached to the SE, which may be the arc represented on the 1927 map. A number of smaller circular features (diam. c. 10m) within the enclosure could represent hut-sites, or even the church (Purcell 2003, 6-8). Another ogham stone (I-WAT-030) and a fragment of an ogham stone (I-WAT-031) were discovered in <date>1966</date> during a non-archaeological dig at the same site.
                         </provenance>
-                        <provenance type="observed">Mount Mellary Abbey Heritage Centre (seen and photographed in <date>Feb 2017</date>). The five stones originally lay in a fenced off grove off trees at Melleray for over 40 years. In <date>1977</date> they were moved indoors and were erected in the foyer of the old secondary school, now the Heritage Centre (<ref target="https://www.waterfordmuseum.ie/exhibit/web/Display/article/305/1/">https://www.waterfordmuseum.ie/exhibit/web/Display/article/305/1/</ref>. 
+                        <provenance type="observed" when="2017">Mount Mellary Abbey Heritage Centre (seen and photographed in <date>Feb 2017</date>). The five stones originally lay in a fenced off grove off trees at Melleray for over 40 years. In <date>1977</date> they were moved indoors and were erected in the foyer of the old secondary school, now the Heritage Centre (<ref target="https://www.waterfordmuseum.ie/exhibit/web/Display/article/305/1/">https://www.waterfordmuseum.ie/exhibit/web/Display/article/305/1/</ref>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -121,12 +122,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-04-07" who="#NW">Added and encoded further data, including edition</change>
-<change when="2024-04-16" who="#POC">Encoded date and name information within provenance</change>
-<change when="2024-04-30" who="#POC">Reverted change list order,and added Macalister sketch</change>
-<change when="2024-05-22" who="#POC">Corrected image path and added Text Class referencing FAIR vocabularies for epigraphy</change>
-<change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-04-07" who="#NW">Added and encoded further data, including edition</change>
+    <change when="2024-04-16" who="#POC">Encoded date and name information within provenance</change>
+    <change when="2024-04-30" who="#POC">Reverted change list order,and added Macalister sketch</change>
+    <change when="2024-05-22" who="#POC">Corrected image path and added Text Class referencing FAIR vocabularies for epigraphy</change>
+    <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
+    <change when="2024-08-16" who="#NW">Added note to coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
 
 </listChange>
 </revisionDesc>
