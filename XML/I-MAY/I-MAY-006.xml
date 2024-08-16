@@ -131,7 +131,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-05-24" who="#POC">Corrected image path</change>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, added ogham and transliteration edition divisions, deleted free text in bibl</change>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, updated apparatus, moved information on inscription in commentary to apparatus.</change>
-    <change when="2024-04-26" who="#NW">Relaced second p with desc type decoration in support</change>
+    <change when="2024-08-15" who="#NW">Relaced second p with desc type decoration in support</change>
+    <change when="2024-08-16" who="#NW">Updated edition and apparatus</change>
     
 </listChange>
 </revisionDesc>
@@ -144,30 +145,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><w part="F"><gap reason="lost" extent="unknown"/><unclear reason="faded">ᚑᚃᚔ</unclear></w>
+                <w><unclear reason="faded">ᚋᚐᚊᚔ</unclear></w></supplied>
                 </ab>
             </div>
-            <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
             <ab>
-                <lb n="1"/>
+                <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><w part="F"><gap reason="lost" extent="unknown"/><unclear reason="faded">OVI</unclear></w>
+                <w><unclear reason="faded">MAQI</unclear></w></supplied>
             </ab>
             </div>
             <div type="apparatus">
-                <listApp>
-                <app n="1">
-                    <note>Macalister (1945, 11) read:</note>
-            <rdg source="MAC1945">
-                <lb n="1"/><w part="F"><gap reason="lost" extent="unknown"/><unclear reason="faded">OVI</unclear></w>
-                <w><unclear reason="faded">MAQI</unclear></w>
-            </rdg>
-                </app>              
-                  <app n="2">
+                <listApp>                          
+                  <app n="1">
                       <note>Rhys (1898, 232) read:</note>
                       <rdg source="RHY1898">
                           <lb n="1"/><unclear reason="faded">CORBAGNI</unclear>
                       </rdg>
                   </app>
-                    <app>
+                    <app n="2">
                         <note>According to Macalister (1945, 11), <q> there is a suggestion of MAQI preceded by what looks like ]OVI, the O being on the ground-line. But really the marks are so faint that it is possible to read almost anything into them : I was, however, quite unable to verify Rhys's suggestion, that remains of CORBAGNI were to be identified</q>. While ogham-like marks do appear on the relevant angle, neither of the previous readings are evident. It is possibly, as noted by Macalister, that some  of the inscription is beneath current ground level.</note>
                     </app>
                 </listApp>
