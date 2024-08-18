@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Simon Dowling</name>
+                     <orgName/>
+                <resp>Recorded using photogrammetry <date when="2017-08-05"/>.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -60,39 +60,40 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-075004-</idno></p> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-075004-</idno></p> 
                                     <material/> 
                                     <objectType>Cross carved pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim/>
                                             <height>3.35</height>
                                             <width>0.36</width>
                                             <depth>0.30</depth>
-                                     </dimensions>                                   
+                                     </dimensions>   
+                                     <desc type="decoration">There is a faint outline of a small incised <rs type="decoration">cross</rs> with expanded terminals on the W face (Archaeological Survey of Ireland, Field Report).</desc>
                                 </support>
-                                <condition>The inscription is worn and weathered in places. Maclister noted that the <q>ANM is badly worn</q> and that after the V <q>the inscribed surface is so battered and weathered that no letters could be expected to survive</q> (1945, 80).</condition>
+                                <condition>The pillar is very weathered and the inscription no longer traceable. Packing stones are exposed around the denuded base (Power et al. 1992, no. 1041). Macalister (1945, 79-80) noted that <q>both cross and inscription are so low down on the stone that they have almost certainly been added to a pre-existing bronze-age megalith</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is on the NW corner and there is a faint outline of a small incised <rs type="decoration">cross</rs> with expanded terminals on the W face (Archaeological Survey of Ireland, Field Report). Macalister noted that <q>both cross and inscription are so low down on the stone that they have almost certainly been added to a pre-existing bronze-age megalith</q> (Macalister 1945, 79-80).</layout>
+                                <layout>The ogham inscription was recorded as reading up on the NW edge of the stone, to the left of the cross.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister described the scores of the inscription as <q>very minute</q> (1945, 79).
+                            <handNote>Macalister described the strokes of the inscription as <q>very minute</q> (1945, 79), which sugests that they were <rs type="execution"  key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> rather than pocked.
                                 <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/8996">
-                                <placeName type="townland">Templebryan North</placeName> (<foreign xml:lang="ga">Teampall Brianaid Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Templebryan North</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/8996">Teampall Brianaid Thuaidh</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.644724, -8.885746</geo>
-                            <note>ITM Coordinates: 538701 , 543959 </note></origPlace>
+                            <note>ITM Coordinates: 538701, 543959</note>
+                            </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1906">A tall needle-like pillar in the N half of a graveyard (<idno type="SMR">CO122-075003-</idno>) in an early ecclesiastical enclosure (<idno type="SMR">CO122-075001-</idno>). Packing stones are exposed around the denuded base (Archaeological Survey of Ireland, Field Report).
+                        <provenance type="found" when="1906">Identified my Macalister in <date>1906</date> on the edge of a tall needle-like pillar in the N half of a graveyard (<idno type="SMR">CO122-075003-</idno>) in an early ecclesiastical enclosure (<idno type="SMR">CO122-075001-</idno>) (Macalister 1906, 260; Power et al. 1992, no. 1041).
                         </provenance>
-                        <provenance type="observed">In situ.
+                        <provenance type="observed" when="2017">In situ. Visited and recorded using photorammetry by Simon Dowling in 2017.
                         </provenance>
                     </history>
                 </msDesc>
@@ -122,49 +123,50 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-20" who="#POC">Added and encoded information including the edition and Text Class referencing FAIR vocabularies for epigraphy</change>
-<change when="2024-05-22" who="#POC">Corrected image path and added text direction to edition</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, added rs element for cross decoration, deleted free text in bibliography, added ogham division, moved encoded Macalister inscription to apparatus.</change>
-<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
-<change when="2024-08-14" who="#POC">Corrected typo in the image URL for Macalister's drawing.</change>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-20" who="#POC">Added and encoded information including the edition and Text Class referencing FAIR vocabularies for epigraphy</change>
+    <change when="2024-05-22" who="#POC">Corrected image path and added text direction to edition</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, added rs element for cross decoration, deleted free text in bibliography, added ogham division, moved encoded Macalister inscription to apparatus.</change>
+    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+    <change when="2024-08-14" who="#POC">Corrected typo in the image URL for Macalister's drawing.</change>
+    <change when="2024-08-17" who="#NW">Updated support and edition details, added to bibl and images and moved logainm ref to around Irish version of townland name.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-025_Templebryan.jpg"><desc>Screenshot from 3d model by Simon Dowling</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-025-MAC1945-79-Templebryan-inscription.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Simon Dowling not on SketchFab-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><w type="formula"><unclear reason="worn">ᚐᚅᚋ</unclear></w> <persName><name nymRef="#?">ᚈᚓᚅᚐᚄ</name> <w type="formula" lemma="maqqas">ᚋᚐᚉᚔ</w> ᚃ<gap reason="lost" extent="unknown"/></persName></supplied>
             </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><w type="formula">ANM</w> <persName><name nymRef="#?">TENAS</name> <w type="formula" lemma="maqqas">MACI</w> V<gap reason="lost" extent="unknown"/></persName></supplied>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1">
-                    <note>Macalister (1945, 80) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><w type="formula">ANM</w> <name nymRef="#?">TENAS</name> <w type="formula" lemma="maqqas">MACI</w> V<gap reason="lost" quantity="2" unit="character"/></persName>
-                    </rdg>
-                </app>
+                    <app n="1">
+                        <note>Maclister (1945, 80) noted that the <q>ANM is badly worn</q> and that after the V <q>the inscribed surface is so battered and weathered that no letters could be expected to survive. VIR ... is possible, but could not be insisted upon.</q></note>
+                    </app>
                 </listApp>
             </div>
-            <div type="translation">
-                <p></p>
-            </div>
-            <div type="commentary">
-                <p></p>
-            </div>
+            <div type="translation"/> 
+            
+            <div type="commentary"/>
+            
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="MAC1906"/>
+                        <citedRange>260</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>79-80, no. 76</citedRange>
                     </bibl>
