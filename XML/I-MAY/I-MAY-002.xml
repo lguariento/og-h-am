@@ -82,8 +82,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/36377">
                                 <placeName  type="townland">Kilmannin (<foreign xml:lang="ga">Cill Mhainín</foreign></placeName> ‘Mainín’s church’?), <placeName type="county">Co. Mayo</placeName>
-                                (<geo>53.772989, -8.765170</geo>).
-                            <note>ITM Coordinates: 549559 , 780647</note>
+                                <geo>53.772989, -8.765170</geo>
+                            <note>ITM Coordinates: 549559, 780647</note>
                             </origPlace>
                             <origDate notBefore="0550" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">mid to late sixth century A.D.</origDate>
                         </origin>
@@ -125,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, deleted heading from bibliography</change>
     <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path</change>
+    <change when="2024-08-19" who="#NW">Changed from unicode hex to ogham and corrected bibl ref</change>
     
 </listChange>
 </revisionDesc>
@@ -140,18 +141,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <div type="textpart" n="1">
                 <ab>:
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#lugaidu">&#x1682;&#x1692;&#x168C;&#x1690;&#x1687;&#x1687;&#x1691;&#x1685;</name>
-                    <w lemma="maqqas">&#x168B;&#x1690;<unclear reason="damage">&#x168A;</unclear>                 
-                        <lb n="2" style="text-direction:across" break="no"/>&#x1694;</w> 
-                   <name nymRef="#lugudiks">&#x1682;&#x1692;&#x168C;
-                        <lb n="3" style="text-direction:down" break="no"/>&#x1692;&#x1687;&#x1693;&#x1689;</name></persName>
+                    <persName><name nymRef="#lugaidu">ᚂᚒᚌᚐᚇᚇᚑᚅ</name>
+                    <w lemma="maqqas">ᚋᚐ<unclear reason="damage">ᚊ</unclear>                 
+                        <lb n="2" style="text-direction:across" break="no"/>ᚔ</w> 
+                   <name nymRef="#lugudiks">ᚂᚒᚌ
+                        <lb n="3" style="text-direction:down" break="no"/>ᚒᚇᚓᚉ</name></persName>
                    </ab>
                  </div>
                 <div type="textpart" n="2">
                     <ab>
-                        <lb n="1" style="text-direction:up"/>&#x1687;&#x1687;&#x1694;&#x1684;&#x1694;
-                        <lb n="2" style="text-direction:across" break="no"/>&#x168B;&#x1691;<space quantity="2" unit="stroke"/>&#x1689;&#x168A;&#x1692;&#x1684;
-                        <lb n="3" style="text-direction:down" break="no"/>&#x1693;&#x1682;                        
+                        <lb n="1" style="text-direction:up"/><orig>ᚇᚇᚔᚄᚔ
+                        <lb n="2" style="text-direction:across" break="no"/>ᚋᚑ<space quantity="2" unit="stroke"/>ᚉᚊᚒᚄ
+                        <lb n="3" style="text-direction:down" break="no"/>ᚓᚂ</orig>                     
                     </ab>
                 </div>
             </div>
@@ -171,7 +172,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <ab>
                         <lb n="1" style="text-direction:up"/><orig>DDISI
                         <lb n="2" style="text-direction:across" break="no"/>MO<space quantity="2" unit="stroke"/>CQUS
-                        <lb n="3" style="text-direction:down" break="no"/>EL</orig>                       
+                        <lb n="3" style="text-direction:down" break="no"/>EL</orig>                    
                     </ab>
                 </div>
             </div>
@@ -188,7 +189,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <list type="witDetail">
                     <item n="1"><p>The onomastic formula consists of the bare minimum of elements, son and father, both of whose names are based on the same etymon, the divine name <foreign xml:lang="sga" corresp="https://dil.ie/30937">Lug</foreign>. Both names are well attested in the Old Irish period; the father’s name is still in use in the Modern Irish form <foreign xml:lang="ga">Lughaí</foreign>.</p></item>
                     <item n="2"><p>The first name is also found in the spelling LUGUAEDON in the 6th-century Latinate inscription <ref target="https://emili.celt.dias.ie/GAL-011">GAL-011 from Inis an Ghaill (Inchagoill Island, Co. Galway</ref>), which preserves the middle u and thus reflects a more archaic state of the language than the ogham version. It is a compound of Lug and *ai̯du- ‘fire’ (cf. the rare OIr. word <foreign xml:lang="sga" corresp="https://dil.ie/613">áed</foreign> ‘fire’), meaning probably ‘possessing fire of Lug’ or ‘possessing fire like Lug’. u lost/dropped in LUGADDON (McManus 1991, 117). ‘reduction of the diphthong in unstressed position to /ə/? (McManus 1991, 121; Uhlich 1989, 131 n9). But the diphthong was retained or re-introduced in OIr. Lugáed.</p></item>
-                    <item n="3"><p>The father’s name is popular on Irish ogham stones. It occurs also in LUGUDECAS (I-WAT-002 = CIIC 263, Ardmore, Co. Waterford; LUGUDECA (I-WAT-025 = CIIC 286, Kilgrovan, Co. Waterford), and LUGUDUC (I-COR-057 = CIIC 108, Kilcullen South, Co. Cork). The names reflect consecutive stages of language change from PrimIr. *Lugudiks to OIr. Lugaid, gen. Luigdech under the effects of apocope and stress reduction. The second element of the name is the root *dik- ‘to show, point out’. The name therefore means ‘showing or pointing out Lug’, perhaps in the sense of an intermediary between the god and ordinary people. The popular analysis as Lug + the root *dek- ‘to show respect’ (McManus 1991: 103, 178 n.17) is phonologically difficult to justify (Stifter 2010: 23–24) and is therefore rejected here.</p></item>
+                    <item n="3"><p>The father’s name is popular on Irish ogham stones. It occurs also in LUGUDECAS (I-WAT-002 = CIIC 263, Ardmore, Co. Waterford; LUGUDECA (I-WAT-025 = CIIC 286, Kilgrovan, Co. Waterford), and LUGUDUC (I-COR-057 = CIIC 108, Kilcullen South, Co. Cork). The names reflect consecutive stages of language change from PrimIr. *Lugudiks to OIr. Lugaid, gen. Luigdech under the effects of apocope and stress reduction. The second element of the name is the root *dik- ‘to show, point out’. The name therefore means ‘showing or pointing out Lug’, perhaps in the sense of an intermediary between the god and ordinary people. The popular analysis as Lug + the root *dek- ‘to show respect’ (McManus 1991: 103, 178 n.17) is phonologically difficult to justify (Stifter 2011: 23–24) and is therefore rejected here.</p></item>
                     <item n="4">The endings of the names are gone, it therefore postdates apocope. The preserved ending of MAQI is not significant, since formula words are more conservative in spelling (and the -I could even function as a marker of palatalisation). The preserved middle -u- of LUGUDEC (= OIr. Luigdech) could mean that the word had not undergone syncope yet, but an archaism or analogical retention (from the nominative *LUGUD) is also conceivable. On balance, this inscription may date to the late 6th century.</item>
                 </list>
                 </div>
@@ -206,7 +207,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <citedRange>61-68</citedRange>
                     </bibl>
                     <bibl>
-                        <ptr target="STI2010"/>
+                        <ptr target="STI2011"/>
                         <citedRange>23-24</citedRange>
                     </bibl>
                     <bibl><ptr target="UHL1989"/>
