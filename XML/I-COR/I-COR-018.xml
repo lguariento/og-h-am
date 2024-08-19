@@ -83,8 +83,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9071">
-                                <placeName type="townland">Ahalisky (<foreign xml:lang="ga">Achadh Loiscthe</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                           <origPlace corresp="#findspot">
+                                <placeName type="townland">Ahalisky (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9071">Achadh Loiscthe</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.681206, -8.847020</geo>
                             <note>ITM Coordinates: 541423, 547985</note>
                             </origPlace>
@@ -128,11 +128,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions, replaced SMR numbers with ogham codes in provenance.</change>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image.</change>
     <change when="2024-08-04" who="#NW">Updated file (support and edition) from notes and images.</change>
+    <change when="2024-08-19" who="#NW">Added image path and moved logainm ref</change>
     
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-018_Ahalisky_2.jpg"><desc>Photograph courtesy of National Monuments Service ©NMI</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-018-MAC1945-74-Ahalisky-70.jpg"><desc>Drawing by Macalister</desc></graphic>
        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
