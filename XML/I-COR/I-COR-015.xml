@@ -83,8 +83,8 @@ the C, but they cannot be explained as remains of letters</q>. Possible ogham st
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/8815">
-                                <placeName type="townland">Gour (<foreign xml:lang="ga">Gamhair</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Gour (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/8815">Gamhair</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.634283, -9.978493</geo>
                             <note>ITM Coordinates: 463052, 544287</note>
                             </origPlace>
@@ -130,6 +130,7 @@ the C, but they cannot be explained as remains of letters</q>. Possible ogham st
     <change when="2024-07-21" who="#NW">Updates to support description and edition based on fieldnotes. Added images.</change>  
     <change when="2024-07-21" who="#NW">Added measurement to handnote.</change> 
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image.</change>
+    <change when="2024-08-19" who="#NW">Added lemma to edition and translation. Mover logainm ref to Irish townland name</change> 
     
 </listChange>
 </revisionDesc>
@@ -144,22 +145,22 @@ the C, but they cannot be explained as remains of letters</q>. Possible ogham st
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="1945">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><supplied reason="undefined" evidence="previouseditor">ᚉᚐᚏᚔ</supplied></name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#caras"><supplied reason="undefined" evidence="previouseditor">ᚉᚐᚏᚔ</supplied></name></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW" source="MAC1945">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><supplied reason="undefined" evidence="previouseditor">CARI</supplied></name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#caras"><supplied reason="undefined" evidence="previouseditor">CARI</supplied></name></persName>
                 </ab>
             </div>
             <div type="apparatus"/>
                             
             <div type="translation">
-                <p></p>
+               <p>'of <foreign xml:lang="sga">Car</foreign>'</p>
             </div>
-            <div type="commentary">
-                <p></p>
-            </div>
+            <div type="commentary"/>
+                
+            
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
