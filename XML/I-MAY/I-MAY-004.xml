@@ -130,7 +130,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-05-22" who="#POC">Corrected image path</change>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, updated apparatus.</change>
-    <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path</change>
+    <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path.</change>
+    <change when="2024-08-20" who="#NW">Replaced hex codes with ogham characters and updated lemmata.</change>
     
 </listChange>
 </revisionDesc>
@@ -145,15 +146,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                     <persName><name nymRef="#cassignias"><unclear reason="damage">&#x1689;</unclear><supplied reason="lost">&#x1690;</supplied>&#x1684;<unclear reason="damage">&#x1693;</unclear>&#x168C;&#x1685;&#x1694;</name>
-                    <w lemma="maqqas">&#x168B;<unclear reason="damaged">&#x1690;&#x168A;</unclear><supplied reason="lost" cert="medium">&#x1694;</supplied><gap reason="lost" extent="unknown"/></w>                        
+                     <persName><name nymRef="#casignias?"><unclear reason="damage">ᚉ</unclear><supplied reason="lost">ᚐ</supplied>ᚄ<unclear reason="damage">ᚓ</unclear>ᚌᚅᚔ</name>
+                    <w lemma="maqqas">ᚋ<unclear reason="damaged">ᚐᚊ</unclear><supplied reason="lost" cert="medium">ᚔ</supplied><gap reason="lost" extent="unknown"/></w>                        
                     </persName>                   
                    </ab>
             </div>
             <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#cassignias"><unclear reason="damage">C</unclear><supplied reason="lost">A</supplied>S<unclear reason="damage">E</unclear>GNI</name>
+                    <persName><name nymRef="#casignias?"><unclear reason="damage">C</unclear><supplied reason="lost">A</supplied>S<unclear reason="damage">E</unclear>GNI</name>
                     <w lemma="maqqas">M<unclear reason="damage">AQ</unclear><supplied reason="lost" cert="medium">I</supplied><gap reason="lost" extent="unknown"></gap></w>
                     </persName>                        
                 </ab>
