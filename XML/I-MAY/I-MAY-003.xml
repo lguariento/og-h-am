@@ -126,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, deleted heading from bibliography</change>
     <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path</change>
+    <change when="2024-08-20" who="#NW">Replaced hex codes with ogham characters</change>
     
 </listChange>
 </revisionDesc>
@@ -140,9 +141,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#allatis">&#x1690;&#x1682;<unclear reason="faded">&#x1690;</unclear>&#x1688;&#x1688;&#x1691;&#x1684;</name>
-                    <w lemma="maqqas">&#x168B;&#x1690;&#x168A;&#x1694;</w>
-                    <name>&#x1681;&#x168F;<gap reason="lost" extent="unknown"/></name></persName>                     
+                    <persName><name nymRef="#allatis">ᚐᚂ<unclear reason="faded">ᚐ</unclear>ᚈᚈᚑᚄ</name>
+                    <w lemma="maqqas">ᚋᚐᚊᚔ</w>
+                    <name>ᚁᚏ<gap reason="lost" extent="unknown"/></name></persName>                     
                    </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
@@ -153,9 +154,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name>BR<gap reason="lost" extent="unknown"/></name></persName>                     
                    </ab>
             </div>
-            <!--<div type="apparatus">
-                 
-            </div>-->
+            <div type="apparatus"/>                 
+            
             <div type="translation" xml:lang="en">
                 <p>of <foreign xml:lang="sga">Allaid</foreign> son of Br...</p>
             </div>
