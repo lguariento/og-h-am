@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, updated apparatus</change>
     <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path</change>
+    <change when="2024-08-20" who="#NW">Replaced hex codes with ogham characters, added word tags around MAQI- name and updated lemmata</change>
     
 </listChange>
 </revisionDesc>
@@ -145,15 +146,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
                     <lb n="1" style="text-direction:up"/>
-                      <persName><name nymRef="#maqqas-actos?"><supplied reason="lost" evidence="previouseditor" resp="MAC1945">&#x168B;&#x1690;</supplied><unclear reason="fissure">&#x168A;&#x1689;</unclear><supplied reason="lost" evidence="previouseditor" resp="MAC1945">&#x1688;&#x1691;</supplied></name>
-                        <w lemma="maqqas">&#x168B;&#x1690;&#x168A;</w> <name nymRef="#gar?">&#x168C;&#x1690;<unclear reason="damage">&#x168F;</unclear><gap reason="lost" extent="unknown"/></name>                      
+                      <persName><name nymRef="#maqqas_actos?"><w><supplied reason="lost" evidence="previouseditor" resp="MAC1945">ᚋᚐ</supplied><unclear reason="fissure">ᚊ</unclear></w> <w><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">ᚐ</supplied><unclear reason="fissure">ᚉ</unclear><supplied reason="lost" evidence="previouseditor" resp="MAC1945">ᚈᚑ</supplied></w></name>
+                        <w lemma="maqqas">ᚋᚐᚊ</w> <name nymRef="#gar?">ᚌᚐ<unclear reason="damage">ᚏ</unclear><gap reason="lost" extent="unknown"/></name>                      
                     </persName>                   
                    </ab>
             </div>
             <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#maqqas_actos?"><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">MA</supplied><unclear reason="fissure">Q</unclear><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">A</supplied><unclear reason="fissure">C</unclear><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">TO</supplied></name>
+                    <persName><name nymRef="#maqqas_actos?"><w><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">MA</supplied><unclear reason="fissure">Q</unclear></w> <w><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">A</supplied><unclear reason="fissure">C</unclear><supplied reason="lost" evidence="previouseditor" resp="#MAC1945">TO</supplied></w></name>
                         <w lemma="maqqas">MAQ</w> <name nymRef="#gar?">GA<unclear reason="damage">R</unclear><gap reason="lost" extent="unknown"/></name>
                     </persName>                        
                 </ab>
