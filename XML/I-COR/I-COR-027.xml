@@ -81,11 +81,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Coolowen</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9671">Cúil Eoghain</ref></foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo/>
+                                <geo>51.955391, -8.534280</geo>/>
                             <note>Precise location unknown</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1819"><q>Discovered by <persName>Windele</persName> in <date>1819</date> in the ditch surrounding a ring-fort</q> (Macalister 1945, 81). According to Brash (1879, 117-118), it was discovered in 1820, <q>in the entrance gap of a cilleen</q>.
+                        <provenance type="found" when="1819"><q>Discovered by <persName>Windele</persName> in <date>1819</date> in the ditch surrounding a ring-fort</q> (Macalister 1945, 81). According to Brash (1879, 117-118), it was discovered in 1820, <q>in the entrance gap of a cilleen</q>. According to local information, one of the ringforts in this townland (<idno type="SMR">CO063-046003-</idno>) is known as the site of a 'killeen' (Power et al. 1994) and marked 'Shantempleen' in early OS maps. This is possibly the find site of the stone, although there are a number of other ringforts in the townland. 
                         </provenance>
                         <provenance type="observed" when="1835">
                             Windele returned to copy the inscription sixteen years later only to discover that the stone had been broken up for building material.
@@ -122,7 +122,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-05-20" who="#POC">Added and encoded information, including Text Class references FAIR vocabularies for epigraphy</change>
     <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, added ogham division.</change>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented apparatus, added idno elements for SMR numbers.</change>
-     <change when="2024-08-21" who="#NW">Updated details and moved logainm ref to around Irish townland name</change>
+     <change when="2024-08-21" who="#NW">Updated details, added approximate or possible coordinates and moved logainm ref to around Irish townland name</change>
     
 </listChange>
 </revisionDesc>
@@ -147,6 +147,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>81, no. 78</citedRange>
+                    </bibl>
+                     <bibl><ptr target="POW1994"/>
+                        <citedRange><!--check...--></citedRange>
                     </bibl>
                 </listBibl>
             </div>
