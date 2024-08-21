@@ -54,7 +54,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script?</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -63,37 +63,36 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO094-073----</idno></p> 
                                     <material/> 
                                     <objectType>Boulder?</objectType> 
-                                     <dimensions unit="m" source="MAC1945">
-                                            <height>1.12</height>
-                                            <width>0.76</width>
-                                            <depth>0.36</depth>
-                                     </dimensions>                                   
+                                     <dimensions unit="m" source="POW1992">
+                                            <height>1.10</height>
+                                            <width>0.70</width>
+                                            <depth>0.30</depth>
+                                     </dimensions>  
                                 </support>
-                                <condition/>
+                                <condition>Mostly in good condition but there is some damage to one of the star-like characters on the face. The stone can be difficult to locate as it is flat on the ground and covered by vegetation in a wood.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the flat face of a boulder. The ogham-like characters are positioned on two stemlines, along with one of two star-like marks also on the stone.</layout> 
+                                <layout>The inscription is unusually on the flat face of an irregular boulder (embedded in the ground), left of centre and on two carved stemlines, both roughly parrallel with two variously angled edges of the stone.</layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
+                            <handNote>The ogham strokes are not all of the same length and it appears as if one long stroke is marking the end or beginning of each series. There are no obviously slanted strokes from the M-aicme (<foreign xml:lang="ga">aicme muine</foreign>). Two star-shaped characters (resembling an x carved over an ᚐ stroke) are also on the stone. When looking at the more centrally positioned stemline (L 34cm) vertically, the first star shape is at the top of this stemline with the second, larger and partially damaged star shape, directly to the left and close to the edge of the stone. The second stemline (L 27cm) is above and at a different angle. There is also what looks like a feathermark between the first two characters reading upwards on the main stemline. It is unclear how to interpret these characters but the presence of a stemline, long vowel strokes and a possible feathermark suggest 'reformed ogham' (previously termed 'scholastic') dating from the 8th century onwards.
                                 <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9686">
-                                <placeName type="townland">Aultagh (<foreign xml:lang="ga">Alltach</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.769999, -9.090371</geo>
-                            <note>approximate only</note>
-                            <note>ITM Coordinates: 524750, 558081</note>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Aultagh (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9686">Alltach</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <geo>51.769999, -9.090371</geo>                            
+                            <note>ITM Coordinates (approximate): 524750, 558081</note>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1898">The first publication of this inscription was by <persName>Rhys</persName> in <date>1898</date>.
+                        <provenance type="found" when="1898">Although known of previously, the first publication of this inscription was by <persName>Rhys</persName> in <date>1898</date> (Cochrane 1898, 406). A second inscribed stone was also noted from this location, but it was broken up and reused in building a nearby house (Rhys 1898, 397-398).
                         </provenance>
-                        <provenance type="observed" when="2022">In situ on a W-facing slope in Aultagh Wood. Visited and recorded in 2022 for the OG(H)AM project.
+                        <provenance type="observed" when="2022">In situ on a W-facing slope in Aultagh Wood (Power 1992, 124). Visited and recorded in 2022 for the OG(H)AM project.
                         </provenance>
                     </history>
                 </msDesc>
@@ -130,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-28" who="#NW">Added geo note</change>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image, updated measurements.</change>
     <change when="2024-08-07" who="#NW">Updated details from field notes.</change>
+    <change when="2024-08-20" who="#NW">Updated apparatus and added palaeographic details and bibl ref.</change>
     
 </listChange>
 </revisionDesc>
@@ -142,27 +142,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><g ref="#feathermark"/>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><g ref="#feathermark"/>EHU
+                    <lb n="2" style=""/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 77) read:</note>
+                    <note>Macalister (1945, 77) reads from the feathermark but retroversely to avoid reading a H:</note>
                     <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">UBEDABO</name> <name nymRef="#?">ALTASI</name></persName>
+                        <lb n="1"/>UBEDABO 
+                        <lb n="2"/>ALTAS
+                        <lb n="3"/>I
                     </rdg>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
-                <p></p>
-            </div>
+            <div type="translation"/>               
+            
             <div type="commentary">
                 <p></p>
             </div>
@@ -170,6 +172,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <listBibl>
                       <bibl><ptr target="RHY1898"/>
                         <citedRange>397-398</citedRange>
+                    </bibl>
+                      <bibl><ptr target="COC1898"/>
+                        <citedRange>406-407</citedRange>
                     </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>75-77, no. 72</citedRange>
