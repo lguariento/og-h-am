@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Glenaphuca/Rathcanning 1</title>
+                <title>Glenaphuca 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>              
@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                     <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D scanned using Artec Eva structured light scanner <date when="2017-02-16"/></resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -60,39 +60,38 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO066-009----</idno></p> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO066-009----</idno></p> 
                                     <material/> 
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/><!-- (converted from Macalister) -->
-                                            <height>1.73</height>
+                                     <dimensions unit="m" source="3d_data">
+                                            <height>1.68</height>
                                             <width>0.61</width>
-                                            <depth>0.14</depth>
+                                            <depth>0.19</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The top of the slab is broken off. A recent examination of the buried letters of the inscription revealed that <q>the first three strokes of the R are damaged but the A is clear and the first three strokes of the N are faint but legible. No other letters are discernible (pers. comm. Fionnbarr Moore, 17 April 2015)</q> (Archaeological Survey of Ireland, Field Report).</condition>
+                                <condition>The stone is weathered with layers having flaked away. It has also suffered from been reused at least twice: once in the construction of a souterrain and subsequently as a door jamb in a farm building where it was whitewashed and embedded in the ground (obscuring the end of the inscription when it was in position).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><q>Part of the inscription was buried when it was read by Macalister (1945, 82, no. 79) and Barry (1897, 43)... the extra three letters run along the top</q> (Archaeological Survey of Ireland, Field Report).</layout>
+                                <layout>The inscription reads upwards on the dexter angle of one of the broad faces and continues across the uneven top of the stone. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister noted that the slab is <q>so thickly coated with whitewash that it is impossible to determine the technique of the scoring.</q> (1945, 82, no. 79).
+                            <handNote>Macalister (1945, 82) noted that the inscription ‘so thickly coated with whitewash that it is impossible to determine the technique of the scoring’. The whitewash having since been removed, the strokes appear to have been <rs type="execution" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. They are as even and well-spaced as the rough-edged stone allows.
                                 <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/12339">
-                                <placeName type="townland">Glenaphuca</placeName> (<foreign xml:id="ga">Gleann an Phúca</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Glenaphuca</placeName> (<foreign xml:id="ga"><ref target="https://www.logainm.ie/ga/12339">Gleann an Phúca</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.967973, -8.072345</geo>
-                            <note>ITM Coordinates: 595063 , 579538</note></origPlace>
+                            <note>ITM Coordinates (approximate): 595063, 579538</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1896"> <!--Barry, E.--> Formerly acting as the jamb of a cart-house door in a farmyard, Macalister and O'Kelly (1944, 9) imply that the ogham stone is from a souterrain (<idno type="SMR">CO066-01002-</idno>) in Rathcanning fort (<idno type="SMR">CO066-01001-</idno>) c. 450m to the N, in which a possible ogham fragment was also found I-COR-029). Barry, however, states that the slab had been in position at the time of his visit for 80 years and had been taken from a souterrain 'in the next field' (<idno type="SMR" >CO066-00054---</idno>).
+                        <provenance type="found" when="1896">Discovered in <date>1896</date> by Edmond Barry (with Mr. John B. O’Higgins, of Boston, U.S.A. and Rev. James Greene, B.D., C.C., Dungourney) during a search for ogham stones in the area. When an examination of the stones at ‘Rathcanning fort’ failed to uncover any ogham inscription, Barry and his companions travelled to another location to continue the search. Barry (1897, 41-42) describes how many years previously ‘an underground passage, and an underground beehive-shaped chamber, were discovered a quarter of a mile south of Rathcanning fort; and some stones from them were used for building purposes at the nearest farm houses, those of Mr. John Colbert, and of his cousin’. Barry states that after examining ‘all long stones in the rampart of the fort, and in the fences from the fort’ they went ‘to the site of the underground chamber, and on to Mr. John Colbert’s farm buildings’. It is here that an ogham inscription was finally discovered on one of two ‘white-washed flags’ acting as door jambs to a ‘carhouse’ on the farm of Mr. John Colbert (Barry 1897, 42), who informed them that they had been in place there for 80 years. It was noted that both door jambs had ‘every appearance of being flags from the roof of the underground passage in the next field’. It is noteworthy that there is a local tradition of a souterrain in what appears to be the approximate location (<idno type="SMR">CO066-071----</idno>), although no trace remains. Macalister (1945, 82) and O’Kelly (1945a, 19), incorrectly it would seem, give the find location of this ogham stone as the souterrain (<idno type="SMR">CO066-01002-</idno>) in Rathcanning fort (<idno type="SMR">CO066-01001-</idno>), in which a possible ogham fragment (I-COR-029) was later found by Macalister. 
                         </provenance>
-                        <provenance type="observed">This stone is in the National Museum of Ireland storage facility at Daingean, <placeName type="county">Co. Offaly</placeName> (<idno type="SMR">OF018-198----</idno>). 
+                        <provenance type="observed" when="2017">This stone is in the National Museum of Ireland storage facility at Daingean, <placeName type="county">Co. Offaly</placeName> (<idno type="SMR">OF018-198----</idno>) where it was examined and recorded for the Ogham in 3d project in 2017. 
                         </provenance>
                     </history>
                 </msDesc>
@@ -122,38 +121,49 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-21" who="#POC">Added and encoded information, including the edition and the Text Class referencing FAIR vocabularies for epigraphy</change>
-<change when="2024-05-22" who="#POC">Corrected image path and added text direction to edition</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, moved encoded Macalister reading to apparatus, added ogham division.</change>
-<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-21" who="#POC">Added and encoded information, including the edition and the Text Class referencing FAIR vocabularies for epigraphy</change>
+    <change when="2024-05-22" who="#POC">Corrected image path and added text direction to edition</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, moved encoded Macalister reading to apparatus, added ogham division.</change>
+    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+     <change when="2024-08-21" who="#NW">Updated details and moved logainm ref to around Irish townland name.</change>       
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-028-MAC1945-82-Rathcanning-79.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name><unclear>ᚈᚒ</unclear>ᚂᚓᚅ<unclear>ᚐ</unclear></name> <w>ᚋᚒᚉ<gap reason="lost" atMost="8" unit="stroke"></gap></w> <unclear>ᚉᚑᚒ</unclear></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><persName><name><unclear>TU</unclear>LEN<unclear>A</unclear></name> <w>MUC<gap reason="lost" atMost="8" unit="stroke"/></w> <unclear>COU</unclear></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 82) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><supplied reason="lost">T</supplied><unclear>U</unclear>LENA</name> MU<unclear>C</unclear>  <gap reason="lost" extent="unknown" unit="character"/><unclear>R</unclear>A<unclear>N</unclear></persName> 
-                    </rdg>
+                    <note>Barry (1897, 43) read:</note>
+                    <rdg source="BAR1897">ILUNA MUC[OI...]</rdg>
                 </app>
+                    <app n="2">
+                    <note>Macalister (1945, 82) read:</note>
+                    <rdg source="MAC1945">ELUNA MU[C ...</rdg>
+                </app>
+                    <app n="3">
+                    <note>O'Kelly (1945a, 22-23) read:</note>
+                    <rdg source="MAC1945">TULENA MU[C--</rdg>
+                </app>
+                    <app n="4">
+                        <note>It is unclear if there were once more stokes than currently survive. There is a gap (approximately 16cm) at the top of the stone, possibly due to damage, between the C (or remains of a Q) running up the edge and the last few letters running across the top.</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
@@ -165,15 +175,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="BAR1897"/>
-                     <citedRange>41-4</citedRange>
+                     <citedRange>41-44</citedRange>
                      </bibl>  
                      <bibl><ptr target="MAC1945"/>
-                        <citedRange>82, no. 79</citedRange>
-                    </bibl>
-                     <!--<bibl><ptr/>O'Kelly 1944
-                     <citedRange>9</citedRange>
-                     </bibl> Need to find reference and add it to Zotero
--->                     <bibl><ptr target="POW1994"/>
+                     <citedRange>82, no. 79</citedRange>
+                     </bibl>
+                     <bibl><ptr target="OKE1945"/>
+                     <citedRange>152-153</citedRange>
+                     </bibl> 
+                     <bibl><ptr target="OKE1945a"/>
+                     <citedRange>18-23</citedRange>
+                     </bibl> 
+                     <bibl><ptr target="POW1994"/>
                      <citedRange>no. 4235</citedRange>
                      </bibl>
                 </listBibl>
