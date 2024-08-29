@@ -82,8 +82,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/49454">
-                                <placeName type="townland">Dromore (<foreign xml:lang="ga">An Drom Mór</foreign>)</placeName>, <placeName type="county">Co. Waterford</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="ecclesiastical_site">Kiltera/Kilteera (<foreign xml:id="ga"><ref target="https://www.logainm.ie/en/1421662">Cell Tíre</ref></foreign>)</placeName>, <placeName type="townland">Dromore (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/49454"></ref>An Drom Mór</foreign>)</placeName>, <placeName type="county">Co. Waterford</placeName>
                                 <geo>52.074382, -7.847708</geo>
                             <note>ITM Coordinates (approximate):  610460, 591390</note>
                             </origPlace>
@@ -91,7 +91,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1934">Found at Kilteera burial ground during investigation by <persName><surname>Macalister</surname></persName> in <date>1934</date> (Macalister 1935,1-16).
                         </provenance>
-                        <provenance type="observed" when="2013">National Museum of Ireland (seen and recorded in 3d in <date>January 2013</date>) 
+                        <provenance type="observed" when="2013">National Museum of Ireland (examined and recorded in 3d in <date>January 2013</date>) 
                         </provenance>
                     </history>
                 </msDesc>
@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-05-22" who="#POC">Corrected image path and added Text Class referencing FAIR vocabularies for epigraphy</change>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added ITM coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
+    <change when="2024-08-27" who="#NW">Updated provenance including logainm links.</change>
 
 </listChange>
 </revisionDesc>
