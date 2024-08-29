@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>UCC</repository>
-                        <idno type="invNo"/>
+                        <repository>University College Cork</repository>
+                        <idno type="invNo">4</idno>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,39 +60,39 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO084-090003-</idno></p> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO084-090003-</idno></p> 
                                     <material/> 
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/>
-                                           <!-- <height></height>
-                                            <width></width>
-                                            <depth></depth>-->
+                                     <dimensions unit="m" resp="#NW">
+                                            <height>1.57</height>
+                                            <width>0.50</width>
+                                            <depth>0.20</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Possibly reused in a souterrain, the inscription was <q>a little chipped, so that some of the vowels are lost</q> (1945, 84).</condition>
+                                <condition>An irregularaly-shaped pillar, possibly reused in a souterrain and a damaged in places, particularly the vulnerable edges. Currently in a display case and held in position by a bracket, which obscured by the </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>According to Macalister, the inscription begins at 0.76m from the bottom of one angle, runs over the top, and ends 0.91m from the bottom of the adjacent angle (Macalister 1945, 84).</layout>
+                                <layout>The inscription begins at roughly 0.75m from the bottom of one angle, runs over the top, and ends approximately 0.90m from the bottom of the adjacent angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister remarked that the inscription was made with <q>bold scores, <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> and rubbed</q> (1945, 84).
+                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed in bold strokes. The vowel notches are quite large, especially towards the end of the inscription.
                                 <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/8299">
-                                <placeName type="townland">Garranes</placeName> (<foreign xml:lang="ga">An Garrán</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Garranes</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/8299">An Garrán</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.816848, -8.765479</geo>
-                            <note>ITM Coordinates: 547221 , 563003</note></origPlace>
+                            <note>ITM Coordinates: 547221, 563003</note>
+                            </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1852">Found in a ringfort (<idno type="SMR">CO084-090001-</idno>) and thought to have come from the souterrain (<idno type="SMR">CO084-090002-</idno>) discovered later.
+                        <provenance type="found" when="1852">Found in a ringfort (Lisheenagreine/ <idno type="SMR">CO084-090001-</idno>) and thought to have come from the souterrain (<idno type="SMR">CO084-090002-</idno>) discovered later in interior (Brash 1869c, 260-264; Power 1992, 125; O'Brien 2021, 47-49).
                         </provenance>
-                        <provenance type="observed">Now on permanent display in the Stone Corridor, University College Cork (See <idno type="SMr">CO074-148----</idno>). 
+                        <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork (See <idno type="SMr">CO074-148----</idno>). 
                         </provenance>
                     </history>
                 </msDesc>
@@ -122,37 +122,36 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-21" who="#POC">Added and encoded information, including the edition and the Text Class referencing FAIR vocabularies for epigraphy</change>
-<change when="2024-05-22" who="#POC">Corrected image path and added text direction to the edition</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, moved encoded Macalister reading to apparatus, added ogham division.</change>
-<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-21" who="#POC">Added and encoded information, including the edition and the Text Class referencing FAIR vocabularies for epigraphy</change>
+    <change when="2024-05-22" who="#POC">Corrected image path and added text direction to the edition</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, moved encoded Macalister reading to apparatus, added ogham division.</change>
+    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+    <change when="2024-08-29" who="#NW">Updated details from field notes, added ref to bibl and moved logainm ref to around Irish townland name.</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-030-MAC1945-83-Garranes.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <!--<media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:-across-down"/>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/> 
+                    <lb n="1" style="text-direction:up-across-down"/><persName><name nymRef="#?">C<supplied reason="lost">A</supplied>SSITT<supplied reason="lost">A</supplied>S</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula">MU<supplied reason="lost" evidence="previouseditor">CO</supplied>I</w> <name nymRef="#?">CALLITI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 83) read:</note>
-                    <rdg>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">C<supplied reason="lost">A</supplied>SSITT<supplied reason="lost">A</supplied>S</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula">MUCOI</w> <name nymRef="#?">CALLITI</name></persName>
-                    </rdg>
+                    <note>Although the M is damaged and only 3 or 4 of the I-strokes of MAQI survive, the reading is not really in doubt. Likewise, regarding the final I of MUCOI where only 4 vowel notches survive. The CO has been lost due to a spall since Macalister's reading.</note>                    
                 </app>
                 </listApp>
             </div>
@@ -160,10 +159,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>
             <div type="commentary">
-                <p>McManus (2004, 15, no. 4) is generally in agreement with Macalister's reading of the inscription but notes that the first name could end in -AS or -OS.</p>
+                <p>McManus (2004, 15, no. 4) is generally in agreement with Macalister's reading of the inscription but notes that the first name could end in -AS or -OS.</p>                <p>O'Brien (2021, 212) notes that 'Edel Bhreathnach (2013, 163) identifies the MACOI CAILLTI here with Clann Laoghaire, additionally known, according to the Book of Leinster, the Book of Ballymote and the Book of Lecan, as Ceinéal Caollaidhe (O’Brien 1976, 218), a sept of Eoghanachta, who descended from Caoillaidhe mac Conaill. This Caollaidhe mac Conaill is reputed to have been the grandson of Nadfroích, a progenitor of many of Eoghanachta dynasties, and supposed brother of Cas, from whom Uí Eachach Mumhan derive (O’Brien 1976, 195-6)'.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="BRA1869c"/>
+                     <citedRange>260-264</citedRange>
+                     </bibl> 
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>83-4, no. 81</citedRange>
                     </bibl>
@@ -171,7 +173,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <citedRange>15, no. 4</citedRange>
                      </bibl>
                      <bibl><ptr target="POW1992"/>
-                     <citedRange>no. 1037</citedRange>
+                     <citedRange>125, no. 1037</citedRange>
+                     </bibl>
+                      <bibl><ptr target="OBR2021"/>
+                     <citedRange>47-49, 212</citedRange>
                      </bibl>
                 </listBibl>
             </div>
