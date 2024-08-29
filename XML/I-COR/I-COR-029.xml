@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Thierry Daubos</name>
+                     <orgName>Irish Inscribed Stones Project, Moore Institute, Galway</orgName>
+                <resp>3d scanned using Scorpian FastScan scanner <date when="2010-01-29"/> and later processed using Rapidform software</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -60,20 +60,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO066-053----</idno></p> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO066-053----</idno></p> 
                                     <material/> 
                                     <objectType>Fragment</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/><!--(converted from Macalister)-->
-                                            <height>0.23</height>
-                                            <width>0.10</width>
-                                            <depth>0.10</depth>
+                                     <dimensions unit="m" source="3d_data">
+                                            <height>0.22</height>
+                                            <width>0.16</width>
+                                            <depth>0.07</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>A lump of stone found in the wall of a <q>fort</q> (Macalister 1945, 82).</condition>
+                                <condition>A possible fragment of an ogham stone, broken up for reuse as building material.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The fragment bears <q>the end of an M and other marks not so certainly intended as letters</q> (Macalister 1945, 82).</layout>
+                                <layout>The fragment possibly bears an M stroke and other marks that are less likely to be ogham strokes.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -83,15 +82,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/12339">
-                                <placeName type="townland">Glenaphuca</placeName> (<foreign xml:id="ga">Gleann an Phúca</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="site">Rathcanning (<ref target="https://www.logainm.ie/en/12340">Ráth an Cheanainn</ref>)</placeName>, <placeName type="townland">Glenaphuca</placeName> (<foreign xml:id="ga"><ref target="https://www.logainm.ie/ga/12339">Gleann an Phúca</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.967973, -8.072345</geo>
-                            <note>ITM Coordinates: 594779 , 579938</note></origPlace>
+                            <note>ITM Coordinates: 594779, 579938</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1945">This fragment was found by Macalister in the wall inside Rathcanning fort (<idno type="SMR">COO66-01001-</idno>) which is situated on the crown of a hill with good views in all directions. A second ogham stone (<idno type="SMR">I-COR-028</idno>) was implied by Macalister (1945, 82, no. 79) to have come from the souterrain (<idno type="SMR">CO066-01002-</idno>) in this fort. However, the earliest account of this stone states that it came from another souterrain S of Rathcanning, closer to where it was found re-used in a farmyard (Power et al. 1994, no. 4236) (Archaeological Survey of Ireland, Field Report).
+                        <provenance type="found" notAfter="1945">This fragment was found by Macalister (1945, 82, no. 79) in the wall of 'Rathcanning fort' (classed in the Archaeological Survey as a 'hilltop enclosure' <idno type="SMR">COO66-01001-</idno>), which is situated on the crown of a hill with good views in all directions. However, this is located in Glenaphuca townland and not in the neighbouring townland of Rathcanning (clearly named after the 'Fort'), as recorded in earlier accounts by Macalister and others. An ogham stone (<idno type="SMR">I-COR-028</idno>) discovered in the area in 1896, was implied by Macalister (1945, 82) to have come from the souterrain (<idno type="SMR">CO066-01002-</idno>) in 'Rathcanning fort'. However, the earliest account of this stone states the belief that it came from a souterrain 'a quarter of a mile south of Rathcanning fort', close to where it was found reused in a farm building (Barry 1897, 41-42).
                         </provenance>
-                        <provenance type="observed">Now in the National Museum of Ireland (Kildare St), Dublin (<idno type="SMR">DU018-162----</idno>)
+                        <provenance type="observed" when="2010">Now in the National Museum of Ireland (Kildare St), Dublin (<idno type="SMR">DU018-162----</idno>) where it was examined and recorded in 2010 for the Ogham in 3D project.
                         </provenance>
                     </history>
                 </msDesc>
@@ -121,50 +120,51 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-21" who="#POC">Added and encoded information, including Text Class referencing FAIR vocabularies for epigraphy and objects that are unable to determine</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, moved encoded Macalister reading to apparatus, added ogham division.</change>
-<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers.</change>
+   <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+   <change when="2024-05-21" who="#POC">Added and encoded information, including Text Class referencing FAIR vocabularies for epigraphy and objects that are unable to determine</change>
+   <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, moved encoded Macalister reading to apparatus, added ogham division.</change>
+   <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers.</change>
+   <change when="2024-08-29" who="#NW">Updated details and moved logainm ref to around Irish townland name.</change>  
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="example.jpg"/>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Thierry Daubois, not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/><gap reason="illegible" quantity="1" unit="character"/>ᚋ<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown"></gap>
             </ab>
             </div>
            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/> 
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/><gap reason="illegible" quantity="1" unit="character"/>M<gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown"></gap>
                 </ab>
             </div>
-            <div type="apparatus">
-                <listApp>
-                <app n="1">
-                    <note>Macalister (1945, 82) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><gap reason="lost" unit="character" quantity="2"/>M<gap reason="lost" unit="character" quantity="2"/>
-                    </rdg>
-                </app>
-                </listApp>
-            </div>
-            <div type="translation">
-                <p></p>
-            </div>
-            <div type="commentary">
-                <p></p>
-            </div>
+            <div type="apparatus"/>               
+            
+            <div type="translation"/>               
+            
+            <div type="commentary"/>               
+            
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="BAR1897"/>
+                     <citedRange>41-44</citedRange>
+                     </bibl>  
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>82, no. 80</citedRange>
                     </bibl>
+                      <bibl><ptr target="OKE1945"/>
+                     <citedRange>152-153</citedRange>
+                     </bibl> 
+                     <bibl><ptr target="OKE1945a"/>
+                     <citedRange>18-23</citedRange>
+                     </bibl> 
                      <bibl><ptr target="POW1994"/>
                      <citedRange>no. 4236</citedRange>
                      </bibl>
