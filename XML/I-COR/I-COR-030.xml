@@ -128,7 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, moved encoded Macalister reading to apparatus, added ogham division.</change>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
     <change when="2024-08-29" who="#NW">Updated details from field notes, added ref to bibl and moved logainm ref to around Irish townland name.</change> 
-    <change when="2024-08-30" who="#NW">Updated respStmt re 3d recording and condition re UCC conservation. Added further details to provenance.</change>
+    <change when="2024-08-30" who="#NW">Updated respStmt re 3d recording and condition re UCC conservation. Added further details to provenance and Power to bibl.</change>
     
 </listChange>
 </revisionDesc>
@@ -174,12 +174,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl><ptr target="MCM2004"/>
                      <citedRange>11, 15, no. 4</citedRange>
                      </bibl>
-                     <bibl><ptr target="POW1992"/>
-                     <citedRange>125, no. 1037</citedRange>
-                     </bibl>
                       <bibl><ptr target="OBR2021"/>
                      <citedRange>47-49, 212</citedRange>
                      </bibl>
+                     <bibl><ptr target="POW1932"/>
+                        <citedRange>25</citedRange>
+                    </bibl>
+                     <bibl><ptr target="POW1992"/>
+                     <citedRange>125, no. 1037</citedRange>
+                     </bibl>
+                     
                 </listBibl>
             </div>
         </body>
