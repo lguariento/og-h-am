@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-001</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">NEWT/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -54,8 +54,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,7 +67,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/18086/newton-house-the-newton-stone"><idno type="Canmore"></idno>18086</ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/18086/newton-house-the-newton-stone"><idno type="Canmore"></idno>18086</ref></p>
                                     <material>grey gneissose granite</material> 
                                     <objectType>menhir</objectType>                                     
                                     <dimensions unit="m">                                         
@@ -91,7 +91,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Culsalmond</placeName> <placeName type="county">Aberdeenshire</placeName>
-                                <geo>57.356667, -2.562778</geo></origPlace>
+                                <geo>57.356667, -2.562778</geo>
+                            <note>NGR coordinates: NJ 6623 2972</note></origPlace>
                             <origDate notAfter="0800" precision="low">sixth to eighth century</origDate>
                         </origin>
                         <provenance type="found" when="1803">Found around <date>1803</date> and first recorded by John Stuart in <date>1835</date> in a wood about a mile from Newton House, and subsequently moved to the grounds of the house (Forsyth 1996, 420-2).
@@ -137,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-10" who="#LH">Edited edition</change>
     <change when="2024-07-11" who="#LH">Corrected quotation marks in layout, spacing in support and lb numbering in edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid reference, closed unused elements, commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -164,15 +166,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="4" style="text-direction:up" break="no"/><add place="right">IOSR<unclear reason="illegible">Ṛ</unclear></add> <!--encode drawn stem-line?-->
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>The ogham and non-ogham inscriptions are not transliterations of each other and do not seem to correspond with any section of the other (Forsyth 1996, 425). The non-ogham inscription was initially believed to be a forgery from the early nineteenth century, but Gordon disproved this in his study, showing that the two had indeed been carved by different hands but used a similar technique (Gordon 1956, 41, 44).</p>
