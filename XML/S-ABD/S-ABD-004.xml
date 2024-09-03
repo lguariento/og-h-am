@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-004</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">BRATT/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -54,8 +54,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -66,9 +66,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/18894/brandsbutt-inverurie-symbol-stone"><idno type="Canmore">18894</idno></ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/18894/brandsbutt-inverurie-symbol-stone"><idno type="Canmore">18894</idno></ref></p>
                                     <material>dark whinstone</material> 
-                                    <objectType>Class I Pictish symbol stone/menhir</objectType>                                     
+                                    <objectType>Class I Pictish symbol stone/menhir</objectType>                      
                                     <dimensions unit="m">                                         
                                             <height>1.07</height>
                                             <width>1.27</width>
@@ -90,7 +90,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Inverurie</placeName> <placeName type="county">Aberdeenshire</placeName>
-                                <geo>57.291667, -2.400000</geo></origPlace>
+                                <geo>57.291667, -2.400000</geo>
+                            <note>NGR coordinates: NJ 75992 22403</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">The Ogham was first reported in the Proceedings of the Society of Antiquaries of Scoland Journal in <date>1901</date> by Frederick R. Coles (Coles 1901, 230). The stone was broken up and used to build a field dyke at some time prior to the late nineteenth century. The large lower portion was recorded in the wall in <date>1899</date>, and when shortly afterwards the wall was dismantled other fragments were found. The fragments were reassembled and cemented together sometime prior to <date>1950</date> (Forsyth 1996, 102-3).
@@ -133,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-03" who="#LH">Encoded provenance</change>
     <change when="2024-07-11" who="#LH">Deleted orig tag from edition, corrected lb numbering, added spacing in support and rs decoration in layout</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-03" who="#POC">Added National Grid References, added paragraph to support, commented out apparatus and translation, closed unused elements</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -154,15 +156,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     IRATADDOARENS<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>The dimensions are approximate metric equivalents of dimensions listed by Romilly Allen (Allen 1903, 507). Forsyth noted that precise measurements are difficult to obtain given the irregular shape of the stone (Forsyth 1996, 103-4).</p>
