@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-002</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">LPHIN/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -54,8 +54,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -65,7 +65,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/18855/logie-elphinstone"><idno type="Canmore">18855</idno></ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/18855/logie-elphinstone"><idno type="Canmore">18855</idno></ref></p>
                                     <material>blue granite</material> 
                                     <objectType>Class I Pictish symbol stone/menhir</objectType>                                     
                                     <dimensions unit="m">                                         
@@ -89,7 +89,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Chapel Of Garioch</placeName> <placeName type="county">Aberdeenshire</placeName>
-                                <geo>57.322500, -2.494167</geo></origPlace>
+                                <geo>57.322500, -2.494167</geo>
+                            <note>NGR coordinates: NJ 7034 2588</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1856"> First mentioned by J Stuart in <date>1856</date>. This was one of four stones found lying on the ground on the Moor of Carden to the west of Logie Elphinstone House in or prior to about 1821. At that time the moor was planted and three of the stones were built into the enclosing wall, while the fourth (which is not known certainly to have been carved) was used as a floor slab in a kiln and <q>‘split by the heat and destroyed’</q> (Stuart 1856,4). The three symbol stones were subsequently removed from the wall and erected in the house grounds (Forsyth 1996, 385).
@@ -131,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-01" who="#LH">Encoded physical description, provenance, image url and text</change>
     <change when="2024-07-11" who="#LH">Deleted orig tag and corrected lb numbering in edition, added attribute when to provenance and rs decoration to layout, and corrected spacing in support</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid reference, closed unused elements, commented out apparatus and translation.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,15 +152,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="2" style="text-direction:clockwise"/>QFTQU
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>The placement of the symbols suggests that the ogham was accounted for in the original design, which further implies that the ogham relates to the same phase as the symbols. The stone is a palimpsest as there are visible remains of a partially-erased double-disc and Z-rod under the symbols; however, the overall layout strongly supports the assumption that the ogham relates to the second phase (Forsyth 1996, 391-2).</p>
