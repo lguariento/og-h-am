@@ -44,8 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-007</idno>
-                 <idno type="CIIC"></idno>
-                <idno type="CISP"></idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -54,8 +54,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -66,8 +66,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/18978/chapel-of-garioch-the-maiden-stone"><idno type="Canmore">18978</idno></ref>
-                                    <material>pinkish granite</material> 
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/18978/chapel-of-garioch-the-maiden-stone"><idno type="Canmore">18978</idno></ref></p>
+                                    <material>Pinkish granite</material> 
                                     <objectType>Class II cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>3.01</height>
@@ -90,7 +90,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Chapel Of Garioch</placeName> <placeName type="county">Aberdeenshire</placeName>
-                                <geo>57.311944, -2.493333</geo></origPlace>
+                                <geo>57.311944, -2.493333</geo>
+                            <note>NGR coordinates: NJ c 7038 2472</note></origPlace>
                             <origDate>eighth to ninth century</origDate>
                         </origin>
                         <provenance type="found">The ogham was not discovered until the 2000s and the inscription was first mentioned in <date>2017</date> (Barnes 2017, 3). The stone was first recorded in <date>1726</date> (Gordon 1726, 59) and first illustrated in <date>1788</date> (Cordiner 1788, 33). It has been suggested that the stone was moved from its original location a few yards westwards around <date cert="low">1866</date> to allow for the construction of a road (Barnes 2017, 4).  
@@ -132,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-05" who="#LH">Encoded language, physical description, provenance and text</change>
     <change when="2024-07-11" who="#LH">Deleted orig tag and corrected lb numbering in edition, added spacing in support and rs decoration in layout</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid Reference coordinates, closed unused elements, commented out apparatus and translations.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -153,15 +155,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     ALL<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>Also known as the Maiden stone or the Drumdurno stone (Barnes 2017, 2).</p>
