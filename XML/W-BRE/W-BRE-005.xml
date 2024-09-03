@@ -14,6 +14,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>     
                  <editor role="editor" xml:id="MK"><persName>Megan Kasten</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -29,6 +31,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </respStmt>
                 <respStmt>
                 <name ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
@@ -51,8 +57,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -63,12 +69,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">579</idno>St David's Church</ref>
-                                    <material>Sandstone</material> <objectType>pillar</objectType>, described as <q>Mid-red, coarse-grained quartzose sand-stone...the stone is locally derived</q>(Redknap and Lewis 2007, 242).
+                                <support><p>CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">579</idno>St David's Church</ref></p>
+                                    <material>Sandstone</material> 
+                                    <objectType>Pillar</objectType><note>, described as <q>Mid-red, coarse-grained quartzose sand-stone...the stone is locally derived</q>(Redknap and Lewis 2007, 242).</note>
                                     <dimensions unit="m">
                                         <height>1.77</height>
                                         <width>0.36</width>
-                                        <depth>0.15</depth></dimensions></support>
+                                        <depth>0.15</depth>
+                                    </dimensions>
+                                </support>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
@@ -83,7 +92,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><!--<placeName type="parish">Trallwng</placeName>check URL/parish-->
-                                <geo>51.949739, -3.514631</geo></origPlace>
+                                <geo>51.949739, -3.514631</geo>
+                            <note>NGR coordinates: SN 96 29</note></origPlace>
                             <origDate notBefore="0500" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">first half of the sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Discovered c1860 before the rebuilding of the church; Jones publishes a reading of the ogham in 1862.
@@ -93,8 +103,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -127,6 +137,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
      <change when="2024-06-12" who="#MK">Megan edited formatting to ensure consistency with OGHAM standards.</change>
     <change when="2024-06-18" who="#MK">Remove repository info, monument tag, removed unnecessary bibl ptrs and titles - need to check placename info and translation</change>
+    <change when="2024-09-03" who="#POC">Added paragraph to support, added NGR coordinates, closed unused elements</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -139,7 +150,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam" resp="RED2007">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunaqennas">&#x1689;&#x1692;&#x1685;&#x1690;&#x1689;&#x1693;&#x1685;&#x1685;<unclear reason="worn">&#x1694;</unclear></name><w lemma="avi"><unclear reason="worn">&#x1690;</unclear>&#x1683;<gap reason="lost" extent="1" unit="character"/></w><name nymRef="#eluvetus">&#x1694;&#x1682;&#x1683;&#x1683;&#x1693;&#x1688;&#x1691;</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunaqennas">ᚉᚒᚅᚐᚉᚓᚅᚅ<unclear reason="worn">ᚔ</unclear></name><w lemma="avi"><unclear reason="worn">ᚐ</unclear>ᚃ<gap reason="lost" extent="1" unit="character"/></w><name nymRef="#eluvetus">ᚔᚂᚃᚃᚓᚈᚑ</name></persName>
                 </ab>
                 </div>
                 <div type="edition" subtype="roman" xml:space="preserve">
@@ -158,9 +169,9 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 </ab>
                 </div>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <p></p>
-            </div>
+            </div>-->
             <!--<div type="translation" xml:lang="en">
                 <div type="textpart" n="1" resp="RED2007">
                 <p><title>Ogham</title>:[The stone of] <foreign xml:lang="pgl">Cunacennus</foreign>, descendant of <foreign xml:lang="pgl">Ilvvetus</foreign></p>
@@ -180,9 +191,10 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 </list>
                             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>
-                    <bibl><ptr target="RED2007"/><citedRange unit="page">242-4</citedRange></bibl>
+                    <bibl><ptr target="RED2007"/>
+                        <citedRange unit="page">242-4</citedRange>
+                    </bibl>
                 </listBibl>
              </div>
         </body>
