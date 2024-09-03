@@ -44,8 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ANS-001</idno>
-                 <idno type="CIIC"></idno>
-                <idno type="CISP"></idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -55,7 +55,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Scotland</country>
                         <repository>St Vigeans Museum</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/35586/st-vigeans"><idno type="Canmore">35586</idno></ref>
-                                    <material>sandstone</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/35586/st-vigeans"><idno type="Canmore">35586</idno></ref></p>
+                                    <material>Sandstone</material> 
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="cm">                                         
                                             <height>11</height>
                                             <width>26</width>
@@ -91,7 +91,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="town">Arbroath</placeName> <placeName type="parish">St Vigeans</placeName> <placeName type="county">Angus</placeName>
-                                <geo>56.576944, -2.590278</geo></origPlace>
+                                <geo>56.576944, -2.590278</geo>
+                            <note>NGR coordinates: NO 6384 4289</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1888">The first recording of the ogham inscription is a photo from the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS) collection taken in <date>2000</date> and published online on Canmore<ref target="https://canmore.org.uk/site/35586/st-vigeans"/>. The fragment of the slab was found during grave-digging in <date>1888</date> and was taken into the church (Geddes 2017, 183). In <date>1960</date>, it was removed and taken into St Vigeans Museum (Geddes 2017, 184). 
@@ -134,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-09" who="#LH">Encoded description and provenance</change>
     <change when="2024-07-11" who="#LH">Added spacing in support and edited provenance</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-03" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,15 +158,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <gap reason="lost" extent="unknown" unit="character"/>R<unclear>Ṛ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                      <item n="1"><p>Also known as St Vigean's 6.</p>
