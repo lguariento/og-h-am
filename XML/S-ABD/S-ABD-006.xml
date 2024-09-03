@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-006</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">DYCE/1</idno> <!--couldn't find it on CISP?-->
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -54,8 +54,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,13 +67,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/19466/dyce-saint-fergus-church-pictish-cross-slab-no-2"><idno type="Canmore">19466</idno></ref>
-                                    <material>granite</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/19466/dyce-saint-fergus-church-pictish-cross-slab-no-2"><idno type="Canmore">19466</idno></ref></p>
+                                    <material>Granite</material> 
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.4</height>
                                             <width>0.6</width>
-                                            <depth></depth>
+                                            <depth/>
                                      </dimensions>         
                                 </support>
                                 <condition>The left edge of the slab is cracked and a section from the bottom left is missing.</condition>
@@ -91,7 +91,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Dyce</placeName> <placeName type="county">Aberdeenshire</placeName>
-                                <geo>57.229167, -2.208333</geo></origPlace>
+                                <geo>57.229167, -2.208333</geo>
+                            <note>NGR coordinates: NJ 8752 1541</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">The ogham was not known until recently. The first record of the inscription is an illustration from <date>2004</date> as part of the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS) under catalogue number <idno type="invNo">SC 1080221</idno>. The slab itself was known before <date>1822</date>, as drawn for Archaeologia Scotia volume II (Stuart 1822, 314). It likewise seems to be recorded in the Old Statistical Account volume III from <date>1792</date> (Wilson, 1792, 131-2).
@@ -135,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-09" who="#LH">Edited edition</change>
     <change when="2024-07-11" who="#LH">Deleted incorrect tag for special characters in edition,replaced it with hi and g tags and added rs decoration to layout</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid Reference coordinates, closed unused elements and commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,15 +158,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     Ӿ<hi rend="babel_pictish_italic"><g ref="#angled_O"/><!-- angled O--></hi><hi rend="babel_pictish_bold"><g ref="#bound_T"></g>ṮṮ</hi><hi rend="babel_pictish_bold"><g ref="#hammerhead_A">A̱</g></hi><hi rend="babel_pictish_bold"><g ref="#bound_S">S̱S̱</g></hi><hi rend="babel_pictish_bold"><g ref="#hammerhead_A">A̱</g></hi>̱<hi rend="babel_pictish_bold"><g ref="#bound_R">Ṟ</g></hi>H<hi rend="babel_pictish_bold"><g ref="#bound_E">E̱</g></hi>T<hi rend="babel_pictish_bold"><g ref="forfid_OI">Oᴵ̱</g></hi><hi rend="babel_pictish_bold"><g ref="#bound_D">ḎḎ</g></hi>E<hi rend="babel_special"><g ref="#rabbit-eared_D"/>Ḏ̎</hi><hi rend="babel_pictish_bold"><g ref="#bound_D">Ḏ</g></hi><g ref="forfid_OI">Oᴵ</g><hi rend="babel_pictish_bold"><g ref="#bound_T">Ṯ</g></hi>SM<hi rend="babel_special"><g ref="#s-shaped_A"/>Aᶴ</hi>Q̱Q̱<hi rend="babel_pictish_bold"><g ref="#bound_R">Ṟ</g></hi><hi rend="babel_pictish_italic"><g ref="#angled_O"/><!-- angled O--></hi><hi rend="babel_pictish_bold"><g ref="#bound_G">G̱</g></hi><hi rend="babel_pictish_italic"><g ref="#angled_O"/><!-- angled O--></hi><hi rend="babel_pictish_bold"><g ref="#bound_D">ḎḎ</g></hi><hi rend="babel_pictish_bold"><g ref="#hammerhead_A">A̱</g></hi><hi rend="babel_special"><g ref="#rabbit-eared_D"/>Ḏ̱̎Ḏ̎</hi>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>Information about the stone and its analysis is limited due to the lack of publications.</p>
