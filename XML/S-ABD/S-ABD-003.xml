@@ -45,7 +45,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-003</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">FRMSN/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -55,8 +55,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                             
@@ -91,7 +91,8 @@ quadrant of a cross-slab which has fractured horizontally immediately under the 
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Aboyne</placeName> <placeName type="county">Aberdeenshire</placeName>
-                                <geo>57.090000, -2.758611</geo></origPlace>
+                                <geo>57.090000, -2.758611</geo>
+                            <note>NGR coordinates: NJ 5412 0014</note></origPlace>
                             <origDate>late eighth to early ninth century</origDate>
                         </origin>
                         <provenance type="found">A mention of the stone was first published in the Proceedings of the Society of Antiquaries of Scoland Journal by Lord Southesk (Southesk 1884, 186). The stone was found lying in the kirkyard at Formaston some time before <date>1874</date> and moved to the grounds of Aboyne Castle by <date>1883</date> (Forsyth 1996, 261). It was taken to Inverurie Museum in <date>1974</date> and thence to the Victory Hall, Aboyne (ibid).
@@ -132,6 +133,7 @@ quadrant of a cross-slab which has fractured horizontally immediately under the 
     <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
     <change when="2024-07-02" who="#LH">Encoded physical description, provenance and text</change>
     <change when="2024-07-25" who="#POC">Added paragraph to support to test database display and commented out unused sections</change>
+    <change when="2024-09-03" who="#POC">Added National Grid reference coordinates, closed unused elements, commented translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -163,9 +165,9 @@ quadrant of a cross-slab which has fractured horizontally immediately under the 
                 </app>
                 </listApp>
             </div>-->
-            <div type="translation" xml:lang="en">
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>The form of the cross and its decoration suggest that the slab dates between the late eighth and early ninth century, with the ogham inscription likely post-dating the breaking of the monument (Forsyth 1996, 278). Though the dating to the first two decades of the ninth century is most likely, according to Forsyth, she also commemorates that a date in the tenth century or later cannot be completely ruled out (ibid).</p>
