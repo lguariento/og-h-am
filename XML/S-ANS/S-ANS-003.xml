@@ -44,8 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ANS-003</idno>
-                 <idno type="CIIC"></idno>
-                <idno type="CISP"></idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -66,8 +66,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support>Canmore <ref target="https://canmore.org.uk/site/33412/monifieth"><idno type="Canmore">33412</idno></ref>
-                                    <material>sandstone</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                    <material>Sandstone</material> 
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.53</height>
                                             <width min="0.11" max="0.23">0.11-0.23</width>
@@ -89,7 +89,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Monifieth</placeName> <placeName type="county">Angus</placeName>
-                                <geo>56.480556, -2.821111</geo></origPlace>
+                                <geo>56.480556, -2.821111</geo>
+                            <note>NGR coordinates: NO 4953 3235</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">The first illustration of the ogham is by John Borland from <date>2009</date> as part of the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS) collection published online on Canmore <ref target="https://canmore.org.uk/site/33412/monifieth"/>. The stone was found re-used at the foot of the kirkyard wall in <date>1928</date> and given to the National Museum of Scotland (Richardson 1928, 226).
@@ -131,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-10" who="#LH">Encoded description, provenance and edition</change>
     <change when="2024-07-11" who="#LH">Added spacing in support and rs decoration in layout and corrected lb numbering</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-04" who="#POC">Added paragrph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,15 +152,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="2" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/> <!--how to encode inscription not verified? + encode wavy stem-line?-->
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>Also known as Monifieth 5</p>
