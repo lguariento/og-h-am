@@ -48,7 +48,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ARL-004</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">LOHED/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -58,8 +58,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -69,9 +69,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/318854/lochgoilhead-1"><idno type="Canmore">318854</idno></ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/318854/lochgoilhead-1"><idno type="Canmore">318854</idno></ref></p>
                                     <material>Fine-grained sandstone</material> 
-                                    <objectType>unclassified</objectType>                                     
+                                    <objectType>Unclassified</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.420</height>
                                             <width>160</width>
@@ -90,9 +90,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>
                                 <p>
-                                    The stem-line of the inscription is <height unit="cm">19.5</height> long, running parallel to the edge of the stone. The individual strokes are of varying lenght between <height unit="cm">2.0 and 3.5</height> and <width unit="cm">0.3 and 0.6</width>.The carving is as Forsyth observed <q>'course and scrappy, doubtless because of the intractability of the stone and the subsequent abuse the block has suffered.'</q> (1996,377).The begining and end of the inscription are badly worn making any reading of those portions uncertain.
+                                    The stem-line of the inscription is <height unit="cm">19.5</height> long, running parallel to the edge of the stone. The individual strokes are of varying length between <height unit="cm">2.0 and 3.5</height> and <width unit="cm">0.3 and 0.6</width>.The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>.The carving is as Forsyth observed <q>'course and scrappy, doubtless because of the intractability of the stone and the subsequent abuse the block has suffered.'</q> (1996,377).The begining and end of the inscription are badly worn making any reading of those portions uncertain.
                                 </p>
                             </handNote>
                         </handDesc>
@@ -102,6 +101,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace>Unknown</origPlace>
                                 <placeName type="parish">Lochgoilhead And Kilmorich</placeName> <placeName type="county">Argyll</placeName>
                                 <geo>56.171667, -4.903333</geo>
+                            <note>National Grid Reference: NN 19851 01461</note>
                             <origDate/><!--usually not known-->
                         </origin>
                         <provenance type="found">
@@ -134,7 +134,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
                     <term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
                 </keywords>
-            </textClass><!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+            </textClass>
+            <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
         </profileDesc>
         <revisionDesc status="draft">
             <listChange>
@@ -143,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
                 <change when="2024-07-10" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -166,15 +168,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <choice resp="#KF"><unclear cert="low">></unclear><unclear cert="low">H</unclear></choice>MUD<g ref="#s-shaped_M"/>ALI<unclear>DM</unclear>
                 </ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                <listApp>
                 <app>                    
                 </app>
                 </listApp>
-            </div>
-            <div type="translation" xml:lang="en">
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
