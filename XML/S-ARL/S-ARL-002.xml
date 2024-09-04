@@ -69,9 +69,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/39479/poltalloch"><idno type="Canmore">39479</idno></ref>
-                                    <material>sandstone</material> 
-                                    <objectType>pillar</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/39479/poltalloch"><idno type="Canmore">39479</idno></ref></p>
+                                    <material>Sandstone</material> 
+                                    <objectType>Pillar</objectType>                                     
                                     <dimensions unit="cm">                                         
                                             <height>25.4</height>
                                             <width>8.2</width>
@@ -94,9 +94,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>
                                 <p>
-                                  <q>' The ogham letters are carved along the arris of the slab in very fine, sharp strokes'</q> (Forsyth 1996,448). In general, their proportions are long and slim with a V-shaped profile.The way the strokes trail at their ends indicate confident cutting. The length of the strokes varies with each group. 
+                                  <q>' The ogham letters are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> along the arris of the slab in very fine, sharp strokes'</q> (Forsyth 1996,448). In general, their proportions are long and slim with a V-shaped profile.The way the strokes trail at their ends indicate confident cutting. The length of the strokes varies with each group. 
                                 </p>
                             </handNote>
                         </handDesc>
@@ -107,21 +106,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="parish">Kilmartin</placeName>
                                 <placeName type="county">Argyll and Bute</placeName>
                                 <geo>56.117500, -5.507222</geo>
+                                <note>National Grid Reference: NR 82068 97182</note>
                             </origPlace>
                              <origDate notBefore-custom="7th century" precision="low" evidence="post-apocope">
-                                 <q>'On the basis of the post-apocope form of the MAC, 
-this inscription should perhaps be dated 'considerably later than the beginning of the seventh century' 
-[McManus 1991:99 § 5.33].'</q> (Forsyth 1996,452).
+                                 <q>'On the basis of the post-apocope form of the MAC, this inscription should perhaps be dated 'considerably later than the beginning of the seventh century' [McManus 1991:99 § 5.33].'</q> (Forsyth 1996,452).
                              </origDate>
                         </origin>
-                        <provenance type="found" when="1931">
-                            <p>
-                                J. Hewat Craw discovered the ogham fragment on the ground close to the graves in 1931
-                            </p>
-                        </provenance>
-                        <provenance type="observed" when="2022">
-                            <p>06 May 2022 at NMS HPO470</p>
-                        </provenance>
+                        <provenance type="found" when="1931"><p>J. Hewat Craw discovered the ogham fragment on the ground close to the graves in 1931.</p></provenance>
+                        <provenance type="observed" when="2022"><p>06 May 2022 at NMS HPO470.</p></provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -160,6 +152,7 @@ this inscription should perhaps be dated 'considerably later than the beginning 
                 <change when="2024-07-09" who="#XS">Xenia Spanachi added and encoded further data, including the commentary section</change>
                 <change when="2024-07-10" who="#XS">Xenia Spanachi edited the transliteration and transcription to fit the updated reading spreadsheet</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-04" who="#POC">Added paragraph to support, added National Grid Reference, updated handNote by moving rs element around execution technique term, commented out apparatus and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -191,15 +184,15 @@ this inscription should perhaps be dated 'considerably later than the beginning 
                     <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
