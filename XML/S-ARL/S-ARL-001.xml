@@ -58,8 +58,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -69,9 +69,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/38529/gigha-cnoc-na-carraigh"><idno type="Canmore">38529</idno></ref>
-                                    <material>granite</material> 
-                                    <objectType>pillar</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/38529/gigha-cnoc-na-carraigh"><idno type="Canmore">38529</idno></ref></p>
+                                    <material>Granite</material> 
+                                    <objectType>Pillar</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.7</height>
                                             <width>0.25 at base, 0.20 at the top</width>
@@ -106,6 +106,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="parish">Gigha and Cara</placeName>
                                 <placeName type="county">Argyll</placeName>
                                 <geo>55.669722, -5.750278</geo>
+                                <note>NGR coordinates: NR 6426 4817</note>
                             </origPlace>
                             <origDate notBefore-custom="400" precision="low"/>
                             <origDate notAfter-custom="599" precision="low"/>
@@ -142,7 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term> 
                 </keywords>
             </textClass>
-           <creation>[...]</creation>
+           <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
         </profileDesc>
         <revisionDesc status="draft">
             <listChange>
@@ -152,6 +153,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-06" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-10" who="#XS">Xenia Spanachi updated apparatus section to include past alternative readings, fixed the citations to be outside the quote tag and updated the transcription and transliteration according to the updated spreadsheet</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, numbered and added notes to apparatus and commented out translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -183,37 +185,53 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                <listApp>
-                   <app>
+                   <app n="1">
+                       <note>Rhys (1899) read:</note>
                        <rdg resp="RHY1899">
                            <lb n="1" style="text-direction:up"/>
                            MAQICAGILEB
                        </rdg>
-                       <rdg resp="RHY1901">
+                   </app>
+                       <app n="2">
+                           <note>Rhys (1901, 18-23) read:</note>
+                           <rdg resp="RHY1901">
                            <lb n="1" style="text-direction:up"/>
                            OGMA MAQI TIGERNI
                        </rdg>
-                       <rdg resp="MAC1902">
+                       </app>
+                       <app n="3">
+                           <note>Macalister (1902) read:</note>
+                           <rdg resp="MAC1902">
                            <lb n="1" style="text-direction:up"/>
                            VICULA MAQ COMGINI
                        </rdg>
-                       <rdg resp="MAC1945">
+                       </app>
+                       <app n="4">
+                           <note>Macalister (1945, 484) read:</note>
+                           <rdg resp="MAC1945">
                            <lb n="1" style="text-direction:up"/>
                            VICULA MAQ CUGINI
                        </rdg>
-                       <rdg resp="DIA1926">
+                       </app>
+                       <!--<app n="5">
+                           <note>Diack (1926) read:</note>
+                           <rdg resp="DIA1926">
                            <lb n="1" style="text-direction:up"/>
                            VIDDOSAMO QOICOGINI
                        </rdg>
-                       <rdg resp="JAC1971">
+                       </app> Reference not in Zotero -->
+                       <!--<app n="6">
+                           <note>Jackson (1971, 96-97) read:</note>
+                           <rdg resp="JAC1971">
                            <lb n="1" style="text-direction:up"/>
-                           H[--]MAQt/cAGII/bb
+                           H[-\-]MAQt/cAGII/bb
                        </rdg>
-                   </app>
+                   </app> Reference not in Zotero -->
                </listApp>
             </div>
-            <div type="translation" xml:lang="en">
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
