@@ -48,7 +48,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ARL-003</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">DUNAD/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -58,8 +58,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -69,9 +69,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/212008/dunadd"><idno type="Canmore">212008</idno></ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/212008/dunadd"><idno type="Canmore">212008</idno></ref></p>
                                     <material>Pyritous slate, probably Easdale Slate</material> 
-                                    <objectType>rock-face</objectType>                                     
+                                    <objectType>Rock-face</objectType>                                     
                                     <dimensions unit="cm">
                                         <height>0.5</height>
                                             <dim type="diameter">4</dim>
@@ -105,6 +105,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="parish">Kilmichael Glassary</placeName>
                                 <placeName type="county">Argyll</placeName>
                                 <geo>56.085833, -5.478889</geo>
+                                <note>National Grid Reference: NR 83650 93560</note>
                             </origPlace>
                             <origDate notBefore-custom="8th century" precision="low" evidence="form of script"/>
                                 <p>Forsyth comments that the ogham inscription is comparable to the Bac Mhic Connain, and even more closely to that of Gurness which suggest that<q>'If the proposed reading is accepted then it precludes a date earlier than the eight century'</q> (1996,236).</p>
@@ -150,6 +151,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
                 <change when="2024-07-06" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, numbered and added notes on readings in apparatus, commented out translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -192,15 +194,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                <listApp>
-                <app> 
-                     <wit>Upper: HCSD[.]t[..]v[.](N/LV)H[.]T Lower: L[....]VQR(R/I)HMDNHQ (Jackson 1965)</wit>
-                     <wit>Upper: AESD[-]T[-]V[-](N/LV)A [-]T[V Lower: L [....]VIRR(H/A)MDNA (Padel 1972)</wit>
+                <app n="1"> 
+                    <note>Jackson (1965) read:</note>
+                     <rdg source="JAC1965">
+                         <lb/>Upper: HCSD[.]t[..]v[.](N/LV)H[.]T 
+                         <lb/>Lower: L[....]VQR(R/I)HMDNHQ
+                     </rdg>
                 </app>
-                </listApp>-->
+                   <app n="2">
+                       <note>Padel (1972) read:</note>
+                     <rdg source="PAD1972">
+                         <lb/>Upper: AESD[-]T[-]V[-](N/LV)A [-]T[V 
+                         <lb/>Lower: L [....]VIRR(H/A)MDNA 
+                     </rdg>
+                </app>
+                </listApp>
             </div>
-            <div type="translation" xml:lang="en">
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
