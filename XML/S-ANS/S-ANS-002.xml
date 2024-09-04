@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-10" who="#LH">Encoded transliteration and ogham</change>
     <change when="2024-07-12" who="#LH">Encoded layout and provenance</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -153,15 +154,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="2" style="text-direction:up"/>OLCMMI <!--how to encode inscription not verified?-->
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>Also known as Kirriemuir 2.</p>
