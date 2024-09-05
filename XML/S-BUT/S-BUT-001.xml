@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore<ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave"><idno type="canmore">39229</idno>King's Cave Drumadoon</ref>
+                                <support><p>Canmore<ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave"><idno type="canmore">39229</idno>King's Cave Drumadoon</ref></p>
                                     <material>Sandstone</material>
                                     <objectType>Cave Graffiti</objectType>
                                     <!--<dimensions unit="m">
@@ -80,7 +80,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </support>
                                 <condition>
                                     <p>
-                                        The cave is full of hill of natural fissures and copious graffiti, with sufficient weathering of the inscription. This condition of the stone does not rule out the possibility that letters have been lost from the beginning and end of this inscription (Forsyth 1996, 94-96).
+                                        The cave is full of natural fissures and copious graffiti, with sufficient weathering of the inscription. This condition of the stone does not rule out the possibility that letters have been lost from the beginning and end of this inscription (Forsyth 1996, 94-96).
                                     </p>
                                 </condition>
                             </supportDesc>
@@ -94,10 +94,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">Carved</rs>
                                 <p>
-                                   The stem line runs vertically between two patches of wear, the lower <height unit="cm">26</height>, the upper <height unit="cm">8.4</height>.
-Immediately afier the end of the upper patch there is a clear cross-stroke where the stem appears to end. There is a potential similar stroke below the lower patch, but not absolutely clear. These two end-strokes are about <dim type="length" unit="m">0.500</dim> apart. Nothing is visible in the upper patch of 
+                                   The stem line runs vertically between two patches of wear, the lower <height unit="cm">26</height>, the upper <height unit="cm">8.4</height>. The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. Immediately after the end of the upper patch there is a clear cross-stroke where the stem appears to end. There is a potential similar stroke below the lower patch, but not absolutely clear. These two end-strokes are about <dim type="length" unit="m">0.500</dim> apart. Nothing is visible in the upper patch of 
 wear, in the lower there may be traces of occasional strokes, but these are very faint (Forsyth 1996, 94).    
                                 </p>
                             </handNote>
@@ -109,6 +107,7 @@ wear, in the lower there may be traces of occasional strokes, but these are very
                             <placeName type="parish">Kilmory</placeName>
                             <placeName type="county">Bute</placeName>
                             <geo>55.526111, -5.353333</geo>
+                            <note>National Grid Reference: NR 8844 3092</note>
                         </origPlace>
                             <origDate notBefore-custom="600" precision="low" evidence="lettering">
                                     Represent examples of simple Type II inscriptions lacking the late features so they should be placed near the beginning of the Type II series. <q>'At best this 
@@ -121,7 +120,7 @@ as the Pool ogham (sixth century) or later than Dunadd (late eighth century?)'</
                             <q>' The animal and geometric carvings have been known since at least the end of the seventeenth century, but 
 the presence of ogham was not noticed until about <date>1968</date>'</q>(Forsyth 1996, 94).
                         </provenance>
-                        <provenance type="observed">In situ
+                        <provenance type="observed">In situ.
                             <q>'Kenneth Steer of the RCAHMS... visited 
 the cave... in <date>September 1971</date> to examine, measure, and draw the inscription.'</q>(Forsyth 1996, 94).
                         </provenance>
@@ -162,6 +161,7 @@ the cave... in <date>September 1971</date> to examine, measure, and draw the ins
                 <change when="2024-06-28" who="#XS">Xenia Spanachi updated all mm measurements to cm or m</change>
                 <change when="2024-07-10" who="#XS">Xenia updated transcription and transliteration according to new updated readings spreadsheet</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-05" who="#POC">Added paragraph to support and National Grid Reference details, closed unused elements, updated handNote, commented out apparatus and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -192,16 +192,16 @@ the cave... in <date>September 1971</date> to examine, measure, and draw the ins
                     <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <div type="apparatus">
-                <!--<listApp>
+            <!--<div type="apparatus">
+                <listApp>
                     <app>
                      
-                    </app>-->
-                <!--</listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                    </app>
+                <!-\-</listApp>-\->
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                 <list type="witDetail">
                     <item n="1">
