@@ -48,7 +48,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-BUT-002</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">BLFOO/2</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -58,8 +58,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -69,9 +69,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave"><idno type="Canmore">39229</idno>King's Cave, Drumadoon</ref>
-                                    <material>sandstone</material> 
-                                    <objectType>cave graffiti</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave"><idno type="Canmore">39229</idno>King's Cave, Drumadoon</ref></p>
+                                    <material>Sandstone</material> 
+                                    <objectType>Cave graffiti</objectType>                                     
                                     <!--<dimensions unit="m">
                                         <depth>37</depth>
                                         <width>9</width>
@@ -94,9 +94,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>
                                 <p>
-                                        Strokes and letters are widely spaced and vary in length.<q>'The strokes appear V-shaped in section and are slashed across the surface of the rock. Some strokes, especially to the right of the stem, seem exceptionally long'</q> (Forsyth 1996, 97).
+                                        The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. Strokes and letters are widely spaced and vary in length.<q>'The strokes appear V-shaped in section and are slashed across the surface of the rock. Some strokes, especially to the right of the stem, seem exceptionally long'</q> (Forsyth 1996, 97).
                                 </p>
                                 <height>Varies, with longer strokes to the right</height>
                             </handNote>
@@ -108,6 +107,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <placeName type="parish">Kilmory</placeName>
                             <placeName type="county">Bute</placeName>
                             <geo>55.526111, -5.353333</geo>
+                            <note>National Grid Reference: NR 8844 3092</note>
                         </origPlace>
                             <origDate notBefore-custom="600" precision="low" evidence="lettering">
                                     Represent examples of simple Type II inscriptions lacking the late features so they should be placed near the beginning of the Type II series. <q>'At best this 
@@ -119,7 +119,7 @@ as the Pool ogham <date>sixth century</date> or later than Dunadd <date>late eig
                         <provenance type="found" when="1992">
                             <q>'Though only a short distance away, the second ogham<name xml:id="S-BUT-002">Blackwaterfoot 2</name> was not discovered until <date>1992</date> by Ian Fisher of the RCAHMS'</q> (Forsyth 1996, 94).
                         </provenance>
-                        <provenance type="observed" when="1992">In situ
+                        <provenance type="observed" when="1992">In situ.
                             <p>
                               In <date>1992</date> Ian Fisher of the RCAHMS carried out further survey work of the cave which is also when he discovered Blackwaterfoot 2 (Forsyth 1996, 94).
                             </p>
@@ -160,6 +160,7 @@ as the Pool ogham <date>sixth century</date> or later than Dunadd <date>late eig
                 <change when="2024-06-27" who="#XS">Xenia Spanachi added and encoded further data, including information on layout, execution and provenance</change>
                 <change when="2024-07-10" who="#XS">Xenia Spanachi altered transcription and transliteration encodings to fit new updated readings spreadsheet</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-05" who="#POC">Added paragraph to support and National Grid Reference, updated handNote, closed unused elements, commented out apparatus and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -183,18 +184,18 @@ as the Pool ogham <date>sixth century</date> or later than Dunadd <date>late eig
                     VUEDLA
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
-                    <item n="1"><p>The divergence of the second stroke to the first letter raises the possibility possibility that it is two letters B and L</p>
+                    <item n="1"><p>The divergence of the second stroke to the first letter raises the possibility that it is two letters B and L</p>
                     </item>
                         <item n="2"><p><q>The name Vuedla calls to mind the uidlua, 'wise woman, witch' of the famous Gualish inscription from Larzac'</q> (Forsyth 1996,99).</p>
                     </item>
