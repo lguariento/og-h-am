@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-BUT-005</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">x</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -67,30 +67,32 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark"><idno type="Canmore">40268</idno>IS.36 SF717 (Inchmarnock find number)</ref>
-                                    <material>natural water-worn pebble</material> 
-                                    <objectType>slate</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark"><idno type="Canmore">40268</idno>IS.36 SF717 (Inchmarnock find number)</ref></p>
+                                    <material>Natural water-worn pebble</material> 
+                                    <objectType>Slate</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.120</height>
                                             <width>0.070</width>
-                                            <depth></depth>
+                                            <depth/>
                                      </dimensions>         
                                 </support>
                                 <condition><p>The stone has some minor scratches and fractures with some wear.</p></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>The stone is approximately of a rectangular shape, with face A accompanied by  two lines of Latin writing, while face B contains the ogham inscription of the first ten letters of the alphabet and a <rs type="decoration">cruciform, cirvilinear design and two intersecting lines terminating in spirals</rs>.</p></layout>
+                                <layout><p>The stone is approximately of a rectangular shape, with face A accompanied by two lines of Latin writing, while face B contains the ogham inscription of the first ten letters of the alphabet and a <rs type="decoration">cruciform, curvilinear design and two intersecting lines terminating in spirals</rs>.</p></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>The ogham inscription is incomplete, consisting of only the first ten letters of the alphabet on a drawn-in stemline running horizontally in the middle of the slab. The stem begins about <dim type="length" unit="m">0.010</dim> from the left edge with the end lost in the fractured top right corner. Forsyth and Tedeschi comment that the two inscriptions, latin and ogham, appear to have possibly been <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">Carved</rs> by the same hand. However there is not sufficient evidence to argue that the ogham inscription has not been added at a later date.The carver has managed to write the ogham in neatly parallel and equadistant individual strokes wuth the exception of the final stroke not reaching the stem. The care with which it was carved is consistent with it being a type of exercise. The letters of the H-group, as Forsyth and Tedeschi comment <q>'exhibit a consistent forward slope, ie their distal tips (furthest from the stem) are further forward (to the right) of their approximal tips'</q> with letters of the B-group slope on this same axis.</p>ThDescription of the ogham letters/characters including encoded execution/carving type (e.g. <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>), if known. <height>length of ogham stroke, if known</height>
+                            <handNote><p>The ogham inscription is incomplete, consisting of only the first ten letters of the alphabet on a drawn-in stemline running horizontally in the middle of the slab. The stem begins about <dim type="length" unit="m">0.010</dim> from the left edge with the end lost in the fractured top right corner. Forsyth and Tedeschi comment that the two inscriptions, latin and ogham, appear to have possibly been <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> by the same hand. However there is not sufficient evidence to argue that the ogham inscription has not been added at a later date.The carver has managed to write the ogham in neatly parallel and equidistant individual strokes with the exception of the final stroke not reaching the stem. The care with which it was carved is consistent with it being a type of exercise. The letters of the H-group, as Forsyth and Tedeschi comment <q>'exhibit a consistent forward slope, ie their distal tips (furthest from the stem) are further forward (to the right) of their approximal tips'</q> with letters of the B-group slope on this same axis.</p>
+                               <!-- <height>length of ogham stroke, if known</height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">North Bute</placeName> <placeName type="county">Bute</placeName>
-                                <geo>55.789444, -5.153611</geo></origPlace>
+                                <geo>55.789444, -5.153611</geo>
+                            <note>National Grid Reference: NS 02372 59635</note></origPlace>
                             <!--<note>additional info, e.g. approximate only</note>-->
                             <origDate notBefore-custom="7th Century" notAfter-custom="9th Century" evidence="paleography"/><p>Due to the paleography of other incised slates on the Inchmarnock area, Forsyth and Tedeschi comment that the ogham inscriptions are more readily placed within the same bracket of 7th to 9th century.</p>
                         </origin>
@@ -134,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi updated body to include ogham characters and transliteration</change>
                 <change when="2024-07-13" who="#XS">Updated to include further information such as dimensions, layout, handnote, condition and witness commentary</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-05" who="#POC">Added paragraph to support, added National Grid Reference details, corrected typos, deleted generic information leftover from template, closed unused elements, commented out apparatus and translation, added roman subtype for Latin inscription and added transliteration division to edition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -149,21 +152,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     ᚁᚂᚃᚄᚅᚆᚇᚈᚉ<unclear>ᚊ</unclear>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="roman" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/> Latin: ADEPTUS S(AN)C(TU)M PR[E]MIUM; AD[E]PTUS S(AN)C(TU)M PR[E]MIUM
+                    <lb n="1" style="text-direction:up"/>ADEPTUS S(AN)C(TU)M PR[E]MIUM; AD[E]PTUS S(AN)C(TU)M PR[E]MIUM
                         BLFSNHDTC<unclear>Q</unclear>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <div type="edition" subtype="transliteration" xml:space="preserve">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>BLVSNHDTC<unclear>Q</unclear>
+                </ab>
+            </div>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                    <item n="1">
