@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-CAI-001</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">ACKGL/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -67,7 +67,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/9243/ackergill-links"><idno type="Canmore">9243</idno></ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/9243/ackergill-links"><idno type="Canmore">9243</idno></ref></p>
                                     <material>Caithness flagstone</material> 
                                     <objectType>Class I Pictish symbol stone</objectType>                                     
                                     <dimensions unit="m">                                         
@@ -91,7 +91,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Wick</placeName> <placeName type="county">Caithness</placeName>
-                                <geo>58.478333, -3.119167</geo></origPlace>
+                                <geo>58.478333, -3.119167</geo>
+                            <note>National Grid Reference: ND 3483 5499</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1896-08">The stone was found in <date>August 1896</date> by John Nicholson on the links towards the south side of Keiss Bay (Allen 1903, 28). It was given to the National Antiquities Museum in <date>1897</date> (Allen 1903, 29).
@@ -133,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-10" who="#LH">Encoded dimensions, provenance and edition</change>
     <change when="2024-07-12" who="#LH">Encoded description and provenance</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-06" who="#POC">Added paragraph to support, National Grid Reference, closed unused elements, commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -154,15 +156,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName><name nymRef="#?">NEHTETR<app type="alternative"><lem>I</lem><rdg>EB</rdg></app></name></persName>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>The ogham inscription and the symbols can be considered contemporary (Forsyth 1996, 13). The symbols are placed slightly to the right to allow for the ogham and the carving technique employed is the same for both (ibid).</p>
