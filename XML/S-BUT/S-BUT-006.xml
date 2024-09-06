@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-BUT-006</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">x</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -69,13 +69,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark"><idno type="Canmore">40268</idno></ref>IS.76 SF1263 (Inchmarnock find number)
-                                    <material>natural water-worn pebble</material> 
-                                    <objectType>graffiti gaming board</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark"><idno type="Canmore">40268</idno></ref>IS.76 SF1263 (Inchmarnock find number)</p>
+                                    <material>Natural water-worn pebble</material> 
+                                    <objectType>Graffiti gaming board</objectType>                                     
                                     <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height/>
+                                            <width/>
+                                            <depth/>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
@@ -86,18 +86,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>Written on an irregular horizontal steml-line that gets cross-cut by a set of long parallel lines running vertically. Mostly clear with the first four letters and final letter intact, the middle portion produces doubtful reading. The stem begins <dim type="length" unit="m">0.060</dim> from the left, has a gap of about <dim type="length" unit="m">0.010</dim> before the first letter and a further <dim type="length" unit="m">0.010</dim> before the next letter. The third stroke appears <dim type="length" unit="m">0.012</dim> later and it is the first of, as Forsyth and Tedeschi coment <q>'a pair of long oblique strokes... angled at its mid-point whereas its partner is straight'</q>, the two are <dim type="length" unit="m">3</dim> apart at the stem and <dim type="length" unit="m">6</dim> at their distal tips. After a further gap of <dim type="length" unit="m">0.08</dim> there is another pair of oblique strokes, parallel to each other at <dim type="length" unit="m">0.03</dim> apart. Finally, the next letter touches the stem <dim type="length" unit="m">0.016</dim> from the preceding stroke's crossing of the stem, sloping towards one another. The rest from this point is very indistinct for around <dim type="length" unit="m">0.078</dim>. Following this is a group of four strokes below the stem. It is possible the stem conitnues beyond this but the stone is too abraded to tell. The final stroke is about <dim type="length" unit="m">0.085</dim> from the fractured edge.</p>
+                            <handNote><p>Written on an irregular horizontal stem-line that gets cross-cut by a set of long parallel lines running vertically. Mostly clear with the first four letters and final letter intact, the middle portion produces doubtful reading. The stem begins <dim type="length" unit="m">0.060</dim> from the left, has a gap of about <dim type="length" unit="m">0.010</dim> before the first letter and a further <dim type="length" unit="m">0.010</dim> before the next letter. The third stroke appears <dim type="length" unit="m">0.012</dim> later and it is the first of, as Forsyth and Tedeschi comment <q>'a pair of long oblique strokes... angled at its mid-point whereas its partner is straight'</q>, the two are <dim type="length" unit="m">3</dim> apart at the stem and <dim type="length" unit="m">6</dim> at their distal tips. After a further gap of <dim type="length" unit="m">0.08</dim> there is another pair of oblique strokes, parallel to each other at <dim type="length" unit="m">0.03</dim> apart. Finally, the next letter touches the stem <dim type="length" unit="m">0.016</dim> from the preceding stroke's crossing of the stem, sloping towards one another. The rest from this point is very indistinct for around <dim type="length" unit="m">0.078</dim>. Following this is a group of four strokes below the stem. It is possible the stem conitnues beyond this but the stone is too abraded to tell. The final stroke is about <dim type="length" unit="m">0.085</dim> from the fractured edge.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">North Bute</placeName> <placeName type="county">Bute</placeName>
-                                <geo>55.789444, -5.153611</geo></origPlace>
-                            <!--<note>additional info, e.g. approximate only</note>-->
+                                <geo>55.789444, -5.153611</geo>
+                            <note>National Grid Reference: NS 02372 59635</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found">2001-4
+                        <provenance type="found" when="2001-04">
                         </provenance>
                         <provenance type="observed">NMS X.HRE 690
                         </provenance>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi updated body to include ogham characters and transliteration</change>
                 <change when="2024-07-13" who="#XS">Updated to include further information such as dimensions, layout, handnote, condition and witness commentary</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-06" who="#POC">Added paragraph to support, National Grid Reference, closed unused elements, commented out apparatus and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -167,15 +168,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     GGAI<g ref="#forfid_X"/>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
