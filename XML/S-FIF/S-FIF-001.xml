@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-FIF-001</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">SCNIE/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/31328/scoonie"><idno type="Canmore">31328</idno></ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/31328/scoonie"><idno type="Canmore">31328</idno></ref></p>
                                     <material>Sandstone</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.06</height>
                                             <width>07</width>
@@ -96,7 +96,7 @@ occupying virtually the full ogham band'</q> (1996,486).
                         <origin>
                             <origPlace><placeName type="parish">Scoonie (Kirkcaldy)</placeName> <placeName type="county">Fife</placeName>
                                 <geo>56.203611, -2.994444</geo></origPlace>
-                            <!--<note>additional info, e.g. approximate only</note>-->
+                            <note>National Grid Reference: NO 3840 0167</note>
                             <origDate notBefore-custom="1750" evidence="workmanship"/>
                             <p>Forsyth speculates that <q>'its inferior workmanship and comparatively small size point to a date in the second half of the eighth century or later'</q> (1996,491).</p>
                         </origin>
@@ -143,6 +143,7 @@ occupying virtually the full ogham band'</q> (1996,486).
                 <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-04-06" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -164,15 +165,15 @@ occupying virtually the full ogham band'</q> (1996,486).
                     EDDARRNONN
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">

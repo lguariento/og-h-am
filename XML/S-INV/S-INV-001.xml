@@ -44,8 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-INV-001</idno>
-                 <idno type="CIIC"></idno>
-                <idno type="CISP"></idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/10054/north-uist-vallay-bac-mic-connain"><idno type="Canmore">10054</idno></ref>
-                                    <material>cetacean bone</material> 
-                                    <objectType>knife-handle</objectType>                                                            
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/10054/north-uist-vallay-bac-mic-connain"><idno type="Canmore">10054</idno></ref></p>
+                                    <material>Cetacean bone</material> 
+                                    <objectType>Knife-handle</objectType>                                                            
                                     <dimensions unit="cm" source="FOR1996">
                                             <height>10.8</height>
                                             <dim type="diameter">1.6</dim>
@@ -91,7 +91,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">North Uist</placeName>, <placeName type="county">Inverness-shire</placeName>
-                                <geo>57.659167, -7.419167</geo></origPlace>
+                                <geo>57.659167, -7.419167</geo>
+                            <note>National Grid Reference: NF 7694 7619</note></origPlace>
                             <origDate notBefore="0400" notAfter="0800" precision="low">fifth to eighth century</origDate>
                         </origin>
                         <provenance type="found" when="1919">Discovered in <date>1919</date> during Erskine Beveridge's excavation (Forsyth 1996, 55).
@@ -137,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-01" who="#LH">Encoded information about images and responsibility for 3D model</change>
     <change when="2024-07-11" who="#LH">Deleted orig tag and included spacing in edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-06" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -160,15 +162,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- double-check whether to include the lemma MAQQAS or not, please (given the O and Megan's blog analysis that O is more likely than A-->
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+           <!-- <div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>There is no obvious interpretation of this inscription and several readings could be suggested (Forsyth 1996, 61-5). Forsyth maintains that the three initial letters MAQ are very likely to stand for 'son' in Irish (Forsyth 1996, 62) and that, more generally, <q>'the text appears to be a single male personal name and as such probably records the identity of the owner or maker (or donor if it was given as a gift)'</q> (Forsyth 1996, 66).</p>
