@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-DGY-001</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">LONAW/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/60396/lochnaw"><idno type="Canmore">60396</idno></ref>
-                                    <material></material> 
-                                    <objectType>pillar</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/60396/lochnaw"><idno type="Canmore">60396</idno></ref></p>
+                                    <material/> 
+                                    <objectType>Pillar</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.420-0.540</height>
                                             <width>0.390</width>
@@ -88,8 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">Carved</rs>
-                                <p>Due to the condition of the fragmentary stone, there is speculation on the authenticity and validity of the inscriptions being of the ogham alphabet altogether. It is impossible to know how long the stem, which has been drawn-in, was originally, but currently as it stands it is <dim type="lenght" unit="m">0.390</dim> long. Forsyth, based on the clearer patches on the stone argues that the incisions where deeper, and that <q>'when first cut, the lines had a broad, V-shaped section</q> (1996, 521). A detailed description by Forsyth follows:
+                                <p>The inscriptions are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. Due to the condition of the fragmentary stone, there is speculation on the authenticity and validity of the inscriptions being of the ogham alphabet altogether. It is impossible to know how long the stem, which has been drawn-in, was originally, but currently as it stands it is <dim type="length" unit="m">0.390</dim> long. Forsyth, based on the clearer patches on the stone argues that the incisions where deeper, and that <q>'when first cut, the lines had a broad, V-shaped section</q> (1996, 521). A detailed description by Forsyth follows:
                                <list>
                                    <item> Stroke 1, is a long stroke of <dim type="length" unit="m">0.080</dim> perpendicularly across the stem</item>
                                    <item>Stroke 2, is a short stroke of <dim type="length" unit="m">0.045</dim> to the left of and perpendicular to the stem</item>
@@ -106,8 +105,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Leswalt</placeName> <placeName type="county">Dumfries and Galloway</placeName>
-                                <geo>54.912222, -5.137222</geo></origPlace>
-                            <!--<note>additional info, e.g. approximate only</note>-->
+                                <geo>54.912222, -5.137222</geo>
+                            <note>National Grid Reference: NW 99 62</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
                         <provenance type="found">
@@ -150,6 +149,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
                 <change when="2024-07-11" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-06" who="#POC">Added paragraph to support and National Grid Reference details, closed unused elements, commented out apparatus and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -173,15 +173,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
