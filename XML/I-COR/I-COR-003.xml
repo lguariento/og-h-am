@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO042-049002-</idno>.</p>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO042-049002-</idno></p>
                                     <material/> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="MAN2000">
@@ -83,8 +83,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11670">
-                                <placeName type="townland">Greenhill (<foreign xml:lang="ga">Plácas</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Greenhill (<ref target="https://www.logainm.ie/ga/11670"><foreign xml:lang="ga">Plácas</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.077602, -8.606835</geo>
                             <note>ITM Coordinates: 558399, 591925</note>
                             </origPlace>
@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-20" who="#NW">Updated rs features grooves in condition.</change>
     <change when="2024-07-30" who="#NW">Added paragraph to support around NMS, added ITM coords, closed empty tags and moved comment to apparatus.</change>     
     <change when="2024-08-20" who="#NW">Updated MUCOI lemma</change>
+    <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     
 </listChange>
 </revisionDesc>

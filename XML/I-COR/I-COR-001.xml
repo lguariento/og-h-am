@@ -61,7 +61,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO106-064----</idno>. An ogham inscription is recorded on the upright stone of a pair of standing stones (SMR ID: CO106-035----, the second lies prostrate 1.m to E). Macalister (1907, 31-7; 1945, 59) noted that there was a row of three stones here in <date>1879</date>, reduced to two by <date>1907</date>.</p> 
+                                    <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO106-064----</idno></p> 
                                     <material/> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="RON2009"> <!--check!-->
@@ -70,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.60</depth>
                                      </dimensions> 
                                 </support>
-                                <condition>The inscription was badly damaged some time after <date>1845</date> (Macalister 1945, 59). When examined by <persName>Fionnbarr Moore</persName> in the early <date>1980</date>s only traces of the final four letters of the inscription could be discerned and while these were quite vague they were undoubtedly ogham scores (Ronan 2009, 154).</condition>
+                                <condition>An ogham inscription is recorded on the upright stone of a pair of standing stones (SMR ID: CO106-035----, the second lies prostrate 1.m to E). Macalister (1907, 31-7; 1945, 59) noted that there was a row of three stones here in <date>1879</date>, reduced to two by <date>1907</date>. The inscription was badly damaged some time after <date>1845</date> (Macalister 1945, 59). When examined by <persName>Fionnbarr Moore</persName> in the early <date>1980</date>s only traces of the final four letters of the inscription could be discerned and while these were quite vague they were undoubtedly ogham scores (Ronan 2009, 154).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The inscription is found on the lower half of the stone on the right angle of the eastern face, and runs up from near the ground to a height of 1.1m.</layout>
@@ -83,8 +83,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/en/8558">
-                                <placeName type="townland">Coomleagh East (<foreign xml:lang="ga">An Com Liath Thoir</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Coomleagh East (<ref target="https://www.logainm.ie/en/8558"><foreign xml:lang="ga">An Com Liath Thoir</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.72827, -9.30337</geo>
                             <note>ITM Coordinates: 509969, 553646</note>
                             </origPlace>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-25" who="#NW">Added paragraph to support around NMS, added ITM coords, closed empty tags and updated support desc.</change>     
     <change when="2024-07-26" who="#NW">Updated support desc paragraph</change> 
     <change when="2024-08-20" who="#NW">Updated MUCOI lemma</change>
+    <change when="2024-09-09" who="#NW">Moved logainm ref and description detail to 'condition'.</change>
     
 </listChange>
 </revisionDesc>

@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO052-061002-</idno>.</p>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO052-061002-</idno></p>
                                     <material>Sandstone</material> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="RON2009">
@@ -81,8 +81,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9511">
-                                <placeName type="townland">Ballynabortagh (<foreign xml:lang="ga">Baile na bPórtach</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballynabortagh (<ref target="https://www.logainm.ie/ga/9511"><foreign xml:lang="ga">Baile na bPórtach</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.999912, -8.433859</geo></origPlace>
                             <note>ITM Coordinates: 570210, 583188</note>
                             <origDate/>
@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-01" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords.</change> 
     <change when="2024-08-06" who="#NW">Updated edition regarding MAQI- name.</change>  
     <change when="2024-08-21" who="#NW">Updated resp stmt regarding digitisation details</change>
+    <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     
 </listChange>
 </revisionDesc>

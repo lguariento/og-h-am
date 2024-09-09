@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO065-033----</idno>. One of two ogham stones reused in a souterrain.</p>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO065-033----</idno></p>
                                     <material/> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">                                         
@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.30</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The stone is quite rough and weathered, with lichen on the top section. The inscription is in fair condition, but worn.</condition>
+                                <condition>One of two ogham stones reused in a souterrain. The stone is quite rough and weathered, with lichen on the top section. The inscription is in fair condition, but worn.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>As Macalister noted, in its current position, the inscription is on the dexter angle of the SE face and, unusually, reads downwards.</layout>
@@ -83,8 +83,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/12562">
-                                <placeName type="townland">Glenawillin (<foreign xml:lang="ga">Gleann an Mhuilinn</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Glenawillin (<ref target="https://www.logainm.ie/ga/12562"><foreign xml:lang="ga">Gleann an Mhuilinn</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.969371, -8.179727</geo>
                             <note>ITM Coordinates: 587934, 579450</note>
                             </origPlace>
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-28" who="#NW">added source to dimensions and corrected image path</change>
     <change when="2024-07-21" who="NW">Updated provenance observed, handnote and added notes to apparatus (toggle commented for now)</change>
     <change when="2024-08-03" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords. Added ref to bibl.</change>
+    <change when="2024-09-09" who="#NW">Moved logainm ref and description detail to 'condition'.</change>
     
 </listChange>
 </revisionDesc>

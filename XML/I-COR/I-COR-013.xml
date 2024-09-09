@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO054-067----</idno>.</p>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO054-067----</idno></p>
                                     <material/> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m" resp="NW">
@@ -84,8 +84,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/12537">
-                                <placeName type="townland">Rathcobane (<foreign xml:lang="ga">Ráth Ghobáin</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Rathcobane (<ref target="https://www.logainm.ie/ga/12537"><foreign xml:lang="ga">Ráth Ghobáin</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.008924, -8.251918</geo>
                             <note>ITM Coordinates: 582705, 584120</note>
                             </origPlace>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-15" who="#NW">Added unicode ogham to edition</change>
     <change when="2024-07-21" who="#NW">Added detail to handnote</change>  
     <change when="2024-08-03" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords.</change>
+    <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     
 </listChange>
 </revisionDesc>

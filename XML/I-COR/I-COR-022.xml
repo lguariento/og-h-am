@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-001004-</idno>.</p> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-001004-</idno></p> 
                                     <material/> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">
@@ -82,8 +82,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9111">
-                                <placeName type="townland">Carhoovauler (<foreign xml:lang="ga">Ceathrú Bhaldair</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Carhoovauler (<ref target="https://www.logainm.ie/ga/9111"><foreign xml:lang="ga">Ceathrú Bhaldair</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.690842, -8.962643</geo>
                             <note>ITM Coordinates: 533446, 549155 </note>
                             </origPlace>
@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, replaced refs with ogham codes in provenance, deleted free text in bibliography, added ogham edition.</change>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image, updated condition, deleted note in objectType since it was already mentioned in condition.</change>
     <change when="2024-08-07" who="#NW">Updated details in support desc, edition and bibl.</change>
+    <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     
 </listChange>
 </revisionDesc>

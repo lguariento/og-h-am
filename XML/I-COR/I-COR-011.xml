@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO065-098----</idno>. An ogham stone reused as a lintel in a souterrain.</p>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO065-098----</idno></p>
                                     <material>Reddish sandstone?</material><!--Macalister: 'clay slate'--> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="#NW">
@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.20</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>According to Macalister (1945, 67), the height of the stone was 220cm (7 feet 2 inches) but only 209cm are currently accessible. Macalister also noted that the inscription on the dexter side (against the wall in it's current position) is <q>much flaked</q> and the <q>concluding letters are almost evanescent</q>. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets.</condition>
+                                <condition>One of two ogham stones reused in a souterrain. According to Macalister (1945, 67), the height of the stone was 220cm (7 feet 2 inches) but only 209cm are currently accessible. Macalister also noted that the inscription on the dexter side (against the wall in it's current position) is <q>much flaked</q> and the <q>concluding letters are almost evanescent</q>. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>There are two independent inscriptions on opposite sides of the ogham stone. Both inscriptions read upwards (Macalister 1945, 66).</layout>
@@ -83,8 +83,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/12562">
-                                <placeName type="townland">Glenawillin (<foreign xml:lang="ga">Gleann an Mhuilinn</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Glenawillin (<ref target="https://www.logainm.ie/ga/12562"><foreign xml:lang="ga">Gleann an Mhuilinn</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.969371, -8.179727</geo>
                             <note>ITM Coordinates: 587641, 579717</note>
                             </origPlace>
@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-15" who="#NW">Added unicode ogham to edition</change>
     <change when="2024-08-01" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords. Added ref to bibl.</change>
     <change when="2024-08-30" who="#NW">Updated condition re UCC conservation. Added further details to provenance and Power to bibl refs.</change>
+    <change when="2024-09-09" who="#NW">Moved logainm ref and description detail to 'condition'.</change>
 
 </listChange>
 </revisionDesc>

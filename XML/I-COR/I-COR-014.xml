@@ -60,8 +60,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO102-013----</idno>.</p> 
-                                    <material source="BRA1879b">Clay slate</material> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO102-013----</idno></p> 
+                                    <material source="BRA1879b">Clay slate</material><!--Fionnbarr? -->
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="POW1992">
                                             <height>4.70</height>
@@ -76,14 +76,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in clear, evenly-spaced strokes. The consonant strokes are on average <height>7cm</height> in length and <width>1cm</width> in width, with approximately 1.5-2cm between strokes. As pointed out by Macalister (1945, 71 and earlier Rhys), towards the end of the inscription, two of the characters (N and S) curve to the right away from the angle, as if the carver were having difficulty reaching high enough to position them properly.Macalister noted that <q>the letter N in TURANIAS is as a height of somewhere about to 10 ft. [<height unit="m">3m</height> measurement converted from Macalister] from the ground. Its scores leave the angle to cross the adjacent face of the stone, doubtless because the stance of the lapidary was not high enough to enable him to control his operations adequately. He heightened it - certainly by adding stones to a heap which he had piled up against the pillar - and could then cut the following IA correctly on to the angle; but with the final S he again fell short, and this letter also curves to the right</q> (1945, 71).
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in clear, evenly-spaced strokes. The consonant strokes are on average <height>7cm</height> in length and <width>1cm</width> in width, with approximately 1.5-2cm between strokes. As pointed out by Macalister (1945, 71 and earlier Rhys), towards the end of the inscription, two of the characters (N and S) curve to the right away from the angle, as if the carver were having difficulty reaching high enough to position them properly. Macalister noted that <q>the letter N in TURANIAS is as a height of somewhere about to 10 ft. [<height unit="m">3m</height> measurement converted from Macalister] from the ground. Its scores leave the angle to cross the adjacent face of the stone, doubtless because the stance of the lapidary was not high enough to enable him to control his operations adequately. He heightened it - certainly by adding stones to a heap which he had piled up against the pillar - and could then cut the following IA correctly on to the angle; but with the final S he again fell short, and this letter also curves to the right</q> (1945, 71).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/8780">
-                                <placeName type="townland">Faunkill and the Woods (<foreign xml:lang="ga">Fánchoill agus Na Coillte</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Faunkill and the Woods (<ref target="https://www.logainm.ie/ga/8780"><foreign xml:lang="ga">Fánchoill agus Na Coillte</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.712874, -9.944582</geo>
                             <note>ITM Coordinates: 465690, 552974</note>
                             </origPlace>
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, added idno elements for SMR numbers, added description for image.</change>
     <change when="2024-07-31" who="#POC">Added q element for quotation and corrected typo.</change>
     <change when="2024-08-07" who="#NW">Updated edition regarding MAQI- name.</change> 
+    <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     
 </listChange>
 </revisionDesc>
@@ -157,10 +158,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus"/>               
             
             <div type="translation">
-                <p>‘of Mac Deichet, descendant of Tornae’</p>
+                <p>‘of Mac-Deichet, descendant of Tornae’</p>
             </div>
             <div type="commentary">
-                <p>The person commemorated may be tentatively identified with a ‘<foreign xml:lang="ga">Mac Deched m. Cuirp m. Ai m. Tornai</foreign>’ in the <foreign xml:lang="ga">Uí Thornai</foreign> genealogies, where what appears to be an original feminine ancestor name (TURANIAS) is later masculinised. The name MAQI DECCEDDAS is quite frequently found in ogham inscriptions where there is some variation in the spelling of the name (MAQ(Q)I DEC(C)ED(D)A). This is the only example surviving with the final consonant intact and may be dated to the first half, or the early second half, of the fifth century (McManus 1991, 93, 97).</p>
+                <p>The person commemorated may be tentatively identified with a ‘<foreign xml:lang="ga">Mac-Deched m. Cuirp m. Ai m. Tornai</foreign>’ in the <foreign xml:lang="ga">Uí Thornai</foreign> genealogies, where what appears to be an original feminine ancestor name (TURANIAS) is later masculinised. The name MAQI DECCEDDAS is quite frequently found in ogham inscriptions where there is some variation in the spelling of the name (MAQ(Q)I DEC(C)ED(D)A). This is the only example surviving with the final consonant intact and may be dated to the first half, or the early second half, of the fifth century (McManus 1991, 93, 97).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
