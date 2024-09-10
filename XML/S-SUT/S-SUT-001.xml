@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-SUT-001</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">GOLPI/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -55,7 +55,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Scotland</country>
                         <repository>Dunrobin Castle Museum</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/6564/golspie"><idno type="Canmore">6564</idno></ref>
-                                    <material>purple (old red) sandstone</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/6564/golspie"><idno type="Canmore">6564</idno></ref></p>
+                                    <material>Purple (old red) sandstone</material> 
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.83</height>
                                             <width>0.82</width>
@@ -91,7 +91,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Golspie</placeName> <placeName type="county">Sutherland</placeName>
-                                <geo>57.975833, -3.968056</geo></origPlace>
+                                <geo>57.975833, -3.968056</geo>
+                            <note>National Grid Reference: NC 8370 0020</note></origPlace>
                             <origDate notBefore="0750">middle of the eighth century or later</origDate>
                         </origin>
                         <provenance type="found">The ogham inscription was recognised by J by Stuart in <date>1856</date> (Stuart 1856, 12). The slab itself was first recorded by Cordiner in <date>1776</date> in the graveyard at Golspie, where it had been re-used as a recumbent graveslab sometime before the middle of the eighteenth century, likely in the seventeenth century (Forsyth 1996, 299). In <date>1868</date> the slab was taken to Dunrobin Castle Museum (ibid). 
@@ -133,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-17" who="#LH">Encoded provenance and description</change>
     <change when="2024-07-18" who="#LH">Edited provenance and description and encoded edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements and commented out sections without content</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -161,15 +163,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <unclear reason="worn">Ṛ</unclear>RC<gap reason="lost" quantity="1" unit="character"/><choice><unclear>N</unclear><unclear>R</unclear></choice><choice><unclear>N</unclear><unclear>R</unclear></choice>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p><q>'From an art historical perspective, the Golspie slab is of interest because it appears to reflect a transitional period between the purely incised monuments of the earlier period and the higher relief of the later'</q>(Forsyth 1996, 302).</p>
