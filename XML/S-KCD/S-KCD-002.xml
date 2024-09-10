@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-KCD-002</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">FORDN/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -54,8 +54,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -69,9 +69,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/36458/auchenblae-fordoun-parish-church-fordoun-stone"><idno type="Canmore"></idno>36458</ref>
-                                    <material>red sandstone</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/36458/auchenblae-fordoun-parish-church-fordoun-stone"><idno type="Canmore"></idno>36458</ref></p>
+                                    <material>Red sandstone</material> 
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.5</height> <!--double-check dimensions, please, sources vary slightly-->
                                             <width>0.84</width>
@@ -93,7 +93,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Fordoun</placeName> <placeName type="county">Kincardineshire</placeName>
-                                <geo>56.896111, -2.451111</geo></origPlace>
+                                <geo>56.896111, -2.451111</geo>
+                            <note>National Grid Reference: </note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1822">The ogham inscription was first noticed in the late twentieth century. Rhys is the first to mention an ogham inscription in connection with the slab in <date>1898</date>, but indicates the transliteration of the second inscription instead, casting some doubt on the recognition (Rhys 1898, 380). The stone was found in the late eighteenth century, re-used horizontally as the base for the pulpit in the old parish church, and was subsequently placed in St Palladius Chapel, in the churchyard of Fourdon (Stuart 1856, 20). An illustration of the stone is provided by John Stuart in <date>1822</date>, missing the top and with the right-hand portion having flaked away (Stuart 1822, 314). <!--The missing surface was restored in concrete sometime before <date>1848</date>, and the slab was fixed to the wall inside St Palladius Chapel probably in <date>1872</date> when the chapel itself was restored. In <date>1966</date> it was moved into the adjacent parish church. --> <!--Sorry, I could not trace the sourcing of this apart from Canmore :( (it is not in Fraser 2008, Allen 1903 or Stuart 1822, which are the three sources listed-->
@@ -134,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
     <change when="2024-07-15" who="#LH">Encoded description, provenance and edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements and commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -161,15 +163,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">O!</unclear>VV<gap reason="lost" extent="unknown" unit="character"/>QM<gap reason="lost" extent="unknown" unit="character"/>C<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>Information about the ogham inscription is limited due to a lack of publications.</p>
