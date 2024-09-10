@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-PER-L02</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">x</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -56,8 +56,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/27998/abernethy-churchyard"><idno type="Canmore">27998</idno></ref>
-                                    <material>sharp silicious grit</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/27998/abernethy-churchyard"><idno type="Canmore">27998</idno></ref></p>
+                                    <material>Sharp silicious grit</material> 
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.48</height>
                                             <width>0.33</width>
@@ -89,21 +89,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <handDesc>
                             <handNote>
                                 <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>
-                                <p>The lines have been described by Southesk as scratches though some parts appear to be chiselled. The stem-line is drawn-in horizontally at exactly <dim type="length" unit="feet">1</dim> foot and as straight as the run of a ruler.</p>                             </handNote>
+                                <p>The lines have been described by Southesk as scratches though some parts appear to be chiselled. The stem-line is drawn-in horizontally at exactly <dim type="length" unit="feet">1</dim> foot and as straight as the run of a ruler.</p>                             
+                            </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName>
-                                <geo>56.333056, -3.311668</geo></origPlace>
-                            <!--<note>additional info, e.g. approximate only</note>-->
+                                <geo>56.333056, -3.311668</geo>
+                            <note>National Grid Reference: NO 190 164</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
                         <provenance type="found" when="1895-01-30">
                             <p>The stone was discovered on <date>Tuesday 29th of January 1895</date> by the sexton of the Abernethy church while a grave digging was taking place, just north of the ruins.</p>
                         </provenance>
                         <provenance type="observed">
-                            <p><q>'The stone was sent for inspection to the Museum of Antiquities in Edinbrugh, where, owing to peculiarities...doubts arose as to the character of its inscriptions'</q> (12).</p>
+                            <p><q>'The stone was sent for inspection to the Museum of Antiquities in Edinburgh, where, owing to peculiarities...doubts arose as to the character of its inscriptions'</q> (12).</p>
                         </provenance>
                     </history>
                 </msDesc>
@@ -139,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
                 <change when="2024-07-12" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements and commented out sections that had no content</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -168,15 +170,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <g ref="#angled_E"/>:BDG
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
