@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-PER-003</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">INCHY/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -68,7 +68,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/28250/st-madoes-inchyra-stone"><idno type="Canmore">28250</idno></ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/28250/st-madoes-inchyra-stone"><idno type="Canmore">28250</idno></ref></p>
                                     <material>Fine grained local Sandstone, mica-rich, containing both biotite and muscovite</material> 
                                     <objectType>Class I Pictish symbol stone</objectType>                                     
                                     <dimensions unit="m">                                         
@@ -103,8 +103,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">St Madoes</placeName> <placeName type="county">Perthshire</placeName>
-                                <geo>56.376111, -3.312500</geo></origPlace>
-                            <!--<note>additional info, e.g. approximate only</note>-->
+                                <geo>56.376111, -3.312500</geo>
+                            <note>National Grid Reference: NO 1904 2120</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
                         <provenance type="found" when="1945-02-19">
@@ -146,7 +146,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
                 <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
-                <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding</change>
+                <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details, closed unused elements and commented out apparatus and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -197,15 +198,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <app type="alternative"><lem>S</lem><rdg>N</rdg></app>ET<choice resp="#KF"><unclear>U</unclear></choice>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
