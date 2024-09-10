@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-MOR-001</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">BROD/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -54,8 +54,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                             
@@ -66,9 +66,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/15529/brodie-rodneys-stone"><idno type="Canmore">15529</idno></ref>
-                                    <material>grey sandstone</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/15529/brodie-rodneys-stone"><idno type="Canmore">15529</idno></ref></p>
+                                    <material>Grey sandstone</material> 
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height min="1.875" max="1.905">1.875-1.905</height>
                                             <width min="0.95" max="1.05">0.95-1.05</width>
@@ -90,7 +90,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Dyke and Moy</placeName> <placeName type="county">Moray</placeName>
-                                <geo>57.597500, -3.701111</geo></origPlace>
+                                <geo>57.597500, -3.701111</geo>
+                            <note>National Grid Reference: NH 9842 5766</note></origPlace>
                             <origDate cert="low">850</origDate>
                         </origin>
                         <provenance type="found" when="1781">The ogham inscription was first noted by Lord Southesk in <date>1885</date> (Southesk 1886, 14). The stone was found in <date>1781</date> in the old churchyard during digging for the foundations of a new parish church at Dyke (Forsyth 1996, 139). It was set up first in Dyke village and sometime before <date notAfter="1842">1842</date> it was moved to the grounds of Brodie Castle (ibid). It had been re-used as a recumbent grave-slab, probably in the early eighteenth century; <q>'on the front face two recessed panels were cut into the interlace designs either side of the cross-shaft, and two pairs of initials incised'</q> (Forsyth 1996, 140).
@@ -133,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-16" who="#LH">Edited description and provenance and encoded edition and language</change>
     <change when="2024-07-17" who="#LH">Encoded image</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -163,15 +165,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <unclear reason="ambiguous">S!</unclear>ON<choice><unclear>S</unclear><unclear>N</unclear></choice><unclear reason="damage">Ẹ</unclear>LCC<hi rend="babel_pictish_italic"><g ref="#angled_O"><!--angled O--></g></hi><gap reason="lost" extent="unknown" unit="character"/>            
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>The slab is also known as Rodney's Stone (Forsyth 1996, 139).</p>
