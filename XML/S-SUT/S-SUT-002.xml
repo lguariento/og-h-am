@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-SUT-002</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">LARON/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/8144/latheron"><idno type="Canmore">8144</idno></ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/8144/latheron"><idno type="Canmore">8144</idno></ref></p>
                                     <material>Caithness sandstone</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.90</height>
                                             <width>0.43</width>
@@ -91,7 +91,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Latheron</placeName> <placeName type="county">Sutherland</placeName>
-                                <geo>58.279722, -3.369167</geo></origPlace>
+                                <geo>58.279722, -3.369167</geo>
+                            <note>National Grid Reference: ND 1981 3315</note></origPlace>
                             <origDate cert="low">ninth century</origDate>
                         </origin>
                         <provenance type="found" when="1903">The ogham was first published in <date>1904</date> in the Proceedings of the Society of Antiquaries of Scotland (Anderson 1904, 534). The stone was found by John Nicholson in <date>1903</date> in the interior face of the wall of an old byre and was taken to the National Antiquities Museum in <date>1905</date> (Forsyth 1996, 360). 
@@ -131,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
     <change when="2024-07-18" who="#LH">Encoded provenance, description and edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements and commented apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,15 +154,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B!</unclear> <persName><name nymRef="#?">DU<unclear reason="damage">Ṇ</unclear>NODNNA<!--this is a hammer-head A in Katherine's thesis...?-->T</name></persName> <w lemma="MAQQAS">MAQQ</w> <persName><name nymRef="#?">NA<gap reason="lost" quantity="1" unit="character"/>T<unclear reason="ambiguous">U!</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>The carving is rather worn towards the top and a fracture occurs part way through a letter. According to Forsyth, it seems very likely that the inscription continued at least a little longer given the extant text (Forsyth 1996, 364).</p>
