@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-PER-004</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">x</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -56,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
+                        <repository/>
                         <idno type="invNo"></idno>
                     </msIdentifier>
                     <msContents>
@@ -69,32 +69,33 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/24167/duncroisk"><idno type="Canmore">24167</idno></ref>
-                                    <material></material> 
-                                    <objectType>rock-face graffiti</objectType>                                     
-                                    <dimensions unit="m">                                         
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/24167/duncroisk"><idno type="Canmore">24167</idno></ref></p>
+                                    <material/> 
+                                    <objectType>Rock-face graffiti</objectType>                                     
+                                    <!--<dimensions unit="m">                                         
                                             <height></height>
                                             <width></width>
                                             <depth></depth>
-                                        <!--<dim type="diameter">if circular, etc</dim>-->
-                                     </dimensions>         
+                                        <!-\-<dim type="diameter">if circular, etc</dim>-\->
+                                     </dimensions>-->         
                                 </support>
-                                <condition>Any damage to the stone/object</condition>
+                                <!--<condition>Any damage to the stone/object</condition>-->
                             </supportDesc>
-                            <layoutDesc>
+                            <!--<layoutDesc>
                                 <layout>Description of the layout of the inscription on the stone/object</layout>
-                            </layoutDesc>
+                            </layoutDesc>-->
                         </objectDesc>
-                        <handDesc>
-                            <handNote>Description of the ogham letters/characters including encoded execution/carving type (e.g. <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>), if known. <height>length of ogham stroke, if known</height>
+                        <!--<handDesc>
+                            <handNote>Description of the ogham letters/characters including encoded execution/carving type (e.g. <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>), if known. 
+                                <height>length of ogham stroke, if known</height>
                             </handNote>
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Killin</placeName> <placeName type="county">Perthshire</placeName>
-                                <geo>56.496944, -4.385556</geo></origPlace>
-                            <!--<note>additional info, e.g. approximate only</note>-->
+                                <geo>56.496944, -4.385556</geo>
+                            <note>National Grid Reference: NN 5325 3641</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
                         <provenance type="found">Duncroisk first mentioned 1950/1952, though ogham not yet confirmed
@@ -136,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi updated body to include ogham characters and transliteration</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements, commented out sections that have no content</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -157,15 +159,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     LA<unclear>O</unclear>D
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p></p>
@@ -175,7 +177,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
-                     <citedRange>page numbers</citedRange>
+                     <citedRange><!--page numbers--></citedRange>
                      </bibl>
                  </listBibl>
             </div>
