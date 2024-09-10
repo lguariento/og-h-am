@@ -44,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-KCD-001</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">AUQUH/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -54,8 +54,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/37143/auquhollie-lang-stane"><idno type="Canmore">37143</idno></ref>
-                                    <material>quartzose gneiss</material> 
-                                    <objectType>menhir</objectType>                                     
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/37143/auquhollie-lang-stane"><idno type="Canmore">37143</idno></ref></p>
+                                    <material>Quartzose gneiss</material> 
+                                    <objectType>Menhir</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>2.35</height>
                                             <width>0.7</width> <!--check width and depth, please. Katherine's thesis indicated 0.43 x 0.66 x 0.7 at base-->
@@ -91,7 +91,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Fetteresso</placeName> <placeName type="county">Kincardineshire</placeName>
-                                <geo>57.008056, -2.292500</geo></origPlace>
+                                <geo>57.008056, -2.292500</geo>
+                            <note>National Grid Reference: NO 82326 90797</note></origPlace>
                             <origDate cert="low">fifth to seventh century</origDate>
                         </origin>
                         <provenance type="found" when="1886">The presence of an ogham inscription was noted in <date>1886</date> by  Rev. John G. Michie, of Dinnet, Aberdeenshire (Southesk 1886, 37).
@@ -132,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-12" who="#LH">Encoded description, provenance and edition</change>
     <change when="2024-07-15" who="#LH">Edited description, provenance and edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+    <change when="2024-09-10" who="#POC">Added paragraph to support and National Grid Reference details, closed unused elements, commented out apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -151,15 +153,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="2" style="text-direction:up"/>VUENON<unclear>ỊẸ</unclear>TEDOVU<unclear>ṚỊ</unclear>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1"><p>As a Type I pillar, the Auquhollie ogham could be expected to be an Irish-language text representing Irish names; however, this is complicated by its geogrpahical location within sight of the eastern coast of Pictland (Forsyth 1996, 48). Even if the names were Pictish; however, <q>'the orthography would have to have been derived from Irish ogham, and so an Irish aspect would be inevitable'</q> (Forsyth 1996, 51).</p> 
