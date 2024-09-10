@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-PER-001</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">ABNTY/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support>Canmore <ref target="https://canmore.org.uk/site/27926/abernethy-churchyard-ogam-stone"><idno type="Canmore">27926</idno></ref>
+                                <support><p>Canmore <ref target="https://canmore.org.uk/site/27926/abernethy-churchyard-ogam-stone"><idno type="Canmore">27926</idno></ref></p>
                                     <material>Old Red Sandstone</material> 
-                                    <objectType>cross-slab</objectType>                                     
+                                    <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.360</height>
                                             <width>0.200-0.230</width>
@@ -93,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <list>
                                         <item> First letter has individual strokes raging from <dim type="length" unit="m">0.035-0.040</dim> with even spacing between strokes of total <width unit="m">0.065</width></item>
                                         <item>Second letter has one long <dim type="length" unit="m">0.050</dim> stroke, sloping forwards</item>
-                                        <item> Third letter has five long strokes, bound and perpendicular across the stem, of <dim type="length" unit="m">0.052</dim> individual strokes, with even spacing surmounting to <width unit="m">0.055</width> total (1996,8).</item>
+                                        <item>Third letter has five long strokes, bound and perpendicular across the stem, of <dim type="length" unit="m">0.052</dim> individual strokes, with even spacing surmounting to <width unit="m">0.055</width> total (1996,8).</item>
                                     </list>
                                     (1996,8)
                                 </p>
@@ -103,8 +103,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName>
-                                <geo>56.333056, -3.311667</geo></origPlace>
-                            <!--<note>additional info, e.g. approximate only</note>-->
+                                <geo>56.333056, -3.311667</geo>
+                            <note>National Grid Reference: NO 1900 1641</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
                         <provenance type="found" when="1890">
@@ -147,6 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
                 <change when="2024-07-11" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
+                <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -172,15 +173,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
-            <div type="translation" xml:lang="en">
+                </listApp>
+            </div>-->
+            <!--<div type="translation" xml:lang="en">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
