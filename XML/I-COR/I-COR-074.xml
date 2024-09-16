@@ -142,16 +142,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app></app>
-                </listApp>-->
+                <listApp>
+                <app n="1"><note>Macalister (1945, 120) read: </note>
+                    <rdg source="MAC1945">
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqi-bri">MAQI-BRI<gap reason="lost" extent="unknown" unit="character"/></name><w type="formula" lemma="celi">CELI</w> <name nymRef="#">ALACA<gap reason="lost" extent="unknown" unit="character"/></name></persName> 
+                    </rdg>
+                </app>
+                </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="HAR1939"/>
