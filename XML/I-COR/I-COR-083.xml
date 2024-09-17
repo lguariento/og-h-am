@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Shanacloon (An tSeanchluain) 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-COR-083</idno>
+                 <idno type="CIIC">131</idno>
+                <idno type="CISP">GLEBE/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO058-039001-</idno></p> 
+                                    <material/> 
+                                    <objectType>Pillar <note>(on ESE side of cairn)</note></objectType> 
+                                     <dimensions unit="m" source="MAC1945">
+                                            <height>1.09</height>
+                                            <width>0.20</width>
+                                            <depth>0.18</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>An upright stone with packing stones at the base. The inscription is <q>much worn and chipped</q> (Macalister 1945, 129). As Macalister described, <q>the sinister angle is chipped away, leaving nothing but the vowels</q> and <q>no trace of lettering survives on the B-surface of the second angle</q> (ibid.)</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Two angles of the stone are inscribed. The inscription runs up one edge and down another.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--<handDesc>
+                            <handNote><height></height>
+                            </handNote>
+                        </handDesc>-->
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Shanacloon (<ref target="https://www.logainm.ie/ga/11382"><foreign xml:lang="ga">An tSeanchluain</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <geo>51.935250, -9.152940</geo><note>(approx)</note>
+                            <note>ITM Coordinates: 520703 , 576557</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1879">Discovered by 1879, located on the ESE side of the cairn. One of three ogham stones (I-COR-085, I-COR-084) flanking a low cairn which marks a penitential station (<idno type="SMR">CO058-039002-</idno>). According to tradition there were once four ogham stones here.
+                        </provenance>
+                        <provenance type="observed">In situ
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-09-17" who="#POC">Added and encoded information, including edition</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-COR/I-COR-083-MAC1945-130-Shanacloon.jpg"><desc>Drawing by Macalister (1945, 130)</desc></graphic>
+        <media url="https://sketchfab.com/3d-models/an-tseancluain-i-ogham-stone-44243f0d84364e9083948b055ad81e5b" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#litubiri">ᚂᚔᚈᚒᚁᚔᚏᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#qecia">ᚊᚓᚉᚔᚐ</name></persName> 
+            </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#litubiri">LITUBIRI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#qecia">QECIA</name></persName> 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+                    <note>Macalister (1945, 129) gave the inscription as: </note>
+                    <rdg>
+                        <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#litubiri">LITUBIRI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#qecia">QECIA</name></persName>
+                    </rdg>
+                </app>
+                    <app n="2">
+                        <note>O'Kelly (1952, 38, n24) confirms the initial name but records that the rest is faint. (Power et al. 1997, no. 7987)</note>
+                    </app>
+                </listApp>
+            </div>
+            <!--<div type="translation">
+                <p></p>
+            </div>-->
+            <!--<div type="commentary">
+                <p></p>
+            </div>-->
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>129-30</citedRange>
+                    </bibl>
+                     <bibl><ptr target="OKE1952"/>
+                     <citedRange>38</citedRange>
+                     </bibl>
+                     <bibl><ptr target="POW1997"/>
+                         <citedRange>no. 7987</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
