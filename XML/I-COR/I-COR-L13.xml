@@ -7,9 +7,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Barryscourt Castle</title>
+                <title>Knockyrourke</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <!-- <editor>Add name, id etc here</editor>-->
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
@@ -25,6 +27,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
                     <name></name>
                      <orgName></orgName>
                 <resp><!--3d recording, technique and software used--></resp>
@@ -32,9 +38,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
-                <idno type="filename">I-COR-099</idno>
-                 <idno type="CIIC"></idno>
-                <idno type="CISP"></idno>
+                <idno type="filename">I-COR-068</idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -43,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,20 +60,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>grafitti</term>--> National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">CO075-018001- </ref>
-                                    <material></material> 
-                                    <objectType>on chapel wall of the fourteenth-century Barryscourt Castle</objectType> 
-                                     <dimensions unit="m">
-                                         <dim></dim>
-                                           <!-- <height></height>
-                                            <width></width>
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO050-155----</idno></p>
+                                    <material/> 
+                                    <objectType>Small pillar</objectType> 
+                                     <dimensions unit="m" source="MAC1906">
+                                            <height>0.93</height>
+                                            <!--<width></width>
                                             <depth></depth>-->
                                      </dimensions>                                   
                                 </support>
-                                <condition/>
+                                <condition>The inscription on the stone is much worn.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout>The inscription is found on one angle of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -77,23 +82,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/...">
-                                <placeName type="townland">Barryscourt</placeName>, <placeName type="county">Co. Mayo</placeName>
-                                <geo>51.904761, -8.259595 (approx)</geo></origPlace>
-                            <origDate></origDate>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Knockyrourke (<ref target="https://www.logainm.ie/ga/11394"><foreign xml:lang="ga">Cnoc Uí Ruairc</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <geo>46.488181 , -15.817314</geo>
+                            <!--<note>ITM Coordinates: 0,0</note>--></origPlace>
+                            <origDate/>
                         </origin>
-                        <provenance type="found">Fionnbarr Moore, ‘The ogham inscriptions’ in David Pollock, Barryscourt Castle, Co. Cork: archaeology, history and architecture (Dublin, 2017), pp 278–279.
+                        <provenance type="found" when="1906">The location of the stone is described (Condon, 1916, 142) as <q>'in the third or fourth field at the left side of the road when going from Stuake to Barrahaurin'</q>. 
                         </provenance>
-                        <provenance type="observed">in situ
+                        <provenance type="observed">The stone is currently unlocated.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -109,18 +112,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
 </textClass>
    <!-- <creation>Transcription from previous editor.</creation>-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
-
+<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-09-11" who="#POC">Added and encoded information, including edition.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -130,27 +131,37 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     </facsimile>    
     <text>
         <body>
-            <div type="edition" xml:space="preserve">
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/>ᚒᚂᚋᚐᚁᚔ 
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1"/>ULMABI
                 </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app></app>
-                </listApp>-->
+                <listApp>
+                <app n="1">
+                    <note>At a later date Macalister re-examined the stone and concluded <q>'that the apparent scores upon it are illusionary</q> and withdrew it from the record (145, 116).</note>
+                </app>
+                </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
-                     <bibl><!--<ptr target="#MAC1945"/>Macalister 1945
-                        <citedRange>9-10</citedRange>-->
+                     <bibl><ptr target="MAC1906"/>
+                        <citedRange>261</citedRange>
                     </bibl>
+                     <bibl><ptr target="POW1997"/>
+                     <citedRange>no. 7995</citedRange>
+                     </bibl>
                 </listBibl>
             </div>
         </body>
