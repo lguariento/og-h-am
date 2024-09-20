@@ -60,38 +60,36 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007006-</idno></p> 
-                                    <material/> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007006-</idno></p> 
+                                    <material source="BAR1891">Clay Slate?</material>
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/>
-                                           <!-- <height></height>
-                                            <width></width>
-                                            <depth></depth>-->
+                                     <dimensions unit="m" source="BAR1891">
+                                            <height>1.83</height>
+                                            <width>0.56</width>
+                                            <depth>0.30</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain.</condition>
+                                <condition>Reused in a souterrain, where it is presumably still in situ but inaccessible.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout/>
+                                <layout>According to Barry (1891, 521), beginning 30 inches (76cm) from the bottom, the inscription then <q>'turns the left at the top of the stone, and ends at the top left hand corner of the circumscribed face of the stone'</q>. Rhys and Rev. B. McCarthy (Barry 1891, 533) also noted further ogham strokes (the last three letters) on the back of the top of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote/>
-                            
+                            <handNote/>                            
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
-                                <placeName type="townland">Ballyknock North</placeName> (<foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyknock North (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
-                            <note>ITM Coordinates: 594327 , 586954</note></origPlace>
+                            <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">This is one of fifteen ogham stones (<idno type="SMR">I-COR031</idno>; <idno type="SMR">I-COR-032</idno>; <idno type="SMR">I-COR-045</idno>) found covering a souterrain (<idno type="SMR">CO055-007003-</idno>). The stone was lifted and read by <roleName>Rev.</roleName> <persName>E. Barry</persName> in the 19th century and then replaced. 
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 521), <q>'this roofing flag was second next to No. 2'</q> (I-COR-032) in the souterrain (<idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found acting as lintels (I-COR-032 - I-COR-045). A high percentage of ogham stones in Ireland are found reused in souterrains, particularaly in Co. Cork but this is the highest number from a single souterrain. 
                         </provenance>
-                        <provenance type="observed">Thirteen stones were subsequently lifted by the occupiers; twelve of which are now on permanent display in the Stone Corridor, University College Cork. This stone, being heavy, was left in place and there is now no visible surface trace. 
+                        <provenance type="observed" when="1890">The stone was lifted and read by Barry (1891, 521) and then replaced (it was never seen by Macalister). There is now no visible surface trace. Thirteen other stones were subsequently lifted by the occupiers; twelve of which are now on permanent display in the Stone Corridor, University College Cork. 
                         </provenance>
                     </history>
                 </msDesc>
@@ -117,43 +115,37 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+    <creation>Transcription from previous editor.</creation>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-24" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, removed ref elements in provenance, moved encoded Macalister reading to apparatus, added ogham division.</change>
-<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-24" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, removed ref elements in provenance, moved encoded Macalister reading to apparatus, added ogham division.</change>
+    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+    <change when="2024-09-19" who="#NW">Updated dimensions, condition and provenance from Barry. Corrected placename tags and added edition.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="example.jpg"/>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="BAR1891">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#?">ᚓᚏᚐᚉᚑᚁᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#?">ᚓᚏᚐᚊᚓᚈᚐᚔ</name></persName>
             </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW" source="BAR1891">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#?">ERACOBI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">ERAQETAI</name></persName>
                 </ab>
             </div>
-            <div type="apparatus">
-                <listApp>
-                <app n="1">
-                    <note>Macalister (1945, 86) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ERACOBI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">ERAQETAI</name></persName>
-                    </rdg>
-                </app>
-                </listApp>
-            </div>
+            <div type="apparatus"/>              
+            
             <div type="translation">
                 <p></p>
             </div>
@@ -162,6 +154,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="BAR1891"/>
+                      <citedRange>514-535</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>86, no. 84</citedRange>
                     </bibl>
