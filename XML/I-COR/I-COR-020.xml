@@ -76,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes are not all of the same length (vowels generally approx. <height>9cm</height> and consonants on onee side only approx. <height>4cm</height>)  and it appears as if one extra long vowel stroke (<height>13-17cm</height>) is marking the end or beginning of each series. There are no obviously slanted strokes from the M-aicme (<foreign xml:lang="ga">aicme muine</foreign>). Two star-shaped characters (resembling an x carved over an ᚐ stroke) are also on the stone. When looking at the more centrally positioned stemline (L 34cm) vertically, the first star shape is at the top of this stemline with the second, larger and partially damaged star shape, directly to the left and close to the edge of the stone. The second stemline (L 27cm) is above and at a different angle. There is also what looks like a feathermark between the first two characters reading upwards on the main stemline. It is unclear how to interpret these characters but the presence of a stemline, long vowel strokes and a possible feathermark suggest 'reformed ogham' (previously termed 'scholastic') dating from the 8th century onwards.
+                            <handNote>The ogham strokes are not all of the same length (vowels generally approx. <height>9cm</height> and consonants on one side only approx. <height>4cm</height>) and it appears as if one extra long vowel stroke (<height>13-17cm</height>) may be marking the end or beginning of each series. There are no obviously slanted strokes from the M-aicme (<foreign xml:lang="ga">aicme muine</foreign>). Two star-shaped characters (resembling an x carved over an ᚐ stroke) are also on the stone. When looking at the more centrally positioned stemline (L 34cm) vertically, the first star shape is at the top of this stemline with the second, larger and partially damaged star shape, directly to the left and close to the edge of the stone. The second stemline (L 27cm) is above and at a different angle. There is also what looks like a feathermark between the first two characters reading upwards on the main stemline. It is unclear how to interpret these characters but the presence of a stemline, long vowel strokes and a possible feathermark suggest 'reformed ogham' (previously termed 'scholastic') dating from the 8th century onwards.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -129,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image, updated measurements.</change>
     <change when="2024-08-07" who="#NW">Updated details from field notes.</change>
     <change when="2024-08-20" who="#NW">Updated apparatus and added palaeographic details and bibl ref. Updated resp stmt regarding digitisation details and moved logainm ref.</change>
+    <change when="2024-10-09" who="#NW">Updated edition with very tentative reading.</change>
     
 </listChange>
 </revisionDesc>
@@ -141,19 +142,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/><g ref="#feathermark"/>
+                <lb n="1" style="text-direction:up"/>ᚔ<g ref="#feathermark"/>ᚒᚆᚓ
+                <lb n="2" style="text-direction:across"/>ᚃᚆᚑ<space/>ᚐᚇᚃᚐᚄ
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><g ref="#feathermark"/>EHU
-                    <lb n="2" style=""/>
+                    <lb n="1" style="text-direction:up"/>I<g ref="#feathermark"/>UHE
+                    <lb n="2" style="text-direction:across"/>VHO<space/>ADVAS
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1">
-                    <note>Macalister (1945, 77) reads from the feathermark but retroversely to avoid reading a H:</note>
+                    <app n="1">
+                    <note>Reading upwards from the lower line, followed by the second line above and reading left to right. </note>
+                    </app>
+                <app n="2">
+                    <note>Macalister (1945, 77) reads from the feathermark (in the middle of the lower line) but retroversely to avoid reading a H:</note>
                     <rdg source="MAC1945">UBEDABO ALTASI</rdg>
                 </app>
                 </listApp>
@@ -161,7 +166,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="translation"/>               
             
             <div type="commentary">
-                <p></p>
+                <p>No interpretation has as yet been suggested and this inscription remains a mystery.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
