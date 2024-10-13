@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Llanwenog 1</title>
+             <editor role="editor" xml:id="MK"><persName>Megan Kasten</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-CGN-001</idno>
+                 <idno type="CIIC">353</idno>
+                <idno type="CISP">RHDDL/1</idno>
+                <idno type="WelshCorpus">CD26</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>National Museum Cardiff</repository>
+                        <idno type="invNo">acc no 50.279</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>  
+                            <!--<textLang mainLang="la-Ogam">Latin written in Ogham script</textLang>  -->
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>-->Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/"><idno type="HER">3033</idno></ref>
+                                    <material source="EDW2007">Medium-grained, quartz-cemented, dark grey sandstone</material> 
+                                    <objectType>Recangular pillar</objectType>
+                                    <dimensions unit='m' source="EDW2007">
+                                        <height>1.82</height>
+                                        <width>0.39</width>
+                                        <depth>0.20</depth>
+                                        </dimensions>
+                                </support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with roman-letter inscription in three lines reading vertically downwards, and a corresponding Ogham inscription starting from the bottom left edge of the stone and continuing upwards, along the top edge, and terminating two-thirds of the way along the top (Edwards 2007, 180).  </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                          <handDesc>
+                            <handNote>Both inscriptions are described as <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">deeply incised with a punch</rs> (Edwatds, 2007, 180). The distinctive forms of the S and F ane closely paralleled on St Dogmaels 1 (W-PEM-001; Edwards 2007, 460-463); a similar F is also found on Mathry 1 (W-PEM-016; Edwards 2007, 380-383). The tail of the first G in line 3 extends over the angle of the stone, marking the beginning of the ogam inscription.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/987b0ae0-a75c-4ecc-9142-f6ef8cfe6d06">Llanwenog</ref></foreign></placeName>, <placeName type="county">Cardiganshire (<foreign xml:lang="cy">Ceredigion</foreign>)</placeName>
+                                <geo>52.059325, -4.209772</geo>
+                             <note>National Grid Reference: SN 4860 4241</note></origPlace>
+                            <origDate notBefore="0460" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic">Late fifth or earlier sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found" when="1869">Ogham first identified by Brash in 1869. Stone first mentioned by Meyrick (1808, 191-2), discovered below the east wall in the ruins of Cappel Whyl (<foreign xml:lang="cy">Crug-y-Whyl</foreign> Farm), destroyed in 1796.
+                        </provenance>
+                        <provenance type="observed">National Museum Cardiff
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass><keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-06-19" who="#MK">Megan Kasten edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
+    <change when="2023-07-24" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>    
+    <change when="2024-10-12" who="#NW">Major update based on more recent work on Irish and English examples. Including, added grid ref, placename ref, textlang, textclass, updated edition, etc and removed heandings/titles and ptr targets other than in bibl.</change>
+    
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" xml:space="preserve" resp="#NW" source="EDW2007">
+                  <div type="textpart" n="1" subtype="ogham" xml:lang="pgl-Ogam">            
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#TRENACATUS">ᚈᚏᚓᚅᚐᚉᚉᚐᚈ<surplus>ᚂ</surplus>ᚑ</name></persName>
+                </ab>
+              </div>
+                   <div type="textpart" subtype="transliteration" xml:lang="pgl-Ogam">
+                    <ab>
+                      <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#trenacatus">TRENACCAT<surplus>L</surplus>O</name></persName>
+                    </ab>
+                </div>              
+            </div>
+                <div type="textpart" n="2" subtype="latin" xml:lang="la-Latn">
+                <ab>
+                    <lb n="1"/><persName><name nymRef="#trenacatus" xml:lang="pgl">TRENACATVS</name> 
+                    <lb n ="2"/><w>IC</w><w>IACIT</w><w>FILIVS</w>
+                    <lb n ="3"/><name nymRef="maglagnus" xml:lang="pgl">MAGLAGNI</name></persName> 
+                </ab>
+               </div>              
+            <div type="apparatus">
+                 <listApp>
+                <app n="1"><note>The ogham TRENACCATLO is probably an error (by the engraver or by modern readers?) in view of the preferable roman-letter reading TRENACATVS. Rhys (1879 380) explains -LO as hypocoristic, but it has also been suggested that L may have been written in error for O.</note></app>
+                </listApp>               
+            </div>
+            <div type="translation">
+                <div type="textpart" n="1">
+                <p>Ogham: [The stone] of<foreign xml:lang="pgl">Trenaccatus</foreign></p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p>Latin: <foreign xml:lang="pgl">Trenacatus</foreign>, here he lies, the son of <foreign xml:lang="pgl">Maglagnus</foreign></p>
+            </div>
+            <div type="commentary">
+                    <list type="witDetail">
+                        <item n="1">
+                        <p>The ogham inscription consists simply of the name of the person commemorated (Trenacatus), the Irish equivalent of the Latin, presumably in the genitive cae but with a spelling error.</p></item>
+                    <item n="2">
+                        <p><q>The Latin inscription consists of the 'X son of Y' formula, with the first name and FILIVS in the nominative and the second name in the genitive case, together with an abbreviated form of the Christian [h]ic iacit formulae... The name TRENACATVS is distinctively Irish and not identical with MW Tringat...There are three examples of MAILAGNI> OI Máelán/Móelán in the ogam corpus (Macalister 1945, 64, 154-155, 253-254: Nos 60, 160, 258) and MAGLAGNI could be a Welsh rendering of this... It is more straightforward, however, to take MAGLAGNI at face value as an Irish name derived from *Maglas, 'prince'... The combination of the 'X son of Y' and the abbreviated <foreign xml:lang="la">hic iacit</foreign> formulae suggests that the Latin inscription is not very early in the series... However, only capitals, though some with rather exaggerated forms, are used, and there are no typologically later epigraphic features.</q> (Edwards 2007, 180)</p></item>
+                </list>
+                    </div>
+            <div type="bibliography">                 
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">180, 380-383, 460-463</citedRange>
+                </bibl>
+                <bibl><ptr target="MAC1945"/>
+                    <citedRange unit="page">64, 154-155, 253-254</citedRange>
+                </bibl>
+                <bibl><ptr target="RHY1879"/>
+                    <citedRange unit="page">380</citedRange>
+                </bibl>  
+                </listBibl>
+            </div>
+    </body>
+    </text>
+</TEI>
