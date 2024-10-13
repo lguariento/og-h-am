@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007005-</idno></p> 
                                     <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m" source="BAR1891">
+                                     <dimensions unit="m" source="#NW">
                                             <height>0.96</height>
                                             <width>0.46</width>
                                             <depth>0.15</depth>
@@ -89,7 +89,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 519), this is the top part of <q>'a roofing flag that fell in at the north-east end of the cave'</q> (souterrain <idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found, all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularly in Co. Cork but this is the highest number from a single souterrain.</provenance>
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 519), this is the top part of <q>'a roofing flag that fell in at the north-east end of the cave'</q> (souterrain <idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found (I-COR-031 - I-COR-045), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularly in Co. Cork but this is the highest number from a single souterrain.
+                        </provenance>
                         <provenance type="observed" when="2024">The stone is currently on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork (<idno type="SMR">CO074-159----</idno>), where it was examined and photographed for the OG(H)AM project in May 2024.
                         </provenance>
                     </history>
@@ -126,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
     <change when="2024-09-06" who="#NW">Added further details, mainly to condition, provenance and respStmt (3d). Updated edition and apparatus and added Ziegler to refs. Moved logainm ref.</change> 
     <change when="2024-09-10" who="#NW">Updated geology and dimensions.</change>
-    <change when="2024-10-13" who="#NW">Added image path.</change>
+    <change when="2024-10-13" who="#NW">Added image path and unicode to edition. Updated provenance.</change>
     
 </listChange>
 </revisionDesc>
@@ -140,7 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up-across"/>
+                <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#?"><unclear reason="damage">ᚂ</unclear><supplied reason="undefined" evidence="previouseditor">ᚐ</supplied>ᚋ<supplied reason="undefined" evidence="previouseditor">ᚐ</supplied>ᚇᚒᚂᚔᚉᚉᚔ </name> <w type="formula" lemma="maqqas">ᚋᚐᚉ</w> <name nymRef="#?">ᚋᚐᚔᚉ</name> <name nymRef="#?">ᚁᚏᚑ<unclear reason="damage">ᚉ</unclear>ᚉ</name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
