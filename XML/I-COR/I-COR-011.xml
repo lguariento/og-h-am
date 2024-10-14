@@ -135,7 +135,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-09" who="#NW">Moved logainm ref and description detail to 'condition'.</change>
     <change when="2024-09-10" who="#NW">Updated geology and dimensions.</change>
     <change when="2024-10-12" who="#NW">Moved comment to apparatus.</change>
-    <change when="2024-10-13" who="#NW">Updated image path.</change>    
+    <change when="2024-10-13" who="#NW">Updated image path.</change>
+    <change when="2024-10-14" who="#NW">Added comments on names and refs</change>    
     
 </listChange>
 </revisionDesc>
@@ -167,7 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
                   <div type="textpart" n="2">
                       <ab>
-                       <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">B<unclear reason="damage">R</unclear><supplied reason="lost">U</supplied>SC<supplied reason="lost">O</supplied></name> <w type="formula" lemma="maqqas"><supplied reason="lost">MAQI</supplied></w> <name nymRef="#?">DOV<unclear reason="faded">A</unclear>L<unclear reason="faded">E</unclear>SC<supplied reason="lost">I</supplied></name></persName>
+                       <lb n="1" style="text-direction:up"/><persName><name nymRef="#bruscus">B<unclear reason="damage">R</unclear><supplied reason="lost">U</supplied>SC<supplied reason="lost">O</supplied></name> <w type="formula" lemma="maqqas"><supplied reason="lost">MAQI</supplied></w> <name nymRef="#?">DOV<unclear reason="faded">A</unclear>L<unclear reason="faded">E</unclear>SC<supplied reason="lost">I</supplied></name></persName>
                       </ab>
                   </div>
             </div>
@@ -178,29 +179,32 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                   <div type="textpart" n="1">
-                <p>1. 'of Colmán descendant of D?'</p>
+                <p>1. 'of <foreign xml:lang="sga">Colmán</foreign> descendant of D?'</p>
                 </div>
                 <div type="textpart" n="2">
-                <p>2. 'of Brosc son of Duiblesc'</p>
+                <p>2. 'of <foreign xml:lang="sga">Brosc</foreign> son of <foreign xml:lang="sga">Duiblesc</foreign>'</p>
                 </div>
             </div>
-            <div type="commentary"/>
-               
-            
+            <div type="commentary"> 
+                <p>In 1., the name COLOMAGNAS is quite common, especially later in the form <foreign xml:lang="sga">Colmán</foreign>.</p>
+               <p>In 2., the name BRUSCUS (OIr. <foreign xml:lang="sga" corresp="https://dil.ie/6993">brosc</foreign> 'thunder') also occurs on I-KER-048 Emlagh East, Co. Kerry but in an earlier genitive form with the final consonant intact (BRUSCCOS). The father's name (DOVALESCI), appears to comprise of the adjectives <foreign xml:lang="sga" corresp="https://dil.ie/18985">dub</foreign> 'black' and, possibly, <foreign xml:lang="sga" corresp="https://dil.ie/30008">lesc</foreign> 'lazy, sluggish', or <foreign xml:lang="sga" corresp="https://dil.ie/22307">flesc</foreign> 'rod' (McManus 1991, 105, 106; Ziegler 1994, 170). cf. Duib Leisc, Rawl. 155b24 (but Oengus Dublesc (?), 13 )</p></div>
             <div type="bibliography">
-                 <listBibl>                    
-                     <bibl><ptr target="MAC1945"/>
-                        <citedRange>66-7, no. 63</citedRange>
-                    </bibl>
-                      <bibl><ptr target="MCM2004"/>
-                        <citedRange>10, 20-21, no. 21</citedRange>
-                      </bibl>
+                 <listBibl> 
                       <bibl><ptr target="POW1932"/>
                         <citedRange>17</citedRange>
                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>66-7, no. 63</citedRange>
+                    </bibl>                                                             
                       <bibl><ptr target="POW1994"/>
                      <citedRange>63, no. 4237</citedRange>
                      </bibl>
+                      <bibl><ptr target="ZIE1994"/> 
+                         <citedRange>143, 170</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM2004"/>
+                        <citedRange>10, 20-21, no. 21</citedRange>
+                      </bibl>   
                 </listBibl>
             </div>
         </body>
