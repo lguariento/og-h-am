@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                     <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 on <date when="2003-09-16"/>, <date when="2003-09-19"/> and <date when="2006-04-20"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"/>
+                        <idno type="invNo">9</idno>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,37 +61,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007007-</idno></p> 
-                                    <material>Sandstone</material> 
+                                    <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim></dim>
-                                            <height>1.5</height>
-                                            <width>0.56</width>
+                                     <dimensions unit="m" source="#NW">  
+                                            <height>1.60</height>
+                                            <width>0.57</width>
                                             <depth>0.13</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, the inscription is in poor condition.</condition>
+                                <condition>Reused in a souterrain and in poor condition. Barry (1891, 521) noted the stone was originally 63 in. (1.60m) in height. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 1.46m.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the dexter angle and top of the stone.</layout>
+                                <layout>The inscription is on the dexter angle, commencing 0.76m <q>'(30 in.) from the bottom and extending to the beginning of the slanted top of the stone'</q> (Barry 1891, 521).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The scores of the inscription are <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">knife-cut</rs>. <height/>
+                            <handNote>The ogham strokes are very finely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">'knife-cut'</rs>. <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
-                                <placeName type="townland">Ballyknock North</placeName> <foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyknock North</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
                             <note>ITM Coordinates: 594327 , 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">One of 15 ogham stones (<idno type="SMR">I-COR-031</idno>; <idno type="SMR">I-COR-032</idno>; <idno type="SMR">I-COR-045</idno>) found covering a souterrain (<idno type="SMR">CO055-007003-</idno>). 
-                        </provenance>
-                        <provenance type="observed">The stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-162----</idno>).
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 521), this roofing flag was <q>'next to No. 3'</q> (I-COR-033) in the souterrain (<idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found (I-COR-031 - I-COR-045), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularaly in Co. Cork but this is the highest number from a single souterrain.</provenance>
+                        <provenance type="observed" when="2024">The stone is currently on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork (<idno type="SMR">CO074-162----</idno>), where it was examined and photographed for the OG(H)AM project in May 2024. 
                         </provenance>
                     </history>
                 </msDesc>
@@ -121,53 +119,64 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
-<change when="2024-05-24" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
-<change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham codes in provenance, moved encoded Macalister reading to apparatus, added ogham division, corrected image path.</change>
-<change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-05-24" who="#POC">Added and encoded information including the Text Class referencing FAIR vocabularies for epigraphy</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham codes in provenance, moved encoded Macalister reading to apparatus, added ogham division, corrected image path.</change>
+    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
+    <change when="2024-10-13" who="#NW">Updated support desc from Barry. Corrected placename tags, added image path, edition, notes and refs.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-034-MAC1945-87-Ballyknock-85.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-034_Ballyknock.jpg"><desc>Photograph by Nora White</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#grilagnas"><unclear reason="faded">ᚌᚏ</unclear>ᚔᚂᚐᚌᚅᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#scilagnas">ᚄᚉᚔᚂ<unclear reason="illegible">ᚐ</unclear>ᚌᚅ<supplied reason="lost" evidence="previouseditor">ᚔ</supplied></name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#grilagnas"><unclear reason="faded">GR</unclear>ILAGNI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#scilagnas">SCIL<unclear reason="illegible">A</unclear>GN<supplied reason="lost" evidence="previouseditor">I</supplied></name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 86) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">GRILAGNI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">SCILAGNI</name></persName>
-                    </rdg>  
+                    <note>Macalister (1945, 86) doesn't give any details regarding the legibility of the inscription but Barry (1891, 521 noted that <q>'only a trace like a pinscrape remains of the third A, the notches of the last I are very small ; the R is worn in parts'</q>. McManus (2004, 17; likewise Gippert 1997) also noted the difficulty with initial GR and final I.</note>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>of <foreign xml:lang="sga">Grellán</foreign> son of <foreign xml:lang="sga">Scellán</foreign></p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p><foreign xml:lang="sga" corresp="https://dil.ie/26588">Grellán</foreign>  (cf. npr m. Grellán mac Lugbae, Rawl. 128a26). <foreign xml:lang="sga" corresp="https://dil.ie/36393">Scellán</foreign> 'pip, seed, stone of a fruit; student' (As n.pr.: Sgeallán Caol ó Chill cromglaisi, Mart. Don. Apr. 11 . Scellan, Gorm. Apr. 11 .).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                       <bibl><ptr target="BAR1891"/>
+                      <citedRange>514-535</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>86, no. 85</citedRange>
                     </bibl>
-                     <bibl>
-                         <ptr target="POW1994"/>
+                     <bibl><ptr target="POW1994"/>
                          <citedRange>no. 4218</citedRange>
+                     </bibl>
+                     <bibl><ptr target="ZIE1994"/> 
+                         <citedRange>186, 230</citedRange>
+                     </bibl>
+                      <bibl><ptr target="GIP1997"/>
+                         <citedRange>no. 85</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM2004"/>
+                         <citedRange>16-17, no. 9</citedRange>
                      </bibl>
                 </listBibl>
             </div>
