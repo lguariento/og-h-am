@@ -30,17 +30,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
                 <resp>editing and encoding</resp>
                 </respStmt>
-                <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                <respStmt> <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 on <date when="2003-09-17"/> and <date when="2006-04-19"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-COR-035</idno>
                  <idno type="CIIC">86</idno>
-                <idno type="CISP">BAKNK/5</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/baknk_5.html">BAKNK/5</idno>
+                  <idno type="TM" corresp="www.trismegistos.org/text/173055">173055</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"/>
+                        <idno type="invNo">18</idno>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,37 +61,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007008-</idno></p> 
-                                    <material>Stratified grit</material> 
+                                    <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/><!-- Measurements converted from Macalister -->
-                                            <height>1.17</height>
-                                            <width>0.33</width>
+                                     <dimensions unit="m" source="NW">                                        
+                                            <height>1.35</height>
+                                            <width>0.34</width>
                                             <depth>0.23</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, Macalister described the inscription as <q>chipped...but in fair condition</q> and that <q>the last word is not so clear as the rest, as its notches are lost in the rather wide cleavage planes of the stratification</q> (1945, 86).</condition>
+                                <condition>Reused in a souterrain and <q>chipped here and there, but in fair condition</q> (Macalister 1945, 86). Barry (1891, 522) noted that the stone was 53 inches (1.35) in height, tapering in width from top to bottom. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 1.09m</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on diametrically opposed angles (Archaeological Survey of Ireland, Field Report).</layout>
+                                <layout>The inscription is on two angles (up-up), not adjacent, but diametrically opposite. The first begins 0.43m (17 inches) from the bottom and ends 2.5 inches (0.06m) from the top. The second begins 0.41m (16 inches) from the bottom and turns to the left at the top for the final vowel (Barry 1891, 522).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with bold scores.<height/>
+                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in bold strokes. The first M is quite straight rathed than sloped.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
-                                <placeName type="townland">Ballyknock North</placeName> (<foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyknock North (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
-                            <note>ITM Coordinates: 594327 , 586954</note></origPlace>
+                            <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">One of 15 ogham stones (<idno type="SMR">I-COR-031</idno>; <idno type="SMR">I-COR-032</idno>; <idno type="SMR">I-COR-045</idno>) found covering a souterrain (<idno type="SMR">CO055-007003-</idno>). 
-                        </provenance>
-                        <provenance type="observed">The stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-155----</idno>).
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 522), this roofing flag was <q>'fourth south of the NW angle'</q> of the souterrain (<idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found (I-COR-031 - I-COR-045), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularaly in Co. Cork but this is the highest number from a single souterrain.</provenance>
+                        <provenance type="observed" when="2024">The stone is currently on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork, where it was examined and photographed for the OG(H)AM project in May 2024. 
                         </provenance>
                     </history>
                 </msDesc>
@@ -126,53 +124,66 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham codes in provenance, moved encoded Macalister reading to apparatus, added ogham division.</change>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
      <change when="2024-08-07" who="#NW">Updated edition regarding MAQI- name.</change> 
+     <change when="2024-10-28" who="#NW">Updated support desc from Barry. Corrected placename tags, added image path, edition, notes, commentary and refs (including TM and links to TM and CISP).</change>
+    
     
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-035_Ballyknock.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-035-MAC1945-87-Ballyknock-86.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+         <!-- <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#cliucu?"><supplied reason="undefined" evidence="previouseditor">ᚉ</supplied>ᚂᚔᚒᚉᚑᚐᚅᚐᚄ</name>
+                <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#maqqas_treni"><w>ᚋᚐᚊᚔ</w> <w>ᚈᚏ<unclear  reason="faded">ᚓᚅ</unclear><supplied reason="lost">ᚔ</supplied></w></name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#cliucu?"><supplied reason="undefined" evidence="previouseditor">C</supplied>LIUCOANAS</name>
+                <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#maqqas_treni"><w>MAQ<damage>I</damage></w> <w>TR<unclear  reason="faded">EN</unclear><supplied reason="lost">I</supplied></w></name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note> Macalister (1945, 86) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#cliucu?">CLIUCOANAS</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#maqqas_treni"><w>MAQI</w> <w>TRENI</w></name></persName>
-                    </rdg>
+                    <note>As suggested by McManus (2004, 19), the OA of the first name should perhaps be read as U, giving -CUNAS, the familiar gen. sg. of the word for 'hound' (OIr. <foreign xml:lang="sga" corresp="https://dil.ie/13291">cú</foreign>, gen. <foreign xml:lang="sga">con</foreign>).</note>                   
                 </app>
+                    <app n="2">
+                         <note><q>The last word is not so clear as the rest, as its notches are lost in the rather wide cleavage planes of the stratification</q> (Macalister 1945, 86).</note>     
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>'of C son of <foreign xml:lang="sga">Mac Thréuin</foreign>'</p>
+                <p>'of C son of <foreign xml:lang="sga">Mac-Thréuin</foreign>'</p>
             </div>
-            <div type="commentary">
-                <p></p>
-            </div>
+            <div type="commentary"> 
+                <p>With regard to the first name, Ziegler (1994, 149-150) suggested a first element <foreign xml:lang="sga" corresp="https://dil.ie/9528">clíu</foreign>. This word has been used as a territorial name (e.g. <foreign xml:lang="sga">Clíu</foreign>, a large area encompassing much of south-west Tipperary and into east Limerick, attested in the populstion group names <foreign xml:lang="sga">Araid Cliach</foreign> and <foreign xml:lang="sga">Airthir Cliach</foreign> and in an old name for the Galtee mountains <foreign xml:lang="sga">Crotta Cliach</foreign>, ‘the harps of Cliú’ (Hogan 1910, 248–9; O’Brien 1962, 208–9).</p>
+                <p>The name MAQI-TRENI is attested elsewhere in the ogham corpus (in I-COR-007 <placeName>Ballynabortagh</placeName> 3, Co. Cork and in <placeName>Wales</placeName>: W-BRE-006 <placeName>Llywell</placeName> and W-PEM-004 <placeName>Cillgerran</placeName>). The word TREN- (Old Irish <foreign xml:lang="sga" corresp="https://dil.ie/41798">trén</foreign> 'strong') is also found in other names, for example NETTA-TTRENALUGOS (I-COR-071) from Montaggart, Co. Cork and TRENAGUSU (W-PEM-004) from Cilgerran in Pembrokeshire. As noted by Moore (Ronan 2009, 152), the single-element name <foreign xml:lang="ga">Trén</foreign> <q>occurs in the <foreign xml:lang="ga">Eôganacht</foreign>, <foreign xml:lang="ga">UÍ Liathǽin</foreign> and <foreign xml:lang="ga">Corco Loígde</foreign> genealogies of Munster and it is interesting to speculate that the ogham evidence may indicate a link between Wales and Cork in the 5th-6th centuries</q> AD.</p>   
+            </div>                         
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="BAR1891"/>
+                      <citedRange>514-535</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>86, no. 86</citedRange>
                     </bibl>
-                     <bibl><ptr target="MCM2004"/>
-                     <citedRange>19, no. 18</citedRange>
-                     </bibl>
                      <bibl><ptr target="POW1994"/> 
                      <citedRange>no. 4219</citedRange>
                      </bibl>
+                      <bibl><ptr target="ZIE1994"/> 
+                         <citedRange>149-150, 238-239</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM2004"/>
+                     <citedRange>19, no. 18</citedRange>
+                     </bibl>
+                     
                 </listBibl>
             </div>
         </body>
