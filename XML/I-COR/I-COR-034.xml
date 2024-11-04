@@ -40,7 +40,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-COR-034</idno>
                  <idno type="CIIC">85</idno>
-                <idno type="CISP">BAKNK/4</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/baknk_4.html">BAKNK/4</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -85,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Ballyknock North (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
-                            <note>ITM Coordinates: 594327 , 586954</note></origPlace>
+                            <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 521), this roofing flag was <q>'next to No. 3'</q> (I-COR-033) in the souterrain (<idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found (I-COR-031 - I-COR-045), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularaly in Co. Cork but this is the highest number from a single souterrain.</provenance>
@@ -124,7 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham codes in provenance, moved encoded Macalister reading to apparatus, added ogham division, corrected image path.</change>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
     <change when="2024-10-13" who="#NW">Updated support desc from Barry. Corrected placename tags, added image path, edition, notes and refs.</change>
-    
+    <change when="2024-11-04" who="#POC">Added CISP link</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
