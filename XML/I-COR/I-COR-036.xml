@@ -126,8 +126,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham codes in provenance, moved encoded Macalister reading to apparatus, added ogham division.</change>
     <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
      <change when="2024-08-07" who="#NW">Updated edition regarding MAQI- name.</change> 
-     <change when="2024-11-04" who="#NW">Updated support desc from Barry. Corrected placename tags, added image path, edition, notes, commentary and refs (including TM and links to TM and CISP).</change>
+     <change when="2024-11-04" who="#NW">Updated support desc from Barry. Corrected placename tags, added image path, edition, notes, commentary and refs (including TM and links to TM and CISP - but need ref target which isn't allowed here).</change>
     <change when="2024-11-04" who="#NW">Minor corrections and added unicode.</change>
+    <change when="2024-11-04" who="#NW">Updated tags around eDIL links to ref targets.</change>
     
 </listChange>
 </revisionDesc>
@@ -160,8 +161,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 
             
             <div type="commentary">
-                <p>If the reading is correct, the first name appears to contain the word <foreign xml:lang="sga" corresp="https://dil.ie/18911">drúth</foreign> 'jester, idiot' (McManus 2004, 17; Ziegler 1994, 172-173). The second element (QULI) could perhaps be the same word (QOLI) found in I-KER-137 (Gearha South, Co. Kerry): MAQI-QOLI. The initial Q could be taken as a hypercorrection of C (due to the falling together of these formerly distinct sounds) and therefore representing COLI, gen. of later <foreign xml:lang="sga" corresp="https://dil.ie/10500">coll</foreign> 'hazel' (also, of course, the name of the ogham character ᚉ) and attested in manuscript sources as <foreign xml:lang="sga">Mac-cuill</foreign> (Ziegler 1994, 222-223).</p>
-                <p>Although the reading is even more uncertain, the last name may be a MAQI- compound (MAQI-RODAGNI). This type of compound is quite common (e.g. MAQI-TRENI in I-COR-035). However, although the name RODAGNI is attested later as <foreign xml:lang="sga" corresp="https://dil.ie/35617">Rúadán</foreign> 'little red(-haired) one', if correct, this appears to be a unique example of this particular compound (McManus 2004, 17; Ziegler 1994, 227).</p>
+                <p>If the reading is correct, the first name appears to contain the word <foreign xml:lang="sga"><ref target="https://dil.ie/18911">drúth</ref></foreign> 'jester, idiot' (McManus 2004, 17; Ziegler 1994, 172-173). The second element (QULI) could perhaps be the same word (QOLI) found in I-KER-137 (Gearha South, Co. Kerry): MAQI-QOLI. The initial Q could be taken as a hypercorrection of C (due to the falling together of these formerly distinct sounds) and therefore representing COLI, gen. of later <foreign xml:lang="sga"><ref target="https://dil.ie/10500">coll</ref></foreign> 'hazel' (also, of course, the name of the ogham character ᚉ) and attested in manuscript sources as <foreign xml:lang="sga">Mac-cuill</foreign> (Ziegler 1994, 222-223).</p>
+                <p>Although the reading is even more uncertain, the last name may be a MAQI- compound (MAQI-RODAGNI). This type of compound is quite common (e.g. MAQI-TRENI in I-COR-035). However, although the name RODAGNI is attested later as <foreign xml:lang="sga"><ref target="https://dil.ie/35617">Rúadán</ref></foreign> 'little red(-haired) one', if correct, this appears to be a unique example of this particular compound (McManus 2004, 17; Ziegler 1994, 227).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
