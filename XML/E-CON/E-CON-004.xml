@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lanndohow | St Kew</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">E-CON-004</idno>
+                 <idno type="CIIC">484</idno>
+                <idno type="CISP">STKEW/1</idno>
+                 <idno type="TM"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>England</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><!--<term>monument</term>--><ref>Historic Environment Record ID</ref>: <idno type="HER">HER Number: 17924</idno></p>
+                                    <material>Granite</material> 
+                                    <objectType>Pillar</objectType> 
+                                     <dimensions unit="m">
+                                         <!--<dim></dim>-->
+                                            <height>0.72</height>
+                                            <width>0.42</width>
+                                            <depth>0.37</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>A small, rounded granite boulder, broken at both ends. The Latin inscription is <q>legible</q> and <q>probably complete</q> (Okasha 1993, 248). The ogham inscription is <q>incomplete and slightly deteriorated</q> (Okasha 1993, 248) having lost the first letter and part of the second.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The ogham inscription is found on the upper part of the edge between the face and the right-hand side of the stone. (Okasha 1993, 248). There is no distinct arris and the letters of the ogham inscription have been laid out with a gap between the proximal tips of the b- and h-aicme strokes. The Latin inscription reads downwards facing left and runs parallel with the ogham on the face of the stone. It is enclosed in a cartouche, which Tedeschi points out mimics the shape of a full-size monument (2003, 255), which is highly unusual, though not without precedent (cf. 10 miles away at Lanivet CIIC 465).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The Latin inscription was <q>set without framing-lines in an open-ended panel about 40 cm in length</q> (Okasha 1993, 248). The <q>script used is a predominatly capital one</q> (Okasha 1993, 148) but the form of the -s in the Latin inscription is half-uncial (Macalister 1945, 462) (c.f. Worthyvale). <height min="6" max="9" unit="cm" source="OKA1993">The Latin letters measure 6 to 9 cm in height  (Okasha 1993, 248). </height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="parish">St Kew</placeName>, <placeName type="county">Cornwall</placeName>
+                                <geo>50.558014</geo>
+                            <note>National Grid Reference: SX 0215 7687</note>
+                                </origPlace>
+                            <origDate>Mid-6th century</origDate>
+                        </origin>
+                        <provenance type="found" when="1924">Apparently used as a footbridge formerly and later served as a gatepost, the stone was found in 1924 in the bed of a stream when <q>the bridge spanning the brook just below the church was widened</q> (Okasha 1993, 248). The earliest reading is by provided by Macalister in 1945. <!--<placeName type="site">St James' church</placeName>,-->
+                        </provenance>
+                        <provenance type="observed">Inside the church at the west end of the nav.e
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-24" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+<change when="2024-10-02" who="NW">Nora White updated template for data from England</change> 
+<change when="2024-11-03" who="#JB">Autogenerated EpiDoc output from spreadsheet</change>   
+<change when="2024-11-08" who="#POC">Added and encoded information, including edition and translation</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="ENG/E-CON-003-St-Kew.jpg"><desc>Drawing by Macalister</desc></graphic>
+       <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" resp="#NW">
+                <div type="textpart" n="1" subtype="ogham" xml:lang="pgl-Ogam">
+                <ab>
+                    <lb n="1"/><persName><name><supplied reason="lost">ᚔ</supplied><unclear reason="damage">ᚒ</unclear>ᚄᚈᚔ</name></persName>
+                </ab>
+            </div>
+                <div type="textpart" subtype="transliteration" xml:lang="pgl-Ogam">
+                    <ab>
+                        <lb n="1"/><persName><name><supplied reason="lost">I</supplied><unclear reason="damage">U</unclear>STI</name></persName>
+                    </ab>
+                </div>
+            <div type="textpart" n="2" subtype="roman" xml:lang="la-Latn">
+                <ab>
+                     <lb n="1"/><persName><name>IVST</name></persName>
+                </ab>
+            </div>
+            </div>
+            <!--<div type="apparatus">
+                <listApp>
+                <app></app>
+                </listApp>
+            </div>-->
+            <div type="translation">
+                <p>Ogham: ‘of Justus’</p>
+                <note>The Latin male personal name meaning ‘the righteous’.</note>
+            </div>
+            <div type="commentary">
+                <p>The palaeography suggests a date no later than the mid-6th century (Tedeschi 2003, 256) and the stone may well have been there in Samson’s day. The site, Lan Dochou, ‘church of (St) Dochou’, is remarkably first mentioned in the <title>Life of St Samson</title>, written c.700 about events in the 530s, and has claims to early importance. </p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl>
+                         <ptr target="MAC1945"/>
+                        <citedRange>462</citedRange>                       
+                    </bibl>
+                     <bibl>
+                          <ptr target="OKA1993"/>
+                        <citedRange>150-153</citedRange>                          
+                     </bibl>
+                     <bibl>
+                         <ptr target="TED2005"/>
+                         <citedRange>255</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
