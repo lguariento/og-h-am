@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pennwydh | Penwith</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">E-CON-005</idno>
+                 <idno type="CIIC">-</idno>
+                <idno type="CISP">x</idno>
+                 <idno type="TM"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>England</country>
+                        <repository>Royal Cornwall Museum</repository>
+                        <idno type="invNo">TRURI : 2016.9.1</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><!--<term>portabilia</term>--><ref target="https://finds.org.uk/database/artefacts/record/id/596422">Portable Antiquities Scheme</ref> <idno type="PAS">PAS ID: CORN-E8C291</idno></p>
+                                    <material>Slate</material> 
+                                    <objectType>Slate fragment</objectType> 
+                                     <dimensions unit="m">
+                                            <height>0.11</height>
+                                            <width>0.07</width>
+                                            <depth>0.01</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>A small piece of local slate which must have been quite a bit larger to begin with, judging by the scale of the letters of the inscription. Too little of the inscription survives to support a reading and there is nothing to indicate any of the usual formula words.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>There are two drawn in stem-lines. The stem-lines are positioned one above the other, both contain evidence for the remains of ogham characters. The latter portion of the upper stem-line is blank. It is possible there was further carving above this top stem-line. To the right of the top stem-line, a downward stroke intersecting with a long horizontal bar can be discerned.  </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The letters are slim and have been carefully <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs> on with a sharp point. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="parish">Penzance <!--Penwith?--></placeName>, <placeName type="county">Cornwall</placeName>
+                                <geo>50.088333</geo>
+                            <note>National Grid Reference: SW 46459 26933</note>
+                                </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="2009">Discovered in 2009 from a newly ploughed field adjacent to a burial ground beside the parish church of Breweni | Paul, Penwith.<!--<placeName type="site"></placeName>,-->
+                        </provenance>
+                        <provenance type="observed">Royal Cornwall Museum
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-24" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+<change when="2024-10-02" who="NW">Nora White updated template for data from England</change> 
+<change when="2024-11-03" who="#JB">Autogenerated EpiDoc output from spreadsheet</change>   
+<change when="2024-11-08" who="#POC">Added and encoded information, including edition and translation</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="ENG/E-CON-005-Penwith.jpeg"><desc>Photograph of slate fragment</desc></graphic>
+       <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1"/><choice><unclear>Λ</unclear><unclear>ᚕ<!--X forfid--></unclear></choice>ᚄ
+                    <lb n="2"/><choice><unclear>ᚒ</unclear><unclear>ᚓ</unclear><unclear>ᚔ</unclear></choice><unclear>ᚕ<!--forfid (supplementary letter) shaped like a Λ descending from the stem-line--></unclear><choice><unclear>ᚃ</unclear><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                   <lb n="1"/><choice><unclear>Λ</unclear><unclear>X forfid</unclear></choice>S
+                    <lb n="2"/><choice><unclear>U</unclear><unclear>E</unclear><unclear>I</unclear></choice><unclear>ᚕ<!--forfid (supplementary letter) shaped like a Λ descending from the stem-line--></unclear><choice><unclear>V</unclear><unclear>S</unclear><unclear>N</unclear></choice>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+                    <note>The bottom line has a vowel (U, E or I) then a forfid (supplementary letter) shaped like a Λ descending from the stem-line, perhaps with the meaning /p/. Finally, there are two, or probably three, strokes of a b-aicme consonant (so, V, S or N). The line above has the remains of the lower part of either another Λ or an X forfid, followed by S and then a blank stem-line. A downward stroke intersecting with a long horizontal bar can be discerned away to the right. It is somewhat lighter than the rest so may not be intended as lettering. </note>
+                </app>
+                </listApp>
+            </div>
+            <!--<div type="translation">
+                <p></p>
+            </div>-->
+            <div type="commentary">
+                <p>The presence of a stem-line is not necessarily an indication of later date: the Newgrange ogham, which could be as early as the fourth century, is written on a stem-line. In this instance, the stem-line is perhaps explained simply by the thin nature of the slate ruling out the use of an arris. The value /p/ is assigned only tentatively. There are three instances of a similar forfid in use epigraphically (Crickhowell, Margam, and Cool East) but these appear to have two inward leaning strokes intersecting just below the stem, whereas this one is definitely on the stem-line (with one stroke projecting a little beyond).</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="THO2016"/>
+                        <citedRange>205-217</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
