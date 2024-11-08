@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">HER Number: 2240</idno></p>
-                                    <material/>
+                                    <material>Grit</material>
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
                                             <height>2.9</height>
@@ -70,14 +70,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.55</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition/>
+                                <condition>A large menhir bearing bilingual inscriptions and almost completely covered by lichen and moss. The Latin inscription is clear except for part of the final name but the ogham inscription is badly worn with almost the entire surface removed except for the final few letters.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout>The ogham inscription is found on the right edge near the top end of the front right-hand face of the stone and reads upwards. The Latin inscription occupies the same face and reads downwards.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
+                            <handNote>According to Macalister (1945, 448), the <q>Roman inscription was cut and rubbed</q>. <!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -89,9 +89,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SX 1092 8568</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">Ogham mentioned in Huebner, number 17; 1876. Also known as 'King Arthur's Stone'.
+                        <provenance type="found">The stone was first recorded by Richard Carew (1602) and Rhys (1875, 363) was the first to record the ogham inscription <!--Huebner (1876, number 17)-->. The stone served as a footbridge, known as Slaughter Bridge, over the river Camel until 1754 when Lady Dowager Falmouth erected the stone in a natural grotto on the river's western bank. The stone is known locally as 'King Arthur's Stone', an attribution "based on a misreading of the final letters of the Latin epitaph as ATRY" (Macalister 1945, 448).
                         </provenance>
-                        <provenance type="observed">About 100 m upstream from Slaughter Bridge, on the left bank of the River Camel. Access via The Arthurian Centre (entrance fees apply).
+                        <provenance type="observed">The stone now lies in a precarious position, beneath a cliff and projecting into the river, on the left bank of the river Camel about 100 m upstream from Slaughter Bridge. The stone can be viewed safely from the top of the cliff. Closer inspection of the stone has been rendered difficult due to recent erosion of the bank from flooding. Access is via The Arthurian Centre (entrance fees apply).
                         </provenance>
                     </history>
                 </msDesc>
@@ -126,11 +126,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-10-02" who="#NW">Nora White updated template for data from England</change>   
 <change when="2024-10-11" who="#NW">test for new layout of 2 inscriptions, 1 ogham and 1 latin</change>
 <change when="2024-10-23" who="#POC">Added dimensions and county name, closed unused elements and added paragraph to support for database display. Also added the general HER URL since the direct link generated an error. </change>
+<change when="2024-11-06" who="#POC">Added cited range for bibl and information on condition, layout, translation as well as images.</change>
+<change when="2024-11-07" who="#POC">Updated cited range Rhys article, added italics to commentary, added comment to clarify the translation, updated photo URL, added close-up photo.</change>
+
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="ENG/E-CON-001-Worthyvale1.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="ENG/E-CON-001-Worthyvale-2.jpeg"><desc>Photograph of the Worthyvale stone from the view-point</desc></graphic>
+        <graphic url="ENG/E-CON-001-Worthyvale-3.jpg"><desc>Close-up of the Worthyvale stone</desc></graphic>
        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -154,15 +159,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app></app>
-                </listApp>-->
+                <listApp>
+                <app n="1">
+                    <note>Macalister (1945, 449) read: </note>
+                    <rdg source="MAC1945">
+                        Roman: LATINI (H)IC IACIT FILIUS MAGARI 
+                        Ogham: LA[TI]NI</rdg>
+                </app>
+                </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>Latin: 'here lies Latinus, son of Macarus'. <!--Magarus?--></p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p>Interesting features include the ungrammatical <hi rend="italic">filius</hi> rather than <hi rend="italic">filii</hi>, and the form of the -s, half-uncial rather than capitals.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -172,7 +182,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </bibl>
                      <bibl>
                           <ptr target="OKA1993"/>
-                        <!--<citedRange> </citedRange>-->                          
+                        <citedRange>333-337</citedRange>                          
+                     </bibl>
+                     <bibl>
+                         <ptr target="RHY1875"/>
+                         <citedRange>362-363</citedRange>
                      </bibl>
                 </listBibl>
             </div>
