@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St Clement</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">E-CON-X03</idno>
+                 <idno type="CIIC">473</idno>
+                <idno type="CISP">SCLEM/1</idno>
+                 <idno type="TM"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>England</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Monument number: 428762</idno></p>
+                                    <material>Granite</material> 
+                                    <objectType>Cross</objectType> 
+                                     <dimensions unit="m">
+                                            <height>2.26</height>
+                                            <width>0.4</width>
+                                            <depth>0.37</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>An inscribed pillar-stone that was <q>subsequently made into a cross</q> (Okasha 1993, 224). Macalister suggested that the Latin text, which is in <q>good condition</q> (1945, 451), <q>seems to have been accompanied by an echo in Ogham letters, which have been intentionally broken away</q> (1945, 452). Macalister (1945, 452) noted the presence of <q>disintegrated vowel notches</q> and traces of letter scores. Forsyth reviewed the 3D model of the stone but there does not seem to be any traces of ogham letters extant today. </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>At the top of the stone, there is a <rs type="decoration">cross within a circle</rs> on each face. The Latin inscription is <q>on the E. face as the stone stands at present</q> (1945, 451). There are four words written in Latin <q>in a vertical line reading downwards</q> (Macalister 1945, 452). According to Macalister, there were also traces of an ogham inscription <q>on the edge of the left-hand side and the front of the shaft</q> of the stone (Okasha 1993, 224). However, Okasha maintained that it is <q>unlikely that the stone ever contained an ogham text</q> (1993, 226) </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="roman">Macalister observed that the <q>topmost word is in smaller and more cursive letters than the other three, and clearly forms a separate and later inscription</q> and reasoned that <q>the two inscriptions are not palaeographically compatible, and must be kept apart</q> (1945, 452).<height min="6" max="14" unit="cm" source="OKA1993">According to Okasha (1993, 224), the letters measure 6 to 14 cm in height</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="parish">St Clement</placeName>, <placeName type="county">Cornwall</placeName>
+                                <geo>50.255903</geo>
+                            <note>National Grid Reference: SW 8510 4390</note>
+                                </origPlace>
+                            <origDate source="OKA1993">fifth or sixth century to the eleventh century</origDate>
+                        </origin>
+                        <provenance type="found">Formerly served as a gate-post for the <q>entrance to the Vicarage of St. Clement's</q> (Macalister 1945, 451). The stone was recorded in the rectory garden in 1863 and moved to its present location in 1938 (Okasha 1993, 224). <!--Ogham only suggested by Macalister.-->  <!--<placeName type="site">Ignioc Stone</placeName>,-->
+                        </provenance>
+                        <provenance type="observed">In the churchyard near the south door.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-24" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+<change when="2024-10-02" who="NW">Nora White updated template for data from England</change> 
+<change when="2024-11-03" who="#JB">Autogenerated EpiDoc output from spreadsheet</change>   
+<change when="2024-11-11" who="#POC">Added and encoded information</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="ENG/E-CON-X03-StClement.jpg"><desc>Drawing by Macalister</desc></graphic>
+       <media url="https://skfb.ly/6uUDw" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+                    <note>Macalister (1945, 451) read: </note>
+                    <rdg source="MAC1945">Latin: VITALI FILI TORRICI</rdg>
+                    <rdg source="MAC1945">Latin: IGNIOC</rdg>
+                </app>
+                </listApp>
+            </div>
+            <div type="translation" source="OKA1993">
+                <p>Latin: 'Ignioc. [The stone] of Vitalius, son of Torricus'</p>
+            </div>
+            <div type="commentary">
+                <p>Okasha surmised that <q>If the name VITALI is Latin, this suggests a sixth to eighth century date for the stone, a date which the use of horizontal I probably corroborates</q> (1993, 226). </p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl>
+                         <ptr target="MAC1945"/>
+                        <citedRange>451-452</citedRange>                       
+                    </bibl>
+                     <bibl>
+                          <ptr target="OKA1993"/>
+                        <citedRange>224-228</citedRange>                          
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
