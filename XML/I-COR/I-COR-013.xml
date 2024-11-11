@@ -135,6 +135,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-03" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords.</change>
     <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2024-11-11" who="#NW">Updated edition in line with Welsh structure for 2 separate inscriptions (textparts).</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,43 +147,45 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="ga" resp="#NW">
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <div type="textpart" n="1">
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#lug?">ᚂᚑ<unclear reason="damage">ᚌ</unclear>ᚐ</name> <w type="formula" lemma="maqqas"><unclear reason="damage">ᚋ</unclear>ᚐ<supplied reason="lost" evidence="previouseditor">ᚊᚔ</supplied></w> <name nymRef="#?">ᚄᚇᚐ<unclear reason="ambiguous">ᚅᚁ</unclear>ᚔ</name></persName>
                 </ab>
                 </div>
+                
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#lug?">LO<unclear reason="damage">G</unclear>A</name> <w type="formula" lemma="maqqas"><unclear reason="damage">M</unclear>A<supplied reason="lost" evidence="previouseditor">QI</supplied></w> <name nymRef="#?">SDA<unclear reason="ambiguous">NB</unclear>I</name></persName>
+                </ab>
+            </div>
+                
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="ga" resp="#NW">
                 <div type="textpart" n="2">
                       <ab>
                           <lb n="1" style="text-direction:down"/><handShift new="#m2"/><persName><name nymRef="#Seamus">ᚄᚓᚒᚋᚐᚄ</name> <w type="formula" corresp="https://dil.ie/42573"><unclear reason="ambiguous">ᚒᚐ</unclear></w> <w lemma="#bard" corresp="https://dil.ie/5404">ᚁᚐᚔᚏᚇ</w></persName>
                       </ab>
                 </div>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="ga" xml:space="preserve" resp="#NW">
-                 <div type="textpart" n="1">
-                <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#lug?">LO<unclear reason="damage">G</unclear>A</name> <w type="formula" lemma="maqqas"><unclear reason="damage">M</unclear>A<supplied reason="lost" evidence="previouseditor">QI</supplied></w> <name nymRef="#?">SDA<unclear reason="ambiguous">NB</unclear>I</name></persName>
-                </ab>
-                 </div>
-                 <div type="textpart" n="2">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="ga" resp="#NW">
                       <ab>
                     <lb n="1" style="text-direction:down"/><handShift new="#m2"/><persName><name nymRef="#Seamus">SEUMAS</name> <w type="formula" corresp="https://dil.ie/42573"><unclear reason="ambiguous">UA</unclear></w> <w lemma="#bard" corresp="https://dil.ie/5404">BAIRD</w></persName>
                 </ab>
             </div>
-            </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Of the earlier inscription, Macalister (1945, 70) noted that the H-half of the G has been 'flaked away'. The M is partly damaged on this side and only a couple of partial Q strokes can be made out.</note>
+                    <note>Of the earlier inscription (1), Macalister (1945, 70) noted that the H-half of the G has been 'flaked away'. The M is partly damaged on this side and only a couple of partial Q strokes can be made out.</note>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                   <p>'of Lug? son of ?'</p> 
+                   <p>1: 'of Lug? son of ?'</p> 
                 </div>
                 <div type="textpart" n="2">
-                    <p>James Ward?</p>
+                    <p>2: James Ward?</p>
                 </div>
             </div>
             <div type="commentary">
