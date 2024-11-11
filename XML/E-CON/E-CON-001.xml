@@ -73,11 +73,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A large menhir bearing bilingual inscriptions and almost completely covered by lichen and moss. The Latin inscription is clear except for part of the final name but the ogham inscription is badly worn with almost the entire surface removed except for the final few letters.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is found on the right edge near the top end of the front right-hand face of the stone and reads upwards. The Latin inscription occupies the same face and reads downwards.</layout>
+                                <layout>The ogham inscription (1) is found on the right edge near the top end of the front right-hand face of the stone and reads upwards. The roman/Latin inscription (2) occupies the same face and reads downwards.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>According to Macalister (1945, 448), the <q>Roman inscription was <rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut and rubbed</rs> </q>. The form of the -s, half-uncial rather than capitals. FI, LI and RI are all ligatured. <!--<height></height>-->
+                            <handNote script="ogham">Only the last three characters of a very worn ogham inscription (1) remain. These appear to have been <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and are quite evenly spaced.</handNote> 
+                            <handNote script="roman">The Roman inscription (2) was <q>'<rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut and rubbed</rs>'</q> (Macalister 1945, 448). The form of the -s, half-uncial rather than capitals. FI, LI and RI are all ligatured. <!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -89,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SX 1092 8568</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">The stone was first recorded by Richard Carew (1602) and Rhys (1875, 363) was the first to record the ogham inscription <!--Huebner (1876, number 17)-->. The stone served as a footbridge, known as Slaughter Bridge, over the river Camel until 1754 when Lady Dowager Falmouth erected the stone in a natural grotto on the river's western bank. The stone is known locally as 'King Arthur's Stone', an attribution "based on a misreading of the final letters of the Latin epitaph as ATRY" (Macalister 1945, 448).
+                        <provenance type="found">The stone was first recorded by Richard Carew (1602) and Rhys (1875, 363) was the first to record the ogham inscription (1) <!--Huebner (1876, number 17)-->. The stone served as a footbridge, known as Slaughter Bridge, over the river Camel until 1754 when Lady Dowager Falmouth erected the stone in a natural grotto on the river's western bank. The stone is known locally as 'King Arthur's Stone', an attribution "based on a misreading of the final letters of the Latin epitaph as ATRY" (Macalister 1945, 448).
                         </provenance>
                         <provenance type="observed">The stone now lies in a precarious position, beneath a cliff and projecting into the river, on the left bank of the river Camel about 100 m upstream from Slaughter Bridge. The stone can be viewed safely from the top of the cliff. Closer inspection of the stone has been rendered difficult due to recent erosion of the bank from flooding. Access is via The Arthurian Centre (entrance fees apply).
                         </provenance>
@@ -117,7 +118,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-    <creation>Transcription from previous editor.</creation>
+   <!-- <creation>Transcription from previous editor.</creation>-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -130,30 +131,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-07" who="#POC">Updated cited range Rhys article, added italics to commentary, added comment to clarify the translation, updated photo URL, added close-up photo.</change>
 <change when="2024-11-08" who="#POC">Changed edition subtype from Latin to Roman</change>
 <change when="2024-11-08" who="#NW">Added omitted H to roman edition and encoded ligatures. Changed hi-rend-italic to foreign-xml.lang-la in commentary. Added palaeographic note to handnote and ligatured letters. Added execution type encoding and link to handnote and a note to apparatus on the roman inscription.</change>
+<change when="2024-11-11" who="#NW">Updated edition structure in line with Welsh files and added textpart to translation. Moved photos to first position in image path. Added separate handnote for ogham</change>
 
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <graphic url="ENG/E-CON-001-Worthyvale1.jpg"><desc>Drawing by Macalister</desc></graphic>
+    <facsimile>        
         <graphic url="ENG/E-CON-001-Worthyvale-2.jpeg"><desc>Photograph of the Worthyvale stone from the view-point</desc></graphic>
         <graphic url="ENG/E-CON-001-Worthyvale-3.jpg"><desc>Close-up of the Worthyvale stone</desc></graphic>
+        <graphic url="ENG/E-CON-001-Worthyvale1.jpg"><desc>Drawing by Macalister</desc></graphic>
        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-            <div type="edition" xml:space="preserve" resp="#NW">
-                  <div type="textpart" n="1" subtype="ogham" xml:lang="pgl-Ogam">
+            <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+                  <div type="textpart" n="1">
                   <ab>
                       <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/>ᚌᚅᚔ
                   </ab>
-                  </div>                        
-                <div type="textpart" subtype="transliteration" xml:lang="pgl-Ogam">
+                  </div> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+                <!--<div type="textpart" n="1">-->
                     <ab>
                       <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/>GNI
                     </ab>
-                </div>              
-                <div type="textpart" n="2" subtype="roman" xml:lang="la-Latn">
+                <!--</div>--> 
+            </div>
+            <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">   
+                <div type="textpart" n="2" >
                     <ab>
                     <lb n="1" style="text-direction:down"/><persName><name>LATINI</name></persName> <w><supplied reason="omitted">H</supplied>IC</w> <w>IACIT</w>
                     <lb n="2" style="text-direction:down"/><w><hi rend="ligature">FI</hi><hi rend="ligature">LI</hi>VS</w> <persName><name>MA<unclear reason="damage">GA</unclear><hi rend="ligature">R<unclear reason="faded">I</unclear></hi></name></persName>
@@ -163,20 +169,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 449) read the ogham as: </note>
+                    <note>Macalister (1945, 449) read the ogham (1) as: </note>
                     <rdg n="1" source="MAC1945">
-                        LA[TI]NI</rdg>
+                        LA[TI]NI</rdg>                    
                 </app>
                     <app n="2">
-                        <note>Charles Thomas (1994) preferred ‘of Macarus’ to Macalister's (1945) 'Magarus' in the roman-letter, Latin inscription. Sadly, the surface in this area has gone so we cannot now tell which option is preferrable.</note>
+                        <note>Charles Thomas (1994) preferred ‘of Macarus’ to Macalister's (1945) 'Magarus' in the roman-letter, Latin inscription (2). Sadly, the surface in this area has gone so we cannot now tell which option is preferrable.</note>
                     </app>
                 </listApp>
             </div>
-            <div type="translation" n="2" resp="MAC1945">
+            <div type="translation">
+                <div type="textpart" n="2" resp="MAC1945">
                 <p>Roman: 'here lies Latinus, son of Magarus/Macarus'</p>
+                </div>
             </div>
             <div type="commentary">
-                <p>Interesting features include the ungrammatical <foreign xml:lang="la">filius</foreign> rather than <foreign xml:lang="la">filii</foreign>, and the form of the -s, half-uncial rather than capitals.</p>
+               <div type="textpart" n="2">
+                <p>Interesting features in the roman inscription (2) include the ungrammatical <foreign xml:lang="la">filius</foreign> rather than <foreign xml:lang="la">filii</foreign>, and the form of the -s, half-uncial rather than capitals.</p>
+               </div>
             </div>
             <div type="bibliography">
                  <listBibl>
