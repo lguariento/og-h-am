@@ -138,12 +138,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-10-13" who="#NW">Updated image path.</change>
     <change when="2024-10-14" who="#NW">Added comments on names and refs</change>    
     <change when="2024-11-04" who="#POC">Added CISP link</change> 
+    <change when="2024-11-11" who="#NW">Updated edition (also translation and commentary) in line with Welsh structure for 2 separate inscriptions (textparts).</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-011-MAC1945-67-Glenawillin-I.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-011_Glenawillin.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-011-MAC1945-67-Glenawillin-I.jpg"><desc>Sketch by Macalister 1945</desc></graphic>        
         <!--<media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -153,24 +155,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#colomagnas">ᚉᚑᚂᚑᚋᚐ<unclear reason="inaccessible" evidence="previous editor">ᚌ</unclear>ᚅ<supplied reason="lost">ᚔ</supplied></name> <w type="formula" lemma="avias"><supplied reason="lost">ᚐ</supplied>ᚃ<unclear reason="inaccessible">ᚔ</unclear></w> <name nymRef="#?">ᚇᚒᚉ<supplied reason="lost">ᚒᚏᚔ</supplied></name></persName>   
                 </ab>
-                </div>
-                <div type="textpart" n="2">
+                </div>               
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+                   <ab>                   
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#colomagnas">COLOMA<unclear reason="inaccessible" evidence="previous editor">G</unclear>N<supplied reason="lost">I</supplied></name> <w type="formula" lemma="avias"><supplied reason="lost">A</supplied>V<unclear reason="inaccessible">I</unclear></w> <name nymRef="#?">DUC<supplied reason="lost">URI</supplied></name></persName>                                               
+                </ab>
+            </div>
+            
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">    
+                 <div type="textpart" n="2">
                       <ab>
                           <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚁ<unclear reason="damage">ᚏ</unclear><supplied reason="lost">ᚒ</supplied>ᚄᚉ<supplied reason="lost">ᚑ</supplied></name> <w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐᚊᚔ</supplied></w> <name nymRef="#?">ᚇᚑᚃ<unclear reason="faded">ᚐ</unclear>ᚂ<unclear reason="faded">ᚓ</unclear>ᚄᚉ<supplied reason="lost">ᚔ</supplied></name></persName>
                       </ab>
                 </div>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW"><!--move to above under ogham?-->
-                <div type="textpart" n="1">
-                   <ab>                   
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#colomagnas">COLOMA<unclear reason="inaccessible" evidence="previous editor">G</unclear>N<supplied reason="lost">I</supplied></name> <w type="formula" lemma="avias"><supplied reason="lost">A</supplied>V<unclear reason="inaccessible">I</unclear></w> <name nymRef="#?">DUC<supplied reason="lost">URI</supplied></name></persName>                                               
-                </ab>
-            </div>
-                  <div type="textpart" n="2">
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                       <ab>
                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#bruscus">B<unclear reason="damage">R</unclear><supplied reason="lost">U</supplied>SC<supplied reason="lost">O</supplied></name> <w type="formula" lemma="maqqas"><supplied reason="lost">MAQI</supplied></w> <name nymRef="#?">DOV<unclear reason="faded">A</unclear>L<unclear reason="faded">E</unclear>SC<supplied reason="lost">I</supplied></name></persName>
                       </ab>
-                  </div>
             </div>
             <div type="apparatus">
                 <listApp>
@@ -179,15 +182,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                   <div type="textpart" n="1">
-                <p>1. 'of <foreign xml:lang="sga">Colmán</foreign> descendant of D?'</p>
+                <p>1: 'of <foreign xml:lang="sga">Colmán</foreign> descendant of D?'</p>
                 </div>
                 <div type="textpart" n="2">
-                <p>2. 'of <foreign xml:lang="sga">Brosc</foreign> son of <foreign xml:lang="sga">Duiblesc</foreign>'</p>
+                <p>2: 'of <foreign xml:lang="sga">Brosc</foreign> son of <foreign xml:lang="sga">Duiblesc</foreign>'</p>
                 </div>
             </div>
-            <div type="commentary"> 
+            <div type="commentary">
+                <div type="textpart" n="1">
                 <p>In the first inscription, the name COLOMAGNAS is quite common, especially later in the form <foreign xml:lang="sga">Colmán</foreign>.</p>
-               <p>In the second inscription, the name BRUSCUS (OIr. <foreign xml:lang="sga" corresp="https://dil.ie/6993">brosc</foreign> 'thunder') also occurs on I-KER-048 Emlagh East, Co. Kerry but in an earlier genitive form with the final consonant intact (BRUSCCOS). The father's name (DOVALESCI), appears to comprise of the adjectives <foreign xml:lang="sga" corresp="https://dil.ie/18985">dub</foreign> 'black' and, possibly, <foreign xml:lang="sga" corresp="https://dil.ie/30008">lesc</foreign> 'lazy, sluggish', or <foreign xml:lang="sga" corresp="https://dil.ie/22307">flesc</foreign> 'rod' (McManus 1991, 105, 106; Ziegler 1994, 170). cf. Duib Leisc, Rawl. 155b24 (but Oengus Dublesc (?), 13 )</p></div>
+                </div>
+                <div type="textpart" n="2">
+               <p>In the second inscription, the name BRUSCUS (OIr. <foreign xml:lang="sga" corresp="https://dil.ie/6993">brosc</foreign> 'thunder') also occurs on I-KER-048 Emlagh East, Co. Kerry but in an earlier genitive form with the final consonant intact (BRUSCCOS). The father's name (DOVALESCI), appears to comprise of the adjectives <foreign xml:lang="sga" corresp="https://dil.ie/18985">dub</foreign> 'black' and, possibly, <foreign xml:lang="sga" corresp="https://dil.ie/30008">lesc</foreign> 'lazy, sluggish', or <foreign xml:lang="sga" corresp="https://dil.ie/22307">flesc</foreign> 'rod' (McManus 1991, 105, 106; Ziegler 1994, 170). cf. Duib Leisc, Rawl. 155b24 (but Oengus Dublesc (?), 13 )</p>
+                </div>
+            </div>
             <div type="bibliography">
                  <listBibl> 
                       <bibl><ptr target="POW1932"/>
