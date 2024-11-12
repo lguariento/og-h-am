@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St Endellion</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">E-CON-X04</idno>
+                 <idno type="CIIC">478</idno>
+                <idno type="CISP">SENDL/1</idno>
+                 <idno type="TM"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>England</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Hob UID: 430789</idno></p>
+                                    <material>Granite</material> 
+                                    <objectType>Cross</objectType> 
+                                     <dimensions unit="m">
+                                            <height>1.49</height>
+                                            <width>0.31</width>
+                                            <depth>0.21</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>An inscribed stone in two pieces and cemented into a circular base (Okasha 1993, 232). The stone is weatherworn and covered by a <q>dense growth of lichen</q> (Macalister 1945, 457). The Latin inscription consists of two lines, Macalister described the first line as <q>clear, though worn</q> and the second line as <q>having been chamfered away by weathering</q> to such an extent that <q>only the tops of the letters remain</q> (1945, 457). Macalister suggested that there might be <q>faint</q> ogham inscription as well (1945, 456), but there is <q>no sign of any ogham text today</q> (Okasha 1993, 235). </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The Latin inscription is on the N. E. face of the stone. Macalister noted that the top of the stone has a <q><rs type="decoration">chi-rho monogram with a curved foot</rs></q> (1945, 456). Apparently, a plain cross in relief was also cut into the back of the stone near the top but neither Macalister (1945, 456) or Okasha (1993, 232) could find any trace of it. The two lines of the Latin inscription read downwards and face left. The presence of an ogham inscription on the right-hand angle of the stone was suggested by Macalister but described as  <q>doubtful</q>(1945, 457). The possibility of an ogham text was later disregarded by Okasha (1993, 235).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="roman">Macalister surmised that the Latin inscription was <q>probably <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed</q> (1945, 456). Okasha remarked that the script <q>appears to be predominantly capital in form with many ligatures</q> (233). <height min="9" max="10" unit="cm" source="OKA1993">The letters measure between 9 to 10 cm in height.</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="parish">St Endellion</placeName>, <placeName type="county">Cornwall</placeName>
+                                <geo>50.582325</geo>
+                            <note>National Grid Reference: SW 9890 7970</note>
+                                </origPlace>
+                            <origDate>Sixth to the eighth century</origDate>
+                        </origin>
+                        <provenance type="found">Known as 'Long Cross', the stone was moved to a <q>very exposed place</q> in Doyden Head in the early nineteenth century, but its base remained in situ (Macalister 1945, 456). In 1932, the Bodmin Old Cornwall Society re-erected the stone on its base in its original location. <!--<placeName type="site">Long Cross</placeName>,-->
+                        </provenance>
+                        <provenance type="observed">On a grass island at a junction about 1.5 km from St Endellion on the road to Port Quin.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-24" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+<change when="2024-10-02" who="NW">Nora White updated template for data from England</change> 
+<change when="2024-11-03" who="#JB">Autogenerated EpiDoc output from spreadsheet</change>   
+<change when="2024-11-12" who="#POC">Added and encoded information</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="ENG/E-CON-X04-StEndellion.jpg"><desc>Drawing by Macalister</desc></graphic>
+       <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+                    <note>Macalister (1945, 457) read:</note>
+                    <rdg>Roman: BROCAGNI IHC IACIT NADOTTI FILIVS</rdg>
+                </app>
+                </listApp>
+            </div>
+            <div type="translation" source="OKA1993">
+                <p>Latin: '[the body] of [Br...acnus] lies here [-]'</p>
+            </div>
+            <div type="commentary">
+                <p>Previous scholarship linked the first element of NADOTTI 'nad' to Irish names (Okasha 1993, 234). Similarly, the name BROCAGNI was interpreted by Jackson as either Primitive Irish or Primitive Cornish (1953, 566, 665n). Okasha noted that <q>the name BROCAGNI occurs on a stone from Llangeler, Wales, and in ogham on an Irish stone from Dunalis</q> (1993, 234). Okasha also suggested that the <q>evidence of the monogram <foreign xml:lang="??">chi-ro</foreign> symbol</q> dates the stone from the sixth to eighth century.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>456</citedRange>
+                    </bibl>
+                     <bibl><ptr target="OKA1993"/>
+                         <citedRange>232-235</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
