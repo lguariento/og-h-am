@@ -87,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="parish">Lewannick</placeName>, <placeName type="county">Cornwall</placeName>
-                                <geo>50.600492</geo>
+                                <geo>50.600492, -4.437475</geo>
                             <note>National Grid Reference: SX 2760 8070</note>
                                 </origPlace>
                             <origDate>Fifth century or possibly early sixth century</origDate>
@@ -131,20 +131,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-07" who="#POC">Added and encoded information, including edition and translation</change>
 <change when="2024-11-08" who="#POC">Changed edition subtype from Latin to Roman, closed unused tags</change>
 <change when="2024-11-11" who="#POC">Updated edition structure in line with Welsh files and added textpart to translation.</change>
+<change when="2024-11-13" who="#NW">Fixed geo coords. Toggle commented media url for now to validate. Added linebreaks and updated direction in edition</change>
+    
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="ENG/E-CON-002-Lewannick-I.jpg"><desc>Drawing by Macalister</desc></graphic>
 <!--        <graphic url="example.jpg"><desc>Photograph of stone</desc></graphic>-->
-       <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+       <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan-></desc></media>-->
     </facsimile>    
     <text>
         <body>
             <div type="edition" xml:space="preserve" subtype="ogham" xml:lang="pgl-Ogam" resp="#NW">
                   <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name>ᚔᚌᚓᚅᚐᚃᚔ</name></persName> <w>ᚋᚓᚋᚑᚏ</w>
+                    <lb n="1" style="text-direction:up"/><persName><name>ᚔᚌᚓᚅᚐᚃᚔ</name></persName> <w>ᚋᚓᚋᚑᚏ</w><!--check what visible on 3d with Megan/Katherine-->
                 </ab>
             </div>
             </div>
@@ -156,36 +159,34 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
                     <div type="textpart" n="2" >
                     <ab>
-                        <lb n="1" style="text-direction:across"/><persName><name>INGENVI</name></persName> <w>MEMORIA</w>
+                        <lb n="1" style="text-direction:l-to-r"/><persName><name>INGEN
+                            <lb n="2" break="no"/>VI</name></persName> 
+                        <lb n="3"/><w>MEM
+                            <lb n="4" break="no"/>ORIA</w>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1">
-                    <note>Macalister (1945, 444) read:</note>
-                    <rdg source="MAC1945">
-                        Roman: INGENVI MEMORIA
-                        Ogham: IGENAVI MEMOR
-                    </rdg>
-                    <note>The horizontally written Latin inscription is a feature usually associated elsewhere in Britain either with an early date or (sometimes) an ecclesiastical context.</note>
+                <app n="1">                    
+                    <note>The horizontally written Latin inscription (2) is a feature usually associated elsewhere in Britain either with an early date or (sometimes) an ecclesiastical context.</note>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
                 <div type="textpart" n="2" resp="MAC1945">
-                    <p>Roman: "the memorial of Ingenuus"</p>
-                <note>'Ingenuus' is a Latin name which comes from a legal term for someone free-born (rather than manumitted from legal slavery).</note>
+                    <p>Roman: 'the memorial of Ingenuus'</p>                
                 </div>
             </div>
             <div type="commentary">
-                <p>The spelling of the ogham, with G for the sound /ŋg/, shows that it is not simply a calque on the written Latin, but is an independent spelling of how it sounded to Irish ears. As Sims-Williams points out, it also shows that the value ‘NG’ given for the character [ᚍ] must have been a later accretion (2003, 221). If it were available at the time, this value would have been the perfect time to use it. The Latin word <hi rend="italic">memoria</hi> is found frequently in Continental palaeo-Christian inscriptions of late fourth century onwards, and also occurs on the famous Voteporix stone from Castell Dwyran, Carmarthenshire (CIIC 358) and at Yarrow, Selkirkshire (CIIC 492). The word was adopted into Irish (<hi rend="italic">memra</hi>, <hi rend="italic">mebair</hi>). Palaeographically, Tedeschi suggests a date in the fifth century (2005, 242) but acknowledges that linguistic dating points a bit later (Sims-Williams 2003, 361), so possibly early 6th century.</p>
+                <p>The spelling of the ogham, with G for the sound /ŋg/, shows that it is not simply a calque on the written Latin, but is an independent spelling of how it sounded to Irish ears. As Sims-Williams points out, it also shows that the value ‘NG’ given for the character [ᚍ] must have been a later accretion (2003, 221). If it were available at the time, this value would have been the perfect time to use it. The Latin word <foreign xml:lang="la">memoria</foreign> is found frequently in Continental palaeo-Christian inscriptions of late fourth century onwards, and also occurs on the famous Voteporix stone from Castell Dwyran, Carmarthenshire (CIIC 358) and at Yarrow, Selkirkshire (CIIC 492). The word was adopted into Irish (<foreign xml:lang="ga">memra</foreign>, <foreign xml:lang="mga">mebair</foreign>). Palaeographically, Tedeschi suggests a date in the fifth century (2005, 242) but acknowledges that linguistic dating points a bit later (Sims-Williams 2003, 361), so possibly early 6th century.</p>
+                <p>'Ingenuus' is a Latin name which comes from a legal term for someone free-born (rather than manumitted from legal slavery).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl>
                          <ptr target="MAC1945"/>
-                        <citedRange>443-444</citedRange>                       
+                        <citedRange>443-444, no. 466</citedRange>                       
                     </bibl>
                      <bibl>
                           <ptr target="OKA1993"/>
