@@ -18,7 +18,7 @@ Deborah Hayden, Associate Professor in Early Irish, Maynooth University.
 Dr Nora White and Dr Patricia O Connor, Maynooth Univ.; Dr Megan Kasten, Univ. of Glasgow.
 ### Digital officer: 
 Dr Luca Guariento, University of Glasgow.
-### Student Intern: 
+### Student Interns: 
 The OG(H)AM team has also been supported by a number of interns: Clara Scholz (Marburg), Bodil Malmose, Molly McKendrick, Lucie Haase, Xenia Spanachi, and Morgan Livingstone.
 ## Partner organisations:	
 School of Celtic Studies of the Dublin Institute for Advanced Studies; Discovery Progamme; Museums: British Museum, National Museums of Scotland, National Museum of Ireland, National Museum of Wales; Manx Museum (and in collaboration with Ulster Museum). State heritage agencies: Historic Environment Scotland, Cadw, Manx Heritage; National Monuments Service of Ireland.
