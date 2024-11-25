@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Weeting-with-Broomhill</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor> 
+                <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">E-NFK-001</idno>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP"></idno>
+                 <idno type="TM"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>England</country>
+                        <repository>Norwich Castle Museum</repository>
+                        <idno type="invNo">acc no. NWHCM : 1950.24</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><!--<term>portabilia</term>--><ref target="https://www.heritage.norfolk.gov.uk/record-details?mnf5587">Historic Environment Record ID</ref>: <idno type="HER">Norfolk HER: 5587</idno></p>
+                                    <material>Antler</material> 
+                                    <objectType>Antler knife handle</objectType> 
+                                     <dimensions unit="m">
+                                         <dim>15mm</dim>
+                                           <!-- <height></height>
+                                            <width></width>
+                                            <depth></depth>-->
+                                     </dimensions>                                   
+                                </support>
+                                <condition>A handle <q>cut from a tine of red deer antler</q> (Clarke 1952, 72) for an iron tool, probably a knife, bearing an ogham inscription of uncertain meaning but <q>which may be part of the owner's name</q> (Norfolk Museums Collections). Clarke observed that the first part of the ogham text is <q>clear and easily read except at the broad end, where the surface has been worn away...and one or possibly two groups are missing</q> (1952, 72). The first four scores of the second part of the ogham text are clear as is the latter portion of the inscription. However, the section of the text following the first four scores <q>has suffered great damage</q> having <q>been badly abraded and iron-stained, rendering the scores indistinct</q> (Clarke 1952, 72). Clarke enlisted the aid of oblique lighting and a microscope to <q>identify the scores in this area with a fair degree of probability</q> (1952, 72).  </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The base of the handle is decorated with <q>two rows of right-angled triangles, filled with stippling, set within horizontal incised lines</q> (Clarke 1952, 72). The ogham text is in two lines, one on each side of the handle, commencing from the decorated base and extending to the opposite end.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Clarke described the inscription as <q>carefully <rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> nicks placed across or on either side of an imaginary centre line</q> (1952, 72). <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="parish">Weeting-with-Broomhill</placeName>, <placeName type="county">Norfolk</placeName>
+                                <geo>52.477039, 0.581231</geo>
+                            <note>National Grid Reference: TL 7540 8970</note>
+                                </origPlace>
+                            <origDate>Sixth to eighth century</origDate>
+                        </origin>
+                        <provenance type="found" when="1947">Found in 1947 on a site of a substantial Roman settlement which included a temple. The findings from the site include high quality Roman metal, Prehistoric flints, a piece of Bronze Age pottery, as well as finds dating from the early medieval to the post-medieval periods (Norfolk Heritage Explorer). Donated to the museum in 1950. <!--<placeName type="site"></placeName>,-->
+                        </provenance>
+                        <provenance type="observed"><ref target="https://www.museumscollections.norfolk.gov.uk/collections-object-page?id=NWHCM%20:%201950.24">Norwich Castle Museum</ref>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-24" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+<change when="2024-10-02" who="NW">Nora White updated template for data from England</change> 
+<change when="2024-11-03" who="#JB">Autogenerated EpiDoc output from spreadsheet</change>   
+<change when="2024-11-25" who="#POC">Added paragraph to support, added geo coordinates, placename, and added information to condition, apparatus, bibliography, commented out media element, encoded edition.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="ENG/E-NFK-001-Weeting-with-Broomhill.jpg"><desc>Drawing by Clarke (1952, 72)</desc></graphic>
+       <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1"/><persName><choice><w>ᚓᚃᚒᚈᚒᚄᚒᚇ<choice><unclear reason="damage">ᚒ</unclear><unclear reason="damage">ᚑ</unclear></choice></w> <w><unclear reason="damage">ᚒ</unclear>ᚂᚒᚉᚒᚃᚒᚈᚓ</w></choice> 
+                    <lb n="2"/><choice><w>ᚌᚓᚇᚓᚃᚔ<unclear reason="damage">ᚋᚒᚈᚑ</unclear>ᚄ</w> <w>ᚉ<unclear reason="damage">ᚑᚃᚒᚋ</unclear>ᚔᚈᚓᚂᚓᚌ</w></choice></persName>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1"/><persName><choice><w>EVUTUSUD<choice><unclear reason="damage">U</unclear><unclear reason="damage">O</unclear></choice></w>  <w><unclear reason="damage">U</unclear>LUCUVUTE</w></choice> 
+                    <lb n="2"/><choice><w>GEDEVI<unclear reason="damage">MUTO</unclear>S</w> <w>C<unclear reason="damage">OVUM</unclear>ITELEG</w></choice></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note>Johnson (2020) read:</note>
+                    <rdg source="JOH2020">
+                        <lb n="1"/>EVUTUSUD(U/O) or (U)LUCUVUTE 
+                        <lb n="2"/>GEDEVI(MUTO)S or C(OVUM)ITELEG
+                    </rdg>
+                </app>
+                </listApp>
+            </div>
+            <!--<div type="translation">
+                <p></p>
+            </div>-->
+            <div type="commentary">
+                <p>Clarke determined that neither reading could be <q>identified as any known Celtic language</q> (1952, 72). However, Wrenn (1959, 40, 42) suggested that the name might be GEDEVI and could indicate Irish influence.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="CLA1952"/>
+                        <citedRange>71-73</citedRange>
+                    </bibl>
+                     <bibl><ptr target="JOH2020"/>
+                     <citedRange><!--add page numbers--></citedRange>
+                     </bibl>
+                     <bibl><ptr target="WRE1959"/>
+                         <citedRange>40, 42</citedRange>
+                     </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
