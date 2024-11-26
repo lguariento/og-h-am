@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vale of York brooch fragment</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">E-WRY-001</idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP"/>
+                 <idno type="TM"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>England</country>
+                        <repository>British Museum</repository>
+                        <idno type="invNo">acc no. 2009,8023.4</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><!--<term>portabilia</term>--><ref target="https://finds.org.uk/database/artefacts/record/id/198978">Portable Antiquities Scheme ID: <idno type="PAS">PAS ID: SWYOR-AECB53</idno></ref></p>
+                                    <material>Silver</material> 
+                                    <objectType>Bossed penannular brooch (hacksilver)</objectType> 
+                                     <dimensions unit="mm">
+<!--                                            <height></height>-->
+                                            <width>51.30</width>
+                                            <depth>2.20</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>Silver fragment (hacksilver) cut from the sub-triangular terminal of a bossed penannular brooch weighing 39.10 g.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The front features a beaded border with three out of possibly four plain domed bosses. The bases of two of the bosses have thick filigree collars. The bosses are linked by two short, beaded bands with plain edges dividing the fragment into three fields of decoration, <rs type="decoration">the one at the broad end enclosing an inward-facing animal of Johansen's creature type 4 with a squared-off snout, dot-punched eye and beaded ribbon body curled round to interlace with its own plain, single-toed limbs with spiral hips (only one foreleg is shown)</rs>; <rs type="decoration">the smaller of the other two fields contains the surviving head and two feet of a similar animal</rs>, while <rs type="decoration">the third field contains a bird of Johansen's creature type 1b with a curved beak and beaded ribbon body interlaced with part of the body and neck of a second bird</rs>. The back is lightly incised with <rs type="decoration">double rings round the heads of the rivets securing the bosses</rs> and there is a possible line of ogham lettering joining the two circles at the broad end. There is also a testing nick on the longest edge. (British Museum). </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription appears to be <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs> on a hand drawn stemline with feather marks at either end.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="parish">Harrogate</placeName>, <placeName type="county">West Riding of Yorkshire</placeName>
+                                <geo>53.989228, -1.530225</geo>
+                            <note>National Grid Reference: SE 3090 5490</note>
+                                </origPlace>
+                            <origDate>Late ninth to early tenth century</origDate>
+                        </origin>
+                        <provenance type="found" when="2007">Found by metal detector in 2007 <!--<placeName type="site"></placeName>,-->
+                        </provenance>
+                        <provenance type="observed" when="2009">Acquired by the <ref target="https://www.britishmuseum.org/collection/object/H_2009-8023-4">British Museum</ref> in 2009. 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-24" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+<change when="2024-10-02" who="NW">Nora White updated template for data from England</change> 
+<change when="2024-11-03" who="#JB">Autogenerated EpiDoc output from spreadsheet</change>   
+<change when="2024-11-26" who="#POC">Added geo coords, commented out media element. Added and encoded information, including edition.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+       <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1"/><w><g ref="#feathermark"/>ᚐᚈᚃᚉ<choice><unclear>ᚐ</unclear><unclear>ᚋ</unclear></choice><g ref="#feathermark_rev"/></w>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1"/><w><g ref="#feathermark"/>ATFC<choice><unclear>A</unclear><unclear>M</unclear></choice><g ref="#feathermark_rev"/></w>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+                    <note>Johnson (2020) read:</note>
+                    <rdg>ATFC[A/M]</rdg>
+                </app>
+                </listApp>
+            </div>
+            <!--<div type="translation">
+                <p></p>
+            </div>-->
+            <!--<div type="commentary">
+                <p></p>
+            </div>-->
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="JOH2020"/>
+                        <citedRange>??</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
