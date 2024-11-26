@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Drumconwell </title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-ARM-001</idno>
+                 <idno type="CIIC">311</idno>
+                <idno type="CISP">DRCOM/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>Armagh Diocesan library</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><!--<term>monument</term>--><p><ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=5657">Northern Ireland Sites and Monuments Record Number</ref>: <idno type="NISMR">ARM016:046</idno></p>
+                                    <material/> 
+                                    <objectType>Cross-carved pillar</objectType> 
+                                     <dimensions unit="m" source="NISMR">                                         
+                                            <height>1.33</height>
+                                            <width>0.39</width>
+                                            <depth>0.48</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>This is a <q>'hard, shaley stone, broken at the base and chipped at the edges and top...very irregular in shape, thining towards the base and somewhat triangular in section'</q> (<ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=5657">NISMR report</ref>)</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is on two angles (unusually up-up) of the same face as the damaged <rs type="decoration">linear ringed cross</rs>. The inscription does not impinge on the cross or vice versa. The simple cross is in a slightly irregular circle and the stem extends below the circle. It has been compared to another cross-carved, inscribed stone (W-BRE-005 with both ogham and roman letters) at Trallwng in Wales (Warner 1991, 43).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Drumconwell (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/56262">Droim Conmhaoil</ref></foreign>)</placeName>, <placeName type="county">Co. Armagh</placeName>
+                                <geo>54.302925, -6.651108</geo></origPlace>
+                            <origDate></origDate>
+                        </origin>
+                        <provenance type="found" when="1879">First reported by Reeves (1884) to have been found in 1879 by Mr Robert Pillow of Armagh in the 'graveyard field' on the farm of Samuel Ireland in the townland. The stone had been rolled out of the way <q>'down the eastern slope of the field into a hollow'</q>. Reeves arranged for the stone to be taken to Armagh Public Library for safe keeping (<ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=5657">NISMR report</ref>).
+                        </provenance>
+                        <provenance type="observed" when="2022">On display at Armagh Robinson Library (Museum at 5 Vicar’s Hill) where it was examined and recorded by members of the OG(H)AM project in July 2022.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc> 
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2024-11-26" who="#NW">Added details and references and updated to align with other xml files.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                <lb n="1" style="text-direction:up"/>
+            </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                     <lb n="1" style="text-direction:up"/><persName><name nymRef="?">DAENEGL<unclear reason="damage">O</unclear></name>
+                     <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">MAQ<unclear reason="damage">I</unclear></w> <name nymRef="?">Q<unclear reason="damage">E</unclear>TAI<gap reason="lost"/></name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <app n="1"><note>Macalister (1945) read:</note>
+                   <rdg>DINEGLO MAQI QETAIS</rdg>
+               </app>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>298-299, no. 311</citedRange>
+                    </bibl>
+                      <bibl><ptr target="WAR1991"/>
+                        <citedRange>43-50</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
