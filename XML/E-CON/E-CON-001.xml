@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote script="ogham">Only the last three characters of a very worn ogham inscription (1) remain. These appear to have been <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and are quite evenly spaced.</handNote> 
-                            <handNote script="roman">The Roman inscription (2) was <q>'<rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut and rubbed</rs>'</q> (Macalister 1945, 448). The form of the -s, half-uncial rather than capitals. FI, LI and RI are all ligatured. <!--<height></height>-->
+                            <handNote script="roman">The Roman inscription (2) was <q>"<rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut and rubbed</rs>"</q> (Macalister 1945, 448). The form of the -s, half-uncial rather than capitals. FI, LI and RI are all ligatured. <!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -90,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SX 1092 8568</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">The stone was first recorded by Richard Carew (1602) and Rhys (1875, 363) was the first to record the ogham inscription (1) <!--Huebner (1876, number 17)-->. The stone served as a footbridge, known as Slaughter Bridge, over the river Camel until 1754 when Lady Dowager Falmouth erected the stone in a natural grotto on the river's western bank. The stone is known locally as 'King Arthur's Stone', an attribution "based on a misreading of the final letters of the Latin epitaph as ATRY" (Macalister 1945, 448).
+                        <provenance type="found">The stone was first recorded by Richard Carew (1602) and Rhys (1875, 363) was the first to record the ogham inscription (1) <!--Huebner (1876, number 17)-->. The stone served as a footbridge, known as Slaughter Bridge, over the river Camel until 1754 when Lady Dowager Falmouth erected the stone in a natural grotto on the river's western bank. The stone is known locally as 'King Arthur's Stone', an attribution <q>"based on a misreading of the final letters of the Latin epitaph as ATRY"</q> (Macalister 1945, 448).
                         </provenance>
                         <provenance type="observed" when="2024">The stone now lies in a precarious position, beneath a cliff and projecting into the river, on the left bank of the river Camel about 100 m upstream from Slaughter Bridge. The stone can be viewed safely from the top of the cliff. Closer inspection of the stone has been rendered difficult due to recent erosion of the bank from flooding. Access is via The Arthurian Centre (entrance fees apply). Visited and recorded by the OG(H)AM project in April 2024.
                         </provenance>
@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-11" who="#NW">Updated edition structure in line with Welsh files and added textpart to translation. Moved photos to first position in image path. Added separate handnote for ogham and note regarding recent visit.</change>
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl, updated note in apparatus</change>
 <change when="2024-11-27" who="#POC">Correct typo in commentary. Added Charles Thomas bibl reference.</change>
+<change when="2024-11-29" who="#POC">Proofreading updates, including adding quotation marks and the q element for direct quotations, added name element to ogham edition.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,13 +149,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                   <div type="textpart" n="1">
                   <ab>
-                      <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/>ᚌᚅᚔ
+                      <lb n="1" style="text-direction:up"/><name><gap reason="lost" extent="unknown"/>ᚌᚅᚔ</name>
                   </ab>
                   </div> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">                
                     <ab>
-                      <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/>GNI
+                      <lb n="1" style="text-direction:up"/><name><gap reason="lost" extent="unknown"/>GNI</name>
                     </ab>
             </div>
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">   
@@ -173,7 +174,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         LA[TI]NI</rdg>                    
                 </app>
                     <app n="2">
-                        <note>Charles Thomas (1994, 263) preferred ‘of Macarus’ to Macalister's (1945) 'Magarus' in the roman-letter, Latin inscription (2). Sadly, the surface in this area has gone it is not possible to confirm which reading is preferrable.</note>
+                        <note>Charles Thomas (1994, 263) preferred ‘of Macarus’ to Macalister's (1945) 'Magarus' in the roman-letter, Latin inscription (2). Unfortunately, the surface in this area has gone, so it is not possible to confirm which reading is preferrable.</note>
                     </app>
                 </listApp>
             </div>
