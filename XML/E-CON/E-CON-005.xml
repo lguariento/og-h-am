@@ -78,14 +78,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The letters are slim and have been carefully <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs> on with a sharp point. <height></height>
+                            <handNote script="ogham">The letters are slim and have been carefully <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs> on with a sharp point. <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Penzance <!--Penwith?--></placeName>, <placeName type="county">Cornwall</placeName>
+                                <placeName type="parish">Penzance | Penwith</placeName>, <placeName type="county">Cornwall</placeName>
                                 <geo>50.088333, -5.545833</geo>
                             <note>National Grid Reference: SW 46459 26933</note>
                                 </origPlace>
@@ -93,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="2009">Discovered in 2009 from a newly ploughed field adjacent to a burial ground beside the parish church of Breweni | Paul, Penwith.<!--<placeName type="site"></placeName>,-->
                         </provenance>
-                        <provenance type="observed">Royal Cornwall Museum
+                        <provenance type="observed">Now in the Royal Cornwall Museum.
                         </provenance>
                     </history>
                 </msDesc>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-08" who="#POC">Added and encoded information, including edition and translation (updated language code in edition after uploading to GitHub)</change>
 <change when="2024-11-13" who="#NW">Fixed geo coords. Toggle commented media url for now to validate.</change> 
 <change when="2024-11-15" who="#POC">Added text direction to edition</change>
+<change when="2024-11-29" who="#POC">Added script attribute to handNote, proofreading changes.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
