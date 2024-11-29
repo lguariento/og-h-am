@@ -74,13 +74,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A slightly broken and exceptionally worn stone bearing bilingual inscriptions. The ogham inscription is so weatherworn that it is <q>now illegible</q> (Okasha 1993, 146) and covered by thick lichen growth. The Latin inscription is <q>incomplete and highly deteriorated</q> (Okasha 1993, 146). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription <q>is incised vertically on the edge between the face and the left-hand side of the stone</q> (Okasha 1993, 146). The Latin inscription is found on the face of the stone and the letters <q>are set in four lines reading horizontally</q>.</layout>
+                                <layout>The ogham inscription <q>"is incised vertically on the edge between the face and the left-hand side of the stone"</q> (Okasha 1993, 146). The Latin inscription consists of four lines reading horizontally on the face of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister surmised that the ogham inscription was <q>"probably pocked on the stone, but it is in very bad condition, and the technical details cannot be determined with certainty"</q> (1945, 443-4). Okasha noted that the Latin inscription was <q>"inscribed without framing-lines or panels"</q> (1993, 146).
-                                <height min="5" max="8" unit="cm" source="OKA1993">The Latin letters measure from 5 to 8 cm.</height>
+                            <handNote script="ogham">Macalister surmised that the ogham inscription was <q>"probably pocked on the stone, but it is in very bad condition, and the technical details cannot be determined with certainty"</q> (1945, 443-4). 
                             </handNote>
+                            <handNote script="roman">Okasha noted that the Latin inscription was <q>"inscribed without framing-lines or panels"</q> (1993, 146).
+                                <height min="5" max="8" unit="cm" source="OKA1993">The Latin letters measure from 5 to 8 cm.</height></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -134,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-13" who="#NW">Fixed geo coords. Toggle commented media url for now to validate. Added linebreaks and updated direction in edition</change>
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl</change>
 <change when="2024-11-27" who="#POC">Added quotation marks for quotations from references</change>    
+<change when="2024-11-29" who="#POC">Proofreading changes, added handNote for Latin inscription and added the script attribute to differentiate between the ogham and roman handNotes.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
