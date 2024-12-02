@@ -71,10 +71,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth></depth>-->
                                      <!--</dimensions>-->                                   
                                 </support>
-                                <condition>An inscribed stone reported to contain ogham.</condition>
+                                <condition>An inscribed pillar stone reported to contain ogham.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone had incisions cut across one edge.</layout>
+                                <layout>The stone had inscribed marks along the left edge and on the top of the front face (Babelstone "<ref target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-cornwall-and-devon.html">The Ogham Stones of Cornwall and Devon</ref>").</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>50.594025, -4.445619</geo>
                             <note>National Grid Reference: SX 2700 8000</note>
                                 </origPlace>
-                            <origDate></origDate>
+                            <origDate/>
                         </origin>
                         <provenance type="found">Originally found near Polyphant Quarry, was sited for several years in 'Moor View', the cottage once occupied by Mr Nicholls, at Lewannick village. <!--<placeName type="site">Churchtown</placeName>,-->
                         </provenance>
@@ -130,11 +130,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-11" who="#POC">Added and encoded information.</change>
 <change when="2024-11-13" who="#POC">Fixed geo coords. Toggle commented media url for now to validate. Updated condition. Moved block quotation from HER from layout to handNote since it is to do with the marks being fake.</change> 
 <change when="2024-11-29" who="#POC">Commented out dimensions because it is empty. No way to add a note within dimensions that states that the measurements are unknown.</change>
+<change when="2024-12-02" who="#POC">Commented out origDate. Updated layout, apparatus, and added image of drawing from Babelstone blog.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="ENG\E-CON-X01-Lewannick3.jpg"><desc>Drawing by Nicholls and Dewey</desc></graphic>
        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -152,7 +153,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Only Thomas (1994) lists the stone.</note>
+                    <note>Thomas (1994, 331) lists the stone as an "uncertain" ogham inscription, but does not provide a reading or discussion of the supposed inscription. Frank Nicholls and Henry Dewey supplied a drawing of the stone (1912), however, the marks in the drawing do not appear to be ogham. </note>
                 </app>
                 </listApp>
             </div>
@@ -165,8 +166,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="THO1994"/>
-                        <citedRange><!--Add page numbers--></citedRange>
+                        <citedRange>331-333</citedRange>
                     </bibl>
+                     <bibl><ptr target="NIC1912"/>
+                         <citedRange>Plate 3</citedRange>
+                     </bibl>
                 </listBibl>
             </div>
         </body>
