@@ -71,10 +71,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.04</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>A granite pillar-stone broken in two bearing a Latin inscription. Macalister remarked that the inscription was <q>"in excellent condition, except where injured by a fracture"</q> (1945, 435).</condition>
+                                <condition>A granite pillar-stone bearing a Latin inscription and subsequently broken in two. Macalister remarked that the inscription was <q>"in excellent condition, except where injured by"</q> the break in the stone (1945, 435). There is no evidence to support the possibility of an ogham inscription.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The Latin inscription is in <q>two lines running downwards</q> on the face of the stone (Macalister 1945, 435). Both Macalister and Okasha mention the Latin inscription only and do not mention the possibility of ogham.</layout>
+                                <layout>The Latin inscription is in two lines running downwards on the face of the stone (Macalister 1945, 435). Macalister and Okasha note the presence of a Latin inscription only, there is no mention of ogham.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -91,7 +91,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </origPlace>
                             <origDate>Fifth or sixth century to the eighth century</origDate>
                         </origin>
-                        <provenance type="found" when="1912">The stone was known locally to be lying in a stream bed since 1912 (Okasha 1993, 126). In 1928, the stone was moved to Bodmin but was later recovered and returned to Lancarffe by Mr Dunn. Okasha maintained that <q>"during one of these removals the stone was broken in two"</q> (1993, 126). Mr. C. Daish was the first to bring the stone to <q>"scientific notice"</q> (Macalister 1945, 435) in 1929. <!--Seems to be another OS 'Dark Ages' map error.-->  <!--<placeName type="site"></placeName>,-->
+                        <provenance type="found" when="1912">The stone was known locally to be lying in a stream bed since 1912 (Okasha 1993, 126). In 1928, the stone was moved to Bodmin but was later recovered and moved to its present location by Mr Dunn. Okasha maintained that <q>"during one of these removals the stone was broken in two"</q> (1993, 126). Mr. C. Daish was the first to bring the stone to <q>"scientific notice"</q> (Macalister 1945, 435) in 1929. The stone is marked as an ogham stone on the Ordnance Survey Map of Britain in the Dark Ages, but there is no evidence of ogham and there is no inscription included in the CISP database.<!--Seems to be another OS 'Dark Ages' map error.-->  <!--<placeName type="site"></placeName>,-->
                         </provenance>
                         <provenance type="observed">Built into the wall of a summer house in the garden of Lancarffe House by Mr Dunn in 1928.
                         </provenance>
@@ -131,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-13" who="#POC">Fixed geo coords. Toggle commented media url for now to validate. Added CIIC number to bibl.</change> 
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl</change>
 <change when="2024-11-15" who="#POC">Numbered critical apparatus</change>
-<change when="2024-12-03" who="#POC">Added quotation marks for quotations, updated provenance, added script attribute to handNote, added drawing by Thomas, replaced Okasha reading with Thomas' reading since he offered more information on the letters. Added Thomas' reading to edition and encoded ligatures.</change>
+<change when="2024-12-03" who="#POC">Added quotation marks for quotations, updated provenance, added script attribute to handNote, added drawing by Thomas, replaced Okasha reading with Thomas' reading since he offered more information on the letters. Added Thomas' reading to edition and encoded ligatures and text direction, added information from Babelstone blog.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,7 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>-->
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1"/><persName><name nymRef="dunocatus">DVNOCATI</name> <w>HIC</w> <w>IACIT</w> <w><hi rend="ligature">FI</hi>LI</w> <name nymRef="mescagnus">MESCAGNI</name></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="dunocatus">DVNOCATI</name> <w>HIC</w> <w>IACIT</w> <w><hi rend="ligature">FI</hi>LI</w> <name nymRef="mescagnus">MESCAGNI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
