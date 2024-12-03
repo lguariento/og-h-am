@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="roman">According to Macalister, the inscription is <q><rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> and rubbed</q> (1945, 435). Okasha noted that the <q>"text is incised without framing-lines or panels"</q> and is <q>in a predominantly capital script</q> (1993, 126). Thomas noted that the inscription <q>"shows angle-bar A and horizontal I, with two reversed capitals but no devolved letters"</q> (1994, 265). <height min="5.5" max="8" unit="cm" source="OKA1993">The letters measure 5.5 to 8 cm in height</height>
+                            <handNote script="roman">According to Macalister, the inscription is <q><rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> and rubbed</q> (1945, 435). Okasha noted that the <q>"text is incised without framing-lines or panels"</q> and is <q>in a predominantly capital script</q> (1993, 126). Thomas remarked that the inscription <q>"shows angle-bar A and horizontal I, with two reversed capitals but no devolved letters"</q> (1994, 265). <height min="5.5" max="8" unit="cm" source="OKA1993">The letters measure 5.5 to 8 cm in height</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -131,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-13" who="#POC">Fixed geo coords. Toggle commented media url for now to validate. Added CIIC number to bibl.</change> 
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl</change>
 <change when="2024-11-15" who="#POC">Numbered critical apparatus</change>
-<change when="2024-12-03" who="#POC">Added quotation marks for quotations, updated provenance, added script attribute to handNote, added drawing by Thomas, replaced Okasha reading with Thomas' reading since he offered more information on the letters. Added Thomas' reading to edition and encoded ligatures and text direction, added information from Babelstone blog.</change>
+<change when="2024-12-03" who="#POC">Added quotation marks for quotations, updated provenance, added script attribute to handNote, added drawing by Thomas, replaced Okasha reading with Thomas' reading since he offered more information on the letters. Added Thomas' reading to edition and encoded ligatures and text direction, added Thomas to bibl details, added information from Babelstone blog.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -186,6 +186,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </bibl>
                      <bibl><ptr target="OKA1993"/>
                          <citedRange>126-128, no. 18</citedRange>
+                     </bibl>
+                     <bibl>
+                         <ptr target="THO1994"/>
+                         <citedRange>244; 263-5</citedRange>
                      </bibl>
                 </listBibl>
             </div>
