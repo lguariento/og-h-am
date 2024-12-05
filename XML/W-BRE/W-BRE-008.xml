@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Llywel 1</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-BRE-008</idno>
+                 <idno type="CIIC">-</idno>
+                <idno type="CISP">ABHYD/1</idno>
+                <idno type="WelshCorpus">B40</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Fixed against the west wall of the nave in St David's parish church, Llywel</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
+                              <textLang mainLang="pgl-Latn">Primite Irish written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> CPAT Regional Historic Environment Record:<ref target="https://archwilio.org.uk/"><idno type="HER">1510</idno>Aberhydfer</ref>
+                                    <material>stone</material> <objectType>pillar</objectType>, a local stone type described as <q>a derivation from the Old Red Standstone sequence</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">231</citedRange></bibl>. 
+                                    <dimensions unit="m">
+                                        <height>1.82</height>
+                                        <width>0.33</width>
+                                        <depth>0.24</depth></dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with a roman-letter inscription in five lines, reading horizontally across. The third and fourth lines are apparently underscored. The roman-letter inscription was partically removed when the stone was chamfered on both edges of the stone. The stone is also inscribed with an Ogham inscription, reading vertically upwards across the chamfer of the upper left edge of the stone, using the inner edge of the chamfer as an arris. The Ogham inscription was cut after the roman-letter inscription, obliterating part of it. Both inscriptions appear <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page"> 231-2</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The Roman-letter inscription is described in the Welsh Corpus as <q>crude...showing no signs of regular ruling or letter-spacing...Of the three horizontal score-marks, only the third line of letters appears to use one as a guide. The three terminal Ss are different, the strokes put on so freely that the two diagonals of the last V do not meet</q>. The Ogham inscription is apparently <q>not cut in relation to any precise arris, as for most of its height the edge of a chamfer is not obvious on this side</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page"> 231-2</citedRange></bibl>. 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Llywel</placeName>
+                                <geo>51.936972, -3.661125</geo></origPlace>
+                            <origDate type="textpart" n="1" xml:lang="pgl-Latn" notBefore="0400" notAfter="0499" datingMethod="#julian" evidence="linguistic"> Roman-letter inscription is fifth century A.D.</origDate>
+                            <origDate type="textpart" n="2" xml:lang="pgl-Ogam" notBefore="0520" notAfter="0580" datingMethod="#julian" evidence="linguistic">Ogham inscription is mid-sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Recognised in 1954, forming part of a drystone hedge blocking a disused trackway along the south side of the river Usk at Aberhydfer. Initial reading published 1975.
+                        </provenance>
+                        <provenance type="observed">Fixed against the west wall of the nave in St David's parish church, Llywel
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-01" who="#BM"> Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-11" who="#MK">Megan Kasten edited information and formatting to ensure that it adheres to OGHAM formatting.</change>
+           <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change> 
+    <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:across"/><persName><del cause="overwritten" quantity="3" unit="character"/>CIVS
+                    <lb n="2" style="text-direction:across"/><del cause="overwritten" quantity="3" unit="character"/><unclear reason="damage">V</unclear>S<g type="interpunct"/>
+                   <lb n="3" style="text-direction:across"/><hi rend="underline"><del cause="overwritten" quantity="2" unit="character"/>AV<unclear reason="damage">R</unclear></hi>
+                    <lb n="4" style="text-direction:across"/><hi rend="underline"><del cause="overwritten" extent="unknown" unit="character"/><unclear reason="damage">A</unclear>NVS</hi>                    
+                    <lb n="5" style="text-direction:across"/><supplied reason="lost" cert="low">HIC IACIT</supplied></persName>                 
+                </ab>
+                </div>
+                <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="2" xml:lang="pgl-Ogam">
+                    <ab><title>Ogham</title>:
+                      <lb n="1" style="text-direction:up"/><persName><name nymRef="#taricoras?">&#x1688;&#x1690;&#x168F;&#x1694;&#x1689;&#x1691;&#x168F;
+                       <choice>
+                            <unclear reason="broken">&#x1691;</unclear>
+                            <unclear reason="broken">&#x1690;</unclear>
+                      </choice></name></persName>                               
+                    </ab>
+                </div>
+            </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve">
+                <div type="textpart" n="2" xml:lang="pgl-Ogam">
+                    <ab><title>Transliteration</title>:
+                       <lb n="1" style="text-cirection:up"/><persName><name nymRef="#taricoras?">TARICOR<choice><unclear reason="broken">O</unclear><unclear reason="broken">A</unclear></choice></name></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p><title>Latin</title>: <foreign xml:lang="pgl">Lucius [Annius] Taurianus</foreign> lies here</p>
+                </div>
+                <div type="textpart" n="2">
+                    <p><title>Ogham</title>: [The Stone] of <foreign xml:lang="pgl">Tarico</foreign></p>
+                </div>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                    <item n="1">
+                        <p>It is impossible to recreate the first line of the Roman-letter inscription '[...]CIVS' as this is a very common name-ending. There are also a number of possible suggestions for the last name, including <hi rend="italic"> Maurianus, Taurioanus, Scaurianus, Gaurianus </hi>and <hi rend="italic"> Laurianus</hi>.Thus, the recreation of the inscription for translation to English is subject to debate. The Welsh corpus elaborates on the dating of the inscription in noting <q>that, with its arrangement in short horizontal lines, the medial stop after the S in the second line and the purely Latin character of its word-endings, this inscription appears to [be] sub-Roman rather than 'Early Christian' in character</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page"> 231-3</citedRange></bibl>.</p>
+                    </item>
+                <item n="2">
+                    <p>The Ogham inscription is remarkable in being the only known example of an Ogham inscription overlying a Latin one. It is further notable in that the two inscriptions do not appear to be related. The word in the inscription, TARICORO, is obscure but likely Irish. <bibl><ptr target="THO1994"/>Thomas</bibl> compares TARICORO with OI <hi rend="italic"> Tairmesc</hi> in which <hi rend="italic">Tair-</hi> is prepositional. The Welsh Corpus notes that <q>a possible second element is <hi rend="italic">*kor-,</hi> 'cast, throw' (Old Irish <hi rend="italic">cuir-</hi></q>.<bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">231-3</citedRange></bibl>.</p>
+                </item> 
+                    </list>
+            </div>
+                       <div type="bibliography">
+                           <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="RED2007"/> <citedRange unit="page">231-3</citedRange></bibl>
+                    <bibl><ptr target="THO1994"/>Thomas 1994</bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
