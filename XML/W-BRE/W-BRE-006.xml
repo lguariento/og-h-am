@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Llywel 3</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-BRE-006</idno>
+                 <idno type="CIIC">341</idno>
+                <idno type="CISP">TCSTL/1</idno>
+                <idno type="WelshCorpus">B42</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>British Museum</repository>
+                        <idno type="invNo">reg no M and LA78.11-2.1</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>   
+                              <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">19394</idno>Pentre Poeth, Trecastle, or Llywel Stone</ref>
+                                    <material>stone</material> <objectType>slab</objectType>, described s <q>deep pink, darker pink/red-weathering, medium- to fine-grained sandstone...The stone is derived locally</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">237</citedRange></bibl>.
+                                    <dimensions unit="m">
+                                        <height>1.82</height>
+                                        <width>0.60</width>
+                                        <depth>0.14</depth></dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with an Ogham inscription along the righ-hand edge, reading vertically upwards. A corresponding Latin inscription runs vertically down the middle of the stone in one line reading downwards. The inscription is neatly <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs>. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The Roman capitals are <q>well-spaced, but with no writing-line. Economy of effort shown in making the second inverted V of the opening M to serve also as the A of MACUTRENI, as in Llywel (Crai) 1 (B41). Both in the LICI and NI of tthe SALICIDUNI the design has allowed breathing space for the Is, showing that he had some training</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">238</citedRange></bibl>.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Llywel</placeName>
+                                <geo>51.925325, -3.625936</geo></origPlace>
+                            <origDate notBefore="0500" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic"></origDate>
+                        </origin>
+                        <provenance type="found">The stone and its ogham were first recognised as significant by Revd Lewis Price, vicar of Llywel in April 1876
+                        </provenance>
+                        <provenance type="observed">British Museum (reg no M and LA78.11-2.1)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-03" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-11" who="#MK">Megan Kasten edited formatting and information to match OGHAM standards.</change>
+        <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
+<change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>    
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                 <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas treni">&#x168B;&#x1690;&#x168A;&#x1694;&#x1688;&#x168F;&#x1693;&#x1685;&#x1694;</name><name nymRef="#salicadunas">&#x1684;&#x1690;&#x1682;&#x1694;&#x1689;&#x1694;&#x1687;&#x1692;&#x1685;&#x1694;</name></persName>
+                </ab>
+            </div>
+                </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                <div type="textpart" n="2" xml:lang="pgl-Latn">
+                    <ab><title>Latin</title>:
+                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#maqqas treni"><hi rend="ligature"><unclear reason="worn">M</unclear>A</hi>CCVTRENI</name><name nymRef="#salicadunas">SALIC<unclear reason="worn">I</unclear>D <unclear reason="worn">V</unclear>NI</name></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Transliteration</title>:
+                 <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas treni">MAQITRENI</name><name nymRef="#salicadunas">SALICIDUNI</name></persName>
+                </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p><title>Ogham</title>: The stone of <foreign xml:lang="pgl">Maqas-Treni Salicidunus/-i</foreign></p>
+                    </div>
+                <div type="textpart" n="2">
+                    <p><title>Latin</title>: [The stone] of <foreign xml:lang="pgl"> Maccutreni Salicidunus/-i</foreign></p>
+                    </div>
+            </div>
+                        <div type="commentary">
+                            <p>The name MAQITRENI / [M]ACCVTRENI is Irish and the same as that inscribed on Llywel (Crai) B41. According to the Welsh Corpus this could <q>conceivably [be] the same person (if so, he must be named as the father, rather than the deceased, on at least one of the two stones!)</q><bibl>Redknap and Lewis 2007<ptr target="RED2007"/> <citedRange unit="page">238</citedRange></bibl>. The two stones could indicate the placement of the estate of Maccutrenus or they could have <q>formed the nucleus of an early Christian burial-ground</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">238</citedRange></bibl>. However, this is not certain as the name also appears to have been popular in Britain and Ireland. The second element of the name may be related to Welsh <hi rend="italic">trwyn</hi> in the name <hi rend="italic">Cyndrwyn</hi>. On the second half of the inscription, the Welsh Corpus notes that <q>SALICIDUNI / SALICIDVNI may be Welsh or Irish...the name means 'willow fort', and could be a personal name or a place-name, <hi rend="italic">Salicidunum</hi>, associated with the deceased</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">238</citedRange></bibl>. On the context of this stone, the Welsh Corpus notes that <q>this stone belongs to a small group (Crickhowell 1 (B2), Defynnog 1(B4), Llywel 1 (B41) and Trallwng 1 (B45)) in the Upper Usk Valley commemorating men with Irish names, some of which are also found in north-west Pembrokeshire (<hi rend="italic">ECMW:</hi>no 425)</q>. The stone was later inverted and its back used for an elaborate decoration with pictograms in three panels <bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page">235,238</citedRange></bibl>.</p>
+                          </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">235-240</citedRange></bibl>
+                </listBibl>
+                            </div>
+        </body>
+    </text>
+</TEI>
