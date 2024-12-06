@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-13" who="#NW">Fixed geo coords. Toggle commented media url for now to validate.</change> 
 <change when="2024-11-15" who="#POC">Added text direction to edition</change>
 <change when="2024-11-29" who="#POC">Added script attribute to handNote, proofreading changes.</change>
+<change when="2024-12-06" who="#POC">Added encoding for X forfid to edition, proofreading changes.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,14 +143,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:l-to-r"/><choice><unclear>Λ</unclear><unclear>ᚕ<!--X forfid--></unclear></choice>ᚄ
-                    <lb n="2" style="text-direction:l-to-r"/><choice><unclear>ᚒ</unclear><unclear>ᚓ</unclear><unclear>ᚔ</unclear></choice><unclear>ᚕ<!--forfid (supplementary letter) shaped like a Λ descending from the stem-line--></unclear><choice><unclear>ᚃ</unclear><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice>
+                    <lb n="1" style="text-direction:l-to-r"/><choice><unclear>Λ</unclear><unclear><g ref="#forfid_X"/></unclear></choice>ᚄ
+                    <lb n="2" style="text-direction:l-to-r"/><choice><unclear>ᚒ</unclear><unclear>ᚓ</unclear><unclear>ᚔ</unclear></choice><unclear><g ref="#forfid_X"/></unclear><choice><unclear>ᚃ</unclear><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">
                 <ab>
-                   <lb n="1"/><choice><unclear>Λ</unclear><unclear>X forfid</unclear></choice>S
-                    <lb n="2"/><choice><unclear>U</unclear><unclear>E</unclear><unclear>I</unclear></choice><unclear>ᚕ<!--forfid (supplementary letter) shaped like a Λ descending from the stem-line--></unclear><choice><unclear>V</unclear><unclear>S</unclear><unclear>N</unclear></choice>
+                   <lb n="1"/><choice><unclear>Λ</unclear><unclear><g ref="#forfid_X"/></unclear></choice>S
+                    <lb n="2"/><choice><unclear>U</unclear><unclear>E</unclear><unclear>I</unclear></choice><unclear><g ref="#forfid_X"/></unclear><choice><unclear>V</unclear><unclear>S</unclear><unclear>N</unclear></choice>
                 </ab>
             </div>
             <div type="apparatus">
