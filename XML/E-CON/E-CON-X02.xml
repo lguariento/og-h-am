@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="roman">According to Macalister, the inscription is <q><rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> and rubbed</q> (1945, 435). Okasha noted that the <q>"text is incised without framing-lines or panels"</q> and is <q>in a predominantly capital script</q> (1993, 126). Thomas remarked that the inscription <q>"shows angle-bar A and horizontal I, with two reversed capitals but no devolved letters"</q> (1994, 265). <height min="5.5" max="8" unit="cm" source="OKA1993">The letters measure 5.5 to 8 cm in height</height>
+                            <handNote script="roman">According to Macalister, the inscription is <q>"<rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> and rubbed"</q> (1945, 435). Okasha noted that the <q>"text is incised without framing-lines or panels"</q> and is <q>"in a predominantly capital script"</q> (1993, 126). Thomas remarked that the inscription <q>"shows angle-bar A and horizontal I, with two reversed capitals but no devolved letters"</q> (1994, 265). The letters FI are ligatured. <height min="5.5" max="8" unit="cm" source="OKA1993">The letters measure 5.5 to 8 cm in height.</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -91,7 +91,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </origPlace>
                             <origDate>Fifth or sixth century to the eighth century</origDate>
                         </origin>
-                        <provenance type="found" when="1912">The stone was known locally to be lying in a stream bed since 1912 (Okasha 1993, 126). In 1928, the stone was moved to Bodmin but was later recovered and moved to its present location by Mr Dunn. Okasha maintained that <q>"during one of these removals the stone was broken in two"</q> (1993, 126). Mr. C. Daish was the first to bring the stone to <q>"scientific notice"</q> (Macalister 1945, 435) in 1929.<!--Seems to be another OS 'Dark Ages' map error.-->  <!--<placeName type="site"></placeName>,-->
+                        <provenance type="found" when="1912">The stone was known locally to be lying in a stream bed since 1912 (Okasha 1993, 126). In 1928, the stone was moved to Bodmin but was later recovered and moved to its present location by Mr Dunn. Okasha maintained that <q>"during one of these removals the stone was broken in two"</q> (1993, 126). Mr C. Daish was the first to bring the stone to <q>"scientific notice"</q> (Macalister 1945, 435) in 1929.<!--Seems to be another OS 'Dark Ages' map error.-->  <!--<placeName type="site"></placeName>,-->
                         </provenance>
                         <provenance type="observed">Built into the wall of a summer house in the garden of Lancarffe House by Mr Dunn in 1928.
                         </provenance>
@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl</change>
 <change when="2024-11-15" who="#POC">Numbered critical apparatus</change>
 <change when="2024-12-03" who="#POC">Added quotation marks for quotations, updated provenance, added script attribute to handNote, added drawing by Thomas, replaced Okasha reading with Thomas' reading since he offered more information on the letters. Added Thomas' reading to edition and encoded ligatures and text direction, added Thomas to bibl details, added information from Babelstone blog.</change>
+<change when="2024-12-06" who="#POC">Proofreading changes, added lb element to apparatus for readings, added ligature details to handNote.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -165,11 +166,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                 <app n="2">
                     <note>Thomas (1994, 263) read:</note>
-                    <rdg n="1" source="OKA1993">Roman: DVNOCATI HIC IACIT FILI MESCAGNI</rdg>
+                    <rdg n="1" source="OKA1993">
+                        <lb/>Roman: DVNOCATI HIC IACIT FILI MESCAGNI</rdg>
                 </app>
                     <app n="3">
                         <note>Macalister (1945, 435) read:</note>
-                        <rdg n="1" source="MAC1945">Roman: DVNOCATI HIC IACIT FILI MERCAGNI</rdg>
+                        <rdg n="1" source="MAC1945">
+                            <lb/>Roman: DVNOCATI HIC IACIT FILI MERCAGNI</rdg>
                     </app>
                 </listApp>
             </div>
