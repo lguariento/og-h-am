@@ -75,7 +75,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A small, rounded granite boulder, broken at both ends. The ogham inscription (1) is <q>"incomplete and slightly deteriorated"</q> (Okasha 1993, 248) having lost the first letter and part of the second. The Latin inscription (2) is <q>"legible"</q> and <q>"probably complete"</q> (Okasha 1993, 248).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription (1) is found on the upper part of the edge between the face and the right-hand side of the stone. (Okasha 1993, 248). The Latin inscription (2) reads downwards facing left and runs parallel with the ogham on the face of the stone. It is enclosed in a cartouche, which Tedeschi points out mimics the shape of a full-size monument (2003, 255), which is highly unusual, though not without precedent (cf. 10 miles away at Lanivet CIIC 465).</layout>
+                                <layout>The ogham inscription (1) is found on the upper part of the edge between the face and the right-hand side of the stone (Okasha 1993, 248). The Latin inscription (2) reads downwards facing left and runs parallel with the ogham on the face of the stone. It is enclosed in a cartouche, which Tedeschi points out mimics the shape of a full-size monument (2003, 255), which is highly unusual, though not without precedent (cf. 10 miles away at Lanivet CIIC 465).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -93,9 +93,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </origPlace>
                             <origDate>Mid-6th century</origDate>
                         </origin>
-                        <provenance type="found" when="1924">Apparently used as a footbridge formerly and later served as a gatepost, the stone was found in 1924 in the bed of a stream when <q>"the bridge spanning the brook just below the church was widened"</q> (Okasha 1993, 248). The earliest reading is by provided by Macalister in 1945. <!--<placeName type="site">St James' church</placeName>,-->
+                        <provenance type="found" when="1924">Formerly used as a footbridge and later served as a gatepost, the stone was found in 1924 in the bed of a stream when <q>"the bridge spanning the brook just below [St Kew] church was widened"</q> (Okasha 1993, 248). The earliest reading is by provided by Macalister in 1945. <!--<placeName type="site">St James' church</placeName>,-->
                         </provenance>
-                        <provenance type="observed">Now inside the church at the west end of the nave.
+                        <provenance type="observed">Now inside St Kew church at the west end of the nave.
                         </provenance>
                     </history>
                 </msDesc>
@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-13" who="#NW">Fixed geo coords. Toggle commented media url for now to validate. Corrected typo in edition. Moved translation note to commentary. Added CIIC no. to bibl.</change> 
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl</change>
 <change when="2024-11-29" who="#POC">Added missing target attribute to ref element in support which was preventing display of "Historic Environment Record ID" text. Added separate handNote for Latin inscription. Added script attribute to both handNotes to distinguish between them. Proofreading changes, including correcting typos.</change>    
+<change when="2024-12-06" who="#POC">Proofreading changes, added nymRef to name.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,13 +147,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" xml:space="preserve" subtype="ogham" xml:lang="pgl-Ogam" resp="#NW">
                 <div type="textpart" n="1">
                 <ab>
-                    <lb n="1"/><persName><name><supplied reason="lost">ᚔ</supplied><unclear reason="damage">ᚒ</unclear>ᚄᚈᚔ</name></persName>
+                    <lb n="1"/><persName><name nymRef="iusti"><supplied reason="lost">ᚔ</supplied><unclear reason="damage">ᚒ</unclear>ᚄᚈᚔ</name></persName>
                 </ab>
             </div>
             </div>
                 <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                     <ab>
-                        <lb n="1"/><persName><name><supplied reason="lost">I</supplied><unclear reason="damage">U</unclear>STI</name></persName>
+                        <lb n="1"/><persName><name nymRef="iusti"><supplied reason="lost">I</supplied><unclear reason="damage">U</unclear>STI</name></persName>
                     </ab>
                 </div>
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
