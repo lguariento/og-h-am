@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote script="ogham">Only the last three characters of a very worn ogham inscription (1) remain. These appear to have been <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and are quite evenly spaced.</handNote> 
-                            <handNote script="roman">The Roman inscription (2) was <q>"<rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut and rubbed</rs>"</q> (Macalister 1945, 448). The form of the -s, half-uncial rather than capitals. FI, LI and RI are all ligatured. <!--<height></height>-->
+                            <handNote script="roman">The Roman inscription (2) was <q>"<rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut and rubbed</rs>"</q> (Macalister 1945, 448). The form of the -s is half-uncial rather than capital. FI, LI and RI are all ligatured. <!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl, updated note in apparatus</change>
 <change when="2024-11-27" who="#POC">Correct typo in commentary. Added Charles Thomas bibl reference.</change>
 <change when="2024-11-29" who="#POC">Proofreading updates, including adding quotation marks and the q element for direct quotations, added name element to ogham edition.</change>
+<change when="2024-12-06" who="#POC">Proofreading updates, correcting typos, adding lb element for Macalister reading.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -169,9 +170,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 449) read the ogham (1) as: </note>
-                    <rdg n="1" source="MAC1945">
-                        LA[TI]NI</rdg>                    
+                    <note>Macalister (1945, 449) read: </note>
+                    <rdg n="1" source="MAC1945"><lb/>Ogham: LA[TI]NI</rdg> 
+                    <rdg n="2" source="MAC1945"><lb/>Roman: LATINI 1C IACIT FILIUS MAGARI</rdg>
                 </app>
                     <app n="2">
                         <note>Charles Thomas (1994, 263) preferred ‘of Macarus’ to Macalister's (1945) 'Magarus' in the roman-letter, Latin inscription (2). Unfortunately, the surface in this area has gone, so it is not possible to confirm which reading is preferrable.</note>
@@ -188,7 +189,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <p>On recording the stone in 3d for the OG(H)AM project it was discovered that the surviving letters are apparently: –GNI, evidently the common suffix -AGNI (OIr. -án), with individualising or diminutive function.</p>
                 </div>
                <div type="textpart" n="2">
-                <p>Interesting features in the roman inscription (2) include the ungrammatical <foreign xml:lang="la">filius</foreign> rather than <foreign xml:lang="la">filii</foreign>, and the form of the -s, half-uncial rather than capitals.</p>
+                <p>Interesting features in the roman inscription (2) include the ungrammatical <foreign xml:lang="la">filius</foreign> rather than <foreign xml:lang="la">filii</foreign>, and the form of the -s is half-uncial rather than capital.</p>
                </div>
             </div>
             <div type="bibliography">
