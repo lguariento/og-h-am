@@ -79,7 +79,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="roman">The Latin inscription (2) is written without the assistance of <q>framing-lines or panels</q> (Okasha 1993, 150). <height min="6" max="11" unit="cm">The letters of the Latin inscription measure between 6 to 11 cm in height.</height>
+                            <handNote script="roman">The Latin inscription (2) is written without the assistance of <q>"framing-lines or panels"</q> (Okasha 1993, 150). <height min="6" max="11" unit="cm">The letters of the Latin inscription measure between 6 to 11 cm in height.</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-13" who="#NW">Fixed geo coords. Toggle commented media url for now to validate. Added space encoding to Latin text and nymrefs to edition.</change>    
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl</change>
 <change when="2024-11-29" who="#POC">Proofreading changes, added script attribute to the handNote for the latin inscription, added quotation marks for quotations, deleted superfluous round brackets in objectType note.</change>    
+<change when="2024-12-06" who="#POC">Proofreading changes</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -154,7 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
                  <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                  <ab>
-                     <lb n="1" style="text-direction:down"/><persName><name>UDSAGCI</name></persName>
+                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#udsagci">UDSAGCI</name></persName>
                      <lb n="2" style="text-direction:down"/><persName><name nymRef="#olcagnas">ULCAGNI</name></persName>
                  </ab>
                  </div>
