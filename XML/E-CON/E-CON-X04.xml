@@ -74,11 +74,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>An inscribed stone in two pieces and cemented onto a circular base (Okasha 1993, 232). The stone is weatherworn and covered by a <q>dense growth of lichen</q> (Macalister 1945, 457). The Latin inscription consists of two vertical lines, Macalister described the first line as <q>"clear, though worn"</q> and the second line as <q>"having been chamfered away by weathering"</q> to such an extent that <q>"only the tops of the letters remain"</q> (1945, 457). Macalister observed <q>"faint"</q> traces of an ogham inscription "capable of being read BROCAGNI; but nothing that could be regarded with any confidence" (1945, 457). Okasha determined that there is <q>"no sign of any ogham text today"</q> (Okasha 1993, 235). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The Latin inscription is on the N. E. face of the stone. Macalister noted that the top of the stone has a <q><rs type="decoration">chi-rho monogram with a curved foot</rs></q> (1945, 456). Apparently, a plain cross in relief was also cut into the back of the stone near the top but neither Macalister (1945, 456) or Okasha (1993, 232) could find any trace of it. The two lines of the Latin inscription read downwards and face left. The presence of an ogham inscription on the right-hand angle of the stone was suggested by Macalister but described as  <q>"doubtful"</q> (1945, 457). The possibility of an ogham text was later disregarded by Okasha (1993, 235).</layout>
+                                <layout>The Latin inscription is on the N. E. face of the stone. Macalister noted that the top of the stone has a <q><rs type="decoration">chi-rho monogram with a curved foot</rs></q> (1945, 456). Apparently, a <rs type="decoration">plain cross in relief</rs> was also cut into the back of the stone near the top but neither Macalister (1945, 456) or Okasha (1993, 232) could find any trace of it. The two lines of the Latin inscription read downwards and face left. The presence of an ogham inscription on the right-hand angle of the stone was suggested by Macalister but described as  <q>"doubtful"</q> (1945, 457). The possibility of an ogham text was later disregarded by Okasha (1993, 235).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="roman">Macalister surmised that the Latin inscription was <q>probably <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed</q> (1945, 456). Okasha remarked that the script <q>"appears to be predominantly capital in form with many ligatures"</q> (233). Thomas noted that the inscription <q>"shows quite a few devolved letter forms"</q> (1994, 263). <height min="9" max="10" unit="cm" source="OKA1993">The letters measure between 9 to 10 cm in height (Okasha 1993, 233).</height>
+                            <handNote script="roman">Macalister surmised that the Latin inscription was <q>"probably <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed"</q> (1945, 456). Okasha remarked that the script <q>"appears to be predominantly capital in form with many ligatures"</q> (233). Thomas noted that the inscription <q>"shows quite a few devolved letter forms"</q> (1994, 263). The CI of IACIT and the FI of FILIVS are ligatured. <height min="9" max="10" unit="cm" source="OKA1993">The letters measure between 9 to 10 cm in height (Okasha 1993, 233).</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-13" who="#POC">Fixed geo coords. Toggle commented media url for now to validate. Added CIIC number to bibl.</change>
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl</change>
 <change when="2024-12-03" who="#POC">Added Greek language code for chi ro symbol, proofreading updates, added information from Babelstone blog, added Jackson bibl details, added Macalister's doubtful Ogham reading to apparatus, encoded edition, including ligatures, added information from Thomas as well as bibl details.</change>
+<change when="2024-12-06" who="#POC">Proofreading updates, added rs element for plain cross decoration, added lb element to apparatus, added ligature details to handNote.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,8 +150,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listApp>
                 <app n="1">
                     <note>Macalister (1945, 457) read:</note>
-                    <rdg>Roman: BROCAGNI IHC IACIT NADOTTI FILIVS</rdg>
-                    <rdg>Ogham: BROCAGNI</rdg>
+                    <rdg><lb/>Roman: BROCAGNI IHC IACIT NADOTTI FILIVS</rdg>
+                    <rdg><lb/>Ogham: BROCAGNI</rdg>
                 </app>
                 </listApp>
             </div>
@@ -158,7 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>Roman: '[the body] of [Br...acnus] lies here [-]'</p>
             </div>
             <div type="commentary">
-                <p>Previous scholarship linked the first element of NADOTTI 'nad' to Irish names (Okasha 1993, 234). Similarly, the name BROCAGNI was interpreted by Jackson as either Primitive Irish or Primitive Cornish (1953, 566, 665n). Okasha noted that <q>"the name BROCAGNI occurs on a stone from Llangeler, Wales, and in ogham on an Irish stone from Dunalis"</q> (1993, 234). Thomas stated that the name Brocagnus is Primitive Irish, <foreign xml:lang="pgl">Brocagnas</foreign>, meaning 'Little Badger', and is also <q>"the same name as that of king Brychan"</q> (1994, 263). Okasha dates the stone from the sixth to eighth century based on the <q>"evidence of the monogram <foreign xml:lang="grc">chi-ro</foreign> symbol"</q>.</p>
+                <p>Previous scholarship linked the first element of NADOTTI 'nad' to Irish names (Okasha 1993, 234). Similarly, the name BROCAGNI was interpreted by Jackson as either Primitive Irish or Primitive Cornish (1953, 566, 665n). Okasha noted that <q>"the name BROCAGNI occurs on a stone from Llangeler, Wales, and in ogham on an Irish stone from Dunalis"</q> (1993, 234). Thomas stated that the name Brocagnus is Primitive Irish, <foreign xml:lang="pgl">Brocagnas</foreign>, meaning 'Little Badger', and is also <q>"the same name as that of king Brychan"</q>, the <q>"eponymous king of sixth-century Brycheiniog, which lay immediately north of Glywysing"</q> (1994, 263; 78). Okasha dates the stone from the sixth to eighth century based on the <q>"evidence of the monogram <foreign xml:lang="grc">chi-ro</foreign> symbol"</q>.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
