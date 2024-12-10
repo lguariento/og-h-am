@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brawdy 3</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-012</idno>
+                 <idno type="CIIC">422</idno>
+                <idno type="CISP">BRAW3/1</idno>
+                <idno type="WelshCorpus">P3</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>St. David's Church</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
+                              <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">2765</idno>Castle Villa (Castell Villia, Caswilia) Farm</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType> comprised of <q>Quartz gabbro with sericite, ophitic intergrowth of clinopyroxene and plagioclase, many radiating crystals of prehnite, and chlorite pseudomorphs after olivine.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">286</citedRange></bibl>.                                                                     
+                                    <dimensions unit="m">
+                                        <height>2.16</height>
+                                        <width>0.585</width>
+                                        <depth>0.48</depth>
+                                    </dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>An Ogham inscription is <q><rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised </rs>on the left angle of the face (A/D) reading vertically upwards... </q> <bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">286</citedRange></bibl>beginning and terminating within the centre third section of the stone's height. Traces of a roman-letter inscription, <q>presumably running vertically downwards</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">286</citedRange></bibl>, are present on the stone in two vertical lines, <q>but the letters are now illegible. A partial reading of the roman-letter latin inscription is therefore dependent on records made by Lhuyd (BL Stowe MS 1023, fo. 139; BL Stowe MS 1024, fo.52)</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">286</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Brawdy</placeName>
+                                <geo>51.905744, -5.077492</geo></origPlace>
+                            <origDate notBefore="0460" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Later fifth or sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">No ogham in Lhuyd sketches c.1698 (reproduced in RCAHMS 1925, pg 28). Slightly confused biography - might have been identified at same time as BRAW1, but reading provided by Westwood in 1884 seems incorrect; Rhys provides a reading in 1894. 
+                        </provenance>
+                        <provenance type="observed">In St David's Church, Brawdy lying on the east side of the porch
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-04" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus</change>
+    <change when="2023-07-10" who="#MK">Megan Kasten checked for consistency between all OGHAM documents.</change>
+    <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>   
+    <change when="2023-07-29" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#VINDAGNAS">&#x1683;&#x1693;&#x1685;&#x1687;&#x1691;&#x168C;&#x1685;&#x1694;</name></persName>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1"/><gap reason="lost"></gap><persName><name nymRef="#VINDAGNAS">VENDAGNI<gap reason="lost"></gap></name>
+                    <lb n="2"/><gap reason="lost"></gap><w>FILI</w>V<gap reason="lost" extent="unknown"></gap>NI<gap reason="lost"></gap></persName>
+                </ab>
+               </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
+                <div type="textpart" n="1">
+                    <ab><title>Ogham</title>:
+                        <lb/><persName><name nymRef="#VINDAGNAS">VENDOGNI</name></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p><title>Ogham</title>: <foreign xml:lang="pgl">Vendogni</foreign></p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p><title>Latin</title>: of <foreign xml:lang="pgl">Vendagnus</foreign>, son of <foreign xml:lang="pgl">V<gap reason="lost" extent="unknown"></gap>NI</foreign></p>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                        <item n="1">
+                        <p>The Ogham inscription is generally considered to be the Irish personal name <hi rend="italic">Vendogni</hi>.<q> The spelling of the Celtic element <hi rend="italic">*Windo-</hi> ('white') as VEND- is typical of ogam inscriptions, as is the termination -GNI.</q> The inscription <q>appears to be an abbreviation of the roman, which also includes the patronymic...</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">286-287</citedRange></bibl></p>
+                        </item>
+                    <item n="2">
+                        <p>In the roman-letter inscription, <q>the inclusion of <hi rend="italic">fili</hi> shows the inscription conformed to the 'X son of Y' formula, but the case is unclear. It is most likely to be the genitive <hi rend="italic">fili</hi> followed by a name beginning with V... The name of the father (like that of the son) could therefore have begun with V and ended with NI.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">286</citedRange></bibl>.</p></item>
+                </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">284-285</citedRange></bibl>  
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

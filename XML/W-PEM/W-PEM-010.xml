@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Steynton 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-010</idno>
+                 <idno type="CIIC">456</idno>
+                <idno type="CISP">STNTN/1</idno>
+                <idno type="WelshCorpus">P138</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Church of St. Peter and St. Cewydd</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
+                              
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                              
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record <ref target="https://archwilio.org.uk/"><idno type="HER">3369</idno>Church of St Peter and St Cewydd</ref>
+                                    <material>Stone</material> <objectType>boulder</objectType> described as <q>Fine-grained, very well-sorted, micaceous, quartz-rich sandstone. Colour ranges from very pale brown (10YR 8/3) on fresh surface to light brownish-grey (10YR 6/2) on weathered areas.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">503</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>1.26</height>
+                                        <width>0.51</width>
+                                        <depth>0.265</depth>
+                                        </dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout> An Ogham inscription, described as being deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised </rs>, is present on the left angle (A/D) of the stone face, reading vertically upwards. It begins in the top quarter of the stone and teminates at the crest of the stone. <q>A fragmentary roman-letter inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> vertically down the centre of the face within the upper cross arm...[of] an incomplete outline Latin ring-cross... The end of the left cross-arm cuts the final stroke of the N of the ogam inscription.</q> The majority of the roman-letter inscription was destroyed as a result of the c. ninth century addition of the ring-cross, and the lower cross arm of the Latin ring-cross was subsequently disrupted as a result of the stone being repurposed in 1876 as a gravestone. <bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">503</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Of the roman-letter inscription, <q>The letters are capitals... G is sickle-shaped.<bibl><ptr target ="#EDW2007"/>Edwards 2007<citedRange unit="page">503</citedRange></bibl></q>
+                                
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Steynton</placeName>
+                                <geo>51.730150, -5.016294</geo></origPlace>
+                            <origDate notBefore="0400" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic"> Fifth of sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Ogham first mentioned in 1880 by Westwood.
+                        </provenance>
+                        <provenance type="observed">Inside the church, standing against the west face of the most westerly pillar in the north arcade of the nave.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-02" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-10" who="#MK">Megan Kasten edited formatting and information to match the OG(H)AM standards.</change>
+    <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
+    <change when="2023-07-29" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#GENTILIS">&#x168C;&#x1693;&#x1685;&#x1687;&#x1694;&#x1682;&#x1694;</name></persName>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1"/>GE<gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+               </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
+                <div type="textpart" n="1">
+                    <ab><title>Ogham</title>:
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#GENTILIS">GENDILI</name></persName>
+                    </ab>
+                </div>
+               </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p><title>Ogham</title>:of <foreign xml:lang="pgl">Gendilus</foreign></p>
+                </div>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                        <item n="1">
+                        <p><q>GENDILI is a genitive of one or other of the attested Latin names <hi rend="italic">Gentilius, Gentilis</hi> or <hi rend="italic">Gentillus</hi>, with Ir. /nd/ substituted for the /nt/ that was lacking in Primitive Irish. A related borrowing in Welsh can be seen at Patrishow 1 (B43) in GENILLIN = MW <hi rend="italic">Gen(n)illyn, -in</hi> and perhaps in the place name <hi rend="italic">Tref Ginhall</hi> (var. <hi rend="italic">Gynnhill, Gynhil</hi>) in the Book of Llandaf...</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">504</citedRange></bibl>.</p></item>
+                    <item n="2">
+                        <p><q>Although the roman inscription is fragmentary, enough survives to suggest that it mirrored the ogam inscription, being simply a personal name in the genitive case, though the former existence of a longer one-line inscription is also possible.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">504</citedRange></bibl>.</p></item>
+                </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">503-505</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

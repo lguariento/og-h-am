@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Clydai 2</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-005</idno>
+                <idno type="CIIC">430</idno>
+                <idno type="CISP">CLYDI/1</idno>
+                <idno type="WelshCorpus">P14</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>St Clydai's Church</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="la-Ogam">Latin written in Ogham script</textLang> 
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1066</idno>Clydau, Clydey; St Clydai's Church</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType> comprised of <q>'spotted' dolerite from Carn Meini, Preseli Hills, 13km away.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">316</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>1.78</height>
+                                        <width>0.255</width>
+                                        <depth>0.255</depth>
+                                        </dimensions></support> 
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>A <q>roman-letter, Latin inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using a broad <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> line, in one line reading vertically downwards... </q> The inscription is centred on the face of the stone, and fills the top three quarters of the stone. An <q>incomplete ogam inscription is incised up the left (A/D) and down the right angle (A/B) of the face...</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">316-317</citedRange></bibl>. The left-angle inscription begins around halfway up the stone and terminates at the top corner. The right-angle inscription begins at the top right corner of the face and terminates around one fifth of the way down the stone face. <q>The top of the stone has been cut away [which has] destroyed the middle of the ogam inscription and the first letter of the roman inscription has been damaged.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">316</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The inscription is in capitals, with the first name terminating in the horizontal. FI are conjoined and IL are ligatured... which is not found elsewhere in Wales. The R's have open loops and short horizontal tails.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">316-318</citedRange></bibl>.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Clydau</placeName>
+                                <geo>51.990242, -4.548961</geo></origPlace>
+                            <origDate notBefore="0460" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">Late fifth or first half of the sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">First mentioned in 1859; it was either built into or standing close to the north wall of the churchyard and had been adapted for use as a sundial. 1879 first mention of ogham.
+                        </provenance>
+                        <provenance type="observed">Inside the church, set against the west wall of the south aisle
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-05" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
+    <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="la-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#AETERNUS">&#x1693;&#x1688;&#x1688;&#x1693;&#x168F;&#x1685;<gap reason="lost" extent="unknown" unit="character"></gap></name>
+                    <lb n="2" style="text-direction:down"/><name nymRef="#VICTOR"><gap reason="lost"></gap>&#x1688;&#x1691;&#x168F;</name></persName>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="la-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#AETERNUS"><unclear reason="illegible">E</unclear>TTERN<hi rend="inverted">I</hi></name><w><hi rend="ligature">FIL</hi>I</w><name nymRef="#VICTOR">VICTOR</name></persName>
+                </ab>
+               </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="la-Ogam">
+                <div type="textpart" n="1">
+                    <ab>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#AETERNUS">ETTERN<gap reason="lost" extent="unknown" unit="character"></gap></name>
+                    <lb n="2" style="text-direction:down"/><name nymRef="#VICTOR"><gap reason="lost"></gap>TOR</name></persName>
+                    </ab>
+                </div>
+               </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p><title>Ogham</title>: of <foreign xml:lang="pgl">Etternus</foreign> son of <foreign xml:lang="pgl">Victor</foreign></p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p><title>Latin</title>: of <foreign xml:lang="la">Etternus</foreign> son of <foreign xml:lang="la">Victor</foreign>></p>
+            </div>
+            <div type="commentary">
+                    <list type="witDetail">
+                        <item n="1">
+                        <p><q>Enough survives of the ogam inscription to suggest that it should be reconstructed to read <hi rend="italic">Ettern[i maqi Vic]tor</hi> ('of Etternus son of Victor'), thus echoing the Latin. The 'X son of Y' formula would therefore be used for both.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page"></citedRange>317-318</bibl>.</p></item>
+                    <item n="2">
+                        <p><q>In the Latin <hi rend="italic">Etterni</hi> and <hi rend="italic">fili</hi> are in the genitive case; <hi rend="italic">Victor</hi> may be in the nominative. The names are both Latin, which is unusual on monuments with bilingual inscriptions... though both were naturalized in Welsh <bibl><ptr target="NAS1950"/>Nash-Williams 1950 <citedRange>nos. 97, 271</citedRange></bibl>. <hi rend="italic">(A)eternus</hi> gave Welsh <hi rend="italic">Edyrn</hi> (beside <hi rend="italic">Edern</hi>... <hi rend="italic">Victor</hi> instead of genitive <hi rend="italic">Victoris</hi> is not necessarily an indication of post-apocope date, as it may be an example of nominative for genitive.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page"></citedRange>317-318</bibl>.</p></item>
+                </list>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">316-318</citedRange></bibl>
+                <bibl><ptr target="NAS1950"/>Nash-Williams 1950 <citedRange>nos. 97, 271</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+
+    </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bridell 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-006</idno>
+                <idno type="CIIC">426</idno>
+                <idno type="CISP">BRIDL/1</idno>
+                <idno type="WelshCorpus">P5</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>St. David's Church</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record <ref target="https://archwilio.org.uk/"><idno type="HER">1174</idno>St David's Church</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType> comprised of <q>dolerite with anhedral altered feldspar patches</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">290</citedRange></bibl>.
+                                    <dimensions unit="m">
+                                        <height>2.225</height>
+                                        <width>0.635</width>
+                                        <depth>0.20</depth>
+                                    </dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>An Ogham inscription, in one line, <q>runs vertically up the left, north-east angle of the stone (A/D), parts of which are very uneven.</q> The inscription spans almost the entire length of the left angle of the stone. It is described as being <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">medium-incised</rs> with broad strokes<bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">290</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The cross-strokes of the G and R are unusually long.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">293</citedRange></bibl><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Bridell</placeName>
+                                <geo>52.046861, -4.660403</geo></origPlace>
+                            <origDate notBefore="0400" notAfter="0500" precision="low" datingMethod="#julian" evidence="linguistic">Fifth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Oghams first mentioned in 1860
+                        </provenance>
+                        <provenance type="observed">Standing in the churchyard, south of the church. Possibly in situ.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-04" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus</change>
+    <change when="2023-07-11" who="#MK">Megan Kasten edited information and formatting to ensure consistency with OGHAM standards.</change>
+    <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
+    <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam">
+                <ab>
+                    <lb n="1"/><persName><name nymRef="#NETS SAGRI">&#x1685;&#x1693;&#x1688;&#x1688;&#x1690;&#x1684;&#x1690;&#x168C;&#x168F;<unclear reason="worn">&#x1694;</unclear></name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w><w>&#x168B;&#x1692;&#x1689;&#x1691;<unclear reason="worn">&#x1694;</unclear></w><name nymRef="#BRIGACAS">&#x1681;&#x168F;<unclear reason="worn">&#x1694;&#x1690;</unclear>&#x1689;&#x1694;</name></persName>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
+                <ab>
+                    <lb/><persName><name nymRef="#NETS SAGRI">NETTASAGR<unclear reason="worn">I</unclear></name> <w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><w>MUCO<unclear reason="worn">I</unclear></w><name nymRef="#BRIGACAS">BR<unclear reason="worn">IA</unclear>CI</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>of <foreign xml:lang="pgl">Nettasagri</foreign> son of the kindred of <foreign xml:lang="pgl">Briaci</foreign></p>
+            </div>
+            <div type="commentary">
+                <p><q>The first stroke of the N is extremely worn, but the rest of the first name is clear, apart from the last letter. Three vowel-notches are clearly visible, which might at first glance suggest a U, but there is certainly room for five, and slight traces of two further notches can be tentatively made out, making the identification of an I more likely... This is the only ogam-inscribed monument from Wales which certainly uses the <hi rend="italic">maqi mucoi</hi> ('son of the kindred of') formula, which is much more common in Ireland...</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">290-293</citedRange></bibl></p>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">290-293</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

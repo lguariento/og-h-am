@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cilgerran 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-004</idno>
+                <idno type="CIIC">428</idno>
+                <idno type="CISP">CILGN/1</idno>
+                <idno type="WelshCorpus">P12</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>St. Llawddog's Church</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
+                              
+                             <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                              
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1179</idno>St Llawddog's Church</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType> comprised of <q>olive grey dolerite with 5 per cent anhedral altered feldspar phenocrysts (2-11mm).</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">311</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>2.44</height>
+                                        <width>.38</width>
+                                        <depth>0.405</depth>
+                                        </dimensions></support>                                
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>A <q>roman-letter, Latin inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> in two lines, running vertically downwards... The lower half of the monument is buried, covering the end of the ogam inscription. The visible part of the roman inscription is worn but clear; the visible ogam letters are worn and parts of the angle of the stone are damaged.</q> The ogam inscription is present on the right angle of the face of the stone, <q>on the right angle to the roman,</q> and runs vertically upwards, spanning almost the entire length of the exposed surface.<bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">311-313</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The lettering... is in a mixture of capitals with half-uncial G and miniscule H, S and U; both capital and miniscule T are used. The R in line 1 has an open loop. In line 2 the second diagonal of the A is extended and the first stroke of the N also extends below the line... </q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">311</citedRange></bibl>
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Cilgerran</placeName>
+                                <geo>52.056211, -4.640536</geo></origPlace>
+                            <origDate notBefore="0550" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Second half of the sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Roman letter inscription first recorded in a letter in 1698; in 1855 it was standing in its present location and was excavated to reveal both inscriptions.
+                        </provenance>
+                        <provenance type="observed">Standing in the churchyard south of the church
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-14" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+    <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#TRENAGUSSUS"><supplied reason="undefined">&#x1688;&#x168F;&#x1693;&#x1685;</supplied><unclear reason="illegible">&#x1690;</unclear>&#x168C;&#x1692;&#x1684;<gap reason="illegible" extent="1" unit="character"/></name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w><name nymRef="#MAQQAS TRENI">&#x168B;&#x1690;&#x168A;&#x1694;&#x1688;&#x168F;&#x1693;&#x1685;&#x1694;</name></persName>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#TRENAGUSSUS">TRENEGUSSI</name><w>FILI</w>
+                    <lb n="1" style="text-direction:down"/><name nymRef="#MAQQAS TRENI">MACUTRENI</name></persName><w>HICIACIT</w>
+                </ab>
+               </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
+                <div type="textpart" n="1">
+                    <ab><title>Ogham</title>:
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#TRENAGUSSUS"><supplied reason="undefined">TREN</supplied><unclear reason="illegible">A</unclear>GUS<gap reason="illegible" extent="1" unit="character"/></name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><name nymRef="#MAQQAS TRENI">MAQITRENI</name></persName>
+                    </ab>
+                </div>
+               </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p><title>Ogham</title>: Of <foreign xml:lang="pgl">Trenagus</foreign> <gap reason="illegible" extent="1" unit="character"/> son of <foreign xml:lang="pgl">Macus-Treni</foreign></p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p><title>Latin</title>: Of <foreign xml:lang="pgl">Trenegussus</foreign> son of <foreign xml:lang="pgl">Macus-Treni</foreign>, here he lies</p>
+            </div>
+            <div type="commentary">
+                        <p><q>The naming pattern of father and son is best paralleled within Insular Celtic inscriptions by BARRIVENDI FILIVS VENDVBARI on Llandawke 1 (CM15) and BIVADI AVI BODIBEVE on Llanwinio 1 (CM34). Irish MACUTRENI and its archaizing ogam equivalent MAQITRENI have been discussed under Brawdy 1 (P1), where the same name appears. The Q of MAQI is probably also archaizing/conservative... Here the -E- for the composition vowel may reflect British influence... and the genitive in -I is either British or more likely Latin. The ogam seems to have the normal Irish composition vowel A, and while it may have had the expected Irish genitive in -O, it may equally well have read TRENAGUS[I] (as Macalister conjectured), copying the Roman TRENEGUSSI.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">311-313</citedRange></bibl>.</p>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">311-313</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

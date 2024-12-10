@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St Dogmaels 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-001</idno>
+                <idno type="CIIC">449</idno>
+                <idno type="CISP">SDOGM/1</idno>
+                <idno type="WelshCorpus">P110</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>St. Dogmael's Abbey</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in latin script</textLang>
+                              
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1215</idno>Llandudoch; St Dogmael's Abbey</ref>
+                                    <material>Stone</material> <objectType>slab</objectType> comprised of <q>'spotted' dolerite, with anhedral altered feldspar patches (2-3mm).</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">460</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>2.10</height>
+                                        <width>0.495</width>
+                                        <depth>0.20</depth>
+                                        </dimensions></support> 
+
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><q>On the upper part of the stone is a roman-letter, Latin inscription in two lines, reading vertically downwards. It is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using broad lines, with a <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punch</rs>... On the left angle (A/D) is an ogam inscription, incised with a punch, which reads vertically upwards.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">460-462</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The letters are capitals... with sickle-shaped G, R with an open loop, the first N with an extended first vertical, F with an upward-sloping top and an additional horizontal stroke at the bottom, and M with widely spaced strokes meeting on the line... The ogam inscription is unusually clear...</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">462</citedRange></bibl>.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">St Dogmaels</placeName>
+                                <geo>52.080031, -4.680767</geo></origPlace>
+                            <origDate notBefore="0400" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">First mentioned by William Gambold 1693 in a letter to Lluyd; 1860 Jones specifically talks about the ogham, and says that some of the ogham is recorded in a sketch by Lhwyd
+                        </provenance>
+                        <provenance type="observed">In St Thomas's parish church (SN 1639 4589) standing against the west wall of the nave
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-07" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
+    <change when="2023-07-25" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#SAGRAGNAS">&#x1684;&#x1690;&#x168C;&#x168F;&#x1690;&#x168C;&#x1685;&#x1694;</name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w><name nymRef="#KUNATAMAS">&#x1689;&#x1692;&#x1685;&#x1690;&#x1688;&#x1690;&#x168B;&#x1694;</name></persName>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#SAGRAGNAS">SAGRANI</name><w>FILI</w>
+                    <lb n="2" style="text-direction:down"/><name nymRef="#KUNATAMAS">CVNOTAMI</name></persName>
+                </ab>
+               </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Latn">
+                <div type="textpart" n="1">
+                    <ab><title>Ogham</title>:
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#SAGRAGNAS">SAGRANI</name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><name nymRef="#KUNATAMAS">CUNATAMI</name></persName>
+                    </ab>
+                </div>
+               </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p><title>Ogham</title>: of Sagragnus son of Cunatamus</p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p><title>Latin</title>: of <foreign xml:lang="pgl">Sagranus</foreign> son of <foreign xml:lang="pgl">Cunotamus</foreign></p>
+            </div>
+            <div type="commentary">
+                    <list type="witDetail">
+                        <item n="1">
+                        <p>The ogam inscription uses the 'X son of Y' formula in the genitive case. <q>While the patronymic is typically Welsh, SAGRA(G)NI is presumably OI <hi rend="italic">Sárán</hi>... The ogam spelling SAGRAGNI is more conservative than the roman SAGRANI... It is odd that G is still shown in the first syllable but in Ireland CIIC: no. 317 MAGLANI is comparable <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">305-306</citedRange></bibl>... Further evidence for the Irish name in Britain is provided by SAGRANVI on the reverse of the ogam stone from Fardel, Devon <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">468-469</citedRange></bibl><bibl><ptr target="OKA1993"/>Okasha 1993<citedRange unit="page">13</citedRange></bibl>, perhaps a hybrid of Irish SAGRAN- with the well-known Brittonic termination <hi rend="italic">-wy</hi>... The T rather than D in CUNATAMI may be copied from the roman-letter form.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">462</citedRange></bibl>.</p></item>
+                    <item n="2">
+                        <p>Like the ogam, the roman-letter inscription also uses the 'X son of Y' formula in the genitive case. <q>CVNOTAMI is typically British, OW <hi rend="italic">Condaf</hi>, MW <hi rend="italic">Cyndaf</hi>, and means something like 'most hound-like'.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">462</citedRange></bibl>.</p></item>
+                </list>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">460-462</citedRange></bibl>
+                <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">305-306, 468-469</citedRange></bibl>
+                <bibl><ptr target="OKA1993"/>Okasha 1993<citedRange unit="page">13</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+
+    </text>
+</TEI>

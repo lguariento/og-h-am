@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nevern 2</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-008</idno>
+                <idno type="CIIC">445</idno>
+                <idno type="CISP">NEVRN/2</idno>
+                <idno type="WelshCorpus">P71</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>St. Brynach's Church</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="la-Ogam">Latin written in Ogham script</textLang>    
+                            
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1599</idno>Nanhyfer; St Brynach's Church</ref>
+                                    <material>Stone</material> <objectType>slab</objectType> comprised of <q>dolerite with feldspar patches (10 per cent), also contains smaller augite phenocrysts.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">394</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>1.855</height>
+                                        <width>0.61</width>
+                                        <depth>0.48</depth>
+                                        </dimensions></support> 
+
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><q>Towards the bottom of the face is a roman-letter, Latin inscription, lightly and finely <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> in two horizontal lines.</q> An ogam inscription is <q>finely incised on the left angle (A/D) towards the top of the stone, reading upwards.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">394</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The inscription is in small, even, closely spaced capitals... In line 1 AL is ligatured and the I is placed above the horizontal stroke of the L; N is reversed.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">394</citedRange></bibl><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Nevern</placeName>
+                                <geo>52.025669, -4.794869</geo></origPlace>
+                            <origDate notBefore="0400" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">First mentioned by Lhuyd 1695, no ogham in Lhyud sketch - ogham first identified in 1874
+                        </provenance>
+                        <provenance type="observed">Standing in the churchyard near the south wall of the nave east of the porch
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-06" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+    <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://skfb.ly/66pXt" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="la-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#VITALIS">&#x1683;&#x1694;&#x1688;&#x1690;&#x1682;&#x1694;&#x1690;&#x1685;&#x1694;</name></persName>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="la-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:across"/><persName><name nymRef="#VITALIS">VIT<hi rend="ligature">AL</hi><hi rend="superscript">I</hi>A<hi rend="reversed">N</hi>I</name>
+                    <lb n="2" style="text-direction:across"/><name>EMERETO</name></persName>
+                </ab>
+               </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="la-Ogam">
+                <div type="textpart" n="1">
+                    <ab><title>Ogham</title>:
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#VITALIS">VITALIANI</name></persName>
+                    </ab>
+                </div>
+               </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p><title>Ogham</title>: of <foreign xml:lang="pgl">Vitalianus</foreign></p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p><title>Latin</title>: of <foreign xml:lang="pgl">Vitalianus</foreign> <foreign xml:lang="pgl">Emeretus</foreign></p>
+            </div>
+            <div type="commentary">
+                    <list type="witDetail">
+                        <item n="1">
+                        <p><q><hi rend="italic">Vitalianus</hi> is a Latin name which could have been used by both the Irish and the British, as <hi rend="italic">Vitalinus</hi> certainly was... Vitalianus may well have been Irish, in view of the use of ogam, but there is nothing in the form of his name to prove this... The use of T rather than D in the ogam may be influenced by the Latin spelling, or the name may have been borrowed into Irish before lenition of /t/ to /d/ had occurred in British Latin.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">394</citedRange></bibl>.</p></item>
+                    <item n="2">
+                        <p><q>The combination of an ogam inscription with a horizontal roman-letter inscription is comparatively rare... Both inscriptions consist of the same Latin name in the genitive case, with the addition of EMERETO in the roman. The disposition of the roman inscription would suggest that a compound name, Vitalianus Emeritus, is the most likely interpretation despite the lack of grammatical agreement... EMERETO for <hi rend="italic">Emeritus</hi> shows Vulgar Latin... <hi rend="italic">-o</hi> for <hi rend="italic">-us</hi>. If the nominative -O is taken seriously, we should perhaps consider the ogam inscription as primary, commemorating Vitalianus, and the roman one as secondary, commemorating Emeritus son of Vitalianus...</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">394</citedRange></bibl>.</p></item>
+                </list>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">392-394</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+
+    </text>
+</TEI>
