@@ -90,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>50.400019, -3.955761</geo>
                             <note>National Grid Reference: SX 6110 5740</note>
                                 </origPlace>
-                            <origDate>Fifth or sixth century to the eighth century</origDate>
+                            <origDate><!--David?--></origDate>
                         </origin>
                         <provenance type="found">Rev. Samuel Pearse of Cadleigh first recognised this stone when he spotted it in use as part of a culvert under the road over the Fardel brook, near Ivybridge. The stone was later removed to a farmyard in Fardel where it served as a ring-post for a shed until 1861 when Captain Pode, the owner of the farm, presented the stone to the British Museum. The stone was first mentioned in 1861 by Smirke and later by Brash in 1869.  <!--<placeName type="site">Fardel Farm</placeName>,-->
                         </provenance>
@@ -132,6 +132,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-14" who="#POC">Added and encoded information in edition, layout and commentary, corrected validation errors.</change>
 <change when="2024-11-15" who="#POC">Added and encoded more information from the OG(H)AM blog post on the stone and updated edition to include encoding of the mistake theory</change>
 <change when="2024-12-04" who="#POC">Added and encoded more information from the OG(H)AM and Babelstone blog post, also added proofreading updates such as quotation marks.</change>
+<change when="2024-12-11" who="#NW">Updated edition and apparatus - still needs David's input.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,36 +145,34 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <div type="textpart" n="1">
-                <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="fanoni">ᚄᚃᚐᚊᚊᚒᚉᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="rini">ᚊᚔᚉᚔ</name></persName>
-                    <!--<lb n="1" style="text-direction:up"/><persName><name nymRef="fanoni">ᚄᚃᚐ<choice><sic>ᚊᚊ</sic><supplied reason="explanation">ᚅᚅ</supplied></choice>ᚒᚉᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="rini"><choice><sic>ᚊ</sic><supplied reason="explanation">ᚏ</supplied></choice>ᚔ<choice><sic>ᚉ</sic><supplied reason="explanation">ᚅ</supplied></choice>ᚔ</name></persName> Encoding of mistake theory-->
+                <ab>                   
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni?">ᚄᚃᚐ<choice><corr>ᚅᚅ</corr><sic>ᚊᚊ</sic></choice>ᚒᚉᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#?">ᚊᚔᚉᚔ</name></persName>
                 </ab>
             </div>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW"> 
-                <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="fanoni">SVAQQUCI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="rini">QICI</name></persName>
-                    <!--<lb n="1" style="text-direction:up"/><persName><name nymRef="fanoni">SVA<choice><sic>QQ</sic><supplied reason="explanation">NN</supplied></choice>UCI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="rini"><choice><sic>Q</sic><supplied reason="explanation">R</supplied></choice>I<choice><sic>C</sic><supplied reason="explanation">N</supplied></choice>I</name></persName>-->
+                <ab>                                     
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni?">SVA<choice><corr>NN</corr><sic>QQ</sic></choice>UCI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">QICI</name></persName>
                 </ab>
             </div>
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">   
                 <div type="textpart" n="2" >
                     <ab>
-                        <lb n="1" style="text-direction:down"/><persName><name nymRef="fanoni">FANONI</name> <w type="formula" lemma="maqqas">MAQVI</w> <name nymRef="rini">RINI</name></persName>
+                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#fanoni">FANONI</name> <w type="formula" lemma="maqqas">MAQVI</w> <name nymRef="#rini">RINI</name></persName>
                     </ab>
             </div>
             </div>
                 <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">   
                 <div type="textpart" n="3" >
                     <ab>
-                        <lb n="1" style="text-direction:down"/><persName><name nymRef="sagranvi">SAGRANVI</name></persName>
+                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#sagranvi">SAGRANVI</name></persName>
                     </ab>
             </div>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>It is worth pointing out that the inscription FANONI MAQVI RINI is unique in not translating the middle word into Latin, although it is spelled according to Latin conventions (i.e. with a V following the Q). For the ogham inscription, SVAQQUCI MAQI QICI, Patrick Sims-Williams highlighted the substitution of SV- for F- in the earliest Latin loanwords into Irish and proposed that the carver had confused the orientation of the H- and B-aicme letters. There is evidence of similar occurences to support this theory, for example, Airghleann (Arraglen) (I-KER-012, CIIC 114): MAN SOMOGAQQ for MAQ COMOGANN. Macalister, however, rejected this 'mistake' theory, maintaining that the three inscriptions represented three distinct phases of use and that there was no connection between them (1945, 469). </note>
+                        <note>It is worth pointing out that the inscription FANONI MAQVI RINI is unique in not translating the formula word (MAQVI) into Latin, although it is spelled according to Latin conventions (i.e. with a V following the Q). For the ogham inscription, SVAQQUCI MAQI QICI, Patrick Sims-Williams highlighted the substitution of SV- for F- in the earliest Latin loanwords into Irish, giving new life to the ‘mistake’ theory that the carver had confused the orientation of the H- and B-aicme letters. There is evidence of similar occurences to support this theory, for example, Airghleann (Arraglen) (I-KER-012, CIIC 114): MAN SOMOGAQQ for MAQ COMOGANN. This makes sense in relation to the first name with QQ for NN, but it is more difficult to explain QICI as a mistake for RINI. Macalister rejected the 'mistake' theory, maintaining that the three inscriptions represented three distinct phases of use and that there was no connection between them (1945, 469).</note>
                     </app>
                     <app n="2">
                         <note>Patrick Sims-Williams (2003, 66-68) read:</note>
@@ -186,13 +186,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <div type="translation" source="OKA1993">
                 <p>Ogham (1): '[the stone] of Safaqqucus, the son of Qicus'</p>
                 <p>Latin (2): 'of Fanonus, son of Rinus' </p>
                 <p>Latin (3): 'of Sagranuus'</p>
             </div>
             <div type="commentary">
-                <p>Researching the names in the inscriptions, Okasha confirmed that FANONI is Celtic and that <q>"a similiar name, FANNVCI, occurs on a stone from Stackpole Elidyr Wales"</q> (1993, 106). Additionally, the name <q>"MAQVIRINI would be Primitive Irish, but the name RINI would be of unknown origin"</q> (Okasha 1993, 106). Concerning the name, SAGRANVI, Okasha noted that <q>"the exact form of this name remains uncertain"</q> (1993, 106). Regarding the names mentioned in the ogham inscriptions, <q>"the MAQ- would indicate a Primitive Irish name"</q> while QICI and SAFAQQUCI are probably Celtic (Okasha 1993, 107). Furthermore, <q>"the phrase MAQI QIC occurs on an Irish ogham stone from Ballyvooney"</q> (Okasha 1993, 107). Okasha determined that based on the <q>"evidence both of the ogham texts and of the Irish nature of [the] texts...this stone is likely to date from the fifth or sixth century to the eighth century"</q> (1993, 107).</p>
+                <p>Researching the names in the inscriptions, Okasha confirmed that FANONI is Celtic and that <q>"a similiar name, FANNVCI, occurs on a stone from Stackpole Elidyr Wales"</q> (1993, 106). Additionally, the name <q>"MAQVIRINI would be Primitive Irish, but the name RINI would be of unknown origin"</q> (Okasha 1993, 106). Concerning the name, SAGRANVI, Okasha noted that <q>"the exact form of this name remains uncertain"</q> (1993, 106). Regarding the names mentioned in the ogham inscriptions, <q>"the MAQ- would indicate a Primitive Irish name"</q> while QICI and SAFAQQUCI are probably Celtic (Okasha 1993, 107). Furthermore, <q>"the phrase MAQI QIC occurs on an Irish ogham stone from Ballyvooney"</q> (Okasha 1993, 107).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
