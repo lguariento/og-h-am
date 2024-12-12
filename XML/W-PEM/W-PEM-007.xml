@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Caldy Island 1</title>
+                <title>Caldy Island</title>
              <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -89,10 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
