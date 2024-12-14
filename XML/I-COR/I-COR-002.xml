@@ -85,8 +85,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Burnfort (<ref target="https://www.logainm.ie/ga/11662"><foreign xml:lang="ga">Ráth an Tóiteáin</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>52.072146, -8.597752</geo></origPlace>
-                            <note>ITM Coordinates: 559024, 591294</note>
+                                <geo>52.072146, -8.597752</geo>
+                            <note>ITM Coordinates: 559024, 591294</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">Discovered by Cork antiquarians, <persName>J. Windele</persName> and <persName>A. Abell</persName>, in a souterrain (SMR ID: CO042-052002-) of a ringfort (SMR ID: CO042-052001-) called <placeName><foreign xml:lang="ga">Ráth an Tóiteáin</foreign> ('Fort of the Burning')</placeName>, which gave the townland its name. The Greenhill ogham stones (I-COR-003 and I-COR-004) are c. 900m to NW (Power et al. 1997, no. 7956). This ogham stone was deposited in the museum of the Royal Cork Institution in <date>1835</date>. 
@@ -136,7 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-21" who="#NW">Updated dimensions, layout and handnote from Windele.</change>
     <change when="2024-10-07" who="#NW">Added Trismegistos ref and link.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
-    
+    <change when="2024-12-14" who="#POC">Fixed ITM coordinates display on database by moving origPlace to after the closing note tag</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
