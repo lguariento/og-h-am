@@ -112,6 +112,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
 <change when="2024-12-13" who="#NW">Created from template for Irish epidoc files.</change>
+    <change when="2024-12-16" who="#NW">Added macalister drawing and tests for forfid and feathermark display. Moved Runic edition to apparatus.</change>
 
 </listChange>
 </revisionDesc>
@@ -123,17 +124,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>             
-             <div type="edition" subtype="runic" xml:space="preserve" xml:lang="non" source="http://kulturarvsdata.se/uu/srdb/9a7f7482-468c-46a2-a482-d6cd92a7e8df">
+            <!-- <div type="edition" subtype="runic" xml:space="preserve" xml:lang="non" source="http://kulturarvsdata.se/uu/srdb/9a7f7482-468c-46a2-a482-d6cd92a7e8df">
                  <div type="textpart" n="1">
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><supplied reason="lost">þ</supplied>urgri<supplied reason="lost">mr</supplied></persName> <w>ris<unclear reason="eccentric_ductus">l</unclear>i</w> <g >†</g> 
                     <lb n="2" style="text-direction:up"/><w><supplied reason="lost">k</supplied>rus</w> <w>þina</w> 
                 </ab>
              </div>   
-             </div>
+             </div>-->
             
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
-                 <div type="textpart" n="2">
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">                 
                 <ab>
                      <lb n="1" style="text-direction:down"/><g ref="#feathermark">᚛</g><w>ᚁ<g ref="#forfid_X">ᚕ</g>ᚅᚇᚐᚉ<supplied reason="omitted">ᚆ</supplied>ᚈ</w>
                      <lb n="2" style="text-direction:down"/><w><unclear reason="eccentric_ductus">ᚃᚑ</unclear>ᚏ</w> <persName><g ref="#forfid_X">ᚕ</g>ᚅ<unclear reason="damage">ᚓ</unclear><gap reason="lost" extent="unknown"/></persName>
@@ -142,7 +142,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <g type="feathermark">᚛</g>
                     <g ref="#forfid_X"/>
                 </ab>
-            </div>
              </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
@@ -151,12 +150,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     test
                     <g ref="#forfid_X" type="variant_E">E</g>
                 </ab>
-            </div>
-             
+            </div>             
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Runic inscription <ref target="http://kulturarvsdata.se/uu/srdb/9a7f7482-468c-46a2-a482-d6cd92a7e8df">IR 2</ref> in the 2020 edition of the Scandinavian Runic-text Database, Department of Scandinavian Languages, Uppsala University</note>
+                    <note>Runic inscription on the face of the stone <ref target="http://kulturarvsdata.se/uu/srdb/9a7f7482-468c-46a2-a482-d6cd92a7e8df">IR 2</ref> (2020 edition of the Scandinavian Runic-text Database, Department of Scandinavian Languages, Uppsala University): 
+                        <lb/>Rune reading: 
+                        (þ)(u)rgri- [⁓] risli + ¶ (k)rus þina
+                        <lb/>Old West Norse:
+                        Þorgrí[mr] reisti/risti kross þenna.</note>
                 </app>
                 <app n="2">
                     <note>In the first line of the ogham inscription, there is no sign of an expected H in the otherwise clear <foreign xml:lang="sga"><ref target="https://dil.ie/5661">bendacht</ref></foreign> 'blessing'. It may have been lost through damage or perhaps it was omitted in error. In the second line, Macalister missed the X-forfid (reading instead an O) and confused the orientation of B- and H-aicmi strokes so that he read TOROQR[IM] (supplying the =IM to match the name in runic inscription) rather than NRXNE[..., or possibly FORXNE[..., representing the preposition <foreign xml:lang="sga"><ref target="https://dil.ie/23272">for</ref></foreign> 'on (behalf of)' (usual after bendacht) and the first few letters of a personal name ENE.. or ENI... .</note>  
@@ -168,7 +170,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p><note>Runes</note>: 'Þorgrímr erected/carved this cross'</p>
                 </div>
                 <div type="textpart" n="2">
-                <p><note>Ogham</note>: 'a blessing on...'</p>
+                <p><note>Ogham</note>: 'a blessing on En...'</p>
                 </div>
             </div>
             <div type="commentary"/>
