@@ -118,6 +118,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-CLA/I-CLA-004_Killaloe.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <graphic url="IRE/I-CLA/I-CLA-004_Killaloe_Macalister.jpg"><desc>Macalister 1945</desc></graphic>
         <media url="https://sketchfab.com/3d-models/cl045-033010-killaloe-ogham-runic-stone-18fc84a47d7049ce8d18c9b1452c1b93" mimeType="text/html"><desc>3d model by Gary Dempsey on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -136,18 +137,32 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                      <lb n="1" style="text-direction:down"/><g ref="#feathermark">᚛</g><w>ᚁ<g ref="#forfid_X">ᚕ</g>ᚅᚇᚐᚉ<supplied reason="omitted">ᚆ</supplied>ᚈ</w>
                      <lb n="2" style="text-direction:down"/><w><unclear reason="eccentric_ductus">ᚃᚑ</unclear>ᚏ</w> <persName><g ref="#forfid_X">ᚕ</g>ᚅ<unclear reason="damage">ᚓ</unclear><gap reason="lost" extent="unknown"/></persName>
+                    test 
+                    <g ref="#feathermark"/>
+                    <g type="feathermark">᚛</g>
+                    <g ref="#forfid_X"/>
                 </ab>
             </div>
              </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                     <lb n="1" style="text-direction:down"/><g ref="#feathermark">᚛</g><w>B<g ref="#forfid_X">E</g>NDAC<supplied reason="omitted">H</supplied>T</w>
-                     <lb n="2" style="text-direction:down"/><w><unclear reason="eccentric_ductus">FO</unclear>R</w> <persName><g ref="#forfid_X">E</g>N<unclear reason="damage">E</unclear><gap reason="lost" extent="unknown"/></persName>
+                     <lb n="1" style="text-direction:down"/><g ref="#feathermark">᚛</g><w>B<g ref="#forfid_X"  type="variant_E"/>NDAC<supplied reason="omitted">H</supplied>T</w>
+                     <lb n="2" style="text-direction:down"/><w><unclear reason="eccentric_ductus">FO</unclear>R</w> <persName><g ref="#forfid_X" type="variant_E"/>N<unclear reason="damage">E</unclear><gap reason="lost" extent="unknown"/></persName>
+                    test
+                    <g ref="#forfid_X" type="variant_E">E</g>
                 </ab>
             </div>
              
-            <div type="apparatus"/>
-              
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+                    <note>Runic inscription <ref target="http://kulturarvsdata.se/uu/srdb/9a7f7482-468c-46a2-a482-d6cd92a7e8df">IR 2</ref> in the 2020 edition of the Scandinavian Runic-text Database, Department of Scandinavian Languages, Uppsala University</note>
+                </app>
+                <app n="2">
+                    <note>In the first line of the ogham inscription, there is no sign of an expected H in the otherwise clear <foreign xml:lang="sga"><ref target="https://dil.ie/5661">bendacht</ref></foreign> 'blessing'. It may have been lost through damage or perhaps it was omitted in error. In the second line, Macalister missed the X-forfid (reading instead an O) and confused the orientation of B- and H-aicmi strokes so that he read TOROQR[IM] (supplying the =IM to match the name in runic inscription) rather than NRXNE[..., or possibly FORXNE[..., representing the preposition <foreign xml:lang="sga"><ref target="https://dil.ie/23272">for</ref></foreign> 'on (behalf of)' (usual after bendacht) and the first few letters of a personal name ENE.. or ENI... .</note>  
+                </app>
+                </listApp>
+            </div>              
             <div type="translation">
                 <div type="textpart" n="1">
                 <p><note>Runes</note>: 'Þorgrímr erected/carved this cross'</p>
