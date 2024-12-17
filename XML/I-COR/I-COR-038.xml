@@ -76,14 +76,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>.<height/>
+                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in relatively short, closely-spaced strokes.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
-                                <placeName type="townland">Ballyknock North</placeName> <foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyknock North (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
                             <note>ITM Coordinates: 594327, 586954 </note></origPlace>
                             <origDate/>
@@ -125,7 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham codes in provenance, moved encoded Macalister reading to apparatus, added ogham division.</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
-    <change when="2024-12-16" who="#NW">Updated support desc from Barry. Corrected placename tags, added image path.</change>
+    <change when="2024-12-17" who="#NW">Updated support desc from Barry and added refs to bibl. Corrected placename tags, added image path. Added edition, apparatus and commentary.</change>
     
 </listChange>
 </revisionDesc>
@@ -133,46 +133,49 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <facsimile>
          <graphic url="IRE/I-COR/I-COR-038_Ballyknock.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-038-MAC1945-89-Ballyknock-89.jpg"><desc>Drawing by Macalister</desc></graphic>
-         <!-- <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
+          <media url="https://sketchfab.com/3d-models/cork-ogham-stone-ciic-89-ucc-7-e36b8349e0ec439f85d02e3d3ce8d729" mimeType="text/html"><desc>3d model by b-unicycling</desc></media>
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up-across"/>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#?">BO<unclear reason="damage">G</unclear>AI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#">BI<unclear reason="damage">RA</unclear>C<supplied reason="lost" evidence="previouseditor">O</supplied></name></persName> 
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 89) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#">BOGAI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#">BIRACO</name></persName> 
-                    </rdg>
+                    <note>Macalister (1945, 89) read a final O in the father's name (see also Barry 1891, 525, 534), adding that, due to damage to the stone at this point, this could be the remains of an I.</note>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>'of Boc? son of Berach'</p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p>It has been suggested (McManus 2004, 16; Ziegler 1994, 139) that the inital name (BOGAI) may be the word <foreign xml:lang="sga"><ref target="https://dil.ie/6217">boc</ref></foreign> 'soft, gentle, tender' (compare diminutive <persName xml:lang="ga">Bocán</persName> in CGH S. 521), although the -AI ending is unexpected. The father's name may be the later attested <persName xml:lang="ga"><ref target="https://dil.ie/5693">Berach</ref></persName>, <q>'an adjectival derivative of <foreign xml:lang="sga"><ref target="https://dil.ie/5933">bir</ref></foreign> 'spear, point' (McManus 2004, 16, Ziegler 1994, 137).</q></p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="BAR1891"/>
+                      <citedRange>514-535</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>88-89, no. 89</citedRange>
-                    </bibl>
-                     <bibl><ptr target="MCM2004"/>
-                         <citedRange>16, no. 7</citedRange>
-                     </bibl>
+                    </bibl>                     
                      <bibl><ptr target="POW1994"/>
                          <citedRange>no. 4222</citedRange>
+                     </bibl>
+                     <bibl><ptr target="ZIE1994"/> 
+                         <citedRange>137, 139</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM2004"/>
+                         <citedRange>16, no. 7</citedRange>
                      </bibl>
                 </listBibl>
             </div>
