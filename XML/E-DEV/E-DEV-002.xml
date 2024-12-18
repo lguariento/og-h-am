@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2021-11-19" who="#POC">Added and encoded information, including geo coordinates and edition structure</change>
 <change when="2021-11-20" who="#POC">Added and encoded information, including edition, apparatus, translation, commentary and linked Macalister drawing. Updated layout, handNote, and condition and commented out media.</change>
 <change when="2024-11-04" who="#POC">Added more information from OG(H)AM and Babelstone blog, updated apparatus, commentary, provenance, handNote.</change>
+<change when="2024-12-18" who="#POC">Added bibl details for blogs</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -181,6 +182,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="FOR2004"/>
+                     <citedRange target="https://ogham.glasgow.ac.uk/index.php/2024/05/30/recording-in-devon-and-cornwall/"/></bibl>
                      <bibl><ptr target="JAC1953"/>
                      <citedRange>181, 645</citedRange>
                      </bibl>
@@ -190,6 +193,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl><ptr target="OKA1993"/>
                          <citedRange>278-281, no. 60</citedRange>
                      </bibl>
+                     <bibl><ptr target="WES2009a"/>
+                     <citedRange target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-cornwall-and-devon.html"/></bibl>
                 </listBibl>
             </div>
         </body>
