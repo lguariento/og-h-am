@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Treflys</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-CAE-X01</idno>
+                 <idno type="CIIC">398</idno>
+                <idno type="CISP">TFLYS/1</idno>
+                <idno type="WelshCorpus">CN41</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>In the church, standing against the wall in the north-east corner of the chancel (SH 5346 3785)
+</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
+                              <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>rejected monument</term>Gwynedd Archaeological Trust Regional Historic Environment Record: <ref target="https://archwilio.org.uk/her/"><idno type="HER">1299</idno>Church of St Michael and All Angels</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType>, described as <q>sandstone...very fine-grained, homogenous, quartz dominated, mid-blue grey...the precise source of this lithology has not been established but it is similar to lithologies in walls local to the church</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">311</citedRange></bibl> 
+                <dimensions unit="m">
+                    <height>1.35</height>
+                    <width>0.25</width>
+                    <depth>0.23</depth></dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with a Roman-letter inscription in two lines reading vertically downwards, justified to the bottom. The Roman-letter inscription is immediately below a <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> chi-rho cross which is at the top of the inscribed face. The Roman-letter inscription is described as medium <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">312</citedRange></bibl>. <bibl><ptr target="RHY1907"/>Rhys 1907<citedRange unit="page">94-95</citedRange></bibl>saw a potential fragmentary Ogham inscription on the right edge of the inscribed face, however more recent assesments have classified the marks as natural <bibl><ptr target="EDW2013"/>Edwards 2013</bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The Roman-letter inscription is described as <q>neatly but unevenly set out. Line 2 begins towards the end of line 1. There are several closely packed letters...the lettering...is in capitals with miniscule S. In line 1, the left diagonal of A is longer, extending beneath the I and the right diagonal is raised; C is large and angular; O is smaller and rises above the top of C; both N's lean towards the left; V is narrow; the top stroke of miniscule S projects over F which is cursive and has a curving upper horizontal, the second is conjoined with a small I; R has a closed loop and the tail curves upwards above the horizontal; M has widely spaced strokes which meet on the line; final I is horizontal and set above the line. In line 2, C is angular, the second I is smaller and the horizontal of T projects above it</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">312</citedRange></bibl>.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Treflys</placeName>
+                                <geo>52.918011, -4.181561</geo></origPlace>
+                            <origDate notBefore="0550" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">Second half of the sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">On CISP, Macalister/1945, 372, notes that the left hand edge has been chipped, 'as though to destroy an Ogham'. In the Welsh corpus, Rhys 1907 detected five notches, and Nash-Williams mentioned there might have been the vestiges of oghams; but seems to be damage to an edge/angle instead (according to Welsh Corpus).
+                        </provenance>
+                        <provenance type="observed">In the church, standing against the wall in the north-east corner of the chancel (SH 5346 3785)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-10" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when ="2023-07-17" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
+    <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change> 
+    <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:down"/><persName>IACONVS<hi rend="ligature">FI</hi><unclear reason="illegible">R</unclear>MIN<hi rend="inverted">I</hi>
+                    <lb n="2" style="text-direction:down"/></persName>IACIT
+                </ab>
+            </div>
+            </div>
+            <div type="edition" subtype="ogham" xml:space="preserve" resp="RHY1907">
+                <div type="textpart" n="2" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:unknown"/><persName><del cause="lost">&#x1694;&#x1690;&#x1689;&#x1691;&#x1685;&#x1694;</del></persName> 
+                </ab>
+            </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="RHY1907">
+                <div type="textpart" n="2" xml:lang="pgl-Ogam">
+                <ab><title>Transliteration</title>:
+                    <lb n="1" style="text-direction:unknown"/><persName><del cause="lost">IACONI</del></persName> 
+                </ab>
+            </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p><title>Latin</title>: <foreign xml:lang="pgl">Iaconus</foreign> (son of) <foreign xml:lang="pgl">Firminus</foreign> lies (here)</p>
+            </div>
+                <div type="textpart" n="2">
+                <p><title>Ogham</title>:No translation of the proposed Ogham inscription is offered</p>
+                </div>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                    <item n="1">
+                        <p>The first name in the Roman-letter inscription, <hi rend="italic">Iaconus</hi> is most likely a derivative of OI. The most straightforward reading of the second name is, <hi rend="italic">Firmin(i)us</hi> which was a popular Latin name seen elsewhere in Britain <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">313</citedRange></bibl>. On the inscribed cross at the top of the stone, the Welsh Corpus comments that <q>the 'monogram' chi-rho cross is one of two in Wales; the other is on Penmachno 4 (CN38)</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">313</citedRange></bibl>.</p>
+                    </item>
+                    <item n="2">
+                        <p>The supposed Ogham inscription was suggested to correspond with the Roman-letter inscription which influenced the interpretation of it reading IACONI<bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">313</citedRange></bibl>. <bibl><ptr target="RHY1907"/>Rhys's (1907)<citedRange unit="page">94-95</citedRange></bibl> suggestion should not be considered credible given later investigations of the stone finding nothing but natural ridges and dips in its place<bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">313</citedRange></bibl>.</p>
+                    </item>
+                </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">311-3</citedRange></bibl>
+                    <bibl><ptr target="RHY1907"/>Rhys 1907<citedRange unit="page">94-95</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

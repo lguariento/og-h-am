@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Clydai 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-X02</idno>
+                <idno type="CIIC">429</idno>
+                <idno type="CISP">CLYDI/2</idno>
+                <idno type="WelshCorpus">P13</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>St. Clydai's Church</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1212</idno>Clydau, Clydey; St Clydai's Church</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType>comprised of <q>pyroxene-rich dolerite with sparse feldspar phenocrysts. Melanocratic, clearly defined pyroxene crystals and accessory minerals.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">314</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>1.63</height>
+                                        <width>0.29</width>
+                                        <depth>0.32</depth>
+                                        </dimensions></support> 
+
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><q>A roman-letter, Latin inscription <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using a broad <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> line, in two lines reading vertically downwards... The inscription is set out somewhat unevenly but arranged to fill the available space.</q> The inscription fills the upper two-thirds of the stone face<bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">314</citedRange></bibl>. <bibl><ptr target ="MAC1922b"/>Macalister 1922b<citedRange unit="page">29</citedRange></bibl> suggested ogham, but never saw strokes: `The SOLINVS stone at Clydai, I believe to have originally borne an Ogham, now broken away. I judge this from the appearance of the angle which would have been inscribed, for no trace of the scores remain'.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The inscription is in capitals. FI and LI (twice) are conjoined with small I's. In line 1 the first vertical of the N extends below the line. In line 2 D is reversed and the V's slightly curved... The vertical stroke of the reversed D projects slightly, but it is not a miniscule form...</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">314</citedRange></bibl>.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Clydau</placeName>
+                                <geo></geo></origPlace>
+                            <origDate notBefore="0460" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">Late fifth or first half of the sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">
+                        </provenance>
+                        <provenance type="observed">Inside the church, standing against the west wall of the south aisle.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-05" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+    <change when="2023-07-26" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn">
+                <ab>
+                    <lb n="1" style="text-direction:down"/><persName><name>SO<hi rend="ligature">LI</hi>NI</name>
+                    <lb n="2" style="text-direction:down"/><w><hi rend="ligature">FI</hi><hi rend="ligature">LI</hi>VS</w><name>VEN<hi rend="inverted">D</hi>ONI</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>of <foreign xml:lang="la">Solinus</foreign> son of <foreign xml:lang="pgl">Vendonus</foreign></p>
+            </div>
+            <div type="commentary">
+                <p><q>The roman-letter, Latin inscription is an example of the simple 'X son of Y' formula, with names in the genitive and <hi rend="italic">filivs</hi> in the nominative case... <hi rend="italic">Solinus</hi> is a Latin name... VENDONI has often been regarded as Irish and is sometimes seen as a later form of the Irish name VENDOGNI... There are phonological problems, however, and it may be better to regard it as a spelling of the old Celtic name <hi rend="italic">Vindonius</hi> (from Celtic <hi rend="italic">*Windo-</hi>, 'white'), and therefore not specifically Irish, Welsh, or Celtic-Latin.</q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">314</citedRange></bibl>.</p>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">314-315</citedRange></bibl>
+                <bibl><ptr target ="MAC1922b"/>Macalister 1922b<citedRange unit="page">29</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Llangeler 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-CMN-001</idno>
+                <idno type="CIIC">372</idno>
+                <idno type="CISP">LGELR/1</idno>
+                <idno type="WelshCorpus">CM25</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Capel Mair</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="la-Latn">Latin written in latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1778</idno>Capel Mair</ref>
+                                    <material>Stone</material> <objectType>slab</objectType> comprised of <q>medium-grained, well-sorted, quartz cemented, light grey-brown (10YR 6/1-6/2) sandstone.</q><bibl><ptr target ="#EDW2007"/><citedRange unit="page">251</citedRange></bibl>
+                                    <dimensions unit='m'>
+                                        <height>0.44</height>
+                                        <width>0.18</width>
+                                        <depth>0.395</depth>
+                                        </dimensions></support>
+
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><q>Parts of the roman and much of the ogam inscriptions have been lost... Missing and fragmentary letters have been reconstructed from Morgan's drawing (Illus. CM25.2)... A roman-letter, Latin inscription deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> in two lines reading vertically downwards... [A] fragmentary ogam inscription is deeply incised up the right angle (A/D) of the face. There may also be traces of possible ogam strokes on the top left corner of a... The surviving parts of the ogam inscription are placed to the right o the roman inscription, rather than to the left, as is more usual, and possibly continued round the top of the monument. Although Morgan's drawing of the roman-letter inscription appears accurate, his record of the ogam inscription seems unreliable. The monument was probably already damaged... and ogam inscriptions were not understood at this time.</q><bibl><ptr target ="#EDW2007"/><citedRange unit="page">251-252</citedRange></bibl></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The inscription is in capitals, with a space between the two words in line 2. The B's have separate loops; R's have a separate diagonal which is almost horizontal, that in line 2 has an open loop. In line 1 the horizontal of the L slopes downwards; the strokes of the M are widely spaced. In line 2 F is cursive; S is geometric and shown as a Greek sigma; G is sickle-shaped; the final I is horizontal.</q><bibl><ptr target ="#EDW2007"/><citedRange unit="page">251-252</citedRange></bibl><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Llangeler</placeName>
+                                <geo>52.017378, -4.328672</geo></origPlace>
+                            <origDate notBefore="0500" notAfter="0560" precision="low" datingMethod="#julian" evidence="linguistic">Early to mid sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">First noted 1828 near the ruin of old Capel Mair and drawn by the then vicar Revd David Morgan sometime before 1855 (according to Rhys 1907a); first reading of the ogham given by Rhys in 1875
+                        </provenance>
+                        <provenance type="observed">In Capel Mair, at the west end in a glass case
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+        <change when="2023-07-05" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+        <change when="2023-07-31" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#DECABARRABALVAS?"><gap reason="lost" extent="unknown"></gap>&#x1694;&#x1681;&#x1690;<gap reason="lost" extent="unknown"></gap></name></persName>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#DECABARRABALVAS?">DE<supplied reason="lost">CAB</supplied>ARBALOM</name><w>FI<supplied reason="lost">LI</supplied>VS</w><name nymRef="#BROCCAGNAS">BROCAGN<hi rend="inverted"></hi>I</name></persName>
+                </ab>
+               </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
+                <div type="textpart" n="1">
+                    <ab><title>Ogham</title>:
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#DECABARRABALVAS?"><gap reason="lost" extent="unknown"></gap>IBA<gap reason="lost" extent="unknown"></gap></name></persName>
+                    </ab>
+                </div>
+               </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p><title>Ogham</title>: <foreign xml:lang="pgl">Decabarrabalvas(?)</foreign> son of <foreign xml:lang="pgl">Broccagnas</foreign></p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p><title>Latin</title>: of <foreign xml:lang="pgl">Decabarbalom</foreign> son of <foreign xml:lang="pgl">Brocagnus</foreign></p>
+            </div>
+            <div type="commentary">
+                    <list type="witDetail">
+                        <item n="1">
+                        <p><q>While the last two letters of IBA on fragment c. are easily equated with the start of roman BARBALOM, the I cannot be connected with DE[CA] unless it is a completely artificial genitive ending, but could perhaps be the remains of the presumed <hi rend="italic">nominative</hi> preform of <hi rend="italic">Daig</hi>, namely <hi rend="italic">*Deg<hi rend="superscript">w</hi>i(s)</hi>. An ogam spelling DEG<hi rend="superscript">W</hi>G<hi rend="superscript">W</hi>IABARVALOB would fit Morgan's drawing up to a point, which begins with DE, followed by two three- or four-stroke consonants, and the nsix vowel notches. BROCAGNI rather than *BROCANN is likely to be a conservative or archaic spelling in this very well-known name/</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">253-254</citedRange></bibl>.</p></item>
+                    <item n="2">
+                        <p><q>The roman-letter inscription consists of the Latin 'x son of y' formula, with <hi rend="italic">filivs</hi> in the nominative and <hi rend="italic">Brocagni</hi> in the genitive. The form of the name is problematic and depends partly on Morgan's drawing... The legible name BROCAGNI is definitely Irish, the ancestor of IO <hi rend="italic">Broccán</hi>... BROCAGNI has a genitive ending, whereas DE[CAB]ARBALOM seems to be uninflected... BARBALOM (allegedly BARVALB in the ogam) may be an Irish name or epithet <hi rend="italic">*Barrobalvos</hi>, 'Dumbhead', with the British -LOM (with M as spirant /v/) being an attempt to spell the Irish svarabhakti in OI <hi rend="italic">balb</hi>, 'dumb'... Another possibility is to divide DEC ABAR-BALOM, with DEC as a form of nominative <hi rend="italic">Daig</hi> and ABAR- as the Old Irish intensive <hi rend="italic">abar-</hi>, hence 'very dumb'.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">331</citedRange></bibl>.</p></item>
+                </list>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">251-254</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

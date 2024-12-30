@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Eglwys Gymyn 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-CMN-004</idno>
+                 <idno type="CIIC">362</idno>
+                <idno type="CISP">EGLWC/1</idno>
+                <idno type="WelshCorpus">CM7</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Church of St. Margaret of Scotland</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>  
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">5056</idno>Church of St Margaret of Scotland</ref>
+                                    <material>stone</material> <objectType>pillar</objectType>consisting of <q>Fine-grained, quartz-rich, dark grey-brown (10YR 6/1-5YR 6/1) sandstone.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">214-215</citedRange></bibl> 
+                                    <dimensions unit="m">
+                                        <height>0.96</height>
+                                        <width>0.32</width>
+                                        <depth>0.18</depth>
+                                    </dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with a roman-letter inscription in two lines reading vertically downwards. An Ogham inscription is present on both the right and left edges of the stone, beginning around halfway up on the left side and three-quarters up on the right, both terminating at the top corners of the stone. Both Ogham inscriptions are read vertically upwards. The roman-letter inscription is described as being medium-to-lightly-incised with clearly visible <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punchmarks</rs>, whereas the Ogham inscription is deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">214-215</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The roman-letter inscription <q>is carved in two different techniques: the majority is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">medium-incised </rs>, using a thin line, but the last four letters of line 1 are more worn, being lightly incised and broader than the rest... The inscription is in somewhat unevenly set-out capitals.</q> 
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Eglwys Gymyn</placeName>
+                                <geo>51.766506, -4.565031</geo></origPlace>
+                            <origDate notBefore="0460" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic"> later fifth or earlier sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Found 1855 in the course of church restoration, during excavations in the chancel. Ogham inscription first read by Rhys in 1889.
+                        </provenance>
+                        <provenance type="observed">Inside the church, in a wooden chest under the west window of the nave (SN 2308 1065)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-06-30" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-11" who="#MK">Megan Kasten edited information and formatting to ensure it matches OGHAM standards.</change>
+    <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
+    <change when="2023-07-25" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>  
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#AVITORIA">&#x1690;&#x1683;&#x1694;&#x1688;&#x1688;&#x1691;&#x168F;&#x1694;&#x168C;&#x1693;&#x1684;</name>
+                    <lb n="2" style="text-direction:up" break="yes"/><w lemma="#INIGENA" type="matronym" corresp="http://www.dil.ie/28652">&#x1694;&#x1685;&#x1694;&#x168C;&#x1693;&#x1685;&#x1690;</w><name nymRef="#KUNIGNAS">&#x1689;&#x1692;&#x1685;&#x1694;&#x168C;&#x1685;&#x1694;</name></persName>
+                </ab>
+                </div>
+            </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1"/><persName><name nymRef="#AVITORIA">AVITORIA</name>
+                    <lb n ="2"/><w>FILIA</w><name nymRef="#KUNIGNAS">CVNIGNI</name></persName>
+                </ab>
+               </div>
+            </div>   
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
+                <div type="textpart" n="1">
+                    <ab>
+                        <lb n="1" style="text-direction:up" break="yes"/><persName><name nymRef="#AVITORIA">AVITTORIGES</name>
+                        <lb n="2" style="text-direction:up"/><w lemma="#INIGENA" type="matronym" corresp="http://www.dil.ie/28652">INIGENA</w><name nymRef="#KUNIGNAS">CUNIGNI</name></persName>
+                    </ab>
+                </div>
+                </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <lb n="1"/><p><title>Ogham</title>: of Avittorix</p>
+                    <lb n="2"/><p>daughter of Cunignus</p>
+                </div>                
+                    <div type="textpart" n="2">
+                  <p><title>Latin</title>:<foreign xml:lang="pgl">Avitoria</foreign> daughter of<foreign xml:lang="pgl">Cunignus</foreign></p>
+            </div>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                        <item n="1">
+                        <p><q>The inscriptions commemorate a woman. The wording used for both is the female version of the 'X son of Y' formula. The Irish word <hi rend="italic">inigena</hi> ('daughter') in the ogam is unique. Macalister suggested ( <bibl><ptr target="MAC1945"/>Macalister 1945 <citedRange unit="page">346-347</citedRange></bibl>CIIC: no. 362) that the ogam was changed from <hi rend="italic">inig<hi rend="underline">i</hi>na</hi> to <hi rend="italic">inig<hi rend="underline">e</hi>na</hi> in the course of execution... The name is probably a Celtic feminine name *A(V)ITORIX, comparable with other female names in <hi rend="italic">-rīx</hi>... AVITTORIGES/AVITORIA and AVITORI are prbably both Irish names cognate with OB <hi rend="italic">Oedri</hi> [from] <hi rend="italic">*Ai(wi)torīg-</hi>, 'age-king', and perhaps with Gaulish names such as<hi rend="italic">Aetorius</hi> and <hi rend="italic">Aetoria</hi></q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">216</citedRange></bibl>.</p>
+                            <p>CUNIGNI <q>is probably Irish (OI <hi rend="italic">Co(i)nín)</hi>... the papal <hi rend="italic">Taxatio</hi> of c.1291 refers to Eglwys Gymyn as <hi rend="italic">Ecclesia de Eglusgluneyn... </hi> and if this is a slip for <hi rend="italic">*Eglusguneyn</hi>, 'Cunein's church', note that <hi rend="italic">Cunein</hi> is exactly the Welsh form into which Irish *CUNEGNA(S) (nominative of CUNIGNI) would develop.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">216</citedRange></bibl>.</p>
+                        </item>                       
+                    <item n="2">
+                        <p><q>In the Latin both <hi rend="italic">Avitoria</hi> and <hi rend="italic">filia</hi>are in the nominative; <hi rend="italic">Cvnigni</hi> is in the genitive.</q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">216</citedRange></bibl></p></item>
+               </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliogrpahy</head>
+                <listBibl>
+                <bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">216</citedRange></bibl>   
+                <bibl><ptr target="MAC1945"/>Macalister 1945 <citedRange unit="page">346-347</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

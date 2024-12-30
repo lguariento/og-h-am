@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>St Ishmaels</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-CMN-X02</idno>
+                 <idno type="CIIC">376</idno>
+                <idno type="CISP">SISHM/1</idno>
+                <idno type="WelshCorpus">CM40</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Llansaint Chapel (All Saints' Church)</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">2119</idno>Llansaint Chapel; All Saints' Church</ref>
+                                    <material>Stone</material> <objectType>fragment</objectType> comprised of <q>fine-grained, grey-green (7.5YR 7/1), well-sorted, glaucomic, cross-laminated sandstone, sets 5cm thick.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">277</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>1.18</height>
+                                        <width>0.22</width>
+                                        <depth>unknown</depth>
+                                        </dimensions></support> 
+
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><q>The face is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using a broad line, with a roman-letter, Latin inscription in two lines.</q> The stone is built into the outer south wall of the nave of the chapel. No ogam is currently visible on the stone.<bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">277</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The inscription is in capitals...with a horizontal I at the end of each line. In line 2 G is sickle-shaped.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">277</citedRange></bibl>.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">St Ishamels</placeName>
+                                <geo>51.747706, -4.341428</geo></origPlace>
+                            <origDate notBefore="0460" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic">Late fifth or earlier sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">From CISP: Macalister/1945, 359: `the second line [of the roman inscription SISHM 1/1] damaged by a flaking which has been carried round the head of the stone to remove an ogham inscription. Of this nothing remains but the tips of the of the B-half of the G of ERCAGNI'.
+                        </provenance>
+                        <provenance type="observed">Built low down and horizontally into the external fabric of the south wall of the nave, below the east window
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-17" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+    <change when="2023-07-24" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Latn">
+                <ab>
+                    <lb n="1" style="text-direction:down"/><persName><name>VENNISETL<hi rend="inverted">I</hi></name>
+                    <lb n="2" style="text-direction:down"/><w><unclear reason="lost">F</unclear>ILIVS</w><name><unclear reason="lost">E</unclear>RCAGN<hi rend="inverted">I</hi></name></persName>
+                </ab>
+              </div>
+            </div>                                            
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p>Of <foreign xml:lang="pgl-Latn">Vennisetlus</foreign> son of <foreign xml:lang="owl-Latn">Ercagnus</foreign></p>
+                </div>
+               </div>              
+            <div type="commentary">
+                    <p><q>The inscription consists of the 'X son of Y' formula with the names in the genitive and <hi rend="italic">filivs</hi> in the nominative case.</q> VENNISETLI is a forerunner <q>of Welsh <hi rend="italic">Gwynnhoedl (Gwynhoedl, Gwennoedyl</hi>, etc), a compound of <hi rend="italic">*windo-</hi>, 'white, holy', and <hi rend="italic">*saitlo-</hi>, life. The spelling with E (VEND-, VENN-) may be due to Vulgar Latin or Irish influence, since the element turns up as VEND- both in Roman Britain and on ogam inscriptions... The name is probably British, rather than Irish, on account of the change of /nd > /nn/ (which occurred too late in Irish to be relevant here) and the un-Irish monophthongization of the second element... The composition vowel -I- instead of -O- could be British or Irish, although it is more typically Irish... ERCAGNI is the genitive of an Irish name <hi rend="italic">*Ercagnas</hi> > OI <hi rend="italic">Erccán</hi>... The suffix -AGN- seems to be exclusively Irish in origin. In its developed form <hi rend="italic">-án</hi> it was borrowed into Brittonic and attached to natice stems as well.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">277-278</citedRange></bibl>.</p>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">277-278</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+
+    </text>
+</TEI>

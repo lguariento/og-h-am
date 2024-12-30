@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Margam</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-GLA-X02</idno>
+                 <idno type="CIIC">408</idno>
+                <idno type="CISP">MARG1/1</idno>
+                <idno type="WelshCorpus">G77</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Margam Stones Museum. There is a replica at the original site</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>rejected monument</term> The Glamorgan-Gwent Archaeological Trust
+Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">00809w
+</idno>Margam Mountain</ref>
+                                    <material>Stone</material> <objectType>slab</objectType>, described as <q>pale grey, weathered deeper grey with iron staining, medium-grained sandstone...[material] of this type are exposed in the upland area adjacent to the find-site</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">406</citedRange></bibl>.
+                                    <dimensions unit="m">
+                                        <height>1.15</height>
+                                        <width>0.33</width>
+                                        <depth>0.22</depth></dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with a Roman-letter inscription in four vertical lines reading downwards. The execution of the inscription is described as <q>deeply cut (or recut?)</q> but is otherwise undetermined <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. The top of the stone has an <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> cross with chased edges and one line descending on to the inscribed face <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. The stone is classified as an Ogham stone on a 1971 map of Britain in the Dark Ages but there is no other mention of the presence of Ogham on the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The Welsh Corpus describe the letter-forms in the inscription as <q>irregular Roman capitals with half-uncial H and conjoined FI and LI in FILIUS...angle bar A inverted throughout. Tight but regular spacing overall; the well-formed S and rapidly formed capital R, finishing horizontally to the right, show an experienced hand used to the scale of monumental inscription...the H and the sickle-shaped G are quite confident but unusual; there seems to have been no preliminary complete layout, for the designer has run out of space at the end, where VEDOMAVI is severely cramped</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Margam</placeName>
+                                <geo>51.585703, -3.689275</geo></origPlace>
+                            <origDate notBefore="0550" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">Second half of the sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">OS Map of Britain in the Dark Ages - 1971 suggested that ogham was present
+                        </provenance>
+                        <provenance type="observed">Margam Stones Museum. There is a replica at the original site
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-09" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
+    <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Latn">
+                <ab><title>Edition</title>
+                    <lb n="1" style="text-direction:down"/><persName><name>BODVOC<hi rend="inverted">I</hi></name>HICIACIT
+                    <lb n="2" style="text-direction:down"/><hi rend="ligature">FI</hi><hi rend="ligature">LI</hi>VS<name>CATOTIGIRNI</name>
+                    <lb n="3" style="text-direction:down"/>PRONEPVS<name nymRef="#aeternus">ETERNA<hi rend="ligature">LI</hi></name>
+                    <lb n="4" style="text-direction:down"/><name>VEDOMAV<hi rend="inverted">I</hi></name></persName>
+                </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p>(The stone) of <foreign xml:lang="pgl">Bodvocus</foreign>. Here he lies, the son of <foreign xml:lang="pgl">Catotogirnus</foreign> and great-grandson of <foreign xml:lang="pgl">Eternalis Vedomavus</foreign>.</p>
+            </div>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                    <item n="1">
+                <p>On the names in the inscription, the Welsh Corpus notes that <q>the ancient British name BODVOC appears on coins of the Dobunni, and <hi rend="italic">Bodvocus</hi> occurs beside <hi rend="italic">Bodvacus</hi> in Gaul</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. The name CATOTIGIRNI is most likely Brittonic <q>the precursor of OW <hi rend="italic">Cattegirn</hi>, Pr.B. <hi rend="italic">Catihernus</hi>...VEDOMAVI contains W. <hi rend="italic">gŵydd</hi>, 'wild'. This stem does appear as well in ogam, VEDA-, VEDDO-, but the phonetic development of the second element...proves the name to be Brittonic rather than Irish</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. There is some debate surrounding the relationship between the inscription and the incised cross on the top of the stone. Some have suggested that the cross was carved at the same time as the inscription but it is most likely a later addition<bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. On the topographical context of the stone, it is worth noting that <q>the stone originally stood beside a well-defined trackway, dominating the skyline as one ascends the track from Rhyd Blaen-y-cwn <bibl><ptr target="FOX1939"/>Fox 1939<citedRange unit="page">36-37</citedRange></bibl>. The low circular bank forming an enclosure, possibly with a ditch on the inside, measured some 35ft in diameter. As at Maen Madoc (B50), the inscription faced south (i.e. it was visible when approached from below). There was a tradition associated with the stone that whoever read the inscription correctly would die soon afterwards/within a year of that date</q><bibl><ptr target="MAC1945"/>Macalister 1945<ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">408</citedRange></bibl></p></item></list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">402-8</citedRange></bibl>
+                    <bibl><ptr target="MAC1945"/>Macalister 1945-9</bibl>
+                    <bibl><ptr target="FOX1939"/>Fox 1939<citedRange unit="page">36-37</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

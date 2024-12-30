@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mathry 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-016</idno>
+                 <idno type="CIIC">442</idno>
+                <idno type="CISP">MTHRY/1</idno>
+                <idno type="WelshCorpus">P60</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Church of the Holy Martyrs</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>        
+                            
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang> 
+                              
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">2862</idno>Mathri; Church of the Holy Martyrs</ref>
+                                    <material>Stone</material> <objectType>slab</objectType> comprised of <q>microgranite. Contains quartz, feldspar, biotite, plagioclase and orthopyroxene.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">380</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>1.35</height>
+                                        <width>0.42</width>
+                                        <depth>0.18</depth>
+                                        </dimensions></support> 
+
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The top of the slab is missing, along with the first line of the roman-letter, Latin inscription. This is preserved in BL Stowe MS 1024, fos 52-53. The surviving four horizontal lines are described as being finely <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> on the remaining upper half of the slab. <q>Towards the top of the left angle is a fragmentary incised ogam inscription, which reads upwards...</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">380-382</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The roman-letter inscription <q>...is in capitals. The original drawing shows MAC (line 1) conjoined (BL Stowe MS 1024, fo. 52); CA (line 4) and VV (line 5) are conjoined. The S's (lines 3, 5) are raised above the line and are in the form of reversed Greek <hi rend="italic">sigmas</hi>, one with curved strokes, one with straight lines. The V's (lines 2, 5) and A (line 4) have very widely spaced diagonal strokes. The horizontals of the L's slope steeply downwards. In line 2 the upper horizontal of the F slopes upwards and there is a third horizontal stroke at the bottom.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">381-382</citedRange></bibl>.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Mathry</placeName>
+                                <geo>51.945956, -5.087522</geo></origPlace>
+                            <origDate notBefore="0500" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic"> A.D.</origDate>
+                        </origin>
+                        <provenance type="found">In 1698 Lhuyd and his assistants recorded latin; did not record ogham - earliest ref to ogham seems to be Nash-Williams in 1937
+                        </provenance>
+                        <provenance type="observed">Standing in the church porch, set into the floor
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-07" who ="#MM">
+        Molly McKendrick edited information to incorporate info from Welsh Corpus entry.
+    </change>
+<change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><w lemma="MAQQAS">&#x168B;&#x1690;&#x168A;</w><unclear reason="illegible" extent="unknown" unit="character"></unclear><unclear reason="faded" extent="1" unit="character">&#x1687;</unclear><gap reason="lost" extent="unknown" unit="character"></gap>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1"/><w lemma="MAQQAS"><supplied reason="lost"><hi rend="ligature">MAC</hi></supplied></w>
+                    <lb n="2"/>CVDICCL
+                    <lb n="3"/>FILIVS
+                    <lb n="4"/><hi rend="ligature">CA</hi>TIC
+                    <lb n="5"/><hi rend="ligature">VV</hi>S
+                </ab>
+               </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
+                <div type="textpart" n="1">
+                    <ab><title>Transliteration</title>:
+                        <lb n="1" style="text-direction:up"/><w lemma="MAQQAS">MAQ</w><gap reason="illegible" extent="1" unit="character"/><unclear reason="faded" extent="1" unit="character">D</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+               </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p>MAQ<unclear reason="illegible" extent="1" unit="character"/><unclear reason="faded" extent="1" unit="character">D</unclear><gap reason="lost" extent="unknown" unit="character"></gap></p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p><foreign xml:lang="pgl">Maccudiccl</foreign> son of <foreign xml:lang="pgl">Caticuus</foreign></p>
+            </div>
+            <div type="commentary">
+                    <list type="witDetail">
+                        <item n="1">
+                        <p><q>...Although the ogam inscription is fragmentary, MAQ is quite clear. These letters are followed by two (or more?) vowel-notches, but the angle is damaged at this point and no reading is possible. Above are two fragmentary horizontal strokes to the left, which almost certainly form a D. It is possible that the inscription originally read MAQID- and could therefore be the beginning of a slightly different form of Maccudiccl... It seems possible that CATICVVS is OI <hi rend="italic">Cathchú</hi> ('battle-hound'), with VV representing the Irish long vowel and only the -S being Latin.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">382</citedRange></bibl>.</p></item>
+                    <item n="2">
+                        <p><q>The first line of the Latin inscription... may be reconstructed with confidence from the drawings in BL Stowe MS 1024, fos. 52-3... The inscription uses the 'X son of Y' formula in the nominative case.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">382</citedRange></bibl></p></item>
+                </list>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">380-383</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+
+    </text>
+</TEI>

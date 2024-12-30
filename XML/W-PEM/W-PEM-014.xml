@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nevern 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-014</idno>
+                <idno type="CIIC">446</idno>
+                <idno type="CISP">NEVRN/1</idno>
+                <idno type="WelshCorpus">P70</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>St. Brynach's Church</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>  
+                            
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1605</idno>Nanhyfer; St Brynach's Church</ref>
+                                    <material>Stone</material> <objectType>slab</objectType> comprised of <q>'spotted' dolerite with 25 per cent anhedral feldspar phenocrysts (2-11mm).</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">390</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>1.59</height>
+                                        <width>0.33</width>
+                                        <depth>0.10</depth>
+                                        </dimensions></support> 
+
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The slab contains a <q>roman-letter, Latin inscription in one line reading vertically downwards...</q> and is described as being lightly <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html"> punched</rs>. An <q>incomplete ogam inscription runs up the left angle of the face (A/D) and [one letter runs] partially across the top of the stone (now damaged).</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">390-391</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The roman-letter inscription is in capitals. <q>CV are conjoined; G is sickle-shaped; F is cursive; the final I is horizontal.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">391</citedRange></bibl><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Nevern</placeName>
+                                <geo>52.025392, -4.795144</geo></origPlace>
+                            <origDate notBefore="0450" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Second half of the fifth or earlier sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Found in August 1904 by J.R. Allen in the narrow passage which opens off the west wall of the Henllys Chapel
+                        </provenance>
+                        <provenance type="observed">Inside the church in the Henllys (south) Chapel, built into the sill of the east window in the south wall
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-06-19" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#MAGLACU">
+                        &#x168B;&#x1690;&#x168C;&#x1682;&#x1694;&#x1689;&#x1692;&#x1685;&#x1690;&#x1684;</name><w lemma="MAQQAS">&#x168B;&#x1690;&#x168A;&#x1694;</w>
+                        <name nymRef="#KLUTARIGS">&#x1689;&#x1682;&#x1692;&#x1688;&#x1690;
+                    <lb n="2" style="text-direction:across"/><unclear reason="damage">&#x168F;</unclear><gap reason="lost" extent="unknown"></gap></name></persName>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1" style="down"/>MAGLO<hi rend="ligature">CV</hi>
+                    <choice><unclear reason="eccentric_ductus">N</unclear>
+                                <unclear reason="eccentric_ductus">VI</unclear></choice>
+                                FILICLVTOR<hi rend="inverted">I</hi>
+                </ab>
+               </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
+                <div type="textpart" n="1">
+                    <ab><title>Transliteration</title>:
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#MAGLACU">MAGLICUNAS</name><w lemma="MAQQAS">MAQI</w><name nymRef="#KLUTARIGS">CLUTA
+                        <lb n="2" style="text-direction:across"/><unclear reason="illegible" extent="1" unit="character">R</unclear><gap reason="lost" extent="unknown"></gap></name></persName>
+                    </ab>
+                </div>
+               </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p><title>Ogham</title>: of <foreign xml:lang="pgl">Maglicu</foreign> son of <foreign xml:lang="pgl">Clutar</foreign></p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p><title>Latin</title>: <foreign xml:lang="pgl">Maglocu</foreign> son of <foreign xml:lang="pgl">Clutorius</foreign></p>
+            </div>
+            <div type="commentary">
+                    <list type="witDetail">
+                        <item n="1">
+                        <p><q>In the ogam inscription the first name is in the genitive case. The end of the second name is missing but CLUTA at the beginning is clear. The next letter is incomplete. It now consists of four partially visible diagonal strokes and, if it is the same as the roman inscription, there was almost certainly a fifth, thereby identifying it as an R... <bibl><ptr target="RHY1910"/>Rhys 1910 <citedRange unit="page">328</citedRange></bibl> reconstructed the name as the genitive CLUTA[RI], thereby reflecting the roman inscription... <bibl><ptr target="JAC1953"/>Jackson 1953 <citedRange unit="page">624</citedRange></bibl> and <bibl><ptr target="MCM1991"/>McManus 1991 <citedRange unit="page">91</citedRange></bibl> have suggested an alternative genitive CLUTA[RIGAS]... These Celtic names are either British with Irish influence on the spelling or Irish with British influence on the spelling... The first name is either W. <hi rend="italic">Meilyg/Maelgwn</hi>, 'prince-hound', or Ir. <hi rend="italic">Máelchú</hi>, gen. <hi rend="italic">Máelchon</hi>...</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">391-392</citedRange></bibl>.</p></item>
+                    <item n="2">
+                        <p>The last letter of the first name in the roman-letter inscription has been alternately identified as either a reversed N or a conjoined VI. If an N, the name reads as MAGLOCVN(i) which reflects the spelling of the ogam inscription. Otherwise, the spelling MAGLOCVVI would be the Latinized genitive of the Irish name Maglocu in the nominative. </p><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">391-392</citedRange></bibl>.</item>
+                </list>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">390-392</citedRange></bibl>
+                <bibl><ptr target="MCM1991"/>McManus 1991 <citedRange unit="page">91</citedRange></bibl>
+                <bibl><ptr target="JAC1953"/>Jackson 1953 <citedRange unit="page">624</citedRange></bibl>
+                <bibl><ptr target="RHY1910"/>Rhys 1910 <citedRange unit="page">328</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+
+    </text>
+</TEI>

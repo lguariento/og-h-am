@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Castell Dwyran 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-CMN-005</idno>
+                 <idno type="CIIC">358</idno>
+                <idno type="CISP">CDWYR/1</idno>
+                <idno type="WelshCorpus">CM3</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Carmarthen Museum, Abergwili</repository>
+                        <idno type="invNo">acc no A76.3537</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                              
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">3731</idno>St Teilo's Church</ref>
+                                    <material>stone</material> <objectType>pillar</objectType>, described as <q>Crystal lithic tuff. Brown (10YR 5/3) weathered surface, due to presence of mafic minerals.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">204</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>2.11</height>
+                                        <width>0.71</width>
+                                        <depth>0.28</depth>
+                                        </dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with a roman-letter inscription in three somewhat uneven lines, reading horizontally. A corresponding Ogham inscription begins in the the top quarter of the left edge of the stone, and continues vertically along the edge, terminating at the stone's highest point. The Latin inscription is described as being lightly incised<rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">, whereas the Ogham inscription is <q>medium-to-lightly-incised</q></rs><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">204-205</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote> The roman letters are in capitals and those in line 1 <q>are slightly smaller than those in lines 2 and 3.</q> The M's in line 1 have <q>widely spaced strokes that meet on the line. In line 2 G is sickle-shaped. The R's in line 1 and 3 have separate diagonal strokes; that at the beginning of line 3 may also have an open loop. The Ogham strokes are small and short.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">205</citedRange></bibl>.
+                                 <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Castell Dwyran</placeName>
+                                <geo>51.831406, -4.695000</geo></origPlace>
+                            <origDate notBefore="0460" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic"> late fifth or earlier sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Ogham inscription read by Rhys in 1895. Stone first noted in August 1895 standing in a field in front of Gwarmacwydd House, Llanfallteg (SN 161 208); it had been brought there from 1880 from Castell Dwyrann church
+                        </provenance>
+                        <provenance type="observed">Carmarthen Museum, Abergwili (acc no A76.3537)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-06-29" who="MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-06-07" who="#MK"> Editing to ensure consistency with OG(H)AM format.</change>
+    <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>   
+    <change when="2023-07-27" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#VOTEQARIGIS">&#x1683;&#x1691;&#x1688;&#x1693;&#x1689;&#x1691;&#x168F;&#x1694;&#x168C;&#x1690;&#x1684;</name></persName>
+                </ab>
+                </div>
+             </div>
+             <div type="edition" subtype="roman" xml:space="preserve">
+                <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1"/><w>MEMORIA</w>
+                    <lb n ="2"/><persName><name nymRef="#VOTEQARIGIS">VOTEPORIGIS</name>
+                    <lb n ="3"/><w>PROTICTORIS</w></persName>
+                </ab>
+               </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
+                <div type="textpart" n="1">
+                    <ab><title>Ogham</title>:
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#VOTEQARIGIS">VOTECORIGAS</name></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p><title>Ogham</title>: of Votecorix</p>
+            </div>
+            </div>
+                <div type="textpart" n="2">
+                  <p><title>Latin</title>: The memorial tomb/tomb of <foreign xml:lang="pgl">Voteporix</foreign>the Protector</p>
+                </div>
+            <div type="commentary">
+                <list type="witDetail">
+                        <item n="1">
+                        <p>The Ogham inscription denotes only the name of the person commemorated, in the genitive case. The name VOTECORIGAS derives drom the genitive Celtic <hi rend="italic">*Votek<hi rend="superscript">w</hi>orīgos></hi>, 'refuge-king', and shares the element <hi rend="italic">*tek<hi rend="superscript">w</hi>o-></hi> with the Silchester Ogham TEBICATOS, and the prefix <hi rend="italic">*wo-</hi>with the OW name <hi rend="italic">Guotepauc</hi>.<q>It is not clear whether the Irish form translates the Welsh or vice versa: while the ogam O may copy the Brittonic composition vowel, it could be an independent Irish development due to the rounding influence of *Q > C. The preservation of -S despite the destabilization of *Q may betray archaization in the ogam.</q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">205-206</citedRange></bibl>.</p>
+                        </item>
+                        <item n="2">The latin inscription includes the term <hi rend="italic">protectoris</hi> which <q>is a title and originally referred to a member of the Roman imperial bodyguard... It has been suggested that <hi rend="italic">protectoris</hi> on this monument could be a hereditary title which might ultimately go back to the period of the Roman occupation <bibl><ptr target="ALC1971"/>Alcock 1971 <citedRange unit="page">122-123</citedRange></bibl>. The use of a Roman imperial title might be seen as a sign of continuing or adopted <hi rend="italic">Romanitas</hi> or as a means of providing legitimacy to a post-Roman ruler.</q> This stone inscription <q>is the only example of the use of the Latin <hi rend="italic">memoria</hi> in Wales...</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">205</citedRange></bibl>
+                        </item>
+                </list>
+            </div>
+                  
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="ALC1971"/>Alcock 1971 <citedRange unit="page">122-123</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">203-206</citedRange></bibl> 
+                </listBibl>
+                <p></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Loughor</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-GLA-002</idno>
+                 <idno type="CIIC">405</idno>
+                <idno type="CISP">LOUGH/1</idno>
+                <idno type="WelshCorpus">G76</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Swansea Museum</repository>
+<!--                        <idno type="invNo"></idno> No accession number at the museum??--> 
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> The Glamorgan-Gwent Archaeological Trust
+Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">00206w</idno></ref>
+                                    <material>Stone</material> <objectType>Reused Roman altar</objectType>, described as <q>Fine-grained sandstone which was originally grey when fresh but weathered brown. The current black colour is attributed to fire damage...it is quite probable that it could have been derived locally</q><bibl> <ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">401</citedRange></bibl>.
+                                    <dimensions unit="m">
+                                        <height>1.08</height>
+                                        <width>0.52</width>
+                                        <depth>0.53</depth></dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with a weathered and incomplete Ogham inscription on the right-hand edge of the stone, starting about two-thirds of the way to the top reading vertically upwards terminating just below the capital. The inscription was likely <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs>. There is no trace of the original Roman-letter inscription on the alter <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">401-2</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The Welsh Corpus notes that <q>a single vowel-notch is visible before the strokes for V (or L), but need not represent an A; the final vowel-notch is on the chamfered underside of the capital</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">402</citedRange></bibl>.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Loughor</placeName>
+                                <geo>51.664108, -4.061350</geo></origPlace>
+                            <origDate notBefore="0400" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">fifth-sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">First noticed forming a step to the stile leading up to the rectory at Loughor (Castell Llychwr); the ogham letters were noted in 1857; first published in 1869 by Jones.
+                        </provenance>
+                        <provenance type="observed">Swansea Museum
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-08" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+        <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
+    <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+               <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Edition</title>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#gravics"><gap reason="lost" extent="unknown" unit="character"/>&#x1682;<gap reason="lost" quantity="1" unit="character"/>
+                    <choice>
+                        <unclear reason="worn">&#x1683;</unclear>
+                        <unclear reason="worn">&#x1682;</unclear>
+                    </choice>&#x1694;&#x1689;&#x1690;</name></persName>
+                   </ab>
+               </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                    <ab><title>Transliteration</title>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#gravics"><gap reason="lost" extent="unknown" unit="character"/>L<gap reason="lost" quantity="1" unit="character"/>
+                    <choice>
+                        <unclear reason="worn">V</unclear>
+                        <unclear reason="worn">L</unclear>
+                    </choice>ICA</name></persName>
+                    </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                <p>No definitve translation exists but the inscription is believed to represent an Irish name possibly <foreign xml:lang="pgl">Gravica</foreign></p>
+            </div>
+            </div>
+            <div type="commentary">
+                <list type="witDetail">
+                    <item n="1">
+                        <p>The inscription <q>is probably an Irish name rather than a Roman one like <hi rend="italic">Publica</hi> or <hi rend="italic">Pervica</hi>, although Latin names certainly do occur in ogam script...Macalister read GRAVICA...the reading LICA goes back to <bibl><ptr target="RHY1895"/>Rhys 1895<citedRange unit="page">182-183</citedRange></bibl>, who equated LICA with OI <hi rend="italic">lecc</hi>, W. <hi rend="italic">llech</hi> 'flag-stone'. There are examples of LEC 'stone' in later Irish inscriptions: <hi rend="italic">CIIC:</hi>II, nos 796 and 857-9. A non-Roman masculine cognomen <hi rend="italic">Licca</hi> is well-attested on the continent...the inscription presumably records a personal name, and indicates the reuse of the stone as a memorial in the fifth or, more probably, sixth century</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">402</citedRange> <ptr target="MAC1945"/>Macalister 1945</bibl>.</p>
+                    </item>
+                </list>             
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">401-2</citedRange></bibl>
+                    <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">381</citedRange></bibl>
+                    <bibl><ptr target="RHY1895"/>Rhys 1895<citedRange unit="page">182-183</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Llanfihangel Cwm Du</title>
+             <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-BRE-X03</idno>
+                 <idno type="CIIC">334</idno>
+                <idno type="CISP">LFIC1/1</idno>
+                <idno type="WelshCorpus">B21</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>rejected monument</term> CPAT Regional Historic Environment Record<ref target="https://archwilio.org.uk/"><idno type="HER">50452
+</idno>Llanfihangel-Cwmdu</ref>
+                                    <material>Stone</material> <objectType>slab</objectType> described as <q>coarse, grey, aparently massive quartxose sandstone...these lithologies are exposed within 6km to the south-west of the find-site</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 194</citedRange></bibl>.
+                                    <dimensions unit="m">
+                                        <height>1.63</height>
+                                        <width>0.28</width>
+                                        </dimensions></support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The stone is inscribed with a Roman letter inscription in two lines, reading vertically upwards. The inscription is described as <q>boldly worked</q> likely <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 194</citedRange></bibl>. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription is in <q>mixed capitals, having a general similarity to insular geometric forms. The As have angled cross-bars, the uprights intersecting at the top; similarly the uprights of the Vs extend below the body of the letter, and have a forked serif at the base; the Cs are rectangular also enlarged Ss with exaggerated curves, the final S of <hi rend="italic">Tegernacus</hi> reversed; quasi-miniscule F and H (of rectangular form); N with horizontal middle stroke, and R with tail angled above the horizontal...[the cutter's] Ss are perhaps a special demonstration of skill...the inscription suggests an experienced stone-carver unused to lettering, for he shows no awareness of the parallel bands of a writing-line, or the repeat patterning of an alphabet with a rectangular core-form</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007 <citedRange unit="page"> 194</citedRange></bibl>.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Llanfihangel Cwm Du</placeName>
+                                <geo>51.889481, -3.204539</geo></origPlace>
+                            <origDate notBefore="0600" notAfter="0640" precision="low" datingMethod="#julian" evidence="linguistic">Early seventh century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">I think this is the correct stone, despite the difference in OS coordinates provided by Babelstone vs the Corpus; the OS coordinates from the Welsh corpus place it close to the Roman fort of Pen-y-gaer, while the coordinates from Babelstone place it closer to Bwlch. The marker on the Ogham stones Google Map suggests that the OS coordinates provided by Babelstone could be a typo. However there is no mention of the presence of ogham on this stone, or postulated ogham inscriptions, apart from its mention as an Ogham stone on the OS Map of Britain in the Dark Ages
+                        </provenance>
+                        <provenance type="observed">Built into a buttress on the south side of the church since 1830
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+<change when="2023-07-04" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-11" who="#MK">Megan Kasten edited information and formatting to match OGHAM standards.</change>
+               <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change> 
+    <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+<!--        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn">       
+                <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:up"/><persName>CATACVSHICIAC<hi rend="ligature">IT</hi>
+                    <lb n="2" style="text-direction:up"/>FILIVSTEGERNACVS</persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p><title>Latin</title>: <foreign xml:lang="pgl">Catacus</foreign> lies here, the son of <foreign xml:lang="pgl">Tegernacus</foreign></p>
+            </div>
+            <div type="commentary">
+                <p><q>CATACVS... and TEGERNACVS are both Latinized nominatives of Celtic names...formed from stems meaning 'battle' and 'prince'. The suffix could be Irish (cf. <hi rend="italic">Cathach, Tigernach</hi>) or Welsh, although the further into the seventh century the inscription is dated the harder it becomes to believe that -ACVS can be Welsh...rather than Irish</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">195</citedRange></bibl>. No depth measurement of the stone is possible as it is currently cemented into the recess of a church buttress. With regard to the context of the stone, the Welsh Corpus notes that <q>the position of the stone on high ground about 1.6km from the church of Cwn Du and 200m outside the Roman fort of Pen-y-gaer suggests erection in a position visible from settlement in the valley below</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">196</citedRange></bibl>. The Corpus also highlights <q>the conjunction of the name 'Catacus' (<hi rend="italic">Cadog</hi> on the stone with the field-name 'Gwynlhiw' of its find-spot, St Gwynllyw being traditionally the father of St Cadog; while there is no question of the Catacus inscription being St Cadog, it shows the pseudo-historical legends connecting the two being borne out by topography, suggesting that they were not simply the invention of the hagiographer</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">196</citedRange></bibl>.</p>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>
+                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">194-6</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

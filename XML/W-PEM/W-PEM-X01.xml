@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Spittal</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-X01</idno>
+                <idno type="CIIC">402</idno>
+                <idno type="CISP">SPTTL/1</idno>
+                <idno type="WelshCorpus">P136</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>St. Mary's Church</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">2473</idno>St Mary's Church</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType> comprised of <q>porphyritic andesite. Subhedral phenocrysts of feldspar and pyroxene. </q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">498</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>1.51</height>
+                                        <width>0.61</width>
+                                        <depth>0.50</depth>
+                                        </dimensions></support> 
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The pillar is <q>carved with a roman-letter, Latin inscription, medium-<rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> using fine lines, in three lines reading vertically downwards.</q> No ogam is presently visible on the stone.<bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">498</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The inscription is in capitals... In line 1 VA are ligatured; the horizontal of the L slopes downwards, the first stroke of the N is slightly extended and the terminating I is horizontal. In line 2 VN are ligatured. In line 3 the outer strokes of the M are widely spaced and the inner strokes touch the line; MA are conjoined; R has a shortened diagonal and S in elongated.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">498</citedRange></bibl>.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Spittal</placeName>
+                                <geo>51.867944, -4.941539</geo></origPlace>
+                            <origDate notBefore="0400" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">Babelstone says that 'information about the stone in situ states that originally there were both Latin and Ogham inscriptions on it, but the Ogham letters are no longer visible' - CISP and OS don't mention the potential ogham inscription
+                        </provenance>
+                        <provenance type="observed">In the porch of St Mary's church
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-09" who ="#MM">
+        Molly McKendrick edited information to incorporate info from Welsh Corpus entry.
+    </change>
+    <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn">
+                <div type="textpart" n="1" >
+                <ab>
+                    <lb n="1" style="text-direction:down"/><persName><name>E<hi rend="ligature">VA</hi>LI</name><w>FILI</w><name>DEN<unclear reason="faded">O</unclear>V<hi rend="inverted">I</hi></name>
+                    <lb n="2" style="text-direction:down"/><name>C<hi rend="ligature">VN</hi>IOVENDE</name>
+                    <lb n="3" style="text-direction:down"/><w><hi rend="ligature">MA</hi>TEREIVS</w></persName>
+                </ab>
+              </div>
+            </div>                  
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p>of <foreign xml:lang="pgl">Evalus</foreign> son of <foreign xml:lang="pgl">Denovus</foreign>, of <foreign xml:lang="pgl">Cuniovenda</foreign> his mother</p>
+                </div>
+               </div>
+            <div type="commentary">                    
+                        <p><q>Line 1 is straightforward, consisting of the 'X son of Y' formula in the genitive case... It is unclear whether Cuniovenda was the mother of Evalus or his father, though the former is more likely. The use of the word <hi rend="italic">mater</hi> is unique amongst the early inscribed stones...</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">498</citedRange></bibl>. It is likely that <q>EVALI is intended as the genitive of the rare Latin name <hi rend="italic">Aevalis</hi> or a derivative <hi rend="italic">*Aevalius</hi>... The patronymic, however, is presumably Celtic, whether it is read DENOVI or DENCVI. If DENOVI is read, it may be a Welsh adaption (with British O for the Irish composition vowel A) - or a cognate - of the Irish name <hi rend="italic">*Dena-vi(ks)</hi>, 'swift fighter'... If the reading is DENCVI it may be a Welsh name in <hi rend="italic">-wy</hi> (or Latin <hi rend="italic">-uus</hi>) to the Celtic base <hi rend="italic">*denk-</hi> that is seen in Ir. <hi rend="italic">Déclán</hi>... The first element of the latter name [CVNIOVENDE] should be compared with CIIC, nos 289 CUNIA and 286 CUNEA in Ireland... rather than with the commonplace element <hi rend="italic">Cuno-</hi>, 'hound', from which it presumably derives.<bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">281-284</citedRange></bibl> The composition vowel is British rather than Irish. The second element is Celtic <hi rend="italic">*-wind-</hi>, 'white' (plus Latin gen. sg. ending).</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">498-500</citedRange></bibl>.</p>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">498-500</citedRange></bibl>
+                <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">281-284</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+
+    </text>
+</TEI>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jordanston 1</title>
+             <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
+                 <orgName>University of Glasgow</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">W-PEM-013</idno>
+                <idno type="CIIC">432</idno>
+                <idno type="CISP">JRDNS/1</idno>
+                <idno type="WelshCorpus">P20</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Wales</country>
+                        <repository>Llangwarren House</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
+                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang> 
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">2582</idno>Llangwarren (Llangwarran) House</ref>
+                                    <material>Stone</material> <objectType>pillar</objectType> comprised of equigranular dolerite.<bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">325</citedRange></bibl>.
+                                    <dimensions unit='m'>
+                                        <height>1.55</height>
+                                        <width>0.62</width>
+                                        <depth>0.27</depth>
+                                        </dimensions></support> 
+
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>A <q>roman-letter inscription is in two lines, reading vertically downwards. It is medium <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using a broad, <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> line... The ogam inscription is medium <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> on the left angle (A/D), reading upwards</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">325</citedRange></bibl>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The roman-letter inscription <q>is in capitals. The letters in line 1... are smaller than those in line 2. The G's are sickle-shaped; R has an open loop and the loops of the B do not meet the vertical stroke</q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">325</citedRange></bibl>.
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Jordanston</placeName>
+                                <geo>51.941556, -5.014458</geo></origPlace>
+                            <origDate notBefore="0400" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found">First mentioned in 1896 built into a wall near Llangwarren House, where it had formerly been used as a gatepost; Ogham published 1897
+                        </provenance>
+                        <provenance type="observed">In the garden north-east of Llangwarren House
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+    <creation>Transcription from previous editor.</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-28" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2023-07-05" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
+    <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+    <change when="2023-07-26" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <ab><title>Ogham</title>:
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#DUVVAGNAS">&#x1687;&#x1691;&#x1683;&#x1690;&#x168C;&#x1685;&#x1694;</name></persName>
+                </ab>
+              </div>
+            </div>
+                 <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab><title>Latin</title>:
+                    <lb n="1" style="text-direction:down"/>TIGERNACI
+                    <lb n="2" style="text-direction:down"/><persName><name nymRef="#DUVVAGNAS">DOBAGNI</name></persName>
+                </ab>
+               </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
+                <div type="textpart" n="1">
+                    <ab><title>Transliteration</title>:
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#DUVVAGNAS">DOVAGNI</name></persName>
+                    </ab>
+                </div>
+               </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation" xml:lang="en">
+                <div type="textpart" n="1">
+                    <p><title>Ogham</title>: of <foreign xml:lang="pgl">Dovagnus</foreign></p>
+                </div>
+               </div>
+              <div type="textpart" n="2">
+                  <p><title>Latin</title>: <foreign xml:lang="pgl">Tigernaci</foreign> <foreign xml:lang="pgl">Dobagni </foreign></p>
+            </div>
+            <div type="commentary">
+                    <list type="witDetail">
+                        <item n="1">
+                        <p><q>The ogam inscription consists of a personal name DOVAGNI in the genitive case... DOVAGNI/DOBAGNI is OI <hi rend="italic">Dubán</hi>...'black'. Possible evidence of the Irish name in Wales is the place-name <hi rend="italic">Merthyr Dyfan (Dovan)</hi> in Glamorgan.</q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">326-327</citedRange></bibl>.</p></item>
+                    <item n="2">
+                        <p><q>DOVAGNI and DOBAGNI are clearly the same person, and the roman and ogam inscriptions have been placed side by side which draws attention to this... The ogam inscription may commemorate the father while the roman inscription commemorates his son, with the name and patronym only, rather than the Latin 'X son of Y' formula. Secondly, the same person may be commemorated in both the roman and ogam inscriptions, but TIGERNACI has been placed above DOBAGNI, rather than below, in order to show the relationship of the latter to the ogam letters.</q><bibl><ptr target="EDW2007"/> <citedRange unit="page">326-327</citedRange></bibl>.</p></item>
+                </list>
+                    </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <listBibl>  
+                <bibl><ptr target="EDW2007"/> <citedRange unit="page">325-327</citedRange></bibl>
+                </listBibl>
+            </div>
+        </body>
+
+    </text>
+</TEI>
