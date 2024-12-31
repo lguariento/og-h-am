@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2024-12-03" who="#NW">Updated support desc from Barry. Corrected placename tags, added image path, edition, note, commentary and refs (including TM and links to TM and CISP - but need ref target which isn't allowed here).</change>
+<change when="2024-12-31" who="#NW">Added nymref</change>
     
 </listChange>
 </revisionDesc>
@@ -140,12 +141,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#?">ᚁᚏᚐᚅᚐᚅ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#?">ᚑᚊᚑᚂᚔ</name></persName>
+                <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#branagnas">ᚁᚏᚐᚅᚐᚅ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#?">ᚑᚊᚑᚂᚔ</name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                     <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#?">BRANAN</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">OQOLI</name></persName>
+                     <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#branagnas">BRANAN</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">OQOLI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
