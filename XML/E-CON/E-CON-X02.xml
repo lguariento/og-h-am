@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-03" who="#POC">Added quotation marks for quotations, updated provenance, added script attribute to handNote, added drawing by Thomas, replaced Okasha reading with Thomas' reading since he offered more information on the letters. Added Thomas' reading to edition and encoded ligatures and text direction, added Thomas to bibl details, added information from Babelstone blog.</change>
 <change when="2024-12-06" who="#POC">Proofreading changes, added lb element to apparatus for readings, added ligature details to handNote.</change>
 <change when="2024-12-18" who="#POC">Added bibl details for Babelstone blog.</change>
+<change when="2025-01-02" who="#POC">Updated edition to encode reversed capital and the second line of the Latin inscription.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -157,7 +158,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>-->
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="dunocatus">DVNOCATI</name> <w type="formula">HIC</w> <w type="formula">IACIT</w> <w type="formula" lemma="filius"><hi rend="ligature">FI</hi>LI</w> <name nymRef="mescagnus">MESCAGNI</name></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="dunocatus">DV<hi rend="reversed">N</hi>OCATI</name> <w type="formula">HIC</w> <w type="formula">IACIT</w> <w type="formula" lemma="filius">
+                        <lb n="2" style="text-direction:down"/><hi rend="ligature">FI</hi>LI</w> <name nymRef="mescagnus">MESCAGNI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
