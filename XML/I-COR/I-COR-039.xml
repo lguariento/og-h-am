@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.20</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, the inscription is in reasonably good condition. Barry (1891, 525) noted that the stone was 48 inches (1.22m) in height. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 1.15m.</condition>
+                                <condition>Reused in a souterrain, the inscription is in reasonably good condition, although there is a small fracture at the end of the inscription. Barry (1891, 526) noted that the stone was 48 inches (1.22m) in height. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 1.15m.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout/>
@@ -125,7 +125,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham codes in provenance, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
-<change when="2024-12-30" who="#NW">Added Irish version to title. Updated support desc from Barry and added ref to bibl. Corrected placename tags, added image path. Added edition.</change>    
+<change when="2024-12-30" who="#NW">Added Irish version to title. Updated support desc from Barry and added ref to bibl. Corrected placename tags, added image path. Added edition.</change>  
+<change when="2025-01-06" who="#NW">Added commeentary and apparatus.</change>
     
 </listChange>
 </revisionDesc>
@@ -147,14 +148,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#cronagnas">CRONUN</name> <w type="formula" lemma="maqqas">MAC</w> <name nymRef="#?">BAIT</name></persName>
                 </ab>
             </div>
-            <div type="apparatus"/>
-               
-            
+            <div type="apparatus">
+            <listApp>
+                <app n="1">
+                    <note>As noted by Barry (1891, 526), after the N, there are three short and lightly-cut vowel strokes. However, there is space for one or two more strokes between the N and the surviving three.</note>
+                </app>
+            </listApp>
+        </div>
             <div type="translation">
                 <p>of Crónán son of Báeth'</p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p>The inscription is morphologically late with no case endings present. CRONUN corresponds to Old Irish <persName>Crónán</persName> (<foreign xml:lang="sga"><ref target="https://dil.ie/13108">crón</ref></foreign> ‘(reddish-)brown’ with the individualising suffix -án), although the U in the second syllable is unusual. The name is found elsewhere in the ogham corpus in inscriptions from Derrygarrane South, Co. Kerry (I-KER-090, now lost) and from Poltalloch in Scotland (S-ARL-002). The father's name comes from the Old Irish word <foreign xml:lang="sga"><ref target="https://dil.ie/5139">báeth</ref></foreign> 'foolish', which is attested elsewhere as a personal name. (McManus 2004, 19, Ziegler 1994, 134-5,; 157)</p>
             </div>
             <div type="bibliography">
                  <listBibl>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballyknock 10</title>
+                <title>Baile an Chamhaicigh Thuaidh | Ballyknock 10</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -61,19 +61,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007013-</idno></p> 
-                                    <material/> 
+                                    <material source="BAR1891">Gritty sandstone</material> 
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/>
+                                     <dimensions unit="m" source="BAR1891">                                        
                                             <height>1.24</height>
-                                            <width/>
-                                            <depth/>
+                                             <dim type="circumference">91</dim>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in souterrain</condition>
+                                <condition>Reused in a souterrain. Described by Barry (1891, 527) as being <q>'49 inches long and 36 inches in girth'</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout/>
+                                <layout>Barry (1891, 527) noted that the inscription begins 24 inches (0.61m) from the
+bottom, and ends 12 inches (0.30m) from the top of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -83,13 +82,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
-                                <placeName type="townland">Ballyknock North</placeName> <foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyknock North <foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
                             <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">One of 15 ogham stones (<idno type="SMR">I-COR-031</idno>; <idno type="SMR">I-COR-032</idno>; <idno type="SMR">I-COR-045</idno>) found covering a souterrain (<idno type="SMR">CO055-007003-</idno>). It was lifted and read by <persName><roleName>Rev.</roleName> E. Barry</persName> (1890, 518) in the 19th century and then replaced. 
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 527), three uninscribed stones intervened between No. 9 (I-COR-039) and this stone, N0. 10 (I-COR-040) in the souterrain (<idno type="SMR">CO055-007003-</idno>). Fourteen other ogham stones were also found (I-COR-031 - I-COR-045), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularaly in Co. Cork but this is the highest number from a single souterrain. 
                         </provenance>
                         <provenance type="observed" when="1920">The stone is recorded as having been moved to Lismore Castle (<idno type="SMR">WA021-019023-</idno>) in <date>1920</date> (Power 1932, 11). It is unconfirmed as to whether it is still at this location. 
                         </provenance>
@@ -126,12 +125,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham codes in provenance, moved encoded Macalister reading to apparatus, added ogham edition.</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-01-06" who="#NW">Added Irish version to title. Updated support desc from Barry and added refs to bibl. Corrected placename tags and added apparatus.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-040-MAC1945-90-Ballyknock-91.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <graphic url="IRE/I-COR/I-COR-040-MAC1945-90-Ballyknock-91.jpg"><desc>Drawing by Macalister</desc></graphic>       
     </facsimile>    
     <text>
         <body>
@@ -148,35 +148,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 90) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="?">BLOTEGSI</name></persName>
-                    </rdg>
-                </app>
-                    <!--<app>
-                        <rdg source="BAR1890">
-                            <lb n="1" style="text-direction:up"/><persName><name nymRef="?">BLATEGSI</name></persName>
-                        </rdg>
-                    </app> Need to find reference and add to Zotero -->
+                    <note>Macalister (1945, 90) initially read BLOTEGSI, but according to Barry the extra notch changing the reading was caused by crowbar damage during lifting.</note>                   
+                </app>                   
                 </listApp>
             </div>
-            <div type="translation">
-                <p></p>
-            </div>
-            <div type="commentary">
-                <p>Macalister (1945, 90, no. 91) initially read BLOTEGSI, but according to Barry the extra notch changing the reading was caused by crowbar damage after initial lifting (Archaeological Survey of Ireland, Field Report).</p>
-            </div>
+            <div type="translation"/>
+               
+            
+            <div type="commentary"/>
+               
+            
             <div type="bibliography">
                  <listBibl>
-                     <!--<bibl><ptr target="BAR1890"/>
-                         <citedRange>518</citedRange>
-                     </bibl> Need to find and add to Zotero-->
-                     <bibl><ptr target="MAC1945"/>
+                     <bibl><ptr target="BAR1891"/>
+                      <citedRange>514-535</citedRange>
+                    </bibl>                    
+                     <bibl><ptr target="POWER1932"/>
+                         <citedRange>11</citedRange>
+                     </bibl>
+                      <bibl><ptr target="MAC1945"/>
                         <citedRange>90, no. 91</citedRange>
                     </bibl>
-                     <!--<bibl><ptr target="POWER1932"/>
-                         <citedRange>11</citedRange>
-                     </bibl> Need to find and add to Zotero -->
                      <bibl><ptr target="POW1994"/>
                          <citedRange>no. 4224</citedRange>
                      </bibl>
