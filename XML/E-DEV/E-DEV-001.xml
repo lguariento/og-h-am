@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-04" who="#POC">Added and encoded more information from the OG(H)AM and Babelstone blog post, also added proofreading updates such as quotation marks.</change>
 <change when="2024-12-11" who="#NW">Updated edition and apparatus - still needs David's input.</change>
 <change when="2024-12-18" who="#POC">Added bibl details for blogs</change>   
+<change when="2025-01-08" who="#POC">Added lb element for second line of Latin inscription and deleted question marks from lemma and nymRef values</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,19 +147,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <div type="textpart" n="1">
                 <ab>                   
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni?">ᚄᚃᚐ<choice><corr>ᚅᚅ</corr><sic>ᚊᚊ</sic></choice>ᚒᚉᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#?">ᚊᚔᚉᚔ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni">ᚄᚃᚐ<choice><corr>ᚅᚅ</corr><sic>ᚊᚊ</sic></choice>ᚒᚉᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#qici">ᚊᚔᚉᚔ</name></persName>
                 </ab>
             </div>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW"> 
                 <ab>                                     
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni?">SVA<choice><corr>NN</corr><sic>QQ</sic></choice>UCI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">QICI</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni">SVA<choice><corr>NN</corr><sic>QQ</sic></choice>UCI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#qici">QICI</name></persName>
                 </ab>
             </div>
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">   
                 <div type="textpart" n="2" >
                     <ab>
-                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#fanoni">FANONI</name> <w type="formula" lemma="maqqas">MAQVI</w> <name nymRef="#rini">RINI</name></persName>
+                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#fanoni">FANONI</name> 
+                         <lb n="2" style="text-direction:down"/><w type="formula" lemma="maqqas">MAQVI</w> <name nymRef="#rini">RINI</name></persName>
                     </ab>
             </div>
             </div>
