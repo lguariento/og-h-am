@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballyknock 11</title>
+                <title>Baile an Chamhaicigh Thuaidh | Ballyknock 11</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 on <date when="2003-09-17"/> and <date when="2006-04-20"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"/>
+                        <idno type="invNo">17</idno>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,37 +61,36 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007014-</idno></p> 
-                                    <material>Grit</material> 
+                                    <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/>
-                                            <height>1.22</height>
-                                            <width>0.38</width>
+                                     <dimensions unit="m" source="#NW">
+                                            <height>1.37</height>
+                                            <width>0.39</width>
                                             <depth>0.15</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, the inscription is chipped, resulting in a lacuna which could hold 8-10 scores (Archaeological Survey of Ireland, Field Report).</condition>
+                                <condition>Reused in a souterrain. The top and B-aicme surface are damaged resulting in a gap in the surviving inscription. Barry (1891, 527) noted that the stone was 54 inches (1.37m) in height but broken and the inscribed fragment is 0.58 x 0.20 x 0.58m (23 in. x 8 in. x 23 in). All of the ogham stones in the UCC collection underwent conservation in 2006 and this stone needed more work than most as it had been repaired using cement, which had to be removed with hand-chisels. It was then restored by re-bonding with polyester stone adhesive (information from the conservator, Jason Ellis). The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 1.02m.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout/>
+                                <layout>Up on a dexter angle with consonant strokes almost the wigth of the narrow side of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is boldly <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. <height/>
+                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in bold strokes. The M-stroke is more straight than sloped.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
-                                <placeName type="townland">Ballyknock North</placeName> <foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyknock North <foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
                             <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">One of 15 ogham stones (<idno type="SMR">I-COR-031</idno>; <idno type="SMR">I-COR-032</idno>; <idno type="SMR">I-COR-045</idno>) found covering a souterrain (<idno type="SMR">CO055-007003-</idno>). 
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 527), this roofing flag was <q>'next to No. 10'</q> (although the inscribed fragment was found <q>'lying on the third flag from it'</q>) in the souterrain (<idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found (I-COR-031 - I-COR-045), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularaly in Co. Cork but this is the highest number from a single souterrain.  
                         </provenance>
-                        <provenance type="observed">The stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-156----</idno>). 
+                        <provenance type="observed" when="2024">The stone is currently on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork, where it was examined and photographed for the OG(H)AM project in May 2024.
                         </provenance>
                     </history>
                 </msDesc>
@@ -126,58 +125,59 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced ref elements with ogham code in provenance, moved encoded Macalister reading to apparatus, added ogham edition.</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-01-08" who="#NW">Added Irish version to title. Updated support desc from Barry and added refs to bibl. Corrected placename tags, added image path, updated edition and apparatus, and added commentary.</change>  
+  
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-041_Ballyknock.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-041-MAC1945-90-Ballyknock-92.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+           <!-- <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚐᚉᚈᚑ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <unclear reason="ambiguous">ᚇ</unclear><gap reason="lost" quantity="2" unit="character"/>ᚋᚐᚌᚑ</persName>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#actos">ᚐᚉᚈᚑ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊ<unclear reason="damage">ᚔ</unclear></w> <gap reason="lost" atLeast="8" atMost="10" unit="stroke"/>ᚋᚐᚌᚑ</persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ACTO</name> <w type="formula" lemma="maqqas">MAQI</w> <unclear reason="ambiguous">D</unclear><gap reason="lost" quantity="2" unit="character"/>MAGO</persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#actos">ACTO</name> <w type="formula" lemma="maqqas">MAQ<unclear reason="damage">I</unclear></w> <gap reason="lost" atLeast="8" atMost="10" unit="stroke"/>MAGO</persName> 
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 91) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ACTO</name> <w type="formula" lemma="maqqas">MAQI</w> <gap reason="lost" quantity="3" unit="character"/>MAGO</persName> 
-                    </rdg>
+                    <note>Barry (1891, 534) read part of an M-stroke after MAQI, noting that Professor Rhys '<q>discovered the left extremity of the second M'</q>.</note>
                 </app>
-                    <app n="2">
-                        <note>McManus (2004, 19) read:</note>
-                        <rdg source="MCM2004">
-                           <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ACTO</name> <w type="formula" lemma="maqqas">MAQI</w> <gap reason="lost" quantity="3" unit="character"/>MAGO</persName> 
-                        </rdg>
-                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>'of Acht son of ...mug?'</p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p>ACTO (later <persName>Acht</persName>) may be related to the Old Irish verb <foreign xml:lang="sga" corresp="https://dil.ie/933">aigid</foreign> ‘to lead, drive’ and the later attested name <persName>Achtán</persName>. The name ACTO may also occur in inscription I-MAY-007 (Aghaleague, Co. Mayo). The final four characters -MAGO are probably the fragmentary end of the fathers name and may correspond to the Old Irish word <foreign xml:lang="sga" corresp="https://dil.ie/32675">mug</foreign> (gen. <foreign xml:lang="sga">mogo, moga</foreign>) 'slave' (McManus 2004, 19; Ziegler 1994, 122, 202)</p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="BAR1891"/>
+                      <citedRange>514-535</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>91, no. 92</citedRange>
                     </bibl>
-                     <bibl><ptr target="MCM2004"/>
-                         <citedRange>19, no. 17</citedRange>
-                     </bibl>
                      <bibl><ptr target="POW1994"/>
                          <citedRange>no. 4225</citedRange>
                      </bibl>
+                     <bibl><ptr target="ZIE1994"/> 
+                         <citedRange>122, 202</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM2004"/>
+                         <citedRange>19, no. 17</citedRange>
+                     </bibl>
+                     
                 </listBibl>
             </div>
         </body>
