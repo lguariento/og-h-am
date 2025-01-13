@@ -125,6 +125,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, commented out apparatus, deleted heading from bibliography</change>
     <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path</change>
     <change when="2024-11-06" who="#POC">Added CISP link.</change>
+    <change when="2025-01-13" who="#NW">corr/sic error fixed in edition</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -140,7 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                     <persName><name nymRef="#cunalenga">ᚉ<unclear reason="damage">ᚒᚅ</unclear>ᚐᚂᚓᚌ<choice><unclear>ᚔ</unclear><unclear>ᚓᚐ</unclear></choice></name>
                         <space quantity="1" unit="stroke"/><w lemma="avias" pos="">ᚐ<unclear reason="damage">ᚃ</unclear><supplied reason="lost">ᚔ</supplied></w>
-                        <lb n="2" style="text-direction:down"/><name nymRef="#cunacanis"><choice><corr>ᚊ</corr><sic>ᚉ</sic></choice>ᚒᚅᚐᚉᚐᚅᚑᚄ</name>
+                        <lb n="2" style="text-direction:down"/><name nymRef="#cunacanis"><choice><corr>ᚉ</corr><sic>ᚊ</sic></choice>ᚒᚅᚐᚉᚐᚅᚑᚄ</name>
                     </persName>
                 </ab>
              </div>
@@ -149,7 +151,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                     <persName><name nymRef="#cunalenga">C<unclear reason="damage">UN</unclear>ALEG<choice><unclear>I</unclear><unclear>EA</unclear></choice></name>
                         <space quantity="1" unit="stroke"/><w lemma="avias">A<unclear reason="damage">V</unclear><supplied reason="lost">I</supplied></w>
-                    <lb n="2" style="text-direction:down"/><name nymRef="#cunacanis"><choice><corr>Q</corr><sic>C</sic></choice>UNACANOS</name></persName>                   
+                    <lb n="2" style="text-direction:down"/><name nymRef="#cunacanis"><choice><corr>C</corr><sic>Q</sic></choice>UNACANOS</name></persName>                   
                    </ab>
             </div>
             <!--<div type="apparatus">
