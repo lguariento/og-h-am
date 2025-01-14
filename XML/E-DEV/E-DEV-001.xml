@@ -74,7 +74,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A pillar-stone bearing a bi-version inscription but more unusually it has been used at least twice and seems to be 20 cm shorter today than when its measurements were first recorded (Smirke et al., 1861, 179). The two Latin inscriptions are both complete and the ogham inscription is also <q>"legible and complete"</q> (Okasha 1993, 106). At some point during 1861 or 1862, however, black paint was applied to the letters of the inscriptions. Okasha observed that <q>"the painted letters are clearly legible but the original texts are probably rather deteriorated"</q> (1993, 106). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription (1) reads vertically upwards on the two angles of the front face of the stone (1993, 106). Both lines of the inscription start level and <q>"though the first name is shorter, it is emphasised, occupying more of the arris, turning the corner and finishing on the upper surface"</q> (Forsyth 2004). There are two Latin inscriptions, one on the front and the other on the back of the stone: both inscriptions face left and read downwards. The Latin inscription on the front of the stone (2) consists of two lines and the Latin inscription on the back of the stone (3) is <q>incised in one line</q> (Okasha 1993, 103). </layout>
+                                <layout>The ogham inscription (1) reads vertically upwards on the two angles (up-up) of the front face of the stone (1993, 106). Both lines of the inscription start level and <q>"though the first name is shorter, it is emphasised, occupying more of the arris, turning the corner and finishing on the upper surface"</q> (Forsyth 2004). There are two Latin inscriptions, one on the front and the other on the back of the stone: both inscriptions face left and read downwards. The Latin inscription on the front of the stone (2) consists of two lines and the Latin inscription on the back of the stone (3) is <q>incised in one line</q> (Okasha 1993, 103). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -135,6 +135,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-11" who="#NW">Updated edition and apparatus - still needs David's input.</change>
 <change when="2024-12-18" who="#POC">Added bibl details for blogs</change>   
 <change when="2025-01-08" who="#POC">Added lb element for second line of Latin inscription and deleted question marks from lemma and nymRef values</change>
+<change when="2025-01-14" who="#NW">Corrected error in addition adding second line break in ogham.</change>    
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,13 +149,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <div type="textpart" n="1">
                 <ab>                   
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni">ᚄᚃᚐ<choice><corr>ᚅᚅ</corr><sic>ᚊᚊ</sic></choice>ᚒᚉᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#qici">ᚊᚔᚉᚔ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni">ᚄᚃᚐ<choice><corr>ᚅᚅ</corr><sic>ᚊᚊ</sic></choice>ᚒᚉᚔ</name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#qici">ᚊᚔᚉᚔ</name></persName>
                 </ab>
             </div>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW"> 
                 <ab>                                     
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni">SVA<choice><corr>NN</corr><sic>QQ</sic></choice>UCI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#qici">QICI</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni">SVA<choice><corr>NN</corr><sic>QQ</sic></choice>UCI</name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#qici">QICI</name></persName>
                 </ab>
             </div>
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">   
