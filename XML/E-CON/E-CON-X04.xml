@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-06" who="#POC">Proofreading updates, added rs element for plain cross decoration, added lb element to apparatus, added ligature details to handNote.</change>
 <change when="2024-12-11" who="#POC">Added a missing citation reference for quotation from Okasha at the end of commentary.</change>
 <change when="2024-12-18" who="#POC">Added bibl reference for Babelstone blog</change>
+<change when="2025-01-21" who="#POC">Added lb element for second line of Latin inscription and added text direction to edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,7 +146,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1"/><persName><name nymRef="brocagnus">BROCAGNI</name> <w type="formula"><choice><sic>IHC</sic><corr>HIC</corr></choice></w> <w type="formula">IA<hi rend="ligature">CI</hi>T</w> <name nymRef="nadotti">NADOTTI</name> <w type="formula"><hi rend="ligature">FI</hi>LIVS</w></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="brocagnus">BROCAGNI</name> <w type="formula"><choice><sic>IHC</sic><corr>HIC</corr></choice></w> <w type="formula">IA<hi rend="ligature">CI</hi>T</w> 
+                        <lb n="2" style="text-direction:down"/><name nymRef="nadotti">NADOTTI</name> <w type="formula"><hi rend="ligature">FI</hi>LIVS</w></persName>
                 </ab>
             </div>
             <div type="apparatus">
