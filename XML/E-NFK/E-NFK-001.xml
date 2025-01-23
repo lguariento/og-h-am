@@ -65,9 +65,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><!--<term>portabilia</term>--><ref target="https://www.heritage.norfolk.gov.uk/record-details?mnf5587">Historic Environment Record ID</ref>: <idno type="HER">Norfolk HER: 5587</idno></p>
                                     <material>Antler</material> 
                                     <objectType>Antler knife handle</objectType> 
-                                     <dimensions unit="m">
-                                         <dim>15mm</dim>
-                                           <!-- <height></height>
+                                     <dimensions unit="mm" quantity="15">
+                                            <!--<height></height>
                                             <width></width>
                                             <depth></depth>-->
                                      </dimensions>                                   
@@ -131,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-25" who="#POC">Added paragraph to support, added geo coordinates, placename, and added information to condition, apparatus, bibliography, commented out media element, encoded edition.</change>
 <change when="2024-11-28" who="#POC">Deleted choice encoding in edition. Added reading direction to edition. Added note to apparatus to explain that the alternative readings of the inscription.</change>
 <change when="2024-12-05" who="#POC">Proofreading updates including adding quotation marks, added text direction to edition, updated apparatus, added rs element for decoration description in layout.</change>
+<change when="2025-01-23" who="#POC">Updated support because the dimensions weren't displaying, updated commentary to fix display.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -163,7 +163,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <lb n="1" style="text-direction:up"/>EVUTUSUD(U) 
                         <lb n="2" style="text-direction:down"/>GEDEVI(MUTO)S
                     </rdg>
-                    <note>For the alternative interpretation, <q>"starting at the broad end of 1 [side] and ending at the broad end of [side] 2"</q>, Clarke (1952, 72) read:</note>
+                    <note><lb/>For the alternative interpretation, <q>"starting at the broad end of 1 [side] and ending at the broad end of [side] 2"</q>, Clarke (1952, 72) read:</note>
                     <rdg source="CLA1952">
                         <lb n="1" style="text-direction:up"/>(U)LUCUVUTE
                         <lb n="2" style="text-direction:down"/>C(OVUM)ITELEG
