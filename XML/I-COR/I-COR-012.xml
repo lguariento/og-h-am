@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Glenawillin 2</title>
+                <title>Gleann an Mhuilinn | Glenawillin 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -92,7 +92,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1844">Found within a souterrain (SMR no. CO065-03202-) opened by <persName><roleName>Rev.</roleName> J Cotter</persName> and <persName>W. Hackett</persName> of <placeName>Midleton</placeName> in <date>1844</date> inside a ringfort next to Ballynatrasna House (Power 1994, 63, no. 4238). A second ogham stone (I-COR-011) found in the same souterrain is now on permanent display in the Stone Corridor, University College Cork (SMR ID: CO074-151----). 
                         </provenance>
-                        <provenance type="observed" when="2017">Re-erected within the townland on the site of another now erased rath. Visted and recorded using photogrammetry for the Ogham in 3D project in 2017.
+                        <provenance type="observed" when="2017">Re-erected within the townland on the site of another now erased rath. Visited and recorded using photogrammetry for the Ogham in 3D project in 2017.
                         </provenance>
                     </history>
                 </msDesc>
@@ -127,18 +127,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-05-13" who="#POC">Added Text Class, referencing FAIR vocabularies for epigraphy</change>
     <change when="2024-05-22" who="#POC">Added Macalister sketch of inscription</change>
     <change when="2024-06-24" who="#POC">Removed rs from layout; replaced historic environment viewer with Ogham project code</change>
-    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>    <change when="2024-06-28" who="#NW">added 3d recording info, updated edition, apparatus and bibliography and removed extra broken NMS links</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>             <change when="2024-06-28" who="#NW">added 3d recording info, updated edition, apparatus and bibliography and removed extra broken NMS links</change>
     <change when="2024-06-28" who="#NW">added source to dimensions and corrected image path</change>
     <change when="2024-07-21" who="NW">Updated provenance observed, handnote and added notes to apparatus (toggle commented for now)</change>
     <change when="2024-08-03" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords. Added ref to bibl.</change>
     <change when="2024-09-09" who="#NW">Moved logainm ref and description detail to 'condition'.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-01-27" who="#POC">Added Irish placename to title, corrected typos, added image description and citation details, corrected order of apparatus, commented out translation and commentary.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-012-MAC1945-69-Glenawillin-II.jpg"/>
-        <graphic url="IRE/I-COR/I-COR-012_Glenawillin_II.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-012_Glenawillin_II.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-012-MAC1945-69-Glenawillin-II.jpg"><desc>Drawing by Macalister (1945, 69)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/glenawillin-ogham-stone-7b35b009397746e6a11a9da8236152cd" mimeType="text/html"><desc>3d model by Nora White on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -156,21 +157,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <rdg source="MAC1945"><note>Read by Macalister (1945, 68-69) as:</note> 
+                    <note>Read by Macalister (1945, 68-69) as:</note>
+                    <rdg source="MAC1945"> 
                         <lb n="1" style="text-direction:down"/>LODIMONI
                     </rdg>
-                    <rdg source="OKE1945"><note>Read by O'Kelly (1945, 60) as:</note> 
+                </app>
+                    <app n="2">
+                        <note>Read by O'Kelly (1945, 60) as:</note>
+                    <rdg source="OKE1945"> 
                         <lb n="1" style="text-direction:down"/>LADIMANI
                     </rdg>
-                </app>
+                    </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p/>
             </div>
             <div type="commentary">
                 <p/>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
