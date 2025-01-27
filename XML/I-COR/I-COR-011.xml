@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Glenawillin 1</title>
+                <title>Gleann an Mhuilinn | Glenawillin 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.20</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>One of two ogham stones reused in a souterrain. According to Macalister (1945, 67), the height of the stone was 2.20m (7 feet 2 inches) but only 2.09m are currently accessible. Macalister also noted that the inscription on the dexter side (against the wall in it's current position) is <q>much flaked</q> and the <q>concluding letters are almost evanescent</q>. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets.</condition>
+                                <condition>One of two ogham stones reused in a souterrain. According to Macalister (1945, 67), the height of the stone was 2.20m (7 feet 2 inches) but only 2.09m are currently accessible. Macalister also noted that the inscription on the dexter side (against the wall in its current position) is <q>much flaked</q> and the <q>concluding letters are almost evanescent</q>. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>There are two independent inscriptions on opposite sides of the ogham stone. Both inscriptions read upwards (Macalister 1945, 66).</layout>
@@ -127,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-05-22" who="#POC">Corrected image path</change>
     <change when="2024-06-10" who="#NW">Updated support description and edition (including separate text parts for 2 inscriptions)</change>
     <change when="2024-06-13" who="#NW">Removed rs style from layout, # from bibl and added source to dimensions</change>
-    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>    <change when="2024-06-28" who="#NW">Bibl correction</change>
+    <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted titles in ogham and transliteration editions.</change>              <change when="2024-06-28" who="#NW">Bibl correction</change>
     <change when="2024-07-03" who="#NW">edition updates based on inspection at UCC</change>
     <change when="2024-07-15" who="#NW">Added unicode ogham to edition</change>
     <change when="2024-08-01" who="#NW">Added paragraph to support around NMS, closed empty tags and added ITM coords. Added ref to bibl.</change>
@@ -139,13 +139,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-10-14" who="#NW">Added comments on names and refs</change>    
     <change when="2024-11-04" who="#POC">Added CISP link</change> 
     <change when="2024-11-11" who="#NW">Updated edition (also translation and commentary) in line with Welsh structure for 2 separate inscriptions (textparts).</change>
-    
+    <change when="2025-01-27" who="#POC">Added Irish placename to title, added citation details to image description, correct typos, added ogham space marker to edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-011_Glenawillin.jpg"><desc>Photograph by Nora White</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-011-MAC1945-67-Glenawillin-I.jpg"><desc>Sketch by Macalister 1945</desc></graphic>        
+        <graphic url="IRE/I-COR/I-COR-011-MAC1945-67-Glenawillin-I.jpg"><desc>Sketch by Macalister (1945, 67)</desc></graphic>        
         <!--<media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -153,7 +153,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#colomagnas">ᚉᚑᚂᚑᚋᚐ<unclear reason="inaccessible" evidence="previous editor">ᚌ</unclear>ᚅ<supplied reason="lost">ᚔ</supplied></name> <w type="formula" lemma="avias"><supplied reason="lost">ᚐ</supplied>ᚃ<unclear reason="inaccessible">ᚔ</unclear></w> <name nymRef="#?">ᚇᚒᚉ<supplied reason="lost">ᚒᚏᚔ</supplied></name></persName>   
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#colomagnas">ᚉᚑᚂᚑᚋᚐ<unclear reason="inaccessible" evidence="previous editor">ᚌ</unclear>ᚅ<supplied reason="lost">ᚔ</supplied></name>&#5760;<w type="formula" lemma="avias"><supplied reason="lost">ᚐ</supplied>ᚃ<unclear reason="inaccessible">ᚔ</unclear></w>&#5760;<name nymRef="#?">ᚇᚒᚉ<supplied reason="lost">ᚒᚏᚔ</supplied></name></persName>   
                 </ab>
                 </div>               
             </div>
@@ -166,7 +166,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">    
                  <div type="textpart" n="2">
                       <ab>
-                          <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚁ<unclear reason="damage">ᚏ</unclear><supplied reason="lost">ᚒ</supplied>ᚄᚉ<supplied reason="lost">ᚑ</supplied></name> <w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐᚊᚔ</supplied></w> <name nymRef="#?">ᚇᚑᚃ<unclear reason="faded">ᚐ</unclear>ᚂ<unclear reason="faded">ᚓ</unclear>ᚄᚉ<supplied reason="lost">ᚔ</supplied></name></persName>
+                          <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚁ<unclear reason="damage">ᚏ</unclear><supplied reason="lost">ᚒ</supplied>ᚄᚉ<supplied reason="lost">ᚑ</supplied></name>&#5760;<w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐᚊᚔ</supplied></w>&#5760;<name nymRef="#?">ᚇᚑᚃ<unclear reason="faded">ᚐ</unclear>ᚂ<unclear reason="faded">ᚓ</unclear>ᚄᚉ<supplied reason="lost">ᚔ</supplied></name></persName>
                       </ab>
                 </div>
             </div>
@@ -177,7 +177,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1"><note>In the second inscription, the R of Macalister's BRUSCO is uncertain. As he notes, the H-side is spalled away but the B-side strokes are not as slanted as in his drawing. The S strokes, however, are a little slanted</note></app>
+                <app n="1"><note>In the second inscription, the R of Macalister's BRUSCO is uncertain. As he notes, the H-side is spalled away but the B-side strokes are not as slanted as in his drawing. The S strokes, however, are a little slanted.</note></app>
                 </listApp>
             </div>
             <div type="translation">
