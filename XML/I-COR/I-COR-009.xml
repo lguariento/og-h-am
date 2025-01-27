@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bishop’s Island</title>
+                <title>Oileán an Easpaig | Bishop’s Island</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -61,7 +61,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO053-072----</idno></p>
-                                    <material>Limestone?</material><!--Macalister 1945 - check if correct. Not in Power 1932 or 1995 UCC report -->
+                                    <material>Limestone</material><!--Macalister 1945 - check if correct. Not in Power 1932 or 1995 UCC report -->
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m" source="#NW">
                                             <height>0.97</height>
@@ -137,20 +137,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-10" who="#NW">Updated geology and dimensions.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2024-09-10" who="#NW">added approx. coords with note for map display.</change>
-    
+    <change when="2025-01-27" who="#POC">Added Irish placename to title, added ogham space marker to edition, added citation details to image description</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-009_BishopsIsland.jpg"/><!--Will need to replace this with new image-->
-        <graphic url="IRE/I-COR/I-COR-009-MAC1945-65-BishopsIsland.jpg"><desc>Sketch by Macalister 1945</desc></graphic>        
+        <graphic url="IRE/I-COR/I-COR-009-MAC1945-65-BishopsIsland.jpg"><desc>Sketch by Macalister (1945, 65)</desc></graphic>        
         <media url="https://sketchfab.com/3d-models/cork-ogham-stone-ciic-61-ucc-24-11be979a53b14c90bad0afd5d91f5d4e" mimeType="text/html"><desc>3d model by b-unicycling</desc></media>
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#olagnas?">ᚑᚂᚐᚌᚅᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐ<unclear reason="damage">ᚊ</unclear><supplied reason="lost">ᚔ</supplied><gap reason="lost"/></w></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#olagnas?">ᚑᚂᚐᚌᚅᚔ</name>&#5760;<w type="formula" lemma="maqqas">ᚋᚐ<unclear reason="damage">ᚊ</unclear><supplied reason="lost">ᚔ</supplied><gap reason="lost"/></w></persName> 
                 </ab>
              </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
