@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballynabortagh 2</title>
+                <title>Baile na bPórtach | Ballynabortagh 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -71,17 +71,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <layout>According to <persName>Hitchcock</persName>'s drawing, the inscription ran up on the sinister angle of one of the broad faces of the stone (Macalister 1945, 64).</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <handNote>
                                 <height/>
                             </handNote>
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Ballynabortagh (<ref target="https://www.logainm.ie/ga/9511"><foreign xml:lang="ga">Baile na bPórtach</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.999763 , -8.433330</geo>
+                                <geo>51.999763, -8.433330</geo>
                             <note>ITM Coordinates: 570245, 583170 (approximate only)</note></origPlace>
                             <origDate/>
                         </origin>
@@ -112,7 +112,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-    <creation>Transcription from previous editor.</creation>
+    <!--<creation>Transcription from previous editor.</creation>-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-01" who="#NW">Added ref to bibliography.</change>  
     <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-01-27" who="#POC">Added Irish placename to title, commented out creation and handDesc section</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
