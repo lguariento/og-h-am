@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kilcaskan</title>
+                <title>Chill Cháscann | Kilcaskan</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-26" who="#NW">Added paragraph around NMS in support desc and moved link, added ITM and minor updates to condition, layout and edition.</change>
     <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-01-27" who="#POC">Added Irish placename in Irish, added ogham space marker, proofreading changes</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -140,7 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#luguqritas">ᚂᚒ<unclear reason="damage">ᚌ</unclear><unclear reason="ambiguous">ᚐ</unclear><space atMost="2" unit="stroke" cert="low"/>ᚒᚊᚏᚔᚈ<supplied reason="lost" resp="#MAC1945">ᚈᚔ</supplied></name> <supplied reason="lost" resp="#MAC1945"><w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w></supplied> <name nymRef="#?"><supplied reason="lost" resp="MAC1945">ᚐᚇᚇᚔ</supplied><supplied reason="undefined" evidence="previouseditor" resp="#MAC1945">ᚂᚑᚅᚐᚄ</supplied></name></persName> 
+                <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#luguqritas">ᚂᚒ<unclear reason="damage">ᚌ</unclear><unclear reason="ambiguous">ᚐ</unclear><space atMost="2" unit="stroke" cert="low"/>ᚒᚊᚏᚔᚈ<supplied reason="lost" resp="#MAC1945">ᚈᚔ</supplied></name>&#5760;<supplied reason="lost" resp="#MAC1945"><w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w></supplied>&#5760;<name nymRef="#?"><supplied reason="lost" resp="MAC1945">ᚐᚇᚇᚔ</supplied><supplied reason="undefined" evidence="previouseditor" resp="#MAC1945">ᚂᚑᚅᚐᚄ</supplied></name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
@@ -151,7 +152,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Only the <foreign xml:lang="ga">aicme húatha</foreign> side of the G is evident. Follwing this, there appears to be a single vowel notch, space enough for two more strokes and then three vowel strokes. It is difficult to explain this, as a U is all that would be the expected here between the G and the Q.</note>
+                    <note>Only the <foreign xml:lang="ga">aicme húatha</foreign> side of the G is evident. Following this, there appears to be a single vowel notch, space enough for two more strokes and then three vowel strokes. It is difficult to explain this, as a U is all that would be the expected here between the G and the Q.</note>
                 </app>
                 </listApp>
             </div>
