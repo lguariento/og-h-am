@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballyknock 14</title>
+                <title>Baile an Chamhaicigh Thuaidh | Ballyknock North  14</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 on <date when="2003-09-16"/> and <date when="2006-04-20"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"/>
+                        <idno type="invNo">13</idno>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,37 +61,36 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007017-</idno></p> 
-                                    <material>Grit</material> 
+                                     <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/>
-                                            <height>1.07</height>
-                                            <width>0.51</width>
-                                            <depth>0.11</depth>
+                                    <dimensions unit="m" source="#NW">
+                                            <height>1.19</height>
+                                            <width>0.55</width>
+                                            <depth>0.12</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, the inscription is worn but clear.</condition>
+                                <condition>Reused in a souterrain, the inscription is worn but clear. Barry (1891, 530-531) noted that the stone was 47 inches (1.19m) in height. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 1.08m.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the dexter edge of the stone.</layout>
+                                <layout>The inscription is up on the dexter angle of one of the broader faces. Barry (1891, 531) noted that the inscription begins '20 in. (0.51m) from the bottom'.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine scores. <height/>
+                            <handNote>The inscription is <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine strokes. The spacing is quite irregular.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
-                                <placeName type="townland">Ballyknock North</placeName> <foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                           <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyknock North <foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
                             <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">One of 15 ogham stones (<idno type="SMR">I-COR-031</idno>; <idno type="SMR">I-COR-032</idno>; <idno type="SMR">I-COR-045</idno>) found covering a souterrain (<idno type="SMR">CO055-007003-</idno>). 
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 530), this roofing flag was <q>'next to No. 13'</q> in the souterrain (<idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found (I-COR-031 - I-COR-045), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularaly in Co. Cork but this is the highest number from a single souterrain. 
                         </provenance>
-                        <provenance type="observed">The stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-160----</idno>).
+                        <provenance type="observed" when="2024">The stone is currently on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork, where it was examined and photographed for the OG(H)AM project in May 2024.
                         </provenance>
                     </history>
                 </msDesc>
@@ -126,12 +125,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced refs with ogham codes in provenance, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-01-28" who="#NW">Added Irish version to title. Updated support desc from Barry and added refs to bibl. Corrected placename tags, added image path.</change>     
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-044_Ballyknock.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-044-MAC1945-92-Ballyknock-95.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <!-- <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
@@ -163,6 +165,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="BAR1891"/>
+                      <citedRange>514-535</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>92, no. 95</citedRange>
                     </bibl>
