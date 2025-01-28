@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>'The longest score is two and a-half inches [63mm] long, the shortest one inch [25.4mm]'</q> (Windele 1850, 143). <height/>
+                            <handNote><q>'The longest score is two and a-half inches [<height unit="mm" max="63">63mm</height>] long, the shortest one inch [<height unit="mm" min="25.4">25.4mm</height>]'</q> (Windele 1850, 143). 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2024-12-14" who="#POC">Fixed ITM coordinates display on database by moving origPlace to after the closing note tag</change>
     <change when="2025-01-27" who="#POC">Added Irish place name to title, commented out creation element, added citation details to image description</change>
+    <change when="2025-01-28" who="#POC">Added height to handNote description</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
