@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carhoovauler 2</title>
+                <title>Ceathrú Bhaldair | Carhoovauler 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>             
@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.18</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Macalister (1945, 77) recorded that this stone was broken to a suitable size for reuse as in a souterrain.</condition>
+                                <condition>Macalister (1945, 77) recorded that this stone was broken to a suitable size for reuse as an upright support in a souterrain.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>Very little information has been recorded except that the inscription is on the lower remaining portion of the ogham stone.</layout>
@@ -85,13 +85,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Carhoovauler (<ref target="https://www.logainm.ie/ga/9111"><foreign xml:lang="ga">Ceathrú Bhaldair</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.690842, -8.962643</geo>
-                            <note>ITM Coordinates: 533446, 549155 </note>
+                            <note>ITM Coordinates: 533446, 549155</note>
                             </origPlace>
                             <origDate/>
                         </origin>
                        <provenance type="found" when="1906">One of two ogham stones (also I-COR-021) found in <date>1906</date> by Mr <persName>J. J. O'Crowley</persName> reused as upright supports for a roofing stone in the entrance chamber of a souterrain (<idno type="SMR">SMR ID: CO122-001002-</idno>) in the NW quadrant of a rath/ringfort (<idno type="SMR">SMR ID: CO122-001001-</idno>). A third ogham stone (I-COR-023) was discovered in the same souterrain in 1976.
                         </provenance>
-                        <provenance type="observed">In situ  but no longer accessible.
+                        <provenance type="observed">In situ but no longer accessible.
                         </provenance>
                     </history>
                 </msDesc>
@@ -117,7 +117,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-    <creation>Transcription from previous editor.</creation>
+    <!--<creation>Transcription from previous editor.</creation>-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -129,11 +129,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-07" who="#NW">Updated details in support desc, edition and bibl.</change>
     <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-01-29" who="#POC">Added Irish placename to title and citation details to image description, commented out creation, translation and commentary (the latter two are both empty)</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-021-MAC1945-78-Carhoovauler.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-021-MAC1945-78-Carhoovauler.jpg"><desc>Drawing by Macalister (1945, 78)</desc></graphic>
       <!--  <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -155,12 +156,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                       <bibl><ptr target="OCR1906"/>
