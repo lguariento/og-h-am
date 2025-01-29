@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Carhoovauler 3</title>
+                <title>Ceathrú Bhaldair | Carhoovauler 3</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>               
@@ -72,10 +72,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <layout/><!--Check McCarthy's unpublished thesis for details or ask Fionnbarr?-->
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <handNote/>
                             
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
@@ -113,7 +113,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-    <creation>Transcription from previous editor.</creation>
+    <!--<creation>Transcription from previous editor.</creation>-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -125,13 +125,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-07" who="#NW">Updated details in support desc, edition and bibl.</change>  
     <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
    <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-01-29" who="#POC">Added Irish placename to title, commented out creation, facsimile, commentary and handnote since they are all empty</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
+    <!--<facsimile>
         <graphic url="example.jpg"/>
-       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
-    </facsimile>    
+       <!-\- <media url="" mimeType="text/html"><desc><!-\\-3d model by Megan/Gary/? on SketchFab/3dhop-\\-></desc></media>-\->
+    </facsimile>-->    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MCC1977">
@@ -149,9 +150,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="translation">
                 <p>'of <foreign xml:lang="sga">Scamán</foreign>'</p>
             </div>
-            <div type="commentary">
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="POW1992"/>
