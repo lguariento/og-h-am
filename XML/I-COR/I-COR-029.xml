@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Glenaphuca 2</title>
+                <title>Gleann an Phúca | Glenaphuca 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>                 
@@ -75,20 +75,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <layout>The fragment possibly bears an M stroke and other marks that are less likely to be ogham strokes.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <handNote/>
                             
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="site">Rathcanning (<ref target="https://www.logainm.ie/en/12340">Ráth an Cheanainn</ref>)</placeName>, <placeName type="townland">Glenaphuca (<foreign xml:id="ga"><ref target="https://www.logainm.ie/ga/12339">Gleann an Phúca</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.967973, -8.072345</geo>
-                            <note>ITM Coordinates: 594779, 579938</note></origPlace>
+                            <note>ITM Coordinates: 594779, 579938</note>
+                            </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" notAfter="1945">This fragment was found by Macalister (1945, 82, no. 79) in the wall of 'Rathcanning fort' (classed in the Archaeological Survey as a 'hilltop enclosure' <idno type="SMR">COO66-01001-</idno>), which is situated on the crown of a hill with good views in all directions. However, this is located in Glenaphuca townland and not in the neighbouring townland of Rathcanning (clearly named after the 'Fort'), as recorded in earlier accounts by Macalister and others. An ogham stone (<idno type="SMR">I-COR-028</idno>) discovered in the area in 1896, was implied by Macalister (1945, 82) to have come from the souterrain (<idno type="SMR">CO066-01002-</idno>) in 'Rathcanning fort'. However, the earliest account of this stone states the belief that it came from a souterrain 'a quarter of a mile south of Rathcanning fort', close to where it was found reused in a farm building (Barry 1897, 41-42).
+                        <provenance type="found" notAfter="1945">This fragment was found by Macalister (1945, 82, no. 79) in the wall of 'Rathcanning fort' (classed in the Archaeological Survey as a 'hilltop enclosure' <idno type="SMR">COO66-01001-</idno>), which is situated on the crown of a hill with good views in all directions. However, this is located in Glenaphuca townland and not in the neighbouring townland of Rathcanning (clearly named after the 'Fort'), as recorded in earlier accounts by Macalister and others. An ogham stone (<idno type="SMR">I-COR-028</idno>) discovered in the area in <date>1896</date>, was implied by Macalister (1945, 82) to have come from the souterrain (<idno type="SMR">CO066-01002-</idno>) in 'Rathcanning fort'. However, the earliest account of this stone states the belief that it came from a souterrain 'a quarter of a mile south of Rathcanning fort', close to where it was found reused in a farm building (Barry 1897, 41-42).
                         </provenance>
                         <provenance type="observed" when="2010">Now in the National Museum of Ireland (Kildare St), Dublin (<idno type="SMR">DU018-162----</idno>) where it was examined and recorded in 2010 for the Ogham in 3D project.
                         </provenance>
@@ -126,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <change when="2024-07-30" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers.</change>
    <change when="2024-08-29" who="#NW">Updated details and moved logainm ref to around Irish townland name.</change>  
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-01-30" who="#POC">Added Irish placename to title, proofreading updates, commented out empty handDesc</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
