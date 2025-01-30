@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Keenrath</title>
+                <title>Caoinráth | Keenrath</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>               
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The inscription is very weathered, as well as obscured by lichen and moss, with no more than traces of possible ogham strokes discernible.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 79) noted that <q>the inscription is on the dexter angle of the eastern face</q> (on the side facing the field oundary) band begins at approximately 0.5m and ends at 1.5m above ground level.</layout>
+                                <layout>Macalister (1945, 79) noted that <q>the inscription is on the dexter angle of the eastern face</q> (on the side facing the field boundary) and begins at approximately <height>0.5m</height> and ends at <height>1.5m</height> above ground level.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -117,7 +117,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-    <creation>Transcription from previous editor.</creation>
+    <!--<creation>Transcription from previous editor.</creation>-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -129,12 +129,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-14" who="#NW">Updated details from field notes and moved logainm ref to around Irish version of townland name.</change>
     <change when="2024-08-16" who="#NW">Added image path.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-01-30" who="#POC">Added Irish placename to title, commented out creation, added image citation details to description, proofreading updates, commented out translation and commentary sections because they are empty</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-024_Keenrath.jpg"><desc>Photograph by Nora White</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-024-MAC1945-79-Keenrath-inscription.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-024-MAC1945-79-Keenrath-inscription.jpg"><desc>Drawing by Macalister (1945, 79)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/keenrath-ogham-stone-i-cor-024-cf359b39813d4e1a8049be94391fd828" mimeType="text/html"><desc>3d model by Nora White on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -157,12 +158,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>               
             
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
