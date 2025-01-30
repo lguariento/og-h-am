@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Coolineagh 3?</title>
+                <title>Cúil an Fhéich | Coolineagh 3</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <!-- <editor>Add name, id etc here</editor>-->
@@ -32,7 +32,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
-                <idno type="filename">I-COR-X03</idno>
+                <idno type="filename">I-COR-027</idno>
                  <idno type="CIIC"></idno>
                 <idno type="CISP"></idno>
                  <availability>
@@ -43,7 +43,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>Pitt-Rivers Museum, Oxford (http://objects.prm.ox.ac.uk/pages/PRMUID130584.html)</repository>
+                        <repository>Pitt-Rivers Museum, Oxford</repository>
                         <idno type="invNo">1884.98.4</idno>
                     </msIdentifier>
                     <msContents>
@@ -54,46 +54,44 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"></ref>
-                                    <material></material> 
-                                    <objectType>fragment</objectType> 
+                                <support><p><!--<term>monument</term>--> <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: </p>
+                                    <material>Clayslate</material> 
+                                    <objectType>Fragment</objectType> 
                                      <dimensions unit="m">
-                                         <dim></dim>
-                                           <!-- <height></height>
-                                            <width></width>
-                                            <depth></depth>-->
+                                            <height>0.28</height>
+                                            <width>0.15</width>
+                                            <depth>0.04</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition/>
+                                <condition>The stone is a tiny fragment which Macalister (1906, 166) and Brash (1879a, 131-2) both believed to be a portion of a longer inscription on a larger stone because it is fractured on either end. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout>Brash (1879a, 131-2) provided the following description of the inscription: <q>'The first character commences close on the fractured end, and may not have been complete. The stone is also fractured close to the last character, which is usually supposed to stand for EA, so that in all probability we have neither the beginning nor the ending of this inscription.'</q></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
+                            <handNote>Brash (1879a, 131-2) and Macalister (1906, 166) have both previously suggested that the initial and final letters of the inscription might have been incomplete as a result of the fractures on the stone. Revising his assessment, Macalister (1945, 107) determined that the inscription was a forgery as it contains the personal name of one of Windele's associates.<!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/...">
-                                <placeName type="townland"></placeName>, <placeName type="county">Co. Mayo</placeName>
-                                <geo></geo></origPlace>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Coolineagh</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11342">Cúil an Fhéich</ref></foreign>), <placeName type="county">Co. Cork</placeName>
+                                <geo>51.952526, -8.815681</geo><note>approximate only</note>
+                            <note>ITM Coordinates: 543865, 578136</note> <!-- geo and ITM coordinates copied from I-COR-054 because the fragment was found there. -->
+                            </origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">1880s? (Macalister 107: A small fragment from this place, clayslate, 0' 11" X 0 6" X 0' 1 3/4", formerly in Windele's collection, now' in the Pitt-Rivers Museum, Oxford, inscribed DINIS followed by the x mark, is probably one of several forgeries which Windele's Ogham " scouts " executed for his benefit. " Denis " was the baptis­mal name of one of these worthies)
+                        <provenance type="found" when="1864">Sometime during 1864 a small fragment bearing the inscription "DINIS" and followed by an 'X' was discovered in <q>'a Cileen near the church of St. Olan's, townland of Coolineagh, parish of <placeName type="parish">Aghabulloge</placeName>'</q> (Brash 1879a, 131). Macalister noted (1945, 107) that the fragment belonged to Windele's collection and <q>'is probably one of several forgeries which Windele's ogham "scouts" executed for his benefit'</q> as <q>'"Denis" was the baptismal name of one of these worthies'</q>.
                         </provenance>
-                        <provenance type="observed">Pitt-Rivers museum, Oxford
+                        <provenance type="observed">Donated to the <ref target="http://objects.prm.ox.ac.uk/pages/PRMUID130584.html">Pitt-Rivers museum</ref> in Oxford in <date>1884</date>.
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -109,9 +107,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
+</keywords>
 </textClass>
    <!-- <creation>Transcription from previous editor.</creation>-->
 </profileDesc>
@@ -119,36 +117,43 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listChange>
     <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2024-09-11" who="#NW">Changed this file I-COR-027 from Coolowen (now I-COR-L11) to Coolineagh in Pitt-Rivers Museum</change>
+    <change when="2025-01-30" who="#POC">Added paragraph element to support, updated encoding description, updated textClass, updated origPlace section, updated fileName, added converted measurements, commented out media as it was invalidating the document and also facsimile since the graphic is empty too, added Irish placename to title, commented out creation, encoded edition, proofreading updates</change>
 
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <graphic url="example.jpg"/>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
-    </facsimile>    
+    <!--<facsimile>
+        <graphic url="example.jpg"/><!-\- Pitt Rivers image online seems to require a licence to share it online -\->
+        <!-\-<media url="" mimeType="text/html"><desc><!-\\-3d model by Megan/Gary/? on SketchFab/3dhop-\\-></desc></media>-\->
+    </facsimile>  -->  
     <text>
         <body>
-            <div type="edition" xml:space="preserve">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1"/>DINIS
+                    <lb n="1"/><persName><name>ᚇᚔᚅᚔᚄ</name></persName>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1"/><persName><name>DINIS</name></persName>
+                </ab>
+            </div>
+            <!--<div type="apparatus">
+               <!-\- <listApp>
                 <app></app>
-                </listApp>-->
-            </div>
-            <div type="translation">
-                <p></p>
-            </div>
-            <div type="commentary">
-                <p></p>
-            </div>
+                </listApp>-\->
+            </div>-->
+            <div type="translation"/>
+                
+            <div type="commentary"/>
+                
             <div type="bibliography">
                  <listBibl>
-                     <bibl><!--<ptr target="#MAC1945"/>Macalister 1945
-                        <citedRange>9-10</citedRange>-->
+                     <bibl><ptr target="#BRA1879a"/>
+                         <citedRange>131-2</citedRange>
+                     </bibl>
+                     <bibl><ptr target="#MAC1945"/>
+                        <citedRange>107</citedRange>
                     </bibl>
                 </listBibl>
             </div>
