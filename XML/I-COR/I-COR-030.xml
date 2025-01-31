@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Garranes</title>
+                <title>An Garrán | Garranes</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>                 
@@ -90,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1852">First reported by Brash (1869) that the ohgam stone was unearthed by a farmer around 1851 in the course of potato cultivation in a rath/ringfort (Lisheenagreine 'Little fort of the sun' <idno type="SMR">CO084-090001-</idno>) and is thought to have come from the souterrain (<idno type="SMR">CO084-090002-</idno>) afterwards excavated in the interior by local historian, Rev. Lyons (Brash 1869c, 260-264; Power 1992, 125; O'Brien 2021, 47-49). McManus (2004, 11) notes that this stone was probably acquired for the UCC collection 'by Sir Bertram Windle in or around 1907'.
+                        <provenance type="found" when="1852">First reported by Brash (1869) that the ogham stone was unearthed by a farmer around 1851 in the course of potato cultivation in a rath/ringfort (Lisheenagreine 'Little fort of the sun' <idno type="SMR">CO084-090001-</idno>) and is thought to have come from the souterrain (<idno type="SMR">CO084-090002-</idno>) afterwards excavated in the interior by local historian, Rev. Lyons (Brash 1869c, 260-264; Power 1992, 125; O'Brien 2021, 47-49). McManus (2004, 11) notes that this stone was probably acquired for the UCC collection 'by Sir Bertram Windle in or around 1907'.
                         </provenance>
                         <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork (<idno type="SMR">CO074-148----</idno>), where it was examined and photographed for the OG(H)AM project in May 2024.
                         </provenance>
@@ -134,12 +134,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2024-11-04" who="#NW">Added foreign tags to Irish words in commentary.</change>
     <change when="2024-12-16" who="#POC">Added the missing "up" to the text direction in the inscription and replaced the question mark with a name for the nymRef value</change>
+    <change when="2025-01-31" who="#POC">Added Irish placename to title, added citation details to image description, proofreading updates, commented out empty translation div</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-030_Garranes.jpg"><desc>Photograph by Nora White</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-030-MAC1945-83-Garranes.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-030-MAC1945-83-Garranes.jpg"><desc>Drawing by Macalister (1945, 83)</desc></graphic>
           <media url="https://sketchfab.com/3d-models/cork-ogham-stone-ciic-81-ucc-4-4cb26986be274ee099515c2baa3b1825" mimeType="text/html"><desc>3d model by b-unicycling</desc></media>
     </facsimile>    
     <text>
@@ -161,9 +162,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                 <p>McManus (2004, 15, no. 4) is generally in agreement with Macalister's reading of the inscription but notes that the first name could end in -AS or -OS. He also suggests that the kin group name (MUCOI CALLITI) may correspond to the first element in the kin group <foreign xml:lang="ga">Cailtrige</foreign>.</p>                
                 <p>O'Brien (2021, 212) notes that <q>'Edel Bhreathnach (2013, 163) identifies the MUCOI CALLITI here with <foreign xml:lang="ga">Clann Laoghaire</foreign>, additionally known, according to the Book of Leinster, the Book of Ballymote and the Book of Lecan, as <foreign xml:lang="ga">Ceinéal Caollaidhe</foreign> (O’Brien 1976, 218), a sept of <foreign xml:lang="ga">Eoghanachta</foreign>, who descended from <foreign xml:lang="ga">Caoillaidhe mac Conaill</foreign>. This <foreign xml:lang="ga">Caoillaidhe mac Conaill</foreign> is reputed to have been the grandson of <foreign xml:lang="ga">Nadfroích</foreign>, a progenitor of many of <foreign xml:lang="ga">Eoghanachta</foreign> dynasties, and supposed brother of <foreign xml:lang="ga">Cas</foreign>, from whom <foreign xml:lang="ga">Uí Eachach Mumhan</foreign> derive (O’Brien 1976, 195-6)'</q>.</p>
@@ -187,8 +188,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </bibl>
                      <bibl><ptr target="POW1992"/>
                      <citedRange>125, no. 1037</citedRange>
-                     </bibl>
-                     
+                     </bibl>                  
                 </listBibl>
             </div>
         </body>
