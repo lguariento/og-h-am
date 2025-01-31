@@ -75,9 +75,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <layout>According to Barry (1891, 518) 'the inscription begins on a left arris, is interrupted at the top, and is completed on the right arris'.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <handNote/>
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
@@ -87,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 518), the stone was <q>'found loose in the cave'</q> (souterrain <idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found acting as lintels (I-COR-032 - I-COR-045). A high percentage of ogham stones in Ireland are found reused in souterrains, particularaly in Co. Cork but this is the highest number from a single souterrain. 
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 518), the stone was <q>'found loose in the cave'</q> (souterrain <idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found acting as lintels (I-COR-032 - I-COR-045). A high percentage of ogham stones in Ireland are found reused in souterrains, particularly in Co. Cork but this is the highest number from a single souterrain. 
                         </provenance>
                         <provenance type="observed" when="1907">This stone was retained by the farmer when 13 others were removed to University College Cork (12) and Lismore Castle (<idno type="SMR">CO055-007013-</idno>) in the early 20th century (Power 1932, 11; McManus 2004, 10-11). Macalister (1945, 85, No. 82) saw the stone in 1907. However, when he returned to examine the stone before <date>1945</date>, the farm was deserted and there was no trace of the stone (Power et al. 1994, no. 4215).
                         </provenance>
@@ -115,7 +115,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-    <creation>Transcription from previous editor.</creation>
+    <!--<creation>Transcription from previous editor.</creation>-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-06" who="#NW">Added comment and ref to Ziegler.</change>
     <change when="2024-09-09" who="#NW">Updated dimensions and condition from Barry. Corrected placename tags</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-01-31" who="#POC">Proofreading updates: corrected typos, commented out creation and empty translation and handDesc divs, numbered apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,13 +149,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app><note>Barry (with input from Rhys, 1891) read:</note>
+                    <app n="1">
+                        <note>Barry (with input from Rhys, 1891) read:</note>
                     <rdg source="BAR1891">MAILAGURO MAQ[A AI]LILA</rdg></app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                 <p>Ziegler (1994, 203) suggests taking MAILAGURO as a name consisting of <ref target="https://dil.ie/31244"><foreign xml:lang="sga">máel</foreign></ref> 'crop-headed, tonsured, devotee' with <ref target="https://dil.ie/4988"><foreign xml:lang="sga">augra</foreign></ref> 'strife, battle'.</p>
             </div>
