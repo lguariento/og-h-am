@@ -76,14 +76,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine strokes. The spacing is quite irregular with wide spacing at the beginning of the inscription (unless something has worn away here), then tightenng up until the R-strokes, which fan out on the B-aicme side.<height/>
+                            <handNote>The inscription is <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine strokes. The spacing is quite irregular with wide spacing at the beginning of the inscription (unless something has worn away here), then tightening up until the R-strokes, which fan out on the B-aicme side.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Ballyknock North <foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Ballyknock North (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
                             <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
@@ -126,13 +126,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-01-21" who="#NW">Added Irish version to title. Updated support desc from Barry and added refs to bibl. Corrected placename tags, added image path, updated edition, apparatus and commentary.</change>    
-    
+<change when ="2025-02-04" who="#POC">Corrected typos, added citation details to image description, added missing opening round bracket for Irish placename, commented out empty translation</change>   
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-043_Ballyknock.jpg"><desc>Photograph by Nora White</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-043-MAC1945-91-Ballyknock-94.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-043-MAC1945-91-Ballyknock-94.jpg"><desc>Drawing by Macalister (1945, 91)</desc></graphic>
           <!-- <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -155,9 +155,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>                   
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                 <p>McManus (1991, 18-19) noted the possibility that 'the first word might be DEGO', which is attested elsewhere as a name and corresponds to Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/14169">daig</ref></foreign>, gen. <foreign xml:lang="sga">dego</foreign> 'fire'. The two M strokes could be read together as a G but they are more widely spaced than would be expected if this were the case.</p>
                 <p>Regarding the father's name (VEDUCERI, although the reading is quite uncertain), McManus (1991, 19; also Ziegler 1994, 243-244) says that it is 'tempting to see the Old Irish name <persName>Fidchuire</persName> (lit. 'wood-putter') ... but the expected spelling in that case would be Viducori'.</p>
