@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballyhank 1</title>
+                <title>Baile Sheanc | Ballyhank 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -73,19 +73,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused in a souterrain, the stone is broken and the beginning of the inscription is missing.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>There is evidence of two inscriptions on the stone. The secondary inscription which is read by Macalister as ...]LL MAQI VORRTIGURN is on two angles of the stone and reads upwards, across the top and then downwards (1945, 93). According to Macalister, there is an older inscription on the stone which <q>was apparently DIOBI - a copy of which has been scratched in minute pin-scrapes on the unoccupied part of the second inscribed angle, perhaps by the representatives of the earlier owner</q> (1945, 93-4).</layout>
+                                <layout>There is evidence of two inscriptions on the stone. The secondary inscription which is read by Macalister as ...]LL MAQI VORRTIGURN is on two angles of the stone and reads upwards, across the top and then downwards (1945, 93). According to Macalister (1945, 93-4), there is an older inscription on the stone which <q>'was apparently DIOBI - a copy of which has been scratched in minute pin-scrapes on the unoccupied part of the second inscribed angle, perhaps by the representatives of the earlier owner'</q>.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister described the inscription's minute scores as <q>like rather straggling <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">knife-cuts</rs></q> (1945, 93).
+                            <handNote>Macalister (1945, 93) described the inscription's minute scores as <q>'like rather straggling <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">knife-cuts</rs>'</q>.
                                 <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9212">
-                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga">Baile Sheanc</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.831516, -8.609832</geo>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
@@ -131,11 +131,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-24" who="#POC">Added ITM coordinates, moved note from objectType  to condition, and added idno for SMR IDs in provenance</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates, numbered apparatus.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-02-04" who="#POC">Moved logainm ref to surround Irish placename, added Irish placename to title, added citation details to image description, deleted inner div from apparatus, commented out empty translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-046-MAC1945-94-Ballyhank-97.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-046-MAC1945-94-Ballyhank-97.jpg"><desc>Drawing by Macalister (1945, 94)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ballyhank-97-ogham-stone-223326e7b5dd4d139ec7ab3cd8481a70" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -173,28 +174,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1945, 93-4) read:</note>
                     <rdg resp="MAC1945">
-                        <div type="textpart" n="1">
-                    <ab>
+                    <ab n="1">
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><gap reason="lost" quantity="3" unit="character"/>LLA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORR
                         <lb n="2" style="text-direction:across" break="no"/>TIGU
                         <lb n="3" style="text-direction:down" break="no"/>RN</name></persName>
                 </ab>
-                </div>
-                <div type="textpart" n="2">
-                    <ab>
+                    <ab n="2">
                         <lb n="1" style="text-direction:up"/>DIOBI
                     </ab>
-            </div>
                     </rdg>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
