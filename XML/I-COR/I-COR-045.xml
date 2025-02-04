@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballyknock 15</title>
+                <title>Baile an Chamhaicigh Thuaidh | Ballyknock 15</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -76,22 +76,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <layout>The inscription is on the sinister angle of one of the broad faces of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <handNote/>
                             
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9971">
-                                <placeName type="townland">Ballyknock North</placeName> <foreign xml:lang="ga">Baile an Chamhaicigh Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyknock North</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
                             <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">One of 15 ogham stones (<idno type="SMR">I-COR-031</idno>; <idno type="SMR">I-COR-032</idno>; <idno type="SMR">I-COR-044</idno>) found covering a souterrain (<idno type="SMR">CO55-007003-</idno>).
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). One of 15 ogham stones (I-COR-031 - I-COR-045) found covering a souterrain (<idno type="SMR">CO55-007003-</idno>), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularly in Co. Cork but this is the highest number from a single souterrain. 
                         </provenance>
-                        <provenance type="observed">The stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-153----</idno>). 
+                        <provenance type="observed">The stone is currently on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition for details see <idno type="SMR">CO074-153----</idno>), University College Cork, where it was examined and photographed for the OG(H)AM project in May 2024. 
                         </provenance>
                     </history>
                 </msDesc>
@@ -126,11 +126,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-26" who="#POC">Added idno element for SMR numbers, deleted free text in bibliography, deleted title in transliteration, replaced refs with ogham codes in provenance, added Ogham codes for ogham stones in provenance, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added ITM coordinates, added idno elements for SMR numbers, added description for image.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-02-04" who="#POC">Added Irish placename to title, added missing opening round bracket for Irish placename, added more information to provenance, added citation details to image description, commented out empty handDesc, translation, and commentary, moved logainm reference to surround Irish placename</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-045-MAC1945-93-Ballyknock-96.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-045-MAC1945-93-Ballyknock-96.jpg"><desc>Drawing by Macalister (1945, 93)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -155,12 +156,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
