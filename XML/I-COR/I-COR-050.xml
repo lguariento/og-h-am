@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballyhank 5</title>
+                <title>Baile Sheanc | Ballyhank 5</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -70,21 +70,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.41</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, <q>the stone is rough and irregular, and it is difficult to discriminate between letters and natural markings on its surface</q> (Macalister 1945, 100). Additionally, in the middle of the inscription, <q>there is a vertical series of marks which has every appearance of being a long Ogham graffito</q> (Macalister 1945, 100).</condition>
+                                <condition>Reused in a souterrain, <q>'the stone is rough and irregular, and it is difficult to discriminate between letters and natural markings on its surface'</q> (Macalister 1945, 100). Additionally, in the middle of the inscription, <q>'there is a vertical series of marks which has every appearance of being a long Ogham graffito'</q> (Macalister 1945, 100).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is <q>inscribed on the dexter angle of the main face, running over the top diagonally, and down the dexter angle of the parallel face</q> of the stone (Macalister 1945, 98). Macalister noted that <q>On the angle intercepted between the two which bear the main inscription, there is a line of enigmatical characters</q> (1945, 99). </layout>
+                                <layout>The inscription is <q>'inscribed on the dexter angle of the main face, running over the top diagonally, and down the dexter angle of the parallel face'</q> of the stone (Macalister 1945, 98). Macalister noted: <q>'On the angle intercepted between the two which bear the main inscription, there is a line of enigmatical characters'</q> (1945, 99).</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                       <!-- <handDesc>
                             <handNote/>
                             
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9212">
-                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga">Baile Sheanc</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.831516, -8.609832</geo>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
@@ -127,12 +127,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-24" who="#POC">Added ITM coordinates, moved note from objectType and to condition, added idno for SMR IDs in provenance</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, numbered apparatus, commented out empty media, translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-050-MAC1945-98-Ballyhank-101.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-050-MAC1945-99-Ballyhank-101.jpg"><desc>Drawing of the enigmatical letters by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-050-MAC1945-98-Ballyhank-101.jpg"><desc>Drawing by Macalister (1945, 98)</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-050-MAC1945-99-Ballyhank-101.jpg"><desc>Drawing of the enigmatical letters by Macalister (1945, 99)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ballyhank-ogham-stone-8b384098fcb74ed8b19fd51cde19d838" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -149,15 +150,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
            <!-- <div type="apparatus">
                 <listApp>
-                <app></app>
+                <app n="1"></app>
                 </listApp>
             </div>-->
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
