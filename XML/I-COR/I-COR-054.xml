@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Coolineagh 2</title>
+                <title>Cúil an Fhéich | Coolineagh 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -49,8 +49,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>UCC</repository>
-                        <idno type="invNo" >https://acrheritage.info/blog/archaeology/travels-of-an-ogham-stone-from-aghabullogue-church-to-ucc/</idno>
+                        <repository ref="https://acrheritage.info/blog/archaeology/travels-of-an-ogham-stone-from-aghabullogue-church-to-ucc/">UCC</repository>
+                        <idno type="invNo" />
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -83,10 +83,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11342">
-                                <placeName type="townland">Coolineagh</placeName> (<foreign xml:lang="ga">Cúil an Fhéich</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.952526, -8.815681</geo><note>approximate only</note>
-                                <note>ITM Coordinates: 543865, 578136 </note>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Coolineagh</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11342">Cúil an Fhéich</ref></foreign>), <placeName type="county">Co. Cork</placeName>
+                                <geo>51.952526, -8.815681</geo>
+                                <note>ITM Coordinates: 543865, 578136</note><note>approximate only</note>
                             </origPlace>
                             <origDate/>
                         </origin>
@@ -129,11 +129,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-24" who="#POC">Added and encoded ITM coordinates and added idno for SMR numbers in provenance</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description to graphic.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty translation and commentary.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-054-MAC1945-103-Coolineagh-105.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-054-MAC1945-103-Coolineagh-105.jpg"><desc>Drawing by Macalister (1945, 103)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -158,12 +159,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
