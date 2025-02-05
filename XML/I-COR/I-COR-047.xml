@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballyhank 2</title>
+                <title>Baile Sheanc | Ballyhank 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -70,21 +70,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.20</depth><!--(converted from Macalister)-->
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, the inscription is <q>in poor condition, especially the second line which is chipped</q> (Macalister 1945, 94).</condition>
+                                <condition>Reused in a souterrain, the inscription is <q>'in poor condition, especially the second line which is chipped'</q> (Macalister 1945, 94).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on three angles of the stone running up-up-down and  <q>the inscribed angles run round the circumference of the stone clockwise, not counter-clockwise, which is more usual</q> (Macalister 1945, 95). </layout>
+                                <layout>The inscription is on three angles of the stone running up-up-down and <q>'the inscribed angles run round the circumference of the stone clockwise, not counter-clockwise, which is more usual'</q> (Macalister 1945, 95). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is coarsely <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> except for on the second angle where Macalister noted that <q>about the middle of the spalled surface there appear the distal ends of three scores, diverging outward, <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine lines</q> (1945, 95).<height/>
+                            <handNote>The inscription is coarsely <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> except for on the second angle where Macalister noted that <q>'about the middle of the spalled surface there appear the distal ends of three scores, diverging outward, <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine lines'</q> (1945, 95).<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9212">
-                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga">Baile Sheanc</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.831516, -8.609832</geo>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
@@ -129,11 +129,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-24" who="#POC">Added ITM coordinates, moved note from objectType  to condition, and added idno for SMR IDs in provenance</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates, numbered apparatus.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-047-MAC1945-95-Ballyhank-98.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-047-MAC1945-95-Ballyhank-98.jpg"><desc>Drawing by Macalister (1945, 95)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/east-muskerry-ogham-stone-c9dac6da117b46499b9dcdb9f3d66070" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -172,12 +173,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
