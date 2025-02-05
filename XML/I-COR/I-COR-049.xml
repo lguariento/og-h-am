@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballyhank 4</title>
+                <title>Baile Sheanc | Ballyhank 4</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.20</depth><!--(converted from Macalister)-->
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, the inscription is in good condition but the <q>H surface has been flaked twice - once before receiving the inscription, for it bears the first two vowels uninjured; and once after, for the second flake has carried off the distal ends of 2C and G</q> (Macalister 1945, 97).</condition>
+                                <condition>Reused in a souterrain, the inscription is in good condition but the <q>'H surface has been flaked twice - once before receiving the inscription, for it bears the first two vowels uninjured; and once after, for the second flake has carried off the distal ends of 2C and G'</q> (Macalister 1945, 97).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription occupies one angle of the stone. The prefixed AB of the inscription is separated by a space of 0.14m <q>from the initial U of the name</q> which follows, <q>and there never were any scores preceding or following it</q> (Macalister 1945, 97)</layout>
+                                <layout>The inscription occupies one angle of the stone. The prefixed AB of the inscription is separated by a space of 0.14m <q>'from the initial U of the name'</q> which follows, <q>'and there never were any scores preceding or following it'</q> (Macalister 1945, 97)</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -84,8 +84,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9212">
-                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga">Baile Sheanc</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.831516, -8.609832</geo>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
@@ -127,12 +127,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-24" who="#POC">Added ITM coordinates, moved note from objectType  to condition, and added idno for SMR IDs in provenance</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty media, translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-049-MAC1945-97-Ballyhank-100.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <graphic url="IRE/I-COR/I-COR-049-MAC1945-97-Ballyhank-100.jpg"><desc>Drawing by Macalister (1945, 97)</desc></graphic>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
@@ -148,15 +149,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app><note>Macalister thought that the prefix AB is an abbreviation of Abbot (1945, 97). According to McManus (1991, 61) the AB <q>is best ignored</q> (Power et al. 1997, no. 7951).</note></app>
+                <app n="1">
+                    <note>Macalister thought that the prefix AB is an abbreviation of Abbot (1945, 97). According to McManus (1991, 61) the AB <q>'is best ignored'</q> (Power et al. 1997, no. 7951).</note>
+                </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
