@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Barrahaurin</title>
+                <title>Barr an Chárthainn | Barrahaurin</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -73,25 +73,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused in a souterrain, some of the final letters of the inscription have been knocked off (Macalister 1945, 103).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister noted that the inscription commences 0.38m from the base and runs over one angle of the stone.</layout>
+                                <layout>Macalister (1945, 102) noted that the inscription commences 0.38m from the base and runs over one angle of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is comprised of <q>finely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> scores</q> (Macalister 1945, 102).<height/>
+                            <handNote>The inscription is comprised of <q>'finely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> scores'</q> (Macalister 1945, 102).<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11454">
-                                <placeName type="townland">Barrahaurin</placeName> (<foreign xml:lang="ga">Barr an Chárthainn</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Barrahaurin</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11454">Barr an Chárthainn</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.999993, -8.813893</geo>
-                            <note>ITM Coordinates: 544112, 583414 </note></origPlace>
+                            <note>ITM Coordinates: 544112, 583414</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1845">Discovered when a souterrain (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO050-045002-</idno></ref>) was uncovered in a ringfort (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO050-045001-</idno></ref>) and later purchased by the antiquarian <persName>John Windele</persName> (Macalister 1945, 102-3).
+                        <provenance type="found" when="1845">Discovered when a souterrain (<idno type="SMR">CO050-045002-</idno>) was uncovered in a ringfort (<idno type="SMR">CO050-045001-</idno>) and later purchased by the antiquarian <persName>John Windele</persName> (Macalister 1945, 102-3).
                         </provenance>
-                        <provenance type="observed">The stone is now part of the collection of University College Cork (see <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application"><idno type="SMR">CO074-145----</idno></ref>).
+                        <provenance type="observed">The stone is now part of the collection of University College Cork (see <idno type="SMR">CO074-145----</idno>).
                         </provenance>
                     </history>
                 </msDesc>
@@ -126,11 +126,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-25" who="#POC">Added idno element for SMR numbers, added ogham edition division, deleted free text from bibliography, deleted title from Transliteration division, moved encoded Macalister reading to apparatus.</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description to graphic, moved note from objectType to condition</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, removed ref elements from around SMR IDs, proofreading changes, added citation details to image description, commented out empty translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-052-MAC1945-103-Barrahaurin.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-052-MAC1945-103-Barrahaurin.jpg"><desc>Drawing by Macalister (1945, 103)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>
     <text>
@@ -161,12 +162,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                     <bibl><ptr target="MAC1945"/>
