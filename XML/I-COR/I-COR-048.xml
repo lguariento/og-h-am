@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ballyhank 3</title>
+                <title>Baile Sheanc | Ballyhank 3</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused in a souterrain, the top of the stone is damaged which resulted in the loss of some of the inscription.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription commences on the dexter edge of the stone and the last two letters are on the top of the stone. Macalister noted that <q>there seems to have been a continuation of the inscription running along here and down the sinister angle, of which no trace now remains; in all probability in the forbidden "MUCOI" formula.</q> (Macalister 1945, 96). </layout>
+                                <layout>The inscription commences on the dexter edge of the stone and the last two letters are on the top of the stone. Macalister (1945, 96) noted that <q>'there seems to have been a continuation of the inscription running along here and down the sinister angle, of which no trace now remains; in all probability in the forbidden "MUCOI" formula.'</q>. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -84,8 +84,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9212">
-                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga">Baile Sheanc</foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>51.831516, -8.609832</geo>
                             <note>ITM Coordinates: 557971, 564534 </note></origPlace>
                             <origDate/>
@@ -127,12 +127,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-24" who="#POC">Added ITM coordinates, moved note from objectType  to condition, and added idno for SMR IDs in provenance</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty media, translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-048-MAC1945-97-Ballyhank-99.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <graphic url="IRE/I-COR/I-COR-048-MAC1945-97-Ballyhank-99.jpg"><desc>Drawing by Macalister (1945, 97)</desc></graphic>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
@@ -151,12 +152,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app></app>
                 </listApp>
             </div>-->
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
