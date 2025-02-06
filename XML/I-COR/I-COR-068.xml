@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Barryscourt Castle</title>
+                <title>Caisleán Chúirt an Bharraigh | Barryscourt Castle</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth></depth>-->
                                      </dimensions>                                   
                                 </support>
-                                <condition>The first line of ogham writing is <q>perfectly clear</q> but the second line of ogham is <q>obscure and doubtful</q> (Macalister 1932, 223). </condition>
+                                <condition>Macalister (1932, 223) described the first line of ogham writing as <q>'perfectly clear'</q> but the second line as <q>'obscure and doubtful'</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Two lines of ogham writing which were apparently impressed in plaster while it was still wet (Macalister 1932, 223). </layout> <!--Need to add details from Fionnbarr Moore, ‘The ogham inscriptions’ in David Pollock, Barryscourt Castle, Co. Cork: archaeology, history and architecture (Dublin, 2017), pp 278–279.-->
+                                <layout>The inscription consists of two lines of ogham writing which were apparently impressed in plaster while it was still wet (Macalister 1932, 223). </layout> <!--Need to add details from Fionnbarr Moore, ‘The ogham inscriptions’ in David Pollock, Barryscourt Castle, Co. Cork: archaeology, history and architecture (Dublin, 2017), pp 278–279.-->
                             </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
@@ -85,8 +85,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Barryscourt (<ref target="https://www.logainm.ie/ga/12183"><foreign>Cúirt an Bharraigh</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.904761, -8.259595 </geo><note>(approx)</note>
-                            <note>ITM Coordinates: 582156, 572523</note></origPlace>
+                                <geo>51.904761, -8.259595 </geo>
+                            <note>ITM Coordinates: 582156, 572523</note><note>(approx)</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1932">Found impressed onto plaster inside the chapel of Barrymore Castle (Macalister 1932, 223). 
@@ -117,7 +117,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+    <creation>Transcription from previous editor.</creation>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -125,12 +125,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-18">Changed this file from Knockyrourke (now L13) to Barryscourt (previously I-COR-099).</change>
 <change when="2024-09-18" who="#POC">Added and encoded information, including apparatus</change>
 <change when="2024-09-19" who="#POC">Added image from Macalister 1932 publication</change>
+<change when="2025-02-06" who="#POC">Added Irish placename to title, updated condition and layout, commented out empty media, translation, and commentary, deleted lb from Macalister reading in apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-068-MAC1932-223-BarryscourtCastle.jpg"><desc>Drawing by Macalister (1932, 223).</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
@@ -149,7 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1932, 223) read:</note>
                     <rdg source="MAC1932">
-                        <lb n="1" style="text-direction:up"/>ILDIMECGMIRE
+                        ILDIMECGMIRE
                     </rdg>
                 </app>
                 </listApp>
