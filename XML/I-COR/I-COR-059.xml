@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Knockrour 1</title>
+                <title>An Cnoc Ramhar | Knockrour 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <!--<depth></depth>--> 
                                      </dimensions>                                   
                                 </support>
-                                <condition>The stone is <q>triangular in horizontal section, the three sides being, respectively, 1' 1", 1' 0", and 0' 10" [(0.33m, 0.30m, and 0.25m)] broad</q> (Macalister 1945, 111). Neither Brash nor Macalister give a measurement for the depth of the stone (Brash 1879, 133). The inscription is much worn.</condition>
+                                <condition>The stone is <q>'triangular in horizontal section, the three sides being, respectively, 1' 1", 1' 0", and 0' 10" [(0.33m, 0.30m, and 0.25m)] broad'</q> (Macalister 1945, 111). Neither Macalister nor Brash (1879, 133) give a measurement for the depth of the stone. The inscription is much worn.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription was in the centre of one of the angles of the stone. According to Macalister, <q>The first two letters look like remains of MAQI, but otherwise nothing can be made of</q> the inscription (1945, 111).</layout>
+                                <layout>The inscription was in the centre of one of the angles of the stone. According to Macalister (1945, 111), <q>'The first two letters look like remains of MAQI, but otherwise nothing can be made of'</q> the inscription.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -82,10 +82,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11552">
-                                <placeName type="townland">Knockrour/Oughtihery</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>51.969997, -8.845821</geo><note>(approx.)</note>
-                                <note>ITM coordinates: 541859, 580127</note></origPlace>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Knockrour/Oughtihery</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11552">An Cnoc Ramhar</ref></foreign>), <placeName type="county">Co. Cork</placeName>
+                                <geo>51.969997, -8.845821</geo>
+                                <note>ITM coordinates: 541859, 580127</note><note>(approx.)</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1856">According to Brash (1879, 133) a stone <q>'bearing a mutilated inscription'</q> was found in 1856 in a burial ground <idno type="SMR">(CO060-040002-)</idno> within an enclosure <idno type="SMR">(CO060-040001-)</idno> at <placeName type="townland">Knockrour</placeName> (in fact the site straddles two townlands, the other being <placeName type="townland">Oughtihery</placeName>). Two further possible ogham stones (<idno type="SMR">CO060-185----</idno>, <idno type="SMR">CO060-188----</idno>) are also associated with the site (Power et al. 1997, no. 7993).
@@ -116,7 +116,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to determine</term>
 </keywords>
 </textClass>
-    <!-- <creation>Transcription from previous editor.</creation>-->
+     <creation>Transcription from previous editor.</creation>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -124,12 +124,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-24" who="#POC">Added and encoded information, including edition.</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added description for graphic.</change>
 <change when="2024-11-04" who="#POC">Added CISP link.</change>
+<change when="2025-02-06" who="#POC">Added Irish placename to title and origPlace, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty facsimile (no drawing or picture), translation, and commentary, uncommented creation because the transcription is Macalister's reading</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
+    <!--<facsimile>
         <graphic url="example.jpg"><desc/></graphic>
-    </facsimile>    
+    </facsimile>  -->  
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="BRA1879">
@@ -143,17 +144,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <lb n="1" style="text-direction:up"/>B<gap reason="lost" extent="unknown" unit="character"/>Q<gap reason="lost" extent="unknown" unit="character"/>HAGA<gap reason="lost" extent="unknown" unit="character"/>DL 
             </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app></app>
+                <app n="1">
+                    <note>Macalister (1945, 111) read:</note>
+                <rdg>B<gap reason="lost" extent="unknown" unit="character"/>Q<gap reason="lost" extent="unknown" unit="character"/>HAGA<gap reason="lost" extent="unknown" unit="character"/>DL </rdg>
+                </app>
                 </listApp>
+            </div>
+            <!--<div type="translation">
+                <p></p>
             </div>-->
-            <div type="translation">
+            <!--<div type="commentary">
                 <p></p>
-            </div>
-            <div type="commentary">
-                <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="BRA1879"/>
