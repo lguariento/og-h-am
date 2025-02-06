@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Knockrour 2</title>
+                <title>An Cnoc Ramhar | Knockrour 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.36</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>One of two similar-sized upright stones positioned in a line along a SE-NW axis. The stone at the NW end <q>has suffered severely from weather and cattle wear</q> to such an extent that <q>this once fine inscription is...now beyond hope</q> (Macalister 1945, 112). There is now no clear evidence for an inscription on this stone.</condition>
+                                <condition>One of two similar-sized upright stones positioned in a line along a SE-NW axis. The stone at the NW end <q>'has suffered severely from weather and cattle wear'</q> to such an extent that <q>'this once fine inscription is...now beyond hope'</q> (Macalister 1945, 112). There is now no clear evidence for an inscription on this stone.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister determined that the stone had <q>certainly been inscribed, on the two angles of the southern face</q> (1945, 112). Macalister noted <q>the five bold notches observed by Brash</q> (1879, 132) on the sinister angle and that <q>MAQI is very clearly adumbrated on the dexter angle</q>. Hartnett (1939, 78) also examined the stone but <q>'failed to find what could be called ogham scores'</q>.</layout>
+                                <layout>Macalister (1945, 112) determined that the stone had <q>'certainly been inscribed, on the two angles of the southern face'</q>. Macalister noted <q>'the five bold notches observed by Brash'</q> (1879, 132) on the sinister angle and that <q>'MAQI is very clearly adumbrated on the dexter angle'</q>. Hartnett (1939, 78) also examined the stone but <q>'failed to find what could be called ogham scores'</q>.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -82,8 +82,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11552">
-                                <placeName type="townland">Knockrour/Oughtihery</placeName> (<foreign xml:lang="ga">An Cnoc Ramhar</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Knockrour/Oughtihery</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11552">An Cnoc Ramhar</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.969997, -8.845821</geo>
                             <note>ITM Coordinates: 541866, 580109</note></origPlace>
                             <origDate/>
@@ -125,13 +125,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-27" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description for graphic.</change>    
 <change when="2024-07-29" who="#POC">Closed unused elements for repository.</change>
 <change when="2024-11-04" who="#POC">Added CISP link.</change>
+<change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, commented out empty facsimile (no drawing or media), translation, and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
+    <!--<facsimile>
         <graphic url="example.jpg"/>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
-    </facsimile>    
+        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>
+    </facsimile>-->    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
@@ -149,12 +150,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app></app>
                 </listApp>
             </div>-->
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="BRA1879"/>
