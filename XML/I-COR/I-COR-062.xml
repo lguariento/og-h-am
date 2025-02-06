@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Knockshanawee 1</title>
+                <title>Cnoc Seanmhaí | Knockshanawee 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.2</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused as an innermost lintel in a souterrain, the inscription is <q>badly scaled, but quite decipherable</q> (Macalister 1945, 112).</condition>
+                                <condition>Reused as an innermost lintel in a souterrain, the inscription is <q>'badly scaled, but quite decipherable'</q> (Macalister 1945, 112).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The words of the inscription are spaced <q>which is exceptional: there is a gap of 4 inches after the first word, and of 2 1/2 inches after the second</q> (Macalister 1945, 113).</layout>
+                                <layout>The words of the inscription are spaced <q>'which is exceptional: there is a gap of 4 inches after the first word, and of 2 1/2 inches after the second'</q> (Macalister 1945, 113).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -83,15 +83,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/en/8237">
-                                <placeName type="townland">Knockshanawee</placeName> (<foreign xml:lang="ga">Cnoc Seanmhaí</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Knockshanawee</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/8237">Cnoc Seanmhaí</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.872673, -8.796211</geo>
                             <note>ITM Coordinates: 545175, 569241</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1910">One of six ogham stones (also <idno type="SMR">I-COR-063</idno>, <idno type="SMR">I-COR-064</idno>, <idno type="SMR">I-COR-065</idno>, <idno type="SMR">I-COR-066</idno>, <idno type="SMR">I-COR-067</idno>) used in the construction of a souterrain (<idno type="SMR">CO072-078002-</idno>). This stone formed the innermost lintel. 
                         </provenance>
-                        <provenance type="observed">This ogham stone is now on permanent display in the Stone Corridor, University College Cork (see <idno type="SMR">CO074-138----</idno>).
+                        <provenance type="observed">This ogham stone is now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork (see <idno type="SMR">CO074-138----</idno>).
                         </provenance>
                     </history>
                 </msDesc>
@@ -129,11 +129,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-27" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description for graphic.</change>
 <change when="2024-07-29" who="#POC">Closed unused idno element for inventory number in repository</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
+<change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty translation, and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-062-MAC1945-113-Knockshanawee-112.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-062-MAC1945-113-Knockshanawee-112.jpg"><desc>Drawing by Macalister (1945, 113)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -155,15 +156,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg source="MAC1945">
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><supplied reason="lost">M</supplied>I<supplied reason="lost">C</supplied>ANAVVI</name> <w type="formula" lemma="maqqas">MAQ</w> <name nymRef="#?">L<supplied reason="lost">U</supplied>G<supplied reason="lost">U</supplied>N<supplied reason="lost">I</supplied></name></persName> 
                     </rdg>
-                    <note>Macalister noted that the <q>C is broken, the U's are very faint</q> and the final I is <q>quite gone</q> (1945, 113).</note>
+                    <note>Macalister (1945, 113) noted that the <q>'C is broken, the U's are very faint'</q> and the final I is <q>'quite gone'</q>.</note>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
-                <p>McManus adds that if Macalister's reading LUGUNI is correct, the man recorded here may be a brother of the man recorded on the adjacent stone (I-COR-063) in the souterrain (Archaeological Survey of Ireland, Field Report). </p>
+                <p>McManus adds that if Macalister's reading LUGUNI is correct, the man recorded here may be a brother of the man recorded on the adjacent stone (I-COR-063) in the souterrain (Archaeological Survey of Ireland, Field Report).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
