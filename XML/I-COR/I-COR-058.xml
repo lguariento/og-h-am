@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kilmartin Lower</title>
+                <title>Cill Martan Íochtarach | Kilmartin Lower</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -70,26 +70,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.25</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused as a lintel in a souterrain, the inscription is in good condition with the broken A of NETTA being <q>the only detriment which the inscription has suffered</q> (Macalister 1945, 110).</condition>
+                                <condition>Reused as a lintel in a souterrain, the inscription is in good condition with the broken A of NETTA being <q>'the only detriment which the inscription has suffered'</q> (Macalister 1945, 110).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The inscription is found along three sides of a lintel stone and reads up-top-down.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The scores are <q>punched on the stone, and then cut through</q> (Macalister 1945, 110).<height/>
+                            <handNote>The scores are <q>'punched on the stone, and then cut through'</q> (Macalister 1945, 110).<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11460">
-                                <placeName type="townland">Kilmartin Lower</placeName> (<foreign xml:lang="ga">Cill Martan Íochtarach</foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo>51.992268, -8.798079</geo><note>(approx.)</note>
-                            <note>ITM Coordinates: 545194, 582543</note></origPlace>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Kilmartin Lower</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11460">Cill Martan Íochtarach</ref></foreign>), <placeName type="county">Co. Cork</placeName>
+                                <geo>51.992268, -8.798079</geo>
+                            <note>ITM Coordinates: 545194, 582543</note><note>(approx.)</note>
+                            </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1916">A lintel stone found in the inner chamber of a souterrain <idno type="SMR">(CO050-062002-)</idno>, which is now inaccessible, although the stone is presumably still in position. The souterrain is located in a ringfort <q>which will be found in the second field from the road, on the right-hand side on the way from Barrahurin to Athabatten, near <placeName type="parish">Donoghmore</placeName></q> (Macalister 1945, 110).
+                        <provenance type="found" when="1916">A lintel stone found in the inner chamber of a souterrain <idno type="SMR">(CO050-062002-)</idno>, which is now inaccessible, although the stone is presumably still in position. The souterrain is located in a ringfort <q>'which will be found in the second field from the road, on the right-hand side on the way from Barrahurin to Athabatten, near <placeName type="parish">Donoghmore</placeName>'</q> (Macalister 1945, 110).
                         </provenance>
                         <provenance type="observed">Inaccessible in situ.
                         </provenance>
@@ -127,12 +128,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added description for graphic.</change>
      <change when="2024-08-07" who="#NW">Updated edition regarding MAQI- name.</change> 
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out media and empty apparatus, translation, and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-058-MAC1945-111-KilmartinLower.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <graphic url="IRE/I-COR/I-COR-058-MAC1945-111-KilmartinLower.jpg"><desc>Drawing by Macalister (1945, 111)</desc></graphic>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
@@ -150,15 +152,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <!--<div type="apparatus">
                 <listApp>
-                <app></app>
+                <app n="1"></app>
                 </listApp>
             </div>-->
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
