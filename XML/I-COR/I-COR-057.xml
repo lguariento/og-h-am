@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kilcullen South</title>
+                <title>Cill Chuilinn Theas | Kilcullen South</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.40</depth> <!-- Measurements taken from ASI, but Macalister's seem to be different: 6' 4", 1'5", 0' 9"-->
                                      </dimensions>                                   
                                 </support>
-                                <condition>One out of four standing stones originally, now only two remain. The surface of the stone is <q>much weathered and disintegrated</q> (Macalister 1945, 110)</condition>
+                                <condition>One out of four standing stones originally, now only two remain. The surface of the stone is <q>'much weathered and disintegrated'</q> (Macalister 1945, 110)</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the dexter angle of the S face of the stone and <q>is continued on the sinister angle of the same face.</q></layout>
+                                <layout>The inscription is on the dexter angle of the S face of the stone and <q>'is continued on the sinister angle of the same face'.</q></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -84,10 +84,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11458">
-                                <placeName type="townland">Kilcullen South</placeName> (<foreign xml:lang="ga">Cill Chuilinn Theas</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Kilcullen South</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11458">Cill Chuilinn Theas</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo>51.981435, -8.797595</geo>
-                            <note>ITM Coordinates: 545217, 581342 </note></origPlace>
+                            <note>ITM Coordinates: 545217, 581342</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1875">Discovered in 1875 in a sloping pasture, on the N side of a valley, within the site of a burial ground <idno type="SMR">(CO061-017004-)</idno> marked on 1842 OS 6-inch map, which is within an ecclesiastical enclosure <idno type="SMR">(CO061-188----)</idno>. This upright stone marks the NW end of a possible burial <idno type="SMR">(CO061-017001-)</idno>. A second uninscribed stone marks the NE corner. The stump of a third stone at the SW corner was recorded by Brash (1879, 164) but does not survive.
@@ -128,11 +128,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements.</change>
     <change when="2024-08-07" who="#NW">Updated edition regarding MAQI- name.</change> 
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out empty apparatus, translation, and commentary, added Macalister's reading to edition for now, uncommented creation because the transcription is from Macalister</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-057-MAC1945-110-KilcullenSouth.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-057-MAC1945-110-KilcullenSouth.jpg"><desc>Drawing by Macalister (1945, 110)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/kilcullen-ogham-stone-493e0a4e46da49eba134d129bba291f6" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -149,15 +150,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <!--<div type="apparatus">
                 <listApp>
-                <app></app>
+                <app n="1"></app>
                 </listApp>
             </div>-->
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="BRA1879"/>
