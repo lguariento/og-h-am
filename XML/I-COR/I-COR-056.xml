@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Glenaglogh</title>
+                <title>Gleann na gCloch Thuaidh | Glenaglogh</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -77,21 +77,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister noted that the <q>first six letters are <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine lines</q> and <q>the remainder is boldy <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs>, evidently by someone (in ancient times) who endeavoured to strengthen the letters and to make them more prominent and permanent</q> (1945, 109).<height/>
+                            <handNote>Macalister (1945, 109) noted that the <q>'first six letters are <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine lines'</q> and <q>'the remainder is boldy <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs>, evidently by someone (in ancient times) who endeavoured to strengthen the letters and to make them more prominent and permanent'</q>.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/en/11549">
-                                <placeName type="townland">Glenaglogh North?</placeName> (<foreign xml:lang="ga">Gleann na gCloch Thuaidh</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Glenaglogh North</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/11549">Gleann na gCloch Thuaidh</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo/>
                             <note>Coordinates unknown</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1849">Formerly part of a stone circle, this ogham stone was repurposed as a lintel for a pigstye, where it was discovered by <persName>Croker</persName> and <persName>Abell</persName> (Macalister 1945, 109). In <date>1835</date>, the ogham stone was removed to the Royal Cork Institution.
                         </provenance>
-                        <provenance type="observed">This stone is currently on permanent display in the Stone Corridor, University College Cork.
+                        <provenance type="observed">This stone is currently on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork.
                         </provenance>
                     </history>
                 </msDesc>
@@ -117,7 +117,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+    <creation>Transcription from previous editor.</creation>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -128,23 +128,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-25" who="#POC">Moved information in note from objectType to condition</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
+<change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out media and empty translation commentary and handDesc, added Macalister's reading to edition for now, uncommented creation because the transcription is from Macalister</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-056-MAC1945-108-Glenaglogh-107.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-056-MAC1945-108-Glenaglogh-107.jpg"><desc>Drawing by Macalister (1945, 108)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚉᚒᚅᚐᚌᚒᚄᚄᚑᚄ</name> <w>ᚋᚐ<gap reason="lost" extent="unknown" unit="character"/></w></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CUNAGUSSOS</name> <w>MA<gap reason="lost" extent="unknown" unit="character"/></w></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -152,17 +153,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1945, 109) read:</note>
                     <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CUNAGUSSOS</name> <w>MA<gap reason="lost" extent="unknown" unit="character"/></w></persName> 
+                        <persName><name nymRef="#?">CUNAGUSSOS</name> <w>MA<gap reason="lost" extent="unknown" unit="character"/></w></persName> 
                     </rdg>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
