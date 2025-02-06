@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Deelish</title>
+                <title>Duílis | Deelish</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -49,7 +49,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository>British Museum (<ref target="https://www.britishmuseum.org/collection/object/H_1884-0609-1"/>)</repository>
+                        <repository><ref target="https://www.britishmuseum.org/collection/object/H_1884-0609-1">British Museum</ref></repository>
                         <idno type="invNo">18840609.1</idno>
                     </msIdentifier>
                     <msContents>
@@ -73,23 +73,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The bottom of the stone was broken when removed to Cork and the beginning of both lines of the inscription are missing as a result of the damage.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads upwards on two angles of the stone, and <q>the upper ends of the two lines of writing overlap awkwardly on the top of the stone</q> (Macalister 1945, 108). </layout>
+                                <layout>The inscription reads upwards on two angles of the stone, and <q>'the upper ends of the two lines of writing overlap awkwardly on the top of the stone'</q> (Macalister 1945, 108). </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <handNote/>
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11434">
-                                <placeName type="townland">Deelish</placeName> (<foreign xml:lang="ga">Duílis</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Deelish</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11434">Duílis</ref></foreign>), <placeName type="county">Co. Cork</placeName>
                                 <geo/>
                                 <note>Findspot uncertain</note>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1826">This stone was discovered in 1826 <q>in the entrenchment of an old burial-ground on this townland</q> and later presented to the Royal Cork Institution (Macalister 1945, 107). Brash gave the find spot as <q>'in a killeen at Leades, on the townland of Deelish, and parish of <placeName type="parish">Aghabulloge</placeName>'</q>, but then added <q>'the actual place where the stone was found is known as Killberehert'</q> (1869, 254). There is no known burial ground in Deelish (Leades is name of house at S end of Deelish) but the burial ground of 'Killberehert' <idno type="SMR">(CO060-122----)</idno> is 1 mile to the W of Deelish in the townland of <placeName type="townland">Kilberrihert</placeName>. The exact findspot is therefore not certain. 
+                        <provenance type="found" when="1826">This stone was discovered in 1826 <q>'in the entrenchment of an old burial-ground on this townland'</q> and later presented to the Royal Cork Institution (Macalister 1945, 107). Brash (1869, 254) gave the find spot as <q>'in a killeen at Leades, on the townland of Deelish, and parish of <placeName type="parish">Aghabulloge</placeName>'</q>, but then added <q>'the actual place where the stone was found is known as Killberehert'</q>. There is no known burial ground in Deelish (Leades is name of house at S end of Deelish) but the burial ground of 'Killberehert' <idno type="SMR">(CO060-122----)</idno> is 1 mile to the W of Deelish in the townland of <placeName type="townland">Kilberrihert</placeName>. The exact findspot is therefore not certain. 
                         </provenance>
                         <provenance type="observed">Now in the British Museum.
                         </provenance>
@@ -127,12 +127,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, commented out apparatus.</change>
     <change when="2024-08-07" who="#NW">Updated edition regarding MAQI- name.</change> 
     <change when="2024-11-04" who="#POC">Added CISP link</change>
+    <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out media and empty commentary and handDesc</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-055-MAC1945-107-Deelish.jpg"><desc>Drawing by Macalister</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <graphic url="IRE/I-COR/I-COR-055-MAC1945-107-Deelish.jpg"><desc>Drawing by Macalister (1945, 107)</desc></graphic>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
@@ -152,11 +153,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>-->
             <div type="translation">
-                <p>'of <foreign xml:lang="sga">Cóelub/Cóelboth</foreign> son of <foreign xml:lang="sga">Mac Rithe?</foreign> son of the sept/litter of <foreign xml:lang="sga">Coirpre?</foreign></p>
+                <p>'of <foreign xml:lang="sga">Cóelub/Cóelboth</foreign> son of <foreign xml:lang="sga">Mac Rithe?</foreign> son of the sept/litter of <foreign xml:lang="sga">Coirpre?</foreign>'</p>
             </div>
-            <div type="commentary">
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl>
