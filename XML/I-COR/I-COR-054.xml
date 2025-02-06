@@ -76,10 +76,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <layout/>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <handNote/>
                             
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
@@ -92,7 +92,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1838">Discovered during the demolition of an 18th century Church of Ireland parish church in <placeName type="parish">Aghabulloge</placeName> graveyard (<idno type="SMR">CO061-080002-</idno>). It is one of two ogham stones from the site, the second (<idno type="SMR">CO061-080005-</idno>) remains in situ.
                         </provenance>
-                        <provenance type="observed">This stone is currently on permanent display in the Stone Corridor, University College Cork (for details see <idno type="SMR">CO074-142----</idno>).
+                        <provenance type="observed">This stone is currently on permanent display in the Stone Corridor, University College Cork (for details, see <idno type="SMR">CO074-142----</idno>).
                         </provenance>
                     </history>
                 </msDesc>
@@ -118,7 +118,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+    <creation>Transcription from previous editor.</creation>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description to graphic.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty translation and commentary.</change>
+<change when="2025-02-06" who="#POC">Commented out empty handDesc, uncommented creation because I've included Macalister's reading in the edition for now</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -141,12 +142,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="anm">ᚐᚅᚋ</w> <name nymRef="#?">ᚅ<supplied reason="lost">ᚓᚈᚐᚉᚒ</supplied>ᚅ<supplied reason="lost">ᚐ</supplied>ᚄ</name> <w type="formula" lemma="celi"><supplied reason="lost">ᚉᚓ</supplied>L<supplied reason="lost">ᚔ</supplied></w> <name nymRef="#?">ᚃᚔᚇᚓᚈᚈᚐᚄ</name></persName> <!-- Need to update edition with OGHAM team reading -->
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/> 
+                    <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="anm">ANM</w> <name nymRef="#?">N<supplied reason="lost">ETACU</supplied>N<supplied reason="lost">A</supplied>S</name> <w type="formula" lemma="celi"><supplied reason="lost">CE</supplied>L<supplied reason="lost">I</supplied></w> <name nymRef="#?">VIDETTAS</name></persName> <!-- Need to update edition with OGHAM team reading -->
                 </ab>
             </div>
             <div type="apparatus">
