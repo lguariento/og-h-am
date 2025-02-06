@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"/>
+                        <!--<idno type="invNo"/>-->
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -85,8 +85,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Glenaglogh North</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/11549">Gleann na gCloch Thuaidh</ref></foreign>), <placeName type="county">Co. Cork</placeName>
-                                <geo/>
-                            <note>Coordinates unknown</note></origPlace>
+                                <geo>51.9907, -8.8671</geo>
+                            <note>Coordinates unknown</note><!-- Townland coordinates provided because the map was pointing to the sea --></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1849">Formerly part of a stone circle, this ogham stone was repurposed as a lintel for a pigstye, where it was discovered by <persName>Croker</persName> and <persName>Abell</persName> (Macalister 1945, 109). In <date>1835</date>, the ogham stone was removed to the Royal Cork Institution.
@@ -128,7 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-25" who="#POC">Moved information in note from objectType to condition</change>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
-<change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out media and empty translation commentary and handDesc, added Macalister's reading to edition for now, uncommented creation because the transcription is from Macalister</change>
+<change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out media and empty translation commentary and handDesc, added Macalister's reading to edition for now, uncommented creation because the transcription is from Macalister, added coordinates for townland because the map was pointing off the coast of Africa, commented out idno inv element because it's empty</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
