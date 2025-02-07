@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Monataggart 3</title>
+                <title>Móin an tSagairt | Monataggart 3</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -62,14 +62,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-022004-</idno> </p>
                                     <material>Clayslate</material> 
-                                    <objectType>Pillar <note>(reused in souterrain)</note></objectType> 
+                                    <objectType>Pillar (reused in souterrain)</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>1.88</height>
                                             <width>0.36</width>
                                             <depth>0.27</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Macalister described the surface of the stone as <q>rather rough</q> but the inscription is <q>perfectly legible</q> (1945, 119).</condition>
+                                <condition>Macalister (1945, 119) described the surface of the stone as <q>'rather rough'</q> but the inscription is <q>'perfectly legible'</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout/>
@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-11" who="#POC">Added and encoded information, including the edition</change>
 <change when="2024-09-16" who="#POC">Added Macalister reading to apparatus</change>    
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
+<change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, updated from apparatus, deleted note element from object type, commented out translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,19 +149,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note n="1">Macalister (1945, 119) read:</note>
                     <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#broinienas">BROINIENAS</name> <w type="formula">KOI</w> <name nymRef="#netta-ttrenalugos">NETTA-TTRENALUGOS</name></persName>
+                        <persName><name nymRef="#broinienas">BROINIENAS</name> <w type="formula">KOI</w> <name nymRef="#netta-ttrenalugos">NETTA-TTRENALUGOS</name></persName>
                     </rdg>
-                    <note n="2">According to Macalister, <q>this is the only case of the combination of KOI with NETA</q> (1945, 119).</note>
-                    <note n="3">McManus (1991, 66) had difficulty reading the final U, O and S.</note>
+                    <note n="2"><lb/>According to Macalister (1945, 119), <q>'this is the only case of the combination of KOI with NETA'</q>.</note>
                 </app>
+                    <app n="2">
+                        <note n="1">McManus (1991, 66) had difficulty reading the final U, O and S.</note>
+                    </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
