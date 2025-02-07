@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tullig More</title>
+                <title>An Tulaigh Mhór | Tullig More</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO061-182----</idno> 
+                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO061-182----</idno> </p>
                                     <material>Red sandstone</material> 
                                     <objectType>Pillar</objectType> 
                                      <dimensions unit="m">
@@ -70,21 +70,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.45</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Macalister noted that the stone bears <q>unmistakable evidence of the attacks of a sledge-hammer or of some similar tool</q> (1945, 124). According to Macalister, <q>there has unquestionably been an earlier inscription on the stone, and the severe battering which has left evident marks has completely destroyed it</q> (1945, 126).</condition>
+                                <condition>Macalister (1945, 124) noted that the stone bears <q>'unmistakable evidence of the attacks of a sledge-hammer or of some similar tool'</q>. According to Macalister (ibid. 126), <q>'there has unquestionably been an earlier inscription on the stone, and the severe battering which has left evident marks has completely destroyed it'</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The inscription is comprised of two lines reading up on both the dexter and sinister angles of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is coarsely <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. Macalister remarked that the <q>scores in the dexter line are more coarsely pocked than those in the sinister</q> (1945, 125). <height/>
+                            <handNote>The inscription is coarsely <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. Macalister (1945, 125) remarked that the <q>'scores in the dexter line are more coarsely pocked than those in the sinister'</q>. <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/11538">
-                                <placeName type="townland">Tullig More</placeName> (<foreign xml:lang="ga">An Tulaigh Mhór</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Tullig More (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11538">An Tulaigh Mhór</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo/>
                             <note>Coordinates unknown</note>
                             </origPlace>
@@ -130,11 +130,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-26" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed empty origDate element, numbered apparatus, added description for graphic.</change>
 <change when="2024-07-29" who="#POC">Closed unused idno element for inventory number in repository</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
+<change when="2025-02-07" who="#POC">Added placename to title, added p element to support, moved logainm ref around Irish placename, added citation details to image description</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-079-MAC1945-125-TulligMore-127.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-079-MAC1945-125-TulligMore-127.jpg"><desc>Drawing by Macalister (1945, 127)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
