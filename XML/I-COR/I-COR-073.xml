@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mountrivers 1</title>
+                <title>Cnoc idir Dhá Abhainn | Mountrivers 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -62,14 +62,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-079003-</idno></p>
                                     <material>Grit</material> 
-                                    <objectType>Pillar <note>(reused in souterrain)</note></objectType> 
+                                    <objectType>Pillar (reused in souterrain)</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>2.44</height>
                                             <width>0.81</width>
                                             <depth>0.15</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The stone is <q>heavily covered in lichen</q> and the surface is covered with <q>rudely-scratched crosses</q> (Macalister 1945, 120). Inscription worn and damaged (ibid.). </condition>
+                                <condition>Macalister (1945, 120) described the stone as <q>'heavily covered in lichen'</q> with <q>'rudely-scratched crosses'</q> on its surface and the inscription as worn and damaged. </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The inscription begins 0.70m from the bottom of the stone.</layout>
@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-12" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-09-16" who="#POC">Added Macalister reading to apparatus</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
+<change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, updated apparatus, deleted note element from object type</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,7 +149,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1945, 120) read:</note>
                     <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#madora">MADORA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#dego">DEGO</name></persName>
+                        <persName><name nymRef="#madora">MADORA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#dego">DEGO</name></persName>
                     </rdg>
                 </app>
                 </listApp>
