@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"/>
+                        <!--<idno type="invNo"/>-->
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Closed unused idno element for inventory number in repository</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty translation, and commentary</change>
+<change when="2025-02-07" who="#POC">Commented out idno invNo because it was displaying empty, deleted lb from apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -154,9 +155,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1945, 112) read:</note>
                     <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><supplied reason="lost">M</supplied>I<supplied reason="lost">C</supplied>ANAVVI</name> <w type="formula" lemma="maqqas">MAQ</w> <name nymRef="#?">L<supplied reason="lost">U</supplied>G<supplied reason="lost">U</supplied>N<supplied reason="lost">I</supplied></name></persName> 
+                        <persName><name nymRef="#?"><supplied reason="lost">M</supplied>I<supplied reason="lost">C</supplied>ANAVVI</name> <w type="formula" lemma="maqqas">MAQ</w> <name nymRef="#?">L<supplied reason="lost">U</supplied>G<supplied reason="lost">U</supplied>N<supplied reason="lost">I</supplied></name></persName> 
                     </rdg>
-                    <note>Macalister (1945, 113) noted that the <q>'C is broken, the U's are very faint'</q> and the final I is <q>'quite gone'</q>.</note>
+                    <note><lb/>Macalister (1945, 113) noted that the <q>'C is broken, the U's are very faint'</q> and the final I is <q>'quite gone'</q>.</note>
                 </app>
                 </listApp>
             </div>
