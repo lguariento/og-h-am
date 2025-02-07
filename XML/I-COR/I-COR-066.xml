@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-27" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description for graphic.</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty handDesc, translation, and commentary</change>
+<change when="2025-02-07" who="#POC">Deleted break attribute from lb element in edition to fix database display</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -140,13 +141,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <lb n="2" style="text-direction:down" break="no"/>
+                    <lb n="2" style="text-direction:down"/>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <lb n="2" style="text-direction:down" break="no"/>
+                    <lb n="2" style="text-direction:down"/>
                 </ab>
             </div>
             <div type="apparatus">
