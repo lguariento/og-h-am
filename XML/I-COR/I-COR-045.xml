@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"/>
+                        <!--<idno type="invNo"/>-->
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added ITM coordinates, added idno elements for SMR numbers, added description for image.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-04" who="#POC">Added Irish placename to title, added missing opening round bracket for Irish placename, added more information to provenance, added citation details to image description, commented out empty handDesc, translation, and commentary, moved logainm reference to surround Irish placename, deleted lb element from Macalister's reading</change>
+<change when="2025-02-07" who="#POC">Commented out the idno invNo because it is displaying empty</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
