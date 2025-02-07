@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <idno type="invNo"></idno>
+                        <!--<idno type="invNo"></idno>-->
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -129,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-27" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description for graphic.</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty translation, and commentary</change>
+<change when="2025-02-07" who="#POC">Commented out idno invNo because it was displaying empty, deleted lb from apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -153,7 +154,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1945, 113) read:</note>
                     <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">VEQIKAMI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">LUGUNI</name></persName>
+                        <persName><name nymRef="#?">VEQIKAMI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">LUGUNI</name></persName>
                     </rdg>
                 </app>
                 </listApp>
