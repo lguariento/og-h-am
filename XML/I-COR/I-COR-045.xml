@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Baile an Chamhaicigh Thuaidh | Ballyknock 15</title>
+                <title>Baile an Chamhaicigh Thuaidh | Ballyknock North 15</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>UCC</repository>
-                        <!--<idno type="invNo"/>-->
+                        <idno type="invNo">10</idno>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -84,7 +84,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Ballyknock North</placeName> (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>), <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Ballyknock North (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9971">Baile an Chamhaicigh Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo>52.034620, -8.082370</geo>
                             <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
@@ -128,6 +128,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-04" who="#POC">Added Irish placename to title, added missing opening round bracket for Irish placename, added more information to provenance, added citation details to image description, commented out empty handDesc, translation, and commentary, moved logainm reference to surround Irish placename, deleted lb element from Macalister's reading</change>
 <change when="2025-02-07" who="#POC">Commented out the idno invNo because it is displaying empty</change>
+<change when="2025-02-07" who="#NW">Added idno. Corrected title and placename tags...</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
