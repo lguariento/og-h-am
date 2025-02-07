@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Monataggart 2</title>
+                <title>Móin an tSagairt | Monataggart 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -62,17 +62,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-022003-</idno> </p>
                                     <material>Clayslate</material> 
-                                    <objectType>Pillar <note>(reused in souterrain)</note></objectType> 
+                                    <objectType>Pillar (reused in souterrain)</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>0.91</height>
                                             <width>0.39</width>
                                             <depth>0.11</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>According to Macalister, the stone is <q>broken in two, but the reading is quite clear and certain, though the fracture passes through</q> the inscription (1945, 118).</condition>
+                                <condition>According to Macalister (1945, 118), the stone is <q>'broken in two, but the reading is quite clear and certain, though the fracture passes through'</q> the inscription.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister noted that <q>the first name is repeated in minute pinscrapes underneath its formal presentation in the finished inscription</q> (1945, 119).</layout>
+                                <layout>Macalister (1945, 119) noted that <q>'the first name is repeated in minute pinscrapes underneath its formal presentation in the finished inscription'</q>.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-11" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-09-16" who="#POC">Added Macalister reading to apparatus</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
+<change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, deleted lb from apparatus, deleted note element from object type, commented out translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,17 +149,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1945, 118) read:</note>
                     <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#dalagni">DALAGNI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#dali">DALI</name></persName>
+                        <persName><name nymRef="#dalagni">DALAGNI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#dali">DALI</name></persName>
                     </rdg>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
