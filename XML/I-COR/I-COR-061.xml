@@ -124,13 +124,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-25" who="#POC">Added and encoded information, including apparatus and ITM coordinates</change>
 <change when="2024-07-27" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, numbered apparatus, added description for graphic.</change>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, moved museum ref link to around museum name, commented out empty facsimile (no drawing or media), translation, and commentary</change>
+<change when="2025-02-07" who="#POC">Uncommented facsimile to fix database display</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <!--<facsimile>
+    <facsimile>
         <graphic url="example.jpg"/>
-        <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>
-    </facsimile>-->    
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
