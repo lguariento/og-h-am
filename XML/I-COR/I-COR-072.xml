@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Monataggart 4</title>
+                <title>Móin an tSagairt | Monataggart 4</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-022005-</idno> </p>
                                     <material/> 
-                                    <objectType>Pillar <note>(reused in souterrain)</note></objectType> 
+                                    <objectType>Pillar (reused in souterrain)</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>1.75</height>
                                             <!--<width></width>
@@ -76,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>According to Macalister, the inscription is composed of <q>minute characters</q> (1945, 119).<height></height>
+                            <handNote>According to Macalister (1945, 119), the inscription is composed of <q>'minute characters'</q>.<!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -124,12 +124,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-11" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-09-16" who="#POC">Added Macalister reading to apparatus</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
+<change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, updated apparatus, deleted note element from object type</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-072-MAC1945-119-Monataggert4.jpg"><desc>Drawing by Macalister (1945, 119)</desc></graphic>
-        <media url="" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
@@ -147,7 +148,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listApp>
                 <app n="1"><note>Macalister (1945, 119) read:</note>
                     <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#vergoso">VERGOSO</name> <w type="formula" lemma="maqqas">MACI</w> <name nymRef="#llominacca">LLOMINACCA</name></persName>
+                        <persName><name nymRef="#vergoso">VERGOSO</name> <w type="formula" lemma="maqqas">MACI</w> <name nymRef="#llominacca">LLOMINACCA</name></persName>
                     </rdg>
                 </app>
                 </listApp>
