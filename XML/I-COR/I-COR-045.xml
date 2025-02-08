@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 on <date when="2003-09-16"/> and <date when="2006-04-19"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -60,26 +60,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007018-</idno></p> 
-                                    <material>Clayslate</material> 
+                                <support><!--<term>monument</term>--><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007018-</idno></p> 
+                                   <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
                                     <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/>
-                                            <height>2.01</height>
-                                            <width>0.51</width>
-                                            <depth>0.23</depth>
+                                      <dimensions unit="m" source="#NW">
+                                            <height>2.36</height>
+                                            <width>0.30</width>
+                                            <depth>0.30</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain.</condition>
+                                <condition>Reused in a souterrain with some damage to the vulnerable edges. Barry (1891, 532-533) noted that the stone was 93 inches (2.36m) in height. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 2.07m </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the sinister angle of one of the broad faces of the stone.</layout>
+                                <layout>The inscription is on the sinister angle of one of the broad faces of the stone. Barry (1891, 532) noted that the inscription begins 60 in. (1.52m) from the bottom and is 18 in. (0.46m) in length.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote/>
-                            
-                        </handDesc>-->
+                        <handDesc>
+                            <handNote>The inscription is <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine, evenly-spaced strokes, although the vowel strokes are mostly lost to damage on the edge of the stone. There is a faint trace of a stroke just before the initial C, which may represent a disregarded guide stroke. 
+                            </handNote>
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -89,9 +88,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM Coordinates: 594327, 586954</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). One of 15 ogham stones (I-COR-031 - I-COR-045) found within a souterrain (<idno type="SMR">CO55-007003-</idno>), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularly in Co. Cork but this is the highest number from a single souterrain. 
+                        <provenance type="found" when="1890">Discovered in the NW quadrant of a large rath or ringfort (<idno type="SMR">CO055-007001-</idno>) at Castle farm (also site of Ballyknock castle <idno type="SMR">CO055-007004-</idno>). According to <persName>Barry</persName> (1891, 532), this roofing flag <q>lies about eighteen feet from the south end</q> of the souterrain (<idno type="SMR">CO055-007003-</idno>) where fourteen other ogham stones were also found (I-COR-031 - I-COR-045), all but one (I-COR-031) acting as lintels. A high percentage of ogham stones in Ireland are found reused in souterrains, particularly in Co. Cork but this is the highest number from a single souterrain. 
                         </provenance>
-                        <provenance type="observed">The stone is currently on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition, for details see <idno type="SMR">CO074-153----</idno>), University College Cork, where it was examined and photographed for the OG(H)AM project in May 2024. 
+                        <provenance type="observed" when="2024">The stone is currently on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork, where it was examined and photographed for the OG(H)AM project in May 2024.
                         </provenance>
                     </history>
                 </msDesc>
@@ -128,54 +127,62 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-04" who="#POC">Added Irish placename to title, added missing opening round bracket for Irish placename, added more information to provenance, added citation details to image description, commented out empty handDesc, translation, and commentary, moved logainm reference to surround Irish placename, deleted lb element from Macalister's reading</change>
 <change when="2025-02-07" who="#POC">Commented out the idno invNo because it is displaying empty</change>
-<change when="2025-02-07" who="#NW">Added idno. Corrected title and placename tags...</change> 
+<change when="2025-02-07" who="#NW">Added idno. Corrected title and placename tags.</change> 
+<change when="2025-02-08" who="#NW">Added 3d recording info (Archaeoptics) and image path to Megan's photo. Updated support desc from Barry and added refs to bibl. Added edition and commentary.</change> 
     
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+         <graphic url="IRE/I-COR/I-COR-045_Ballyknock.jpg"><desc>Photograph by Megan Kasten</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-045-MAC1945-93-Ballyknock-96.jpg"><desc>Drawing by Macalister (1945, 93)</desc></graphic>
-        <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+       <!-- <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!-\-3d model by Archaeoptics unprocessed-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚉ<supplied reason="lost">ᚑ</supplied>ᚃᚐᚂᚒᚈ<unclear reason="damage">ᚔ</unclear></name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">C<supplied reason="lost">O</supplied>VALUT<unclear reason="damage">I</unclear></name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
                     <note>Macalister (1945, 92) read:</note>
-                    <rdg source="MAC1945">
-                        <persName><name nymRef="#?">COVALOTI</name></persName>
+                    <rdg source="MAC1945"><persName><name nymRef="#?">COVALOTI</name></persName>                        
                     </rdg>
                 </app>
                 </listApp>
             </div>
             <!--<div type="translation">
-                <p></p>
+                <p>'of Cúalúath?'</p>
             </div>-->
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            <div type="commentary">
+                <p>Ziegler (1994, 156-157) suggests that this name may be made up of the word <foreign xml:lang="sga">cú</foreign> 'hound' (as in the name COVAGNI, equated with later <persName><ref target="https://dil.ie/13338">Cúán</ref></persName> 'small dog', see I-MEA-002) and <foreign xml:lang="sga"><ref target="https://dil.ie/30854">lúath</ref></foreign> 'quick, swift'.</p>
+            </div>
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="BAR1891"/>
+                      <citedRange>514-535</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>92-3, no. 96</citedRange>
                     </bibl>
+                      <bibl><ptr target="POW1994"/>
+                         <citedRange>no. 4229</citedRange>
+                     </bibl>
+                       <bibl><ptr target="ZIE1994"/> 
+                         <citedRange>156-157</citedRange>
+                     </bibl> 
                      <bibl><ptr target="MCM2004"/>
                          <citedRange>17, no. 10</citedRange>
                      </bibl>
-                     <bibl><ptr target="POW1994"/>
-                         <citedRange>no. 4229</citedRange>
-                     </bibl>
+                    
                 </listBibl>
             </div>
         </body>
