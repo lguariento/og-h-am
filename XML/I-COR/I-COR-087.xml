@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mountmusic</title>
+                <title>Cnoc Amhráin | Mountmusic</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO082-095----</idno> </p>
                                     <material>Clayslate</material> 
-                                    <objectType>Pillar <note>sunken maltese/cross-of-arcs? cross near the head/end of the pillar, carved some time after the ogham and inverted in relation to it</note></objectType> 
+                                    <objectType>Pillar (sunken maltese/cross-of-arcs? cross near the head/end of the pillar, carved some time after the ogham and inverted in relation to it)</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.6</height>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.20</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is <q>much worn, especially on the H-side</q> and the later addition of a cross damaged the first two letters of the inscription: the <q>B-half of the M and the first four scores of the following I</q> were destroyed (1945, 131).</condition>
+                                <condition>The inscription is <q>'much worn, especially on the H-side'</q> and the later addition of a cross damaged the first two letters of the inscription: the <q>'B-half of the M and the first four scores of the following I'</q> were destroyed (1945, 131).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription <q>occupies almost the whole of the inscribed angle</q> of the stone (Macalister 1945, 131). According to Macalister, the stone had been inverted at some point <q>and a <rs type="decoration">cross pattée</rs> deeply cut upon the original butt</q> (1945, 131). The  maltese cross is now near the head of the pillar.</layout>
+                                <layout>The inscription <q>'occupies almost the whole of the inscribed angle'</q> of the stone (Macalister 1945, 131). According to Macalister, the stone had been inverted at some point <q>'and a <rs type="decoration">cross pattée</rs> deeply cut upon the original butt'</q> (1945, 131). The  maltese cross is now near the head of the pillar.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -83,14 +83,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/9946">
-                                <placeName type="townland">Mountmusic</placeName> (<foreign xml:lang="ga">Cnoc Amhráin</foreign>), <placeName type="county">Co. Cork</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Mountmusic (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9946">Cnoc Amhráin</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
                                 <geo/>
                             <note>Coordinates unknown</note>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1845"><persName>Windele</persName> found the stone lying prostrate in a field and <q>had it set up again, but afterwards moved it to his own house</q> (Macalister 1945, 131).
+                        <provenance type="found" when="1845"><persName>Windele</persName> found the stone lying prostrate in a field and <q>'had it set up again, but afterwards moved it to his own house'</q> (Macalister 1945, 131).
                         </provenance>
                         <provenance type="observed" when="2004"><persName>McManus</persName> (2004, 10) recorded the stone as missing from UCC but his visit was prior to the conservation of the collection, which was carried out in <date>2006</date>. McManus didn't include a 28th stone, which was actually this ogham stone, because it was lying prostrate on the ground with the inscription hidden.</provenance>
                         <provenance type="observed">Now in University College Cork.
@@ -131,11 +131,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-26" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed empty origDate element, numbered apparatus, added description for image.</change>
 <change when="2024-07-29" who="#POC">Closed unused idno element for inventory number in repository</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
+<change when="2025-02-10" who="#POC">Added placename to title, moved logainm ref around Irish placename, added citation details to image description, updated apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-087-MAC1945-131-Montmusic-135.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-087-MAC1945-131-Montmusic-135.jpg"><desc>Drawing by Macalister (1945, 131)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -155,17 +156,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1945, 131) read: </note>
                     <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#"><supplied reason="lost">MI</supplied>NNACCANNI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">AILLUATTAN</name></persName>
+                        <persName><name nymRef="#"><supplied reason="lost">MI</supplied>NNACCANNI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">AILLUATTAN</name></persName>
                     </rdg>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
             </div>
             <div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
