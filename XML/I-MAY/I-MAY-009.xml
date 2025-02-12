@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>An Chrois (Cross Abbey)</title>
+                <title>Mainistir na Croise | Cross Abbey</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -67,7 +67,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width>0.20</width>
                                             <depth>0.15</depth>                                   
                                     </dimensions>
-                                    <p>Although not included in Macalister’s 1945 <hi rend="italic">Corpus</hi>, Westropp (1914, 77) recorded this stone as showing <q>notches on the natural-squared edge and faint traces of straight and slant scores</q>.</p>                                
+                                    <note>Although not included in Macalister’s 1945 <hi rend="italic">Corpus</hi>, Westropp (1914, 77) recorded this stone as showing <q>'notches on the natural-squared edge and faint traces of straight and slant scores'</q>.</note>                                
                                 </support>
                                 <condition>The stone is quite weathered and spalled.</condition>
                             </supportDesc>
@@ -83,11 +83,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/1399343">
-                                 <placeName type="site">Cross Abbey (<foreign xml:lang="ga">Mainistir na Croise</foreign>)</placeName>, 
+                             <origPlace corresp="#findspot">
+                                 <placeName type="site">Cross Abbey (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/1399343">Mainistir na Croise</ref></foreign>)</placeName>, 
                                  <placeName type="townland">Cross (Boyd) (<foreign xml:lang="ga">An Chrois</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
                                 <geo>54.208993, -10.083446</geo>
-                             <note>ITM Coordinates: 464096 , 830903</note></origPlace>
+                             <note>ITM Coordinates: 464096, 830903</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" notAfter="1914"><persName><surname>Westropp</surname></persName> (1914, 77) recorded this stone as one of two tall stone pillars, one on either side of a ‘walled burial space, 7 feet wide [2.1m],’ which spanned the width of the church... on the E side of the burial space at Cross Abbey, which was possibly an early Christian church site (<ref target="https://monasticon.celt.dias.ie/2930">Monasticon Hibernicum</ref>).
@@ -131,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-01" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, deleted unnecessary ref elements, commented out apparatus.</change>
     <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path</change>
-    
+    <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, moved logainm reference around Irish placename.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,12 +156,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!--<div type="apparatus">
                 <p></p>
             </div>-->
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
             </div>
             <div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                 <listBibl>
                      <bibl><ptr target="WES1914"/>
