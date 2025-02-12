@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dooghmakeon</title>
+                <title>Dumhach Mhic Eoghain | Dooghmakeon</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -71,21 +71,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions>
                                      <desc type="decoration">Described by Macalister (1945, 11) as a <q>limestone slab</q> with a <q><rs type="decoration" ref="crosses.xml#cross-of-Arcs">cross pattee</rs>, in a circle, pocked</q> (diam. 0.36m) on the broad south face.</desc>
                                 </support>
-                                <condition>Macalister (1945, 11) remarked that the inscription is <q>so badly worn and weathered that practically nothing can be made of it—especially as more than half of the inscribed angle has been spalled away</q>.</condition>
+                                <condition>Macalister (1945, 11) remarked that the inscription is <q>'so badly worn and weathered that practically nothing can be made of it—especially as more than half of the inscribed angle has been spalled away'</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 11) noted that <q>there seems to have been an ogham inscription on the sinister edge</q>. </layout>
+                                <layout>Macalister (1945, 11) noted that <q>'there seems to have been an ogham inscription on the sinister edge'</q>. </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
+                        <!--<handDesc>
                             <handNote/>                             
                             
-                        </handDesc>
+                        </handDesc>-->
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/37144">
-                                <placeName type="townland">Dooghmakeon (<foreign xml:lang="ga">Dumhach Mhic Eoghain</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Dooghmakeon (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/37144">Dumhach Mhic Eoghain</ref></foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
                                 <geo>53.742054, -9.893890</geo>
                             <note>ITM Coordinates: 475069, 778600</note>
                             </origPlace>
@@ -133,13 +133,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, updated apparatus, moved information on inscription in commentary to apparatus.</change>
     <change when="2024-08-15" who="#NW">Relaced second p with desc type decoration in support</change>
     <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path</change>
-    
+        <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, moved logainm reference around Irish placename.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-MAY/I-MAY-006_Dooghmakeon.jpg"><desc>Photograph by Nora White</desc></graphic>
-        <graphic url="IRE/I-MAY/I-MAY-006-MAC1945-11-Dooghmakeon.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-MAY/I-MAY-006-MAC1945-11-Dooghmakeon.jpg"><desc>Drawing by Macalister (1945, 11)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ma095-023002-dooghmakeon-9c7cfb7548734e28bde53ad522112152" mimeType="text/html"><desc>3d model by Gary Dempsey (Digital Heritage Age) on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -161,11 +161,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <app n="1">
                       <note>Rhys (1898, 232) read:</note>
                       <rdg source="RHY1898">
-                          <lb n="1"/><unclear reason="faded">CORBAGNI</unclear>
+                          <unclear reason="faded">CORBAGNI</unclear>
                       </rdg>
                   </app>
                     <app n="2">
-                        <note>According to Macalister (1945, 11), <q> there is a suggestion of MAQI preceded by what looks like ]OVI, the O being on the ground-line. But really the marks are so faint that it is possible to read almost anything into them : I was, however, quite unable to verify Rhys's suggestion, that remains of CORBAGNI were to be identified</q>. While ogham-like marks do appear on the relevant angle, neither of the previous readings are evident. It is possibly, as noted by Macalister, that some  of the inscription is beneath current ground level.</note>
+                        <note>According to Macalister (1945, 11), <q>'there is a suggestion of MAQI preceded by what looks like ]OVI, the O being on the ground-line. But really the marks are so faint that it is possible to read almost anything into them: I was, however, quite unable to verify Rhys's suggestion, that remains of CORBAGNI were to be identified'</q>. While ogham-like marks do appear on the relevant angle, neither of the previous readings are evident. It is possible, as noted by Macalister, that some  of the inscription is beneath current ground level.</note>
                     </app>
                 </listApp>
             </div>
