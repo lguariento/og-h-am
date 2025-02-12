@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Aghaleague</title>
+                <title>Achadh Liag | Aghaleague</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -61,19 +61,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> Record Number: <idno type="SMR">MA014-101----</idno></p>
-                                    <material>Stone <note>(sandstone)</note></material> 
+                                    <material>Stone (sandstone)</material> 
                                     <objectType>Slab</objectType> 
                                      <dimensions unit="m">
                                             <height>1.90</height>
                                             <width>2.20</width>
                                             <depth>0.15</depth>
-                                     </dimensions>
-                                    <p><q>The stone leans markedly to the north-west: the current height of the stone (i.e. vertical drop from top to the ground surface) is 1.9m, however, if the stone were fully vertical, its height would be c. 2.3m</q> (Archaeological Survey of Ireland, Field Report).</p>
+                                     </dimensions>                        
                                 </support>
-                                <condition>The stone is weathered and largely lichen-covered. The middle section of the south-west face presents a smooth, almost polished surface, probably the result of farm stock using this side of the stone as a scratching post; part of the inscription may have been obliterated here.</condition>
+                                <condition><q>'The stone leans markedly to the north-west: the current height of the stone (i.e. vertical drop from top to the ground surface) is 1.9m, however, if the stone were fully vertical, its height would be c. 2.3m'</q> (Archaeological Survey of Ireland, Field Report). The stone is weathered and largely lichen-covered. The middle section of the south-west face presents a smooth, almost polished surface, probably the result of farm stock using this side of the stone as a scratching post; part of the inscription may have been obliterated here.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription reads (<rs type="style">up</rs> on one angle of the narrow south-west face of the stone.</layout>
+                                <layout>The ogham inscription reads <rs type="style">up</rs> on one angle of the narrow south-west face of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -84,10 +83,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34228">
-                                <placeName type="townland">Aghaleague (<foreign xml:lang="ga">Achadh Liag</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Aghaleague (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/34228">Achadh Liag</ref></foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
                                 <geo>54.257414, -9.332316</geo>
-                            <note>ITM Coordinates: 513189 , 835110</note></origPlace>
+                            <note>ITM Coordinates: 513189, 835110</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" notAfter="1919">Discovered by <persName><surname>Macalister</surname></persName> and first published by him in <date>1919</date>. The townland name in Irish is <placeName type="townland"><foreign xml:lang="ga">Achadh Liag</foreign>, meaning ‘field of the pillar-stone’.</placeName>
@@ -132,13 +131,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, updated apparatus</change>
     <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path</change>
     <change when="2024-08-20" who="#NW">Replaced hex codes with ogham characters, added word tags around MAQI- name and updated lemmata</change>
-    
+    <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, moved logainm reference around Irish placename.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-MAY/I-MAY-007_Aghaleague.jpg"><desc>Photograph by Nora White</desc></graphic>
-        <graphic url="IRE/I-MAY/I-MAY-007-MAC1945-12-Aghaleague.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-MAY/I-MAY-007-MAC1945-12-Aghaleague.jpg"><desc>Drawing by Macalister (1945, 12)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ma014-101-aghaleague-9ce2d916d7c54667a3bd155dfdee0a15" mimeType="text/html"><desc>3d model by Gary Dempsey (Digital Heritage Age) on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -167,9 +166,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
+            </div>-->
             <div type="commentary">
                 <p>Macalister's ACTO, if correct (note earlier reading: OTTACI), may be related to the Old Irish verb <foreign xml:lang="sga" corresp="https://dil.ie/933">aigid</foreign> ‘to lead, drive’ and the later attested name <foreign xml:lang="sga">Achtán</foreign>. The name ACTO also occurs in inscription I-COR-041 (Ballyknock, Co. Cork). The remaining start of the father's name may contain the adjective <foreign xml:lang="sga" corresp="https://dil.ie/25369">gar</foreign> ‘short’ or <foreign xml:lang="sga" corresp="https://dil.ie/25380">garb</foreign> ‘rough’ but it is impossible to be sure with so little surviving. Names such as <foreign xml:lang="sga">Garbán</foreign> and <foreign xml:lang="sga">Garbith</foreign> appear in later manuscript sources.</p>
             </div>
