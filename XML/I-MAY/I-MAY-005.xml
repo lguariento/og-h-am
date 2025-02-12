@@ -132,7 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, updated apparatus</change>
     <change when="2024-08-16" who="#NW">Added image path</change>
-    <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, moved logainm reference around Irish placename, moved info in paragraph in support to material and objectType, added missing ogham codes in edition.</change>
+    <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, moved logainm reference around Irish placename, moved info in paragraph in support to material and objectType, added missing ogham codes in edition, replaced hex codes with ogham characters.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,11 +146,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                     <persName><w lemma="maqqas"><supplied reason="lost">&#x168B;&#x1690;</supplied><supplied reason="undefined" evidence="previouseditor">&#x168A;</supplied></w> 
-                        <name nymRef="#ceragnas"><supplied reason="undefined" evidence="previouseditor">&#x1689;&#x1693;&#x168F;&#x1690;</supplied><unclear reason="lichen">&#x1685;</unclear></name> 
+                     <persName><w lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied><supplied reason="undefined" evidence="previouseditor">ᚊ</supplied></w> 
+                        <name nymRef="#ceragnas"><supplied reason="undefined" evidence="previouseditor">ᚉᚓᚏᚐ</supplied><unclear reason="lichen">ᚅ</unclear></name> 
                      <lb n="2" style="text-direction:up"/>
-                        <w lemma="avias"><unclear reason="faded">&#x1690;</unclear>&#x1683;&#x1694;</w> 
-                         <name>&#x1690;<unclear reason="faded" cert="low">&#x1687;</unclear>&#x1693;&#x1689;&#x1693;&#x1688;&#x1690;<unclear reason="faded">&#x1694;</unclear>&#x168B;&#x1694;&#x1685;</name></persName>
+                        <w lemma="avias"><unclear reason="faded">ᚐ</unclear>ᚃᚔ</w> <name>ᚐ<unclear reason="faded" cert="low">ᚇ</unclear>ᚓᚉᚓᚈᚐ<unclear reason="faded">ᚔ</unclear>ᚋᚔᚅ</name></persName>
                 </ab>
             </div>
             <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
