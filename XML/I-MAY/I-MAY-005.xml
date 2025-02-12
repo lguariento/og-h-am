@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Corrower</title>
+                <title>Corr Odhar | Corrower</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -62,14 +62,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                      <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">MA040-048----</idno></p>
-                                    <material>Stone</material> 
-                                    <objectType>Slab</objectType>  
+                                    <material>Stone. Described by Macalister (1945, 9) as <q>'grit'</q>.</material> 
+                                    <objectType>Slab (roughly rectangular in shape but tapering gently at the base, and tapering also in thickness to relatively narrow edges at the north and south ends, both of which bear an ogham inscription. The exceptional size of the stone suggested to Macalister (1945, 9-10) that it was originally a prehistoric standing stone, adapted by a later ogham carver for an inscription.)</objectType>  
                                      <dimensions unit="m">
                                             <height>3.00</height>
                                             <width>1.05</width>
                                             <depth>0.30</depth>
                                     </dimensions>
-                                  <p>Described by Macalister (1945, 9) as <q>grit</q>. Roughly rectangular in shape but tapering gently at the base, and tapering also in thickness to relatively narrow edges at the north and south ends, both of which bear an ogham inscription. The exceptional size of the stone suggested to Macalister (1945, 9-10) that it was originally a prehistoric standing stone, adapted by a later ogham carver for an inscription.</p>
+                                  <p> </p>
                                 </support>
                                 <condition>The north end of the stone is thickly obscured by lichen, and only a number of slight indentations or possible notches can be seen (3 strokes of a possible N), which may be part of the ogham inscription. On the south end of the stone, the ogham inscription is weathered but clearly visible in places (Archaeological Survey of Ireland, Field Report).</condition>
                             </supportDesc>
@@ -85,10 +85,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34668">
-                                <placeName type="townland">Corrower (<foreign xml:lang="ga">Corr Odhar</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Corrower (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/34668">Corr Odhar</ref></foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
                                 <geo>54.072257, -9.078265</geo>
-                            <note>ITM Coordinates: 529428 , 814221</note></origPlace>
+                            <note>ITM Coordinates: 529428, 814221</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" notAfter="1945">Discovered before, or possibly in, <date>1945</date> by <persName>Mr. Austin Cunney</persName> (National School Teacher, Attymass), at the back of a farmhouse in the townland (Macalister 1945, 9). 
@@ -132,13 +132,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-07-31" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, updated apparatus</change>
     <change when="2024-08-16" who="#NW">Added image path</change>
-    
+    <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, moved logainm reference around Irish placename, moved info in paragraph in support to material and objectType, added missing ogham codes in edition.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-MAY/I-MAY-005_Corrower.jpg"><desc>Photograph by Nora White</desc></graphic>
-        <graphic url="IRE/I-MAY/I-MAY-005-MAC1945-10-Corrower.jpg"><desc>Drawing by Macalister</desc></graphic>
+        <graphic url="IRE/I-MAY/I-MAY-005-MAC1945-10-Corrower.jpg"><desc>Drawing by Macalister (1945, 10)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ma040-048-corrower-c667fc17d83c4b83834aaafec856b84e" mimeType="text/html"><desc>3d model by Gary Dempsey (Digital Heritage Age) on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -149,7 +149,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName><w lemma="maqqas"><supplied reason="lost">&#x168B;&#x1690;</supplied><supplied reason="undefined" evidence="previouseditor">&#x168A;</supplied></w> 
                         <name nymRef="#ceragnas"><supplied reason="undefined" evidence="previouseditor">&#x1689;&#x1693;&#x168F;&#x1690;</supplied><unclear reason="lichen">&#x1685;</unclear></name> 
                      <lb n="2" style="text-direction:up"/>
-                        <w lemma="avias"><unclear reason="faded">&#x1690;</unclear>VI</w> 
+                        <w lemma="avias"><unclear reason="faded">&#x1690;</unclear>&#x1683;&#x1694;</w> 
                          <name>&#x1690;<unclear reason="faded" cert="low">&#x1687;</unclear>&#x1693;&#x1689;&#x1693;&#x1688;&#x1690;<unclear reason="faded">&#x1694;</unclear>&#x168B;&#x1694;&#x1685;</name></persName>
                 </ab>
             </div>
@@ -178,7 +178,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>‘...son of <foreign xml:lang="sga">Cíarán</foreign> grandson/descendant of A?’</p>
             </div>
             <div type="commentary">
-                <p>Although only a few scores of a possible N survive of Macalister's MA]Q CERAN[I] on the left angle, if correct, this is a late spelling of the commonly occuring name <foreign xml:lang="sga">Cíarán</foreign> (in Old Irish, <foreign xml:lang="pgl">*ceragni</foreign> in Prim. Irish) 'little dark one' (<foreign xml:lang="sga" corresp="https://dil.ie/9011">cíar</foreign> plus a diminutive suffix).</p>
+                <p>Although only a few scores of a possible N survive of Macalister's [MA]Q CERAN[I] on the left angle, if correct, this is a late spelling of the commonly occuring name <foreign xml:lang="sga">Cíarán</foreign> (in Old Irish, <foreign xml:lang="pgl">*ceragni</foreign> in Prim. Irish) 'little dark one' (<foreign xml:lang="sga" corresp="https://dil.ie/9011">cíar</foreign> plus a diminutive suffix).</p>
                 <p>The second name has not been identified and some of the letters are unclear. Macalister’s reading ‘TH’ in the last name is especially uncertain. This is his interpretation of what he describes as 'two lines on the H-surface, converging upward, though their actual meeting-point is effaced, and a curve, which it is just possible to discern on the B surface, closing the figure thus formed'. He takes this to be the 0-forfid (ᚖ or θ) but with a consonant value as it appears to be between two vowels. The only other example noted by Macalister of the use of this forfid on stone is in his equally dubious reading of it in the Kilcolman inscription, Co. Kerry (I-KER-061).</p>
             </div>
             <div type="bibliography">
