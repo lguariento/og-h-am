@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kilgarvan</title>
+                <title>Cill na nGarbhán | Kilgarvan</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -82,10 +82,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>                          
-                                <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/34677">
-                                <placeName type="townland">Kilgarvan (<foreign xml:lang="ga">Cill na nGarbhán</foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
+                                <origPlace corresp="#findspot">
+                                <placeName type="townland">Kilgarvan (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/34677">Cill na nGarbhán</ref></foreign>)</placeName>, <placeName type="county">Co. Mayo</placeName>
                                 <geo>54.089953, -9.027587</geo>
-                                <note>ITM Coordinates: 532776 , 816140</note></origPlace>
+                                <note>ITM Coordinates: 532776, 816140</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="2000">Discovered by <persName>Gerry Cribben</persName> and others while carrying out fieldwork in <date>2000</date> in the north-east quadrant of <placeName type="townland">Kilgarvan</placeName> graveyard (Moore 2001, 33). <ref target="https://monasticon.celt.dias.ie/1683"><placeName type="townland">Kilgarvan (<foreign xml:lang="ga">Cill na nGarbhán</foreign> ‘Church of the Garbháns’</placeName>)</ref> is said to have been founded by St Féichéine of <ref target="https://monasticon.celt.dias.ie/3689">Fore (<foreign xml:lang="ga">Fobar</foreign>)</ref>, a Connacht man, in the seventh century.
@@ -129,7 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-01" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, deleted unnecessary ref elements, moved inscription information into apparatus.</change>
     <change when="2024-08-16" who="#NW">Updated edition and apparatus and added image path</change>
     <change when="2024-08-19" who="#NW">Corrected ref error</change>
-    
+    <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, moved logainm reference around Irish placename.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
