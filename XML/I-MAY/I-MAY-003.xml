@@ -56,8 +56,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                       <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> Record Number: <idno type="SMR">MA073-012----</idno></p>
-                                        <material>Stone. Described by Macalister (1945, 7) as <q>'schist'</q>.</material> 
-                                        <objectType>Pillar (the stone is <q>'square in cross-section and rectangular in shape, tapering slightly towards the top, bearing an ogham inscription on the NE angle'</q> (Archaeological Survey of Ireland, Field Report).)</objectType>                                   
+                                        <material resp="MAC1945">Schist</material>(check with Fionnbarr) 
+                                        <objectType>Pillar</objectType>                                   
                                         <dimensions unit="m">
                                             <height>1.28</height>
                                             <width>0.40</width>
@@ -67,7 +67,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition><q>'The flattish top (0.4m E−W; 0.25m N−S) of the stone has a slight slope to S, and is corrugated on a roughly N−S axis by several natural fissures which continue as fine striations or cracks obliquely down the N and S faces of the stone. There is an angular indentation in the lower SW corner of the stone, giving the stone an irregular cross-section at ground level. All exposed surfaces of the stone are moderately blotched with lichens'</q> (Archaeological Survey of Ireland, Field Report).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on approximately the upper two thirds of the NE angle (reading <rs type="style">up</rs>). Macalister (1945, 7) notes a possible single vowel notch towards the top of the opposite angle. He also notes the <q>'deceptive score-like appearance'</q> of the natural fissures running down from the top.</layout>
+                                <layout>The stone is <q>square in cross-section and rectangular in shape, tapering slightly towards the top, bearing an ogham inscription on the NE angle</q> (Archaeological Survey of Ireland, Field Report). The inscription is on approximately the upper two thirds of the angle (reading <rs type="style">up</rs>). Macalister (1945, 7) notes a possible single vowel notch towards the top of the opposite angle. He also notes the <q>'deceptive score-like appearance'</q> of the natural fissures running down from the top.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-20" who="#NW">Replaced hex codes with ogham characters</change>
     <change when="2024-11-06" who="#POC">Added CISP link.</change>
     <change when="2025-02-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, added extra information about the stone in support to the material and objectType elements because it was displaying incorrectly beside the National Monuments Service number on the database, added idno element for SMR IDs, moved logainm reference around Irish placename</change>
+    <change when="2025-02-13" who="#NW">Updated material and object type. Updated eDIL refs in commentary.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>  
@@ -161,7 +162,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary"> 
                 <list type="witDetail">
-                    <item n="1"><p>The personal name ALATTOS (gen. sg. of ALLATIS) appears to be a substantivised form ('wild one') of the old Irish adjective <foreign xml:lang="sga" corresp="http://www.dil.ie/2930">allaid</foreign> 'wild'. The name is also found in other ogham inscriptions with some variation in spelling with regard to L(L) and T(T): ALATTO Whitefield, Co. Kerry; ALLATO Corkaboy, Co. Kerry and ALOTTO Droumatouk, Co. Kerry. The example here is the only one displaying a pre-apocope ending -S, suggesting that it is the earliest and probably pre-6th century (McManus 1991, 103, 116). Only the first two letters of the father’s name (BR) survive. Although we cannot say what letters may have followed, two of the most common personal name elements found in ogham inscriptions which also start with BR are <foreign xml:lang="sga">bran</foreign> ‘raven’ and <foreign xml:lang="sga">broc</foreign> ‘badger’.</p></item></list>
+                    <item n="1"><p>The personal name ALATTOS (gen. sg. of ALLATIS) appears to be a substantivised form ('wild one') of the old Irish adjective <foreign xml:lang="sga"><ref target="http://www.dil.ie/2930">allaid</ref></foreign> 'wild'. The name is also found in other ogham inscriptions with some variation in spelling with regard to L(L) and T(T): ALATTO Whitefield, Co. Kerry; ALLATO Corkaboy, Co. Kerry and ALOTTO Droumatouk, Co. Kerry. The example here is the only one displaying a pre-apocope ending -S, suggesting that it is the earliest and probably pre-6th century (McManus 1991, 103, 116). Only the first two letters of the father’s name (BR) survive. Although we cannot say what letters may have followed, two of the most common personal name elements found in ogham inscriptions which also start with BR are <foreign xml:lang="sga"><ref target="https://dil.ie/6537">bran</ref></foreign> ‘raven’ and <foreign xml:lang="sga"><ref target="https://dil.ie/6891">brocc</ref></foreign> ‘badger’.</p></item></list>
             </div>
             <div type="bibliography">
                          <listBibl> 

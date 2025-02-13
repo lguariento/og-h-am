@@ -57,7 +57,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                    <p><ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">National Monuments Service</ref> Record Number: <idno type="SMR">MA093-038001-</idno>.</p> 
-                                        <material>Stone. Described by Macalister (1945, 5) as grit.</material> 
+                                        <material resp="MAC1945">Grit</material><!--(check with Fionnbarr)-->
                                         <objectType>Pillar (with <q>'a rectangular cross-section, straight sides which taper at the top to form an asymmetrical triangular peak, and an ogham inscription on the angles of the top and both sides of the E (or uppermost) face.'</q> (Archaeological Survey of Ireland, Field Report).)</objectType>                                     
                                          <dimensions unit="m" source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">
                                             <height>1.80</height>
@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-13" who="#NW">corr/sic error fixed in edition</change>
     <change when="2025-02-11" who="#POC">Added placename to title, proofreading updates, added citation details to image description, updated apparatus</change>
     <change when="2025-02-12" who="#POC">Added extra information in support to material and object type elements because it was displaying next to the National Monuments Service number</change>
+    <change when="2025-02-13" who="#NW">Updated geology. Removed extra line-breaks from edition. Updated eDIL refs in commentary.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -139,19 +140,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="transcription" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up-down"/>
                     <persName><name nymRef="#cunalenga">ᚉ<unclear reason="damage">ᚒᚅ</unclear>ᚐᚂᚓᚌ<choice><unclear>ᚔ</unclear><unclear>ᚓᚐ</unclear></choice></name>
                         <space quantity="1" unit="stroke"/><w lemma="avias" pos="">ᚐ<unclear reason="damage">ᚃ</unclear><supplied reason="lost">ᚔ</supplied></w>
-                        <lb n="2" style="text-direction:down"/><name nymRef="#cunacanis"><choice><corr>ᚉ</corr><sic>ᚊ</sic></choice>ᚒᚅᚐᚉᚐᚅᚑᚄ</name>
+                        <name nymRef="#cunacanis"><choice><corr>ᚉ</corr><sic>ᚊ</sic></choice>ᚒᚅᚐᚉᚐᚅᚑᚄ</name>
                     </persName>
                 </ab>
              </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up-down"/>
                     <persName><name nymRef="#cunalenga">C<unclear reason="damage">UN</unclear>ALEG<choice><unclear>I</unclear><unclear>EA</unclear></choice></name>
                         <space quantity="1" unit="stroke"/><w lemma="avias">A<unclear reason="damage">V</unclear><supplied reason="lost">I</supplied></w>
-                    <lb n="2" style="text-direction:down"/><name nymRef="#cunacanis"><choice><corr>C</corr><sic>Q</sic></choice>UNACANOS</name></persName>                   
+                    <name nymRef="#cunacanis"><choice><corr>C</corr><sic>Q</sic></choice>UNACANOS</name></persName>                   
                    </ab>
             </div>
             <!--<div type="apparatus">
@@ -162,7 +163,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary"> 
                 <list type="witDetail">
-                    <item n="1"><p>Macalister (1945, 5) noted that although this inscription is 'injured by wear and chipping', the reading is 'certain'. However, there are a couple of uncertainties with regard to interpretation. In the first name (CUNALEGI), the five vowel notches at the top left of the stone are equally spaced suggested an I, but we would rather expect (and perhaps should read this as) a gen. sg. ending -EA (of ā-stem, nom. sg. CUNALENGA) which would also be five notches but usually grouped 4 (for E) + 1 (for A). There is, however, a definite space between this and the A of the following word, AVI. What may be the same name appears in later genealogies as <foreign xml:lang="sga">Conlang</foreign> and is made up of the elements <foreign xml:lang="sga" corresp="https://dil.ie/13291">cú</foreign> ‘hound’ and probably a form of <foreign xml:lang="sga" corresp="https://dil.ie/30262">lingid</foreign> ‘leaps’. In the ancestor’s name (QUNACANOS), initial Q is either a hypercorrection (suggesting a later date) or an error for C. CUNACANOS, gen. sg. of i-stem CUNACANIS?, which doesn't appear to be attested later (*Conchaín?), again has the element <foreign xml:lang="sga" corresp="https://dil.ie/13291">cú</foreign> ‘hound’, this time probably with <foreign xml:lang="sga" corresp="https://dil.ie/7787">caín</foreign> ‘good/beautiful’.</p></item></list>
+                    <item n="1"><p>Macalister (1945, 5) noted that although this inscription is 'injured by wear and chipping', the reading is 'certain'. However, there are a couple of uncertainties with regard to interpretation. In the first name (CUNALEGI), the five vowel notches at the top left of the stone are equally spaced suggested an I, but we would rather expect (and perhaps should read this as) a gen. sg. ending -EA (of ā-stem, nom. sg. CUNALENGA) which would also be five notches but usually grouped 4 (for E) + 1 (for A). There is, however, a definite space between this and the A of the following word, AVI. What may be the same name appears in later genealogies as <foreign xml:lang="sga">Conlang</foreign> and is made up of the elements <foreign xml:lang="sga"><ref target="https://dil.ie/13291">cú</ref></foreign> ‘hound’ and probably a form of <foreign xml:lang="sga"><ref target="https://dil.ie/30262">lingid</ref></foreign> ‘leaps’. In the ancestor’s name (QUNACANOS), initial Q is either a hypercorrection (suggesting a later date) or an error for C. CUNACANOS, gen. sg. of i-stem CUNACANIS?, which doesn't appear to be attested later (*Conchaín?), again has the element <foreign xml:lang="sga"><ref target="https://dil.ie/13291">cú</ref></foreign> ‘hound’, this time probably with <foreign xml:lang="sga"><ref target="https://dil.ie/7787">caín</ref></foreign> ‘good/beautiful’.</p></item></list>
             </div>
             <div type="bibliography">
                  <listBibl>                                                                            
