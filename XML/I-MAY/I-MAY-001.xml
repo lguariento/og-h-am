@@ -65,10 +65,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.35</depth>
                                          </dimensions>
                                 </support>
-                                <condition>The stone is rectangular in cross-section with <q>'straight sides which taper at the top to form an asymmetrical triangular peak'</q> (Archaeological Survey of Ireland, Field Report). The <q>'face of the stone has a rather rough and weathered surface, with several irregularities and areas of possible flaking or chipping, particularly toward the apex/west end of the stone. The surface is moderately blotched with lichen. The scores on the narrow N and S sides of the stones appear somewhat better preserved than some of those on the more weathered broad face'</q> (Macalister 1945, 5). The inscription is legible despite being damaged in parts, <q>'AVI (except the A notch and distal ends of the V) and parts of some other scores are chipped away : a flake about 2-in. wide (measured at right angles to the arris) has here been broken off. The space available does not confirm Rhys's contention that the second word should be AVE, not AVI'</q> (Macalister 1945, 5). Some letters in the first name are also damaged. Only one clear notch of the U remains, one damaged and three full scores to the right follow before the A notch. However, the space allows for a more likely UN reading. The last name is remarkably clear and undamaged.</condition>
+                                <condition>The <q>face of the stone has a rather rough and weathered surface, with several irregularities and areas of possible flaking or chipping, particularly toward the apex/west end of the stone. The surface is moderately blotched with lichen. The scores on the narrow N and S sides of the stones appear somewhat better preserved than some of those on the more weathered broad face</q> (Macalister 1945, 5). The inscription is legible despite being damaged in parts.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription occupies <q>'the angles of the top and both sides of the E (or uppermost) face'</q> of the stone (Archaeological Survey of Ireland, Field Report). However, as the stone is currently leaning to an almost horizontal position, <q>'the ogham inscription is, therefore, on what now presents as the uppermost surface of the stone, formerly the E face when the stone was vertical'</q> (Archaeological Survey of Ireland, Field Report).
+                                <layout>The stone is rectangular in cross-section with <q>straight sides which taper at the top to form an asymmetrical triangular peak and an ogham inscription on the angles of the top and both sides of the E (or uppermost) face</q>. However, as the stone is currently leaning to an almost horizontal position, <q>'the ogham inscription is, therefore, on what now presents as the uppermost surface of the stone, formerly the E face when the stone was vertical'</q> (Archaeological Survey of Ireland, Field Report).
                                   </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -129,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-12" who="#POC">Added extra information in support to material and object type elements because it was displaying next to the National Monuments Service number</change>
     <change when="2025-02-13" who="#NW">Updated geology and object type. Removed extra line-breaks from edition. Updated eDIL refs in commentary.</change>
     <change when="2025-02-13" who="#POC">Proofreading changes</change>
+    <change when="2025-02-13" who="#NW">moved details on reading from condition to apparatus.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,9 +157,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name nymRef="#cunacanis"><choice><corr>C</corr><sic>Q</sic></choice>UNACANOS</name></persName>                   
                    </ab>
             </div>
-            <!--<div type="apparatus">
-                 
-            </div>-->
+            <div type="apparatus">
+               <note>Macalister (1945, 5) noted that <q>AVI (except the A notch and distal ends of the V) and parts of some other scores are chipped away : a flake about 2-in. wide (measured at right angles to the arris) has here been broken off. The space available does not confirm Rhys's contention that the second word should be AVE, not AVI</q>. Some letters in the first name are also damaged. Only one clear notch of the U remains, one damaged and three full strokes to the right follow before the A notch. However, the space allows for a more likely UN reading. The last name is remarkably clear and undamaged.</note>  
+            </div>
             <div type="translation" xml:lang="en">
                 <p>'of <foreign xml:lang="sga">Conlang</foreign>, grandson/descendant of <foreign xml:lang="sga">Conchaín</foreign>’</p>
             </div>
