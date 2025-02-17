@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ardmore 2</title>
+                <title>Aird Mhór | Ardmore 2</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>                 
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -62,29 +62,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA040-008006-</idno></p>
                                     <material>Stone (sandstone)</material> 
-                                    <objectType>fragment</objectType> 
+                                    <objectType>Fragment</objectType> 
                                      <dimensions unit="m">                                         
                                             <height>0.86</height>
                                             <width>0.30</width>
                                             <depth>0.05</depth> <!--(converted from Macalister) - Fionnbarr supplying?--> 
                                      </dimensions>                                   
                                 </support>
-                                <condition>A fragment of an ogham stone reused as building material. Broken off at both ends and also split lengthways. As noted by Macalister (1945, 260) <q>‘the distal ends of all scores on the H-side have been lost'</q>.</condition>
+                                <condition>A fragment of an ogham stone reused as building material. Broken off at both ends and also split lengthways. As noted by Macalister (1945, 260) <q>the distal ends of all scores on the H-side have been lost</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>The inscription along one angle is incomplete at both ends.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The strokes appear to be <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>, rather than pocked. The consonant strokes, where they survive in full (on the B side: N and M), are long, narrow and tapering, with the vowel strokes on the angle distinctively shorter. The M stroke is quite evenly spaced between the flanking vowel strokes so that there is no distinctive word dividsion evident.
+                            <handNote>The strokes appear to be <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>, rather than pocked. The consonant strokes, where they survive in full (on the B side: N and M), are long, narrow and tapering, with the vowel strokes on the angle distinctively shorter. The M stroke is quite evenly spaced between the flanking vowel strokes so that there is no distinctive word division evident.
                                 <height><!--letter-heights--></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                             <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/50546">
-                                <placeName type="townland">Ardocheasty (<foreign xml:lang="ga">Ard Ó Séasta</foreign>)</placeName>, <placeName type="town">Ardmore (<foreign xml:lang="ga">Aird Mhór</foreign>)</placeName> <placeName type="county">Co. Waterford</placeName>
+                             <origPlace corresp="#findspot">
+                                <placeName type="townland">Ardocheasty (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/50546">Ard Ó Séasta</ref></foreign>)</placeName>, <placeName type="town">Ardmore (<foreign xml:lang="ga">Aird Mhór</foreign>)</placeName> <placeName type="county">Co. Waterford</placeName>
                                 <geo>51.948819, -7.726118</geo>
                               <note>ITM Coordinates (approximate): 618842, 577448</note></origPlace>
                             <origDate/>
@@ -96,8 +96,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>     
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -130,12 +129,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-03" who="#NW">Updated edition with 'reason="ambiguous"' attribute to unclear tag to indicate could be any character from this aicme</change>
     <change when="2024-07-05" who="#NW">Added geo note</change>
     <change when="2024-08-16" who="#NW">Added ITM coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
-
+    <change when="2025-02-17" who="#POC">Added Irish placename to title, moved logainm reference around Irish placename in findspot, proofreading updates, added citation details to image description</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-WAT/I-WAT-003-MAC1945-260-Ardocheasty.jpg"><desc>Sketch by Macalister 1945</desc></graphic> 
+        <graphic url="IRE/I-WAT/I-WAT-003-MAC1945-260-Ardocheasty.jpg"><desc>Drawing by Macalister (1945, 260)</desc></graphic> 
             <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by the Discovery Programme not currently on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
