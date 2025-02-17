@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kilbeg</title>
+                <title>An Chill Bheag | Kilbeg</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>                 
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -82,8 +82,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/49777">
-                                <placeName type="townland">Kilbeg (<foreign xml:lang="ga">An Chill Bheag</foreign></placeName>, Civil Parish of <placeName type="parish">​Kilbarrymeaden/<foreign xml:lang="ga">Cill Bhairméidín</foreign></placeName>), <placeName type="county">Co. Waterford</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Kilbeg (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/49777">An Chill Bheag</ref></foreign></placeName>, Civil Parish of <placeName type="parish">​Kilbarrymeaden/<foreign xml:lang="ga">Cill Bhairméidín</foreign></placeName>), <placeName type="county">Co. Waterford</placeName>
                                 <geo/>
                                 <note>precise location unknown</note>
                             </origPlace>
@@ -91,13 +91,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" notAfter="1875">This stone was dug up on farmland in the townland before <date>1875</date> (Barry 1896, 129). The stone may be associated with <placeName type="parish">Kilbarrymeaden</placeName> early ecclesiastical site in the neighbouring townland, consisting of a church (in ruins) within a small rectangular graveyard and a double bullaun and well nearby (Moore 1999, 177).
                         </provenance>
-                        <provenance type="observed" when="2011">National Museum of Ireland (seen and recorded in 3d in <date>May 2011</date>)
+                        <provenance type="observed" when="2011">National Museum of Ireland (seen and recorded in 3d in <date>May 2011</date>).
                         </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
-             
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -128,12 +127,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-05-22" who="#POC">Corrected image path and added Text Class referencing FAIR vocabularies for epigraphy</change>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added note to coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
-
+    <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, added citation details to image description</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
      <facsimile>
-         <graphic url="IRE/I-WAT/I-WAT-024-MAC1945-280-Kilbeg.jpg"><desc>Sketch by Macalister 1945</desc></graphic> 
+         <graphic url="IRE/I-WAT/I-WAT-024-MAC1945-280-Kilbeg.jpg"><desc>Drawing by Macalister (1945, 280)</desc></graphic> 
         <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by David Jackson (needs re-doing) not currently on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>       
     <text>
@@ -162,7 +161,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>‘of <foreign xml:lang="sga">Béoáed</foreign> from the sept of *<foreign xml:lang="sga">Aithir</foreign>’</p>
             </div>
             <div type="commentary">
-                <p>This inscriptions records an individual name followed by a gentilic phrase with the formula word MUCOI.</p>
+                <p>This inscription records an individual name followed by a gentilic phrase with the formula word MUCOI.</p>
 <p>Linguistic Analysis: BIVODON is a compound of the o-stem adjective *biu̯o- ‘alive, living’ (OIr. béo) and the common n-stem second element *ai̯don- ‘having fire’, a derivative of *ai̯du- ‘fire’ (cf. OIr. áed; see Uhlich 1993: 145; Ziegler 1994: 98). The compound *biu̯-ai̯donos ‘having living fire’ is also attested in the more conservative form BIVAI[DO]NAS on an ogam stone from Ballaqueeney on the Isle of Man (M-IOM-002). The ending *-as has already been lost here and the middle vowel of BIVODON appears to have under­gone reduction, perhaps to a schwa that was rounded by contact with the preceding *u̯. McManus (1991: 121) wonders if the middle O represents just a graphic, not a phonetic reduction of the fully preserved diphthong *oi̯, which arose from inherited *ai̯ by rounding after the *u̯. The vowel of the third syllable is still written with its inherited value *o and may not yet have been reduced, but perhaps this spelling is just chance.</p>
 <p>Since no kin group that corresponds to MUCOI ATAR, such as OIr. *Moccu Athar, is known from later historical sources, the morphological analysis of ATAR is ambiguous. It could simp­ly be the genitive of the r-stem word for ‘father’ (Ziegler 1994: 130), i.e. correspond­ing to OIr. athar @lt; *aθər @lt; *aθr̥ @lt; *aθrah @lt; PrimIr. *atras @lt; PC *φatros @lt; qPIE *ph₂tr-os. In that case, the vowel of the second syllable would be due to epenthesis (an instance not included in Eska 2010–12). It would be remarkable that a kin group should be called ‘sept of the father’. Alter­natively, the name could continue the genitive of a name derived by suffixation with the thema­tic vowel *-o- from ‘father’. In the attested form, the final *-ī would already be lost, namely either of PrimIr. *atrī > *aθrī > *aθ’r̥’ > *aθ’ər’ (again with epenthetic vowel), or PrimIr. *atarī > *aθarī > *aθar’ > *aθər’, corresponding respectively to OIr. *aithir or *athair, the hypothetical genitives of an unattested name *athar @lt; *atros or *ataros.</p>
 <p>Apocope in both names and reduction of the internal vowel place the inscription well in the 6th century or maybe even in the early 7th.</p>
