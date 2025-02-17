@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ardmore 1</title>
+                <title>Aird Mhór | Ardmore 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -76,15 +76,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister's claim that the pillar <q>'bears two independent inscriptions in Ogham : the first, on two angles (<rs type="style">up-down</rs>), pocked ; the second, on a third angle, chiselled'</q> is questionable. The 'first' text, running up the left angle and down the right, follows an expected ogham formula (X MAQI Y MUCOI Z) with recognisable personal names. The text on the 'third' angle, however, appears to be unintelligible. Nevertheless, the carving technique (<rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>) and style of both are identical. For example, it is noteworthy that all of the consonant scores are at right angle to the angle/stemline. Consonants from the <foreign xml:lang="ga">Aicme Muine</foreign> (Ms and Gs in this inscription) are generally distinguished by their oblique angle. Although this distinction is not always strictly adhered to within the corpus, the consistency of the style of the text on all angles of this stone would suggest that it was carved by the same hand. Whether or not it is a single inscription or two seperate inscriptions is difficult to determine without an interpretation of the 'third' angle.
+                            <handNote>Macalister's claim that the pillar <q>bears two independent inscriptions in Ogham : the first, on two angles (<rs type="style">up-down</rs>), pocked ; the second, on a third angle, chiselled</q> is questionable. The 'first' text, running up the left angle and down the right, follows an expected ogham formula (X MAQI Y MUCOI Z) with recognisable personal names. The text on the 'third' angle, however, appears to be unintelligible. Nevertheless, the carving technique (<rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>) and style of both are identical. For example, it is noteworthy that all of the consonant scores are at right angle to the angle/stemline. Consonants from the <foreign xml:lang="ga">Aicme Muine</foreign> (Ms and Gs in this inscription) are generally distinguished by their oblique angle. Although this distinction is not always strictly adhered to within the corpus, the consistency of the style of the text on all angles of this stone would suggest that it was carved by the same hand. Whether or not it is a single inscription or two seperate inscriptions is difficult to determine without an interpretation of the 'third' angle.
                                 <height><!--letter-heights--></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot" ref="https://www.logainm.ie/ga/50546">
-                                <placeName type="townland">Ardocheasty (<foreign xml:lang="ga">Ard Ó Séasta</foreign>)</placeName>, <placeName type="town">Ardmore (<foreign xml:lang="ga">Aird Mhór</foreign>)</placeName> <placeName type="county">Co. Waterford</placeName>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Ardocheasty (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/50546">Ard Ó Séasta</ref></foreign>)</placeName>, <placeName type="town">Ardmore (<foreign xml:lang="ga">Aird Mhór</foreign>)</placeName> <placeName type="county">Co. Waterford</placeName>
                                 <geo>51.948752, -7.725680</geo>
                                 <note>ITM Coordinates (approximate): 618842, 577448</note>
                             </origPlace>
@@ -129,12 +129,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-05-24" who="#POC">Corrected image path</change>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added ITM coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
-
+    <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, moved logainm ref around Irish placecname, added citation details to image description</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-WAT/I-WAT-002-MAC1945-259-Ardocheasty.jpg"><desc>Sketch by Macalister 1945</desc></graphic>
+        <graphic url="IRE/I-WAT/I-WAT-002-MAC1945-259-Ardocheasty.jpg"><desc>Drawing by Macalister (1945, 259)</desc></graphic>
        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by the Discovery Programme not currently on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -154,21 +154,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                     <persName><name nymRef="#lugudics">LUGUDECCAS</name> <w lemma="maqqas">MAQ<unclear reason="faded">I</unclear><gap reason="lost" extent="unknown"/></w>
                     <lb n="2" style="text-direction:down"/>
-                        <w lemma="mucoi?"><supplied reason="lost" cert="high">MU</supplied><unclear reason="damage">C</unclear>OI</w> <name nymRef="#neta-Segamū">NETASEGAMONAS</name></persName>
+                        <w lemma="mucoi"><supplied reason="lost" cert="high">MU</supplied><unclear reason="damage">C</unclear>OI</w> <name nymRef="#neta-Segamū">NETASEGAMONAS</name></persName>
                     <lb n="3" style="text-direction:up"/>                         
                         <orig>DOLATIBIG<unclear>AI</unclear>SGO</orig><gap reason="lost" extent="unknown"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                      <app><rdg source="MAC1945">
-                <lb n="3"/> 
-                          <w>DOLATI</w> <w>BIGAISGOB<gap reason="lost"/></w>                    
-               </rdg></app>                
+                      <app n="1"><note>Macalister (1945, 259) read:</note>
+                          <rdg source="MAC1945">
+                          <lb/><persName><name nymRef="#lugudics">LUGUDECCAS</name> <w lemma="maqqas">MAQ<unclear reason="faded">I</unclear><gap reason="lost" extent="unknown"/></w>
+                              <lb/><w lemma="mucoi"><supplied reason="lost" cert="high">MU</supplied><unclear reason="damage">C</unclear>OI</w> <name nymRef="#neta-Segamū">NETA-SEGAMONAS</name></persName>
+                              <lb/><w>DOLATI</w> <w>BIGAIS-GOB<gap reason="lost"/></w>                    
+                          </rdg>
+                      </app>                
                 </listApp>
             </div>
             <div type="translation">
-                <p>of <foreign xml:lang="sga">Luguid</foreign> son of [...] from the kin of <foreign xml:lang="sga">Nad Segamon</foreign></p>
+                <p>'of <foreign xml:lang="sga">Luguid</foreign> son of [...] from the kin of <foreign xml:lang="sga">Nad Segamon</foreign>'</p>
             </div>
             <div type="commentary">
                 <p>The personal name of the person commemorated is based on the the divine name <foreign xml:lang="sga" corresp="https://dil.ie/30937">Lug</foreign>. This name is well attested in the Old Irish period; and is still in use in the Modern Irish form <foreign xml:lang="ga">Lughaí</foreign>. It is a popular name on Irish ogham stones. It occurs also as LUGUDEC (I-MAY-002, Kilmannin, Co. Mayo; LUGUDECA (I-WAT-025, Kilgrovan, Co. Waterford), and LUGUDUC (I-COR-057, Kilcullen South, Co. Cork). The various forms of the name reflect consecutive stages of language change from PrimIr. *Lugudikas to OIr. Lugaid, gen. Luigdech under the effects of apocope and stress reduction. The second element of the name is the root *dik- ‘to show, point out’. The name therefore means ‘showing or pointing out Lug’, perhaps in the sense of an intermediary between the god and ordinary people. The popular analysis as Lug + the root *dek- ‘to show respect’ (McManus 1991: 103, 178 n.17) is phonologically difficult to justify (Stifter 2010: 23–24) and is therefore rejected here.</p>
