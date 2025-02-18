@@ -65,8 +65,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/18855/logie-elphinstone"><idno type="Canmore">18855</idno></ref></p>
-                                    <material>blue granite</material> 
+                                <support><p><ref target="https://canmore.org.uk/site/18855/logie-elphinstone">Canmore</ref> <idno type="Canmore">18855</idno></p>
+                                    <material>Blue granite</material> 
                                     <objectType>Class I Pictish symbol stone/menhir</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.37</height>
@@ -93,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NJ 7034 2588</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1856"> First mentioned by J Stuart in <date>1856</date>. This was one of four stones found lying on the ground on the Moor of Carden to the west of Logie Elphinstone House in or prior to about 1821. At that time the moor was planted and three of the stones were built into the enclosing wall, while the fourth (which is not known certainly to have been carved) was used as a floor slab in a kiln and <q>‘split by the heat and destroyed’</q> (Stuart 1856,4). The three symbol stones were subsequently removed from the wall and erected in the house grounds (Forsyth 1996, 385).
+                        <provenance type="found" when="1856"> First mentioned by J Stuart in <date>1856</date>. This was one of four stones found lying on the ground on the Moor of Carden to the west of Logie Elphinstone House in or prior to about 1821. At that time the moor was planted and three of the stones were built into the enclosing wall, while the fourth (which is not known certainly to have been carved) was used as a floor slab in a kiln and <q>split by the heat and destroyed</q> (Stuart 1856,4). The three symbol stones were subsequently removed from the wall and erected in the house grounds (Forsyth 1996, 385).
                         </provenance>
                         <provenance type="observed" when="2022-05-18">Recorded on the grounds of <placeName>Logie Elphinstone House</placeName>, to the west of the house at NJ 7033 2588, on <date>May 18th 2022</date>.
                         </provenance>
@@ -132,7 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-01" who="#LH">Encoded physical description, provenance, image url and text</change>
     <change when="2024-07-11" who="#LH">Deleted orig tag and corrected lb numbering in edition, added attribute when to provenance and rs decoration to layout, and corrected spacing in support</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
-    <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid reference, closed unused elements, commented out apparatus and translation.</change>
+    <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid reference, closed unused elements, commented out apparatus and translation.</change>    <change when="2025-02-18" who="#POC">Proofreading updates, added information to apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,22 +152,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="2" style="text-direction:clockwise"/>QFTQU
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
-                </app>
+                    <app n="1">
+                        <note>The reading starts from the 10 o'clock position, as this is where the largest gap is located, and continues clockwise (Forsyth 1996, 394).</note>
+                    </app>
                 </listApp>
-            </div>-->
+            </div>
             <!--<div type="translation" xml:lang="en">
                 <p></p>
             </div>-->
             <div type="commentary">
                  <list type="witDetail">
-                    <item n="1"><p>The placement of the symbols suggests that the ogham was accounted for in the original design, which further implies that the ogham relates to the same phase as the symbols. The stone is a palimpsest as there are visible remains of a partially-erased double-disc and Z-rod under the symbols; however, the overall layout strongly supports the assumption that the ogham relates to the second phase (Forsyth 1996, 391-2).</p>
-                    </item>
-                    <item n="2"><p>The reading starts from the 10 o'clock position, as this is where the largest gap is located, and continues clockwise (Forsyth 1996, 394).</p>                      
-                    </item>
-                    <item n="3"><p>Logie is the shortest complete monumental ogham text in Scotland (Forsyth 1996, 398) and as such cannot be readily interpreted. According to Forsyth, the lack of vowels <q>'strongly suggests that the sequence is either encoded, or has no linguistic significance'</q> (ibid).</p>
+                    <item n="1"><p>The placement of the symbols suggests that the ogham was accounted for in the original design, which further implies that the ogham relates to the same phase as the symbols. The stone is a palimpsest as there are visible remains of a partially-erased double-disc and Z-rod under the symbols; however, the overall layout strongly supports the assumption that the ogham relates to the second phase (Forsyth 1996, 391-2).</p></item>
+                     <item n="2"><p>Logie is the shortest complete monumental ogham text in Scotland (Forsyth 1996, 398) and as such cannot be readily interpreted. According to Forsyth, the lack of vowels <q>strongly suggests that the sequence is either encoded, or has no linguistic significance</q> (ibid).</p>
                     </item>
                  </list>
             </div>

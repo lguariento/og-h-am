@@ -67,23 +67,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/18086/newton-house-the-newton-stone"><idno type="Canmore"></idno>18086</ref></p>
-                                    <material>grey gneissose granite</material> 
-                                    <objectType>menhir</objectType>                                     
+                                <support><p><ref target="https://canmore.org.uk/site/18086/newton-house-the-newton-stone">Canmore</ref> <idno type="Canmore">18086</idno></p>
+                                    <material>Grey gneissose granite</material> 
+                                    <objectType>Menhir</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>2.09</height>
                                             <width>0.70</width>
                                             <depth>0.40</depth>
                                      </dimensions>         
                                 </support>
-                                <condition>Complete and carving well preserved, though the final portion of the longer text has been defaced (Forsyth 1996, 424, 426).</condition>
+                                <condition>Complete with a well preserved carving, though the final portion of the longer text has been defaced (Forsyth 1996, 424, 426).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>There are six lines of seemingly Roman alphabetic characters at the top right of the pillar and an ogham inscription runs on the left-hand edge, consisting of a longer <dimensions unit="cm" quantity="14.5"><height>(14.5 cm)</height></dimensions> and a shorter <dimensions unit="cm" quantity="5"><height>(5cm)</height></dimensions> section and reading from the top down (Forsyth 1996, 424-6). The shorter section of ogham script has a drawn-in stem <q>'inserted between the distal tips of the first two strokes of'</q> the 20th letter (Forsyth 1996, 430). It curves sharply preceding the 21st letter and then continues straight up, parallel to the initial hypothetical stem (ibid).</layout>
+                                <layout>There are six lines of seemingly Roman alphabetic characters at the top right of the pillar and an ogham inscription runs on the left-hand edge, consisting of a longer <dimensions unit="cm" quantity="14.5"><height>(14.5 cm)</height></dimensions> and a shorter <dimensions unit="cm" quantity="5"><height>(5cm)</height></dimensions> section and reading from the top down (Forsyth 1996, 424-6). The shorter section of ogham script has a drawn-in stem <q>inserted between the distal tips of the first two strokes of</q> the 20th letter (Forsyth 1996, 430). It curves sharply preceding the 21st letter and then continues straight up, parallel to the initial hypothetical stem (ibid).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and subsequently smoothed (Gordon 1956, 41). From the 14th letter onwards, the incription is more tightly packed but there are clear gaps between all the ogham letters throughout (Forsyth 1996, 426, 430).
+                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and subsequently smoothed (Gordon 1956, 41). From the 14th letter onwards, the inscription is more tightly packed but there are clear gaps between all the ogham letters throughout (Forsyth 1996, 426, 430).
                                 <height>An average of 4-6cm for the longer section, and for the shorter section, an average of 7.5cm for long strokes and 5cm for short strokes (Forsyth 1996, 425).</height>
                             </handNote>
                         </handDesc>
@@ -139,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-11" who="#LH">Corrected quotation marks in layout, spacing in support and lb numbering in edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid reference, closed unused elements, commented out apparatus and translation</change>
+    <change when="2025-02-18" who="#POC">Proofreading updates, added information to apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -166,26 +167,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="4" style="text-direction:up" break="no"/><add place="right">IOSR<unclear reason="illegible">Ṛ</unclear></add> <!--encode drawn stem-line?-->
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1"><note>The ogham and non-ogham inscriptions are not transliterations of each other and do not seem to correspond with any section of the other (Forsyth 1996, 425). The non-ogham inscription was initially believed to be a forgery from the early nineteenth century, but Gordon disproved this in his study, showing that the two had indeed been carved by different hands but used a similar technique (Gordon 1956, 41, 44).</note>                    
                 </app>
+                    <app n="2"><note>It is unclear whether the defaced portion of the longer ogham section is repeated at the start of the drawn stem-line. The shorter section could be a correction or an alteration, but it seems more likely that it is a continuation of the longer section (Forsyth 1996, 426).</note>
+                    </app>
+                    <app n="3"><note>While unusual, reading the ogham inscription from the top down (left-to-right with the head to the right) is more feasible because it provides a more intelligible reading and would also explain the curving of the shorter section at the bottom of the stone (Forsyth 1996, 427). If the inscription had started at the bottom, the inscription could have progressed upwards and could have continued across the top of the stone and down if more space was needed, as is the case for certain Irish stones (ibid).</note>
+                    </app>
                 </listApp>
-            </div>-->
+            </div>
             <!--<div type="translation" xml:lang="en">
                 <p></p>
             </div>-->
             <div type="commentary">
                  <list type="witDetail">
-                    <item n="1"><p>The ogham and non-ogham inscriptions are not transliterations of each other and do not seem to correspond with any section of the other (Forsyth 1996, 425). The non-ogham inscription was initially believed to be a forgery from the early nineteenth century, but Gordon disproved this in his study, showing that the two had indeed been carved by different hands but used a similar technique (Gordon 1956, 41, 44).</p>
+                    <item n="1"><p>Given the uncertainty of the final section of the inscription, it is not possible to assuredly determine its syntax and in extension its meaning. Nevertheless, Forsyth suggests three possibilities: 1) three personal names with no formula words: 'Idamon (, or :) Vorenn (and) [?]', 2) three names plus KOI: 'Idamon: Vorenn hoi [?]' and 3) three names plus ipe: either 'X, Y ipe Z ', or 'X, Y, ipe-Z' (Forsyth 1996, 436).</p>
                     </item>
-                     <item n="2"><p>It is unclear whether the defaced portion of the longer ogham section is repeated at the start of the drawn stem-line. The shorter section could be a correction or an alteration, but it seems more likely that it is a continuation of the longer section (Forsyth 1996, 426).</p>                      
-                     </item>
-                     <item n="3"><p>While unusual, reading the ogham inscription from the top down (left-to-right with the head to the right) is more feasible because it provides a more intelligible reading and would also explain the curving of the shorter section at the bottom of the stone (Forsyth 1996, 427). If the inscription had started at the bottom, the inscription could have progressed upwards and could have continued across the top of the stone and down if more space was needed, as is the case for certain Irish stones (ibid).</p>                        
-                     </item>
-                     <item n="4"><p>Given the uncertainty of the final section of the inscription, it is not possible to assuredly determine its syntax and in extension its meaning. Nevertheless, Forsyth suggests three possibilities: 1) three personal names with no formula words: 'Idamon (, or :) Vorenn (and) [?]', 2) three names plus KOI: 'Idamon: Vorenn hoi [?]' and 3) three names plus ipe: either 'X, Y ipe Z ', or 'X, Y, ipe-Z' (Forsyth 1996, 436).</p>
-                     </item>
-                     <item n="5"><p>Without an improved understanding of the text, it is not possible to accurately determine the date of origin. It could be dated anywhere between the sixth or eighth century, though more likely in the seventh century and earlier given the subsequent decline of the individual inscribed memorial as a monument type throughout the British Isles (Forsyth 1996, 441).</p>
+                     <item n="2"><p>Without an improved understanding of the text, it is not possible to accurately determine the date of origin. It could be dated anywhere between the sixth or eighth century, though more likely in the seventh century and earlier given the subsequent decline of the individual inscribed memorial as a monument type throughout the British Isles (Forsyth 1996, 441).</p>                    
                      </item>
                  </list>
             </div>
