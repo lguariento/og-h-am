@@ -66,8 +66,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/18894/brandsbutt-inverurie-symbol-stone"><idno type="Canmore">18894</idno></ref></p>
-                                    <material>dark whinstone</material> 
+                                <support><p><ref target="https://canmore.org.uk/site/18894/brandsbutt-inverurie-symbol-stone">Canmore</ref> <idno type="Canmore">18894</idno></p>
+                                    <material>Dark whinstone</material> 
                                     <objectType>Class I Pictish symbol stone/menhir</objectType>                      
                                     <dimensions unit="m">                                         
                                             <height>1.07</height>
@@ -78,11 +78,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The stone is a large roughly triangular mass broken into several pieces, but the extant carving is well-preserved (Forsyth 1996, 103).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The smoothest face of the stone is incised with two <rs type="decoration">Pictish symbols</rs>, a <rs type="decoration">crescent-and-V-rod</rs> and a <rs type="decoration">snake-and-Z-rod</rs>, and and an ogham inscription runs parrallel with the left edge (Forsyth 1996, 103).</layout>
+                                <layout>The smoothest face of the stone is incised with two <rs type="decoration">Pictish symbols</rs>, a <rs type="decoration">crescent-and-V-rod</rs> and a <rs type="decoration">snake-and-Z-rod</rs>, and an ogham inscription runs parrallel with the left edge (Forsyth 1996, 103).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and subsequently smoothed (Gordon 1956, 44). According to Gordon's description, both the symbols and the ogham inscription were <q>'improved to such an extent that its shallow grooves are smooth and regular, contrasting clearly with the flat but roughish surface of the boulder'</q> (ibid). Individual strokes as well as letters are tightly packed (Forsyth 1996, 112). The stem-line is arranged vertically on the face, is more or less straight, though it wavers slightly, and it runs roughly parallel with the stone's left-hand edge (Forsyth 1996, 109). It is 3cm across at the surface, but only 1cm at the bottom of the channel (Forsyth 1996, 105).
+                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and subsequently smoothed (Gordon 1956, 44). According to Gordon's description, both the symbols and the ogham inscription were <q>improved to such an extent that its shallow grooves are smooth and regular, contrasting clearly with the flat but roughish surface of the boulder</q> (ibid). Individual strokes as well as letters are tightly packed (Forsyth 1996, 112). The stem-line is arranged vertically on the face, is more or less straight, though it wavers slightly, and it runs roughly parallel with the stone's left-hand edge (Forsyth 1996, 109). It is 3cm across at the surface, but only 1cm at the bottom of the channel (Forsyth 1996, 105).
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -94,7 +94,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NJ 75992 22403</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">The Ogham was first reported in the Proceedings of the Society of Antiquaries of Scoland Journal in <date>1901</date> by Frederick R. Coles (Coles 1901, 230). The stone was broken up and used to build a field dyke at some time prior to the late nineteenth century. The large lower portion was recorded in the wall in <date>1899</date>, and when shortly afterwards the wall was dismantled other fragments were found. The fragments were reassembled and cemented together sometime prior to <date>1950</date> (Forsyth 1996, 102-3).
+                        <provenance type="found" when="1901">The ogham was first reported in the Proceedings of the Society of Antiquaries of Scotland Journal in <date>1901</date> by Frederick R. Coles (Coles 1901, 230). The stone was broken up and used to build a field dyke at some time prior to the late nineteenth century. The large lower portion was recorded in the wall in <date>1899</date>, and when shortly afterwards the wall was dismantled other fragments were found. The fragments were reassembled and cemented together sometime prior to <date>1950</date> (Forsyth 1996, 102-3).
                         </provenance>
                         <provenance type="observed" when="2022-05-19">Recorded in a small enclosure near the junction of Brankie Road and Gordon Terrace in the north-west area of <placeName>Inverurie</placeName> on <date>May 19th 2022</date>.
                         </provenance>
@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-11" who="#LH">Deleted orig tag from edition, corrected lb numbering, added spacing in support and rs decoration in layout</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-03" who="#POC">Added National Grid References, added paragraph to support, commented out apparatus and translation, closed unused elements</change>
+    <change when="2025-02-18" who="#POC">Proofreading updates, moved information in commentary to apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,12 +157,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     IRATADDOARENS<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
-                </app>
+                    <app n="1">
+                        <note>While the transliteration of the ogham inscription is unambiguous, the interpretation remains uncertain. The most likely interpretation is a single personal name, taking into consideration the length of the text. However, it is uncertain whether the thirteen letters are a complete text as they are, or whether there are any letters missing from the end (Forsyth 1996, 112-3).</note>
+                    </app>
                 </listApp>
-            </div>-->
+            </div>
             <!--<div type="translation" xml:lang="en">
                 <p></p>
             </div>-->
@@ -170,8 +172,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <item n="1"><p>The dimensions are approximate metric equivalents of dimensions listed by Romilly Allen (Allen 1903, 507). Forsyth noted that precise measurements are difficult to obtain given the irregular shape of the stone (Forsyth 1996, 103-4).</p>
                     </item>
                     <item n="2"><p>The original orientation of the stone is assumed to have been vertical. Given that the ogham inscription is situated vertically relative to the intact sides of the stone, it is further assumed that the original orientation of the inscription was vertical as well despite its current diagonal axis (Forsyth 1996, 104).</p>
-                    </item>
-                    <item n="3"><p>While the transliteration of the ogham inscription is unambiguous, the interpretation remains uncertain. The most likely interpretation is a single personal name, taking into consideration the length of the text. However, it is uncertain whether the thirteen letters are a complete text as they are, or whether there are any letters missing from the end (Forsyth 1996, 112-3).</p>
                     </item>
                  </list>
             </div>
