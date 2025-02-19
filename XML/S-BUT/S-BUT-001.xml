@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore<ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave"><idno type="canmore">39229</idno>King's Cave Drumadoon</ref></p>
+                                <support><p><ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave">Canmore</ref> <idno type="canmore">39229</idno>: King's Cave Drumadoon</p>
                                     <material>Sandstone</material>
                                     <objectType>Cave Graffiti</objectType>
                                     <!--<dimensions unit="m">
@@ -87,17 +87,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                       The inscription is carved on the left-hand wall of the cave, about <height unit="m">2</height> above the present floor. It is about <dim type="depth" unit="m">9</dim> from the entrance gate with a panel of snake-like, loose spirla interlace graffiti in the same area (Forsyth 1996, 94-95). 
+                                       The inscription is carved on the left-hand wall of the cave, about <height unit="m">2 m</height> above the present floor. It is about <dim type="depth" unit="m">9 m</dim> from the entrance gate with a panel of snake-like, loose spiral interlace graffiti in the same area (Forsyth 1996, 94-95). 
                                     </p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>
-                                   The stem line runs vertically between two patches of wear, the lower <height unit="cm">26</height>, the upper <height unit="cm">8.4</height>. The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. Immediately after the end of the upper patch there is a clear cross-stroke where the stem appears to end. There is a potential similar stroke below the lower patch, but not absolutely clear. These two end-strokes are about <dim type="length" unit="m">0.500</dim> apart. Nothing is visible in the upper patch of 
-wear, in the lower there may be traces of occasional strokes, but these are very faint (Forsyth 1996, 94).    
-                                </p>
+                                   The stem line runs vertically between two patches of wear, the lower <height unit="cm">26 cm</height>, the upper <height unit="cm">8.4 cm</height>. The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. Immediately after the end of the upper patch there is a clear cross-stroke where the stem appears to end. There is a potential similar stroke below the lower patch, but not absolutely clear. These two end-strokes are about <dim type="length" unit="m">0.500 m</dim> apart. Nothing is visible in the upper patch of wear, in the lower there may be traces of occasional strokes, but these are very faint (Forsyth 1996, 94).    
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -109,20 +106,12 @@ wear, in the lower there may be traces of occasional strokes, but these are very
                             <geo>55.526111, -5.353333</geo>
                             <note>National Grid Reference: NR 8844 3092</note>
                         </origPlace>
-                            <origDate notBefore-custom="600" precision="low" evidence="lettering">
-                                    Represent examples of simple Type II inscriptions lacking the late features so they should be placed near the beginning of the Type II series. <q>'At best this 
-would offer a relative date, but since simple Type n ogham continued in use alongside more ambitious, 
-formal varieties of the script, inscriptions using this form cannot be closely dated. They could be as early 
-as the Pool ogham (sixth century) or later than Dunadd (late eighth century?)'</q>(Forsyth 1996, 99).
-                            </origDate>
+                            <origDate notBefore-custom="600" precision="low" evidence="lettering"/>
                         </origin>
-                        <provenance type="found">
-                            <q>' The animal and geometric carvings have been known since at least the end of the seventeenth century, but 
-the presence of ogham was not noticed until about <date>1968</date>'</q>(Forsyth 1996, 94).
+                        <provenance type="found" when="1968">
+                            <q>The animal and geometric carvings have been known since at least the end of the seventeenth century, but the presence of ogham was not noticed until about <date>1968</date></q> (Forsyth 1996, 94).
                         </provenance>
-                        <provenance type="observed">In situ.
-                            <q>'Kenneth Steer of the RCAHMS... visited 
-the cave... in <date>September 1971</date> to examine, measure, and draw the inscription.'</q>(Forsyth 1996, 94).
+                        <provenance type="observed">In situ. Kenneth Steer of the RCAHMS examined, measured, and drew the inscription when he visited the cave in <date>September 1971</date> (Forsyth 1996, 94).
                         </provenance>
                     </history>
                 </msDesc>
@@ -162,16 +151,13 @@ the cave... in <date>September 1971</date> to examine, measure, and draw the ins
                 <change when="2024-07-10" who="#XS">Xenia updated transcription and transliteration according to new updated readings spreadsheet</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-05" who="#POC">Added paragraph to support and National Grid Reference details, closed unused elements, updated handNote, commented out apparatus and translation</change>
+                <change when="2025-02-19" who="#POC">Proofreading updates</change>                       
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="example.jpg"/>
-        <media url="example.jpg" mimeType="html">
-        <desc>
-            [e.g. 3d model by Megan on SketchFab]
-        </desc>
-        </media>
+        <media url="example.jpg" mimeType="html"><desc>[e.g. 3d model by Megan on SketchFab]</desc></media>
     </facsimile>
     <text>
         <body>
@@ -192,28 +178,29 @@ the cave... in <date>September 1971</date> to examine, measure, and draw the ins
                     <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                    <app>
-                     
+                    <app n="1">
+                     <note>Jackson (1971) read:  </note>
+                        <rdg>EOMEDTE or EOMEQE</rdg>
                     </app>
-                <!-\-</listApp>-\->
-            </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+                    <app n="2">
+                        <note>Or in the unlikely event of the text being read downwards: </note>
+                        <rdg>EVLEMOE or ENEMOE</rdg>
+                    </app>
+                    <app n="3">
+                        <note>Forsyth (1996, 96) proposed the following reading: </note>
+                        <rdg>H(i/e)OMEQ(i/e)[~]</rdg>
+                    </app>
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>For the translation due to gaps caused by fissures and graffiti we only have <q>the last two letters of the first name and at most the first name of the second. The MEQ can be compared with the MEQQ (gen. of macc) 'son'</q> (Forsyth 1996, 96).</p>
+            </div>
             <div type="commentary">
                 <list type="witDetail">
                     <item n="1">
-                        <p>
-                            <q>Jackson read: EOMEDTE or EOMEQE (or in 
-the unlikely event of the text being read downwards EVLEMOE or ENEMOE). I would prefer: 
-H(i/e)OMEQ(i/e)[~]</q> (Forsyth 1996, 96).
-                        </p>
-                    </item>
-                    <item n="2">
-                        <p>For the translation due to gaps caused by fissures and graffiti we only have <q>'the last two letters of the first name and at most the first name of the second. The MEQ can be compared with the MEQQ (gen. of macc 'son''</q> (Forsyth 1996, 96).
-                        </p>
+                        <p>The inscription is an example of simple Type II inscriptions lacking the late features so they should be placed near the beginning of the Type II series. According to Forsyth, <q>At best this would offer a relative date, but since simple Type II ogham continued in use alongside more ambitious, formal varieties of the script, inscriptions using this form cannot be closely dated. They could be as early as the Pool ogham (sixth century) or later than Dunadd (late eighth century?)</q> (1996, 99).</p>
                     </item>
                 </list>
             </div>
@@ -222,6 +209,10 @@ H(i/e)OMEQ(i/e)[~]</q> (Forsyth 1996, 96).
                     <bibl>
                         <ptr target="FOR1996"/>
                             <citedRange>93-100</citedRange>
+                    </bibl>
+                    <bibl>
+                        <ptr target="JAC1971"/>
+                    <!--<citedRange></citedRange>-->
                     </bibl>
                 </listBibl>
             </div>
