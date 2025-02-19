@@ -66,7 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/32300/kirriemuir"><idno type="Canmore">32300</idno></ref></p>
+                                <support><p><ref target="https://canmore.org.uk/site/32300/kirriemuir">Canmore</ref> <idno type="Canmore">32300</idno></p>
                                     <material>Sandstone</material> 
                                     <objectType>Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Weathered but intact.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The left-hand edge of the slab possibly features an ogham inscription below a <rs type="decoration">key pattern</rs>. The front face is decorated with a <rs type="decoration">cross</rs> with <q>'a <rs type="decoration">cloaked man</rs> clutching a small square shield and a staff on one side of the shaft and a <rs type="decoration">hunting scene</rs> on the other'</q> (Fraser 2008, 56). The back face depicts <rs type="decoration">two huntsmen on horseback</rs> with a <rs type="decoration">double-disc and Z-rod symbol</rs> accompanying the upper figure (ibid).</layout>
+                                <layout>The left-hand edge of the slab possibly features an ogham inscription below a <rs type="decoration">key pattern</rs>. The front face is decorated with a <rs type="decoration">cross</rs> with <q>a <rs type="decoration">cloaked man</rs> clutching a small square shield and a staff on one side of the shaft and a <rs type="decoration">hunting scene</rs> on the other</q> (Fraser 2008, 56). The back face depicts <rs type="decoration">two huntsmen on horseback</rs> with a <rs type="decoration">double-disc and Z-rod symbol</rs> accompanying the upper figure (ibid).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -94,9 +94,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NO 3895 5448</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1787">The first recording of the ogham inscription is an illustration by John Borland as part of the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS) collection published online on Canmore <ref target="https://canmore.org.uk/site/32300/kirriemuir"/>. The stone was re-used for the foundations of the old <placeName>Parish Church of Kirriemuir</placeName> and was found in <date>1787</date> when the church was being demolished (Stuart 1856, 14).
+                        <provenance type="found" when="1787">Also known as Kirriemuir 2, the first recording of the ogham inscription is an illustration by John Borland as part of the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS) collection published online on <ref target="https://canmore.org.uk/site/32300/kirriemuir">Canmore</ref>. The stone was re-used for the foundations of the old <placeName>Parish Church of Kirriemuir</placeName> and was found in <date>1787</date> when the church was being demolished (Stuart 1856, 14).
                         </provenance>
-                        <provenance type="observed">Recorded in <placeName>Meffan Museum and Gallery, Forfar</placeName> <!--on <date></date>-->
+                        <provenance type="observed">Recorded in <placeName>Meffan Museum and Gallery, Forfar</placeName>. <!--on <date></date>-->
                         </provenance>
                     </history>
                 </msDesc>
@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-12" who="#LH">Encoded layout and provenance</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
+    <change when="2025-02-19" who="#POC">Moved information from commentary to provenance</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -165,9 +166,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>-->
             <div type="commentary">
                  <list type="witDetail">
-                    <item n="1"><p>Also known as Kirriemuir 2.</p>
-                    </item>
-                    <item n="2"><p>Information about the ogham inscription and its analysis is limited due to the lack of publications.</p>
+                    <item n="1"><p>Information about the ogham inscription and its analysis is limited due to the lack of publications.</p>
                     </item>
                  </list>
             </div>
