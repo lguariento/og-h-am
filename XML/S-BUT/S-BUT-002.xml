@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave"><idno type="Canmore">39229</idno>King's Cave, Drumadoon</ref></p>
+                                <support><p><ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave">Canmore</ref> <idno type="Canmore">39229</idno> King's Cave, Drumadoon</p>
                                     <material>Sandstone</material> 
                                     <objectType>Cave graffiti</objectType>                                     
                                     <!--<dimensions unit="m">
@@ -87,17 +87,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                        The inscription is about <depth unit="m">11</depth> from the entrance of the cave.<q>'From the photograph, approximately <height unit="cm">29</height> of stem-line is visible'</q> (Forsyth 1996, 97).The inscription has a near-vertical stem-line.
+                                        The inscription is about <depth unit="m">11 m</depth> from the entrance of the cave. <q>From the photograph, approximately <height unit="cm">29 cm</height> of stem-line is visible</q> (Forsyth 1996, 97). The inscription has a near-vertical stem-line.
                                     </p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>
-                                <p>
-                                        The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. Strokes and letters are widely spaced and vary in length.<q>'The strokes appear V-shaped in section and are slashed across the surface of the rock. Some strokes, especially to the right of the stem, seem exceptionally long'</q> (Forsyth 1996, 97).
-                                </p>
-                                <height>Varies, with longer strokes to the right</height>
+                                        The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. Strokes and letters are widely spaced and vary in length. <q>The strokes appear V-shaped in section and are slashed across the surface of the rock. Some strokes, especially to the right of the stem, seem exceptionally long</q> (Forsyth 1996, 97).
+                                <height>The length of the letters vary with longer strokes to the right</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -109,20 +107,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <geo>55.526111, -5.353333</geo>
                             <note>National Grid Reference: NR 8844 3092</note>
                         </origPlace>
-                            <origDate notBefore-custom="600" precision="low" evidence="lettering">
-                                    Represent examples of simple Type II inscriptions lacking the late features so they should be placed near the beginning of the Type II series. <q>'At best this 
-would offer a relative date, but since simple Type n ogham continued in use alongside more ambitious, 
-formal varieties of the script, inscriptions using this form cannot be closely dated. They could be as early 
-as the Pool ogham <date>sixth century</date> or later than Dunadd <date>late eight century</date>'</q> (Forsyth 1996, 99).
-                            </origDate>
+                            <origDate notBefore-custom="600" precision="low" evidence="lettering"/>
+                                    
                          </origin>
                         <provenance type="found" when="1992">
-                            <q>'Though only a short distance away, the second ogham<name xml:id="S-BUT-002">Blackwaterfoot 2</name> was not discovered until <date>1992</date> by Ian Fisher of the RCAHMS'</q> (Forsyth 1996, 94).
+                            <q>Though only a short distance away, the second ogham <name xml:id="S-BUT-002">Blackwaterfoot 2</name> was not discovered until <date>1992</date> by Ian Fisher of the RCAHMS while conducting further survey work of the cave</q> (Forsyth 1996, 94).
                         </provenance>
                         <provenance type="observed" when="1992">In situ.
-                            <p>
-                              In <date>1992</date> Ian Fisher of the RCAHMS carried out further survey work of the cave which is also when he discovered Blackwaterfoot 2 (Forsyth 1996, 94).
-                            </p>
                         </provenance>
                     </history>
                 </msDesc>
@@ -161,6 +152,7 @@ as the Pool ogham <date>sixth century</date> or later than Dunadd <date>late eig
                 <change when="2024-07-10" who="#XS">Xenia Spanachi altered transcription and transliteration encodings to fit new updated readings spreadsheet</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-05" who="#POC">Added paragraph to support and National Grid Reference, updated handNote, closed unused elements, commented out apparatus and translation</change>
+                <change when="2025-02-19" who="#POC">Proofreading updates</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -184,20 +176,22 @@ as the Pool ogham <date>sixth century</date> or later than Dunadd <date>late eig
                     VUEDLA
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">  
+                    <note>The divergence of the second stroke to the first letter raises the possibility that it is two letters B and L.</note>
                 </app>
                 </listApp>
-            </div>-->
+            </div>
             <!--<div type="translation" xml:lang="en">
                 <p></p>
             </div>-->
             <div type="commentary">
                  <list type="witDetail">
-                    <item n="1"><p>The divergence of the second stroke to the first letter raises the possibility that it is two letters B and L</p>
+                    <item n="1"><p><q>The name Vuedla calls to mind the uidlua, 'wise woman, witch' of the famous Gualish inscription from Larzac</q> (Forsyth 1996, 99).</p>
                     </item>
-                        <item n="2"><p><q>The name Vuedla calls to mind the uidlua, 'wise woman, witch' of the famous Gualish inscription from Larzac'</q> (Forsyth 1996,99).</p>
+                  <item n="2">
+                        <p>The inscription is an example of simple Type II inscriptions lacking the late features so they should be placed near the beginning of the Type II series. According to Forsyth, <q>At best this would offer a relative date, but since simple Type II ogham continued in use alongside more ambitious, formal varieties of the script, inscriptions using this form cannot be closely dated. They could be as early as the Pool ogham (sixth century) or later than Dunadd (late eighth century?)</q> (1996, 99).</p>
                     </item>
                  </list>
             </div>
