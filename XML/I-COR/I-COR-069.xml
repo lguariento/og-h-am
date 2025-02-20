@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>There is unusual variation in the size of the consonant strokes in this inscription, the vowel strokes by comparison are relatively uniform and wedge-shaped. The first couple of consonants are <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">v-cut</rs> and quite tightly spaced. From the R to the Q, the strokes are broader, deeper and more widely spaced. They also appear to have been <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. For most of the final word, the carving technique appears to revert back to more tighly spaced and finer <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">v-cuts</rs>. However, the final three strokes once again appear to have been <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. Also, although there are faint traces of what looks like a faint stroke between the final character of the first name and the M of the following word (closer to the M), it does not seem to be part of the inscription. This leaves quite a bit of space (110mm) between the inital personal name and the rest of the inscription.
+                            <handNote>There is unusual variation in the size of the consonant strokes in this inscription, the vowel strokes by comparison are relatively uniform and wedge-shaped. The first couple of consonants are <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">v-cut</rs> and quite tightly spaced. From the R to the Q, the strokes are broader, deeper and more widely spaced. They also appear to have been <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. For most of the final word, the carving technique appears to revert back to more tighly spaced and finer <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">v-cuts</rs>. However, the final three strokes once again appear to have been <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. It is also striking that the carver has confused the <foreign xml:lang="sga">aicmi</foreign>, carving T for V, N for Q, and vice versa. Finally, there is quite a bit of space (110mm) left between the inital personal name and the rest of the inscription.
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -128,7 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, deleted note element from within objectType to fix display, commented out empty media, translation, and commentary, deleted lb from Macalister reading in apparatus</change>
 <change when="2025-02-07" who="#POC">Fixed placename display</change>
-<change when="2025-02-20" who="#NW">Added 3d recording info (DP) and image path. Updated support desc from Brash and added refs to bibl. Updated edition.</change>     
+<change when="2025-02-20" who="#NW">Added 3d recording info (DP) and image path. Updated support desc from Brash and added refs to bibl. Updated edition, including confused aicme and space after initial name.</change>     
     
 </listChange>
 </revisionDesc>
@@ -152,7 +152,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </choice>ᚏᚓ<choice>
                          <sic>ᚅ</sic>
                         <corr>ᚊ</corr>
-                    </choice></name> <w type="formula" lemma="muccoviias">ᚋᚑ<choice>
+                    </choice></name><space unit="mm" quantity="110"/><w type="formula" lemma="muccoviias">ᚋᚑ<choice>
                         <sic>ᚅ</sic>
                         <corr>ᚊ</corr>
                     </choice>ᚑᚔ</w> <name nymRef="#glunlegget?">ᚌ<choice>
@@ -200,13 +200,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </choice></name></persName> 
                 </ab>
             </div>
-            <div type="apparatus"/>               
+            <div type="apparatus">
+                <listApp>
+                    <app n="1"><note>Although there are traces of what looks like a faint stroke between the final character of the first name and the M of the following word (closer to the M), it does not seem to be part of the inscription.</note></app>
+                </listApp>
+            </div>               
             
             <div type="translation">
-                <p></p>
+                <p/>
             </div>
             <div type="commentary">
-                <p></p>
+                <p/>
             </div>
             <div type="bibliography">
                  <listBibl>
