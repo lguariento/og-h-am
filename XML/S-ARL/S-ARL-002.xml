@@ -80,14 +80,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </support>
                                 <condition>
                                    <p> 
-                                      Forsyth described the stone as <q>fragmentary</q> with <q>numerous chips lost</q>, but the inscription carving is generally clear (1996, 448).
+                                      Forsyth described the fragment as <q>badly worn in places</q> with <q>numerous chips lost</q>, but the inscription carving is generally clear (1996, 448). As Forsyth notes the <q>surface of the opening section is almost completely worn away. There are possible traces of strokes on, or to the left of, the arris, but these are doubtful</q> (1996, 448). 
                                    </p>                                
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>
                                     <p>
-                                       The inscription is found along the arris of the slab.
+                                       The inscription is found along one arris of the slab.
                                     </p>
                                 </layout>
                             </layoutDesc>
@@ -95,7 +95,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <handDesc>
                             <handNote>
                                 <p>
-                                  <q>The ogham letters are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> in very fine, sharp strokes</q> (Forsyth 1996, 448). In general, their proportions are long and slim with a V-shaped profile. The way the strokes trail at their ends indicates confident cutting. The length of the strokes varies with each group. 
+                                  <q>The ogham letters are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> in very fine, sharp strokes</q> (Forsyth 1996, 448). In general, their proportions are long and slim with a V-shaped profile. The variation in length of stoke within each group and the manner in which individual strokes trail at the ends indicates confident cutting. 
                                 </p>
                             </handNote>
                         </handDesc>
@@ -112,8 +112,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                  
                              </origDate>
                         </origin>
-                        <provenance type="found" when="1931">The inscriptions can be found on a small pillar like object <height unit="m">500</height> south-west of the North Lodge at Poltalloch at Bruach an Druimein, which is a <q>complex multi-period site...never fully investigated and still not fully understood</q> (Forsyth 1996, 444). There are indications that the site had been used in the past for ritual and burial purposes, with its earliest non-burial phase being an open-air cooking site with strong evidence of iron-working. J. Hewat Craw discovered the ogham fragment on the ground close to the graves in 1931. </provenance>
-                        <provenance type="observed" when="2022">Recorded on 06 May 2022 at NMS HPO470.</provenance>
+                        <provenance type="found" when="1931">The inscriptions can be found on a small pillar like object discovered <height unit="m">500 m</height> south-west of the North Lodge at Poltalloch at Bruach an Druimein ('brae of the elder bushes'), a <q>complex multi-period site...never fully investigated and still not fully understood</q> (Forsyth 1996, 444). There are indications that the site had been used in the past for ritual and burial purposes, with its earliest non-burial phase being an open-air cooking site with strong evidence of iron-working. J. Hewat Craw discovered the ogham fragment lying on the ground close to the cists in 1931. </provenance>
+                        <provenance type="observed" when="2022">The stone is part of the Poltalloch Collection on loan in the National Museums of Scotland and is currently on display in the Queen Street Antiquities Museum (HPO470). Visited and recorded on 06 May 2022.</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -153,7 +153,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-10" who="#XS">Xenia Spanachi edited the transliteration and transcription to fit the updated reading spreadsheet</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-04" who="#POC">Added paragraph to support, added National Grid Reference, updated handNote by moving rs element around execution technique term, commented out apparatus and translation</change>
-     <change when="2025-02-19" who="#POC">Proofreading updates, moved information from layout to condition and provenance</change>                       
+            <change when="2025-02-19" who="#POC">Proofreading updates, moved information from layout to condition and provenance</change>                       
+            <change when="2025-02-20" who="#POC">Proofreading updates, added information to provenance, condition, apparatus, and commentary</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -185,29 +186,39 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">
+<note>According to Forsyth, <q>the letters CRON are not in doubt. Less secure are the A and N</q> (1996, 450).</note>  
                 </app>
+                    <app n="2">
+                        <note>Regarding the apparent letter A, Forsyth notes that there is <q>a gap with room for a notch but no evidence of one</q> (1996, 449). Even though <q>previous writers have unanimously identified it as A. The intention, however, may be merely a blank space to differentiate between two successive letters of the B-aicme. The arris is too worn at this point to be certain</q> (Forsyth 1996, 449). </note>
+                    </app>
+                    <app n="3">
+                        <note>Similarly, although <q>there is no way of knowing if the doubtful N was the last letter</q> of the inscription, it is also difficult to determine this character with complete certainty (Forsyth 1996, 450). There is evidence for <q>two short strokes to the right of, and perpendicular to, the stem, with part of a third clearly visible</q> (Forsyth 1996, 449). However, <q>the rest has flaked off, though slight irregularities in the residual surface may be vestiges of further strokes - V, or a subsequent member of the b-aicme: S or, perhaps most likely, N</q> (Forsyth 1996, 449).</note>
+                    </app>
+                    <app n="4">
+                        <note>Additionally, there is a possibility that immediately preceding the C is the letter Q which <q>opens up the interesting prospect of the Poltalloch ogham conforming to the typical X MAQ Y formula, either MAQ or MAC [McManus 1991 §5.19]</q> (Forsyth 1996, 450).</note>
+                    </app>
                 </listApp>
-            </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>'the son of Crónán'</p>
+            </div>
             <div type="commentary">
                  <list type="witDetail">
                     <item n="1">
-                        <p>The letters CRON could possibly be interpreted as the Irish name Cronan, <q>which derives from the colour term cron, 'dark yellow,reddish brown, swarthy' </q> (Forsyth 1996, 450).</p>
+                        <p>The letters CRON could possibly be interpreted as the Irish name Crónán, <q>which derives from the colour term <foreign xml:lang="ga">crón</foreign>, 'dark yellow, reddish brown, swarthy' </q> (Forsyth 1996, 450).</p>
                     </item>
                      <item n="2">
-                         <p>Cron is also derivative of Croine which is the name of a number of female saints.</p>
+                         <p>Crón is also derivative of Cróine which is the name of a number of female saints.</p>
                      </item>
                      <item n="3">
-                         <p>Cronan was a common name among early Irishmen some with Dal Riadic connections <q>If 
-the suggested reading of the inscription is accepted, the commemorand is in fact the son of Cronan, but 
-there is no indication at all of his own name.</q> (Forsyth 1996, 454)</p>
+                         <p>Crónán was a common name among early Irishmen some of which had Dal Riadic connections, so <q>without a patronymic qualification there is little chance of narrowing down the list of several possible Crónáns</q> (Forsyth 1996, 450-1).</p> 
                      </item>
-                     <item n="4"><q>On the basis of the post-apocope form of the MAC, this inscription should perhaps be dated <q>considerably later than the beginning of the seventh century</q> [McManus 1991:99 § 5.33].</q> (Forsyth 1996, 452).</item>
+                     <item n="4"><p><q>If 
+the suggested reading of the inscription is accepted, the commemorand is in fact the son of Crónán, but 
+there is no indication at all of his own name.</q> (Forsyth 1996, 453)</p></item>
                  </list>
             </div>
             <div type="bibliography">
