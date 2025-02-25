@@ -74,15 +74,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.45</depth>
                                      </dimensions>         
                                 </support>
-                                <condition>Carving intact and well-preserved.</condition>
+                                <condition>The monument is likely a prehistoric standing stone which was reused for the carving of Pictish symbols and an ogham inscription both of which are intact and well-preserved.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is cut on a circular stem in the middle of the top third of the pointed pillar. The lower two-thirds are occupied by a pair of <rs type="decoration">Pictish symbols</rs> and traces of a third (Forsyth 1996, 390-1).</layout>
+                                <layout>The ogham inscription is cut on a circular stem in the middle of the top third of the pointed pillar. The reading starts from the 10 o'clock position, as this is where the largest gap is located, and continues clockwise (Forsyth 1996, 394). The lower two-thirds are occupied by a pair of <rs type="decoration">Pictish symbols, a <q>crescent-and-V-rod over double-disc-and-Z rod</q>, and the underlying traces of a <q>paritally-erased double-disc and Z-rod</q></rs> (ibid. 390-1).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Both inscriptions were <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> as is typical of Pictich Class I carvings (Forsyth 1996, 391). Strokes are generally evenly spaced and there are generous gaps between letters, though it is important to keep in mind the possibility of distortion due to the circular stem (Forsyth 1996, 396).
-                                <height>The shortest letter strokes are 3cm long, the longest are 7cm, and the remainder vary between 4 and 6cm (Forsyth 1996, 393).</height>
+                            <handNote>The ogham inscription and symbols were carved using the standard <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pock</rs>-and-smooth technique as is typical of Pictish Class I carvings (Forsyth 1996, 391). Strokes are generally evenly spaced and there are generous gaps between letters, though it is important to keep in mind the possibility of distortion due to the circular stem (ibid. 396). The number of strokes per letter is accepted as: 5, 3, 3, 5, 3.
+                                <height>The shortest letter strokes are 3cm long, the longest are 7cm, and the remainder vary between 4 and 6cm (ibid. 393).</height>
+                                <p>The carving of the symbols is <q>broader, deeper, and smoother</q> than the ogham carving, <q>but this may reflect nothing more than the larger scale of the former</q> (ibid. 391).</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -132,12 +133,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-01" who="#LH">Encoded physical description, provenance, image url and text</change>
     <change when="2024-07-11" who="#LH">Deleted orig tag and corrected lb numbering in edition, added attribute when to provenance and rs decoration to layout, and corrected spacing in support</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
-    <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid reference, closed unused elements, commented out apparatus and translation.</change>    <change when="2025-02-18" who="#POC">Proofreading updates, added information to apparatus</change>
+    <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid reference, closed unused elements, commented out apparatus and translation.</change>    
+    <change when="2025-02-18" who="#POC">Proofreading updates, added information to apparatus</change>
+    <change when="2025-02-24" who="#POC">Removed numbered list in commentary, added photograph </change>
+    <change when="2025-02-25" who="#POC">Added information from Forsyth 1996 to apparatus </change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="LogieOOM.png"/>
+        <graphic url="SCO/S-ABD-002-Logie-Elphinstone.jpg"><desc>Photograph by Megan Kasten</desc></graphic>
          <media url="YYY" mimeType="text/html"><desc><!--3d model by Megan on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -155,7 +159,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>The reading starts from the 10 o'clock position, as this is where the largest gap is located, and continues clockwise (Forsyth 1996, 394).</note>
+                        <note>According to Forsyth (1996, 394), the first letter consists of five strokes <q>of differing gradient but roughly equal length</q> and the inconsistency in gradient is <q>the result of the difficulty of arranging five parallel strokes round a tight bend</q>.</note>
+                    </app>
+                    <app n="2">
+                        <note>The second letter consists of <q>three short strokes inside the ring</q> and comprise the <q>shortest strokes in the inscription, a minimum of 30 mm [3 cm] in length</q> (ibid. 394). Forsyth highlighted that there are two <q>clearly artificial</q> scores outside the stem beyond the first and third strokes of the second letter which might be intended as punctuation marks <q>added to differentiate group 2 from the strokes on either side</q> (ibid. 395).</note>
+                    </app>
+                    <app n="3">
+                        <note>Well-spaced from both the preceding and succeeding letters, the third letter is comprised of <q>three strokes outside the ring, parallel to one another and roughly perpendicular to the stem</q> (ibid. 395). The length of the strokes is slightly longer than those of the second letter. </note>
+                    </app>
+                    <app n="4">
+                        <note>The penultimate letter is comprised of <q>five strokes outside the ring, roughly parallel to one another and sloping slightly forward</q> (ibid. 395).</note>
+                    </app>
+                    <app n="5">
+                        <note>The final letter is comprised of <q>three long strokes across the ring, each slightly longer than its predecessor, sloping very slightly backwards</q> (ibid. 396)</note>
                     </app>
                 </listApp>
             </div>
@@ -163,11 +179,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>-->
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p>The placement of the symbols suggests that the ogham was accounted for in the original design, which further implies that the ogham relates to the same phase as the symbols. The stone is a palimpsest as there are visible remains of a partially-erased double-disc and Z-rod under the symbols; however, the overall layout strongly supports the assumption that the ogham relates to the second phase (Forsyth 1996, 391-2).</p></item>
-                     <item n="2"><p>Logie is the shortest complete monumental ogham text in Scotland (Forsyth 1996, 398) and as such cannot be readily interpreted. According to Forsyth, the lack of vowels <q>strongly suggests that the sequence is either encoded, or has no linguistic significance</q> (ibid).</p>
-                    </item>
-                 </list>
+                 <p>The placement of the symbols suggests that the ogham was accounted for in the original design which further implies that the ogham relates to the same phase as the symbols, though it cannot be definitively proved. The stone is a palimpsest as there are visible remains of a partially-erased double-disc and Z-rod under the symbols; however, the overall layout strongly supports the assumption that the ogham relates to the second phase (Forsyth 1996, 391-2).</p>
+                     <p>Logie is the shortest complete monumental ogham text in Scotland (Forsyth 1996, 398) and as such cannot be readily interpreted. According to Forsyth, the lack of vowels <q>strongly suggests that the sequence is either encoded, or has no linguistic significance</q> (ibid).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
