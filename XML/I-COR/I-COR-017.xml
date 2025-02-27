@@ -68,16 +68,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-049003-</idno></p> 
                                     <material>Siltstone</material> 
                                     <objectType>Pillar</objectType> 
-                                    <dimensions unit="m" source="MAC1945">
-                                            <height>1.35</height>
+                                    <dimensions unit="m" source="#NW">
+                                            <height>1.83</height>
                                             <width>0.36</width>
-                                            <depth>0.34</depth>
+                                            <depth>0.34</depth><!--Macalister agrees with 3d model-->
                                      </dimensions>                                   
                                 </support>
-                                <condition>This pillar was reused as a lintel in the construction of a souterrain. The edges of the stone are very rough and uneven.</condition>
+                                <condition>This pillar was reused as a lintel in the construction of a souterrain. The edges of the stone are very rough and uneven. Brash (1879, 145) recorded the height as 6ft. (1.83m). The current visible extent above the display stand is 1.35m.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads upwards on the dexter angle of one of the flat faces occupying roughly the middle third of that angle.</layout>
+                                <layout>The inscription reads upwards on the dexter/left angle of one of the flat faces occupying roughly the middle third of that angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -93,11 +93,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.681206, -8.847020</geo>
                             <note>ITM Coordinates: 541423, 547985</note>
                             </origPlace>
-                             <origDate notBefore="0400" notAfter="0475">First half, or early second half, of the fifth century</origDate>
+                             <origDate notBefore="0400" notAfter="0475" evidence="linguistic" cert="medium" resp="MCM1991">First half, or early second half, of the fifth century</origDate>
                         </origin>
-                        <provenance type="found" when="1841">Found by <persName>Z. Hawkes</persName> and <persName>Windele</persName> in a souterrain (<idno type="SMR">CO122-049002-</idno>) in <date>1841</date>. Two other ogham stones (I-COR-018 and I-COR-019) were also discovered in the souterrain. Counting from the entrance, this stone was the fourth out of the souterrain's seven roofing slabs. All three stones were <q>'taken out of the cave sometime toward the end of the nineteenth century, by the proprietor, the late Mr. R. Bence Jones, and placed on a rockery in his garden: but afterwards acquired from him by the Royal Irish Academy'</q> (Macalister 1945, 73). 
+                        <provenance type="found" when="1841">Found in <date>1841</date> by <persName>Zachariah Hawkes</persName> and <persName>John Windele</persName> in a souterrain (<idno type="SMR">CO122-049002-</idno>) located in the northern half of a rath (<idno type="SMR">CO122-049001-</idno>), one of six known raths in the townland, at least three of which contain souterrains. Two other ogham stones (I-COR-018 and I-COR-019) were also discovered in the souterrain. Counting from the entrance, this stone was the fourth out of the souterrain's seven roofing slabs. All three stones were <q>'taken out of the cave sometime toward the end of the nineteenth century, by the proprietor, the late Mr. R. Bence Jones, and placed on a rockery in his garden: but afterwards acquired from him by the Royal Irish Academy'</q> (Macalister 1945, 73). 
                         </provenance>
-                        <provenance type="observed" when="2015">Now in the National Museum of Ireland (<idno type="SMR">SMR ID: DU018-375----</idno>), where it was examined and recorded by the Ogham in 3D project in 2015.
+                        <provenance type="observed" when="2015">Now in the National Museum of Ireland, where it was examined and recorded in 3d  (using Artec Eva structured light scanner) by the Discovery Programme for the Ogham in 3D project in 2015.
                         </provenance>
                     </history>
                 </msDesc>
@@ -136,6 +136,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-19" who="#NW">Added image path and moved logainm ref and updated geology</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-28" who="#POC">Added Irish placename to title, added citation details to image description</change>
+    <change when="2025-02-27" who="#NW">Added 3d recording info to provenance, dating info, height from Brash and ref to bibl.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -160,8 +162,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>'of <foreign xml:lang="sga">Gerrán</foreign>'</p>
             </div>
             <div type="commentary">
-                <p>The personal name here possibly contains the element <foreign xml:lang="sga">gerr</foreign> 'short (-haired?)' and the diminutive suffix -agni (>-an(n), <foreign xml:lang="sga">Gerrán</foreign>) (McManus1991, 107).</p>
-                <p>This is one of the inscriptions listed by McManus (1991, 93-4) to be among the earliest in the corpus showing no trace of vowel affection. It may be dated to the first half, or the early second half, of the fifth century (McManus1991, 97).</p>
+                <p>The personal name here possibly contains the element <foreign xml:lang="sga">gerr</foreign> 'short (-haired?)' and the diminutive suffix -agni (>-an(n), <foreign xml:lang="sga">Gerrán</foreign>) (McManus 1991, 107).</p>
+                <p>This is one of the inscriptions listed by McManus (1991, 93-4) to be among the earliest in the corpus showing no trace of vowel affection. It may be dated to the first half, or the early second half, of the fifth century (McManus 1991, 97).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -171,6 +173,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>73, no. 69</citedRange>
                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                         <citedRange>97, 107</citedRange>
+                     </bibl>
                      <bibl><ptr target="POW1992"/>
                      <citedRange>124, no. 1028</citedRange>
                      </bibl>
