@@ -99,7 +99,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <geo>55.526111, -5.353333</geo>
                             <note>National Grid Reference: NR 8844 3092</note>
                         </origPlace>
-                            <origDate notBefore-custom="600" precision="low" evidence="lettering"/>
+                            <origDate notBefore-custom="600" precision="low" evidence="lettering">Sixth to eighth century</origDate>
                                     
                          </origin>
                         <provenance type="found" when="1992">Located in a sandstone cliff about 3km north of <placeName type="townland">Blackwaterfoot</placeName> are a series of caves of which the King's Cave at <placeName type="townland">Drumadoon (<foreign xml:lang="sga">Druim an Dúin</foreign> 'ridge of the fort')</placeName> is the largest. The walls of exhibit carvings which span from perhaps the Bronze Age to the present day. The animal and geometric carvings have been known since at least the end of the seventeenth century, but the first ogham inscription, <name xml:id="S-BUT-001">Blackwaterfoot 1</name> (S-BUT-001), was not noticed until about <date>1968</date> (Forsyth 1996, 94). Though only a short distance away, this inscription, the second of the two ogham inscriptions <name xml:id="S-BUT-002">Blackwaterfoot 2</name>, was not discovered until <date>1992</date> by Ian Fisher of the RCAHMS while conducting further survey work on the cave (Forsyth 1996, 94).
@@ -144,7 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-05" who="#POC">Added paragraph to support and National Grid Reference, updated handNote, closed unused elements, commented out apparatus and translation</change>
                 <change when="2025-02-19" who="#POC">Proofreading updates</change>
-                <change when="2025-03-06" who="#POC">Proofreading updates, added more information from Forsyth 1996, added images</change>
+                <change when="2025-03-06" who="#POC">Proofreading updates, added more information from Forsyth 1996, added images and date range</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -173,8 +173,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1">  
-                    <note>The divergence of the second stroke to the first letter raises the possibility that it is two letters B and L.</note>
+                    <app n="1">
+                        <note>As Forsyth (1996, 98) remarks, <q>Precedent is firmly against a top-down reading of the inscription, which would produce:</q></note>
+                        <rdg source="FOR1996">ADLEUV</rdg>
+                    </app>
+                <app n="2">  
+                    <note>The first letter consists of three strokes to the right - V. However, the second stroke appears to run obliquely. The divergence of the second stroke to the first letter raises the possibility that this group of three strokes is meant to be interpreted as two letters from the same aicme, B and L, which would yield the following reading:</note>
+                    <rdg source="FOR1996">BLUEDLA</rdg>
                 </app>
                 </listApp>
             </div>
