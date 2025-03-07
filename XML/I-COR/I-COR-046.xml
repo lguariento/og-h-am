@@ -31,9 +31,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                  
+                    <name>Robert Shaw</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>Scanned using Artec Eva structured light scanner <date when="2016-05-13"/></resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -61,23 +62,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067003-</idno></p> 
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/>
-                                            <height>0.56</height>
+                                    <material source="Moffat-Parkes2011">Fine grained, micaceous sandstone</material>
+                                    <objectType>Pillar fragment</objectType> 
+                                     <dimensions unit="m" source="3d_data"><!--closer to Macalister than Power 1997-->
+                                            <height>0.57</height>
                                             <width>0.25</width>
-                                            <depth>0.10</depth>
+                                            <depth>0.13</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, the stone is broken and the beginning of the inscription is missing.</condition>
+                                <condition>Described by Macalister (1945, 93) as the top of an inscribed stone. According to Brash (1879, 140) it was
+<q>reduced from ts original form and dimensions for convenience of carriage</q>. The original dimensions do not appear to have been recorded.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>There is evidence of two inscriptions on the stone. The secondary inscription which is read by Macalister as ...]LL MAQI VORRTIGURN is on two angles of the stone and reads upwards, across the top and then downwards (1945, 93). According to Macalister (1945, 93-4), there is an older inscription on the stone which <q>'was apparently DIOBI - a copy of which has been scratched in minute pin-scrapes on the unoccupied part of the second inscribed angle, perhaps by the representatives of the earlier owner'</q>.</layout>
+                                <layout>The inscription reads upwards on the left angle, across the top and down the right-hand side. According to Macalister (1945, 93-4), there is an older inscription on the stone (which he read as DIOBI) <q>a copy of which has been scratched in minute pin-scrapes on the unoccupied part of the second inscribed angle, perhaps by the representatives of the earlier owner</q>. Although there are faint marks on the angle below the end of the inscription, as well as a faint, possible stroke between the the two Ls, Macalister's reading and explanation of these are not convincing.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister (1945, 93) described the inscription's minute scores as <q>'like rather straggling <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">knife-cuts</rs>'</q>.
+                            <handNote>The strokes are quite <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">finely cut</rs> and described by Macalister (1945, 93) as <q>straggling knife-cuts</q>. They tend to trail off at the distal ends. The initial Ls (if this is the correct interpretation) are more widely spaced than the rest of the characters. The M-aicme strokes (M, R) are rather straight.
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -90,9 +91,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1846">Discovered by <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain <idno type="SMR">(CO085-067002-)</idno> in the SW quadrant of a ringfort <idno type="SMR">(CO085-067001-)</idno>, with five other ogham stones <idno type="SMR">(I-COR-047)</idno>; <idno type="SMR">(I-COR-048)</idno>; <idno type="SMR">(I-COR-049)</idno>; <idno type="SMR">(I-COR-050)</idno>; and <idno type="SMR">(I-COR-051)</idno>.
+                        <provenance type="found" when="1846">Discovered in 1846 by Cork antiquarians <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain <idno type="SMR">(CO085-067002-)</idno> in the SW quadrant of a ringfort <idno type="SMR">(CO085-067001-)</idno>, with five other ogham stones: I-COR-047, I-COR-048, I-COR-049, I-COR-050 and I-COR-051. According to Macalister (1945, 92-93), this stone was purchased from the local farmer by F. M. Jennings in 1846, and presented by him to the Royal Irish Academy (without any statement of provenance). In 1849 Windele removed the remaining stones to his own residence but theu were later also moved to the museum of the Ryal Irish Academy. 
                         </provenance>
-                        <provenance type="observed">Now in the collection of the National Museum of Ireland (see <idno type="SMR">DU018-369----</idno>).
+                        <provenance type="observed">All six stone from Ballyhank are now in the collection of the National Museum of Ireland. This stone was recorded in 3d in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref> in 2016 as part of the Ogham in 3D project.
                         </provenance>
                     </history>
                 </msDesc>
@@ -132,68 +133,47 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates, numbered apparatus.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-04" who="#POC">Moved logainm ref to surround Irish placename, added Irish placename to title, added citation details to image description, deleted inner div from apparatus, commented out empty translation and commentary</change>
+<change when="2025-03-07" who="#NW">Updated support desc, edition and bilb and added translation and commentary</change>  
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-046-MAC1945-94-Ballyhank-97.jpg"><desc>Drawing by Macalister (1945, 94)</desc></graphic>
-        <media url="https://sketchfab.com/3d-models/ballyhank-97-ogham-stone-223326e7b5dd4d139ec7ab3cd8481a70" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+        <media url="https://sketchfab.com/3d-models/ballyhank-97-ogham-stone-223326e7b5dd4d139ec7ab3cd8481a70" mimeType="text/html"><desc><!--3d model by Discovery Progamme on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
-                <div type="textpart" n="1">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">               
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">ᚐᚔᚂᚓ</supplied>ᚂᚂᚐ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="?">ᚃᚑᚏᚏ
-                        <lb n="2" style="text-direction:across" break="no"/>ᚈᚔᚌᚒ
-                        <lb n="3" style="text-direction:down" break="no"/>ᚏᚅ</name></persName>
-                </ab>
-                </div>
-                <div type="textpart" n="2">
-                    <ab>
-                        <lb n="1" style="text-direction:up"/>ᚇᚔᚑᚁᚔ
-                    </ab>
+                         <lb n="1" style="text-direction:up-across-down"/><persName><name><gap reason="lost" extent="unknown"/>ᚐᚂᚂ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="?">ᚃᚑᚏᚏᚈᚔ<unclear reason="faded">ᚌ</unclear>ᚒ<supplied reason="lost" evidence="previouseditor">ᚏ</supplied>ᚅ</name></persName>                </ab>               
             </div>
-            </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
-                <div type="textpart" n="1">
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">                
                     <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><supplied reason="lost">AILE</supplied>LLA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORR
-                        <lb n="2" style="text-direction:across" break="no"/>TIGU
-                        <lb n="3" style="text-direction:down" break="no"/>RN</name></persName>
-                </ab>
-                </div>
-                <div type="textpart" n="2">
-                    <ab>
-                        <lb n="1" style="text-direction:up"/>DIOBI
-                    </ab>
-            </div>
+                     <lb n="1" style="text-direction:up-across-down"/><persName><name nymRef="?"><gap reason="lost" extent="unknown"/>ALL<supplied reason="lost" cert="low">A</supplied></name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORRTI<unclear reason="faded">G</unclear>U<supplied reason="lost" evidence="previouseditor">R</supplied>N</name></persName>
+                </ab>              
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 93-4) read:</note>
-                    <rdg resp="MAC1945">
-                    <ab n="1">
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?"><gap reason="lost" quantity="3" unit="character"/>LLA</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORR
-                        <lb n="2" style="text-direction:across" break="no"/>TIGU
-                        <lb n="3" style="text-direction:down" break="no"/>RN</name></persName>
-                </ab>
-                    <ab n="2">
-                        <lb n="1" style="text-direction:up"/>DIOBI
-                    </ab>
-                    </rdg>
+                    <note>There is space enough for a lost A between the LL and M (where Macalister sees an earlier inscription), but because the spacing at this point in the inscription is quite wide, it is very uncertain. After the M, there is enough space for two vowel strokes (read as O by Brash 1879, 141), although even one is barely visible.</note>
+                </app>
+                    <app n="2">
+                    <note>A spall at the top right corner of the stone has resulted in the complete loss of the penultimate character R, which previous editors seemed to be able to read.</note>                    
                 </app>
                 </listApp>
             </div>
-            <!--<div type="translation">
-                <p></p>
-            </div>-->
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>'[of Ailill?] son of Foirtchern'</p>
+            </div>
+            <div type="commentary">
+                <p>Although very fragmentary and uncertain, the LL with possible vowels before and after suggests a name like <persName xml:lang="sga">Ailill</persName> (gen. Ailello/Ailella).</p>
+            </div>
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="BRA1879"/>
+                        <citedRange>140-142</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>93-94</citedRange>
                     </bibl>
