@@ -133,7 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates, numbered apparatus.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-04" who="#POC">Moved logainm ref to surround Irish placename, added Irish placename to title, added citation details to image description, deleted inner div from apparatus, commented out empty translation and commentary</change>
-<change when="2025-03-07" who="#NW">Updated support desc, edition and bilb and added translation and commentary</change>  
+<change when="2025-03-07" who="#NW">Updated support desc, edition and bibl and added translation and commentary</change>  
     
 </listChange>
 </revisionDesc>
@@ -146,7 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">               
                     <ab>
-                         <lb n="1" style="text-direction:up-across-down"/><persName><name><gap reason="lost" extent="unknown"/>ᚐᚂᚂ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="?">ᚃᚑᚏᚏᚈᚔ<unclear reason="faded">ᚌ</unclear>ᚒ<supplied reason="lost" evidence="previouseditor">ᚏ</supplied>ᚅ</name></persName>                </ab>               
+                         <lb n="1" style="text-direction:up-across-down"/><persName><name><gap reason="lost" extent="unknown"/>ᚐᚂᚂ<supplied reason="lost" cert="low">ᚐ</supplied></name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="?">ᚃᚑᚏᚏᚈᚔ<unclear reason="faded">ᚌ</unclear>ᚒ<supplied reason="lost" evidence="previouseditor">ᚏ</supplied>ᚅ</name></persName>                </ab>               
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">                
                     <ab>
@@ -156,7 +156,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>There is space enough for a lost A between the LL and M (where Macalister sees an earlier inscription), but because the spacing at this point in the inscription is quite wide, it is very uncertain. After the M, there is enough space for two vowel strokes (read as O by Brash 1879, 141), although even one is barely visible.</note>
+                    <note>There is space enough for a lost A between the LL and M (where Macalister sees the remains of an earlier inscription), but because the spacing at this point in the inscription is quite wide, it is very uncertain. After the M, there is enough space for two vowel strokes (read as O by Brash 1879, 141), although even one is barely visible.</note>
                 </app>
                     <app n="2">
                     <note>A spall at the top right corner of the stone has resulted in the complete loss of the penultimate character R, which previous editors seemed to be able to read.</note>                    
@@ -167,7 +167,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>'[of Ailill?] son of Foirtchern'</p>
             </div>
             <div type="commentary">
-                <p>Although very fragmentary and uncertain, the LL with possible vowels before and after suggests a name like <persName xml:lang="sga">Ailill</persName> (gen. Ailello/Ailella).</p>
+                <p>Although very fragmentary and uncertain, the LL with possible vowels before and after suggests a name like <persName xml:lang="sga">Ailill</persName> (gen. Ailello/Ailella). The father's name (VORRTIGURN) is a compound of OIr <foreign xml:lang="sga"><ref target="https://dil.ie/23272">for</ref></foreign> 'on, over' and <foreign xml:lang="sga"><ref target="https://dil.ie/40733">tigern</ref></foreign> 'lord' and is also found in an inscription at Knockboy, Co. Waterford (I-WAT-038). In both instances the ending -GURN appears in place of an expected -GERN (McManus 1991, 7).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -177,6 +177,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>93-94</citedRange>
                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                         <citedRange>7</citedRange>
+                     </bibl>
                      <bibl><ptr target="POW1997"/>
                      <citedRange>no. 7948</citedRange>
                      </bibl>
