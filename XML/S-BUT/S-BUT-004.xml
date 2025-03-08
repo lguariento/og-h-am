@@ -140,7 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, updated handNote, closed unused elements, commented out apparatus and translation</change>
                 <change when="2025-03-07" who="#POC">Proofreading updates, added more information from Canmore to provenance and condition, added image from Bute Museum for now.</change>
-                <change when="2025-03-08" who="#POC">Added measurements and possible readings to apparatus, moved image to S-BUT-005 instead, added correct link to NMS record, moved information from commentary to translation, edition does not match with the possible readings</change>
+                <change when="2025-03-08" who="#POC">Added measurements and possible readings to apparatus, moved image to S-BUT-005 instead, added correct link to NMS record, moved information from commentary to translation, edition does not match with the possible readings, update reading direction to l-to-r</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -150,9 +150,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#KF">            
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#KF">      
                 <ab>
-                    <lb n="1" style="text-direction:right"/>
+                    <lb n="1" style="text-direction:l-to-r"/>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     ᚌᚓᚁᚐᚋ
                     <gap reason="lost" quantity="2" unit="character"/>
@@ -161,7 +161,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:right"/>
+                    <lb n="1" style="text-direction:l-to-r"/>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     GEBAM
                     <gap reason="lost" quantity="2" unit="character"/>
