@@ -67,23 +67,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark"><idno type="Canmore">40268</idno>IS.36 SF717 (Inchmarnock find number)</ref></p>
-                                    <material>Natural water-worn pebble</material> 
-                                    <objectType>Slate</objectType>                                     
-                                    <dimensions unit="m">                                         
-                                            <height>0.120</height>
-                                            <width>0.070</width>
+                                <support><p><ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark">Canmore</ref> <idno type="Canmore">40268</idno></p> <p>Inchmarnock find number: IS.36 SF717</p>
+                                    <material type="slate">Slate</material> 
+                                    <objectType key="portabilia">Fragment</objectType>                                     
+                                    <dimensions unit="mm">                                         
+                                            <height>120</height>
+                                            <width>70</width>
                                             <depth/>
                                      </dimensions>         
                                 </support>
-                                <condition><p>The stone has some minor scratches and fractures with some wear.</p></condition>
+                                <condition>A small piece of slate, roughly rectangular in shape with some fractures and wear, inscribed in both Latin and ogham. The upper portion has a very straight break and appears to have been trimmed. The Latin inscription has some minor scratches and the ogham inscription is incomplete, consisting of only the first ten letters of the alphabet.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><p>The stone is approximately of a rectangular shape, with face A accompanied by two lines of Latin writing, while face B contains the ogham inscription of the first ten letters of the alphabet and a <rs type="decoration">cruciform, curvilinear design and two intersecting lines terminating in spirals</rs>.</p></layout>
+                                <layout>Face A exhibits two lines of Latin writing, while face B contains an ogham inscription comprised of the first ten letters of the alphabet as well as a <rs type="decoration">cruciform, curvilinear design with two intersecting lines terminating in spirals</rs>. The ogham inscription runs horizontally across the middle of the slate slab. The drawn-in stem begins about <dim type="length" unit="mm">10mm</dim> from the left edge with the end lost in the fractured top right corner. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><p>The ogham inscription is incomplete, consisting of only the first ten letters of the alphabet on a drawn-in stemline running horizontally in the middle of the slab. The stem begins about <dim type="length" unit="m">0.010</dim> from the left edge with the end lost in the fractured top right corner. Forsyth and Tedeschi comment that the two inscriptions, latin and ogham, appear to have possibly been <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> by the same hand. However there is not sufficient evidence to argue that the ogham inscription has not been added at a later date.The carver has managed to write the ogham in neatly parallel and equidistant individual strokes with the exception of the final stroke not reaching the stem. The care with which it was carved is consistent with it being a type of exercise. The letters of the H-group, as Forsyth and Tedeschi comment <q>'exhibit a consistent forward slope, ie their distal tips (furthest from the stem) are further forward (to the right) of their approximal tips'</q> with letters of the B-group slope on this same axis.</p>
+                            <handNote>Forsyth and Tedeschi observed that the two inscriptions, Latin and ogham, appear to have possibly been <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> by the same hand. However there is not sufficient evidence to argue that the ogham inscription has not been added at a later date. The carver has managed to write the ogham in neatly parallel and equidistant individual strokes with the exception of the final stroke not reaching the stem. The care with which it was carved is consistent with it being a type of exercise. The letters of the H-group, as Forsyth and Tedeschi comment <q>exhibit a consistent forward slope, ie. their distal tips (furthest from the stem) are further forward (to the right) of their approximal tips</q> with letters of the B-group slope on this same axis.
                                <!-- <height>length of ogham stroke, if known</height>-->
                             </handNote>
                         </handDesc>
@@ -93,13 +93,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="parish">North Bute</placeName> <placeName type="county">Bute</placeName>
                                 <geo>55.789444, -5.153611</geo>
                             <note>National Grid Reference: NS 02372 59635</note></origPlace>
-                            <!--<note>additional info, e.g. approximate only</note>-->
-                            <origDate notBefore-custom="7th Century" notAfter-custom="9th Century" evidence="paleography"/><p>Due to the paleography of other incised slates on the Inchmarnock area, Forsyth and Tedeschi comment that the ogham inscriptions are more readily placed within the same bracket of 7th to 9th century.</p>
+                            <origDate notBefore-custom="7th Century" notAfter-custom="9th Century" evidence="paleography">Seventh to ninth century</origDate>
                         </origin>
-                        <provenance type="found" when="2001-04">
+                        <provenance type="found" when="2001-04">One of three ogham inscribed slate slabs (S-BUT-004; S-BUT-006) discovered between 2001 and 2004 after a series of excavations conducted since the late nineteenth century on <placeName type="island">Inchmarnock</placeName>, the small island off the west coast of Bute named after St Ernán using the affectionate form Marnock (Lowe 2008, 114-75). A rich collection of slate slabs and fragments incised with parts of Latin and Gaelic inscriptions, drawings of people and boats, gaming boards as well as several carved stones were found during the excavations.
                         </provenance>
-                        <provenance type="observed">NMS unreg. On loan to Bute Museum
-                        </provenance>
+                        <provenance type="observed">Currently on loan to the <ref target="https://www.butemuseum.org.uk/1061-2/">Bute Museum</ref> from the National Museum of Scotland (<ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=20052261">X.2012.27.265</ref>).</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -137,59 +135,54 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-13" who="#XS">Updated to include further information such as dimensions, layout, handnote, condition and witness commentary</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-05" who="#POC">Added paragraph to support, added National Grid Reference details, corrected typos, deleted generic information leftover from template, closed unused elements, commented out apparatus and translation, added roman subtype for Latin inscription and added transliteration division to edition</change>
+               <change when="2025-03-08" who="#POC">Proofreading updates, updated object type, material, measurements, provenance, condition, commentary, added image from BM, structured edition with text parts, updated reading direction</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="SCO/S-BUT-005-Inchmarnock2-BM-image.jpg"><desc>Inchmarnock ogham incised slate fragment. Copyright: <ref target="https://www.butemuseum.org.uk/wp-content/uploads/2014/02/021.jpg">Bute Museum</ref></desc></graphic>
          <media url="Captured" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
-                <ab>
-                    <lb n="1" style="text-direction:up"/>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->    
+                 <div type="textpart" n="1">
+                     <ab>
+                    <lb n="1" style="text-direction:l-to-r"/>
                     ᚁᚂᚃᚄᚅᚆᚇᚈᚉ<unclear>ᚊ</unclear>
-                </ab> 
+                </ab>
+                 </div>
+                     <div type="edition" subtype="transliteration" xml:space="preserve">
+                <ab>
+                    <lb n="1" style="text-direction:l-to-r"/>BLFSNHDTC<unclear>Q</unclear>
+                </ab>
             </div>
+                 </div>
             <div type="edition" subtype="roman" xml:lang="pgl" xml:space="preserve" resp="#NW">
+                <div type="textpart" n="2">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>ADEPTUS S(AN)C(TU)M PR[E]MIUM; AD[E]PTUS S(AN)C(TU)M PR[E]MIUM
-                        BLFSNHDTC<unclear>Q</unclear>
+                    <lb n="1" style="text-direction:l-to-r"/>ADEPTUS S(AN)C(TU)M PR[E]MIUM
+                    <lb n="2" style="text-direction:l-to-r"/> AD[E]PTUS S(AN)C(TU)M PR[E]MIUM  
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve">
-                <ab>
-                    <lb n="1" style="text-direction:up"/>BLVSNHDTC<unclear>Q</unclear>
-                </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">
+                    <note>The sloping of consonant strokes, such as is found on the Inchmarnock ogham, is rarer in Ireland, in both epigraphic and manuscript ogham (2008).</note>
+                </app>
+                    <app n="2">
+                    <note>The form of script on the Inchmarnock ogham inscriptions is <q>simple and devoid of baroque, 'supplamentary' letters</q> common of later east Scottish oghams (2008, 131).</note>                    
                 </app>
                 </listApp>
-            </div>-->
+            </div>
             <!--<div type="translation" xml:lang="en">
                 <p></p>
             </div>-->
             <div type="commentary">
-                 <list type="witDetail">
-                   <item n="1">
-                        <p>Forsyth and Tedeschi comment that <q>'this is the first find of non-monumental ogham from an ecclestial site'</q> (2008,130)</p>
-                    </item>
-                     <item n="2">
-                         <p>From the Inchmarnock ogham inscriptions it is clear that <q>'Gaelic-speaking scribes were familiar with the ogham alphabet and used it in informal sometimes jocular way, for brief marginal glosses and comments'</q> (Forsyth and Tedeschi 2008,130)</p>
-                     </item>
-                     <item n="3">
-                         <p>This slate in particular, as Forsyth and Tedeschi comment, implies<q>'that the script was being actively taught in the monastery's school'</q> (2008,131)</p>
-                     </item>
-                     <item n="4">
-                         <p>The form of script on the Inchmarnock ogham inscriptions is <q>'simple and devoid of baroque, 'supplamentary' letters</q> common of later east Scottish oghams (Forsyth and Tedeschi 2008,131)</p>
-                     </item>
-                     <item n="5">
-                         <p>The sloping of consonant strokes, such as found on the Inchmarnock ogham, is rarer in Ireland, in both epigraphic and manuscript ogham (Forsyth and Tedeschi 2008).</p>
-                     </item>
-                 </list>
+                        <p>Forsyth and Tedeschi remarked that the Inchmarnock ogham-inscribed slate pieces represent <q>the first find of non-monumental ogham from an ecclestical site</q> (Lowe 2008, 130).</p>
+                         <p>From the Inchmarnock ogham inscriptions it is clear that <q>Gaelic-speaking scribes were familiar with the ogham alphabet and used it in informal sometimes jocular way, for brief marginal glosses and comments</q> (2008, 130).</p>
+                         <p>This slate in particular, as Forsyth and Tedeschi noted, implies <q>that the script was being actively taught in the monastery's school</q> (2008, 131).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
