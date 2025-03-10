@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi updated body to include ogham characters and transliteration</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-05" who="#POC">Added paragraph to support, added National Grid Reference, commented out handDesc and condition and edition as well as apparatus and translation, closed unused elements such as layout.</change>
+                <change when="2025-03-10" who="#POC">Added bibl details, updated commentary</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -170,15 +171,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>-->
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p></p>
-                    </item>
-                 </list>
+<p></p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange><!--page numbers--></citedRange>
+                     <bibl>
+                        <ptr target="FOR1996"/>
+                            <citedRange>93-100</citedRange>
+                    </bibl>
+                     <bibl>
+                         <ptr target="JAC1973"/>
+                     <citedRange>53-54</citedRange>
                      </bibl>
                  </listBibl>
             </div>
