@@ -67,8 +67,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/18978/chapel-of-garioch-the-maiden-stone">Canmore</ref> <idno type="Canmore">18978</idno></p>
-                                    <material>Pinkish granite</material> 
-                                    <objectType>Class II cross-slab</objectType>                                     
+                                    <material type="stone">Pinkish granite</material> 
+                                    <objectType key="crossSlab">Class II cross slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>3.01</height>
                                             <width max="0.91" min="0.81">0.91-0.81</width>
@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-19" who="#POC">Moved information from commentary to provenance</change>
     <change when="2025-02-25" who="#POC">Added images </change>
     <change when="2025-02-27" who="#POC">Proofreading updates, added more information </change>
+    <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

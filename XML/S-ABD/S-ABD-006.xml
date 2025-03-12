@@ -68,8 +68,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p> <ref target="https://canmore.org.uk/site/19466/dyce-saint-fergus-church-pictish-cross-slab-no-2">Canmore</ref> <idno type="Canmore">19466</idno></p>
-                                    <material>Granite</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Granite</material> 
+                                    <objectType key="crossSlab">Cross slab</objectType>                                    
                                     <dimensions unit="m">                                         
                                             <height>1.4</height>
                                             <width>0.6</width>
@@ -139,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid Reference coordinates, closed unused elements and commented out apparatus and translation</change>
     <change when="2025-02-18" who="#POC">Proofreading updates</change>
     <change when="2025-02-27" who="#POC">Proofreading updates, added images</change>
+    <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

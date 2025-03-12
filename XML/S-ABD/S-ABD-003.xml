@@ -68,8 +68,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/17507/aboyne-old-parish-church-cross-slab">Canmore</ref> <idno type="Canmore">17507</idno></p>
-                                    <material>Granite</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Granite</material> 
+                                    <objectType key="crossSlab">Cross slab</objectType>                                   
                                     <dimensions unit="m">                                         
                                             <height>1.124</height>
                                             <width max="0.443" min="0.335">0.443-0.335</width>
@@ -136,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-18" who="#POC">Proofreading updates, moved information in commentary to apparatus and translation</change>
     <change when="2025-02-25" who="#POC">Added image </change>
     <change when="2025-02-26" who="#POC">Proofreading updates and added more information from Forsyth 1996</change>
+    <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
