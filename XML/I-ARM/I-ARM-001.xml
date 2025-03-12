@@ -48,8 +48,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                         <country>Ireland</country>
-                        <repository>Armagh Diocesan library</repository>
+                         <country><region>Northern Ireland</region></country>
+                        <repository>Armagh Robinson library (No 5 Vicars’ Hill Museum)
+                        <geo>54.347951, -6.657046</geo>
+                        </repository>
                         <!--<idno type="invNo"/>-->
                     </msIdentifier>
                     <msContents>
@@ -61,18 +63,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--><p><ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=5657">Northern Ireland Sites and Monuments Record Number</ref>: <idno type="NISMR">ARM016:046</idno></p>
-                                    <material/> 
-                                    <objectType>Cross-carved pillar</objectType> 
+                                    <material type="stone">Hard shaley stone</material> 
+                                    <objectType key="monument">Cross-carved pillar</objectType> 
                                      <dimensions unit="m" source="NISMR">                                         
                                             <height>1.33</height>
                                             <width>0.39</width>
                                             <depth>0.48</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>This is a <q>'hard, shaley stone, broken at the base and chipped at the edges and top...very irregular in shape, thining towards the base and somewhat triangular in section'</q> (<ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=5657">NISMR report</ref>). The cross, and possibly also the ogham inscription, have been partially damaged by a break at the top of the stone.</condition>
+                                <condition>This is a <q>hard, shaley stone, broken at the base and chipped at the edges and top...very irregular in shape, thining towards the base and somewhat triangular in section</q> (<ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=5657">NISMR report</ref>). The cross, and possibly also the ogham inscription, have been partially damaged by a break at the top of the stone.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on two angles (unusually up-up) of the same face as the damaged <rs type="decoration">linear ringed cross</rs>. The inscription does not impinge on the cross or vice versa and there is no compelling reason to doubt that they are contemporary. The simple cross is in a slightly irregular circle and the stem extends below the circle.</layout>
+                                <layout style="arris_up-up">The inscription is on two angles (unusually up-up) of the same face as the damaged <rs type="decoration">linear ringed cross</rs>. The inscription does not impinge on the cross or vice versa and there is no compelling reason to doubt that they are contemporary. The simple cross is in a slightly irregular circle and the stem extends below the circle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -91,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1879">First reported by Reeves (1884) to have been found in 1879 by Mr Robert Pillow of Armagh in the 'graveyard field' on the farm of Samuel Ireland in the townland, approximately 4km south of Armagh. The stone had been rolled out of the way <q>'down the eastern slope of the field into a hollow'</q>. Reeves arranged for the stone to be taken to Armagh Public Library for safe keeping (<ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=5657">NISMR report</ref>).
                         </provenance>
-                        <provenance type="observed" when="2022">On display at Armagh Robinson Library (Museum at 5 Vicar’s Hill) where it was examined and recorded by members of the OG(H)AM project in July 2022.
+                        <provenance type="observed" when="2022">On display at <ref target="https://armaghrobinsonlibrary.co.uk/no-5-vicars-hill-museum-visitor-attraction/">Armagh Robinson Library (Museum at 5 Vicar’s Hill)</ref> where it was examined and recorded by members of the OG(H)AM project in July 2022.
                         </provenance>
                     </history>
                 </msDesc>
@@ -130,6 +132,8 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2024-12-12" who="#POC">Correct typo</change>
     <change when="2025-01-27" who="#POC">Commented out inventory number because it is empty and was displaying as empty, added ogham space marker</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
+    <change when="2025-03-12" who="#NW">Added attributes to layout, material and object type, 'Northern' to Ireland and coords to repository as test for indexing and searching.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
