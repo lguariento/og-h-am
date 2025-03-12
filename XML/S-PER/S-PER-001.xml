@@ -68,8 +68,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/27926/abernethy-churchyard-ogam-stone">Canmore</ref> <idno type="Canmore">27926</idno></p>
-                                    <material>Old red sandstone</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Old red sandstone</material> 
+                                    <objectType key="slab">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.360</height>
                                             <width>0.200-0.230</width>
@@ -137,7 +137,7 @@ The individual strokes are deep U-section grooves that have been initially <rs t
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
                 <change when="2025-02-26" who="#POC">Proofreading updates and added information from Forsyth 1996.</change>
-                <change when="2025-03-12" who="#POC">Moved information from apparatus to layout, and moved information from commentary to apparatus.</change>
+                <change when="2025-03-12" who="#POC">Moved information from apparatus to layout, and moved information from commentary to apparatus, added attributes to material and object type.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

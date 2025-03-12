@@ -67,29 +67,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/27998/abernethy-churchyard"><idno type="Canmore">27998</idno></ref></p>
-                                    <material>Sharp silicious grit</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                <support><p><ref target="https://canmore.org.uk/site/27998/abernethy-churchyard">Canmore</ref> <idno type="Canmore">27998</idno></p>
+                                    <material type="stone">Sharp silicious grit</material> 
+                                    <objectType key="slab">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.48</height>
                                             <width>0.33</width>
                                             <depth>0.10</depth>
                                      </dimensions>         
                                 </support>
-                                <condition>
-                                    <p>Not much is known about the condition of the stone, other than that there is some moss at the edge of the stone which may hint that <q>'that part of it must have been not long ago exposed to the air. Such vegetation could not exist on a stone that had been buried for centuries'</q> (12). Of larger concern is the fresh whiteness of the lines which could indicate that they are modern and perhaps fabricated.</p>
+                                <condition>Not much is known about the condition of the stone, other than that there is some moss at the edge of the stone which may hint that <q>'that part of it must have been not long ago exposed to the air. Such vegetation could not exist on a stone that had been buried for centuries</q> (12). 
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
-                                    <p>Found in the churchyard of Abernethy in Perthshire, the stone was supposedly dug out <q>'a little north of the foundation wall of the ancient Celtic church...about 4 and a half feet under the soil'</q> (12). The stone has on one face an <rs type="decoration">incised crown, a bird and the letter N,</rs> with the ogham inscription in a horizontal position.</p>
+                                <layout>The stone has on one face an <rs type="decoration">incised crown, a bird and the letter N,</rs> with the ogham inscription in a horizontal position. The stem-line is drawn-in horizontally at exactly <dim type="length" unit="feet">1</dim> foot and is as straight as the run of a ruler.
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>
-                                <p>The lines have been described by Southesk as scratches though some parts appear to be chiselled. The stem-line is drawn-in horizontally at exactly <dim type="length" unit="feet">1</dim> foot and as straight as the run of a ruler.</p>                             
+                            <handNote>The lines have been described by Southesk as scratches though some parts appear to be <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The fresh whiteness of the lines could indicate that the marks are modern and perhaps fabricated.                         
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -100,11 +96,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NO 190 164</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found" when="1895-01-30">
-                            <p>The stone was discovered on <date>Tuesday 29th of January 1895</date> by the sexton of the Abernethy church while a grave digging was taking place, just north of the ruins.</p>
+                        <provenance type="found" when="1895-01-29">The stone was discovered on <date>Tuesday 29th of January 1895</date> by the sexton of the Abernethy church while a grave digging was taking place, just north of the ruins. Found in the churchyard of Abernethy in Perthshire, the stone was supposedly dug out <q>a little north of the foundation wall of the ancient Celtic church...about 4 and a half feet under the soil</q> (12).
                         </provenance>
-                        <provenance type="observed">
-                            <p><q>'The stone was sent for inspection to the Museum of Antiquities in Edinburgh, where, owing to peculiarities...doubts arose as to the character of its inscriptions'</q> (12).</p>
+                        <provenance type="observed"><q>The stone was sent for inspection to the Museum of Antiquities in Edinburgh, where, owing to peculiarities...doubts arose as to the character of its inscriptions</q> (12).
                         </provenance>
                     </history>
                 </msDesc>
@@ -141,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-12" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements and commented out sections that had no content</change>
+                <change when="2025-03-12" who="#POC">Updated commentary, fixed bibl section so it'll display on the database</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -180,25 +175,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>-->
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1">
-                        <p><q>'The opening marks appear to consist of a semi-circle below the stem containing three dots - 
-interpretation unclear.'</q> with the same mark above the stem slightly overlapping with the first stroke (Forsyth 1996,504).</p>
-                    </item>
-                     <item n="2">
-                         <p>There is an additional semi-circle above the stem, at the 7th character, containing a dot of which as Forsyth comments any interpertation is unclear (1996,505).</p>
-                     </item>
-                     <item n="3">
-                         <p>The authenticity of the stone itself is doubtful with subsequent writers condeming it as fabrication. Southesk comments that the text which appears highly improbable shows in the least that the stone has <q>'been tampered with in modern times'</q> (Southesk 1895, 244).</p>
-                     </item>
-                 </list>
+                        <p><q>The opening marks appear to consist of a semi-circle below the stem containing three dots - interpretation unclear.</q> with the same mark above the stem slightly overlapping with the first stroke (Forsyth 1996, 504).</p>
+                         <p>There is an additional semi-circle above the stem, at the seventh character, containing a dot of which as Forsyth comments any interpertation is unclear (1996, 505).</p>
+                         <p>The authenticity of the stone itself is doubtful with subsequent writers condeming it as fabrication. Southesk comments that the text which appears highly improbable shows in the least that the stone has <q>been tampered with in modern times</q> (Southesk 1895, 244).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="SOU1895"/>
-                     <citedRange>24-251</citedRange>
+                     <citedRange>24-251</citedRange>      
+                     </bibl>
+                     <bibl>
                          <ptr target="FOR1996"/>
-                         <citedRange>504-506</citedRange>         
+                         <citedRange>504-506</citedRange>
                      </bibl>
                  </listBibl>
             </div>
