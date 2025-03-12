@@ -76,16 +76,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.10</depth>
                                      </dimensions>         
                                 </support>
-                                <condition>Not much is known about the condition of the stone, other than that there is some moss at the edge of the stone which may hint that <q>'that part of it must have been not long ago exposed to the air. Such vegetation could not exist on a stone that had been buried for centuries</q> (12). 
+                                <condition>A small stone incised with symbols, a letter, and an ogham inscription. The stone appears to have <q>been tampered with in modern times</q> (Southesk 1895, 244). Southesk maintained that the <q>lines have unquestionably been more or less lately retouched with hard instruments</q> (ibid. 247). Consequently, <q>doubt is cast upon the whole</q> as the fresh whiteness of the lines could indicate that the marks are modern and that the inscription is perhaps fabricated (ibid.). Additionally, the right edge of the stone is <q>overgrown with short green moss</q> which may hint that that part of the stone <q>must have been not long ago exposed to the air. Such vegetation could not exist on a stone that had been buried for centuries</q> (ibid. 247).
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone has on one face an <rs type="decoration">incised crown, a bird and the letter N,</rs> with the ogham inscription in a horizontal position. The stem-line is drawn-in horizontally at exactly <dim type="length" unit="feet">1</dim> foot and is as straight as the run of a ruler.
+                                <layout>The stone has on one face an <rs type="decoration">incised crown, a bird, the letter N,</rs> and an ogham inscription <q>drawn horizontally, manuscript fashion, instead of vertically</q> (Southesk 1895, 250). The stem-line is as straight as the run of a ruler and iis exactly <dim type="length" unit="feet">1</dim> foot in length.
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The lines have been described by Southesk as scratches though some parts appear to be <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The fresh whiteness of the lines could indicate that the marks are modern and perhaps fabricated.                         
+                            <handNote>The strokes have been described by Southesk as scratches though some parts appear to be deeper and <q>rather square at the top</q> as if <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> (1895, 246). The ogham characters are <q>ill-cut</q> and are of a <q>crowded character, which neither please the eye nor compare satisfactorily with any authentic example</q> (ibid. 250).                     
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -94,11 +94,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName>
                                 <geo>56.333056, -3.311668</geo>
                             <note>National Grid Reference: NO 190 164</note></origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>1890s</origDate>
                         </origin>
-                        <provenance type="found" when="1895-01-29">The stone was discovered on <date>Tuesday 29th of January 1895</date> by the sexton of the Abernethy church while a grave digging was taking place, just north of the ruins. Found in the churchyard of Abernethy in Perthshire, the stone was supposedly dug out <q>a little north of the foundation wall of the ancient Celtic church...about 4 and a half feet under the soil</q> (12).
+                        <provenance type="found" when="1895-01-29">The stone was discovered on <date>Tuesday 29th of January 1895</date> by the sexton of the Abernethy church while opening a grave. The stone was supposedly dug out <q>a little north of the foundation wall of the ancient Celtic church...about 4 and a half feet under the soil</q> (Southesk 1895, 244). The stone was sent for inspection to the Museum of Antiquities in Edinburgh but returned to Abernethy by April 1985.
                         </provenance>
-                        <provenance type="observed"><q>The stone was sent for inspection to the Museum of Antiquities in Edinburgh, where, owing to peculiarities...doubts arose as to the character of its inscriptions</q> (12).
+                        <provenance type="observed">In situ.
                         </provenance>
                     </history>
                 </msDesc>
@@ -135,12 +135,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-12" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements and commented out sections that had no content</change>
-                <change when="2025-03-12" who="#POC">Updated commentary, fixed bibl section so it'll display on the database</change>
+                <change when="2025-03-12" who="#POC">Updated commentary, fixed bibl section so it'll display on the database, moved information from provenance to apparatus, added information to handNote, layout and condition from Southesk 1895, added date, added Southesk drawing.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="SCO/S-PER-L02-Abernethy2-drawing.jpg"><desc>Drawing by Southesk (1895, 249)</desc></graphic>
          <media url="example.jpg" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -165,23 +165,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <g ref="#angled_E"/>:BDG
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1"> 
+                    <note>The inscription contains marks which are difficult to interpret. At the beginning of the inscription a mark consisting of a semi-circle containing three dots is present below the stem and the same mark appears as well above the stem, slightly overlapping with the first letter (Forsyth 1996, 504). A similar mark, a semi-circle containing a single dot, also occurs above the stem at the seventh character (ibid. 505).
+                        </note>
                 </app>
+                    <app n="2">
+                        <note>Futhermore, as Southesk recounted <q>the letters are practically all vowels, and seem to yield no definite meaning</q> (1895, 246).</note>
+                    </app>
                 </listApp>
-            </div>-->
+            </div>
             <!--<div type="translation" xml:lang="en">
                 <p></p>
             </div>-->
             <div type="commentary">
-                        <p><q>The opening marks appear to consist of a semi-circle below the stem containing three dots - interpretation unclear.</q> with the same mark above the stem slightly overlapping with the first stroke (Forsyth 1996, 504).</p>
-                         <p>There is an additional semi-circle above the stem, at the seventh character, containing a dot of which as Forsyth comments any interpertation is unclear (1996, 505).</p>
-                         <p>The authenticity of the stone itself is doubtful with subsequent writers condeming it as fabrication. Southesk comments that the text which appears highly improbable shows in the least that the stone has <q>been tampered with in modern times</q> (Southesk 1895, 244).</p>
+                         <p>The authenticity of the stone itself is doubtful with subsequent writers condeming it as a fabrication. Forsyth observed that the <q>text seems highly improbable </q> and that the stone is <q>almost certainly a creation of the 1890s</q> (1996, 505).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="SOU1895"/>
+                     <bibl>
+                         <ptr target="SOU1895"/>
                      <citedRange>24-251</citedRange>      
                      </bibl>
                      <bibl>
