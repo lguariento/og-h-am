@@ -67,8 +67,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/32300/kirriemuir">Canmore</ref> <idno type="Canmore">32300</idno></p>
-                                    <material>Sandstone</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="crossSlab">Cross slab</objectType>                                  
                                     <dimensions unit="m">                                         
                                             <height>1.15</height>
                                             <width min="0.51" max="0.59">0.51-0.59</width>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
     <change when="2025-02-19" who="#POC">Moved information from commentary to provenance</change>
     <change when="2025-02-28" who="#POC">Proofreading changes, added HES image</change>
+    <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
