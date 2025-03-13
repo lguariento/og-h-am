@@ -137,7 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
                 <change when="2025-02-26" who="#POC">Proofreading updates and added information from Forsyth 1996.</change>
                 <change when="2025-03-12" who="#POC">Moved information from apparatus to layout, and moved information from commentary to apparatus, added attributes to material and object type.</change>
-                <change when="2025-03-13" who="#POC">Moved information from layout to handNote.</change>
+                <change when="2025-03-13" who="#POC">Moved information from layout to handNote, deleted enter key whitespaces to fix stemline.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -149,18 +149,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi" resp="#XS"><!--Language unsure-->              
                 <ab>
-                    <lb n="1" style="text-direction:left"/>
-                    <gap reason="lost" extent="unknown" unit="character"/> 
-                    ᚊᚋᚔ
-                    <gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/>ᚊᚋᚔ<gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="xpi" xml:space="preserve" resp="#KF">
                 <ab>
-                     <lb n="1" style="text-direction:left"/>
-                    <gap reason="lost" extent="unknown" unit="character"/> 
-                    QMI
-                    <gap reason="lost" extent="unknown" unit="character"/> 
+                     <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/>QMI<gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
             <div type="apparatus">
