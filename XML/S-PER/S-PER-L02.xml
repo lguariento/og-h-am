@@ -76,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.10</depth>
                                      </dimensions>         
                                 </support>
-                                <condition>A small stone incised with symbols, a letter, and an ogham inscription. The stone appears to have <q>been tampered with in modern times</q> (Southesk 1895, 244). Southesk maintained that the <q>lines have unquestionably been more or less lately retouched with hard instruments</q> (ibid. 247). Consequently, <q>doubt is cast upon the whole</q> as the fresh whiteness of the lines could indicate that the marks are modern and that the inscription is perhaps fabricated (ibid.). Additionally, the right edge of the stone is <q>overgrown with short green moss</q> which may hint that that part of the stone <q>must have been not long ago exposed to the air. Such vegetation could not exist on a stone that had been buried for centuries</q> (ibid. 247).
+                                <condition>A small stone incised with symbols, a letter, and an ogham inscription. The stone appears to have <q>been tampered with in modern times</q> (Southesk 1895, 244). Southesk maintained that the <q>lines have unquestionably been more or less lately retouched with hard instruments</q> (ibid. 247). Consequently, <q>doubt is cast upon the whole</q> as the fresh whiteness of the lines could indicate that the marks are modern and that the inscription is perhaps fabricated (ibid.). Additionally, the right edge of the stone is <q>overgrown with short green moss</q> which may hint that that part of the stone <q>must have been not long ago exposed to the air</q>. As Southesk reasoned, <q>such vegetation could not exist on a stone that had been buried for centuries</q> (ibid. 247).
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -85,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The strokes have been described by Southesk as scratches though some parts appear to be deeper and <q>rather square at the top</q> as if <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> (1895, 246). The ogham characters are <q>ill-cut</q> and are of a <q>crowded character, which neither please the eye nor compare satisfactorily with any authentic example</q> (ibid. 250).                     
+                            <handNote>The strokes have been described by Southesk as scratches though some parts appear to be deeper and <q>rather square at the top</q> as if <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> (1895, 246). The ogham characters are <q>ill-cut</q> and are of a <q>crowded character</q> (ibid. 250).                     
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -96,7 +96,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NO 190 164</note></origPlace>
                             <origDate>1890s</origDate>
                         </origin>
-                        <provenance type="found" when="1895-01-29">The stone was discovered on <date>Tuesday 29th of January 1895</date> by the sexton of the Abernethy church while opening a grave. The stone was supposedly dug out <q>a little north of the foundation wall of the ancient Celtic church...about 4 and a half feet under the soil</q> (Southesk 1895, 244). The stone was sent for inspection to the Museum of Antiquities in Edinburgh but returned to Abernethy by April 1985.
+                        <provenance type="found" when="1895-01-29">The stone was discovered on <date>Tuesday 29th of January 1895</date> by the sexton of the Abernethy church while opening a grave. The stone which was supposedly buried <q>about 4 and a half feet under the soil</q> was dug out <q>a little north of the foundation wall of the ancient Celtic church</q> (Southesk 1895, 244). The stone was sent for inspection to the Museum of Antiquities in Edinburgh where <q>doubts arose as to the character of its inscription</q> and it was returned to Abernethy by April 1985 (ibid.).
                         </provenance>
                         <provenance type="observed">In situ.
                         </provenance>
@@ -136,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements and commented out sections that had no content</change>
                 <change when="2025-03-12" who="#POC">Updated commentary, fixed bibl section so it'll display on the database, moved information from provenance to apparatus, added information to handNote, layout and condition from Southesk 1895, added date, added Southesk drawing.</change>
+                <change when="2025-03-12" who="#POC">Updated provenance, condition, handNote, apparatus, added sentence on lack of translation, added Babel Pictish Italic font encoding to edition for the angled E and U characters, encoded the stokes added underneath stemline, updated the edition completely with Forsyth's reading, added alternative reading to apparatus.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -145,42 +146,58 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" source="SOU1895" resp="#XS"><!--Lang not specified needs updating accordingly-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" source="FOR1996" resp="#XS"><!--Lang not specified needs updating accordingly-->              
                 <ab>
                     <lb n="1" style="text-direction:right"/>
+                    <gap reason="lost" quantity="2" unit="character"/>
+                    <choice><unclear>ᚐ</unclear><unclear>ᚋ</unclear></choice>
+                    <hi rend="babel_pictish_italic"><g ref="#angled_U"/></hi>
+                    ᚍ
+                    <choice><unclear>ᚐ</unclear><unclear>ᚋ</unclear></choice>
                     <gap reason="lost" quantity="1" unit="character"/>
-                    <gap reason="lost" quantity="1" unit="character"/>
-                    ᚋ<!--angled ᚒ--><unclear>ᚋ</unclear>
-                    <gap reason="lost" quantity="1" unit="character"/>
-                   <!-- angled ᚓ-->ᚁᚇᚌ
+                    <add place="below"><hi rend="babel_pictish_italic"><g ref="#angled_U"/></hi></add>
+                   ᚐᚆᚁᚆᚐ
+                    <choice><unclear>ᚐ</unclear><unclear>ᚁᚆ</unclear></choice>
+                    <choice><unclear>ᚆ</unclear><unclear>ᚁᚇ</unclear></choice>
+                    <choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" source="SOU1895" resp="#KF">
-                <ab>[
+                <ab>
                     <lb n="1" style="text-direction:right"/>
+                    <gap reason="lost" quantity="2" unit="character"/>
+                    <choice><unclear>A</unclear><unclear>M</unclear></choice>
+                    <g ref="#angled_U"/>
+                    G
+                    <choice><unclear>A</unclear><unclear>M</unclear></choice>
                     <gap reason="lost" quantity="1" unit="character"/>
-                    <gap reason="lost" quantity="1" unit="character"/>
-                    M<g ref="#angled_U"/><unclear>M</unclear>
-                    <gap reason="lost" quantity="1" unit="character"/>
-                    <g ref="#angled_E"/>:BDG
+                    <add place="below"><g ref="#angled_U"/></add>
+                    AHBHA
+                    <choice><unclear>A</unclear><unclear>BH</unclear></choice>
+                    <choice><unclear>H</unclear><unclear>BD</unclear></choice>
+                    <choice><unclear>O</unclear><unclear>G</unclear></choice>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1"> 
-                    <note>The inscription contains marks which are difficult to interpret. At the beginning of the inscription a mark consisting of a semi-circle containing three dots is present below the stem and the same mark appears as well above the stem, slightly overlapping with the first letter (Forsyth 1996, 504). A similar mark, a semi-circle containing a single dot, also occurs above the stem at the seventh character (ibid. 505).
+                    <note>The inscription contains marks which are difficult to interpret. At the beginning of the inscription a mark consisting of a semi-circle containing three dots is present below the stem and the same mark appears as well above the stem, slightly overlapping with the first letter (Forsyth 1996, 504). 
                         </note>
                 </app>
                     <app n="2">
-                        <note>Futhermore, as Southesk recounted <q>the letters are practically all vowels, and seem to yield no definite meaning</q> (1895, 246).</note>
+                        <note>A similar mark, a semi-circle containing a single dot, also occurs above the stem at the seventh character (ibid. 505). Underneath this character, is a short horizontal line with three angled strokes which is incised <q>to the right of and parallel with the stem</q> and meets the first stroke of the eighth letter to the right of the stem (ibid.).
+                        </note>
+                    </app>
+                    <app n="3">
+                        <note>According to Forsyth, the letter sequence AHBHA could possibly be alternatively read as an angled E. The orientation of the strokes is as follows: <q>four short strokes to the left of the stem sloping slightly forward, above three short strokes to the right of the stem sloping slightly forward. The first and last strokes of each group meet at the stem to form a vowel stroke. The third of the right hand strokes meets the stem equidistant between the middle pair of the left hand strokes</q> (1996, 505). As Forsyth stated, if <q>a fourth stroke to the right has not been omitted, these could be read as AHBHA, otherwise E</q> (ibid.). This sequence of strokes is followed by a <q>single dot to the left of the stem</q> (ibid.).</note>
                     </app>
                 </listApp>
             </div>
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation" xml:lang="en">
+                <p>The inscription seems <q>to yield no definite meaning</q> (Southesk 1895, 246).</p>
+            </div>
             <div type="commentary">
-                         <p>The authenticity of the stone itself is doubtful with subsequent writers condeming it as a fabrication. Forsyth observed that the <q>text seems highly improbable </q> and that the stone is <q>almost certainly a creation of the 1890s</q> (1996, 505).</p>
+                         <p>The authenticity of the inscription is doubtful with subsequent writers condeming it as a fabrication. Forsyth observed that the <q>text seems highly improbable </q> and that it is <q>almost certainly a creation of the 1890s</q> (1996, 505).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
