@@ -136,7 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements and commented out sections that had no content</change>
                 <change when="2025-03-12" who="#POC">Updated commentary, fixed bibl section so it'll display on the database, moved information from provenance to apparatus, added information to handNote, layout and condition from Southesk 1895, added date, added Southesk drawing.</change>
-                <change when="2025-03-12" who="#POC">Updated provenance, condition, handNote, apparatus, added sentence on lack of translation, added Babel Pictish Italic font encoding to edition for the angled E and U characters, encoded the stokes added underneath stemline, updated the edition completely with Forsyth's reading, added alternative reading to apparatus.</change>
+                <change when="2025-03-12" who="#POC">Updated provenance, condition, handNote, apparatus, added sentence on lack of translation, added Babel Pictish Italic font encoding to edition for the angled E and U characters, encoded the stokes added underneath stemline, updated the edition completely with Forsyth's reading, added alternative reading to apparatus, removed enter key whitespace.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -148,34 +148,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" source="FOR1996" resp="#XS"><!--Lang not specified needs updating accordingly-->              
                 <ab>
-                    <lb n="1" style="text-direction:right"/>
-                    <gap reason="lost" quantity="2" unit="character"/>
-                    <choice><unclear>ᚐ</unclear><unclear>ᚋ</unclear></choice>
-                    <hi rend="babel_pictish_italic"><g ref="#angled_U"/></hi>
-                    ᚍ
-                    <choice><unclear>ᚐ</unclear><unclear>ᚋ</unclear></choice>
-                    <gap reason="lost" quantity="1" unit="character"/>
-                    <add place="below"><hi rend="babel_pictish_italic"><g ref="#angled_U"/></hi></add>
-                   ᚐᚆᚁᚆᚐ
-                    <choice><unclear>ᚐ</unclear><unclear>ᚁᚆ</unclear></choice>
-                    <choice><unclear>ᚆ</unclear><unclear>ᚁᚇ</unclear></choice>
-                    <choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice>
+                    <lb n="1" style="text-direction:right"/><gap reason="lost" quantity="2" unit="character"/><choice><unclear>ᚐ</unclear><unclear>ᚋ</unclear></choice><hi rend="babel_pictish_italic"><g ref="#angled_U"/></hi>ᚍ<choice><unclear>ᚐ</unclear><unclear>ᚋ</unclear></choice><gap reason="lost" quantity="1" unit="character"/><add place="below"><hi rend="babel_pictish_italic"><g ref="#angled_U"/></hi></add>ᚐᚆᚁᚆᚐ<choice><unclear>ᚐ</unclear><unclear>ᚁᚆ</unclear></choice><choice><unclear>ᚆ</unclear><unclear>ᚁᚇ</unclear></choice><choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" source="SOU1895" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:right"/>
-                    <gap reason="lost" quantity="2" unit="character"/>
-                    <choice><unclear>A</unclear><unclear>M</unclear></choice>
-                    <g ref="#angled_U"/>
-                    G
-                    <choice><unclear>A</unclear><unclear>M</unclear></choice>
-                    <gap reason="lost" quantity="1" unit="character"/>
-                    <add place="below"><g ref="#angled_U"/></add>
-                    AHBHA
-                    <choice><unclear>A</unclear><unclear>BH</unclear></choice>
-                    <choice><unclear>H</unclear><unclear>BD</unclear></choice>
-                    <choice><unclear>O</unclear><unclear>G</unclear></choice>
+                    <lb n="1" style="text-direction:right"/><gap reason="lost" quantity="2" unit="character"/><choice><unclear>A</unclear><unclear>M</unclear></choice><g ref="#angled_U"/>G<choice><unclear>A</unclear><unclear>M</unclear></choice><gap reason="lost" quantity="1" unit="character"/><add place="below"><g ref="#angled_U"/></add>AHBHA<choice><unclear>A</unclear><unclear>BH</unclear></choice><choice><unclear>H</unclear><unclear>BD</unclear></choice><choice><unclear>O</unclear><unclear>G</unclear></choice>
                 </ab>
             </div>
             <div type="apparatus">
