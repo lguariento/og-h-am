@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-02-26" who="#POC">Proofreading updates and added information from Forsyth 1996.</change>
                 <change when="2025-03-12" who="#POC">Moved information from apparatus to layout, and moved information from commentary to apparatus, added attributes to material and object type.</change>
                 <change when="2025-03-13" who="#POC">Moved information from layout to handNote, deleted enter key whitespaces to fix stemline, added bound I character to the edition</change>
+                <change when="2025-03-14" who="#POC">Added bound Q character to the edition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -149,12 +150,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi" resp="#XS"><!--Language unsure-->              
                 <ab>
-                    <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/>ᚊᚋ<hi rend="babel_pictish_bold"><g ref="#bound_I"/></hi><gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/><hi rend="babel_pictish_bold"><g ref="#bound_Q"/></hi>ᚋ<hi rend="babel_pictish_bold"><g ref="#bound_I"/></hi><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="xpi" xml:space="preserve" resp="#KF">
                 <ab>
-                     <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/>QM<g ref="#bound_I"/><gap reason="lost" extent="unknown" unit="character"/> 
+                     <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_Q"/>M<g ref="#bound_I"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
             <div type="apparatus">
