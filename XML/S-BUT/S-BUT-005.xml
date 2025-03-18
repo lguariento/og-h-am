@@ -69,17 +69,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark">Canmore</ref> <idno type="Canmore">40268</idno></p> <p>Inchmarnock find number: IS.36 SF717</p>
                                     <material type="slate">Slate</material> 
-                                    <objectType key="portabilia">Fragment</objectType>                                     
+                                    <objectType key="portableObject">Fragment</objectType>                             
                                     <dimensions unit="mm">                                         
                                             <height>120</height>
                                             <width>70</width>
                                             <depth/>
-                                     </dimensions>         
+                                     </dimensions>     
+                                    <desc type="decoration">Face B features a <rs type="decoration" key="cross">cruciform, curvilinear design with two intersecting lines terminating in spirals</rs>.</desc>
                                 </support>
                                 <condition>A small piece of slate, roughly rectangular in shape with some fractures and wear, inscribed in both Latin and ogham. The upper portion has a very straight break and appears to have been trimmed. The Latin inscription has some minor scratches and the ogham inscription is incomplete, consisting of only the first ten letters of the alphabet.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Face A exhibits two lines of Latin writing, while face B contains an ogham inscription comprised of the first ten letters of the alphabet as well as a <rs type="decoration">cruciform, curvilinear design with two intersecting lines terminating in spirals</rs>. The ogham inscription runs horizontally across the middle of the slate slab. The drawn-in stem begins about <dim type="length" unit="mm">10mm</dim> from the left edge with the end lost in the fractured top right corner. </layout>
+                                <layout style="stemline_horizontal">Face A exhibits two lines of Latin writing, while face B contains an ogham inscription comprised of the first ten letters of the alphabet as well as decorative features. The ogham inscription runs horizontally across the middle of the slate slab. The drawn-in stem begins about <dim type="length" unit="mm">10mm</dim> from the left edge with the end lost in the fractured top right corner. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -136,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-05" who="#POC">Added paragraph to support, added National Grid Reference details, corrected typos, deleted generic information leftover from template, closed unused elements, commented out apparatus and translation, added roman subtype for Latin inscription and added transliteration division to edition</change>
                <change when="2025-03-08" who="#POC">Proofreading updates, updated object type, material, measurements, provenance, condition, commentary, added image from BM, structured edition with text parts, updated reading direction</change>
+                <change when="2025-03-18" who="#POC">Deleted whitespace from edition, added decoration section, updated attribute key value for objectType and added attribute to layout for horizontal stemline</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -148,8 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->    
                  <div type="textpart" n="1">
                      <ab>
-                    <lb n="1" style="text-direction:l-to-r"/>
-                    ᚁᚂᚃᚄᚅᚆᚇᚈᚉ<unclear>ᚊ</unclear>
+                    <lb n="1" style="text-direction:l-to-r"/>ᚁᚂᚃᚄᚅᚆᚇᚈᚉ<unclear>ᚊ</unclear>
                 </ab>
                  </div>
                      <div type="edition" subtype="transliteration" xml:space="preserve">
@@ -179,9 +180,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation" xml:lang="en">
+                <p>The inscription lists the first ten letters of the ogham alphabet.</p>
+            </div>
             <div type="commentary">
                         <p>Forsyth and Tedeschi remarked that the Inchmarnock ogham-inscribed slate pieces represent <q>the first find of non-monumental ogham from an ecclestical site</q> (Lowe 2008, 130).</p>
                          <p>From the Inchmarnock ogham inscriptions it is clear that <q>Gaelic-speaking scribes were familiar with the ogham alphabet and used it in informal sometimes jocular way, for brief marginal glosses and comments</q> (2008, 130).</p>
