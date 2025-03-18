@@ -69,13 +69,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/27926/abernethy-churchyard-ogam-stone">Canmore</ref> <idno type="Canmore">27926</idno></p>
                                     <material type="stone">Old red sandstone</material> 
-                                    <objectType key="crossSlab">Cross slab</objectType>                                   
-                                    <dimensions unit="m">                                         
-                                            <height>0.360</height>
-                                            <width>0.200-0.230</width>
-                                            <depth>0.070</depth>
+                                    <objectType key="crossSlab">Cross-slab</objectType>                                   
+                                    <dimensions unit="mm">                                         
+                                            <height>360</height>
+                                            <width min="200" max="230">200-230</width>
+                                            <depth>70</depth>
                                      </dimensions>  
-                                    <desc type="decoration">The upper section of the fragment features the remains of a common Pictish sculpture symbol, the <rs type="decoration" key="horse">high-stepping horse(s)</rs> (Forsyth 1996, 5). </desc>
+                                    <desc type="decoration">The upper section of the fragment features the remains of a common Pictish sculpture motif, the <rs type="decoration" key="horse">high-stepping horse(s)</rs> (Forsyth 1996, 5). </desc>
                                 </support>
                                 <condition>This ogham-inscribed fragment has been severely cut down and potentially represents only a small portion of the original cross slab and inscription. There are no signs which might indicate the original proportions of either. The upper half of the fragment is especially damaged, obscuring the area containing the carving of a <rs type="decoration">horse or deer</rs> of which only two legs, facing left, now survive. Similarly, a semi-circular portion of the bottom left corner of the fragment <q>has been deliberately defaced</q> (Forsyth 1996, 5). Three complete letters of the original inscription survive on the fragment, the carving is clear and well-preserved (ibid. 4).
                                 </condition>
@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-12" who="#POC">Moved information from apparatus to layout, and moved information from commentary to apparatus, added attributes to material and object type.</change>
                 <change when="2025-03-13" who="#POC">Moved information from layout to handNote, deleted enter key whitespaces to fix stemline, added bound I character to the edition</change>
                 <change when="2025-03-14" who="#POC">Added bound Q character to the edition, added decoration description encoding to support, updated layout to remove ellipsis</change>
+                <change when="2025-03-18" who="#POC">Updated condition to replace symbol term with motif, deleted xml:lang attribute from translation element, added hyphen back to cross-slab, updated measurements from m to mm.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -167,7 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <p>The extant portion of the inscription is insufficient for producing a translation.</p>
             </div>
             <div type="commentary">
