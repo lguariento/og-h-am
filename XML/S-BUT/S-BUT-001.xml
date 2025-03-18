@@ -148,7 +148,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change when="2025-03-10" who="#POC">Proofreading updates, corrected bibl reference and added citedRange details, updated layout and condition</change>
                 <change when="2025-03-11" who="#POC">Proofreading updates, updated provenance, condition, layout, bibl, handNote, apparatus, translation, and commentary</change>
                 <change when="2025-03-12" who="#POC">Added Jackson's remarks on the inscription, added attribute to material</change>
-                <change when="2025-03-18" who="#POC">Added key to objectType, added decoration section.</change>
+                <change when="2025-03-18" who="#POC">Added key to objectType, added decoration section, removed enter key spaces from edition to fix stemline.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -163,18 +163,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd" source="JAC1973" resp="XS"> 
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    ᚋᚓᚊ<choice resp="KF"><unclear cert="low">ᚓ</unclear><unclear cert="low">ᚔ</unclear></choice>
-                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚋᚓᚊ<choice resp="KF"><unclear cert="low">ᚓ</unclear><unclear cert="low">ᚔ</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="gd" xml:space="preserve" resp="#KF">
                 <ab>
-                   <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    MEQ<choice resp="KF"><unclear cert="low">E</unclear><unclear cert="low">I</unclear></choice>
-                    <gap reason="lost" extent="unknown" unit="character"/>
+                   <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>MEQ<choice resp="KF"><unclear cert="low">E</unclear><unclear cert="low">I</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
