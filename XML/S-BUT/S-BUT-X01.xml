@@ -74,17 +74,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/39229/arran-drumadoon-kings-cave">Canmore</ref> <idno type="Canmore">39229</idno>: King's Cave, Drumadoon</p>
                                     <material type="stone">Sandstone</material> 
-                                    <objectType>Cave graffiti</objectType>                                     
+                                    <objectType key="graffiti">Cave wall</objectType>                                     
                                     <!--<dimensions unit="m">
                                         <depth>37</depth>
                                         <width>9</width>
                                         <height>15 in greatest height</height>CAVE DIMENSIONS-->
                                     <!--</dimensions>-->  
+                                    <desc type="decoration">The south aisle of the cave is decorated with carvings of horses, deer, and concentric circles. The buttress bears a large and a small cross and the figure of a man with raised hands holding a curved object above his head. Towards the entrance, on the south wall there are two triangles and on the north wall of the south aisle there is a group of serpent-like spirals. </desc>
                                 </support>
-                                <condition>A large irregularly shaped cave divided into two aisles by a rock buttress. There are opposing rows of small holes cut into the rock about 1 1/2-2m above the present floor which have been interpreted as sockets for small bars of wood (Forsyth 1996, 94). These have been interpreted as sockets for small bars of wood (Forsyth 1996, 94). The walls of the cave are full of natural fissures but the south aisle of the cave also exhibits copious carvings and graffiti, including two ogham inscriptions (S-BUT-001 - S-BUT-002), an ogham text written in pigment (S-BUT-003), and what appears to be another ogham inscription but may be natural fissures (S-BUT-X01). </condition>
+                                <condition>A large irregularly shaped cave divided into two aisles by a rock buttress. There are opposing rows of small holes cut into the rock about 1 1/2-2m above the present floor which have been interpreted as sockets for small bars of wood (Forsyth 1996, 94). The walls of the cave are full of natural fissures but the south aisle of the cave also exhibits copious carvings and graffiti, including two ogham inscriptions (S-BUT-001 - S-BUT-002), an ogham text written in pigment (S-BUT-003), and what appears to be another ogham inscription but may be natural fissures (S-BUT-X01). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The south aisle of the cave is decorated with carvings of horses, deer, and concentric circles. The buttress bears a large and a small cross and the figure of a man with raised hands holding a curved object above his head. Towards the entrance, on the south wall there are two triangles and on the north wall of the south aisle there is a group of serpent-like spirals and four ogham inscriptions (Forsyth 1996, 94-5). The inscriptions are carved on the left-hand wall of the cave, about <height unit="m">2m</height> above the present floor. To the left of the Blackwaterfoot 1 (S-BUT-001) inscription, Forsyth (1996, 95) observed what appears <q>to be further ogham-like marking</q> on <q>a shorter natural stem-line</q> to the left of Blackwaterfoot 1 (S-BUT-001) (Fisher 2001, 6). 
+                                <layout>The ogham inscriptions are carved on the left-hand wall of the cave, about <height unit="m">2m</height> above the present floor. Forsyth (1996, 95) observed what appears <q>to be further ogham-like marking</q> on <q>a shorter natural stem-line</q> to the left of the Blackwaterfoot 1 (S-BUT-001) ogham inscription (Fisher 2001, 6). 
                                     <!--The first inscription (S-BUT-001) is about <dim type="depth" unit="m">9m</dim> from the entrance gate. Located 1.6m to the right of the first inscription and parallel with it, there appears to be another ogham text (S-BUT-003) which is about 300mm in length and extends to the underside of an oblique overhang. There is a second inscription (S-BUT-002) about <dim type="depth" unit="m">11m</dim> from the entrance gate. --></layout>
                             </layoutDesc>
                         </objectDesc>
@@ -144,6 +145,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-09-05" who="#POC">Added paragraph to support, added National Grid Reference, commented out handDesc and condition and edition as well as apparatus and translation, closed unused elements such as layout.</change>
                 <change when="2025-03-10" who="#POC">Added bibl details, updated commentary, added condition, layout, handNote, and provenance details, added images of animal carvings, commented out media because it was invalidating file</change>
                 <change when="2025-03-12" who="#POC">Added CISP link, updated bibl, provenance, condition, layout, handNote, added apparatus, added attribute to material</change>
+                <change when="2025-03-18" who="#POC">Added key to objectType, added decoration section, updated layout and condition, added line to translation.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -174,9 +176,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation" xml:lang="en">
+                <p>No translation can be provided.</p>
+            </div>
             <!--<div type="commentary">
 <p></p>
             </div>-->
