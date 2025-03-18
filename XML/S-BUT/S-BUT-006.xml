@@ -70,8 +70,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/40268/inchmarnock-midpark">Canmore</ref> <idno type="Canmore">40268</idno></p> <p>Inchmarnock find number: IS.76 SF1263</p>
-                                    <material>Slate</material> 
-                                    <objectType>Graffiti gaming board</objectType>                                     
+                                    <material type="stone">Slate</material> 
+                                    <objectType key="graffiti">Gaming board</objectType>                       
                                     <dimensions unit="m">                                         
                                             <height/>
                                             <width/>
@@ -82,7 +82,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>An inscribed slate fragment which appears to be the remains of a gaming board. The stone has some fracturing and wear and is especially abraded in the middle portion of the ogham inscription. The inscription is mostly clear with the first four letters and final letter intact, the middle portion is more doubtful.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is one of the many inscriptions on this stone. The inscription has an irregular horizontal stem-line that gets cross-cut by a set of long parallel lines running vertically. The stem begins <dim type="length" unit="mm">60mm</dim> from the left and could have possibly extended beyond the fractured edge.</layout>
+                                <layout style="stemline_horizontal">The ogham inscription is one of the many inscriptions on this stone. The inscription has an irregular horizontal stem-line that gets cross-cut by a set of long parallel lines running vertically. The stem begins <dim type="length" unit="mm">60mm</dim> from the left and could have possibly extended beyond the fractured edge.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -139,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-06" who="#POC">Added paragraph to support, National Grid Reference, closed unused elements, commented out apparatus and translation</change>
                <change when="2025-03-08" who="#POC">Proofreading updates, updated object type, material, condition, layout, handNote, provenance, added date range, added information to ogham inscription </change>
+                <change when="2025-03-18" who="#POC">Added attributes to material and objectType and layout to facilitate searching, deleted whitespace in edition, added a line about no translation</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -150,22 +151,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    ᚛ᚋ
-                    <gap reason="lost" quantity="1" unit="character"/>
-                    ᚉ
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    ᚌᚌᚐᚔᚕ
+                    <lb n="1" style="text-direction:up"/>᚛ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚉ<gap reason="lost" extent="unknown" unit="character"/>ᚌᚌᚐᚔᚕ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <g ref="#feathermark"/>M
-                    <gap reason="lost" quantity="1" unit="character"/>
-                    C
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    GGAI<g ref="#forfid_X"/>
+                    <lb n="1" style="text-direction:up"/><g ref="#feathermark"/>M<gap reason="lost" quantity="1" unit="character"/>C<gap reason="lost" extent="unknown" unit="character"/>GGAI<g ref="#forfid_X"/>
                 </ab>
             </div>
             <div type="apparatus">
@@ -183,9 +174,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation" xml:lang="en">
+                <p>No translation can be provided</p>
+            </div>
             <div type="commentary">
                         <p>Forsyth and Tedeschi remarked that the Inchmarnock ogham-inscribed slate pieces represent <q>the first find of non-monumental ogham from an ecclestical site</q> (Lowe 2008, 130).</p>
                          <p>From the Inchmarnock ogham inscriptions it is clear that <q>Gaelic-speaking scribes were familiar with the ogham alphabet and used it in informal sometimes jocular way, for brief marginal glosses and comments</q> (Forsyth, Tedeschi 2008, 130)</p>
