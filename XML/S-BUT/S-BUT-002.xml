@@ -49,7 +49,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-BUT-002</idno>
                  <idno type="CIIC"/>
-                <idno type="CISP">BLFOO/2</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/blfoo_2.html">BLFOO/2</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -77,13 +77,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <width>9</width>
                                         <height>15 in greatest height</height>CAVE DIMENSIONS-->
                                     <!--</dimensions>-->  
-                                    <desc type="decoration">The south aisle of the cave is decorated with carvings of horses, deer, and concentric circles. The buttress bears a large and a small cross and the figure of a man with raised hands holding a curved object above his head. Towards the entrance, on the south wall there are two triangles and on the north wall of the south aisle there is a group of serpent-like spirals (Forsyth 1996, 94-5).</desc>
+                                    <desc type="decoration">The south aisle of the cave is decorated with carvings of <rs type="decoration" key="horse">horses</rs>, <rs type="decoration" key="deer">deer</rs>, and <rs type="decoration" key="circle">concentric circles</rs>. The buttress bears <rs type="decoration" key="cross">a large and a small cross</rs> and the figure of <rs type="decoration" key="man">a man with raised hands holding a curved object above his head</rs>. Towards the entrance, on the south wall there are <rs type="decoration" key="triangle">two triangles</rs> and on the north wall of the south aisle there is a group of <rs type="decoration" key="snake">serpent-like spirals</rs> (Forsyth 1996, 94-5).</desc>
                                 </support>
                                 <condition>A large irregularly shaped cave divided into two aisles by a rock buttress. There are opposing rows of small holes cut into the rock about 1 1/2-2m above the present floor which have been interpreted as sockets for small bars of wood (Forsyth 1996, 94). The walls of the cave are full of natural fissures but the south aisle of the cave also exhibits copious carvings and graffiti, including two ogham inscriptions (S-BUT-001 - S-BUT-002), an ogham text written in pigment (S-BUT-003), and what appears to be another ogham inscription but may be natural fissures (S-BUT-X01). Some natural fissures and a rough patch at the bottom potentially obscure the beginning of the Blackwaterfoot 2 inscription, no traces of any letters survive, and a protrubance at the top on the rock face may have served as a natural endpoint for the inscription (Forsyth 1996, 97-100). In and around the stem is a general hollowness which could be the result of water wear or chipping. 
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="stemlinel">The inscriptions are carved on the left-hand wall of the cave, about <height unit="m">2m</height> above the present floor. About 1.6m to the right of the Blackwaterfoot 1 inscription and about <depth unit="m">11m</depth> from the entrance of the cave is the Blackwaterfoot 2 inscription (S-BUT-002). The Blackwaterfoot 2 inscription has a near vertical stem-line which appears to be artificial. The stem-line <q>extends to the underside of an oblique overhang</q> and is about 300m long (Fisher 2001, 66). It is possible that the Blackwaterfoot 2 inscription might have commenced lower down, in the rough patch immediately before the start of the extant portion of the text. The inscription is unlikely to have extended higher because of a protrubance on the rock face (Forsyth 1996, 97). The stem leans slightly to the right <q>as if the upper part was getting beyond the reach of the carver</q>, suggesting that the inscription was intended to be read from the bottom upwards (ibid. 98). 
+                                <layout style="stemline">The inscriptions are carved on the left-hand wall of the cave, about <height unit="m">2m</height> above the present floor. About 1.6m to the right of the Blackwaterfoot 1 inscription and about <depth unit="m">11m</depth> from the entrance of the cave is the Blackwaterfoot 2 inscription (S-BUT-002). The Blackwaterfoot 2 inscription has a near vertical stem-line which appears to be artificial. The stem-line <q>extends to the underside of an oblique overhang</q> and is about 300m long (Fisher 2001, 66). It is possible that the Blackwaterfoot 2 inscription might have commenced lower down, in the rough patch immediately before the start of the extant portion of the text. The inscription is unlikely to have extended higher because of a protrubance on the rock face (Forsyth 1996, 97). The stem leans slightly to the right <q>as if the upper part was getting beyond the reach of the carver</q>, suggesting that the inscription was intended to be read from the bottom upwards (ibid. 98). 
                                     <!--The first inscription (S-BUT-001) is about <dim type="depth" unit="m">9m</dim> from the entrance gate. To the right of the first inscription and parallel with it, there appears to be another ogham inscription (S-BUT-003) but Jackson described it as <q>a piece of modern vandalism, not carved into the rock but drawn in pencil or ink</q> (Forsyth 1996, 95; Jackson 1973, 95). To the left of the first inscription, Forsyth also observed what appears <q>to be further ogham-like marking</q> (S-BUT-X01), however, these may <q>be natural fissures in the rock face with only a coincidental resemblance to ogham</q> (Forsyth 1996, 95).-->
                                 </layout>
                             </layoutDesc>
@@ -98,6 +98,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origPlace>
                             <placeName type="parish">Kilmory</placeName>
                             <placeName type="county">Bute</placeName>
+                            <placeName type="country">Scotland</placeName>
                             <geo>55.526111, -5.353333</geo>
                             <note>National Grid Reference: NR 8844 3092</note>
                         </origPlace>
@@ -151,7 +152,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-11" who="#POC">Proofreading updates, updated provenance, condition, layout, handNote, apparatus, commentary, bibl</change>
                 <change when="2025-03-12" who="#POC">Updated apparatus with Fisher's description of the inscription, added attribute to material</change>
                 <change when="2025-03-18" who="#POC">Added key to objectType, added decoration section, removed enter key whitespace in edition, added line to translation.</change>
-                 <change when="2025-03-19" who="#POC">Update objectType key attribute value, added style attibute to layout for stemline</change>
+                 <change when="2025-03-19" who="#POC">Update objectType key attribute value, added style attibute to layout for stemline, added country to origPlace section, added CISP link, added key for decorative elements</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
