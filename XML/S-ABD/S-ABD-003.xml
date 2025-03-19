@@ -46,7 +46,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-003</idno>
                  <idno type="CIIC"/>
-                <idno type="CISP">FRMSN/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/frmsn_1.html">FRMSN/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -69,17 +69,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/17507/aboyne-old-parish-church-cross-slab">Canmore</ref> <idno type="Canmore">17507</idno></p>
                                     <material type="stone">Granite</material> 
-                                    <objectType key="crossSlab">Cross slab</objectType>                                   
+                                    <objectType key="crossSlab">Cross-slab</objectType>                                   
                                     <dimensions unit="m">                                         
                                             <height>1.124</height>
                                             <width max="0.443" min="0.335">0.443-0.335</width>
                                             <depth>0.12</depth>
-                                     </dimensions>         
+                                     </dimensions>   
+                                    <desc type="decoration">The fragment of the Class II symbol-inscribed cross-slab is decorated on one face with <q>the remains of an <rs type="decoration" key="cross">interlace cross</rs> and the <rs type="decoration" key="mirror">mirror symbol</rs></q> (Forsyth 1996, 262). </desc>
                                 </support>
                                 <condition>The surviving cross-slab is only a fragment of the original. <q>The extant portion represents the bottom right-hand quadrant of a cross-slab which has fractured horizontally immediately under the arm</q> (Forsyth 1996, 262). The carving is well-preserved and the inscription is very clear (ibid).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The fragment of the Class II symbol-inscribed cross-slab is carved on one face and consists of <q>the remains of an interlace cross, the mirror symbol, and two vertical lines of incised ogham, one on the moulding at the outer margin of the slab the other, parallel to it, up the face of the slab</q> (Forsyth 1996, 262). The ogham is carved on the flat surface, not on the angle, and the outer inscription <q>occupies the whole of the flat band at the margin of the slab</q> (ibid. 267). The ogham texts both read bottom up. </layout>
+                                <layout style="stemline">The cross-slab fragment has <q>two vertical lines of incised ogham, one on the moulding at the outer margin of the slab the other, parallel to it, up the face of the slab</q> (Forsyth 1996, 262). The ogham is carved on the flat surface, not on the angle, and the outer inscription <q>occupies the whole of the flat band at the margin of the slab</q> (ibid. 267). The ogham texts both read bottom up. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Aboyne</placeName> <placeName type="county">Aberdeenshire</placeName>
+                            <origPlace><placeName type="parish">Aboyne</placeName> <placeName type="county">Aberdeenshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>57.090000, -2.758611</geo>
                             <note>National Grid Reference: NJ 5412 0014</note></origPlace>
                             <origDate>Late eighth to early ninth century</origDate>
@@ -137,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-25" who="#POC">Added image </change>
     <change when="2025-02-26" who="#POC">Proofreading updates and added more information from Forsyth 1996</change>
     <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
+    <change when="2025-03-19" who="#POC">Added country placename to origPlace, added CISP link, added style attribute to layout, added decoration section</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
