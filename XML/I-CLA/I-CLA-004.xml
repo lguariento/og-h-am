@@ -57,29 +57,30 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CL045-033010- </idno></p>
-                                    <material/> 
-                                    <objectType>High cross shaft</objectType> 
+                                    <material type="stone"/> 
+                                    <objectType key="monument">High cross shaft</objectType> 
                                      <dimensions unit="m" source="MUR2019">                                         
                                             <height>0.68</height>
                                             <width>0.47</width>
                                             <depth>0.22</depth>
-                                     </dimensions>                                   
+                                     </dimensions> 
+                                     <desc type="decoration">In addition to an ogham and runic inscription, there is what appears to be a <rs type="decoration">crucifixion scene</rs> on one of the broad faces surrounded by a frame or cartouche.</desc>
                                 </support>
-                                <condition>This is a fragment from the upper shaft, just below the head, of a free-standing cross (Murray 2019, 237).</condition>
+                                <condition>This is a fragment from the upper shaft, just below the head, of a free-standing cross (Murray 2019, 237). What survives is in good condition.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The runic inscription is centrally positioned in two vertical lines (reading upwards) inside a frame or cartouche on one of the broad faces, while what appears to be a crucifixion scene (likewise surrounded by a cartouche) occupies the other. The ogham inscription is also in two lines (unusually down-down) on the narrow side of the stone to the right of the runic inscription. This side also has a narrow cartouche and what appears to be the first line of the ogham inscription (including a carved stemline) is centrally positioned inside. The second line of ogham uses the left side of the cartouche as a stemline.</layout>
+                                <layout style="stemline_down-down">The ogham inscription is in two lines (unusually down-down) on the narrow side of the stone to the right of the face with the runic inscription. Like the broad faces, this side has a cartouche (though narrowwe) and what appears to be the first line of the ogham inscription (including a carved stem-line) is centrally positioned inside. The second line of ogham uses the left side of the cartouche as a stem-line. The <rs type="runic">runic inscription</rs> is centrally positioned on the broad face opposite the crucification scene and to the left of the ogham inscription, in two vertical lines (reading upwards) and also inside a cartouche.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in short, quite tightly-spaced strokes and appears to be same technique as used for the runic inscription. Later (reformed) features include a carved stemline (rather than using the edge of the stone), vowels the same length as consonants, the use of a feather-mark at the beginning of the text and the use of the X-forfid with a vocalic value.
+                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in short, quite tightly-spaced strokes and appears to be same technique as used for the runic inscription. Later (reformed) features include a carved stem-line (rather than using the edge of the stone), vowels the same length as consonants, the use of a feather-mark at the beginning of the text and the use of the X-forfid with a vocalic value.
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                               <placeName type="townland">Shantraud (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/56262">An tSeantsráid</ref></foreign>)</placeName>,  <placeName type="civil_parish">Killaloe (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/438">Cill Dalua</ref></foreign>)</placeName>, <placeName type="county">Co. Clare</placeName>
+                               <placeName type="townland">Shantraud (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/56262">An tSeantsráid</ref></foreign>)</placeName>,  <placeName type="civil_parish">Killaloe (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/438">Cill Dalua</ref></foreign>)</placeName>, <placeName type="county">Co. Clare</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>52.806278, -8.439168</geo>
                             <note>ITM coordinates: 570383, 672893</note>
                             </origPlace>
@@ -118,9 +119,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
     <change when="2024-12-13" who="#NW">Created from template for Irish epidoc files.</change>
-    <change when="2024-12-16" who="#NW">Added macalister drawing and tests for forfid and feathermark display. Moved Runic edition to apparatus.</change>
+    <change when="2024-12-16" who="#NW">Added macalister drawing and tests for forfid and feather-mark display. Moved Runic edition to apparatus.</change>
     <change when="2025-01-27" who="#POC">Added ogham space marker, proofreading updates</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker, proofreading updates, added citation details to image</change>
+    <change when="2025-03-19" who="#NW">Added 'Ireland' placename to origPlace and attributes to material, object type and layout. Moved decoration to its own section 'desc type' and encoded runic inscription using rs type=runic.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
