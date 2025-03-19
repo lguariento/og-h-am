@@ -45,7 +45,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-CAI-001</idno>
                  <idno type="CIIC"/>
-                <idno type="CISP">ACKGL/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/ackgl_1.html">ACKGL/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -67,30 +67,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/9243/ackergill-links"><idno type="Canmore">9243</idno></ref></p>
-                                    <material>Caithness flagstone</material> 
-                                    <objectType>Class I Pictish symbol stone</objectType>                                     
+                                <support><p><ref target="https://canmore.org.uk/site/9243/ackergill-links">Canmore</ref> <idno type="Canmore">9243</idno></p>
+                                    <material type="stone">Caithness flagstone</material> 
+                                    <objectType key="monument">Class I Pictish symbol stone</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.2</height>
                                             <width>0.6</width>
                                             <depth>0.08</depth>
-                                     </dimensions>         
+                                     </dimensions>
+                                    <desc type="decoration">Towards the centre of the front face are two closely packed <rs type="decoration" key="PictishSymbol">Pictish symbols - the remains of a <rs type="decoration" key="fish">fish</rs> and the so-called <rs type="decoration" key="rectangle">rectangle</rs></rs> (Forsyth 1996, 14).</desc>
                                 </support>
-                                <condition><q>'The various fragments of this slab have been cemented back together, but the surface of the upper pan is missing, taking part of a symbol and perhaps part of the ogham with it. The remaining carving is clear and well-preserved'</q> (Forsyth 1996, 13).</condition>
+                                <condition><q>The various fragments of this slab have been cemented back together, but the surface of the upper pan is missing, taking part of a symbol and perhaps part of the ogham with it. The remaining carving is clear and well-preserved</q> (Forsyth 1996, 13). Therefore, the ogham inscription may be complete as it is, but the possibility of lost letters cannot be completely ruled out (ibid).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is carved towards the left edge of the front face at an acute angle and on a drawn stem-line (Forsyth 1996, 13-4). Towards the centre of the face are two closely packed <rs type="decoration">Pictish symbols - the remains of a fish and the so-called rectangle</rs> (Forsyth 1996, 14).</layout>
+                                <layout style="stemline">The ogham inscription is carved towards the left edge of the front face at an acute angle and on a drawn stem-line (Forsyth 1996, 13-4). The stem stops c.6cm short of the outer edge of the stone, but nothing of the original surface remains in the area beyond the last stroke (Forsyth 1996, 16). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription was <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and smoothed as is typical for Class I stones (Forsyth 1996, 13).
+                            <handNote>The inscription was <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and smoothed as is typical for Class I stones (Forsyth 1996, 13). 
                                 <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Wick</placeName> <placeName type="county">Caithness</placeName>
+                            <origPlace><placeName type="parish">Wick</placeName> <placeName type="county">Caithness</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>58.478333, -3.119167</geo>
                             <note>National Grid Reference: ND 3483 5499</note></origPlace>
                             <origDate/>
@@ -135,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-12" who="#LH">Encoded description and provenance</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-06" who="#POC">Added paragraph to support, National Grid Reference, closed unused elements, commented out apparatus and translation</change>
+    <change when="2025-03-19" who="#POC">Added country placename to origPlace, added style attribute to layout, added decoration section, added CISP link, updated commentary, corrected edition encoding</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,33 +149,28 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#?">ᚅᚓᚆᚈᚓᚈᚏ<app type="alternative"><lem>ᚔ</lem><rdg>ᚓᚁ</rdg></app></name></persName>
+                    <persName><name nymRef="#?">ᚅᚓᚆᚈᚓᚈᚏ<choice><unclear>ᚔ</unclear><unclear>ᚓᚁ</unclear></choice></name></persName>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="2" style="text-direction:up"/>
-                    <persName><name nymRef="#?">NEHTETR<app type="alternative"><lem>I</lem><rdg>EB</rdg></app></name></persName>
+                    <persName><name nymRef="#?">NEHTETR<choice><unclear>I</unclear><unclear>EB</unclear></choice></name></persName>
                 </ab>
             </div>
             <!--<div type="apparatus">
                 <listApp>
-                <app>                    
+                <app>
+                    
                 </app>
-                </listApp>
-            </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+                </listApp>-->
+            <!--</div>-->
+            <div type="translation" xml:lang="en">
+                <p>Although the ogham letters are clear, apart from the very last letter(s), an exact meaning has not been determined.</p>
+            </div>
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p>The ogham inscription and the symbols can be considered contemporary (Forsyth 1996, 13). The symbols are placed slightly to the right to allow for the ogham and the carving technique employed is the same for both (ibid).</p>
-                    </item>
-                    <item n="2"><p>The stem stops c.6cm short of the outer edge of the stone, but nothing of the original surface remains in the area beyond the last stroke (Forsyth 1996, 16). Therefore, the ogham inscription may be complete as it is, but the possibility of lost letters cannot be completely ruled out (ibid).</p>
-                    </item>
-                    <item n="3"><p>Although the ogham letters are clear, apart from the very last letter(s), an exact meaning has not been determined. It is likely to be a personal name and Forsyth provides an  analysis of the possibilities (Forsyth 1996, 17-20).</p>
-                    </item>
-                 </list>
+<p>The ogham inscription and the symbols can be considered contemporary (Forsyth 1996, 13). The symbols are placed slightly to the right to allow for the ogham and the carving technique employed is the same for both (ibid).</p>
+<p>The inscription likely consists of a personal name and Forsyth provides an analysis of the possibilities (Forsyth 1996, 17-20).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
