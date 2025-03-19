@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>NMI</repository>
                         <idno type="invNo">W2</idno>
+                         <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,9 +63,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067003-</idno></p> 
-                                    <material source="Moffat-Parkes2011">Fine grained, micaceous sandstone</material>
-                                    <objectType>Pillar fragment</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067003-</idno></p> 
+                                    <material type="stone" source="Moffat-Parkes2011">Fine grained, micaceous sandstone</material>
+                                    <objectType key="monument">Pillar fragment</objectType> 
                                      <dimensions unit="m" source="3d_data"><!--closer to Macalister than Power 1997-->
                                             <height>0.57</height>
                                             <width>0.25</width>
@@ -73,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <q>reduced from ts original form and dimensions for convenience of carriage</q>. The original dimensions do not appear to have been recorded.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads upwards on the left angle, across the top and down the right-hand side. According to Macalister (1945, 93-4), there is an older inscription on the stone (which he read as DIOBI) <q>a copy of which has been scratched in minute pin-scrapes on the unoccupied part of the second inscribed angle, perhaps by the representatives of the earlier owner</q>. Although there are faint marks on the angle below the end of the inscription, as well as a faint, possible stroke between the the two Ls, Macalister's reading and explanation of these are not convincing.</layout>
+                                <layout style="arris_up-across-down">The inscription reads upwards on the left angle, across the top and down the right-hand side. According to Macalister (1945, 93-4), there is an older inscription on the stone (which he read as DIOBI) <q>a copy of which has been scratched in minute pin-scrapes on the unoccupied part of the second inscribed angle, perhaps by the representatives of the earlier owner</q>. Although there are faint marks on the angle below the end of the inscription, as well as a faint, possible stroke between the the two Ls, Macalister's reading and explanation of these are not convincing.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,15 +88,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.831516, -8.609832</geo>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1846">Discovered in 1846 by Cork antiquarians <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain <idno type="SMR">(CO085-067002-)</idno> in the SW quadrant of a ringfort <idno type="SMR">(CO085-067001-)</idno>, with five other ogham stones: I-COR-047, I-COR-048, I-COR-049, I-COR-050 and I-COR-051. According to Macalister (1945, 92-93), this stone was purchased from the local farmer by F. M. Jennings in 1846, and presented by him to the Royal Irish Academy (without any statement of provenance). In 1849 Windele removed the remaining stones to his own residence but theu were later also moved to the museum of the Ryal Irish Academy. 
                         </provenance>
-                        <provenance type="observed">All six stone from Ballyhank are now in the collection of the National Museum of Ireland. This stone was recorded in 3d in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref> in 2016 as part of the Ogham in 3D project.
-                           <!-- <geo>53.340304, -6.255115</geo>-->
+                        <provenance type="observed" when="2016">All six stone from Ballyhank are now in the collection of the National Museum of Ireland. This stone was recorded in 3d in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref> in 2016 as part of the Ogham in 3D project.    
                         </provenance>
                     </history>
                 </msDesc>
@@ -135,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-04" who="#POC">Moved logainm ref to surround Irish placename, added Irish placename to title, added citation details to image description, deleted inner div from apparatus, commented out empty translation and commentary</change>
 <change when="2025-03-07" who="#NW">Updated support desc, edition and bibl and added translation and commentary</change>  
 <change when="2025-03-12" who="#NW">Added coordinates with geo tags to observed provenance as test for map of museums/collections. Toggled out repository geo coords as caused error.</change>
+     <change when="2025-03-19" who="#NW">Added country placename to origPlace and repository coordinates using altIdentifier and attributes to material, object type and layout.</change>  
     
 </listChange>
 </revisionDesc>
