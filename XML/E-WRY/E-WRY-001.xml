@@ -55,37 +55,37 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
-                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                            <textLang mainLang="ga-Ogam">Probably Irish written in ogham script</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><!--<term>portabilia</term>--><ref target="https://finds.org.uk/database/artefacts/record/id/198978">Portable Antiquities Scheme ID</ref>: <idno type="PAS">PAS ID: SWYOR-AECB53</idno></p>
-                                    <material>Silver</material> 
-                                    <objectType>Bossed penannular brooch (hacksilver)</objectType> 
+                                    <material type="metal">Silver</material> 
+                                    <objectType key="portableObject">Bossed penannular brooch (hacksilver)</objectType> 
                                      <dimensions unit="mm">
                                             <height/>
                                             <width>51.30</width>
                                             <depth>2.20</depth>
-                                     </dimensions>                                   
+                                     </dimensions>    
+                                    <desc type="decoration">The front features a beaded border with three out of possibly four plain domed bosses. The bases of two of the bosses have thick filigree collars. The bosses are linked by two short, beaded bands with plain edges dividing the fragment into three fields of decoration, the one at the broad end enclosing an inward-facing animal of Johansen's creature type 4 with a squared-off snout, dot-punched eye and beaded ribbon body curled round to interlace with its own plain, single-toed limbs with spiral hips (only one foreleg is shown); the smaller of the other two fields contains the surviving head and two feet of a similar animal, while the third field contains a bird of Johansen's creature type 1b with a curved beak and beaded ribbon body interlaced with part of the body and neck of a second bird. The back is lightly incised with double rings round the heads of the rivets securing the bosses. There is also a testing nick on the longest edge. (British Museum). </desc>
                                 </support>
                                 <condition>Silver fragment (hacksilver) cut from the sub-triangular terminal of a bossed penannular brooch weighing 39.10 g.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The front features a beaded border with three out of possibly four plain domed bosses. The bases of two of the bosses have thick filigree collars. The bosses are linked by two short, beaded bands with plain edges dividing the fragment into three fields of decoration, <rs type="decoration">the one at the broad end enclosing an inward-facing animal of Johansen's creature type 4 with a squared-off snout, dot-punched eye and beaded ribbon body curled round to interlace with its own plain, single-toed limbs with spiral hips (only one foreleg is shown)</rs>; <rs type="decoration">the smaller of the other two fields contains the surviving head and two feet of a similar animal</rs>, while <rs type="decoration">the third field contains a bird of Johansen's creature type 1b with a curved beak and beaded ribbon body interlaced with part of the body and neck of a second bird</rs>. The back is lightly incised with <rs type="decoration">double rings round the heads of the rivets securing the bosses</rs> and there is a possible line of ogham lettering joining the two circles at the broad end. There is also a testing nick on the longest edge. (British Museum). </layout>
+                                <layout style="stemline">There is a possible line of ogham on a srem-line joining the two circles (around the rivets) at the broad end of the back.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription appears to be <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs> on a hand drawn stemline with feather marks at either end.<height></height>
+                            <handNote>The inscription appears to be <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs> on a hand-drawn stem-line with feather-marks at either end.<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Harrogate</placeName>, <placeName type="county">West Riding of Yorkshire</placeName>
+                                <placeName type="parish">Harrogate</placeName>, <placeName type="county">West Riding of Yorkshire</placeName>, <placeName type="country">England</placeName>
                                 <geo>53.989228, -1.530225</geo>
                             <note>National Grid Reference: SE 3090 5490</note>
                                 </origPlace>
@@ -130,6 +130,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-26" who="#POC">Added geo coords, commented out media element. Added and encoded information, including edition.</change>
 <change when="2024-12-05" who="#POC">Proofreading changes</change>
 <change when="2025-01-23" who="#POC">Removed note from objectType to fix display (the information was displaying on a new line), added lb to apparatus, numbered apparatus, added images and licence information, closed height element within dimensions because the database is outputting an x before the width measurement</change>
+<change when="2025-03-19" who="#NW">Added country (England) to orig place. Added attributes to material, object type and layout for facets. Moved 'decoration' to its own section.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
