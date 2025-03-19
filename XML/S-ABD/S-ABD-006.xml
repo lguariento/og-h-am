@@ -45,7 +45,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-006</idno>
                  <idno type="CIIC"/>
-                <idno type="CISP">DYCE/1</idno> <!--couldn't find it on CISP?-->
+                <idno type="CISP">DYCE/1</idno> <!--Not on CISP-->
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -67,19 +67,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p> <ref target="https://canmore.org.uk/site/19466/dyce-saint-fergus-church-pictish-cross-slab-no-2">Canmore</ref> <idno type="Canmore">19466</idno></p>
+                                <support><p><ref target="https://canmore.org.uk/site/19466/dyce-saint-fergus-church-pictish-cross-slab-no-2">Canmore</ref> <idno type="Canmore">19466</idno></p>
                                     <material type="stone">Granite</material> 
-                                    <objectType key="crossSlab">Cross slab</objectType>                                    
+                                    <objectType key="crossSlab">Cross-slab</objectType>                                    
                                     <dimensions unit="m">                                         
                                             <height>1.4</height>
                                             <width>0.6</width>
                                             <depth/>
-                                     </dimensions>         
+                                     </dimensions>
+                                    <desc type="decoration">The slab is sculptured in relief on one face with a cross. The <rs type="decoration" key="cross">cross has round hollows in the angles between the arms and spiral terminations to the top and two side arms</rs> (Allen 1903, 189-90). On the left of the shaft of the cross near the bottom is a <rs type="decoration" key="crescentVrod">crescent and V-shaped rod symbol</rs>, and on the right a <rs type="decoration" key="mirror">mirror-case symbol</rs>. Below these on the left a <rs type="decoration">disc</rs> and a <rs type="decoration" key="rings">pair of rings symbol</rs>, and on the right a <rs type="decoration" key="doubleDiscZrod">double disc and Z-shaped rod symbol</rs> (ibid).</desc>
                                 </support>
                                 <condition>An upright granite cross-slab of rectangular shape. The left edge of the slab is cracked and a section from the bottom left is missing.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The slab is sculptured in relief on one face with a <rs type="decoration">cross</rs>. The <rs type="decoration">cross</rs> has round hollows in the angles between the arms and spiral terminations to the top and two side arms (Allen 1903, 189-90). On the left of the shaft of the <rs type="decoration">cross</rs> near the bottom is a <rs type="decoration">crescent</rs> and <rs type="decoration">V-shaped rod symbol</rs>, and on the right a <rs type="decoration">mirror-case symbol</rs>. Below these on the left a <rs type="decoration">disc</rs> and a <rs type="decoration">pair of rings symbol</rs>, and on the right a <rs type="decoration">double disc</rs> and <rs type="decoration">Z-shaped rod symbol</rs> (ibid). An ogham inscription with a drawn stem-line is incised on the left-hand-side of the slab.</layout>
+                                <layout style="stemline">The ogham inscription has a drawn stem-line and is incised on the left-hand-side of the slab.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -90,7 +91,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Dyce</placeName> <placeName type="county">Aberdeenshire</placeName>
+                            <origPlace><placeName type="parish">Dyce</placeName> <placeName type="county">Aberdeenshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>57.229167, -2.208333</geo>
                             <note>National Grid Reference: NJ 8752 1541</note></origPlace>
                             <origDate/>
@@ -140,6 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-18" who="#POC">Proofreading updates</change>
     <change when="2025-02-27" who="#POC">Proofreading updates, added images</change>
     <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
+    <change when="2025-03-19" who="#POC">Added country placename to origPlace, added style attribute to layout, added decoration section</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

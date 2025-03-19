@@ -45,7 +45,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-004</idno>
                  <idno type="CIIC"/>
-                <idno type="CISP">BRATT/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/bratt_1.html">BRATT/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -73,12 +73,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <height>1.07</height>
                                             <width>1.27</width>
                                             <depth>0.91</depth>
-                                     </dimensions>         
+                                     </dimensions> 
+                                    <desc type="decoration">The smoothest face of the stone is incised with two <rs type="decoration" key="PictishSymbol">Pictish symbols, a <rs type="decoration" key="crescentVrod">crescent-and-V-rod</rs> and a <rs type="decoration" key="snakeZrod">snake-and-Z-rod</rs></rs>. The pair of symbols are placed close together, one above the other, almost to the point of touching.</desc>
                                 </support>
                                 <condition>The stone is a large roughly triangular mass broken into several pieces. The bottom right corner is missing and portions from both the top and bottom have been lost, but other than that the side edges are intact. The stone has <q>suffered virtually no ill-effects from weathering</q> and the extant inscription is well-preserved (Forsyth 1996, 104).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The smoothest face of the stone is incised with two <rs type="decoration">Pictish symbols</rs>, a <rs type="decoration">crescent-and-V-rod</rs> and a <rs type="decoration">snake-and-Z-rod</rs>, and an ogham inscription runs parrallel with the left edge (Forsyth 1996, 103). The pair of symbols are placed close together, one above the other, almost to the point of touching. The inscription reads upwards and the stem-line is arranged vertically on the face, more or less straight, though it wavers slightly after the 12th letter (ibid. 109).</layout>
+                                <layout style="stemline">The ogham inscription runs parrallel with the left edge (Forsyth 1996, 103). The inscription reads upwards and the stem-line is arranged vertically on the face, more or less straight, though it wavers slightly after the 12th letter (ibid. 109).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Inverurie</placeName> <placeName type="county">Aberdeenshire</placeName>
+                            <origPlace><placeName type="parish">Inverurie</placeName> <placeName type="county">Aberdeenshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>57.291667, -2.400000</geo>
                             <note>National Grid Reference: NJ 75992 22403</note></origPlace>
                             <origDate/>
@@ -139,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-25" who="#POC">Added image </change>
     <change when="2025-02-27" who="#POC">Proofreading updates, added information from Forsyth 1996 and eDIL references to commentary. </change>
     <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
+<change when="2025-03-19" who="#POC">Added country placename to origPlace, added CISP link, added style attribute to layout, added decoration section</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

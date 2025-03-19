@@ -45,7 +45,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-005</idno>
                  <idno type="CIIC"/>
-                <idno type="CISP">MAINS/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/mains_1.html">MAINS/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -69,17 +69,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/80727/mains-of-afforsk">Canmore</ref> <idno type="Canmore">80727</idno></p>
                                     <material type="stone">Granite</material> 
-                                    <objectType>Boulder</objectType>                                     
+                                    <objectType key="boulder">Boulder</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.95</height>
                                             <width>1.5</width>
                                             <depth>0.8</depth>
-                                     </dimensions>         
+                                     </dimensions> 
+                                    <desc type="decoration">A prominent <rs type="decoration" key="cross">cross</rs>, measuring 350 mm x 350 mm and 20 mm deep, is incised in the centre of the upper flat surface. </desc>
                                 </support>
                                 <condition>A large rectilinear cross-marked boulder bearing a plain equal-armed cross and a damaged but legible ogham inscription.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>A prominent <rs type="decoration">cross</rs>, measuring 350 mm x 350 mm and 20 mm deep, is incised in the centre of the upper flat surface. Two lines of ogham can be discerned on the top edges at opposite ends of the boulder. </layout>
+                                <layout style="arris">Two lines of ogham can be discerned on the top edges at opposite ends of the boulder. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -90,7 +91,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Oyne</placeName> <placeName type="county">Aberdeenshire</placeName>
+                            <origPlace><placeName type="parish">Oyne</placeName> <placeName type="county">Aberdeenshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>57.277222, -2.506389</geo>
                             <note>National Grid Reference: NJ 6956 2085</note></origPlace>
                             <origDate>Seventh or eighth century</origDate>
@@ -137,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-03" who="#POC">Added paragraph to support, added National Grid Reference, commented out apparatus and translation</change>
         <change when="2025-02-18" who="#POC">Proofreading updates</change>
     <change when="2025-02-28" who="#POC">Added HES drawing and dating information</change><change when="2025-03-12" who="#POC">Added attribute values to material</change>
+<change when="2025-03-19" who="#POC">Added country placename to origPlace, added CISP link, added style attribute to layout, added decoration section, added attribute to objectType</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
