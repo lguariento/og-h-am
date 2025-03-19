@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=2648">Northern Ireland Sites and Monuments Record Number</ref>: <idno type="NISMR">ANT038:032</idno></p> 
-                                     <material>Basalt</material> 
-                                    <objectType>Pillar</objectType> 
+                                     <material type="stone">Basalt</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="3d_data">
                                             <height>0.92</height>
                                             <width>0.26</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>One of two ogham-inscribed pillars (see also I-ANT-001) reused as lintels in a souterrain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription runs along one edge for <q>'14 inches'</q> (Buick 1900, 266) or approximately 35cm.</layout>
+                                <layout style="arris">The inscription runs along one edge for <q>'14 inches'</q> (Buick 1900, 266) or approximately 35cm.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -83,7 +83,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                            <origPlace corresp="#findspot">
-                                <placeName type="townland">Carncome (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/61366">Carn Coim</ref></foreign>)</placeName>, <placeName type="county">Co. Antrim</placeName>
+                                <placeName type="townland">Carncome (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/61366">Carn Coim</ref></foreign>)</placeName>, <placeName type="county">Co. Antrim</placeName>, <placeName type="country" subtype="region">Northern Ireland</placeName>
                                 <geo>54.804566, -6.196192</geo>
                            <note>National Grid Reference: J1604096680</note>
                            </origPlace>
@@ -132,6 +132,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-06" who="#POC">Added CISP link.</change>
     <change when="2025-01-23" who="#POC">Added Irish placename to title</change>
     <change when="2025-01-28" who="#POC">Proofreading updates, added drawing by Macalister, deleted free text from bibliography</change>
+    <change when="2025-03-19" who="#NW">Added 'Northern Ireland' placename to origPlace and attributes to material, object type and layout.</change>    
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
