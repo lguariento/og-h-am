@@ -45,7 +45,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">S-ABD-002</idno>
                  <idno type="CIIC"/>
-                <idno type="CISP">LPHIN/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/lphin_1.html">LPHIN/1</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The monument is likely a prehistoric standing stone which was reused for the carving of Pictish symbols and an ogham inscription both of which are intact and well-preserved.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is cut on a circular stem in the middle of the top third of the pointed pillar. The reading starts from the 10 o'clock position, as this is where the largest gap is located, and continues clockwise (Forsyth 1996, 394). The lower two-thirds are occupied by a pair of <rs type="decoration">Pictish symbols, a <q>crescent-and-V-rod over double-disc-and-Z rod</q></rs> (ibid. 390).</layout>
+                                <layout style="stemline_circular">The ogham inscription is cut on a circular stem in the middle of the top third of the pointed pillar. The reading starts from the 10 o'clock position, as this is where the largest gap is located, and continues clockwise (Forsyth 1996, 394). The lower two-thirds are occupied by a pair of <rs type="decoration">Pictish symbols, a <q>crescent-and-V-rod over double-disc-and-Z rod</q></rs> (ibid. 390).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Chapel Of Garioch</placeName> <placeName type="county">Aberdeenshire</placeName>
+                            <origPlace><placeName type="parish">Chapel Of Garioch</placeName> <placeName type="county">Aberdeenshire</placeName><placeName type="country">Scotland</placeName>
                                 <geo>57.322500, -2.494167</geo>
                             <note>National Grid Reference: NJ 7034 2588</note></origPlace>
                             <origDate/>
@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-26" who="#POC">Proofreading updates</change>
     <change when="2025-02-28" who="#POC">Added image</change>
     <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
+    <change when="2025-03-19" who="#POC">Added country placename to origPlace, added CISP link, added style attribute to layout</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
