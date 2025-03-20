@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                   <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>Scanned using Artec Eva structured light scanner <date when="2013-06-19"/></resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -41,8 +41,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <idno type="filename">I-COR-047</idno>
                  <idno type="CIIC">98</idno>
                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/bahan_2.html">BAHAN/2</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/172921">172921</idno>
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -51,6 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>NMI</repository>
                         <idno type="invNo">1872.25</idno>
+                         <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,38 +64,37 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067004-</idno></p> 
-                                    <material>Clayslate</material> 
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067004-</idno></p> 
+                                    <material type="stone">Fine grained sandstone</material><!--Not included in Moffat/Parkes survey but seems likely -->
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim/> 
                                             <height>0.91</height>
                                             <width>0.38</width>
                                             <depth>0.20</depth><!--(converted from Macalister)-->
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, the inscription is <q>'in poor condition, especially the second line which is chipped'</q> (Macalister 1945, 94).</condition>
+                                <condition>The stone is quite damaged, especially the inscribed edges.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on three angles of the stone running up-up-down and <q>'the inscribed angles run round the circumference of the stone clockwise, not counter-clockwise, which is more usual'</q> (Macalister 1945, 95). </layout>
+                                <layout style="arris_upR-up-downL">The inscription is on three angles of the stone (up-up-down), apparantly starting on the right edge of one of the faces and, as described by Macalister (1945, 95), running <q>round the circumference of the stone clockwise, not counter-clockwise, which is more usual</q>. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is coarsely <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> except for on the second angle where Macalister (1945, 95) noted that <q>'about the middle of the spalled surface there appear the distal ends of three scores, diverging outward, <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine lines'</q>.<height/>
+                            <handNote>The inscription is coarsely <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. Macalister (1945, 95) noted regarding the second line that <q>about the middle of the spalled surface there appear the distal ends of three scores, diverging outward, <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine lines</q>. These are not at all evident on the stone or 3d model. <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.831516, -8.609832</geo>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1846">Discovered by <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain <idno type="SMR">(CO085-067002-)</idno> with five other ogham stones <idno type="SMR">(I-COR-046)</idno>; <idno type="SMR">(I-COR-048)</idno>; <idno type="SMR">(I-COR-049)</idno>; <idno type="SMR">(I-COR-050)</idno>; <idno type="SMR">(I-COR-051)</idno>.
+                         <provenance type="found" when="1846">Discovered in 1846 by Cork antiquarians <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain <idno type="SMR">(CO085-067002-)</idno> in the SW quadrant of a ringfort <idno type="SMR">(CO085-067001-)</idno>, with five other ogham stones: I-COR-046, I-COR-048, I-COR-049, I-COR-050 and I-COR-051. In 1849 Windele removed five of the stones, including this one, to his own residence but they were later moved to the museum of the Royal Irish Academy (Brash 1879, 140; Macalister 1945, 92-93). 
                         </provenance>
-                        <provenance type="observed">This stone is now on display in the museum in Ballyferriter, Co. Kerry (see <idno type="SMR">KE042-180----</idno>).
+                        <provenance type="observed" when="2013">All six stone from Ballyhank are now in the collection of the National Museum of Ireland. This stone is on loan to <ref target="https://westkerrymuseum.com/">Músaem Chorca Dhuibhne</ref> in Ballyferriter, Co. Kerry where it was recorded in 3d in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref> in 2013 as part of the Ogham in 3D project.
                         </provenance>
                     </history>
                 </msDesc>
@@ -130,62 +133,57 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates, numbered apparatus.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty translation and commentary</change>
+<change when="2025-03-20" who="#NW">Updated the encoded information in this file and added new attributes for indexing and searching. Added country placename to origPlace and repository coordinates using altIdentifier.</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-047_Ballyhank_2.jpg"><desc>Photograph by Discovery Programme</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-047-MAC1945-95-Ballyhank-98.jpg"><desc>Drawing by Macalister (1945, 95)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/east-muskerry-ogham-stone-c9dac6da117b46499b9dcdb9f3d66070" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?">ᚉᚑᚏᚁᚐᚌᚅᚔ </name>
-                     <lb n="2" style="text-direction:up" break="no"/><w type="formula" lemma="?">ᚊ<supplied reason="lost">ᚑᚔ</supplied></w> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost">ᚐ</supplied>ᚊ<supplied reason="lost">ᚔ</supplied></w> <w type="formula" lemma="?">ᚋᚑᚉ 
-                     <lb n="3" style="text-direction:down" break="no"/>ᚉᚑᚔ</w> <name nymRef="?">ᚉᚑᚏᚑᚈᚐᚅᚔ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="corbagnas">ᚉ<unclear reason="damage">ᚑ</unclear><damage>ᚏ</damage>ᚁᚐᚌᚅ<unclear reason="damage">ᚔ</unclear></name>
+                     <lb n="2" style="text-direction:up-down"/><w type="formula" lemma="koi">ᚊ<supplied reason="lost" cert="medium">ᚑᚔ</supplied></w> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost">ᚐ</supplied><damage>ᚊ</damage><supplied reason="lost">ᚔ</supplied></w> <w type="formula" lemma="muccoias">ᚋ<unclear reason="damage">ᚑᚉᚉ</unclear>ᚑᚔ</w> <name nymRef="?"><unclear reason="damage">ᚉ</unclear>ᚑᚏᚑ<unclear reason="damage">ᚈ</unclear>ᚐᚅᚔ</name></persName>
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                  <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?">CORBAGNI </name>
-                     <lb n="2" style="text-direction:up" break="no"/><w type="formula" lemma="?">K<supplied reason="lost">OI</supplied></w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied>Q<supplied reason="lost">I</supplied></w> <w type="formula" lemma="?">MOC 
-                     <lb n="3" style="text-direction:down" break="no"/>COI</w> <name nymRef="?">COROTANI</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="corbagnas">C<unclear reason="damage">O</unclear><damage>R</damage>BAGN<unclear reason="damage">I</unclear></name>
+                     <lb n="2" style="text-direction:up-down"/><w type="formula" lemma="koi">K<supplied reason="lost" cert="medium">OI</supplied></w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied><damage>Q</damage><supplied reason="lost">I</supplied></w> <w type="formula" lemma="muccoias">M<unclear reason="damage">OCC</unclear>OI</w> <name nymRef="?"><unclear reason="damage">C</unclear>ORO<unclear reason="damage">T</unclear>ANI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>Macalister (1945, 94) read: </note>
-                        <rdg resp="MAC1945">
-                            <lb n="1" style="text-direction:up"/><persName><name nymRef="?">CORBAGNI </name>
-                     <lb n="2" style="text-direction:up" break="no"/><w type="formula" lemma="?">K<supplied reason="lost">OI</supplied></w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied>Q<supplied reason="lost">I</supplied></w> <w type="formula" lemma="?">MOC 
-                     <lb n="3" style="text-direction:down" break="no"/>COI</w> <name nymRef="?">COROTANI</name></persName>
-                        </rdg>
+                        <note>Although some vowels are damaged in the intial name, there isn't really any doubt as to what was intended. Three of the final I strokes survive at the top of the stone.</note>
                     </app>
                 <app n="2">
-                    <note>McManus (1991, 66) read:</note>
-                    <rdg resp="MCM1991">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="?">CORBAGNI</name> 
-                        <lb n="2" style="text-direction:up" break="no"/><w>K<gap reason="lost" quantity="2" unit="character"/></w> <w><gap reason="lost" quantity="3" unit="character"/>
-                        <lb n="3" style="text-direction:down" break="no"/>COI</w> <name nymRef="?"><unclear>c</unclear>ORO<unclear>t</unclear>ANI</name></persName>
-                    </rdg>
+                   <note>There is more extensive damage to the second angle but there is enough space after the K for OI. </note>
                 </app>
                 </listApp>
             </div>
-            <!--<div type="translation">
-                <p></p>
-            </div>-->
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>of Corbán here, a son of ...? </p>
+            </div>
+            <div type="commentary">
+                <p>The personal name CORBAGNI (later <persName><foreign xml:lang="sga">Corbán</foreign></persName>, <foreign xml:lang="sga"><ref target="https://dil.ie/12437">corbbaid</ref></foreign> 'defiles') is also attested on I-KER-116 Rockfield IV, Co. Kerry.</p>
+                <p>The fact that the endings (-AGNI, -I) are intact in both personal names would suggest a possible pre-6th century date (McManus 1991, 97).</p>
+            </div>
             <div type="bibliography">
                  <listBibl>
+                       <bibl><ptr target="BRA1879"/>
+                        <citedRange>140,142-143</citedRange>
+                    </bibl>
                      <bibl><ptr target="MAC1945"/>
-                        <citedRange>94-96</citedRange>
+                        <citedRange>92-93, 94-96</citedRange>
                     </bibl>
                      <bibl><ptr target="MCM1991"/>
-                        <citedRange>66</citedRange>
+                        <citedRange>66, 97</citedRange>
                     </bibl>
                      <bibl><ptr target="POW1997"/>
                         <citedRange>no. 7949</citedRange>
