@@ -81,7 +81,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="arris_down">There are six lines of seemingly Roman alphabetic characters at the top right of the pillar and an ogham inscription runs on the left-hand edge, consisting of a longer <dimensions unit="cm" quantity="14.5"><height>14.5</height></dimensions> and a shorter <dimensions unit="cm" quantity="5"><height>5</height></dimensions> section and reading from the top down (Forsyth 1996, 424-6). The shorter section of ogham script has a drawn-in stem <q>inserted between the distal tips of the first two strokes of</q> the 20th letter (ibid. 430).  After the 20th letter, the drawn-in stem curves sharply to the left and then continues straight up, parallel to the initial hypothetical stem (ibid). 
+                                <layout style="arris_down">There are six lines of seemingly Roman alphabetic characters at the top right of the pillar and an ogham inscription runs on the left-hand edge, consisting of a longer <dimensions unit="cm" quantity="14.5"><height>14.5</height></dimensions> and a shorter <dimensions unit="cm" quantity="5"><height>5</height></dimensions> section and reading from the top down (Forsyth 1996, 424-6). The <rs type="layout" style="stemline">shorter section of ogham script has a drawn-in stem</rs> <q>inserted between the distal tips of the first two strokes of</q> the 20th letter (ibid. 430). After the 20th letter, the drawn-in stem curves sharply to the left and then continues straight up, parallel to the initial hypothetical stem (ibid). 
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -150,6 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
     <change when="2025-03-13" who="#POC">Update edition, added Latin inscription and text parts, corrected typos in layout.</change>
     <change when="2025-03-19" who="#POC">Added country placename to origPlace, added CISP link, added style attribute to layout, added decoration section, moved symbol stone details to decoration</change>
+    <change when="2025-03-21" who="#POC">Updated edition with missing letters from revised reading spreadsheet, added information to translation, moved interpretations from commentary to apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -163,14 +164,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH">             
                  <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:down"/>ᚔᚇᚇᚐᚏᚏᚃᚑᚏᚓᚅᚅᚔᚕ<add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
+                    <lb n="1" style="text-direction:down"/>ᚔᚇᚇᚐᚏᚏᚅᚅᚅᚃᚑᚏᚓᚅᚅᚔᚕ<add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
                     <lb n="2" style="text-direction:up" break="no"/><add place="right">ᚔᚑᚄᚏ<unclear reason="illegible">ᚏ</unclear></add>
                 </ab>
                      </div>
             </div> 
             <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="1" style="text-direction:down"/>IDDARRVORENNIӾ<add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
+                    <lb n="1" style="text-direction:down"/>IDDARRNNNVORENNIӾ<add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
                     <lb n="2" style="text-direction:up" break="no"/><add place="right">IOSR<unclear reason="illegible">R</unclear></add>
                 </ab>
             </div>
@@ -195,16 +196,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                     <app n="3"><note>While unusual, reading the ogham inscription from the top down (left-to-right with the head to the right) is more feasible because it provides a more intelligible reading and would also explain the curving of the shorter section at the bottom of the stone (Forsyth 1996, 427). If the inscription had started at the bottom, the inscription could have progressed upwards and could have continued across the top of the stone and down if more space was needed, as is the case for certain Irish stones (ibid).</note>
                     </app>
+                    <app n="4"><note>Forsyth (1996, 436) suggests three possible interpretations for the ogham inscription:</note>
+                    <rdg><lb/>1) three personal names with no formula words: 'Idamon (, or :) Vorenn (and) [?]'</rdg>
+                    <rdg><lb/>2) three names plus KOI: 'Idamon: Vorenn koi [?]'  </rdg>
+                    <rdg><lb/>3) three names plus ipe: either 'X, Y ipe Z ', or 'X, Y, ipe-Z'.</rdg>
+                    </app>
                 </listApp>
             </div>
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>Given the uncertainty of the final section of the inscription, it is not possible to assuredly determine its syntax and in extension its meaning.</p>
+            </div>
             <div type="commentary">
-                    <p>Given the uncertainty of the final section of the inscription, it is not possible to assuredly determine its syntax and in extension its meaning. Nevertheless, Forsyth (1996, 436) suggests three possibilities:<lb/>
-                        <lb/> 1) three personal names with no formula words: 'Idamon (, or :) Vorenn (and) [?]'
-                        <lb/>2) three names plus KOI: 'Idamon: Vorenn koi [?]'  
-                        <lb/>3) three names plus ipe: either 'X, Y ipe Z ', or 'X, Y, ipe-Z'.</p>
                      <p><q>As for the two sections of ogham, the longer clearly predates, though not necessarily by much, the shorter</q> (ibid. 426). Without an improved understanding of the text, it is not possible to determine the date of origin accurately. It could be dated anywhere between the sixth or eighth century, though more likely in the seventh century and earlier given the subsequent decline of the individual inscribed memorial as a monument type throughout the British Isles (ibid. 441). </p>                     
             </div>
             <div type="bibliography">
