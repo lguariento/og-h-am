@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-049005-</idno></p> 
-                                    <material>Sandstone (with weak cleavage and strong lamination with grey-brown fine sand bands)</material><!--double check as geology document mixes up CIIC 69 and 71 and reg nos-->
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Sandstone</material><!--double check as geology document mixes up CIIC 69 and 71 and reg nos-->
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>0.97</height>
                                             <width>0.30</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused in the construction of a souterrain. The stone is widest at the middle and narrowest at the top, where it appears to be flaked away on one side, possibly resulting in the loss of most of the last word of the inscription.</condition>
                             </supportDesc>
                             <layoutDesc> 
-                                <layout>The inscription reads up on the left-hand angle of one of the faces. It commences at 26cm from the visible lower extent of the stone and is not evident after approximately 18cm from the top.</layout>
+                                <layout style="arris_up">The inscription reads up on the left-hand angle of one of the faces. It commences at 26cm from the visible lower extent of the stone and is not evident after approximately 18cm from the top.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -84,7 +84,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                            <origPlace corresp="#findspot">
-                                <placeName type="townland">Ahalisky (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9071">Achadh Loiscthe</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Ahalisky (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9071">Achadh Loiscthe</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.681206, -8.847020</geo>
                             <note>ITM Coordinates: 541423, 547985</note>
                             </origPlace>
@@ -132,6 +132,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-20" who="#NW">Updated MUCOI lemma</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-29" who="#POC">Added Irish placename to title, citation details to image description, moved the information from note after material to inside material element because it wasn't displaying</change>
+    <change when="2025-03-22" who="#NW">Added country and attributes for indexing.</change>
+    
 </listChange>    
 </revisionDesc>
     </teiHeader>

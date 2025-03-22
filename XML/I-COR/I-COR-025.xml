@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-075004-</idno></p> 
-                                    <material/> 
-                                    <objectType>Cross carved pillar</objectType> 
+                                    <material type="stone"/> 
+                                    <objectType key="monument">Cross carved pillar</objectType> 
                                      <dimensions unit="m">
                                             <height>3.35</height>
                                             <width>0.36</width>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The pillar is very weathered and the inscription no longer traceable. Packing stones are exposed around the denuded base (Power et al. 1992, no. 1041). Macalister (1945, 79-80) noted that <q>both cross and inscription are so low down on the stone that they have almost certainly been added to a pre-existing bronze-age megalith</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription was recorded as reading up on the NW edge of the stone, to the left of the cross.</layout>
+                                <layout style="arris_up">The ogham inscription was recorded as reading up on the NW edge of the stone, to the left of the cross.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Templebryan North (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/8996">Teampall Brianaid Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Templebryan North (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/8996">Teampall Brianaid Thuaidh</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.644724, -8.885746</geo>
                             <note>ITM Coordinates: 538701, 543959</note>
                             </origPlace>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-30" who="#POC">Added Irish placename to title, commented out creation, added image citation details to description, proofreading updates</change>
     <change when="2025-03-14" who="#NW">Added attribute 'key=cross' to decoration.</change>
+    <change when="2025-03-22" who="#NW">Added country and attributes for indexing.</change>
     
 </listChange>
 </revisionDesc>

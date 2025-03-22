@@ -60,9 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-022002-</idno></p>
-                                    <material source="Moffat-Parkes2011">Slightly micaceous sandstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-022002-</idno></p>
+                                    <material type="stone" source="Moffat-Parkes2011">Slightly micaceous sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="3d_data">
                                             <height>2.61</height>
                                             <width>0.42</width>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                    </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription begins 0.91m (3ft., according to Brash 1879, 162) from the bottom and runs up the dexter angle of one of the faces, finishing near the top. Although there are other marks and scratches on the stone, none can be clearly identified as the remains of an earlier inscription as suggested by Macalister (1945, 116-117)</layout>
+                                <layout style="arris_up">The inscription begins 0.91m (3ft., according to Brash 1879, 162) from the bottom and runs up the dexter angle of one of the faces, finishing near the top. Although there are other marks and scratches on the stone, none can be clearly identified as the remains of an earlier inscription as suggested by Macalister (1945, 116-117)</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Monataggart (<ref target="https://www.logainm.ie/ga/11463"><foreign xml:lang="ga">Móin an tSagairt</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Monataggart (<ref target="https://www.logainm.ie/ga/11463"><foreign xml:lang="ga">Móin an tSagairt</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.976513, -8.787796</geo>
                             <note>ITM Coordinates: 545879, 580808</note></origPlace>
                             <origDate notBefore="0600" notAfter="0650" precision="medium" evidence="linguistic">Early seventh century AD</origDate>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-25" who="#NW">Added dating resp and refs to bibl.</change>   
 <change when="2025-03-01" who="#NW">Updated provenance and commentary.</change> 
 <change when="2025-03-06" who="#NW">Updated commentary and dating and added translation.</change> 
+<change when="2025-03-22" who="#NW">Added country and attributes for indexing.</change>
     
 </listChange>
 </revisionDesc>

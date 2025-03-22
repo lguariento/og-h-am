@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-049004-</idno></p> 
-                                    <material>Coarse grained clay slate</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Coarse grained clay slate</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>1.52</height>
                                             <width>0.64</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused as a lintel in a souterrain. Worn, but otherwise in reasonably good condition.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>As noted by Macalister (1945, 73-74), the inscription is on <q>'a very obtuse angle, in the middle of one of the broad faces of the slab; not on an edge, except the last few letters, which run along the edge of the top'</q>. The inscription is not continuous, <q>'the beginning of the word MAQI is above and overlapping the end of the preceding name'</q> (Macalister 1945, 74). Macalister also says that there is evidence of <q>artificial flaking</q> which suggests that an earlier inscription was removed.</layout>
+                                <layout style="face_up-top">As noted by Macalister (1945, 73-74), the inscription is on <q>'a very obtuse angle, in the middle of one of the broad faces of the slab; not on an edge, except the last few letters, which run along the edge of the top'</q>. The inscription is not continuous, <q>'the beginning of the word MAQI is above and overlapping the end of the preceding name'</q> (Macalister 1945, 74). Macalister also says that there is evidence of <q>artificial flaking</q> which suggests that an earlier inscription was removed.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -84,11 +84,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                            <origPlace corresp="#findspot">
-                                <placeName type="townland">Ahalisky (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9071">Achadh Loiscthe</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Ahalisky (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9071">Achadh Loiscthe</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.681206, -8.847020</geo>
                             <note>ITM Coordinates: 541423, 547985</note>
                             </origPlace>
-                            <origDate notBefore="0400" notAfter="0475">First half, or early second half, of the fifth century</origDate>
+                            <origDate notBefore="0400" notAfter="0475" precision="medium" evidence="linguistic">First half, or early second half, of the fifth century</origDate>
                         </origin>
                         <provenance type="found" when="1841">Found by <persName>Z. Hawkes</persName> and <persName>Windele</persName> in a souterrain (<idno type="SMR">CO122-049002-</idno>) in <date>1841</date>. Two other ogham stones (I-COR-017- and I-COR-019) were discovered in the souterrain. This stone is the seventh and last lintel in the souterrain. All three stones were <q>'taken out of the cave sometime toward the end of the nineteenth century, by the proprietor, the late Mr. R. Bence Jones, and placed on a rockery in his garden: but afterwards acquired from him by the Royal Irish Academy'</q> (Macalister 1945, 73). 
                         </provenance>
@@ -132,6 +132,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-20" who="#NW">Updated MUCOI lemma</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-28" who="#POC">Added Irish placename to title, citation details to image description, proofreading updates</change>
+    <change when="2025-03-22" who="#NW">Added country and attributes for indexing.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

@@ -66,8 +66,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-049003-</idno></p> 
-                                    <material>Siltstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Siltstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                     <dimensions unit="m" source="#NW">
                                             <height>1.83</height>
                                             <width>0.36</width>
@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>This pillar was reused as a lintel in the construction of a souterrain. The edges of the stone are very rough and uneven. Brash (1879, 145) recorded the height as 6ft. (1.83m). The current visible extent above the display stand is 1.35m.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads upwards on the dexter/left angle of one of the flat faces occupying roughly the middle third of that angle.</layout>
+                                <layout style="arris_up">The inscription reads upwards on the dexter/left angle of one of the flat faces occupying roughly the middle third of that angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Ahalisky (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9071">Achadh Loiscthe</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Ahalisky (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9071">Achadh Loiscthe</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.681206, -8.847020</geo>
                             <note>ITM Coordinates: 541423, 547985</note>
                             </origPlace>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-28" who="#POC">Added Irish placename to title, added citation details to image description</change>
     <change when="2025-02-27" who="#NW">Added 3d recording info to provenance, dating info, height from Brash and ref to bibl.</change>
+    <change when="2025-03-22" who="#NW">Added country and attributes for indexing.</change>
     
 </listChange>
 </revisionDesc>

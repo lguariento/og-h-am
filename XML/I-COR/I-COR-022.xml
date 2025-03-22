@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-001004-</idno></p> 
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone"/> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>0.79</height>
                                             <width>0.20</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Macalister (1945, 77) recorded that this stone was broken to a suitable size for reuse as an upright support in a souterrain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Very little information has been recorded except that the inscription is on the lower remaining portion of the ogham stone.</layout>
+                                <layout style="arris">Very little information has been recorded except that the inscription is on the lower remaining portion of the ogham stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -83,7 +83,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Carhoovauler (<ref target="https://www.logainm.ie/ga/9111"><foreign xml:lang="ga">Ceathrú Bhaldair</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Carhoovauler (<ref target="https://www.logainm.ie/ga/9111"><foreign xml:lang="ga">Ceathrú Bhaldair</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.690842, -8.962643</geo>
                             <note>ITM Coordinates: 533446, 549155</note>
                             </origPlace>
@@ -130,7 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-29" who="#POC">Added Irish placename to title and citation details to image description, commented out creation, translation and commentary (the latter two are both empty)</change>
-    <change when="2025-03-22" who="#NW">Corrected error in transcription. Added translation, commentary and rough date.</change>
+    <change when="2025-03-22" who="#NW">Corrected error in transcription. Added translation, commentary and rough date. Added country and attributes for indexing.</change>
     
 </listChange>
 </revisionDesc>
