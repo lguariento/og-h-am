@@ -58,8 +58,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository>NMS</repository>
+                        <repository>National Museums of Scotland</repository>
                         <idno type="invNo">HPO 470</idno>
+                        <altIdentifier>
+                            <idno type="geo">55.946991, -3.1891831</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -82,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is found along one arris of the fragment. The strokes are evenly spaced within letters, though some groups are more cramped than others, and judging from the extant fragment there is extra spacing between letters (Forsyth 1996, 449). The correct orientation is difficult to determine as both ends of the slab are missing. However, of the two possible interpretations, reading from the bottom upwards produces the most plausible reading.
+                                <layout style="arris">The inscription is found along one arris of the fragment. The strokes are evenly spaced within letters, though some groups are more cramped than others, and judging from the extant fragment there is extra spacing between letters (Forsyth 1996, 449). The correct orientation is difficult to determine as both ends of the slab are missing. However, of the two possible interpretations, reading from the bottom upwards produces the most plausible reading.
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -94,8 +97,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="parish">Kilmartin</placeName>
-                                <placeName type="county">Argyll and Bute</placeName>
+                                <placeName type="parish">Kilmartin</placeName> <placeName type="county">Argyll and Bute</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>56.117500, -5.507222</geo>
                                 <note>National Grid Reference: NR 82068 97182</note>
                             </origPlace>
@@ -148,6 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change when="2025-02-20" who="#POC">Proofreading updates, added information to provenance, condition, apparatus, and commentary</change>
             <change when="2025-03-03" who="#POC">Proofreading updates, added eDIL reference to commentary, added more information to layout and apparatus, added HES images.</change>
                 <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
+                    <change when="2025-03-26" who="#POC">Added secondary location coords, added country to origPlace</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

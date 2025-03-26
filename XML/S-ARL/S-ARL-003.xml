@@ -71,17 +71,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/212008/dunadd">Canmore</ref> <idno type="Canmore">212008</idno></p>
                                     <material type="stone">Pyritous slate, probably Easdale Slate</material> 
-                                    <objectType>Rock-face</objectType>                                     
+                                    <objectType key="monument">Rock-face</objectType>                                     
                                     <dimensions unit="cm">
                                         <height>0.5</height>
                                             <dim type="diameter">4</dim>
-                                     </dimensions>         
+                                     </dimensions>
+                                    <desc type="decoration">As described by Forsyth, the carvings consist of <q>a rock basin, below the entrance through the NE wall of the summit fort, and <dim type="length" unit="m">2 m</dim> to the north-east spread over a distance of about <dim type="length" unit="m">3 m</dim>,</q> is a foot-print, an <rs type="decoration">incised boar</rs>, another foot-print and the ogham inscription (1996, 230). </desc>
                                 </support>
                                 <condition>The upper arris is more weathered and indistinct while the lower line is more defined and legible. This is most likely because the upper strokes of both lines are carved on the horizontal surface of the stone and thus more exposed to weathering. In comparison, the lower strokes are better preserved because they reach down into the fissures and have been shielded to some extent (Forsyth 1996, 230). <q>Though the carving is badly weathered, the component strokes are generally even and consistent</q> (Forsyth 1996, 236).
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The <name xml:id="S-ARL-003">Dunadd</name> ogham inscription is found alongside a number of other carvings on a <q>flattish terrace of bare rock riven with fissures</q>. As described by Forsyth, the carvings consist of <q>a rock basin, below the entrance through the NE wall of the summit fort, and <dim type="length" unit="m">2 m</dim> to the north-east spread over a distance of about <dim type="length" unit="m">3 m</dim>,</q> is a foot-print, an <rs type="decoration">incised boar</rs>, another foot-print and the ogham inscription (1996, 230). The ogham inscription is comprised of <q>two lines of text arranged horizontally across the rock-face, one above the other, and roughly parallel with two natural horizontal fissures in the rock. The inscription is largely contained in an area bound by two oblique fissures, though the upper line continues for a few strokes beyond the right-hand fissure</q> (ibid.). The inscription reads from left-to-right, as is confirmed by the direction of the slope of individual letters. 
+                                <layout>The <name xml:id="S-ARL-003">Dunadd</name> ogham inscription is found alongside a number of other carvings on a <q>flattish terrace of bare rock riven with fissures</q>. The ogham inscription is comprised of <q>two lines of text arranged horizontally across the rock-face, one above the other, and roughly parallel with two natural horizontal fissures in the rock. The inscription is largely contained in an area bound by two oblique fissures, though the upper line continues for a few strokes beyond the right-hand fissure</q> (ibid.). The inscription reads from left-to-right, as is confirmed by the direction of the slope of individual letters. 
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -93,8 +94,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="parish">Kilmichael Glassary</placeName>
-                                <placeName type="county">Argyll</placeName>
+                                <placeName type="parish">Kilmichael Glassary</placeName> <placeName type="county">Argyll</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>56.085833, -5.478889</geo>
                                 <note>National Grid Reference: NR 83650 93560</note>
                             </origPlace>
@@ -103,7 +103,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1953">The rock carvings at the fortress of <placeName>Dunadd (<foreign xml:lang="gd">Dún Ad</foreign> 'fort of the river Add')</placeName> were known since 1929, however the ogham inscription went unnoticed until the 1950s. The nucleated fort is situated on an isolated hillock, 6km NNW of Lochgilphead. The ogham inscription was officially published and recognized by the scholarly community in 1953 through Stewart Cruden of the Ancient Monuments Inspectorate. Kenneth Jackson examined the inscription on behalf of the RCAHMS and published his account in 1965. The entire carved surface was covered with a fibreglass facsimile in 1978 to protect the carvings from the elements and vandalism.
                         </provenance>
-                        <provenance type="observed" when="1995">Forsyth visited Dunadd in August 1995 in situ, <q>by which time the fascimile had been in place for 18 years...and there is no reason to believe that the carved surface, which is still completely intact, is significantly less clear than when it was first cast in 1978</q> (1996, 232).
+                        <provenance type="observed" when="1995">Forsyth visited Dunadd in August 1995 in situ, by which time the fascimile had been in place for 18 years and <q>there is no reason to believe that the carved surface, which is still completely intact, is significantly less clear than when it was first cast in 1978</q> (1996, 232).
                         </provenance>
                     </history>
                 </msDesc>
@@ -143,6 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, numbered and added notes on readings in apparatus, commented out translation</change>
                  <change when="2025-02-19" who="#POC">Proofreading updates</change>                       <change when="2025-03-04" who="#POC">Proofreading updates, added HES image, added original placename to title and provenance, updated provenance and layout, added information to apparatus, added eDIL references to commentary, added possible translation from Forsyth 1996</change>
                 <change when="2025-03-12" who="#POC">Added attribute values to material</change>
+                                    <change when="2025-03-26" who="#POC">Added decoration section, added country to origPlace, added monument as key for objectType for filtering, removed whitespace from edition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -154,31 +155,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd" resp="#XS">     
                 <ab>
-                    <lb n="1" style="text-direction:right"/>
-                    ᚐᚓᚄᚇ	
-                     <gap reason="lost" extent="unknown" unit="character"/> 
-                    ᚈ
-                    <gap reason="lost" quantity="2" unit="character"/>
-                    ᚅᚐ
-                        <gap reason="lost" extent="unknown" unit="character"/>
-                    ᚈ
-                   <gap extent="unknown" reason="illegible"/>
-                    <lb n="2" style="text-direction:right"/>
-                    ᚃᚔᚏᚏᚋᚑᚅᚐᚔ 
+                    <lb n="1" style="text-direction:right"/>ᚐᚓᚄᚇ<gap reason="lost" extent="unknown" unit="character"/>ᚈ<gap reason="lost" quantity="2" unit="character"/>ᚅᚐ<gap reason="lost" extent="unknown" unit="character"/>ᚈ<gap extent="unknown" reason="illegible"/>
+                    <lb n="2" style="text-direction:right"/>ᚃᚔᚏᚏᚋᚑᚅᚐᚔ 
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="gd" xml:space="preserve" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                        AESD	
-                    <gap reason="lost" extent="unknown" unit="character"/> 
-                         T
-                    <gap reason="lost" extent="unknown" unit="character"/> 
-                       V
-                    <gap reason="lost " quantity="2" unit="character"/>
-                    NA
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    T
+                    <lb n="1" style="text-direction:up"/>AESD<gap reason="lost" extent="unknown" unit="character"/>T<gap reason="lost" extent="unknown" unit="character"/>V<gap reason="lost " quantity="2" unit="character"/>NA<gap reason="lost" extent="unknown" unit="character"/>T
                     <lb n="2" style="text-direction:right"/>
                     VIRRMONAI 
                 </ab>
@@ -204,7 +187,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <p>'Finn the monk/monastic tenant'</p>
             </div>
             <div type="commentary">

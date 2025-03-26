@@ -71,30 +71,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/318854/lochgoilhead-1">Canmore</ref> <idno type="Canmore">318854</idno></p>
                                     <material type="stone">Fine-grained sandstone</material> 
-                                    <objectType>Unclassified</objectType>                                     
+                                    <objectType key="monument">Unclassified</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.420</height>
                                             <width>160</width>
                                             <depth>0.115-0.075</depth>
-                                     </dimensions>         
+                                     </dimensions>      
+                                    <desc type="decoration">Three of the four edges and faces of the block bear evidence of carving. Edge A is plain except for a <q>deep V-section</q> groove. The left end of face B has apparently been cut away, but the undamaged part of face B bears two lines of irregularly incised roman lettering. The ogham inscription is located on edge C which exhibits two lines of lettering to the right of another deep V-section groove. Edge D is the roughest out of all the surfaces and appears to be uncarved.</desc>
                                 </support>
                                 <condition>An oddly shaped block which has been described previously by the RCAHMS as a <q>fragment of an inscribed pillar</q>, the <name xml:id="S-ARL-004">Loghgoilhead</name> ogham stone looks unfinished with possibly various different hands crafting each letter over periods of time. Forsyth suggests that <q>perhaps the block of stone was selected for carving</q> but then <q>abandoned ending up as chisel-fodder</q> (1996, 375). The stone is fragmentary and damaged with the surface severely abraded at points. However as Forsyth notes <q>only a small portion has been lost</q> (1996, 375). Interestingly, the patterns of wear suggest an eventful life with a potential of time in the sea. The begining and end of the ogham text on face C are badly worn making any reading of those portions of the inscription uncertain.
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Three of the four edges and faces of the block bear evidence of carving. Edge A is plain except for a <q>deep V-section</q> groove. The left end of face B has apparently been cut away, but the undamaged part of face B bears two lines of irregularly incised roman lettering. The ogham inscription is located on edge C which exhibits two lines of lettering to the right of another deep V-section groove. The upper inscription appears to be roman while the lower inscription is in the ogham alphabet. Edge D is the roughest out of all the surfaces and appears to be uncarved.
+                                <layout style="stemline_horizontal">The upper inscription on edge C appears to be roman while the lower inscription is in the ogham alphabet. The stem-line of the ogham inscription is <height unit="mm">195 mm</height> long, running parallel to the edge of the stone. The stem appears to have been cut before and again after the cutting of the strokes, which perhaps explains why some of the strokes appear to not quite reach the stem. 
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The stem-line of the inscription is <height unit="mm">195 mm</height> long, running parallel to the edge of the stone. The stem appears to have been cut before and again after the cutting of the strokes, which perhaps explains why some of the strokes appear to not quite reach the stem. The individual strokes are of varying length between <height unit="mm">20 and 35 mm</height> and <width unit="mm">3 and 6 mm</width> in breadth. The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. The carving is as Forsyth observed <q>course and scrappy, doubtless because of the intractability of the stone and the subsequent abuse the block has suffered</q> (1996, 377). Lochgoilhead is written in a <q>rather scruffy Type IIa or IIb form of the script with perpendicular b- and h- strokes and long vowel-strokes occupying between half the ogham band and all of it. The letters are not widely spaced and there is considerable variation in strokes of the same aicme</q> (ibid. 379).
+                            <handNote>The individual strokes are of varying length between <height unit="mm">20 and 35 mm</height> and <width unit="mm">3 and 6 mm</width> in breadth. The inscription is <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. The carving is as Forsyth observed <q>course and scrappy, doubtless because of the intractability of the stone and the subsequent abuse the block has suffered</q> (1996, 377). Lochgoilhead is written in a rather scruffy <q>form of the script with perpendicular b- and h- strokes and long vowel-strokes occupying between half the ogham band and all of it. The letters are not widely spaced and there is considerable variation in strokes of the same aicme</q> (ibid. 379).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="parish">Lochgoilhead And Kilmorich</placeName> <placeName type="county">Argyll</placeName>
+                                <placeName type="parish">Lochgoilhead And Kilmorich</placeName> <placeName type="county">Argyll</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>56.171667, -4.903333</geo>
                             <note>National Grid Reference: NN 19851 01461</note>
                             </origPlace>
@@ -141,6 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
                 <change when="2025-02-19" who="#POC">Proofreading updates</change>                       <change when="2025-03-05" who="#POC">Proofreading updates, added HES image and drawing, added information to layout, condition, apparatus, translation, updated commentary</change>
                 <change when="2025-03-12" who="#POC">Added attribute values to material</change>
+                <change when="2025-03-26" who="#POC">Added country to origPlace, added monument as key for objectType for filtering,added decoration for the other carvings</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -188,7 +190,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    </app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <p>'Noble prince'</p>
             </div>
             <div type="commentary">
