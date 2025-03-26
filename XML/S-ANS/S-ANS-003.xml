@@ -56,6 +56,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Scotland</country>
                         <repository>National Museums of Scotland</repository>
                         <idno type="invNo">X.IB 210</idno>
+                        <altIdentifier>
+                            <idno type="geo">55.946991, -3.1891831</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -72,12 +75,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <height>0.53</height>
                                             <width min="0.11" max="0.23">0.11-0.23</width>
                                             <depth>0.13</depth>
-                                     </dimensions>         
+                                     </dimensions>
+                                    <desc type="decoration">The front face contains the lower section of a <rs type="decoration" key="Crucifixion">crucifixion scene</rs>, portraying Christ from the waist down, dressed in a tunic, and two figures on each side (Richardson 1928, 226). Below the crucifix is a panel that may have contained an <rs type="decoration" cert="low" key="interlace">interlaced design</rs>. The back face may have also been decorated but is no longer discernible (ibid).</desc>
                                 </support>
                                 <condition>A fragment of the top shaft of a cross-slab incised with a crucifixion scene and what appears to be an ogham inscription. The stone is so badly worn that the interlace carving on the front has almost faded and only part of the marginal moulding on the back face is evident today (Richardson 1928, 226). The ogham inscription is no longer legible. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is located on the right face of the slab and includes a wavy stem-line. The front face contains the lower section of a <rs type="decoration">crucifixion scene</rs>, portraying Christ from the waist down, dressed in a tunic, and two figures on each side (Richardson 1928, 226). Below the crucifix is a panel that may have contained an <rs type="decoration" cert="low">interlaced design</rs>. The back face may have also been decorated but is no longer discernible (ibid).</layout>
+                                <layout style="stemline_wavy">The ogham inscription is located on the right face of the slab and includes a wavy stem-line. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -136,7 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-19" who="#POC">Proofreading updates, moved information from commentary to provenance</change>
     <change when="2025-02-28" who="#POC">Proofreading updates, added HES image</change>
     <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
-    <change when="2025-03-26" who="#POC">Hyphenate cross-slab in objectType, update object type key attribute value to monument for filtering</change>
+    <change when="2025-03-26" who="#POC">Hyphenate cross-slab in objectType, update object type key attribute value to monument for filtering, added decoration section and updated layout, added secondary location coords</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
