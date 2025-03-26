@@ -68,27 +68,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/31328/scoonie"><idno type="Canmore">31328</idno></ref></p>
-                                    <material>Sandstone</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.06</height>
                                             <width>07</width>
                                             <depth>0.1</depth>
-                                     </dimensions>         
+                                     </dimensions> 
+                                    <desc type="decoration">The cross-slab is sculpted on both sides, on the front is a badly weathered <rs type="decoration" key="cross">cross</rs> while on the reverse side is of an <rs type="decoration" key="Beast">incised beast</rs> that occupies the whole width of the top of the extant portion accompanied by a <rs type="decoration" key="HuntingScene">hunting scene of three horsemen and two dogs chasing a stag</rs>.</desc>
                                 </support>
                                 <condition><p><q>'portions missing from the top and probably also from the bottom. Front severely weathered, reverse better preserved. Ogham inscription clear and possibly complete'</q> (Forsyth 1996,481). The top of the slab has been sheered off with a portion of unknown dimensions lost.</p></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
-                                    <p>The cross-slab is sculpted on both sides, on the front is a badly weathered <rs type="decoration">cross</rs> while on the reverse side is of an <rs type="decoration">incised beast</rs> that occupies the whole width of the top of the extant portion accompanied by a hunting scene of three horsemen and two dogs chasing a stag. The ogham inscription runs on the right hand of the reverse side. The current position of the slab makes it impossible to make out if anything has been lost from the bottom. Forsyth comments that <q>'cross-slab is the only archaeological evidence for early medieval activity at the site'</q>  (1996,480). </p></layout>
+                                <layout style="stemline">The ogham inscription has a drawn-in stem-line which according to Forsyth <q>gently undulates up the reverse face of the cross-slab close to and parallel with the right-hand edge</q> (1996,483). The spacing of the strokes is generous except letter 9 which is squeezed in order to fit the stag's muzzle. The current position of the slab makes it impossible to make out if anything has been lost from the bottom.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>
-                                <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"/>
-                                <p>The ogham inscription has a drawn-in stem-line which according to Forsyth <q>'gently undulates up the reverse face of the cross-slab close to and parallel with the right-hand edge'</q> (1996,483). The spacing of the strokes is generous except letter 9 which is squeezed in order to fir the stag's muzzle. Forsyth on the form of the script notes that the inscription is <q>'carved in a simple Type Ila ogham, with a drawn-in stem-line and long vowel-strokes 
-occupying virtually the full ogham band'</q> (1996,486).
-                                </p>
+                            <handNote>Forsyth on the form of the script notes that the inscription is <q><rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> in a simple Type Ila ogham, with a drawn-in stem-line and long vowel-strokes 
+occupying virtually the full ogham band</q> (1996,486).
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -98,14 +95,11 @@ occupying virtually the full ogham band'</q> (1996,486).
                                 <geo>56.203611, -2.994444</geo>
                             <note>National Grid Reference: NO 3840 0167</note>
                                 </origPlace>
-                            <origDate notBefore-custom="1750" evidence="workmanship"/>
-                            <p>Forsyth speculates that <q>'its inferior workmanship and comparatively small size point to a date in the second half of the eighth century or later'</q> (1996,491).</p>
+                            <origDate notBefore-custom="1750" evidence="workmanship">Second half of the eighth century or later</origDate>
                         </origin>
-                        <provenance type="found" when="1879">
-                            <p>First publication: <date>1879</date> <persName>R. Rolt Brash</persName>, Ogam Monuments of the Gaedhil, p 353 and pl. 48. Found in <placeName>Scoonie churchyard</placeName> and taken to <placeName>Leven church</placeName>, until the Heritors agreed in <date>1868</date> that it should go to NMAS.</p>
+                        <provenance type="found" when="1879">First publication: <date>1879</date> <persName>R. Rolt Brash</persName>, Ogam Monuments of the Gaedhil, p 353 and pl. 48. Found in <placeName>Scoonie churchyard</placeName> and taken to <placeName>Leven church</placeName>, until the Heritors agreed in <date>1868</date> that it should go to NMAS.
                         </provenance>
-                        <provenance type="observed" when="2022-06-16">
-                            <placeName>NMS</placeName>
+                        <provenance type="observed" when="2022-06-16">Now in <placeName>NMS</placeName>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -145,6 +139,7 @@ occupying virtually the full ogham band'</q> (1996,486).
                 <change when="2024-07-13" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-04-06" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
+                <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, added decoration section, updated layout and commentary</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -156,14 +151,12 @@ occupying virtually the full ogham band'</q> (1996,486).
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi" resp="#XS">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    ᚓᚇᚇᚐᚏᚏᚅᚑᚅᚅ
+                    <lb n="1" style="text-direction:up"/>ᚓᚇᚇᚐᚏᚏᚅᚑᚅᚅ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="xpi" xml:space="preserve" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    EDDARRNONN
+                    <lb n="1" style="text-direction:up"/>EDDARRNONN
                 </ab>
             </div>
             <!--<div type="apparatus">
@@ -172,25 +165,17 @@ occupying virtually the full ogham band'</q> (1996,486).
                 </app>
                 </listApp>
             </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation" xml:lang="en">
+                <p>Etharnon</p>
+            </div>
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1">
                         <p>The beast symbol which is usually carved in a customary pair hints to a loss of symbol.</p>
-                    </item>
-                     <item n="2">
-                         <p>The hunting scene could potentially have either christian or pictish origins, as it is a symbolism found within both.</p>
-                     </item>
-                     <item n="3">
-                         <p>As all the lettering is clear there is an unusual doubtlessness to the reading which Forsyth comments <q>'has been universally, and surely correctly, interperted as the male personal name Etharnon'</q> (1996,486). This is peculiar in the sense that its appearence in Pictish inscriptons has been limited to four times while the name is not to be found on the Pictish King-List <q>'or any other source of Pictish secular names'</q> (ibid.,489). However Forsyth notes that there is <q>'an important Pictish saint called Etheman and it is tempting to interpret some or all of these 
-inscriptions as honouring the saint rather than a string of local magnates coincidentally all called Etheman'</q> (ibid.,489).</p>
-                     </item>
-                     <item n="4">
-                         <p> Forsyth comments that the outline of the original design indicates that the ogham is contemporary with the rest of the carving, as the symbols allowed space for the ogham inscriptions. More specifically, <q>'the stag stepping across the stem and interrupting the letters with its fore-leg and muzzle'</q> indicates how the two were integrated. (ibid.,483). As the right-hand text makes independent sense there is no need to debate over missing text, however the lone hammerhead A on the left hints at material lost.</p>
-                     </item>
-                 </list>
+                         <p>The hunting scene could potentially have either Christian or Pictish origins, as it is a symbolism found within both.</p>
+                         <p>As all the lettering is clear there is an unusual doubtlessness to the reading which Forsyth comments <q>has been universally, and surely correctly, interperted as the male personal name Etharnon</q> (1996,486). This is peculiar in the sense that its appearence in Pictish inscriptons has been limited to four times while the name is not to be found on the Pictish King-List <q>or any other source of Pictish secular names</q> (ibid.,489). However Forsyth notes that there is <q>an important Pictish saint called Etheman and it is tempting to interpret some or all of these 
+inscriptions as honouring the saint rather than a string of local magnates coincidentally all called Etheman</q> (ibid.,489).</p>
+                         <p> Forsyth comments that the outline of the original design indicates that the ogham is contemporary with the rest of the carving, as the symbols allowed space for the ogham inscriptions. More specifically, <q>the stag stepping across the stem and interrupting the letters with its fore-leg and muzzle</q> indicates how the two were integrated. (ibid.,483). As the right-hand text makes independent sense there is no need to debate over missing text, however the lone hammerhead A on the left hints at material lost.</p>
+                <p>Forsyth comments that <q>cross-slab is the only archaeological evidence for early medieval activity at the site</q> (1996,480).</p>
+                <p>Forsyth speculates that <q>its inferior workmanship and comparatively small size point to a date in the second half of the eighth century or later</q> (1996,491).</p>
             </div>
             <div type="bibliography">
                  <listBibl>

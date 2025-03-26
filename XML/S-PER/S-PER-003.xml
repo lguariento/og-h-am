@@ -69,8 +69,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/28250/st-madoes-inchyra-stone"><idno type="Canmore">28250</idno></ref></p>
-                                    <material>Fine grained local Sandstone, mica-rich, containing both biotite and muscovite</material> 
-                                    <objectType>Class I Pictish symbol stone</objectType>                                     
+                                    <material type="stone">Sandstone</material> <note>Fine grained local sandstone, mica-rich, containing both biotite and muscovite</note>
+                                    <objectType key="monument">Class I Pictish symbol stone</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.6</height>
                                             <width>narrow end-0.31, broad end-0.43</width>
@@ -148,7 +148,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details, closed unused elements and commented out apparatus and translation</change>
-                <change when="2024-12-13" who="#POC">Correcte typos</change>
+                <change when="2024-12-13" who="#POC">Corrected typos</change>
+               <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, corrected bibliography</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -209,39 +210,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>-->
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1">
                         <p>While the three ogham inscriptions may look radically different, Forsyth argues that <q>'the variation in scripts is not as great as might at first appear'</q> (1996,352). All inscriptions are written in a fairly simple form of the script with similar over-all proportions in letter size and spacing. Forstyh notes that all <q>'have b- and h-aicme letters which slope and, with the exception of character A(i)11, there is a noticeable lack of supllementary letters and other developed forms'</q> (ibid.,352). However despite similarities there are distinct hands with differences ranging beyond carving technique.</p>
-                    </item>
-                     <item n="2">
                          <p>For the interpertation of the scripts, the difficulty arises in the unclarity of segmentation when the texts do not conform to the standard formulas of ogham such as 'X MAQ Y'. Moreover, Forsyth comments that <q>'since we do not know the functions of the monument in its various phases of use we have few clues as to the kind of message to expect'</q> (1996,354). On the same basis there is a general uncertainty if in the inscriptions we should be looking for text in Irish or Pictish.</p>
-                     </item>
-                     <item n="3">
                          <p>While ogham inscriptions B and C are for Forsyth complete and independent, A (i-ii) may be part of a single text.</p>
-                     </item>
-                     <item n="4">
                          <p>For the interpertation of ogham inscription A(i), Forsyth comments that <q>'the sequence of letters is too long for a single personal name yet no word division is indicated'</q> (1996,355). Moreover, <q>'the initial ETT is paralleled in the roman alphabet inscription from St. Vigeans, where it appears between two personal names'</q> potentially as a variant spelling of et meaning 'and'. The ETT also found in the opening sequence of Cunningsburgh and Lunnasting, may be some form of the copula it-e taken with the -S at the end of the section to mean 'this is'. Alternatively in irish terms, the Lie may mean <q>'OIr. lie 'stone''</q>, the word also later came to mean <q>''grave' or 'tomb' or  a stone functioning as a landmark'</q> (ibid., 356). Additionally, <q>'irish tren is an adjective meaning 'strong', but is also used as a substantive meaning 'strong man''</q> (ibid.,356). The TREN- element also appears alone as an independent name as TRENU, or it could also be the genetive of the name Tren.</p>
-                     </item>
-                     <item n="5">
                          <p>For the interpertation of ogham inscription A(ii) the text is, as Forsyth comments <q>'too short and fragmentary to be made much sense of'</q> (1996,357).</p>
-                     </item>
-                     <item n="6">
                          <p>For the interpertation of ogham inscription B, Forsyth argues it is a formal one of a different kind of message from ogham A which is more closely associated with graffiti. The beginning INNE of both sections means 'wealth' or 'private possesions'. As with A, B has a lack of clarity with segmentation which makes interpertation difficult.</p>
-                     </item>
-                     <item n="7">
                          <p>For the interpertation of ogham inscription C, Forsyth places it closer to the informality of A. The clear correlation with the fish symbol is strengthened by oghams Ackergill (NEHT-), Golspie (NET-), and Latheron (NETU) all featuring fish.</p>
-                     </item>
-                     <item n="8">
                          <p>The Inchyra slab reflects the standard Class I symbol stone oghams in not conforming to the formula 'X MAQI Y'. Impossible to date closely, Forsyth comments that <q>'the slab's regular shape, the use of chisel for some of the carving, and certain features of the ogham script, are more than plausible interperted at ta date later rather than earlier in the sequence of class I monuments'</q> (1996,358).</p>
-                     </item>
-                 </list>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl>
-                         <ptr target="FOR1996"/>
+                     <bibl><ptr target="FOR1996"/>
                      <citedRange>333-359</citedRange>
-                         <ptr target="STE1961"/>
+                         </bibl>
+                     <bibl><ptr target="STE1961"/>
                          <citedRange>33-55</citedRange>
                      </bibl>
                  </listBibl>

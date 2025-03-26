@@ -55,8 +55,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term>Gwynedd Archaeological Trust Regional Historic Environment Record:<ref target="https://archwilio.org.uk/"><idno type="HER">136</idno>Llystyn-gwyn Farm</ref>
-                                    <material>Stone</material> <objectType>slab</objectType>, described as <q>dolerite microgabbro with a typical thick weathering crust and a homogenous texture...the stone is locally derived</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">270</citedRange>.</bibl>
+                                <support><p><ref target="https://archwilio.org.uk/">Gwynedd Archaeological Trust Regional Historic Environment Record</ref>: <idno type="HER">136</idno> Llystyn-gwyn Farm</p>
+                                    <material type="stone">Dolerite microgabbro with a typical thick weathering crust and a homogenous texture</material> <note>Described as <q>dolerite microgabbro with a typical thick weathering crust and a homogenous texture...the stone is locally derived</q> (Edwards 2013, 270).</note>
+                                    <objectType key="monument">Slab</objectType>
                                     <dimensions unit="m">
                                         <height>1.02</height>
                                         <width>1.09</width>
@@ -65,7 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a Roman-letter inscription in three lines at the top of the face, justified to the right, reading horizontally. The stone is also inscribed with an Ogham inscription on the right edge of the Roman-letter inscribed face beginning about halfway to the top of the stone continuing over the top, reading vertically upwards. The Welsh Corpus notes that <q>the combination of a horizontal roman-letter inscription with ogam is unusual but is paralleled on Clocaenog 1 (D1), Castell Dwyran 1 (CM3) and Nevern 2 (P71). The placement of the ogam inscription on the right angle...is also more unusual that the left but is paralleled in the north on Llanfaelog (AN13)...the positioning of the roman-letter inscription towards the right angle of the stone where the ogam is located is surely intentional since it signals a relationship between the two</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">272</citedRange></bibl>.The Ogham inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> with a <rs type="excution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html"> punch.</rs><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">270-1</citedRange></bibl></layout>
+                                <layout>The stone is inscribed with a Roman-letter inscription in three lines at the top of the face, justified to the right, reading horizontally. The stone is also inscribed with an Ogham inscription on the right edge of the Roman-letter inscribed face beginning about halfway to the top of the stone continuing over the top, reading vertically upwards. The Welsh Corpus notes that <q>the combination of a horizontal roman-letter inscription with ogam is unusual but is paralleled on Clocaenog 1 (D1), Castell Dwyran 1 (CM3) and Nevern 2 (P71). The placement of the ogam inscription on the right angle...is also more unusual that the left but is paralleled in the north on Llanfaelog (AN13)...the positioning of the roman-letter inscription towards the right angle of the stone where the ogam is located is surely intentional since it signals a relationship between the two</q> (Edwards 2013, 272).The Ogham inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> with a <rs type="excution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html"> punch</rs> (Edwards 2013, 270-1).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -79,7 +80,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>52.983411, -4.261431</geo></origPlace>
                             <origDate notBefore="0470" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic">Late fifth or earlier sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">First found 1901 when removed to avoid obstructing a gateway approximately 300m north-north-east of Pen Llystyn Roman fort. Ogham was discovered 1903 when it was moved and set the right way up.
+                        <provenance type="found" when="1901">First found 1901 when removed to avoid obstructing a gateway approximately 300m north-north-east of Pen Llystyn Roman fort. Ogham was discovered 1903 when it was moved and set the right way up.
                         </provenance>
                         <provenance type="observed">Set into the stone wall on the south side of the farmyard west of the farmhouse (SH 4821 4553)
                         </provenance>
@@ -121,6 +122,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-07-11" who="#MK">Megan Kasten checked information and formatting to ensure consistency with OGHAM standards.</change>
     <change when="2023-07-19" who="#MK">Megan Kasten edited formatting to adhere to OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+<change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, bibliography, added paragraph for support section</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -132,7 +134,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="roman" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Latn">
-                    <ab><title>Latin</title>:
+                    <ab>
                     <lb n="1" style="text-direction:across"/><persName><name nymRef="#icarics">ICORI</name>FILIVS
                         <lb n="2" style="text-direction:across"/>POTENTI
                         <lb n="3" style="text-direction:across"/>NI</persName>
@@ -141,7 +143,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             </div>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="2" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#icarics">&#x1694;&#x1689;&#x1691;&#x168F;&#x1694;&#x168C;
                     <lb n="2" style="text-direction:across" break="no"/>&#x1690;&#x1684;</name></persName>
                 </ab>
@@ -149,7 +151,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                   </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                 <div type="textpart" n="2" xml:lang="pgl-Ogam">
-                 <ab><title>Transliteration</title>:
+                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#icarics">ICORIG
                     <lb n="2" style="text-direction:across" break="no"/>AS</name></persName>
                 </ab>   
@@ -158,28 +160,23 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
-                <p><title>Latin</title>:(of?) <foreign xml:lang="pgl">Icorix</foreign>, son of <foreign xml:lang="pgl">Potentinus</foreign></p>
+                <p>Latin: (of?) <foreign xml:lang="pgl">Icorix</foreign>, son of <foreign xml:lang="pgl">Potentinus</foreign></p>
                 </div>
                 <div type="textpart" n="2">
-                    <p><title>Ogham</title>:of <foreign xml:lang="pgl">Icorix</foreign></p>
+                    <p>Ogham: of <foreign xml:lang="pgl">Icorix</foreign></p>
                 </div>
             </div>
             <div type="commentary">
-                <list type="witDetail">
-                    <item n="1">
-                        <p>The Roman-letter inscription is in the 'X son of Y' formula. The first name in the inscription,<hi rend="italic">Icorix</hi> appears to have both British and Celtic influence while <hi rend="italic">Potentinus</hi> is Latin and use of this is paralleled elsewhere in Britain and Ireland <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">272-3</citedRange></bibl>. On the context of the stone, the Welsh Corpus notes the presence of a Roman auxiliary fort at Pen Llystyn and argues that the stone <q>relates to continuing activity in the area of the fort, which would have remained a prominent landmark, in the post-Roman period</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">271-2</citedRange></bibl>.</p>
-                    </item>
-                    <item n="2">
-                        <p>The Ogham inscription on the stone corresponds to the Roman-letter inscription, a thing which is also reflected in their placement in relation to each other. The spelling of ICORIGAS in the Ogham inscription suggests British influence. The Welsh Corpus argues that <q>if the name is British, the ogam presumably uses C rather than G either following the roman lettering or following the Irish cognate...the name has no known descendants in later Welsh or Irish</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">272-3</citedRange></bibl>.</p>
-                    </item>
-                </list>
+                        <p>The Roman-letter inscription is in the 'X son of Y' formula. The first name in the inscription,<hi rend="italic">Icorix</hi> appears to have both British and Celtic influence while <hi rend="italic">Potentinus</hi> is Latin and use of this is paralleled elsewhere in Britain and Ireland (Edwards 2013, 272-3). On the context of the stone, the Welsh Corpus notes the presence of a Roman auxiliary fort at Pen Llystyn and argues that the stone <q>relates to continuing activity in the area of the fort, which would have remained a prominent landmark, in the post-Roman period</q> (Edwards 2013, 271-2).</p>
+                        <p>The Ogham inscription on the stone corresponds to the Roman-letter inscription, a thing which is also reflected in their placement in relation to each other. The spelling of ICORIGAS in the Ogham inscription suggests British influence. The Welsh Corpus argues that <q>if the name is British, the ogam presumably uses C rather than G either following the roman lettering or following the Irish cognate...the name has no known descendants in later Welsh or Irish</q> (Edwards 2013, 272-3).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>
-                  <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">270-3</citedRange></bibl>  
+                  <bibl><ptr target="EDW2013"/>
+                      <citedRange>270-3</citedRange>
+                  </bibl>  
                 </listBibl>
             </div>
         </body>
