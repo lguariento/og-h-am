@@ -70,8 +70,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>National Monuments Record of Wales (NPRN): <ref target="https://coflein.gov.uk/en/site/407619/"><idno type="NPRN">407619</idno></ref></p>
-                                    <material source="EDW2013">Relatively local (1.5km to NW), coarse-grained pebbly sandstone</material> 
-                                    <objectType>Pillar</objectType>
+                                    <material type="stone" source="EDW2013">Coarse-grained pebbly sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType>
                                     <dimensions unit="m" source="EDW2013">
                                         <height>1.60</height>
                                         <width>0.45</width>
@@ -81,7 +81,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a Roman-letter inscription in the centre of its largest smooth face just beneath a diagonal fault line. The inscription is in one line reading vertically downwards. The stone is also inscribed with an ogham inscription in one line on the right-hand edge of the face inscribed with Roman letters. The ogham inscription reads vertically upwards. Both inscriptions are <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> (Edwards 2013, 163).</layout>
+                                <layout style="arris_up">The stone is inscribed with a Roman-letter inscription in the centre of its largest smooth face just beneath a diagonal fault line. The inscription is in one line reading vertically downwards. The stone is also inscribed with an ogham inscription in one line on the right-hand edge of the face inscribed with Roman letters. The ogham inscription reads vertically upwards. Both inscriptions are <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> (Edwards 2013, 163).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -92,12 +92,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/d9aa7b97-6b6b-4fc2-b941-51175cefe8ee">Llanfaelog</ref></foreign></placeName>,<placeName type="county">Anglesey  (<foreign xml:lang="cy">Ynys Môn</foreign>)</placeName>
+                                <placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/d9aa7b97-6b6b-4fc2-b941-51175cefe8ee">Llanfaelog</ref></foreign></placeName>,<placeName type="county">Anglesey  (<foreign xml:lang="cy">Ynys Môn</foreign>)</placeName> <placeName type="country">Wales</placeName>
                                 <geo>53.221267, -4.497758</geo>
                             <note>National Grid Reference: SH 3334 7227</note></origPlace>
                             <origDate notBefore="0500" notAfter="0570" precision="low" datingMethod="#julian" evidence="linguistic">Early to mid-sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found" when="2007">The stone was first recorded by Skinner in 1802 at Penseri Farm (<foreign xml:lang="cy">Penseri Bach, Penseiri Bach</foreign>) where it was reused as a window lintel in a barn, though it was reported to have been taken from a field nearby. The stone was reported lost for a time but rediscovered in exactly the space spot in 1945. The stone was moved to its current location in 2001 when the barn was demolished. The ogham was first noticed here by Nancy Edwards in August 2007 (Edwards 2013, 162).
+                        <provenance type="found" when="2007">The stone was first recorded by Skinner in 1802 at Penseri Farm (<foreign xml:lang="cy">Penseri Bach, Penseiri Bach</foreign>) where it was reused as a window lintel in a barn, though it was reported to have been taken from a field nearby. The stone was reported lost for a time but rediscovered in exactly the space spot in 1945. The stone was moved to its current location in 2001 when the barn was demolished. The ogham was first noticed here by Nancy Edwards in August 2007 (Edwards 2013, 162). The stone type (coarse-grained pebbly sandstone) is relatively local in origin (1.5km to NW).
                         </provenance>
                         <provenance type="observed" when="2007">Set in the ground in an outbuilding north of the farmhouse at Trecastell (Edwards 2013, 162).
                         </provenance>
@@ -148,7 +148,8 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2024-10-12" who="#NW">Updated material and source.</change>
     <change when="2024-11-05" who="#NW">Updates to support and edition from Edwards 2013. Changed subtype latin in edition to subtype roman for consistency with Welsh corpus (script code is latn though). Removed numbers from textparts (test - possibly distinguish by italicising roman?).</change>
     <change when="2024-11-05" who="#NW">removed unclear tag from final U of ogham and updated apparatus. Testing display of edition textparts (Luca customising stylesheets).</change>
-     <change when="2024-11-25" who="#NW">Added Nash-Williams 1950 and Tedeschi 2005 refs. Standardised spelling, capitalisation (ogham) etc.</change>
+    <change when="2024-11-25" who="#NW">Added Nash-Williams 1950 and Tedeschi 2005 refs. Standardised spelling, capitalisation (ogham) etc.</change>
+    <change when="2025-03-26" who="#NW">Added country (Wales) to orig place. Added attributes to material, object type and layout for facets.</change>
     
  </listChange>   
 </revisionDesc>
