@@ -68,18 +68,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/8144/latheron"><idno type="Canmore">8144</idno></ref></p>
-                                    <material>Caithness sandstone</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Caithness sandstone</material> 
+                                    <objectType key="monument">Cross-slab</objectType>                                  
                                     <dimensions unit="m">                                         
                                             <height>0.90</height>
                                             <width>0.43</width>
                                             <depth>0.10</depth>
-                                     </dimensions>         
+                                     </dimensions>
+                                    <desc type="decoration">The cross-slab is carved on one face with, one above the other, the lower pan of a <rs type="decoration">cross</rs> in relief, an incised <rs type="decoration">bird and fish</rs>, and two incised <rs type="decoration">horsemen</rs>. The upper section of the <rs type="decoration">cross</rs> is decorated with a <rs type="decoration">spiral ornament</rs> arranged in C-shaped scrolls placed back to back, the lower and narrower section is decorated with <rs type="decoration">interlace</rs>.</desc>
                                 </support>
                                 <condition>The carving is worn but generally clear. Only the left edge is intact, all the others are fractured and portions of unknown length have therefore been lost from both the top and the bottom.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The cross-slab is carved on one face with, one above the other, the lower pan of a <rs type="decoration">cross</rs> in relief, an incised <rs type="decoration">bird and fish</rs>, and two incised <rs type="decoration">horsemen</rs>. The upper section of the <rs type="decoration">cross</rs> is decorated with a <rs type="decoration">spiral ornament</rs> arranged in C-shaped scrolls placed back to back, the lower and narrower section is decorated with <rs type="decoration">interlace</rs>. The ogham inscription is incised vertically up the left-hand side on an incised stem-line.</layout>
+                                <layout style="stemline">The ogham inscription is incised vertically up the left-hand side on an incised stem-line.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -134,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements and commented apparatus and translation</change>
     <change when="2024-12-13" who="#POC">Added Latheron image</change>
+    <change when="2025-03-26" who="#POC">Added attributes to object type, material and layout for filtering, added decoration section</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

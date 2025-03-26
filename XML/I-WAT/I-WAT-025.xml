@@ -60,8 +60,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA031-045002-</idno></p>
-                                    <material>Stone (sandstone?)</material> 
-                                    <objectType>Slab?</objectType> 
+                                    <material type="stone">Sandstone?</material> 
+                                    <objectType key="monument">Slab?</objectType> 
                                      <dimensions unit="m">
                                             <height>1.19</height>
                                             <width>0.36</width>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added note to coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, added citation details to image description, updated eDIL references in commentary</change>
+    <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

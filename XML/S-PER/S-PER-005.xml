@@ -70,14 +70,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/24741/kilmadock-st-aedhs-church"><idno type="Canmore"></idno>24741</ref></p>
-                                    <material/> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone"/> 
+                                    <objectType key="monument">Cross-slab</objectType>                                     
                                     <!--<dimensions unit="m">                                         
                                             <height></height>
                                             <width></width>
                                             <depth></depth>
                                         <!-\-<dim type="diameter">if circular, etc</dim>-\->
-                                     </dimensions>    -->     
+                                     </dimensions>  
+                                    <desc type="decoration"></desc>-->     
                                 </support>
                                 <!--<condition>Any damage to the stone/object</condition>-->
                             </supportDesc>
@@ -137,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi updated body to include ogham characters and transliteration</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements and commented out sections that had no content or only the template guidance.</change>
+                <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

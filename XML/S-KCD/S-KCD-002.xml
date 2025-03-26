@@ -70,18 +70,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/36458/auchenblae-fordoun-parish-church-fordoun-stone"><idno type="Canmore"></idno>36458</ref></p>
-                                    <material>Red sandstone</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Red sandstone</material> 
+                                    <objectType key="monument">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.5</height> <!--double-check dimensions, please, sources vary slightly-->
                                             <width>0.84</width>
                                             <depth>0.09</depth>
-                                     </dimensions>         
+                                     </dimensions> 
+                                    <desc type="decoration">The front is decorated with a <rs type="decoration" key="cross">cross</rs>. Its centre is decorated with <rs type="decoration" key="interlace">interlace</rs>, the top arm of the cross includes the lower part of a <rs type="decoration" key="Monster">sea monster</rs>, the left arm is decorated with <rs type="decoration" key="StaffordKnots">Stafford knots</rs>, the right arm may have also been carved but is now defaced, and the bottom arm contains a <rs type="decoration" key="huntingScene">horseman carrying a spear</rs>. Surrounding the bottom arm of the cross are the remainders of a hunting scene, consisting of two more<rs type="decoration" key="huntingScene">horsemen carrying spears and accompanied by hounds</rs>, as well as a <rs type="decoration" key="PictishSymbol">double-disc and Z-shaped rod symbol</rs>.</desc>
                                 </support>
                                 <condition>Weathered and incomplete.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription runs up the <!--left/right? unclear from sources--> narrow face of the slab. The front is decorated with a <rs type="decoration">cross</rs>. Its centre is decorated with <rs type="decoration">interlace</rs>, the top arm of the <rs type="decoration">cross</rs> includes the lower part of a <rs type="decoration">sea monster</rs>, the left arm is decorated with <rs type="decoration">Stafford knots</rs>, the right arm may have also been carved but is now defaced, and the bottom arm contains a <rs type="decoration">horseman carrying a spear</rs>. Surrounding the bottom arm of the <rs type="decoration">cross</rs> are the remainders of a hunting scene, consisting of two more<rs type="decoration">horsemen carrying spears and accompanied by hounds</rs>, as well as a <rs type="decoration">double-disc and Z-shaped rod symbol</rs>. The top left corner of the slab includes the remnants of an inscription in Hiberno-Saxon miniscules.</layout>
+                                <layout>The ogham inscription runs up the <!--left/right? unclear from sources--> narrow face of the slab. The top left corner of the slab includes the remnants of an inscription in Hiberno-Saxon miniscules.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -136,7 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-15" who="#LH">Encoded description, provenance and edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements and commented out apparatus and translation</change>
-</listChange>
+    <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>   </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>

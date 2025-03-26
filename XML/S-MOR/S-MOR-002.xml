@@ -68,18 +68,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/15812/altyre-house"><idno type="Canmore">15812</idno></ref></p>
-                                    <material>Grey sandstone</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Grey sandstone</material> 
+                                    <objectType key="monument">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>3.3</height>
                                             <width>0.86</width>
                                             <depth>0.18</depth>
-                                     </dimensions>         
+                                     </dimensions>
+                                    <desc type="decoration">The slab is sculpted in relief on two faces with <rs type="decoration">crosses</rs>. The <rs type="decoration" key="cross">cross</rs> on the back is cut in shallow relief and only the vertical shaft survives (Forsyth 1996, 28). On the front face, the <rs type="decoration" key="cross">square-armed cross</rs> with double square hollows for arm pits protrudes by 1,5 cm from the surface and its outline is still preserved (ibid).</desc>
                                 </support>
                                 <condition>Severely weathered and covered in lichen (Forsyth 1996, 27). There may be a section of ogham missing from the beginning and certain portions of the ogham are doubtful (ibid).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The slab is sculpted in relief on two faces with <rs type="decoration">crosses</rs>; an ogham inscription runs up one narrow edge and possibly another up the side of one cross shaft (Forsyth 1996, 27). The <rs type="decoration">cross</rs> on the back is cut in shallow relief and only the vertical shaft survives (Forsyth 1996, 28). On the front face, the <rs type="decoration">square-armed cross</rs> with double square hollows for arm pits protrudes by 1,5 cm from the surface and its outline is still preserved (ibid). </layout>
+                                <layout>An ogham inscription runs up one narrow edge and possibly another up the side of one cross shaft (Forsyth 1996, 27).  </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -135,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-17" who="#LH">Edited provenance</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
+    <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>   
 </listChange>
 </revisionDesc>
     </teiHeader>

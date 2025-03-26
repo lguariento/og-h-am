@@ -67,18 +67,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/15529/brodie-rodneys-stone"><idno type="Canmore">15529</idno></ref></p>
-                                    <material>Grey sandstone</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Grey sandstone</material> 
+                                    <objectType key="monument">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height min="1.875" max="1.905">1.875-1.905</height>
                                             <width min="0.95" max="1.05">0.95-1.05</width>
                                             <depth>0.1</depth>
-                                     </dimensions>         
+                                     </dimensions> 
+                                    <desc type="decoration">The entire front face is carved with a <rs type="decoration" key="cross">cross</rs> with small rounded hollows at its armpits (Forsyth 1996, 142). The cross is outlined in a thick roll-moulding and it is decorated with complex <rs type="decoration" key="interlace">interlace</rs> (Forsyth 1996, 143). Each of the background quadrants created by the arms includes <rs type="decoration" key="Beast">interlaced beasts</rs> (ibid). Towards the bottom of the two lower panels inverted initials AC (right) and KD (left) are incised (ibid). The back is dominated by a large pair of <rs type="decoration" key="Monster">sea monsters</rs> occupying the full width of the slab and almost half its length (ibid). Below are two large symbols, a <rs type="decoration" key="PictishSymbol">Pictish beast</rs> and a <rs type="decoration" key="PictishSymbol">double-disc and Z-rod symbol</rs> (ibid). The space between the pair of sea monsters is carved with curvilinear motifs, including a <rs type="decoration">large spiral disc decorated with pellets</rs> in the centre, a <rs type="decoration">penanular brooch with expanded terminals</rs> above, a <rs type="decoration">crescent with pellets</rs> to the right, a <rs type="decoration">circular disc decorated with triskele</rs> to the left and another smaller <rs type="decoration">disc decorated with triskele</rs> at the bottom (ibid).</desc>
                                 </support>
                                 <condition>The ogham inscription is severely damaged with only short sections being legible (Forsyth 1996, 142). The front face is badly weathered, the carving on the reverse is in good condition (ibid). The lower edge of the slab is broken with a portion missing from the back (ibid).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscriptions run on the right edge (front and back) and the left edge (back only) of the slab on a raised band approximately 5 cm wide and with an incised stem-line (Forsyth 1996, 145). The entire front face is carved with a <rs type="decoration">cross</rs> with small rounded hollows at its armpits (Forsyth 1996, 142). The <rs type="decoration">cross</rs> is outlined in a thick roll-moulding and it is decorated with complex <rs type="decoration">interlace</rs> (Forsyth 1996, 143). Each of the background quadrants created by the arms includes <rs type="decoration">interlaced beasts</rs> (ibid). Towards the bottom of the two lower panels inverted initials AC (right) and KD (left) are incised (ibid). The back is dominated by a large pair of <rs type="decoration">sea monsters</rs> occupying the full width of the slab and almost half its length (ibid). Below are two large symbols, a <rs type="decoration">Pictish beast</rs> and a <rs type="decoration">double-disc and Z-rod symbol</rs> (ibid). The space between the pair of <rs type="decoration">sea monsters</rs> is carved with curvilinear motifs, including a <rs type="decoration">large spiral disc decorated with pellets</rs> in the centre, a <rs type="decoration">penanular brooch with expanded terminals</rs> above, a <rs type="decoration">crescent with pellets</rs> to the right, a <rs type="decoration">circular disc decorated with triskele</rs> to the left and another smaller <rs type="decoration">disc decorated with triskele</rs> at the bottom (ibid).</layout>
+                                <layout style="stemline">The ogham inscriptions run on the right edge (front and back) and the left edge (back only) of the slab on a raised band approximately 5 cm wide and with an incised stem-line (Forsyth 1996, 145).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -135,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-17" who="#LH">Encoded image</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
+    <change when="2025-03-26" who="#POC">Added attributes to object type, material and layout for filtering, added decoration section</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

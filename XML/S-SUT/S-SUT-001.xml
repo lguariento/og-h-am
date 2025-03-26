@@ -68,18 +68,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/6564/golspie"><idno type="Canmore">6564</idno></ref></p>
-                                    <material>Purple (old red) sandstone</material> 
-                                    <objectType>Cross-slab</objectType>                                     
+                                    <material type="stone">Purple (old red) sandstone</material> 
+                                    <objectType key="monument">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.83</height>
                                             <width>0.82</width>
                                             <depth>0.17</depth>
-                                     </dimensions>         
+                                     </dimensions> 
+                                    <desc type="decoration">The rectangular slab is carved on all four sides. The front face is carved in shallow relief with a long-shafted <rs type="decoration" key="cross">cross</rs> with circular armpits, filled with and surrounded by <rs type="decoration" key="interlace">interlace</rs>. The reverse is carved with eight Pictish symbols arranged in pairs, including a large <rs type="decoration" key="PictishSymbol">decorated rectangle symbol and beast, a man wielding a knife and axe, a wolf, a fish facing left, a flower, a crescent and V-rod symbol, a double-disc and a pair of intertwined serpents</rs>. The two narrow sides of the slab are carved with a <rs type="decoration" key="spiral">spiral border pattern</rs> composed of one row of double spirals connected by S-shaped curves.</desc>
                                 </support>
                                 <condition>The front face is defaced by modern inscription and is badly weathered; the reverse is well-preserved. The ogham inscription is clear except for two very worn sections.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The rectangular slab is carved on all four sides. The ogham inscription occupies a roll-moulding, unusually on the right-hand of the reverse face, turning at the top corner and continuing across the upper edge. The front face is carved in shallow relief with a long-shafted <rs type="decoration">cross</rs> with circular armpits, filled with and surrounded by <rs type="decoration">interlace</rs>. The reverse is carved with eight Pictish symbols arranged in pairs, including a large <rs type="decoration">decorated rectangle symbol and beast, a man wielding a knife and axe, a wolf, a fish facing left, a flower, a crescent and V-rod symbol, a double-disc and a pair of intertwined serpents</rs>. The two narrow sides of the slab are carved with a <rs type="decoration">spiral border pattern</rs> composed of one row of double spirals connected by S-shaped curves.</layout>
+                                <layout>The ogham inscription occupies a roll-moulding, unusually on the right-hand of the reverse face, turning at the top corner and continuing across the upper edge. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -135,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-18" who="#LH">Edited provenance and description and encoded edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements and commented out sections without content</change>
+          <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>   
 </listChange>
 </revisionDesc>
     </teiHeader>
