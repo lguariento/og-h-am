@@ -58,6 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Scotland</country>
                         <repository>NMS</repository>
                         <idno type="invNo">X.HT 102</idno>
+                        <altIdentifier>
+                            <idno type="geo">55.946991, -3.1891831</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -69,9 +72,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/44987/glasgow-bishop-loch"><idno type="canmore">44987</idno></ref></p>
-                                    <material/> 
-                                    <objectType>Wood</objectType>                                     
+                                <support><p><ref target="https://canmore.org.uk/site/44987/glasgow-bishop-loch">Canmore</ref> <idno type="canmore">44987</idno></p>
+                                    <material type="bone">Bone</material> 
+                                    <objectType key="portableObject">Piece of bone stem</objectType>                                     
                                     <!--<dimensions unit="m">                                         
                                             <height></height>
                                             <width></width>
@@ -79,11 +82,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <!-\-<dim type="diameter">if circular, etc</dim>-\->
                                      </dimensions>-->         
                                 </support>
-                                <!--<condition>Any damage to the stone/object</condition>-->
+                                <condition></condition>
                             </supportDesc>
-                            <!--<layoutDesc>
-                                <layout>Description of the layout of the inscription on the stone/object</layout>
-                            </layoutDesc>-->
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
                             <handNote>Description of the ogham letters/characters including encoded execution/carving type (e.g. <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>), if known. <height>length of ogham stroke, if known</height>
@@ -92,14 +95,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Glasgow</placeName> <placeName type="county">Lanarkshire</placeName>
+                            <origPlace><placeName type="parish">Glasgow</placeName> <placeName type="county">Lanarkshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>55.876389, -4.100278</geo>
                             <note>National Grid Reference: NS 68700 66800</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found">(wood) stem incised with ogham-like characters
+                        <provenance type="found" when="1905">A piece of bone stem bearing ogham like markings discovered along with other artifacts such as thick coarse pottery, a metal-worker's crucible, and a socketed iron axe head, during the excavation of the crannog at Bishop’s Loch, near Gartcosh, in <date>1905-1906</date>. The piece was sent to Trevor Cowie by Allan Mackenzie, North Lanarkshire Council 27/1/2006.
                         </provenance>
-                        <provenance type="observed">NMS X.HT 102
+                        <provenance type="observed">Now in NMS <ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=166179">X.HT 102</ref>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -137,29 +140,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi updated body to include ogham characters and transliteration</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
+                    <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, added and encoded information, including provenance, objectType, secondary location coordinates, commented out media</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="example.jpg"/>
-         <media url="3D recorded by MK" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+         <!--<media url="3D recorded by MK" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                  ᚐᚈ
-                  <gap reason="lost" extent="unknown" unit="character"/>
-                    ᚆ
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="2" style="text-direction:up" break="no"/>
-                   ᚐᚂ
+                    <lb n="1" style="text-direction:up"/>ᚐᚈ<gap reason="lost" extent="unknown" unit="character"/>ᚆ<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2" style="text-direction:up" break="no"/>ᚐᚂ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>AT---H[---] / AL
+                    <lb n="1" style="text-direction:up"/>AT---H[---] 
+                    <lb n="2" style="text-direction:up"/>AL
                 </ab>
             </div>
             <!--<div type="apparatus">
@@ -172,15 +172,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>-->
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p></p>
-                    </item>
-                 </list>
+                 <p></p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
-                     <citedRange><!--page numbers--></citedRange>
+                     <citedRange/>
+                     </bibl>
+                     <bibl><ptr target="MAL2021"/>
+                         <citedRange/>
                      </bibl>
                  </listBibl>
             </div>

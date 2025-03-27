@@ -91,10 +91,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Rafford</placeName> <placeName type="county">Moray</placeName>
+                            <origPlace><placeName type="parish">Rafford</placeName> <placeName type="county">Moray</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>57.578056, -3.608611</geo>
                             <note>National Grid Reference: NJ 1374 6633</note></origPlace>
-                            <origDate cert="low">later eighth or ninth century</origDate>
+                            <origDate cert="low">Later eighth or ninth century</origDate>
                         </origin>
                         <provenance type="found">The stone was moved from somewhere in the Laigh of Moray around <date cert="low">1820</date> to a field north of Altyre House; however, the exact original location is not known (Calder and Jackson 1957, 246; Forsyth 1996, 23). William Rhind may have been unknowingly referring to the ogham letters when he mentioned Runic knots on the Altyre Stone in <date>1839</date> and he was later quoted by John Stuart in his description of the stone  in <date>1856</date>, where he noted the considerable weathering of the carving (Forsyth 1996, 24; Stuart 1856, 35). The first intimation of an ogham inscription specifically, however, comes from a hand-written note in the National Museums of Scotland Library's copy of the Early Christian Monuments of Scotland by J. Graham Callander, who was keeper between the years 1919-1938 (Forsyth 1996, 24). Following this note, an official reading along with an illustration was first published in <date>1957</date> in the Proceedings of the Society of Antiquaries of Scotland (Calder and Jackson 1957, 247). 
                         </provenance>
@@ -136,7 +136,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-17" who="#LH">Edited provenance</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
-    <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>   
+    <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>
+        <change when="2025-03-28" who="#POC">Added country to origPlace, moved information to translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -164,18 +165,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>-->
-           <!-- <div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>The extant text is not sufficient to identify the language or the meaning of the text (Forsyth 1996, 39).</p>
+            </div>
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p>There is doubt over whether there is a second ogham inscription on the front face of the slab (Forsyth 1996, 29). An incised line around the cross can be discerned and while this could be the stem-line of an ogham inscription, its primary purpose is to outline the cross, which in turn suggests that the ogham would have been a secondary addition (ibid). The surviving carving is too weathered to be able to reconstruct the text (ibid). As Forsyth suggests, if this inscription were to be accepted as genuine and secondary to the original carving, then this would imply that the ogham on the edge of the slab is also a later addition (ibid).</p>
-                    </item>
-                    <item n="2"><p>The extant text is not sufficient to identify the language or the meaning of the text (Forsyth 1996, 39). It is likewise difficult to determine its significance given its precise original location is unknown (ibid).</p>
-                    </item>
-                    <item n="3"><p><q>'At its current height of 3.3m, Altyre is the second tallest sculptured slab from early medieval Scotland, shorter only than the giant Sueno's Stone (6.10m)'</q> (Forsyth 1996, 39).</p>
-                    </item>
-                 </list>
+ <p>There is doubt over whether there is a second ogham inscription on the front face of the slab (Forsyth 1996, 29). An incised line around the cross can be discerned and while this could be the stem-line of an ogham inscription, its primary purpose is to outline the cross, which in turn suggests that the ogham would have been a secondary addition (ibid). The surviving carving is too weathered to be able to reconstruct the text (ibid). As Forsyth suggests, if this inscription were to be accepted as genuine and secondary to the original carving, then this would imply that the ogham on the edge of the slab is also a later addition (ibid).</p>
+<p>It is difficult to determine the significance of the text given its precise original location is unknown (Forsyth 1996, 39).</p>
+<p><q>At its current height of 3.3m, Altyre is the second tallest sculptured slab from early medieval Scotland, shorter only than the giant Sueno's Stone (6.10m)</q> (Forsyth 1996, 39).</p>
+
             </div>
             <div type="bibliography">
                  <listBibl>
