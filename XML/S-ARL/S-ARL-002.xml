@@ -151,6 +151,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change when="2025-03-03" who="#POC">Proofreading updates, added eDIL reference to commentary, added more information to layout and apparatus, added HES images.</change>
                 <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
                     <change when="2025-03-26" who="#POC">Added secondary location coords, added country to origPlace</change>
+                    <change when="2025-03-27" who="#POC">Removed whitespace from edition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -165,22 +166,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd" resp="#XS"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    ᚉᚏ<unclear reason="faded" cert="low">ᚑ</unclear>ᚅ
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    <choice resp="#KF"><unclear reason="ambiguous" cert="low">ᚃ</unclear></choice>
-                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚉᚏ<unclear reason="faded" cert="low">ᚑ</unclear>ᚅ<gap reason="lost" extent="unknown" unit="character"/><choice resp="#KF"><unclear reason="ambiguous" cert="low">ᚃ</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="gd" xml:space="preserve" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    CR<unclear reason="faded" cert="low">O</unclear>N
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    <choice resp="#KF"><unclear reason="ambiguous" cert="low">V</unclear></choice>
-                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>CR<unclear reason="faded" cert="low">O</unclear>N<gap reason="lost" extent="unknown" unit="character"/><choice resp="#KF"><unclear reason="ambiguous" cert="low">V</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
