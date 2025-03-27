@@ -69,17 +69,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/24167/duncroisk"><idno type="Canmore">24167</idno></ref></p>
-                                    <material/> 
-                                    <objectType>Rock-face graffiti</objectType>                                     
+                                <support><p><ref target="https://canmore.org.uk/site/24167/duncroisk">Canmore</ref> <idno type="Canmore">24167</idno></p>
+                                    <material type="stone">Schist</material> 
+                                    <objectType key="monument">Rock-face graffiti</objectType>                                     
                                     <!--<dimensions unit="m">                                         
                                             <height></height>
                                             <width></width>
                                             <depth></depth>
                                         <!-\-<dim type="diameter">if circular, etc</dim>-\->
-                                     </dimensions>-->         
+                                     </dimensions>-->
+                                    <desc type="decoration">The rock face bearing groups of motifs, three of which include an <rs type="decoration" key="cross">encircled cross</rs>, and a possible fourth all on the upper N corner of the panel. The lower cross circle utilizes a natural fissure to extend the incised internal diameter line running NW to SE to arrow-headed terminals at each end. A second cross circle adjacent to the NE has a similar extended internal diameter line running E to W, the W with an arrowhead terminal, the E with a studded crosshead and a possibly separate small circled motif added. The third cross circle adjacent to the NE has a similar extended internal diameter line, its W terminal with the possible cuts of a cross base, its E terminal ending with an arrowhead (<ref target="https://canmore.org.uk/event/1118164">Scotland's Rock Art Project</ref>).</desc>
                                 </support>
-                                <!--<condition>Any damage to the stone/object</condition>-->
+                                <condition>An incised rock face which consists of a sloping area, 8' x 2 1/2', of exposed and much weathered schist. </condition>
                             </supportDesc>
                             <!--<layoutDesc>
                                 <layout>Description of the layout of the inscription on the stone/object</layout>
@@ -93,14 +94,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Killin</placeName> <placeName type="county">Perthshire</placeName>
+                            <origPlace><placeName type="parish">Killin</placeName> <placeName type="county">Perthshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>56.496944, -4.385556</geo>
                             <note>National Grid Reference: NN 5325 3641</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found">Duncroisk first mentioned 1950/1952, though ogham not yet confirmed
+                        <provenance type="found" when="1950">An incised rock face behind Duncroisk farmhouse, 1/4 mile NE of the farm entrance. Duncroisk first mentioned 1950/1952, though ogham not yet confirmed.
                         </provenance>
-                        <provenance type="observed">in situ
+                        <provenance type="observed">In situ
                         </provenance>
                     </history>
                 </msDesc>
@@ -138,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-13" who="#XS">Xenia Spanachi updated body to include ogham characters and transliteration</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements, commented out sections that have no content</change>
+                <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, updated commentary, added decoration section</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -149,14 +151,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    ᚂᚐ<unclear>ᚑ</unclear>ᚇ
+                    <lb n="1" style="text-direction:up"/>ᚂᚐ<unclear>ᚑ</unclear>ᚇ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    LA<unclear>O</unclear>D
+                    <lb n="1" style="text-direction:up"/>LA<unclear>O</unclear>D
                 </ab>
             </div>
             <!--<div type="apparatus">
@@ -169,10 +169,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>-->
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p></p>
-                    </item>
-                 </list>
+<p></p>
             </div>
             <div type="bibliography">
                  <listBibl>

@@ -58,6 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Scotland</country>
                         <repository>National Museums Scotland</repository>
                         <idno type="invNo">IB98</idno>
+                        <altIdentifier>
+                            <idno type="geo">55.946991, -3.1891831</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -75,13 +78,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width min="200" max="230">200-230</width>
                                             <depth>70</depth>
                                      </dimensions>  
-                                    <desc type="decoration">The upper section of the fragment features the remains of a common Pictish sculpture motif, the <rs type="decoration" key="horse">high-stepping horse(s)</rs> (Forsyth 1996, 5). </desc>
+                                    <desc type="decoration">The upper section of the fragment features the remains of a common Pictish sculpture motif, the <rs type="decoration" key="PictishSymbol">high-stepping horse(s)</rs> (Forsyth 1996, 5). </desc>
                                 </support>
-                                <condition>This ogham-inscribed fragment has been severely cut down and potentially represents only a small portion of the original cross slab and inscription. There are no signs which might indicate the original proportions of either. The upper half of the fragment is especially damaged, obscuring the area containing the carving of a <rs type="decoration">horse or deer</rs> of which only two legs, facing left, now survive. Similarly, a semi-circular portion of the bottom left corner of the fragment <q>has been deliberately defaced</q> (Forsyth 1996, 5). Three complete letters of the original inscription survive on the fragment, the carving is clear and well-preserved (ibid. 4).
+                                <condition>This ogham-inscribed fragment has been severely cut down and potentially represents only a small portion of the original cross slab and inscription. There are no signs which might indicate the original proportions of either. The upper half of the fragment is especially damaged, obscuring the area containing the carving of a horse or deer of which only two legs, facing left, now survive. Similarly, a semi-circular portion of the bottom left corner of the fragment <q>has been deliberately defaced</q> (Forsyth 1996, 5). Three complete letters of the original inscription survive on the fragment, the carving is clear and well-preserved (ibid. 4).
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham text is positioned below the symbol carving on a <q>broad raised band</q> which is <dim type="breadth" unit="mm">90mm</dim> broad and occupies the full width of the fragment  (ibid. 5). The stem-line is <dim type="length" unit="mm">225mm</dim> in length and extends beyond the strokes of the outermost letters, indicating that the inscription <q>extended further in both directions</q> (ibid. 7). Forsyth theorises that <q>if the Abernethy fragment was part of the upper face of a recumbent</q> then an ogham inscription would have began in the bottom left-hand corner, rose vertically upwards and have continued across the top, down the right-hand side and conclude along bottom with the portion under the horses hooves reading forward right-to-left (ibid. 7). 
+                                <layout>The ogham text is positioned below the symbol carving on a <q>broad raised band</q> which is <dim type="breadth" unit="mm">90mm</dim> broad and occupies the full width of the fragment  (ibid. 5). The stem-line is <dim type="length" unit="mm">225mm</dim> in length and extends beyond the strokes of the outermost letters, indicating that the inscription <q>extended further in both directions</q> (ibid. 7). Forsyth theorises that <q>if the Abernethy fragment was part of the upper face of a recumbent</q> then an ogham inscription would have began in the bottom left-hand corner, rose vertically upwards and have continued across the top, down the right-hand side and conclude along the bottom with the portion under the horses hooves reading forward right-to-left (ibid. 7). 
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -92,7 +95,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName>
+                            <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>56.333056, -3.311667</geo>
                             <note>National Grid Reference: NO 1900 1641</note></origPlace>
                             <origDate/><!--usually not known-->
@@ -140,6 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-14" who="#POC">Added bound Q character to the edition, added decoration description encoding to support, updated layout to remove ellipsis</change>
                 <change when="2025-03-18" who="#POC">Updated condition to replace symbol term with motif, deleted xml:lang attribute from translation element, added hyphen back to cross-slab, updated measurements from m to mm.</change>
                 <change when="2025-03-26" who="#POC">Update object type key attribute value to monument for filtering</change>
+                <change when="2025-03-27" who="#POC">Added country to origPlace and secondary location coords</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

@@ -75,7 +75,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width>0.33</width>
                                             <depth>0.10</depth>
                                      </dimensions>  
-                                    <desc type="decoration">One face of the stone is decorated with an incised <rs type="decoration" key="crown">crown</rs>, a <rs type="decoration" key="bird">bird</rs>, the <rs type="decoration" key="letter">letter N</rs>.</desc>
+                                    <desc type="decoration">One face of the stone is decorated with an incised <rs type="decoration" key="design">crown</rs>, a <rs type="decoration" key="design">bird</rs>, the letter N.</desc>
                                 </support>
                                 <condition>A small stone incised with designs, a letter, and an ogham inscription. The stone appears to have <q>been tampered with in modern times</q> (Southesk 1895, 244). Southesk maintained that the <q>lines have unquestionably been more or less lately retouched with hard instruments</q> (ibid. 247). Consequently, <q>doubt is cast upon the whole</q> as the fresh whiteness of the lines could indicate that the marks are modern and that the inscription is perhaps fabricated (ibid.). Additionally, the right edge of the stone is <q>overgrown with short green moss</q> which may hint that that part of the stone <q>must have been not long ago exposed to the air</q>. As Southesk reasoned, <q>such vegetation could not exist on a stone that had been buried for centuries</q> (ibid. 247).
                                 </condition>
@@ -92,7 +92,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName>
+                            <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>56.333056, -3.311668</geo>
                             <note>National Grid Reference: NO 190 164</note></origPlace>
                             <origDate>1890s</origDate>
@@ -141,6 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <change when="2025-03-14" who="#POC">Updated provenance, added desc element for decoration, added attribute to layout for stemline</change>
                 <change when="2025-03-18" who="#POC">Deleted xml:lang from translation, replace the term symbol with design, update edition with revised reading, added the hyphen back to cross-slab, removed add place encoding from edition</change>
                     <change when="2025-03-26" who="#POC">Updated objectType attribute value for filtering</change>
+                    <change when="2025-03-27" who="#POC">Added layout attributes for filtering, added country to origPlace</change>
             </listChange>
         </revisionDesc>
     </teiHeader>

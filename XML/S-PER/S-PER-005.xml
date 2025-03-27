@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/24741/kilmadock-st-aedhs-church"><idno type="Canmore"></idno>24741</ref></p>
+                                <support><p><ref target="https://canmore.org.uk/site/24741/kilmadock-st-aedhs-church">Canmore</ref> <idno type="Canmore">24741</idno></p>
                                     <material type="stone"/> 
                                     <objectType key="monument">Cross-slab</objectType>                                     
                                     <!--<dimensions unit="m">                                         
@@ -93,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Kilmadock</placeName> <placeName type="county">County name?</placeName>
+                            <origPlace><placeName type="parish">Kilmadock</placeName> <placeName type="county">County name?</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>56.197222, -4.086111</geo>
                             <note>National Grid Reference: NN 70664 02479</note></origPlace>
                             <origDate/><!--usually not known-->
@@ -139,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements and commented out sections that had no content or only the template guidance.</change>
                 <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering</change>
+                <change when="2025-03-27" who="#POC">Added country to origPlace, added paragraph to support</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -151,29 +152,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    ᚅᚅᚕ
-                    <gap reason="lost" quantity="1" unit="character"/>
-                    ᚊᚊ
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    ᚈᚈ
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    ᚇᚉ
-                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>ᚅᚅᚕ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ<gap reason="lost" extent="unknown" unit="character"/>ᚈᚈ<gap reason="lost" extent="unknown" unit="character"/>ᚇᚉ<gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>[---]NNӾ[.]QQ[---]TT[.]DC[---]
-                     <gap reason="lost" extent="unknown" unit="character"/>
-                    NN<g ref="#forfid_X"/>
-                    <gap reason="lost" quantity="1" unit="character"/>
-                    QQ
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    TT
-                    <gap reason="lost" extent="unknown" unit="character"/>
-                    DC
-                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/>
+                     <gap reason="lost" extent="unknown" unit="character"/>NN<g ref="#forfid_X"/><gap reason="lost" quantity="1" unit="character"/>QQ<gap reason="lost" extent="unknown" unit="character"/>TT<gap reason="lost" extent="unknown" unit="character"/>DC
+<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <!--<div type="apparatus">
@@ -186,15 +172,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>-->
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p></p>
-                    </item>
-                 </list>
+     <p></p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
-                     <citedRange>page numbers</citedRange>
+                     <citedRange/>
                      </bibl>
                  </listBibl>
             </div>
