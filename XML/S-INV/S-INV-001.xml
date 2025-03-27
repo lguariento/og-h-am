@@ -56,6 +56,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Scotland</country>
                         <repository>National Museums of Scotland</repository>
                         <idno type="invNo">GNB134</idno>
+                        <altIdentifier>
+                            <idno type="geo">55.946991, -3.1891831</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,9 +70,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/10054/north-uist-vallay-bac-mic-connain"><idno type="Canmore">10054</idno></ref></p>
-                                    <material>Cetacean bone</material> 
-                                    <objectType>Knife-handle</objectType>                                                            
+                                <support><p><ref target="https://canmore.org.uk/site/10054/north-uist-vallay-bac-mic-connain">Canmore</ref> <idno type="Canmore">10054</idno></p>
+                                    <material type="bone">Cetacean bone</material> 
+                                    <objectType key="portableObject">Knife-handle</objectType>                                                            
                                     <dimensions unit="cm" source="FOR1996">
                                             <height>10.8</height>
                                             <dim type="diameter">1.6</dim>
@@ -79,18 +82,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>All of the blade missing except rusted tang of an iron blade, bone well preserved and carving clear, but a fracture has occurred near the blade-end (Forsyth 1996, 58).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><q>'The bone has been planed to produce a slight ridge for one line of ogham lettering'</q> (Forsyth 1996, 58). <q>'The inscription begins about half-way along the handle and continues for approximately 50mm, almost to the handle's end'</q> (Forsyth 1966, 59).</layout>
+                                <layout><q>The bone has been planed to produce a slight ridge for one line of ogham lettering</q> (Forsyth 1996, 58). <q>The inscription begins about half-way along the handle and continues for approximately 50mm, almost to the handle's end</q> (Forsyth 1966, 59).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>The lines are fine and appear to have been <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> with a sharp blade.  
-                                <height>Longest consonant strokes are c.0.6cm long (Forsyth 1996, 59).</height>
+                                <height>The longest consonant strokes are c.0.6cm long (Forsyth 1996, 59).</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">North Uist</placeName>, <placeName type="county">Inverness-shire</placeName>
+                            <origPlace><placeName type="parish">North Uist</placeName>, <placeName type="county">Inverness-shire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>57.659167, -7.419167</geo>
                             <note>National Grid Reference: NF 7694 7619</note></origPlace>
                             <origDate notBefore="0400" notAfter="0800" precision="low">fifth to eighth century</origDate>
@@ -139,6 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-11" who="#LH">Deleted orig tag and included spacing in edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-06" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
+    <change when="2025-03-27" who="#POC">Added secondary location coordinates, added attributes for filtering, added country to origPlace, moved information to apparatus and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -162,24 +166,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- double-check whether to include the lemma MAQQAS or not, please (given the O and Megan's blog analysis that O is more likely than A-->
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">
+                    <note>The use of RTI and photogrammetry conducted by Megan Kasten has confirmed the reading provided as the most feasible. The measurements taken from the 3D model enabled a more precise estimation of the average spacing between individual letters and therefore suggest that the second letter is most likely to be an O (two strokes). Similarly, given the space between the third to last and the last letter, and considering what is left of the damaged surface, the second to last character is most likely to have been an A or a B with A being linguistically more probable (Kasten 2023).</note>
                 </app>
                 </listApp>
-            </div>-->
-           <!-- <div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            </div>
+            <div type="translation">
+                <p>There is no obvious interpretation of this inscription and several readings could be suggested, however, the three initial letters MAQ very likely stand for 'son' in Irish (Forsyth 1996, 61-5). </p>
+            </div>
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p>There is no obvious interpretation of this inscription and several readings could be suggested (Forsyth 1996, 61-5). Forsyth maintains that the three initial letters MAQ are very likely to stand for 'son' in Irish (Forsyth 1996, 62) and that, more generally, <q>'the text appears to be a single male personal name and as such probably records the identity of the owner or maker (or donor if it was given as a gift)'</q> (Forsyth 1996, 66).</p>
-                    </item>
-                     <item n="2"><p>The use of RTI and photogrammetry conducted by Megan Kasten has confirmed the reading provided as the most feasible. The measurements taken from the 3D model enabled a more precise estimation of the average spacing between individual letters and therefore suggest that the second letter is most likely to be an O (two strokes). Similarly, given the space between the third to last and the last letter, and considering what is left of the damaged surface, the second to last character is most likely to have been an A or a B with A being linguistically more probable (Kasten 2023).</p>
-                     </item>
-                    <item n="3"><p>Forsyth commemorates that <q>'the Bac Mhic Connain knife-handle is one of a very small group of ogham-inscribed household objects, and as such provides important evidence for the non-monumental use of the script'</q> (Forsyth 1996, 65).</p>
-                    </item>
-                 </list>
+<p>Forsyth (1996, 66) maintains that, generally, <q>the text appears to be a single male personal name and as such probably records the identity of the owner or maker (or donor if it was given as a gift)</q>.</p>
+<p></p>
+<p>Forsyth commemorates that <q>the Bac Mhic Connain knife-handle is one of a very small group of ogham-inscribed household objects, and as such provides important evidence for the non-monumental use of the script</q> (Forsyth 1996, 65).</p>
             </div>
             <div type="bibliography">
                  <listBibl>

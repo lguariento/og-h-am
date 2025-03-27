@@ -67,9 +67,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/37143/auquhollie-lang-stane"><idno type="Canmore">37143</idno></ref></p>
-                                    <material>Quartzose gneiss</material> 
-                                    <objectType>Pillar</objectType>                                     
+                                <support><p><ref target="https://canmore.org.uk/site/37143/auquhollie-lang-stane">Canmore</ref> <idno type="Canmore">37143</idno></p>
+                                    <material type="stone">Quartzose gneiss</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>2.35</height>
                                             <width>0.7</width> <!--check width and depth, please. Katherine's thesis indicated 0.43 x 0.66 x 0.7 at base-->
@@ -79,18 +79,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Good condition, some wear at arris (Forsyth 1996, 43).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription <q>'is carved up the south-east edge of the stone, beginning about 0.3m from the bottom and continuing for a further 1.25m'</q> and the natural edge of the stone serves as the stem-line (Forsyth 1996, 44). There is no other inscription or carving on the stone (ibid).</layout>
+                                <layout>The ogham inscription <q>is carved up the south-east edge of the stone, beginning about 0.3m from the bottom and continuing for a further 1.25m</q> and the natural edge of the stone serves as the stem-line (Forsyth 1996, 44). There is no other inscription or carving on the stone (ibid).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription was likely <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and smoothed and the carving was sharpened in modern times (Forsyth 1996, 43-4). The vowels are indicated with very short notches on the arris (Forsyth 1996, 47). <q>'The stem wavers to such an extent that it is not always easy to evaluate the slope of letters, but most seem roughly perpendicular to the stem'</q> (ibid).
+                            <handNote>The inscription was likely <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and smoothed and the carving was sharpened in modern times (Forsyth 1996, 43-4). The vowels are indicated with very short notches on the arris (Forsyth 1996, 47). <q>The stem wavers to such an extent that it is not always easy to evaluate the slope of letters, but most seem roughly perpendicular to the stem</q> (ibid).
                                 <height>The consonant strokes are 5cm long on average (Forsyth 1996, 44).</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Fetteresso</placeName> <placeName type="county">Kincardineshire</placeName>
+                            <origPlace><placeName type="parish">Fetteresso</placeName> <placeName type="county">Kincardineshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>57.008056, -2.292500</geo>
                             <note>National Grid Reference: NO 82326 90797</note></origPlace>
                             <origDate cert="low">fifth to seventh century</origDate>
@@ -134,11 +134,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-15" who="#LH">Edited description, provenance and edition</change>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-10" who="#POC">Added paragraph to support and National Grid Reference details, closed unused elements, commented out apparatus and translation</change>
+    <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, updated commentary, moved information to apparatus and translation, removed underdots from edition, added images</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/> <!--update image, please-->
+        <graphic url="SCO/S-KCD-001-Auquhollie-Site.jpg"><desc>Photo by Megan Kasten</desc></graphic> 
+        <graphic url="SCO/S-KCD-001-Auquhollie-Inscription.jpg"><desc>Photo by Megan Kasten</desc></graphic>
          <media url="ttps://skfb.ly/EGE7" mimeType="text/html"><desc>3D model <!--by Megan?--> on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -150,27 +152,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="2" style="text-direction:up"/>VUENON<unclear>ỊẸ</unclear>TEDOVU<unclear>ṚỊ</unclear>
+                    <lb n="2" style="text-direction:up"/>VUENON<unclear>IE</unclear>TEDOVU<unclear>RI</unclear>
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1"> 
+                    <note>Although it is clear that the inscription lacks the central MAQI, typical of Irish pillar oghams, it can be assumed that the inscription represents names (Forsyth 1996, 51). Given the length of the inscription, Forsyth suggests it is too long for a single name and therefore represents two names linked together (ibid).</note>
                 </app>
                 </listApp>
-            </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>An exact translation of the inscription cannot be readily determined.</p>
+            </div>
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p>As a Type I pillar, the Auquhollie ogham could be expected to be an Irish-language text representing Irish names; however, this is complicated by its geogrpahical location within sight of the eastern coast of Pictland (Forsyth 1996, 48). Even if the names were Pictish; however, <q>'the orthography would have to have been derived from Irish ogham, and so an Irish aspect would be inevitable'</q> (Forsyth 1996, 51).</p> 
-                    </item>
-                    <item n="2"><p>The exact dating of the ogham cannot be readily determined, though it is most likely to date between the fifth and the seventh century (Forsyth 1996, 54). If found in Ireland, Forsyth argues, a pillar with these characteristics would be dated to the sixth or, at the latest, the seventh century; however, this is cast into doubt by its geographical location (Forsyth 1996, 48). The only known Irish settlement in this period is understood to be in Argyll, so such a strong Irish influence in the North-East is difficult to explain (ibid).</p>
-                    </item>
-                    <item n="3"><p>The exact translation of the inscription cannot be readily determined. It is clear that it lacks the central MAQI, typical of Irish pillar oghams, but it can be assumed that it represents names (Forsyth 1996, 51). Given the length of the inscription, Forsyth suggests it is too long for a single name and therefore represents two names linked together (ibid).</p>
-                    </item>
-                 </list>
+<p>As a Type I pillar, the Auquhollie ogham could be expected to be an Irish-language text representing Irish names; however, this is complicated by its geogrpahical location within sight of the eastern coast of Pictland (Forsyth 1996, 48). Even if the names were Pictish; however, <q>the orthography would have to have been derived from Irish ogham, and so an Irish aspect would be inevitable</q> (Forsyth 1996, 51).</p> 
+<p>The exact dating of the ogham cannot be readily determined, though it is most likely to date between the fifth and the seventh century (Forsyth 1996, 54). If found in Ireland, Forsyth argues, a pillar with these characteristics would be dated to the sixth or, at the latest, the seventh century; however, this is cast into doubt by its geographical location (Forsyth 1996, 48). The only known Irish settlement in this period is understood to be in Argyll, so such a strong Irish influence in the North-East is difficult to explain (ibid).</p>
             </div>
             <div type="bibliography">
                  <listBibl>

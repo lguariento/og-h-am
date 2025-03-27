@@ -58,6 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Scotland</country>
                         <repository>NMS</repository>
                         <idno type="invNo">X.IB.110</idno>
+                        <altIdentifier>
+                            <idno type="geo">55.946991, -3.1891831</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/31328/scoonie"><idno type="Canmore">31328</idno></ref></p>
+                                <support><p><ref target="https://canmore.org.uk/site/31328/scoonie">Canmore</ref> <idno type="Canmore">31328</idno></p>
                                     <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
@@ -77,29 +80,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions> 
                                     <desc type="decoration">The cross-slab is sculpted on both sides, on the front is a badly weathered <rs type="decoration" key="cross">cross</rs> while on the reverse side is of an <rs type="decoration" key="Beast">incised beast</rs> that occupies the whole width of the top of the extant portion accompanied by a <rs type="decoration" key="HuntingScene">hunting scene of three horsemen and two dogs chasing a stag</rs>.</desc>
                                 </support>
-                                <condition><p><q>'portions missing from the top and probably also from the bottom. Front severely weathered, reverse better preserved. Ogham inscription clear and possibly complete'</q> (Forsyth 1996,481). The top of the slab has been sheered off with a portion of unknown dimensions lost.</p></condition>
+                                <condition><p><q>portions missing from the top and probably also from the bottom. Front severely weathered, reverse better preserved. Ogham inscription clear and possibly complete</q> (Forsyth 1996, 481). The top of the slab has been sheered off with a portion of unknown dimensions lost.</p></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="stemline">The ogham inscription has a drawn-in stem-line which according to Forsyth <q>gently undulates up the reverse face of the cross-slab close to and parallel with the right-hand edge</q> (1996,483). The spacing of the strokes is generous except letter 9 which is squeezed in order to fit the stag's muzzle. The current position of the slab makes it impossible to make out if anything has been lost from the bottom.</layout>
+                                <layout>The ogham inscription has a drawn-in stem-line which according to Forsyth <q>gently undulates up the reverse face of the cross-slab close to and parallel with the right-hand edge</q> (1996, 483). The spacing of the strokes is generous except letter 9 which is squeezed in order to fit the stag's muzzle. The current position of the slab makes it impossible to make out if anything has been lost from the bottom.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>Forsyth on the form of the script notes that the inscription is <q><rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> in a simple Type Ila ogham, with a drawn-in stem-line and long vowel-strokes 
-occupying virtually the full ogham band</q> (1996,486).
+occupying virtually the full ogham band</q> (1996, 486).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Scoonie (Kirkcaldy)</placeName> <placeName type="county">Fife</placeName>
+                            <origPlace><placeName type="parish">Scoonie (Kirkcaldy)</placeName> <placeName type="county">Fife</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>56.203611, -2.994444</geo>
                             <note>National Grid Reference: NO 3840 0167</note>
                                 </origPlace>
                             <origDate notBefore-custom="1750" evidence="workmanship">Second half of the eighth century or later</origDate>
                         </origin>
-                        <provenance type="found" when="1879">First publication: <date>1879</date> <persName>R. Rolt Brash</persName>, Ogam Monuments of the Gaedhil, p 353 and pl. 48. Found in <placeName>Scoonie churchyard</placeName> and taken to <placeName>Leven church</placeName>, until the Heritors agreed in <date>1868</date> that it should go to NMAS.
+                        <provenance type="found" when="1879">Found in <placeName>Scoonie churchyard</placeName> and taken to <placeName>Leven church</placeName>, until the Heritors agreed in <date>1868</date> that it should go to NMAS. Published in <date>1879</date> by <persName>R. Rolt Brash</persName> (353, pl. 48). 
                         </provenance>
-                        <provenance type="observed" when="2022-06-16">Now in <placeName>NMS</placeName>.
+                        <provenance type="observed" when="2022-06-16">Now in <placeName>National Museums of Scotland</placeName>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -140,6 +143,7 @@ occupying virtually the full ogham band</q> (1996,486).
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-04-06" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
                 <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, added decoration section, updated layout and commentary</change>
+                <change when="2025-03-27" who="#POC">Added secondary location coordinates, updated provenance, added country to origPlace</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
