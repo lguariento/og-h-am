@@ -56,6 +56,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Scotland</country>
                         <repository>National Museums of Scotland</repository>
                         <idno type="invNo">IB168</idno>
+                        <altIdentifier>
+                            <idno type="geo">55.946991, -3.1891831</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -75,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width>0.6</width>
                                             <depth>0.08</depth>
                                      </dimensions>
-                                    <desc type="decoration">Towards the centre of the front face are two closely packed <rs type="decoration" key="PictishSymbol">Pictish symbols - the remains of a <rs type="decoration" key="fish">fish</rs> and the so-called <rs type="decoration" key="rectangle">rectangle</rs></rs> (Forsyth 1996, 14).</desc>
+                                    <desc type="decoration">Towards the centre of the front face are two closely packed Pictish symbols - the remains of a <rs type="decoration" key="PictishSymbol">fish</rs> and the so-called <rs type="decoration" key="PictishSymbol">rectangle</rs> (Forsyth 1996, 14).</desc>
                                 </support>
                                 <condition><q>The various fragments of this slab have been cemented back together, but the surface of the upper pan is missing, taking part of a symbol and perhaps part of the ogham with it. The remaining carving is clear and well-preserved</q> (Forsyth 1996, 13). Therefore, the ogham inscription may be complete as it is, but the possibility of lost letters cannot be completely ruled out (ibid).</condition>
                             </supportDesc>
@@ -137,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-06" who="#POC">Added paragraph to support, National Grid Reference, closed unused elements, commented out apparatus and translation</change>
     <change when="2025-03-19" who="#POC">Added country placename to origPlace, added style attribute to layout, added decoration section, added CISP link, updated commentary, corrected edition encoding</change>
+    <change when="2025-03-27" who="#POC">Added secondary location coordinates, updated decoration</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
