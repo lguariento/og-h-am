@@ -39,9 +39,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">E-STS-L01</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP">x</idno>
-                 <idno type="TM"></idno>
+                 <idno type="TM"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
                 </availability>
@@ -62,9 +62,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Hob UID: 305133</idno></p>
-                                    <material>Volcanic rock</material> 
-                                    <objectType>Reused millstone fragment</objectType> 
+                                <support><p><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Hob UID: 305133</idno></p>
+                                    <material type="stone">Volcanic rock</material> 
+                                    <objectType key="monument">Reused millstone fragment</objectType> 
                                      <!--<dimensions unit="m">
                                          <dim></dim>
                                            <!-\- <height></height>
@@ -72,21 +72,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth></depth>-\->
                                      </dimensions>    -->                               
                                 </support>
-                                <condition>A Roman millstone fragment made from volcanic rock which Redfern described as <q>"a piece of a Runic stone of a tuberous and dark character, with ogham characters on it"</q> (1873, 270). Redfern ascertained that <q>"The stone itself is a piece of sonorous and dark tuff, probably from Andernach on the Rhine"</q> in Germany (1886, 47). </condition>
+                                <condition>A Roman millstone fragment made from volcanic rock which Redfern described as <q>a piece of a Runic stone of a tuberous and dark character, with ogham characters on it</q> (1873, 270). Redfern ascertained that <q>The stone itself is a piece of sonorous and dark tuff, probably from Andernach on the Rhine</q> in Germany (1886, 47). </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout>Redfern did not supply a drawing of the inscription so it is not possible to determine how the purported ogham text was laid out.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Redfern did not offer any specific detail about the ogham letters, providing instead only a general remark: <q>"Ogham letters are merely straight strokes arranged in groups along a line, as in the instance on this fragment, and mostly contain the name of the person in whose honour such stones were erected"</q> (1886, 47). There is no evidence provided to ascertain whether the inscription was commemmorative. <!--<height></height>-->
+                            <handNote>Redfern did not offer any specific detail about the ogham letters, providing instead only a general remark: <q>Ogham letters are merely straight strokes arranged in groups along a line, as in the instance on this fragment, and mostly contain the name of the person in whose honour such stones were erected</q> (1886, 47). There is no evidence provided to ascertain whether the inscription was commemmorative. <!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Uttoxeter</placeName>, <placeName type="county">Staffordshire</placeName>
+                                <placeName type="parish">Uttoxeter</placeName>, <placeName type="county">Staffordshire</placeName> <placeName type="country">England</placeName>
                                 <geo/>
                             <note>National Grid Reference: SK 0949 3264</note>
                                 </origPlace>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-05" who="#POC">Proofreading changes, adding quotation marks.</change>
 <change when="2024-12-12" who="#POC">Updated layout and handNote to state that Redform gave no evidence about the ogham inscription</change>
 <change when="2024-12-18" who="#POC">Added bibl details for Bablestone blog</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -161,7 +162,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <!-\-<p></p>-\->
             </div>-->
             <div type="commentary">
-                <p>The Uttoxeter stone shares <q>"interesting parallels with the Silchester stone — both inscriptions are carved on stone objects leftover from Roman usage rather than on natural stones, and both stones were found in or by wells in Roman settlements. If the Silchester stone is an outlier of the Irish Kingdom of Brycheiniog in south-east Wales, then the Uttoxeter stone can be seen as an outlier from the even closer north Welsh Kingdom of Gwynedd"</q> (West 2009).</p>
+                <p>The Uttoxeter stone shares <q>interesting parallels with the Silchester stone — both inscriptions are carved on stone objects leftover from Roman usage rather than on natural stones, and both stones were found in or by wells in Roman settlements. If the Silchester stone is an outlier of the Irish Kingdom of Brycheiniog in south-east Wales, then the Uttoxeter stone can be seen as an outlier from the even closer north Welsh Kingdom of Gwynedd</q> (West 2009).</p>
             </div>
             <div type="bibliography">
                  <listBibl>

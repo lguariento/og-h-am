@@ -52,6 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>England</country>
                         <repository>Herbert Art Gallery and Museum</repository>
                         <idno type="invNo">2023.32.AR</idno>
+                        <altIdentifier>
+                            <idno type="geo">52.407192, -1.5061277</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -62,7 +65,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://finds.org.uk/database/artefacts/record/id/1004478">Portable Antiquities Scheme ID</ref>: <idno type="PAS">PAS ID: WMID-634A9A</idno></p>
-                                    <material type="stone">Metamorphised mudstone/shale</material> 
+                                    <material type="stone">Metamorphised mudstone shale</material> 
                                     <objectType key="portableObject">Sandstone rock</objectType> 
                                      <dimensions unit="mm">
                                             <height>110</height>
@@ -130,7 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-05" who="#POC">Proofreading changes, adding quotation marks, updated edition to remove the alternative readings of the personal name, added alternative readings to apparatus, closed empty elements.</change>
 <change when="2025-01-23" who="#POC">Added inventory id number and link to online catalogue description of object, updated dimensions unit from m to mm, added image and copyright licence, added lb elements to edition, numbered apparatus, removed link within repository since it is already given in provenance</change>
 <change when="2025-03-19" who="#NW">Corrected county name error. Added country (England) to orig place. Added attributes to material, object type and layout for facets.</change>
-    
+<change when="2025-03-28" who="#POC">Added secondary location coordinates</change>    
     </listChange>
 </revisionDesc>
     </teiHeader>
