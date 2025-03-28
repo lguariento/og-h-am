@@ -40,8 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">E-DEV-002</idno>
                  <idno type="CIIC">488</idno>
-                <idno type="CISP">TVST3/1</idno>
-                 <idno type="TM"></idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/tvst3_1.html">TVST3/1</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/173860">173860</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
                 </availability>
@@ -62,31 +62,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Monument number: 437968</idno></p>
-                                    <material source="MAC1945">Grit</material> 
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Monument number: 437968</idno></p>
+                                    <material type="stone" source="MAC1945">Grit</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                             <height>1.42</height>
                                             <width>0.43</width>
                                             <depth>0.3</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>A pillar stone reused as a gatepost near Buckland Monachorum, the metal fittings are still visible on the upper right-hand side. The stone bears both an ogham and Latin inscription. The ogham text is <q>very worn</q>, Macalister (1945, 468) noted that there is <q>"no trace of a concluding I"</q> and Okasha (1993, 278) described the inscription as <q>"so highly deteriorated as to be virtually illegible"</q>. The Latin inscription is <q>"slightly deteriorated"</q> (Okasha 1993, 278).</condition>
+                                <condition>A pillar stone reused as a gatepost near Buckland Monachorum, the metal fittings are still visible on the upper right-hand side. The stone bears both an ogham and Latin inscription. The ogham text is <q>very worn</q>, Macalister (1945, 468) noted that there is <q>no trace of a concluding I</q> and Okasha (1993, 278) described the inscription as <q>so highly deteriorated as to be virtually illegible</q>. The Latin inscription is <q>slightly deteriorated</q> (Okasha 1993, 278).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription occupies the left arris and Okasha maintained that it is no longer <q>"clear whether it reads upwards or downwards"</q> (1993, 278). The roman inscription reads downwards facing left in three lines on the broad face of the stone. There are two presumably modern letters cut into the back of the stone, reading O.C. </layout>
+                                <layout style="vertical" rend="arris">The ogham inscription occupies the left arris and Okasha maintained that it is no longer <q>clear whether it reads upwards or downwards</q> (1993, 278). The roman inscription reads downwards facing left in three lines on the broad face of the stone. There are two presumably modern letters cut into the back of the stone, reading O.C. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote script="ogham"/>
-                            <handNote script="roman">Macalister described the Latin inscription as <q><rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs></q>. The Latin inscription is written in a <q>predominantly capital script</q> and set without <q>"framing-lines or panels except for traces of one incised line at the top of the stone"</q> (Okasha 1993, 278). The inscription features Bs with separated bowls and As with v-shaped bars. <height min="7" max="13" unit="cm">The letters measure between 7 to 13 cm in height.</height>
+                            <handNote script="roman">Macalister described the Latin inscription as <q><rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs></q>. The Latin inscription is written in a <q>predominantly capital script</q> and set without <q>framing-lines or panels except for traces of one incised line at the top of the stone</q> (Okasha 1993, 278). The inscription features Bs with separated bowls and As with v-shaped bars. <height min="7" max="13" unit="cm">The letters measure between 7 to 13 cm in height.</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Buckland Monachorum</placeName>, <placeName type="county">Devon</placeName>
+                                <placeName type="parish">Buckland Monachorum</placeName>, <placeName type="county">Devon</placeName> <placeName type="country">England</placeName>
                                 <geo>50.503978, -4.130694</geo>
                             <note>National Grid Reference: SX 4900 6930</note>
                                 </origPlace>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-04" who="#POC">Added more information from OG(H)AM and Babelstone blog, updated apparatus, commentary, provenance, handNote.</change>
 <change when="2024-12-18" who="#POC">Added bibl details for blogs</change>
 <change when="2025-01-23" who="#POC">Proofreading changes, added lb element to commentary for readings by previous editors.</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -166,7 +167,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>Assuming Latin <foreign xml:lang="la">faber</foreign> is a common noun rather than a personal name, it covers a range of roles which are distinguished in Gaelic/Irish. It can mean <foreign xml:lang="pgl">gobae</foreign> ‘smith’, which is twice found glossed with this word, but that means only an ironworker, not the higher-status, precious-metalworker (<foreign xml:lang="pgl">cerd</foreign>) which also falls under ‘<foreign xml:lang="la">faber</foreign>’. It can mean ‘carpenter, joiner’ too, which would be Irish <foreign xml:lang="pgl">saer</foreign>. These three professions were deemed of different status — <foreign xml:lang="pgl">cerd</foreign> being the highest, but all within <foreign xml:lang="pgl">dóernemed</foreign> ‘base nemed (‘noble’)’—and it is hard to know which is referred to here. It is a unique occurrence of the word in early Medieval British epigraphy, and it would be wrong to think that <foreign xml:lang="la">faber</foreign> is here to add ‘colour’. Rather, it is likely that it is mentioned because the rights which are being exerted by this inscription in some sense depend on this status being acknowledged. Okasha determined that FABRI could be a <q>Latin personal name</q> or a title and <q>"could refer to either DOBVNNI or to [E]NABARRI"</q> (1993, 280). Okasha read DOBVNNI as a Celtic name, <q>"it may also be a hypocoristic form, or the first element might be from Primitive Irish *<foreign xml:lang="pgl">dubu</foreign>- 'black'"</q> (1993, 280). Jackson (1953, 181, 645) interpreted ENABARRI as Primitive Irish and derived from * <foreign xml:id="pgl">Etnobarros</foreign> 'Birdhead'. </note>
+                        <note>Assuming Latin <foreign xml:lang="la">faber</foreign> is a common noun rather than a personal name, it covers a range of roles which are distinguished in Gaelic/Irish. It can mean <foreign xml:lang="pgl">gobae</foreign> ‘smith’, which is twice found glossed with this word, but that means only an ironworker, not the higher-status, precious-metalworker (<foreign xml:lang="pgl">cerd</foreign>) which also falls under ‘<foreign xml:lang="la">faber</foreign>’. It can mean ‘carpenter, joiner’ too, which would be Irish <foreign xml:lang="pgl">saer</foreign>. These three professions were deemed of different status — <foreign xml:lang="pgl">cerd</foreign> being the highest, but all within <foreign xml:lang="pgl">dóernemed</foreign> ‘base nemed (‘noble’)’—and it is hard to know which is referred to here. It is a unique occurrence of the word in early Medieval British epigraphy, and it would be wrong to think that <foreign xml:lang="la">faber</foreign> is here to add ‘colour’. Rather, it is likely that it is mentioned because the rights which are being exerted by this inscription in some sense depend on this status being acknowledged. Okasha determined that FABRI could be a <q>Latin personal name</q> or a title and <q>could refer to either DOBVNNI or to [E]NABARRI</q> (1993, 280). Okasha read DOBVNNI as a Celtic name, <q>it may also be a hypocoristic form, or the first element might be from Primitive Irish *<foreign xml:lang="pgl">dubu</foreign>- 'black'</q> (1993, 280). Jackson (1953, 181, 645) interpreted ENABARRI as Primitive Irish and derived from * <foreign xml:id="pgl">Etnobarros</foreign> 'Birdhead'. </note>
                     </app>
                     <app n="2">
                         <note>Macalister (1945, 468) read: </note>
@@ -179,7 +180,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>Latin: '[the stone] of Dobunnus the smith, son of Enabarrus' (Okasha 1993, 280)</p>
             </div>
             <div type="commentary">
-                <p>Okasha dates the stone from the fifth or sixth century to the eighth century and maintained that the Primitive Irish names and use of the horizontal I are <q>"in accordance with such a dating"</q> and, additionally, <q>"if FABRI were a Latin name, this would corroborate it"</q> (1993, 280). While the presence or otherwise of a final -I has important dating significance, unfortunately, the inscription is very worn in this area. There are slight markings visible which are consistent with there having been a final vowel, but it is slight.</p>
+                <p>Okasha dates the stone from the fifth or sixth century to the eighth century and maintained that the Primitive Irish names and use of the horizontal I are <q>in accordance with such a dating</q> and, additionally, <q>if FABRI were a Latin name, this would corroborate it</q> (1993, 280). While the presence or otherwise of a final -I has important dating significance, unfortunately, the inscription is very worn in this area. There are slight markings visible which are consistent with there having been a final vowel, but it is slight.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
