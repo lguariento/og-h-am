@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-BRE-X03</idno>
                  <idno type="CIIC">334</idno>
-                <idno type="CISP">LFIC1/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/lfic1_1.html">LFIC1/1</idno>
                 <idno type="WelshCorpus">B21</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168523">168523</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -43,8 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,9 +55,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><term>rejected monument</term> <ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record</ref>: <idno type="HER">50452</idno> Llanfihangel-Cwmdu</p>
+                                <support><p>Llanfihangel-Cwmdu <term>rejected monument</term> <ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record</ref>: <idno type="HER">50452</idno></p>
                                     <material type="stone">Sandstone</material> 
-                                    <objectType key="monument">Slab</objectType> described as <q>coarse, grey, apparently massive quartxose sandstone...these lithologies are exposed within 6km to the south-west of the find-site</q> (Redknap and Lewis 2007, 194).
+                                    <objectType key="monument">Slab</objectType> <note>described as <q>coarse, grey, apparently massive quartxose sandstone...these lithologies are exposed within 6km to the south-west of the find-site</q> (Redknap and Lewis 2007, 194).</note>
                                     <dimensions unit="m">
                                         <height>1.63</height>
                                         <width>0.28</width>
@@ -68,13 +69,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is in <q>mixed capitals, having a general similarity to insular geometric forms. The As have angled cross-bars, the uprights intersecting at the top; similarly the uprights of the Vs extend below the body of the letter, and have a forked serif at the base; the Cs are rectangular also enlarged Ss with exaggerated curves, the final S of <hi rend="italic">Tegernacus</hi> reversed; quasi-miniscule F and H (of rectangular form); N with horizontal middle stroke, and R with tail angled above the horizontal...[the cutter's] Ss are perhaps a special demonstration of skill...the inscription suggests an experienced stone-carver unused to lettering, for he shows no awareness of the parallel bands of a writing-line, or the repeat patterning of an alphabet with a rectangular core-form</q> (Redknap and Lewis 2007, 194).
+                            <handNote script="roman">The inscription is in <q>mixed capitals, having a general similarity to insular geometric forms. The As have angled cross-bars, the uprights intersecting at the top; similarly the uprights of the Vs extend below the body of the letter, and have a forked serif at the base; the Cs are rectangular also enlarged Ss with exaggerated curves, the final S of <hi rend="italic">Tegernacus</hi> reversed; quasi-miniscule F and H (of rectangular form); N with horizontal middle stroke, and R with tail angled above the horizontal...[the cutter's] Ss are perhaps a special demonstration of skill...the inscription suggests an experienced stone-carver unused to lettering, for he shows no awareness of the parallel bands of a writing-line, or the repeat patterning of an alphabet with a rectangular core-form</q> (Redknap and Lewis 2007, 194).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Llanfihangel Cwm Du</placeName>
+                            <origPlace><placeName type="parish">Llanfihangel Cwm Du</placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName> <placeName type="country">Wales</placeName>
                                 <geo>51.889481, -3.204539</geo></origPlace>
                             <origDate notBefore="0600" notAfter="0640" precision="low" datingMethod="#julian" evidence="linguistic">Early seventh century A.D.</origDate>
                         </origin>
@@ -121,6 +122,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change> 
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, bibliography, added paragraph to support</change>
+    <change when="2025-03-28" who="#POC">Added country and county to origPlace, added CISP and TM links</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

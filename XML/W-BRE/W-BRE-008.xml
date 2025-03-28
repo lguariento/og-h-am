@@ -37,6 +37,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <idno type="CIIC"/>
                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/abhyd_1.html">ABHYD/1</idno>
                 <idno type="WelshCorpus">B40</idno>
+                <idno type="TM"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -59,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                 <p><ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record (PRN)</ref>: <idno type="PRN">1510</idno></p>
-                                    <material type="stone" source="RED2007">Old Red Standstone (local)</material> 
+                                    <material type="stone" source="RED2007">Local old red sandstone</material> 
                                     <objectType key="monument">Pillar</objectType>
                                     <dimensions unit="m" source="RED2007">
                                         <height>1.82</height>
@@ -69,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="arris">The stone is inscribed with a roman-letter inscription in five lines, reading horizontally across. The third and fourth lines are apparently underscored. The roman-letter inscription was partically removed when the stone was chamfered on both edges of the stone. The stone is also inscribed with an Ogham inscription, reading vertically upwards across the chamfer of the upper left edge of the stone, using the inner edge of the chamfer as an arris. The Ogham inscription was cut after the roman-letter inscription, obliterating part of it. Both inscriptions appear <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> (Redknap and Lewis 2007, 231-2).</layout>
+                                <layout style="vertical" rend="arris_up">The stone is inscribed with a roman-letter inscription in five lines, reading horizontally across. The third and fourth lines are apparently underscored. The roman-letter inscription was partically removed when the stone was chamfered on both edges of the stone. The stone is also inscribed with an Ogham inscription, reading vertically upwards across the chamfer of the upper left edge of the stone, using the inner edge of the chamfer as an arris. The Ogham inscription was cut after the roman-letter inscription, obliterating part of it. Both inscriptions appear <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> (Redknap and Lewis 2007, 231-2).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -79,11 +80,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/0ead4636-55e5-4003-9e90-bf1eb4b46549">Llywel</ref></foreign></placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName>
+                            <origPlace><placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/0ead4636-55e5-4003-9e90-bf1eb4b46549">Llywel</ref></foreign></placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName> <placeName type="country">Wales</placeName>
                                 <geo>51.936972, -3.661125</geo>
                                 <note>National Grid Reference: SN 859 278</note>
                             </origPlace>
-                            <origDate notBefore="0520" notAfter="0580" datingMethod="#julian" evidence="linguistic">Mmid-sixth century A.D.</origDate>
+                            <origDate notBefore="0520" notAfter="0580" datingMethod="#julian" evidence="linguistic">Mid-sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Recognised in 1954, forming part of a drystone hedge blocking a disused trackway along the south side of the river Usk at Aberhydfer. Initial reading published 1975.
                         </provenance>
@@ -126,6 +127,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2024-12-11" who="#NW">Updated file in line with more recent standards, such as those for bilingual inscriptions. Added encodingDesc, grid ref, CISP and placename links. Updates to translation and commentary.</change>
     <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

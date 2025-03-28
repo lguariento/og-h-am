@@ -35,6 +35,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <idno type="CIIC">338</idno>
                 <idno type="CISP">-</idno>
                 <idno type="WelshCorpus">Dubia 1</idno>
+                <idno type="TM"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -43,7 +44,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>Stands in a field on the east side of Bwlch.</repository>
+                        <repository/>
                         <idno type="invNo"></idno>
                     </msIdentifier>
                     <msContents>
@@ -55,17 +56,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>rejected monument</term> CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">665</idno>Llygadwy Stone</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType> 
-                                    <dimensions unit="m">
+                                <support><p>Llygadwy Stone <term>rejected monument</term> <ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record</ref>: <idno type="HER">665</idno></p>
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
+                                    <!--<dimensions unit="m">
                                         <height>unknown</height>
                                         <width>unknown</width>
                                         <depth>unknown</depth>
-                                    </dimensions></support>
+                                    </dimensions>--></support>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister suggested the presence of an Ogham inscription on the north-west angle of the stone as well as a Roman-letter inscription on the south-face of the stone <q>below the modern socket cut in the middle of the face 1.3m above the ground</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">542</citedRange></bibl>. However, he has stated that his suggestion of the presence of the Roman-letter inscription was given <q>without any conviction</q><bibl><ptr target="MAC1922"/>MacAlister 1922<citedRange unit="page">542</citedRange></bibl>. If the inscriptions were present, the Ogham likely would have read vertically upwards and the Roman-letter inscription likely would have read vertically downwards but this is uncertain. Neither of the inscriptions are visible today but they would like have been <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">542</citedRange></bibl>.</layout>                            
+                                <layout style="vertical" rend="arris_up">Macalister suggested the presence of an Ogham inscription on the north-west angle of the stone as well as a Roman-letter inscription on the south-face of the stone <q>below the modern socket cut in the middle of the face 1.3m above the ground</q>(Redknap and Lewis 2007, 542). However, he has stated that his suggestion of the presence of the Roman-letter inscription was given <q>without any conviction</q> (MacAlister 1922, 542). If the inscriptions were present, the Ogham likely would have read vertically upwards and the Roman-letter inscription likely would have read vertically downwards but this is uncertain. Neither of the inscriptions are visible today but they would like have been <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> (Redknap and Lewis 2007, 542).</layout>                            
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -75,11 +77,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Bwlch</placeName>
+                            <origPlace><placeName type="parish">Bwlch</placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName> <placeName type="country">Wales</placeName>
                                 <geo>51.884656, -3.236375</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found">Ogham recorded by Macalister in 1922; no letters now visible. Macalister made the assessment 'without any conviction'.
+                        <provenance type="found" when="1922">Ogham recorded by Macalister in 1922; no letters now visible. Macalister made the assessment 'without any conviction'.
                         </provenance>
                         <provenance type="observed">Stands in a field on the east side of Bwlch.
                         </provenance>
@@ -121,6 +123,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-07-13" who="#MK">Megan Kasten checked information and formatting to ensure consistency with OGHAM standards.</change>
         <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change> 
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country and county to origPlace, updated bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -132,21 +135,21 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" resp="MAC1922">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unknown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>&#x1690;&#x168B;&#x1693;<gap reason="lost" extent="unknown" unit="character"/></del> 
                 </ab>
                 </div>
             </div>
             <div type="edition" subtype="roman" xml:space="preserve" resp="MAC1922">
                 <div type="textpart" n="2" xml:lang="pgl-Latn">
-                <ab><title>Latin</title>:
+                <ab>
                     <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unkown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>LII<gap reason="lost" extent="unknown" unit="character"/></del>
                 </ab>
                 </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" resp="MAC1922">
                 <div type="textpart" n="1" xml:lang="pgl-ogam">
-                    <ab><title>Transliteration</title>:
+                    <ab>
                         <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unknown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>AME<gap reason="lost" extent="unknown" unit="character"/></del> 
                     </ab>
                 </div>
@@ -154,18 +157,18 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <p>No translation given</p>
             </div>
             <div type="commentary">
-                <p>No inscriptions are visible on the stone today. The inscriptions recorded by Macalister were fragmentary as it was assumed that cattle rubbing had removed further letters from the stone. RCAHMW recorded scratches on the stone but these are suggested to be from wire chafing. The stone may have been a lost monastic marker <bibl><ptr target="MOR1983"/>Morgan 1983</bibl> but it has also been suggested that it may be post-medieval due to its smooth sides, function as a rubbing-post and due to evidence of post-medieval quarrying nearby. The Welsh Corpus comments on the name of the stone stating that <q>the name <hi rend="italic">Llygadwy</hi> (earlier <hi rend="italic">Llygadyw</hi>, possibly Llygad Duw, 'eye of God') is derived from a nearby ruin, which appears on OS maps with this name</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">542</citedRange></bibl>.</p>
+                <p>No inscriptions are visible on the stone today. The inscriptions recorded by Macalister were fragmentary as it was assumed that cattle rubbing had removed further letters from the stone. RCAHMW recorded scratches on the stone but these are suggested to be from wire chafing. The stone may have been a lost monastic marker (Morgan 1983) but it has also been suggested that it may be post-medieval due to its smooth sides, function as a rubbing-post and due to evidence of post-medieval quarrying nearby. The Welsh Corpus comments on the name of the stone stating that <q>the name <hi rend="italic">Llygadwy</hi> (earlier <hi rend="italic">Llygadyw</hi>, possibly Llygad Duw, 'eye of God') is derived from a nearby ruin, which appears on OS maps with this name</q> (Redknap and Lewis 2007, 542).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
+                
                 <listBibl>
-                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">542</citedRange></bibl>
-                    <bibl><ptr target="MAC1922"/>Macalister 1922</bibl>
-                    <bibl><ptr target="MOR1983"/>Morgan 1983</bibl>
+                    <bibl><ptr target="RED2007"/><citedRange unit="page">542</citedRange></bibl>
+                    <bibl><ptr target="MAC1922"/></bibl>
+                    <bibl><ptr target="MOR1983"/></bibl>
                 </listBibl>
             </div>
         </body>

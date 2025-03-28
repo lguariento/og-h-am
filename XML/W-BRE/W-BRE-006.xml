@@ -37,6 +37,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <idno type="CIIC">341</idno>
                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/tcstl_1.html">TCSTL/1</idno>
                 <idno type="WelshCorpus">B42</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172362">172362</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -47,6 +48,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>British Museum</repository>
                         <idno type="invNo" corresp="https://www.britishmuseum.org/collection/object/H_1878-1102-1">1878,1102.1</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.51897, -0.12650036</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -58,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record (PRN)</ref>: <idno type="PRN">19394</idno></p>
-                                    <material type="stone" source="RED2007">Deep pink medium- to fine-grained sandstone (locally derived)</material> 
+                                    <material type="stone" source="RED2007">Locally derived deep pink medium to fine-grained sandstone</material> 
                                     <objectType key="monument">Slab</objectType>
                                     <dimensions unit="m" source="RED2007">
                                         <height>1.82</height>
@@ -70,7 +74,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Top missing and bottom trimmed.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="arris">An ogham inscription runs along the right-hand edge, reading vertically upwards. A corresponding Latin inscription runs vertically down the middle of the stone in one line reading downwards. The inscription is neatly <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs>. </layout>
+                                <layout style="vertical" rend="arris_up">An ogham inscription runs along the right-hand edge, reading vertically upwards. A corresponding Latin inscription runs vertically down the middle of the stone in one line reading downwards. The inscription is neatly <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs>. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -81,12 +85,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace>  
-                                <placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/0ead4636-55e5-4003-9e90-bf1eb4b46549">Llywel</ref></foreign></placeName>,, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName>
+                                <placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/0ead4636-55e5-4003-9e90-bf1eb4b46549">Llywel</ref></foreign></placeName>,, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName> <placeName type="country">Wales</placeName>
                                 <geo>51.925325, -3.625936</geo>
                             <note>National Grid Reference: SN 8829 2645</note></origPlace>
                             <origDate notBefore="0500" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic"></origDate>
                         </origin>
-                        <provenance type="found">The stone was first recognised as significant by Revd Lewis Price, vicar of Llywel in April 1876. <q>'The monument stood on the side of the road from Trecastle to Glasfynydd upon a heap of stones with which it seems at one time to have been covered; and it was rescued from being converted to a gatepost just in time. Soon afterwards it was transferred to the British Musuem'</q> (Macalister 1945, 326). Known as the Llywel or Trecastle Stone.
+                        <provenance type="found">The stone was first recognised as significant by Revd Lewis Price, vicar of Llywel in April 1876. <q>The monument stood on the side of the road from Trecastle to Glasfynydd upon a heap of stones with which it seems at one time to have been covered; and it was rescued from being converted to a gatepost just in time. Soon afterwards it was transferred to the British Musuem</q> (Macalister 1945, 326). Known as the Llywel or Trecastle Stone.
                         </provenance>
                         <provenance type="observed"><ref target="https://www.britishmuseum.org/collection/object/H_1878-1102-1">The British Museum</ref>, London.
                         </provenance>
@@ -127,6 +131,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>  
     <change when="2024-12-09" who="#NW">Updated file in line with more recent standards, such as those for bilingual inscriptions. Added British Museum, CISP and placename links. Changed title from Llywel 3.</change>
         <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link, added secondary location coordinates</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

@@ -47,8 +47,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-BRE-004</idno>
                  <idno type="CIIC">327</idno>
-                <idno type="CISP">CRCKH/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/crckh_1.html">CRCKH/1</idno>
                    <idno type="WelshCorpus">B2</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172260">172260</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -59,6 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>Brecknock Museum</repository>
                         <idno type="invNo">155</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.946325, -3.390435</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -71,9 +75,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>CPAT Regional Historic Environment Record (PRN): <ref target="https://archwilio.org.uk/"><idno type="PRN">699</idno></ref></p>
-                                    <material source="RED2007">Pale red, imbedded conglomerate and sandstone</material>
-                                    <objectType>Pillar</objectType> 
+                                <support><p> <ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record</ref> (PRN):<idno type="PRN">699</idno></p>
+                                    <material type="stone" source="RED2007">Pale red imbedded conglomerate and sandstone</material>
+                                    <objectType key="monument">Pillar</objectType> 
                                     <dimensions unit="m" source="RED2007">
                                         <height>2.20</height>
                                         <width>0.55</width>
@@ -83,18 +87,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a roman-letter inscription in four lines reading vertically downwards. The first and final line in the inscription are the final words of the middle lines due to lack of space. This layout is similar to the Brynkir inscription and shows the letter-cutters' understanding of Roman convention for inscriptions of more than one line to be right-justified a certain height above the ground. A corresponding ogham insciption starts at the bottom left edge continuing upwards along the top of the stone, and ending one third of the way along the top. Both inscriptions are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved some with a bevel <!--(Macalister says 'cut, not pocked' - check)-->. (Redknap and Lewis 2007, 160-1).</rs> </layout>
+                                <layout style="vertical" rend="arris_up">The stone is inscribed with a roman-letter inscription in four lines reading vertically downwards. The first and final line in the inscription are the final words of the middle lines due to lack of space. This layout is similar to the Brynkir inscription and shows the letter-cutters' understanding of Roman convention for inscriptions of more than one line to be right-justified a certain height above the ground. A corresponding ogham insciption starts at the bottom left edge continuing upwards along the top of the stone, and ending one third of the way along the top. Both inscriptions are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved some with a bevel <!--(Macalister says 'cut, not pocked' - check)-->. (Redknap and Lewis 2007, 160-1).</rs> </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> The letters seem to reflect a higher degree of care put into the carving of TURPILLI, the name of the dead, than in the rest given more cramped letters in the rest of the inscription. In the ogham inscription, the fourth letter seems to be X, a variation of a character to represent P (Redknap and Lewis 2007, 160-1). 
+                            <handNote>The letters seem to reflect a higher degree of care put into the carving of TURPILLI, the name of the dead, than in the rest given more cramped letters in the rest of the inscription. In the ogham inscription, the fourth letter seems to be X, a variation of a character to represent P (Redknap and Lewis 2007, 160-1). 
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="findspot">
-                                <placeName type="parish">Crickhowell</placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName>.
+                                <placeName type="parish">Crickhowell</placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName> <placeName type="country">Wales</placeName>
                                 <geo>51.866872, -3.126958</geo>
                             <note>National Grid Reference: SO 225 193</note></origPlace>
                             <origDate notBefore="0500" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic"> sixth century A.D.</origDate>
@@ -151,7 +155,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2024-11-08" who="#NW">Updated edition (roman add-place-above encoding; Latin to roman subtype, ogham numbered 1 and roman 2). Commentary needs further updating from Welsh Corpus (especialy re MOSOC in ogham). Updated encoding of names and languages in commentary.</change>
     <change when="2024-11-26" who="#NW">Added CIIC ref. Updated commentary but still needs David's input.</change>
     <change when="2024-12-05" who="#NW">Added link to museum website</change>
-    
+    <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link, added secondary location coordinates</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

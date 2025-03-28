@@ -47,8 +47,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-BRE-005</idno>
                  <idno type="CIIC">342</idno>
-                <idno type="CISP">TRLLW/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/trllw_1.html">TRLLW/1</idno>
                 <idno type="WelshCorpus">B45</idno>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/168536">168536</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -69,19 +70,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>CPAT Regional Historic Environment Record (PRN): <ref target="https://archwilio.org.uk/"><idno type="PRN">579</idno></ref></p>
-                                    <material source="RED2007">Local, coarse-grained quartzose sandstone</material> 
-                                    <objectType>Cross-carved pillar</objectType>
+                                <support><p><ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record</ref> (PRN): <idno type="PRN">579</idno></p>
+                                    <material type="stone" source="RED2007">Local coarse-grained quartzose sandstone</material> 
+                                    <objectType key="monument">Cross-carved pillar</objectType>
                                     <dimensions unit="m" source="RED2007">
                                         <height>1.77</height>
                                         <width>0.36</width>
                                         <depth>0.15</depth>
                                     </dimensions>
+                                    <desc type="decoration">The stone was later inverted and reused for a cross-carving (Redknap and Lewis 2007, 242-4). Nash-Williams (1950, 81) described the cross as a <rs type="decoration" key="cross">linear Latin ringed cross</rs> with a prolonged stem.</desc>
                                 </support>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with an Ogham inscription running vertically along the left edge of the stone, reading upwards. The stone also has a Roman-letter inscription in two lines, reading vertically downwards. The stone was later inverted and reused for a cross-carving so inscriptions are inverted in current display as is also seen in B41 and B42 (Redknap and Lewis 2007, 242-4). Nash-Williams (1950, 81) described the cross as <q>'a <rs type="decoration">linear Latin ringed cross</rs> incised on the new head, partly overriding the tip of two of the end-letters in l. 2 of the Latin inscription'</q> and with a prolonged stem.</layout>
+                                <layout style="vertical" rend="arris_up">The stone is inscribed with an ogham inscription running vertically along the left edge of the stone, reading upwards. The stone also has a Roman-letter inscription in two lines, reading vertically downwards. The inscriptions are inverted in current display as is also seen in B41 and B42 (Redknap and Lewis 2007, 242-4). The cross carving on the new head, partly overrides the tip of two of the end-letters in l. 2 of the Latin inscription.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -92,7 +94,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish"><foreign><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/c8fd5c9e-35b2-4a4f-bda9-c78eb1bd467d">Trallwng</ref></foreign></placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName>
+                                <placeName type="parish"><foreign><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/c8fd5c9e-35b2-4a4f-bda9-c78eb1bd467d">Trallwng</ref></foreign></placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName> <placeName type="country">Wales</placeName>
                                 <geo>51.949739, -3.514631</geo>
                             <note>National Grid Reference: SN 96 29</note></origPlace>
                             <origDate notBefore="0500" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">first half of the sixth century A.D.</origDate>
@@ -146,6 +148,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2024-11-08" who="#NW">Updated edition (Latin to roman subtype, ogham numbered 1 and roman 2). File needs further updating/checking from Welsh Corpus. Updated encoding of names and languages in commentary.</change>
     <change when="2024-11-26" who="#NW">Added CIIC and Nash-Williams 1950 refs. Changed object type to cross-carved pillar and updated layout. Commentary needs David's input.</change>
     <change when="2024-12-12" who="#POC">Added Macalister drawing</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added decoration section, added CISP and TM links</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -187,14 +190,8 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 </div>
             </div>
             <div type="commentary">
-                <list type="witDetail">
-                    <item n="1">
                         <p>The Welsh Corpus notes that <q>[A]V[I] means either 'grandson' or 'descendant' in ogham Irish. The use of this word and ogham script suggests that the name and patronymic are Irish, but they could very well be Old Welsh... the composition vowel A in the ogham suits Irish</q> (Redknap and Lewis 2007, 242). In the Ogham inscription <q>ILVVETO looks Irish, with Irish genitive in -O... but there are exceptions in Welsh, such as <foreign xml:lang="cy">Illtud</foreign>...the -O could be due to Hibernicization of a Welsh name. ILVVETO appears to have syncope, but this may be an illusion; the VV may correspond to /uw/ (which should properly be written UV in ogham) or, alternatively, it may be related to the Continental Celtic tribal name <persName><foreign>Elvetii, Helvetii</foreign></persName>. Other etymologies connect it with <foreign>*wed-</foreign> as in Welsh <foreign xml:lang="cy">dy-wed-yd</foreign>, 'to say', hence 'much-speaking, eloquent' or 'much-spoken-of, famous' or with OI <foreign xml:lang="sga">Féth</foreign>, gen. <foreign xml:lang="sga">Fétho</foreign>, '?calm, polished'</q> (Redknap and Lewis 2007, 242-4).</p>
-                    </item>
-                    <item n="2">
                         <p>The Roman-letter inscription commemorates the same person as the Ogham inscription but in a different formulae. The Welsh Corpus notes that compared with the composition vowel A in the Ogham script, which suits Irish, <q>the O in the Roman letters suits Britonnic, so there has been an attempt to translate the name from one language into the other</q> (Redknap and Lewis 2007, 242). A similar attempt has been made in the 'Bamberg Cryptogram' from Gwynedd (Redknap and Lewis 2007, 242-4).</p>
-                    </item>
-                </list>
             </div>
             <div type="bibliography">
                 <listBibl>
