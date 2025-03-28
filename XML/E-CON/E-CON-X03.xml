@@ -40,8 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">E-CON-X03</idno>
                  <idno type="CIIC">473</idno>
-                <idno type="CISP">SCLEM/1</idno>
-                 <idno type="TM"></idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/sclem_1.html">SCLEM/1</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/168498">168498</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
                 </availability>
@@ -63,29 +63,30 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Monument number: 428762</idno></p>
-                                    <material>Granite</material> 
-                                    <objectType>Cross</objectType> 
+                                    <material type="stone">Granite</material> 
+                                    <objectType key="monument">Cross</objectType> 
                                      <dimensions unit="m">
                                             <height>2.26</height>
                                             <width>0.4</width>
                                             <depth>0.37</depth>
-                                     </dimensions>                                   
+                                     </dimensions>   
+                                    <desc type="decoration">At the top of the stone, there is a <rs type="decoration">cross within a circle</rs> on each face. </desc>
                                 </support>
-                                <condition>An inscribed pillar-stone that was <q>"subsequently made into a cross"</q> (Okasha 1993, 224). Macalister suggested that the Latin text, which he described as being in good condition (1945, 451), <q>"seems to have been accompanied by an echo in Ogham letters, which have been intentionally broken away"</q> (1945, 452). The evidence for an ogham inscription provided by Macalister was extremely deteriorated at the time and is therefore very doubtful: <q>"there is a flake on the left-hand edge which begins and ends with the sides of vowel notches: three disintegrated vowel notches can be traced above, the whole making the final I of MAQI. Below the I there is a Q, much again the angle is violently smashed, clearly with intention. There is just room for VITALI in Ogham letters in this fractured space. The opposite angle is also smashed, and the distribution of the fractures corresponds generally to the position and extent of Ogham scores which would express the word TORICI (not TORRICI) read upward"</q> (1945, 452).  Forsyth reviewed the 3D model of the stone but there does not seem to be any traces of ogham letters extant today. </condition>
+                                <condition>An inscribed pillar-stone that was <q>subsequently made into a cross</q> (Okasha 1993, 224). Macalister suggested that the Latin text, which he described as being in good condition (1945, 451), <q>seems to have been accompanied by an echo in Ogham letters, which have been intentionally broken away</q> (1945, 452). The evidence for an ogham inscription provided by Macalister was extremely deteriorated at the time and is therefore very doubtful: <q>there is a flake on the left-hand edge which begins and ends with the sides of vowel notches: three disintegrated vowel notches can be traced above, the whole making the final I of MAQI. Below the I there is a Q, much again the angle is violently smashed, clearly with intention. There is just room for VITALI in Ogham letters in this fractured space. The opposite angle is also smashed, and the distribution of the fractures corresponds generally to the position and extent of Ogham scores which would express the word TORICI (not TORRICI) read upward</q> (1945, 452).  Forsyth reviewed the 3D model of the stone but there does not seem to be any traces of ogham letters extant today. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>At the top of the stone, there is a <rs type="decoration">cross within a circle</rs> on each face. The Latin inscription is on the east face of the stone as it stands at present, and consists of four words written in a vertical line reading downwards (Macalister 1945, 452). According to Macalister, there were also traces of an ogham inscription <q>"on the edge of the left-hand side and the front of the shaft"</q> of the stone (Okasha 1993, 224). However, Okasha maintained that it is <q>"unlikely that the stone ever contained an ogham text"</q> (1993, 226). </layout>
+                                <layout>The Latin inscription is on the east face of the stone as it stands at present, and consists of four words written in a vertical line reading downwards (Macalister 1945, 452). According to Macalister, there were also traces of an ogham inscription <q>on the edge of the left-hand side and the front of the shaft</q> of the stone (Okasha 1993, 224). However, Okasha maintained that it is <q>unlikely that the stone ever contained an ogham text</q> (1993, 226). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="roman">Macalister observed that the <q>"topmost word is in smaller and more cursive letters than the other three, and clearly forms a separate and later inscription"</q>, and subsequently concluded that <q>"the two inscriptions are not palaeographically compatible, and must be kept apart"</q> (1945, 452). Thomas noted that the inscription contained an angle-bar A and a horizontal I (1994, 270). The letters RI are ligatured. <height min="6" max="14" unit="cm" source="OKA1993">The letters measure 6 to 14 cm in height (1993, 224).</height>
+                            <handNote script="roman">Macalister observed that the <q>topmost word is in smaller and more cursive letters than the other three, and clearly forms a separate and later inscription</q>, and subsequently concluded that <q>the two inscriptions are not palaeographically compatible, and must be kept apart</q> (1945, 452). Thomas noted that the inscription contained an angle-bar A and a horizontal I (1994, 270). The letters RI are ligatured. <height min="6" max="14" unit="cm" source="OKA1993">The letters measure 6 to 14 cm in height (1993, 224).</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">St Clement</placeName>, <placeName type="county">Cornwall</placeName>
+                                <placeName type="parish">St Clement</placeName>, <placeName type="county">Cornwall</placeName> <placeName type="country">England</placeName>
                                 <geo>50.255903, -5.016133</geo>
                             <note>National Grid Reference: SW 8510 4390</note>
                                 </origPlace>
@@ -132,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-14" who="#POC">Added entry number to Okasha reference in bibl</change>
 <change when="2024-12-03" who="#POC">Added quotation marks for quotations, encoded edition, including formula words, added information on OS Dark Ages to apparatus, added Macalister's reading of Ogham and his discussion of the inscription, added Thomas' bibl details, added Thomas' remarks to handNote and commentary.</change>
 <change when="2024-12-06" who="#POC">Proofreading updates, updated handNote with ligature details, added lb to the apparatus readings.</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link, added decoration section</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -170,7 +172,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>Roman: 'Ignioc. [The stone] of Vitalius, son of Torricus'</p>
             </div>
             <div type="commentary">
-                <p>Thomas stated that <q>"Vitalis is a Roman name, one of some distinction"</q> (1994, 270). Okasha surmised that <q>"If the name VITALI is Latin, this suggests a sixth to eighth century date for the stone, a date which the use of horizontal I probably corroborates"</q> (1993, 226). </p>
+                <p>Thomas stated that <q>Vitalis is a Roman name, one of some distinction</q> (1994, 270). Okasha surmised that if <q>the name VITALI is Latin, this suggests a sixth to eighth century date for the stone, a date which the use of horizontal I probably corroborates</q> (1993, 226). </p>
             </div>
             <div type="bibliography">
                  <listBibl>

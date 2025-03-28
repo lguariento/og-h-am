@@ -40,8 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">E-CON-X02</idno>
                  <idno type="CIIC">457</idno>
-                <idno type="CISP">LCARF/1</idno>
-                 <idno type="TM"></idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/lcarf_1.html">LCARF/1</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/173851">173851</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
                 </availability>
@@ -62,9 +62,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Monument number: 431348</idno></p>
-                                    <material>Granite</material> 
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Monument number: 431348</idno></p>
+                                    <material type="stone">Granite</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                             <height>1.87</height>
                                             <width>0.25</width>
@@ -78,20 +78,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="roman">According to Macalister, the inscription is <q>"<rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> and rubbed"</q> (1945, 435). Okasha noted that the <q>"text is incised without framing-lines or panels"</q> and is <q>"in a predominantly capital script"</q> (1993, 126). Thomas remarked that the inscription <q>"shows angle-bar A and horizontal I, with two reversed capitals but no devolved letters"</q> (1994, 265). The letters FI are ligatured. <height min="5.5" max="8" unit="cm" source="OKA1993">The letters measure 5.5 to 8 cm in height.</height>
+                            <handNote script="roman">According to Macalister, the inscription is <q><rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> and rubbed</q> (1945, 435). Okasha noted that the <q>text is incised without framing-lines or panels</q> and is <q>in a predominantly capital script</q> (1993, 126). Thomas remarked that the inscription <q>shows angle-bar A and horizontal I, with two reversed capitals but no devolved letters</q> (1994, 265). The letters FI are ligatured. <height min="5.5" max="8" unit="cm" source="OKA1993">The letters measure 5.5 to 8 cm in height.</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Helland</placeName>, <placeName type="county">Cornwall</placeName>
+                                <placeName type="parish">Helland</placeName>, <placeName type="county">Cornwall</placeName> <placeName type="country">England</placeName>
                                 <geo>50.489336, -4.705275</geo>
                             <note>National Grid Reference: SX 0820 6900</note>
                                 </origPlace>
                             <origDate>Fifth or sixth century to the eighth century</origDate>
                         </origin>
-                        <provenance type="found" when="1912">The stone was known locally to be lying in a stream bed since 1912 (Okasha 1993, 126). In 1928, the stone was moved to Bodmin but was later recovered and moved to its present location by Mr Dunn. Okasha maintained that <q>"during one of these removals the stone was broken in two"</q> (1993, 126). Mr C. Daish was the first to bring the stone to <q>"scientific notice"</q> (Macalister 1945, 435) in 1929.<!--Seems to be another OS 'Dark Ages' map error.-->  <!--<placeName type="site"></placeName>,-->
+                        <provenance type="found" when="1912">The stone was known locally to be lying in a stream bed since 1912 (Okasha 1993, 126). In 1928, the stone was moved to Bodmin but was later recovered and moved to its present location by Mr Dunn. Okasha maintained that <q>during one of these removals the stone was broken in two</q> (1993, 126). Mr C. Daish was the first to bring the stone to <q>scientific notice</q> (Macalister 1945, 435) in 1929.<!--Seems to be another OS 'Dark Ages' map error.-->  <!--<placeName type="site"></placeName>,-->
                         </provenance>
                         <provenance type="observed">Built into the wall of a summer house in the garden of Lancarffe House by Mr Dunn in 1928.
                         </provenance>
@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-06" who="#POC">Proofreading changes, added lb element to apparatus for readings, added ligature details to handNote.</change>
 <change when="2024-12-18" who="#POC">Added bibl details for Babelstone blog.</change>
 <change when="2025-01-02" who="#POC">Updated edition to encode reversed capital and the second line of the Latin inscription.</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

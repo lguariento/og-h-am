@@ -40,8 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">E-CON-003</idno>
                  <idno type="CIIC">467</idno>
-                <idno type="CISP">LWNCK/2</idno>
-                 <idno type="TM"></idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/lwnck_2.html">LWNCK/2</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/172763">172763</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
                 </availability>
@@ -62,9 +62,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">HER Number: 17595</idno></p>
-                                    <material>Grit</material> 
-                                    <objectType>Pillar (in two pieces)</objectType> 
+                                <support><p><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">HER Number: 17595</idno></p>
+                                    <material type="stone">Grit</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <!--<dim></dim>-->
                                             <height>1.5</height>
@@ -75,18 +75,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A block in two pieces bearing bilingual inscriptions. There are two <q>"intact"</q> (Macalister 1945, 444) ogham inscriptions (1) and an incomplete Latin inscription (2) which is <q>"only slightly deteriorated"</q> (Okasha 1993, 150).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscriptions (1) occupy the two front angles of the stone. Both ogham inscriptions read vertically downwards. Macalister noted that the left-hand inscription is a correction of the ogham on the right, <q>"made after the cutter had discovered that he had misplaced the side-scores"</q> (1945, 444). Between the ogham inscriptions, a Latin inscription (2) is written in one line, reading vertically downwards and facing to the left, on the face of the stone.</layout>
+                                <layout style="vertical" rend="arris_down">The ogham inscriptions (1) occupy the two front angles of the stone. Both ogham inscriptions read vertically downwards. Macalister noted that the left-hand inscription is a correction of the ogham on the right, <q>made after the cutter had discovered that he had misplaced the side-scores</q> (1945, 444). Between the ogham inscriptions, a Latin inscription (2) is written in one line, reading vertically downwards and facing to the left, on the face of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="roman">The Latin inscription (2) is written without the assistance of <q>"framing-lines or panels"</q> (Okasha 1993, 150). <height min="6" max="11" unit="cm">The letters of the Latin inscription measure between 6 to 11 cm in height.</height>
+                            <handNote script="roman">The Latin inscription (2) is written without the assistance of <q>framing-lines or panels</q> (Okasha 1993, 150). <height min="6" max="11" unit="cm">The letters of the Latin inscription measure between 6 to 11 cm in height.</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Lewannick</placeName>, <placeName type="county">Cornwall</placeName>
+                                <placeName type="parish">Lewannick</placeName>, <placeName type="county">Cornwall</placeName> <placeName type="country">England</placeName>
                                 <geo>50.600492, -4.437476</geo>
                             <note>National Grid Reference: SX 2760 8070</note>
                                 </origPlace>
@@ -136,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-29" who="#POC">Proofreading changes, added script attribute to the handNote for the latin inscription, added quotation marks for quotations, deleted superfluous round brackets in objectType note.</change>    
 <change when="2024-12-06" who="#POC">Proofreading changes</change>
 <change when="2025-01-23" who="#POC">Removed note from within objectType because the information was displaying on a separate line</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM links, moved note from translation to commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -177,10 +178,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="translation">
                 <div type="textpart" n="2">
                 <p>Roman: "here lies Ólcan"</p>
-                <note>The same name is found about 23 miles away at Nanscow (VLCAGNI FILI | SEVERI) and Ballyhank, Co. Cork (I-COR-049; CIIC 100). It means something like ‘little bad guy’ (Ziegler 1994, 241), and seems to be common among religious men (David Stifter pers. com.). It has been suggested that he too was an ecclesiastic, but it is advisable to be cautious about such an assumption – there are three examples from Anglesey of the same formula (i.e. personal name in genitive with ‘hic iacit’). </note>
                 </div>
             </div>
             <div type="commentary">
+                <p>The same name is found about 23 miles away at Nanscow (VLCAGNI FILI | SEVERI) and Ballyhank, Co. Cork (I-COR-049; CIIC 100). It means something like ‘little bad guy’ (Ziegler 1994, 241), and seems to be common among religious men (David Stifter pers. com.). It has been suggested that he too was an ecclesiastic, but it is advisable to be cautious about such an assumption – there are three examples from Anglesey of the same formula (i.e. personal name in genitive with ‘hic iacit’).</p>
                 <p>The palaeography of the Latin inscription (2) suggests a date in the 5th century.</p>
             </div>
             <div type="bibliography">

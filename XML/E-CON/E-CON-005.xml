@@ -52,6 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>England</country>
                         <repository>Royal Cornwall Museum</repository>
                         <idno type="invNo">TRURI : 2016.9.1</idno>
+                        <altIdentifier>
+                            <idno type="geo">50.263671, -5.0541359</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -63,8 +66,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><!--<term>portabilia</term>--><ref target="https://finds.org.uk/database/artefacts/record/id/596422">Portable Antiquities Scheme</ref> <idno type="PAS">PAS ID: CORN-E8C291</idno></p>
-                                    <material>Slate</material> 
-                                    <objectType>Slate fragment</objectType> 
+                                    <material type="stone">Slate</material> 
+                                    <objectType key="portableObject">Fragment</objectType> 
                                      <dimensions unit="m">
                                             <height>0.11</height>
                                             <width>0.07</width>
@@ -74,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A small piece of local slate which must have been quite a bit larger to begin with, judging by the scale of the letters of the inscription. Too little of the inscription survives to support a reading and there is nothing to indicate any of the usual formula words.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>There are two drawn in stem-lines. The stem-lines are positioned one above the other, both contain evidence for the remains of ogham characters. The latter portion of the upper stem-line is blank. It is possible there was further carving above this top stem-line. To the right of the top stem-line, a downward stroke intersecting with a long horizontal bar can be discerned.  </layout>
+                                <layout rend="stemline">There are two drawn in stem-lines. The stem-lines are positioned one above the other, both contain evidence for the remains of ogham characters. The latter portion of the upper stem-line is blank. It is possible there was further carving above this top stem-line. To the right of the top stem-line, a downward stroke intersecting with a long horizontal bar can be discerned.  </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,7 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Penzance | Penwith</placeName>, <placeName type="county">Cornwall</placeName>
+                                <placeName type="parish">Penzance | Penwith</placeName>, <placeName type="county">Cornwall</placeName> <placeName type="country">England</placeName>
                                 <geo>50.088333, -5.545833</geo>
                             <note>National Grid Reference: SW 46459 26933</note>
                                 </origPlace>
@@ -132,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-15" who="#POC">Added text direction to edition</change>
 <change when="2024-11-29" who="#POC">Added script attribute to handNote, proofreading changes.</change>
 <change when="2024-12-06" who="#POC">Added encoding for X forfid to edition, proofreading changes.</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
