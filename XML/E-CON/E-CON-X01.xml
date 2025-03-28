@@ -40,8 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">E-CON-X01</idno>
                  <idno type="CIIC"/>
-                <idno type="CISP">LWNCC/1</idno>
-                 <idno type="TM"></idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/lwncc_1.html">LWNCC/1</idno>
+                 <idno type="TM"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
                 </availability>
@@ -62,9 +62,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">HER Number: 17598</idno></p>
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">HER Number: 17598</idno></p>
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
 <!--                                     <dimensions unit="m">-->
                                            <!-- <height></height>
                                             <width></width>
@@ -78,14 +78,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>According to HER, the marks on the stone resembled ogham but may be fake: <q>"In the garden of 'Moorview', Lewannick are many moulded and sculptured pieces of granite and Polyphant stone, reputed to be the work and collection of a Mr Nicholls, now deceased, who was a stonemason of local repute and one time owner of the house"</q>.<!--<height></height>-->
+                            <handNote>According to HER, the marks on the stone resembled ogham but may be fake: <q>In the garden of 'Moorview', Lewannick are many moulded and sculptured pieces of granite and Polyphant stone, reputed to be the work and collection of a Mr Nicholls, now deceased, who was a stonemason of local repute and one time owner of the house</q>.<!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Lewannick</placeName>, <placeName type="county">Cornwall</placeName>
+                                <placeName type="parish">Lewannick</placeName>, <placeName type="county">Cornwall</placeName> <placeName type="country">England</placeName>
                                 <geo>50.594025, -4.445619</geo>
                             <note>National Grid Reference: SX 2700 8000</note>
                                 </origPlace>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-02" who="#POC">Commented out origDate. Updated layout, apparatus, and added image of drawing from Babelstone blog.</change>
 <change when="2024-12-16" who="#POC">Proofreading changes, commented out edition since there is no reading.</change>
 <change when="2024-12-18" who="#POC">Add bibl details for Babelstone blog post, updated citation reference in file</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP link</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

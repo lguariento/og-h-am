@@ -40,7 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">E-CON-001</idno>
                  <idno type="CIIC">470</idno>
-                <idno type="CISP">WVALE/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/wvale_1.html">WVALE/1</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168506">168506</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
                 </availability>
@@ -61,9 +62,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">HER Number: 2240</idno></p>
-                                    <material>Grit</material>
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">HER Number: 2240</idno></p>
+                                    <material type="stone">Grit</material>
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                             <height>2.9</height>
                                             <width>0.68</width>
@@ -73,7 +74,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A large menhir bearing bilingual inscriptions and almost completely covered by lichen and moss. The Latin inscription is clear except for part of the final name but the ogham inscription is badly worn with almost the entire surface removed except for the final few letters.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription (1) is found on the right edge near the top end of the front right-hand face of the stone and reads upwards. The roman/Latin inscription (2) occupies the same face and reads downwards.</layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription (1) is found on the right edge near the top end of the front right-hand face of the stone and reads upwards. The roman/Latin inscription (2) occupies the same face and reads downwards.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,7 +86,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Forrabury and Minster</placeName>, <placeName type="county">Cornwall</placeName>
+                                <placeName type="parish">Forrabury and Minster</placeName>, <placeName type="county">Cornwall</placeName> <placeName type="country">England</placeName>
                                 <geo>50.640058, -4.675453</geo>
                             <note>National Grid Reference: SX 1092 8568</note></origPlace>
                             <origDate/>
@@ -136,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-27" who="#POC">Correct typo in commentary. Added Charles Thomas bibl reference.</change>
 <change when="2024-11-29" who="#POC">Proofreading updates, including adding quotation marks and the q element for direct quotations, added name element to ogham edition.</change>
 <change when="2024-12-06" who="#POC">Proofreading updates, correcting typos, adding lb element for Macalister reading.</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM links</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
