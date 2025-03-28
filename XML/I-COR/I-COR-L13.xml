@@ -60,9 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO050-155----</idno></p>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO050-155----</idno></p>
                                     <material/> 
-                                    <objectType>Small pillar</objectType> 
+                                    <objectType key="monument">Small pillar</objectType> 
                                      <dimensions unit="m" source="MAC1906">
                                             <height>0.93</height>
                                             <!--<width></width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The inscription on the stone is much worn.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is found on one angle of the stone.</layout>
+                                <layout style="veritcal" rend="arris">The inscription is found on one angle of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
@@ -83,8 +83,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Knockyrourke (<ref target="https://www.logainm.ie/ga/11394"><foreign xml:lang="ga">Cnoc Uí Ruairc</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>
-                                <geo>46.488181, -15.817314</geo>
+                                <placeName type="townland">Knockyrourke (<ref target="https://www.logainm.ie/ga/11394"><foreign xml:lang="ga">Cnoc Uí Ruairc</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <geo/>
                             <!--<note>ITM Coordinates: 0,0</note>--></origPlace>
                             <origDate/>
                         </origin>
@@ -125,6 +125,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-18" who="#NW">Changed this filename to L13 (previously I-COR-068, which has been replaced with Barryscourt Castle).</change>
 <change when="2024-09-30" who="#POC">Updated file name in publication statement</change>
 <change when="2025-02-11" who="#POC">Added placename to title, commented out media and handDesc</change>
+<change when="2025-03-28" who="#NW">Removed geo coorrds (mid ocean). Added country and attributes for indexing.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
