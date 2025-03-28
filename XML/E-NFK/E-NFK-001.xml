@@ -52,6 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>England</country>
                         <repository>Norwich Castle Museum</repository>
                         <idno type="invNo">acc no. NWHCM : 1950.24</idno>
+                        <altIdentifier>
+                            <idno type="geo">52.628729, 1.2963858</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -62,30 +65,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><!--<term>portabilia</term>--><ref target="https://www.heritage.norfolk.gov.uk/record-details?mnf5587">Historic Environment Record ID</ref>: <idno type="HER">Norfolk HER: 5587</idno></p>
-                                    <material>Antler</material> 
-                                    <objectType>Antler knife handle</objectType> 
+                                <support><p><ref target="https://www.heritage.norfolk.gov.uk/record-details?mnf5587">Historic Environment Record ID</ref>: <idno type="HER">Norfolk HER: 5587</idno></p>
+                                    <material type="antler">Antler</material> 
+                                    <objectType key="portableObject">Knife handle</objectType> 
                                      <dimensions unit="mm" quantity="15">
                                             <!--<height></height>
                                             <width></width>
                                             <depth></depth>-->
-                                     </dimensions>                                   
+                                     </dimensions> 
+                                    <desc type="decoration">The base of the handle is decorated with <rs type="decoration"><q>two rows of right-angled triangles, filled with stippling, set within horizontal incised lines</q></rs> (Clarke 1952, 72). </desc>
                                 </support>
-                                <condition>A handle <q>"cut from a tine of red deer antler"</q> (Clarke 1952, 72) for an iron tool, probably a knife, bearing an ogham inscription of uncertain meaning but <q>"which may be part of the owner's name"</q> (Norfolk Museums Collections). Clarke observed that the first part of the ogham text is <q>"clear and easily read except at the broad end, where the surface has been worn away...and one or possibly two groups are missing"</q> (1952, 72). The first four scores of the second part of the ogham text are clear as is the latter portion of the inscription. However, the section of the text following the first four scores <q>"has suffered great damage"</q> having <q>"been badly abraded and iron-stained, rendering the scores indistinct"</q> (Clarke 1952, 72). Clarke enlisted the aid of oblique lighting and a microscope to <q>"identify the scores in this area with a fair degree of probability"</q> (1952, 72).  </condition>
+                                <condition>A handle <q>cut from a tine of red deer antler</q> (Clarke 1952, 72) for an iron tool, probably a knife, bearing an ogham inscription of uncertain meaning but <q>which may be part of the owner's name</q> (Norfolk Museums Collections). Clarke observed that the first part of the ogham text is <q>clear and easily read except at the broad end, where the surface has been worn away...and one or possibly two groups are missing</q> (1952, 72). The first four scores of the second part of the ogham text are clear as is the latter portion of the inscription. However, the section of the text following the first four scores <q>has suffered great damage</q> having <q>been badly abraded and iron-stained, rendering the scores indistinct</q> (Clarke 1952, 72). Clarke enlisted the aid of oblique lighting and a microscope to <q>identify the scores in this area with a fair degree of probability</q> (1952, 72).  </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The base of the handle is decorated with <rs type="decoration"><q>"two rows of right-angled triangles, filled with stippling, set within horizontal incised lines"</q></rs> (Clarke 1952, 72). The ogham text is in two lines, one on each side of the handle, commencing from the decorated base and extending to the opposite end.</layout>
+                                <layout>The ogham text is in two lines, one on each side of the handle, commencing from the decorated base and extending to the opposite end.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Clarke described the inscription as <q>"carefully <rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> nicks placed across or on either side of an imaginary centre line"</q> (1952, 72). <height></height>
+                            <handNote>Clarke described the inscription as <q>carefully <rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> nicks placed across or on either side of an imaginary centre line</q> (1952, 72). <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Weeting-with-Broomhill</placeName>, <placeName type="county">Norfolk</placeName>
+                                <placeName type="parish">Weeting-with-Broomhill</placeName>, <placeName type="county">Norfolk</placeName> <placeName type="country">England</placeName>
                                 <geo>52.477039, 0.581231</geo>
                             <note>National Grid Reference: TL 7540 8970</note>
                                 </origPlace>
@@ -131,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-28" who="#POC">Deleted choice encoding in edition. Added reading direction to edition. Added note to apparatus to explain that the alternative readings of the inscription.</change>
 <change when="2024-12-05" who="#POC">Proofreading updates including adding quotation marks, added text direction to edition, updated apparatus, added rs element for decoration description in layout.</change>
 <change when="2025-01-23" who="#POC">Updated support because the dimensions weren't displaying, updated commentary to fix display.</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added decoration section</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,15 +160,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>There are two possible readings of this inscription depending on the direction in which the script is read. One possibility is to read the inscription upwards beginning from the broad end of one side of the handle and to continue reading downwards to the broad end of the other side of the handle. Alternatively, the inscription could be read upwards commencing from the narrow end on one side of the handle and reading down towards the narrow end of the other side of the handle. Clarke (1952, 72) determined that the latter reading (beginning and ending with the narrow end) is <q>"perhaps the more likely of these two readings"</q>. </note>
+                        <note>There are two possible readings of this inscription depending on the direction in which the script is read. One possibility is to read the inscription upwards beginning from the broad end of one side of the handle and to continue reading downwards to the broad end of the other side of the handle. Alternatively, the inscription could be read upwards commencing from the narrow end on one side of the handle and reading down towards the narrow end of the other side of the handle. Clarke (1952, 72) determined that the latter reading (beginning and ending with the narrow end) is <q>perhaps the more likely of these two readings</q>. </note>
                     </app>
                 <app n="2">
-                    <note>For the most likely interpretation, <q>"starting at the narrow end of 1 [side] and ending at the narrow end of [side] 2"</q>, Clarke (1952, 72) read:</note>
+                    <note>For the most likely interpretation, <q>starting at the narrow end of 1 [side] and ending at the narrow end of [side] 2</q>, Clarke (1952, 72) read:</note>
                     <rdg source="CLA1952">
                         <lb n="1" style="text-direction:up"/>EVUTUSUD(U) 
                         <lb n="2" style="text-direction:down"/>GEDEVI(MUTO)S
                     </rdg>
-                    <note><lb/>For the alternative interpretation, <q>"starting at the broad end of 1 [side] and ending at the broad end of [side] 2"</q>, Clarke (1952, 72) read:</note>
+                    <note><lb/>For the alternative interpretation, <q>starting at the broad end of 1 [side] and ending at the broad end of [side] 2</q>, Clarke (1952, 72) read:</note>
                     <rdg source="CLA1952">
                         <lb n="1" style="text-direction:up"/>(U)LUCUVUTE
                         <lb n="2" style="text-direction:down"/>C(OVUM)ITELEG
@@ -182,7 +187,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>-->
             <div type="commentary">
-                <p>Clarke determined that neither reading could be <q>"identified as any known Celtic language"</q> (1952, 72). However, Wrenn (1959, 40, 42) suggested that the name might be GEDEVI and could indicate Irish influence.</p>
+                <p>Clarke determined that neither reading could be <q>identified as any known Celtic language</q> (1952, 72). However, Wrenn (1959, 40, 42) suggested that the name might be GEDEVI and could indicate Irish influence.</p>
             </div>
             <div type="bibliography">
                  <listBibl>

@@ -40,8 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">E-HAM-001</idno>
                  <idno type="CIIC">496</idno>
-                <idno type="CISP">SILCH/1</idno>
-                 <idno type="TM"></idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/silch_1.html">SILCH/1</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/172377">172377</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
                 </availability>
@@ -52,6 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>England</country>
                         <repository>Reading Museum</repository>
                         <idno type="invNo">1995.1.24</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.456914, -0.96976068</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -63,29 +66,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Hob UID: 24336</idno></p>
-                                    <material>Sandstone</material> 
-                                    <objectType><ref target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-elsewhere.html">Reused column</ref></objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument"><ref target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-elsewhere.html">Reused column</ref></objectType> 
                                      <dimensions unit="m">
                                             <height>0.60</height>
                                             <width>0.36</width>
                                             <depth>0.36</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>A Roman column bearing a two-line ogham inscription. Described by Macalister (1945, 473) as <q>"like the finial of a large balustrade"</q>, the cone-shaped pillar widens upwards and narrows towards the top. The top of the pillar has broken off, damaging the inscription, particularly, at the end of the first name, the beginning of the second line, as well as the latter portion of the ogham text. However, Macalister (1945, 473) maintained that <q>"there can be no doubt whatever about the reading, so far as it is preserved"</q>. The stone was repurposed as a memorial by an Irish family which <q>"may have settled on the site in the post-Roman interval"</q> (Macalister 1945, 475).</condition>
+                                <condition>A Roman column bearing a two-line ogham inscription. Described by Macalister (1945, 473) as <q>like the finial of a large balustrade</q>, the cone-shaped pillar widens upwards and narrows towards the top. The top of the pillar has broken off, damaging the inscription, particularly, at the end of the first name, the beginning of the second line, as well as the latter portion of the ogham text. However, Macalister (1945, 473) maintained that <q>there can be no doubt whatever about the reading, so far as it is preserved</q>. The stone was repurposed as a memorial by an Irish family which <q>may have settled on the site in the post-Roman interval</q> (Macalister 1945, 475).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Since the repurposed Roman column did not have any angular edges, the inscription was written along two artificial stemlines running vertically up the face of the stone (West 2009b).</layout>
+                                <layout style="vertical" rend="stemline_up">Since the repurposed Roman column did not have any angular edges, the inscription was written along two artificial stemlines running vertically up the face of the stone (West 2009b).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="ogham">Macalister described the ogham inscription as <q>"<rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs>, on two vertical lines provided for the purpose"</q> and remarked that it is <q>"roughly"</q> cut (1945, 473). <!--<height></height>-->
+                            <handNote script="ogham">Macalister described the ogham inscription as <q><rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs>, on two vertical lines provided for the purpose</q> and remarked that it is <q>roughly</q> cut (1945, 473). <!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="parish">Silchester Roman Town</placeName>, <placeName type="county">Hampshire</placeName>
+                                <placeName type="parish">Silchester Roman Town</placeName>, <placeName type="county">Hampshire</placeName> <placeName type="country">England</placeName>
                                 <geo>51.357914, -1.019333</geo>
                             <note>National Grid Reference: SU 6838 6255</note>
                                 </origPlace>
@@ -135,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-05" who="#POC">Added more information to commentary, condition and provenance from Babelstone blog.</change>
 <change when="2024-12-18" who="#POC">Added bibl details for Babelstone blog</change>
 <change when="2025-01-23" who="#POC">Proofreading changes, added image from M. Fulford and shared on Babelstone website</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link, added secondary location coordinates</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
