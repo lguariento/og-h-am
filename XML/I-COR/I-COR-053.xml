@@ -60,9 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO061-080005-</idno></p> 
-                                    <material>Sandstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO061-080005-</idno></p> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.57</height>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The inscription is <q>'fractured, worn smooth, and covered with lichen'</q> in places, <q>'though in good condition at the ends'</q> (Macalister 1945, 103-4). An ovalquartzite boulder (0.2m x 0.15m) is cemented to the top of the stone. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the NE angle of the stone. There are two plain <rs type="decoration">crosses</rs> <q>'scratched upon the back of the stone, and another <rs type="decoration">cross</rs> is roughly cut on the H-surface.'</q> (Macalister 1945, 103-4). </layout>
+                                <layout style="vertical" rendition="arris_up">The inscription is on the NE angle of the stone. There are two plain <rs type="decoration">crosses</rs> <q>'scratched upon the back of the stone, and another <rs type="decoration">cross</rs> is roughly cut on the H-surface.'</q> (Macalister 1945, 103-4). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,12 +85,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Coolineagh (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11342">Cúil an Fhéich</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Coolineagh (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11342">Cúil an Fhéich</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
                                 <geo>51.952236, -8.815354</geo>
                             <note>ITM Coordinates: 543956, 578104</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1817">The inscription was discovered by <persName>Mr. Joseph Humphreys</persName> of <placeName type="county">Cork</placeName> on an upright stone standing at the head of a grave 20m SE of the ruined parish church in <placeName type="parish">Aghabulloge</placeName> graveyard <idno type="SMR">(CO061-08002-)</idno>. 
+                        <provenance type="found" when="1817">The inscription was discovered by <persName>Mr. Joseph Humphreys</persName> of <placeName type="county">Cork</placeName> on an upright stone standing at the head of a grave 20m SE of the ruined parish church in Aghabulloge graveyard <idno type="SMR">(CO061-08002-)</idno>.  
                         </provenance>
                         <provenance type="observed">In situ in <placeName type="parish">Aghabulloge</placeName> graveyard.
                         </provenance>
@@ -131,6 +131,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty translation.</change>
 <change when="2025-02-07" who="#POC">Fixed placename display</change>
+<change when="2025-03-26" who="#POC">Added object type and material attributes for filtering</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

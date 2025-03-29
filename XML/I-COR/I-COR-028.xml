@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO066-009----</idno></p> 
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone"/> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="3d_data">
                                             <height>1.68</height>
                                             <width>0.61</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The stone is weathered with layers having flaked away. It has also suffered from been reused at least twice: once in the construction of a souterrain and subsequently as a door jamb in a farm building where it was whitewashed and embedded in the ground (obscuring the end of the inscription when it was in position).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads upwards on the dexter angle of one of the broad faces and continues across the uneven top of the stone. </layout>
+                                <layout style="vertical" rend="arris_up">The inscription reads upwards on the dexter angle of one of the broad faces and continues across the uneven top of the stone. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -84,14 +84,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Glenaphuca (<foreign xml:id="ga"><ref target="https://www.logainm.ie/ga/12339">Gleann an Phúca</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>
+                                <placeName type="townland">Glenaphuca (<foreign xml:id="ga"><ref target="https://www.logainm.ie/ga/12339">Gleann an Phúca</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
                                 <geo>51.967973, -8.072345</geo>
                             <note>ITM Coordinates (approximate): 595063, 579538</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1896">Discovered in <date>1896</date> by Edmond Barry (with Mr. John B. O’Higgins, of Boston, U.S.A. and Rev. James Greene, B.D., C.C., Dungourney) during a search for ogham stones in the area. When an examination of the stones at ‘Rathcanning fort’ failed to uncover any ogham inscription, Barry and his companions travelled to another location to continue the search. Barry (1897, 41-42) describes how many years previously ‘an underground passage, and an underground beehive-shaped chamber, were discovered a quarter of a mile south of Rathcanning fort; and some stones from them were used for building purposes at the nearest farm houses, those of Mr. John Colbert, and of his cousin’. Barry states that after examining ‘all long stones in the rampart of the fort, and in the fences from the fort’ they went ‘to the site of the underground chamber, and on to Mr. John Colbert’s farm buildings’. It is here that an ogham inscription was finally discovered on one of two ‘white-washed flags’ acting as door jambs to a ‘carhouse’ on the farm of Mr. John Colbert (Barry 1897, 42), who informed them that they had been in place there for 80 years. It was noted that both door jambs had ‘every appearance of being flags from the roof of the underground passage in the next field’. It is noteworthy that there is a local tradition of a souterrain in what appears to be the approximate location (<idno type="SMR">CO066-071----</idno>), although no trace remains. Macalister (1945, 82) and O’Kelly (1945a, 19), incorrectly it would seem, give the find location of this ogham stone as the souterrain (<idno type="SMR">CO066-01002-</idno>) in Rathcanning fort (<idno type="SMR">CO066-01001-</idno>), in which a possible ogham fragment (I-COR-029) was later found by Macalister. 
                         </provenance>
-                        <provenance type="observed" when="2017">This stone is in the National Museum of Ireland storage facility at Daingean, <placeName type="county">Co. Offaly</placeName> (<idno type="SMR">OF018-198----</idno>) where it was examined and recorded for the Ogham in 3d project in 2017. 
+                        <provenance type="observed" when="2017">This stone is in the National Museum of Ireland. It was examined and recorded for the Ogham in 3d project in 2017.
                         </provenance>
                     </history>
                 </msDesc>
@@ -130,6 +130,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-16" who="#NW">Added NMI reg number</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-30" who="#POC">Added Irish placename to title, proofreading updates, added citation details to image description, commented out translation and commentary as they are both empty</change>
+    <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering and country</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

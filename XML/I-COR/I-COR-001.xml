@@ -63,8 +63,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                     <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO106-064----</idno></p> 
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone"/> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="RON2009"> <!--check!-->
                                            <height>2.00</height>
                                             <width>1.10</width>
@@ -74,7 +74,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>An ogham inscription is recorded on the upright stone of a pair of standing stones (SMR ID: CO106-035----, the second lies prostrate 1.m to E). Macalister (1907, 31-7; 1945, 59) noted that there was a row of three stones here in <date>1879</date>, reduced to two by <date>1907</date>. The inscription was badly damaged some time after <date>1845</date> (Macalister 1945, 59). When examined by <persName>Fionnbarr Moore</persName> in the early <date>1980</date>s only traces of the final four letters of the inscription could be discerned and while these were quite vague they were undoubtedly ogham scores (Ronan 2009, 154).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is found on the lower half of the stone on the right angle of the eastern face, and runs up from near the ground to a height of 1.1m.</layout>
+                                <layout style="vertical" rend="arris_upR">The inscription is found on the lower half of the stone on the right angle of the eastern face, and runs up from near the ground to a height of 1.1m.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -143,6 +143,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Deleted paragraph element from provenance to correct database display and added CISP link.</change>
     <change when="2024-12-06" who="#POC">Added number for the critical apparatus</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title</change>
+    <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
