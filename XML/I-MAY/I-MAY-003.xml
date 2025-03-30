@@ -56,8 +56,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                       <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> Record Number: <idno type="SMR">MA073-012----</idno></p>
-                                        <material resp="MAC1945">Schist</material>(check with Fionnbarr) 
-                                        <objectType>Pillar</objectType>                                   
+                                        <material type="stone" resp="MAC1945">Schist</material><!--(check with Fionnbarr) -->
+                                        <objectType key="monument">Pillar</objectType>                                   
                                         <dimensions unit="m">
                                             <height>1.28</height>
                                             <width>0.40</width>
@@ -67,11 +67,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition><q>The flattish top (0.4m E−W; 0.25m N−S) of the stone has a slight slope to S, and is corrugated on a roughly N−S axis by several natural fissures which continue as fine striations or cracks obliquely down the N and S faces of the stone. There is an angular indentation in the lower SW corner of the stone, giving the stone an irregular cross-section at ground level. All exposed surfaces of the stone are moderately blotched with lichens</q> (Archaeological Survey of Ireland, Field Report).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is <q>square in cross-section and rectangular in shape, tapering slightly towards the top, bearing an ogham inscription on the NE angle</q> (Archaeological Survey of Ireland, Field Report). The inscription is on approximately the upper two thirds of the angle (reading <rs type="style">up</rs>). Macalister (1945, 7) notes a possible single vowel notch towards the top of the opposite angle. He also notes the <q>deceptive score-like appearance</q> of the natural fissures running down from the top.</layout>
+                                <layout style="vertical" rend="arris_up">The stone is <q>square in cross-section and rectangular in shape, tapering slightly towards the top, bearing an ogham inscription on the NE angle</q> (Archaeological Survey of Ireland, Field Report). The inscription is on approximately the upper two thirds of the angle (reading up). Macalister (1945, 7) notes a possible single vowel notch towards the top of the opposite angle. He also notes the <q>deceptive score-like appearance</q> of the natural fissures running down from the top.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs> (Macalister 1945, 7). The scores and notches are generally fairly uniform and evenly spaced (although the S scores appear a little cramped) with only the two T's separated by extra space.
+                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs> (Macalister 1945, 7). The scores and notches are generally fairly uniform and evenly spaced (although the S scores appear a little cramped) with only the two T's separated by extra space.
                                 <!--<height><!-\-letter-heights-\-></height>-->
                             </handNote>
                         </handDesc>
@@ -80,7 +80,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Rusheens West (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/36692">An Roisín Thiar</ref></foreign>)</placeName>, in the parish of <placeName type="parish"> Kilmovee (<foreign xml:lang="ga">Cill Moibhí</foreign> 'Church of Mobhí'</placeName>), <placeName
-                    type="county">Co. Mayo</placeName>
+                    type="county">Co. Mayo</placeName> <placeName type="country">Ireland</placeName>
                                 <geo>53.896213, -8.674923</geo>
                                 <note>ITM Coordinates: 555640, 794299</note>
                             </origPlace>
@@ -130,6 +130,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, added extra information about the stone in support to the material and objectType elements because it was displaying incorrectly beside the National Monuments Service number on the database, added idno element for SMR IDs, moved logainm reference around Irish placename</change>
     <change when="2025-02-13" who="#NW">Updated material and object type. Updated eDIL refs in commentary.</change>
     <change when="2025-02-14" who="#POC">Proofreading updates</change>
+    <change when="2025-03-30" who="#NW">Added new attributes for filtering. Added country placename to origPlace</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>  
