@@ -45,8 +45,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-CGN-001</idno>
                  <idno type="CIIC">353</idno>
-                <idno type="CISP">RHDDL/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/rhddl_1.html">RHDDL/1</idno>
                 <idno type="WelshCorpus">CD26</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168603">168603</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -57,6 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>National Museum Cardiff</repository>
                         <idno type="invNo">acc no 50.279</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.48563, -3.1772164</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -69,9 +73,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>-->Dyfed Archaeological Trust Historic Environment Record (PRN): <ref target="https://archwilio.org.uk/her/"><idno type="HER">3033</idno></ref>
-                                    <material source="EDW2007">Medium-grained, quartz-cemented, dark grey sandstone</material> 
-                                    <objectType>Rectangular pillar</objectType>
+                                <support><ref target="https://archwilio.org.uk/her/">Dyfed Archaeological Trust Historic Environment Record (PRN)</ref>: <idno type="HER">3033</idno>
+                                    <material type="stone" source="EDW2007">Medium-grained quartz-cemented dark grey sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType>
                                     <dimensions unit='m' source="EDW2007">
                                         <height>1.82</height>
                                         <width>0.39</width>
@@ -81,11 +85,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with roman-letter inscription in three lines reading vertically downwards, and a corresponding Ogham inscription starting from the bottom left edge of the stone and continuing upwards, along the top edge, and terminating two-thirds of the way along the top (Edwards 2007, 180).  </layout>
+                                <layout style="vertical" rend="arris_up">The rectangular pillar is inscribed with roman-letter inscription in three lines reading vertically downwards, and a corresponding Ogham inscription starting from the bottom left edge of the stone and continuing upwards, along the top edge, and terminating two-thirds of the way along the top (Edwards 2007, 180).  </layout>
                             </layoutDesc>
                         </objectDesc>
                           <handDesc>
-                            <handNote>Both inscriptions are described as <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">deeply incised with a punch</rs> (Edwatds, 2007, 180). The distinctive forms of the S and F ane closely paralleled on St Dogmaels 1 (W-PEM-001; Edwards 2007, 460-463); a similar F is also found on Mathry 1 (W-PEM-016; Edwards 2007, 380-383). The tail of the first G in line 3 extends over the angle of the stone, marking the beginning of the ogham inscription.
+                            <handNote>Both inscriptions are described as <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">deeply incised with a punch</rs> (Edwatds 2007, 180). The distinctive forms of the S and F ane closely paralleled on St Dogmaels 1 (W-PEM-001; Edwards 2007, 460-463); a similar F is also found on Mathry 1 (W-PEM-016; Edwards 2007, 380-383). The tail of the first G in line 3 extends over the angle of the stone, marking the beginning of the ogham inscription.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -93,14 +97,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/987b0ae0-a75c-4ecc-9142-f6ef8cfe6d06">Llanwenog</ref></foreign></placeName>, <placeName type="county">Cardiganshire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/0252a52c-5493-4800-8ba3-5f020d3907b9?v=Ceredigion">Ceredigion</ref></foreign>)</placeName>
+                                <placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/987b0ae0-a75c-4ecc-9142-f6ef8cfe6d06">Llanwenog</ref></foreign></placeName>, <placeName type="county">Cardiganshire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/0252a52c-5493-4800-8ba3-5f020d3907b9?v=Ceredigion">Ceredigion</ref></foreign>)</placeName> <placeName type="country">Wales</placeName>
                                 <geo>52.059325, -4.209772</geo>
                              <note>National Grid Reference: SN 4860 4241</note></origPlace>
                             <origDate notBefore="0460" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic">Late fifth or earlier sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found" when="1869">Ogham first identified by Brash in 1869. Stone first mentioned by Meyrick (1808, 191-2), discovered below the east wall in the ruins of Cappel Whyl (<foreign xml:lang="cy">Crug-y-Whyl</foreign> Farm), destroyed in 1796.
                         </provenance>
-                        <provenance type="observed">National Museum Cardiff
+                        <provenance type="observed">National Museum Cardiff.
                         </provenance>
                     </history>
                 </msDesc>
@@ -139,7 +143,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2024-10-23" who="#POC">Corrected typo, added missing space to translation.</change>
     <change when="2024-11-08" who="#NW">Updated edition (Latin to roman subtype, ogham numbered 1 and roman 2). Added text direction to roman. Added encoding of names and languages in commentary.</change>
     <change when="2024-11-26" who="#NW">Added link to Welsh placename and standardised 'ogham' spelling.</change>
-    
+    <change when="2025-03-31" who="#POC">Added CISP and TM links, added country placenames to origPlace</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -184,12 +188,8 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 </div>
             </div>
             <div type="commentary">
-                    <list type="witDetail"><!--is this necessary or just p?-->
-                        <item n="1">
-                        <p>The ogham inscription consists simply of the name of the person commemorated (Trenacatus), the Irish equivalent of the Latin, presumably in the genitive cae but with a spelling error.</p></item>
-                    <item n="2">
-                        <p><q>The Latin inscription consists of the 'X son of Y' formula, with the first name and <foreign xml:lang="la">FILIVS</foreign> in the nominative and the second name in the genitive case, together with an abbreviated form of the Christian <foreign xml:lang="la">[h]ic iacit</foreign> formulae... The name <persName><foreign xml:lang="pgl">TRENACATVS</foreign></persName> is distinctively Irish and not identical with MW <persName><foreign xml:lang="cy">Tringat</foreign></persName>...There are three examples of MAILAGNI> OI <persName><foreign xml:lang="sga">Máelán/Móelán</foreign></persName> in the ogham corpus (Macalister 1945, 64, 154-155, 253-254: Nos 60, 160, 258) and MAGLAGNI could be a Welsh rendering of this... It is more straightforward, however, to take MAGLAGNI at face value as an Irish name derived from *Maglas, 'prince'... The combination of the 'X son of Y' and the abbreviated <foreign xml:lang="la">hic iacit</foreign> formulae suggests that the Latin inscription is not very early in the series... However, only capitals, though some with rather exaggerated forms, are used, and there are no typologically later epigraphic features.</q> (Edwards 2007, 180)</p></item>
-                </list>
+                        <p>The ogham inscription consists simply of the name of the person commemorated (Trenacatus), the Irish equivalent of the Latin, presumably in the genitive case but with a spelling error.</p>
+                        <p><q>The Latin inscription consists of the 'X son of Y' formula, with the first name and <foreign xml:lang="la">FILIVS</foreign> in the nominative and the second name in the genitive case, together with an abbreviated form of the Christian <foreign xml:lang="la">[h]ic iacit</foreign> formulae... The name <persName><foreign xml:lang="pgl">TRENACATVS</foreign></persName> is distinctively Irish and not identical with MW <persName><foreign xml:lang="cy">Tringat</foreign></persName>...There are three examples of MAILAGNI> OI <persName><foreign xml:lang="sga">Máelán/Móelán</foreign></persName> in the ogham corpus (Macalister 1945, 64, 154-155, 253-254: Nos 60, 160, 258) and MAGLAGNI could be a Welsh rendering of this... It is more straightforward, however, to take MAGLAGNI at face value as an Irish name derived from *Maglas, 'prince'... The combination of the 'X son of Y' and the abbreviated <foreign xml:lang="la">hic iacit</foreign> formulae suggests that the Latin inscription is not very early in the series... However, only capitals, though some with rather exaggerated forms, are used, and there are no typologically later epigraphic features.</q> (Edwards 2007, 180)</p>
                     </div>
             <div type="bibliography">                 
                 <listBibl>  

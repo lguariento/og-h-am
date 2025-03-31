@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-CGN-X01</idno>
                  <idno type="CIIC">349</idno>
-                <idno type="CISP">LDYSL/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/ldysl_1.html">LDYSL/1</idno>
                    <idno type="WelshCorpus">CD14</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168601">168601</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -44,7 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Wales</country>
                         <repository>St Tysul's Church</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo">52.04237, -4.3075298</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>rejected monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">1826</idno>Llandysul Stone</ref>
-                                    <material>stone</material> rectangular <objectType>block</objectType> described by <bibl><ptr target="EDW2007"/> Edwards 2007 <citedRange unit="page">159</citedRange></bibl> as <q>Medium-grained, quartz-cemented, grey (10YR 6/1 when weathered) sandstone</q>
+                                <support><term>rejected monument</term> <ref target="https://archwilio.org.uk/">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">1826</idno> Llandysul Stone
+                                    <material type="stone">Sandstone</material> rectangular 
+                                    <objectType key="monument">block</objectType> <note>Described by (Edwards 2007, 159) as <q>Medium-grained, quartz-cemented, grey (10YR 6/1 when weathered) sandstone</q></note>
                                     <dimensions unit="m">
                                         <height>0.34</height>
                                         <width>0.43</width>
@@ -66,26 +71,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>
-                                    The stone is lightly <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html"> punched </rs> with a roman-letter inscription in three lines which may have originally read horizontally or vertically. The incription <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">159</citedRange></bibl><q>is most likely to have been read vertically downwards because it consists of a variation of the 'X son of Y' formula</q> in this format. 
+                                <layout>The stone is lightly <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> with a roman-letter inscription in three lines which may have originally read horizontally or vertically. The inscription (Edwards 2007, 159) <q>is most likely to have been read vertically downwards because it consists of a variation of the 'X son of Y' formula</q> in this format. 
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The inscription is in capitals with miniscule H. The R's have short diagonal strokes which veer towards the horizontal and that in line 1 has an open loop; F is cursive and conjoined with I, which is small; A has an angle-bar; B has separate loops; the first vertical stroke of the H has been extended downwards. ...the epigraphy includes several letter forms, notably miniscule H, which suggest it is typologically late in the series.</q> <bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">159-161</citedRange></bibl>.
+                            <handNote><q>The inscription is in capitals with miniscule H. The R's have short diagonal strokes which veer towards the horizontal and that in line 1 has an open loop; F is cursive and conjoined with I, which is small; A has an angle-bar; B has separate loops; the first vertical stroke of the H has been extended downwards. ...the epigraphy includes several letter forms, notably miniscule H, which suggest it is typologically late in the series.</q> (Edwards 2007, 159-161).
                                 <height></height>
                             </handNote> 
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Llandysul</placeName>
-                                <geo>52.041192, -4.306581</geo></origPlace>
+                            <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/1b2b0f27-b4bb-42e8-bcc2-dcb791111d4d"><foreign xml:lang="cy">Llandysul</foreign></ref></placeName>, <placeName type="county">Cardiganshire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/0252a52c-5493-4800-8ba3-5f020d3907b9?v=Ceredigion">Ceredigion</ref></foreign>)</placeName> <placeName type="country">Wales</placeName>
+                                <geo>52.041192, -4.306581</geo>
+                            <note>National Grid Reference: SN 419 406</note></origPlace>
                             <origDate notBefore="0500" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Sixth century</origDate>
                         </origin>
-                        <provenance type="found" when="1702"> Traces of ogam inscription first noted by Macalister in 1922. McManus dismisses ogham inscription described by Macalister; an ogham inscription seems unlikely given what's there. Stone first mentioned in a letter from David Evans to Edward Lhuyd dated 30 January 1702/3. <q>It was built into the churchyard wall and was already fragmentary.</q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">159</citedRange></bibl>
+                        <provenance type="found" when="1702"> Traces of ogam inscription first noted by Macalister in 1922. McManus dismisses ogham inscription described by Macalister; an ogham inscription seems unlikely given what's there. Stone first mentioned in a letter from David Evans to Edward Lhuyd dated 30 January 1702/3. <q>It was built into the churchyard wall and was already fragmentary</q> (Edwards 2007, 159).
                         </provenance>
-                        <provenance type="observed">Inside the church, built into the north wall of the west tower (SN 4188 4068)
+                        <provenance type="observed">Inside the church, built into the north wall of the west tower (SN 4188 4068).
                         </provenance>
                     </history>
                 </msDesc>
@@ -125,6 +130,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-06-30" who="#MK">Megan Kasten edited formatting and added information to match OG(H)AM formatting. </change>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
     <change when="2023-07-27" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>    
+        <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,14 +151,16 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <p><foreign xml:lang="la">Velvor...</foreign>daughter of <foreign xml:lang="pgl">Broho</foreign></p>
             </div>
             <div type="commentary">
-                <p>VELVOR can be compared with VELVE, VELVALIS and VELVINNA. VELVOR[IA] is therefore a sensible reconstruction given the previous comparisons, <q>with <hi rend="italic">-o-ria</hi> being the feminine latinized equivalent of celtic <hi rend="italic">-o-rix</hi><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">161</citedRange></bibl>.</q> It is one of a small group commemorating women, in this case using filia 'daughter' in the nominative case. <q>BROHO is no doubt the same welsh name as BROHOMAGLI and BROHCMAIL.<bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">161</citedRange></bibl>.</q> No ogam is visible on the stone; the inscription is entirely in Latin script.</p>
+                <p>VELVOR can be compared with VELVE, VELVALIS and VELVINNA. VELVOR[IA] is therefore a sensible reconstruction given the previous comparisons, <q>with <hi rend="italic">-o-ria</hi> being the feminine latinized equivalent of celtic <hi rend="italic">-o-rix</hi> (Edwards 2007, 161).</q> It is one of a small group commemorating women, in this case using filia 'daughter' in the nominative case. <q>BROHO is no doubt the same welsh name as BROHOMAGLI and BROHCMAIL.(Edwards 2007, 161).</q> No ogam is visible on the stone; the inscription is entirely in Latin script.</p>
             </div>
             <div type="bibliography">
-                <p><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">159-161</citedRange></bibl></p>
+                <p><bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">159-161</citedRange>
+                </bibl></p>
             </div>
         </body>
     </text>

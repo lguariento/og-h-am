@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-CAE-001</idno>
                  <idno type="CIIC">380</idno>
-                <idno type="CISP">BRYNK/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/brynk_1.html">BRYNK/1</idno>
                 <idno type="WelshCorpus">CN18</idno>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/172332">172332</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -43,8 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>Set into the stone wall on the south side of the farmyard west of the farmhouse (SH 4821 4553)</repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -66,23 +67,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a Roman-letter inscription in three lines at the top of the face, justified to the right, reading horizontally. The stone is also inscribed with an Ogham inscription on the right edge of the Roman-letter inscribed face beginning about halfway to the top of the stone continuing over the top, reading vertically upwards. The Welsh Corpus notes that <q>the combination of a horizontal roman-letter inscription with ogam is unusual but is paralleled on Clocaenog 1 (D1), Castell Dwyran 1 (CM3) and Nevern 2 (P71). The placement of the ogam inscription on the right angle...is also more unusual that the left but is paralleled in the north on Llanfaelog (AN13)...the positioning of the roman-letter inscription towards the right angle of the stone where the ogam is located is surely intentional since it signals a relationship between the two</q> (Edwards 2013, 272).The Ogham inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> with a <rs type="excution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html"> punch</rs> (Edwards 2013, 270-1).</layout>
+                                <layout style="vertical" rend="arris_upR">The stone is inscribed with a Roman-letter inscription in three lines at the top of the face, justified to the right, reading horizontally. The stone is also inscribed with an Ogham inscription on the right edge of the Roman-letter inscribed face beginning about halfway to the top of the stone continuing over the top, reading vertically upwards. The Welsh Corpus notes that <q>the combination of a horizontal roman-letter inscription with ogam is unusual but is paralleled on Clocaenog 1 (D1), Castell Dwyran 1 (CM3) and Nevern 2 (P71). The placement of the ogam inscription on the right angle...is also more unusual that the left but is paralleled in the north on Llanfaelog (AN13)...the positioning of the roman-letter inscription towards the right angle of the stone where the ogam is located is surely intentional since it signals a relationship between the two</q> (Edwards 2013, 272).The Ogham inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> with a <rs type="excution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html"> punch</rs> (Edwards 2013, 270-1).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> The Roman-letter inscription is <q>set out unevenly...in capitals with miniscule S...R has an open loop and the diagonal is seperate; the diagonals of V in line 1 do not meet and touch the horizontal bar of the T in line 2; the tail of the S likewise touches the top of the I below; the diagonal of the N in line 2 veers slightly towards the horizontal</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">270-1</citedRange>.</bibl>
+                            <handNote>The Roman-letter inscription is <q>set out unevenly...in capitals with miniscule S...R has an open loop and the diagonal is seperate; the diagonals of V in line 1 do not meet and touch the horizontal bar of the T in line 2; the tail of the S likewise touches the top of the I below; the diagonal of the N in line 2 veers slightly towards the horizontal</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">270-1</citedRange>.</bibl>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Dolbenmaen</placeName>
-                                <geo>52.983411, -4.261431</geo></origPlace>
+                            <origPlace><placeName type="parish">Dolbenmaen</placeName>, <placeName type="county">Caithness</placeName> <placeName type="country">Wales</placeName>
+                                <geo>52.983411, -4.261431</geo>
+                            <note>National Grid Reference: SH 4828 4529</note></origPlace>
                             <origDate notBefore="0470" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic">Late fifth or earlier sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found" when="1901">First found 1901 when removed to avoid obstructing a gateway approximately 300m north-north-east of Pen Llystyn Roman fort. Ogham was discovered 1903 when it was moved and set the right way up.
                         </provenance>
-                        <provenance type="observed">Set into the stone wall on the south side of the farmyard west of the farmhouse (SH 4821 4553)
+                        <provenance type="observed">Set into the stone wall on the south side of the farmyard west of the farmhouse (SH 4821 4553).
                         </provenance>
                     </history>
                 </msDesc>
@@ -123,6 +125,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-07-19" who="#MK">Megan Kasten edited formatting to adhere to OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
 <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, bibliography, added paragraph for support section</change>
+<change when="2025-03-31" who="#POC">Added CISP and TM links, added county and country to origPlace, added NGR coordinates</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -162,10 +165,10 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                <p>Latin: (of?) <foreign xml:lang="pgl">Icorix</foreign>, son of <foreign xml:lang="pgl">Potentinus</foreign></p>
+                <p>Latin: '(of?) <foreign xml:lang="pgl">Icorix</foreign>, son of <foreign xml:lang="pgl">Potentinus'</foreign></p>
                 </div>
                 <div type="textpart" n="2">
-                    <p>Ogham: of <foreign xml:lang="pgl">Icorix</foreign></p>
+                    <p>Ogham: 'of <foreign xml:lang="pgl">Icorix</foreign>'</p>
                 </div>
             </div>
             <div type="commentary">
