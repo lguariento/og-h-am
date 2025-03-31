@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Moynagh Lough</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Megan Kasten</name>
+                     <orgName>Glasgow University</orgName>
+                <resp>Recorded using photogrammetry and RTI <date when="2022-02-17"></date></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MEA-003</idno>
+                 <idno type="CIIC"/>                 
+                 <idno type="TM"/>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>NMI</repository>
+                        <idno type="invNo">RIA 1889:13</idno>
+                         <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="sga-Ogam">Probably Old Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material type="antler">Antler tine</material> 
+                                    <objectType ref="portableObject">Leather working tool</objectType> 
+                                    <dimensions unit="mm"> <!--Megan re measurements from 3d-->
+                                        <height>63.50</height>
+                                        <width>19.00</width>
+                                        </dimensions>
+                                </support>
+                                <condition>Worked red deer antler tine, cylindrical with a slight curve. It is distinctively pen shaped at one end with a notched tip, which helped to identify the object as a leather working tool, with parallels in the collection of the National Museum of Scotland.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="stemline">Two sides of the object have ogham characters running along the length. On one side (1) a natural ridge is used as a stem-line but on the other (2) a stem-line is carved for the ogham characters.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham strokes are very finely cut and are especially faint on the back (2) (the side that doesn't have the shaped tip). According to Holder's unpublished catalogue (1994, 10–11), the two inscriptions were made with different instruments. The strokes of the former are between <width>0.25–0.5</width>mm wide, whereas those of no. 2 are much finer (<width>0.1</width>mm). The vowel strokes are not short notches like on the arris of a stone, but with half-length strokes, occupying the “1/2 band” of ogham strokes (Forsyth 1996, xxxiv f., xliv-xlv).<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin corresp="#findspot">
+                            <origPlace><placeName type="townland">Brittas</placeName> (<placeName type="lake">Moynagh Lough</placeName>) 
+                                <placeName type="county">Meath</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>53.817650, -6.755644</geo>
+                            <note>(approximate loaction)</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1884">Discovered in 1884  at the site of a crannog at Moynagh Lough (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">ME005-088001-</ref>), very close to the townland (Brittas, Moynagh and Nobber) and parish (Nobber and Castletown) boundary. Found by a local farmer, Owen Smith, who sent the tine to Charles Graves, bishop of Limerick. A report by Graves was read to the Royal Irish Academy on 24 June 1889 (Graves 1888–91).
+                        </provenance>
+                        <provenance type="observed" when="2023">In the National Museum of Ireland where it was examined and recorded by the OG(H)AM team in November 2023.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc>
+<p>Encoded following the latest EpiDoc guidelines</p>
+<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage><!--
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>    -->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2025-03-31" who="#NW">Created file for Moynagh Lough antler tine, adding content from various sources to the latest template file.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"><desc>Image by Megan Kasten</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" resp="#NW">
+            <ab>
+                    <lb n="1"/>ᚉᚑᚂᚑᚏᚏᚄ
+                    <lb n="2"/><g ref="#forfid_X"/>ᚔᚁᚐᚅᚄᚅᚐᚃᚊᚒ
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1"/>COLORRS 
+                    <lb n="2"/>XIBANSNAVQU
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1"><note>It is unclear if this is one continuous text on two sides or two unrelated texts.</note></app>
+                <app n="2"><note>As the object is damaged at the end there may have been more strokes after the U, which could even be the remains of an E or I.</note></app>
+                </listApp>
+            </div>
+            <div type="translation"/>
+                
+            
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="BRA1994"/>
+                        <citedRange>7</citedRange>
+                    </bibl>
+                    <bibl><ptr target="FOR1996"/>
+                        <citedRange>xxxiv f., xliv-xlv</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
