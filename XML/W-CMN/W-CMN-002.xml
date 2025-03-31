@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-CMN-002</idno>
                 <idno type="CIIC">378</idno>
-                <idno type="CISP">LWNIO/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/lwnio_1.html">LWNIO/1</idno>
                 <idno type="WelshCorpus">CM34</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168578">168578</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>Carmarthen Museum, Abergwili</repository>
                         <idno type="invNo">acc no A76.35.34</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.86552422655497, -4.265972349294659</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -56,8 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">3943</idno>St Gwinio's Church</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType> comprised of <q>dark grey gabbro, 20 per cent feldspar phenocrysts, 5 per cent of which are weathered, much chlorite. Weathered surface is light brown (7.5YR 6/2 - 6/4).</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">264</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">3943</idno> St Gwinio's Church</p>
+                                    <material type="stone">Dark grey gabbro</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>comprised of <q>dark grey gabbro, 20 per cent feldspar phenocrysts, 5 per cent of which are weathered, much chlorite. Weathered surface is light brown (7.5YR 6/2 - 6/4).</q> (Edwards 2007, 264).</note>
                                     <dimensions unit='m'>
                                         <height>1.14</height>
                                         <width>0.38</width>
@@ -67,24 +72,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><q>A roman-letter, Latin inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using very broad lines, in three lines reading vertically downwards (from the original top of the monument)...</q> Two <q>...incomplete ogam inscriptions are deeply incised, using broad strokes, along the original right (A/B) and left (A/D) angles of the face, both reading upwards from the original base... The ogam inscriptions are positioned so that the corresponding words are near their roman equivalents... The short central stroke of the second V on the left side suggests that the ogam inscription was cut after and shortened so as to avoid line 3 of the roman inscription.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">264-267</citedRange></bibl>.</layout>
+                                <layout style="vertical" rend="arris_up-up"><q>A roman-letter, Latin inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using very broad lines, in three lines reading vertically downwards (from the original top of the monument)...</q> Two <q>...incomplete ogam inscriptions are deeply incised, using broad strokes, along the original right (A/B) and left (A/D) angles of the face, both reading upwards from the original base... The ogam inscriptions are positioned so that the corresponding words are near their roman equivalents... The short central stroke of the second V on the left side suggests that the ogam inscription was cut after and shortened so as to avoid line 3 of the roman inscription</q> (Edwards 2007, 264-267).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The roman-letter inscription <q>...is in capitals... the letters in line 3 are smaller than the rest, owing to a lack of space. Three of the I's have triangular serifs. In line 1 VA are ligatured and the stroke of the V joins the A at the level of the crossbar; the second I is horizontal. In line 2 the A and V are rather rounded and the V is placed diagonally; the second B has separate loops. The V in line 3 is flattened and slightly rounded.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">264-265</citedRange></bibl>.
+                            <handNote>The roman-letter inscription <q>...is in capitals... the letters in line 3 are smaller than the rest, owing to a lack of space. Three of the I's have triangular serifs. In line 1 VA are ligatured and the stroke of the V joins the A at the level of the crossbar; the second I is horizontal. In line 2 the A and V are rather rounded and the V is placed diagonally; the second B has separate loops. The V in line 3 is flattened and slightly rounded</q> (Edwards 2007, 264-265).
                                 <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Llanwinio</placeName>
-                                <geo>51.909456, -4.529550</geo></origPlace>
+                            <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6192f338-6461-450a-a45c-02bb13967c42"><foreign xml:lang="cy">Llanwinio</foreign></ref></placeName>, <placeName type="county">Carmarthenshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.909456, -4.529550</geo>
+                            <note>National Grid Reference: SN 2610 2646</note></origPlace>
                             <origDate notBefore="0500" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">First half of sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Ogham first reading by G G Francis in 1867. Stone was found in the churchyard in 1846 while digging foundations for the new church, close to the west wall of the previous building
                         </provenance>
-                        <provenance type="observed">Carmarthen Museum, Abergwili (acc no A76.35.34)
+                        <provenance type="observed">Carmarthen Museum, Abergwili (acc no A76.35.34).
                         </provenance>
                     </history>
                 </msDesc>
@@ -123,6 +129,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-07-17" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-24" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+        <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -134,54 +141,55 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#BIVADIAS"> &#x1681;<choice><unclear reason="faded">&#x1694;</unclear><unclear reason="faded">&#x1693;</unclear></choice>&#x1683;&#x1683;<gap reason="illegible" extent="unknown"></gap></name>
                     <lb n="2" style="text-direction:up"/><w>&#x1690;&#x1683;&#x1683;&#x1694;</w><name nymRef="#BODIBIVAS">&#x1681;&#x1691;&#x1687;&#x1687;&#x1694;<gap reason="illegible" extent="unknown"></gap></name></persName>
                 </ab>
               </div>
             </div>
-                 <div type="edition" subtype="roman" xml:space="preserve">
-                    <div type="textpart" n="2" xml:lang="pgl-Latn">
-                <ab><title>Latin</title>:
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#BIVADIAS">BI<hi rend="ligature">VA</hi>D<hi rend="inverted">I</hi></name>
-                    <lb n="2" style="text-direction:down"/><w>AVI</w><name nymRef="#BODIBIVAS">BODIBE
-                    <lb n="3" style="text-direction:down"/>VE</name></persName>
-                </ab>
-               </div>
-            </div>            
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                 <div type="textpart" n="1">
-                    <ab><title>Ogham</title>:
+                    <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#BIVADIAS">B<choice><unclear reason="faded" extent="1" unit="character">I</unclear><unclear reason="faded" extent="1" unit="character">E</unclear></choice>VV<gap reason="illegible" extent="unknown"></gap></name>
                     <lb n="2" style="text-direction:up"/><w>AVVI</w><name nymRef="#BODIBIVAS">BODDI</name><gap reason="illegible" extent="unknown"></gap></persName>
                     </ab>
                 </div>
                </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#BIVADIAS">BI<hi rend="ligature">VA</hi>D<hi rend="inverted">I</hi></name>
+                    <lb n="2" style="text-direction:down"/><w>AVI</w><name nymRef="#BODIBIVAS">BODIBE
+                    <lb n="3" style="text-direction:down"/>VE</name></persName>
+                </ab>
+               </div>
+            </div>          
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: B<choice><unclear reason="faded">i</unclear><unclear reason="faded">e</unclear></choice>vv<gap reason="illegible" extent="unknown"></gap>... grandson (or descendant) of Boddi...</p>
+                    <p><title>Ogham</title>: 'B<choice><unclear reason="faded">i</unclear><unclear reason="faded">e</unclear></choice>vv<gap reason="illegible" extent="unknown"></gap>... grandson (or descendant) of Boddi...'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: Of<foreign xml:lang="pgl">Bivadus</foreign> grandson (or descendant) of <foreign xml:lang="pgl">Bodibeve</foreign></p>
+                  <p><title>Latin</title>: 'Of<foreign xml:lang="pgl">Bivadus</foreign> grandson (or descendant) of <foreign xml:lang="pgl">Bodibeve</foreign>'</p>
             </div>
             <div type="commentary">
-                    <list type="witDetail">
-                        <item n="1">
-                        <p>The ogam inscription is a variant of the 'X son of Y' formula. Enough survives <q>...to demonstrate that the ogam inscriptions are broadly the same as the roman, but the forms of the names are slightly different and <hi rend="italic">avi</hi> is spelt <hi rend="italic">avvi</hi>... The names are both Irish. ...Both Llanwinio names contain the popular Insular Celtic name-element 'living (OI <hi rend="italic">béo</hi>, W. <hi rend="italic">byw</hi>. ...Probably, however, it is a preform of the attested Old Irish masculine o-stem name <hi rend="italic">Búaidbéo</hi>, in which case -E represents the Irish or Latin genitive -I... Linguistically it is not possible to choose between -BEV- and -BIV- wherever the readings are unclear, since both are possible...</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">264-267</citedRange></bibl>.</p></item>
-                    <item n="2">
-                        <p><q>The roman-letter, Latin inscription uses a variant of the 'X son of Y' formula in the genitive case with <hi rend="italic">avi</hi> rather than <hi rend="italic">fili</hi>... <hi rend="italic">Avi</hi>, meaning 'grandson' or 'descendant', is a straight transliteration of the primitive Irish found in the ogam <hi rend="italic">avvi</hi>, rather than a Latin translation <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">264-267</citedRange></bibl><bibl><ptr target="JAC1953"/>Jackson 1953<citedRange unit="page">180-181</citedRange></bibl> </q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">264-267</citedRange></bibl>.</p></item>
-                </list>
+                        <p>The ogam inscription is a variant of the 'X son of Y' formula. Enough survives <q>...to demonstrate that the ogam inscriptions are broadly the same as the roman, but the forms of the names are slightly different and <hi rend="italic">avi</hi> is spelt <hi rend="italic">avvi</hi>... The names are both Irish. ...Both Llanwinio names contain the popular Insular Celtic name-element 'living (OI <hi rend="italic">béo</hi>, W. <hi rend="italic">byw</hi>. ...Probably, however, it is a preform of the attested Old Irish masculine o-stem name <hi rend="italic">Búaidbéo</hi>, in which case -E represents the Irish or Latin genitive -I... Linguistically it is not possible to choose between -BEV- and -BIV- wherever the readings are unclear, since both are possible...</q> (Edwards 2007, 264-267).</p>
+                        <p><q>The roman-letter, Latin inscription uses a variant of the 'X son of Y' formula in the genitive case with <hi rend="italic">avi</hi> rather than <hi rend="italic">fili</hi>... <hi rend="italic">Avi</hi>, meaning 'grandson' or 'descendant', is a straight transliteration of the primitive Irish found in the ogam <hi rend="italic">avvi</hi>, rather than a Latin translation (Edwards 2007, 264-267; Jackson 1953, 180-181)</q>.</p>
                     </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                    <bibl><ptr target="CHA1993"/>Charles-Edwards 1993<citedRange unit="page">149</citedRange></bibl>
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">264-267</citedRange></bibl>
-                    <bibl><ptr target="JAC1953"/>Jackson 1953<citedRange unit="page">180-181</citedRange></bibl>
+                    <bibl><ptr target="CHA1993"/>
+                        <citedRange unit="page">149</citedRange>
+                    </bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">264-267</citedRange>
+                </bibl>
+                    <bibl><ptr target="JAC1953"/>
+                        <citedRange unit="page">180-181</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

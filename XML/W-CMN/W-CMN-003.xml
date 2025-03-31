@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-CMN-003</idno>
                 <idno type="CIIC">368</idno>
-                <idno type="CISP">LDWKE/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/ldwke_1.html">LDWKE/1</idno>
                 <idno type="WelshCorpus">CM15</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172302">172302</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -44,7 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Wales</country>
                         <repository>Church of St. Oudoceus</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo">51.773274775505776, -4.490580362689339</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -55,8 +59,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://archwilio.org.uk/">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">3906</idno> Church of St Oudoceus (Euddogwy))</p>
-                                    <material type="stone">Pinkish-grey sandstone with quartz content</material> <note><q>Fine, well-sorted, pinkish-grey (7.5YR 6/2) sandstone with quartz content. Local bedrock. Red marl and sandstone</q> (Edwards 2007, 232).</note>
+                                <support><p><ref target="https://archwilio.org.uk/">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">3906</idno> Church of St Oudoceus (Euddogwy)</p>
+                                    <material type="stone">Pinkish-grey sandstone with quartz content</material> 
+                                    <note><q>Fine, well-sorted, pinkish-grey (7.5YR 6/2) sandstone with quartz content. Local bedrock. Red marl and sandstone</q> (Edwards 2007, 232).</note>
                                     <objectType key="monument">Slab</objectType>  
                                     <dimensions unit='m'>
                                         <height>1.38</height>
@@ -66,19 +71,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone inscribed with a roman-letter inscription in three lines reading vertically downwards. Lines 1 and 2 are present on the face of the stone (A); line 3 is on its left-side face (D) behind line 1 of the ogham inscription. The gham inscription is independent of the roman-letter inscription and is present in two lines, both reading vertically upwards. Line 2 begins around halfway up the right-hand edge of the stone (A/B) and terminates at the top right-hand corner, where the fourth stroke of the final S is missing due to the fracture of the stone; line 1 is present on the left-hand corner of the stone (A/D) but the extent of the inscription is unclear due to significant damage on this side of the stone. The inscriptions are described as being worn, and incised with visible <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html"> punchmarks</rs> (Edwards 2007, 232-233).</layout>
+                                <layout style="vertical" rend="arris_up-up">The stone inscribed with a roman-letter inscription in three lines reading vertically downwards. Lines 1 and 2 are present on the face of the stone (A); line 3 is on its left-side face (D) behind line 1 of the ogham inscription. The gham inscription is independent of the roman-letter inscription and is present in two lines, both reading vertically upwards. Line 2 begins around halfway up the right-hand edge of the stone (A/B) and terminates at the top right-hand corner, where the fourth stroke of the final S is missing due to the fracture of the stone; line 1 is present on the left-hand corner of the stone (A/D) but the extent of the inscription is unclear due to significant damage on this side of the stone. The inscriptions are described as being worn, and incised with visible <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punchmarks</rs> (Edwards 2007, 232-233).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Of the roman-letter inscription, <q>Line 1 is very evenly set out but the letters at the end of line 2 and those in line 3 are significantly smaller than the rest. The A's have an angle-bar; E's have clubbed serifs; R's have open loops and slightly shortened diagonals. In line 1 the final I is horizontal. In line 2 FI are conjoined and the I is small; S is reversed.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">233</citedRange></bibl> On the Ogham inscription, <q>the V in line 1 of the roman inscription incorporates the second diagonal bar of the ogam D... and the second R overlies the diagonal stroke of the M... The T in line 3 of the roman inscription... cuts through the last three strokes of the ogam Q.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">232-234</citedRange></bibl>.
+                            <handNote>Of the roman-letter inscription, <q>Line 1 is very evenly set out but the letters at the end of line 2 and those in line 3 are significantly smaller than the rest. The A's have an angle-bar; E's have clubbed serifs; R's have open loops and slightly shortened diagonals. In line 1 the final I is horizontal. In line 2 FI are conjoined and the I is small; S is reversed</q> (Edwards 2007, 233). On the Ogham inscription, <q>the V in line 1 of the roman inscription incorporates the second diagonal bar of the ogam D... and the second R overlies the diagonal stroke of the M... The T in line 3 of the roman inscription... cuts through the last three strokes of the ogam Q</q> (Edwards 2007, 232-234).
                                 <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Llandawke</placeName>
-                                <geo>51.773147, -4.490461</geo></origPlace>
+                            <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/f29e8abd-0eec-4498-8a49-a0bc8707b220"><foreign xml:lang="cy">Llandawke</foreign></ref></placeName>, <placeName type="county">Carmarthenshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.773147, -4.490461</geo>
+                            <note>National Grid Reference: SN 2827 1121</note></origPlace>
                             <origDate notBefore="0400" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">Fifth century or first half of the sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Ogham was not noticed until Rhys provided a reading of the ogham in 1874. According to Welsh Corpus, Roman inscription was recorded in 1695 by Lhuyd, next reported by AJK In 1838. 
@@ -124,6 +130,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
         <change when="2023-07-27" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, bibliography, added paragraph to support</change>
+        <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -135,39 +142,37 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w>&#x168B;<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2" style="text-direction:up" break="yes"/><persName><name nymRef="#DUMELAIDU">&#x1687;&#x1692;&#x168B;&#x1693;&#x1682;&#x1693;&#x1687;&#x1691;&#x1685;&#x1690;<unclear reason="worn">&#x1684;</unclear></name></persName>
                 </ab>
               </div>
             </div>
-                 <div type="edition" subtype="roman" xml:space="preserve">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
+                    <ab>
+                        <lb n="1" style="text-direction:up" break="no"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w>M<gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2" style="text-direction:across"/><persName><name nymRef="#DUMELAIDU">DUMELEDONA<unclear reason="worn">S</unclear></name></persName>
+                    </ab>
+               </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
-                <ab><title>Latin</title>:
+                <ab>
                     <lb n="1"/><persName><name>BARRIVEND<hi rend="inverted">I</hi></name>
                     <lb n ="2"/><w><hi rend="ligature">FI</hi>LIV<hi rend="reversed">S</hi></w><space quantity="1" unit="character"></space><name>VENDVBARI</name></persName>
                     <lb n ="3"/><w>HIC</w><w>IACIT</w>
                 </ab>
                </div>
             </div>            
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
-                <div type="textpart" n="1">
-                    <ab><title>Transcription</title>:
-                        <lb n="1" style="text-direction:up" break="no"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w>M<gap reason="lost" extent="unknown" unit="character"/>
-                        <lb n="2" style="text-direction:across"/><persName><name nymRef="#DUMELAIDU">DUMELEDONA<unclear reason="worn">S</unclear></name></persName>
-                    </ab>
-                </div>
-               </div>
             <div type="apparatus">
                 <p></p>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                <p><title>Ogham</title>: son of... of Dumel(a)edu.</p>
+                <p><title>Ogham</title>: 'son of... of Dumel(a)edu.'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>:of <foreign xml:lang="pgl">Barrivendus</foreign> son of <foreign xml:lang="pgl">Vendubarus</foreign>, here he lies.</p>
+                  <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Barrivendus</foreign> son of <foreign xml:lang="pgl">Vendubarus</foreign>, here he lies.'</p>
             </div>
             <div type="commentary">
                         <p><q>It is usual for ogam inscriptions to read up the left angle and then down the right. Here the inscription reads up both angles... Because the ogam inscription is incomplete, the reading is unclear. MAQI is clear. The second M- might be the beginning of <hi rend="italic">m[ucoi]</hi> ('of the kindred of')... Only the first three strokes of the S of DUMELEDONA[S] are visible, but this is the only reading which would make sense... It is a personal name, <hi rend="italic">Dunmel(a)edu</hi>, in the genitive case. The ogam inscription might be translated as 'of X son of the kindred of Dumel(a)edu (as suggested by Macalister (1945, 351-352), CIIC: no 368). The first element of the genitive DUMELEDONAS [from] <hi rend="italic">*Dumel-aidonas</hi>, '(posessing) bitter fire', is the same as in DVMELVS, 'not sweet, bitter' on Llandewibrefi 1 (CD8) and cognates cited there. The second element is the oblique stem <hi rend="italic">*Aeðon-</hi> of the popular Irish name <hi rend="italic">Áed</hi>, 'fire' (from which the rare Welsh name Aeddon may be borrowed)</q> (Edwards 2007, 234).</p>

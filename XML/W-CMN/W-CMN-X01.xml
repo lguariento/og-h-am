@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-CMN-X01</idno>
                  <idno type="CIIC">364</idno>
-                <idno type="CISP">HENLL/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/henll_1.html">HENLL/1</idno>
                 <idno type="WelshCorpus">CM9</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172356">172356</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -44,7 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                         <country>Wales</country>
                         <repository>Henllan Amgoed</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo">51.8495906212298, -4.644609086245746</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>rejected monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">3740</idno>Parciau (Parke)</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType> of <q>spotted dolerite with 5-10 per cent albitized feldspar phenocrysts (1-10mm).</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">219-220</citedRange></bibl>.
+                                <support><p><term>rejected monument</term> <ref target="https://archwilio.org.uk/">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">3740</idno> Parciau (Parke)</p>
+                                    <material type="stone">Spotted dolerite</material> <note><q>Spotted dolerite with 5-10 per cent albitized feldspar phenocrysts (1-10mm)</q> (Edwards 2007, 219-220).</note>
+                                    <objectType key="monument">Pillar</objectType> 
                                     <dimensions unit='m'>
                                         <height>1.48</height>
                                         <width>0.56</width>
@@ -64,24 +69,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout> The stone is inscribed with a roman-letter inscription in two lines reading vertically downwards. The inscription begins nearly halfway down the face of the stone and is described as <q>quite deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html"> incised. </rs></q> No Ogham is present on the stone.<bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">219</citedRange></bibl>.</layout>
+                                <layout>The stone is inscribed with a roman-letter inscription in two lines reading vertically downwards. The inscription begins nearly halfway down the face of the stone and is described as <q>quite deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html"> incised. </rs></q> No Ogham is present on the stone (Edwards 2007, 219).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <q>The inscription is in capitals... except for miniscule Q, which has an open loop. The A's have angle-bars and the I's at the ends of both lines are horizontal. In line 2 FI and LI are conjoined and the I's are of small size; the top horizontal of the F slopes upward and the bottom downward; L has a downward sloping horizontal; B has separate loops and R has an extended vertical... The combination of letter-forms... together with the post-syncope name forms, suggests the inscription is late in the series.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">219</citedRange></bibl>.                                
+                            <handNote><q>The inscription is in capitals... except for miniscule Q, which has an open loop. The A's have angle-bars and the I's at the ends of both lines are horizontal. In line 2 FI and LI are conjoined and the I's are of small size; the top horizontal of the F slopes upward and the bottom downward; L has a downward sloping horizontal; B has separate loops and R has an extended vertical... The combination of letter-forms... together with the post-syncope name forms, suggests the inscription is late in the series</q> (Edwards 2007, 219).                                
                                 <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Henllan Amgoed</placeName>
-                                <geo>51.845989, -4.650858</geo></origPlace>
-                            <origDate notBefore="0550" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic"> Second half of the sixth century A.D.</origDate>
+                            <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/d2fd482d-5804-4570-b658-748ca28e1b06"><foreign xml:lang="cy">Henllan Amgoed</foreign></ref></placeName>, <placeName type="county">Carmarthenshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.845989, -4.650858</geo>
+                            <note>National Grid Reference: SN 175 197</note></origPlace>
+                            <origDate notBefore="0550" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Second half of the sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Stone was first discovered by Lhuyd, but Macalister seems to be the first to suggest Ogham. Says in 1922 that he saw a line of ogham reflecting the Latin inscription, but that the second time he visited it had been disintegrated apart from a few hollows left over. McManus dismisses this as 'imaginary'.
                         </provenance>
-                        <provenance type="observed">Northwest of the farmhouse
+                        <provenance type="observed">Northwest of the farmhouse.
                         </provenance>
                     </history>
                 </msDesc>
@@ -121,6 +127,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
        <change when="2023-07-11" who="#MK">Megan Kasten edited information and formatting to adhere to OGHAM standards.</change>
        <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
        <change when="2023-07-27" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+<change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -140,22 +147,23 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 <p></p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>of <foreign xml:lang="pgl">Quenvendanus</foreign> son of <foreign xml:lang="pgl">Barcunus</foreign></p>
+                <p>'of <foreign xml:lang="pgl">Quenvendanus</foreign> son of <foreign xml:lang="pgl">Barcunus</foreign>'</p>
             </div>
             <div type="commentary">
-                <list type="witDetail">
-                        <item n="1">
-                <p><q>The inscription uses the 'X son of Y' formula in the genitive case. There is no corresponding ogam inscription... Both names are Irish and relatively late (post-syncope). QVENVENDANI (genitive) is a later form of the name seen in Ireland in ogam on <bibl><ptr target ="MAC1945"/>Macalister 1945<citedRange unit="page">3-4</citedRange></bibl>CIIC: no 2 QENOVENDAGNI... the ancestor of Irish <hi rend="italic">Cennf(h)innán</hi>, 'white-headed one'... BARCVNI is a Latinized genitive of the ancestor of the Old Irish name <hi rend="italic">Barrchú</hi>, 'dog-head' (although theoretically it could be a British name <hi rend="italic">*Bargwn).</hi></q><bibl><ptr target ="EDW2007"/> Edwards 2007<citedRange unit="page">219</citedRange></bibl>.</p></item>  
-                      <item n="2">
-                <p><bibl><ptr target ="MAC1922"/>Macalister 1922</bibl>suggested Ogham: --]NVENDANIM[--]B[-]R[--Latin: QVENVENDANI; FILIBARCVUNI</p></item>  
-                </list>
+                <p><q>The inscription uses the 'X son of Y' formula in the genitive case. There is no corresponding ogam inscription... Both names are Irish and relatively late (post-syncope). QVENVENDANI (genitive) is a later form of the name seen in Ireland in ogam on (Macalister 1945, 3-4 CIIC: no 2) QENOVENDAGNI... the ancestor of Irish <hi rend="italic">Cennf(h)innán</hi>, 'white-headed one'... BARCVNI is a Latinized genitive of the ancestor of the Old Irish name <hi rend="italic">Barrchú</hi>, 'dog-head' (although theoretically it could be a British name <hi rend="italic">*Bargwn).</hi></q> (Edwards 2007, 219).</p>
+                <p>Macalister (1922) suggested Ogham: --]NVENDANIM[--]B[-]R[--Latin: QVENVENDANI; FILIBARCVUNI</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>
-                <bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">219-220</citedRange></bibl>    
-                    <bibl><ptr target ="MAC1922"/>Macalister 1922<citedRange unit="page">32</citedRange></bibl>
-                    <bibl><ptr target ="MAC1945"/>Macalister 1945<citedRange unit="page">3-4</citedRange></bibl>
+                <bibl><ptr target ="EDW2007"/>
+                    <citedRange unit="page">219-220</citedRange>
+                </bibl>    
+                    <bibl><ptr target ="MAC1922"/>
+                        <citedRange unit="page">32</citedRange>
+                    </bibl>
+                    <bibl><ptr target ="MAC1945"/>
+                        <citedRange unit="page">3-4</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
