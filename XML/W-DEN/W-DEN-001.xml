@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-DEN-001</idno>
                  <idno type="CIIC">399</idno>
-                <idno type="CISP">CLOCG/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/clocg_1.html">CLOCG/1</idno>
                 <idno type="WelshCorpus">D1</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172239">172239</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>National Museum Wales</repository>
                         <idno type="invNo">acc no NMW 36.473</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.4858323212485, -3.176871357672119</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -55,9 +59,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> 
-CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk/her/"><idno type="HER">100755</idno>Bryn y Beddau</ref>
-                                    <material>stone</material> <objectType>block</objectType>, described as <q>coarse-grained, quartz-dominated sandstone, which is pale grey but has weathered to a slightly darker grey</q> likely locally derived <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">316</citedRange></bibl>. 
+                                <support><p><term>monument</term> 
+<ref target="https://archwilio.org.uk/her/">CPAT Regional Historic Environment Record</ref>: <idno type="HER">100755</idno> Bryn y Beddau</p>
+                                    <material type="stone">Sandstone</material> <objectType key="monument">block</objectType> <note>Described as <q>coarse-grained, quartz-dominated sandstone, which is pale grey but has weathered to a slightly darker grey</q> likely locally derived (Edwards 2013, 316).</note> 
                         <dimensions unit="m">
                             <height>1.95</height>
                             <width>0.60</width>
@@ -65,22 +69,23 @@ CPAT Regional Historic Environment Record: <ref target="https://archwilio.org.uk
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a Roman-letter inscription in two lines, reading horizontally, approximately half-way down the stone. The stone is also inscribed with an Ogham inscription on the left and right edge of the Roman-letter inscribed face. The combination of a horizontal Roman-letter inscription with an Ogham inscription is unusual but not unprecedented. Welsh parallels include Dolbenmaen 2 (CN18), Castell Dwyran 1(CM3) and Nevern 2 (P71) <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">317</citedRange></bibl>. The placement of the Ogham inscription, running up both to the right and left of the main face, is unusual but paralleled elsewhere in Wales such as Eglwys Gymyn 1 (CM7) and Llanwinio 1 (CM34). Both Ogham inscriptions read vertically upwards and are presumed to read in the order left then right. Both the Roman-letter and the Ogham inscription are <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">316-7</citedRange></bibl>. </layout>
+                                <layout style="vertical" rend="arris_up-up">The stone is inscribed with a Roman-letter inscription in two lines, reading horizontally, approximately half-way down the stone. The stone is also inscribed with an Ogham inscription on the left and right edge of the Roman-letter inscribed face. The combination of a horizontal Roman-letter inscription with an Ogham inscription is unusual but not unprecedented. Welsh parallels include Dolbenmaen 2 (CN18), Castell Dwyran 1(CM3) and Nevern 2 (P71) (Edwards 2013, 317). The placement of the Ogham inscription, running up both to the right and left of the main face, is unusual but paralleled elsewhere in Wales such as Eglwys Gymyn 1 (CM7) and Llanwinio 1 (CM34). Both Ogham inscriptions read vertically upwards and are presumed to read in the order left then right. Both the Roman-letter and the Ogham inscription are <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> (Edwards 2013, 316-7). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The Roman letters are described as <q>small neat capitals...In line 1, S is slightly angular with triangular terminals; the lines of M are widely spaced and the diagonals meet above the line; the horizontal of L slopes downwards. In line 2, TO and CI are conjoined</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">317</citedRange></bibl></handNote>
+                            <handNote>The Roman letters are described as <q>small neat capitals...In line 1, S is slightly angular with triangular terminals; the lines of M are widely spaced and the diagonals meet above the line; the horizontal of L slopes downwards. In line 2, TO and CI are conjoined</q> (Edwards 2013, 317).</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Clocaenog</placeName>
-                                <geo>53.067967, -3.415525</geo></origPlace>
-                            <origDate notBefore="0470" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic">later fifth or early sixth century A.D></origDate>
+                            <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6903fb0c-b7c1-41bd-99ec-353670017de2"><foreign xml:lang="cy">Clocaenog</foreign></ref></placeName>, <placeName type="county">Denbighshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>53.067967, -3.415525</geo>
+                            <note>National Grid Reference: SJ 0525 5324</note></origPlace>
+                            <origDate notBefore="0470" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic">Later fifth or early sixth century A.D></origDate>
                         </origin>
                         <provenance type="found">First noted by Camden in 1594; John Lloyd recorded it and the ogham ('strokes on edges'), and sent mention to Edward Lhuyd in 1693. Published in 1848. Rhys publishes a reading in 1874.
                         </provenance>
-                        <provenance type="observed">National Museum Wales (acc no NMW 36.473)
+                        <provenance type="observed">National Museum Wales (acc no NMW 36.473).
                         </provenance>
                     </history>
                 </msDesc>
@@ -120,7 +125,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2023-07-17" who="#MK">Megan Kasten checked information and formatting to ensure consistency with OGHAM standards.</change>
     <change when="2023-07-19" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
-</listChange>
+    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates,  corrected bibliography</change></listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -131,7 +136,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="roman" xml:space="preserve">        
                 <div type="textpart" n="1" xml:lang="pgl-Latn">
-                <ab><title>Latin</title>:
+                <ab>
                     <lb n="1" style="text-direction:across"/><persName><name nymRef="#sibilinus">SIMILINI</name> 
                     <lb n="2" style="text-direction:across"/><name nymRef="#tovissacas"><hi rend="ligature">TO</hi>VISA<hi rend="ligature">CI</hi></name></persName>
                 </ab>
@@ -139,7 +144,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             </div>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="2" xml:lang="pgl-Ogam">
-                    <ab><title>Ogham</title>:
+                    <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#sibilinus">&#x1684;<choice><unclear reason="worn">&#x1692;</unclear><unclear reason="worn">&#x1694;</unclear></choice>&#x1681;<unclear reason="lost">&#x1694;</unclear>&#x1682;<unclear reason="worn">&#x1694;</unclear>&#x1685;<gap reason="lost" extent="unknown" unit="character"/></name>
                         <lb n="2" style="text-direction:up"/><name nymRef="#tovissacas"><gap reason="lost" extent="unknown" unit="character"/>&#x1683;&#x1694;&#x1684;&#x1690;&#x1689;&#x1694;</name></persName>
                     </ab>
@@ -147,7 +152,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve">
             <div type="textpart" n="2" xml:lang="pgl-Ogam">
-               <ab><title>Transliteration</title>:
+               <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#sibilinus">S<choice><unclear reason="worn">U</unclear><unclear reason="worn">I</unclear></choice>B<unclear reason="lost">I</unclear>L<unclear reason="worn">I</unclear>N<gap reason="lost" extent="unknown" unit="character"/></name>
                         <lb n="2" style="text-direction:up"/><name nymRef="#tovissacas"><gap reason="lost" extent="unknown" unit="character"/>VISACI</name></persName>
                     </ab> 
@@ -156,29 +161,26 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
-                <p><title>Latin</title>:of <foreign xml:lang="pgl">Similin(i)us Tovisacos</foreign></p>
+                <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Similin(i)us Tovisacos</foreign>'</p>
             </div>
                 <div type="textpart" n="2">
-                  <p><title>Ogham</title>:of <foreign xml:lang="pgl">Sibilin(i)us Tovisacos</foreign></p>  
+                  <p><title>Ogham</title>: 'of <foreign xml:lang="pgl">Sibilin(i)us Tovisacos</foreign>'</p>  
                 </div>
             </div>
             <div type="commentary">
-                <list type="witDetail">
-                    <item n="1">
-                        <p>The initial letter of the Roman-letter inscription has historically been under some debate leading to confusion surrounding its interpretation as well but the Welsh corpus asserts that <q>SIMILINVS is secure and the inscription therefore consists of a personal name most likely followed by a title or epithet (but possibly a patronymic) meaning 'leader'</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">317</citedRange></bibl>. About the second word in the inscription, the Welsh Corpus comments that <q>TOVISACI/[TO]VISACI is the ancestor...of Welsh <hi rend="italic">tywysog</hi> and Irish <hi rend="italic">taoiseach</hi> 'leader', used here either as a title or as a second name or patronymic. It is difficult to decide which language it belongs to in the inscription - perhaps to both simulaneously</q> <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">317-9</citedRange></bibl>. </p>
-                    </item>
-                    <item n="2">
-                        <p>The Ogham inscription is generally understood to correspond to the Roman-letter inscription but a number of variations have been suggested as the vowel-notches between the consonants in the left line are either partially or fully worn <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">317</citedRange></bibl>. The reading <hi rend="italic">S[i]b[i]l[i]n[i]</hi> is based on the length of space between consonants and on the reading of the Roman-letter inscription <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">317-9</citedRange></bibl>. On the origins of the name in the inscription, the Welsh Corpus comments that <q>the name SIMILINI suggests a Romanized context, but that does not rule out an Irish identity for him as Latin names appear in the ogam inscriptions even in Ireland...if <hi rend="italic">Similini</hi> is written with a B instead of M in the ogam version, this may be due to a very easy error in ogam</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">319</citedRange></bibl>. It has also been argued that the change could be due to denasalization in Welsh which the Corpus notes would be early but may also indicate that <q>the inscriber was familiar with the name <hi rend="italic">Similinus</hi> in Welsh speech</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">319</citedRange></bibl>. On the context of the stone, the Welsh Corpus comments that <q>the monument was originally located on open moorland just above the 350m (1,150ft) contour...on the north side of the summit was a mound (one of two) [wrongfully] interpreted by John Lloyd as an artificial mound or barrow<bibl><ptr target="LHU1695"/>Lhuyd 1695<citedRange unit="column">685-6</citedRange></bibl>...the spot may therefore have been partly chosen for the monument and its accompanying grave in the mistaken belief that the site was an earlier place of burial...the commanding location and panoramic views indicate that the monument may have signified a claim to the surrounding land. This is also supported by the wording of the inscriptions...the massive inscribed stone might be a reused prehistoric standing stone</q><bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">317</citedRange></bibl>.</p>
-                    </item>
-                </list>
+                        <p>The initial letter of the Roman-letter inscription has historically been under some debate leading to confusion surrounding its interpretation as well but the Welsh corpus asserts that <q>SIMILINVS is secure and the inscription therefore consists of a personal name most likely followed by a title or epithet (but possibly a patronymic) meaning 'leader'</q> (Edwards 2013, 317). About the second word in the inscription, the Welsh Corpus comments that <q>TOVISACI/[TO]VISACI is the ancestor...of Welsh <hi rend="italic">tywysog</hi> and Irish <hi rend="italic">taoiseach</hi> 'leader', used here either as a title or as a second name or patronymic. It is difficult to decide which language it belongs to in the inscription - perhaps to both simulaneously</q> (Edwards 2013, 317-9). </p>
+                        <p>The Ogham inscription is generally understood to correspond to the Roman-letter inscription but a number of variations have been suggested as the vowel-notches between the consonants in the left line are either partially or fully worn (Edwards 2013, 317). The reading <hi rend="italic">S[i]b[i]l[i]n[i]</hi> is based on the length of space between consonants and on the reading of the Roman-letter inscription (Edwards 2013, 317-9). On the origins of the name in the inscription, the Welsh Corpus comments that <q>the name SIMILINI suggests a Romanized context, but that does not rule out an Irish identity for him as Latin names appear in the ogam inscriptions even in Ireland...if <hi rend="italic">Similini</hi> is written with a B instead of M in the ogam version, this may be due to a very easy error in ogam</q> (Edwards 2013, 319). It has also been argued that the change could be due to denasalization in Welsh which the Corpus notes would be early but may also indicate that <q>the inscriber was familiar with the name <hi rend="italic">Similinus</hi> in Welsh speech</q> (Edwards 2013, 319). On the context of the stone, the Welsh Corpus comments that <q>the monument was originally located on open moorland just above the 350m (1,150ft) contour...on the north side of the summit was a mound (one of two) [wrongfully] interpreted by John Lloyd as an artificial mound or barrow (Lhuyd 1695, 685-6)...the spot may therefore have been partly chosen for the monument and its accompanying grave in the mistaken belief that the site was an earlier place of burial...the commanding location and panoramic views indicate that the monument may have signified a claim to the surrounding land. This is also supported by the wording of the inscriptions...the massive inscribed stone might be a reused prehistoric standing stone</q> (Edwards 2013, 317).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>
-                    <bibl><ptr target="EDW2013"/>Edwards 2013<citedRange unit="page">316-9</citedRange></bibl>
-                    <bibl><ptr target="LHU1695"/>Lhuyd 1695<citedRange unit="column">685-6</citedRange></bibl>
+                    <bibl><ptr target="EDW2013"/>
+                        <citedRange unit="page">316-9</citedRange>
+                    </bibl>
+                    <bibl><ptr target="LHU1695"/>
+                        <citedRange unit="column">685-6</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
