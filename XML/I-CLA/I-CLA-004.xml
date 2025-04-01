@@ -123,6 +123,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-27" who="#POC">Added ogham space marker, proofreading updates</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker, proofreading updates, added citation details to image</change>
     <change when="2025-03-19" who="#NW">Added 'Ireland' placename to origPlace and attributes to material, object type and layout. Moved decoration to its own section 'desc type' and encoded runic inscription using rs type=runic.</change>
+     <change when="2025-04-01" who="#NW">Updated encoding of X-forfid</change>
     
 </listChange>
 </revisionDesc>
@@ -145,13 +146,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">                 
                 <ab>
-                     <lb n="1" style="text-direction:down"/><g ref="#feathermark">᚛</g><w>ᚁ<g ref="#forfid_X">ᚕ</g>ᚅᚇᚐᚉ<supplied reason="omitted">ᚆ</supplied>ᚈ</w>
+                     <lb n="1" style="text-direction:down"/><g ref="#feathermark"/><w>ᚁ<g ref="#forfid_X"/>ᚅᚇᚐᚉ<supplied reason="omitted">ᚆ</supplied>ᚈ</w>
                      <lb n="2" style="text-direction:down"/><w><unclear reason="eccentric_ductus">ᚃᚑ</unclear>ᚏ</w> <persName><g ref="#forfid_X">ᚕ</g>ᚅ<unclear reason="damage">ᚓ</unclear><gap reason="lost" extent="unknown"/></persName>                    
                 </ab>
              </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                     <lb n="1" style="text-direction:down"/><g ref="#feathermark">᚛</g><w>B<!--<g ref="#forfid_X" type="variant_E">-->E<!--</g>-->NDAC<supplied reason="omitted">H</supplied>T</w>
+                     <lb n="1" style="text-direction:down"/><g type="#feathermark">᚛</g><w>B<g type="forfid_X">E</g>NDAC<supplied reason="omitted">H</supplied>T</w>
                      <lb n="2" style="text-direction:down"/><w><unclear reason="eccentric_ductus">FO</unclear>R</w> <persName><g ref="#forfid_X" type="variant_E">E</g>N<unclear reason="damage">E</unclear><gap reason="lost" extent="unknown"/></persName>                    
                 </ab>
             </div>             
