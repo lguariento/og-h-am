@@ -123,7 +123,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-27" who="#POC">Added ogham space marker, proofreading updates</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker, proofreading updates, added citation details to image</change>
     <change when="2025-03-19" who="#NW">Added 'Ireland' placename to origPlace and attributes to material, object type and layout. Moved decoration to its own section 'desc type' and encoded runic inscription using rs type=runic.</change>
-     <change when="2025-04-01" who="#NW">Updated encoding of X-forfid</change>
+     <change when="2025-04-01" who="#NW">Updated encoding of X-forfid. Moved runic translation to apparatus with rest of runic text.</change>
     
 </listChange>
 </revisionDesc>
@@ -152,8 +152,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                     <lb n="1" style="text-direction:down"/><g type="#feathermark">᚛</g><w>B<g type="forfid_X">E</g>NDAC<supplied reason="omitted">H</supplied>T</w>
-                     <lb n="2" style="text-direction:down"/><w><unclear reason="eccentric_ductus">FO</unclear>R</w> <persName><g ref="#forfid_X" type="variant_E">E</g>N<unclear reason="damage">E</unclear><gap reason="lost" extent="unknown"/></persName>                    
+                     <lb n="1" style="text-direction:down"/>᚛<w>BENDAC<supplied reason="omitted">H</supplied>T</w>
+                     <lb n="2" style="text-direction:down"/><w><unclear reason="eccentric_ductus">FO</unclear>R</w> <persName>EN<unclear reason="damage">E</unclear><gap reason="lost" extent="unknown"/></persName>                    
                 </ab>
             </div>             
             <div type="apparatus">
@@ -163,7 +163,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <lb/>Rune reading: 
                         (þ)(u)rgri- [⁓] risli + ¶ (k)rus þina
                         <lb/>Old West Norse:
-                        Þorgrí[mr] reisti/risti kross þenna.</note>
+                        Þorgrí[mr] reisti/risti kross þenna.
+                    <lb/>Translation:
+                        'Þorgrímr erected/carved this cross'</note>
                 </app>
                 <app n="2">
                     <note>In the first line of the ogham inscription, there is no sign of an expected H in the otherwise clear <foreign xml:lang="sga"><ref target="https://dil.ie/5661">bendacht</ref></foreign> 'blessing'. It may have been lost through damage or perhaps it was omitted in error. In the second line, Macalister missed the X-forfid (reading instead an O) and confused the orientation of B- and H-aicmi strokes so that he read TOROQR[IM] (supplying the =IM to match the name in runic inscription) rather than NRXNE[..., or possibly FORXNE[..., representing the preposition <foreign xml:lang="sga"><ref target="https://dil.ie/23272">for</ref></foreign> 'on (behalf of)' (usual after bendacht) and the first few letters of a personal name ENE.. or ENI... .</note>  
@@ -171,12 +173,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>              
             <div type="translation">
-                <div type="textpart" n="1">
-                <p><note>Runes</note>: 'Þorgrímr erected/carved this cross'</p>
-                </div>
-                <div type="textpart" n="2">
-                <p><note>Ogham</note>: 'a blessing on En...'</p>
-                </div>
+                <p>'a blessing on En...'</p>
             </div>
             <div type="commentary"/>
                
