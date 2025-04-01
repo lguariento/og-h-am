@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-GLA-002</idno>
                  <idno type="CIIC">405</idno>
-                <idno type="CISP">LOUGH/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/lough_1.html">LOUGH/1</idno>
                 <idno type="WelshCorpus">G76</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168570">168570</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>Swansea Museum</repository>
 <!--                        <idno type="invNo"></idno> No accession number at the museum??--> 
+                        <altIdentifier>
+                            <idno type="geo">51.61795178529878, -3.9380752288360585</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,9 +58,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> The Glamorgan-Gwent Archaeological Trust
-Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">00206w</idno></ref>
-                                    <material>Stone</material> <objectType>Reused Roman altar</objectType>, described as <q>Fine-grained sandstone which was originally grey when fresh but weathered brown. The current black colour is attributed to fire damage...it is quite probable that it could have been derived locally</q><bibl> <ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">401</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/">The Glamorgan-Gwent Archaeological Trust
+Historic Environment Record</ref>: <idno type="HER">00206w</idno></p>
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Reused Roman altar</objectType> <note>Described as <q>Fine-grained sandstone which was originally grey when fresh but weathered brown. The current black colour is attributed to fire damage...it is quite probable that it could have been derived locally</q> (Redknap and Lewis 2007, 401).</note>
                                     <dimensions unit="m">
                                         <height>1.08</height>
                                         <width>0.52</width>
@@ -64,23 +69,24 @@ Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type=
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a weathered and incomplete Ogham inscription on the right-hand edge of the stone, starting about two-thirds of the way to the top reading vertically upwards terminating just below the capital. The inscription was likely <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs>. There is no trace of the original Roman-letter inscription on the alter <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">401-2</citedRange></bibl>.</layout>
+                                <layout style="vertical" rend="arris_upR">The stone is inscribed with a weathered and incomplete Ogham inscription on the right-hand edge of the stone, starting about two-thirds of the way to the top reading vertically upwards terminating just below the capital. The inscription was likely <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. There is no trace of the original Roman-letter inscription on the altar (Redknap and Lewis 2007, 401-2).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The Welsh Corpus notes that <q>a single vowel-notch is visible before the strokes for V (or L), but need not represent an A; the final vowel-notch is on the chamfered underside of the capital</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">402</citedRange></bibl>.
+                            <handNote>The Welsh Corpus notes that <q>a single vowel-notch is visible before the strokes for V (or L), but need not represent an A; the final vowel-notch is on the chamfered underside of the capital</q> (Redknap and Lewis 2007, 402).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Loughor</placeName>
-                                <geo>51.664108, -4.061350</geo></origPlace>
-                            <origDate notBefore="0400" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">fifth-sixth century A.D.</origDate>
+                            <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/906f430b-33cf-4712-b3a8-8a1ee8693ea3"><foreign xml:lang="cy">Loughor</foreign></ref></placeName>, <placeName type="county">Glamorgan</placeName> <placeName type="country">Wales</placeName> 
+                                <geo>51.664108, -4.061350</geo>
+                            <note>National Grid Reference: SS 5753 9816</note></origPlace>
+                            <origDate notBefore="0400" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">Fifth-sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">First noticed forming a step to the stile leading up to the rectory at Loughor (Castell Llychwr); the ogham letters were noted in 1857; first published in 1869 by Jones.
                         </provenance>
-                        <provenance type="observed">Swansea Museum
+                        <provenance type="observed">Swansea Museum.
                         </provenance>
                     </history>
                 </msDesc>
@@ -113,12 +119,11 @@ Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type=
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2023-07-08" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
         <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -130,7 +135,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
                <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Edition</title>
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#gravics"><gap reason="lost" extent="unknown" unit="character"/>&#x1682;<gap reason="lost" quantity="1" unit="character"/>
                     <choice>
                         <unclear reason="worn">&#x1683;</unclear>
@@ -141,7 +146,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                    <ab><title>Transliteration</title>
+                    <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#gravics"><gap reason="lost" extent="unknown" unit="character"/>L<gap reason="lost" quantity="1" unit="character"/>
                     <choice>
                         <unclear reason="worn">V</unclear>
@@ -153,24 +158,25 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
                 <p>No definitve translation exists but the inscription is believed to represent an Irish name possibly <foreign xml:lang="pgl">Gravica</foreign></p>
             </div>
             </div>
             <div type="commentary">
-                <list type="witDetail">
-                    <item n="1">
-                        <p>The inscription <q>is probably an Irish name rather than a Roman one like <hi rend="italic">Publica</hi> or <hi rend="italic">Pervica</hi>, although Latin names certainly do occur in ogam script...Macalister read GRAVICA...the reading LICA goes back to <bibl><ptr target="RHY1895"/>Rhys 1895<citedRange unit="page">182-183</citedRange></bibl>, who equated LICA with OI <hi rend="italic">lecc</hi>, W. <hi rend="italic">llech</hi> 'flag-stone'. There are examples of LEC 'stone' in later Irish inscriptions: <hi rend="italic">CIIC:</hi>II, nos 796 and 857-9. A non-Roman masculine cognomen <hi rend="italic">Licca</hi> is well-attested on the continent...the inscription presumably records a personal name, and indicates the reuse of the stone as a memorial in the fifth or, more probably, sixth century</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">402</citedRange> <ptr target="MAC1945"/>Macalister 1945</bibl>.</p>
-                    </item>
-                </list>             
+                        <p>The inscription <q>is probably an Irish name rather than a Roman one like <hi rend="italic">Publica</hi> or <hi rend="italic">Pervica</hi>, although Latin names certainly do occur in ogam script...Macalister read GRAVICA...the reading LICA goes back to (Rhys 1895, 182-183), who equated LICA with OI <hi rend="italic">lecc</hi>, W. <hi rend="italic">llech</hi> 'flag-stone'. There are examples of LEC 'stone' in later Irish inscriptions: <hi rend="italic">CIIC:</hi>II, nos 796 and 857-9. A non-Roman masculine cognomen <hi rend="italic">Licca</hi> is well-attested on the continent...the inscription presumably records a personal name, and indicates the reuse of the stone as a memorial in the fifth or, more probably, sixth century</q> (Redknap and Lewis 2007, 402; Macalister 1945).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>
-                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">401-2</citedRange></bibl>
-                    <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">381</citedRange></bibl>
-                    <bibl><ptr target="RHY1895"/>Rhys 1895<citedRange unit="page">182-183</citedRange></bibl>
+                    <bibl><ptr target="RED2007"/>
+                        <citedRange unit="page">401-2</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange unit="page">381</citedRange>
+                    </bibl>
+                    <bibl><ptr target="RHY1895"/>
+                        <citedRange unit="page">182-183</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

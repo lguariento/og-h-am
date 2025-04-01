@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Margam</title>
+                <title>Egylwys Nynnid | Margam</title>
              <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-GLA-001</idno>
                  <idno type="CIIC">409</idno>
-                <idno type="CISP">KENFG/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kenfg_1.html">KENFG/1</idno>
                 <idno type="WelshCorpus">G86</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168558">168558</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>Margam Stones Museum</repository>
 <!--                        <idno type="invNo"></idno> no accession no?-->
+                        <altIdentifier>
+                            <idno type="geo">51.5633979458016, -3.7306497031781314</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -55,10 +59,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> The Glamorgan-Gwent Archaeological Trust
-Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">00788w
-</idno>Eglwys Nynnid; Pumpeius Stone</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType>, described as <q>grey, coarse-grained sandstone, showing intense iron-staining on all surfaces...it is possible that this is locally derived</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">438-9</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/">The Glamorgan-Gwent Archaeological Trust
+Historic Environment Record</ref>: <idno type="HER">00788w
+</idno> Eglwys Nynnid; Pumpeius Stone</p>
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>Described as <q>grey, coarse-grained sandstone, showing intense iron-staining on all surfaces...it is possible that this is locally derived</q> (Redknap and Lewis 2007, 438-9).</note>
                                     <dimensions unit="m">
                                         <height>1.35</height>
                                         <width>0.35</width>
@@ -67,23 +72,24 @@ Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type=
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a Roman-letter inscription in two lines, reading vertically downwards. A partially corresponding Ogham inscription begins on the upper left edge of the stone, reading upwards, and continues on the right edge of the stone, reading downwards. The inscriptions are likely <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> <bibl> <ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">439-440</citedRange></bibl>.</layout>
+                                <layout>The stone is inscribed with a Roman-letter inscription in two lines, reading vertically downwards. A partially corresponding Ogham inscription begins on the upper left edge of the stone, reading upwards, and continues on the right edge of the stone, reading downwards. The inscriptions are likely <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html"> carved</rs> (Redknap and Lewis 2007, 439-440).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>In the Ogham inscription <q>the gaps are large enough to have carried more than one letter, and need not have consisted of vowel-notches only...the Ps appear to be represented by crosses of three lines, a varition on one of the forfeda signs</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">440</citedRange></bibl>. The Roman-letter inscription is <q>mostly Roman capitals, but with uncial form of E, and Ps with the vertical stroke descending below the line; Rs with open loop and tail approaching the horizontal; enlarged S; VM ligatured...suggesting that capitals were used with rapidity in written form, and not restricted to monumental use. Perhaps worked from a tablet exemplar; on the stone the letterer has started enlarging the letters in too small a scale with what looks like a lower-case P, but has scaled up - in a rising crescendo - to full capital for the second P in PUMPEIUS. Similarly the scale of the S has given some difficulty, the inscription ending with an S twice the size of the preceeding letter V</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">440</citedRange></bibl>.
+                            <handNote>In the Ogham inscription <q>the gaps are large enough to have carried more than one letter, and need not have consisted of vowel-notches only...the Ps appear to be represented by crosses of three lines, a varition on one of the forfeda signs</q> (Redknap and Lewis 2007, 440). The Roman-letter inscription is <q>mostly Roman capitals, but with uncial form of E, and Ps with the vertical stroke descending below the line; Rs with open loop and tail approaching the horizontal; enlarged S; VM ligatured...suggesting that capitals were used with rapidity in written form, and not restricted to monumental use. Perhaps worked from a tablet exemplar; on the stone the letterer has started enlarging the letters in too small a scale with what looks like a lower-case P, but has scaled up - in a rising crescendo - to full capital for the second P in PUMPEIUS. Similarly the scale of the S has given some difficulty, the inscription ending with an S twice the size of the preceeding letter V</q> (Redknap and Lewis 2007, 440).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Margam</placeName>
-                                <geo>51.545939, -3.727606</geo></origPlace>
+                            <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/93692a56-6a9d-4aee-bd2a-90d3514ded78"><foreign xml:lang="cy">Margam</foreign></ref></placeName>, <placeName type="county">Glamorgan</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.545939, -3.727606</geo>
+                            <note>National Grid Reference: SS 8030 8442</note></origPlace>
                             <origDate notBefore="0500" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">Sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">First recorded near Eglwys Nynnid c1578. First published illustration by Westwood in 1846 (includes ogham). First ogham reading 1869 by Brash.
                         </provenance>
-                        <provenance type="observed">Margam Stones Museum
+                        <provenance type="observed">Margam Stones Museum.
                         </provenance>
                     </history>
                 </msDesc>
@@ -116,12 +122,11 @@ Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type=
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2023-07-09" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
     <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -133,53 +138,48 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#pompius"><c type="forfid">&#x1695;</c><unclear reason="worn">&#x1691;</unclear><c type="forfid">&#x1695;</c><unclear reason="worn">&#x1694;&#x1690;&#x1684;</unclear></name>
                     <lb n="2" style="text-direction:down"/><name nymRef="#rolacu?">&#x168F;<choice><unclear reason="lost">&#x1691;</unclear><unclear reason="lost">&#x1690;</unclear></choice>&#x1682;<gap reason="lost" extent="unknown" unit="character"/>&#x1685;</name>&#x168B;<gap reason="lost" extent="unknown" unit="character"/>&#x168A;<gap reason="lost" extent="unknown" unit="character"/><name nymRef="#ilu"><gap reason="lost" extent="unknown" unit="character"/>&#x1682;&#x1682;<gap reason="lost" quantity="1" unit="character"/>&#x1685;&#x1690;</name></persName>
                 </ab>
                     </div>
-                    <div type="edition" subtype="roman" xml:space="preserve">
-                    <div type="textpart" n="2" xml:lang="pgl-Latn">
-                        <ab><title>Latin</title>:
-                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#pompius">P<hi rend="ligature">VM</hi>PEIVS</name>
-                            <lb n="2" style="text-direction:down"/>CA<hi rend="ligature">RA</hi>NTORIVS</persName>
-                        </ab>
-                </div>
-                </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Transliteration</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#pompius">P<unclear reason="worn">O</unclear>P<unclear reason="worn">IAS</unclear></name>
                     <lb n="2" style="text-direction:down" break="yes"/><name nymRef="#rolacu?">R<choice><unclear reason="lost">O</unclear><unclear reason="lost">A</unclear></choice>L<gap reason="lost" extent="unknown" unit="character"/>N</name>M<gap reason="lost" extent="unknown" unit="character"/>Q<gap reason="lost" extent="unknown" unit="character"/><name nymRef="#ilu"><gap reason="lost" extent="unknown" unit="character"/>LL<gap reason="lost" quantity="1" unit="character"/>NA</name></persName>
                 </ab>
                     </div>
             </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                        <ab>
+                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#pompius">P<hi rend="ligature">VM</hi>PEIVS</name>
+                            <lb n="2" style="text-direction:down"/>CA<hi rend="ligature">RA</hi>NTORIVS</persName>
+                        </ab>
+                </div>
+                </div>
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
-                <p><title>Ogham</title>: No complete translation is suggested for the Ogham inscription <q><foreign xml:lang="pgl">Pumpeius</foreign> seems likely to have been rendered in the ogam but there seems to be no correlation to the remainder of the two inscriptions</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">440</citedRange></bibl>.</p>
+                <p><title>Ogham</title>: No complete translation is suggested for the Ogham inscription <q><foreign xml:lang="pgl">Pumpeius</foreign> seems likely to have been rendered in the ogam but there seems to be no correlation to the remainder of the two inscriptions</q> (Redknap and Lewis 2007, 440).</p>
                 </div>
                 <div type="textpart" n="2">
-                    <p><title>Latin</title>: <foreign xml:lang="pgl">Pumpeius</foreign><foreign xml:lang="pgl">Carantorius</foreign>(lies here)</p>
+                    <p><title>Latin</title>: '<foreign xml:lang="pgl">Pumpeius</foreign><foreign xml:lang="pgl">Carantorius</foreign>(lies here)'</p>
                 </div>
             </div>
             <div type="commentary">
-                <list type="witDetail">
-                    <item n="1">
-                        <p>The Ogham inscription appears to correspond to the Roman-letter inscription in its first half <q>the ogam P[O]P[, if correctly restored...may preserve the original vowel <hi rend="italic">Pompeius</hi>...[most likely] the omission of the /m/ is due to Vulgar Latin as in SEPRONIVS (<hi rend="italic">RIB 1:</hi> no. 686), and Continental forms such as <hi rend="italic">Popeianus</hi> and <hi rend="italic">Pepeia</hi>...If POPIAS is the correct reading, the -AS may be the Irish nominative ending corresponding to Latin <hi rend="italic">-us</hi> and IA rather than EA could be a hypercorrect spelling...The <hi rend="italic">forfid</hi> for P is one of the additional ogam letters invented for this un-Irish sound</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">440-1</citedRange></bibl>. The rest of the inscription does not appear to correspond to the Roman-letter inscription. <q>ROLACUN...offers the Irish etymology <hi rend="italic">*Ro-ola-kun-</hi>, 'very large hound'... ILLUNA could be related to the OI name <hi rend="italic">Illan(n), Elann</hi> and word <hi rend="italic">ela</hi> 'swan', as in <hi rend="italic">CIIC:</hi> no. 79, ELUNA in Ireland</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">441</citedRange></bibl>.</p>
-                    </item>
-                    <item n="2">
-                        <p>In the Roman-letter inscription, <q>PVMPEIVS for <hi rend="italic">Pompeius</hi> may show the Welsh development of /um/ [from] /om/...CARANTORIVS is definitely not Irish; it is the forerunner of OW <hi rend="italic">Cerenhir</hi>, W. <hi rend="italic">Cerennhyr</hi>...such names in <hi rend="italic">-orius</hi> have been much discussed</q> but no definitive interpretation of its significance is offered<bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">440-1</citedRange></bibl>.</p>
-                    </item>
-                </list>
+                        <p>The Ogham inscription appears to correspond to the Roman-letter inscription in its first half <q>the ogam P[O]P[, if correctly restored...may preserve the original vowel <hi rend="italic">Pompeius</hi>...[most likely] the omission of the /m/ is due to Vulgar Latin as in SEPRONIVS (<hi rend="italic">RIB 1:</hi> no. 686), and Continental forms such as <hi rend="italic">Popeianus</hi> and <hi rend="italic">Pepeia</hi>...If POPIAS is the correct reading, the -AS may be the Irish nominative ending corresponding to Latin <hi rend="italic">-us</hi> and IA rather than EA could be a hypercorrect spelling...The <hi rend="italic">forfid</hi> for P is one of the additional ogam letters invented for this un-Irish sound</q> (Redknap and Lewis 2007, 440-1). The rest of the inscription does not appear to correspond to the Roman-letter inscription. <q>ROLACUN...offers the Irish etymology <hi rend="italic">*Ro-ola-kun-</hi>, 'very large hound'... ILLUNA could be related to the OI name <hi rend="italic">Illan(n), Elann</hi> and word <hi rend="italic">ela</hi> 'swan', as in <hi rend="italic">CIIC:</hi> no. 79, ELUNA in Ireland</q> (Redknap and Lewis 2007, 441).</p>
+                        <p>In the Roman-letter inscription, <q>PVMPEIVS for <hi rend="italic">Pompeius</hi> may show the Welsh development of /um/ [from] /om/...CARANTORIVS is definitely not Irish; it is the forerunner of OW <hi rend="italic">Cerenhir</hi>, W. <hi rend="italic">Cerennhyr</hi>...such names in <hi rend="italic">-orius</hi> have been much discussed</q> but no definitive interpretation of its significance is offered (Redknap and Lewis 2007, 440-1).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>
-                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">438-441</citedRange></bibl>
+                    <bibl><ptr target="RED2007"/>
+                        <citedRange unit="page">438-441</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

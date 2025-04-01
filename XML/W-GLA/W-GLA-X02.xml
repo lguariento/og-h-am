@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-GLA-X02</idno>
                  <idno type="CIIC">408</idno>
-                <idno type="CISP">MARG1/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/marg1_1.html">MARG1/1</idno>
                 <idno type="WelshCorpus">G77</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168560">168560</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -43,8 +44,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>Margam Stones Museum. There is a replica at the original site</repository>
-                        <idno type="invNo"></idno>
+                        <repository>Margam Stones Museum</repository>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo">51.56344799566291, -3.730660428836058</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,29 +58,32 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>rejected monument</term> The Glamorgan-Gwent Archaeological Trust
-Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">00809w
-</idno>Margam Mountain</ref>
-                                    <material>Stone</material> <objectType>slab</objectType>, described as <q>pale grey, weathered deeper grey with iron staining, medium-grained sandstone...[material] of this type are exposed in the upland area adjacent to the find-site</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">406</citedRange></bibl>.
+                                <support><p><term>rejected monument</term> <ref target="https://archwilio.org.uk/">The Glamorgan-Gwent Archaeological Trust
+Historic Environment Record</ref>: <idno type="HER">00809w</idno> Margam Mountain</p>
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Slab</objectType> <note>Described as <q>pale grey, weathered deeper grey with iron staining, medium-grained sandstone...[material] of this type are exposed in the upland area adjacent to the find-site</q> (Redknap and Lewis 2007, 406).</note>
                                     <dimensions unit="m">
                                         <height>1.15</height>
                                         <width>0.33</width>
-                                        <depth>0.22</depth></dimensions></support>
+                                        <depth>0.22</depth></dimensions>
+                                <desc type="decoration">The top of the stone has an <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> cross with chased edges and one line descending on to the inscribed face (Redknap and Lewis 2007, 407).</desc>
+                                </support>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a Roman-letter inscription in four vertical lines reading downwards. The execution of the inscription is described as <q>deeply cut (or recut?)</q> but is otherwise undetermined <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. The top of the stone has an <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> cross with chased edges and one line descending on to the inscribed face <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. The stone is classified as an Ogham stone on a 1971 map of Britain in the Dark Ages but there is no other mention of the presence of Ogham on the stone.</layout>
+                                <layout>The stone is inscribed with a Roman-letter inscription in four vertical lines reading downwards. The execution of the inscription is described as <q>deeply cut (or recut?)</q> but is otherwise undetermined (Redknap and Lewis 2007, 407). The stone is classified as an Ogham stone on a 1971 map of Britain in the Dark Ages but there is no other mention of the presence of Ogham on the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The Welsh Corpus describe the letter-forms in the inscription as <q>irregular Roman capitals with half-uncial H and conjoined FI and LI in FILIUS...angle bar A inverted throughout. Tight but regular spacing overall; the well-formed S and rapidly formed capital R, finishing horizontally to the right, show an experienced hand used to the scale of monumental inscription...the H and the sickle-shaped G are quite confident but unusual; there seems to have been no preliminary complete layout, for the designer has run out of space at the end, where VEDOMAVI is severely cramped</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>.
+                            <handNote>The Welsh Corpus describe the letter-forms in the inscription as <q>irregular Roman capitals with half-uncial H and conjoined FI and LI in FILIUS...angle bar A inverted throughout. Tight but regular spacing overall; the well-formed S and rapidly formed capital R, finishing horizontally to the right, show an experienced hand used to the scale of monumental inscription...the H and the sickle-shaped G are quite confident but unusual; there seems to have been no preliminary complete layout, for the designer has run out of space at the end, where VEDOMAVI is severely cramped</q> (Redknap and Lewis 2007, 407).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Margam</placeName>
-                                <geo>51.585703, -3.689275</geo></origPlace>
+                            <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/93692a56-6a9d-4aee-bd2a-90d3514ded78"><foreign xml:lang="cy">Margam</foreign></ref></placeName>, <placeName type="county">Glamorgan</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.585703, -3.689275</geo>
+                            <note>National Grid Reference: SS 8306 8878</note></origPlace>
                             <origDate notBefore="0550" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">Second half of the sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">OS Map of Britain in the Dark Ages - 1971 suggested that ogham was present
@@ -114,12 +121,11 @@ Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type=
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2023-07-09" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
     <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -131,7 +137,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="roman" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Latn">
-                <ab><title>Edition</title>
+                <ab>
                     <lb n="1" style="text-direction:down"/><persName><name>BODVOC<hi rend="inverted">I</hi></name>HICIACIT
                     <lb n="2" style="text-direction:down"/><hi rend="ligature">FI</hi><hi rend="ligature">LI</hi>VS<name>CATOTIGIRNI</name>
                     <lb n="3" style="text-direction:down"/>PRONEPVS<name nymRef="#aeternus">ETERNA<hi rend="ligature">LI</hi></name>
@@ -144,20 +150,22 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             </div>
             <div type="translation" xml:lang="en">
                 <div type="textpart" n="1">
-                <p>(The stone) of <foreign xml:lang="pgl">Bodvocus</foreign>. Here he lies, the son of <foreign xml:lang="pgl">Catotogirnus</foreign> and great-grandson of <foreign xml:lang="pgl">Eternalis Vedomavus</foreign>.</p>
+                <p>'(The stone) of <foreign xml:lang="pgl">Bodvocus</foreign>. Here he lies, the son of <foreign xml:lang="pgl">Catotogirnus</foreign> and great-grandson of <foreign xml:lang="pgl">Eternalis Vedomavus</foreign>'.</p>
             </div>
             </div>
             <div type="commentary">
-                <list type="witDetail">
-                    <item n="1">
-                <p>On the names in the inscription, the Welsh Corpus notes that <q>the ancient British name BODVOC appears on coins of the Dobunni, and <hi rend="italic">Bodvocus</hi> occurs beside <hi rend="italic">Bodvacus</hi> in Gaul</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. The name CATOTIGIRNI is most likely Brittonic <q>the precursor of OW <hi rend="italic">Cattegirn</hi>, Pr.B. <hi rend="italic">Catihernus</hi>...VEDOMAVI contains W. <hi rend="italic">gŵydd</hi>, 'wild'. This stem does appear as well in ogam, VEDA-, VEDDO-, but the phonetic development of the second element...proves the name to be Brittonic rather than Irish</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. There is some debate surrounding the relationship between the inscription and the incised cross on the top of the stone. Some have suggested that the cross was carved at the same time as the inscription but it is most likely a later addition<bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">407</citedRange></bibl>. On the topographical context of the stone, it is worth noting that <q>the stone originally stood beside a well-defined trackway, dominating the skyline as one ascends the track from Rhyd Blaen-y-cwn <bibl><ptr target="FOX1939"/>Fox 1939<citedRange unit="page">36-37</citedRange></bibl>. The low circular bank forming an enclosure, possibly with a ditch on the inside, measured some 35ft in diameter. As at Maen Madoc (B50), the inscription faced south (i.e. it was visible when approached from below). There was a tradition associated with the stone that whoever read the inscription correctly would die soon afterwards/within a year of that date</q><bibl><ptr target="MAC1945"/>Macalister 1945<ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">408</citedRange></bibl></p></item></list>
+                <p>On the names in the inscription, the Welsh Corpus notes that <q>the ancient British name BODVOC appears on coins of the Dobunni, and <hi rend="italic">Bodvocus</hi> occurs beside <hi rend="italic">Bodvacus</hi> in Gaul</q> (Redknap and Lewis 2007, 407). The name CATOTIGIRNI is most likely Brittonic <q>the precursor of OW <hi rend="italic">Cattegirn</hi>, Pr.B. <hi rend="italic">Catihernus</hi>...VEDOMAVI contains W. <hi rend="italic">gŵydd</hi>, 'wild'. This stem does appear as well in ogam, VEDA-, VEDDO-, but the phonetic development of the second element...proves the name to be Brittonic rather than Irish</q> (Redknap and Lewis 2007, 407). There is some debate surrounding the relationship between the inscription and the incised cross on the top of the stone. Some have suggested that the cross was carved at the same time as the inscription but it is most likely a later addition (Redknap and Lewis 2007, 407). On the topographical context of the stone, it is worth noting that <q>the stone originally stood beside a well-defined trackway, dominating the skyline as one ascends the track from Rhyd Blaen-y-cwn (Fox 1939, 36-37). The low circular bank forming an enclosure, possibly with a ditch on the inside, measured some 35ft in diameter. As at Maen Madoc (B50), the inscription faced south (i.e. it was visible when approached from below). There was a tradition associated with the stone that whoever read the inscription correctly would die soon afterwards/within a year of that date</q> (Macalister 1945; Redknap and Lewis 2007, 408).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>
-                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">402-8</citedRange></bibl>
-                    <bibl><ptr target="MAC1945"/>Macalister 1945-9</bibl>
-                    <bibl><ptr target="FOX1939"/>Fox 1939<citedRange unit="page">36-37</citedRange></bibl>
+                    <bibl><ptr target="RED2007"/>
+                        <citedRange unit="page">402-8</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                    </bibl>
+                    <bibl><ptr target="FOX1939"/>
+                        <citedRange unit="page">36-37</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

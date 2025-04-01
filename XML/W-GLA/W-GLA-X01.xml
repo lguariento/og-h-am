@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-GLA-X01</idno>
                  <idno type="CIIC">404</idno>
-                <idno type="CISP">TIRPH/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/tirph_1.html">TIRPH/1</idno>
                 <idno type="WelshCorpus">G28</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168547">168547</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>National Museum Cardiff</repository>
                         <idno type="invNo">acc. No. 23.283</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.48571757424743, -3.1771928645599448</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -55,10 +59,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>rejected monument</term>The Glamorgan-Gwent Archaeological Trust
-Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type="HER">00646m
-</idno>Capel Brithdir</ref>
-                                    <material>Stone</material> <objectType>slab</objectType> described as <q>Grey, brown-weathering, medium- to fine-grained moderately sorted sub-greywacke sandstone</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">305-6</citedRange></bibl>. 
+                                <support><p><term>rejected monument</term> <ref target="https://archwilio.org.uk/">The Glamorgan-Gwent Archaeological Trust
+Historic Environment Record</ref>: <idno type="HER">00646m
+</idno> Capel Brithdir</p>
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">slab</objectType> <note>Described as <q>Grey, brown-weathering, medium- to fine-grained moderately sorted sub-greywacke sandstone</q> (Redknap and Lewis 2007, 305-6).</note>
                                     <dimensions unit="m">
                                         <height>2.94</height>
                                         <width>1.00</width>
@@ -67,23 +72,24 @@ Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type=
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a Roman letter inscription in four lines, reading vertically downwards. The inscription is described as <q>roughly <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> to varying depths</q> <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">306</citedRange></bibl>. It has been suggested that the stone is also inscribed with the beginnings of an Ogham inscription on the left edge. This potential inscription would presumably have read vertically upwards. However, any such inscription is not visible in images or drawings in the Welsh Corpus, which states that the presence of this inscription <q>does not appear to be supported by the evidence</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">306</citedRange><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">380-381</citedRange></bibl>.</layout>
+                                <layout>The stone is inscribed with a Roman letter inscription in four lines, reading vertically downwards. The inscription is described as <q>roughly <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> to varying depths</q> (Redknap and Lewis 2007, 306). It has been suggested that the stone is also inscribed with the beginnings of an Ogham inscription on the left edge. This potential inscription would presumably have read vertically upwards. However, any such inscription is not visible in images or drawings in the Welsh Corpus, which states that the presence of this inscription <q>does not appear to be supported by the evidence</q> (Redknap and Lewis 2007, 306; Macalister 1945, 380-381).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>In the Roman-letter inscription letter forms are described as <q>mixed crude capitals and simplified half-uncial [forms]. Angular forms made by a writer who was perhaps used to tablet-writing, or was at least writing from a rough tabled exemplar...His As, twice like a capital laid on its side and once like the triangular D seen in the Brittany inscriptions, but with a distinguishing bar to the right, are quite individual</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">306</citedRange></bibl>. There are a number of letter form errors which could have been corrected in the cutting of the stone but were not. The Welsh Corpus argues that <q>this suggests either a literate painter of the letters but an illiterate cutter, or an illiterate patron. It can hardly be that this represents the type of 'common writing' current in Wales during the century when the Cathach, Durham A ii.10 and the book of Durrow were written</q><bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">307</citedRange></bibl>.
+                            <handNote>In the Roman-letter inscription letter forms are described as <q>mixed crude capitals and simplified half-uncial [forms]. Angular forms made by a writer who was perhaps used to tablet-writing, or was at least writing from a rough tabled exemplar...His As, twice like a capital laid on its side and once like the triangular D seen in the Brittany inscriptions, but with a distinguishing bar to the right, are quite individual</q> (Redknap and Lewis 2007, 306). There are a number of letter form errors which could have been corrected in the cutting of the stone but were not. The Welsh Corpus argues that <q>this suggests either a literate painter of the letters but an illiterate cutter, or an illiterate patron. It can hardly be that this represents the type of 'common writing' current in Wales during the century when the Cathach, Durham A ii.10 and the book of Durrow were written</q> (Redknap and Lewis 2007, 307).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Gelli-Gaer</placeName>
-                                <geo>51.715653, -3.249856</geo></origPlace>
+                            <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/46d4e9b7-d6d4-4ca8-8e06-b605f61f8d89"><foreign xml:lang="cy">Gelli-Gaer</foreign></ref></placeName>, <placeName type="county">Glamorgan</placeName> <placeName type="country">Wales</placeName> 
+                                <geo>51.715653, -3.249856</geo>
+                            <note>National Grid Reference: SO 1375 0262</note></origPlace>
                             <origDate notBefore="0470" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">Late fifth or sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Jones 1862, 220 said there was no trace of ogham; Macalister quoted in 1933 and reiterates in 1945 that there was ogham; RCAHMW 1976 reports no ogham. The stone is quite rough and Macalister argues that the ogham inscription was mostly destroyed.
                         </provenance>
-                        <provenance type="observed">National Museum Cardiff NMW acc. No. 23.283
+                        <provenance type="observed">National Museum Cardiff NMW (acc. No. 23.283).
                         </provenance>
                     </history>
                 </msDesc>
@@ -116,12 +122,11 @@ Historic Environment Record: <ref target="https://archwilio.org.uk/"><idno type=
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2023-07-04" who="#BM">Bodil Malmose edited information to incorporate info from Welsh Corpus entry.</change>
       <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -133,13 +138,21 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" resp="MAC1945">
                <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                  <ab><title>Ogham</title>:
+                  <ab>
                       <lb n="1" style="text-direction:up"/><persName><name><del cause="lost">&#x1688;&#x1693;&#x168C;&#x1693;<gap reason="lost" extent="unknown"/></del></name></persName>
                   </ab> 
                </div>
-                <div type="edition" subtype="roman" xml:space="preserve">
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" resp="MAC1945">
+            <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                  <ab>
+                      <lb n="1" style="text-direction:up"/><persName><name><del cause="lost">TEGE<gap reason="lost" extent="unknown"/></del></name></persName>
+                  </ab> 
+               </div>
+            </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
                 <div type="textpart" n="2" xml:lang="pgl-Latn">
-                    <ab><title>Latin</title>:
+                    <ab>
                     <lb n="1" style="text-direction:down"/><persName><name>TEGERNA 
                         <lb n="2" style="text-direction:down" break="no"/>CVS</name>FILI
                         <lb n="3" style="text-direction:down" break="no"/>VS<name>MARTI</name>
@@ -147,41 +160,29 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 </ab>
                 </div>
                 </div>
-            </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" resp="MAC1945">
-            <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                  <ab><title>Transliteration</title>:
-                      <lb n="1" style="text-direction:up"/><persName><name><del cause="lost">TEGE<gap reason="lost" extent="unknown"/></del></name></persName>
-                  </ab> 
-               </div>
-            </div>
             <div type="apparatus">
                 <p></p>
             </div>
                 <div type="translation" xml:lang="en">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: TEGE[... is assumed to be part of a name <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">380-381</citedRange></bibl></p>
+                    <p><title>Ogham</title>: 'TEGE[...' is assumed to be part of a name Macalister 1945, 380-381)</p>
                 </div>
                     <div type="textpart" n="2">
-                        <p><title>Latin</title>: <foreign xml:lang="pgl">Tegernacus</foreign>, the son of <foreign xml:lang="pgl">Martius</foreign> lies here</p>
+                        <p><title>Latin</title>: '<foreign xml:lang="pgl">Tegernacus</foreign>, the son of <foreign xml:lang="pgl">Martius</foreign> lies here'</p>
                     </div>
             </div>
             <div type="commentary">
-                <list type="witDetail">
-                    <item n="1">
-                        <p>The presence of an Ogham inscription on the stone has been called into question as there does not appear to be any evidence supporting it beyond Macalister's assertion. If the Ogham inscription described by Macalister was on the stone, the TEGE would appear to correspond to the Roman-letter inscription <bibl><ptr target="MAC1945"/>Macalister 1945<ptr target="RED2007"/>Redknap and Lewis 2007</bibl></p>
-                    </item>
-                    <item n="2">
-                        <p><q>TEGERNACVS is the ancestor either of a Welsh name <hi rend="italic">Teyrnog</hi> or of the Irish name <hi rend="italic">Tigernach</hi></q> where the spelling makes the Welsh possibility more likely <bibl> <ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">307</citedRange></bibl>. With regards to the date of the inscription, the Welsh Corpus notes that <q>if TEGERNACVS is Welsh, the spelling with A rather than O is in favour of as early a date as the epigraphy allows...the occurance of <hi rend="italic">Martius</hi>, a Latin name which did not pass into the Welsh stock of names, also favours an early date</q><bibl> <ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">307</citedRange></bibl>. On the context of the stone, it is worth noting that <q>this is one of several Glamorgan monuments associated with the sites of upland chapels of early foundation, cf. Chapel Gwladys (G30), Eglwysilan (G17) and Llanwonno (G72 and G73), The curvilinear graveyard at Capel Brithdir, and its cross-inscribed slab (G29), suggest an early date for this site</q><bibl> <ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">308</citedRange></bibl>.</p>
-                    </item>
-                </list>
-                <p></p>
+                        <p>The presence of an Ogham inscription on the stone has been called into question as there does not appear to be any evidence supporting it beyond Macalister's assertion. If the Ogham inscription described by Macalister was on the stone, the TEGE would appear to correspond to the Roman-letter inscription (Macalister 1945; Redknap and Lewis 2007)</p>
+                        <p><q>TEGERNACVS is the ancestor either of a Welsh name <hi rend="italic">Teyrnog</hi> or of the Irish name <hi rend="italic">Tigernach</hi></q> where the spelling makes the Welsh possibility more likely (Redknap and Lewis 2007, 307). With regards to the date of the inscription, the Welsh Corpus notes that <q>if TEGERNACVS is Welsh, the spelling with A rather than O is in favour of as early a date as the epigraphy allows...the occurance of <hi rend="italic">Martius</hi>, a Latin name which did not pass into the Welsh stock of names, also favours an early date</q> (Redknap and Lewis 2007, 307). On the context of the stone, it is worth noting that <q>this is one of several Glamorgan monuments associated with the sites of upland chapels of early foundation, cf. Chapel Gwladys (G30), Eglwysilan (G17) and Llanwonno (G72 and G73), The curvilinear graveyard at Capel Brithdir, and its cross-inscribed slab (G29), suggest an early date for this site</q> (Redknap and Lewis 2007, 308).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>
-                   <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">380-381</citedRange></bibl>
-                    <bibl><ptr target="RED2007"/>Redknap and Lewis 2007<citedRange unit="page">305-8</citedRange></bibl>
+                   <bibl><ptr target="MAC1945"/>
+                       <citedRange unit="page">380-381</citedRange>
+                   </bibl>
+                    <bibl><ptr target="RED2007"/>
+                        <citedRange unit="page">305-8</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
