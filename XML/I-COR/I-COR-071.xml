@@ -60,9 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-022004-</idno> </p>
-                                    <material>Clayslate</material> 
-                                    <objectType>Pillar (reused in souterrain)</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-022004-</idno> </p>
+                                    <material type="stone">Clay slate</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>1.88</height>
                                             <width>0.36</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Macalister (1945, 119) described the surface of the stone as <q>'rather rough'</q> but the inscription is <q>'perfectly legible'</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout/>
+                                <layout style="vertical" rend="arris_up"/>
                             </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
@@ -88,7 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM Coordinates: 545879, 580808</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1872">This stone is one of two ogham stones (see also I-COR-070) discovered in a souterrain (<idno type="SMR">CO061-022001-</idno>) where it formed one of the <q>'upright stones'</q> (Quarry 1896, 382). Two other ogham stones (I-COR-069, I-COR-072) were also discovered at this site.
+                        <provenance type="found" when="1872">This stone is one of two ogham stones (see also I-COR-070) discovered reused in a souterrain (<idno type="SMR">CO061-022001-</idno>) where it formed one of the <q>'upright stones'</q> (Quarry 1896, 382). Two other ogham stones (I-COR-069, I-COR-072) were also discovered at this site.
                         </provenance>
                         <provenance type="observed">This stone was purchased by the Royal Irish Academy and is now part of the collection of the National Museum of Ireland (see <idno type="SMR">DU018-368----</idno>). 
                         </provenance>
@@ -125,6 +125,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-16" who="#POC">Added Macalister reading to apparatus</change>    
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, updated apparatus, deleted note element from object type, commented out translation and commentary</change>
+    <change when="2025-04-01" who="#NW">Updated encoding of X-forfid and added indexing attributes.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -136,12 +138,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">ᚁᚏᚑᚔᚅᚔᚓᚅᚐᚄ</name> <w type="formula">ᚕᚑᚔ</w> <name nymRef="#">ᚅᚓᚈᚈᚐ&#5760;ᚈᚈᚏᚓᚅᚐᚂᚒᚌᚑᚄ</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">ᚁᚏᚑᚔᚅᚔᚓᚅᚐᚄ</name> <w type="formula"><g ref="#forfid_X"/>ᚑᚔ</w> <name nymRef="#">ᚅᚓᚈᚈᚐ&#5760;ᚈᚈᚏᚓᚅᚐᚂᚒᚌᚑᚄ</name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#broinienas">BROINIENAS</name> <w type="formula">KOI</w> <name nymRef="#netta-ttrenalugos">NETTA-TTRENALUGOS</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#broinienas">BROINIENAS</name> <w type="formula"><g type="forfid_X">K</g>OI</w> <name nymRef="#netta-ttrenalugos">NETTA-TTRENALUGOS</name></persName>
                 </ab>
             </div>
             <div type="apparatus">

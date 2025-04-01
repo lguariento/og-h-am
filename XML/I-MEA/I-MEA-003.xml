@@ -77,14 +77,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin corresp="#findspot">
-                            <origPlace><placeName type="townland">Brittas</placeName> (<placeName type="lake">Moynagh Lough</placeName>) 
+                            <origPlace><placeName type="lake">Moynagh Lough</placeName> <placeName type="townland">Brittas</placeName> 
                                 <placeName type="county">Co. Meath</placeName>
                                 <placeName type="country">Ireland</placeName>
                                 <geo>53.817650, -6.755644</geo>
                             <note>(approximate loaction)</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1884">Discovered in 1884  at the site of a crannog at Moynagh Lough (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">ME005-088001-</ref>), very close to the townland (Brittas, Moynagh and Nobber) and parish (Nobber and Castletown) boundary. Found by a local farmer, Owen Smith, who sent the tine to Charles Graves, bishop of Limerick. A report by Graves was read to the Royal Irish Academy on 24 June 1889 (Graves 1888–91).
+                        <provenance type="found" when="1884">Discovered in 1884  at the site of a crannog at Moynagh Lough (<ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">ME005-088001-</ref>), very close to the townland (Brittas, with Moynagh and Nobber) and parish (Nobber with Castletown) boundary. Found by a local farmer, Owen Smith, who sent the inscribed antler tine to Charles Graves, bishop of Limerick. A report by Graves was read to the Royal Irish Academy on 24 June 1889 (Graves 1888–91).
                         </provenance>
                         <provenance type="observed" when="2023">In the National Museum of Ireland where it was examined and recorded by the OG(H)AM team in November 2023.
                         </provenance>
@@ -92,11 +92,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
-<profileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc><profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
 <p>Julian Calendar</p>
@@ -119,6 +115,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
     <change when="2025-03-31" who="#NW">Created file for Moynagh Lough antler tine, adding content from various sources to the latest template file.</change>
+    <change when="2025-04-01" who="#NW">Updated encoding of X-forfid and apparatus.</change>  
 
 </listChange>
 </revisionDesc>
@@ -132,19 +129,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
            <div type="edition" subtype="ogham" xml:space="preserve" resp="#NW">
             <ab>
                     <lb n="1"/>ᚉᚑᚂᚑᚏᚏᚄ
-                    <lb n="2"/><g ref="#forfid_X"/>ᚔᚁᚐᚅᚄᚅᚐᚃᚊᚒ
+                    <lb n="2"/><g ref="#forfid_X"/>ᚔᚁᚐᚅᚄᚅᚐᚃᚊ<unclear reason="damage">ᚓ</unclear>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" resp="#NW">
                 <ab>
                     <lb n="1"/>COLORRS 
-                    <lb n="2"/>XIBANSNAVQU
+                    <lb n="2"/><g type="forfid_X">X</g>IBANSNAVQ<unclear reason="damage">E</unclear>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1"><note>It is unclear if this is one continuous text on two sides or two unrelated texts.</note></app>
-                <app n="2"><note>As the object is damaged at the end there may have been more strokes after the U, which could even be the remains of an E or I.</note></app>
+                <app n="2"><note>The X-forfid (ᚕ) at the beginning of line 2 does not cross the stem-line, as would be usual for this forfid, but is entirely carved to the right of the stem-line. It is therefore conceivable that it is not a letter at all, but that the X simply marks the beginning of the inscription, being functionally equivalent to a feathermark.</note></app>
+                <app n="3"><note>The object is damaged at the end of line 2 where there are three relatively clear strokes (U) but the remains of a fourth stroke are discernible (E), which could even be the remains of an I.</note></app>
                 </listApp>
             </div>
             <div type="translation"/>
