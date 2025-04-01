@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-008</idno>
                 <idno type="CIIC">445</idno>
-                <idno type="CISP">NEVRN/2</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/nevrn_2.html">NEVRN/2</idno>
                 <idno type="WelshCorpus">P71</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168591">168591</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>St. Brynach's Church</repository>
                         <idno type="invNo"></idno>
+                        <altIdentifier>
+                            <idno type="geo"></idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -56,8 +60,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1599</idno>Nanhyfer; St Brynach's Church</ref>
-                                    <material>Stone</material> <objectType>slab</objectType> comprised of <q>dolerite with feldspar patches (10 per cent), also contains smaller augite phenocrysts.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">394</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">1599</idno> Nanhyfer; St Brynach's Church</p>
+                                    <material type="stone">Dolerite</material> 
+                                    <objectType key="monument">Slab</objectType> <note>Comprised of <q>dolerite with feldspar patches (10 per cent), also contains smaller augite phenocrysts</q> (Edwards 2007, 394).</note>
                                     <dimensions unit='m'>
                                         <height>1.855</height>
                                         <width>0.61</width>
@@ -67,18 +72,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><q>Towards the bottom of the face is a roman-letter, Latin inscription, lightly and finely <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> in two horizontal lines.</q> An ogam inscription is <q>finely incised on the left angle (A/D) towards the top of the stone, reading upwards.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">394</citedRange></bibl>.</layout>
+                                <layout><q>Towards the bottom of the face is a roman-letter, Latin inscription, lightly and finely <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> in two horizontal lines.</q> An ogam inscription is <q>finely incised on the left angle (A/D) towards the top of the stone, reading upwards.</q> (Edwards 2007, 394).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The inscription is in small, even, closely spaced capitals... In line 1 AL is ligatured and the I is placed above the horizontal stroke of the L; N is reversed.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">394</citedRange></bibl><height></height>
+                            <handNote><q>The inscription is in small, even, closely spaced capitals... In line 1 AL is ligatured and the I is placed above the horizontal stroke of the L; N is reversed</q> (Edwards 2007, 394).<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Nevern</placeName>
-                                <geo>52.025669, -4.794869</geo></origPlace>
+                            <origPlace><placeName type="parish">Nevern</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>52.025669, -4.794869</geo>
+                            <note>National Grid Reference: SN 0835 4005</note></origPlace>
                             <origDate notBefore="0400" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">First mentioned by Lhuyd 1695, no ogham in Lhyud sketch - ogham first identified in 1874
@@ -113,13 +119,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2023-07-06" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
-
+    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -131,49 +135,46 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="la-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#VITALIS">&#x1683;&#x1694;&#x1688;&#x1690;&#x1682;&#x1694;&#x1690;&#x1685;&#x1694;</name></persName>
                 </ab>
               </div>
             </div>
-                 <div type="edition" subtype="roman" xml:space="preserve">
-                    <div type="textpart" n="2" xml:lang="la-Latn">
-                <ab><title>Latin</title>:
-                    <lb n="1" style="text-direction:across"/><persName><name nymRef="#VITALIS">VIT<hi rend="ligature">AL</hi><hi rend="superscript">I</hi>A<hi rend="reversed">N</hi>I</name>
-                    <lb n="2" style="text-direction:across"/><name>EMERETO</name></persName>
-                </ab>
-               </div>
-            </div>            
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="la-Ogam">
                 <div type="textpart" n="1">
-                    <ab><title>Ogham</title>:
+                    <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#VITALIS">VITALIANI</name></persName>
                     </ab>
                 </div>
                </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="la-Latn">
+                <ab>
+                    <lb n="1" style="text-direction:across"/><persName><name nymRef="#VITALIS">VIT<hi rend="ligature">AL</hi><hi rend="superscript">I</hi>A<hi rend="reversed">N</hi>I</name>
+                    <lb n="2" style="text-direction:across"/><name>EMERETO</name></persName>
+                </ab>
+               </div>
+            </div>          
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: of <foreign xml:lang="pgl">Vitalianus</foreign></p>
+                    <p><title>Ogham</title>: 'of <foreign xml:lang="pgl">Vitalianus</foreign>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: of <foreign xml:lang="pgl">Vitalianus</foreign> <foreign xml:lang="pgl">Emeretus</foreign></p>
+                  <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Vitalianus</foreign> <foreign xml:lang="pgl">Emeretus</foreign>'</p>
             </div>
             <div type="commentary">
-                    <list type="witDetail">
-                        <item n="1">
-                        <p><q><hi rend="italic">Vitalianus</hi> is a Latin name which could have been used by both the Irish and the British, as <hi rend="italic">Vitalinus</hi> certainly was... Vitalianus may well have been Irish, in view of the use of ogam, but there is nothing in the form of his name to prove this... The use of T rather than D in the ogam may be influenced by the Latin spelling, or the name may have been borrowed into Irish before lenition of /t/ to /d/ had occurred in British Latin.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">394</citedRange></bibl>.</p></item>
-                    <item n="2">
-                        <p><q>The combination of an ogam inscription with a horizontal roman-letter inscription is comparatively rare... Both inscriptions consist of the same Latin name in the genitive case, with the addition of EMERETO in the roman. The disposition of the roman inscription would suggest that a compound name, Vitalianus Emeritus, is the most likely interpretation despite the lack of grammatical agreement... EMERETO for <hi rend="italic">Emeritus</hi> shows Vulgar Latin... <hi rend="italic">-o</hi> for <hi rend="italic">-us</hi>. If the nominative -O is taken seriously, we should perhaps consider the ogam inscription as primary, commemorating Vitalianus, and the roman one as secondary, commemorating Emeritus son of Vitalianus...</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">394</citedRange></bibl>.</p></item>
-                </list>
+                        <p><q><hi rend="italic">Vitalianus</hi> is a Latin name which could have been used by both the Irish and the British, as <hi rend="italic">Vitalinus</hi> certainly was... Vitalianus may well have been Irish, in view of the use of ogam, but there is nothing in the form of his name to prove this... The use of T rather than D in the ogam may be influenced by the Latin spelling, or the name may have been borrowed into Irish before lenition of /t/ to /d/ had occurred in British Latin</q> (Edwards 2007, 394).</p>
+                        <p><q>The combination of an ogam inscription with a horizontal roman-letter inscription is comparatively rare... Both inscriptions consist of the same Latin name in the genitive case, with the addition of EMERETO in the roman. The disposition of the roman inscription would suggest that a compound name, Vitalianus Emeritus, is the most likely interpretation despite the lack of grammatical agreement... EMERETO for <hi rend="italic">Emeritus</hi> shows Vulgar Latin... <hi rend="italic">-o</hi> for <hi rend="italic">-us</hi>. If the nominative -O is taken seriously, we should perhaps consider the ogam inscription as primary, commemorating Vitalianus, and the roman one as secondary, commemorating Emeritus son of Vitalianus...</q> (Edwards 2007, 394).</p>
                     </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">392-394</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">392-394</citedRange>
+                </bibl>
                 </listBibl>
             </div>
         </body>

@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-003</idno>
                 <idno type="CIIC">433</idno>
-                <idno type="CISP">LDEIL/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/ldeil_1.html">LDEIL/1</idno>
                 <idno type="WelshCorpus">P22</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172305">172305</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -44,7 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Wales</country>
                         <repository>St. Telio's Church</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo">51.88198078123069, -3.9927783608300595</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -57,8 +61,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1311</idno>St Teilo's Church</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType> comprised of dolerite.<bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">329</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">1311</idno> St Teilo's Church</p>
+                                    <material type="stone" source="EDW2007">Dolerite</material> 
+                                    <objectType key="monument">Pillar</objectType>
                                     <dimensions unit='m'>
                                         <height>1.75</height>
                                         <width>0.46</width>
@@ -67,25 +72,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone features a roman-letter inscription reading vertically downwards in two lines, and is described as being lightly <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised.</rs>The roman-letter inscription takes up much of the central third of the stone face, though is positioned to the right of centre. <q>The ogam inscription is incised on the left angle (A/D) reading upwards.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">331</citedRange></bibl>.</layout>
+                                <layout rend="arris_up">The stone features a roman-letter inscription reading vertically downwards in two lines, and is described as being lightly <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised.</rs> The roman-letter inscription takes up much of the central third of the stone face, though is positioned to the right of centre. <q>The ogam inscription is incised on the left angle (A/D) reading upwards</q> (Edwards 2007, 331).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The [roman-letter] inscription is in capitals. In line 1 the A's have angle-bars; G is sickle-shaped; the L's have sloping horizontals and the final I of <hi rend="italic">Andagelli</hi> is horizontal. In line 2 FI are conjoined with a small I; AV are ligatured and the final I is horizontal.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">331</citedRange></bibl>.
+                            <handNote><q>The [roman-letter] inscription is in capitals. In line 1 the A's have angle-bars; G is sickle-shaped; the L's have sloping horizontals and the final I of <hi rend="italic">Andagelli</hi> is horizontal. In line 2 FI are conjoined with a small I; AV are ligatured and the final I is horizontal</q> (Edwards 2007, 331).
                                 <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Llandeilo Llwydarth</placeName>
-                                <geo>51.908222, -4.764158</geo></origPlace>
+                            <origPlace><placeName type="parish">Llandeilo Llwydarth</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName> 
+                                <geo>51.908222, -4.764158</geo>
+                            <note>National Grid Reference: SN 0996 2691</note></origPlace>
                             <origDate notBefore="0500" notAfter="0560" precision="low" datingMethod="#julian" evidence="linguistic">Early to mid sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">First recorded 1698 by Lhuyd and his assistants, unclear if ogham was identified at that time; ogham 'discovered' by Collier in 1889 according to Collier and Allen in same Archaeologia Cambrensis issues
-                        </provenance>
-                        <provenance type="observed">In St Mary's church, Maenclochog, set against the south wall at the west end
-                        </provenance>
+                        <provenance type="found">First recorded 1698 by Lhuyd and his assistants, unclear if ogham was identified at that time; ogham 'discovered' by Collier in 1889 according to Collier and Allen in same Archaeologia Cambrensis issues.</provenance>
+                        <provenance type="observed">In St Mary's church, Maenclochog, set against the south wall at the west end.</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -114,12 +118,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2023-07-06" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -131,49 +134,46 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#ANDEGELLAS">&#x1690;&#x1685;&#x1687;&#x1690;&#x168C;&#x1693;&#x1682;&#x1682;&#x1694;</name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x1689;&#x1692;</w><name nymRef="#CAVETAS">&#x1689;&#x1690;&#x1683;&#x1693;&#x1688;&#x1694;</name></persName>
                 </ab>
               </div>
             </div>
-                 <div type="edition" subtype="roman" xml:space="preserve">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
+                <div type="textpart" n="1">
+                    <ab>
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#ANDEGELLAS">ANDAGELLI</name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MACU</w><name nymRef="#CAVETAS">CAVETI</name></persName>
+                    </ab>
+                </div>
+               </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
-                <ab><title>Latin</title>:
+                <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#ANDEGELLAS">ANDAGELL<hi rend="inverted">I</hi></name><w>IACIT</w>
                     <lb n="2" style="text-direction:down"/><w><hi rend="ligature">FI</hi>LI</w><name nymRef="#CAVETAS">C<hi rend="ligature">AV</hi>ET<hi rend="inverted">I</hi></name></persName>
                 </ab>
                </div>
             </div>            
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
-                <div type="textpart" n="1">
-                    <ab><title>Ogham</title>:
-                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#ANDEGELLAS">ANDAGELLI</name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MACU</w><name nymRef="#CAVETAS">CAVETI</name></persName>
-                    </ab>
-                </div>
-               </div>
             <div type="apparatus">
                 <p></p>
             </div>
             <div type="translation" xml:lang="en">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: of <foreign xml:lang="pgl">Andagellus</foreign> son of <foreign xml:lang="pgl">Cavetus</foreign></p>
+                    <p><title>Ogham</title>: 'of <foreign xml:lang="pgl">Andagellus</foreign> son of <foreign xml:lang="pgl">Cavetus</foreign>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: of <foreign xml:lang="pgl">Andagellus</foreign>, (here) he lies, son of <foreign xml:lang="pgl">Cavetus</foreign></p>
+                  <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Andagellus</foreign>, (here) he lies, son of <foreign xml:lang="pgl">Cavetus</foreign>'</p>
             </div>
             <div type="commentary">
-                    <list type="witDetail">
-                        <item n="1">
-                        <p><q>Although the last two letters are damaged, the ogam inscription may be reconstructed with certainty. It mirrors the Latin but without <hi rend="italic">iacit</hi>. MACU is written instead of the usual <q>maqi</q>... ANDAGELLI... is probably not British but a preform of the poorly attested OI <hi rend="italic">Indgall</hi>, 'very yellow'... The initial A- has been regarded as British or British-influenced, but could be an archaic Irish feature, since OI <hi rend="italic">Ind-</hi> developed from <hi rend="italic">*Ande-</hi>. The name can alternatively be segmented AN-DAG-ELLI, 'little bad one'..</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">331</citedRange></bibl>.</p></item>
-                    <item n="2">
-                        <p>The roman-letter inscription <q>consists of the 'X son of Y' formula in the genitive case with the addition of <hi rend="italic">iacit</hi>. The incorporation of the abbreviated <hi rend="italic">hic iacit</hi> formula indicates that the inscription is Christian.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">331</citedRange></bibl>.</p></item>
-                </list>
+                        <p><q>Although the last two letters are damaged, the ogam inscription may be reconstructed with certainty. It mirrors the Latin but without <hi rend="italic">iacit</hi>. MACU is written instead of the usual <q>maqi</q>... ANDAGELLI... is probably not British but a preform of the poorly attested OI <hi rend="italic">Indgall</hi>, 'very yellow'... The initial A- has been regarded as British or British-influenced, but could be an archaic Irish feature, since OI <hi rend="italic">Ind-</hi> developed from <hi rend="italic">*Ande-</hi>. The name can alternatively be segmented AN-DAG-ELLI, 'little bad one'</q> (Edwards 2007, 331).</p>
+                        <p>The roman-letter inscription <q>consists of the 'X son of Y' formula in the genitive case with the addition of <hi rend="italic">iacit</hi>. The incorporation of the abbreviated <hi rend="italic">hic iacit</hi> formula indicates that the inscription is Christian</q> (Edwards 2007, 331).</p>
                     </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">329-331</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">329-331</citedRange>
+                </bibl>
                 </listBibl>
             </div>
         </body>

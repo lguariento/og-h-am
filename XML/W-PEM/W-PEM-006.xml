@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-006</idno>
                 <idno type="CIIC">426</idno>
-                <idno type="CISP">BRIDL/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/bridl_1.html">BRIDL/1</idno>
                 <idno type="WelshCorpus">P5</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168596">168596</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>St. David's Church</repository>
                         <idno type="invNo"></idno>
+                        <altIdentifier>
+                            <idno type="geo"></idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record <ref target="https://archwilio.org.uk/"><idno type="HER">1174</idno>St David's Church</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType> comprised of <q>dolerite with anhedral altered feldspar patches</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">290</citedRange></bibl>.
+                                <support><p><term>monument</term> Dyfed Archaeological Trust Historic Environment Record <ref target="https://archwilio.org.uk/"><idno type="HER">1174</idno>St David's Church</ref></p>
+                                    <material type="stone">Dolerite</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>Comprised of <q>dolerite with anhedral altered feldspar patches</q> (Edwards 2007, 290).</note>
                                     <dimensions unit="m">
                                         <height>2.225</height>
                                         <width>0.635</width>
@@ -64,18 +69,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>An Ogham inscription, in one line, <q>runs vertically up the left, north-east angle of the stone (A/D), parts of which are very uneven.</q> The inscription spans almost the entire length of the left angle of the stone. It is described as being <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">medium-incised</rs> with broad strokes<bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">290</citedRange></bibl>.</layout>
+                                <layout style="vertical" rend="arris_up">An Ogham inscription, in one line, <q>runs vertically up the left, north-east angle of the stone (A/D), parts of which are very uneven.</q> The inscription spans almost the entire length of the left angle of the stone. It is described as being <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">medium-incised</rs> with broad strokes (Edwards 2007, 290).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The cross-strokes of the G and R are unusually long.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">293</citedRange></bibl><height></height>
+                            <handNote><q>The cross-strokes of the G and R are unusually long</q> (Edwards 2007, 293).<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Bridell</placeName>
-                                <geo>52.046861, -4.660403</geo></origPlace>
+                            <origPlace><placeName type="parish">Bridell</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName> 
+                                <geo>52.046861, -4.660403</geo>
+                            <note>National Grid Reference: SN 1766 4206</note></origPlace>
                             <origDate notBefore="0400" notAfter="0500" precision="low" datingMethod="#julian" evidence="linguistic">Fifth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Oghams first mentioned in 1860
@@ -110,13 +116,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2023-07-04" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus</change>
     <change when="2023-07-11" who="#MK">Megan Kasten edited information and formatting to ensure consistency with OGHAM standards.</change>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -139,16 +144,17 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
-                <p>of <foreign xml:lang="pgl">Nettasagri</foreign> son of the kindred of <foreign xml:lang="pgl">Briaci</foreign></p>
+            <div type="translation">
+                <p>'of <foreign xml:lang="pgl">Nettasagri</foreign> son of the kindred of <foreign xml:lang="pgl">Briaci</foreign>'</p>
             </div>
             <div type="commentary">
-                <p><q>The first stroke of the N is extremely worn, but the rest of the first name is clear, apart from the last letter. Three vowel-notches are clearly visible, which might at first glance suggest a U, but there is certainly room for five, and slight traces of two further notches can be tentatively made out, making the identification of an I more likely... This is the only ogam-inscribed monument from Wales which certainly uses the <hi rend="italic">maqi mucoi</hi> ('son of the kindred of') formula, which is much more common in Ireland...</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">290-293</citedRange></bibl></p>
+                <p><q>The first stroke of the N is extremely worn, but the rest of the first name is clear, apart from the last letter. Three vowel-notches are clearly visible, which might at first glance suggest a U, but there is certainly room for five, and slight traces of two further notches can be tentatively made out, making the identification of an I more likely... This is the only ogam-inscribed monument from Wales which certainly uses the <hi rend="italic">maqi mucoi</hi> ('son of the kindred of') formula, which is much more common in Ireland...</q> (Edwards 2007, 290-293).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">290-293</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">290-293</citedRange>
+                </bibl>
                 </listBibl>
             </div>
         </body>
