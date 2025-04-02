@@ -75,7 +75,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A block in two pieces bearing bilingual inscriptions. There are two <q>"intact"</q> (Macalister 1945, 444) ogham inscriptions (1) and an incomplete Latin inscription (2) which is <q>"only slightly deteriorated"</q> (Okasha 1993, 150).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_down">The ogham inscriptions (1) occupy the two front angles of the stone. Both ogham inscriptions read vertically downwards. Macalister noted that the left-hand inscription is a correction of the ogham on the right, <q>made after the cutter had discovered that he had misplaced the side-scores</q> (1945, 444). Between the ogham inscriptions, a Latin inscription (2) is written in one line, reading vertically downwards and facing to the left, on the face of the stone.</layout>
+                                <layout style="vertical" rend="arris">The ogham inscriptions (1) occupy two angles of one face. Both ogham inscriptions currently read vertically downwards (the stone may have originally been positioned the other way up). Macalister noted that one inscription is a correction of the ogham on the other angle, <q>made after the cutter had discovered that he had misplaced the side-scores</q> (1945, 444). Between the ogham inscriptions, a Latin inscription (2) is written in one line, also currently reading vertically downwards and facing to the left, on the face of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -90,11 +90,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>50.600492, -4.437476</geo>
                             <note>National Grid Reference: SX 2760 8070</note>
                                 </origPlace>
-                            <origDate>Fifth century</origDate>
+                             <origDate notBefore="0400" notAfter="0500" precision="medium" evidence="palaeographic">Fifth century</origDate>
                         </origin>
                         <provenance type="found">The two fragments were found built into the north and east walls of the north porch of the church in 1894 by F. H. Nicholls. In 1896, the fragments were removed from the walls and placed together within the church. The ogham was first mentioned by Langdon and Allen in 1895 but a reading was not provided. <!--<placeName type="site"></placeName>,-->
                         </provenance>
-                        <provenance type="observed">Currently located inside the church at the north or west end.
+                        <provenance type="observed" when="2024">Currently located inside the church at the north or west end where it was examined and recorded by the OG(H)AM team in April 2024.
                         </provenance>
                     </history>
                 </msDesc>
@@ -137,6 +137,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-06" who="#POC">Proofreading changes</change>
 <change when="2025-01-23" who="#POC">Removed note from within objectType because the information was displaying on a separate line</change>
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM links, moved note from translation to commentary</change>
+     <change when="2025-04-01" who="#NW">Updated layout, apparatus, translation and date encoding.</change>
+         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,34 +152,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" xml:space="preserve" subtype="ogham" xml:lang="pgl-Ogam" resp="#NW">
                   <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:down" /><persName><name>ᚒᚇᚄᚐᚌᚉᚔ</name></persName> 
-                    <lb n="2" style="text-direction:down"/><persName><name nymRef="#olcagnas">ᚒᚂᚉᚐᚌᚅᚔ</name></persName>  
+                    <lb n="1"/><persName><name>ᚒᚇᚄᚐᚌᚉᚔ</name></persName> 
+                    <lb n="2"/><persName><name nymRef="#olcagnas">ᚒᚂᚉᚐᚌᚅᚔ</name></persName>  
                 </ab>
             </div>
             </div>
                  <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                  <ab>
-                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#udsagci">UDSAGCI</name></persName>
-                     <lb n="2" style="text-direction:down"/><persName><name nymRef="#olcagnas">ULCAGNI</name></persName>
+                     <lb n="1"/><persName><name>UDSAGCI</name></persName>
+                     <lb n="2"/><persName><name nymRef="#olcagnas">ULCAGNI</name></persName>
                  </ab>
                  </div>
                 <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
                     <div type="textpart" n="2" >
                     <ab>
-                        <lb n="1" style="text-direction:down"/><w><supplied reason="lost">HI</supplied>C</w> <w>IA<space quantity="1" unit="character"/>CIT</w> <persName><name nymRef="#olcagnas">VLCAGNI</name></persName>
+                        <lb n="1"/><w><supplied reason="lost">HI</supplied>C</w> <w>IA<space quantity="1" unit="character"/>CIT</w> <persName><name nymRef="#olcagnas">VLCAGNI</name></persName>
                     </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>For the inscription on the left the ogham (1) carver attempted ULCAGNI but put the 2 strokes of L to the left rather than right of the arris. Having gone wrong at the outset, knowing the following letter comes from a different aicme, it was put on the opposite (wrong) side, as was the other ‘sided’ consonant. What was written is UDSAGQI. Having got to the end and having realised the mistake, however, the name was re-carved on the opposite side, this time getting the placement correct: ULCAGNI. This is the second south-west ogham with a spelling error. The same mistake was made at Fardel 30 miles away.</note>
+                    <note>In the first line of ogham, the carver attempted ULCAGNI but put the two strokes of the L to the left rather than right of the arris. Having gone wrong at the outset, knowing the following letter comes from a different aicme, it was put on the opposite (wrong) side, as was the other ‘sided’ consonant. What was written is UDSAGQI. Having got to the end and having realised the mistake, however, the name was re-carved on the opposite side, this time getting the orientation correct: ULCAGNI. This is the second south-west ogham with a spelling error. The same mistake was made at Fardel 30 miles away.</note>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
                 <div type="textpart" n="2">
-                <p>Roman: "here lies Ólcan"</p>
+                <p>Ogham: 'of Olcán'</p>
+                <p>Roman: 'here lies Olcán'</p>
                 </div>
             </div>
             <div type="commentary">
