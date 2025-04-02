@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-X01</idno>
                 <idno type="CIIC">402</idno>
-                <idno type="CISP">SPTTL/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/spttl_1.html">SPTTL/1</idno>
                 <idno type="WelshCorpus">P136</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172367">172367</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -44,7 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Wales</country>
                         <repository>St. Mary's Church</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo">51.868514015873956, -4.941708631994864</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">2473</idno>St Mary's Church</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType> comprised of <q>porphyritic andesite. Subhedral phenocrysts of feldspar and pyroxene. </q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">498</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">2473</idno> St Mary's Church</p>
+                                    <material type="stone">Porphyritic andesite</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>Comprised of <q>porphyritic andesite. Subhedral phenocrysts of feldspar and pyroxene</q> (Edwards 2007, 498).</note>
                                     <dimensions unit='m'>
                                         <height>1.51</height>
                                         <width>0.61</width>
@@ -64,19 +69,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The pillar is <q>carved with a roman-letter, Latin inscription, medium-<rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> using fine lines, in three lines reading vertically downwards.</q> No ogam is presently visible on the stone.<bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">498</citedRange></bibl>.</layout>
+                                <layout>The pillar is <q>carved with a roman-letter, Latin inscription, medium-<rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> using fine lines, in three lines reading vertically downwards.</q> No ogam is presently visible on the stone (Edwards 2007, 498).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The inscription is in capitals... In line 1 VA are ligatured; the horizontal of the L slopes downwards, the first stroke of the N is slightly extended and the terminating I is horizontal. In line 2 VN are ligatured. In line 3 the outer strokes of the M are widely spaced and the inner strokes touch the line; MA are conjoined; R has a shortened diagonal and S in elongated.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">498</citedRange></bibl>.
-                                <height></height>
+                            <handNote><q>The inscription is in capitals... In line 1 VA are ligatured; the horizontal of the L slopes downwards, the first stroke of the N is slightly extended and the terminating I is horizontal. In line 2 VN are ligatured. In line 3 the outer strokes of the M are widely spaced and the inner strokes touch the line; MA are conjoined; R has a shortened diagonal and S in elongated</q> (Edwards 2007, 498).
+                                <!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Spittal</placeName>
-                                <geo>51.867944, -4.941539</geo></origPlace>
+                            <origPlace><placeName type="parish">Spittal</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.867944, -4.941539</geo>
+                            <note>National Grid Reference: </note></origPlace>
                             <origDate notBefore="0400" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Babelstone says that 'information about the stone in situ states that originally there were both Latin and Ogham inscriptions on it, but the Ogham letters are no longer visible' - CISP and OS don't mention the potential ogham inscription
@@ -114,13 +120,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
-    <change when="2023-07-09" who ="#MM">
-        Molly McKendrick edited information to incorporate info from Welsh Corpus entry.
-    </change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2023-07-09" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+    <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,19 +145,22 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
-                    <p>of <foreign xml:lang="pgl">Evalus</foreign> son of <foreign xml:lang="pgl">Denovus</foreign>, of <foreign xml:lang="pgl">Cuniovenda</foreign> his mother</p>
+                    <p>'of <foreign xml:lang="pgl">Evalus</foreign> son of <foreign xml:lang="pgl">Denovus</foreign>, of <foreign xml:lang="pgl">Cuniovenda</foreign> his mother'</p>
                 </div>
                </div>
             <div type="commentary">                    
-                        <p><q>Line 1 is straightforward, consisting of the 'X son of Y' formula in the genitive case... It is unclear whether Cuniovenda was the mother of Evalus or his father, though the former is more likely. The use of the word <hi rend="italic">mater</hi> is unique amongst the early inscribed stones...</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">498</citedRange></bibl>. It is likely that <q>EVALI is intended as the genitive of the rare Latin name <hi rend="italic">Aevalis</hi> or a derivative <hi rend="italic">*Aevalius</hi>... The patronymic, however, is presumably Celtic, whether it is read DENOVI or DENCVI. If DENOVI is read, it may be a Welsh adaption (with British O for the Irish composition vowel A) - or a cognate - of the Irish name <hi rend="italic">*Dena-vi(ks)</hi>, 'swift fighter'... If the reading is DENCVI it may be a Welsh name in <hi rend="italic">-wy</hi> (or Latin <hi rend="italic">-uus</hi>) to the Celtic base <hi rend="italic">*denk-</hi> that is seen in Ir. <hi rend="italic">Déclán</hi>... The first element of the latter name [CVNIOVENDE] should be compared with CIIC, nos 289 CUNIA and 286 CUNEA in Ireland... rather than with the commonplace element <hi rend="italic">Cuno-</hi>, 'hound', from which it presumably derives.<bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">281-284</citedRange></bibl> The composition vowel is British rather than Irish. The second element is Celtic <hi rend="italic">*-wind-</hi>, 'white' (plus Latin gen. sg. ending).</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">498-500</citedRange></bibl>.</p>
+                        <p><q>Line 1 is straightforward, consisting of the 'X son of Y' formula in the genitive case... It is unclear whether Cuniovenda was the mother of Evalus or his father, though the former is more likely. The use of the word <hi rend="italic">mater</hi> is unique amongst the early inscribed stones...</q> (Edwards 2007, 498). It is likely that <q>EVALI is intended as the genitive of the rare Latin name <hi rend="italic">Aevalis</hi> or a derivative <hi rend="italic">*Aevalius</hi>... The patronymic, however, is presumably Celtic, whether it is read DENOVI or DENCVI. If DENOVI is read, it may be a Welsh adaption (with British O for the Irish composition vowel A) - or a cognate - of the Irish name <hi rend="italic">*Dena-vi(ks)</hi>, 'swift fighter'... If the reading is DENCVI it may be a Welsh name in <hi rend="italic">-wy</hi> (or Latin <hi rend="italic">-uus</hi>) to the Celtic base <hi rend="italic">*denk-</hi> that is seen in Ir. <hi rend="italic">Déclán</hi>... The first element of the latter name [CVNIOVENDE] should be compared with CIIC, nos 289 CUNIA and 286 CUNEA in Ireland... rather than with the commonplace element <hi rend="italic">Cuno-</hi>, 'hound', from which it presumably derives (Macalister 1945, 281-284). The composition vowel is British rather than Irish. The second element is Celtic <hi rend="italic">*-wind-</hi>, 'white' (plus Latin gen. sg. ending)</q> (Edwards 2007, 498-500).</p>
                     </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">498-500</citedRange></bibl>
-                <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">281-284</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">498-500</citedRange>
+                </bibl>
+                <bibl><ptr target="MAC1945"/>
+                    <citedRange unit="page">281-284</citedRange>
+                </bibl>
                 </listBibl>
             </div>
         </body>

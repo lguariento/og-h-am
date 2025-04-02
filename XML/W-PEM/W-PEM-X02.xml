@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-X02</idno>
                 <idno type="CIIC">429</idno>
-                <idno type="CISP">CLYDI/2</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/clydi_2.html">CLYDI/2</idno>
                 <idno type="WelshCorpus">P13</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/168600">168600</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>St. Clydai's Church</repository>
                         <idno type="invNo"></idno>
+                        <altIdentifier>
+                            <idno type="geo">51.98991800849563, -4.549832203151081</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1212</idno>Clydau, Clydey; St Clydai's Church</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType>comprised of <q>pyroxene-rich dolerite with sparse feldspar phenocrysts. Melanocratic, clearly defined pyroxene crystals and accessory minerals.</q><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">314</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">1212</idno> Clydau, Clydey; St Clydai's Church</p>
+                                    <material type="stone">Dolerite</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>Comprised of <q>pyroxene-rich dolerite with sparse feldspar phenocrysts. Melanocratic, clearly defined pyroxene crystals and accessory minerals</q> (Edwards 2007, 314).</note>
                                     <dimensions unit='m'>
                                         <height>1.63</height>
                                         <width>0.29</width>
@@ -65,25 +70,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><q>A roman-letter, Latin inscription <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using a broad <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> line, in two lines reading vertically downwards... The inscription is set out somewhat unevenly but arranged to fill the available space.</q> The inscription fills the upper two-thirds of the stone face<bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">314</citedRange></bibl>. <bibl><ptr target ="MAC1922b"/>Macalister 1922b<citedRange unit="page">29</citedRange></bibl> suggested ogham, but never saw strokes: `The SOLINVS stone at Clydai, I believe to have originally borne an Ogham, now broken away. I judge this from the appearance of the angle which would have been inscribed, for no trace of the scores remain'.</layout>
+                                <layout><q>A roman-letter, Latin inscription <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using a broad <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> line, in two lines reading vertically downwards... The inscription is set out somewhat unevenly but arranged to fill the available space.</q> The inscription fills the upper two-thirds of the stone face (Edwards 2007, 314). Macalister (1922b, 29) suggested ogham, but never saw strokes: <q>The SOLINVS stone at Clydai, I believe to have originally borne an Ogham, now broken away. I judge this from the appearance of the angle which would have been inscribed, for no trace of the scores remain</q>.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The inscription is in capitals. FI and LI (twice) are conjoined with small I's. In line 1 the first vertical of the N extends below the line. In line 2 D is reversed and the V's slightly curved... The vertical stroke of the reversed D projects slightly, but it is not a miniscule form...</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">314</citedRange></bibl>.
+                            <handNote><q>The inscription is in capitals. FI and LI (twice) are conjoined with small I's. In line 1 the first vertical of the N extends below the line. In line 2 D is reversed and the V's slightly curved... The vertical stroke of the reversed D projects slightly, but it is not a miniscule form...</q> (Edwards 2007, 314).
                                 <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Clydau</placeName>
-                                <geo></geo></origPlace>
+                            <origPlace><placeName type="parish">Clydau</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>Coordinates unknown</geo>
+                            <note>National Grid Reference: SN 2508 3547</note></origPlace>
                             <origDate notBefore="0460" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">Late fifth or first half of the sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">
                         </provenance>
-                        <provenance type="observed">Inside the church, standing against the west wall of the south aisle.
-                        </provenance>
+                        <provenance type="observed">Inside the church, standing against the west wall of the south aisle.</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -115,12 +120,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet.</change>
     <change when="2023-07-05" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-26" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -140,16 +144,19 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 <p></p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>of <foreign xml:lang="la">Solinus</foreign> son of <foreign xml:lang="pgl">Vendonus</foreign></p>
+                <p>'of <foreign xml:lang="la">Solinus</foreign> son of <foreign xml:lang="pgl">Vendonus</foreign>'</p>
             </div>
             <div type="commentary">
-                <p><q>The roman-letter, Latin inscription is an example of the simple 'X son of Y' formula, with names in the genitive and <hi rend="italic">filivs</hi> in the nominative case... <hi rend="italic">Solinus</hi> is a Latin name... VENDONI has often been regarded as Irish and is sometimes seen as a later form of the Irish name VENDOGNI... There are phonological problems, however, and it may be better to regard it as a spelling of the old Celtic name <hi rend="italic">Vindonius</hi> (from Celtic <hi rend="italic">*Windo-</hi>, 'white'), and therefore not specifically Irish, Welsh, or Celtic-Latin.</q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">314</citedRange></bibl>.</p>
+                <p><q>The roman-letter, Latin inscription is an example of the simple 'X son of Y' formula, with names in the genitive and <hi rend="italic">filivs</hi> in the nominative case... <hi rend="italic">Solinus</hi> is a Latin name... VENDONI has often been regarded as Irish and is sometimes seen as a later form of the Irish name VENDOGNI... There are phonological problems, however, and it may be better to regard it as a spelling of the old Celtic name <hi rend="italic">Vindonius</hi> (from Celtic <hi rend="italic">*Windo-</hi>, 'white'), and therefore not specifically Irish, Welsh, or Celtic-Latin</q> (Edwards 2007, 314).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">314-315</citedRange></bibl>
-                <bibl><ptr target ="MAC1922b"/>Macalister 1922b<citedRange unit="page">29</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">314-315</citedRange>
+                </bibl>
+                <bibl><ptr target ="MAC1922b"/>
+                    <citedRange unit="page">29</citedRange>
+                </bibl>
                 </listBibl>
             </div>
         </body>

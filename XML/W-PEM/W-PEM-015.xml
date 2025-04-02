@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-015</idno>
                 <idno type="CIIC">439</idno>
-                <idno type="CISP">LFRN2/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/lfrn2_1.html">LFRN2/1</idno>
                 <idno type="WelshCorpus">P30</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172312">172312</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -44,7 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Wales</country>
                         <repository>Glandŵr Baptist Chapel</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo">51.985830427997236, -4.556158018495604</idno><!-- I think these coordinates are ok. -->
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">1109</idno>Iet-wen Farm</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType> comprised of dolerite.<bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">341-342</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">1109</idno> Iet-wen Farm</p>
+                                    <material type="stone" source="EDW2007">Dolerite</material> 
+                                    <objectType key="monument">Pillar</objectType>
                                     <dimensions unit='m'>
                                         <height>1.40</height>
                                         <width>0.305</width>
@@ -65,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><q>On the right angle (A/B) is an <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> ogam inscription, which reads upwards</q> in one line, running the length of the exposed stone.<bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">342-343</citedRange></bibl>.</layout>
+                                <layout style="vertical" rend="arris_upR"><q>On the right angle (A/B) is an <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> ogam inscription, which reads upwards</q> in one line, running the length of the exposed stone (Edwards 2007, 342-343).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -75,13 +80,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Llanfyrnach</placeName>
-                                <geo>51.931278, -4.657342</geo></origPlace>
+                            <origPlace><placeName type="parish">Llanfyrnach</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.931278, -4.657342</geo>
+                            <note>National Grid Reference: SN 174 292</note></origPlace>
                             <origDate notBefore="0400" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">First located on Mynydd Stamber, Iet-wen Farm, in the same place that crochanau (pots) and burning were also reported. Removed to Trehowel Farm where it was used as a gatepost before the oghams were first noticed in 1908
+                        <provenance type="found">First located on Mynydd Stamber, Iet-wen Farm, in the same place that crochanau (pots) and burning were also reported. Removed to Trehowel Farm where it was used as a gatepost before the oghams were first noticed in 1908.
                         </provenance>
-                        <provenance type="observed">Standing in the yard of Glandŵr Baptist Chapel, north-west of the entrance
+                        <provenance type="observed">Standing in the yard of Glandŵr Baptist Chapel, north-west of the entrance.
                         </provenance>
                     </history>
                 </msDesc>
@@ -114,13 +120,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
-    <change when="2023-07-06" who ="#MM">
-        Molly McKendrick edited information to incorporate info from Welsh Corpus entry.
-    </change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2023-07-06" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
 <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
+    <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -131,7 +134,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="illegible" extent="unknown"/>&#x1694;&#x168D;<gap reason="illegible" extent="1" unit="character"/>&#x1684;&#x1684;<unclear reason="faded">&#x1690;</unclear>&#x168D;
                     <choice><unclear>&#x1691;</unclear>
                             <unclear>&#x1692;</unclear>
@@ -141,7 +144,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 </ab>
               </div>          
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
-                    <ab><title>Transliteration</title>:
+                    <ab>
                         <lb n="1" style="text-direction:up"/>IGw
 <gap reason="illegible" extent="1" unit="character"></gap>SS<unclear reason="faded">A</unclear>Gw<gap reason="illegible" extent="unknown" unit="character"></gap>
                     <choice><unclear>O</unclear>
@@ -154,17 +157,20 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
-                    <p>the prayer of <foreign xml:lang="pgl">Gusugnas</foreign></p>
+            <div type="translation">
+                    <p>'the prayer of <foreign xml:lang="pgl">Gusugnas</foreign>'</p>
             </div>
             <div type="commentary">
-                    <p><q>...Gw was a rare sound, and the only obvious possibility is something like *[D]IGwESSA ('prayer', 'petition'?, cf. OI <hi rend="italic">dígde</hi>), perhaps followed by a name in the genitive case. The name in question may be one of the many ogam names in -GNI... the nearest are CIIC: nos 287 NISIGNI (cf. OI <hi rend="italic">Nessán</hi>) and 236 LOSAGNI (cf. OI <hi rend="italic">Loissín</hi>)<bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">229-231, 282-283</citedRange></bibl>. If the first letter is definitely Gw it is difficult to reconstruct a suitable name, as stems with this initial sound were rare. If the Gw were hypercorrected for G, however (cf. frequent hypercorrect Q for C), a possibility is *GwUSUGNI or *GwUSOGNI (cf. OI <hi rend="italic">Gussán</hi>), a derivative of <hi rend="italic">*gussu-</hi>, 'valor' (ogam -GUSU).</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">343</citedRange></bibl></p>
+                    <p><q>...Gw was a rare sound, and the only obvious possibility is something like *[D]IGwESSA ('prayer', 'petition'?, cf. OI <hi rend="italic">dígde</hi>), perhaps followed by a name in the genitive case. The name in question may be one of the many ogam names in -GNI... the nearest are CIIC: nos 287 NISIGNI (cf. OI <hi rend="italic">Nessán</hi>) and 236 LOSAGNI (cf. OI <hi rend="italic">Loissín</hi>) (Macalister 1945, 229-231, 282-283). If the first letter is definitely Gw it is difficult to reconstruct a suitable name, as stems with this initial sound were rare. If the Gw were hypercorrected for G, however (cf. frequent hypercorrect Q for C), a possibility is *GwUSUGNI or *GwUSOGNI (cf. OI <hi rend="italic">Gussán</hi>), a derivative of <hi rend="italic">*gussu-</hi>, 'valor' (ogam -GUSU)</q> (Edwards 2007, 343).</p>
                     </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">341-344</citedRange></bibl>
-                <bibl><ptr target="MAC1945"/>Macalister 1945<citedRange unit="page">229-231, 282-283</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">341-344</citedRange>
+                </bibl>
+                <bibl><ptr target="MAC1945"/>
+                    <citedRange unit="page">229-231, 282-283</citedRange>
+                </bibl>
                 </listBibl>
             </div>
         </body>

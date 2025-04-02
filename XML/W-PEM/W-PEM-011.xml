@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-011</idno>
                  <idno type="CIIC">423</idno>
-                <idno type="CISP">BRAW1/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/braw1_1.html">BRAW1/1</idno>
                 <idno type="WelshCorpus">P2</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172249">172249</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>St. David's Church</repository>
                         <idno type="invNo"></idno>
+                        <altIdentifier>
+                            <idno type="geo">51.873768326964196, -5.112662338076654</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -54,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record <ref target="https://archwilio.org.uk/"><idno type="HER">2764</idno>Castle Villa (Castell Villia, Caswilia) Farm</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType>consisting of <q>Homogenous, fine, dark grey dolerite.</q> <bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">284</citedRange>.</bibl>                                     
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/">Dyfed Archaeological Trust Historic Environment Record</ref> <idno type="HER">2764</idno> Castle Villa (Castell Villia, Caswilia) Farm</p>
+                                    <material type="stone">Dolerite</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>Consisting of <q>Homogenous, fine, dark grey dolerite</q> (Edwards 2007, 284).</note>      
                                     <dimensions unit="m">
                                         <height>2.85</height>
                                         <width>0.56</width>
@@ -64,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">medium-incised</rs> Ogham letters in one line which are read vertically upwards. The inscription is fragmentary and survives on the left angle. <bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">284</citedRange></bibl>.</layout>
+                                <layout style="vertical" rend="arris_down">The stone is inscribed with <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">medium-incised</rs> Ogham letters in one line which are read vertically upwards. The inscription is fragmentary and survives on the left angle (Edwards 2007, 284).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -75,8 +80,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Brawdy</placeName>
-                                <geo>51.906567, -5.080456</geo></origPlace>
+                            <origPlace><placeName type="parish">Brawdy</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.906567, -5.080456</geo>
+                            <note>National Grid Reference: SM 882 276</note></origPlace>
                             <origDate notBefore="0400" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Ogham was first noticed in 1883 when the stone was in use as a gatepost at the entrance to the yard of Castle Villa farm.
@@ -111,12 +117,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2023-07-04" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus</change>
     <change when="2023-07-10" who="#MK">Megan Kasten edited formatting and information to conform to OG(H)AM standards.</change>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>    
+    <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -141,15 +146,16 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 <p></p>
             </div>
             <div type="translation" xml:lang="en">
-                <p>son of <foreign xml:lang="pgl">Cacht</foreign></p>
+                <p>'son of <foreign xml:lang="pgl">Cacht</foreign>'</p>
             </div>
             <div type="commentary">
-                <p><q>While AQ is clear, there is no sign of the five vowel-marks for I, which makes [M]AQ a slightly more likely restoration than [M]AQ[I]... The first two letters of the name itself are QA, but other vowels could have been intended, in view of the space before the GTE. The combination of GT is puzzling, and there is something to be said for Rhys's suggestion that GT represents the OI <hi rend="italic">cht</hi>... <hi rend="italic">Cacht</hi> is given in the Irish geneaologies... arguably a Celtic cognate or derivative of Latin <hi rend="italic">captus, capta</hi>... If this name is meant, the ogam Q must be a false archaism or hypercorrection for C...</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">284</citedRange></bibl>.</p>
+                <p><q>While AQ is clear, there is no sign of the five vowel-marks for I, which makes [M]AQ a slightly more likely restoration than [M]AQ[I]... The first two letters of the name itself are QA, but other vowels could have been intended, in view of the space before the GTE. The combination of GT is puzzling, and there is something to be said for Rhys's suggestion that GT represents the OI <hi rend="italic">cht</hi>... <hi rend="italic">Cacht</hi> is given in the Irish geneaologies... arguably a Celtic cognate or derivative of Latin <hi rend="italic">captus, capta</hi>... If this name is meant, the ogam Q must be a false archaism or hypercorrection for C...</q> (Edwards 2007, 284).</p>
             </div>
             <div type="bibliography">
-                 <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">284-285</citedRange></bibl>  
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">284-285</citedRange>
+                </bibl>  
                 </listBibl>
             </div>
         </body>

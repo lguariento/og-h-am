@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-013</idno>
                 <idno type="CIIC">432</idno>
-                <idno type="CISP">JRDNS/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/jrdns_1.html">JRDNS/1</idno>
                 <idno type="WelshCorpus">P20</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172282">172282</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -44,7 +45,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Wales</country>
                         <repository>Llangwarren House</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo"/></altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -55,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">2582</idno>Llangwarren (Llangwarran) House</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType> comprised of equigranular dolerite.<bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">325</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">2582</idno> Llangwarren (Llangwarran) House</p>
+                                    <material type="stone">Dolerite</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>Comprised of equigranular dolerite (Edwards 2007, 325).</note>
                                     <dimensions unit='m'>
                                         <height>1.55</height>
                                         <width>0.62</width>
@@ -66,24 +70,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>A <q>roman-letter inscription is in two lines, reading vertically downwards. It is medium <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using a broad, <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> line... The ogam inscription is medium <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> on the left angle (A/D), reading upwards</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">325</citedRange></bibl>.</layout>
+                                <layout style="vertical" rend="arris_up">A <q>roman-letter inscription is in two lines, reading vertically downwards. It is medium <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using a broad, <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punched</rs> line... The ogam inscription is medium <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> on the left angle (A/D), reading upwards</q> (Edwards 2007, 325).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The roman-letter inscription <q>is in capitals. The letters in line 1... are smaller than those in line 2. The G's are sickle-shaped; R has an open loop and the loops of the B do not meet the vertical stroke</q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">325</citedRange></bibl>.
+                            <handNote>The roman-letter inscription <q>is in capitals. The letters in line 1... are smaller than those in line 2. The G's are sickle-shaped; R has an open loop and the loops of the B do not meet the vertical stroke</q> (Edwards 2007, 325).
                                 <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Jordanston</placeName>
-                                <geo>51.941556, -5.014458</geo></origPlace>
+                            <origPlace><placeName type="parish">Jordanston</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.941556, -5.014458</geo>
+                            <note>National Grid Reference: SM 929 313</note></origPlace>
                             <origDate notBefore="0400" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">First mentioned in 1896 built into a wall near Llangwarren House, where it had formerly been used as a gatepost; Ogham published 1897
+                        <provenance type="found" when="1896">First mentioned in 1896 built into a wall near Llangwarren House, where it had formerly been used as a gatepost; Ogham published 1897
                         </provenance>
-                        <provenance type="observed">In the garden north-east of Llangwarren House
+                        <provenance type="observed">In the garden north-east of Llangwarren House.
                         </provenance>
                     </history>
                 </msDesc>
@@ -116,12 +121,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2023-07-05" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-26" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -133,49 +137,46 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#DUVVAGNAS">&#x1687;&#x1691;&#x1683;&#x1690;&#x168C;&#x1685;&#x1694;</name></persName>
                 </ab>
               </div>
-            </div>
-                 <div type="edition" subtype="roman" xml:space="preserve">
-                    <div type="textpart" n="2" xml:lang="pgl-Latn">
-                <ab><title>Latin</title>:
-                    <lb n="1" style="text-direction:down"/>TIGERNACI
-                    <lb n="2" style="text-direction:down"/><persName><name nymRef="#DUVVAGNAS">DOBAGNI</name></persName>
-                </ab>
-               </div>
-            </div>            
+            </div>   
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                 <div type="textpart" n="1">
-                    <ab><title>Transliteration</title>:
+                    <ab>
                         <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#DUVVAGNAS">DOVAGNI</name></persName>
                     </ab>
                 </div>
                </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab>
+                    <lb n="1" style="text-direction:down"/>TIGERNACI
+                    <lb n="2" style="text-direction:down"/><persName><name nymRef="#DUVVAGNAS">DOBAGNI</name></persName>
+                </ab>
+               </div>
+            </div>       
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: of <foreign xml:lang="pgl">Dovagnus</foreign></p>
+                    <p><title>Ogham</title>: 'of <foreign xml:lang="pgl">Dovagnus</foreign>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: <foreign xml:lang="pgl">Tigernaci</foreign> <foreign xml:lang="pgl">Dobagni </foreign></p>
+                  <p><title>Latin</title>: '<foreign xml:lang="pgl">Tigernaci</foreign> <foreign xml:lang="pgl">Dobagni </foreign>'</p>
             </div>
             <div type="commentary">
-                    <list type="witDetail">
-                        <item n="1">
-                        <p><q>The ogam inscription consists of a personal name DOVAGNI in the genitive case... DOVAGNI/DOBAGNI is OI <hi rend="italic">Dubán</hi>...'black'. Possible evidence of the Irish name in Wales is the place-name <hi rend="italic">Merthyr Dyfan (Dovan)</hi> in Glamorgan.</q><bibl><ptr target="EDW2007"/>Edwards 2007 <citedRange unit="page">326-327</citedRange></bibl>.</p></item>
-                    <item n="2">
-                        <p><q>DOVAGNI and DOBAGNI are clearly the same person, and the roman and ogam inscriptions have been placed side by side which draws attention to this... The ogam inscription may commemorate the father while the roman inscription commemorates his son, with the name and patronym only, rather than the Latin 'X son of Y' formula. Secondly, the same person may be commemorated in both the roman and ogam inscriptions, but TIGERNACI has been placed above DOBAGNI, rather than below, in order to show the relationship of the latter to the ogam letters.</q><bibl><ptr target="EDW2007"/> <citedRange unit="page">326-327</citedRange></bibl>.</p></item>
-                </list>
+                        <p><q>The ogam inscription consists of a personal name DOVAGNI in the genitive case... DOVAGNI/DOBAGNI is OI <hi rend="italic">Dubán</hi>...'black'. Possible evidence of the Irish name in Wales is the place-name <hi rend="italic">Merthyr Dyfan (Dovan)</hi> in Glamorgan</q> (Edwards 2007 , 326-327).</p>
+                        <p><q>DOVAGNI and DOBAGNI are clearly the same person, and the roman and ogam inscriptions have been placed side by side which draws attention to this... The ogam inscription may commemorate the father while the roman inscription commemorates his son, with the name and patronym only, rather than the Latin 'X son of Y' formula. Secondly, the same person may be commemorated in both the roman and ogam inscriptions, but TIGERNACI has been placed above DOBAGNI, rather than below, in order to show the relationship of the latter to the ogam letters</q> (Edwards 2007 , 326-327).</p>
                     </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/> <citedRange unit="page">325-327</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">325-327</citedRange>
+                </bibl>
                 </listBibl>
             </div>
         </body>

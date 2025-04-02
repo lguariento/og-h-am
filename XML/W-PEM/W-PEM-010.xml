@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-010</idno>
                  <idno type="CIIC">456</idno>
-                <idno type="CISP">STNTN/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/stntn_1.html">STNTN/1</idno>
                 <idno type="WelshCorpus">P138</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172395">172395</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -45,6 +46,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Wales</country>
                         <repository>Church of St. Peter and St. Cewydd</repository>
                         <idno type="invNo"></idno>
+                        <altIdentifier>
+                            <idno type="geo">51.73045267269362, -5.016748945495414</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -57,21 +61,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record <ref target="https://archwilio.org.uk/"><idno type="HER">3369</idno>Church of St Peter and St Cewydd</ref>
-                                    <material>Stone</material> <objectType>boulder</objectType> described as <q>Fine-grained, very well-sorted, micaceous, quartz-rich sandstone. Colour ranges from very pale brown (10YR 8/3) on fresh surface to light brownish-grey (10YR 6/2) on weathered areas.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">503</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/">Dyfed Archaeological Trust Historic Environment Record</ref> <idno type="HER">3369</idno> Church of St Peter and St Cewydd</p>
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="boulder">Boulder</objectType> <note>Described as <q>Fine-grained, very well-sorted, micaceous, quartz-rich sandstone. Colour ranges from very pale brown (10YR 8/3) on fresh surface to light brownish-grey (10YR 6/2) on weathered areas</q> (Edwards 2007, 503).</note>
                                     <dimensions unit='m'>
                                         <height>1.26</height>
                                         <width>0.51</width>
                                         <depth>0.265</depth>
-                                        </dimensions></support>
-                                <condition/>
+                                        </dimensions>
+                                <desc type="decoration">In the ninth century a Latin ring-cross was added to the face of the stone.</desc>
+                                </support>
+                                <condition>The majority of the roman-letter inscription was destroyed as a result of the c. ninth century addition of the ring-cross, and the lower cross arm of the Latin ring-cross was subsequently disrupted as a result of the stone being repurposed in 1876 as a gravestone. (Edwards 2007, 503).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout> An Ogham inscription, described as being deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised </rs>, is present on the left angle (A/D) of the stone face, reading vertically upwards. It begins in the top quarter of the stone and teminates at the crest of the stone. <q>A fragmentary roman-letter inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> vertically down the centre of the face within the upper cross arm...[of] an incomplete outline Latin ring-cross... The end of the left cross-arm cuts the final stroke of the N of the ogam inscription.</q> The majority of the roman-letter inscription was destroyed as a result of the c. ninth century addition of the ring-cross, and the lower cross arm of the Latin ring-cross was subsequently disrupted as a result of the stone being repurposed in 1876 as a gravestone. <bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">503</citedRange></bibl>.</layout>
+                                <layout style="vertical" rend="arris_up"> An Ogham inscription, described as being deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, is present on the left angle (A/D) of the stone face, reading vertically upwards. It begins in the top quarter of the stone and teminates at the crest of the stone. <q>A fragmentary roman-letter inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> vertically down the centre of the face within the upper cross arm...[of] an incomplete outline Latin ring-cross... The end of the left cross-arm cuts the final stroke of the N of the ogam inscription.</q> </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Of the roman-letter inscription, <q>The letters are capitals... G is sickle-shaped.<bibl><ptr target ="#EDW2007"/>Edwards 2007<citedRange unit="page">503</citedRange></bibl></q>
+                            <handNote>Of the roman-letter inscription, <q>The letters are capitals... G is sickle-shaped (Edwards 2007, 503).</q>
                                 
                                 <height></height>
                             </handNote>
@@ -79,11 +86,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Steynton</placeName>
-                                <geo>51.730150, -5.016294</geo></origPlace>
-                            <origDate notBefore="0400" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic"> Fifth of sixth century A.D.</origDate>
+                            <origPlace><placeName type="parish">Steynton</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.730150, -5.016294</geo>
+                            <note>National Grid Reference: SM 9180 0780</note></origPlace>
+                            <origDate notBefore="0400" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Fifth of sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">Ogham first mentioned in 1880 by Westwood.
+                        <provenance type="found" when="1880">Ogham first mentioned in 1880 by Westwood.
                         </provenance>
                         <provenance type="observed">Inside the church, standing against the west face of the most westerly pillar in the north arcade of the nave.
                         </provenance>
@@ -115,14 +123,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2023-07-02" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-10" who="#MK">Megan Kasten edited formatting and information to match the OG(H)AM standards.</change>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
     <change when="2023-07-29" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
-
+    <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, added information to condition, added decoration section, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -134,45 +140,42 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#GENTILIS">&#x168C;&#x1693;&#x1685;&#x1687;&#x1694;&#x1682;&#x1694;</name></persName>
                 </ab>
               </div>
             </div>
-                 <div type="edition" subtype="roman" xml:space="preserve">
-                    <div type="textpart" n="2" xml:lang="pgl-Latn">
-                <ab><title>Latin</title>:
-                    <lb n="1"/>GE<gap reason="lost" extent="unknown" unit="character"/>
-                </ab>
-               </div>
-            </div>            
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
                 <div type="textpart" n="1">
-                    <ab><title>Ogham</title>:
+                    <ab>
                         <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#GENTILIS">GENDILI</name></persName>
                     </ab>
                 </div>
                </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab>
+                    <lb n="1"/>GE<gap reason="lost" extent="unknown" unit="character"/>
+                </ab>
+               </div>
+            </div>            
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
-                <p><title>Ogham</title>:of <foreign xml:lang="pgl">Gendilus</foreign></p>
+                <p><title>Ogham</title>: 'of <foreign xml:lang="pgl">Gendilus</foreign>'</p>
                 </div>
             </div>
             <div type="commentary">
-                <list type="witDetail">
-                        <item n="1">
-                        <p><q>GENDILI is a genitive of one or other of the attested Latin names <hi rend="italic">Gentilius, Gentilis</hi> or <hi rend="italic">Gentillus</hi>, with Ir. /nd/ substituted for the /nt/ that was lacking in Primitive Irish. A related borrowing in Welsh can be seen at Patrishow 1 (B43) in GENILLIN = MW <hi rend="italic">Gen(n)illyn, -in</hi> and perhaps in the place name <hi rend="italic">Tref Ginhall</hi> (var. <hi rend="italic">Gynnhill, Gynhil</hi>) in the Book of Llandaf...</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">504</citedRange></bibl>.</p></item>
-                    <item n="2">
-                        <p><q>Although the roman inscription is fragmentary, enough survives to suggest that it mirrored the ogam inscription, being simply a personal name in the genitive case, though the former existence of a longer one-line inscription is also possible.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">504</citedRange></bibl>.</p></item>
-                </list>
+                        <p><q>GENDILI is a genitive of one or other of the attested Latin names <hi rend="italic">Gentilius, Gentilis</hi> or <hi rend="italic">Gentillus</hi>, with Ir. /nd/ substituted for the /nt/ that was lacking in Primitive Irish. A related borrowing in Welsh can be seen at Patrishow 1 (B43) in GENILLIN = MW <hi rend="italic">Gen(n)illyn, -in</hi> and perhaps in the place name <hi rend="italic">Tref Ginhall</hi> (var. <hi rend="italic">Gynnhill, Gynhil</hi>) in the Book of Llandaf...</q> (Edwards 2007, 504).</p>
+                        <p><q>Although the roman inscription is fragmentary, enough survives to suggest that it mirrored the ogam inscription, being simply a personal name in the genitive case, though the former existence of a longer one-line inscription is also possible</q> (Edwards 2007, 504).</p>
             </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">503-505</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">503-505</citedRange>
+                </bibl>
                 </listBibl>
             </div>
         </body>

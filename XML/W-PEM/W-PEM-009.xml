@@ -33,8 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">W-PEM-009</idno>
                 <idno type="CIIC">450</idno>
-                <idno type="CISP">SDOGW/1</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/sdogw_1.html">SDOGW/1</idno>
                 <idno type="WelshCorpus">P119</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172383">172383</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -44,7 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Wales</country>
                         <repository>St. Dogwell's Church</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo">51.91353649754192, -4.954523176172276</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -57,8 +61,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><term>monument</term> Dyfed Archaeological Trust Historic Environment Record: <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng"><idno type="HER">2404</idno>Little Trefgarn (Treffgarne) Farm</ref>
-                                    <material>Stone</material> <objectType>pillar</objectType> comprised of <q>feldspar-phyric dacite lava. Weathered light grey (2.5Y N6/0).</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">473</citedRange></bibl>.
+                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">2404</idno> Little Trefgarn (Treffgarne) Farm</p>
+                                    <material type="stone" source="EDW2007">Dacite lava</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>Comprised of <q>feldspar-phyric dacite lava. Weathered light grey (2.5Y N6/0)</q> (Edwards 2007, 473).</note>
                                     <dimensions unit='m'>
                                         <height>1.93</height>
                                         <width>0.51</width>
@@ -68,24 +73,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><q>Part-way down the pillar on the left side is an <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> roman-letter, Latin inscription in two lines, reading vertically downwards... The ogam inscription is located along a ridge on the face of the stone, to the right of the roman inscription. It is incised reading vertically upwards.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">473</citedRange></bibl>.</layout>
+                                <layout style="vertical" rend="face_up"><q>Part-way down the pillar on the left side is an <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> roman-letter, Latin inscription in two lines, reading vertically downwards... The ogam inscription is located along a ridge on the face of the stone, to the right of the roman inscription. It is incised reading vertically upwards</q> (Edwards 2007, 473).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The roman-letter inscription <q>is in small capitals... The form of G is unusual; F is cursive and conjoined with I; L has a sloping horizontal, and M has widely spaced outer strokes and the inner strokes meet on the line.</q><bibl><ptr target ="EDW2007"/>Edwards 2007<citedRange unit="page">473</citedRange></bibl>.
+                            <handNote>The roman-letter inscription <q>is in small capitals... The form of G is unusual; F is cursive and conjoined with I; L has a sloping horizontal, and M has widely spaced outer strokes and the inner strokes meet on the line</q> (Edwards 2007, 473).
                                 <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">St Dogwells</placeName>
-                                <geo>51.879097, -4.959414</geo></origPlace>
+                            <origPlace><placeName type="parish">St Dogwells</placeName>, <placeName type="county">Pembrokeshire</placeName> <placeName type="country">Wales</placeName>
+                                <geo>51.879097, -4.959414</geo>
+                            <note>National Grid Reference: SM 964 242</note></origPlace>
                             <origDate notBefore="0470" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">End of the fifth or first half of the sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">Found by J R Allen in 1875 reused as a gatepost beside the road on the east side of Treffgarne Gorge
+                        <provenance type="found" when="1875">Found by J R Allen in 1875 reused as a gatepost beside the road on the east side of Treffgarne Gorge.
                         </provenance>
-                        <provenance type="observed">At St Dogwell's Church, standing in the churchyard against the west boundary wall
+                        <provenance type="observed">At St Dogwell's Church, standing in the churchyard against the west boundary wall.
                         </provenance>
                     </history>
                 </msDesc>
@@ -115,12 +121,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2023-07-07" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-29" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
+    <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -132,52 +137,55 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
-                <ab><title>Ogham</title>:
+                <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#OCTU">&#x1691;&#x168C;&#x1688;&#x1693;&#x1685;<unclear reason="illegible">&#x1690;&#x1684;</unclear></name></persName>
                 </ab>
               </div>
             </div>
-                 <div type="edition" subtype="roman" xml:space="preserve">
-                    <div type="textpart" n="2" xml:lang="pgl-Latn">
-                <ab><title>Latin</title>:
-                    <lb n="1" style="text-direction:down"/><persName><name>HOGTI<choice><unclear>V</unclear><unclear>N</unclear></choice>IS</name><hi rend="ligature">FI</hi>LI
-                    <lb n="2" style="text-direction:down"/><name>DEMETI</name></persName>
-                </ab>
-               </div>
-            </div>            
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                 <div type="textpart" n="1">
-                    <ab><title>Ogham</title>:
+                    <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#OCTU">OGTEN<unclear reason="illegible" extent="2" unit="character">AS</unclear></name></persName>
                     </ab>
                 </div>
                </div>
+            <div type="edition" subtype="roman" xml:space="preserve">
+                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                <ab>
+                    <lb n="1" style="text-direction:down"/><persName><name>HOGTI<choice><unclear>V</unclear><unclear>N</unclear></choice>IS</name><hi rend="ligature">FI</hi>LI
+                    <lb n="2" style="text-direction:down"/><name>DEMETI</name></persName>
+                </ab>
+               </div>
+            </div>           
             <div type="apparatus">
                 <p></p>
             </div>
             <div type="translation" xml:lang="en">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: <foreign xml:lang="pgl">Ogten<unclear reason="illegible">as</unclear></foreign></p>
+                    <p><title>Ogham</title>: '<foreign xml:lang="pgl">Ogten<unclear reason="illegible">as</unclear></foreign>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: of <foreign xml:lang="pgl">Hogtivis (or Hogtinis)</foreign> son of <foreign xml:lang="pgl">Demetus (or Demetius</foreign></p>
+                  <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Hogtivis (or Hogtinis)</foreign> son of <foreign xml:lang="pgl">Demetus (or Demetius</foreign>'</p>
             </div>
             <div type="commentary">
-                    <list type="witDetail">
-                        <item n="1">
-                        <p>Linguistically, the most likely reading of the ogam inscription is OGTENAS: <q>a notch for the A is just visible and the final four strokes of the inscription could be interpreted as an S. If this is correct, the inscription is simply the name of the deceased in the genitive case.</q> <bibl><ptr target="RHY1918"/>Rhys 1918<citedRange unit="page">189</citedRange></bibl> suggested that <q>GT is an unusual variant spelling of Irish <hi rend="italic">cht</hi>, as in QAGTE or QEGTE... In that case OGT- may be the stem seen in OI <hi rend="italic">Ochtach, Ochtbran</hi>, etc.</q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">473</citedRange></bibl>.</p></item>
-                    <item n="2">
-                        <p><q>The Latin inscription consists of the 'X son of Y' formula in the genitive case. In the past the first name has been consistently read as HOGTIVIS, which visually appears the most likely. However, it has recently been suggested that, in order to match the ogam inscription, it should be read HOGTINIS <bibl><ptr target="MCM1991"/>McManus1991<citedRange unit="page">65</citedRange></bibl>, the N being reversed and ligatured with the following I... It is also possible that HOGTIVIS was written by mistake for HOGTINIS. The patronym DEMETI may refer in some way to the kingdom of Dyfed <bibl><ptr target="THO1994"/>Thomas 1994<citedRange unit="page">76</citedRange></bibl></q><bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">473</citedRange></bibl>.</p></item>
-                </list>
+                        <p>Linguistically, the most likely reading of the ogam inscription is OGTENAS: <q>a notch for the A is just visible and the final four strokes of the inscription could be interpreted as an S. If this is correct, the inscription is simply the name of the deceased in the genitive case</q> (Rhys 1918, 189) suggested that <q>GT is an unusual variant spelling of Irish <hi rend="italic">cht</hi>, as in QAGTE or QEGTE... In that case OGT- may be the stem seen in OI <hi rend="italic">Ochtach, Ochtbran</hi>, etc.</q> (Edwards 2007, 473).</p>
+                        <p><q>The Latin inscription consists of the 'X son of Y' formula in the genitive case. In the past the first name has been consistently read as HOGTIVIS, which visually appears the most likely. However, it has recently been suggested that, in order to match the ogam inscription, it should be read HOGTINIS (McManus 1991, 65), the N being reversed and ligatured with the following I... It is also possible that HOGTIVIS was written by mistake for HOGTINIS. The patronym DEMETI may refer in some way to the kingdom of Dyfed (Thomas 1994, 76)</q> (Edwards 2007, 473).</p>
                     </div>
             <div type="bibliography">
-                <head>Bibliography</head>
                 <listBibl>  
-                <bibl><ptr target="EDW2007"/>Edwards 2007<citedRange unit="page">471-474</citedRange></bibl>
-                <bibl><ptr target="MCM1991"/>McManus 1991<citedRange unit="page">65</citedRange></bibl>
-                <bibl><ptr target="THO1994"/>Thomas 1994<citedRange unit="page">76</citedRange></bibl>
-                <bibl><ptr target="RHY1918"/>Rhys 1918<citedRange unit="page">189</citedRange></bibl>
+                <bibl><ptr target="EDW2007"/>
+                    <citedRange unit="page">471-474</citedRange>
+                </bibl>
+                <bibl><ptr target="MCM1991"/>
+                    <citedRange unit="page">65</citedRange>
+                </bibl>
+                <bibl><ptr target="THO1994"/>
+                    <citedRange unit="page">76</citedRange>
+                </bibl>
+                <bibl><ptr target="RHY1918"/>
+                    <citedRange unit="page">189</citedRange>
+                </bibl>
                 </listBibl>
             </div>
         </body>
