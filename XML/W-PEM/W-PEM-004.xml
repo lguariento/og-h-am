@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">1179</idno> St Llawddog's Church</p>
                                     <material type="stone" source="EDW2007">Dolerite</material> 
-                                    <objectType key="monument">Pillar</objectType> <note>Comprised of <q>olive grey dolerite with 5 per cent anhedral altered feldspar phenocrysts (2-11mm)</q> (Edwards 2007, 311).</note>
+                                    <objectType key="monument">Pillar</objectType> 
                                     <dimensions unit='m'>
                                         <height>2.44</height>
                                         <width>.38</width>
@@ -88,7 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SN 1906 4305</note></origPlace>
                             <origDate notBefore="0550" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Second half of the sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">Roman letter inscription first recorded in a letter in 1698; in 1855 it was standing in its present location and was excavated to reveal both inscriptions.
+                        <provenance type="found" when="1855">A pillar of <q>olive grey dolerite with 5 per cent anhedral altered feldspar phenocrysts (2-11mm)</q> (Edwards 2007, 311). Roman letter inscription first recorded in a letter in 1698; in 1855 it was standing in its present location and was excavated to reveal both inscriptions.
                         </provenance>
                         <provenance type="observed">Standing in the churchyard south of the church.
                         </provenance>
@@ -125,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+<change when="2025-04-02" who="#POC">Moved geological information to provenance</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

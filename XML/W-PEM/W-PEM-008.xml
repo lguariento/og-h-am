@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">1599</idno> Nanhyfer; St Brynach's Church</p>
-                                    <material type="stone">Dolerite</material> 
-                                    <objectType key="monument">Slab</objectType> <note>Comprised of <q>dolerite with feldspar patches (10 per cent), also contains smaller augite phenocrysts</q> (Edwards 2007, 394).</note>
+                                    <material type="stone" source="EDW2007">Dolerite</material> 
+                                    <objectType key="monument">Slab</objectType> 
                                     <dimensions unit='m'>
                                         <height>1.855</height>
                                         <width>0.61</width>
@@ -87,9 +87,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SN 0835 4005</note></origPlace>
                             <origDate notBefore="0400" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">First mentioned by Lhuyd 1695, no ogham in Lhyud sketch - ogham first identified in 1874
+                        <provenance type="found" when="1874">Edwards (2007, 394) provides the following geological description of the pillar: <q>dolerite with feldspar patches (10 per cent), also contains smaller augite phenocrysts</q>. First mentioned by Lhuyd 1695, no ogham in Lhyud sketch. The ogham was first identified in 1874.
                         </provenance>
-                        <provenance type="observed">Standing in the churchyard near the south wall of the nave east of the porch
+                        <provenance type="observed">Standing in the churchyard near the south wall of the nave east of the porch.
                         </provenance>
                     </history>
                 </msDesc>
@@ -123,7 +123,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-06" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
-    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+    <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography, moved geological information to provenance</change>
+<change when="2025-04-02" who="#POC">Moved geological information to provenance</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><term>monument</term> Dyfed Archaeological Trust Historic Environment Record <ref target="https://archwilio.org.uk/"><idno type="HER">1174</idno>St David's Church</ref></p>
                                     <material type="stone">Dolerite</material> 
-                                    <objectType key="monument">Pillar</objectType> <note>Comprised of <q>dolerite with anhedral altered feldspar patches</q> (Edwards 2007, 290).</note>
+                                    <objectType key="monument" source="EDW2007">Pillar</objectType> 
                                     <dimensions unit="m">
                                         <height>2.225</height>
                                         <width>0.635</width>
@@ -84,7 +84,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SN 1766 4206</note></origPlace>
                             <origDate notBefore="0400" notAfter="0500" precision="low" datingMethod="#julian" evidence="linguistic">Fifth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">Oghams first mentioned in 1860
+                        <provenance type="found" when="1860">A pillar comprised of <q>dolerite with anhedral altered feldspar patches</q> (Edwards 2007, 290). Oghams first mentioned in 1860
                         </provenance>
                         <provenance type="observed">Standing in the churchyard, south of the church. Possibly in situ.
                         </provenance>
@@ -122,6 +122,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+<change when="2025-04-02" who="#POC">Moved geological information to provenance</change>
+
 </listChange>
 </revisionDesc>
     </teiHeader>
