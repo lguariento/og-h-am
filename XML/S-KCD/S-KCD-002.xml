@@ -70,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/36458/auchenblae-fordoun-parish-church-fordoun-stone"><idno type="Canmore"></idno>36458</ref></p>
-                                    <material type="stone">Red sandstone</material> 
+                                    <material type="stone">Sandstone</material> <note>Red sandstone</note>
                                     <objectType key="monument">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>1.5</height> <!--double-check dimensions, please, sources vary slightly-->
@@ -93,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Fordoun</placeName> <placeName type="county">Kincardineshire</placeName>
+                            <origPlace><placeName type="parish">Fordoun</placeName> <placeName type="county">Kincardineshire</placeName> <placeName type="country">Scotland</placeName>
                                 <geo>56.896111, -2.451111</geo>
                             <note>National Grid Reference: </note></origPlace>
                             <origDate/>
@@ -139,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements and commented out apparatus and translation</change>
     <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>   
     <change when="2025-03-27" who="#POC">Removed critical apparatus symbols from edition, updated commentary, encoded second inscription</change>
+<change when="2025-04-03" who="#POC">Simplify material type, and added country placename to origPlace</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

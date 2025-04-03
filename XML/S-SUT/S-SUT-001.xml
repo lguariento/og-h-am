@@ -68,8 +68,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Canmore <ref target="https://canmore.org.uk/site/6564/golspie"><idno type="Canmore">6564</idno></ref></p>
-                                    <material type="stone">Purple (old red) sandstone</material> 
-                                    <objectType key="monument">Cross-slab</objectType>                                     
+                                    <material type="stone">Sandstone</material> <note>Purple (old red) sandstone</note> 
+                                    <objectType key="monument">Cross-slab</objectType>               
                                     <dimensions unit="m">                                         
                                             <height>1.83</height>
                                             <width>0.82</width>
@@ -91,7 +91,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Golspie</placeName> <placeName type="county">Sutherland</placeName>
+                            <origPlace><placeName type="parish">Golspie</placeName>, <placeName type="county">Sutherland</placeName > <placeName type="country">Scotland</placeName>
                                 <geo>57.975833, -3.968056</geo>
                             <note>National Grid Reference: NC 8370 0020</note></origPlace>
                             <origDate notBefore="0750">middle of the eighth century or later</origDate>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements and commented out sections without content</change>
           <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>   
+<change when="2025-04-03" who="#POC">Simplify material type, and added country placename to origPlace</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
