@@ -61,7 +61,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><term>monument</term> <ref target="https://archwilio.org.uk/">The Glamorgan-Gwent Archaeological Trust
 Historic Environment Record</ref>: <idno type="HER">00206w</idno></p>
                                     <material type="stone">Sandstone</material> 
-                                    <objectType key="monument">Reused Roman altar</objectType> <note>Described as <q>Fine-grained sandstone which was originally grey when fresh but weathered brown. The current black colour is attributed to fire damage...it is quite probable that it could have been derived locally</q> (Redknap and Lewis 2007, 401).</note>
+                                    <objectType key="monument">Reused Roman altar</objectType> 
                                     <dimensions unit="m">
                                         <height>1.08</height>
                                         <width>0.52</width>
@@ -84,7 +84,7 @@ Historic Environment Record</ref>: <idno type="HER">00206w</idno></p>
                             <note>National Grid Reference: SS 5753 9816</note></origPlace>
                             <origDate notBefore="0400" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">Fifth-sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">First noticed forming a step to the stile leading up to the rectory at Loughor (Castell Llychwr); the ogham letters were noted in 1857; first published in 1869 by Jones.
+                        <provenance type="found" when="1857">Redknap and Lewis (2007, 401), described the stone as <q>fine-grained sandstone which was originally grey when fresh but weathered brown. The current black colour is attributed to fire damage</q>. Redknap and Lewis (2007, 401) maintain that <q>it is quite probable that it could have been derived locally</q>. It was first noticed forming a step to the stile leading up to the rectory at Loughor (Castell Llychwr); the ogham letters were noted in 1857; first published in 1869 by Jones.
                         </provenance>
                         <provenance type="observed">Swansea Museum.
                         </provenance>
@@ -124,6 +124,7 @@ Historic Environment Record</ref>: <idno type="HER">00206w</idno></p>
         <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+        <change when="2025-04-02" who="#POC">Moved geological information to provenace.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
