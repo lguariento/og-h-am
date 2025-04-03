@@ -68,7 +68,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/27998/abernethy-churchyard">Canmore</ref> <idno type="Canmore">27998</idno></p>
-                                    <material type="stone">Sharp silicious grit</material> 
+                                    <material type="stone">Grit</material> <note>Sharp silicious grit</note>
                                     <objectType key="monument">Cross-slab</objectType>                                   
                                     <dimensions unit="m">                                         
                                             <height>0.48</height>
@@ -92,7 +92,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Abernethy</placeName> <placeName type="county">Perthshire</placeName> <placeName type="country">Scotland</placeName>
+                            <origPlace><placeName type="parish">Abernethy</placeName>, <placeName type="county">Perthshire</placeName>, <placeName type="country">Scotland</placeName>
                                 <geo>56.333056, -3.311668</geo>
                             <note>National Grid Reference: NO 190 164</note></origPlace>
                             <origDate>1890s</origDate>
@@ -142,6 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-18" who="#POC">Deleted xml:lang from translation, replace the term symbol with design, update edition with revised reading, added the hyphen back to cross-slab, removed add place encoding from edition</change>
                     <change when="2025-03-26" who="#POC">Updated objectType attribute value for filtering</change>
                     <change when="2025-03-27" who="#POC">Added layout attributes for filtering, added country to origPlace</change>
+               <change when="2025-04-03" who="#POC">Simplified material type</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
