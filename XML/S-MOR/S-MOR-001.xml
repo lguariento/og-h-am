@@ -67,7 +67,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://canmore.org.uk/site/15529/brodie-rodneys-stone">Canmore</ref> <idno type="Canmore">15529</idno></p>
-                                    <material type="stone">Grey sandstone</material> 
+                                    <material type="stone">Sandstone</material> <note>Grey sandstone</note>
                                     <objectType key="monument">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height min="1.875" max="1.905">1.875-1.905</height>
@@ -90,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Dyke and Moy</placeName> <placeName type="county">Moray</placeName> <placeName type="country">Scotland</placeName>
+                            <origPlace><placeName type="parish">Dyke and Moy</placeName>, <placeName type="county">Moray</placeName>, <placeName type="country">Scotland</placeName>
                                 <geo>57.597500, -3.701111</geo>
                             <note>National Grid Reference: NH 9842 5766</note></origPlace>
                             <origDate cert="low">850</origDate>
@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
     <change when="2025-03-26" who="#POC">Added attributes to object type, material and layout for filtering, added decoration section</change>
     <change when="2025-03-28" who="#POC">Updated decoration section, added country to origPlace</change>
+<change when="2025-04-03" who="#POC">Simplified material type</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

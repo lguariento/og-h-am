@@ -67,8 +67,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p>Canmore <ref target="https://canmore.org.uk/site/15812/altyre-house"><idno type="Canmore">15812</idno></ref></p>
-                                    <material type="stone">Grey sandstone</material> 
+                                <support><p><ref target="https://canmore.org.uk/site/15812/altyre-house">Canmore</ref> <idno type="Canmore">15812</idno></p>
+                                    <material type="stone">Sandstone</material> <note>Grey sandstone</note>
                                     <objectType key="monument">Cross-slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>3.3</height>
@@ -91,7 +91,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Rafford</placeName> <placeName type="county">Moray</placeName> <placeName type="country">Scotland</placeName>
+                            <origPlace><placeName type="parish">Rafford</placeName>, <placeName type="county">Moray</placeName>, <placeName type="country">Scotland</placeName>
                                 <geo>57.578056, -3.608611</geo>
                             <note>National Grid Reference: NJ 1374 6633</note></origPlace>
                             <origDate cert="low">Later eighth or ninth century</origDate>
@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
     <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>
         <change when="2025-03-28" who="#POC">Added country to origPlace, moved information to translation</change>
+<change when="2025-04-03" who="#POC">Simplified material type</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
