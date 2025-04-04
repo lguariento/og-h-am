@@ -62,22 +62,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO042-049002-</idno></p>
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Clay slate</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="MAN2000">
                                             <height>2.50</height>
                                             <width>0.60</width>
                                             <depth>0.30</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>This large pillar tapers to a point at the top and is leaning to the E. It is heavily covered in places with lichen and the inscription is weathered and worn by cattle rubbing. The stone also displays other markings, such as V-shaped <rs type="features" ref="features.xml#grooves">'hone scores'</rs> (at least two, of differing lengths and orientation, to the left of the N of TREN) found on other ogham stones and carved stones more generally.<!--(add link to discussion/publication? e.g. https://roaringwaterjournal.com/2019/05/12/witches-marks-and-lovelorn-shepherds-inscribed-rock-art-in-a-remote-valley/)--> Other examples from the ogham corpus include Greenhill 1 (I-COR-003) and Ratass ogham stone, Co. Kerry (I-KER-139). Macalister (1945, 62) reported that the inscription was vandalised, rendering its interpretation difficult <q>for anyone who had not previously been familiar with it</q>. </condition>
+                                <condition>This large pillar tapers to a point at the top and is leaning to the E. Described by Brash (1879, 137) as the <q>uaual hard clay-slate of the dostrict</q>, it is heavily covered in places with lichen and the inscription is weathered and worn by cattle rubbing. The stone also displays other markings, such as V-shaped <rs type="features" ref="features.xml#grooves">'hone scores'</rs> (at least two, of differing lengths and orientation, to the left of the N of TREN) found on other ogham stones and carved stones more generally.<!--(add link to discussion/publication? e.g. https://roaringwaterjournal.com/2019/05/12/witches-marks-and-lovelorn-shepherds-inscribed-rock-art-in-a-remote-valley/)--> Other examples from the ogham corpus include Greenhill 1 (I-COR-003) and Ratass ogham stone, Co. Kerry (I-KER-139). Macalister (1945, 62) reported that the inscription was vandalised, rendering its interpretation difficult <q>for anyone who had not previously been familiar with it</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription runs upwards along the SE edge starting 0.45m from ground to near full height of the stone.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription runs upwards along the SE edge starting 0.45m from ground to near full height of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes appear to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and possibly also <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel.
+                            <handNote>The ogham strokes appear to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and possibly also (later?) v-cut with a flat chisel.
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -89,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>52.077602, -8.606835</geo>
                             <note>ITM Coordinates: 558399, 591925</note>
                             </origPlace>
-                            <origDate notBefore="0500" notAfter="0550">First half of the sixth century</origDate>
+                            <origDate notBefore="0500" notAfter="0550" precision="medium" evidence="linguistic">First half of the sixth century</origDate>
                         </origin>
                         <provenance type="found" notAfter="1852">First published by <name type="author">Brash</name> (1879, 137) as having been reported to Windele by one of his 'ogam scouts'. The stone was found in 'an open field' in the townland. A circular cattlegrid was installed around the stone in <date>1985</date> by OPW; an excavation of the ground under the circular strip limited to 1m wide with its inner edge and 1m from the centre of the stone revealed nothing except N-S cultivation furrows and ploughmarks (Manning 2000, 107). A second ogham stone (I-COR-004) lies c. 40m to the N in the next field and Burnfort ogham stone (I-COR-002) is found c. 900m to SE (Power et al. 1997, no. 7965).
                         </provenance>
@@ -141,6 +141,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title, added ogham space marker to edition</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker, proofreading change the comment in condition gives illusion of space before punctuation.</change>
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering and tidied up content.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

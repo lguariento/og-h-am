@@ -78,11 +78,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The monument is likely a prehistoric standing stone (blue granite) which was reused for the carving of Pictish symbols and an ogham inscription both of which are intact and well-preserved.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is cut on a circular stem in the middle of the top third of the pointed pillar. The reading starts from the 10 o'clock position, as this is where the largest gap is located, and continues clockwise (Forsyth 1996, 394). </layout>
+                                <layout style="other" rend="stemline_circular">The ogham inscription is cut on a circular stem in the middle of the top third of the pointed pillar. The reading starts from the 10 o'clock position, as this is where the largest gap is located, and continues clockwise (Forsyth 1996, 394). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham inscription and symbols were carved using the standard <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pock</rs>-and-smooth technique as is typical of Pictish Class I carvings (Forsyth 1996, 391). Strokes are generally evenly spaced and there are generous gaps between letters, though it is important to keep in mind the possibility of distortion due to the circular stem (ibid. 396). The number of strokes per letter is accepted as: 5, 3, 3, 5, 3.
+                            <handNote>The ogham inscription and symbols were carved using the standard <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pock-and-smooth</rs> technique as is typical of Pictish Class I carvings (Forsyth 1996, 391). Strokes are generally evenly spaced and there are generous gaps between letters, though it is important to keep in mind the possibility of distortion due to the circular stem (ibid. 396). The number of strokes per letter is accepted as: 5, 3, 3, 5, 3.
                                 <height>The shortest letter strokes are 3cm long, the longest are 7cm, and the remainder vary between 4 and 6cm (ibid. 393).</height>
                                 <p>The carving of the symbols is <q>broader, deeper, and smoother</q> than the ogham carving, <q>but this may reflect nothing more than the larger scale of the former</q> (ibid. 391).</p>
                             </handNote>
@@ -145,6 +145,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-24" who="#POC">Updated object type, replaced menhir with pillar</change>
     <change when="2025-03-26" who="#POC">Added decoration section</change>
     <change when="2025-03-27" who="#POC">Updated object type to delete pillar</change>
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

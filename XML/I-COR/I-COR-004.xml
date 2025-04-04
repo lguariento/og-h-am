@@ -62,8 +62,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO042-049001-</idno></p>
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="#NW">                                         
                                             <height>1.54</height>
                                             <width>0.46</width>
@@ -73,11 +73,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The inscription is clear but possibly incomplete, as the top of the stone appears damaged.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is running up the top half of one angle.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is running up the top half of one angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and possibly also <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>.
+                            <handNote>The ogham strokes appear to have been <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>.
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -89,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>52.078072, -8.606918</geo>
                             <note>ITM Coordinates: 558398, 591970</note>
                             </origPlace>
-                            <origDate notBefore="0400" notAfter="0470">First half, or the early second half, of the fifth century</origDate>
+                            <origDate notBefore="0400" notAfter="0470" precision="medium" evidence="linguistic">First half, or the early second half, of the fifth century</origDate>
                         </origin>
                         <provenance type="found" when="1906">Discovered in <date>1906</date> when the landowner <q>'was lowering a headland'</q> (Buckley 1907,116), c. 40m N of, and in next field to, existing ogham stone (I-COR-003). The immediate area around both stones was excavated in 1985 'to facilitate the installation of cattle grids' with no significant finds. However 'the curving east and south boundaries of the field here are possibly of an ancient elongated oval enclosure' (Manning 2000, 107, 112). 
                         </provenance>
@@ -140,6 +140,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title, updated provenance, added ogham space marker to edition, added citation details to image description</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering and tidied up content.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

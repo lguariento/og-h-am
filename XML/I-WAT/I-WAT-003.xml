@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>National Museum of Ireland</repository>
                         <idno type="invNo"><!--?Check!--></idno>
+                        <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,8 +64,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA040-008006-</idno></p>
-                                    <material>Stone (sandstone)</material> 
-                                    <objectType>Fragment</objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Fragment</objectType> 
                                      <dimensions unit="m">                                         
                                             <height>0.86</height>
                                             <width>0.30</width>
@@ -72,11 +75,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A fragment of an ogham stone reused as building material. Broken off at both ends and also split lengthways. As noted by Macalister (1945, 260) <q>the distal ends of all scores on the H-side have been lost</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription along one angle is incomplete at both ends.</layout>
+                                <layout style="vertical" rend="arris">The inscription along one angle is incomplete at both ends.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The strokes appear to be <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>, rather than pocked. The consonant strokes, where they survive in full (on the B side: N and M), are long, narrow and tapering, with the vowel strokes on the angle distinctively shorter. The M stroke is quite evenly spaced between the flanking vowel strokes so that there is no distinctive word division evident.
+                            <handNote>The strokes appear to be <rs type="execution" key="v-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>, rather than pocked. The consonant strokes, where they survive in full (on the B side: N and M), are long, narrow and tapering, with the vowel strokes on the angle distinctively shorter. The M stroke is quite evenly spaced between the flanking vowel strokes so that there is no distinctive word division evident.
                                 <height><!--letter-heights--></height>
                             </handNote>
                         </handDesc>
@@ -130,6 +133,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-07-05" who="#NW">Added geo note</change>
     <change when="2024-08-16" who="#NW">Added ITM coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, moved logainm reference around Irish placename in findspot, proofreading updates, added citation details to image description</change>
+     <change when="2025-04-04" who="#NW">Added new attributes for filtering. Added repository coordinates using altIdentifier.</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
