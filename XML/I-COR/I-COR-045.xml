@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>UCC</repository>
                         <idno type="invNo">10</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.893727, -8.492499</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,9 +63,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007018-</idno></p> 
-                                   <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007018-</idno></p> 
+                                   <material type="stone">Sandstone</material> <note>Hard sandstone (Ogham Stones Report 1995, supplied by M. Lantry, UCC)</note> 
+                                    <objectType key="monument">Pillar</objectType> 
                                       <dimensions unit="m" source="#NW">
                                             <height>2.36</height>
                                             <width>0.30</width>
@@ -72,11 +75,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused in a souterrain with some damage to the vulnerable edges. Barry (1891, 532-533) noted that the stone was 93 inches (2.36m) in height. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 2.07m </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the sinister angle of one of the broad faces of the stone. Barry (1891, 532) noted that the inscription begins 60 in. (1.52m) from the bottom and is 18 in. (0.46m) in length.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is on the sinister angle of one of the broad faces of the stone. Barry (1891, 532) noted that the inscription begins 60 in. (1.52m) from the bottom and is 18 in. (0.46m) in length.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine, evenly-spaced strokes, although the vowel strokes are mostly lost to damage on the edge of the stone. There is a faint trace of a stroke just before the initial C, which may represent a disregarded guide stroke. 
+                            <handNote>The inscription is <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">finely cut</rs> in evenly-spaced strokes, although the vowel strokes are mostly lost to damage on the edge of the stone. There is a faint trace of a stroke just before the initial C, which may represent a disregarded guide stroke. 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -129,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-07" who="#POC">Commented out the idno invNo because it is displaying empty</change>
 <change when="2025-02-07" who="#NW">Added idno. Corrected title and placename tags.</change> 
 <change when="2025-02-08" who="#NW">Added 3d recording info (Archaeoptics) and image path to Megan's photo. Updated support desc from Barry and added refs to bibl. Added edition and commentary.</change> 
+<change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
     
 </listChange>
 </revisionDesc>

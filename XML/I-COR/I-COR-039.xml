@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>UCC</repository>
                         <idno type="invNo">16</idno>
+                         <altIdentifier>
+                            <idno type="geo">51.893727, -8.492499</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,9 +63,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007012-</idno></p> 
-                                    <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007012-</idno></p> 
+                                    <material type="stone">Sandstone</material> <note>Hard sandstone (Ogham Stones Report 1995, supplied by M. Lantry, UCC)</note> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="#NW">
                                             <height>1.22</height>
                                             <width>0.38</width>
@@ -72,7 +75,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused in a souterrain, the inscription is in reasonably good condition, although there is a small fracture at the end of the inscription. Barry (1891, 526) noted that the stone was 48 inches (1.22m) in height. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 1.15m.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription begins 0.58m (23 in.) from the bottom and ends 0.18m (7 in.) from the top (Barry 1891, 526).</layout>
+                                 <layout style="vertical" rend="arris_up">The inscription begins 0.58m (23 in.) from the bottom and ends 0.18m (7 in.) from the top (Barry 1891, 526).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -127,7 +130,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2024-12-30" who="#NW">Added Irish version to title. Updated support desc from Barry and added ref to bibl. Corrected placename tags, added image path. Added edition.</change>  
 <change when="2025-01-07" who="#NW">Added commeentary, apparatus and layout.</change>
-<change when="2025-01-31" who="#POC">Proofreading updates: corrected typos, added citation details to image description</change>    
+<change when="2025-01-31" who="#POC">Proofreading updates: corrected typos, added citation details to image description</change>   
+<change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>        
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

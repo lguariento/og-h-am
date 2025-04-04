@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>UCC</repository>
                         <idno type="invNo">9</idno>
+                         <altIdentifier>
+                            <idno type="geo">51.893727, -8.492499</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,9 +63,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007007-</idno></p> 
-                                    <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007007-</idno></p> 
+                                    <material type="stone">Sandstone</material> <note>Hard sandstone (Ogham Stones Report 1995, supplied by M. Lantry, UCC)</note> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="#NW">  
                                             <height>1.60</height>
                                             <width>0.57</width>
@@ -72,7 +75,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused in a souterrain and in poor condition. Barry (1891, 521) noted the stone was originally 63 in. (1.60m) in height. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 1.46m.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the dexter angle, commencing 0.76m <q>'(30 in.) from the bottom and extending to the beginning of the slanted top of the stone'</q> (Barry 1891, 521).</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is on the dexter angle, commencing 0.76m <q>'(30 in.) from the bottom and extending to the beginning of the slanted top of the stone'</q> (Barry 1891, 521).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
