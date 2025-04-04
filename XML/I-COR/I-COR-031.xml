@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007002-</idno></p> 
-                                    <material>Sandstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="BAR1891">
                                             <height>1.17</height>
                                             <width>0.28</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>This stone was last seen on site in 1907 but its current location is unknown. Barry (1891, 518) and Macalister (1945, 85) recorded a fracture on the top of the stone which had resulted in the loss of some of the ogham strokes.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>According to Barry (1891, 518) 'the inscription begins on a left arris, is interrupted at the top, and is completed on the right arris'.</layout>
+                                <layout style="vertical" rend="arris_up">According to Barry (1891, 518) 'the inscription begins on a left arris, is interrupted at the top, and is completed on the right arris'.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
@@ -128,6 +128,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-09" who="#NW">Updated dimensions and condition from Barry. Corrected placename tags</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-31" who="#POC">Proofreading updates: corrected typos, commented out creation and empty translation and handDesc divs, numbered apparatus</change>
+     <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>  
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

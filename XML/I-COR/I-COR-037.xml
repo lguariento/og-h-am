@@ -52,6 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>UCC</repository>
                         <idno type="invNo">19</idno>
+                         <altIdentifier>
+                            <idno type="geo">51.893727, -8.492499</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,9 +64,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007010-</idno></p> 
-                                    <material>Hard sandstone</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007010-</idno></p> 
+                                    <material type="stone">Sandstone</material> <note>Hard sandstone (Ogham Stones Report 1995, supplied by M. Lantry, UCC)</note> 
+                                    <objectType key="monument">Pillar</objectType>
                                      <dimensions unit="m" source="#NW">
                                             <height>1.47</height>
                                             <width>0.35</width>
@@ -73,7 +76,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Barry (1891, 524) noted that the stone was 58 inches (1.47m) in height. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets. The current visible extent above the display case is 1.21m.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription begins 0.71m (28 in.) from the bottom (Barry 1891, 524) on the dexter edge. The final three notches are duplicated on the adjacent edges of the top.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription begins 0.71m (28 in.) from the bottom (Barry 1891, 524) on the dexter edge. The final three notches are duplicated on the adjacent edges of the top.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -128,7 +131,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2024-12-03" who="#NW">Updated support desc from Barry. Corrected placename tags, added image path, edition, note, commentary and refs (including TM and links to TM and CISP - but need ref target which isn't allowed here).</change>
 <change when="2024-12-31" who="#NW">Added nymref</change>
-<change when="2025-01-31" who="#POC">Proofreading updates: corrected typos, added Macalister drawing and citation details to image description</change>    
+<change when="2025-01-31" who="#POC">Proofreading updates: corrected typos, added Macalister drawing and citation details to image description</change> 
+<change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>     
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

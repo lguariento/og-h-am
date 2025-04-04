@@ -60,18 +60,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007013-</idno></p> 
-                                    <material source="BAR1891">Gritty sandstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO055-007013-</idno></p> 
+                                    <material type="stone" source="BAR1891">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="BAR1891">                                        
                                             <height>1.24</height>
                                              <dim type="circumference">91</dim>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain. Described by Barry (1891, 527) as being <q>'49 inches long and 36 inches in girth'</q>.</condition>
+                                <condition>Reused in a souterrain. Described by Barry (1891, 527) as <q>gritty sandstone... 49 inches long and 36 inches in girth</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Barry (1891, 527) noted that the inscription begins 24 inches (0.61m) from the
+                                <layout style="vertical" rend="arris_up">Barry (1891, 527) noted that the inscription begins 24 inches (0.61m) from the
 bottom, and ends 12 inches (0.30m) from the top of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
@@ -129,6 +129,8 @@ bottom, and ends 12 inches (0.30m) from the top of the stone.</layout>
 <change when="2025-01-31" who="#POC">Proofreading updates: commented out creation and empty handDesc section, corrected typos, </change> 
 <change when="2025-01-31" who="#NW">Transcription is from a previous editior as the stone is lost so restored creation.</change>   
 <change when="2025-02-04" who="#POC">Added citation details to image description, added missing opening round bracket for Irish placename.</change>
+<change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>        
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
