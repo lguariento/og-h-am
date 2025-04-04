@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA040-008005-</idno></p>
-                                     <material>Stone (sandstone?)</material> 
-                                    <objectType>Pillar</objectType> 
+                                     <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                     <dimensions unit="m">                                        
                                             <height>1.27</height>
                                             <width>0.28</width>
@@ -72,11 +72,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The top of the stone has been spalled away, probably by the masons who reused it as building material.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>There is ogham on three angles of this pillar. On two of the angles it clearly reads <rs type="style">up-down</rs>. On the third it appears to read upwards.</layout>
+                                <layout style="vertical" rend="arris_up">There is ogham on three angles of this pillar. On two of the angles it clearly reads up-down. On the third it appears to read upwards.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister's claim that the pillar <q>bears two independent inscriptions in Ogham : the first, on two angles (<rs type="style">up-down</rs>), pocked ; the second, on a third angle, chiselled</q> is questionable. The 'first' text, running up the left angle and down the right, follows an expected ogham formula (X MAQI Y MUCOI Z) with recognisable personal names. The text on the 'third' angle, however, appears to be unintelligible. Nevertheless, the carving technique (<rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>) and style of both are identical. For example, it is noteworthy that all of the consonant scores are at right angle to the angle/stemline. Consonants from the <foreign xml:lang="ga">Aicme Muine</foreign> (Ms and Gs in this inscription) are generally distinguished by their oblique angle. Although this distinction is not always strictly adhered to within the corpus, the consistency of the style of the text on all angles of this stone would suggest that it was carved by the same hand. Whether or not it is a single inscription or two seperate inscriptions is difficult to determine without an interpretation of the 'third' angle.
+                            <handNote>Macalister's claim that the pillar <q>bears two independent inscriptions in Ogham : the first, on two angles (<rs type="style">up-down</rs>), pocked ; the second, on a third angle, chiselled</q> is questionable. The 'first' text, running up the left angle and down the right, follows an expected ogham formula (X MAQI Y MUCOI Z) with recognisable personal names. The text on the 'third' angle, however, appears to be unintelligible. Nevertheless, the carving technique (<rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>) and style of both are identical. For example, it is noteworthy that all of the consonant scores are at right angle to the angle/stemline. Consonants from the <foreign xml:lang="ga">Aicme Muine</foreign> (Ms and Gs in this inscription) are generally distinguished by their oblique angle. Although this distinction is not always strictly adhered to within the corpus, the consistency of the style of the text on all angles of this stone would suggest that it was carved by the same hand. Whether or not it is a single inscription or two seperate inscriptions is difficult to determine without an interpretation of the 'third' angle.
                                 <height><!--letter-heights--></height>
                             </handNote>
                         </handDesc>
@@ -130,6 +130,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added ITM coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, moved logainm ref around Irish placecname, added citation details to image description, updated eDIL refs in commentary</change>
+     <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dromore 3</title>
+                <title>An Drom Mór | Dromore 3</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>NMI</repository>
                         <idno type="invNo"><!--?Check!--></idno>
+                         <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,8 +64,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA029-042010-</idno></p>
-                                    <material>Stone (sandstone)</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <height>1.42</height>
                                             <width>0.30</width>
@@ -72,11 +75,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Broken into four pieces and badly repaired with cement<!--(?)-->, currently in two fragments. A single I notch has been lost at the break.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Despite much damage to the stone, the inscription, centrally positioned along one angle, appears to be complete. It takes up roughly half of the angle, with uninscribed space before and after the ogham. Due to the fragility of the stone it has not been possible to examine the second angle. However, Macalister recorded that it was too broken to tell whether it ever held any text.</layout>
+                                <layout style="vertical" rend="arris_up">Despite much damage to the stone, the inscription, centrally positioned along one angle, appears to be complete. It takes up roughly half of the angle, with uninscribed space before and after the ogham. Due to the fragility of the stone it has not been possible to examine the second angle. However, Macalister recorded that it was too broken to tell whether it ever held any text.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The stokes are <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and evenly spaced (approx. <height>6cm</height> long x <width>1cm</width> wide consonant strokes) and appear to be similar to those found on the other ogham stones from Dromore.
+                            <handNote>The stokes are <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and evenly spaced (approx. <height>6cm</height> long x <width>1cm</width> wide consonant strokes) and appear to be similar to those found on the other ogham stones from Dromore.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -130,6 +133,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-27" who="#NW">Updated provenance including logainm links.</change>
     <change when="2024-10-09" who="#NW">Added mention of lost fragment I-WAT-L01</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, added citation details to image description</change>
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering. Added repository coordinates using altIdentifier.</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

@@ -45,7 +45,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                         <country>Ireland</country>
                        <repository>National Museum of Ireland</repository>
-                        <idno type="invNo">1907:77</idno>                        
+                        <idno type="invNo">1907:77</idno>  
+                         <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>                         
                         <msItem>                            
@@ -57,8 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                     <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> Record Number: <idno type="SMR">MA093-045003-</idno></p>
-                                        <material>Fine-grained sandstone</material><!--(from M. Parkes 2011 survey of NMI ogham geology for K. Moffat)-->
-                                        <objectType>Pillar</objectType>                                    
+                                        <material type="stone">Sandstone</material> <note>Fine-grained sandstone (M. Parkes 2011 survey of NMI ogham geology for K. Moffat)</note>                                        <objectType key="monument">Pillar</objectType>                                    
                                          <dimensions unit="m">
                                             <height>1.22</height>
                                             <width>0.51</width>
@@ -68,11 +70,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The stone is damaged in places and also contains small fractures which run along the two inscriptions. In the first inscription, there is <q>a small fracture on the angle following 2G</q> while in the second inscription <q>a fracture follows O, large enough to contain two scores or notches, but had they actually been there some trace of them would probably have remained</q> (Macalister 1945, 6). Additionally, three letters from the end of the second inscription, <q>S2 and S3 are seen to form a character resembling a 6, broken at the bottom</q>, which Macalister (1945, 7) suggests looks like the U-<hi rend="italic">forfid</hi>, but it could be just damage to the stone.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>There is ogham on all four angles with what appears to be two separate inscriptions (one surrounding each face, <rs type="style">up-top-down</rs>), the second of which is unintelligible.</layout>
+                                <layout style="vertical" rend="arris_up">There is ogham on all four angles with what appears to be two separate inscriptions (one surrounding each face, up-top-down), the second of which is unintelligible.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The scores and notches are broad and <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>, generally clear and evenly spaced. The initial L- unusually slopes upwards. The Gs and Ms, which we would expect to be diagonal, are rather straight across the angle. Both inscriptions appear to have been carved at the same time using the same technique and, presumably, by the same carver.
+                            <handNote>The scores and notches are broad and <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>, generally clear and evenly spaced. The initial L- unusually slopes upwards. The Gs and Ms, which we would expect to be diagonal, are rather straight across the angle. Both inscriptions appear to have been carved at the same time using the same technique and, presumably, by the same carver.
                                 <height><!--letter-heights--></height>
                             </handNote>
                         </handDesc>
@@ -132,6 +134,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-13" who="#NW">Added geology from Parkes/Moffat to 'material'. Removed unstable link to OSi map in provenance and extra line-breaks from edition. Updated eDIL refs in commentary.</change>
         <change when="2025-02-13" who="#POC">Proofreading changes</change>
     <change when="2025-02-14" who="#POC">Proofreading changes</change>
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering. Added repository coordinates using altIdentifier.</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

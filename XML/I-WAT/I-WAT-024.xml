@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>NMI</repository>
                         <idno type="invNo"><!--?Check!--></idno>
+                        <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -61,22 +64,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR/NISMR ID: <idno type="SMR">WA025-078----</idno></p>
-                                    <material>Stone (greywacke sandstone)</material> 
-                                    <objectType>An irregular-shaped stone (possibly a fragment)</objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType>Fragment</objectType> 
                                      <dimensions unit="m">
                                         <height>1.17</height>
                                             <width>0.27</width>
                                             <depth>0.14</depth> <!--(converted from Macalister) - Fionnbarr supplying?-->   
                                      </dimensions>                                   
                                 </support>
-                                <condition>A stone, or fragment of a stone, pointed at one end and with what appears to be a section broken off at the other end. Macalister’s dimensions, e.g. 3 feet 10 inches in length, differ quite considerably to Barry’s (1896, 129) 4 feet 7 and a half inches in length (converted: 1.40m x 0.35m x 0.25m). Perhaps the stone was further damaged and broken by the time Macalister saw it. It is also noteworthy that Barry’s reading (see below) is very different to Macalister’s, agreeing with Brash (1879, 278) who doesn’t supply dimensions or a description. Barry also says that the inscription is on three angles rather than two but unfortunately doesn’t supply an illustration.</condition>
+                                <condition>A stone, or fragment of a stone (greywacke sandstone), pointed at one end and with what appears to be a section broken off at the other end. Macalister’s dimensions, e.g. 3 feet 10 inches in length, differ quite considerably to Barry’s (1896, 129) 4 feet 7 and a half inches in length (converted: 1.40m x 0.35m x 0.25m). Perhaps the stone was further damaged and broken by the time Macalister saw it. It is also noteworthy that Barry’s reading (see below) is very different to Macalister’s, agreeing with Brash (1879, 278) who doesn’t supply dimensions or a description. Barry also says that the inscription is on three angles rather than two but unfortunately doesn’t supply an illustration.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription runs along two angles of the stone (<rs type="style">up-up</rs>). There is no sign of ogham strokes along a third angle as suggested by Barry (1896, 129). It is quite damaged towards the end of the inscription at the pointed top.</layout>
+                                <layout style="vertical" rend="arris_up-up">The ogham inscription runs along two angles of the stone (up-up). There is no sign of ogham strokes along a third angle as suggested by Barry (1896, 129). It is quite damaged towards the end of the inscription at the pointed top.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with large strokes relative to the size of the stone (<height>10cm</height> long x <width>1.5cm</width> wide), taking up most of the width of the narrow side.
+                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with large strokes relative to the size of the stone (<height>10cm</height> long x <width>1.5cm</width> wide), taking up most of the width of the narrow side.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -128,6 +131,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added note to coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, added citation details to image description</change>
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering. Added repository coordinates using altIdentifier.</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
