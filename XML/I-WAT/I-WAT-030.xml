@@ -61,18 +61,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA031-045008-</idno></p>
-                                    <material>Stone (grey, fine-grained sandstone)</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">                                        
                                             <height>0.98</height>
                                             <width>0.42</width>
                                             <depth>0.13</depth>                                         
                                      </dimensions>                                  
                                 </support>
-                                <condition>Broken off at one end and <q>subjected to fracture cleavage</q> (Raftery 1969, 105). There appears to be a similar cleavage fracture to I-WAT-025 found at the same site over 100 years earlier. </condition>
+                                <condition>Stone (grey, fine-grained sandstone) broken off at one end and <q>subjected to fracture cleavage</q> (Raftery 1969, 105). There appears to be a similar cleavage fracture to I-WAT-025 found at the same site over 100 years earlier. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is incomplete at both ends, running up one angle and across the top, possibly originally continuing down the damaged opposite angle.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is incomplete at both ends, running up one angle and across the top, possibly originally continuing down the damaged opposite angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -130,6 +130,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added ITM coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, moved logainm reference to around Irish placename, moved information from commentary to apparatus, updated commentary</change>
+     <change when="2025-04-04" who="#NW">Added new attributes for filtering and simplified content.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

@@ -62,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                     <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="idno">MA095-023002-</idno></p>
-                                    <material resp="MAC1945" type="stone">Limestone</material><!--(Fionnbarr?)-->
+                                    <material type="stone" resp="MAC1945" >Limestone</material><!--(Fionnbarr?)-->
                                     <objectType key="monument">Cross-slab</objectType>  
                                      <dimensions unit="m">
                                             <height>1.32</height>
@@ -74,7 +74,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Macalister (1945, 11) remarked that the inscription is <q>so badly worn and weathered that practically nothing can be made of it—especially as more than half of the inscribed angle has been spalled away</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 11) noted that <q>there seems to have been an ogham inscription on the sinister edge</q>.</layout>
+                                <layout style="vertical" rend="arris_upR">Macalister (1945, 11) noted that <q>there seems to have been an ogham inscription on the sinister edge</q>.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
@@ -137,6 +137,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
      <change when="2025-02-13" who="#NW">Updated support description layout.</change>
       <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType and added decoration section for stone decoration.</change>   
 <change when="2025-04-04" who="#POC">Simplified material type</change>
+     <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

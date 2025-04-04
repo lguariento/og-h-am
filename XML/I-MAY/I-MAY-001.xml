@@ -57,8 +57,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                    <p><ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">National Monuments Service</ref> Record Number: <idno type="SMR">MA093-038001-</idno></p> 
-                                        <material resp="MAC1945">Grit</material><!--(check with Fionnbarr)-->
-                                        <objectType>Pillar</objectType> 
+                                        <material type="stone" resp="MAC1945">Grit</material><!--(check with Fionnbarr)-->
+                                        <objectType key="monument">Pillar</objectType> 
                                          <dimensions unit="m" source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">
                                             <height>1.80</height>
                                             <width>0.60</width>
@@ -68,7 +68,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The <q>face of the stone has a rather rough and weathered surface, with several irregularities and areas of possible flaking or chipping, particularly toward the apex/west end of the stone. The surface is moderately blotched with lichen. The scores on the narrow N and S sides of the stones appear somewhat better preserved than some of those on the more weathered broad face</q> (Macalister 1945, 5). The inscription is legible despite being damaged in parts.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is rectangular in cross-section with <q>straight sides which taper at the top to form an asymmetrical triangular peak and an ogham inscription on the angles of the top and both sides of the E (or uppermost) face</q>. However, as the stone is currently leaning to an almost horizontal position, <q>the ogham inscription is, therefore, on what now presents as the uppermost surface of the stone, formerly the E face when the stone was vertical</q> (Archaeological Survey of Ireland, Field Report).
+                                <layout style="vertical" rend="arris_up">The stone is rectangular in cross-section with <q>straight sides which taper at the top to form an asymmetrical triangular peak and an ogham inscription on the angles of the top and both sides of the E (or uppermost) face</q>. However, as the stone is currently leaning to an almost horizontal position, <q>the ogham inscription is, therefore, on what now presents as the uppermost surface of the stone, formerly the E face when the stone was vertical</q> (Archaeological Survey of Ireland, Field Report).
                                   </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -131,6 +131,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-13" who="#POC">Proofreading changes</change>
     <change when="2025-02-13" who="#NW">moved details on reading from condition to apparatus.</change>
     <change when="2025-02-14" who="#POC">Deleted quotation marks from within q element</change>
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

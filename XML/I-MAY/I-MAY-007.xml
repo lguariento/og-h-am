@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> Record Number: <idno type="SMR">MA014-101----</idno></p>
-                                    <material>Sandstone</material> 
-                                    <objectType>Slab</objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Slab</objectType> 
                                      <dimensions unit="m">
                                             <height>1.90</height>
                                             <width>2.20</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition><q>The stone leans markedly to the north-west: the current height of the stone (i.e. vertical drop from top to the ground surface) is 1.9m, however, if the stone were fully vertical, its height would be c. 2.3m</q> (Archaeological Survey of Ireland, Field Report). The stone is weathered and largely lichen-covered. The middle section of the south-west face presents a smooth, almost polished surface, probably the result of farm stock using this side of the stone as a scratching post; part of the inscription may have been obliterated here.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription reads up on one angle of the narrow south-west face of the stone.</layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription reads up on one angle of the narrow south-west face of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-20" who="#NW">Replaced hex codes with ogham characters, added word tags around MAQI- name and updated lemmata</change>
     <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, moved logainm reference around Irish placename.</change>
      <change when="2025-02-13" who="#NW">Updated support desc and eDIL refs in commentary.</change>
+     <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
     
 </listChange>
 </revisionDesc>

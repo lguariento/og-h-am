@@ -61,18 +61,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA031-045015-</idno></p>
-                                    <material>Stone (grey, fine-grained sandstone)</material> 
-                                    <objectType>Fragment</objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Fragment</objectType> 
                                      <dimensions unit="m">                                         
                                             <height>0.26</height>
                                             <width>0.09</width>
                                             <depth>0.03</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>A small, thin fragment of the same type of stone as I-WAT-030 (Raftery 1969, 105).</condition>
+                                <condition>A small, thin fragment of the same type of stone (grey, fine-grained sandstone) as I-WAT-030 (Raftery 1969, 105).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>On two close angles at the very thin end of the wedge-shaped fragment. It is possible that the change in angle was due to the narrowness of the stone and, although the inscription must be fragmentary, it is difficult to envisage how it could have continued on this angle.</layout>
+                                <layout style="vertical" rend="arris">On two close angles at the very thin end of the wedge-shaped fragment. It is possible that the change in angle was due to the narrowness of the stone and, although the inscription must be fragmentary, it is difficult to envisage how it could have continued on this angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -129,6 +129,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added ITM coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, moved logainm reference to around Irish placename, moved information from commentary to apparatus</change>
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering and simplified content.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

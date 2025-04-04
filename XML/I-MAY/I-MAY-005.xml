@@ -62,8 +62,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                      <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">MA040-048----</idno></p>
-                                    <material resp="MAC1945">Grit</material><!--(Fionnbarr?)--> 
-                                    <objectType>Slab</objectType>  
+                                    <material type="stone" resp="MAC1945">Grit</material><!--(Fionnbarr?)--> 
+                                    <objectType key="monument">Slab</objectType>  
                                      <dimensions unit="m">
                                             <height>3.00</height>
                                             <width>1.05</width>
@@ -74,7 +74,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The north end of the stone is thickly obscured by lichen, and only a number of slight indentations or possible notches can be seen (3 strokes of a possible N), which may be part of the ogham inscription. On the south end of the stone, the ogham inscription is weathered but clearly visible in places (Archaeological Survey of Ireland, Field Report).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is roughly rectangular in shape but tapering gently at the base, and tapering also in thickness to relatively narrow edges at the north and south ends, both of which bear an ogham inscription. The exceptional size of the stone suggested to Macalister (1945, 9-10) that it was originally a prehistoric standing stone, adapted by a later ogham carver for an inscription. The inscription reads upwards on both edges but the north angle is now almost totally illegible. On the south end of the stone, the ogham inscription extends from the top of the stone to a point roughly 1.3m above ground.</layout>
+                                <layout style="vertical" rend="arris_up-up">The stone is roughly rectangular in shape but tapering gently at the base, and tapering also in thickness to relatively narrow edges at the north and south ends, both of which bear an ogham inscription. The exceptional size of the stone suggested to Macalister (1945, 9-10) that it was originally a prehistoric standing stone, adapted by a later ogham carver for an inscription. The inscription reads upwards on both edges but the north angle is now almost totally illegible. On the south end of the stone, the ogham inscription extends from the top of the stone to a point roughly 1.3m above ground.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -135,6 +135,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, moved logainm reference around Irish placename, moved info in paragraph in support to material and objectType, added missing ogham codes in edition, replaced hex codes with ogham characters.</change>
     <change when="2025-02-13" who="#NW">Updated material and object type. Updated eDIL ref in commentary.</change>
     <change when="2025-02-14" who="#POC">Proofreading upates, added missing citation in commentary.</change>
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
