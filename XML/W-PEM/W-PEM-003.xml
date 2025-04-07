@@ -68,15 +68,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <height>1.75</height>
                                         <width>0.46</width>
                                         <depth>0.23</depth>
-                                        </dimensions></support>
-                                <condition/>
+                                        </dimensions>
+                                    <desc type="decoration">The top of the stone is decorated with a <rs type="decoration" key="linear">linear Latin cross</rs> which is deeply incised using a broad line. Edwards (2007, 331) described the cross-arms as having <q>trifid terminals</q> and <q>the outer terminals of the horizontal cross-arms are curved</q>. </desc>
+                                </support>
+                                <condition>The stone had fallen sometime before 1908 and was re-erected. There is a <q>gate-hanger hole</q> in the centre of the inscribed surface which cuts through the second line of the roman inscription. The cross obscures the last two letters of the ogham inscription. According to Edwards (2007, 329), the left horizontal cross-arm runs into the last notch of the T in the ogham, while the upper part of the curved bar overlies the third notch of the I. Overall, the Latin and ogham inscriptions are <q>very worn, the cross less so</q> (Edwards 2007, 329). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The ogham inscription is on the left angle reading upwards. The stone also features a roman-letter inscription reading vertically downwards in two lines, and is described as being lightly <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised.</rs> The roman-letter inscription takes up much of the central third of the stone face, though is positioned to the right of centre.  (Edwards 2007, 331)</layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription is incised on the left angle reading upwards. The stone also features a lightly incised roman-letter inscription, reading vertically downwards in two lines. The roman-letter inscription takes up much of the central third of the stone face, though is positioned to the right of centre. (Edwards 2007, 331)</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The [roman-letter] inscription is in capitals. In line 1 the A's have angle-bars; G is sickle-shaped; the L's have sloping horizontals and the final I of <hi rend="italic">Andagelli</hi> is horizontal. In line 2 FI are conjoined with a small I; AV are ligatured and the final I is horizontal</q> (Edwards 2007, 331).
+                            <handNote>The Latin inscription consists of capitals. <q>In line 1 the A's have angle-bars; G is sickle-shaped; the L's have sloping horizontals and the final I of <hi rend="italic">Andagelli</hi> is horizontal. In line 2 FI are conjoined with a small I; AV are ligatured and the final I is horizontal</q> (Edwards 2007, 331). The ogham inscription appears to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -88,7 +90,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SN 0996 2691</note></origPlace>
                             <origDate notBefore="0500" notAfter="0560" precision="low" datingMethod="#julian" evidence="linguistic">Early to mid sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">First recorded 1698 by Lhuyd and his assistants, unclear if ogham was identified at that time; ogham 'discovered' by Collier in 1889 according to Collier and Allen in same Archaeologia Cambrensis issues.</provenance>
+                        <provenance type="found">First recorded 1698 by Lhuyd and his assistants standing at the east end of St Teilo's Church, Llandeilo. It is unclear if the ogham was identified at that time. According to Collier and Allen, the ogham was 'discovered' by Collier in 1889<!--in same Archaeologia Cambrensis issues.-->. By 1914, the stone was standing outside the entrance to the churchyard, right of the gate. The stone was moved to its present location in 1959.</provenance>
                         <provenance type="observed">In St Mary's church, Maenclochog, set against the south wall at the west end.</provenance>
                     </history>
                 </msDesc>
@@ -123,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+<change when="2025-04-07" who="#POC">Added and encoded information, including decoration, condition, provenance, apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,9 +158,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </div>
             </div>            
             <div type="apparatus">
-                <p></p>
+                <app n="1"><note>The roman-letter inscription <q>consists of the 'X son of Y' formula in the genitive case with the addition of <hi rend="italic">iacit</hi>. The incorporation of the abbreviated <hi rend="italic">hic iacit</hi> formula indicates that the inscription is Christian</q> (Edwards 2007, 331). The ogham inscription <q>mirrors the Latin but without <hi rend="italic">iacit</hi>. MACU is written instead of the usual maqi</q> (Edwards 2007, 331).</note></app>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
                     <p><title>Ogham</title>: 'of <foreign xml:lang="pgl">Andagellus</foreign> son of <foreign xml:lang="pgl">Cavetus</foreign>'</p>
                 </div>
@@ -166,8 +169,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Andagellus</foreign>, (here) he lies, son of <foreign xml:lang="pgl">Cavetus</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p><q>Although the last two letters are damaged, the ogam inscription may be reconstructed with certainty. It mirrors the Latin but without <hi rend="italic">iacit</hi>. MACU is written instead of the usual <q>maqi</q>... ANDAGELLI... is probably not British but a preform of the poorly attested OI <hi rend="italic">Indgall</hi>, 'very yellow'... The initial A- has been regarded as British or British-influenced, but could be an archaic Irish feature, since OI <hi rend="italic">Ind-</hi> developed from <hi rend="italic">*Ande-</hi>. The name can alternatively be segmented AN-DAG-ELLI, 'little bad one'</q> (Edwards 2007, 331).</p>
-                        <p>The roman-letter inscription <q>consists of the 'X son of Y' formula in the genitive case with the addition of <hi rend="italic">iacit</hi>. The incorporation of the abbreviated <hi rend="italic">hic iacit</hi> formula indicates that the inscription is Christian</q> (Edwards 2007, 331).</p>
+                        <p><q>Edwards (2007, 331) explains that the name ANDAGELLI <q>is probably not British but a preform of the poorly attested OI <hi rend="italic">Indgall</hi>, 'very yellow'</q>. The initial A- has been regarded as British or British-influenced, but could be an archaic Irish feature, since OI <hi rend="italic">Ind-</hi> developed from <hi rend="italic">*Ande-</hi>. The name can alternatively be segmented AN-DAG-ELLI, 'little bad one'</q> (Edwards 2007, 331).</p>
+                        <p></p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
