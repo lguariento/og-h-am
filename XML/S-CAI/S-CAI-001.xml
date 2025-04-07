@@ -83,11 +83,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition><q>The various fragments of this slab have been cemented back together, but the surface of the upper pan is missing, taking part of a symbol and perhaps part of the ogham with it. The remaining carving is clear and well-preserved</q> (Forsyth 1996, 13). Therefore, the ogham inscription may be complete as it is, but the possibility of lost letters cannot be completely ruled out (ibid).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is carved towards the left edge of the front face at an acute angle and on a drawn stem-line (Forsyth 1996, 13-4). The stem stops c.6cm short of the outer edge of the stone, but nothing of the original surface remains in the area beyond the last stroke (Forsyth 1996, 16). </layout>
+                                <layout style="other" rend="stemline_diagonal">The ogham inscription is carved towards the left edge of the front face at an acute angle and on a drawn stem-line (Forsyth 1996, 13-4). The stem stops c.6cm short of the outer edge of the stone, but nothing of the original surface remains in the area beyond the last stroke (Forsyth 1996, 16). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription was <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and smoothed as is typical for Class I stones (Forsyth 1996, 13). 
+                            <handNote>The inscription was <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and smoothed</rs> as is typical for Class I stones (Forsyth 1996, 13). 
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -141,6 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-06" who="#POC">Added paragraph to support, National Grid Reference, closed unused elements, commented out apparatus and translation</change>
     <change when="2025-03-19" who="#POC">Added country placename to origPlace, added style attribute to layout, added decoration section, added CISP link, updated commentary, corrected edition encoding</change>
     <change when="2025-03-27" who="#POC">Added secondary location coordinates, updated decoration</change>
+<change when="2025-04-07" who="#POC">Added layout attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
