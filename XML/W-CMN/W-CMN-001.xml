@@ -69,14 +69,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         </dimensions>
                                 </support>
 
-                                <condition>The monument is damaged and parts of the roman and much of the ogam inscriptions have been lost... Missing and fragmentary letters have been reconstructed from Morgan's drawing (Illus. CM25.2)...</condition>
+                                <condition>Originally a slab, the monument was broken up and is now incomplete, consisting of only three fragments. Consequently, <q>parts of the roman and much of the ogam inscriptions have been lost</q> (Edwards 2007, 251). The ogham inscription is fragmentary, but the extant letters of the Latin inscription are in good condition. Edwards (2007, 251) reconstructed the missing and fragmentary letters from Morgan's drawing (Illus. CM25.2).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_upR"><q>A roman-letter, Latin inscription deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> in two lines reading vertically downwards... [A] fragmentary ogam inscription is deeply incised up the right angle (A/D) of the face. There may also be traces of possible ogam strokes on the top left corner of a... The surviving parts of the ogam inscription are placed to the right of the roman inscription, rather than to the left, as is more usual, and possibly continued round the top of the monument. Although Morgan's drawing of the roman-letter inscription appears accurate, his record of the ogam inscription seems unreliable. The monument was probably already damaged... and ogam inscriptions were not understood at this time</q> (Edward 2007, 251-252).</layout>
+                                <layout style="vertical" rend="arris_upR">The fragmentary ogham inscription is deeply incised up the right angle of the face. There may also be traces of possible ogham strokes on the top left corner of the fragment of the top of the slab. The surviving parts of the ogam inscription are placed to the right of the roman inscription, rather than to the left, as is more usual, and possibly continued round the top of the monument. Edwards (2007, 252) cautions that <q>although Morgan's drawing of the roman-letter inscription appears accurate, his record of the ogam inscription seems unreliable</q>. Edwards (2007, 252) notes that the monument was probably already damaged at the time of drawing and, more importantly, that <q>ogam inscriptions were not understood at this time</q> (Edward 2007, 251-252). The Latin inscription is deeply incised in two lines and reads vertically downwards. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The inscription is in capitals, with a space between the two words in line 2. The B's have separate loops; R's have a separate diagonal which is almost horizontal, that in line 2 has an open loop. In line 1 the horizontal of the L slopes downwards; the strokes of the M are widely spaced. In line 2 F is cursive; S is geometric and shown as a Greek sigma; G is sickle-shaped; the final I is horizontal</q> (Edward 2007, 251-252).<height></height>
+                            <handNote>The ogham inscription appears to have been <rs type="execution" key="v-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>. According to Edwards (2007, 252), <q>it is difficult to tell the relationship of some of the surviving ogham strokes to the centre line, and this, and the fact that many are fragmentary, makes their reading very difficult</q>. The only ogham letters that can be read with any certainty are found at the bottom of the more substantially sized fragment. Where the larger and smaller fragments join, the ends of two strokes are visible but this area is too damaged to determine for sure. There may be a further one or two strokes at the top of the smaller fragment. The fragment comprising the top of the slab has <q>slight notches on the top-left corner</q> which might be ogham but this is unclear, though the ends of strokes are visible in the lower-right corner of the fragment (Edwards 2007, 252). <q>The Latin inscription is in capitals, with a space between the two words in line 2. The B's have separate loops; R's have a separate diagonal which is almost horizontal, that in line 2 has an open loop. In line 1 the horizontal of the L slopes downwards; the strokes of the M are widely spaced. In line 2 F is cursive; S is geometric and shown as a Greek sigma; G is sickle-shaped; the final I is horizontal</q> (Edward 2007, 251-252). <!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -87,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SN 403 380</note></origPlace>
                             <origDate notBefore="0500" notAfter="0560" precision="low" datingMethod="#julian" evidence="linguistic">Early to mid sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">First noted 1828 near the ruin of old Capel Mair and drawn by the then vicar Revd David Morgan sometime before 1855 (according to Rhys 1907a); first reading of the ogham given by Rhys in 1875
+                        <provenance type="found" when="1828">First noted 1828 near the ruin of old Capel Mair and drawn by the then vicar Revd David Morgan sometime before 1855 (according to Rhys 1907a). The first reading of the ogham was given by Rhys in 1875. The monument was broken up before 1855 and lost. Two small fragments were rediscovered in 1900 during the demolition and rebuilding of a cow-house at Tan-y-Capel (Dancapel) Farm (Edwards 2007, 251). The smaller of these fragments was lost again by 1907, but was rediscovered again by 1938. A substantial fragment was found serving as a drain-cover at Tan-y-Capel farm in 1936. The three fragments were moved to their present location before 1938.
                         </provenance>
                         <provenance type="observed">In Capel Mair, at the west end in a glass case.
                         </provenance>
@@ -126,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <change when="2023-07-05" who ="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
         <change when="2023-07-31" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
         <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
+    <change when="2025-04-08" who="#POC">Changed hi element for foreign element in commentary, added "sga" for language code but that could be wrong, added and encoded information from Edwards (2007) for provenance, condition, layout, handNote, updated execution type based on the image in Edwards (2007, 252), reversed order in sections so information on ogham is given first and Latin second</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,9 +156,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </div>
             </div> 
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note>Edwards (2007, 252) read only three ogham letters with certainty but maintained that the five strokes before could been an R or an N and the three strokes afterwards could be a V.</note>
+                    <rdg source="EDW2007">-IBA-</rdg>
+                    
+                </app>
+                <app n="2">
+                    <note>Based on Morgan's drawing and his own field notes, Macalister (1936, 152-3) reconstructed the inscription as:</note>
+                    <rdg source="MAC1936">[DECCA]IBARVALB(I) [MAQI B]RO[CAG]NI</rdg>
+                </app>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
                     <p><title>Ogham</title>: '<foreign xml:lang="pgl">Decabarrabalvas(?)</foreign> son of <foreign xml:lang="pgl">Broccagnas</foreign>'</p>
                 </div>
@@ -166,14 +175,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Decabarbalom</foreign> son of <foreign xml:lang="pgl">Brocagnus</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p><q>While the last two letters of IBA on fragment c. are easily equated with the start of roman BARBALOM, the I cannot be connected with DE[CA] unless it is a completely artificial genitive ending, but could perhaps be the remains of the presumed <hi rend="italic">nominative</hi> preform of <hi rend="italic">Daig</hi>, namely <hi rend="italic">*Deg<hi rend="superscript">w</hi>i(s)</hi>. An ogam spelling DEG<hi rend="superscript">W</hi>G<hi rend="superscript">W</hi>IABARVALOB would fit Morgan's drawing up to a point, which begins with DE, followed by two three- or four-stroke consonants, and the nsix vowel notches. BROCAGNI rather than *BROCANN is likely to be a conservative or archaic spelling in this very well-known name</q> (Edwards 2007, 253-254).</p>
-                        <p><q>The roman-letter inscription consists of the Latin 'x son of y' formula, with <hi rend="italic">filivs</hi> in the nominative and <hi rend="italic">Brocagni</hi> in the genitive. The form of the name is problematic and depends partly on Morgan's drawing... The legible name BROCAGNI is definitely Irish, the ancestor of IO <hi rend="italic">Broccán</hi>... BROCAGNI has a genitive ending, whereas DE[CAB]ARBALOM seems to be uninflected... BARBALOM (allegedly BARVALB in the ogam) may be an Irish name or epithet <hi rend="italic">*Barrobalvos</hi>, 'Dumbhead', with the British -LOM (with M as spirant /v/) being an attempt to spell the Irish svarabhakti in OI <hi rend="italic">balb</hi>, 'dumb'... Another possibility is to divide DEC ABAR-BALOM, with DEC as a form of nominative <hi rend="italic">Daig</hi> and ABAR- as the Old Irish intensive <hi rend="italic">abar-</hi>, hence 'very dumb'</q> (Edwards 2007, 331).</p>
+                        <p><q>While the last two letters of IBA on fragment c. are easily equated with the start of roman BARBALOM, the I cannot be connected with DE[CA] unless it is a completely artificial genitive ending, but could perhaps be the remains of the presumed <foreign xml:lang="sga">nominative</foreign> preform of <foreign xml:lang="sga">Daig</foreign>, namely <foreign xml:lang="sga">*Deg<hi rend="superscript">w</hi>i(s)</foreign>. An ogam spelling DEG<hi rend="superscript">W</hi>G<hi rend="superscript">W</hi>IABARVALOB would fit Morgan's drawing up to a point, which begins with DE, followed by two three- or four-stroke consonants, and then six vowel notches. BROCAGNI rather than *BROCANN is likely to be a conservative or archaic spelling in this very well-known name</q> (Edwards 2007, 253-254).</p>
+                        <p><q>The roman-letter inscription consists of the Latin 'x son of y' formula, with <hi rend="italic">filivs</hi> in the nominative and <foreign xml:lang="sga">Brocagni</foreign> in the genitive</q> (Edwards 2007, 252). However, as Edwards (2007, 252) highlights, the <q>form of the first name is problematic and depends partly on Morgan's drawing</q>. The last name is legible, <q>BROCAGNI is definitely Irish, the ancestor of IO <foreign xml:lang="sga">Broccán</foreign></q> (Edwards 2007, 253). Edwards (2007, 253) notes that <q>BROCAGNI has a genitive ending, whereas DE[CAB]ARBALOM seems to be uninflected</q> and that <q>BARBALOM (allegedly BARVALB in the ogam) may be an Irish name or epithet <foreign xml:lang="sga">*Barrobalvos</foreign>, meaning 'Dumbhead', with the British -LOM (with M as spirant /v/) being an attempt to spell the Irish svarabhakti in OI <foreign xml:lang="sga">balb</foreign>, 'dumb'</q>. Alternatively, Edwards (2007, 253) suggests another possibility,<q> to divide DEC ABAR-BALOM, with DEC as a form of nominative <foreign xml:lang="sga">Daig</foreign> and ABAR- as the Old Irish intensive <foreign xml:lang="sga">abar-</foreign>, hence 'very dumb'</q>.</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
                 <bibl><ptr target="EDW2007"/>
                     <citedRange unit="page">251-254</citedRange>
                 </bibl>
+                    <bibl><ptr target="RHY1907a"/>
+                        <citedRange unit="page">66-102</citedRange>
+                    </bibl>
+                    <bibl><ptr target="RHY1875"/>
+                        <citedRange unit="page">359-371</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
