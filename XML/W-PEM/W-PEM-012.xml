@@ -44,11 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>St. David's Church</repository>
-                        <idno type="invNo"></idno>
-                        <altIdentifier>
-                            <idno type="geo">51.873768326964196, -5.112662338076654</idno>
-                        </altIdentifier>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,14 +64,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <width>0.585</width>
                                         <depth>0.48</depth>
                                     </dimensions></support>
-                                <condition/>
+                                <condition>The ogham inscription is very worn but clear, whereas the letters of the Latin inscripton <q>are now illegible</q> (Edwards 2007, 286).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">An Ogham inscription is <q><rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised </rs>on the left angle of the face (A/D) reading vertically upwards... </q> (Edwards 2007, 286) beginning and terminating within the centre third section of the stone's height. Traces of a roman-letter inscription, <q>presumably running vertically downwards</q> (Edwards 2007, 286), are present on the stone in two vertical lines, <q>but the letters are now illegible. A partial reading of the roman-letter latin inscription is therefore dependent on records made by Lhuyd (BL Stowe MS 1023, fo. 139; BL Stowe MS 1024, fo.52)</q> (Edwards 2007, 286).</layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription is <q>incised on the left angle of the face</q> and reads vertically upwards (Edwards 2007, 286). Macalister (1945, 399) highlighted that <q>there is no formal stem-line</q> due to the <q>rounded edge</q> of the stone. Traces of a roman-letter inscription are present on the stone in two lines, presumably reading vertically downwards.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
+                            <handNote>Macalister described the inscriptions as <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. <height></height> 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,7 +82,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SM 884 275</note></origPlace>
                             <origDate notBefore="0460" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Later fifth or sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">No ogham in Lhuyd sketches c.1698 (reproduced in RCAHMS 1925, pg 28). Slightly confused biography - might have been identified at same time as BRAW1, but reading provided by Westwood in 1884 seems incorrect; Rhys provides a reading in 1894. 
+                        <provenance type="found">The monument was in use as a footbridge when Lhuyd recorded the roman-letter inscription around 1698. The ogham inscription was not noted at this time. The ogham inscription was first noted around 1883 when the monument was rediscovered serving the same purpose in the same location, a footbridge across the Brawdy Brook on the boundary between Castle Villa Farm and Trewilym Farm. The stone was moved to the roadside near Castle Villa Farm where the roman-letter inscription was noticed in 1895. In 1896 the stone was moved to Brawdy churchyard and by 1922 it was placed in the church porch (Edwards 2007, 286).
+                            <!--No ogham in Lhuyd sketches c.1698 (reproduced in RCAHMS 1925, pg 28). Slightly confused biography - might have been identified at same time as BRAW1, but reading provided by Westwood in 1884 seems incorrect; Rhys provides a reading in 1894. -->
                         </provenance>
                         <provenance type="observed">In St David's Church, Brawdy lying on the east side of the porch.
                         </provenance>
@@ -123,11 +121,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>   
     <change when="2023-07-29" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+    <change when="2025-04-09" who="#POC">Deleted entry from repository, replaced hi element with foreign elements, updated execution technique, added and encoded information from Edwards 2007 and Macalister 1945, added drawing by Macalister. </change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="WAL/W-PEM-012-MAC1945-400-Brawdy.jpg"><desc>Drawing by Macalister (1945, 400)</desc></graphic>
         <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -140,11 +139,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
-                <div type="textpart" n="1">
                     <ab>
                         <lb/><persName><name nymRef="#VINDAGNAS">VENDOGNI</name></persName>
                     </ab>
-                </div>
             </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
@@ -155,7 +152,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </div>
             </div>
             <div type="apparatus">
-                <p></p>
+                <app n="1"><note>Edwards (2007, 286) explains that the Latin inscription Vendagni is <q>a slightly different version of the same name</q> given in the ogham inscription, Vendogni. In the roman-letter inscription, <q>the inclusion of <foreign xml:lang="la">fili</foreign> shows the inscription conformed to the 'X son of Y' formula, but the case is unclear. It is most likely to be the genitive <foreign xml:lang="sga">fili</foreign> followed by a name beginning with V, but the nominative filiv[s] would also be possible</q> (Edwards 2007, 286). Based on the extant letters it is possible to deduce that <q>the name of the father (like that of the son) could therefore have begun with V and ended with NI</q> (Edwards 2007, 286).</note></app>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
@@ -166,14 +163,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Vendagnus</foreign>, son of <foreign xml:lang="pgl">V<gap reason="lost" extent="unknown"></gap>NI</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p>The Ogham inscription is generally considered to be the Irish personal name <hi rend="italic">Vendogni</hi>.<q> The spelling of the Celtic element <hi rend="italic">*Windo-</hi> ('white') as VEND- is typical of ogam inscriptions, as is the termination -GNI.</q> The inscription <q>appears to be an abbreviation of the roman, which also includes the patronymic...</q> (Edwards 2007, 286-287)</p>
-                        <p>In the roman-letter inscription, <q>the inclusion of <hi rend="italic">fili</hi> shows the inscription conformed to the 'X son of Y' formula, but the case is unclear. It is most likely to be the genitive <hi rend="italic">fili</hi> followed by a name beginning with V... The name of the father (like that of the son) could therefore have begun with V and ended with NI</q> (Edwards 2007, 286).</p>
+                        <p>The ogham inscription is generally considered to be the Irish personal name <foreign xml:lang="sga">Vendogni</foreign>. Edwards (2007, 286) outlines that the <q>spelling of the Celtic element <foreign xml:lang="sga">*Windo-</foreign> ('white') as VEND- is typical of ogam inscriptions, as is the termination -GNI</q>. The ogham inscription <q>appears to be an abbreviation of the roman, which also includes the patronymic.</q> (Edwards 2007, 286-287)</p>
             </div>
             <div type="bibliography">
                 <listBibl>  
                 <bibl><ptr target="EDW2007"/>
-                    <citedRange unit="page">284-285</citedRange>
+                    <citedRange unit="page">286-287</citedRange>
                 </bibl>  
+                    <bibl><ptr target="MAC1945"/>
+                    <citedRange>399-401</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
