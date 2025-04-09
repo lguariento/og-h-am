@@ -154,12 +154,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><!--confirm text-direction, please-->ᚐᚂᚂ<gap reason="lost" extent="unknown" unit="character"/>                    
+                    <lb n="1" style="text-direction:up"/><!--confirm text-direction, please-->ᚐᚂᚂ<gap reason="lost" extent="unknown" unit="character"/>    
+                    <lb n="2"/>Forfeda test:                    
+                    <g ref="#forfid_X"/>
+                    <g ref="#forfid_OI"/>
+                    <g ref="#forfid_UI"/>
+                    <g ref="#forfid_I"/>
+                    <g ref="#forfid_EA"/>
+                        
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="2" style="text-direction:up"/>ALL<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/>ALL<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="2"/>Forfeda test:   
+                    <g ref="#forfid_X">K/E</g>
+                    <g ref="forfid_OI">Oᴵ</g>
+                    <g ref="#forfid_UI">Uᴵ</g>
+                    <g ref="#forfid_I">Φ</g>
+                    
                 </ab>
             </div>
             <!--<div type="apparatus">
