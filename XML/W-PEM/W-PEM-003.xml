@@ -124,12 +124,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-07" who="#POC">Added and encoded information from Edwards (2007), including decoration, condition, provenance, apparatus</change>
     <change when="2025-04-08" who="#POC">Changed hi element for foreign element in commentary, added sga language code but that could be wrong</change>
-    <change when="2025-04-09" who="#POC">Moved ogham information before Latin inscription info, deleted St Teilo's from repository</change>
+    <change when="2025-04-09" who="#POC">Moved ogham information before Latin inscription info, deleted St Teilo's from repository, added drawing by Macalister</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="WAL/W-PEM-003-MAC1945-414-Llandeilo-b.jpg"><desc>Drawing by Macalister (1945, 414)</desc></graphic>
         <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -176,6 +176,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <bibl><ptr target="EDW2007"/>
                     <citedRange unit="page">329-331</citedRange>
                 </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>413-414</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
