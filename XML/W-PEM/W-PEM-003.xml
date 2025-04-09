@@ -44,11 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>St. Telio's Church</repository>
+                        <repository/>
                         <idno type="invNo"/>
-                        <altIdentifier>
-                            <idno type="geo">51.88198078123069, -3.9927783608300595</idno>
-                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -71,14 +68,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         </dimensions>
                                     <desc type="decoration">The top of the stone is decorated with a <rs type="decoration" key="linear">linear Latin cross</rs> which is deeply incised using a broad line. Edwards (2007, 331) described the cross-arms as having <q>trifid terminals</q> and <q>the outer terminals of the horizontal cross-arms are curved</q>. </desc>
                                 </support>
-                                <condition>The stone had fallen sometime before 1908 and was re-erected. There is a <q>gate-hanger hole</q> in the centre of the inscribed surface which cuts through the second line of the roman inscription. The cross obscures the last two letters of the ogham inscription. According to Edwards (2007, 329), the left horizontal cross-arm runs into the last notch of the T in the ogham, while the upper part of the curved bar overlies the third notch of the I. Overall, the Latin and ogham inscriptions are <q>very worn, the cross less so</q> (Edwards 2007, 329). </condition>
+                                <condition>The stone had fallen sometime before 1908 and was re-erected. The cross obscures the last two letters of the ogham inscription. According to Edwards (2007, 329), the left horizontal cross-arm runs into the last notch of the T in the ogham, while the upper part of the curved bar overlies the third notch of the I. There is a <q>gate-hanger hole</q> in the centre of the inscribed surface which cuts through the second line of the roman inscription. Overall, the Latin and ogham inscriptions are <q>very worn, the cross less so</q> (Edwards 2007, 329). </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_up">The ogham inscription is incised on the left angle reading upwards. The stone also features a lightly incised roman-letter inscription, reading vertically downwards in two lines. The roman-letter inscription takes up much of the central third of the stone face, though is positioned to the right of centre. (Edwards 2007, 331)</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The Latin inscription consists of capitals. <q>In line 1 the A's have angle-bars; G is sickle-shaped; the L's have sloping horizontals and the final I of <hi rend="italic">Andagelli</hi> is horizontal. In line 2 FI are conjoined with a small I; AV are ligatured and the final I is horizontal</q> (Edwards 2007, 331). The ogham inscription appears to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>.
+                            <handNote>The ogham inscription appears to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. The Latin inscription consists of capitals. <q>In line 1 the A's have angle-bars; G is sickle-shaped; the L's have sloping horizontals and the final I of <hi rend="italic">Andagelli</hi> is horizontal. In line 2 FI are conjoined with a small I; AV are ligatured and the final I is horizontal</q> (Edwards 2007, 331). 
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -127,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-07" who="#POC">Added and encoded information from Edwards (2007), including decoration, condition, provenance, apparatus</change>
     <change when="2025-04-08" who="#POC">Changed hi element for foreign element in commentary, added sga language code but that could be wrong</change>
+    <change when="2025-04-09" who="#POC">Moved ogham information before Latin inscription info, deleted St Teilo's from repository</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -170,7 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Andagellus</foreign>, (here) he lies, son of <foreign xml:lang="pgl">Cavetus</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p><q>Edwards (2007, 331) explains that the name ANDAGELLI <q>is probably not British but a preform of the poorly attested OI <foreign xml:lang="sga">Indgall</foreign>, 'very yellow'</q>. The initial A- has been regarded as British or British-influenced, but could be an archaic Irish feature, since OI <foreign xml:lang="sga">Ind-</foreign> developed from <foreign xml:lang="sga">*Ande-</foreign>. The name can alternatively be segmented AN-DAG-ELLI, 'little bad one'</q> (Edwards 2007, 331).</p>
+                        <p>Edwards (2007, 331) explains that the name ANDAGELLI <q>is probably not British but a preform of the poorly attested OI <foreign xml:lang="sga">Indgall</foreign>, 'very yellow'. The initial A- has been regarded as British or British-influenced, but could be an archaic Irish feature, since OI <foreign xml:lang="sga">Ind-</foreign> developed from <foreign xml:lang="sga">*Ande-</foreign></q>. The name can alternatively be segmented AN-DAG-ELLI, 'little bad one' (Edwards 2007, 331).</p>
                         <p></p>
                     </div>
             <div type="bibliography">
