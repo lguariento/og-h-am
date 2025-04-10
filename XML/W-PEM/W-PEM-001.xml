@@ -44,11 +44,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>St. Dogmael's Abbey</repository>
+                        <repository/>
                         <idno type="invNo"/>
-                        <altIdentifier>
-                            <idno type="geo">52.08067762742352, -4.680104972456825</idno>
-                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -62,22 +59,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">1215</idno> Llandudoch; St Dogmael's Abbey</p>
-                                    <material type="stone">Dolerite</material> 
-                                    <objectType key="monument">Slab</objectType> <note>Comprised of <q>'spotted' dolerite, with anhedral altered feldspar patches (2-3mm)</q> (Edwards 2007, 460).</note>
+                                    <material type="stone">Dolerite</material> <note>Comprised of <q>'spotted' dolerite, with anhedral altered feldspar patches (2-3mm)</q> (Edwards 2007, 460).</note>
+                                    <objectType key="monument">Slab</objectType> 
                                     <dimensions unit='m'>
                                         <height>2.10</height>
                                         <width>0.495</width>
                                         <depth>0.20</depth>
                                         </dimensions></support> 
 
-                                <condition/>
+                                <condition>The stone was broken in two <q>when it was removed from the wall in 1858 and mended with an iron clamp, which obscures a small area of each inscription</q> (Edwards 2007, 460). Macalister (1945, 426) noted that <q>both inscriptions are in good condition</q>, although a <q>fracture passes through and obscures one of the scores of the second G</q> in the ogham inscription. Edwards (2007, 460) also highlighted that the second A of the ogham inscription <q>is damaged by a break in the stone</q>. Despite the damage, Edwards (2007, 462) remarked that the ogham inscription <q>is unusually clear</q>. Additionally, the stone has two filled gate-hanger holes, one of which Edwards (2007, 460) notes <q>damages the S at the beginning of the roman inscription</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"><q>On the upper part of the stone is a roman-letter, Latin inscription in two lines, reading vertically downwards. It is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, using broad lines, with a <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punch</rs>... On the left angle (A/D) is an ogam inscription, incised with a punch, which reads vertically upwards</q> (Edwards 2007, 460-462).</layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription is on the left angle of the stone and reads vertically upwards. <q>On the upper part of the stone is a roman-letter, Latin inscription in two lines, reading vertically downwards. It is incised, using broad lines, with a punch</q> (Edwards 2007, 460-462).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The letters are capitals... with sickle-shaped G, R with an open loop, the first N with an extended first vertical, F with an upward-sloping top and an additional horizontal stroke at the bottom, and M with widely spaced strokes meeting on the line... The ogam inscription is unusually clear...</q> (Edwards 2007, 462).<height></height>
+                            <handNote>Both the ogham and Latin inscriptions were <q>incised with a punch</q> or <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>  (Edwards 2007, 462; Macalister 1945, 426). The letters of the roman inscription are capitals and exhibit <q>a sickle-shaped G, R with an open loop, the first N with an extended first vertical, F with an upward-sloping top and an additional horizontal stroke at the bottom, and M with widely spaced strokes meeting on the line</q> (Edwards 2007, 462). <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -88,9 +85,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SN 164 458</note></origPlace>
                             <origDate notBefore="0400" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">First mentioned by William Gambold 1693 in a letter to Lluyd; 1860 Jones specifically talks about the ogham, and says that some of the ogham is recorded in a sketch by Lhwyd
+                        <provenance type="found">The stone was first mentioned by William Gambold 1693 in a letter to Lluyd, when it stood in the ruins of the abbey. The stone was formerly used as a gatepost and as a footbridge across a stream but in 1858 it was built into a walll adjacent to the vicarage. Jones (1860) specifically talks about the ogham, and says that some of the ogham is recorded in a sketch by Lhwyd. The stone was moved to its present position before 1917.
                         </provenance>
-                        <provenance type="observed">In St Thomas's parish church (SN 1639 4589) standing against the west wall of the nave
+                        <provenance type="observed">In St Thomas's parish church (SN 1639 4589) standing against the west wall of the nave (Edwards 2007, 460).
                         </provenance>
                     </history>
                 </msDesc>
@@ -125,11 +122,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
     <change when="2023-07-25" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+<change when="2025-04-10" who="#POC">Added and encoded information from Edwards (2007) and Macalister (1945), updated provenance, added condition, deleted repository, added execution type for ogham and deleted encoding for Latin execution type, updated handNote, replace hi for foreign in commentary, added information to apparatus, added image</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="example.jpg"><desc>Drawing by Macalister (1945, 427)</desc></graphic>
         <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -142,11 +140,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Latn">
-                <div type="textpart" n="1">
                     <ab>
                         <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#SAGRAGNAS">SAGRANI</name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><name nymRef="#KUNATAMAS">CUNATAMI</name></persName>
                     </ab>
-                </div>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
@@ -157,7 +153,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </div>
             </div>            
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note>Both the ogham and Latin inscriptions use the 'X son of Y' formula in the genitive case.</note>
+                </app>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
@@ -168,8 +166,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Sagranus</foreign> son of <foreign xml:lang="pgl">Cunotamus</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p>The ogam inscription uses the 'X son of Y' formula in the genitive case. <q>While the patronymic is typically Welsh, SAGRA(G)NI is presumably OI <hi rend="italic">Sárán</hi>... The ogam spelling SAGRAGNI is more conservative than the roman SAGRANI... It is odd that G is still shown in the first syllable but in Ireland CIIC: no. 317 MAGLANI is comparable (Macalister 1945, 305-306)... Further evidence for the Irish name in Britain is provided by SAGRANVI on the reverse of the ogam stone from Fardel, Devon (Macalister 1945, 468-469; Okasha 1993, 13), perhaps a hybrid of Irish SAGRAN- with the well-known Brittonic termination <hi rend="italic">-wy</hi>... The T rather than D in CUNATAMI may be copied from the roman-letter form</q> (Edwards 2007, 462).</p>
-                        <p>Like the ogam, the roman-letter inscription also uses the 'X son of Y' formula in the genitive case. <q>CVNOTAMI is typically British, OW <hi rend="italic">Condaf</hi>, MW <hi rend="italic">Cyndaf</hi>, and means something like 'most hound-like'</q> (Edwards 2007, 462).</p>
+                <p>Macalister (1945, 426) recounts how the stone was <q>known, rather grandiloquently, as the 'the Ogham Rosetta stone'</q> because it was <q>one of the first of the bilateral inscriptions to be discovered</q>.</p>        
+                <p>In regards to the ogham inscription, Edwards (2007, 462) states that while <q>the patronymic is typically Welsh, SAGRA(G)NI is presumably OI <foreign xml:lang="sga">Sárán</foreign>, not a hypothetical Welsh *<foreign>Haeron</foreign></q>. Edwards (2007, 462) points out that the ogham spelling <q>SAGRAGNI is more conservative than the roman SAGRANI</q> and how it is <q>odd that G is still shown in the first syllable but in Ireland CIIC: no. 317 MAGLANI is comparable</q> (see Macalister 1945, 305-306). <q>Further evidence for the Irish name in Britain is provided by SAGRANVI on the reverse of the ogam stone from Fardel, Devon (Macalister 1945, 468-469; Okasha 1993, 13), perhaps a hybrid of Irish SAGRAN- with the well-known Brittonic termination <foreign>-wy</foreign></q> (Edwards 2007, 462).</p>
+                <p>The second name in both inscriptions inscribed as CVNOTAMI in the roman-letter inscription <q>is typically British, OW <foreign>Condaf</foreign>, MW <foreign>Cyndaf</foreign>, and means something like 'most hound-like'.</q> (Edwards 2007, 462). Edwards (2007, 462) suggests that the <q>T rather than D in CUNATAMI may be copied from the roman-letter form</q>.</p>
+                        
                     </div>
             <div type="bibliography">
                 <listBibl>  
@@ -177,7 +177,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <citedRange unit="page">460-462</citedRange>
                 </bibl>
                 <bibl><ptr target="MAC1945"/>
-                    <citedRange unit="page">305-306, 468-469</citedRange>
+                    <citedRange unit="page">425-426</citedRange>
                 </bibl>
                 <bibl><ptr target="OKA1993"/>
                     <citedRange unit="page">13</citedRange>
