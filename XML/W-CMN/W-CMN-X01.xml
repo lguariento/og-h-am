@@ -50,11 +50,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                         <country>Wales</country>
-                        <repository>Henllan Amgoed</repository>
+                        <repository/>
                         <idno type="invNo"/>
-                        <altIdentifier>
-                            <idno type="geo">51.8495906212298, -4.644609086245746</idno>
-                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -72,14 +69,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <width>0.56</width>
                                         <depth>0.405</depth>
                                         </dimensions></support>
-                                <condition>A rough, irregular pillar with a rounded top and five faces, the stone is in good condition. Macalister (1945, 348) claims that the stone once bore an ogham inscription which has since <q>been disintegrated</q> and <q>probably hammered or rubbed away with intention</q>. According to Macalister (1945, 348), the inscription is recognisable <q>only by the hollows which the groups of letter-scores have left on the two sides of the angle</q>. Macalister (1945, 349) notes that both the top and bottom of the inscribed angle are spalled. Edwards (2007, 219) remarks that the Latin inscription is in good condition except for the last letter of the first line which is partially buried.</condition>
+                                <condition>A rough, irregular pillar with a rounded top and five faces, the stone is in good condition. Macalister (1945, 348) claims that the stone once bore an ogham inscription which has since <q>been disintegrated</q> and <q>probably hammered or rubbed away with intention</q>. According to Macalister (1945, 348) both the top and bottom of the inscribed angle are spalled, and the inscription is recognisable <q>only by the hollows which the groups of letter-scores have left on the two sides of the angle</q>. Edwards (2007, 219) remarks that the Latin inscription is in good condition except for the last letter of the first line which is partially buried.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister maintains that there was an ogham inscription on the No Ogham is present on the stone, but there is a roman-letter inscription in two lines reading vertically downwards. The inscription begins nearly halfway down the face of the stone and is, according to Edwards (2007, 219), <q>quite deeply incised</q>.</layout>
+                                <layout style="vertical" rend="arris">In 1922, Macalister maintains that he saw a line of ogham on the <q>sinister angle</q> of the stone reflecting the Latin inscription (1945, 348). Edwards (2007, 219) states, however, that there is no corresponding ogham inscription on the stone. The roman-letter inscription begins nearly halfway down the south face of the stone and consists of two lines reading vertically downwards.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The inscription is in capitals... except for miniscule Q, which has an open loop. The A's have angle-bars and the I's at the ends of both lines are horizontal. In line 2 FI and LI are conjoined and the I's are of small size; the top horizontal of the F slopes upward and the bottom downward; L has a downward sloping horizontal; B has separate loops and R has an extended vertical... The combination of letter-forms... together with the post-syncope name forms, suggests the inscription is late in the series</q> (Edwards 2007, 219).                                
+                            <handNote>Macalister (1945, 348) offered no details about the execution of the ogham inscription, so the carving technique is <rs type="execution" key="unknown">unknown</rs>. However, he did note that the Latin inscription as predominantly  <q>chiselled</q> with a <q>few letters pocked</q> (1945, 348), while Edwards (2007, 219) described it as being <q>quite deeply incised</q>. The Latin inscription contains capitals, except for a <q>miniscule Q, which has an open loop</q> (Edwards 2007, 219). <q>The A's have angle-bars and the I's at the ends of both lines are horizontal. In line 2 FI and LI are conjoined and the I's are of small size; the top horizontal of the F slopes upward and the bottom downward; L has a downward sloping horizontal; B has separate loops and R has an extended vertical</q> (Edwards 2007, 219).
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -91,7 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SN 175 197</note></origPlace>
                             <origDate notBefore="0550" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Second half of the sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">The stone was first discovered by Lhuyd, lying on the ground in a field belonging to Parciau. Shortly before 1868 the stone was moved from the field known as Parc-y-Maen ('the Field of the Stone') to its present location, northwest of the farmhouse. Macalister seems to have been the first to suggest that the stone was inscribed with ogham. In 1922, Macalister maintains that he saw a line of ogham reflecting the Latin inscription, but that the second time he visited the ogham had been disintegrated apart from a few hollows left over. McManus dismisses the presence of ogham as 'imaginary'. 
+                        <provenance type="found">The stone was first discovered by Lhuyd, lying on the ground in a field belonging to Parciau. Shortly before 1868 the stone was moved from the field known as Parc-y-Maen ('the Field of the Stone') to its present location, northwest of the farmhouse. Macalister seems to have been the first to suggest that the stone was inscribed with ogham, but McManus dismisses the presence of ogham as 'imaginary'. 
                         </provenance>
                         <provenance type="observed">Now situated northwest of the farmhouse.
                         </provenance>
@@ -134,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
 <change when="2025-04-03" who="#POC">Simplified material type</change>
 <change when="2025-04-09" who="#POC">Deleted execution type encoding for Latin inscription, added editor and respStmt information, updated layout to mention lack of ogham first, added drawing by Macalister, corrected page range for Macalister 1945 in commentary.</change>
-<change when="2025-04-10" who="#POC">Added and encoded information from Edwards (2007) and Macalister (1945).</change>
+<change when="2025-04-10" who="#POC">Added and encoded information from Edwards (2007) and Macalister (1945), deleted repository, </change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -151,21 +148,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note>Macalister (1922) read</note>
+                    <rdg source="MAC1922b">Ogham: --]NVENDANIM[--]B[-]R[--</rdg>
+                    <rdg source="MAC1922b">Latin: QVENVENDANI FILIBARCVUNI</rdg>
+                </app>
+                <app n="2">
+                    <note>The Latin inscription uses the 'X son of Y' formula in the genitive case (Edwards 2007, 219).</note>
+                </app>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <p>'of <foreign xml:lang="pgl">Quenvendanus</foreign> son of <foreign xml:lang="pgl">Barcunus</foreign>'</p>
             </div>
             <div type="commentary">
-                <p><q>The inscription uses the 'X son of Y' formula in the genitive case. There is no corresponding ogam inscription... Both names are Irish and relatively late (post-syncope). QVENVENDANI (genitive) is a later form of the name seen in Ireland in ogam on (Macalister 1945, 3-4 CIIC: no 2) QENOVENDAGNI... the ancestor of Irish <hi rend="italic">Cennf(h)innán</hi>, 'white-headed one'... BARCVNI is a Latinized genitive of the ancestor of the Old Irish name <hi rend="italic">Barrchú</hi>, 'dog-head' (although theoretically it could be a British name <hi rend="italic">*Bargwn).</hi></q> (Edwards 2007, 219).</p>
-                <p>Macalister (1922) suggested Ogham: --]NVENDANIM[--]B[-]R[--Latin: QVENVENDANI; FILIBARCVUNI</p>
+                <p>Edwards (2007, 219) notes that both names in the Latin inscription <q>are Irish and relatively late (post-syncope). QVENVENDANI (genitive) is a later form of the name seen in Ireland in ogam</q>, QENOVENDAGNI (see Macalister 1945, 3-4 CIIC: no 2), which is the ancestor of Irish <foreign xml:lang="sga">Cennf(h)innán</foreign>, 'white-headed one'. The second name, BARCVNI,<q> is a Latinized genitive of the ancestor of the Old Irish name <foreign xml:lang="sga">Barrchú</foreign>, 'dog-head' (although theoretically it could be a British name <foreign>*Bargwn).</foreign></q> (Edwards 2007, 219).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
                 <bibl><ptr target ="EDW2007"/>
                     <citedRange unit="page">219-220</citedRange>
                 </bibl>    
-                    <bibl><ptr target ="MAC1922"/>
+                    <bibl><ptr target ="MAC1922b"/>
                         <citedRange unit="page">32</citedRange>
                     </bibl>
                     <bibl><ptr target ="MAC1945"/>
