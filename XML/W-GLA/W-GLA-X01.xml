@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Gelli-Gaer</title>
              <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -22,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
                     <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
                     <name></name>
@@ -69,14 +75,14 @@ Historic Environment Record</ref>: <idno type="HER">00646m
                                         <width>1.00</width>
                                         <depth>0.22</depth>
                                     </dimensions></support>
-                                <condition/>
+                                <condition>Macalister (1945, 381) notes that <q>a great mass has been broken from the corner of the slab, no doubt to destroy</q> the ogham inscription. According to Macalister (1945, 381), as a result, only the beginning of the ogham inscription could be discerned <q>the rest is lost</q>. In respect to the Latin inscription, Macalister described the letters as <q>worn or broken</q> and the overall condition of the inscription as <q>fair</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed with a Roman letter inscription in four lines, reading vertically downwards. The inscription is described as <q>roughly <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> to varying depths</q> (Redknap and Lewis 2007, 306). It has been suggested that the stone is also inscribed with the beginnings of an Ogham inscription on the left edge. This potential inscription would presumably have read vertically upwards. However, any such inscription is not visible in images or drawings in the Welsh Corpus, which states that the presence of this inscription <q>does not appear to be supported by the evidence</q> (Redknap and Lewis 2007, 306; Macalister 1945, 380-381).</layout>
+                                <layout style="vertical" rend="arris_up">It has been suggested that the stone is inscribed with the beginnings of an Ogham inscription on the left edge. This potential inscription would presumably have read vertically upwards. However, any such inscription is not visible in images or drawings in the Welsh Corpus, which states that the presence of this inscription <q>does not appear to be supported by the evidence</q> (Redknap and Lewis 2007, 306; Macalister 1945, 380-381). The stone is inscribed with a Roman letter inscription in four lines, reading vertically downwards. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>In the Roman-letter inscription letter forms are described as <q>mixed crude capitals and simplified half-uncial [forms]. Angular forms made by a writer who was perhaps used to tablet-writing, or was at least writing from a rough tabled exemplar...His As, twice like a capital laid on its side and once like the triangular D seen in the Brittany inscriptions, but with a distinguishing bar to the right, are quite individual</q> (Redknap and Lewis 2007, 306). There are a number of letter form errors which could have been corrected in the cutting of the stone but were not. The Welsh Corpus argues that <q>this suggests either a literate painter of the letters but an illiterate cutter, or an illiterate patron. It can hardly be that this represents the type of 'common writing' current in Wales during the century when the Cathach, Durham A ii.10 and the book of Durrow were written</q> (Redknap and Lewis 2007, 307).
+                            <handNote>There is no evidence to indicate how the ogham inscription might have been carved, so the execution technique remains <rs type="execution" key="other">unknown</rs>. According to Macalister (1945, 380), the Latin inscription was <q>pocked and rubbed</q>, but it has also been described as <q>roughly incised to varying depths</q> (Redknap and Lewis 2007, 306). In the Roman-letter inscription letter forms are described as <q>mixed crude capitals and simplified half-uncial [forms]. Angular forms made by a writer who was perhaps used to tablet-writing, or was at least writing from a rough tabled exemplar...His As, twice like a capital laid on its side and once like the triangular D seen in the Brittany inscriptions, but with a distinguishing bar to the right, are quite individual</q> (Redknap and Lewis 2007, 306). There are a number of letter form errors which could have been corrected in the cutting of the stone but were not. The Welsh Corpus argues that <q>this suggests either a literate painter of the letters but an illiterate cutter, or an illiterate patron. It can hardly be that this represents the type of 'common writing' current in Wales during the century when the Cathach, Durham A ii.10 and the book of Durrow were written</q> (Redknap and Lewis 2007, 307).
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -127,6 +133,7 @@ Historic Environment Record</ref>: <idno type="HER">00646m
       <change when ="2023-07-20" who="#MK"> Megan Kasten checked information and formatting to ensure consistency with the OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+    <change when="2025-04-11" who="#POC">Updated execution type encoding, added condition, added layout attributes for filtering, moved information from commentary to apparatus, updated commentary replaced hi with foreign</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,11 +151,9 @@ Historic Environment Record</ref>: <idno type="HER">00646m
                </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" resp="MAC1945">
-            <div type="textpart" n="1" xml:lang="pgl-Ogam">
                   <ab>
                       <lb n="1" style="text-direction:up"/><persName><name><del cause="lost">TEGE<gap reason="lost" extent="unknown"/></del></name></persName>
                   </ab> 
-               </div>
             </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                 <div type="textpart" n="2" xml:lang="pgl-Latn">
@@ -161,9 +166,11 @@ Historic Environment Record</ref>: <idno type="HER">00646m
                 </div>
                 </div>
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note>The presence of an Ogham inscription on the stone has been called into question as there does not appear to be any evidence supporting it beyond Macalister's assertion. If the Ogham inscription described by Macalister was on the stone, the TEGE would appear to correspond to the Roman-letter inscription (Macalister 1945; Redknap and Lewis 2007).</note>
+                </app>
             </div>
-                <div type="translation" xml:lang="en">
+                <div type="translation">
                 <div type="textpart" n="1">
                     <p><title>Ogham</title>: 'TEGE[...' is assumed to be part of a name Macalister 1945, 380-381)</p>
                 </div>
@@ -172,8 +179,7 @@ Historic Environment Record</ref>: <idno type="HER">00646m
                     </div>
             </div>
             <div type="commentary">
-                        <p>The presence of an Ogham inscription on the stone has been called into question as there does not appear to be any evidence supporting it beyond Macalister's assertion. If the Ogham inscription described by Macalister was on the stone, the TEGE would appear to correspond to the Roman-letter inscription (Macalister 1945; Redknap and Lewis 2007)</p>
-                        <p><q>TEGERNACVS is the ancestor either of a Welsh name <hi rend="italic">Teyrnog</hi> or of the Irish name <hi rend="italic">Tigernach</hi></q> where the spelling makes the Welsh possibility more likely (Redknap and Lewis 2007, 307). With regards to the date of the inscription, the Welsh Corpus notes that <q>if TEGERNACVS is Welsh, the spelling with A rather than O is in favour of as early a date as the epigraphy allows...the occurance of <hi rend="italic">Martius</hi>, a Latin name which did not pass into the Welsh stock of names, also favours an early date</q> (Redknap and Lewis 2007, 307). On the context of the stone, it is worth noting that <q>this is one of several Glamorgan monuments associated with the sites of upland chapels of early foundation, cf. Chapel Gwladys (G30), Eglwysilan (G17) and Llanwonno (G72 and G73), The curvilinear graveyard at Capel Brithdir, and its cross-inscribed slab (G29), suggest an early date for this site</q> (Redknap and Lewis 2007, 308).</p>
+                        <p><q>TEGERNACVS is the ancestor either of a Welsh name <foreign>Teyrnog</foreign> or of the Irish name <foreign xml:lang="sga">Tigernach</foreign></q> where the spelling makes the Welsh possibility more likely (Redknap and Lewis 2007, 307). With regards to the date of the inscription, the Welsh Corpus notes that <q>if TEGERNACVS is Welsh, the spelling with A rather than O is in favour of as early a date as the epigraphy allows...the occurance of <foreign xml:lang="la">Martius</foreign>, a Latin name which did not pass into the Welsh stock of names, also favours an early date</q> (Redknap and Lewis 2007, 307). On the context of the stone, it is worth noting that <q>this is one of several Glamorgan monuments associated with the sites of upland chapels of early foundation, cf. Chapel Gwladys (G30), Eglwysilan (G17) and Llanwonno (G72 and G73), The curvilinear graveyard at Capel Brithdir, and its cross-inscribed slab (G29), suggest an early date for this site</q> (Redknap and Lewis 2007, 308).</p>
             </div>
             <div type="bibliography">
                 <listBibl>

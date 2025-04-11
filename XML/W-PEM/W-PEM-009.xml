@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>St Dogwells</title>
              <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -22,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
                     <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
                     <name></name>
@@ -44,11 +50,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>St. Dogwell's Church</repository>
+                        <repository/>
                         <idno type="invNo"/>
-                        <altIdentifier>
-                            <idno type="geo">51.91353649754192, -4.954523176172276</idno>
-                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -73,11 +76,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="face_up"><q>Part-way down the pillar on the left side is an <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> roman-letter, Latin inscription in two lines, reading vertically downwards... The ogam inscription is located along a ridge on the face of the stone, to the right of the roman inscription. It is incised reading vertically upwards</q> (Edwards 2007, 473).</layout>
+                                <layout style="vertical" rend="face_up">The ogham inscription is located along a ridge on the face of the stone and reads vertically upwards. Part-way down the pillar on the left side is an incised roman-letter, Latin inscription in two lines, reading vertically downwards. The ogham inscription is to the right of the roman inscription (Edwards 2007, 473).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The roman-letter inscription <q>is in small capitals... The form of G is unusual; F is cursive and conjoined with I; L has a sloping horizontal, and M has widely spaced outer strokes and the inner strokes meet on the line</q> (Edwards 2007, 473).
+                            <handNote>Macalister (1945, 428) described the ogham inscription as <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> and the roman letters as <q>pocked and rubbed</q>. The roman-letter inscription consists of small capitals. <q>The form of G is unusual; F is cursive and conjoined with I; L has a sloping horizontal, and M has widely spaced outer strokes and the inner strokes meet on the line</q> (Edwards 2007, 473).
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -126,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-29" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+<change when="2025-04-11" who="#POC">Updated execution encoding, updated commentary </change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,11 +147,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
-                <div type="textpart" n="1">
                     <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#OCTU">OGTEN<unclear reason="illegible" extent="2" unit="character">AS</unclear></name></persName>
                     </ab>
-                </div>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
@@ -160,7 +162,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <p></p>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <div type="textpart" n="1">
                     <p><title>Ogham</title>: '<foreign xml:lang="pgl">Ogten<unclear reason="illegible">as</unclear></foreign>'</p>
                 </div>
@@ -169,7 +171,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Hogtivis (or Hogtinis)</foreign> son of <foreign xml:lang="pgl">Demetus (or Demetius</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p>Linguistically, the most likely reading of the ogam inscription is OGTENAS: <q>a notch for the A is just visible and the final four strokes of the inscription could be interpreted as an S. If this is correct, the inscription is simply the name of the deceased in the genitive case</q> (Rhys 1918, 189) suggested that <q>GT is an unusual variant spelling of Irish <hi rend="italic">cht</hi>, as in QAGTE or QEGTE... In that case OGT- may be the stem seen in OI <hi rend="italic">Ochtach, Ochtbran</hi>, etc.</q> (Edwards 2007, 473).</p>
+                        <p>Linguistically, the most likely reading of the ogam inscription is OGTENAS: <q>a notch for the A is just visible and the final four strokes of the inscription could be interpreted as an S. If this is correct, the inscription is simply the name of the deceased in the genitive case</q> (Rhys 1918, 189) suggested that <q>GT is an unusual variant spelling of Irish <foreign xml:lang="sga">cht</foreign>, as in QAGTE or QEGTE... In that case OGT- may be the stem seen in OI <foreign xml:lang="sga">Ochtach, Ochtbran</foreign>, etc.</q> (Edwards 2007, 473).</p>
                         <p><q>The Latin inscription consists of the 'X son of Y' formula in the genitive case. In the past the first name has been consistently read as HOGTIVIS, which visually appears the most likely. However, it has recently been suggested that, in order to match the ogam inscription, it should be read HOGTINIS (McManus 1991, 65), the N being reversed and ligatured with the following I... It is also possible that HOGTIVIS was written by mistake for HOGTINIS. The patronym DEMETI may refer in some way to the kingdom of Dyfed (Thomas 1994, 76)</q> (Edwards 2007, 473).</p>
                     </div>
             <div type="bibliography">
@@ -177,6 +179,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <bibl><ptr target="EDW2007"/>
                     <citedRange unit="page">471-474</citedRange>
                 </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>427-428</citedRange>
+                    </bibl>
                 <bibl><ptr target="MCM1991"/>
                     <citedRange unit="page">65</citedRange>
                 </bibl>

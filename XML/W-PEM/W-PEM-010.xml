@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Steynton 1</title>
              <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -22,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
                     <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
                     <name></name>
@@ -44,11 +50,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>Church of St. Peter and St. Cewydd</repository>
-                        <idno type="invNo"></idno>
-                        <altIdentifier>
-                            <idno type="geo">51.73045267269362, -5.016748945495414</idno>
-                        </altIdentifier>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -69,16 +72,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <width>0.51</width>
                                         <depth>0.265</depth>
                                         </dimensions>
-                                <desc type="decoration">In the ninth century a Latin ring-cross was added to the face of the stone.</desc>
+                                <desc type="decoration">In the ninth century an incomplete outline of a <rs type="execution" key="cross">Latin ring-cross</rs> was added to the face of the stone.</desc>
                                 </support>
-                                <condition>The majority of the roman-letter inscription was destroyed as a result of the c. ninth century addition of the ring-cross, and the lower cross arm of the Latin ring-cross was subsequently disrupted as a result of the stone being repurposed in 1876 as a gravestone. (Edwards 2007, 503).</condition>
+                                <condition>The end of the left cross-arm cuts the final stroke of the N of the ogham inscription. The majority of the roman-letter inscription was destroyed as a result of the c. ninth century addition of the ring-cross, and the lower cross arm of the Latin ring-cross was subsequently disrupted as a result of the stone being repurposed in 1876 as a gravestone. (Edwards 2007, 503).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"> An Ogham inscription, described as being deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs>, is present on the left angle (A/D) of the stone face, reading vertically upwards. It begins in the top quarter of the stone and teminates at the crest of the stone. <q>A fragmentary roman-letter inscription is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> vertically down the centre of the face within the upper cross arm...[of] an incomplete outline Latin ring-cross... The end of the left cross-arm cuts the final stroke of the N of the ogam inscription.</q> </layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription is present on the left angle (A/D) of the stone face, reading vertically upwards. It begins in the top quarter of the stone and teminates at the crest of the stone. <q>A fragmentary roman-letter inscription is incised vertically down the centre of the face within the upper cross arm</q> of the Latin ring-cross (Edwards 2007, 503). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Of the roman-letter inscription, <q>The letters are capitals... G is sickle-shaped (Edwards 2007, 503).</q>
+                            <handNote>The ogham inscription is <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> and described as <q>deeply incised</q>. Of the roman-letter inscription, <q>The letters are capitals... G is sickle-shaped (Edwards 2007, 503).</q>
                                 
                                 <height></height>
                             </handNote>
@@ -129,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
     <change when="2023-07-29" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, added information to condition, added decoration section, corrected bibliography</change>
+<change when="2025-04-11" who="#POC">Updated execution encoding, updated commentary </change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -168,7 +172,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="commentary">
-                        <p><q>GENDILI is a genitive of one or other of the attested Latin names <hi rend="italic">Gentilius, Gentilis</hi> or <hi rend="italic">Gentillus</hi>, with Ir. /nd/ substituted for the /nt/ that was lacking in Primitive Irish. A related borrowing in Welsh can be seen at Patrishow 1 (B43) in GENILLIN = MW <hi rend="italic">Gen(n)illyn, -in</hi> and perhaps in the place name <hi rend="italic">Tref Ginhall</hi> (var. <hi rend="italic">Gynnhill, Gynhil</hi>) in the Book of Llandaf...</q> (Edwards 2007, 504).</p>
+                        <p><q>GENDILI is a genitive of one or other of the attested Latin names <foreign xml:lang="la">Gentilius, Gentilis</foreign> or <foreign xml:lang="la">Gentillus</foreign>, with Ir. /nd/ substituted for the /nt/ that was lacking in Primitive Irish. A related borrowing in Welsh can be seen at Patrishow 1 (B43) in GENILLIN = MW <foreign>Gen(n)illyn, -in</foreign> and perhaps in the place name <foreign>Tref Ginhall</foreign> (var. <foreign>Gynnhill, Gynhil</foreign>) in the Book of Llandaf...</q> (Edwards 2007, 504).</p>
                         <p><q>Although the roman inscription is fragmentary, enough survives to suggest that it mirrored the ogam inscription, being simply a personal name in the genitive case, though the former existence of a longer one-line inscription is also possible</q> (Edwards 2007, 504).</p>
             </div>
             <div type="bibliography">
@@ -176,6 +180,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <bibl><ptr target="EDW2007"/>
                     <citedRange unit="page">503-505</citedRange>
                 </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                    <citedRange>432-433</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>

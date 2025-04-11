@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Caldy Island</title>
              <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -22,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
                     <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
                     <name></name>
@@ -44,8 +50,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                         <country>Wales</country>
-                        <repository>Old Priory Church</repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,11 +73,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The stone is inscribed with <q>two fragmentary ogam inscriptions. The first is on the left angle (A/D) near the top and reads veritcally upwards. The second is in a similar position on the right angle (A/B) and reads vertically downwards... The ogam strokes are finely and lightly <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised.</rs></q> There is also a <q><rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">medium-incised</rs>, roman-letter, Latin inscription set horizontally in eight lines</q> (Edwards 2007, 294).</layout>
+                                <layout style="vertical" rend="arris_up">The stone is inscribed with <q>two fragmentary ogam inscriptions. The first is on the left angle (A/D) near the top and reads vertically upwards. The second is in a similar position on the right angle (A/B) and reads vertically downwards</q>. There is also a <q>roman-letter, Latin inscription set horizontally in eight lines</q> (Edwards 2007, 294).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The Latin inscription is in book-script... Some letters have triangular or bifid serifs. There are variations in the forms of some letters. ET, EX and AE are ligatures; GN and TI are conjoined... An inscription remarkable for the evenness of its book-script. The letter-forms are carefully controlled and tend to be made as square as possible, with several geometric forms (F, G, N, S, U)</q> (Edwards 2007, 294-298).
+                            <handNote>The ogham strokes which Edwards (2007, 294) describes as <q>finely and lightly incised</q> appear to have been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs>. The Latin inscription is medium-incised and is in book-script, exhibiting letters with <q>triangular or bifid serifs</q> (Edwards 2007, 294). <q>There are variations in the forms of some letters. ET, EX and AE are ligatures; GN and TI are conjoined... An inscription remarkable for the evenness of its book-script. The letter-forms are carefully controlled and tend to be made as square as possible, with several geometric forms (F, G, N, S, U)</q> (Edwards 2007, 294-298).
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -122,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-25" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering, updated bibliography, moved information on material to a note after material tag, added paragraph for support</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
+<change when="2025-04-11" who="#POC">Updated execution encoding, updated commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -140,12 +147,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </div>
             </div>      
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
-                <div type="textpart" n="1">
                     <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#MAGLADUBRACU">MAGL<gap reason="lost" extent="unknown"></gap>DUBR<gap reason="lost" extent="unknown"></gap></name>
                         <lb n="2" style="text-direction:down"/><gap reason="lost" extent="unknown"></gap>QI<gap reason="lost" extent="unknown"></gap></persName> 
                     </ab>
-                </div>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
@@ -174,14 +179,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p><title>Latin</title>: 'With the sign of the cross I fashioned on that [?] I ask all walking there that they pray for the soul of <foreign xml:lang="pgl">Catuoconus</foreign>'</p>
               </div>
             <div type="commentary">
-                        <p><q>The surviving ogam letters suggest a compound personal name: (i) MAGL[-]DUBR, and (ii) -QI-, which could be part of <hi rend="italic">maqi</hi>... The inscription is unlikely to be other than Irish, in view of the use of ogam and the presence of Q... Both DUBAR[CUNAS] and... DUBR[ACUNAS].. seem possible restorations, both being possible spellings of Old Irish <hi rend="italic">doborchú</hi>, gen. <hi rend="italic">doborchon</hi>, 'water-dog, otter'</q> (Edwards 2007, 296).</p>
-                        <p>CATUOCONI is later Welsh <hi rend="italic">Cadwgan</hi>, a compound of <hi rend="italic">cad</hi>, 'battle', and <hi rend="italic">g(w)ogawn</hi>, 'glory', with a Latin genitive ending added. Both the lettering and the content of the Latin inscription suggest a high level of literacy, though case endings are not always correct... The meaning of <hi rend="italic">illam</hi><q>...cannot be satisfactorily resolved. It has also been cogently argued that some of the unusual features of the Caldy Island 1 inscription can be explained because it is set to metre in the form of rhythmic syllabic adonics, of which it may be the earliest known example</q> (Edwards 2007, 298).</p>
+                        <p><q>The surviving ogam letters suggest a compound personal name: (i) MAGL[-]DUBR, and (ii) -QI-, which could be part of <foreign xml:lang="sga">maqi</foreign>... The inscription is unlikely to be other than Irish, in view of the use of ogam and the presence of Q... Both DUBAR[CUNAS] and... DUBR[ACUNAS].. seem possible restorations, both being possible spellings of Old Irish <foreign xml:lang="sga">doborchú</foreign>, gen. <foreign xml:lang="sga">doborchon</foreign>, 'water-dog, otter'</q> (Edwards 2007, 296).</p>
+                        <p>CATUOCONI is later Welsh <foreign>Cadwgan</foreign>, a compound of <foreign rend="italic">cad</foreign>, 'battle', and <foreign>g(w)ogawn</foreign>, 'glory', with a Latin genitive ending added. Both the lettering and the content of the Latin inscription suggest a high level of literacy, though case endings are not always correct... The meaning of <foreign>illam</foreign><q>...cannot be satisfactorily resolved. It has also been cogently argued that some of the unusual features of the Caldy Island 1 inscription can be explained because it is set to metre in the form of rhythmic syllabic adonics, of which it may be the earliest known example</q> (Edwards 2007, 298).</p>
             </div>
             <div type="bibliography">
                 <listBibl>  
                 <bibl><ptr target="EDW2007"/> 
                     <citedRange>290-293</citedRange>
                 </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>405-409</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
