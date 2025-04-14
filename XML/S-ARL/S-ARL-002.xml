@@ -85,12 +85,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is found along one arris of the fragment. The strokes are evenly spaced within letters, though some groups are more cramped than others, and judging from the extant fragment there is extra spacing between letters (Forsyth 1996, 449). The correct orientation is difficult to determine as both ends of the slab are missing. However, of the two possible interpretations, reading from the bottom upwards produces the most plausible reading.
+                                <layout style="vertical" rend="arris_up">The inscription is found along one arris of the fragment. The strokes are evenly spaced within letters, though some groups are more cramped than others, and judging from the extant fragment there is extra spacing between letters (Forsyth 1996, 449). The correct orientation is difficult to determine as both ends of the slab are missing. However, of the two possible interpretations, reading from the bottom upwards produces the most plausible reading.
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>The ogham letters are <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs> in very fine, sharp strokes</q> (Forsyth 1996, 448). In general, their proportions are long and slim with a V-shaped profile. The variation in length of stroke within each group and the manner in which individual strokes trail at the ends indicates confident cutting. The Poltalloch ogham is written in a classic Type Ia form of the script with no written stem-line and vowel notches occupying no more than an eighth of the ogham band (ibid. 449). 
+                            <handNote>The ogham letters are <rs type="execution" key="v-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> in <q>very fine, sharp strokes</q> (Forsyth 1996, 448). In general, their proportions are long and slim with a V-shaped profile. The variation in length of stroke within each group and the manner in which individual strokes trail at the ends indicates confident cutting. The Poltalloch ogham is written with no written stem-line and vowel notches occupying no more than an eighth of the ogham band (ibid. 449). 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -152,6 +152,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
                     <change when="2025-03-26" who="#POC">Added secondary location coords, added country to origPlace</change>
                     <change when="2025-03-27" who="#POC">Removed whitespace from edition, removed attribute from layout for now</change>
+            <change when="2025-04-14" who="#POC">Update execution encoding, added attributes for layout filtering</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
