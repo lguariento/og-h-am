@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Egylwys Nynnid | Margam</title>
              <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -22,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
                     <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
                     <name></name>
@@ -72,11 +78,11 @@ Historic Environment Record</ref>: <idno type="HER">00788w
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The stone is inscribed with a Roman-letter inscription in two lines, reading vertically downwards. A partially corresponding Ogham inscription begins on the upper left edge of the stone, reading upwards, and continues on the right edge of the stone, reading downwards (Redknap and Lewis 2007, 439-440). </layout>
+                                <layout style="vertical" rend="arris_up">An Ogham inscription begins on the upper left edge of the stone, reading upwards, and continues on the right edge of the stone, reading downwards (Redknap and Lewis 2007, 439-440). The stone is also inscribed with a Roman-letter inscription in two lines, reading vertically downwards. The ogham inscription partially corresponds to the Latin inscription.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscriptions are likely <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. In the Ogham inscription <q>the gaps are large enough to have carried more than one letter, and need not have consisted of vowel-notches only...the Ps appear to be represented by crosses of three lines, a varition on one of the forfeda signs</q> (Redknap and Lewis 2007, 440). The Roman-letter inscription is <q>mostly Roman capitals, but with uncial form of E, and Ps with the vertical stroke descending below the line; Rs with open loop and tail approaching the horizontal; enlarged S; VM ligatured...suggesting that capitals were used with rapidity in written form, and not restricted to monumental use. Perhaps worked from a tablet exemplar; on the stone the letterer has started enlarging the letters in too small a scale with what looks like a lower-case P, but has scaled up - in a rising crescendo - to full capital for the second P in PUMPEIUS. Similarly the scale of the S has given some difficulty, the inscription ending with an S twice the size of the preceeding letter V</q> (Redknap and Lewis 2007, 440).
+                            <handNote>The inscriptions are likely <rs type="execution" key="cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. In the Ogham inscription <q>the gaps are large enough to have carried more than one letter, and need not have consisted of vowel-notches only...the Ps appear to be represented by crosses of three lines, a varition on one of the forfeda signs</q> (Redknap and Lewis 2007, 440). The Roman-letter inscription is <q>mostly Roman capitals, but with uncial form of E, and Ps with the vertical stroke descending below the line; Rs with open loop and tail approaching the horizontal; enlarged S; VM ligatured...suggesting that capitals were used with rapidity in written form, and not restricted to monumental use. Perhaps worked from a tablet exemplar; on the stone the letterer has started enlarging the letters in too small a scale with what looks like a lower-case P, but has scaled up - in a rising crescendo - to full capital for the second P in PUMPEIUS. Similarly the scale of the S has given some difficulty, the inscription ending with an S twice the size of the preceeding letter V</q> (Redknap and Lewis 2007, 440).
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -128,6 +134,7 @@ Historic Environment Record</ref>: <idno type="HER">00788w
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-04" who="#POC">Simplified material type, added layout filtering attributes</change>
+<change when="2025-04-14" who="#POC">Updated commentary, execution type</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -173,8 +180,8 @@ Historic Environment Record</ref>: <idno type="HER">00788w
                 </div>
             </div>
             <div type="commentary">
-                        <p>The Ogham inscription appears to correspond to the Roman-letter inscription in its first half <q>the ogam P[O]P[, if correctly restored...may preserve the original vowel <hi rend="italic">Pompeius</hi>...[most likely] the omission of the /m/ is due to Vulgar Latin as in SEPRONIVS (<hi rend="italic">RIB 1:</hi> no. 686), and Continental forms such as <hi rend="italic">Popeianus</hi> and <hi rend="italic">Pepeia</hi>...If POPIAS is the correct reading, the -AS may be the Irish nominative ending corresponding to Latin <hi rend="italic">-us</hi> and IA rather than EA could be a hypercorrect spelling...The <hi rend="italic">forfid</hi> for P is one of the additional ogam letters invented for this un-Irish sound</q> (Redknap and Lewis 2007, 440-1). The rest of the inscription does not appear to correspond to the Roman-letter inscription. <q>ROLACUN...offers the Irish etymology <hi rend="italic">*Ro-ola-kun-</hi>, 'very large hound'... ILLUNA could be related to the OI name <hi rend="italic">Illan(n), Elann</hi> and word <hi rend="italic">ela</hi> 'swan', as in <hi rend="italic">CIIC:</hi> no. 79, ELUNA in Ireland</q> (Redknap and Lewis 2007, 441).</p>
-                        <p>In the Roman-letter inscription, <q>PVMPEIVS for <hi rend="italic">Pompeius</hi> may show the Welsh development of /um/ [from] /om/...CARANTORIVS is definitely not Irish; it is the forerunner of OW <hi rend="italic">Cerenhir</hi>, W. <hi rend="italic">Cerennhyr</hi>...such names in <hi rend="italic">-orius</hi> have been much discussed</q> but no definitive interpretation of its significance is offered (Redknap and Lewis 2007, 440-1).</p>
+                        <p>The Ogham inscription appears to correspond to the Roman-letter inscription in its first half <q>the ogam P[O]P[, if correctly restored...may preserve the original vowel <foreign xml:lang="la">Pompeius</foreign>...[most likely] the omission of the /m/ is due to Vulgar Latin as in SEPRONIVS (<hi rend="italic">RIB 1:</hi> no. 686), and Continental forms such as <foreign xml:lang="la">Popeianus</foreign> and <foreign xml:lang="la">Pepeia</foreign>...If POPIAS is the correct reading, the -AS may be the Irish nominative ending corresponding to Latin <foreign xml:lang="la">-us</foreign> and IA rather than EA could be a hypercorrect spelling...The <foreign xml:lang="sga">forfid</foreign> for P is one of the additional ogam letters invented for this un-Irish sound</q> (Redknap and Lewis 2007, 440-1). The rest of the inscription does not appear to correspond to the Roman-letter inscription. <q>ROLACUN...offers the Irish etymology <foreign xml:lang="pgl">*Ro-ola-kun-</foreign>, 'very large hound'... ILLUNA could be related to the OI name <foreign xml:lang="pgl">Illan(n), Elann</foreign> and word <foreign xml:lang="pgl">ela</foreign> 'swan', as in <hi rend="italic">CIIC:</hi> no. 79, ELUNA in Ireland</q> (Redknap and Lewis 2007, 441).</p>
+                        <p>In the Roman-letter inscription, <q>PVMPEIVS for <foreign xml:lang="la">Pompeius</foreign> may show the Welsh development of /um/ [from] /om/...CARANTORIVS is definitely not Irish; it is the forerunner of OW <foreign>Cerenhir</foreign>, W. <foreign>Cerennhyr</foreign>...such names in <foreign>-orius</foreign> have been much discussed</q> but no definitive interpretation of its significance is offered (Redknap and Lewis 2007, 440-1).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
