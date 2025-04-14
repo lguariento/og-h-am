@@ -12,6 +12,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>   
              <editor role="editor" xml:id="BM"><persName>Bodil Malmose</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -24,6 +26,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
                     <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
                     <name></name>
@@ -74,11 +80,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Top missing and bottom trimmed.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">An ogham inscription runs along the right-hand edge, reading vertically upwards. A corresponding Latin inscription runs vertically down the middle of the stone in one line reading downwards. </layout>
+                                <layout style="vertical" rend="arris_upR">An ogham inscription runs along the right-hand edge, reading vertically upwards. A corresponding Latin inscription runs vertically down the middle of the stone in one line reading downwards. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is neatly <rs type="execution" key="carved" ref="https://www.eagle-network.eu/voc/writing/lod/168.html">carved</rs>. The Roman capitals are <q>well-spaced, but with no writing-line. Economy of effort shown in making the second inverted V of the opening M to serve also as the A of MACUTRENI, as in Llywel (Crai) 1 (B41). Both in the LICI and NI of tthe SALICIDUNI the design has allowed breathing space for the Is, showing that he had some training</q> (Redknap and Lewis 2007, 238).
+                            <handNote>The ogham inscription is neatly <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The Roman capitals are <q>well-spaced, but with no writing-line. Economy of effort shown in making the second inverted V of the opening M to serve also as the A of MACUTRENI, as in Llywel (Crai) 1 (B41). Both in the LICI and NI of tthe SALICIDUNI the design has allowed breathing space for the Is, showing that he had some training</q> (Redknap and Lewis 2007, 238).
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -131,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary</change>
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link, added secondary location coordinates</change>
 <change when="2025-04-03" who="#POC">Simplified material type</change>
+<change when="2025-04-14" who="#POC">Updated execution type, updated layout attribute value</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
