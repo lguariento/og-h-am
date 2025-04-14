@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Eglwys Gymyn 1</title>
              <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -22,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
                     <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
                     <name></name>
@@ -44,11 +50,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>Church of St. Margaret of Scotland</repository>
+                        <repository/>
                         <idno type="invNo"/>
-                        <altIdentifier>
-                            <idno type="geo">51.766610619291804, -4.56524631242718</idno>
-                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -70,11 +73,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up-up">The stone is inscribed with a roman-letter inscription in two lines reading vertically downwards. An Ogham inscription is present on both the right and left edges of the stone, beginning around halfway up on the left side and three-quarters up on the right, both terminating at the top corners of the stone. Both Ogham inscriptions are read vertically upwards. The roman-letter inscription is described as being medium-to-lightly-incised with clearly visible <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punchmarks</rs>, whereas the Ogham inscription is deeply <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs><bibl><ptr target ="EDW2007"/>Edwards 2007 <citedRange unit="page">214-215</citedRange></bibl>.</layout>
+                                <layout style="vertical" rend="arris_up-up">An Ogham inscription is present on both the right and left edges of the stone, beginning around halfway up on the left side and three-quarters up on the right, both terminating at the top corners of the stone. Both Ogham inscriptions are read vertically upwards. The stone is also inscribed with a roman-letter inscription in two lines reading vertically downwards. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The roman-letter inscription <q>is carved in two different techniques: the majority is <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">medium-incised </rs>, using a thin line, but the last four letters of line 1 are more worn, being lightly incised and broader than the rest... The inscription is in somewhat unevenly set-out capitals.</q> 
+                            <handNote>The Ogham inscription is <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> and described by Edwards (2007, 214) as <q>deeply incised</q>. The roman-letter inscription is described as being medium-to-lightly-incised with clearly visible punchmarks (Edwards 2007, 214-215). According to Macalister (1945, 346), the Latin inscription is carved in two different techniques <q>the straight lines are chisel-cut, but some of the rounded letters are pocked</q>. Edwards (2007, 214-5) describes the majority of the Latin inscription as <q>medium-incised, using a thin line, but the last four letters of line 1 are more worn, being lightly incised and broader than the rest</q>. The inscription consists of <q>somewhat unevenly set-out capitals</q> (Edwards 2007, 214-215).
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -127,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
     <change when="2023-07-25" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>  
 <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
+            <change when="2025-04-14" who="#POC">Update execution encoding</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
