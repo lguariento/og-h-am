@@ -61,36 +61,37 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO082-095----</idno> </p>
-                                    <material>Clayslate</material> 
-                                    <objectType>Pillar (sunken maltese/cross-of-arcs? cross near the head/end of the pillar, carved some time after the ogham and inverted in relation to it)</objectType> 
+                                    <material type="stone">Clayslate</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>sunken maltese/cross-of-arcs? cross near the head/end of the pillar, carved some time after the ogham and inverted in relation to it</note>
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.6</height>
                                             <width>0.23</width>
                                             <depth>0.20</depth>
-                                     </dimensions>                                   
+                                     </dimensions> 
+                                    <desc type="decoration">According to Macalister (1945, 131), the stone had been inverted at some point <q>and a <rs type="decoration" key="cross">cross pattée</rs> deeply cut upon the original butt</q>. The  maltese cross is now near the head of the pillar.</desc>
                                 </support>
-                                <condition>The inscription is <q>'much worn, especially on the H-side'</q> and the later addition of a cross damaged the first two letters of the inscription: the <q>'B-half of the M and the first four scores of the following I'</q> were destroyed (1945, 131).</condition>
+                                <condition>The inscription is <q>much worn, especially on the H-side</q> and the later addition of a cross damaged the first two letters of the inscription: the <q>B-half of the M and the first four scores of the following I</q> were destroyed (1945, 131).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription <q>'occupies almost the whole of the inscribed angle'</q> of the stone (Macalister 1945, 131). According to Macalister, the stone had been inverted at some point <q>'and a <rs type="decoration">cross pattée</rs> deeply cut upon the original butt'</q> (1945, 131). The  maltese cross is now near the head of the pillar.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription <q>occupies almost the whole of the inscribed angle</q> of the stone (Macalister 1945, 131). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is comprised of minute <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cuts</rs>.<height/>
+                            <handNote>The inscription is comprised of minute cuts which is characteristic of the <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs> execution technique.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Mountmusic (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9946">Cnoc Amhráin</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Mountmusic (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9946">Cnoc Amhráin</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo/>
                             <note>Coordinates unknown</note>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1845"><persName>Windele</persName> found the stone lying prostrate in a field and <q>'had it set up again, but afterwards moved it to his own house'</q> (Macalister 1945, 131).
+                        <provenance type="found" when="1845"><persName>Windele</persName> found the stone lying prostrate in a field and <q>had it set up again, but afterwards moved it to his own house</q> (Macalister 1945, 131).
                         </provenance>
                         <provenance type="observed" when="2004"><persName>McManus</persName> (2004, 10) recorded the stone as missing from UCC but his visit was prior to the conservation of the collection, which was carried out in <date>2006</date>. McManus didn't include a 28th stone, which was actually this ogham stone, because it was lying prostrate on the ground with the inscription hidden.</provenance>
                         <provenance type="observed">Now in University College Cork.
@@ -132,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Closed unused idno element for inventory number in repository</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-10" who="#POC">Added placename to title, moved logainm ref around Irish placename, added citation details to image description, updated apparatus</change>
+<change when="2025-04-14" who="#POC">Added decoration section, updated execution encoding, added attributes for filtering to material, objectType and layout. </change>
 </listChange>
 </revisionDesc>
     </teiHeader>
