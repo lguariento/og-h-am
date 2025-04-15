@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067005-</idno></p> 
-                                    <material>Clayslate</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Clayslate</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.20</height>
@@ -73,11 +73,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused in a souterrain, the top of the stone is damaged which resulted in the loss of some of the inscription.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription commences on the dexter edge of the stone and the last two letters are on the top of the stone. Macalister (1945, 96) noted that <q>'there seems to have been a continuation of the inscription running along here and down the sinister angle, of which no trace now remains; in all probability in the forbidden "MUCOI" formula.'</q>. </layout>
+                                <layout style="vertical" rend="arris_upR">The inscription commences on the dexter edge of the stone and the last two letters are on the top of the stone. Macalister (1945, 96) noted that <q>there seems to have been a continuation of the inscription running along here and down the sinister angle, of which no trace now remains; in all probability in the forbidden "MUCOI" formula.</q>. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The scores of the inscription are <q><rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs></q> (Macalister 1945, 96). 
+                            <handNote>The scores of the inscription are <q><rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs></q> (Macalister 1945, 96). 
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -85,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Ballyhank (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.831516, -8.609832</geo>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty media, translation and commentary</change>
+      <change when="2025-04-15" who="#POC">Update execution key from punched to pocked, added attributes for filtering</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
