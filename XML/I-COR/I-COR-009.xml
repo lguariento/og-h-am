@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO053-072----</idno></p>
-                                    <material>Limestone</material><!--Macalister 1945 - check if correct. Not in Power 1932 or 1995 UCC report -->
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone" source="MAC1945">Limestone</material><!--Macalister 1945 - check if correct. Not in Power 1932 or 1995 UCC report -->
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="#NW">
                                             <height>0.97</height>
                                             <width>0.28</width>
@@ -72,18 +72,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The stone is damaged at both ends leaving the inscription fragmentary. According to Macalister (1945, 65) the height of the stone was 0.97m (3 feet 2 inches) but only 0.89m are currently accessible. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads up on one angle, to the right of one of the faces.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription reads up on one angle, to the right of one of the faces.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed with large, well-spaced strokes (e.g. the two G strokes are <height>13cm</height> long, with 3.5cm space between them).
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs> with large, well-spaced strokes (e.g. the two G strokes are <height>13cm</height> long, with 3.5cm space between them).
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Bishop’s Island (<ref target="https://www.logainm.ie/ga/10395"><foreign xml:lang="ga">Oileán an Easpaig</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Bishop’s Island (<ref target="https://www.logainm.ie/ga/10395"><foreign xml:lang="ga">Oileán an Easpaig</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo cert="low">52.004289, -8.358335</geo>
                             <note>Approximate location only</note>
                             </origPlace>
@@ -139,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-10" who="#NW">added approx. coords with note for map display.</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title, added ogham space marker to edition, added citation details to image description, removed lang id from translation div because it was displaying on the database.</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
+<change when="2025-04-15" who="#POC">Added attributes for filtering, updated execution encoding</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
