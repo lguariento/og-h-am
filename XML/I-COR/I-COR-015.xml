@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO127-006----</idno></p> 
-                                    <material>Clay slate</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Clay slate</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="POW1992">
                                             <height>2.13</height>
                                             <width>0.65</width>
@@ -72,19 +72,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The stone remains in situ but the inscription is no longer legible.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>A rectangular stone with the long axis NNW-SSE. As Macalister (1945, 72) noted, the inscription is found <q>'low down on the dexter angle of the face turned away from the road'</q>. </layout>
+                                <layout style="vertical" rend="arris">A rectangular stone with the long axis NNW-SSE. As Macalister (1945, 72) noted, the inscription is found <q>low down on the dexter angle of the face turned away from the road</q>. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister (1945, 72) describes <q>'a damaged inscription in <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">minute scores</rs>'</q>. He also notes <q>'some marks before
-the C, but they cannot be explained as remains of letters'</q>. Possible ogham strokes surviving are just <height>2-3cm</height> in length.                                
+                            <handNote>Macalister (1945, 72) describes <q>a damaged inscription in minute scores</q>, indicating that the inscription was likely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs>. He also notes <q>some marks before
+the C, but they cannot be explained as remains of letters</q>. Possible ogham strokes surviving are just <height>2-3cm</height> in length.                                
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Gour (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/8815">Gamhair</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Gour (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/8815">Gamhair</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.634283, -9.978493</geo>
                             <note>ITM Coordinates: 463052, 544287</note>
                             </origPlace>
@@ -133,6 +133,7 @@ the C, but they cannot be explained as remains of letters'</q>. Possible ogham s
     <change when="2024-08-19" who="#NW">Added lemma to edition and translation. Moved logainm ref to Irish townland name.</change> 
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title, proofreading changes</change>
+<change when="2025-04-15" who="#POC">Added attributes for filtering, updated execution encoding</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
