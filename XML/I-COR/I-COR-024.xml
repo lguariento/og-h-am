@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO093-063----</idno></p>  
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="POW1992">
                                             <height>2.20</height>
                                             <width>0.46</width>
@@ -72,18 +72,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The inscription is very weathered, as well as obscured by lichen and moss, with no more than traces of possible ogham strokes discernible.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 79) noted that <q>the inscription is on the dexter angle of the eastern face</q> (on the side facing the field boundary) and begins at approximately <height>0.5m</height> and ends at <height>1.5m</height> above ground level.</layout>
+                                <layout style="vertical" rend="arris_up">Macalister (1945, 79) noted that <q>the inscription is on the dexter angle of the eastern face</q> (on the side facing the field boundary) and begins at approximately <height>0.5m</height> and ends at <height>1.5m</height> above ground level.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister ascertained that the inscription was <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>.<height/>
+                            <handNote>Macalister ascertained that the inscription was <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Keenrath (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9881">Caoinráth</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Keenrath (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9881">Caoinráth</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.759532, -9.177449</geo>
                             <note>ITM Coordinates: 518717, 557012</note>
                             </origPlace>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-16" who="#NW">Added image path.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-30" who="#POC">Added Irish placename to title, commented out creation, added image citation details to description, proofreading updates, commented out translation and commentary sections because they are empty</change>
+<change when="2025-04-15" who="#POC">Update execution key from punched to pocked, added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

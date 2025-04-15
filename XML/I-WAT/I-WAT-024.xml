@@ -65,7 +65,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR/NISMR ID: <idno type="SMR">WA025-078----</idno></p>
                                     <material type="stone">Sandstone</material> 
-                                    <objectType>Fragment</objectType> 
+                                    <objectType key="monument">Fragment</objectType> 
                                      <dimensions unit="m">
                                         <height>1.17</height>
                                             <width>0.27</width>
@@ -79,14 +79,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with large strokes relative to the size of the stone (<height>10cm</height> long x <width>1.5cm</width> wide), taking up most of the width of the narrow side.
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with large strokes relative to the size of the stone (<height>10cm</height> long x <width>1.5cm</width> wide), taking up most of the width of the narrow side.
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Kilbeg (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/49777">An Chill Bheag</ref></foreign></placeName>, Civil Parish of <placeName type="parish">​Kilbarrymeaden/<foreign xml:lang="ga">Cill Bhairméidín</foreign></placeName>), <placeName type="county">Co. Waterford</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Kilbeg (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/49777">An Chill Bheag</ref></foreign></placeName>, Civil Parish of <placeName type="parish">​Kilbarrymeaden/<foreign xml:lang="ga">Cill Bhairméidín</foreign></placeName>), <placeName type="county">Co. Waterford</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo/>
                                 <note>precise location unknown</note>
                             </origPlace>
@@ -132,7 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-16" who="#NW">Added note to coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, added citation details to image description</change>
     <change when="2025-04-04" who="#NW">Added new attributes for filtering. Added repository coordinates using altIdentifier.</change> 
-    
+      <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>

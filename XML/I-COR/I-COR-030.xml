@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO084-090003-</idno></p> 
-                                    <material>Clay slate</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Clay slate</material><!--Ogham Stones Report 1995 (M. Lantry, UCC) -->
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" resp="#NW">
                                             <height>1.75</height>
                                             <width>0.50</width>
@@ -72,11 +72,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>An irregularly-shaped pillar, seemingly reused in a souterrain and damaged in places, particularly the vulnerable edges. According to Macalister (1945, 84), the height of the stone was 1.75m (5 feet 9 inches) but only 1.57m are currently accessible. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription begins at roughly 0.75m from the bottom of one angle, runs over the top, and ends approximately 0.90m from the bottom of the adjacent angle.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription begins at roughly 0.75m from the bottom of one angle, runs over the top, and ends approximately 0.90m from the bottom of the adjacent angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed in bold, deep strokes. The vowel notches are quite large, especially towards the end of the inscription.
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs> in bold, deep strokes. The vowel notches are quite large, especially towards the end of the inscription.
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -84,13 +84,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Garranes (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/8299">An Garrán</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Garranes (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/8299">An Garrán</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.816848, -8.765479</geo>
                             <note>ITM Coordinates: 547221, 563003</note>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1852">First reported by Brash (1869) that the ogham stone was unearthed by a farmer around 1851 in the course of potato cultivation in a rath/ringfort (Lisheenagreine 'Little fort of the sun' <idno type="SMR">CO084-090001-</idno>) and is thought to have come from the souterrain (<idno type="SMR">CO084-090002-</idno>) afterwards excavated in the interior by local historian, Rev. Lyons (Brash 1869c, 260-264; Power 1992, 125; O'Brien 2021, 47-49). McManus (2004, 11) notes that this stone was probably acquired for the UCC collection 'by Sir Bertram Windle in or around 1907'.
+                        <provenance type="found" when="1852">First reported by Brash (1869) that the ogham stone was unearthed by a farmer around 1851 in the course of potato cultivation in a rath/ringfort (Lisheenagreine 'Little fort of the sun' <idno type="SMR">CO084-090001-</idno>) and is thought to have come from the souterrain (<idno type="SMR">CO084-090002-</idno>) afterwards excavated in the interior by local historian, Rev. Lyons (Brash 1869c, 260-264; Power 1992, 125; O'Brien 2021, 47-49). McManus (2004, 11) notes that this stone was probably acquired for the UCC collection by Sir Bertram Windle in or around 1907.
                         </provenance>
                         <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork (<idno type="SMR">CO074-148----</idno>), where it was examined and photographed for the OG(H)AM project in May 2024.
                         </provenance>
@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#NW">Added foreign tags to Irish words in commentary.</change>
     <change when="2024-12-16" who="#POC">Added the missing "up" to the text direction in the inscription and replaced the question mark with a name for the nymRef value</change>
     <change when="2025-01-31" who="#POC">Added Irish placename to title, added citation details to image description, proofreading updates, commented out empty translation div</change>
+<change when="2025-04-15" who="#POC">Update execution key from punched to pocked, added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -167,7 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>-->
             <div type="commentary">
                 <p>McManus (2004, 15, no. 4) is generally in agreement with Macalister's reading of the inscription but notes that the first name could end in -AS or -OS. He also suggests that the kin group name (MUCOI CALLITI) may correspond to the first element in the kin group <foreign xml:lang="ga">Cailtrige</foreign>.</p>                
-                <p>O'Brien (2021, 212) notes that <q>'Edel Bhreathnach (2013, 163) identifies the MUCOI CALLITI here with <foreign xml:lang="ga">Clann Laoghaire</foreign>, additionally known, according to the Book of Leinster, the Book of Ballymote and the Book of Lecan, as <foreign xml:lang="ga">Ceinéal Caollaidhe</foreign> (O’Brien 1976, 218), a sept of <foreign xml:lang="ga">Eoghanachta</foreign>, who descended from <foreign xml:lang="ga">Caoillaidhe mac Conaill</foreign>. This <foreign xml:lang="ga">Caoillaidhe mac Conaill</foreign> is reputed to have been the grandson of <foreign xml:lang="ga">Nadfroích</foreign>, a progenitor of many of <foreign xml:lang="ga">Eoghanachta</foreign> dynasties, and supposed brother of <foreign xml:lang="ga">Cas</foreign>, from whom <foreign xml:lang="ga">Uí Eachach Mumhan</foreign> derive (O’Brien 1976, 195-6)'</q>.</p>
+                <p>O'Brien (2021, 212) notes that <q>Edel Bhreathnach (2013, 163) identifies the MUCOI CALLITI here with <foreign xml:lang="ga">Clann Laoghaire</foreign>, additionally known, according to the Book of Leinster, the Book of Ballymote and the Book of Lecan, as <foreign xml:lang="ga">Ceinéal Caollaidhe</foreign> (O’Brien 1976, 218), a sept of <foreign xml:lang="ga">Eoghanachta</foreign>, who descended from <foreign xml:lang="ga">Caoillaidhe mac Conaill</foreign>. This <foreign xml:lang="ga">Caoillaidhe mac Conaill</foreign> is reputed to have been the grandson of <foreign xml:lang="ga">Nadfroích</foreign>, a progenitor of many of <foreign xml:lang="ga">Eoghanachta</foreign> dynasties, and supposed brother of <foreign xml:lang="ga">Cas</foreign>, from whom <foreign xml:lang="ga">Uí Eachach Mumhan</foreign> derive (O’Brien 1976, 195-6)</q>.</p>
             </div>
             <div type="bibliography">
                  <listBibl>

@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO061-182----</idno> </p>
-                                    <material>Red sandstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Red sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.57</height>
@@ -70,21 +70,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.45</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Macalister (1945, 124) noted that the stone bears <q>'unmistakable evidence of the attacks of a sledge-hammer or of some similar tool'</q>. According to Macalister (ibid. 126), <q>'there has unquestionably been an earlier inscription on the stone, and the severe battering which has left evident marks has completely destroyed it'</q>.</condition>
+                                <condition>Macalister (1945, 124) noted that the stone bears <q>unmistakable evidence of the attacks of a sledge-hammer or of some similar tool</q>. According to Macalister (ibid. 126), <q>there has unquestionably been an earlier inscription on the stone, and the severe battering which has left evident marks has completely destroyed it</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is comprised of two lines reading up on both the dexter and sinister angles of the stone.</layout>
+                                <layout style="vertical" rend="arris_up-up">The inscription is comprised of two lines reading up on both the dexter and sinister angles of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is coarsely <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. Macalister (1945, 125) remarked that the <q>'scores in the dexter line are more coarsely pocked than those in the sinister'</q>. <height/>
+                            <handNote>The inscription is coarsely <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. Macalister (1945, 125) remarked that the <q>scores in the dexter line are more coarsely pocked than those in the sinister</q>. <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Tullig More (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11538">An Tulaigh Mhór</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Tullig More (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11538">An Tulaigh Mhór</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo/>
                             <note>Coordinates unknown</note>
                             </origPlace>
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Closed unused idno element for inventory number in repository</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, added p element to support, moved logainm ref around Irish placename, added citation details to image description</change>
+<change when="2025-04-15" who="#POC">Update execution key from punched to pocked, added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
