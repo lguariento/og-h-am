@@ -97,8 +97,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <handNote>The ogham inscriptions appear at five different positions on the stone with potentially three different hands and carving techniques at three different phases. The inscriptions are <rs type="execution" key="mixed">chiselled and pocked</rs>. Forsyth labels the inscriptions according to Padel only seperating A as A(i), A(ii) (read together), and the subsequent B and C. Forsyth also provides the alternative labels of Stevenson (b,c,a and d accordingly), and Wainwright (2,2,1, and 3 accordingly). A more detailed description by Forsyth follows:
                                 <list>
                                     <item>A(i) and A(ii): A(i) starts <dim type="length" unit="m">0.045</dim> below B along the narrow edge at a total of <height unit="m">0.450</height> long with a blank section of <height unit="m">0.230</height> long. This is read with A(ii), vertically upwards as casual inscriptions that Forsyth denotes as potentially grafitti. A(ii) starts on the opposite long edge, ending at a wear section of <height unit="m">0.230</height>, itself running at <height unit="m">0.240</height> in total. While Padel was inclined to associate the ogham wih the incomplete symbols on the smooth face, Forsyth thinks they need not necessarily be associated with any symbol. While the stemline is haphazard and erratic, the chiselled ogham inscriptions are legible. Written in an informal and cursive hand the spacing, length and slope of inscriptions A are somewhat of a careless nature. The vowels are found as short strokes across the stem and occupy a minimum of the middle third of the ogham band. </item>
-                                    <item>B: The boldest inscription on the slab, ogham inscripton B was the only one noticed initially, starting midway along the long side at a total of <height unit="m">0.790</height> length. The inscription continues up to the narrow end and around the corner across the top neatly framing the <rs type="decoration">fish and notched double-disc</rs>. Sharing the same execution of a deeply pocked technique, the ogham can potentially be associated with the decoration. Ogham inscription B has bind-strokes with vowels that occupy the entire ogham band. The strokes vary in space width giving the letters an uneven quality.</item>
-                                    <item>C: Being the shortest ogham on the slab, inscription C runs without a stem-line on the broad rough face of the slab, to the right of the fish's back. The inscripton is chiselled a little to the left of vertical yet reads upwards confidently. Ogham inscription C is associated with the <rs type="decoration">fish and serpent</rs>. Forsyth comments that the <q>incongruity of Ichyra C, is merely that a stemless ogham was carved on a slab with sharp and angular arrises</q> which may point to the theory that C was the third ogham carved on the basis that both narrow edges of the broad end where occupied by A(i-ii) (1996, 353)</item>
+                                    <item>B: The boldest inscription on the slab, ogham inscripton B was the only one noticed initially, starting midway along the long side at a total of <height unit="m">0.790</height> length. The inscription continues up to the narrow end and around the corner across the top neatly framing the <rs type="decoration" key="PictishSymbol">fish</rs> and notched <rs type="decoration" key="PictishSymbol">double-disc</rs>. Sharing the same execution of a deeply pocked technique, the ogham can potentially be associated with the decoration. Ogham inscription B has bind-strokes with vowels that occupy the entire ogham band. The strokes vary in space width giving the letters an uneven quality.</item>
+                                    <item>C: Being the shortest ogham on the slab, inscription C runs without a stem-line on the broad rough face of the slab, to the right of the fish's back. The inscripton is chiselled a little to the left of vertical yet reads upwards confidently. Ogham inscription C is associated with the <rs type="decoration" key="PictishSymbol">fish and serpent</rs>. Forsyth comments that the <q>incongruity of Ichyra C, is merely that a stemless ogham was carved on a slab with sharp and angular arrises</q> which may point to the theory that C was the third ogham carved on the basis that both narrow edges of the broad end where occupied by A(i-ii) (1996, 353)</item>
                                 </list>
                                     (Forsyth 1996, 342-354).
                             </handNote>
@@ -154,7 +154,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, corrected bibliography</change>
                 <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, updated commentary, moved information to apparatus and translation</change>
             <change when="2025-04-14" who="#POC">Updated execution encoding</change>
-         <change when="2025-04-16" who="#POC">Correct bibl reference</change>
+         <change when="2025-04-16" who="#POC">Correct bibl reference, added text parts to edition for different inscriptions</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -165,53 +165,80 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
-                <ab>
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     ᚓᚈᚈᚂᚔᚓᚈᚏᚓᚅ<unclear>ᚖ</unclear>ᚔᚇᚇᚑᚏᚄ
-                    <lb n="2" style="text-direction:up" break="no"/>
+                    </ab> 
+                </div>
+                 <div type="textpart" n="2" xml:lang="pgl-Ogam">
+                 <ab>   
+                 <lb n="1" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     <choice resp="#KF"><unclear>ᚒ</unclear></choice>ᚆᚈᚒᚐ
                     <gap reason="lost" quantity="1" unit="character"/> 
                     ᚌ<unclear>ᚓ</unclear>ᚇ
                     <gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="3" style="text-direction:up" break="yes"/>
+                 </ab>
+                 </div>
+                    <div type="textpart" n="3" xml:lang="pgl-Ogam">
+                    <ab>
+                     <lb n="1" style="text-direction:up"/>
                     ᚔᚅᚓᚆᚆᚓᚈᚓᚄᚉᚔᚓ
                     <gap reason="lost" quantity="1" unit="character"/>
                     <gap reason="lost" quantity="1" unit="character"/>
-                    <lb n="4" style="text-direction:up" break="no"/>
+                    <lb n="2" style="text-direction:up" break="no"/>
                     ᚔᚅᚅᚓ
-                    <lb n="5" style="text-direction:up" break="yes"/>
+                 </ab>
+                 </div>
+                    <div type="textpart" n="4" xml:lang="pgl-Ogam">
+                    <ab>
+                     <lb n="1" style="text-direction:up"/>
                     <app type="alternative"><lem>ᚄ</lem><rdg>ᚅ</rdg></app>ᚓᚈ<choice resp="#KF"><unclear>ᚒ</unclear></choice>
                 </ab> 
+                </div>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <lb n="1" style="text-direction:up"/>
                     ETTLIETREN<unclear>Ó</unclear>IDDORS
-                    <lb n="2" style="text-direction:up" break="no"/>
+                </ab>
+                    </div>
+                <div type="textpart" n="2" xml:lang="pgl-Ogam">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     <choice resp="#KF"><unclear>U</unclear></choice>HTUA
                     <gap reason="lost" quantity="1" unit="character"/> 
                     G<unclear>E</unclear>D
                     <gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="3" style="text-direction:up" break="yes"/>
+                </ab>
+                </div>
+                <div type="textpart" n="3" xml:lang="pgl-Ogam">
+                    <ab>
+                    <lb n="1" style="text-direction:up"/>
                     INEHHETESCIE
                     <gap reason="lost" quantity="1" unit="character"/>
                     <gap reason="lost" quantity="1" unit="character"/>
-                    <lb n="4" style="text-direction:up" break="no"/>
+                    <lb n="2" style="text-direction:up" break="no"/>
                     INNE
-                    <lb n="5" style="text-direction:up" break="yes"/>
+                    </ab>
+                    </div>
+                <div type="textpart" n="4" xml:lang="pgl-Ogam">
+                    <ab>
+                    <lb n="1" style="text-direction:up"/>
                     <app type="alternative"><lem>S</lem><rdg>N</rdg></app>ET<choice resp="#KF"><unclear>U</unclear></choice>
                 </ab>
+                </div>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>While the three ogham inscriptions may look radically different, Forsyth argues that <q>the variation in scripts is not as great as might at first appear</q> (1996,352). All inscriptions are written in a fairly simple form of the script with similar over-all proportions in letter size and spacing. Forstyh notes that all <q>have b- and h-aicme letters which slope and, with the exception of character A(i)11, there is a noticeable lack of supplementary letters and other developed forms</q> (ibid.,352). However despite similarities there are distinct hands with differences ranging beyond carving technique.</note>                    
+<note>While the three ogham inscriptions may look radically different, Forsyth argues that <q>the variation in scripts is not as great as might at first appear</q> (1996, 352). All inscriptions are written in a fairly simple form of the script with similar over-all proportions in letter size and spacing. Forstyh notes that all <q>have b- and h-aicme letters which slope and, with the exception of character A(i)11, there is a noticeable lack of supplementary letters and other developed forms</q> (ibid., 352). However despite similarities there are distinct hands with differences ranging beyond carving technique.</note>                    
                 </app>
                     <app n="2">
-                        <note>For the interpretation of the scripts, the difficulty arises from the lack of clarity in segmentation when the texts do not conform to the standard formulas of ogham such as 'X MAQ Y'. Moreover, Forsyth comments that <q>since we do not know the functions of the monument in its various phases of use we have few clues as to the kind of message to expect</q> (1996,354). On the same basis there is a general uncertainty if in the inscriptions we should be looking for text in Irish or Pictish.</note>
+                        <note>For the interpretation of the scripts, the difficulty arises from the lack of clarity in segmentation when the texts do not conform to the standard formulas of ogham such as 'X MAQ Y'. Moreover, Forsyth comments that <q>since we do not know the functions of the monument in its various phases of use we have few clues as to the kind of message to expect</q> (1996, 354). On the same basis there is a general uncertainty if in the inscriptions we should be looking for text in Irish or Pictish.</note>
                     </app>
                     
                 </listApp>
