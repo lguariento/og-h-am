@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO072-078008-</idno></p>
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone" source="MAC1945">Clay slate</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.8</height>
@@ -70,15 +70,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.25</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused as a lintel in a souterrain, the top of the stone <q>'has been broken off by the fort-builders'</q> and the letter <q>'S injured by flaking'</q> (Macalister 1945, 116).</condition>
+                                <condition>Reused as a lintel in a souterrain, the top of the stone <q>has been broken off by the fort-builders</q> and the letter <q>S injured by flaking</q> (Macalister 1945, 116).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The surviving part of the inscription is on the left-hand angle of the stone and measures 0.28m in length.</layout>
+                                <layout style="vertical" rend="arris_up">The surviving part of the inscription is on the left-hand angle of the stone and measures 0.28m in length.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The letters are <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">rubbed</rs>. 
-                                <!-- Macalister described the letters as rubbed only (1945, 116) -->
+                            <handNote>The letters are described by Macalister (1945, 116) as <q>rubbed</q>, so the inscription was likely<rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>. 
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -132,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Closed unused idno element for inventory number in repository</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty translation, and commentary, fixed placename display</change>
+<change when="2025-04-16" who="#POC">Update handnote, added attributes for filtering</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
