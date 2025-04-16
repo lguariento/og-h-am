@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Llandawke 1</title>
              <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -22,6 +24,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
                     <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
                     <name></name>
@@ -44,11 +50,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Wales</country>
-                        <repository>Church of St. Oudoceus</repository>
+                        <repository/>
                         <idno type="invNo"/>
-                        <altIdentifier>
-                            <idno type="geo">51.773274775505776, -4.490580362689339</idno>
-                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -67,14 +70,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <width>0.30</width>
                                         <depth>0.10</depth>
                                         </dimensions></support>
-                                <condition/>
+                                <condition>Edwards (2007, 232-233) describes the inscriptions as worn</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up-up">The stone inscribed with a roman-letter inscription in three lines reading vertically downwards. Lines 1 and 2 are present on the face of the stone (A); line 3 is on its left-side face (D) behind line 1 of the ogham inscription. The gham inscription is independent of the roman-letter inscription and is present in two lines, both reading vertically upwards. Line 2 begins around halfway up the right-hand edge of the stone (A/B) and terminates at the top right-hand corner, where the fourth stroke of the final S is missing due to the fracture of the stone; line 1 is present on the left-hand corner of the stone (A/D) but the extent of the inscription is unclear due to significant damage on this side of the stone. The inscriptions are described as being worn, and incised with visible <rs type="execution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">punchmarks</rs> (Edwards 2007, 232-233).</layout>
+                                <layout style="vertical" rend="arris_up-up">The ogham inscription is independent of the roman-letter inscription and is present in two lines, both reading vertically upwards. Line 2 begins around halfway up the right-hand edge of the stone (A/B) and terminates at the top right-hand corner, where the fourth stroke of the final S is missing due to the fracture of the stone; line 1 is present on the left-hand corner of the stone (A/D) but the extent of the inscription is unclear due to significant damage on this side of the stone. The roman-letter inscription is in three lines reading vertically downwards. Lines 1 and 2 are present on the face of the stone (A); line 3 is on its left-side face (D) behind line 1 of the ogham inscription. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Of the roman-letter inscription, <q>Line 1 is very evenly set out but the letters at the end of line 2 and those in line 3 are significantly smaller than the rest. The A's have an angle-bar; E's have clubbed serifs; R's have open loops and slightly shortened diagonals. In line 1 the final I is horizontal. In line 2 FI are conjoined and the I is small; S is reversed</q> (Edwards 2007, 233). On the Ogham inscription, <q>the V in line 1 of the roman inscription incorporates the second diagonal bar of the ogam D... and the second R overlies the diagonal stroke of the M... The T in line 3 of the roman inscription... cuts through the last three strokes of the ogam Q</q> (Edwards 2007, 232-234).
+                            <handNote>The inscriptions are <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and described as being incised with visible <q>punchmarks</q> (Edwards 2007, 232-233). On the Ogham inscription, <q>the V in line 1 of the roman inscription incorporates the second diagonal bar of the ogam D... and the second R overlies the diagonal stroke of the M... The T in line 3 of the roman inscription... cuts through the last three strokes of the ogam Q</q> (Edwards 2007, 232-234). Of the roman-letter inscription, <q>Line 1 is very evenly set out but the letters at the end of line 2 and those in line 3 are significantly smaller than the rest. The A's have an angle-bar; E's have clubbed serifs; R's have open loops and slightly shortened diagonals. In line 1 the final I is horizontal. In line 2 FI are conjoined and the I is small; S is reversed</q> (Edwards 2007, 233). 
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -129,7 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, bibliography, added paragraph to support</change>
         <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
 <change when="2025-04-04" who="#POC">Simplified material type</change>
-
+      <change when="2025-04-16" who="#POC">Remove info in repository, updated execution encoding, added condition section</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
