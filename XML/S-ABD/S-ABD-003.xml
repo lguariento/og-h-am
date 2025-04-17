@@ -142,7 +142,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-25" who="#POC">Updated edition because OI and X forfid values weren't displaying, also removed the dot under C as that automatically generates in the edition</change>
     <change when="2025-03-26" who="#POC">Update object type key attribute value to monument for filtering</change>
     <change when="2025-04-10" who="#POC">Updated execution encoding</change>
-        <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
+    <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
+    <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,17 +157,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH">            
                 <ab>
                     <lb n="1" style="text-direction:up" type="inner"/>
-                    <w lemma="maqqas">ᚋᚐᚊᚊ<g ref="#forfid_OI"/></w> <persName><name nymRef="#talorc?">ᚈᚐ<hi rend="babel_pictish_italic"><g ref="#angled_L"/></hi><hi rend="babel_pictish_italic"><g ref="#angled_L"/></hi>ᚒᚑᚏᚏ<g ref="#stemline_space"/><hi rend="babel_pictish_italic"><g ref="#angled_H"/></hi></name></persName> 
+                    <w lemma="maqqas">ᚋᚐᚊᚊ<g ref="#forfid_OI"/></w> <persName><name nymRef="#talorc?">ᚈᚐ<g ref="#angled_L"/><g ref="#angled_L"/>ᚒᚑᚏᚏ<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
                     <lb n="2" style="text-direction:up" type="outer"/>
-                    <persName><name nymRef="#?">ᚅ<hi rend="babel_special"><g ref="#forfid_disjoined-X"/></hi>ᚆᚆᚈ</name></persName> ᚃᚏ<hi rend="babel_pictish_italic"><g ref="#angled_O"/></hi>ᚁᚁ<hi rend="babel_pictish_bold"><g ref="#hammerhead_A"/></hi><unclear reason="illegible">ᚉ</unclear> <placeName cert="low">ᚉᚕᚅᚅᚓ<hi rend="babel_pictish_italic"><g ref="#angled_V"/></hi><hi rend="babel_pictish_italic"><g ref="#angled_V"/></hi></placeName> 
+                    <persName><name nymRef="#?">ᚅ<g ref="#forfid_disjoined-X"/>ᚆᚆᚈ</name></persName> ᚃᚏ<g ref="#angled_O"/>ᚁᚁ<g ref="#hammerhead_A"/><unclear reason="illegible">ᚉ</unclear> <placeName cert="low">ᚉ<g ref="#forfid_disjoined-X"/>ᚅᚅᚓ<g ref="#angled_V"/><g ref="#angled_V"/></placeName> 
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up" type="inner"/>
-                    <w lemma="maqqas">MAQQO</w> <persName><name nymRef="#talorc?">TA<g ref="#angled_L"/><g ref="#angled_L"/>UORR<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
+                    <w lemma="maqqas">MAQQO<!--<g ref="#forfid_OI"/>--></w> <persName><name nymRef="#talorc?">TA<g ref="#angled_L"/><g ref="#angled_L"/>UORR<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
                     <lb n="2" style="text-direction:up" type="outer"/>
-                    <persName><name nymRef="#?">NEHHT</name></persName> VR<g ref="#angled_O"/>BB<g ref="#hammerhead_A"/><unclear reason="illegible">C</unclear> <placeName cert="low">CENNE<g ref="#angled_V"/><g ref="#angled_V"/></placeName>                   
+                    <persName><name nymRef="#?">NE<!--<g ref="#forfid_disjoined-X"/>-->HHT</name></persName> VR<g ref="#angled_O"/>BB<g ref="#hammerhead_A"/><unclear reason="illegible">C</unclear> <placeName cert="low">CE<!--<g ref="#forfid_disjoined-X"/>-->NNE<g ref="#angled_V"/><g ref="#angled_V"/></placeName>                   
                 </ab>
             </div>
             <div type="apparatus">
