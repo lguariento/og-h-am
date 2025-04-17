@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO050-045003-</idno></p> 
-                                    <material>Sandstone</material>
-                                    <objectType>Pillar</objectType>
+                                    <material type="stone">Sandstone</material>
+                                    <objectType key="monument">Pillar</objectType>
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.42</height>
@@ -73,18 +73,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused in a souterrain, some of the final letters of the inscription have been knocked off (Macalister 1945, 103).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 102) noted that the inscription commences 0.38m from the base and runs over one angle of the stone.</layout>
+                                <layout style="vertical" rend="arris_up">Macalister (1945, 102) noted that the inscription commences 0.38m from the base and runs over one angle of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is comprised of <q>'finely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> scores'</q> (Macalister 1945, 102).<height/>
+                            <handNote>The inscription is comprised of <q>finely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> scores</q> (Macalister 1945, 102).<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Barrahaurin (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11454">Barr an Chárthainn</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Barrahaurin (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11454">Barr an Chárthainn</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.999993, -8.813893</geo>
                             <note>ITM Coordinates: 544112, 583414</note></origPlace>
                             <origDate/>
@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, removed ref elements from around SMR IDs, proofreading changes, added citation details to image description, commented out empty translation and commentary</change>
 <change when="2025-02-07" who="#POC">Commented out idno invNo because it was displaying empty, deleted lb from apparatus, fixed placename display</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>

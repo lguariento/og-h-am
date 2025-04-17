@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO065-098----</idno></p>
-                                    <material source="POW1932">Hard sandstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone" source="POW1932">Sandstone</material> <note>Hard sandstone</note>
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="#NW">
                                             <height>2.20</height>
                                             <width>0.56</width>
@@ -72,11 +72,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>One of two ogham stones reused in a souterrain. According to Macalister (1945, 67), the height of the stone was 2.20m (7 feet 2 inches) but only 2.09m are currently accessible. Macalister also noted that the inscription on the dexter side (against the wall in its current position) is <q>much flaked</q> and the <q>concluding letters are almost evanescent</q>. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>There are two independent inscriptions on opposite sides of the ogham stone. Both inscriptions read upwards (Macalister 1945, 66).</layout>
+                                <layout style="vertical" rend="arris_up-up">There are two independent inscriptions on opposite sides of the ogham stone. Both inscriptions read upwards (Macalister 1945, 66).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>As noted by Macalister (1945, 67), the first/dexter inscription (on edge against the wall) is <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in fine lines and the second/sinister inscription (on outward facing edge) is <rs type="exectution" key="punched" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in bold scores. 
+                            <handNote>The two ogham inscriptions are <rs type="execution" key="mixed">chiselled and pocked</rs>. As noted by Macalister (1945, 67), the first/dexter inscription (on edge against the wall) is cut in fine lines and the second/sinister inscription (on outward facing edge) is pocked in bold scores. 
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -144,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
     <change when="2025-01-29" who="#POC">Deleted typo</change>
 <change when="2025-04-15" who="#POC">Update execution encoding in handNote</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering, added text parts to transliteration in edition</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -162,11 +163,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>               
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+                <div type="textpart" n="1">
                    <ab>                   
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#colomagnas">COLOMA<unclear reason="inaccessible" evidence="previous editor">G</unclear>N<supplied reason="lost">I</supplied></name> <w type="formula" lemma="avias"><supplied reason="lost">A</supplied>V<unclear reason="inaccessible">I</unclear></w> <name nymRef="#?">DUC<supplied reason="lost">URI</supplied></name></persName>                                               
                 </ab>
             </div>
-            
+            </div>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">    
                  <div type="textpart" n="2">
                       <ab>
@@ -175,9 +177,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+                <div type="textpart" n="2">
                       <ab>
                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#bruscus">B<unclear reason="damage">R</unclear><supplied reason="lost">U</supplied>SC<supplied reason="lost">O</supplied></name> <w type="formula" lemma="maqqas"><supplied reason="lost">MAQI</supplied></w> <name nymRef="#?">DOV<unclear reason="faded">A</unclear>L<unclear reason="faded">E</unclear>SC<supplied reason="lost">I</supplied></name></persName>
                       </ab>
+            </div>
             </div>
             <div type="apparatus">
                 <listApp>

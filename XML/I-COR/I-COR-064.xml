@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO072-078005-</idno></p> 
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>2.8</height>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty translation, and commentary</change>
 <change when="2025-02-07" who="#POC">Commented out idno invNo because it was displaying empty, fixed placename display</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>

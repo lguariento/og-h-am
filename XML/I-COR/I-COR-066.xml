@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO072-078007-</idno></p> 
-                                    <material>Red sandstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Sandstone</material> <note>Red sandstone</note>
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.9</height>
@@ -70,20 +70,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.3</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused as a lintel in a souterrain, a section of the inscription measuring 045m in length <q>'which would hold about 24 scores'</q> is damaged on the second angle of the stone (Macalister 1945, 114). </condition>
+                                <condition>Reused as a lintel in a souterrain, a section of the inscription measuring 045m in length <q>which would hold about 24 scores</q> is damaged on the second angle of the stone (Macalister 1945, 114). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the flanking angles of one of the narrow edges of the stone and reads up-down (Macalister 1945, 114). The inscription begins 1.17m from the bottom of the first angle of the stone and there are traces of scores also visible further down the right hand angle (Archaeological Survey of Ireland, Field Report).</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is on the flanking angles of one of the narrow edges of the stone and reads up-down (Macalister 1945, 114). The inscription begins 1.17m from the bottom of the first angle of the stone and there are traces of scores also visible further down the right hand angle (Archaeological Survey of Ireland, Field Report).</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote/>
-                        </handDesc>-->
+                        <handDesc>
+                            <handNote>The execution technique of the inscription is <rs type="execution" key="other">unknown</rs>.</handNote>
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Knockshanawee (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/8237">Cnoc Seanmhaí</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Knockshanawee (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/8237">Cnoc Seanmhaí</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.872673, -8.796211</geo>
                             <note>ITM Coordinates: 545175, 569241</note></origPlace>
                             <origDate/>
@@ -129,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty handDesc, translation, and commentary</change>
 <change when="2025-02-07" who="#POC">Deleted break attribute from lb element in edition to fix database display, commented out idno invNo because it was displaying empty, fixed placename display</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>

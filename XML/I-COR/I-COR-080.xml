@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO049-052----</idno></p> 
-                                    <material>Yellow sandstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Sandstone</material> <note>Yellow sandstone</note>
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.6</height>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.23</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is in poor condition, the letters are <q>'worn and spalled, but all legible with a little trouble'</q> (Macalister 1945, 126-127). Macalister (1945, 127) noted that the inscription on the sinister edge, <q>'in the second word all but the Q is lost by spalling'</q> and on the dexter edge, <q>'the EL of the first word, the vowels of MAQI, and the first I of CULIDOVI are broken'</q>.</condition>
+                                <condition>The inscription is in poor condition, the letters are <q>worn and spalled, but all legible with a little trouble</q> (Macalister 1945, 126-127). Macalister (1945, 127) noted that the inscription on the sinister edge, <q>in the second word all but the Q is lost by spalling</q> and on the dexter edge, <q>the EL of the first word, the vowels of MAQI, and the first I of CULIDOVI are broken</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscriptions begins on the sinister edge and continues on the dexter edge. The inscription runs up on both edges of the stone.</layout>
+                                <layout style="vertical" rend="arris_up-up">The inscriptions begins on the sinister edge and continues on the dexter edge. The inscription runs up on both edges of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -84,7 +84,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Carrigagulla (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11451">Carraig an Ghiolla</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Carrigagulla (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11451">Carraig an Ghiolla</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo/>
                             <note>Coordinates unknown</note>
                             </origPlace>
@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Closed unused idno element for inventory number in repository</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, moved logainm ref around Irish placename, added citation details to image description</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>

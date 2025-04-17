@@ -62,8 +62,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO052-039001-</idno></p> 
-                                    <material>Sandstone</material> 
-                                    <objectType>Slab</objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Slab</objectType> 
                                      <dimensions unit="m" source="POW1994">   
                                             <height>2.22</height>
                                             <width>1.80</width>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The ogham inscription is weathered and obscured by lichen in places and the lower portion is lost through damage to the stone.</condition>                            
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The fragmentary inscription (beginning of both lines lost) is located on one of the narrow sides of the slab, running up-up on the S and SE edges.</layout>
+                                <layout style="vertical" rend="arris_up-up">The fragmentary inscription (beginning of both lines lost) is located on one of the narrow sides of the slab, running up-up on the S and SE edges.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -83,7 +83,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Ballynabortagh (<ref target="https://www.logainm.ie/ga/9511"><foreign xml:lang="ga">Baile na bPórtach</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Ballynabortagh (<ref target="https://www.logainm.ie/ga/9511"><foreign xml:lang="ga">Baile na bPórtach</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>52.000015, -8.433359</geo>
                             <note>ITM Coordinates: 570245, 583199</note>
                             </origPlace>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-10-07" who="#NW">Added Trismegistos ref and link.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title, add citation details to image description</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>

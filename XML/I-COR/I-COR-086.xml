@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO081-018---- </idno></p>
-                                    <material>Sandstone </material> 
-                                    <objectType>Pillar </objectType> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>1.32</height>
                                             <width>0.36</width>
@@ -83,7 +83,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Kealvaugh More (<ref target="https://www.logainm.ie/ga/9754"><foreign xml:lang="ga">Caolmhagh Mór</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Kealvaugh More (<ref target="https://www.logainm.ie/ga/9754"><foreign xml:lang="ga">Caolmhagh Mór</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.83004, -9.2355</geo>
                             <note>ITM Coordinates: 514843, 564927</note></origPlace>
                             <origDate/>
@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-17" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-10" who="#POC">Added placename to title, commented out media, updated apparatus and edition</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>

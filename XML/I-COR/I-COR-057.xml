@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO061-187----</idno></p> 
-                                    <material>Slate</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Slate</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.35</height>
@@ -70,10 +70,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.40</depth> <!-- Measurements taken from ASI, but Macalister's seem to be different: 6' 4", 1'5", 0' 9"-->
                                      </dimensions>                                   
                                 </support>
-                                <condition>One out of four standing stones originally, now only two remain. The surface of the stone is <q>'much weathered and disintegrated'</q> (Macalister 1945, 110)</condition>
+                                <condition>One out of four standing stones originally, now only two remain. The surface of the stone is <q>much weathered and disintegrated</q> (Macalister 1945, 110)</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is on the dexter angle of the S face of the stone and <q>'is continued on the sinister angle of the same face'.</q></layout>
+                                <layout style="vertical" rend="arris_up">The inscription is on the dexter angle of the S face of the stone and <q>is continued on the sinister angle of the same face.</q></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Kilcullen South (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11458">Cill Chuilinn Theas</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Kilcullen South (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11458">Cill Chuilinn Theas</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.981435, -8.797595</geo>
                             <note>ITM Coordinates: 545217, 581342</note></origPlace>
                             <origDate/>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out empty apparatus, translation, and commentary, added Macalister's reading to edition for now, uncommented creation because the transcription is from Macalister</change>
     <change when="2025-02-07" who="#POC">Fixed placename display</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>

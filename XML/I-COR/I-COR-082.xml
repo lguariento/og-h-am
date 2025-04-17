@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO040-053002-</idno></p> 
-                                    <material>Whinstone</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Whinstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945" type="slab">
                                             <height>1.78</height>
                                             <width>0.91</width>
@@ -74,21 +74,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.25</depth>
                                     </dimensions>
                                 </support>
-                                <condition>Described by Macalister (1945, 129) as <q>'a very tall stone'</q> that <q>'had been broken into three pieces, two of which were preserved in the immediate vicinity of the farm buildings—one lying in the farmyard itself, a slab...the other...serving as a gatepost to the haggard'</q>. The inscription is <q>'very worn'</q>. </condition>
+                                <condition>Described by Macalister (1945, 129) as <q>a very tall stone</q> that <q>had been broken into three pieces, two of which were preserved in the immediate vicinity of the farm buildings—one lying in the farmyard itself, a slab...the other...serving as a gatepost to the haggard</q>. The inscription is <q>very worn</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Traces of an inscription are found on the dexter edge of the stone.</layout>
+                                <layout style="vertical" rend="arris_upR">Traces of an inscription are found on the dexter edge of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote><height></height>
+                        <handDesc>
+                            <handNote>The execution technique of the inscription is <rs type="execution" key="other">unknown</rs>.<height></height>
                             </handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Crinnaloo (<ref target="https://www.logainm.ie/ga/1372141"><foreign xml:lang="ga">Crionna Lua</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Crinnaloo (<ref target="https://www.logainm.ie/ga/1372141"><foreign xml:lang="ga">Crionna Lua</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>52.069190, -8.935787</geo>
                             <note>ITM Coordinates: 535846, 591206</note></origPlace>
                             <origDate/>
@@ -129,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-17" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, deleted note from within objectType, commented out media, updated apparatus, correct typo</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>
