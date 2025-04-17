@@ -143,7 +143,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <change when="2025-03-26" who="#POC">Updated objectType attribute value for filtering</change>
                     <change when="2025-03-27" who="#POC">Added layout attributes for filtering, added country to origPlace</change>
                <change when="2025-04-03" who="#POC">Simplified material type</change>
-                       <change when="2025-04-04" who="#POC">Updated decoration encoding</change>    
+                       <change when="2025-04-04" who="#POC">Updated decoration encoding</change>
+                <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition.</change>
+                
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -155,7 +157,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" source="FOR1996" resp="#XS"><!--Lang not specified needs updating accordingly-->              
                 <ab>
-                    <lb n="1" style="text-direction:right"/><gap reason="lost" quantity="2" unit="character"/>ᚋ<hi rend="babel_pictish_italic"><g ref="#angled_U"/></hi><unclear>ᚋ</unclear><gap reason="lost" quantity="1" unit="character"/><hi rend="babel_pictish_italic"><g ref="#angled_E"/></hi>ᚁᚇᚌ
+                    <lb n="1" style="text-direction:right"/><gap reason="lost" quantity="2" unit="character"/>ᚋ<g ref="#angled_U"/><unclear>ᚋ</unclear><gap reason="lost" quantity="1" unit="character"/><g ref="#angled_E"/>ᚁᚇᚌ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" source="SOU1895" resp="#KF">
