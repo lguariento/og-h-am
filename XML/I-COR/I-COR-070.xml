@@ -61,18 +61,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-022003-</idno> </p>
-                                    <material>Clayslate</material> 
-                                    <objectType>Pillar (reused in souterrain)</objectType> 
+                                    <material type="stone">Clayslate</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>reused in souterrain</note>
                                      <dimensions unit="m" source="MAC1945">
                                             <height>0.91</height>
                                             <width>0.39</width>
                                             <depth>0.11</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>According to Macalister (1945, 118), the stone is <q>'broken in two, but the reading is quite clear and certain, though the fracture passes through'</q> the inscription.</condition>
+                                <condition>According to Macalister (1945, 118), the stone is <q>broken in two, but the reading is quite clear and certain, though the fracture passes through</q> the inscription.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1945, 119) noted that <q>'the first name is repeated in minute pinscrapes underneath its formal presentation in the finished inscription'</q>.</layout>
+                                <layout>Macalister (1945, 119) noted that <q>the first name is repeated in minute pinscrapes underneath its formal presentation in the finished inscription</q>.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
@@ -83,7 +83,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Monataggart (<ref target="https://www.logainm.ie/ga/11463"><foreign xml:lang="ga">Móin an tSagairt</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Monataggart (<ref target="https://www.logainm.ie/ga/11463"><foreign xml:lang="ga">Móin an tSagairt</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.976513, -8.787796</geo>
                             <note>ITM Coordinates: 545879, 580808</note></origPlace>
                             <origDate/>
@@ -125,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-16" who="#POC">Added Macalister reading to apparatus</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, deleted lb from apparatus, deleted note element from object type, commented out translation and commentary</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>

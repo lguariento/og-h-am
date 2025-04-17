@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO102-013----</idno></p> 
-                                    <material source="BRA1879b">Clay slate</material><!--Fionnbarr? -->
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone" source="BRA1879b">Clay slate</material><!--Fionnbarr? -->
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="POW1992">
                                             <height>4.70</height>
                                             <width>1.02</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>This monument is subject to a preservation order made under the National Monuments Acts 1930 to 2014 (PO no. 172/1942). The pillar is exceptionally tall and slender, narrowing towards the top and supported at the base with concrete. Brash (1879b, 197) recorded a height of 17 feet, 6 inches (5.33m) above ground level in 1874. It was presumably straightened and concrete added to the base around the time the Preservation Order was put in place in 1942. The monument is likely a prehistoric standing stone, onto which an ogham inscription was later added. The inscription is worn and partially damaged in places but still legible. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription runs upwards, for 8ft. 3ins. (2.51m), as recorded by Brash (1879, 197), on the left edge of the SSW face which looks towards the bay.</layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription runs upwards, for 8ft. 3ins. (2.51m), as recorded by Brash (1879, 197), on the left edge of the SSW face which looks towards the bay.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -83,7 +83,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Faunkill and the Woods (<ref target="https://www.logainm.ie/ga/8780"><foreign xml:lang="ga">Fánchoill agus Na Coillte</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Faunkill and the Woods (<ref target="https://www.logainm.ie/ga/8780"><foreign xml:lang="ga">Fánchoill agus Na Coillte</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.712874, -9.944582</geo>
                             <note>ITM Coordinates: 465690, 552974</note>
                             </origPlace>
@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title, added ogham space marker to inscription, proofreading updates, added citation details to image, fixed image display issue</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>

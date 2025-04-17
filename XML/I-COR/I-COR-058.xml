@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO050-062003-</idno></p> 
-                                    <material>Clayslate</material> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Clayslate</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>1.70</height>
@@ -73,24 +73,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused as a lintel in a souterrain, the inscription is in good condition with the broken A of NETTA being <q>'the only detriment which the inscription has suffered'</q> (Macalister 1945, 110).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is found along three sides of a lintel stone and reads up-top-down.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is found along three sides of a lintel stone and reads up-top-down.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The scores are <q>'punched on the stone, and then cut through'</q> (Macalister 1945, 110).<height/>
+                            <handNote>The inscription is <rs type="execution" key="mixed">chiselled and pocked</rs>. The scores are <q>punched on the stone, and then cut through</q> (Macalister 1945, 110).<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Kilmartin Lower (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11460">Cill Martan Íochtarach</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Kilmartin Lower (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11460">Cill Martan Íochtarach</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.992268, -8.798079</geo>
                             <note>ITM Coordinates: 545194, 582543</note><note>(approx.)</note>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1916">A lintel stone found in the inner chamber of a souterrain <idno type="SMR">(CO050-062002-)</idno>, which is now inaccessible, although the stone is presumably still in position. The souterrain is located in a ringfort <q>'which will be found in the second field from the road, on the right-hand side on the way from Barrahurin to Athabatten, near <placeName type="parish">Donoghmore</placeName>'</q> (Macalister 1945, 110).
+                        <provenance type="found" when="1916">A lintel stone found in the inner chamber of a souterrain <idno type="SMR">(CO050-062002-)</idno>, which is now inaccessible, although the stone is presumably still in position. The souterrain is located in a ringfort <q>which will be found in the second field from the road, on the right-hand side on the way from Barrahurin to Athabatten, near <placeName type="parish">Donoghmore</placeName></q> (Macalister 1945, 110).
                         </provenance>
                         <provenance type="observed">Inaccessible in situ.
                         </provenance>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out media and empty apparatus, translation, and commentary</change>
     <change when="2025-02-07" who="#POC">Fixed placename display</change>
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>
