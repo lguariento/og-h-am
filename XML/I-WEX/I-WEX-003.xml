@@ -33,8 +33,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <respStmt>
                      <name>Robert Shaw</name>
                      <orgName>Discovery Programme</orgName>
-                <resp>3D laser scanned using Artec Eva scanner <date when="2015-01-07"/> and later processed
-                        using Geomagic software</resp>
+                <resp>3D laser scanned using Artec Eva scanner <date when="2015-01-07"/> and later processed using Geomagic software</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -79,14 +78,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes appear to have been <rs type="execution" key="v-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel and are generally clear and evenly spaced without word division.<!--<height></height>-->
+                            <handNote>The ogham strokes appear to have been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs> with a flat chisel and are generally clear and evenly spaced without word division.<!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Portersgate (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/53564">Geata an Phóirtéaraigh</ref></foreign>)</placeName>, <placeName type="county">Co. Wexford</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Portersgate (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/53564">Geata an Phóirtéaraigh</ref></foreign>)</placeName>, <placeName type="county">Co. Wexford</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>52.151453, -6.889423 (approx.)</geo></origPlace>
                             <origDate  notBefore="0550" notAfter="0650" precision="medium" evidence="linguistic">late sixth or early seventh century AD</origDate>
                         </origin>
@@ -130,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
 <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, moved logainm reference to around Irish placename, added citation details to image description.</change>
     <change when="2025-04-10" who="#POC">Updated execution encoding</change>
+    <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
