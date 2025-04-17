@@ -152,6 +152,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-19" who="#POC">Added country placename to origPlace, added CISP link, added style attribute to layout, added decoration section, moved symbol stone details to decoration</change>
     <change when="2025-03-21" who="#POC">Updated edition with missing letters from revised reading spreadsheet, added information to translation, moved interpretations from commentary to apparatus</change>
     <change when="2025-03-24" who="#POC">Removed decoration section, updated condition with description of the symbol stone, updated object type from menhir to pillar</change>
+    <change when="2025-04-17" who="#NW">Added X-forfid glyphs.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -165,14 +167,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH">             
                  <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:down"/>ᚔᚇᚇᚐᚏᚏᚅᚅᚅᚃᚑᚏᚓᚅᚅᚔᚕ<add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
+                    <lb n="1" style="text-direction:down"/>ᚔᚇᚇᚐᚏᚏᚅᚅᚅᚃᚑᚏᚓᚅᚅᚔ<g ref="#forfid_X"/><add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
                     <lb n="2" style="text-direction:up" break="no"/><add place="right">ᚔᚑᚄᚏ<unclear reason="illegible">ᚏ</unclear></add>
                 </ab>
                      </div>
             </div> 
             <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="1" style="text-direction:down"/>IDDARRNNNVORENNIӾ<add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
+                    <lb n="1" style="text-direction:down"/>IDDARRNNNVORENNIX<!--<g ref="#forfid_X"/>--><add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
                     <lb n="2" style="text-direction:up" break="no"/><add place="right">IOSR<unclear reason="illegible">R</unclear></add>
                 </ab>
             </div>

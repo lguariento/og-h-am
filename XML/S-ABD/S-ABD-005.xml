@@ -139,6 +139,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <change when="2025-02-18" who="#POC">Proofreading updates</change>
     <change when="2025-02-28" who="#POC">Added HES drawing and dating information</change><change when="2025-03-12" who="#POC">Added attribute values to material</change>
 <change when="2025-03-19" who="#POC">Added country placename to origPlace, added CISP link, added style attribute to layout, added decoration section, added attribute to objectType</change>
+    <change when="2025-04-17" who="#NW">Added X-forfid glyphs.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,7 +154,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/> <!--change text direction if needed, please-->
-                    ᚁᚏᚕᚌᚐᚃ <persName nymRef="#?">ᚅᚓᚉᚈᚑᚅ</persName>
+                    ᚁᚏ<g ref="#forfid_X"/>ᚌᚐᚃ <persName nymRef="#?">ᚅᚓᚉᚈᚑᚅ</persName>
                     <lb n="2" style="text-direction:up"/>
                     ᚂᚐᚁᚒ<gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
@@ -160,7 +162,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="3" style="text-direction:up"/> <!--change text direction if needed, please-->
-                    BRӾGAV <persName nymRef="#?">NECTON</persName>
+                    BRX<!--<g ref="#forfid_X"/>-->GAV <persName nymRef="#?">NECTON</persName>
                     <lb n="4" style="text-direction:up"/>
                     LABU<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
