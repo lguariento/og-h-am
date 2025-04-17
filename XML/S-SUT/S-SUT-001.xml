@@ -138,7 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements and commented out sections without content</change>
     <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>   
     <change when="2025-04-03" who="#POC">Simplify material type, and added country placename to origPlace</change>
-    <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition. Added layout style and rend.</change>
+    <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition. Added glyph for X-forfid Added layout style and rend.</change>
     
 </listChange>
 </revisionDesc>
@@ -152,7 +152,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    ᚐᚂᚂᚆᚆ<g ref="#angled_A"><!--angled A ᚐ --></g>ᚂᚂᚑᚏᚏᚕᚇᚇ <w lemma="MAQQAS">ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ</w> <w ><!--lemma=?-->ᚅᚔᚐ</w> ᚃᚃᚆ
+                    ᚐᚂᚂᚆᚆ<g ref="#angled_A"></g>ᚂᚂᚑᚏᚏ<g ref="#forfid_X"/>ᚇᚇ <w lemma="MAQQAS">ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ</w> <w><!--lemma=?-->ᚅᚔᚐ</w> ᚃᚃᚆ
                     <lb n="2" style="text-direction:left" break="yes"/>
                     <unclear reason="worn">ᚏ</unclear>ᚏᚉ<gap reason="lost" quantity="1" unit="character"/><choice><unclear>ᚅ</unclear><unclear>ᚏ</unclear></choice><choice><unclear>ᚅ</unclear><unclear>ᚏ</unclear></choice>
                 </ab> 
@@ -163,7 +163,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="3" style="text-direction:up"/>
-                    ALLHH<g ref="#angled_A"><!--angled A--></g>LLORRӾDD <w lemma="MAQQAS">M<gap reason="lost" quantity="1" unit="character"/>QQ</w> <w ><!--lemma=?-->NIA</w> VVH
+                    ALLHH<g ref="#angled_A"></g>LLORR<g ref="#forfid_X"/>DD <w lemma="MAQQAS">M<gap reason="lost" quantity="1" unit="character"/>QQ</w> <w><!--lemma=?-->NIA</w> VVH
                     <lb n="4" style="text-direction:left" break="yes"/>
                     <unclear reason="worn">R</unclear>RC<gap reason="lost" quantity="1" unit="character"/><choice><unclear>N</unclear><unclear>R</unclear></choice><choice><unclear>N</unclear><unclear>R</unclear></choice>
                 </ab>
