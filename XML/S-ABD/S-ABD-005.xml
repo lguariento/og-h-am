@@ -80,7 +80,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A large rectilinear cross-marked boulder bearing a plain equal-armed cross and a damaged but legible ogham inscription.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Two lines of ogham can be discerned on the top edges at opposite ends of the boulder. </layout>
+                                <layout style="other" rend="arris">Two lines of ogham can be discerned on the top edges at opposite ends of the boulder. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -139,7 +139,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <change when="2025-02-18" who="#POC">Proofreading updates</change>
     <change when="2025-02-28" who="#POC">Added HES drawing and dating information</change><change when="2025-03-12" who="#POC">Added attribute values to material</change>
 <change when="2025-03-19" who="#POC">Added country placename to origPlace, added CISP link, added style attribute to layout, added decoration section, added attribute to objectType</change>
-    <change when="2025-04-17" who="#NW">Added X-forfid glyphs.</change>
+    <change when="2025-04-17" who="#NW">Edition update - Added X-forfid glyphs.</change>
+    <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid. Added layout style and rend.</change>
     
 </listChange>
 </revisionDesc>
@@ -162,7 +163,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="3" style="text-direction:up"/> <!--change text direction if needed, please-->
-                    BRX<!--<g ref="#forfid_X"/>-->GAV <persName nymRef="#?">NECTON</persName>
+                    BR<g ref="#forfid_X" type="interpretation_E"/>GAV <persName nymRef="#?">NECTON</persName>
                     <lb n="4" style="text-direction:up"/>
                     LABU<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
