@@ -61,34 +61,33 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO063-101----</idno></p> 
-                                    <material/> 
-                                    <objectType>Square stone</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Square stone</objectType> 
                                      <dimensions unit="m"/>                                        
                                                                         
                                 </support>
-                                <condition>A stone, <q>'square in section'</q>, broken up and used as building material around 1835 (Macalister 1945, 81).</condition>
+                                <condition>A stone, <q>square in section</q>, broken up and used as building material around 1835 (Macalister 1945, 81).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription was on the angle of the stone.</layout>
+                                <layout rend="arris">The inscription was on the angle of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is recorded as having contained 25 scores but there is insufficient information to attempt a reading.<height/>
+                            <handNote>The inscription is recorded as having contained 25 scores but there is insufficient information to attempt a reading. The execution technique is <rs type="execution" key="other">unknown</rs>.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Coolowen (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9671">Cúil Eoghain</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Coolowen (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9671">Cúil Eoghain</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.955391, -8.534280</geo>
                             <note>Precise location unknown</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1819">Discovered by <persName>Windele</persName> in <date>1819</date> in the ditch surrounding a ring-fort (Macalister 1945, 81). According to Brash (1879, 117-118), it was discovered in 1820, <q>'in the entrance gap of a cilleen'</q>. According to local information, one of the ringforts in this townland (<idno type="SMR">CO063-046003-</idno>) is known as the site of a 'killeen' (Power et al. 1994) and marked 'Shantempleen' in early OS maps. This is possibly the find site of the stone, although there are a number of other ringforts in the townland. 
+                        <provenance type="found" when="1819">Discovered by <persName>Windele</persName> in <date>1819</date> in the ditch surrounding a ring-fort (Macalister 1945, 81). According to Brash (1879, 117-118), it was discovered in 1820, <q>in the entrance gap of a cilleen</q>. According to local information, one of the ringforts in this townland (<idno type="SMR">CO063-046003-</idno>) is known as the site of a 'killeen' (Power et al. 1994) and marked 'Shantempleen' in early OS maps. This is possibly the find site of the stone, although there are a number of other ringforts in the townland. 
                         </provenance>
-                        <provenance type="observed" when="1835">
-                            Windele returned to copy the inscription sixteen years later only to discover that the stone had been broken up for building material.
+                        <provenance type="observed" when="1835">Windele returned to copy the inscription sixteen years later only to discover that the stone had been broken up for building material.
                         </provenance>
                     </history>
                 </msDesc>
@@ -126,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-11" who="#NW">Created this file, previously I-COR-027 (now Coolineagh, in Pitt-Rivers), as stone lost and ogham doubtful</change>
     <change when="2024-09-30" who="#POC">Updated file name information in publication statement, and replaced the idno element with type SMR with plain text SMR ID in provenance.</change>
     <change when="2025-02-11" who="#POC">Added placename to title, added idno for SMR IDs</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

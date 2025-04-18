@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO066-053----</idno></p> 
-                                    <material/> 
-                                    <objectType>Fragment</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Fragment</objectType> 
                                      <dimensions unit="m" source="3d_data">
                                             <height>0.22</height>
                                             <width>0.16</width>
@@ -75,15 +75,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <layout>The fragment possibly bears an M stroke and other marks that are less likely to be ogham strokes.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote/>
+                        <handDesc>
+                            <handNote>The execution technique is <rs type="execution" key="other">unknown</rs>.</handNote>
                             
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="site">Rathcanning (<ref target="https://www.logainm.ie/en/12340">Ráth an Cheanainn</ref>)</placeName>, <placeName type="townland">Glenaphuca (<foreign xml:id="ga"><ref target="https://www.logainm.ie/ga/12339">Gleann an Phúca</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="site">Rathcanning (<ref target="https://www.logainm.ie/en/12340">Ráth an Cheanainn</ref>)</placeName>, <placeName type="townland">Glenaphuca (<foreign xml:id="ga"><ref target="https://www.logainm.ie/ga/12339">Gleann an Phúca</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.967973, -8.072345</geo>
                             <note>ITM Coordinates: 594779, 579938</note>
                             </origPlace>
@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <change when="2024-08-29" who="#NW">Updated details and moved logainm ref to around Irish townland name.</change>  
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-30" who="#POC">Added Irish placename to title, proofreading updates, commented out empty handDesc</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

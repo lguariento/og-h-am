@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO094-073----</idno></p> 
-                                    <material/> 
-                                    <objectType>Boulder?</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Boulder</objectType> 
                                      <dimensions unit="m" source="POW1992">
                                             <height>1.10</height>
                                             <width>0.70</width>
@@ -72,18 +72,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Mostly in good condition but there is some damage to one of the star-like characters on the face. The stone can be difficult to locate as it is flat on the ground and covered by vegetation in a wood.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is unusually on the flat face of an irregular boulder (embedded in the ground), left of centre and on two carved stemlines, both roughly parrallel with two variously angled edges of the stone.</layout> 
+                                <layout style="vertical" rend="face_stemline">The inscription is unusually on the flat face of an irregular boulder (embedded in the ground), left of centre and on two carved stemlines, both roughly parrallel with two variously angled edges of the stone.</layout> 
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes are not all of the same length (vowels generally approx. <height>9cm</height> and consonants on one side only approx. <height>4cm</height>) and it appears as if one extra long vowel stroke (<height>13-17cm</height>) may be marking the end or beginning of each series. There are no obviously slanted strokes from the M-aicme (<foreign xml:lang="ga">aicme muine</foreign>). Two star-shaped characters (resembling an x carved over an ᚐ stroke) are also on the stone. When looking at the more centrally positioned stemline (L 34cm) vertically, the first star shape is at the top of this stemline with the second, larger and partially damaged star shape, directly to the left and close to the edge of the stone. The second stemline (L 27cm) is above and at a different angle. There is also what looks like a feathermark between the first two characters reading upwards on the main stemline. It is unclear how to interpret these characters but the presence of a stemline, long vowel strokes and a possible feathermark suggest 'reformed ogham' (previously termed 'scholastic') dating from the 8th century onwards.
+                            <handNote>The inscriptions appear to have been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The ogham strokes are not all of the same length (vowels generally approx. <height>9cm</height> and consonants on one side only approx. <height>4cm</height>) and it appears as if one extra long vowel stroke (<height>13-17cm</height>) may be marking the end or beginning of each series. There are no obviously slanted strokes from the M-aicme (<foreign xml:lang="ga">aicme muine</foreign>). Two star-shaped characters (resembling an x carved over an ᚐ stroke) are also on the stone. When looking at the more centrally positioned stemline (L 34cm) vertically, the first star shape is at the top of this stemline with the second, larger and partially damaged star shape, directly to the left and close to the edge of the stone. The second stemline (L 27cm) is above and at a different angle. There is also what looks like a feathermark between the first two characters reading upwards on the main stemline. It is unclear how to interpret these characters but the presence of a stemline, long vowel strokes and a possible feathermark suggest 'reformed ogham' (previously termed 'scholastic') dating from the 8th century onwards.
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Aultagh (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9686">Alltach</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Aultagh (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9686">Alltach</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo cert="low">51.769999, -9.090371</geo>                            
                             <note>ITM Coordinates (approximate): 524750, 558081</note>
                             </origPlace>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2024-11-13" who="#NW">added cert=low to approx. geo coords for coloured map marker</change>
     <change when="2025-01-29" who="#POC">Added Irish placename to title and citation details to image description</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
