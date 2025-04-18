@@ -61,26 +61,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO052-053----</idno></p>
-                                    <material/> 
-                                    <objectType>Pillar?</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m"/>            
                                 </support>
                                 <condition>Destroyed in the mid-nineteenth century, only a drawing of the stone and inscription remain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>According to <persName>Hitchcock</persName>'s drawing, the inscription ran up on the sinister angle of one of the broad faces of the stone (Macalister 1945, 64).</layout>
+                                <layout style="vertical" rend="arris_upR">According to <persName>Hitchcock</persName>'s drawing, the inscription ran up on the sinister angle of one of the broad faces of the stone (Macalister 1945, 64).</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote>
+                        <handDesc>
+                            <handNote>The execution technique is <rs type="execution" key="other">unknown</rs>.
                                 <height/>
                             </handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Ballynabortagh (<ref target="https://www.logainm.ie/ga/9511"><foreign xml:lang="ga">Baile na bPórtach</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Ballynabortagh (<ref target="https://www.logainm.ie/ga/9511"><foreign xml:lang="ga">Baile na bPórtach</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.999763, -8.433330</geo>
                             <note>ITM Coordinates: 570245, 583170 (approximate only)</note></origPlace>
                             <origDate/>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title, commented out creation and handDesc section, added citation details to image description</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

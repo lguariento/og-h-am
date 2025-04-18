@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO082-045002-</idno> </p>
-                                    <material/> 
-                                    <objectType>Pillar (reused as support stone in souterrain)</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>reused as support stone in souterrain</note>
                                      <dimensions unit="m" source="MAC1945">
                                             <height>0.84</height>
                                             <width>0.19</width>
@@ -72,23 +72,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The angle of the stone bearing the inscription is fractured. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription is found on one angle of the stone.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is found on one angle of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote><height></height>
+                        <handDesc>
+                            <handNote>The execution technique is <rs type="execution" key="other">unknown</rs>.<height></height>
                             </handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Cooldorragha (<ref target="https://www.logainm.ie/ga/9939"><foreign xml:lang="ga">An Chúil Dorcha</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Cooldorragha (<ref target="https://www.logainm.ie/ga/9939"><foreign xml:lang="ga">An Chúil Dorcha</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo> 51.83908, -9.02702</geo>
                                 <note>ITM Coordinates: 529224, 565704</note><note>(approx)</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found"><!--<note>1800s?</note>--> Built into a souterrain (<idno type="SMR">CO082-045001-</idno>) as an upright stone supporting a lintel. 
+                        <provenance type="found"><!--<note>1800s?</note>-->Built into a souterrain (<idno type="SMR">CO082-045001-</idno>) as an upright stone supporting a lintel. 
                         </provenance>
                         <provenance type="observed">In situ. The souterrain is no longer accessible.
                         </provenance>
@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-17" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, deleted note from within objectType, commented out media, updated apparatus</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,7 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 128) did not see the stone but according to him <q>'all copyists are agreed on the reading'</q> which he gives as: </note>
+                    <note>Macalister (1945, 128) did not see the stone but according to him <q>all copyists are agreed on the reading</q> which he gives as: </note>
                     <rdg source="MAC1945">
                         <persName><name nymRef="veqoanai">VEQOANAI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="eqod">EQOD<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                     </rdg>

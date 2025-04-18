@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO039-062005-</idno></p>
-                                    <material/> 
-                                    <objectType>Pillar (reused in souterrain - chamber 2)</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>reused in souterrain - chamber 2</note>
                                      <dimensions unit="m">
                                             <height>2.00</height>
                                             <width>0.60</width>
@@ -72,18 +72,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>One of two ogham stones acting as lintels in chamber 2 of the souterrain. The inscription on this stone was hidden when the lintel was in place (pers. comm. B. Ó Donnabháin).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads upwards on the left-hand angle in its current position (Power et al. 1997, no. 7977).</layout>
+                                <layout style="vertical" rend="arris_up">The inscription reads upwards on the left-hand angle in its current position (Power et al. 1997, no. 7977).</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote><height></height>
+                        <handDesc>
+                            <handNote>The inscription appears to have been <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs>.<height></height>
                             </handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Liscahane (<ref target="https://www.logainm.ie/ga/12681"><foreign xml:lang="ga">Lios Catháin</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Liscahane (<ref target="https://www.logainm.ie/ga/12681"><foreign xml:lang="ga">Lios Catháin</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>52.052268, -9.045799</geo>
                             <note>ITM Coordinates: 528271, 589435</note></origPlace>
                             <origDate/>
@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-10-01" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-11" who="#POC">Added placename to title, deleted note from objectType, added idno element for SMR IDs, updated apparatus</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

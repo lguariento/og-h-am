@@ -61,29 +61,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO072-070004-</idno> </p>
-                                    <material/> 
-                                    <objectType>Pillar (reused in souterrain)</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>reused in souterrain</note>
                                      <dimensions unit="m" source="MAC1945">
                                             <height>2.45</height>
                                             <width>0.76</width>
                                             <depth>0.20</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is <q>'perfectly clear'</q> (Macalister 1945, 123).</condition>
+                                <condition>The inscription is <q>perfectly clear</q> (Macalister 1945, 123).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The stone is inscribed on two angles.</layout>
+                                <layout style="vertical" rend="arris_up-up">The stone is inscribed on two angles.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote><height></height>
+                        <handDesc>
+                            <handNote>The execution technique is <rs type="execution" key="other">unknown</rs>.<height></height>
                             </handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Rooves More (<ref target="https://www.logainm.ie/ga/11243"><foreign xml:lang="ga">An Rú Mór</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Rooves More (<ref target="https://www.logainm.ie/ga/11243"><foreign xml:lang="ga">An Rú Mór</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.883240, -8.788478</geo>
                             <note>ITM Coordinates: 545708, 570419</note></origPlace>
                             <origDate/>
@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-16" who="#POC">Added and encoded information, including the edition</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, updated apparatus, deleted note element from object type, commented out media</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

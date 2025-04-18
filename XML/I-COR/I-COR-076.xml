@@ -61,29 +61,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO072-070003-</idno> </p>
-                                    <material/> 
-                                    <objectType>Pillar (reused in souterrain)</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>reused in souterrain</note>
                                      <dimensions unit="m" source="MAC1945">
                                             <height>2.13</height>
                                             <width>0.32</width>
                                             <depth>0.20</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The top of the stone is fractured <q>'carrying off a letter or two from the middle'</q> (Macalister 1945, 122).</condition>
+                                <condition>The top of the stone is fractured <q>carrying off a letter or two from the middle</q> (Macalister 1945, 122).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription occupies two angles of the stone.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription occupies two angles of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is cut.<!--<height></height>-->
+                            <handNote>The inscription is <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs>.<!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Rooves More (<ref target="https://www.logainm.ie/ga/11243"><foreign xml:lang="ga">An Rú Mór</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Rooves More (<ref target="https://www.logainm.ie/ga/11243"><foreign xml:lang="ga">An Rú Mór</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.883240, -8.788478</geo>
                             <note>ITM Coordinates: 545708, 570419</note></origPlace>
                             <origDate/>
@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-16" who="#POC">Added and encoded information, including the edition</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, updated apparatus, deleted note element from object type, commented out media</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,7 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg source="MAC1945">
                         <persName><name nymRef="#anavlamattias">ANAVLAMATTIAS</name> <w type="formula" lemma="muccoviias?">MUCOI</w> <name nymRef="noeluri"><supplied reason="lost">N</supplied>ELURI</name> <w type="formula" lemma="avias">AVI</w> <name nymRef="akeras">AKERAS</name></persName>
                     </rdg>
-                    <note><lb/>Macalister surmised that <q>'The missing letter or letters must have consisted of B-scores <hi rend="italic">only</hi>, as even vowel-notches would have left some relics on the edge of the fracture'</q> and proposed that <q>'NOELURI is, on the whole, the most satisfactory restoration of the second name'</q>.</note>
+                    <note><lb/>Macalister surmised that <q>The missing letter or letters must have consisted of B-scores <hi rend="italic">only</hi>, as even vowel-notches would have left some relics on the edge of the fracture</q> and proposed that <q>NOELURI is, on the whole, the most satisfactory restoration of the second name</q>.</note>
                 </app>
                 </listApp>
             </div>

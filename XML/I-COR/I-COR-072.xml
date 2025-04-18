@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-022005-</idno> </p>
-                                    <material/> 
-                                    <objectType>Pillar (reused in souterrain)</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>reused in souterrain</note>
                                      <dimensions unit="m" source="MAC1945">
                                             <height>1.75</height>
                                             <!--<width></width>
@@ -76,19 +76,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>According to Macalister (1945, 119), the inscription is composed of <q>'minute characters'</q>.<!--<height></height>-->
+                            <handNote>According to Macalister (1945, 119), the inscription is composed of <q>minute characters</q> and was likely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs>.<!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Monataggart (<ref target="https://www.logainm.ie/ga/11463"><foreign xml:lang="ga">Móin an tSagairt</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Monataggart (<ref target="https://www.logainm.ie/ga/11463"><foreign xml:lang="ga">Móin an tSagairt</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.976513, -8.787796</geo>
                             <note>ITM Coordinates: 545879, 580808</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1872">Discovered in the vicinity of three other ogham stones (I-COR-069, I-COR-070, I-COR-071) but unlike them it was not removed from the locality (Quarry 1898, 382). Macalister (1945, 119, no. 121) found it <q>'lying in the farmyard of Monataggart'</q>. When he returned to check it, he <q>'found the stone completely covered with farm rubbish'</q> (ibid.).
+                        <provenance type="found" when="1872">Discovered in the vicinity of three other ogham stones (I-COR-069, I-COR-070, I-COR-071) but unlike them it was not removed from the locality (Quarry 1898, 382). Macalister (1945, 119, no. 121) found it <q>lying in the farmyard of Monataggart</q>. When he returned to check it, he <q>found the stone completely covered with farm rubbish</q> (ibid.).
                         </provenance>
                         <provenance type="observed" when="1992">When inspected last, this stone was lying beside a field fence close to the farmyard. 
                         </provenance>
@@ -125,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-16" who="#POC">Added Macalister reading to apparatus</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, updated apparatus, deleted note element from object type</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

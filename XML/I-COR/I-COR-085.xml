@@ -61,29 +61,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO058-039005-</idno> </p>
-                                    <material/> 
-                                    <objectType>Pillar (on NE side of cairn)</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> <note>on NE side of cairn</note>
                                      <dimensions unit="m" source="MAC1945">
                                             <height>1.07</height>
                                             <width>0.38</width>
                                             <depth>0.15</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>An upright stone, described by Macalister (1945, 130) as <q>'in section a flattish oval'</q>.</condition>
+                                <condition>An upright stone, described by Macalister (1945, 130) as <q>in section a flattish oval</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>A one-worded inscription occupies one edge of the stone. According to Macalister (1945, 130), <q>'there is no indication that there was ever any more writing on the stone.'</q></layout>
+                                <layout style="vertical" rend="arris_up">A one-worded inscription occupies one edge of the stone. According to Macalister (1945, 130), <q>there is no indication that there was ever any more writing on the stone.</q></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is cut.<!--<height></height>-->
+                            <handNote>The inscription is <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>.<!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Shanacloon (<ref target="https://www.logainm.ie/ga/11382"><foreign xml:lang="ga">An tSeanchluain</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Shanacloon (<ref target="https://www.logainm.ie/ga/11382"><foreign xml:lang="ga">An tSeanchluain</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.935250, -9.152940</geo>
                             <note>ITM Coordinates: 520720, 576528</note><note>(approx)</note></origPlace>
                             <origDate/>
@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-17" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, deleted note from within objectType, updated apparatus</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
