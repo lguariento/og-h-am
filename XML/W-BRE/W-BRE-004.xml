@@ -157,6 +157,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-04" who="#POC">Simplify execution type</change>
     <change when="2025-04-14" who="#POC">Updated execution type, updated commentary</change>
 <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change> 
+     <change when="2025-04-18" who="#NW">Edition update - corrected X-forfid encoding but left transliteration as P (without encoding) as not E or K - add alternative?</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -169,7 +171,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="la-Ogam" resp="#BM" source="RED2007">
                 <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#turpilius">ᚈᚒᚏ<c type="forfid">ᚕ</c><unclear reason="worn">ᚔ</unclear>ᚂ<unclear reason="worn">ᚂᚔ</unclear></name><gap reason="lost" extent="unknown" unit="character"/>ᚂ<unclear reason="worn">ᚒᚅᚔ</unclear></persName>
+                    <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#turpilius">ᚈᚒᚏ<g ref="#forfid_X"/><unclear reason="worn">ᚔ</unclear>ᚂ<unclear reason="worn">ᚂᚔ</unclear></name><gap reason="lost" extent="unknown" unit="character"/>ᚂ<unclear reason="worn">ᚒᚅᚔ</unclear></persName>
                  </ab>
                 </div>
             </div>

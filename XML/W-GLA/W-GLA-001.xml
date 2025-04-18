@@ -135,6 +135,8 @@ Historic Environment Record</ref>: <idno type="HER">00788w
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-04" who="#POC">Simplified material type, added layout filtering attributes</change>
 <change when="2025-04-14" who="#POC">Updated commentary, execution type</change>
+     <change when="2025-04-18" who="#NW">Edition update - corrected X-forfid encoding but left transliteration as P (without encoding) as not E or K - add alternative and/or check if actually x-forfid?</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,7 +149,7 @@ Historic Environment Record</ref>: <idno type="HER">00788w
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#pompius"><c type="forfid">&#x1695;</c><unclear reason="worn">&#x1691;</unclear><c type="forfid">&#x1695;</c><unclear reason="worn">&#x1694;&#x1690;&#x1684;</unclear></name>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#pompius"><g ref="#forfid_X"/><unclear reason="worn">&#x1691;</unclear><g ref="#forfid_X"/><unclear reason="worn">&#x1694;&#x1690;&#x1684;</unclear></name>
                     <lb n="2" style="text-direction:down"/><name nymRef="#rolacu?">&#x168F;<choice><unclear reason="lost">&#x1691;</unclear><unclear reason="lost">&#x1690;</unclear></choice>&#x1682;<gap reason="lost" extent="unknown" unit="character"/>&#x1685;</name>&#x168B;<gap reason="lost" extent="unknown" unit="character"/>&#x168A;<gap reason="lost" extent="unknown" unit="character"/><name nymRef="#ilu"><gap reason="lost" extent="unknown" unit="character"/>&#x1682;&#x1682;<gap reason="lost" quantity="1" unit="character"/>&#x1685;&#x1690;</name></persName>
                 </ab>
                     </div>
@@ -180,7 +182,7 @@ Historic Environment Record</ref>: <idno type="HER">00788w
                 </div>
             </div>
             <div type="commentary">
-                        <p>The Ogham inscription appears to correspond to the Roman-letter inscription in its first half <q>the ogam P[O]P[, if correctly restored...may preserve the original vowel <foreign xml:lang="la">Pompeius</foreign>...[most likely] the omission of the /m/ is due to Vulgar Latin as in SEPRONIVS (<hi rend="italic">RIB 1:</hi> no. 686), and Continental forms such as <foreign xml:lang="la">Popeianus</foreign> and <foreign xml:lang="la">Pepeia</foreign>...If POPIAS is the correct reading, the -AS may be the Irish nominative ending corresponding to Latin <foreign xml:lang="la">-us</foreign> and IA rather than EA could be a hypercorrect spelling...The <foreign xml:lang="sga">forfid</foreign> for P is one of the additional ogam letters invented for this un-Irish sound</q> (Redknap and Lewis 2007, 440-1). The rest of the inscription does not appear to correspond to the Roman-letter inscription. <q>ROLACUN...offers the Irish etymology <foreign xml:lang="pgl">*Ro-ola-kun-</foreign>, 'very large hound'... ILLUNA could be related to the OI name <foreign xml:lang="pgl">Illan(n), Elann</foreign> and word <foreign xml:lang="pgl">ela</foreign> 'swan', as in <hi rend="italic">CIIC:</hi> no. 79, ELUNA in Ireland</q> (Redknap and Lewis 2007, 441).</p>
+                        <p>The Ogham inscription appears to correspond to the Roman-letter inscription in its first half <q>the ogam P[O]P[, if correctly restored...may preserve the original vowel <foreign xml:lang="la">Pompeius</foreign>...[most likely] the omission of the /m/ is due to Vulgar Latin as in SEPRONIVS (<hi rend="italic">RIB 1:</hi> no. 686), and Continental forms such as <foreign xml:lang="la">Popeianus</foreign> and <foreign xml:lang="la">Pepeia</foreign>...If POPIAS is the correct reading, the -AS may be the Irish nominative ending corresponding to Latin <foreign xml:lang="la">-us</foreign> and IA rather than EA could be a hypercorrect spelling...The <foreign xml:lang="sga">forfid</foreign><!--NEED TO CHECK IMAGES OF THIS ONE!--> for P is one of the additional ogam letters invented for this un-Irish sound</q> (Redknap and Lewis 2007, 440-1). The rest of the inscription does not appear to correspond to the Roman-letter inscription. <q>ROLACUN...offers the Irish etymology <foreign xml:lang="pgl">*Ro-ola-kun-</foreign>, 'very large hound'... ILLUNA could be related to the OI name <foreign xml:lang="pgl">Illan(n), Elann</foreign> and word <foreign xml:lang="pgl">ela</foreign> 'swan', as in <hi rend="italic">CIIC:</hi> no. 79, ELUNA in Ireland</q> (Redknap and Lewis 2007, 441).</p>
                         <p>In the Roman-letter inscription, <q>PVMPEIVS for <foreign xml:lang="la">Pompeius</foreign> may show the Welsh development of /um/ [from] /om/...CARANTORIVS is definitely not Irish; it is the forerunner of OW <foreign>Cerenhir</foreign>, W. <foreign>Cerennhyr</foreign>...such names in <foreign>-orius</foreign> have been much discussed</q> but no definitive interpretation of its significance is offered (Redknap and Lewis 2007, 440-1).</p>
             </div>
             <div type="bibliography">

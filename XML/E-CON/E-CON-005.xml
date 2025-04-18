@@ -136,6 +136,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-29" who="#POC">Added script attribute to handNote, proofreading changes.</change>
 <change when="2024-12-06" who="#POC">Added encoding for X forfid to edition, proofreading changes.</change>
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace</change>
+    <change when="2025-04-18" who="#NW">Edition update - left interpretation of x-forfid as X in transliteration as not clearly E or K.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -153,7 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">
                 <ab>
-                   <lb n="1"/><choice><unclear>Λ</unclear><unclear><g ref="#forfid_X"/></unclear></choice>S
+                   <lb n="1"/><choice><unclear>Λ</unclear><unclear>X</unclear></choice>S
                     <lb n="2"/><choice><unclear>U</unclear><unclear>E</unclear><unclear>I</unclear></choice><unclear><g ref="#forfid_X"/></unclear><choice><unclear>V</unclear><unclear>S</unclear><unclear>N</unclear></choice>
                 </ab>
             </div>

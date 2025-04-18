@@ -135,7 +135,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty translation and commentary</change>
 <change when="2025-03-20" who="#NW">Updated the encoded information in this file and added new attributes for indexing and searching. Added country placename to origPlace and repository coordinates using altIdentifier.</change> 
 <change when="2025-04-01" who="#NW">Updated encoding of X-forfid</change>    
-<change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change>    
+<change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change>  
+    <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,7 +157,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                  <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="corbagnas">C<unclear reason="damage">O</unclear><damage>R</damage>BAGN<unclear reason="damage">I</unclear></name>
-                     <lb n="2" style="text-direction:up-down"/><w type="formula" lemma="koi">K<supplied reason="lost" cert="medium">OI</supplied></w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied><damage>Q</damage><supplied reason="lost">I</supplied></w> <w type="formula" lemma="muccoias">M<unclear reason="damage">OCC</unclear>OI</w> <name nymRef="?"><unclear reason="damage">C</unclear>ORO<unclear reason="damage">T</unclear>ANI</name></persName>
+                     <lb n="2" style="text-direction:up-down"/><w type="formula" lemma="koi"><g ref="#forfid_X" type="interpretation_K"/><supplied reason="lost" cert="medium">OI</supplied></w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied><damage>Q</damage><supplied reason="lost">I</supplied></w> <w type="formula" lemma="muccoias">M<unclear reason="damage">OCC</unclear>OI</w> <name nymRef="?"><unclear reason="damage">C</unclear>ORO<unclear reason="damage">T</unclear>ANI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
