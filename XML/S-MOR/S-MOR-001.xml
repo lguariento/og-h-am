@@ -79,7 +79,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The ogham inscription is severely damaged with only short sections being legible (Forsyth 1996, 142). The front face is badly weathered, the carving on the reverse is in good condition (ibid). The lower edge of the slab is broken with a portion missing from the back (ibid).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscriptions run on the right edge (front and back) and the left edge (back only) of the slab on a raised band approximately 5 cm wide and with an incised stem-line (Forsyth 1996, 145).</layout>
+                                <layout style="vertical" rend="stemline">The ogham inscriptions run on the right edge (front and back) and the left edge (back only) of the slab on a raised band approximately 5 cm wide and with an incised stem-line (Forsyth 1996, 145).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-28" who="#POC">Updated decoration section, added country to origPlace</change>
     <change when="2025-04-03" who="#POC">Simplified material type</change>
     <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition and closed glyphs.</change>
+    <change when="2025-04-18" who="#NW">Edition encoding update but still needs revision. Added layout style and rend.</change>
     
 </listChange>
 </revisionDesc>
@@ -151,22 +152,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH"><!--update lang here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="unk" resp="#LH"><!--update lang here-->    <!--this edition needs revision!-->          
                 <ab>    <!--encode incised stem-line ?-->
-                    <lb n="1" style="text-direction:up"/> <!--this edition needs revision!-->
+                    <lb n="1" style="text-direction:up"/> 
                     <gap reason="lost" extent="unknown" unit="character"/>ᚏᚏ<choice><unclear>ᚋ</unclear><unclear>ᚐ</unclear></choice><choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice>ᚊ<unclear reason="damage">ᚊ</unclear>ᚇᚔ<unclear reason="damage">ᚈ</unclear>ᚈ<g ref="#angled_O"/>ᚄᚄᚄ<gap reason="lost" extent="unknown" unit="character"/> 
                     <lb n="2" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#?"></name>ᚓᚇᚇ<g ref="#s-shaped_A"/>ᚏᚏᚅᚑᚅ<unclear reason="ambiguous">ᚃ</unclear></persName><gap reason="lost" extent="unknown" unit="character"/>ᚈᚆᚔᚆᚐᚂ<gap reason="lost" extent="unknown" unit="character"/>ᚔᚏᚏ<gap reason="lost" extent="unknown" unit="character"/>ᚒᚔᚁᚒ<unclear reason="ambiguous"></unclear>ᚎ<gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#?"></name>ᚓᚇᚇ<g ref="#s-shaped_A"/>ᚏᚏᚅᚑᚅ</persName><unclear reason="ambiguous">ᚃ</unclear><gap reason="lost" extent="unknown" unit="character"/>ᚈᚆᚔᚆᚐᚂ<gap reason="lost" extent="unknown" unit="character"/>ᚔᚏᚏ<gap reason="lost" extent="unknown" unit="character"/>ᚒᚔᚁᚒ<unclear reason="ambiguous"></unclear>ᚎ<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3" style="text-direction:up"/>
                     <unclear reason="ambiguous">ᚄ</unclear>ᚑᚅ<choice><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice><unclear reason="damage">ᚓ</unclear>ᚂᚉᚉ<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="unk" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="4" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>RR<choice><unclear>M</unclear><unclear>A</unclear></choice><choice><unclear>O</unclear><unclear>G</unclear></choice>Q<unclear reason="damage">Q̣</unclear>DI<unclear reason="damage">Ṭ</unclear>T<g ref="#angled_O"/>SSS<gap reason="lost" extent="unknown" unit="character"/>     
                     <lb n="5" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#?"></name>EDD<g ref="#s-shaped_A"/>RRNON<unclear reason="ambiguous">V</unclear></persName><gap reason="lost" extent="unknown" unit="character"/>THIHAL<gap reason="lost" extent="unknown" unit="character"/>IRR<gap reason="lost" extent="unknown" unit="character"/>UIBU<unclear reason="ambiguous"></unclear>Z<gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#?"></name>EDD<g ref="#s-shaped_A"/>RRNON</persName> <unclear reason="ambiguous">V</unclear><gap reason="lost" extent="unknown" unit="character"/>THIHAL<gap reason="lost" extent="unknown" unit="character"/>IRR<gap reason="lost" extent="unknown" unit="character"/>UIBU<unclear reason="ambiguous"></unclear>Z<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="6" style="text-direction:up"/>
                     <unclear reason="ambiguous">S</unclear>ON<choice><unclear>S</unclear><unclear>N</unclear></choice><unclear reason="damage">E</unclear>LCC<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/>            
                 </ab>

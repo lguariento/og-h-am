@@ -144,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-10" who="#POC">Updated execution encoding</change>
     <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
     <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition.</change>
+    <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
     
 </listChange>
 </revisionDesc>
@@ -165,9 +166,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up" type="inner"/>
-                    <w lemma="maqqas">MAQQO<!--<g ref="#forfid_OI"/>--></w> <persName><name nymRef="#talorc?">TA<g ref="#angled_L"/><g ref="#angled_L"/>UORR<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
+                    <w lemma="maqqas">MAQQ<g ref="#forfid_OI" type="interpretation_O"/></w> <persName><name nymRef="#talorc?">TA<g ref="#angled_L"/><g ref="#angled_L"/>UORR<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
                     <lb n="2" style="text-direction:up" type="outer"/>
-                    <persName><name nymRef="#?">NE<!--<g ref="#forfid_disjoined-X"/>-->HHT</name></persName> VR<g ref="#angled_O"/>BB<g ref="#hammerhead_A"/><unclear reason="illegible">C</unclear> <placeName cert="low">CE<!--<g ref="#forfid_disjoined-X"/>-->NNE<g ref="#angled_V"/><g ref="#angled_V"/></placeName>                   
+                    <persName><name nymRef="#?">N<g ref="#forfid_disjoined-X" type="interpretation_E"/>HHT</name></persName> VR<g ref="#angled_O"/>BB<g ref="#hammerhead_A"/><unclear reason="illegible">C</unclear> <placeName cert="low">C<g ref="#forfid_disjoined-X" type="interpretation_E"/>NNE<g ref="#angled_V"/><g ref="#angled_V"/></placeName>                   
                 </ab>
             </div>
             <div type="apparatus">

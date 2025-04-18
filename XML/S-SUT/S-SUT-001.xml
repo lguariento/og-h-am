@@ -138,7 +138,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements and commented out sections without content</change>
     <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>   
     <change when="2025-04-03" who="#POC">Simplify material type, and added country placename to origPlace</change>
-    <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition. Added glyph for X-forfid Added layout style and rend.</change>
+    <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition. Added glyph for X-forfid. Added layout style and rend.</change>
+    <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
     
 </listChange>
 </revisionDesc>
@@ -149,7 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
+          <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="unk" resp="#LH"><!--update lang here but to what?--><!--this edition needs revision!-->          
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     ᚐᚂᚂᚆᚆ<g ref="#angled_A"></g>ᚂᚂᚑᚏᚏ<g ref="#forfid_X"/>ᚇᚇ <w lemma="MAQQAS">ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ</w> <w><!--lemma=?-->ᚅᚔᚐ</w> ᚃᚃᚆ
@@ -160,10 +161,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--            <div type="edition" subtype="" xml:space="preserve" xml:lang="eng">
                 <lb n=""/>HEIR IS THE BURIAL PLEAC [sic J TO ROBERT GORDON ELDEST SON TO ALEX GORDON OF SUTHE[RLAND]
             </div>-->
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="unk" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="3" style="text-direction:up"/>
-                    ALLHH<g ref="#angled_A"></g>LLORR<g ref="#forfid_X"/>DD <w lemma="MAQQAS">M<gap reason="lost" quantity="1" unit="character"/>QQ</w> <w><!--lemma=?-->NIA</w> VVH
+                    ALLHH<g ref="#angled_A"></g>LLORR<g ref="#forfid_X" type="interpretation_E"/>DD <w lemma="MAQQAS">M<gap reason="lost" quantity="1" unit="character"/>QQ</w> <w lemma="nia?">NIA</w> VVH
                     <lb n="4" style="text-direction:left" break="yes"/>
                     <unclear reason="worn">R</unclear>RC<gap reason="lost" quantity="1" unit="character"/><choice><unclear>N</unclear><unclear>R</unclear></choice><choice><unclear>N</unclear><unclear>R</unclear></choice>
                 </ab>
@@ -185,7 +186,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </item>
                     <item n="3"><p><q>'One of the most interesting features of the Golspie ogham is that it is written without drawn-in stem-line on the arris of the stone. While this is the norm on otherwise undressed and uncarved pillars, it is unique on a highly decorated cross-slab. Since Golspie cannot be as early as the seventh century and is probably no earlier than the middle of the eighth, this is an important reminder that the lack of a stem-line is not necessarily indicative of an early date'</q> (Forsyth 1996, 312).</p>
                     </item>
-                    <item n="4"><p>While an exact interpretation of the text has not been determined, the inscription seems to follow the X MAQQ Y formula and likely contains personal names (Forsyth 1996, 317).</p>
+                    <item n="4"><p>While an exact interpretation of the text has not been determined, the inscription seems to follow the X MAQQ Y formula and likely contains personal names (Forsyth 1996, 317). <!--Also NIA 'nephew' worth mentioning? --></p>
                     </item>
                  </list>
             </div>
