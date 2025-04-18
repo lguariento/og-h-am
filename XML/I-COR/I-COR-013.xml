@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO054-067----</idno></p>
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" resp="NW">
                                             <height>1.20</height>
                                             <width>0.33</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>As recorded by Macalister (1945, 70), the inscription is in good condition, except that the H-half of the G has been flaked away. He recorded the height as 1.30m but in its current position it measures 1.20m above ground level.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The earlier inscription is found on the dexter edge (reading upwards) of one of the narrower faces of the stone. Macalister (1945, 70) also noted that one James Ward has written his name in ogham and in Irish on the other edge of the same face (reading downwards).</layout>
+                                <layout style="vertical" rend="arris_up">The earlier inscription is found on the dexter edge (reading upwards) of one of the narrower faces of the stone. Macalister (1945, 70) also noted that one James Ward has written his name in ogham and in Irish on the other edge of the same face (reading downwards).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -85,15 +85,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Rathcobane (<ref target="https://www.logainm.ie/ga/12537"><foreign xml:lang="ga">Ráth Ghobáin</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Rathcobane (<ref target="https://www.logainm.ie/ga/12537"><foreign xml:lang="ga">Ráth Ghobáin</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>52.008924, -8.251918</geo>
                             <note>ITM Coordinates: 582705, 584120</note>
                             </origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1885">Discovered in 1885 by <persName>Edmond Barry</persName> in pasture, on the east side of a townland boundary fence between Ballyrobert and Rathcobane. According to Barry (1879-1888, 485), the stone was removed from its socket in <date>1885</date> and <q>'two or three fragments of "crockery", each two or three inches square'</q> were found at its base. The second inscription does not appear to have been on the stone when it was first recorded by Barry. Therefore, it was presumably added sometime between <date notBefore="1885" notAfter="1945">1885 and 1945</date>.  
+                        <provenance type="found" when="1885">Discovered in 1885 by <persName>Edmond Barry</persName> in pasture, on the east side of a townland boundary fence between Ballyrobert and Rathcobane. According to Barry (1879-1888, 485), the stone was removed from its socket in <date>1885</date> and <q>two or three fragments of "crockery", each two or three inches square</q> were found at its base. The second inscription does not appear to have been on the stone when it was first recorded by Barry. Therefore, it was presumably added sometime between <date notBefore="1885" notAfter="1945">1885 and 1945</date>.  
                         </provenance>
-                        <provenance type="observed" when="2017"> In <date>1986</date>, subsequent to a survey visit, the stone was moved to the grounds of Scoil an Easpaig O Briain, Bartlemy (SMR no. CO044-111----). The stone was examined and recorded at the school by the Ogham in 3D project in 2017.
+                        <provenance type="observed" when="2017">In <date>1986</date>, subsequent to a survey visit, the stone was moved to the grounds of Scoil an Easpaig O Briain, Bartlemy (SMR no. CO044-111----). The stone was examined and recorded at the school by the Ogham in 3D project in 2017.
                         </provenance>
                     </history>
                 </msDesc>
@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-11" who="#NW">Updated edition in line with Welsh structure for 2 separate inscriptions (textparts).</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to the title and citation details to image description, proofreading updates, added ogham space marker to edition</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -177,7 +178,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Of the earlier inscription (1), Macalister (1945, 70) noted that the H-half of the G has been 'flaked away'. The M is partly damaged on this side and only a couple of partial Q strokes can be made out.</note>
+                    <note>Of the earlier inscription (1), Macalister (1945, 70) noted that the H-half of the G has been <q>flaked away</q>. The M is partly damaged on this side and only a couple of partial Q strokes can be made out.</note>
                 </app>
                 </listApp>
             </div>

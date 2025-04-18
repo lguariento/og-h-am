@@ -61,28 +61,28 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO103-003003-</idno></p>
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="POW1992">
                                             <height>1.20</height>
                                             <width>0.23</width>
                                             <depth>0.18</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The top of the pillar has broken away in antiquity and the back of the stone, in particular, is weathered and lichen covered.</condition>
+                                <condition>The top of the pillar has broken away in antiquity and the back of the stone, in particular, is weathered and lichen covered. The continuation of the inscription on the back of the stone is no longer legible. The middle part of the inscription is lost where the top of the stone was broken off (Power et al. 1992, no. 1040)</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription runs diagonally over the head of the stone (up-down), <q>so that it is on the dexter angle of both faces</q> (Macalister 1945, 73). However, the continuation of the inscription on the back of the stone is no longer legible. The middle part of the inscription is lost where the top of the stone was broken off (Power et al. 1992, no. 1040).</layout>
+                                <layout style="vertical" rend="arris_up">The inscription runs diagonally over the head of the stone (up-down), <q>so that it is on the dexter angle of both faces</q> (Macalister 1945, 73).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is pocked with strokes quite large in relation to the size of the stone (e.g. the L strokes are <height>6cm</height> long and the C strokes <height>7cm</height>, with approximately <width>2cm</width> between each stroke).</handNote>
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with strokes quite large in relation to the size of the stone (e.g. the L strokes are <height>6cm</height> long and the C strokes <height>7cm</height>, with approximately <width>2cm</width> between each stroke).</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Kilcaskan (<ref target="https://www.logainm.ie/en/8679"><foreign xml:lang="ga">Chill Cháscann</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Kilcaskan (<ref target="https://www.logainm.ie/en/8679"><foreign xml:lang="ga">Chill Cháscann</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.708247, -9.710550</geo>
                             <note>ITM Coordinates: 481786, 552037</note>
                             </origPlace>
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-27" who="#POC">Added Irish placename in Irish, added ogham space marker, proofreading changes</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
     <change when="2025-01-29" who="#POC">Deleted typos</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

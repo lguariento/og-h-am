@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO143-100----</idno></p> 
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="MAC1945">
                                             <height>1.06</height>
                                             <width>0.47</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Now lost</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>A single letter ogham inscription <q>'about the middle of one of the long angles'</q> of the stone, either Q or N depending on the position from which the stone is viewed (Macalister 1945, 81).</layout>
+                                <layout style="other" rend="arris_unclear">A single letter ogham inscription <q>about the middle of one of the long angles</q> of the stone, either Q or N depending on the position from which the stone is viewed (Macalister 1945, 81).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
@@ -82,7 +82,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Burgatia (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9138">An Bhuirgéiseach</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Burgatia (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/9138">An Bhuirgéiseach</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.578654, -9.008003</geo>
                             <note>ITM Coordinates: 530105, 536690</note>
                             </origPlace>
@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-08-21" who="#NW">Updated details and bibl ref. Moved logainm ref to around Irish townland name</change>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-30" who="#POC">Added Irish placename to title, commented out creation, proofreading updates, commented out facsimile and handDesc as both are empty</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
