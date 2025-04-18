@@ -39,7 +39,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-COR-023</idno>
-                 <idno type="CIIC"></idno>
+                 <idno type="CIIC"/>
                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/carha_3.html">CARHA/3</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>            
@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO122-001005-</idno></p> 
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m"/>                                          
                                                <!--Check McCarthy's unpublished thesis for details or ask Fionnbarr?-->                         
                                 </support>
@@ -72,15 +72,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <layout/><!--Check McCarthy's unpublished thesis for details or ask Fionnbarr?-->
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote/>
+                        <handDesc>
+                            <handNote>The execution technique for the inscription is <rs type="execution" key="other">unknown</rs>.</handNote>
                             
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Carhoovauler (<ref target="https://www.logainm.ie/ga/9111"><foreign xml:lang="ga">Ceathrú Bhaldair</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Carhoovauler (<ref target="https://www.logainm.ie/ga/9111"><foreign xml:lang="ga">Ceathrú Bhaldair</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.690842, -8.962643</geo>
                             <note>ITM Coordinates: 533446, 549155</note> </origPlace>
                             <origDate/>
@@ -126,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-09" who="#NW">Moved logainm ref.</change>
    <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-29" who="#POC">Added Irish placename to title, commented out creation, facsimile, commentary and handnote since they are all empty</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

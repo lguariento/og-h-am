@@ -62,8 +62,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO042-052003-</idno></p>
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m" source="WIN1850">
                                             <height>1.67</height>
                                             <width>0.48</width>
@@ -73,18 +73,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>An ogham stone reused in a souterrain and now lost.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout><q>'The lettering is on the angle... The inscription commences two feet eleven inches [88cm] above the supposed base, and ends within eight inches [20cm] of the other extremity of the stone'</q> (Windele 1850, 143).</layout>
+                                <layout style="vertical" rend="arris_up"><q>The lettering is on the angle... The inscription commences two feet eleven inches [88cm] above the supposed base, and ends within eight inches [20cm] of the other extremity of the stone</q> (Windele 1850, 143).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><q>'The longest score is two and a-half inches [<height unit="mm" max="63">63mm</height>] long, the shortest one inch [<height unit="mm" min="25.4">25.4mm</height>]'</q> (Windele 1850, 143). 
+                            <handNote><q>The longest score is two and a-half inches [<height unit="mm" max="63">63mm</height>] long, the shortest one inch [<height unit="mm" min="25.4">25.4mm</height>]</q> (Windele 1850, 143). 
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Burnfort (<ref target="https://www.logainm.ie/ga/11662"><foreign xml:lang="ga">Ráth an Tóiteáin</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Burnfort (<ref target="https://www.logainm.ie/ga/11662"><foreign xml:lang="ga">Ráth an Tóiteáin</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>52.072146, -8.597752</geo>
                             <note>ITM Coordinates: 559024, 591294</note></origPlace>
                             <origDate/>
@@ -139,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-12-14" who="#POC">Fixed ITM coordinates display on database by moving origPlace to after the closing note tag</change>
     <change when="2025-01-27" who="#POC">Added Irish place name to title, commented out creation element, added citation details to image description</change>
     <change when="2025-01-28" who="#POC">Added height to handNote description</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>

@@ -61,8 +61,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO060-172----</idno></p> 
-                                    <material/> 
-                                    <objectType>Pillar</objectType> 
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <dim/>
                                             <height>0.98</height>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The bottom of the stone was broken when removed to Cork and the beginning of both lines of the inscription are missing as a result of the damage.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The inscription reads upwards on two angles of the stone, and <q>'the upper ends of the two lines of writing overlap awkwardly on the top of the stone'</q> (Macalister 1945, 108). </layout>
+                                <layout style="vertical" rend="arris_up-up">The inscription reads upwards on two angles of the stone, and <q>the upper ends of the two lines of writing overlap awkwardly on the top of the stone</q> (Macalister 1945, 108). </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--<handDesc>
@@ -83,13 +83,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Deelish (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11434">Duílis</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Deelish (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11434">Duílis</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.9387, -8.88666</geo>
                                 <note>Findspot uncertain</note>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1826">This stone was discovered in 1826 <q>'in the entrenchment of an old burial-ground on this townland'</q> and later presented to the Royal Cork Institution (Macalister 1945, 107). Brash (1869, 254) gave the find spot as <q>'in a killeen at Leades, on the townland of Deelish, and parish of <placeName type="parish">Aghabulloge</placeName>'</q>, but then added <q>'the actual place where the stone was found is known as Killberehert'</q>. There is no known burial ground in Deelish (Leades is name of house at S end of Deelish) but the burial ground of 'Killberehert' <idno type="SMR">(CO060-122----)</idno> is 1 mile to the W of Deelish in the townland of <placeName type="townland">Kilberrihert</placeName>. The exact findspot is therefore not certain. 
+                        <provenance type="found" when="1826">This stone was discovered in 1826 <q>in the entrenchment of an old burial-ground on this townland</q> and later presented to the Royal Cork Institution (Macalister 1945, 107). Brash (1869, 254) gave the find spot as <q>in a killeen at Leades, on the townland of Deelish, and parish of <placeName type="parish">Aghabulloge</placeName></q>, but then added <q>the actual place where the stone was found is known as Killberehert</q>. There is no known burial ground in Deelish (Leades is name of house at S end of Deelish) but the burial ground of 'Killberehert' <idno type="SMR">(CO060-122----)</idno> is 1 mile to the W of Deelish in the townland of <placeName type="townland">Kilberrihert</placeName>. The exact findspot is therefore not certain. 
                         </provenance>
                         <provenance type="observed">Now in the British Museum.
                         </provenance>
@@ -129,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out media and empty commentary and handDesc</change>
     <change when="2025-02-06" who="#POC">Added townland coordinates to geo for a more accurate/relevant map display, fixed placename display</change>
+ <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
