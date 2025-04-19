@@ -66,10 +66,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang> 
-                            <textLang mainLang="la-Ogam">Latin written in Ogham script</textLang>  
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>                               
                             <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
-                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang otherLangs="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang otherLangs="la-Ogam">Latin written in Ogham script</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -101,7 +101,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="parish">Crickhowell</placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName>, <placeName type="country">Wales</placeName>
                                 <geo>51.866872, -3.126958</geo>
                             <note>National Grid Reference: SO 225 193</note></origPlace>
-                            <origDate notBefore="0500" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic"> sixth century A.D.</origDate>
+                            <origDate notBefore="0500" notAfter="0599" evidence="linguistic" precision="medium">Sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found" when="1776">Ogham recorded in sketch in Archaeologia volume iv (1776). First recorded 1 mile NE of Crickhowell in a field belonging to Mr John Powel of Llangenny, removed and neglected by the side of a ploughed field in 1777.
                         </provenance>
@@ -168,14 +168,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="la-Ogam" resp="#BM" source="RED2007">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#BM" source="RED2007">
                 <div type="textpart" n="1">
                 <ab>
                     <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#turpilius">ᚈᚒᚏ<g ref="#forfid_X"/><unclear reason="worn">ᚔ</unclear>ᚂ<unclear reason="worn">ᚂᚔ</unclear></name><gap reason="lost" extent="unknown" unit="character"/>ᚂ<unclear reason="worn">ᚒᚅᚔ</unclear></persName>
                  </ab>
                 </div>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="la-Ogam" resp="#BM" source="RED2007"> 
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#BM" source="RED2007"> 
                      <ab>
                          <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#turpilius">TURP<unclear reason="worn">I</unclear>L<unclear reason="worn">LI </unclear></name> <w><supplied reason="lost" resp="MAC1945">MOSAC</supplied></w> <name nymRef="#trillunas"><supplied reason="lost" resp="MAC1945">TRALL</supplied><unclear reason="worn">UNI</unclear></name></persName>
                      </ab>
@@ -202,7 +202,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary">
                 <p>The ogham inscription consists of the same commemoration as the roman-letter inscription, except that the latter adds the formaula <foreign xml:lang="la">hic iacit</foreign> 'here lies' and an extra name (<persName>Dunacatos</persName>) at the end. Dating depends on <q>the significance of the use of U for /u/>/ö/ in TVRPILLI... Assuming that the name DVNOCATI is Irish; if it were British, the insription would be very early and probably incompatible with the epigraphic date... The first name is either Turpilius or Turpilus both well attested. They are orignially pejorative Latin names from <foreign xml:lang="la">turpis</foreign> and would have been borne by a Welshman or an Irishman</q> (Redknap and Lewis 2007, 161). The ogham corresponding to TRILVNI has been read in various ways including T[RA]LL[O]NI but TRILLUNI is more likely. <q>Various Welsh etymologies can be suggested, such as 'of three forms' (Rhys 1879, 381-2), 'very abundant'(<foreign xml:lang="cy">trylawn</foreign>), 'very strong' (<foreign xml:lang="cy">trylonn</foreign> or 'of three moons', perhaps referrring to the time of birth</q> (Redknap and Lewis 2007, 162). It is also possible that TRILVNI is a mis-transcription of the ogham with the L symbol potentially really representing a BB in TRIBBUNI and BB standing in for /b/ or P. The ogham inscription is <q>notable for containing the symbol 'X', a rare attempt to represent the Latin P... <persName>Dunacatus</persName> is made up of Irish elements, but is a name not found in ogham inscriptions, though it developed later into the Old Irish name '<persName><foreign xml:lang="sga">Dúnchad</foreign></persName>'</q> (Redknap and Lewis 2007, 161-2).</p>
-                   <p>Corresponding to the ogham inscription's MOSAC (as read and interpreted by Macalister 1945, 315), the Latin inscription has PVVERI instead of Classical Latin <foreign xml:lang="la">pueri</foreign>, 'of the boy'. Here the VV denotes the British pronunciation /uṷ/. <q>Charles Thomas (1994, 124) suggests that TRILVNI was intended for TRIBUNI, as in CIIC. 476/Okasha 1993: no. 45, TRIBVNI (Latin <foreign xml:lang="la">tribunus</foreign> or personal name <persName>Tribunus</persName>), with Roman B miscopied as L, and suggests that it is the same name as Triphun in the Dyfed king-list... DVNOCATI (also attested in Britain in CIIC. 457/Okasha 1993: no. 18 DVNOCATI with Irish patronymic) can be the ancestor of either Irish <persName><foreign xml:lang="sga">Dúnchad</foreign></persName> or OW <persName><foreign xml:lang="cy">Din(a)cat</foreign></persName>, MW <persName><foreign xml:lang="cy">Din(o)gat</foreign></persName>, both well attested personal names. It is probably Irish since /u:/ has already changed via /ü:/ to /i:/ in Britonnic in the 'middle of the fifth century' according to Jackson... The Primitive Irish genetive would be <foreign xml:lang="pgl">*Dūnacatōs</foreign>, but Latinate -I can be expected to replace the Irish -OS in Britain. It is less likely that DVNOCATI is a place-name (functioning like SALICIDVNI in the Llywel inscription) although a place in south Wales called <placeName><foreign xml:lang="cy">Brehant Din Cat</foreign></placeName>, '<foreign xml:lang="la">guttur receptaculum pugnae</foreign>' is mentioned by the ninth-century Breton hagiographer Wrmonoc.</q> (Redknap and Lewis 2007, 161-2).</p> 
+                   <p>Corresponding to the ogham inscription's MOSAC (as read and interpreted by Macalister 1945, 315), the Latin inscription has PVVERI instead of Classical Latin <foreign xml:lang="la">pueri</foreign>, 'of the boy'. Here the VV denotes the British pronunciation /uṷ/. <q>Charles Thomas (1994, 124) suggests that TRILVNI was intended for TRIBUNI, as in CIIC. 476/Okasha 1993: no. 45, TRIBVNI (Latin <foreign xml:lang="la">tribunus</foreign> or personal name <persName>Tribunus</persName>), with Roman B miscopied as L, and suggests that it is the same name as Triphun in the Dyfed king-list... DVNOCATI (also attested in Britain in CIIC. 457/Okasha 1993: no. 18 DVNOCATI with Irish patronymic) can be the ancestor of either Irish <persName><foreign xml:lang="sga">Dúnchad</foreign></persName> or Old Welsh <persName><foreign xml:lang="owl">Din(a)cat</foreign></persName>, Middle Welsh <persName><foreign xml:lang="wlm">Din(o)gat</foreign></persName>, both well attested personal names. It is probably Irish since /u:/ has already changed via /ü:/ to /i:/ in Britonnic in the 'middle of the fifth century' according to Jackson... The Primitive Irish genetive would be <foreign xml:lang="pgl">*Dūnacatōs</foreign>, but Latinate -I can be expected to replace the Irish -OS in Britain. It is less likely that DVNOCATI is a place-name (functioning like SALICIDVNI in the Llywel inscription) although a place in south Wales called <placeName><foreign xml:lang="cy">Brehant Din Cat</foreign></placeName>, '<foreign xml:lang="la">guttur receptaculum pugnae</foreign>' is mentioned by the ninth-century Breton hagiographer Wrmonoc.</q> (Redknap and Lewis 2007, 161-2).</p> 
             </div>
             <div type="bibliography">
                 <listBibl>
