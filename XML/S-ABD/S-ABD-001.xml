@@ -59,9 +59,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
-<!--                            <textLang mainLang="sga-Latin">Old Irish written in Latin script</textLang> ??
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>   -->                            
+                            <textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang>  
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>  
+                            <textLang mainLang="sga-Latin" cert="medium">Probably Old Irish written in Latin script</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -154,6 +154,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-24" who="#POC">Removed decoration section, updated condition with description of the symbol stone, updated object type from menhir to pillar</change>
     <change when="2025-04-17" who="#NW">Edition update - Added X-forfid glyphs.</change>
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
+     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     
 </listChange>
 </revisionDesc>
@@ -165,7 +166,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH">             
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="medium" resp="#LH">             
                  <div type="textpart" n="1">
                 <ab>
                     <lb n="1" style="text-direction:down"/>ᚔᚇᚇᚐᚏᚏᚅᚅᚅᚃᚑᚏᚓᚅᚅᚔ<g ref="#forfid_X"/><add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
@@ -173,14 +174,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
                      </div>
             </div> 
-            <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="medium" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:down"/>IDDARRNNNVORENNI<unclear reason="ambiguous"><g ref="#forfid_X" type="interpretation_K"/></unclear><add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
                     <lb n="2" style="text-direction:up" break="no"/><add place="right">IOSR<unclear reason="illegible">R</unclear></add>
                 </ab>
             </div>
                        
-            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga" resp="#LH">
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga-Latin" resp="#LH">
                 <div type="textpart" n="2">
                 <ab>
                     <lb n="1" style="text-direction:across"/>ETTE

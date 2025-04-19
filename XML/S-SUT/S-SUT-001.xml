@@ -58,9 +58,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>  <!--edit language, please-->
-                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                          <msItem>    
+                            <textLang mainLang="sga-Ogam" cert="medium">Probably Old Irish written in ogham script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                             
                            </msItem>
                     </msContents>
@@ -140,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-03" who="#POC">Simplify material type, and added country placename to origPlace</change>
     <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition. Added glyph for X-forfid. Added layout style and rend.</change>
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
+    <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     
 </listChange>
 </revisionDesc>
@@ -150,7 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-          <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="unk" resp="#LH"><!--update lang here but to what?--><!--this edition needs revision!-->          
+          <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="medium" resp="#LH"> <!--this edition needs revision!-->          
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     ᚐᚂᚂᚆᚆ<g ref="#angled_A"></g>ᚂᚂᚑᚏᚏ<g ref="#forfid_X"/>ᚇᚇ <w lemma="MAQQAS">ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ</w> <w><!--lemma=?-->ᚅᚔᚐ</w> ᚃᚃᚆ
@@ -161,7 +161,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--            <div type="edition" subtype="" xml:space="preserve" xml:lang="eng">
                 <lb n=""/>HEIR IS THE BURIAL PLEAC [sic J TO ROBERT GORDON ELDEST SON TO ALEX GORDON OF SUTHE[RLAND]
             </div>-->
-            <div type="edition" subtype="transliteration" xml:lang="unk" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="medium" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="3" style="text-direction:up"/>
                     ALLHH<g ref="#angled_A"></g>LLORR<g ref="#forfid_X" type="interpretation_E"/>DD <w lemma="MAQQAS">M<gap reason="lost" quantity="1" unit="character"/>QQ</w> <w lemma="nia?">NIA</w> VVH

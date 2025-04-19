@@ -58,9 +58,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
-                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                          <msItem> 
+                            <textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
@@ -151,6 +150,7 @@ arm of the cross. A certain lack of planning is evident in the need to bend the 
     <change when="2025-04-03" who="#POC">Simplified material type</change>
     <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition.</change>
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
+    <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
         
 </listChange>
 </revisionDesc>
@@ -163,13 +163,13 @@ arm of the cross. A certain lack of planning is evident in the need to bend the 
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="low" resp="#LH">             
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <g ref="#forfid_X"/><g ref="#angled_O"/><g ref="#bound_T"/><g ref="#bound_T"/><g ref="#hammerhead_A"/><g ref="#bound_S"/><g ref="#bound_S"/><g ref="#hammerhead_A"/><g ref="#bound_R"/>ᚆ<g ref="#bound_E"/>ᚈ<g ref="#forfid_OI"/><g ref="#bound_D"/><g ref="#bound_D"/>ᚓ<g ref="#rabbit-eared_D"/><g ref="#bound_D"/><g ref="#forfid_OI"/><g ref="#bound_T"/>ᚄ <w type="formula" lemma="maqqas">ᚋ<g ref="#s-shaped_A"/><g ref="#bound_Q"/><g ref="#bound_Q"/></w> <persName><name nymRef="?"><g ref="#bound_R"/><g ref="#angled_O"/><g ref="#bound_G"/><g ref="#angled_O"/><g ref="#bound_D"/><g ref="#bound_D"/><g ref="#hammerhead_A"/><g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/></name></persName>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH"><!--update lang here--> 
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <g ref="#forfid_X" type="interpretation_E"/><g ref="#angled_O"/><g ref="#bound_T"/><g ref="#bound_T"/><g ref="#hammerhead_A"/><g ref="#bound_S"/><g ref="#bound_S"/><g ref="#hammerhead_A"/><g ref="#bound_R"/>H<g ref="#bound_E"/>T<g ref="#forfid_OI" type="interpretation_O"/><g ref="#bound_D"/><g ref="#bound_D"/>E<g ref="#rabbit-eared_D"/><g ref="#bound_D"/><g ref="#forfid_OI" type="interpretation_O"/><g ref="#bound_T"/>S <w type="formula" lemma="maqqas">M<g ref="#s-shaped_A"/><g ref="#bound_Q"/><g ref="#bound_Q"/></w> <persName><name nymRef="?"><g ref="#bound_R"/><g ref="#angled_O"/><g ref="#bound_G"/><g ref="#angled_O"/><g ref="#bound_D"/><g ref="#bound_D"/><g ref="#hammerhead_A"/><g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/></name></persName>

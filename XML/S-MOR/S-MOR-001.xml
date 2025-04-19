@@ -59,7 +59,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                             
-                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang> <!--check language, please-->
+                            <textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang> 
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
@@ -141,6 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-03" who="#POC">Simplified material type</change>
     <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition and closed glyphs.</change>
     <change when="2025-04-18" who="#NW">Edition encoding update but still needs revision. Added layout style and rend.</change>
+    <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     
 </listChange>
 </revisionDesc>
@@ -152,7 +153,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="unk" resp="#LH"><!--update lang here-->    <!--this edition needs revision!-->          
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="low" resp="#LH">  <!--this edition needs revision!-->          
                 <ab>    <!--encode incised stem-line ?-->
                     <lb n="1" style="text-direction:up"/> 
                     <gap reason="lost" extent="unknown" unit="character"/>ᚏᚏ<choice><unclear>ᚋ</unclear><unclear>ᚐ</unclear></choice><choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice>ᚊ<unclear reason="damage">ᚊ</unclear>ᚇᚔ<unclear reason="damage">ᚈ</unclear>ᚈ<g ref="#angled_O"/>ᚄᚄᚄ<gap reason="lost" extent="unknown" unit="character"/> 
@@ -162,7 +163,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <unclear reason="ambiguous">ᚄ</unclear>ᚑᚅ<choice><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice><unclear reason="damage">ᚓ</unclear>ᚂᚉᚉ<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="unk" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="4" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>RR<choice><unclear>M</unclear><unclear>A</unclear></choice><choice><unclear>O</unclear><unclear>G</unclear></choice>Q<unclear reason="damage">Q̣</unclear>DI<unclear reason="damage">Ṭ</unclear>T<g ref="#angled_O"/>SSS<gap reason="lost" extent="unknown" unit="character"/>     

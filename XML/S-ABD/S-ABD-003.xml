@@ -60,8 +60,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                             
-                            <textLang mainLang="sga-Ogam">Old Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang> <!--check language, please -->                              
+                            <textLang mainLang="sga-Ogam" cert="medium">Probably Old Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                              
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -145,6 +145,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
     <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition.</change>
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
+    <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     
 </listChange>
 </revisionDesc>
@@ -155,7 +156,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH">            
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" cert="medium" resp="#LH">            
                 <ab>
                     <lb n="1" style="text-direction:up" type="inner"/>
                     <w lemma="maqqas">ᚋᚐᚊᚊ<g ref="#forfid_OI"/></w> <persName><name nymRef="#talorc?">ᚈᚐ<g ref="#angled_L"/><g ref="#angled_L"/>ᚒᚑᚏᚏ<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
@@ -163,7 +164,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName><name nymRef="#?">ᚅ<g ref="#forfid_disjoined-X"/>ᚆᚆᚈ</name></persName> ᚃᚏ<g ref="#angled_O"/>ᚁᚁ<g ref="#hammerhead_A"/><unclear reason="illegible">ᚉ</unclear> <placeName cert="low">ᚉ<g ref="#forfid_disjoined-X"/>ᚅᚅᚓ<g ref="#angled_V"/><g ref="#angled_V"/></placeName> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="sga" cert="medium" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up" type="inner"/>
                     <w lemma="maqqas">MAQQ<g ref="#forfid_OI" type="interpretation_O"/></w> <persName><name nymRef="#talorc?">TA<g ref="#angled_L"/><g ref="#angled_L"/>UORR<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 

@@ -50,7 +50,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="sga-Ogam">Probably Old Irish written in ogham script</textLang>                            
+                            <textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -118,6 +118,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-01" who="#NW">Updated encoding of X-forfid and apparatus.</change>  
     <change when="2025-04-15" who="#NW">Updates to condition and provenance.</change>
     <change when="2025-04-18" who="#NW">Edition update - left interpretation of x-forfid as X in transliteration as not clearly E or K, or even forfid.</change>
+    <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
 
 </listChange>
 </revisionDesc>
@@ -128,13 +129,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-           <div type="edition" subtype="ogham" xml:space="preserve" resp="#NW">
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" cert="low" resp="#NW">
             <ab>
                     <lb n="1"/>ᚉᚑᚂᚑᚏᚏᚄ
                     <lb n="2"/><g ref="#forfid_X"/>ᚔᚁᚐᚅᚄᚅᚐᚃᚊ<unclear reason="damage">ᚓ</unclear>
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga" cert="low" resp="#NW">
                 <ab>
                     <lb n="1"/>COLORRS 
                     <lb n="2"/>XIBANSNAVQ<unclear reason="damage">E</unclear>

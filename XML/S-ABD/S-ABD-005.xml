@@ -58,10 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang> <!--check language, please -->                            
+                          <msItem>   
+                            <textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                             
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -141,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-19" who="#POC">Added country placename to origPlace, added CISP link, added style attribute to layout, added decoration section, added attribute to objectType</change>
     <change when="2025-04-17" who="#NW">Edition update - Added X-forfid glyphs.</change>
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid. Added layout style and rend.</change>
+    <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     
 </listChange>
 </revisionDesc>
@@ -152,7 +152,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve"  xml:lang="xpi-Ogam" cert="low" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/> <!--change text direction if needed, please-->
                     ᚁᚏ<g ref="#forfid_X"/>ᚌᚐᚃ <persName nymRef="#?">ᚅᚓᚉᚈᚑᚅ</persName>
@@ -160,7 +160,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     ᚂᚐᚁᚒ<gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration"  xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="3" style="text-direction:up"/> <!--change text direction if needed, please-->
                     BR<g ref="#forfid_X" type="interpretation_E"/>GAV <persName nymRef="#?">NECTON</persName>
