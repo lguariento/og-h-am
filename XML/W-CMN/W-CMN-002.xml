@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up-up">The two incomplete ogham inscriptions are along <q>the original right (A/B) and left (A/D) angles of the face, both reading upwards from the original base</q>. <q>The ogam inscriptions are positioned so that the corresponding words are near their roman equivalents... The short central stroke of the second V on the left side suggests that the ogam inscription was cut after and shortened so as to avoid line 3 of the roman inscription</q> The roman-letter, Latin inscription consists of <q>three lines reading vertically downwards (from the original top of the monument)</q> (Edwards 2007, 264-267).</layout>
+                                <layout style="vertical" rend="arris_up-up">The two incomplete ogham inscriptions are along <q>the original right (A/B) and left (A/D) angles of the face, both reading upwards from the original base</q>. <q>The ogham inscriptions are positioned so that the corresponding words are near their roman equivalents... The short central stroke of the second V on the left side suggests that the ogham inscription was cut after and shortened so as to avoid line 3 of the roman inscription</q> The roman-letter, Latin inscription consists of <q>three lines reading vertically downwards (from the original top of the monument)</q> (Edwards 2007, 264-267).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -102,9 +102,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+            <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/>
 </encodingDesc>
 <profileDesc>
 <calendarDesc>
@@ -133,9 +131,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-17" who="#MM">Molly McKendrick edited information to incorporate info from Welsh Corpus entry.</change>
     <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2023-07-24" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
-        <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
-<change when="2025-04-03" who="#POC">Simplified material type</change>
-<change when="2025-04-11" who="#POC">Updated execution encoding</change>
+    <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
+    <change when="2025-04-03" who="#POC">Simplified material type</change>
+    <change when="2025-04-11" who="#POC">Updated execution encoding</change>
+    <change when="2025-04-21" who="#NW">Corrections and updates including encodingDesc, edition and commentary updates (hi to foreign).</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,27 +145,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve">
+            <div type="edition" subtype="ogham" xml:space="preserve" source="EDW2007">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#BIVADIAS"> &#x1681;<choice><unclear reason="faded">&#x1694;</unclear><unclear reason="faded">&#x1693;</unclear></choice>&#x1683;&#x1683;<gap reason="illegible" extent="unknown"></gap></name>
-                    <lb n="2" style="text-direction:up"/><w>&#x1690;&#x1683;&#x1683;&#x1694;</w><name nymRef="#BODIBIVAS">&#x1681;&#x1691;&#x1687;&#x1687;&#x1694;<gap reason="illegible" extent="unknown"></gap></name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#bivadias"> &#x1681;<supplied reason="lost">&#x1694;</supplied>&#x1683;&#x1683;<gap reason="lost" extent="unknown"/></name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="avias">&#x1690;&#x1683;&#x1683;&#x1694;</w> <name nymRef="#bodibivas">&#x1681;&#x1691;&#x1687;&#x1687;&#x1694;<gap reason="lost" extent="unknown"/></name></persName>
                 </ab>
               </div>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
-                <div type="textpart" n="1">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">               
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#BIVADIAS">B<choice><unclear reason="faded" extent="1" unit="character">I</unclear><unclear reason="faded" extent="1" unit="character">E</unclear></choice>VV<gap reason="illegible" extent="unknown"></gap></name>
-                    <lb n="2" style="text-direction:up"/><w>AVVI</w><name nymRef="#BODIBIVAS">BODDI</name><gap reason="illegible" extent="unknown"></gap></persName>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#bivadias">B<supplied reason="lost">I</supplied>VV<gap reason="lost" extent="unknown"/></name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="avias">AVVI</w> <name nymRef="#bodibivas">BODDI<gap reason="lost" extent="unknown"/></name></persName>
                     </ab>
-                </div>
                </div>
-            <div type="edition" subtype="roman" xml:space="preserve">
+            <div type="edition" subtype="roman" xml:space="preserve" source="EDW2007">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#BIVADIAS">BI<hi rend="ligature">VA</hi>D<hi rend="inverted">I</hi></name>
-                    <lb n="2" style="text-direction:down"/><w>AVI</w><name nymRef="#BODIBIVAS">BODIBE
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#bivadias">BI<hi rend="ligature">VA</hi>D<hi rend="inverted">I</hi></name>
+                    <lb n="2" style="text-direction:down"/><w type="formula" lemma="avias">AVI</w><name nymRef="#bodibivas">BODIBE
                     <lb n="3" style="text-direction:down"/>VE</name></persName>
                 </ab>
                </div>
@@ -175,15 +173,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: 'B<choice><unclear reason="faded">i</unclear><unclear reason="faded">e</unclear></choice>vv<gap reason="illegible" extent="unknown"></gap>... grandson (or descendant) of Boddi...'</p>
+                    <p><title>Ogham</title>: 'Bivv... grandson (or descendant) of Boddi...'</p>
                 </div>
                </div>
-              <div type="textpart" n="2">
-                  <p><title>Latin</title>: 'Of<foreign xml:lang="pgl">Bivadus</foreign> grandson (or descendant) of <foreign xml:lang="pgl">Bodibeve</foreign>'</p>
+              <div type="textpart" n="2"> <!--not displaying!-->
+                  <p><title>Latin</title>: 'Of <foreign xml:lang="pgl">Bivadus</foreign> grandson (or descendant) of <foreign xml:lang="pgl">Bodibeve</foreign>'</p>
             </div>
-            <div type="commentary">
-                        <p>The ogam inscription is a variant of the 'X son of Y' formula. Enough survives <q>...to demonstrate that the ogam inscriptions are broadly the same as the roman, but the forms of the names are slightly different and <hi rend="italic">avi</hi> is spelt <hi rend="italic">avvi</hi>... The names are both Irish. ...Both Llanwinio names contain the popular Insular Celtic name-element 'living (OI <hi rend="italic">béo</hi>, W. <hi rend="italic">byw</hi>. ...Probably, however, it is a preform of the attested Old Irish masculine o-stem name <hi rend="italic">Búaidbéo</hi>, in which case -E represents the Irish or Latin genitive -I... Linguistically it is not possible to choose between -BEV- and -BIV- wherever the readings are unclear, since both are possible...</q> (Edwards 2007, 264-267).</p>
-                        <p><q>The roman-letter, Latin inscription uses a variant of the 'X son of Y' formula in the genitive case with <hi rend="italic">avi</hi> rather than <hi rend="italic">fili</hi>... <hi rend="italic">Avi</hi>, meaning 'grandson' or 'descendant', is a straight transliteration of the primitive Irish found in the ogam <hi rend="italic">avvi</hi>, rather than a Latin translation (Edwards 2007, 264-267; Jackson 1953, 180-181)</q>.</p>
+            <div type="commentary"> <!--Needs rewriting and some points moved to apparatus-->
+                        <p>The ogham inscription is a variant of the 'X son of Y' formula. Enough survives <q>...to demonstrate that the ogham inscriptions are broadly the same as the roman, but the forms of the names are slightly different and <foreign xml:lang="pgl">avi</foreign> is spelt <foreign xml:lang="pgl">avvi</foreign>... The names are both Irish. ...Both Llanwinio names contain the popular Insular Celtic name-element 'living' (Old Irish <foreign xml:lang="sga" corresp="https://dil.ie/5671">béo</foreign>, Welsh <foreign xml:lang="cy">byw</foreign>). ...Probably, however, it is a preform of the attested Old Irish masculine o-stem name <persName>Búaidbéo</persName>, in which case -E represents the Irish or Latin genitive -I... Linguistically it is not possible to choose between -BEV- and -BIV- wherever the readings are unclear, since both are possible...</q> (Edwards 2007, 264-267).</p>
+                        <p><q>The roman-letter inscription uses the same variant of the 'X son of Y' formula in the genitive case with <foreign xml:lang="pgl">avi</foreign> rather than <foreign xml:lang="la">fili</foreign>... <foreign xml:lang="pgl">Avi</foreign>, meaning 'grandson' or 'descendant', is a straight transliteration of the primitive Irish found in the ogham <hi rend="italic">avvi</hi>, rather than a Latin translation (Edwards 2007, 264-267; Jackson 1953, 180-181)</q>.</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
