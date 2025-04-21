@@ -96,10 +96,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -130,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
 <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, bibliography, added paragraph for support section</change>
 <change when="2025-03-31" who="#POC">Added CISP and TM links, added county and country to origPlace, added NGR coordinates</change>
-     <change when="2025-04-11" who="#POC">Updated execution encoding</change>
+    <change when="2025-04-11" who="#POC">Updated execution encoding</change>
     <change when="2025-04-21" who="#NW">Edition corrections: textparts, text direction. Updated textlang.</change>
     
 </listChange>
