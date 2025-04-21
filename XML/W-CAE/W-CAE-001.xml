@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_upR">The stone is inscribed with a Roman-letter inscription in three lines at the top of the face, justified to the right, reading horizontally. The stone is also inscribed with an Ogham inscription on the right edge of the Roman-letter inscribed face beginning about halfway to the top of the stone continuing over the top, reading vertically upwards. The Welsh Corpus notes that <q>the combination of a horizontal roman-letter inscription with ogam is unusual but is paralleled on Clocaenog 1 (D1), Castell Dwyran 1 (CM3) and Nevern 2 (P71). The placement of the ogam inscription on the right angle...is also more unusual that the left but is paralleled in the north on Llanfaelog (AN13)...the positioning of the roman-letter inscription towards the right angle of the stone where the ogam is located is surely intentional since it signals a relationship between the two</q> (Edwards 2013, 272).</layout>
+                                <layout style="vertical" rend="arris_upR">The stone is inscribed with a Roman-letter inscription in three lines at the top of the face, justified to the right, reading horizontally. The stone is also inscribed with an Ogham inscription on the right edge of the Roman-letter inscribed face beginning about halfway to the top of the stone continuing over<!--?--> the top, reading vertically upwards. The Welsh Corpus notes that <q>the combination of a horizontal roman-letter inscription with ogam is unusual but is paralleled on Clocaenog 1 (D1), Castell Dwyran 1 (CM3) and Nevern 2 (P71). The placement of the ogam inscription on the right angle...is also more unusual that the left but is paralleled in the north on Llanfaelog (AN13)...the positioning of the roman-letter inscription towards the right angle of the stone where the ogam is located is surely intentional since it signals a relationship between the two</q> (Edwards 2013, 272).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -131,6 +131,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, bibliography, added paragraph for support section</change>
 <change when="2025-03-31" who="#POC">Added CISP and TM links, added county and country to origPlace, added NGR coordinates</change>
      <change when="2025-04-11" who="#POC">Updated execution encoding</change>
+    <change when="2025-04-21" who="#NW">Edition corrections </change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -140,30 +142,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="roman" xml:space="preserve">
-                <div type="textpart" n="1" xml:lang="pgl-Latn">
-                    <ab>
-                    <lb n="1" style="text-direction:across"/><persName><name nymRef="#icarics">ICORI</name>FILIVS
-                        <lb n="2" style="text-direction:across"/>POTENTI
-                        <lb n="3" style="text-direction:across"/>NI</persName>
-                </ab>
-                </div>
-            </div>
-            <div type="edition" subtype="ogham" xml:space="preserve">
-                <div type="textpart" n="2" xml:lang="pgl-Ogam">
+             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" source="EDW2013">
+                <div type="textpart" n="2" >
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#icarics">&#x1694;&#x1689;&#x1691;&#x168F;&#x1694;&#x168C;
-                    <lb n="2" style="text-direction:across" break="no"/>&#x1690;&#x1684;</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#icarics">&#x1694;&#x1689;&#x1691;&#x168F;&#x1694;&#x168C;&#x1690;&#x1684;</name></persName>
                 </ab>
                 </div>
                   </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
-                <div type="textpart" n="2" xml:lang="pgl-Ogam">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" source="EDW2013">                
                  <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#icarics">ICORIG
-                    <lb n="2" style="text-direction:across" break="no"/>AS</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#icarics">ICORIGAS</name></persName>
                 </ab>   
+            <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve">
+                <div type="textpart" n="2">
+                    <ab>
+                    <lb n="1" style="text-direction:L-R"/><persName><name nymRef="#icarics">ICORI</name>FILIVS
+                        <lb n="2" style="text-direction:L-R"/>POTENTI
+                        <lb n="3" style="text-direction:L-R" break="no"/>NI</persName>
+                </ab>
                 </div>
+            </div>           
             </div>
             <div type="apparatus">
                 <p></p>
