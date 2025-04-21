@@ -65,10 +65,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>  
-                            <!--<textLang mainLang="la-Ogam">Latin written in Ogham script</textLang>  -->
-                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
-                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>            
-                           </msItem>
+                            <textLang mainLang="la-Latn" otherLangs="pgl-Latn">Latin written in Latin script with some Irish personal names</textLang>                                                  </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -143,7 +140,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-26" who="#NW">Added link to Welsh placename and standardised 'ogham' spelling.</change>
     <change when="2025-03-31" who="#POC">Added CISP and TM links, added country placenames to origPlace</change>
     <change when="2025-04-03" who="#POC">Moved geological information in material to note</change>
-      <change when="2025-04-16" who="#POC">Update layout and handnote, updated execution encoding</change>    
+    <change when="2025-04-16" who="#POC">Update layout and handnote, updated execution encoding</change> 
+    <change when="2025-04-21" who="#NW">Textlang update.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>

@@ -56,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
-                              <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                              <textLang mainLang="la-Latn" otherLangs="cel-Latn">Latin written in Latin script with a Celtic personal name</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -131,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, bibliography, added paragraph for support section</change>
 <change when="2025-03-31" who="#POC">Added CISP and TM links, added county and country to origPlace, added NGR coordinates</change>
      <change when="2025-04-11" who="#POC">Updated execution encoding</change>
-    <change when="2025-04-21" who="#NW">Edition corrections </change>
+    <change when="2025-04-21" who="#NW">Edition corrections: textparts, text direction. Updated textlang.</change>
     
 </listChange>
 </revisionDesc>
@@ -157,9 +157,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve">
                 <div type="textpart" n="2">
                     <ab>
-                    <lb n="1" style="text-direction:L-R"/><persName><name nymRef="#icarics">ICORI</name>FILIVS
-                        <lb n="2" style="text-direction:L-R"/>POTENTI
-                        <lb n="3" style="text-direction:L-R" break="no"/>NI</persName>
+                    <lb n="1" style="text-direction:l-to-r"/><persName><name nymRef="#icarics">ICORI</name>FILIVS
+                        <lb n="2" style="text-direction:l-to-r"/>POTENTI
+                        <lb n="3" style="text-direction:l-to-r" break="no"/>NI</persName>
                 </ab>
                 </div>
             </div>  
@@ -175,7 +175,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="commentary">
-                        <p>The Roman-letter inscription is in the 'X son of Y' formula. The first name in the inscription,<hi rend="italic">Icorix</hi> appears to have both British and Celtic influence while <hi rend="italic">Potentinus</hi> is Latin and use of this is paralleled elsewhere in Britain and Ireland (Edwards 2013, 272-3). On the context of the stone, the Welsh Corpus notes the presence of a Roman auxiliary fort at Pen Llystyn and argues that the stone <q>relates to continuing activity in the area of the fort, which would have remained a prominent landmark, in the post-Roman period</q> (Edwards 2013, 271-2).</p>
+                        <p>The Roman-letter inscription is in the 'X son of Y' formula. The first name in the inscription,<persName xml:lang="cel">Icorix</persName> appears to have both British and Celtic influence while <persName xml:lang="la">Potentinus</persName> is Latin and use of this is paralleled elsewhere in Britain and Ireland (Edwards 2013, 272-3). On the context of the stone, the Welsh Corpus notes the presence of a Roman auxiliary fort at Pen Llystyn and argues that the stone <q>relates to continuing activity in the area of the fort, which would have remained a prominent landmark, in the post-Roman period</q> (Edwards 2013, 271-2).</p>
                         <p>The Ogham inscription on the stone corresponds to the Roman-letter inscription, a thing which is also reflected in their placement in relation to each other. The spelling of ICORIGAS in the Ogham inscription suggests British influence. The Welsh Corpus argues that <q>if the name is British, the ogam presumably uses C rather than G either following the roman lettering or following the Irish cognate...the name has no known descendants in later Welsh or Irish</q> (Edwards 2013, 272-3).</p>
             </div>
             <div type="bibliography">
