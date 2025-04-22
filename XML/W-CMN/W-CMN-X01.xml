@@ -54,8 +54,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>                            
+                          <msItem>    
+                            <textLang mainLang="pgl-Ogam" cert="low">Primitive Irish written in Ogham script</textLang>      
+                            <textLang mainLang="la-Latn" otherLangs="pgl-Latn">Latin written in Latin script with irish personal names</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -72,11 +73,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A rough, irregular pillar with a rounded top and five faces, the stone is in good condition. Macalister (1945, 348) claims that the stone once bore an ogham inscription which has since <q>been disintegrated</q> and <q>probably hammered or rubbed away with intention</q>. According to Macalister (1945, 348) both the top and bottom of the inscribed angle are spalled, and the inscription is recognisable <q>only by the hollows which the groups of letter-scores have left on the two sides of the angle</q>. Edwards (2007, 219) remarks that the Latin inscription is in good condition except for the last letter of the first line which is partially buried.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_upR">In 1922, Macalister maintains that he saw a line of ogham on the <q>sinister angle</q> of the stone reflecting the Latin inscription (1945, 348). Edwards (2007, 219) states, however, that there is no corresponding ogham inscription on the stone. The roman-letter inscription begins nearly halfway down the south face of the stone and consists of two lines reading vertically downwards.</layout>
+                                <layout style="vertical" rend="arris_upR">In 1922, Macalister maintains that he saw a line of ogham on the <q>sinister angle</q> of the stone reflecting the Latin inscription. He describes it as <q>at best, for the greater part of its length, it is recognizable only by the hollows which the groups of letter-scores have left on the two sides of the angle</q> (Macalister 1945 348-349). Edwards (2007, 219) states, however, that there is no corresponding ogham inscription on the stone. The roman-letter inscription begins nearly halfway down the south face of the stone and consists of two lines reading vertically downwards.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister (1945, 348) offered no details about the execution of the ogham inscription, so the carving technique is <rs type="execution" key="other">unknown</rs>. However, he did note that the Latin inscription as predominantly  <q>chiselled</q> with a <q>few letters pocked</q> (1945, 348), while Edwards (2007, 219) described it as being <q>quite deeply incised</q>. The Latin inscription contains capitals, except for a <q>miniscule Q, which has an open loop</q> (Edwards 2007, 219). <q>The A's have angle-bars and the I's at the ends of both lines are horizontal. In line 2 FI and LI are conjoined and the I's are of small size; the top horizontal of the F slopes upward and the bottom downward; L has a downward sloping horizontal; B has separate loops and R has an extended vertical</q> (Edwards 2007, 219).
+                            <handNote>Macalister (1945, 348) offered no details about the execution of the ogham inscription, so the carving technique is <rs type="execution" key="other">unknown</rs>. However, he did note that the Latin inscription as predominantly <q>chiselled</q> with a <q>few letters pocked</q> (1945, 348), while Edwards (2007, 219) described it as being <q>quite deeply incised</q>. The Latin inscription contains capitals, except for a <q>miniscule Q, which has an open loop</q> (Edwards 2007, 219). <q>The A's have angle-bars and the I's at the ends of both lines are horizontal. In line 2 FI and LI are conjoined and the I's are of small size; the top horizontal of the F slopes upward and the bottom downward; L has a downward sloping horizontal; B has separate loops and R has an extended vertical</q> (Edwards 2007, 219).
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -142,7 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn">
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="la-Latn">
                 <ab>
                     <lb n="1"/><persName><name>QVENVENDAN<hi rend="inverted">I</hi></name>
                     <lb n="2"/><w><hi rend="ligature">FI</hi><hi rend="ligature">LI</hi></w><name>BARCVN<hi rend="inverted">I</hi></name></persName>            
@@ -151,18 +152,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <app n="1">
                     <note>Macalister (1922) read</note>
-                    <rdg source="MAC1922b">Ogham: --]NVENDANIM[--]B[-]R[--</rdg>
-                    <rdg source="MAC1922b">Latin: QVENVENDANI FILIBARCVUNI</rdg>
-                </app>
-                <app n="2">
-                    <note>The Latin inscription uses the 'X son of Y' formula in the genitive case (Edwards 2007, 219).</note>
-                </app>
+                    <rdg source="MAC1922b">Ogham: --]NVENDANIM[--]B[-]R[--</rdg>                   
+                </app>               
             </div>
             <div type="translation">
                 <p>'of <foreign xml:lang="pgl">Quenvendanus</foreign> son of <foreign xml:lang="pgl">Barcunus</foreign>'</p>
             </div>
             <div type="commentary">
-                <p>Edwards (2007, 219) notes that both names in the Latin inscription <q>are Irish and relatively late (post-syncope). QVENVENDANI (genitive) is a later form of the name seen in Ireland in ogam</q>, QENOVENDAGNI (see Macalister 1945, 3-4 CIIC: no 2), which is the ancestor of Irish <foreign xml:lang="sga">Cennf(h)innán</foreign>, 'white-headed one'. The second name, BARCVNI,<q> is a Latinized genitive of the ancestor of the Old Irish name <foreign xml:lang="sga">Barrchú</foreign>, 'dog-head' (although theoretically it could be a British name <foreign>*Bargwn).</foreign></q> (Edwards 2007, 219).</p>
+                <p>Edwards (2007, 219) notes that both names in the Latin inscription <q>are Irish and relatively late (post-syncope). QVENVENDANI (genitive) is a later form of the name seen in Ireland in ogham</q>, QENOVENDAGNI (see Macalister 1945, 3-4 CIIC: no 2), which is the ancestor of Irish <foreign xml:lang="sga">Cennf(h)innán</foreign>, 'white-headed one'. The second name, BARCVNI,<q> is a Latinized genitive of the ancestor of the Old Irish name <foreign xml:lang="sga">Barrchú</foreign>, 'dog-head' (although theoretically it could be a British name <foreign>*Bargwn).</foreign></q> (Edwards 2007, 219).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
