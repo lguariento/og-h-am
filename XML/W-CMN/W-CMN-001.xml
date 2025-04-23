@@ -118,6 +118,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
 <!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
 </keywords>-->
+    <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -130,7 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-08" who="#POC">Changed hi element for foreign element in commentary, added "sga" for language code but that could be wrong, added and encoded information from Edwards (2007) for provenance, condition, layout, handNote, updated execution type based on the image in Edwards (2007, 252), reversed order in sections so information on ogham is given first and Latin second</change>
     <change when="2025-04-09" who="#POC">Deleted Capel Mair from repository, added drawing and information from Macalister 1945.</change>
     <change when="2025-04-21" who="#NW">Corrections and updates including encodingDesc, textlang, edition (linebreak, etc) and commentary updates (hi to foreign).</change>
-    
+     <change when="2025-04-23" who="#POC">Added text type link, corrected nymRef values</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,26 +146,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" source="EDW2007">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#DECABARRABALVAS?"><gap reason="lost" extent="unknown"></gap>&#x1694;&#x1681;&#x1690;<gap reason="lost" extent="unknown"></gap></name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#decabarrabalvas"><gap reason="lost" extent="unknown"></gap>&#x1694;&#x1681;&#x1690;<gap reason="lost" extent="unknown"></gap></name></persName>
                 </ab>
               </div>
             </div>           
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#DECABARRABALVAS?"><gap reason="lost" extent="unknown"></gap>IBA<gap reason="lost" extent="unknown"></gap></name></persName>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#decabarrabalvas"><gap reason="lost" extent="unknown"></gap>IBA<gap reason="lost" extent="unknown"></gap></name></persName>
                     </ab>
                </div>
              <div type="edition" subtype="roman" xml:space="preserve" source="EDW2007">
                     <div type="textpart" n="2" xml:lang="la-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#DECABARRABALVAS?">DE<supplied reason="lost">CAB</supplied>ARBALOM</name> 
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#decabarrabalvas">DE<supplied reason="lost">CAB</supplied>ARBALOM</name> 
                     <lb n="2" style="text-direction:down"/><w>FI<supplied reason="lost">LI</supplied>VS</w> <name nymRef="#BROCCAGNAS">BROCAGN<hi rend="inverted"></hi>I</name></persName>
                 </ab>
                </div>
             </div> 
             <div type="apparatus">
                 <app n="1">
-                    <note>The missing and fragmentary letters of the ogham inscription were reconstructed from Morgan's drawing (Illus. CM25.2; Edwards 2007, 251). Edwards (2007, 252) cautions that <q>although Morgan's drawing of the roman-letter inscription appears accurate, his record of the ogam inscription seems unreliable</q>. Edwards (2007, 252) notes that the monument was probably already damaged at the time of drawing and, more importantly, that <q>ogam inscriptions were not understood at this time</q> (Edward 2007, 251-252).</note>
+                    <note>The missing and fragmentary letters of the ogham inscription were reconstructed from Morgan's drawing (Illus. CM25.2; Edwards 2007, 251). Edwards (2007, 252) cautions that <q>although Morgan's drawing of the roman-letter inscription appears accurate, his record of the ogam inscription seems unreliable</q>. Edwards (2007, 252) notes that the monument was probably already damaged at the time of drawing and, more importantly, that <q>ogam inscriptions were not understood at this time</q> (Edwards 2007, 251-252).</note>
                 </app>
                 <app n="2">
                     <note>Edwards (2007, 252) read only three ogham letters with certainty but maintained that the five strokes before could been an R or an N and the three strokes afterwards could be a V.</note>

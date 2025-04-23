@@ -56,7 +56,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>                          
-                            <textLang mainLang="la-Latn" otherLangs="cel-Latn">Latin written in Latin script with some Insular Celtic personal names</textLang>                                                   </msItem>
+                            <textLang mainLang="la-Latn" otherLangs="cel-Latn">Latin written in Latin script with some Insular Celtic personal names</textLang>                                                  
+                          </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -69,7 +70,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <width>0.30</width>
                                         <depth>0.10</depth>
                                         </dimensions></support>
-                                <condition>Edwards (2007, 232-233) describes the inscriptions as worn</condition>
+                                <condition>Edwards (2007, 232-233) describes the inscriptions as worn.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_up-up">The ogham inscription is independent of the roman-letter inscription and is present in two lines, both reading vertically upwards. Line 2 begins around halfway up the right-hand edge of the stone (A/B) and terminates at the top right-hand corner, where the fourth stroke of the final S is missing due to the fracture of the stone; line 1 is present on the left-hand corner of the stone (A/D) but the extent of the inscription is unclear due to significant damage on this side of the stone. The roman-letter inscription is in three lines reading vertically downwards. Lines 1 and 2 are present on the face of the stone (A); line 3 is on its left-side face (D) behind line 1 of the ogham inscription. </layout>
@@ -116,6 +117,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
 <!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
 </keywords>-->
+    <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -131,7 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-04" who="#POC">Simplified material type</change>
       <change when="2025-04-16" who="#POC">Remove info in repository, updated execution encoding, added condition section</change>  
     <change when="2025-04-21" who="#NW">Corrections and updates including encodingDesc, textlang, edition and commentary updates (hi to foreign)..</change>
-    
+      <change when="2025-04-23" who="#POC">Added text type link</change>   
 </listChange>
 </revisionDesc>
     </teiHeader>
