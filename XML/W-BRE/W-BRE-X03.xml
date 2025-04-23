@@ -55,7 +55,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>                            
+                            <textLang mainLang="la-Latn" otherLangs="pgl-Latn">Latin written in Latin script with some Irish personal names</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -93,10 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+              <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -115,6 +112,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
 <!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
 </keywords>-->
+    <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary, bibliography, added paragraph to support</change>
     <change when="2025-03-28" who="#POC">Added country and county to origPlace, added CISP and TM links</change>
 <change when="2025-04-14" who="#POC">Deleted execution encoding from Latin inscription</change>
+ <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated text lang, added word division to edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -138,16 +139,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn">       
-                <ab><title>Latin</title>:
-                    <lb n="1" style="text-direction:up"/><persName>CATACVSHICIAC<hi rend="ligature">IT</hi>
-                    <lb n="2" style="text-direction:up"/>FILIVSTEGERNACVS</persName>
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName>CATACVS HIC IAC<hi rend="ligature">IT</hi>
+                    <lb n="2" style="text-direction:up"/>FILIVS TEGERNACVS</persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <p></p>
             </div>
             <div type="translation">
-                <p><title>Latin</title>: <foreign xml:lang="pgl">Catacus</foreign> lies here, the son of <foreign xml:lang="pgl">Tegernacus</foreign></p>
+                <p>Latin: <foreign xml:lang="pgl">Catacus</foreign> lies here, the son of <foreign xml:lang="pgl">Tegernacus</foreign></p>
             </div>
             <div type="commentary">
                 <p><q>CATACVS... and TEGERNACVS are both Latinized nominatives of Celtic names...formed from stems meaning 'battle' and 'prince'. The suffix could be Irish (cf. <foreign xml:lang="sga">Cathach, Tigernach</foreign>) or Welsh, although the further into the seventh century the inscription is dated the harder it becomes to believe that -ACVS can be Welsh...rather than Irish</q> (Redknap and Lewis 2007, 195). No depth measurement of the stone is possible as it is currently cemented into the recess of a church buttress. With regard to the context of the stone, the Welsh Corpus notes that <q>the position of the stone on high ground about 1.6km from the church of Cwn Du and 200m outside the Roman fort of Pen-y-gaer suggests erection in a position visible from settlement in the valley below</q> (Redknap and Lewis 2007, 196). The Corpus also highlights <q>the conjunction of the name 'Catacus' (<foreign>Cadog</foreign> on the stone with the field-name 'Gwynlhiw' of its find-spot, St Gwynllyw being traditionally the father of St Cadog; while there is no question of the Catacus inscription being St Cadog, it shows the pseudo-historical legends connecting the two being borne out by topography, suggesting that they were not simply the invention of the hagiographer</q> (Redknap and Lewis 2007, 196).</p>
