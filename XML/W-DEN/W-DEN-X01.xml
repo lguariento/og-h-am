@@ -96,9 +96,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/>
 </encodingDesc>
 <profileDesc>
 <calendarDesc>
@@ -115,9 +113,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -130,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-04" who="#POC">Simplified material type</change>
 <change when="2025-04-10" who="#POC">Updated execution encoding, added drawing by Macalister (1945), updated commentary changing hi to foreign, restructured edition order </change>
+<change when="2025-04-23" who="#POC">Added encoding description and text type link, updated text parts in translation, added language codes to foreign in commentary, moved information on ogham reading to apparatus </change>   
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -161,21 +160,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note>The potential fragmentary Ogham inscription has only been noted by Macalister and does not appear on the illustrations in the Welsh Corpus (Edwards 2013, 346-8; Macalister 1945, 377). As only one character, R, was suggested, interpretation and translation is difficult (Macalister 1945, 377).</note>
+                </app>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">  
-                <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Brohomaglus Iattus</foreign>, here he lies, and his wife<foreign xml:lang="pgl">Caune</foreign>'</p>
+                    <p>Ogham: No translation given.</p>
                 </div>
                 <div type="textpart" n="2">
-                    <p><title>Ogham</title>: No translation given.</p>
+                    <p>Latin: 'of <foreign xml:lang="pgl">Brohomaglus Iattus</foreign>, here he lies, and his wife <foreign xml:lang="pgl">Caune</foreign>'</p>
                 </div>
             </div>
             <div type="commentary">
-                        <p>The Roman-letter inscription commemorates a husband and wife. Inscriptions commemorating wife and husband together is also seen on Llangefni 1 (AN39) and Llansadwrn 1 (AN45). On the structure of the inscription, the Welsh Corpus notes that <q><foreign>Brohomagli</foreign> is followed by the patronym <foreign>Iatti</foreign>, both in the genitive case...in line 3, <foreign>vxor</foreign> ('wife') is in the nominative, followed by <foreign>eivs</foreign> in the genitive and <foreign>Cavne</foreign> is also in the genitive, indicating the breakdown of the Latin case-system</q> (Edwards 2013, 347-8). Speaking to the character and origin of the names in the inscription, the Welsh Corpus comments that <q>BROHOMAGLI is an earlier from of W. <foreign>Brochfael</foreign>...'badger-prince'...than is seen in BROHCMAIL/BROHCMAL on Llandysilio yn Iâl 1 (D3). Quite likely Llandysul 1 (CD14), BROHO[, had the same form. IATTI...may be a hypocoristic variant of the Celtic name-element <foreign>Iantu-</foreign> 'jealousy, emulation', as in Old Breton names in <foreign>Iat-</foreign> and Gaulish <foreign>Iatta</foreign>. CAVNE probably corresponds to Latin names in <foreign xml:lang="la">Caun-</foreign>, of uncertain etymology, such as <foreign xml:lang="la">Caunus</foreign> and <foreign xml:lang="la">Caunia</foreign> (Edwards 2013, 348)</q>.</p>
+                        <p>The Roman-letter inscription commemorates a husband and wife. Inscriptions commemorating wife and husband together is also seen on Llangefni 1 (AN39) and Llansadwrn 1 (AN45). On the structure of the inscription, the Welsh Corpus notes that <q><foreign>Brohomagli</foreign> is followed by the patronym <foreign>Iatti</foreign>, both in the genitive case...in line 3, <foreign>vxor</foreign> ('wife') is in the nominative, followed by <foreign>eivs</foreign> in the genitive and <foreign>Cavne</foreign> is also in the genitive, indicating the breakdown of the Latin case-system</q> (Edwards 2013, 347-8). Speaking to the character and origin of the names in the inscription, the Welsh Corpus comments that <q>BROHOMAGLI is an earlier form of W. <foreign xml:lang="cy">Brochfael</foreign>...'badger-prince'...than is seen in BROHCMAIL/BROHCMAL on Llandysilio yn Iâl 1 (D3). Quite likely Llandysul 1 (CD14), BROHO[, had the same form. IATTI...may be a hypocoristic variant of the Celtic name-element <foreign xml:lang="cel">Iantu-</foreign> 'jealousy, emulation', as in Old Breton names in <foreign xml:lang="cel">Iat-</foreign> and Gaulish <foreign xml:lang="cel">Iatta</foreign>. CAVNE probably corresponds to Latin names in <foreign xml:lang="la">Caun-</foreign>, of uncertain etymology, such as <foreign xml:lang="la">Caunus</foreign> and <foreign xml:lang="la">Caunia</foreign> (Edwards 2013, 348)</q>.</p>
                             <p>It has been suggested that the identity of Brohomaglus may be the same as Brochfael, a grandson of Cunedda, who was associated with Rhufoniog, the <foreign>cantref</foreign> and potentially a kingdom situated where the inscribed stone was found (Gruffydd 1989-1990, 3).</p>
                             <p>However, the name is also fairly common so this association is not definitive (Edwards 2013, 348). On the context of the site, the Welsh Corpus highlights that it <q>appears to have been a cemetery with long-cists and the monument, presumably intially a focal point, has been reused, probably as the sole lintel over one of the graves...such reuse may be compared with Bodedern 1 (AN1) and Llannor 2-4 (CN30-2)</q> (Edwards 2013, 346-7).</p>
-                        <p>The potential fragmentary Ogham inscription has only been noted by Macalister and does not appear on the illustrations in the Welsh Corpus (Edwards 2013, 346-8; Macalister 1945, 377). As only one character, R, was suggested, interpretation and translation is difficult (Macalister 1945, 377).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
