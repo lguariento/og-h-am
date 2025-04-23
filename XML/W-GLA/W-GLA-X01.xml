@@ -101,10 +101,7 @@ Historic Environment Record</ref>: <idno type="HER">00646m
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -120,9 +117,9 @@ Historic Environment Record</ref>: <idno type="HER">00646m
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -134,6 +131,7 @@ Historic Environment Record</ref>: <idno type="HER">00646m
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
     <change when="2025-04-11" who="#POC">Updated execution type encoding, added condition, added layout attributes for filtering, moved information from commentary to apparatus, updated commentary replaced hi with foreign</change>
+<change when="2025-04-23" who="#POC">Added encodingDesc and text type link.</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -172,10 +170,10 @@ Historic Environment Record</ref>: <idno type="HER">00646m
             </div>
                 <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: 'TEGE[...' is assumed to be part of a name Macalister 1945, 380-381)</p>
+                    <p>Ogham: 'TEGE[...' is assumed to be part of a name (Macalister 1945, 380-381)</p>
                 </div>
                     <div type="textpart" n="2">
-                        <p><title>Latin</title>: '<foreign xml:lang="pgl">Tegernacus</foreign>, the son of <foreign xml:lang="pgl">Martius</foreign> lies here'</p>
+                        <p>Latin: '<foreign xml:lang="pgl">Tegernacus</foreign>, the son of <foreign xml:lang="pgl">Martius</foreign> lies here'</p>
                     </div>
             </div>
             <div type="commentary">
