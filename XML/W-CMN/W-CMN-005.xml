@@ -53,7 +53,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
-                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                            <textLang mainLang="la-Latn" otherLangs="cel-Latn">Latin written in Latin script with some Insular Celtic personal names</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -127,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
     <change when="2025-04-01" who="#NW">Updated layout, handnote and commentary - need to check Welsh corpus for further updates.</change>
     <change when="2025-04-04" who="#POC">Moved geo info in condition to note after material</change>
-    <change when="2025-04-21" who="#NW">Edition corrections: textparts, text direction.</change>    <change when="2025-04-23" who="#POC">Added text type link</change>     
+    <change when="2025-04-21" who="#NW">Edition corrections: textparts, text direction.</change>    <change when="2025-04-23" who="#POC">Added text type link, updated nymRef values and textLang, added IANA language codes to foreign in commentary</change>     
     
 </listChange>
 </revisionDesc>
@@ -141,20 +141,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" source="EDW2007">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#VOTEQARIGIS">&#x1683;&#x1691;&#x1688;&#x1693;&#x1689;&#x1691;&#x168F;&#x1694;&#x168C;&#x1690;&#x1684;</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#voteqarigis">&#x1683;&#x1691;&#x1688;&#x1693;&#x1689;&#x1691;&#x168F;&#x1694;&#x168C;&#x1690;&#x1684;</name></persName>
                 </ab>
                 </div>
              </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" source="EDW2007">               
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#VOTEQARIGIS">VOTECORIGAS</name></persName>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#voteqarigis">VOTECORIGAS</name></persName>
                     </ab>
             </div>
             <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" source="EDW2007">
                 <div type="textpart" n="2">
                 <ab>
                     <lb n="1"/><w>MEMORIA</w>
-                    <lb n ="2"/><persName><name nymRef="#VOTEQARIGIS">VOTEPORIGIS</name>
+                    <lb n ="2"/><persName><name nymRef="#voteqarigis">VOTEPORIGIS</name>
                     <lb n ="3"/><w>PROTICTORIS</w></persName>
                 </ab>
                </div>
@@ -167,7 +167,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p><title>Latin</title>: 'The memorial tomb/tomb of Voteporix the Protector'</p>
                 </div>
             <div type="commentary">
-                        <p>The Ogham inscription denotes only the name of the person commemorated, in the genitive case. The name VOTECORIGAS derives drom the genitive Celtic <foreign>*Votek<hi rend="superscript">w</hi>orīgos></foreign>, 'refuge-king', and shares the element <foreign>*tek<hi rend="superscript">w</hi>o-></foreign> with the Silchester Ogham TEBICATOS, and the prefix <foreign>*wo-</foreign> with the Old Welsh name <persName xml:lang="cy">Guotepauc</persName>. <q>It is not clear whether the Irish form translates the Welsh or vice versa: while the ogham O may copy the Brittonic composition vowel, it could be an independent Irish development due to the rounding influence of *Q > C. The preservation of -S despite the destabilization of *Q may betray archaization in the ogham</q> (Edwards 2007, 205-206).</p>
+                        <p>The Ogham inscription denotes only the name of the person commemorated, in the genitive case. The name VOTECORIGAS derives from the genitive Celtic <foreign xml:lang="cel">*Votek<hi rend="superscript">w</hi>orīgos></foreign>, 'refuge-king', and shares the element <foreign xml:lang="cel">*tek<hi rend="superscript">w</hi>o-></foreign> with the Silchester Ogham TEBICATOS, and the prefix <foreign>*wo-</foreign> with the Old Welsh name <persName xml:lang="owl">Guotepauc</persName>. <q>It is not clear whether the Irish form translates the Welsh or vice versa: while the ogham O may copy the Brittonic composition vowel, it could be an independent Irish development due to the rounding influence of *Q > C. The preservation of -S despite the destabilization of *Q may betray archaization in the ogham</q> (Edwards 2007, 205-206).</p>
                         <p>The latin inscription includes the term <foreign xml:lang="la">protectoris</foreign> which <q>is a title and originally referred to a member of the Roman imperial bodyguard... It has been suggested that <foreign xml:lang="la">protectoris</foreign> on this monument could be a hereditary title which might ultimately go back to the period of the Roman occupation (Alcock 1971, 122-123). The use of a Roman imperial title might be seen as a sign of continuing or adopted <foreign xml:lang="la">Romanitas</foreign> or as a means of providing legitimacy to a post-Roman ruler</q>. This inscription <q>is the only example of the use of the Latin <foreign xml:lang="la">memoria</foreign> in Wales</q> (Edwards 2007, 205).</p>
 
             </div>   
