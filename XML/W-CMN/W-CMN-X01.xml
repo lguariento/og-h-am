@@ -56,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>    
                             <textLang mainLang="pgl-Ogam" cert="low">Primitive Irish written in Ogham script</textLang>      
-                            <textLang mainLang="la-Latn" otherLangs="pgl-Latn">Latin written in Latin script with irish personal names</textLang>                            
+                            <textLang mainLang="la-Latn" otherLangs="pgl-Latn">Latin written in Latin script with Irish personal names</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -97,9 +97,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/>
 </encodingDesc>
 <profileDesc>
 <calendarDesc>
@@ -116,9 +114,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -134,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-09" who="#POC">Deleted execution type encoding for Latin inscription, added editor and respStmt information, updated layout to mention lack of ogham first, added drawing by Macalister, corrected page range for Macalister 1945 in commentary.</change>
 <change when="2025-04-10" who="#POC">Added and encoded information from Edwards (2007) and Macalister (1945), deleted repository, added execution type for ogham, deleted encoding for Latin execution type </change>
     <change when="2025-04-14" who="#POC">Corrected execution attribute value</change>
+      <change when="2025-04-23" who="#POC">Added encoding description and text type link</change>   
 </listChange>
 </revisionDesc>
     </teiHeader>
