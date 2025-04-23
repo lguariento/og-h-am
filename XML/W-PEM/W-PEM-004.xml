@@ -117,9 +117,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-11" who="#POC">Updated execution encoding, added decoration section and condition</change>
+<change when="2025-04-23" who="#POC">Added text type link.</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -165,11 +166,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: 'Of <foreign xml:lang="pgl">Trenagus</foreign> <gap reason="illegible" extent="1" unit="character"/> son of <foreign xml:lang="pgl">Macus-Treni</foreign>'</p>
+                    <p>Ogham: 'Of <foreign xml:lang="pgl">Trenagus</foreign> <gap reason="illegible" extent="1" unit="character"/> son of <foreign xml:lang="pgl">Macus-Treni</foreign>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: 'Of <foreign xml:lang="pgl">Trenegussus</foreign> son of <foreign xml:lang="pgl">Macus-Treni</foreign>, here he lies'</p>
+                  <p>Latin: 'Of <foreign xml:lang="pgl">Trenegussus</foreign> son of <foreign xml:lang="pgl">Macus-Treni</foreign>, here he lies'</p>
             </div>
             <div type="commentary">
                         <p><q>The naming pattern of father and son is best paralleled within Insular Celtic inscriptions by BARRIVENDI FILIVS VENDVBARI on Llandawke 1 (CM15) and BIVADI AVI BODIBEVE on Llanwinio 1 (CM34). Irish MACUTRENI and its archaizing ogam equivalent MAQITRENI have been discussed under Brawdy 1 (P1), where the same name appears. The Q of MAQI is probably also archaizing/conservative... Here the -E- for the composition vowel may reflect British influence... and the genitive in -I is either British or more likely Latin. The ogam seems to have the normal Irish composition vowel A, and while it may have had the expected Irish genitive in -O, it may equally well have read TRENAGUS[I] (as Macalister conjectured), copying the Roman TRENEGUSSI</q> (Edwards 2007, 311-313).</p>

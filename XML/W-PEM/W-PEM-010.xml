@@ -118,9 +118,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, added information to condition, added decoration section, corrected bibliography</change>
 <change when="2025-04-11" who="#POC">Updated execution encoding, updated commentary</change> 
 <change when="2025-04-14" who="#POC">Corrected decoration encoding, corrected validation error</change>
+<change when="2025-04-23" who="#POC">Added text type link, updated nymRef values.</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,14 +147,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#GENTILIS">&#x168C;&#x1693;&#x1685;&#x1687;&#x1694;&#x1682;&#x1694;</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#gentilis">&#x168C;&#x1693;&#x1685;&#x1687;&#x1694;&#x1682;&#x1694;</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#GENTILIS">GENDILI</name></persName>
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#gentilis">GENDILI</name></persName>
                     </ab>
                 </div>
                </div>
@@ -169,7 +170,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                <p><title>Ogham</title>: 'of <foreign xml:lang="pgl">Gendilus</foreign>'</p>
+                <p>Ogham: 'of <foreign xml:lang="pgl">Gendilus</foreign>'</p>
                 </div>
             </div>
             <div type="commentary">

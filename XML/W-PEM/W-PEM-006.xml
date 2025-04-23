@@ -116,9 +116,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
     <change when="2025-04-09" who="#POC">Deleted entry from repository, replaced hi element with foreign elements, updated execution technique, added and encoded information from Edwards 2007 and Macalister 1945, added Macalister drawing. </change>
+<change when="2025-04-23" who="#POC">Added text type link, updated nymRef values.</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,12 +143,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1"/><persName><name nymRef="#NETS SAGRI">&#x1685;&#x1693;&#x1688;&#x1688;&#x1690;&#x1684;&#x1690;&#x168C;&#x168F;<unclear reason="worn">&#x1694;</unclear></name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w><w>&#x168B;&#x1692;&#x1689;&#x1691;<unclear reason="worn">&#x1694;</unclear></w><name nymRef="#BRIGACAS">&#x1681;&#x168F;<unclear reason="worn">&#x1694;&#x1690;</unclear>&#x1689;&#x1694;</name></persName>
+                    <lb n="1"/><persName><name nymRef="#nets_sagri">&#x1685;&#x1693;&#x1688;&#x1688;&#x1690;&#x1684;&#x1690;&#x168C;&#x168F;<unclear reason="worn">&#x1694;</unclear></name><w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w><w>&#x168B;&#x1692;&#x1689;&#x1691;<unclear reason="worn">&#x1694;</unclear></w><name nymRef="#brigacas">&#x1681;&#x168F;<unclear reason="worn">&#x1694;&#x1690;</unclear>&#x1689;&#x1694;</name></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
                 <ab>
-                    <lb/><persName><name nymRef="#NETS SAGRI">NETTASAGR<unclear reason="worn">I</unclear></name> <w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><w>MUCO<unclear reason="worn">I</unclear></w><name nymRef="#BRIGACAS">BR<unclear reason="worn">IA</unclear>CI</name></persName>
+                    <lb/><persName><name nymRef="#nets_sagri">NETTASAGR<unclear reason="worn">I</unclear></name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><w>MUCO<unclear reason="worn">I</unclear></w><name nymRef="#brigacas">BR<unclear reason="worn">IA</unclear>CI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">

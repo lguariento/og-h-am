@@ -116,9 +116,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-11" who="#POC">Updated execution encoding, updated commentary </change>
 <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change> 
+<change when="2025-04-23" who="#POC">Added text type link, updated nymRef values.</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,13 +144,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#OCTU">&#x1691;&#x168C;&#x1688;&#x1693;&#x1685;<unclear reason="illegible">&#x1690;&#x1684;</unclear></name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#octu">&#x1691;&#x168C;&#x1688;&#x1693;&#x1685;<unclear reason="illegible">&#x1690;&#x1684;</unclear></name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#OCTU">OGTEN<unclear reason="illegible" extent="2" unit="character">AS</unclear></name></persName>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#octu">OGTEN<unclear reason="illegible" extent="2" unit="character">AS</unclear></name></persName>
                     </ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
@@ -165,11 +166,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: '<foreign xml:lang="pgl">Ogten<unclear reason="illegible">as</unclear></foreign>'</p>
+                    <p>Ogham: '<foreign xml:lang="pgl">Ogten<unclear reason="illegible">as</unclear></foreign>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Hogtivis (or Hogtinis)</foreign> son of <foreign xml:lang="pgl">Demetus (or Demetius</foreign>'</p>
+                  <p>Latin: 'of <foreign xml:lang="pgl">Hogtivis (or Hogtinis)</foreign> son of <foreign xml:lang="pgl">Demetus (or Demetius</foreign>'</p>
             </div>
             <div type="commentary">
                         <p>Linguistically, the most likely reading of the ogam inscription is OGTENAS: <q>a notch for the A is just visible and the final four strokes of the inscription could be interpreted as an S. If this is correct, the inscription is simply the name of the deceased in the genitive case</q> (Rhys 1918, 189) suggested that <q>GT is an unusual variant spelling of Irish <foreign xml:lang="sga">cht</foreign>, as in QAGTE or QEGTE... In that case OGT- may be the stem seen in OI <foreign xml:lang="sga">Ochtach, Ochtbran</foreign>, etc.</q> (Edwards 2007, 473).</p>

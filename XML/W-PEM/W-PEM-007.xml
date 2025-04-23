@@ -113,9 +113,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-11" who="#POC">Updated execution encoding, updated commentary</change>
 <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change> 
+<change when="2025-04-23" who="#POC">Added text type link, updated nymRef values.</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,14 +143,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#MAGLADUBRACU">&#x168B;&#x1690;&#x168C;&#x1682;<gap reason="lost" extent="unknown"></gap>&#x1687;&#x1692;&#x1681;&#x168F;<gap reason="lost" extent="unknown"></gap></name>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#magladubracu">&#x168B;&#x1690;&#x168C;&#x1682;<gap reason="lost" extent="unknown"></gap>&#x1687;&#x1692;&#x1681;&#x168F;<gap reason="lost" extent="unknown"></gap></name>
                     <lb n="2" style="text-direction:down"/><gap reason="lost" extent="unknown"></gap>&#x168A;&#x1694;<gap reason="lost" extent="unknown"></gap></persName>                
                 </ab>
               </div>
             </div>      
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#MAGLADUBRACU">MAGL<gap reason="lost" extent="unknown"></gap>DUBR<gap reason="lost" extent="unknown"></gap></name>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#magladubracu">MAGL<gap reason="lost" extent="unknown"></gap>DUBR<gap reason="lost" extent="unknown"></gap></name>
                         <lb n="2" style="text-direction:down"/><gap reason="lost" extent="unknown"></gap>QI<gap reason="lost" extent="unknown"></gap></persName> 
                     </ab>
                </div>
@@ -172,12 +173,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                     <p><title>Ogham</title>: <lb n="1" style="text-direction:up"/>'MAGLI<gap reason="lost" extent="unknown"></gap>DUBR<gap reason="lost" extent="unknown"></gap>
+                     <p>Ogham: <lb n="1" style="text-direction:up"/>'MAGLI<gap reason="lost" extent="unknown"></gap>DUBR<gap reason="lost" extent="unknown"></gap>
                         <lb n="2" style="text-direction:down"/><gap reason="lost" extent="unknown"></gap>QI<gap reason="lost" extent="unknown"></gap>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: 'With the sign of the cross I fashioned on that [?] I ask all walking there that they pray for the soul of <foreign xml:lang="pgl">Catuoconus</foreign>'</p>
+                  <p>Latin: 'With the sign of the cross I fashioned on that [?] I ask all walking there that they pray for the soul of <foreign xml:lang="pgl">Catuoconus</foreign>'</p>
               </div>
             <div type="commentary">
                         <p><q>The surviving ogam letters suggest a compound personal name: (i) MAGL[-]DUBR, and (ii) -QI-, which could be part of <foreign xml:lang="sga">maqi</foreign>... The inscription is unlikely to be other than Irish, in view of the use of ogam and the presence of Q... Both DUBAR[CUNAS] and... DUBR[ACUNAS].. seem possible restorations, both being possible spellings of Old Irish <foreign xml:lang="sga">doborchú</foreign>, gen. <foreign xml:lang="sga">doborchon</foreign>, 'water-dog, otter'</q> (Edwards 2007, 296).</p>

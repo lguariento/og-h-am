@@ -96,10 +96,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -115,9 +112,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -129,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-26" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-10" who="#POC">Updated execution encoding, deleted repository, added drawing by Macalister (1945)</change>
+    <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated commentary with language codes. </change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -153,7 +151,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>'of <foreign xml:lang="la">Solinus</foreign> son of <foreign xml:lang="pgl">Vendonus</foreign>'</p>
             </div>
             <div type="commentary">
-                <p><q><foreign xml:lang="la">Solinus</foreign> is a Latin name... VENDONI has often been regarded as Irish and is sometimes seen as a later form of the Irish name VENDOGNI... There are phonological problems, however, and it may be better to regard it as a spelling of the old Celtic name <foreign xml:lang="sga">Vindonius</foreign> (from Celtic <foreign xml:lang="sga">*Windo-</foreign>, 'white'), and therefore not specifically Irish, Welsh, or Celtic-Latin</q> (Edwards 2007, 314).</p>
+                <p><q><foreign xml:lang="la">Solinus</foreign> is a Latin name... VENDONI has often been regarded as Irish and is sometimes seen as a later form of the Irish name VENDOGNI... There are phonological problems, however, and it may be better to regard it as a spelling of the old Celtic name <foreign xml:lang="sga">Vindonius</foreign> (from Celtic <foreign xml:lang="cel">*Windo-</foreign>, 'white'), and therefore not specifically Irish, Welsh, or Celtic-Latin</q> (Edwards 2007, 314).</p>
             </div>
             <div type="bibliography">
                 <listBibl>  

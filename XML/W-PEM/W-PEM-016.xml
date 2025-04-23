@@ -100,10 +100,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -119,9 +116,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -133,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-11" who="#POC">Updated execution encoding, updated commentary </change>
 <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change> 
+    <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated nymRef values, moved information from commentary to apparatus </change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,19 +143,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><w lemma="MAQQAS">&#x168B;&#x1690;&#x168A;</w><unclear reason="illegible" extent="unknown" unit="character"></unclear><unclear reason="faded" extent="1" unit="character">&#x1687;</unclear><gap reason="lost" extent="unknown" unit="character"></gap>
+                    <lb n="1" style="text-direction:up"/><w lemma="maqqas">&#x168B;&#x1690;&#x168A;</w><unclear reason="illegible" extent="unknown" unit="character"></unclear><unclear reason="faded" extent="1" unit="character">&#x1687;</unclear><gap reason="lost" extent="unknown" unit="character"></gap>
                 </ab>
               </div>
             </div>   
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><w lemma="MAQQAS">MAQ</w><gap reason="illegible" extent="1" unit="character"/><unclear reason="faded" extent="1" unit="character">D</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="1" style="text-direction:up"/><w lemma="maqqas">MAQ</w><gap reason="illegible" extent="1" unit="character"/><unclear reason="faded" extent="1" unit="character">D</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     </ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1"/><w lemma="MAQQAS"><supplied reason="lost"><hi rend="ligature">MAC</hi></supplied></w>
+                    <lb n="1"/><w lemma="maqqas"><supplied reason="lost"><hi rend="ligature">MAC</hi></supplied></w>
                     <lb n="2"/>CVDICCL
                     <lb n="3"/>FILIVS
                     <lb n="4"/><hi rend="ligature">CA</hi>TIC
@@ -166,7 +164,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </div>
             </div>        
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note>Although the ogam inscription is fragmentary, MAQ is quite clear. These letters are followed by two (or more?) vowel-notches, but the angle is damaged at this point and no reading is possible. Above are two fragmentary horizontal strokes to the left, which almost certainly form a D. </note>
+                </app>
+                <app n="2">
+                    <note><q>The first line of the Latin inscription... may be reconstructed with confidence from the drawings in BL Stowe MS 1024, fos. 52-3... The inscription uses the 'X son of Y' formula in the nominative case</q> (Edwards 2007, 382).</note>
+                </app>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
@@ -177,8 +180,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p>Latin: '<foreign xml:lang="pgl">Maccudiccl</foreign> son of <foreign xml:lang="pgl">Caticuus</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p><q>...Although the ogam inscription is fragmentary, MAQ is quite clear. These letters are followed by two (or more?) vowel-notches, but the angle is damaged at this point and no reading is possible. Above are two fragmentary horizontal strokes to the left, which almost certainly form a D. It is possible that the inscription originally read MAQID- and could therefore be the beginning of a slightly different form of Maccudiccl... It seems possible that CATICVVS is OI <foreign xml:lang="sga">Cathchú</foreign> ('battle-hound'), with VV representing the Irish long vowel and only the -S being Latin</q> (Edwards 2007, 382).</p>
-                        <p><q>The first line of the Latin inscription... may be reconstructed with confidence from the drawings in BL Stowe MS 1024, fos. 52-3... The inscription uses the 'X son of Y' formula in the nominative case</q> (Edwards 2007, 382).</p>
+                        <p><q>It is possible that the ogham inscription originally read MAQID- and could therefore be the beginning of a slightly different form of Maccudiccl... It seems possible that CATICVVS is OI <foreign xml:lang="sga">Cathchú</foreign> ('battle-hound'), with VV representing the Irish long vowel and only the -S being Latin</q> (Edwards 2007, 382).</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  

@@ -101,10 +101,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -120,9 +117,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -135,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-03" who="#POC">Simplified material type</change>
 <change when="2025-04-15" who="#POC">Update handnote and layout</change>
+<change when="2025-04-23" who="#POC">Added encoding description, text type link, updated nymRef values, replaced hi rend with foreign in commentary</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,12 +145,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#MAGLACU">
-                        &#x168B;&#x1690;&#x168C;&#x1682;&#x1694;&#x1689;&#x1692;&#x1685;&#x1690;&#x1684;</name><w lemma="MAQQAS">&#x168B;&#x1690;&#x168A;&#x1694;</w>
-                        <name nymRef="#KLUTARIGS">&#x1689;&#x1682;&#x1692;&#x1688;&#x1690;
+                    <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#maglacu">
+                        &#x168B;&#x1690;&#x168C;&#x1682;&#x1694;&#x1689;&#x1692;&#x1685;&#x1690;&#x1684;</name><w lemma="maqqas">&#x168B;&#x1690;&#x168A;&#x1694;</w>
+                        <name nymRef="#klutarigs">&#x1689;&#x1682;&#x1692;&#x1688;&#x1690;
                     <lb n="2" style="text-direction:across"/><unclear reason="damage">&#x168F;</unclear><gap reason="lost" extent="unknown"></gap></name></persName>
                 </ab>
               </div>
+                <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
+                <div type="textpart" n="1">
+                    <ab>
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#maglacu">MAGLICUNAS</name><w lemma="maqqas">MAQI</w><name nymRef="#klutarigs">CLUTA
+                        <lb n="2" style="text-direction:across"/><unclear reason="illegible" extent="1" unit="character">R</unclear><gap reason="lost" extent="unknown"></gap></name></persName>
+                    </ab>
+                </div>
+               </div>
             </div>
                  <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
@@ -164,14 +170,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
                </div>
             </div>            
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
-                <div type="textpart" n="1">
-                    <ab>
-                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#MAGLACU">MAGLICUNAS</name><w lemma="MAQQAS">MAQI</w><name nymRef="#KLUTARIGS">CLUTA
-                        <lb n="2" style="text-direction:across"/><unclear reason="illegible" extent="1" unit="character">R</unclear><gap reason="lost" extent="unknown"></gap></name></persName>
-                    </ab>
-                </div>
-               </div>
+            
             <div type="apparatus">
                 <p></p>
             </div>
@@ -184,7 +183,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p>Latin: '<foreign xml:lang="pgl">Maglocu</foreign> son of <foreign xml:lang="pgl">Clutorius</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p><q>In the ogam inscription the first name is in the genitive case. The end of the second name is missing but CLUTA at the beginning is clear. The next letter is incomplete. It now consists of four partially visible diagonal strokes and, if it is the same as the roman inscription, there was almost certainly a fifth, thereby identifying it as an R... (Rhys 1910, 328) reconstructed the name as the genitive CLUTA[RI], thereby reflecting the roman inscription... (Jackson 1953, 624) and (McManus 1991, 91) have suggested an alternative genitive CLUTA[RIGAS]... These Celtic names are either British with Irish influence on the spelling or Irish with British influence on the spelling... The first name is either W. <hi rend="italic">Meilyg/Maelgwn</hi>, 'prince-hound', or Ir. <hi rend="italic">Máelchú</hi>, gen. <hi rend="italic">Máelchon</hi>...</q> (Edwards 2007, 391-392).</p>
+                        <p><q>In the ogam inscription the first name is in the genitive case. The end of the second name is missing but CLUTA at the beginning is clear. The next letter is incomplete. It now consists of four partially visible diagonal strokes and, if it is the same as the roman inscription, there was almost certainly a fifth, thereby identifying it as an R... (Rhys 1910, 328) reconstructed the name as the genitive CLUTA[RI], thereby reflecting the roman inscription... (Jackson 1953, 624) and (McManus 1991, 91) have suggested an alternative genitive CLUTA[RIGAS]... These Celtic names are either British with Irish influence on the spelling or Irish with British influence on the spelling... The first name is either W. <foreign xml:lang="cy">Meilyg/Maelgwn</foreign>, 'prince-hound', or Ir. <foreign xml:lang="ga">Máelchú</foreign>, gen. <foreign xml:lang="ga">Máelchon</foreign>...</q> (Edwards 2007, 391-392).</p>
                         <p>The last letter of the first name in the roman-letter inscription has been alternately identified as either a reversed N or a conjoined VI. If an N, the name reads as MAGLOCVN(i) which reflects the spelling of the ogam inscription. Otherwise, the spelling MAGLOCVVI would be the Latinized genitive of the Irish name Maglocu in the nominative  (Edwards 2007, 391-392).</p>
                     </div>
             <div type="bibliography">

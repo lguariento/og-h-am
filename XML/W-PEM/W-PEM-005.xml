@@ -113,9 +113,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-28" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-10" who="#POC">Updated execution encoding, deleted repository, added drawing by Macalister (1945)</change>
+<change when="2025-04-23" who="#POC">Added text type link, changed hi rend to foreign in commentary, update nymRef value.</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -139,40 +140,42 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="la-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#AETERNUS">&#x1693;&#x1688;&#x1688;&#x1693;&#x168F;&#x1685;<gap reason="lost" extent="unknown" unit="character"></gap></name>
-                    <lb n="2" style="text-direction:down"/><name nymRef="#VICTOR"><gap reason="lost"></gap>&#x1688;&#x1691;&#x168F;</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#aeternus">&#x1693;&#x1688;&#x1688;&#x1693;&#x168F;&#x1685;<gap reason="lost" extent="unknown" unit="character"></gap></name>
+                    <lb n="2" style="text-direction:down"/><name nymRef="#victor"><gap reason="lost"></gap>&#x1688;&#x1691;&#x168F;</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="la-Ogam">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#AETERNUS">ETTERN<gap reason="lost" extent="unknown" unit="character"></gap></name>
-                    <lb n="2" style="text-direction:down"/><name nymRef="#VICTOR"><gap reason="lost"></gap>TOR</name></persName>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#aeternus">ETTERN<gap reason="lost" extent="unknown" unit="character"></gap></name>
+                    <lb n="2" style="text-direction:down"/><name nymRef="#victor"><gap reason="lost"></gap>TOR</name></persName>
                     </ab>
                 </div>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="la-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#AETERNUS"><unclear reason="illegible">E</unclear>TTERN<hi rend="inverted">I</hi></name><w><hi rend="ligature">FIL</hi>I</w><name nymRef="#VICTOR">VICTOR</name></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#aeternus"><unclear reason="illegible">E</unclear>TTERN<hi rend="inverted">I</hi></name><w><hi rend="ligature">FIL</hi>I</w><name nymRef="#victor">VICTOR</name></persName>
                 </ab>
                </div>
             </div>         
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note><q>Enough survives of the ogam inscription to suggest that it should be reconstructed to read <foreign xml:lang="pgl">Ettern[i maqi Vic]tor</foreign> ('of Etternus son of Victor'), thus echoing the Latin. The 'X son of Y' formula would therefore be used for both</q> (Edwards 2007, 317-318).</note>
+                </app>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: 'of <foreign xml:lang="pgl">Etternus</foreign> son of <foreign xml:lang="pgl">Victor</foreign>'</p>
+                    <p>Ogham: 'of <foreign xml:lang="pgl">Etternus</foreign> son of <foreign xml:lang="pgl">Victor</foreign>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>:' of <foreign xml:lang="la">Etternus</foreign> son of <foreign xml:lang="la">Victor</foreign>'</p>
+                  <p>Latin: ' of <foreign xml:lang="la">Etternus</foreign> son of <foreign xml:lang="la">Victor</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p><q>Enough survives of the ogam inscription to suggest that it should be reconstructed to read <hi rend="italic">Ettern[i maqi Vic]tor</hi> ('of Etternus son of Victor'), thus echoing the Latin. The 'X son of Y' formula would therefore be used for both</q> (Edwards 2007, 317-318).</p>
-                        <p><q>In the Latin <hi rend="italic">Etterni</hi> and <hi rend="italic">fili</hi> are in the genitive case; <hi rend="italic">Victor</hi> may be in the nominative. The names are both Latin, which is unusual on monuments with bilingual inscriptions... though both were naturalized in Welsh (Nash-Williams 1950, nos. 97, 271). <hi rend="italic">(A)eternus</hi> gave Welsh <hi rend="italic">Edyrn</hi> (beside <hi rend="italic">Edern</hi>... <hi rend="italic">Victor</hi> instead of genitive <hi rend="italic">Victoris</hi> is not necessarily an indication of post-apocope date, as it may be an example of nominative for genitive</q> (Edwards 2007, 317-318).</p>
+                        <p></p>
+                        <p><q>In the Latin <foreign xml:lang="la">Etterni</foreign> and <foreign xml:lang="la">fili</foreign> are in the genitive case; <foreign xml:lang="la">Victor</foreign> may be in the nominative. The names are both Latin, which is unusual on monuments with bilingual inscriptions... though both were naturalized in Welsh (Nash-Williams 1950, nos. 97, 271). <foreign xml:lang="la">(A)eternus</foreign> gave Welsh <foreign xml:lang="cy">Edyrn</foreign> (beside <foreign xml:lang="cy">Edern</foreign>... <foreign xml:lang="la">Victor</foreign> instead of genitive <foreign xml:lang="la">Victoris</foreign> is not necessarily an indication of post-apocope date, as it may be an example of nominative for genitive</q> (Edwards 2007, 317-318).</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
