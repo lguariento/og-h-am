@@ -97,10 +97,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -119,6 +116,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
 <!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
 </keywords>-->
+    <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country and county to origPlace, updated bibliography</change>
 <change when="2025-04-14" who="#POC">Updated execution type</change>
  <change when="2025-04-17" who="#POC">Update material to unknown for now</change>
+ <change when="2025-04-23" who="#POC">Added encoding description and text type link</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
