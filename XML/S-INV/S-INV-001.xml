@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
-                            <textLang mainLang="sga-Ogam">Old Irish written in igham script</textLang>
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
 <!--<textLang> is unclear and cannot be determined with certainty (Forsyth 1996)-->
                            </msItem>
                     </msContents>
@@ -79,14 +79,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <dim type="tang">0.6</dim>
                                     </dimensions>         
                                 </support>
-                                <condition>All of the blade missing except rusted tang of an iron blade, bone well preserved and carving clear, but a fracture has occurred near the blade-end (Forsyth 1996, 58).</condition>
+                                <condition>The knife-handle retains only the rusted tang of an iron blade. The bone is well preserved apart from a fracture near the blade-end (Forsyth 1996, 58). The ogham inscription is generally clear and appears complete. Parts of the inscription have been worn or chipped and vowel-notches have been lost, however, Forsyth (1996, 59) notes that <q>the available space may be used to determine what is missing</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="other"><q>The bone has been planed to produce a slight ridge for one line of ogham lettering</q> (Forsyth 1996, 58). <q>The inscription begins about half-way along the handle and continues for approximately 50mm, almost to the handle's end</q> (Forsyth 1966, 59).</layout>
+                                <layout style="other">There is no stem-line. Instead, the <q>bone has been planed to produce a slight ridge for one line of ogham lettering</q> (Forsyth 1996, 58). <q>The inscription begins about half-way along the handle and continues for approximately 50mm, almost to the handle's end</q> (Forsyth 1966, 59). The individual strokes appear to have been closely yet evenly spaced and there is clear differentiation between vowels and consonants.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The lines are fine and appear to have been <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs> with a sharp blade.  
+                            <handNote>The inscription is comprised of <q>thin consonant-strokes and very short vowel-strokes</q> (Forsyth 1996, 61). The lines are fine and appear to have been <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs> with a sharp blade. Forsyth (1996, 59-60) remarks that <q>each stroke is cut with a single slash, there has been no re-cutting, which perhaps implies that the carving was done with skill and some confidence</q>.  
                                 <height>The longest consonant strokes are c.0.6cm long (Forsyth 1996, 59).</height>
                             </handNote>
                         </handDesc>
@@ -98,7 +98,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NF 7694 7619</note></origPlace>
                             <origDate notBefore="0400" notAfter="0800" precision="low">fifth to eighth century</origDate>
                         </origin>
-                        <provenance type="found" when="1919">Discovered in <date>1919</date> during Erskine Beveridge's excavation (Forsyth 1996, 55).
+                        <provenance type="found" when="1919">Discovered in <date>1919</date> during Erskine Beveridge's excavation of a wheelhouse on the tidal islet of Vallay, North Uist (Forsyth 1996, 55). The ogham-inscribed knife-handle was accessioned in December 1921.
                         </provenance>
                         <provenance type="observed" when="2022-05-06">Recorded in the <placeName>National Museum of Scotland</placeName> on <date>May 6th 2022</date>.
                         </provenance>
@@ -144,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-06" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, commented out apparatus and translation</change>
     <change when="2025-03-27" who="#POC">Added secondary location coordinates, added attributes for filtering, added country to origPlace, moved information to apparatus and translation, added images</change>
     <change when="2025-04-14" who="#POC">Updated execution type, added attribute to layout</change>
+<change when="2025-04-24" who="#POC">Added and encoded information from Forsyth (1996).</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -157,14 +158,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <w lemma="maqqas">ᚋ<unclear reason="damaged">ᚑ</unclear>ᚊᚒ</w> ᚅᚈᚓᚅᚉ<unclear reason="damaged">ᚐ</unclear>ᚈ
+                    <w>ᚋ<unclear reason="damaged">ᚑ</unclear>ᚊᚒ</w> <w>ᚅᚈᚓᚅᚉ<unclear reason="damaged">ᚐ</unclear>ᚈ</w>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="2" style="text-direction:up"/>
-                    <w lemma="maqqas">M<unclear reason="damaged">Ọ</unclear>QU</w> NTENC<unclear reason="damaged">Ạ</unclear>T
-            <!-- double-check whether to include the lemma MAQQAS or not, please (given the O and Megan's blog analysis that O is more likely than A-->
+                    <w>M<unclear reason="damaged">O</unclear>QU</w> <w>NTENC<unclear reason="damaged">A</unclear>T</w>
                 </ab>
             </div>
             <div type="apparatus">
@@ -172,15 +172,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>The use of RTI and photogrammetry conducted by Megan Kasten has confirmed the reading provided as the most feasible. The measurements taken from the 3D model enabled a more precise estimation of the average spacing between individual letters and therefore suggest that the second letter is most likely to be an O (two strokes). Similarly, given the space between the third to last and the last letter, and considering what is left of the damaged surface, the second to last character is most likely to have been an A or a B with A being linguistically more probable (Kasten 2023).</note>
                 </app>
+                    <app n="2">
+                        <note>Forsyth (1996, 61) highlights two features of the inscription that are worth mentioning: <q>the initial letter, M, is upright, not oblique</q> and there are no double letters in the inscription. Furthermore, although previous commentators have interpreted the Bac Mhic Connain ogham as Pictish, Forsyth (1996, 66) maintains that <q>the letters are most naturally read as Irish</q>. </note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>There is no obvious interpretation of this inscription and several readings could be suggested, however, the three initial letters MAQ very likely stand for 'son' in Irish (Forsyth 1996, 61-5). </p>
+                <p>There is no obvious interpretation of this inscription and several segmentations and readings could be suggested. </p>
             </div>
             <div type="commentary">
 <p>Forsyth (1996, 66) maintains that, generally, <q>the text appears to be a single male personal name and as such probably records the identity of the owner or maker (or donor if it was given as a gift)</q>.</p>
-<p></p>
-<p>Forsyth commemorates that <q>the Bac Mhic Connain knife-handle is one of a very small group of ogham-inscribed household objects, and as such provides important evidence for the non-monumental use of the script</q> (Forsyth 1996, 65).</p>
+<p>Forsyth highlights that <q>the Bac Mhic Connain knife-handle is one of a very small group of ogham-inscribed household objects, and as such provides important evidence for the non-monumental use of the script</q> (Forsyth 1996, 65).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
