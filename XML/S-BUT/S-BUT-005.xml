@@ -80,16 +80,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions>     
                                     <desc type="decoration">Face B features a <rs type="decoration" key="cross">cruciform, curvilinear design with two intersecting lines terminating in spirals</rs>.</desc>
                                 </support>
-                                <condition>A small piece of slate, roughly rectangular in shape with some fractures and wear, inscribed in both Latin and ogham. The upper portion has a very straight break and appears to have been trimmed. The Latin inscription has some minor scratches and the ogham inscription is incomplete, consisting of only the first ten letters of the alphabet.</condition>
+                                <condition>A small piece of slate, roughly rectangular in shape with some fractures and wear, inscribed in both ogham and Latin. The upper portion has a very straight break and appears to have been trimmed. The ogham inscription is incomplete, consisting of only the first ten letters of the alphabet. The Latin inscription is accompanied by some minor scratches which appear to be accidental.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="horizontal" rend="stemline">Face A exhibits two lines of Latin writing, while face B contains an ogham inscription comprised of the first ten letters of the alphabet as well as decorative features. The ogham inscription runs horizontally across the middle of the slate slab. The drawn-in stem begins about <dim type="length" unit="mm">10mm</dim> from the left edge with the end lost in the fractured top right corner. </layout>
+                                <layout style="horizontal" rend="stemline">Face B contains an ogham inscription comprised of the first ten letters of the alphabet as well as decorative features. The ogham inscription runs horizontally across the middle of the slate slab. The drawn-in stem begins about <dim type="length" unit="mm">10mm</dim> from the left edge with the end lost in the fractured top right corner. There are two lines of Latin writing carved on face A.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Forsyth and Tedeschi observed that the two inscriptions, Latin and ogham, appear to have possibly been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> by the same hand. However there is not sufficient evidence to argue that the ogham inscription has not been added at a later date. The carver has managed to write the ogham in neatly parallel and equidistant individual strokes with the exception of the final stroke not reaching the stem. The care with which it was carved is consistent with it being a type of exercise. The letters of the H-group, as Forsyth and Tedeschi comment <q>exhibit a consistent forward slope, ie. their distal tips (furthest from the stem) are further forward (to the right) of their approximal tips</q> with letters of the B-group slope on this same axis.
+                            <handNote script="ogham">Forsyth and Tedeschi observed that the two inscriptions, ogham and Latin, appear to have possibly been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> by the same hand. However there is not sufficient evidence to argue that the ogham inscription has not been added at a later date. The carver has managed to write the ogham in neatly parallel and equidistant individual strokes with the exception of the final stroke not reaching the stem. The care with which it was carved is consistent with it being a type of exercise. The letters of the H-group, as Forsyth and Tedeschi comment <q>exhibit a consistent forward slope, ie. their distal tips (furthest from the stem) are further forward (to the right) of their approximal tips</q> with letters of the B-group slope on this same axis (Lowe 2008, 139).
                                <!-- <height>length of ogham stroke, if known</height>-->
                             </handNote>
+                            <handNote script="roman">Forsyth and Tedeschi described the Latin inscription as Insular minuscule. The same text is repeated on two lines, <q>albeit with different orthographic errors each time</q> (Lowe 2008, 137). Despite the difficulty of controlling the writing tool or the hardness and small size of the writing surface, the writer was able to <q>respect the Insular cursive minuscule model coherently</q> (ibid., 138). </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -143,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-18" who="#POC">Deleted whitespace from edition, added decoration section, updated attribute key value for objectType and added attribute to layout for horizontal stemline, added country placename to origPlace</change>
                 <change when="2025-03-19" who="#POC">Added geo coords for repository</change>
                 <change when="2025-04-14" who="#POC">Updated execution type</change>
+           <change when="2025-04-28" who="#POC">Added and encoded information from Lowe (2008).</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -178,20 +180,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>The sloping of consonant strokes, such as is found on the Inchmarnock ogham, is rarer in Ireland, in both epigraphic and manuscript ogham (2008).</note>
                 </app>
                     <app n="2">
-                        <note>The script of Inchmarnock 1 and Inchmarnock 3 are very similar with strokes rather than notches for vowels, and with H-strokes that slope backwards, both of which are, as Forsyth and Tedeschi note, <q>typical of the Scottish ogham corpus</q> (2008, 149).</note>
+                        <note>The script of Inchmarnock 1 and Inchmarnock 3 (S-BUT-006) is very similar with strokes rather than notches for vowels, and with H-strokes that slope backwards, both of which are, as Forsyth and Tedeschi note, <q>typical of the Scottish ogham corpus</q> (2008, 149).</note>
                     </app>
                     <app n="3">
-                    <note>The form of script on the Inchmarnock ogham inscriptions is <q>simple and devoid of baroque, 'supplamentary' letters</q> common of later east Scottish oghams (2008, 131).</note>      
+                    <note>The form of script on the Inchmarnock ogham inscriptions is <q>simple and devoid of baroque, 'supplementary' letters</q> common of later Scottish oghams to the east (2008, 131).</note>      
                 </app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en">
-                <p>The inscription lists the first ten letters of the ogham alphabet.</p>
+            <div type="translation">
+                <div type="textpart" n="1">
+                <p>Ogham: The inscription lists the first ten letters of the ogham alphabet.</p>
+                </div>
+                <div type="textpart" n="2">
+                    <p>Latin: 'Having reached the holy reward'</p>
+                </div>
             </div>
             <div type="commentary">
                         <p>Forsyth and Tedeschi remarked that the Inchmarnock ogham-inscribed slate pieces represent <q>the first find of non-monumental ogham from an ecclestical site</q> (Lowe 2008, 130).</p>
                          <p>From the Inchmarnock ogham inscriptions it is clear that <q>Gaelic-speaking scribes were familiar with the ogham alphabet and used it in informal sometimes jocular way, for brief marginal glosses and comments</q> (2008, 130).</p>
                          <p>This slate in particular, as Forsyth and Tedeschi noted, implies <q>that the script was being actively taught in the monastery's school</q> (2008, 131).</p>
+                <p>The inscription provides no datable stylistic features (2008, 139).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
