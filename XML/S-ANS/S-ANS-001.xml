@@ -83,11 +83,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A small fragment of a free-standing cross-slab, most likely the terminal of the upper arm of a cross. The fragment bears lines which resemble ogham. However, the ogham stokes have been described as so defaced they were unintelligible (Geddes 2017, 184)</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The left face of the fragment is incised with short parallel lines which may be ogham letters. </layout>
+                                <layout style="vertical" rend="stemline_up">The left face of the fragment is incised with short parallel lines which may be ogham letters. In 1903, Allen read the marks on the left face of the fragment as a T-pattern (Geddes 2017, 184). In 2005, Borland recognised the T-pattern but discerned two ogham letters 'RR' with a drawn stem-line (ibid). However, Forsyth noted that the stem-line was <q>hard to detect</q>. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Forsyth determined that the stem-line is questionable and the strength of the purported ogham strokes seem to be very similar to the other cuts on the face (Geddes 2017, 184). 
+                            <handNote>Forsyth determined that the strength of the purported ogham strokes seem to be very similar to the other cuts on the face (Geddes 2017, 184). 
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -99,7 +99,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NO 6384 4289</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1888">Also known as St Vigean's 6, the possibility of an ogham inscription on the fragment was originally suggested by Duke in 1887-8. The first recording of the ogham inscription is a photo from the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS) collection taken in <date>2000</date> and published online on <ref target="https://canmore.org.uk/site/35586/st-vigeans">Canmore</ref>. The fragment of the cross-slab was found during grave-digging in <date>1888</date> and was taken into the church (Geddes 2017, 183). In <date>1960</date>, it was removed and taken into St Vigeans Museum (Geddes 2017, 184). 
+                        <provenance type="found" when="1888">Also known as St Vigean's 6, the possibility of an ogham inscription on the fragment was originally suggested by Duke in 1887-8. The first recording of the ogham inscription is a photo from the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS) collection taken in <date>2000</date> and published online on <ref target="https://canmore.org.uk/site/35586/st-vigeans">Canmore</ref>. The fragment of the cross-slab was found during grave-digging in <date>1888</date> and was taken into the church (Geddes 2017, 183). In <date>1960</date>, it was removed from the church and taken to St Vigeans Museum (Geddes 2017, 184). 
                         </provenance>
                         <provenance type="observed">Recorded in <placeName>St Vigeans Museum (HES).</placeName> <!--on <date></date>.-->
                         </provenance>
@@ -144,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
      <change when="2025-02-28" who="#POC">Proofreading updates, moved information in commentary to condition and handnote, added image description</change>
     <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
         <change when="2025-03-26" who="#POC">Added decoration section, updated objectType attribute value for filtering, hyphenated cross-slab, added secondary location coords, added country to origPlace</change>
+<change when="2025-04-28" who="#POC">Added filtering attributes to layout, added translation, added information from Geddes, added information from Geddes (2017).</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -163,21 +164,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="2" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>R<unclear>Ṛ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>R<unclear>R</unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">  
-                    <note>In 1903, Allen read the marks on the left face of the fragment as a T-pattern (Geddes 2017, 184). In 2005, Borland recognised the T-pattern but discerned two ogham letters 'RR' with a drawn stem-line (ibid). </note>
+                    <note>Given the quality of the carving on the other faces of the fragment and the T pattern on face A, Forsyth suggested that the purported ogham strokes <q>might be a light sketch for a fret pattern</q> instead (Geddes 2017, 184). </note>
                 </app>
                 </listApp>
             </div>
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>An exact translation of the inscription cannot be provided.</p>
+            </div>
             <div type="commentary">
-<p>There is doubt over whether this is ogham or not. Due to this uncertainty and the brevity of the inscription, both its language and meaning cannot be readily determined.</p>
+<p>There is doubt over whether this is ogham or not. Due to this uncertainty and the brevity of the inscription, both its language and date cannot be readily determined.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
