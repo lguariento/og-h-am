@@ -85,14 +85,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions>
                                     <desc type="decoration">The slate fragment is decorated with a mass of curving lines which the ogham inscription post-dates.</desc>
                                 </support>
-                                <condition>An inscribed slate fragment which appears to be the remains of a gaming board. The inscription, albeit complete, is indistinct and difficult to make out. Forsyth and Tedeschi described the inscription as looking <q>rather scrappy</q>, but inscriptions like this are not carved with posterity in mind (2008, 146)</condition>
+                                <condition>An inscribed slate fragment which appears to be the remains of a gaming board. The inscription, albeit complete, is indistinct and difficult to make out, yet <q>sufficient remains visible to be confident that it genuinely is ogham</q> (Lowe 2008, 146). Forsyth and Tedeschi described the inscription as looking <q>rather scrappy</q>, but inscriptions like this are not carved with posterity in mind (ibid.)</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="stemline">The ogham inscription is found at the edge of the ruled grid.</layout>
+                                <layout style="horizontal" rend="stemlineL-R">The ogham inscription is found between the edge of the ruled grid and the end of the mass of curved lines and consists of about seven characters. The tail of the stem-line is visible beyond the first and last letters indicating the inscription is complete. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>A tiny ogham inscription of about <dim type="length" unit="mm">20mm</dim> in total length at the margin of the stone, casually <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The tail of the stem-line is visible beyond the first and last letters indicating it is complete. The spacing of the letters is erratic, the first half appearing generously spaced while the latter half of the inscription is more cramped.
+                            <handNote>A tiny ogham inscription of about <dim type="length" unit="mm">20mm</dim> in total length, lightly <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> on the margin of the stone. Forsyth and Tedeschi (Lowe 2008, 146) note that the letters were <q>casually rather than carefully carved</q> and the problem with its legibility arises from the <q>lack of care in execution rather than ignorance on the part of the carver</q>. The spacing of the letters is erratic, the first half appearing generously spaced while the latter half of the inscription is more cramped.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -148,6 +148,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-18" who="#POC">Added decoration section, updated key attribute value for objectType to graffiti, deleted whitespace in edition</change>
                 <change when="2025-03-19" who="#POC">Update objectType key attribute value, added country to origPlace, added geo coords for repository</change>
                 <change when="2025-04-14" who="#POC">Updated execution type</change>
+            <change when="2025-04-28" who="#POC">Added attributes for filtering layout and added and encoded information from Lowe (2008).</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -186,7 +187,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <p>The ogham inscription <q>although pronouncable does not yield any obvious sense</q> (Lowe 2008, 147).</p>
             </div>
             <div type="commentary">
