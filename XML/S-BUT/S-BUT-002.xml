@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="TA-Ogam">Possibly Brittonic written in OGHAM script</textLang> <!--language needs fixing, no id for brittonic-->                            
+                            <textLang mainLang="cel-Ogam">Possibly Brittonic written in ogham script</textLang>                           
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -153,6 +153,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <change when="2025-03-19" who="#POC">Update objectType key attribute value, added style attibute to layout for stemline, added country to origPlace section, added CISP link, added key for decorative elements</change>
                  <change when="2025-03-27" who="#POC">Updated decoration attributes for filtering</change>
            <change when="2025-04-14" who="#POC">Updated execution type</change>
+            <change when="2025-04-29" who="#POC">Added foreign encoding to commentary, added xml:lang value to edition, updated textlang using "cel" for Brittonic</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -165,12 +166,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="TA" resp="#XS"><!--language needs updating, Brittonic-->              
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="cel" resp="#XS">             
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚃᚒᚓᚇᚂᚐ
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="TA" xml:space="preserve" resp="#KF"><!--language is Brittonic no lang code for it-->
+            <div type="edition" subtype="transliteration" xml:lang="cel" xml:space="preserve" resp="#KF">
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><!--may have begun further down but not sure-->VUEDLA
                 </ab>
@@ -195,7 +196,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>No translation can be provided.</p>
             </div>
             <div type="commentary">
-<p>The name Vuedla calls to mind the uidlua, 'wise woman, witch' from *wid which means 'to see, to know', of the famous Gualish inscription from Larzac. The Irish reflex (*widlma) appears as the name of the seeress Fedelm, in <title>Táin Bó Cuailgne</title>, and of a number of famous early Irish women, legendary and historical (Forsyth 1996, 99).</p>
+<p>The name Vuedla calls to mind the uidlua, 'wise woman, witch' from <foreign xml:lang="xtg">*wid</foreign> which means 'to see, to know', of the famous Gaulish inscription from Larzac. The Irish reflex (<foreign xml:lang="sga">*widlma</foreign>) appears as the name of the seeress Fedelm, in <title>Táin Bó Cuailgne</title>, and of a number of famous early Irish women, legendary and historical (Forsyth 1996, 99).</p>
                 <p>That the Blackwaterfoot 1 (S-BUT-001) and Blackwaterfoot 2 ogham inscriptions are contemporary with one another or with any other of the carvings in the cave cannot be proved (ibid. 95). However, it is clear that both are examples of casual graffiti.</p> 
                         <p>According to Forsyth, the Blackwaterfoot inscriptions <q>could be as early as the Pool ogham (sixth century) or later than Dunadd (late eighth century?)</q> (ibid. 99).</p>
             </div>
