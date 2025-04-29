@@ -140,7 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>   
     <change when="2025-03-27" who="#POC">Removed critical apparatus symbols from edition, updated commentary, encoded second inscription</change>
 <change when="2025-04-03" who="#POC">Simplify material type, and added country placename to origPlace</change>
-<change when="2025-04-29" who="#POC">Added and encoded information, added RCAHMS drawing, added attributes to layout, added NGR </change>
+<change when="2025-04-29" who="#POC">Added and encoded information, added RCAHMS drawing, added attributes to layout, added NGR, added Macalister (1940) reading to apparatus </change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -173,12 +173,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
                 </div>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">
+                    <note>Macalister (1940) read:</note>        
+                    <rdg>VUN[I]MSETTOR BRE[--][EN]N</rdg>
                 </app>
                 </listApp>
-            </div>-->
+            </div>
             <div type="translation">
                 <p>An exact translation of the inscription cannot be readily determined.</p>
             </div>
