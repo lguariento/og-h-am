@@ -82,16 +82,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <!-\-<dim type="diameter">if circular, etc</dim>-\->
                                      </dimensions>-->         
                                 </support>
-                                <condition></condition>
+                                <condition>One side of the bone has two deep fissures as well as several cracks on the surface. The side bearing the purported ogham inscription seems to be in relatively good condition, devoid of cracks. The outer markings are still clearly apparent while the inner markings are faded and no longer legible. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout style="other">The alleged ogham inscription occupies one side of the piece of bone stem. There is no discernible stem-line. </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote>Description of the ogham letters/characters including encoded execution/carving type (e.g. <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>), if known. <height>length of ogham stroke, if known</height>
+                        <handDesc>
+                            <handNote>The purported ogham markings appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>). <height></height>
                             </handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -102,7 +102,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1905">A piece of bone stem bearing ogham like markings discovered along with other artifacts such as thick coarse pottery, a metal-worker's crucible, and a socketed iron axe head, during the excavation of the crannog at Bishop’s Loch, near Gartcosh, in <date>1905-1906</date>. The piece was sent to Trevor Cowie by Allan Mackenzie, North Lanarkshire Council 27/1/2006.
                         </provenance>
-                        <provenance type="observed">Now in NMS <ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=166179">X.HT 102</ref>.
+                        <provenance type="observed">Now in National Museums Scotland <ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=166179">X.HT 102</ref>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -141,11 +141,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
                     <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, added and encoded information, including provenance, objectType, secondary location coordinates, commented out media</change>
+            <change when="2025-04-30" who="#POC">Added and encoded information based on NMS image.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="example.jpg"><desc>Copyright: National Museums Scotland</desc></graphic>
          <!--<media url="3D recorded by MK" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -168,17 +169,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>An exact translation of the inscription cannot be readily determined.</p>
+            </div>
             <div type="commentary">
-                 <p></p>
+<p>Information about the inscription is limited due to a lack of publications.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange/>
-                     </bibl>
                      <bibl><ptr target="MAL2021"/>
                          <citedRange/>
                      </bibl>
