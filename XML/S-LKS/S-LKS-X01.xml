@@ -146,7 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"><desc>Copyright: National Museums Scotland</desc></graphic>
+        <graphic url="example.jpg"/>
          <!--<media url="3D recorded by MK" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -163,12 +163,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="2" style="text-direction:up"/>AL
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">
+<note>As a portable object, there is no way to know definitively which way the inscription was meant to be read as the interpretation depends upon the direction in which the object is held and the script is read.</note>                    
                 </app>
                 </listApp>
-            </div>-->
+            </div>
             <div type="translation">
                 <p>An exact translation of the inscription cannot be readily determined.</p>
             </div>
