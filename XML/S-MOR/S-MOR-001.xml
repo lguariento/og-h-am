@@ -95,7 +95,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NH 9842 5766</note></origPlace>
                             <origDate cert="low">850</origDate>
                         </origin>
-                        <provenance type="found" when="1781">The ogham inscription was first noted by Lord Southesk in <date>1885</date> (Southesk 1886, 14). The stone was found in <date>1781</date> in the old churchyard during digging for the foundations of a new parish church at Dyke (Forsyth 1996, 139). It was set up first in Dyke village and sometime before <date notAfter="1842">1842</date> it was moved to the grounds of Brodie Castle (ibid). It had been re-used as a recumbent grave-slab, probably in the early eighteenth century; <q>on the front face two recessed panels were cut into the interlace designs either side of the cross-shaft, and two pairs of initials incised</q> (Forsyth 1996, 140).
+                        <provenance type="found" when="1781">The ogham inscription was first noted by Lord Southesk in <date>1885</date> (Southesk 1886, 14). Also known as 'Rodney's Stone", the sculptured cross-slab was discovered in <date>1781</date> in the old churchyard during digging for the foundations of a new parish church at Dyke (Forsyth 1996, 139). It was set up first in Dyke village and sometime before <date notAfter="1842">1842</date> it was moved to the grounds of Brodie Castle (ibid). It had been re-used as a recumbent grave-slab, probably in the early eighteenth century; <q>on the front face two recessed panels were cut into the interlace designs either side of the cross-shaft, and two pairs of initials incised</q> (Forsyth 1996, 140).
                         </provenance>
                         <provenance type="observed" when="2023-05-24">Recorded on <placeName>Brodie Castle</placeName> grounds on <date>May 24th 2023</date>.
                         </provenance>
@@ -142,12 +142,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition and closed glyphs.</change>
     <change when="2025-04-18" who="#NW">Edition encoding update but still needs revision. Added layout style and rend.</change>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
-    
+    <change when="2025-04-30" who="#POC">Updated commentary, moved information to apparatus and translation, added encoding of personal names in commentary, added images</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="Brodie.jpg"/> 
+        <graphic url="WAL/S-MOR-001-Brodie.jpg"><desc>Image by Megan Kasten</desc></graphic> 
+        <graphic url="WAL/S-MOR-001-Brodie_HES-full-scan.jpg"><desc>Drawing of Brodie stone. Copyright: <ref target="http://canmore.org.uk/collection/1358361">Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS)</ref></desc></graphic>
          <media url="https://skfb.ly/6tXOC" mimeType="text/html"><desc>3D model by <!--Eleanor Harrison? -->on SketchFab</desc></media> 
         <!--Archaeoptix has this dataset from 2010 (for NTS) - may be interesting to compare? current model not sufficiently detailed for groove analysis-->
     </facsimile>    
@@ -165,38 +166,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="4" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>RR<choice><unclear>M</unclear><unclear>A</unclear></choice><choice><unclear>O</unclear><unclear>G</unclear></choice>Q<unclear reason="damage">Q̣</unclear>DI<unclear reason="damage">Ṭ</unclear>T<g ref="#angled_O"/>SSS<gap reason="lost" extent="unknown" unit="character"/>     
-                    <lb n="5" style="text-direction:up"/>
+                    <lb n="2" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#?"></name>EDD<g ref="#s-shaped_A"/>RRNON</persName> <unclear reason="ambiguous">V</unclear><gap reason="lost" extent="unknown" unit="character"/>THIHAL<gap reason="lost" extent="unknown" unit="character"/>IRR<gap reason="lost" extent="unknown" unit="character"/>UIBU<unclear reason="ambiguous"></unclear>Z<gap reason="lost" extent="unknown" unit="character"/>
-                    <lb n="6" style="text-direction:up"/>
+                    <lb n="3" style="text-direction:up"/>
                     <unclear reason="ambiguous">S</unclear>ON<choice><unclear>S</unclear><unclear>N</unclear></choice><unclear reason="damage">E</unclear>LCC<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/>            
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">  
+                    <note>Forsyth asserts that the raised bands on the slab were intended to bear the ogham and that all three inscriptions were part of the original design since the left-hand edge without ogham is only decorated with a narrower moulding similar to that outlining the cross (Forsyth 1996, 146).</note>
                 </app>
+                    <app n="2">
+                        <note>The three inscriptions may be part of one continuous text, or represent independent units; either way, it is unclear in which order they should be read due to the poor condition of the carving (Forsyth 1996, 146). It is apparent though that all three oghams were carved in the same hand (Forsyth 1996, 155).</note>
+                    </app>
                 </listApp>
-            </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            </div>
+            <div type="translation">
+                <p>A translation of the inscription cannot be readily determined.</p>
+            </div>
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p>The slab is also known as Rodney's Stone (Forsyth 1996, 139).</p>
-                    </item>
-                    <item n="2"><p>The fact that the Brodie Stone has been carefully dressed and all its carvings, apart from the ogham inscription, are in relatively high relief suggests a date later in the Pictish period (Forsyth 1996, 142).</p>
-                    </item>
-                    <item n="3"><p>Forsyth asserts that the raised bands on the slab were intended to bear the ogham and that all three inscriptions were part of the original design since the left-hand edge without ogham is only decorated with a narrower moulding similar to that outlining the cross (Forsyth 1996, 146).</p>
-                    </item>
-                    <item n="4"><p>The three inscriptions may be part of one continuous text, or represent independent units; either way, it is unclear in which order they should be read due to the poor condition of the carving (Forsyth 1996, 146). It is apparent though that all three oghams were carved in the same hand (Forsyth 1996, 155).</p>
-                    </item>
-                    <item n="5"><p>Due to the poor condition of the inscription, neither the language nor the full translation can be determined (Forsyth 1996, 156). Given the length of the inscripion combined with the fact that the typical 'MAQQ' does not seem to appear at any point, it is likely the original text incorporated more than proper nouns (ibid). Only one section, the EDDARRNONN on the back left representing the male personal name Etheman/ldamon, can be established with certainty (ibid). Though the name is Brittonic, the spelling could be Irish or Pictish (ibid).</p>
-                    </item>                    
-                    <item n="6"><p>The Brodie ogham is by far the longest ogham inscription from Scotland, originally consisting of up to seventy or eighty characters (Forsyth 1996, 157). Furthermore, <q>'it is noteworthy that, despite the length of the text, Brodie appears to lack both the x-forfid and the hammerhead A, the two most common forfeda in Scotland'</q> (Forsyth 1996, 156).</p>
-                    </item>
-                 </list>
+<p>The fact that the Brodie Stone has been carefully dressed and all its carvings, apart from the ogham inscription, are in relatively high relief suggests a date later in the Pictish period (Forsyth 1996, 142).</p>
+                    <p>Due to the poor condition of the inscription, neither the language nor the full translation can be determined (Forsyth 1996, 156). Given the length of the inscripion combined with the fact that the typical 'MAQQ' does not seem to appear at any point, it is likely the original text incorporated more than proper nouns (ibid). Only one section, the EDDARRNONN on the back left representing the male personal name <persName>Etheman/ldamon</persName>, can be established with certainty (ibid). Though the name is Brittonic, the spelling could be Irish or Pictish (ibid).</p>
+                    <p>The Brodie ogham is by far the longest ogham inscription from Scotland, originally consisting of up to seventy or eighty characters (Forsyth 1996, 157). Furthermore, <q>it is noteworthy that, despite the length of the text, Brodie appears to lack both the x-forfid and the hammerhead A, the two most common forfeda in Scotland</q> (Forsyth 1996, 156).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
