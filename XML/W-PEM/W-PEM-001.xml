@@ -56,8 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
-                            
-                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="la-Latn" otherLangs="pgl-Latn">Latin written in Latin script with some Irish personal names</textLang>
                               
                            </msItem>
                     </msContents>
@@ -130,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-10" who="#POC">Added and encoded information from Edwards (2007) and Macalister (1945), updated provenance, added condition, deleted repository, added execution type for ogham and deleted encoding for Latin execution type, updated handNote, replace hi for foreign in commentary, added information to apparatus, added image</change>
 <change when="2025-04-23" who="#POC">Added text type link.</change>    
+<change when="2025-04-30" who="#POC">Replaced uppercase nymRef values with lowercase, added IANA language codes to foreign in commentary, updated textLang</change>     
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,20 +142,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#SAGRAGNAS">&#x1684;&#x1690;&#x168C;&#x168F;&#x1690;&#x168C;&#x1685;&#x1694;</name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w><name nymRef="#KUNATAMAS">&#x1689;&#x1692;&#x1685;&#x1690;&#x1688;&#x1690;&#x168B;&#x1694;</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#sagragnas">&#x1684;&#x1690;&#x168C;&#x168F;&#x1690;&#x168C;&#x1685;&#x1694;</name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w> <name nymRef="#kunatamas">&#x1689;&#x1692;&#x1685;&#x1690;&#x1688;&#x1690;&#x168B;&#x1694;</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Latn">
                     <ab>
-                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#SAGRAGNAS">SAGRANI</name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><name nymRef="#KUNATAMAS">CUNATAMI</name></persName>
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#sagragnas">SAGRANI</name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w> <name nymRef="#kunatamas">CUNATAMI</name></persName>
                     </ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
-                    <div type="textpart" n="2" xml:lang="pgl-Latn">
+                    <div type="textpart" n="2" xml:lang="la-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#SAGRAGNAS">SAGRANI</name><w>FILI</w>
-                    <lb n="2" style="text-direction:down"/><name nymRef="#KUNATAMAS">CVNOTAMI</name></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#sagragnas">SAGRANI</name> <w>FILI</w>
+                    <lb n="2" style="text-direction:down"/><name nymRef="#kunatamas">CVNOTAMI</name></persName>
                 </ab>
                </div>
             </div>            
@@ -174,7 +174,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary">
                 <p>Macalister (1945, 426) recounts how the stone was <q>known, rather grandiloquently, as the 'the Ogham Rosetta stone'</q> because it was <q>one of the first of the bilateral inscriptions to be discovered</q>.</p>        
-                <p>In regards to the ogham inscription, Edwards (2007, 462) states that while <q>the patronymic is typically Welsh, SAGRA(G)NI is presumably OI <foreign xml:lang="sga">Sárán</foreign>, not a hypothetical Welsh *<foreign xml:lang="cy">Haeron</foreign></q>. Edwards (2007, 462) points out that the ogham spelling <q>SAGRAGNI is more conservative than the roman SAGRANI</q> and how it is <q>odd that G is still shown in the first syllable but in Ireland CIIC: no. 317 MAGLANI is comparable</q> (see Macalister 1945, 305-306). <q>Further evidence for the Irish name in Britain is provided by SAGRANVI on the reverse of the ogam stone from Fardel, Devon (Macalister 1945, 468-469; Okasha 1993, 13), perhaps a hybrid of Irish SAGRAN- with the well-known Brittonic termination <foreign>-wy</foreign></q> (Edwards 2007, 462).</p>
+                <p>In regards to the ogham inscription, Edwards (2007, 462) states that while <q>the patronymic is typically Welsh, SAGRA(G)NI is presumably OI <foreign xml:lang="sga">Sárán</foreign>, not a hypothetical Welsh *<foreign xml:lang="cy">Haeron</foreign></q>. Edwards (2007, 462) points out that the ogham spelling <q>SAGRAGNI is more conservative than the roman SAGRANI</q> and how it is <q>odd that G is still shown in the first syllable but in Ireland CIIC: no. 317 MAGLANI is comparable</q> (see Macalister 1945, 305-306). <q>Further evidence for the Irish name in Britain is provided by SAGRANVI on the reverse of the ogam stone from Fardel, Devon (Macalister 1945, 468-469; Okasha 1993, 13), perhaps a hybrid of Irish SAGRAN- with the well-known Brittonic termination <foreign xml:lang="cel">-wy</foreign></q> (Edwards 2007, 462).</p>
                 <p>The second name in both inscriptions inscribed as CVNOTAMI in the roman-letter inscription <q>is typically British, OW <foreign xml:lang="owl">Condaf</foreign>, MW <foreign xml:lang="wlm">Cyndaf</foreign>, and means something like 'most hound-like'.</q> (Edwards 2007, 462). Edwards (2007, 462) suggests that the <q>T rather than D in CUNATAMI may be copied from the roman-letter form</q>.</p>
                         
                     </div>
