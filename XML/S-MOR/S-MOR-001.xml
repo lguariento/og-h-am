@@ -143,7 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-18" who="#NW">Edition encoding update but still needs revision. Added layout style and rend.</change>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     <change when="2025-04-30" who="#POC">Updated commentary, moved information to apparatus and translation, added encoding of personal names in commentary, added images</change>
-<change when="2025-05-01" who="#POC">Added and encoded information</change>
+<change when="2025-05-01" who="#POC">Added and encoded information, added nymRef value, language code for Brittonic personal name</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -160,7 +160,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/> 
                     <gap reason="lost" extent="unknown" unit="character"/>ᚏᚏ<choice><unclear>ᚋ</unclear><unclear>ᚐ</unclear></choice><choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice>ᚊ<unclear reason="damage">ᚊ</unclear>ᚇᚔ<unclear reason="damage">ᚈ</unclear>ᚈ<g ref="#angled_O"/>ᚄᚄᚄ<gap reason="lost" extent="unknown" unit="character"/> 
                     <lb n="2" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#?"></name>ᚓᚇᚇ<g ref="#s-shaped_A"/>ᚏᚏᚅᚑᚅ</persName><unclear reason="ambiguous">ᚃ</unclear><gap reason="lost" extent="unknown" unit="character"/>ᚈᚆᚔᚆᚐᚂ<gap reason="lost" extent="unknown" unit="character"/>ᚔᚏᚏ<gap reason="lost" extent="unknown" unit="character"/>ᚒᚔᚁᚒ<unclear reason="ambiguous"></unclear>ᚎ<gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#eddarrnonn"></name>ᚓᚇᚇ<g ref="#s-shaped_A"/>ᚏᚏᚅᚑᚅ</persName><unclear reason="ambiguous">ᚃ</unclear><gap reason="lost" extent="unknown" unit="character"/>ᚈᚆᚔᚆᚐᚂ<gap reason="lost" extent="unknown" unit="character"/>ᚔᚏᚏ<gap reason="lost" extent="unknown" unit="character"/>ᚒᚔᚁᚒ<unclear reason="ambiguous"></unclear>ᚎ<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3" style="text-direction:up"/>
                     <unclear reason="ambiguous">ᚄ</unclear>ᚑᚅ<choice><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice><unclear reason="damage">ᚓ</unclear>ᚂᚉᚉ<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
@@ -170,7 +170,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>RR<choice><unclear>M</unclear><unclear>A</unclear></choice><choice><unclear>O</unclear><unclear>G</unclear></choice>Q<unclear reason="damage">Q̣</unclear>DI<unclear reason="damage">Ṭ</unclear>T<g ref="#angled_O"/>SSS<gap reason="lost" extent="unknown" unit="character"/>     
                     <lb n="2" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#?"></name>EDD<g ref="#s-shaped_A"/>RRNON</persName> <unclear reason="ambiguous">V</unclear><gap reason="lost" extent="unknown" unit="character"/>THIHAL<gap reason="lost" extent="unknown" unit="character"/>IRR<gap reason="lost" extent="unknown" unit="character"/>UIBU<unclear reason="ambiguous"></unclear>Z<gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#eddarrnonn"></name>EDD<g ref="#s-shaped_A"/>RRNON</persName> <unclear reason="ambiguous">V</unclear><gap reason="lost" extent="unknown" unit="character"/>THIHAL<gap reason="lost" extent="unknown" unit="character"/>IRR<gap reason="lost" extent="unknown" unit="character"/>UIBU<unclear reason="ambiguous"></unclear>Z<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3" style="text-direction:up"/>
                     <unclear reason="ambiguous">S</unclear>ON<choice><unclear>S</unclear><unclear>N</unclear></choice><unclear reason="damage">E</unclear>LCC<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/>            
                 </ab>
@@ -190,7 +190,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary">
 <p>The fact that the Brodie Stone has been carefully dressed and all its carvings, apart from the ogham inscription, are in relatively high relief suggests a date later in the Pictish period (Forsyth 1996, 142).</p>
-                    <p>Due to the poor condition of the inscription, neither the language nor the full translation can be determined (Forsyth 1996, 156). Given the length of the inscription combined with the fact that the typical 'MAQQ' does not seem to appear at any point, it is likely the original text incorporated more than proper nouns (ibid). Only one section, the EDDARRNONN on the back left representing the male personal name <persName>Etheman/ldamon</persName>, can be established with certainty (ibid). Though the name is Brittonic, the spelling could be Irish or Pictish (ibid).</p>
+                    <p>Due to the poor condition of the inscription, neither the language nor the full translation can be determined (Forsyth 1996, 156). Given the length of the inscription combined with the fact that the typical 'MAQQ' does not seem to appear at any point, it is likely the original text incorporated more than proper nouns (ibid). Only one section, the EDDARRNONN on the back left representing the male personal name <persName xml:lang="cel">Etheman/ldamon</persName>, can be established with certainty (ibid). Though the name is Brittonic, the spelling could be Irish or Pictish (ibid).</p>
                     <p>The Brodie ogham is by far the longest ogham inscription from Scotland, originally consisting of up to seventy or eighty characters, and represents a substantial commitment to ogham literacy (Forsyth 1996, 157-8). Furthermore, <q>it is noteworthy that, despite the length of the text, Brodie appears to lack both the x-forfid and the hammerhead A, the two most common forfeda in Scotland</q> (Forsyth 1996, 156).</p>
             </div>
             <div type="bibliography">
