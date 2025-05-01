@@ -76,10 +76,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions> 
                                     <desc type="decoration">The entire front face is carved with a <rs type="decoration" key="cross">cross</rs> with small rounded hollows at its armpits (Forsyth 1996, 142). The cross is outlined in a thick roll-moulding and it is decorated with complex <rs type="decoration" key="design">interlace</rs> (Forsyth 1996, 143). Each of the background quadrants created by the arms includes <rs type="decoration" key="zoomorphic">interlaced beasts</rs> (ibid). Towards the bottom of the two lower panels inverted initials AC (right) and KD (left) are incised (ibid). The back is dominated by a large pair of <rs type="decoration" key="zoomorphic">sea monsters</rs> occupying the full width of the slab and almost half its length (ibid). Below are two large symbols, a <rs type="decoration" key="PictishSymbol">Pictish beast</rs> and a <rs type="decoration" key="PictishSymbol">double-disc and Z-rod symbol</rs> (ibid). The space between the pair of sea monsters is carved with curvilinear motifs, including a <rs type="decoration">large spiral disc decorated with pellets</rs> in the centre, a <rs type="decoration">penanular brooch with expanded terminals</rs> above, a <rs type="decoration">crescent with pellets</rs> to the right, a <rs type="decoration">circular disc decorated with triskele</rs> to the left and another smaller <rs type="decoration">disc decorated with triskele</rs> at the bottom (ibid).</desc>
                                 </support>
-                                <condition>The ogham inscription is severely damaged with only short sections being legible (Forsyth 1996, 142). The front face is badly weathered, the carving on the reverse is in good condition (ibid). The lower edge of the slab is broken with a portion missing from the back (ibid).</condition>
+                                <condition>The ogham inscription is severely damaged with only short sections being legible (Forsyth 1996, 142). A broad recessed band cut along the top edge carries away the end of both lines of ogham on the back face. Traces of ogham letters are visible along the entire extant length of the right margin of the reverse face, however, on the left margin letters are only visible as far as the curl of the monster's tail. Thereafter the surface is too worn to tell and the final quarter of its length has flaked away entirely. On the front of the slab ogham is visible on the right margin only. The front face is badly weathered, the carving on the reverse is in good condition (ibid). The lower edge of the slab is broken with a portion missing from the back (ibid).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="stemline">The ogham inscriptions run on the right edge (front and back) and the left edge (back only) of the slab on a raised band approximately 5 cm wide and with an incised stem-line (Forsyth 1996, 145).</layout>
+                                <layout style="vertical" rend="stemline_up">The ogham inscriptions occupy the entire length of the right edge (front and back) and the left edge (back only) of the slab on a raised band approximately 5 cm wide. An incised stem-line runs up the centre of each band (Forsyth 1996, 145).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -95,7 +95,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NH 9842 5766</note></origPlace>
                             <origDate cert="low">850</origDate>
                         </origin>
-                        <provenance type="found" when="1781">The ogham inscription was first noted by Lord Southesk in <date>1885</date> (Southesk 1886, 14). Also known as 'Rodney's Stone", the sculptured cross-slab was discovered in <date>1781</date> in the old churchyard during digging for the foundations of a new parish church at Dyke (Forsyth 1996, 139). It was set up first in Dyke village and sometime before <date notAfter="1842">1842</date> it was moved to the grounds of Brodie Castle (ibid). It had been re-used as a recumbent grave-slab, probably in the early eighteenth century; <q>on the front face two recessed panels were cut into the interlace designs either side of the cross-shaft, and two pairs of initials incised</q> (Forsyth 1996, 140).
+                        <provenance type="found" when="1781">The ogham inscription was first noted by Lord Southesk in <date>1885</date> (Southesk 1886, 14). Also known as 'Rodney's Stone', the sculptured cross-slab was discovered in <date>1781</date> in the old churchyard during digging for the foundations of a new parish church at Dyke (Forsyth 1996, 139). It was set up first in Dyke village and sometime before <date notAfter="1842">1842</date> it was moved to the grounds of Brodie Castle (ibid). It had been re-used as a recumbent grave-slab, probably in the early eighteenth century; <q>on the front face two recessed panels were cut into the interlace designs either side of the cross-shaft, and two pairs of initials incised</q> (Forsyth 1996, 140).
                         </provenance>
                         <provenance type="observed" when="2023-05-24">Recorded on <placeName>Brodie Castle</placeName> grounds on <date>May 24th 2023</date>.
                         </provenance>
@@ -143,6 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-18" who="#NW">Edition encoding update but still needs revision. Added layout style and rend.</change>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     <change when="2025-04-30" who="#POC">Updated commentary, moved information to apparatus and translation, added encoding of personal names in commentary, added images</change>
+<change when="2025-05-01" who="#POC">Added and encoded information</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,7 +156,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="low" resp="#LH">  <!--this edition needs revision!-->          
-                <ab>    <!--encode incised stem-line ?-->
+                <ab>    
                     <lb n="1" style="text-direction:up"/> 
                     <gap reason="lost" extent="unknown" unit="character"/>ᚏᚏ<choice><unclear>ᚋ</unclear><unclear>ᚐ</unclear></choice><choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice>ᚊ<unclear reason="damage">ᚊ</unclear>ᚇᚔ<unclear reason="damage">ᚈ</unclear>ᚈ<g ref="#angled_O"/>ᚄᚄᚄ<gap reason="lost" extent="unknown" unit="character"/> 
                     <lb n="2" style="text-direction:up"/>
@@ -180,7 +181,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>Forsyth asserts that the raised bands on the slab were intended to bear the ogham and that all three inscriptions were part of the original design since the left-hand edge without ogham is only decorated with a narrower moulding similar to that outlining the cross (Forsyth 1996, 146).</note>
                 </app>
                     <app n="2">
-                        <note>The three inscriptions may be part of one continuous text, or represent independent units; either way, it is unclear in which order they should be read due to the poor condition of the carving (Forsyth 1996, 146). It is apparent though that all three oghams were carved in the same hand (Forsyth 1996, 155).</note>
+                        <note>The three inscriptions may be part of one continuous text, or represent independent sense units. While the direction of the angled vowels and the slope of the b- and h- aicme consonants indicate that the three inscriptions are to be read vertically upwards, the order in which the inscriptions should be read remains unclear due to the poor condition of the carving (Forsyth 1996, 146). It is apparent though that all three oghams were carved in the same hand (Forsyth 1996, 155).</note>
                     </app>
                 </listApp>
             </div>
@@ -189,8 +190,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary">
 <p>The fact that the Brodie Stone has been carefully dressed and all its carvings, apart from the ogham inscription, are in relatively high relief suggests a date later in the Pictish period (Forsyth 1996, 142).</p>
-                    <p>Due to the poor condition of the inscription, neither the language nor the full translation can be determined (Forsyth 1996, 156). Given the length of the inscripion combined with the fact that the typical 'MAQQ' does not seem to appear at any point, it is likely the original text incorporated more than proper nouns (ibid). Only one section, the EDDARRNONN on the back left representing the male personal name <persName>Etheman/ldamon</persName>, can be established with certainty (ibid). Though the name is Brittonic, the spelling could be Irish or Pictish (ibid).</p>
-                    <p>The Brodie ogham is by far the longest ogham inscription from Scotland, originally consisting of up to seventy or eighty characters (Forsyth 1996, 157). Furthermore, <q>it is noteworthy that, despite the length of the text, Brodie appears to lack both the x-forfid and the hammerhead A, the two most common forfeda in Scotland</q> (Forsyth 1996, 156).</p>
+                    <p>Due to the poor condition of the inscription, neither the language nor the full translation can be determined (Forsyth 1996, 156). Given the length of the inscription combined with the fact that the typical 'MAQQ' does not seem to appear at any point, it is likely the original text incorporated more than proper nouns (ibid). Only one section, the EDDARRNONN on the back left representing the male personal name <persName>Etheman/ldamon</persName>, can be established with certainty (ibid). Though the name is Brittonic, the spelling could be Irish or Pictish (ibid).</p>
+                    <p>The Brodie ogham is by far the longest ogham inscription from Scotland, originally consisting of up to seventy or eighty characters, and represents a substantial commitment to ogham literacy (Forsyth 1996, 157-8). Furthermore, <q>it is noteworthy that, despite the length of the text, Brodie appears to lack both the x-forfid and the hammerhead A, the two most common forfeda in Scotland</q> (Forsyth 1996, 156).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
