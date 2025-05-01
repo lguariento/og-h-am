@@ -59,7 +59,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--check language, please-->
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
                             <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
                            </msItem>
@@ -75,16 +75,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width>0.86</width>
                                             <depth>0.18</depth>
                                      </dimensions>
-                                    <desc type="decoration">The slab is sculpted in relief on two faces with <rs type="decoration">crosses</rs>. The <rs type="decoration" key="cross">cross</rs> on the back is cut in shallow relief and only the vertical shaft survives (Forsyth 1996, 28). On the front face, the <rs type="decoration" key="cross">square-armed cross</rs> with double square hollows for arm pits protrudes by 1,5 cm from the surface and its outline is still preserved (ibid).</desc>
+                                    <desc type="decoration">The slab is sculpted in relief on two faces with <rs type="decoration">crosses</rs>. The <rs type="decoration" key="cross">cross</rs> on the back is cut in shallow relief and only the vertical shaft survives (Forsyth 1996, 28). On the front face, the <rs type="decoration" key="cross">square-armed cross</rs> with double square hollows for arm pits protrudes by 1.5 cm from the surface and its outline is still preserved (ibid).</desc>
                                 </support>
-                                <condition>Severely weathered and covered in lichen (Forsyth 1996, 27). There may be a section of ogham missing from the beginning and certain portions of the ogham are doubtful (ibid).</condition>
+                                <condition>The cross-slab is severely weathered and thickly covered in lichen (Forsyth 1996, 27). There may be a section of ogham missing from the beginning and certain portions of the ogham are doubtful (ibid). However, the termination of the ogham inscription is clearly visible so it is certain that nothing has been lost from the end. There is no trace of any ogham on the right edge, but much of its surface has weathered away. The possibility of a second ogham inscription on the face of the cross-slab cannot be confirmed until the lichen has been removed (Forsyth 1996, 25).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>An ogham inscription runs up one narrow edge and possibly another up the side of one cross shaft (Forsyth 1996, 27).  </layout>
+                                <layout style="vertical" rend="stemline_up">On the better preserved face of the cross-slab, the ogham inscription occupies most of the lower half of the narrow left edge. The inscription is visible at the lowest point on the intact surface, about 600 mm from the current ground level. The stem-line is substantial, incised deep and wide, and is visible for approximately 1250mm and stops cleanly with the last letter (Forsyth 1996, 29). Additionally, there might be the remnants of another ogham inscription running up the side of the cross-shaft on the face of the cross-slab (ibid. 25).  </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>It appears the carving was <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and smoothed, though the surface is too weathered and lichen-encrusted to be certain (Forsyth 1996, 30). The incised stem-line is wider and deeper than the strokes, which are quite thin, and stops with the last letter (Forsyth 1996, 30, 35). The letters are generously spaced, with long straight vowel strokes taking up the whole width of the ogham band (Forsyth 1996, 35).
+                            <handNote>It appears the ogham inscription on the left edge was <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>, though the surface is too weathered and lichen-encrusted to be certain (Forsyth 1996, 30). The ogham strokes are quite thin and are unlikely to have been deep when freshly carved (Forsyth 1996, 35). The letters are generously spaced, with long straight vowel strokes taking up the whole width of the ogham band (Forsyth 1996, 35). Generally, the ogham inscription seems to have been <q>very competently and evenly cut in a formal measured style</q> (Forsyth 1996, 30). The ogham inscription on the face of the cross-slab appears to have been <q>cut in a slightly finer script</q> than the ogham inscription on the edge (Forsyth 1996, 29). 
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -139,39 +139,45 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-26" who="#POC">Added filtering attributes to material and objectType, added decoration section for stone decoration and added attibutes to filter decoration.</change>
         <change when="2025-03-28" who="#POC">Added country to origPlace, moved information to translation</change>
 <change when="2025-04-03" who="#POC">Simplified material type</change>
+<change when="2025-01-05" who="#POC">Added images, added attributes for filtering, updated lemma values, updated execution, added type attribute to w element in edition for formula word, added information from Forsyth 1996.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/><!--update image, please-->
+        <graphic url="SCO/S-MOR-002-Altyre-HES-image.jpg"><desc>Image of Altyre cross-slab. Copyright: <ref target="https://canmore.org.uk/collection/https://canmore.org.uk/file/image/1235749">Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS)</ref>.</desc></graphic>
+        <graphic url="SCO/S-MOR-002-Altyre-HES-full-scan.jpg"><desc>Drawing of Altyre cross-slab. Copyright: <ref target="https://canmore.org.uk/collection/2217205">Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS)</ref>.</desc></graphic>
          <media url="YYY" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
-                <ab>    <!--encode incised stem-line ?-->
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="low" resp="#LH"><!--update lang here-->              
+                <ab>    
                     <lb n="1" style="text-direction:up"/>
-                    <!--<gap reason="lost" extent="unknown" unit="character"/>? NOT included in Revised readings 2024, but Katherine mentions the beginning was lost (Forsyth 1996, 29)-->ᚐᚋ <w lemma="MAQQAS">ᚋᚐᚊᚊ</w><gap reason="illegible" quantity="1" unit="character"/>ᚐᚂᚂᚋ<gap reason="lost" extent="unknown" unit="character"/>ᚐᚆᚆᚏᚏᚐᚄᚄᚒᚇᚇᚄ
+                    <gap reason="lost" extent="unknown" unit="character"/>ᚐᚋ <w type="formula" lemma="maqqas">ᚋᚐᚊᚊ</w><gap reason="illegible" quantity="1" unit="character"/>ᚐᚂᚂᚋ<gap reason="lost" extent="unknown" unit="character"/>ᚐᚆᚆᚏᚏᚐᚄᚄᚒᚇᚇᚄ
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="2" style="text-direction:up"/>
-                    <!--<gap reason="lost" extent="unknown" unit="character"/>? NOT included in Revised readings 2024, but Katherine mentions the beginning was lost (Forsyth 1996, 29)-->AM <w lemma="MAQQAS">MAQQ</w><gap reason="illegible" quantity="1" unit="character"/>ALLM<gap reason="lost" extent="unknown" unit="character"/>AHHRRASSUDDS
+                    <gap reason="lost" extent="unknown" unit="character"/>AM <w type="formula" lemma="maqqas">MAQQ</w><gap reason="illegible" quantity="1" unit="character"/>ALLM<gap reason="lost" extent="unknown" unit="character"/>AHHRRASSUDDS
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">   
+                    <note>The main obstacle to a satisfactory interpretation of the Altyre ogham is the uncertainty over the weathered sections of text. The intact portions are very clear, but where there is doubt it is considerable. Furthermore, although the letters MAQQ, a form of Irish MAQ(Q)I 'son', can be segmented straight away, the segmentation of the rest of the inscription proves problematic.</note>
                 </app>
+                    <app n="2">
+                        <note>There is doubt over whether there is a second ogham inscription on the front face of the slab (Forsyth 1996, 29). An incised line around the cross can be discerned and while this could be the stem-line of an ogham inscription, its primary purpose is to outline the cross, which in turn suggests that the ogham would have been a secondary addition (ibid). The surviving carving is too weathered to be able to reconstruct the text (ibid). As Forsyth suggests, if this inscription were to be accepted as genuine and secondary to the original carving, then this would imply that the ogham on the edge of the slab is also a later addition (ibid).</note>
+                    </app>
                 </listApp>
-            </div>-->
+            </div>
             <div type="translation">
                 <p>The extant text is not sufficient to identify the language or the meaning of the text (Forsyth 1996, 39).</p>
             </div>
             <div type="commentary">
- <p>There is doubt over whether there is a second ogham inscription on the front face of the slab (Forsyth 1996, 29). An incised line around the cross can be discerned and while this could be the stem-line of an ogham inscription, its primary purpose is to outline the cross, which in turn suggests that the ogham would have been a secondary addition (ibid). The surviving carving is too weathered to be able to reconstruct the text (ibid). As Forsyth suggests, if this inscription were to be accepted as genuine and secondary to the original carving, then this would imply that the ogham on the edge of the slab is also a later addition (ibid).</p>
-<p>It is difficult to determine the significance of the text given its precise original location is unknown (Forsyth 1996, 39).</p>
+ <p>Too little of the text survives to make clear the identification of the language of the inscription, whether Pictish or Irish. Personal names ending in -am are few in both Gaelic and Brittonic sources, but the Pictish King-List has a king <persName xml:lang="xpi">Galam</persName> and one of the donors in a charter dated c.738-40 in the Book of Llandaff was a certain <persName xml:lang="xpi">Riatam</persName> (Rhiadaf) (Forsyth 1996, 38). Forsyth (1996, 38) notes that the element RRASSUDDS calls to mind the Resad of the St. Ninian's Isle chape, but is otherwise not recognisable as any attested personal name (though possibly related to Brittonic Ris > Rhys?).</p>
+<p>It is difficult to determine the significance of the text given its precise original location is unknown, yet Forsyth notes its <q>general context is a late Pictish Moray increasingly drawn into Gaeldom, more specifically the environs of the major secular power centre of Burghead and the important ecclesiastical site at Kinneddar</q> (1996, 39).</p>
 <p><q>At its current height of 3.3m, Altyre is the second tallest sculptured slab from early medieval Scotland, shorter only than the giant Sueno's Stone (6.10m)</q> (Forsyth 1996, 39).</p>
 
             </div>
