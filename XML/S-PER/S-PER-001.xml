@@ -101,7 +101,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origDate/><!--usually not known-->
                         </origin>
                         <provenance type="found" when="1890">Found in a churchyard in <date>1890</date> and presented to the National Antiquities Museum in <date>1892</date> by Alexander Laing.</provenance>
-                        <provenance type="observed" when="2022-06-15">The fragment was observed and recorded by the OG(H)AM team on the <date>15th of June 2022</date> at <placeName>National Museums Scotland</placeName>. </provenance>
+                        <provenance type="observed" when="2022-06-15">The fragment was observed and recorded by the OG(H)AM team on the <date>15th of June 2022</date> at <placeName><ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=167115W">National Museums Scotland</ref></placeName>. </provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -145,22 +145,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-26" who="#POC">Update object type key attribute value to monument for filtering</change>
                 <change when="2025-03-27" who="#POC">Added country to origPlace and secondary location coords</change>
                 <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition. Added layout style and rend.</change>
-                
+                <change when="2025-05-02" who="#POC">Added NMS image and copyright</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="SCO/S-PER-001-Abernethy1.png"><desc>Image of Abernethy ogham inscription. Copyright: <ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=167115">National Museums Scotland</ref></desc></graphic>
         <media url="Complete" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi" resp="#XS"><!--Language unsure-->              
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#XS"><!--Language unsure-->              
                 <ab>
                     <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_Q"/>ᚋ<g ref="#bound_I"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="xpi" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
                      <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_Q"/>M<g ref="#bound_I"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
