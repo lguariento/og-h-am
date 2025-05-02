@@ -142,7 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR details to origPlace, closed unused elements, commented out apparatus and translation</change>
                     <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, added and encoded information, including provenance, objectType, secondary location coordinates, commented out media</change>
             <change when="2025-04-30" who="#POC">Added and encoded information based on NMS image.</change>
-                <change when="2025-05-02" who="#POC">Add NMS image</change>
+                <change when="2025-05-02" who="#POC">Add NMS image, updated transliteration edition with encoding for unclear section</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -160,7 +160,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>AT---H[---] 
+                    <lb n="1" style="text-direction:up"/>AT<gap reason="lost" extent="unknown" unit="character"/>H<gap reason="lost" extent="unknown" unit="character"/> 
                     <lb n="2" style="text-direction:up"/>AL
                 </ab>
             </div>
