@@ -57,7 +57,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Scotland</country>
                         <repository/>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -97,7 +97,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="parish">Killin</placeName>, <placeName type="county">Perthshire</placeName>, <placeName type="country">Scotland</placeName>
                                 <geo>56.496944, -4.385556</geo>
                             <note>National Grid Reference: NN 5325 3641</note></origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>Seventh to ninth century</origDate>
                         </origin>
                         <provenance type="found" when="1950">An incised rock face behind Duncroisk farmhouse, 1/4 mile NE of the farm entrance. Duncroisk first mentioned 1950/1952, though ogham not yet confirmed.
                         </provenance>
@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements, commented out sections that have no content</change>
                 <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, updated commentary, added decoration section</change>
+                <change when="2025-05-04" who="#POC">Updated bibl, added dating range to commentary and origDate</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -165,16 +166,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>-->
-            <!--<div type="translation" xml:lang="en">
+            <!--<div type="translation">
                 <p></p>
             </div>-->
             <div type="commentary">
-<p></p>
+<p>Nash-Williams (1950) dated the motifs broadly to the 7th-9th centuries AD. </p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange><!--page numbers--></citedRange>
+                     <bibl><ptr target="NAS1950"/>
+                     <citedRange></citedRange>
                      </bibl>
                  </listBibl>
             </div>
