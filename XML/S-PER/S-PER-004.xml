@@ -80,17 +80,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions>-->
                                     <desc type="decoration">The rock face bearing groups of motifs, three of which include an <rs type="decoration" key="cross">encircled cross</rs>, and a possible fourth all on the upper N corner of the panel. The lower cross circle utilizes a natural fissure to extend the incised internal diameter line running NW to SE to arrow-headed terminals at each end. A second cross circle adjacent to the NE has a similar extended internal diameter line running E to W, the W with an arrowhead terminal, the E with a studded crosshead and a possibly separate small circled motif added. The third cross circle adjacent to the NE has a similar extended internal diameter line, its W terminal with the possible cuts of a cross base, its E terminal ending with an arrowhead (<ref target="https://canmore.org.uk/event/1118164">Scotland's Rock Art Project</ref>).</desc>
                                 </support>
-                                <condition>An incised rock face which consists of a sloping area, 8' x 2 1/2', of exposed and much weathered schist. </condition>
+                                <condition>An incised rock face, consisting of a sloping area, 8' x 2 1/2', of exposed and much weathered schist which might possibly bear ogham markings. </condition>
                             </supportDesc>
-                            <!--<layoutDesc>
-                                <layout>Description of the layout of the inscription on the stone/object</layout>
-                            </layoutDesc>-->
+                            <layoutDesc>
+                                <layout style="vertical" rend="stemline_up">The alleged ogham markings are located a little to the left of the lowest of the three encircled cross motifs on a stem-line that appears to have been incised on the rock face and reads upwards from the bottom.</layout>
+                            </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote>Description of the ogham letters/characters including encoded execution/carving type (e.g. <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>), if known. 
-                                <height>length of ogham stroke, if known</height>
+                        <handDesc>
+                            <handNote>The purported ogham markings appears to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. 
+                                <!--<height>Add measurements from 3d model</height>-->
                             </handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -140,12 +140,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-10" who="#POC">Added paragraph to support and NGR to origPlace, closed unused elements, commented out sections that have no content</change>
                 <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, updated commentary, added decoration section</change>
-                <change when="2025-05-04" who="#POC">Updated bibl, added dating range to commentary and origDate, added screenshot of model</change>
+                <change when="2025-05-04" who="#POC">Updated bibl, added dating range to commentary and origDate, added screenshot of model and HES drawing, added a sentence to translation, commentary, apparatus, add what I could from looking at the screenshot to layout and handnote and condition.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="SCO/S-PER-004-Duncroisk.jpg"><desc>Screenshot of Duncroisk 3D model</desc></graphic>
+        <graphic url="SCO/S-PER-004-Duncroisk-HES-scan.jpg"><desc>Drawing of Duncroisk. Copyright: <ref target="https://canmore.org.uk/file/image/2206977">HES</ref></desc></graphic>
          <media url="https://skfb.ly/o6Luq" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -160,22 +161,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>LA<unclear>O</unclear>D
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">
+                    <note>The direction in which the ogham inscription should be read is not certain.</note>
                 </app>
                 </listApp>
-            </div>-->
-            <!--<div type="translation">
-                <p></p>
-            </div>-->
+            </div>
+            <div type="translation">
+                <p>The inscription is too short to yield a meaningful translation.</p>
+            </div>
             <div type="commentary">
+                <p>Unfortunately, the inscription is insufficient for producing a linguistic analysis of the text.</p>
 <p>Nash-Williams (1950) dated the motifs broadly to the 7th-9th centuries AD. </p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="NAS1950"/>
-                     <citedRange></citedRange>
+                     <citedRange/>
                      </bibl>
                  </listBibl>
             </div>
