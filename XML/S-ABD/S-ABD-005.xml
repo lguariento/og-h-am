@@ -141,7 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#NW">Edition update - Added X-forfid glyphs.</change>
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid. Added layout style and rend.</change>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
-    
+        <change when="2025-05-06" who="#POC">Encoded personal names in commentary with persName, updated edition with nymRef value, added sentence to translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,7 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve"  xml:lang="xpi-Ogam" cert="low" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/> <!--change text direction if needed, please-->
-                    ᚁᚏ<g ref="#forfid_X"/>ᚌᚐᚃ <persName nymRef="#?">ᚅᚓᚉᚈᚑᚅ</persName>
+                    ᚁᚏ<g ref="#forfid_X"/>ᚌᚐᚃ <persName nymRef="#necton">ᚅᚓᚉᚈᚑᚅ</persName>
                     <lb n="2" style="text-direction:up"/>
                     ᚂᚐᚁᚒ<gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
@@ -163,7 +163,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration"  xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="3" style="text-direction:up"/> <!--change text direction if needed, please-->
-                    BR<g ref="#forfid_X" type="interpretation_E"/>GAV <persName nymRef="#?">NECTON</persName>
+                    BR<g ref="#forfid_X" type="interpretation_E"/>GAV <persName nymRef="#necton">NECTON</persName>
                     <lb n="4" style="text-direction:up"/>
                     LABU<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
@@ -171,15 +171,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>The inscription includes the personal name Necton (Forsyth 1997, 35).</note>                    
+<note>The inscription includes the personal name <persName>Necton</persName> (Forsyth 1997, 35).</note>                    
                 </app>
                 </listApp>
             </div>
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>The inscription is insufficient to produce a translation</p>
+            </div>
             <div type="commentary">
-<p>As Forsyth (1997, 35) explains, <q><foreign xml:lang="xpi">Nechton</foreign> or <foreign xml:lang="xpi">Neiton</foreign> is the well-known Pictish name of saint and kings</q>.</p>
+<p>As Forsyth (1997, 35) explains, <q><persName xml:lang="xpi">Nechton</persName> or <persName xml:lang="xpi">Neiton</persName> is the well-known Pictish name of saint and kings</q>.</p>
                 <p>Forsyth suggests the stone likely served as a boundary marker (ibid.).</p>
 <p>Information about the stone and its analysis is limited due to the lack of publications.</p>
             </div>
