@@ -79,7 +79,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The stone is a large roughly triangular mass broken into several pieces. The bottom right corner is missing and portions from both the top and bottom have been lost, but other than that the side edges are intact. The stone has <q>suffered virtually no ill-effects from weathering</q> and the extant inscription is well-preserved (Forsyth 1996, 104).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription runs parrallel with the left edge (Forsyth 1996, 103). The inscription reads upwards and the stem-line is arranged vertically on the face, more or less straight, though it wavers slightly after the 12th letter (ibid. 109).</layout>
+                                <layout style="vertical" rend="stemline_up">The ogham inscription runs parrallel with the left edge (Forsyth 1996, 103). The inscription reads upwards and the stem-line is arranged vertically on the face, more or less straight, though it wavers slightly after the 12th letter (ibid. 109).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -145,6 +145,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <change when="2025-03-24" who="#POC">Updated decoration encoding</change>
     <change when="2025-03-27" who="#POC">Deleted pillar from object type</change>
     <change when="2025-04-03" who="#POC">Simplified material type</change>
+    <change when="2025-05-06" who="#POC">Encoded personal names in commentary with persName, added layout attributes for filtering</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -177,13 +178,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <p>Clancy suggested an Old Irish interpretation of the text 'i rath Aduarén s-' of which the most likely translation is: 'this is the property of Adúarén’.</p>
             </div>
             <div type="commentary">
 <p>The original orientation of the stone is assumed to have been vertical. Given that the ogham inscription is situated vertically relative to the intact sides of the stone, it is further assumed that the original orientation of the inscription was vertical as well despite its current diagonal axis (Forsyth 1996, 104). Forsyth noted that precise measurements of the stone are difficult to obtain given its irregular shape (ibid. 103-4).</p>
                 <p>The ogham text and Pictish symbols are contemporary, but whether their messages are separate, equivalent or complimentary remains to be established. The inscription is on the same scale as the symbols and is given equal prominence (ibid. 115).</p>
-                <p>Clancy notes that Aduar is an attested male personal name [Annals of Innisfallen 810, CGH], of which Aduarán or Aduarén would be 'plausible diminutives' [pers. comm.]. Uhlich interprets Aduar as a compound of the intensifying prefix <foreign xml:lang="ga"><ref target="https://dil.ie/247">ad</ref></foreign>, and <foreign xml:lang="ga"><ref target="https://dil.ie/42762">uar</ref></foreign>, meaning 'very cold’ (ibid. 114). While <foreign xml:lang="ga"><ref target="https://dil.ie/34834">rath</ref></foreign> usually refers to moveable wealth, 'property', 'fief, may be the meaning here, or perhaps <foreign xml:lang="ga"><ref target="https://dil.ie/34833">rath</ref></foreign> as in 'gift', 'something bestowed'.</p>
+                <p>Clancy notes that <persName xml:lang="sga">Aduar</persName> is an attested male personal name [Annals of Innisfallen 810, CGH], of which <persName xml:lang="sga">Aduarán</persName> or <persName xml:lang="sga">Aduarén</persName> would be 'plausible diminutives' [pers. comm.]. Uhlich interprets <persName xml:lang="sga">Aduar</persName> as a compound of the intensifying prefix <foreign xml:lang="ga"><ref target="https://dil.ie/247">ad</ref></foreign>, and <foreign xml:lang="ga"><ref target="https://dil.ie/42762">uar</ref></foreign>, meaning 'very cold’ (ibid. 114). While <foreign xml:lang="ga"><ref target="https://dil.ie/34834">rath</ref></foreign> usually refers to moveable wealth, 'property', 'fief, may be the meaning here, or perhaps <foreign xml:lang="ga"><ref target="https://dil.ie/34833">rath</ref></foreign> as in 'gift', 'something bestowed'.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
