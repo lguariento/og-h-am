@@ -72,24 +72,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://canmore.org.uk/site/24741/kilmadock-st-aedhs-church">Canmore</ref> <idno type="Canmore">24741</idno></p>
                                     <material type="stone">Unknown</material> 
                                     <objectType key="monument">Cross-slab</objectType>                                     
-                                    <!--<dimensions unit="m">                                         
+                                    <dimensions unit="m">                                         
                                             <height></height>
                                             <width></width>
                                             <depth></depth>
-                                        <!-\-<dim type="diameter">if circular, etc</dim>-\->
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>  
-                                    <desc type="decoration"></desc>-->     
+                                    <desc type="decoration"></desc>     
                                 </support>
-                                <!--<condition>Any damage to the stone/object</condition>-->
+                                <condition>The cross-slab is fragmented. The ogham inscription is quite damaged, only some of the letters can be discerned with confidence. It is difficult to determine the extent of letters lost from the beginning, middle, and end of the inscription.</condition>
                             </supportDesc>
-                            <!--<layoutDesc>
-                                <layout>Description of the layout of the inscription on the stone/object</layout>
-                            </layoutDesc>-->
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote>Description of the ogham letters/characters including encoded execution/carving type (e.g. <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>), if known. <height>length of ogham stroke, if known</height>
+                        <handDesc>
+                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                                <height></height>
                             </handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -98,9 +99,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NN 70664 02479</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found">2022
+                        <provenance type="found" when="2022">An evaluation of seven trenches was taken at Old Kilmadock Graveyard, in September 2022, to lift and conserve a previously discovered early medieval cross slab. The evaluation uncovered that fragments of the cross slab were scattered across the findspot and a previously unknown Ogham inscription was identified. 
                         </provenance>
-                        <provenance type="observed">Graciela Ainsworth for conservation
+                        <provenance type="observed" when="2024">The cross slab was taken to Graciela Ainsworth for conservation. Prior to being lifted and conserved, the cross slab was 3D recorded by the OG(H)AM team on 20 March 2024.
                         </provenance>
                     </history>
                 </msDesc>
@@ -124,7 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
             <textClass>
                 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
-                    <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+                    <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
                     <!--<term xml:lang="en">graffiti</term>-->
                 </keywords>
             </textClass>
@@ -142,6 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-27" who="#POC">Added country to origPlace, added paragraph to support</change>
                 <change when="2025-03-28" who="#POC">Added county name to origPlace</change>   
             <change when="2025-04-04" who="#POC">Added material type Unknown</change>
+            <change when="2025-05-07" who="#POC">Added and encoded information to provenance from Canmore, updated bibl reference, updated edition with forfeda transliteration values, corrected gap extent, updated text type</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -154,32 +156,33 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>ᚅᚅᚕ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ<gap reason="lost" extent="unknown" unit="character"/>ᚈᚈ<gap reason="lost" extent="unknown" unit="character"/>ᚇᚉ<gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>ᚅᚅᚕ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ<gap reason="lost" extent="unknown" unit="character"/>ᚈᚈ<gap reason="lost" extent="1" unit="character"/>ᚇᚉ<gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                     <gap reason="lost" extent="unknown" unit="character"/>NN<g ref="#forfid_X"/><gap reason="lost" quantity="1" unit="character"/>QQ<gap reason="lost" extent="unknown" unit="character"/>TT<gap reason="lost" extent="unknown" unit="character"/>DC
+                     <gap reason="lost" extent="unknown" unit="character"/>NN<choice><unclear><g ref="#forfid_X" type="interpretation_E"/></unclear><unclear><g ref="#forfid_X" type="interpretation_EA"/></unclear><unclear><g ref="#forfid_X" type="interpretation_K"/></unclear></choice><gap reason="lost" quantity="1" unit="character"/>QQ<gap reason="lost" extent="unknown" unit="character"/>TT<gap reason="lost" extent="1" unit="character"/>DC
 <gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">   
+                    <note>Although the extant inscription is short, it contains an example of a supplementary letter, the X forfid</note>
                 </app>
                 </listApp>
-            </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            </div>
+            <div type="translation">
+                <p>The extant inscription does not yield a meaningful translation.</p>
+            </div>
             <div type="commentary">
-     <p></p>
+     <p>Unfortunately, the inscription is insufficient to support linguistic analysis.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange/>
+                     <bibl><ptr target="COO2023"/>
+                     <citedRange>173</citedRange>
                      </bibl>
                  </listBibl>
             </div>
