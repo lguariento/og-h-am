@@ -78,13 +78,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </support>
                                 <condition>A small stone which may have come from a larger pillar that had seemingly tumbled down the slope. The ogham inscription is fragmentary.</condition>
                             </supportDesc>
-                            <!--<layoutDesc>
+                            <layoutDesc>
                                 <layout></layout>
-                            </layoutDesc>-->
+                            </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
+                        <handDesc>
                             <handNote></handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, updated commentary, added Canmore link and idno, added NGR, encoded information in provenance, condition, added edition from S-SEL-X01 file, retitled this file (formerly S-SEL-001 to S-SEL-X01)</change>
                 <change when="2025-03-28" who="#POC">Added missing county place name to origPlace</change>   
                <change when="2025-04-17" who="#POC">Update material to unknown for now</change>  
+                <change when="2025-05-07" who="#POC">Updated edition, added a sentence to translation and commentary, added bibl details from Canmore</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -147,7 +148,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>[---]B!ABABHAH[---]<gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B</unclear>ABABHAH<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B</unclear>ABABHAH<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <!--<div type="apparatus">
@@ -157,17 +158,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>-->
                 <!--</listApp>
             </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p> 
-            </div>-->
+            <div type="translation">
+                <p>Due to the fragmentary state of the inscription, a translation cannot be supplied.</p> 
+            </div>
             <div type="commentary">
-                        <p/>
+                        <p>The authenticity of the ogham inscription is still under debate since the extant inscription makes little sense.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
                     <bibl>
-                        <ptr/>
-                        <citedRange/>
+                        <ptr target="FOS2005"/>
+                        <citedRange>122</citedRange>
                     </bibl>
                 </listBibl>
             </div>
