@@ -75,12 +75,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width>0.43</width>
                                             <depth>0.10</depth>
                                      </dimensions>
-                                    <desc type="decoration">The cross-slab is carved on one face with, one above the other, the lower pan of a <rs type="decoration">cross</rs> in relief, an incised <rs type="decoration">bird and fish</rs>, and two incised <rs type="decoration">horsemen</rs>. The upper section of the <rs type="decoration">cross</rs> is decorated with a <rs type="decoration">spiral ornament</rs> arranged in C-shaped scrolls placed back to back, the lower and narrower section is decorated with <rs type="decoration">interlace</rs>.</desc>
+                                    <desc type="decoration">The cross-slab is carved on one face with, one above the other, the lower part of a <rs type="decoration">cross</rs> in relief, an incised <rs type="decoration">bird and fish</rs>, and two incised <rs type="decoration">horsemen</rs>. The upper section of the <rs type="decoration">cross</rs> is decorated with a <rs type="decoration">spiral ornament</rs> arranged in C-shaped scrolls placed back to back, the lower and narrower section is decorated with <rs type="decoration">interlace</rs>.</desc>
                                 </support>
-                                <condition>The carving is worn but generally clear. Only the left edge is intact, all the others are fractured and portions of unknown length have therefore been lost from both the top and the bottom.</condition>
+                                <condition>The carving is worn but generally clear. Only the left edge of the stone is intact, all the others are fractured and portions of unknown length have therefore been lost from both the top and the bottom. The right edge is seriously damaged. The inscription is rather worn towards the top and the upper fracture occurs part way through a letter and, from the extant text, it seems likely that the inscription continued a little longer.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="stemline">The ogham inscription is incised vertically up the left-hand side on an incised stem-line.</layout>
+                                <layout style="vertical" rend="stemline_up">The ogham inscription is incised vertically up the left-hand side on an incised stem-line. The stem runs the entire length of the extant portion of the slab, wavering a little to accommodate protruding elements of the design. Rather that running up the raised border, the inscription runs parallel with it on the sunken background to the cross. About 300mm of stem is visible before the break in the stone. It is not clear whether any letters have been lost from the beginning of the inscription. There is ample space before the first stroke in the inscripition which confirms that the break in the stone did not occur mid-letter. The angle of the consonants and the orientation of the hammerhead A confirm that the inscription is to be read from the bottom up.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -94,7 +94,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="parish">Latheron</placeName>, <placeName type="county">Sutherland</placeName>, <placeName type="country">Scotland</placeName>
                                 <geo>58.279722, -3.369167</geo>
                             <note>National Grid Reference: ND 1981 3315</note></origPlace>
-                            <origDate cert="low">ninth century</origDate>
+                            <origDate cert="low">Ninth century</origDate>
                         </origin>
                         <provenance type="found" when="1903">The ogham was first published in <date>1904</date> in the Proceedings of the Society of Antiquaries of Scotland (Anderson 1904, 534). The stone was found by John Nicholson in <date>1903</date> in the interior face of the wall of an old byre and was taken to the National Antiquities Museum in <date>1905</date> (Forsyth 1996, 360). 
                         </provenance>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-12-13" who="#POC">Added Latheron image</change>
     <change when="2025-03-26" who="#POC">Added attributes to object type, material and layout for filtering, added decoration section</change>
 <change when="2025-04-03" who="#POC">Simplify material type, and added country placename to origPlace</change>
+<change when="2025-05-08" who="#POC">Updated commentary, updated attributes for layout filtering, change nymRef values from upper to lowercase, updated transliteration, added hammerhead A and s-shaped A to edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,33 +150,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH">    <!--update lang here  -->     
                 <ab>
                     <lb n="1" style="text-direction:up"/> <!--encode stem-line?-->
-                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚁ</unclear> <persName><name nymRef="#?">ᚇᚒ<unclear reason="damage">ᚅ</unclear>ᚅᚑᚇᚅᚅᚐᚈ</name></persName> <w lemma="MAQQAS">ᚋᚐᚊᚊ</w> <persName><name nymRef="#?">ᚅᚐ<gap reason="lost" quantity="1" unit="character"/>ᚈ<unclear reason="ambiguous">ᚒ</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚁ</unclear> <persName><name nymRef="#?">ᚇᚒ<unclear reason="damage">ᚅ</unclear>ᚅᚑᚇᚅᚅ<g ref="#hammerhead_A"/>ᚈ</name></persName> <w lemma="maqqas">ᚋ<g ref="#s-shaped_A"/>ᚊᚊ</w> <persName><name nymRef="#?">ᚅᚐ<gap reason="lost" quantity="1" unit="character"/>ᚈ<unclear reason="ambiguous">ᚒ</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="2" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B!</unclear> <persName><name nymRef="#?">DU<unclear reason="damage">Ṇ</unclear>NODNNA<!--this is a hammer-head A in Katherine's thesis...?-->T</name></persName> <w lemma="MAQQAS">MAQQ</w> <persName><name nymRef="#?">NA<gap reason="lost" quantity="1" unit="character"/>T<unclear reason="ambiguous">U!</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B</unclear> <persName><name nymRef="#?">DU<unclear reason="damage">N</unclear>NODNN<g ref="#hammerhead_A"/>T</name></persName> <w lemma="maqqas">M<g ref="#s-shaped_A"/>QQ</w> <persName><name nymRef="#?">NA<gap reason="lost" quantity="1" unit="character"/>T<unclear reason="ambiguous">U</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">
+<note>The extant inscription contains two supplementary letters, a hammerhead A and S-shaped A. The Latheron ogham text is unique in using a forfid, the S-shaped A, within MAQQ. </note>                    
                 </app>
                 </listApp>
-            </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            </div>
+            <div type="translation">
+                <p>Dunodnat son of Na...?</p>
+            </div>
             <div type="commentary">
-                 <list type="witDetail">
-                    <item n="1"><p>The carving is rather worn towards the top and a fracture occurs part way through a letter. According to Forsyth, it seems very likely that the inscription continued at least a little longer given the extant text (Forsyth 1996, 364).</p>
-                    </item>
-                    <item n="2"><p>While the names of the inscription remain debatable, it seems the text follows the formula of X MAQQ Y (Forsyth 1996, 372).</p>
-                    </item>
-                    <item n="3"><p>The ogham appears contemporary to the rest of the carving and, as Forsyth suggests, therefore likely refers to the patron or honorand of the cross, or less likely the craftsman (Forsyth 1996, 373).</p>
-                    </item>
-                 </list>
+                    <p>While the names of the inscription remain debatable, it seems the text follows the formula of X MAQQ Y (Forsyth 1996, 372). At the beginning of the inscription, the first element of DUNNODNNAT, the Irish <foreign xml:lang="sga"><ref target="https://dil.ie/19227">dún</ref></foreign> meaning 'high place, fort' was a common element in compound male personal names. Latheron's Dunod- may be compared with <foreign xml:lang="sga">Dúnadach</foreign> (<foreign xml:lang="sga">Dúnad</foreign> + the adjectival ending -<foreign xml:lang="sga">ach</foreign>), which means 'one who leads on campaigns'. Another possibility is that DUNNOD- could be a form of Irish DUNAIDONAS which is a compound of *<foreign xml:lang="sga">Duna</foreign> and <foreign xml:lang="sga">aidonas</foreign>, meaning 'fiery'. The last element, -NNAT, could be the Irish diminutive suffix -nat/-nait, commonly used to form a female version of a male personal name. </p>
+                    <p>The ogham appears contemporary to the rest of the carving and, as Forsyth suggests, therefore likely refers to the patron or honorand of the cross, or less likely the craftsman (Forsyth 1996, 373).</p>
+                    
             </div>
             <div type="bibliography">
                  <listBibl>
