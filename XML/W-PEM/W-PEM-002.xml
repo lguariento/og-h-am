@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-10" who="#POC">Updated execution encoding, deleted repository, added drawing by Macalister (1945)</change>
 <change when="2025-04-23" who="#POC">Added text type link, changed hi rend to foreign in commentary.</change>    
+<change when="2025-05-09" who="#POC">Change nymRef values from uppercase to lowercase, added word division in Latin edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -140,7 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#DUVVATUCAS">&#x1687;&#x1691;&#x1683;&#x1690;&#x1688;<unclear reason="worn" extent="1" unit="character"></unclear>&#x1689;
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#duvvatucas">&#x1687;&#x1691;&#x1683;&#x1690;&#x1688;<unclear reason="worn" extent="1" unit="character"></unclear>&#x1689;
                     <choice><unclear reason="worn">&#x1694;</unclear>
                             <unclear reason="worn">&#x1693;&#x1690;</unclear></choice>&#x1684;</name></persName>
                 </ab>
@@ -149,7 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#DUVVATUCAS">DOVAT<unclear reason="worn" extent="1" unit="character">U</unclear>C
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#duvvatucas">DOVAT<unclear reason="worn" extent="1" unit="character">U</unclear>C
                     <choice><unclear reason="worn">I</unclear>
                             <unclear reason="worn">EA</unclear></choice>S</name></persName>
                     </ab>
@@ -158,8 +159,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#DUVVATUCAS">DOB<gap reason="lost" extent="1" unit="character"></gap>TVCI</name>
-                    <lb n="2" style="text-direction:down"/><w>FILIVS</w><name>EVOLENG<unclear reason="illegible">I</unclear></name></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#duvvatucas">DOB<gap reason="lost" extent="1" unit="character"></gap>TVCI</name>
+                    <lb n="2" style="text-direction:down"/><w>FILIVS</w> <name>EVOLENG<unclear reason="illegible">I</unclear></name></persName>
                 </ab>
                </div>
             </div>  

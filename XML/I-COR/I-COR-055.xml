@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out media and empty commentary and handDesc</change>
     <change when="2025-02-06" who="#POC">Added townland coordinates to geo for a more accurate/relevant map display, fixed placename display</change>
  <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
+    <change when="2025-05-09" who="#POC">Remove ? from nymRef values</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -141,12 +142,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coelabuts">ᚉᚑᚂᚐᚁᚑᚈ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#maqqas_riteas?"><w>ᚋᚐᚊᚔ</w> <w>ᚏᚔᚈᚓ</w></name> <w type="formula">ᚋᚐᚊᚔ</w> <w type="formula">ᚋᚒᚉᚑᚔ</w> <name nymRef="#corberias?">ᚉᚑᚏᚔᚁᚔᚏᚔ</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coelabuts">ᚉᚑᚂᚐᚁᚑᚈ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#maqqas_riteas"><w>ᚋᚐᚊᚔ</w> <w>ᚏᚔᚈᚓ</w></name> <w type="formula">ᚋᚐᚊᚔ</w> <w type="formula">ᚋᚒᚉᚑᚔ</w> <name nymRef="#corberias">ᚉᚑᚏᚔᚁᚔᚏᚔ</name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coelabuts?">COLABOT</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#maqqas_riteas?"><w>MAQI</w> <w>RITE</w></name> <w type="formula">MAQI</w> <w type="formula">MUCOI</w> <name nymRef="#corberias?">CORIBIRI</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coelabuts">COLABOT</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#maqqas_riteas"><w>MAQI</w> <w>RITE</w></name> <w type="formula">MAQI</w> <w type="formula">MUCOI</w> <name nymRef="#corberias">CORIBIRI</name></persName>
                 </ab>
             </div>
             <!--<div type="apparatus">

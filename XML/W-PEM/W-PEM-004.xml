@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-01" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-11" who="#POC">Updated execution encoding, added decoration section and condition</change>
 <change when="2025-04-23" who="#POC">Added text type link.</change>    
+    <change when="2025-05-09" who="#POC">Change nymRef values from uppercase to lowercase, added word division to latin edition and added extra w element</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,20 +145,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#TRENAGUSSUS"><supplied reason="undefined">&#x1688;&#x168F;&#x1693;&#x1685;</supplied><unclear reason="illegible">&#x1690;</unclear>&#x168C;&#x1692;&#x1684;<gap reason="illegible" extent="1" unit="character"/></name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w><name nymRef="#MAQQAS TRENI">&#x168B;&#x1690;&#x168A;&#x1694;&#x1688;&#x168F;&#x1693;&#x1685;&#x1694;</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#trenagussus"><supplied reason="undefined">&#x1688;&#x168F;&#x1693;&#x1685;</supplied><unclear reason="illegible">&#x1690;</unclear>&#x168C;&#x1692;&#x1684;<gap reason="illegible" extent="1" unit="character"/></name><w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w><name nymRef="#maqqas treni">&#x168B;&#x1690;&#x168A;&#x1694;&#x1688;&#x168F;&#x1693;&#x1685;&#x1694;</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#TRENAGUSSUS"><supplied reason="undefined">TREN</supplied><unclear reason="illegible">A</unclear>GUS<gap reason="illegible" extent="1" unit="character"/></name><w lemma="#MAQQAS" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><name nymRef="#MAQQAS TRENI">MAQITRENI</name></persName>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#trenagussus"><supplied reason="undefined">TREN</supplied><unclear reason="illegible">A</unclear>GUS<gap reason="illegible" extent="1" unit="character"/></name><w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><name nymRef="#maqqas treni">MAQITRENI</name></persName>
                     </ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#TRENAGUSSUS">TRENEGUSSI</name><w>FILI</w>
-                    <lb n="1" style="text-direction:down"/><name nymRef="#MAQQAS TRENI">MACUTRENI</name></persName><w>HICIACIT</w>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#trenagussus">TRENEGUSSI</name> <w>FILI</w>
+                    <lb n="1" style="text-direction:down"/><name nymRef="#maqqas treni">MACUTRENI</name></persName> <w>HIC</w> <w>IACIT</w>
                 </ab>
                </div>
             </div>            
