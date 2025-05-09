@@ -66,7 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="gd-Ogam" cert="low">Possibly Goidelic written in ogham script</textLang>                           
+                            <textLang mainLang="gd-Ogam" cert="low">Possibly Gaelic written in ogham script</textLang>                           
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -105,7 +105,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                  
                              </origDate>
                         </origin>
-                        <provenance type="found" when="1931">The inscriptions can be found on a small pillar like object discovered <height unit="m">500 m</height> south-west of the North Lodge at Poltalloch at Bruach an Druimein ('brae of the elder bushes'), a <q>complex multi-period site...never fully investigated and still not fully understood</q> (Forsyth 1996, 444). There are indications that the site had been used in the past for ritual and burial purposes, with its earliest non-burial phase being an open-air cooking site with strong evidence of iron-working. J. Hewat Craw discovered the ogham fragment lying on the ground close to the cists in 1931. </provenance>
+                        <provenance type="found" when="1931">The inscriptions can be found on a small pillar-like object discovered <height unit="m">500 m</height> south-west of the North Lodge at Poltalloch at Bruach an Druimein ('brae of the elder bushes'), a complex multi-period site never fully investigated and still not fully understood (Forsyth 1996, 444). There are indications that the site had been used in the past for ritual and burial purposes, with its earliest non-burial phase being an open-air cooking site with strong evidence of iron-working. J. Hewat Craw discovered the ogham fragment lying on the ground close to the cists in 1931. </provenance>
                         <provenance type="observed" when="2022">The stone is part of the Poltalloch Collection on loan in the National Museums of Scotland and is currently on display in the Queen Street Antiquities Museum (HPO470). Visited and recorded on 06 May 2022.</provenance>
                     </history>
                 </msDesc>
@@ -154,6 +154,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <change when="2025-03-27" who="#POC">Removed whitespace from edition, removed attribute from layout for now</change>
             <change when="2025-04-14" who="#POC">Update execution encoding, added attributes for layout filtering</change>
           <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
+                <change when="2025-05-09" who="#POC">Proofreading updates, added persName encoding to commentary instead of foreign for personal names</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -192,19 +193,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                 </listApp>
             </div>
-            <div type="translation" xml:lang="en">
+            <div type="translation">
                 <p>'the son of Crónán'</p>
             </div>
             <div type="commentary">
-                        <p>The letters CRON could possibly be interpreted as the Irish name Crónán, <q>which derives from the colour term <foreign xml:lang="sga"><ref target="https://dil.ie/13108">crón</ref></foreign>, 'dark yellow, reddish brown, swarthy' </q> (Forsyth 1996, 450).</p>
-                         <p>Crón is also derivative of Cróine which is the name of a number of female saints.</p>
-                         <p>Crónán was a common name among early Irishmen some of which had Dal Riadic connections, so <q>without a patronymic qualification there is little chance of narrowing down the list of several possible Crónáns</q> (Forsyth 1996, 450-1).</p> 
-<p><q>If the suggested reading of the inscription is accepted, the commemorand is in fact the son of Crónán, but there is no indication at all of his own name.</q> (Forsyth 1996, 453)</p>
+                        <p>The letters CRON could possibly be interpreted as the Irish name <persName xml:lang="sga">Crónán</persName>, which derives from the colour term <foreign xml:lang="sga"><ref target="https://dil.ie/13108">crón</ref></foreign>, 'dark yellow, reddish brown, swarthy'  (Forsyth 1996, 450).</p>
+                         <p>Crón is also derivative of <persName xml:lang="sga">Cróine</persName> which is the name of a number of female saints.</p>
+                         <p><persName xml:lang="sga">Crónán</persName> was a common name among early Irishmen some of which had Dal Riadic connections, so <q>without a patronymic qualification there is little chance of narrowing down the list of several possible <persName xml:lang="sga">Crónán</persName>s</q> (Forsyth 1996, 450-1).</p> 
+<p>If the suggested reading of the inscription is accepted, the commemorand is in fact the son of Crónán, but there is no indication at all of his own name. (Forsyth 1996, 453)</p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="FOR1996"/>
                      <citedRange>443-455</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                     <citedRange/>
                      </bibl>
                  </listBibl>
             </div>

@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions>
                                     <desc type="decoration">As described by Forsyth, the carvings consist of <q>a rock basin, below the entrance through the NE wall of the summit fort, and <dim type="length" unit="m">2 m</dim> to the north-east spread over a distance of about <dim type="length" unit="m">3 m</dim>,</q> is a foot-print, an <rs type="decoration">incised boar</rs>, another foot-print and the ogham inscription (1996, 230). </desc>
                                 </support>
-                                <condition>The upper arris is more weathered and indistinct while the lower line is more defined and legible. This is most likely because the upper strokes of both lines are carved on the horizontal surface of the stone and thus more exposed to weathering. In comparison, the lower strokes are better preserved because they reach down into the fissures and have been shielded to some extent (Forsyth 1996, 230). <q>Though the carving is badly weathered, the component strokes are generally even and consistent</q> (Forsyth 1996, 236).
+                                <condition>The upper arris is more weathered and indistinct while the lower line is more defined and legible. This is most likely because the upper strokes of both lines are carved on the horizontal surface of the stone and thus more exposed to weathering. In comparison, the lower strokes are better preserved because they reach down into the fissures and have been shielded to some extent (Forsyth 1996, 230). Though the carving is badly weathered, the component strokes are generally even and consistent (Forsyth 1996, 236).
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -141,9 +141,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-06" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-04" who="#POC">Added paragraph to support and National Grid Reference, closed unused elements, numbered and added notes on readings in apparatus, commented out translation</change>
-                 <change when="2025-02-19" who="#POC">Proofreading updates</change>                       <change when="2025-03-04" who="#POC">Proofreading updates, added HES image, added original placename to title and provenance, updated provenance and layout, added information to apparatus, added eDIL references to commentary, added possible translation from Forsyth 1996</change>
+                 <change when="2025-02-19" who="#POC">Proofreading updates</change>                       
+                <change when="2025-03-04" who="#POC">Proofreading updates, added HES image, added original placename to title and provenance, updated provenance and layout, added information to apparatus, added eDIL references to commentary, added possible translation from Forsyth 1996</change>
                 <change when="2025-03-12" who="#POC">Added attribute values to material</change>
-                                    <change when="2025-03-26" who="#POC">Added decoration section, added country to origPlace, added monument as key for objectType for filtering, removed whitespace from edition</change>
+                <change when="2025-03-26" who="#POC">Added decoration section, added country to origPlace, added monument as key for objectType for filtering, removed whitespace from edition</change>
+                <change when="2025-05-09" who="#POC">Proofreading updates, added missing bibl reference to Zotero and cited page range</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -153,17 +155,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd" resp="#XS">     
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" resp="#XS">     
                 <ab>
                     <lb n="1" style="text-direction:right"/>ᚐᚓᚄᚇ<gap reason="lost" extent="unknown" unit="character"/>ᚈ<gap reason="lost" quantity="2" unit="character"/>ᚅᚐ<gap reason="lost" extent="unknown" unit="character"/>ᚈ<gap extent="unknown" reason="illegible"/>
                     <lb n="2" style="text-direction:right"/>ᚃᚔᚏᚏᚋᚑᚅᚐᚔ 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="gd" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="gd-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
                     <lb n="1" style="text-direction:up"/>AESD<gap reason="lost" extent="unknown" unit="character"/>T<gap reason="lost" extent="unknown" unit="character"/>V<gap reason="lost " quantity="2" unit="character"/>NA<gap reason="lost" extent="unknown" unit="character"/>T
-                    <lb n="2" style="text-direction:right"/>
-                    VIRRMONAI 
+                    <lb n="2" style="text-direction:right"/>VIRRMONAI 
                 </ab>
             </div>
             <div type="apparatus">
@@ -203,7 +204,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <p>
                              Forsyth argues against previous arguments of Pictish origins from Curle (1940), Thomas (1964), Radford (1953) and Jackson (1965), maintaining that such notions reduce the ogham to provocative graffiti, on the unstable basis that there have been no subsequent raids on Dunadd which escaped the record. Contrastingly, Forsyth contends that <q>there can be absolutely no grounds for describing the Dunadd ogham 'Pictish'</q> but rather its physical location and ogham script is more common throughout all the areas in which this alphabet was used. Its unusual location is paralleled in Ireland enforcing, under Forsyth's interpertation, its Gaelic origins (1996, 241).
                          </p>
-<p>According to Forsyth the ogham inscription is comparable to the Bac Mhic Connain, and even more closely to that of Gurness which suggest that <q>If the proposed reading is accepted then it precludes a date earlier than the eighth century</q> (1996,236).</p>
+<p>According to Forsyth the ogham inscription is comparable to the Bac Mhic Connain, and even more closely to that of Gurness which suggest that <q>If the proposed reading is accepted then it precludes a date earlier than the eighth century</q> (1996, 236).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -211,10 +212,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <citedRange>227-242</citedRange>
                      </bibl>
                      <bibl><ptr target="JAC1965"/>
-                     <!--<citedRange></citedRange>-->
+                     <citedRange>300-302</citedRange>
                      </bibl>
                      <bibl><ptr target="PAD1972"/>
-                     <!--<citedRange></citedRange>-->
+                     <citedRange>89-92</citedRange>
                      </bibl>
                  </listBibl>
             </div>

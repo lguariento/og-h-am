@@ -79,7 +79,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions>      
                                     <desc type="decoration">Three of the four edges and faces of this block bear evidence of carving. Edge A is plain except for a <q>deep V-section</q> groove. The left end of face B has apparently been cut away, but the undamaged part of face B bears two lines of irregularly incised roman lettering. The ogham inscription is located on edge C which exhibits two lines of lettering to the right of another deep V-section groove. Edge D is the roughest out of all the surfaces and appears to be uncarved.</desc>
                                 </support>
-                                <condition>An oddly shaped, fine-grained sandstone block which has been described previously by the RCAHMS as a <q>fragment of an inscribed pillar</q>, the <name xml:id="S-ARL-004">Loghgoilhead</name> ogham stone looks unfinished with possibly various different hands crafting each letter over periods of time. Forsyth suggests that <q>perhaps the block of stone was selected for carving</q> but then <q>abandoned ending up as chisel-fodder</q> (1996, 375). The stone is fragmentary and damaged with the surface severely abraded at points. However as Forsyth notes <q>only a small portion has been lost</q> (1996, 375). Interestingly, the patterns of wear suggest an eventful life with a potential of time in the sea. The begining and end of the ogham text on face C are badly worn making any reading of those portions of the inscription uncertain.
+                                <condition>An oddly shaped, fine-grained sandstone block which has been described previously by the RCAHMS as a <q>fragment of an inscribed pillar</q>, the <name xml:id="S-ARL-004">Loghgoilhead</name> ogham stone looks unfinished with possibly various different hands crafting each letter over periods of time. Forsyth (1996, 375) suggests that <q>perhaps the block of stone was selected for carving</q> but then <q>abandoned ending up as chisel-fodder</q>. The stone is fragmentary and damaged with the surface severely abraded at points. However as Forsyth (1996, 375) notes <q>only a small portion has been lost</q>. Interestingly, the patterns of wear suggest an eventful life with a potential of time in the sea. The begining and end of the ogham text on face C are badly worn making any reading of those portions of the inscription uncertain.
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -88,7 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The individual strokes are of varying length between <height unit="mm">20 and 35 mm</height> and <width unit="mm">3 and 6 mm</width> in breadth. The inscription has been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The carving is as Forsyth observed <q>course and scrappy, doubtless because of the intractability of the stone and the subsequent abuse the block has suffered</q> (1996, 377). Lochgoilhead is written in a rather scruffy <q>form of the script with perpendicular b- and h- strokes and long vowel-strokes occupying between half the ogham band and all of it. The letters are not widely spaced and there is considerable variation in strokes of the same aicme</q> (ibid. 379).
+                            <handNote>The individual strokes are of varying length between <height unit="mm">20 and 35 mm</height> and <width unit="mm">3 and 6 mm</width> in breadth. The inscription has been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The carving is as Forsyth (1996, 377) observed <q>course and scrappy, doubtless because of the intractability of the stone and the subsequent abuse the block has suffered</q>. Lochgoilhead is written in a rather scruffy <q>form of the script with perpendicular b- and h- strokes and long vowel-strokes occupying between half the ogham band and all of it. The letters are not widely spaced and there is considerable variation in strokes of the same aicme</q> (ibid. 379).
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -144,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-12" who="#POC">Added attribute values to material</change>
                 <change when="2025-03-26" who="#POC">Added country to origPlace, added monument as key for objectType for filtering,added decoration for the other carvings</change>
             <change when="2025-04-14" who="#POC">Updated execution type</change>
+            <change when="2025-05-09" who="#POC">Added missing s-shaped M encoding to edition</change> 
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -156,13 +157,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#XS"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#XS"><!--update lang and resp here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <choice resp="#KF"><unclear cert="low">᚛</unclear><unclear cert="low">ᚆ</unclear></choice>ᚋᚒᚇᚋᶴᚐᚂᚔ<unclear>ᚇᚋ</unclear>
+                    <choice resp="#KF"><unclear cert="low">᚛</unclear><unclear cert="low">ᚆ</unclear></choice>ᚋᚒᚇ<g ref="#s-shaped_M"/>ᚐᚂᚔ<unclear>ᚇᚋ</unclear>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                      <choice resp="#KF"><unclear cert="low">></unclear><unclear cert="low">H</unclear></choice>MUD<g ref="#s-shaped_M"/>ALI<unclear>DM</unclear>
@@ -177,7 +178,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                        <note>The fifth letter is distinctive as it consists of <q>one stroke, perpendicular through the stem, with what appears to be a diagonal flap attached to each end</q>, lending it the appearance of an <q>angular, open S</q> (ibid. 378)</note>
                    </app>
                    <app n="3">
-                       <note>Similarly, the <q>two very short parallel strokes, sloping diagonally backwards, stopping well short of the stem</q> before the final character in the inscription, <q>may perhaps be some form of punctuation or directional indicators, perhaps to be taken together with</q> the opening character <q>as bracketing the text in some way</q> (ibid. 378). It is also quite possibe that these strokes are not connected with the ogham but <q>relate to the line of roman letters above</q> instead. (ibid.)</note>
+                       <note>Similarly, the <q>two very short parallel strokes, sloping diagonally backwards, stopping well short of the stem</q> before the final character in the inscription, <q>may perhaps be some form of punctuation or directional indicators, perhaps to be taken together with</q> the opening character <q>as bracketing the text in some way</q> (ibid. 378). It is also quite possibe that these strokes are not connected with the ogham but <q>relate to the line of roman letters above</q> instead (ibid.)</note>
                    </app>
                    <app n="4">
                        <note>At the end of the stem is a <q>long perpendicular stroke, thicker than the other strokes</q> and its <q>more substantial aspect suggests it should be interpreted as a termination mark</q> rather than a concluding letter (ibid.). However, due to the wear to the stone the purpose of these beginning and end marks remains doubtful. </note>
@@ -195,10 +196,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>'Noble prince'</p>
             </div>
             <div type="commentary">
-                        <p>If the suggested reading is correct it could be interperted as the personal name MUD-MALI. The first element may be from the adjective <foreign xml:lang="sga"><ref target="https://dil.ie/32627">muad</ref></foreign> meaning 'noble' or 'good' while the second element may be correlated to the common personal name MAGL, OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/31461">mál</ref></foreign> meaning 'prince',  which is normally found in compound names such as this one. As Forsyth notes <q>Although there is no extant example of the two elements MOD/MUAD and MAGL-/MAL together, the combination is theoretically possible, perhaps with meaning 'noble prince'</q> (1996, 380-381).</p>
-                         <p>If the fifth letter is not M as the suggested reading implies then another possibility offered by Forsyth is the interpretation VALI from the root <foreign xml:lang="sga"><ref>wal</ref></foreign> meaning 'to be strong', a very common element in Celtic personal names (1996, 382).</p>
+                        <p>If the suggested reading is correct it could be interperted as the personal name MUD-MALI. The first element may be from the adjective <foreign xml:lang="sga"><ref target="https://dil.ie/32627">muad</ref></foreign> meaning 'noble' or 'good' while the second element may be correlated to the common personal name MAGL, OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/31461">mál</ref></foreign> meaning 'prince',  which is normally found in compound names such as this one. As Forsyth (1996, 380-381) notes <q>Although there is no extant example of the two elements MOD/MUAD and MAGL-/MAL together, the combination is theoretically possible, perhaps with meaning 'noble prince'</q>.</p>
+                         <p>If the fifth letter is not M as the suggested reading implies then another possibility offered by Forsyth (1996, 382) is the interpretation VALI from the root <foreign xml:lang="sga"><ref>wal</ref></foreign> meaning 'to be strong', a very common element in Celtic personal names.</p>
                          <p>If letter 5 is a modified A then the potential reading Forsyth purposes is Mudali, with the MU possibily serving as an abbreviation for MUCOI. It is important to note that these readings do not exhaust all possibilities. A better understanding of how the three texts (the groove, the roman and the ogham inscription) relate to one another would greatly assist in providing a more accurate interpretation.</p>
-                         <p>The difficulty in defining the original purpose of the Lochgoilhead stone has led to many explanations of which, as Forsyth comments one <q>is no more implausible than any other</q> (1996, 383).</p>
+                         <p>The difficulty in defining the original purpose of the Lochgoilhead stone has led to many explanations of which, as Forsyth (1996, 383) comments one <q>is no more implausible than any other</q>.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
