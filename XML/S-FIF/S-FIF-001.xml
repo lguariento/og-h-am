@@ -87,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Forsyth (1996, 486) notes that the inscription is <q><rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> with a drawn-in stem-line and long vowel-strokes occupying virtually the full ogham band</q>.
+                            <handNote>Forsyth (1996, 486) notes that the inscription is <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> and features long vowel-strokes which occupy virtually the full ogham band.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -142,6 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-27" who="#POC">Added secondary location coordinates, updated provenance, added country to origPlace</change>
                <change when="2025-04-14" who="#POC">Updated execution type, added attributes to layout</change>
               <change when="2025-04-22" who="#POC">Added decoration section and encodingDesc, added and encoded information</change>
+            <change when="2025-05-12" who="#POC">Proofreading updates, added persName encoding to personal name in commentary, added persName encoding to edition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -151,14 +152,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi" resp="#XS">              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#XS">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>ᚓᚇᚇᚐᚏᚏᚅᚑᚅᚅ
+                    <lb n="1" style="text-direction:up"/><persName xml:lang="xpi"><name nymRef="#eddarrnonn">ᚓᚇᚇᚐᚏᚏᚅᚑᚅᚅ</name></persName>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="xpi" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>EDDARRNONN
+                    <lb n="1" style="text-direction:up"/><persName xml:lang="xpi"><name nymRef="#eddarrnonn">EDDARRNONN</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -172,8 +173,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>Etharnon</p>
             </div>
             <div type="commentary">
-                         <p>As all the lettering is clear there is an unusual doubtlessness to the reading which <q>has been universally, and surely correctly, interpreted as the male personal name Etharnon</q> (Forsyth 1996, 486). The name Ethernan is not attested in the Pictish King-List <q>or any other source of Pictish secular names</q> (ibid., 489). Strikingly, out of the extant Pictish inscriptons, there are only four occurances of the name Ethernan. However, Forsyth notes that there is <q>an important Pictish saint called Ethernan and it is tempting to interpret some or all of these 
-inscriptions as honouring the saint rather than a string of local magnates coincidentally all called Ethernan</q> (ibid., 489).</p>
+                         <p>As all the lettering is clear there is an unusual doubtlessness to the reading which <q>has been universally, and surely correctly, interpreted as the male personal name <persName xml:lang="xpi">Etharnon</persName></q> (Forsyth 1996, 486). The name <persName xml:lang="xpi">Ethernan</persName> is not attested in the Pictish King-List <q>or any other source of Pictish secular names</q> (ibid., 489). Strikingly, out of the extant Pictish inscriptons, there are only four occurances of the name <persName xml:lang="xpi">Ethernan</persName>. However, Forsyth notes that there is <q>an important Pictish saint called <persName xml:lang="xpi">Ethernan</persName> and it is tempting to interpret some or all of these inscriptions as honouring the saint rather than a string of local magnates coincidentally all called <persName xml:lang="xpi">Ethernan</persName></q> (ibid., 489).</p>
                 <p>As Forsyth (1996, 480, 491) remarks, the <q>cross-slab is the only archaeological evidence for early medieval activity at the site</q> and <q>its inferior workmanship and comparatively small size point to a date in the second half of the eighth century or later</q>. </p>                                
             </div>
             <div type="bibliography">
