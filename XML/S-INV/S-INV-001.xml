@@ -62,9 +62,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
-                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
-<!--<textLang> is unclear and cannot be determined with certainty (Forsyth 1996)-->
+                            <textLang mainLang="pgl-Ogam" cert="low">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="sga-Ogam" cert="low">Old Irish written in ogham script</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -96,7 +95,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="parish">North Uist</placeName>, <placeName type="county">Inverness-shire</placeName>, <placeName type="country">Scotland</placeName>
                                 <geo>57.659167, -7.419167</geo>
                             <note>National Grid Reference: NF 7694 7619</note></origPlace>
-                            <origDate notBefore="0400" notAfter="0800" precision="low">fifth to eighth century</origDate>
+                            <origDate notBefore="0400" notAfter="0800" precision="low">Fifth to eighth century</origDate>
                         </origin>
                         <provenance type="found" when="1919">Discovered in <date>1919</date> during Erskine Beveridge's excavation of a wheelhouse on the tidal islet of Vallay, North Uist (Forsyth 1996, 55). The ogham-inscribed knife-handle was accessioned in December 1921.
                         </provenance>
@@ -145,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-27" who="#POC">Added secondary location coordinates, added attributes for filtering, added country to origPlace, moved information to apparatus and translation, added images</change>
     <change when="2025-04-14" who="#POC">Updated execution type, added attribute to layout</change>
 <change when="2025-04-24" who="#POC">Added and encoded information from Forsyth (1996).</change>
+<change when="2025-05-13" who="#POC">Added language code to edition, update commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,13 +155,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" cert="low" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <w>ᚋ<unclear reason="damaged">ᚑ</unclear>ᚊᚒ</w> <w>ᚅᚈᚓᚅᚉ<unclear reason="damaged">ᚐ</unclear>ᚈ</w>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" cert="low" resp="#LH">
                 <ab>
                     <lb n="2" style="text-direction:up"/>
                     <w>M<unclear reason="damaged">O</unclear>QU</w> <w>NTENC<unclear reason="damaged">A</unclear>T</w>
@@ -173,7 +173,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>The use of RTI and photogrammetry conducted by Megan Kasten has confirmed the reading provided as the most feasible. The measurements taken from the 3D model enabled a more precise estimation of the average spacing between individual letters and therefore suggest that the second letter is most likely to be an O (two strokes). Similarly, given the space between the third to last and the last letter, and considering what is left of the damaged surface, the second to last character is most likely to have been an A or a B with A being linguistically more probable (Kasten 2023).</note>
                 </app>
                     <app n="2">
-                        <note>Forsyth (1996, 61) highlights two features of the inscription that are worth mentioning: <q>the initial letter, M, is upright, not oblique</q> and there are no double letters in the inscription. Furthermore, although previous commentators have interpreted the Bac Mhic Connain ogham as Pictish, Forsyth (1996, 66) maintains that <q>the letters are most naturally read as Irish</q>. </note>
+                        <note>Forsyth (1996, 61) highlights two features of the inscription that are worth mentioning: <q>the initial letter, M, is upright, not oblique</q> and there are no double letters in the inscription. </note>
                     </app>
                 </listApp>
             </div>
@@ -182,6 +182,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary">
 <p>Forsyth (1996, 66) maintains that, generally, <q>the text appears to be a single male personal name and as such probably records the identity of the owner or maker (or donor if it was given as a gift)</q>.</p>
+                <p>Regarding the language of the inscription, although previous commentators have interpreted the Bac Mhic Connain ogham as Pictish, Forsyth (1996, 66) maintains that the letters are most naturally read as Irish.</p>
 <p>Forsyth highlights that <q>the Bac Mhic Connain knife-handle is one of a very small group of ogham-inscribed household objects, and as such provides important evidence for the non-monumental use of the script</q>, signifying <q>ogham literacy at a non-church-site, on the part of people of middling social standing</q> (Forsyth 1996, 65).</p>
             </div>
             <div type="bibliography">
