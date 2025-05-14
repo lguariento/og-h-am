@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>.
+                            <handNote>The ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>. Spacing is irregular, especially the Rs.
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-12" who="#POC">Added placename to title, proofreading updates, added citation details to image description, moved logainm reference around Irish placename.</change>
      <change when="2025-02-13" who="#NW">Updated support desc.</change>
      <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
+     <change when="2025-05-14" who="#NW">Added apparatus note regarding use of Gʷ character and updating reading (from 3d model).</change>
     
 </listChange>
 </revisionDesc>
@@ -147,7 +148,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
                     <lb n="1" style="text-direction:up"/>
-                    <orig>L<unclear reason="damaged">ᚓᚌᚌ</unclear><gap reason="lost" unit="score" quantity="15"/>ᚄᚇ<supplied reason="lost" cert="low" evidence="space">ᚔ</supplied>ᚒᚂᚓᚌᚍ<unclear reason="faded">ᚓᚄᚉᚐ</unclear><supplied reason="lost" evidence="previouseditor">ᚇ</supplied></orig>                 
+                    ᚂ<unclear reason="damaged">ᚓᚌᚌ</unclear><gap reason="lost" unit="stroke" quantity="15"/>ᚄᚇ<supplied reason="lost" cert="low" evidence="space">ᚔ</supplied>ᚒᚂᚓᚍ<unclear reason="faded">ᚓᚄᚉᚐ</unclear><supplied reason="lost" evidence="previouseditor">ᚇ</supplied>                 
                     <lb n="2" style="text-direction:up"/>
                     <persName><w lemma="maqqas">ᚋᚐᚊ</w> <name nymRef="#?">ᚉᚑᚏᚏᚁ<unclear reason="damaged">ᚏ</unclear>ᚔ</name> <w lemma="maqqas">ᚋᚐᚊ</w> <name nymRef="#?">ᚐᚋᚋᚂ<unclear reason="damaged">ᚂᚑᚌ</unclear><supplied reason="lost">ᚔ</supplied><unclear reason="damaged">ᚈ</unclear>ᚈ</name></persName>
                 </ab>
@@ -155,17 +156,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                   <orig>L<unclear reason="damaged">EGG</unclear><gap reason="lost" unit="score" quantity="15"/>SD<supplied reason="lost" cert="low" evidence="space">I</supplied>ULEGGw<unclear reason="faded">ESCA</unclear><supplied reason="lost" evidence="previouseditor">D</supplied></orig>                 
+                   L<unclear reason="damaged">EGG</unclear><gap reason="lost" unit="stroke" quantity="15"/>SD<supplied reason="lost" cert="low" evidence="space">I</supplied>ULEGʷ<unclear reason="faded">ESCA</unclear><supplied reason="lost" evidence="previouseditor">D</supplied>                 
                     <lb n="2" style="text-direction:up"/>
                     <persName><w lemma="maqqas">MAQ</w> <name nymRef="#?">CORRB<unclear reason="damaged">Ṛ</unclear>I</name> <w lemma="maqqas">MAQ</w> <name nymRef="#?">AMML<unclear reason="damaged">LOG</unclear><supplied reason="lost">I</supplied><unclear reason="damaged">T</unclear>T</name></persName>
                 </ab>
             </div>         
            
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                    <app></app>
+                    <app n="1"><note>This inscriptions appears to contain one of the original 20 characters rarely attested in epigraphy, ᚍ transliterated as Gʷ (Macalister transliterates this as NG following the manuscript tradition), where it is the last clearly legible letter on the left angle (line 1). Macalister also reads this character on the opposite angle but what survives today looks more like a G (i.e. just 2 strokes).</note></app>
                 </listApp>
-            </div>-->
+            </div>
             <div type="translation">
                 <p>'... of the son of <foreign xml:lang="sga">Coirpre</foreign> son of <foreign xml:lang="sga">Amalgaid</foreign>'?</p>
             </div>
