@@ -125,7 +125,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2023-07-21" who="#MK">Megan Kasten fixed formatting after conversations regarding specific OGHAM Epidoc standards.</change>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-11" who="#POC">Updated execution encoding, updated commentary </change>
-    <change when="2025-04-23" who="#POC">Added encoding description, text type link</change>    
+    <change when="2025-04-23" who="#POC">Added encoding description, text type link</change>  
+    <change when="2025-05-14" who="#NW">Updated digital edition, harmonising ogham and transliteration, adding unicde characters (rather than codes) and replacing Gw with Gʷ throughout.</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -135,25 +137,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam"> <!--needs checking against Welsh corpus/images-->
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="illegible" extent="unknown"/>&#x1694;&#x168D;<gap reason="illegible" extent="1" unit="character"/>&#x1684;&#x1684;<unclear reason="faded">&#x1690;</unclear>&#x168D;
-                    <choice><unclear>&#x1691;</unclear>
-                            <unclear>&#x1692;</unclear>
-                            <unclear>&#x1693;</unclear>
-                            <unclear>&#x1694;</unclear></choice>
-                    &#x1684;<unclear reason="faded">&#x1692;</unclear>&#x168C;<unclear reason="faded">&#x1685;</unclear><gap reason="illegible" extent="unknown"/>
+                    <lb n="1" style="text-direction:up"/>ᚔᚍ<unclear reason="damage">ᚓ</unclear>ᚄᚄ<unclear reason="faded">ᚐ</unclear>ᚍ<gap reason="lost" extent="unknown"/>ᚐᚄ<unclear reason="faded">ᚒ</unclear>ᚌ<unclear reason="faded">ᚅ</unclear><gap reason="illegible" extent="unknown"/>
                 </ab>
               </div>          
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                     <ab>
-                        <lb n="1" style="text-direction:up"/>IGw
-<gap reason="illegible" extent="1" unit="character"></gap>SS<unclear reason="faded">A</unclear>Gw<gap reason="illegible" extent="unknown" unit="character"></gap>
-                    <choice><unclear>O</unclear>
-                            <unclear>U</unclear>
-                            <unclear>E</unclear>
-                            <unclear>I</unclear>
-                    </choice>S<unclear reason="faded">U</unclear>G<unclear reason="faded">N</unclear>
+                        <lb n="1" style="text-direction:up"/>IGʷ<unclear reason="damage">E</unclear>SS<unclear reason="faded">A</unclear>Gʷ<gap reason="lost" extent="unknown"/>AS<unclear reason="faded">U</unclear>G<unclear reason="faded">N</unclear><gap reason="illegible" extent="unknown"/>
                     </ab>
                </div>
             <div type="apparatus">
@@ -163,7 +154,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <p>'the prayer of <foreign xml:lang="pgl">Gusugnas</foreign>'</p>
             </div>
             <div type="commentary">
-                    <p><q>...Gw was a rare sound, and the only obvious possibility is something like *[D]IGwESSA ('prayer', 'petition'?, cf. OI <foreign xml:lang="sga">dígde</foreign>), perhaps followed by a name in the genitive case. The name in question may be one of the many ogam names in -GNI... the nearest are CIIC: nos 287 NISIGNI (cf. OI <foreign xml:lang="sga">Nessán</foreign>) and 236 LOSAGNI (cf. OI <foreign xml:lang="sga">Loissín</foreign>) (Macalister 1945, 229-231, 282-283). If the first letter is definitely Gw it is difficult to reconstruct a suitable name, as stems with this initial sound were rare. If the Gw were hypercorrected for G, however (cf. frequent hypercorrect Q for C), a possibility is *GwUSUGNI or *GwUSOGNI (cf. OI <foreign xml:lang="sga">Gussán</foreign>), a derivative of <foreign xml:lang="sga">*gussu-</foreign>, 'valor' (ogam -GUSU)</q> (Edwards 2007, 343).</p>
+                    <p><q>...Gʷ was a rare sound, and the only obvious possibility is something like *[D]IGʷESSA ('prayer', 'petition'?, cf. OI <foreign xml:lang="sga">dígde</foreign>), perhaps followed by a name in the genitive case. The name in question may be one of the many ogam names in -GNI... the nearest are CIIC: nos 287 NISIGNI (cf. OI <foreign xml:lang="sga">Nessán</foreign>) and 236 LOSAGNI (cf. OI <foreign xml:lang="sga">Loissín</foreign>) (Macalister 1945, 229-231, 282-283). If the first letter is definitely Gʷ it is difficult to reconstruct a suitable name, as stems with this initial sound were rare. If the Gʷ were hypercorrected for G, however (cf. frequent hypercorrect Q for C), a possibility is *GʷUSUGNI or *GʷUSOGNI (cf. OI <foreign xml:lang="sga">Gussán</foreign>), a derivative of <foreign xml:lang="sga">*gussu-</foreign>, 'valor' (ogam -GUSU)</q> (Edwards 2007, 343).</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
