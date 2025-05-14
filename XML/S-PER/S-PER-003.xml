@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="xpl-Ogam">Potentially Pictish written in ogham script</textLang> 
-                              <textLang mainLang="gpl-Ogam">Primitive Irish written in ogham script</textLang> <!--We do not even know if we should be looking for the text in Irish or Pictish' pg355 Forsyth 1996-->
+                              <textLang mainLang="gpl-Ogam">Primitive Irish written in ogham script</textLang> 
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -90,11 +90,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="other">There are three ogham inscriptions, arranged in a total of five lines which appear at five different positions on the stone. The inscriptions are labelled A, with A separated as A(i), A(ii) (read together), and the subsequent B and C. 
-                                    <list>
+                                    <p><list>
                                         <item>A(i) and A(ii): A(i) starts <dim type="length" unit="m">0.045</dim> below B along the narrow edge at a total of <height unit="m">0.450</height> long with a blank section of <height unit="m">0.230</height> long. This is read with A(ii), vertically upwards as casual inscriptions that Forsyth denotes as potentially grafitti. A(ii) starts on the opposite long edge, ending at a wear section of <height unit="m">0.230</height>, itself running at <height unit="m">0.240</height> in total. While Padel was inclined to associate the ogham with the incomplete symbols on the smooth face, Forsyth thinks they need not necessarily be associated with any symbol. The stemline is haphazard and erratic.</item>
                                         <item>B: The boldest inscription on the slab, ogham inscripton B was the only one noticed initially, starting midway along the long side at a total of <height unit="m">0.790</height> length. The inscription continues up to the narrow end and around the corner across the top neatly framing the fish and notched double-disc.</item>
                                         <item>C: Being the shortest ogham on the slab, inscription C runs without a stem-line on the broad rough face of the slab, to the right of the fish's back. The inscripton is incised a little to the left of vertical yet reads upwards confidently. </item>
-                                    </list>
+                                    </list></p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -115,7 +115,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: NO 1904 2120</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found" when="1945-02-19"><q>The Inchyra slab was found on <date>19th of February 1945</date> during ploughing in former parkland on the <placeName>Carse of Gowrie</placeName>, <dim type="length" unit="m">120</dim> south of <placeName>Inchyra House, in the parish of St Madoes, Perthshire</placeName></q> (Forsyth 1996, 333). The stone was found lying flat about <dim type="depth" unit="m">0.3</dim> below ground level, resting on forty-nine water-rolled stones, and <q>oriented WNW-ESE</q> (Forsyth 1996, 333).
+                        <provenance type="found" when="1945-02-19"><q>The Inchyra slab was found on <date>19th of February 1945</date> during ploughing in former parkland on the <placeName>Carse of Gowrie</placeName>, <dim type="length" unit="m">120</dim>m south of <placeName>Inchyra House, in the parish of St Madoes, Perthshire</placeName></q> (Forsyth 1996, 333). The stone was found lying flat about <dim type="depth" unit="m">0.3</dim>m below ground level, resting on forty-nine water-rolled stones, and <q>oriented WNW-ESE</q> (Forsyth 1996, 333).
                         </provenance>
                         <provenance type="observed"><q>Dr James Richrdson re-examined the slab and recognized the third set of symbols, and three further lines of ogham</q> (Forsyth 1996, 334). The slab was examined by Forsyth at the <placeName>Perth Art Gallery and Museum</placeName>.
                         </provenance>
@@ -141,7 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
             <textClass>
                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-                     <term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term> <!--not sure if this is correct?    -->                <!--<term xml:lang="en">graffiti</term>-->
+                     <term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term> 
                </keywords>
             </textClass>
             <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
@@ -175,7 +175,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" cert="low" resp="#NW">             
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                  <ab>
                     <lb n="1" style="text-direction:up"/>ᚓᚈᚈᚂᚔᚓᚈᚏᚓᚅ<unclear><g ref="#forfid_OI"/></unclear>ᚔᚇᚇᚑᚏᚄ
@@ -198,7 +198,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab> 
                 </div>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" cert="low" xml:space="preserve" resp="#NW">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
                     <lb n="1" style="text-direction:up"/>ETTLIETREN<unclear><g ref="#forfid_OI" type="interpretation_OI"/></unclear>IDDORS
@@ -236,7 +236,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary">
                          <p>For the interpretation of ogham inscription A(i), Forsyth comments that <q>the sequence of letters is too long for a single personal name yet no word division is indicated</q> (1996, 355). Moreover, <q>the initial ETT is paralleled in the roman alphabet inscription from St. Vigeans, where it appears between two personal names</q> potentially as a variant spelling of <foreign xml:lang="la">et</foreign> meaning 'and'. The ETT also found in the opening sequence of Cunningsburgh and Lunnasting, may be some form of the copula <foreign xml:lang="la">it-e</foreign> taken with the -S at the end of the section to mean 'this is'. Alternatively in Irish terms, the Lie may mean <q>OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/30096">lie</ref></foreign> 'stone'</q>, the word also later came to mean <q>'grave' or 'tomb' or a stone functioning as a landmark</q> (ibid., 356). Additionally, <q>Irish <foreign xml:lang="sga"><ref target="https://dil.ie/41798">tren</ref></foreign> is an adjective meaning 'strong', but is also used as a substantive meaning 'strong man'</q> (ibid., 356). The TREN- element also appears alone as an independent name as TRENU, or it could also be the genitive of the name Tren.</p>
-                         <p>For the interpretation of ogham inscription A(ii) the text is, as Forsyth comments <q>too short and fragmentary to be made much sense of</q> (1996, 357).</p>
+                         <p>For the interpretation of ogham inscription A(ii) the text is, as Forsyth comments, <q>too short and fragmentary to be made much sense of</q> (1996, 357).</p>
                          <p>For the interpretation of ogham inscription B, Forsyth argues it is a formal one of a different kind of message from ogham A which is more closely associated with graffiti. The beginning INNE of both sections in Irish <foreign xml:lang="sga"><ref target="https://dil.ie/28808">inne</ref></foreign> means 'wealth' or 'private possesions'. As with A, B has a lack of clarity with segmentation which makes interpretation difficult.</p>
                          <p>For the interpretation of ogham inscription C, Forsyth places it closer to the informality of A. The clear correlation with the fish symbol is strengthened by oghams Ackergill (NEHT-), Golspie (NET-), and Latheron (NETU) all of which feature fish. The extant visible carving, however, reads SETU, which may be a hypocoristic form of a personal name like Irish <persName xml:lang="sga">Sétnae</persName> or similar. The inscription most likely consists of a personal name (Forsyth 1996, 358).</p>
                          <p>The Inchyra slab reflects the standard Class I symbol stone oghams in not conforming to the formula 'X MAQI Y'. Impossible to date closely, Forsyth comments that <q>the slab's regular shape, the use of chisel for some of the carving, and certain features of the ogham script, are more plausible interpreted at a date later rather than earlier in the sequence of Class I monuments</q> (1996, 358).</p>
