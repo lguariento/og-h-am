@@ -79,7 +79,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A large upright cross-slab of pinkish granite, rectangular in shape and tapering from the bottom upwards. The slab <q>is missing a triangular shaped fragment from one of its sides and has a triangular cutaway at its base</q> (Barnes 2017, 2). The carvings on the back face of the slab are excellently preserved but the interlace carving in the arms of the cross and on both sides of the cross-shaft on the front face of the slab is badly damaged (ibid. 3-4). Despite this damage, the 'Maiden Stone' is considered the <q>finest of all the Class II cross-slabs in the North-east</q> (Forsyth 1996, 389).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is located at the base of the back face, below the handle of the mirror carving.</layout>
+                                <layout style="horizontal" rend="stemlineL-R">The ogham inscription is located at the base of the back face, below the handle of the mirror carving.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -144,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-26" who="#POC">Update object type key attribute value to monument for filtering, updated decoration encoding</change>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     <change when="2025-05-09" who="#POC">Added sentence on lack of translation.</change>
+<change when="2025-05-15" who="#POC">Added attributes for filtering layout, updated text direction in edition, added lang code to edition with low certainty</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -154,9 +155,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">              
+             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" cert="low" xml:space="preserve" resp="#LH">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><!--confirm text-direction, please-->ᚐᚂᚂ<gap reason="lost" extent="unknown" unit="character"/>    
+                    <lb n="1" style="text-direction:l-to-r"/>ᚐᚂᚂ<gap reason="lost" extent="unknown" unit="character"/>    
                     
                     <lb n="2"/><!--Forfeda test: -->                   
                     <g ref="#forfid_X"/>
@@ -177,9 +178,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>ALL<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:l-to-r"/>ALL<gap reason="lost" extent="unknown" unit="character"/>
                     
                     <lb n="2"/><!--Forfeda test:  --> 
                     <g ref="#forfid_X" type="interpretation_K"/>
