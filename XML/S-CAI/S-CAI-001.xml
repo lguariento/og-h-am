@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
-                            <textLang mainLang="sga-Ogam">Primitive Irish written in ogham script</textLang>
+                            <!--<textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>-->
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
@@ -145,31 +145,33 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-15" who="#POC">Updated handnote and execution type description to match filtering results</change>
 <change when="2025-04-18" who="#POC">Added and encoded information from Forsyth 1996.</change>
 <change when="2025-05-12" who="#POC">Replace foreign with persName for personal names in commentary</change>
+<change when="2025-05-15" who="#POC">Corrected line numbering in edition, added nymRef value, added language code to edition, added images</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="S-CAI-001-snapshot.jpg"/> 
+        <graphic url="SCO/S-CAI-001-Ackergill-HES-image.jpg"><desc>Ackergill ogham inscription. Copyright: <ref target="https://canmore.org.uk/file/image/2062464">HES</ref>.</desc></graphic>
+        <graphic url="SCO/S-CAI-001-Ackergill.jpg"><desc>Ackergill ogham inscription</desc></graphic>
          <media url="YYY" mimeType="text/html"><desc>3D model <!--by Megan Kasten on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#?">ᚅᚓᚆᚈᚓᚈᚏ<choice><unclear>ᚔ</unclear><unclear>ᚓᚁ</unclear></choice></name></persName>
+                    <persName><name nymRef="#nehtetreb">ᚅᚓᚆᚈᚓᚈᚏ<choice><unclear>ᚔ</unclear><unclear>ᚓᚁ</unclear></choice></name></persName>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="2" style="text-direction:up"/>
-                    <persName><name nymRef="#?">NEHTETR<choice><unclear>I</unclear><unclear>EB</unclear></choice></name></persName>
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#nehtetreb">NEHTETR<choice><unclear>I</unclear><unclear>EB</unclear></choice></name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>The group of strokes at the end of the inscription has previously been interpreted as a group of five vowel strokes across the stem, - I, due to <q>the frequency with which final (genitive) -I is encountered</q> (Forsyth 1996, 16-17). However, Forsyth (1996, 17) highlights that <q>the final stroke is thicker than the previous four and separated from them by a distance greater than that which separates the four from one another</q>. Furthermore, <q>the upper (left-hand) portion of the final stroke appears to cross the stem only barely, certainly less than the previous four strokes</q>. This differentiation from the other four strokes might indicate that this group of five strokes might be interpreted as two letters, <q>the first must be E, and the second probably B</q>.  </note>
+                    <note>The group of strokes at the end of the inscription has previously been interpreted as a group of five vowel strokes across the stem, - I, due to <q>the frequency with which final (genitive) -I is encountered</q> (Forsyth 1996, 16-17). However, Forsyth (1996, 17) highlights that <q>the final stroke is thicker than the previous four and separated from them by a distance greater than that which separates the four from one another</q>. Furthermore, <q>the upper (left-hand) portion of the final stroke appears to cross the stem only barely, certainly less than the previous four strokes</q>. This differentiation from the other four strokes might indicate that this group of five strokes might be interpreted as two letters, <q>the first must be E, and the second probably B</q>. </note>
                 </app>
                 </listApp>
             </div>
@@ -181,7 +183,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <p>The inscription likely consists of a personal name and Forsyth (1996, 18) remarks that <q>depending on how the word is segmented, possible known personal name elements can be identified</q>. For instance, <foreign>Neht-</foreign> may be connected with the well-attested Pictish name <persName xml:lang="xpi">Nechtan</persName>, or in less Gaelicised spelling <persName xml:lang="xpi">Neikthon</persName>.</p>
                 <p>Additionally, in Irish tradition <foreign xml:lang="sga">Necht</foreign> appears as the divine figure <persName xml:lang="sga">Nuadu Neht</persName>, the Old Irish verbal adjective meaning 'clean, pure, white' from the root *<foreign xml:lang="sga">nikto</foreign>- 'lavé', 'washed'. As a noun, Old lrish <foreign xml:lang="sga">necht</foreign> means 'niece' but it is not attested as a personal name element. Another possibility is that <foreign>Neht</foreign> might be connected with the common Old Irish noun <foreign xml:lang="sga">néit</foreign>, 'combat, lutte', and the name of the Irish war god <persName xml:lang="sga">Néid</persName> and could be compared with the Gaulish divine name <persName xml:lang="cel-gaulish">Neto</persName>, the war god of the Accitani. The related element <foreign xml:lang="sga">Neta-</foreign> is associated with Old Irish <foreign xml:lang="sga">nia</foreign> 'champion', 'hero' or its homonym 'sister's son, nephew'. </p>
                 <p>However, the inscription might represent a compounded <foreign xml:lang="xpi">Nehtet-ri(g)</foreign> or an uncompounded <foreign xml:lang="xpi">Nehtet Ri(g)</foreign> with the second element operating perhaps as a title, 'Nehtet the king'. </p>
-                <p>If the alternative reading NEHTETREB is accepted, then the final TREB immediately demands comparison with Celtic *<foreign xml:lang="cel">trebo</foreign>- 'inhabitation, 'settlement', cognate with Latin <foreign xml:lang="la">tribus</foreign>, and English <foreign xml:lang="ang">thorp</foreign>. The Welsh reflex <foreign xml:lang="owl">tref</foreign> 'homestead, hamlet' is very common as a place-name element. Its Irish cognate is, however, extremely rare as a place-name, though common enough as a noun, <foreign xml:lang="pgl"><ref target="https://dil.ie/41614">treb</ref></foreign>, meaning, perhaps under influence of the Latin, 'house, farm, holding, household, tribe, stock'</p>
+                <p>If the alternative reading NEHTETREB is accepted, then the final TREB immediately demands comparison with Celtic *<foreign xml:lang="cel">trebo</foreign>- 'inhabitation', 'settlement', cognate with Latin <foreign xml:lang="la">tribus</foreign>, and English <foreign xml:lang="ang">thorp</foreign>. The Welsh reflex <foreign xml:lang="owl">tref</foreign> 'homestead, hamlet' is very common as a place-name element. Its Irish cognate is, however, extremely rare as a place-name, though common enough as a noun, <foreign xml:lang="pgl"><ref target="https://dil.ie/41614">treb</ref></foreign>, meaning, perhaps under influence of the Latin, 'house, farm, holding, household, tribe, stock'</p>
             </div>
             <div type="bibliography">
                  <listBibl>
