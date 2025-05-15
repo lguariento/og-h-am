@@ -84,7 +84,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="stemline_face">According to Forsyth (1996, 524), the lack of a defined edge on the pillar may have dictated the choice of face rather than arris for the inscription. The face of the fragment is home to some questionable ogham letters. It is impossible to know how long the stem was originally. As it stands, the drawn-in stemline is <dim type="length" unit="m">0.390</dim> long. There are gaps between each ogham stroke ranging from <dim type="length" unit="m">0.025-0.080</dim> and it is unclear whether other ogham strokes used to be there or if the gaps where intentional. Forsyth (1996, 522) notes that the <q>inscription, however, is so short and fragmented that it would be unwise to make too much of the spacing between strokes</q>. 
+                                <layout style="vertical" rend="stemline_up">According to Forsyth (1996, 524), the lack of a defined edge on the pillar may have dictated the choice of face rather than arris for the inscription. The face of the fragment is home to some questionable ogham letters. It is impossible to know how long the stem was originally. As it stands, the drawn-in stemline is <dim type="length" unit="m">0.390</dim>m long. There are gaps between each ogham stroke ranging from <dim type="length" unit="m">0.025-0.080</dim>m and it is unclear whether other ogham strokes used to be there or if the gaps where intentional. Forsyth (1996, 522) notes that the <q>inscription, however, is so short and fragmented that it would be unwise to make too much of the spacing between strokes</q>. 
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -143,39 +143,42 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
            <change when="2025-04-22" who="#POC">Added decoration section, added and encoded information</change>
             <change when="2025-05-12" who="#POC">Move information from layout to commentary, update layout attributes</change>
+            <change when="2025-05-15" who="#POC">Added image, updated layout attribute </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="SCO/S-DGY-001_Lochnaw.jpg"><desc>Lochnaw ogham inscription</desc></graphic>
         <media url="example.jpg" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#XS"><!--lang note unknown-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" cert="low" resp="#XS">            
                 <ab>
                     <lb n="1" style="text-direction:up"/>ᚐᚋ<choice resp="#KF"><unclear cert="low">ᚋ</unclear><unclear>ᚌ</unclear></choice>ᚆ<unclear reason="ambiguous">ᚈ</unclear><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#KF"> <!--lang note unknown-->  
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" cert="low" xml:space="preserve" resp="#KF">   
                 <ab>
                     <lb n="1" style="text-direction:up"/>AM<choice resp="#KF"><unclear cert="low">M</unclear><unclear>G</unclear></choice>H<unclear reason="ambiguous">T</unclear><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1">
+                    <app n="1">
+                        <note>There is no way to know that the present position of the stone is its original, the stone could potentially have been stood the other way around. Regardless of the direction in which the letters are read, however, the inscription does not yield a meaningful reading.</note>
+                    </app>
+                <app n="2">
                     <note>The authenticity and validity of the ogham inscription is still the subject of speculation. Although the inscription gives an initial impression of being ogham, the lack of vowel strokes and the direction of some of the oblique strokes are more serious objections than the real difficulty in determining a reading. Forsyth (1996, 522) maintains that the backwards slope of the long oblique strokes is opposite to the usual forward slope of the strokes on other ogham inscriptions found in Scotland.</note>                  
                 </app>
-                    <app n="2">
+                    <app n="3">
                         <note>Another issue that arises with the form is the use of both short perpendicular and short oblique strokes which otherwise one of the two is usually used. When both are in use, Forsyth (1996, 523) comments, oghamists <q>rarely differentiate so sharply between the two kinds, but rather have strokes which slope either a little or not at all</q>. As such if the lines are ogham, the oghamist <q>was either innovative or inept</q> (ibid., 524).</note></app>
                 </listApp>
             </div>
             <div type="translation">
                 <p>An exact translation of the inscription cannot be readily determined.</p>
             </div>
-            <div type="commentary">
-                <p>There is no way to know that the present position of the stone is its original, the stone could potentially have been stood the other way around. Regardless of the direction in which the letters are read, however, the inscription does not yield a meaningful reading.</p>         
+            <div type="commentary">   
                 <p>In terms of its morphology, parallels with the <name xml:id="S-DGY-001">Lochnaw</name> ogham inscription are found along the western and northern seaboard of Scotland: the undecorated slab from Pool and the two oghams on the wall of King's Cave, Blackwaterfoot (Forsyth 1996, 523). Moreover, Lochnaw is, according to Forsyth (1996, 524), <q>well placed to participate cultural dissemination along the sea routes between Ireland, Mann and the west Coast of Scotland</q>.</p>
             </div>
             <div type="bibliography">
