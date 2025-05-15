@@ -146,7 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition.</change>
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
-    
+<change when="2025-05-15" who="#POC">Update lang code of edition, added nymRef value to edition, added persName encoding for personal names in commentary</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,26 +156,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" cert="medium" resp="#LH">            
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="medium" resp="#LH">            
                 <ab>
                     <lb n="1" style="text-direction:up" type="inner"/>
                     <w lemma="maqqas">ᚋᚐᚊᚊ<g ref="#forfid_OI"/></w> <persName><name nymRef="#talorc?">ᚈᚐ<g ref="#angled_L"/><g ref="#angled_L"/>ᚒᚑᚏᚏ<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
                     <lb n="2" style="text-direction:up" type="outer"/>
-                    <persName><name nymRef="#?">ᚅ<g ref="#forfid_disjoined-X"/>ᚆᚆᚈ</name></persName> ᚃᚏ<g ref="#angled_O"/>ᚁᚁ<g ref="#hammerhead_A"/><unclear reason="illegible">ᚉ</unclear> <placeName cert="low">ᚉ<g ref="#forfid_disjoined-X"/>ᚅᚅᚓ<g ref="#angled_V"/><g ref="#angled_V"/></placeName> 
+                    <persName><name nymRef="#nehht">ᚅ<g ref="#forfid_disjoined-X"/>ᚆᚆᚈ</name></persName> ᚃᚏ<g ref="#angled_O"/>ᚁᚁ<g ref="#hammerhead_A"/><unclear reason="illegible">ᚉ</unclear> <placeName cert="low">ᚉ<g ref="#forfid_disjoined-X"/>ᚅᚅᚓ<g ref="#angled_V"/><g ref="#angled_V"/></placeName> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="sga" cert="medium" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="medium" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up" type="inner"/>
                     <w lemma="maqqas">MAQQ<g ref="#forfid_OI" type="interpretation_O"/></w> <persName><name nymRef="#talorc?">TA<g ref="#angled_L"/><g ref="#angled_L"/>UORR<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
                     <lb n="2" style="text-direction:up" type="outer"/>
-                    <persName><name nymRef="#?">N<g ref="#forfid_disjoined-X" type="interpretation_E"/>HHT</name></persName> VR<g ref="#angled_O"/>BB<g ref="#hammerhead_A"/><unclear reason="illegible">C</unclear> <placeName cert="low">C<g ref="#forfid_disjoined-X" type="interpretation_E"/>NNE<g ref="#angled_V"/><g ref="#angled_V"/></placeName>                   
+                    <persName><name nymRef="#nehht">N<g ref="#forfid_disjoined-X" type="interpretation_E"/>HHT</name></persName> VR<g ref="#angled_O"/>BB<g ref="#hammerhead_A"/><unclear reason="illegible">C</unclear> <placeName cert="low">C<g ref="#forfid_disjoined-X" type="interpretation_E"/>NNE<g ref="#angled_V"/><g ref="#angled_V"/></placeName>                   
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Both ogham inscriptions appear identical in form and carving technique, notes Forsyth (1996, 263), and can therefore be assumed to be contemporaries . Considering the layout of the slab, relating the positioning of the ogham inscription and the other symbols, the ogham is most likely a secondary addition (ibid). This is supported by the fact that both oghams are a complete and intact text as they are (ibid. 268).</note>                    
+                    <note>Both ogham inscriptions appear identical in form and carving technique, notes Forsyth (1996, 263), and can therefore be assumed to be contemporaries. Considering the layout of the slab, relating the positioning of the ogham inscription and the other symbols, the ogham is most likely a secondary addition (ibid). This is supported by the fact that both oghams are a complete and intact text as they are (ibid. 268).</note>                    
                 </app>
                     <app n="2">
                         <note>The 5th character of the inner inscription is a <q>circle intersected at its mid-point by the stem</q> which is <q>known from Irish manuscript tradition in both smooth circular form, as here, and in angular, 'diamond-shaped' form</q> (ibid. 268). The second of the five supplementary ogham letters, this character goes by the name Ór (later Óir) in both smooth and angled forms (ibid. 273).</note>
@@ -192,7 +192,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>
             <div type="translation">
-                <p>While a certain form of two personal names of Pictish origin, 'Nehht' and 'Talorc', as well as the lemmatized word for 'son' in Irish can be identified, an exact and complete translation of the inscription is not readily available (Forsyth 1996, 278-85).</p>
+                <p>While a certain form of two personal names of Pictish origin, '<persName xml:lang="xpi">Nehht</persName>' and '<persName xml:lang="xpi">Talorc</persName>', as well as the lemmatized word for 'son' in Irish can be identified, an exact and complete translation of the inscription is not readily available (Forsyth 1996, 278-85).</p>
             </div>
             <div type="commentary">
                     <p>As Forsyth (1996, 272) notes <q>the over-all impression given by the Formaston inscription is of a piece of manuscript ogham writing committed to stone</q>.</p>
