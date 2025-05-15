@@ -147,6 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-03" who="#POC">Simplified material type</change>
     <change when="2025-05-06" who="#POC">Encoded personal names in commentary with persName, added layout attributes for filtering</change>
     <change when="2025-05-09" who="#POC">Update execution encoding</change>
+<change when="2025-05-15" who="#POC">Correct edition line numbering, update lang code in edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,15 +157,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#LH"><!--update lang here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="low" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     ᚔᚏᚐᚈᚐᚇᚇᚑᚐᚏᚓᚅᚄ<gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="sga" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="2" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/>
                     IRATADDOARENS<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
