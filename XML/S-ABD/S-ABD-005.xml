@@ -144,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     <change when="2025-05-06" who="#POC">Encoded personal names in commentary with persName, updated edition with nymRef value, added sentence to translation</change>
     <change when="2025-05-09" who="#POC">Condense commentary</change>
+<change when="2025-05-15" who="#POC">Correct line numbering in edition, updated personal name encoding in edition and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -157,23 +158,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve"  xml:lang="xpi-Ogam" cert="low" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/> <!--change text direction if needed, please-->
-                    ᚁᚏ<g ref="#forfid_X"/>ᚌᚐᚃ <persName nymRef="#necton">ᚅᚓᚉᚈᚑᚅ</persName>
+                    ᚁᚏ<g ref="#forfid_X"/>ᚌᚐᚃ <persName><name nymRef="#necton">ᚅᚓᚉᚈᚑᚅ</name></persName>
                     <lb n="2" style="text-direction:up"/>
                     ᚂᚐᚁᚒ<gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration"  xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="3" style="text-direction:up"/> <!--change text direction if needed, please-->
-                    BR<g ref="#forfid_X" type="interpretation_E"/>GAV <persName nymRef="#necton">NECTON</persName>
-                    <lb n="4" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/> <!--change text direction if needed, please-->
+                    BR<g ref="#forfid_X" type="interpretation_E"/>GAV <persName><name nymRef="#necton">NECTON</name></persName>
+                    <lb n="2" style="text-direction:up"/>
                     LABU<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>The inscription includes the personal name <persName>Necton</persName> (Forsyth 1997, 35).</note>                    
+<note>The inscription includes the personal name <persName xml:lang="xpi">Necton</persName> (Forsyth 1997, 35).</note>                    
                 </app>
                 </listApp>
             </div>
