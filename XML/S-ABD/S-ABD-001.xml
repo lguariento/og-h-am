@@ -156,6 +156,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
      <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     <change when="2025-05-09" who="#POC">Move information on symbol stone to commentary, update execution encoding</change>
+<change when="2025-05-15" who="#POC">Added persName encoding to commentary, updated edition with missing R and missing choice encoding for other possible character U at the start of the drawn-in stemline</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -169,15 +170,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="medium" resp="#LH">             
                  <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:down"/>ᚔᚇᚇᚐᚏᚏᚅᚅᚅᚃᚑᚏᚓᚅᚅᚔ<g ref="#forfid_X"/><add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
-                    <lb n="2" style="text-direction:up" break="no"/><add place="right">ᚔᚑᚄᚏ<unclear reason="illegible">ᚏ</unclear></add>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="iddarrnnn">ᚔᚇᚇᚐᚏᚏᚅᚅᚅ</name></persName> <persName><name nymRef="vorrenni">ᚃᚑᚏᚏᚓᚅᚅᚔ</name></persName> <g ref="#forfid_X"/><add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
+                    <lb n="2" style="text-direction:up" break="no"/><add place="right"><choice><unclear>ᚒ</unclear><unclear>ᚔ</unclear></choice>ᚑᚄᚏ<unclear reason="illegible">ᚏ</unclear></add>
                 </ab>
                      </div>
             </div> 
             <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="medium" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="1" style="text-direction:down"/>IDDARRNNNVORENNI<unclear reason="ambiguous"><g ref="#forfid_X" type="interpretation_K"/></unclear><add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
-                    <lb n="2" style="text-direction:up" break="no"/><add place="right">IOSR<unclear reason="illegible">R</unclear></add>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#iddarrnnn">IDDARRNNN</name></persName> <persName><name nymRef="#vorrenni">VORRENNI</name></persName> <g ref="#forfid_X" type="interpretation_K"/><add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
+                    <lb n="2" style="text-direction:up" break="no"/><add place="right"><choice><unclear>U</unclear><unclear>I</unclear></choice>OSR<unclear reason="illegible">R</unclear></add>
                 </ab>
             </div>
                        
@@ -203,7 +204,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                     <app n="4"><note>Forsyth (1996, 436) suggests three possible interpretations for the ogham inscription:</note>
                     <rdg><lb/>1) three personal names with no formula words: 'Idamon (, or :) Vorenn (and) [?]'</rdg>
-                    <rdg><lb/>2) three names plus KOI: 'Idamon: Vorenn koi [?]'  </rdg>
+                    <rdg><lb/>2) three names plus KOI: '<persName xml:lang="sga"><name nymRef="#idamon">Idamon</name></persName>: <persName xml:lang="sga"><name nymRef="#vorenn">Vorenn</name></persName> koi [?]'  </rdg>
                     <rdg><lb/>3) three names plus ipe: either 'X, Y ipe Z ', or 'X, Y, ipe-Z'.</rdg>
                     </app>
                 </listApp>
