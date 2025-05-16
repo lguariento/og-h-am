@@ -62,8 +62,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                            
+                            <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -143,6 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-28" who="#POC">Proofreading changes, added HES image</change>
     <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
     <change when="2025-03-26" who="#POC">Hyphenate cross-slab in objectType, update object type key attribute value to monument for filtering, added decoration section, updated layout, added secondary location coords, added country to origPlace</change>
+<change when="2025-05-16" who="#POC">Updated textLang and lang in edition for undetermined language, added line to translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -153,14 +154,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">            
+             <div type="edition" subtype="ogham" xml:lang="und-Ogam" xml:space="preserve" resp="#LH">            
                 <ab>
                     <lb n="1" style="text-direction:up"/>ᚑᚂᚉᚋᚋᚔ
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#LH">
                 <ab>
-                    <lb n="2" style="text-direction:up"/>OLCMMI <!--how to encode inscription not verified?-->
+                    <lb n="2" style="text-direction:up"/>OLCMMI 
                 </ab>
             </div>
             <!--<div type="apparatus">
@@ -169,9 +170,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>-->
-            <!--<div type="translation" xml:lang="en">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>The inscription is insufficient to produce a translation.</p>
+            </div>
             <div type="commentary">
 <p>Information about the ogham inscription and its analysis is limited due to the lack of publications.</p>
             </div>
