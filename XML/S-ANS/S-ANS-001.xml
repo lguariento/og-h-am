@@ -62,8 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
-                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                            
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
@@ -146,6 +145,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <change when="2025-03-26" who="#POC">Added decoration section, updated objectType attribute value for filtering, hyphenated cross-slab, added secondary location coords, added country to origPlace</change>
 <change when="2025-04-28" who="#POC">Added filtering attributes to layout, added translation, added information from Geddes, added information from Geddes (2017).</change>
     <change when="2025-05-06" who="#POC">Updated decoration encoding</change>
+<change when="2025-05-16" who="#POC">Updated textLang and lang in edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,13 +156,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" resp="#LH">              
+             <div type="edition" subtype="ogham" xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>ᚏ<unclear>ᚏ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="2" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>R<unclear>R</unclear><gap reason="lost" extent="unknown" unit="character"/>
