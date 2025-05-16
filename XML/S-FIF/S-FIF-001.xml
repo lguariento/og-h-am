@@ -64,7 +64,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="xpi-Ogam">Pictish written in ogham script</textLang>   <!--Unsure?  -->                     
+                            <textLang mainLang="xpi-Ogam" cert="high">Pictish written in ogham script</textLang>                       
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -122,6 +122,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
                 <language ident="xpi">Pictish</language>   
+                <language ident="gd">Scottish Gaelic</language>
             </langUsage>
             <textClass>     
                 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -153,14 +154,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#XS">              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="high" resp="#XS">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName xml:lang="xpi"><name nymRef="#eddarrnonn">ᚓᚇᚇᚐᚏᚏᚅᚑᚅᚅ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName xml:lang="xpi-Ogam"><name nymRef="#eddarrnonn">ᚓᚇᚇᚐᚏᚏᚅᚑᚅᚅ</name></persName>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="high" xml:space="preserve" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName xml:lang="xpi"><name nymRef="#eddarrnonn">EDDARRNONN</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName xml:lang="xpi-Ogam"><name nymRef="#eddarrnonn">EDDARRNONN</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
