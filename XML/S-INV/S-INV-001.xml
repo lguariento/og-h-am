@@ -61,9 +61,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam" cert="low">Primitive Irish written in ogham script</textLang>
-                            <textLang mainLang="sga-Ogam" cert="low">Old Irish written in ogham script</textLang>
+                          <msItem>   
+                              <textLang mainLang="gd-Ogam">Possibly Scottish Gaelic written in ogham script</textLang>
+                            <!--<textLang mainLang="pgl-Ogam" cert="low">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="sga-Ogam" cert="low">Old Irish written in ogham script</textLang>-->
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -120,6 +121,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>   
+<language ident="gd">Scottish Gaelic</language>
 </langUsage>
 <textClass>
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -145,6 +147,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-14" who="#POC">Updated execution type, added attribute to layout</change>
 <change when="2025-04-24" who="#POC">Added and encoded information from Forsyth (1996).</change>
 <change when="2025-05-13" who="#POC">Added language code to edition, update commentary, correct line numbering in edition</change>
+<change when="2025-05-16" who="#POC">Updated text lang and edition language code</change>
+
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,13 +159,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" cert="low" resp="#LH">              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" cert="low" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <w>ᚋ<unclear reason="damaged">ᚑ</unclear>ᚊᚒ</w> <w>ᚅᚈᚓᚅᚉ<unclear reason="damaged">ᚐ</unclear>ᚈ</w>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" cert="low" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="gd-Ogam" cert="low" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <w>M<unclear reason="damaged">O</unclear>QU</w> <w>NTENC<unclear reason="damaged">A</unclear>T</w>
