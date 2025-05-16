@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                            <textLang mainLang="gd-Ogam">Arguably Gaelic written in ogham script</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -83,7 +83,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="horizontal" rend="stemline">The upper inscription on edge C appears to be roman while the lower inscription is in the ogham alphabet. The stem-line of the ogham inscription is <height unit="mm">195 mm</height> long, running parallel to the edge of the stone. The stem appears to have been cut before and again after the cutting of the strokes, which perhaps explains why some of the strokes appear to not quite reach the stem. 
+                                <layout style="horizontal" rend="stemlineL-R">The upper inscription on edge C appears to be roman while the lower inscription is in the ogham alphabet. The stem-line of the ogham inscription is <height unit="mm">195 mm</height> long, running parallel to the edge of the stone. The stem appears to have been cut before and again after the cutting of the strokes, which perhaps explains why some of the strokes appear to not quite reach the stem. 
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -145,6 +145,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-26" who="#POC">Added country to origPlace, added monument as key for objectType for filtering,added decoration for the other carvings</change>
             <change when="2025-04-14" who="#POC">Updated execution type</change>
             <change when="2025-05-09" who="#POC">Added missing s-shaped M encoding to edition</change> 
+            <change when="2025-05-16" who="#POC">Updated text direction in layout and edition, added persName encoding to commentary and edition, updated text lang to Scottish Gaelic</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -157,16 +158,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#XS"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" resp="#XS">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <choice resp="#KF"><unclear cert="low">᚛</unclear><unclear cert="low">ᚆ</unclear></choice>ᚋᚒᚇ<g ref="#s-shaped_M"/>ᚐᚂᚔ<unclear>ᚇᚋ</unclear>
+                    <lb n="1" style="text-direction:l-to-r"/>
+                    <choice resp="#KF"><unclear cert="low">᚛</unclear><unclear cert="low">ᚆ</unclear></choice><persName xml:lang="sga"><name nymRef="#mud-mali">ᚋᚒᚇ<g ref="#s-shaped_M"/>ᚐᚂᚔ</name></persName><unclear>ᚇᚋ</unclear>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="gd-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                     <choice resp="#KF"><unclear cert="low">></unclear><unclear cert="low">H</unclear></choice>MUD<g ref="#s-shaped_M"/>ALI<unclear>DM</unclear>
+                    <lb n="1" style="text-direction:l-to-r"/>
+                     <choice resp="#KF"><unclear cert="low">></unclear><unclear cert="low">H</unclear></choice><persName xml:lang="sga"><name nymRef="#mud-mali">MUD<g ref="#s-shaped_M"/>ALI</name></persName><unclear>DM</unclear>
                 </ab>
             </div>
             <div type="apparatus">
@@ -196,7 +197,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>'Noble prince'</p>
             </div>
             <div type="commentary">
-                        <p>If the suggested reading is correct it could be interperted as the personal name MUD-MALI. The first element may be from the adjective <foreign xml:lang="sga"><ref target="https://dil.ie/32627">muad</ref></foreign> meaning 'noble' or 'good' while the second element may be correlated to the common personal name MAGL, OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/31461">mál</ref></foreign> meaning 'prince',  which is normally found in compound names such as this one. As Forsyth (1996, 380-381) notes <q>Although there is no extant example of the two elements MOD/MUAD and MAGL-/MAL together, the combination is theoretically possible, perhaps with meaning 'noble prince'</q>.</p>
+                        <p>If the suggested reading is correct it could be interperted as the personal name <persName><name nymRef="#mud-mali"></name>Mud-mali</persName>. The first element may be from the adjective <foreign xml:lang="sga"><ref target="https://dil.ie/32627">muad</ref></foreign> meaning 'noble' or 'good' while the second element may be correlated to the common personal name <persName xml:lang="sga">Magl</persName>, OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/31461">mál</ref></foreign> meaning 'prince',  which is normally found in compound names such as this one. As Forsyth (1996, 380-381) notes <q>Although there is no extant example of the two elements MOD/MUAD and MAGL-/MAL together, the combination is theoretically possible, perhaps with meaning 'noble prince'</q>.</p>
                          <p>If the fifth letter is not M as the suggested reading implies then another possibility offered by Forsyth (1996, 382) is the interpretation VALI from the root <foreign xml:lang="sga"><ref>wal</ref></foreign> meaning 'to be strong', a very common element in Celtic personal names.</p>
                          <p>If letter 5 is a modified A then the potential reading Forsyth purposes is Mudali, with the MU possibily serving as an abbreviation for MUCOI. It is important to note that these readings do not exhaust all possibilities. A better understanding of how the three texts (the groove, the roman and the ogham inscription) relate to one another would greatly assist in providing a more accurate interpretation.</p>
                          <p>The difficulty in defining the original purpose of the Lochgoilhead stone has led to many explanations of which, as Forsyth (1996, 383) comments one <q>is no more implausible than any other</q>.</p>
