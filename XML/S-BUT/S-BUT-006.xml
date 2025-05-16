@@ -63,8 +63,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                          <msItem>  
+                              <textLang mainLang="gd-Ogam">Possibly Scottish Gaelic written in ogham script</textLang>
+                            <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> -->
                            <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
                            </msItem>
@@ -85,7 +86,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>An inscribed slate fragment which appears to be the remains of a gaming board. The stone has some fracturing and wear and is especially abraded in the middle portion of the ogham inscription. The inscription is mostly clear with the first four letters and final letter intact, the middle portion is more doubtful.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="horizontal" rend="stemline">The ogham inscription is one of the many inscriptions on this stone. The inscription has an irregular horizontal stem-line that gets cross-cut by a set of long parallel lines running vertically. The stem begins <dim type="length" unit="mm">60mm</dim> from the left edge of the slab and could have possibly extended beyond the fractured edge.</layout>
+                                <layout style="horizontal" rend="stemlineR-L">The ogham inscription is one of the many inscriptions on this stone. The inscription has an irregular horizontal stem-line that gets cross-cut by a set of long parallel lines running vertically. The stem begins <dim type="length" unit="mm">60mm</dim> from the left edge of the slab and could have possibly extended beyond the fractured edge.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -145,6 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-18" who="#POC">Added attributes to material and objectType and layout to facilitate searching, deleted whitespace in edition, added a line about no translation</change>
                 <change when="2025-03-19" who="#POC">Update objectType key attribute value, added country placename to origPlace, added geo coords for repository</change>
             <change when="2025-04-28" who="#POC">Added and encoded information from Lowe (2008).</change>
+           <change when="2025-05-16" who="#POC">Updated text direction in edition and layout, updated previous readings in apparatus</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -156,20 +158,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>᚛ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚉ<gap reason="lost" extent="unknown" unit="character"/>ᚌᚌᚐᚔᚕ
+                    <lb n="1" style="text-direction:r-to-l"/>᚛ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚉ<gap reason="lost" extent="unknown" unit="character"/>ᚌᚌᚐᚔᚕ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><g ref="#feathermark"/>M<gap reason="lost" quantity="1" unit="character"/>C<gap reason="lost" extent="unknown" unit="character"/>GGAI<g ref="#forfid_X"/>
+                    <lb n="1" style="text-direction:r-to-l"/><g ref="#feathermark"/>M<gap reason="lost" quantity="1" unit="character"/>C<gap reason="lost" extent="unknown" unit="character"/>GGAI<g ref="#forfid_X"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>There are two possible interpretations:</note>
-                         <rdg><lb/>1) IA[G]GH[-]S[-][B]</rdg>
-                            <rdg><lb/>2) [H][-]C[-]BGGAI</rdg>
+                        <note>Forsyth and Tedeschi (Lowe 2008, 148) previously read:</note>
+                         <rdg source="LOW2008"><lb/>1) Left to right: IA[G]GH[-]S[-][B]</rdg>
+                            <rdg><lb/>2) Right to left: [H][-]C[-]BGGAI</rdg>
                     </app>
                 <app n="2">
 <note>The script of Inchmarnock 3 and Inchmarnock 1 (S-BUT-005) is very similar with strokes rather than notches for vowels, and with H-strokes that slope backwards, both of which are, as Forsyth and Tedeschi note, <q>typical of the Scottish ogham corpus</q> (2008, 149).</note>                    
@@ -180,7 +182,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>
             <div type="translation">
-                <p>Neither interpretation yields any particular sense, consequently, no translation can be provided.</p>
+                <p>Regardless of the direction in which the inscription is read it does not yield any particular sense, consequently, no translation can be provided.</p>
             </div>
             <div type="commentary">
                 <p>Described by Forsyth and Tedeschi as <q>an informal doodle</q>, nevertheless, this ogham inscription represents important evidence for ogham literacy in a recreational context. </p>        
