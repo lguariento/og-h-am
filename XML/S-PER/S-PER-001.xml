@@ -64,7 +64,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="xpi-Ogam">Potentially Pictish written in ogham script</textLang> <!--not sure on language its speculative-->                              
+                            <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -84,7 +84,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="other" rend="stemline">The ogham text is positioned below the symbol carving on a raised band which is <dim type="breadth" unit="mm">90mm</dim> broad and occupies the full width of the fragment (ibid. 5). The stem-line is <dim type="length" unit="mm">225mm</dim> in length and extends beyond the strokes of the outermost letters, indicating that the inscription <q>extended further in both directions</q> (ibid. 7). Forsyth theorises that <q>if the Abernethy fragment was part of the upper face of a recumbent</q> then an ogham inscription would have began in the bottom left-hand corner, rose vertically upwards and have continued across the top, down the right-hand side and conclude along the bottom with the portion under the horses hooves reading forward right-to-left (ibid. 7). 
+                                <layout style="other" rend="stemlineR-L">The ogham text is positioned below the symbol carving on a raised band which is <dim type="breadth" unit="mm">90mm</dim> broad and occupies the full width of the fragment (ibid. 5). The stem-line is <dim type="length" unit="mm">225mm</dim> in length and extends beyond the strokes of the outermost letters, indicating that the inscription <q>extended further in both directions</q> (ibid. 7). Forsyth theorises that <q>if the Abernethy fragment was part of the upper face of a recumbent</q> then an ogham inscription would have began in the bottom left-hand corner, rose vertically upwards and have continued across the top, down the right-hand side and conclude along the bottom with the portion under the horses hooves reading forward right-to-left (ibid. 7). 
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -121,6 +121,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
                 <language ident="xpi">Pictish</language>   
+                <language ident="gd">Scottish Gaelic</language>
             </langUsage>
             <textClass>     
                 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -146,7 +147,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-27" who="#POC">Added country to origPlace and secondary location coords</change>
                 <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition. Added layout style and rend.</change>
                 <change when="2025-05-02" who="#POC">Added NMS image and copyright, added reading to apparatus, updated execution, added lang code to persName in commentary</change>
-
+<change when="2025-05-16" who="#POC">Added text direction to inscription, updated text language in edition and textLang</change>
+            
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -156,21 +158,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#XS"><!--Language unsure-->              
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#XS">              
                 <ab>
-                    <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_Q"/>ᚋ<g ref="#bound_I"/><gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="1" style="text-direction:r-to-l"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_Q"/>ᚋ<g ref="#bound_I"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
-                     <lb n="1" style="text-direction:left"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_Q"/>M<g ref="#bound_I"/><gap reason="lost" extent="unknown" unit="character"/> 
+                     <lb n="1" style="text-direction:r-to-l"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_Q"/>M<g ref="#bound_I"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>There is some debate regarding the direction in which the ogham text should be read due to the conflicting orientations of the text and the horses. Forsyth is in favor of reading the ogham script right-to-left as based on the form of the recumbent Meigle 11 (1996, 6). This allows <q>both horse and ogham to go forward in opposite directions simultaneously</q> (ibid. 6). Moreover, this arrangment of the text facing in, is in alignment with other seventh century Scottish gravestones. Rhys, Allen and Macalister favoured the interpretation that the <q>horses are walking in procession along the ogham band</q> and read:  </note>
-                        <rdg source="FOR1996">IMN</rdg>
+                        <note>There is some debate regarding the direction in which the ogham text should be read due to the conflicting orientations of the text and the horses. Forsyth (1996, 6) is in favor of reading the ogham script right-to-left as based on the form of the recumbent Meigle 11. This allows <q>both horse and ogham to go forward in opposite directions simultaneously</q> (ibid. 6). Moreover, this arrangement of the text facing in, is in alignment with other seventh century Scottish gravestones. Rhys, Allen and Macalister favoured the interpretation that the <q>horses are walking in procession along the ogham band</q> and read:  </note>
+                        <rdg source="FOR1996">Left to right: IMN</rdg>
                     </app>
                     <app n="2">
                         <note>Due to the limited evidence from the surviving letters there is little that can be discerned from the Abernethy ogham fragment other than that it preserves valuable evidence for the use of <q>bind-strokes outside the Northern Isles</q>. The only other example is found nearby at Inchyra (ibid. 8).</note>
@@ -181,8 +183,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>The extant portion of the inscription is insufficient for producing a translation.</p>
             </div>
             <div type="commentary">
-                         <p>Unfortunately, the ogham fragment is too short to yield any meaningful linguistic analysis. However, Forsyth highlights that the presence of the letter Q may suggest a variant of the formula word MAQQI. In this context, the letters MI, which follow the letter Q, could signify <q>a handful of Irish male and female personal names [that] begin Mi-</q> such as <persName xml:lang="sga">Minchloth</persName> or <persName xml:lang="sga">Midgna</persName> (1996, 9).</p>
-                         <p>Despite the fragmentary state of this text, Forsyth notes that <q>it provides important evidence for the use of ogham at a major ecclesiastical site</q> (1996, 9).</p>
+                         <p>Unfortunately, the ogham fragment is too short to yield any meaningful linguistic analysis. However, Forsyth (1996, 9) highlights that the presence of the letter Q may suggest a variant of the formula word MAQQI. In this context, the letters MI, which follow the letter Q, could signify <q>a handful of Irish male and female personal names [that] begin Mi-</q> such as <persName xml:lang="sga">Minchloth</persName> or <persName xml:lang="sga">Midgna</persName>.</p>
+                         <p>Despite the fragmentary state of this text, Forsyth (1996, 9) notes that <q>it provides important evidence for the use of ogham at a major ecclesiastical site</q>.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
