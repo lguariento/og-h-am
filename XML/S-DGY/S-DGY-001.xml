@@ -64,7 +64,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!-- Language unknown due to condition and questionability of Ogham validity   -->                     
+                            <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>--> 
+                              <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -123,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
                 <language ident="xpi">Pictish</language>   
+                <language ident="gd">Scottish Gaelic</language>
             </langUsage>
             <textClass>
                <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
@@ -153,12 +155,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" cert="low" resp="#XS">            
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" cert="low" resp="#XS">            
                 <ab>
                     <lb n="1" style="text-direction:up"/>ᚐᚋ<choice resp="#KF"><unclear cert="low">ᚋ</unclear><unclear>ᚌ</unclear></choice>ᚆ<unclear reason="ambiguous">ᚈ</unclear><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" cert="low" xml:space="preserve" resp="#KF">   
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" cert="low" xml:space="preserve" resp="#KF">   
                 <ab>
                     <lb n="1" style="text-direction:up"/>AM<choice resp="#KF"><unclear cert="low">M</unclear><unclear>G</unclear></choice>H<unclear reason="ambiguous">T</unclear><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
