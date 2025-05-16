@@ -154,6 +154,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
            <change when="2025-04-14" who="#POC">Updated execution type</change>
             <change when="2025-04-29" who="#POC">Added foreign encoding to commentary, added xml:lang value to edition, updated textlang using "cel" for Brittonic</change>
             <change when="2025-05-12" who="#POC">Condense provenance, added attributes for layout filtering, added persName encoding for personal name in commentary</change>
+            <change when="2025-05-16" who="#POC">update text lang in edition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -166,14 +167,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="cel" resp="#XS">             
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="cel-Ogam" resp="#XS">             
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚃᚒᚓᚇᚂᚐ
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="cel" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="cel-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><!--may have begun further down but not sure-->VUEDLA
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>VUEDLA
                 </ab>
             </div>
             <div type="apparatus">
