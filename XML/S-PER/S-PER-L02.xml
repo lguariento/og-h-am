@@ -61,7 +61,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--Language not specified, questionable if ogham at all-->                             
+                            <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>                             
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -81,7 +81,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="horizontal" rend="stemline">The ogham inscription is underneath the symbol carvings, <q>drawn horizontally, manuscript fashion, instead of vertically</q> (Southesk 1895, 250). The stem-line is as straight as the run of a ruler and is exactly 0.30m (<dim type="length" unit="feet">1</dim> foot) in length.
+                                <layout style="horizontal" rend="stemlineL-R">The ogham inscription is underneath the symbol carvings, <q>drawn horizontally, manuscript fashion, instead of vertically</q> (Southesk 1895, 250). The stem-line is as straight as the run of a ruler and is exactly 0.30m (<dim type="length" unit="feet">1</dim> foot) in length.
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -120,6 +120,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
                 <language ident="xpi">Pictish</language>   
+                <language ident="gd">Scottish Gaelic</language>
             </langUsage>
             <textClass>
                  <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
@@ -145,7 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <change when="2025-04-03" who="#POC">Simplified material type</change>
                        <change when="2025-04-04" who="#POC">Updated decoration encoding</change>
                 <change when="2025-04-17" who="#NW">Removed hi (previously needed for babel font) from edition.</change>
-                
+                <change when="2025-05-16" who="#POC">Updated text direction in edition and layout </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -155,14 +156,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" source="FOR1996" resp="#XS"><!--Lang not specified needs updating accordingly-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" source="FOR1996" resp="#XS">              
                 <ab>
-                    <lb n="1" style="text-direction:right"/><gap reason="lost" quantity="2" unit="character"/>ᚋ<g ref="#angled_U"/><unclear>ᚋ</unclear><gap reason="lost" quantity="1" unit="character"/><g ref="#angled_E"/>ᚁᚇᚌ
+                    <lb n="1" style="text-direction:l-to-r"/><gap reason="lost" quantity="2" unit="character"/>ᚋ<g ref="#angled_U"/><unclear>ᚋ</unclear><gap reason="lost" quantity="1" unit="character"/><g ref="#angled_E"/>ᚁᚇᚌ
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" source="SOU1895" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" source="SOU1895" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:right"/><gap reason="lost" quantity="2" unit="character"/>M<g ref="#angled_U"/><unclear>M</unclear><gap reason="lost" quantity="1" unit="character"/><g ref="#angled_E"/>BDG
+                    <lb n="1" style="text-direction:l-to-r"/><gap reason="lost" quantity="2" unit="character"/>M<g ref="#angled_U"/><unclear>M</unclear><gap reason="lost" quantity="1" unit="character"/><g ref="#angled_E"/>BDG
                 </ab>
             </div>
             <div type="apparatus">
@@ -184,7 +185,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>The inscription seems <q>to yield no definite meaning</q> (Southesk 1895, 246).</p>
             </div>
             <div type="commentary">
-                         <p>The authenticity of the inscription is doubtful with subsequent writers condeming it as a fabrication. Forsyth (1996, 505) observed that the <q>text seems highly improbable </q> and that it is <q>almost certainly a creation of the 1890s</q>.</p>
+                         <p>The authenticity of the inscription is doubtful with subsequent writers condeming it as a fabrication. Forsyth (1996, 505) observed that the <q>text seems highly improbable</q> and that it is <q>almost certainly a creation of the 1890s</q>.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
