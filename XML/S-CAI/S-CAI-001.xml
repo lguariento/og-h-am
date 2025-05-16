@@ -64,7 +64,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                           <msItem>                            
                             <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>--> <!--edit language, please-->
                             <!--<textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>-->
-                              <textLang mainLang="gd-Ogam" cert="low">Possibly Scottish Gaelic written in ogham script</textLang> 
+                              <!--<textLang mainLang="gd-Ogam" cert="low">Possibly Scottish Gaelic written in ogham script</textLang> -->
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
@@ -158,16 +158,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#LH">              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="low" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#nehtetreb">ᚅᚓᚆᚈᚓᚈᚏ<choice><unclear>ᚔ</unclear><unclear>ᚓᚁ</unclear></choice></name></persName>
+                    <persName xml:lang="xpi-Ogam"><name nymRef="#nehtetreb">ᚅᚓᚆᚈᚓᚈᚏ<choice><unclear>ᚔ</unclear><unclear>ᚓᚁ</unclear></choice></name></persName>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#nehtetreb">NEHTETR<choice><unclear>I</unclear><unclear>EB</unclear></choice></name></persName>
+                    <persName xml:lang="xpi-Ogam"><name nymRef="#nehtetreb">NEHTETR<choice><unclear>I</unclear><unclear>EB</unclear></choice></name></persName>
                 </ab>
             </div>
             <div type="apparatus">
