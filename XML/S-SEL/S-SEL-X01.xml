@@ -60,8 +60,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <textLang></textLang>
-                            <!-- not sure as Canmore won't load <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->
+                            <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang> 
+                            
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -114,6 +114,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="sga">Old Irish</language>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
+                <language ident="gd">Scottish Gaelic</language>
             </langUsage>
             <textClass>
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -131,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-28" who="#POC">Added missing county place name to origPlace</change>   
                <change when="2025-04-17" who="#POC">Update material to unknown for now</change>  
                 <change when="2025-05-07" who="#POC">Updated edition, added a sentence to translation and commentary, added bibl details from Canmore</change>
+            <change when="2025-05-16" who="#POC">Updated language code in edition and textLang </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -140,13 +142,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>  
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#NW"><!--update lang and resp here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚁ</unclear>ᚐᚁᚐᚁᚆᚐᚆ<gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B</unclear>ABABHAH<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
