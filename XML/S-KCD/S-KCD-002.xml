@@ -59,11 +59,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
+                            <textLang mainLang="und-Ogam" cert="low">Undetermined language written in ogham script</textLang> 
+                              <textLang mainLang="xpi-Latn" cert="low">Pictish written in Latin script</textLang>
+                              <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!-\-edit language, please-\->
                             <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
                             <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
                             <textLang mainLang="sga-Latn">Old Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               -->
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -121,6 +123,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>   
+<language ident="gd">Scottish Gaelic</language>
 </langUsage>
 <textClass>
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -142,6 +145,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-03" who="#POC">Simplify material type, and added country placename to origPlace</change>
 <change when="2025-04-29" who="#POC">Added and encoded information, added RCAHMS drawing, added attributes to layout, added NGR, added Macalister (1940) reading to apparatus </change>
     <change when="2025-04-30" who="#POC">Added and encoded information from Macalister (1940), added execution encoding </change>
+<change when="2025-05-16" who="POC">Updated text language for edition, added information to commentary and apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,7 +156,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#LH"><!--update lang here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#LH">              
                 <div type="textpart" n="1">
                     <ab>
                     <lb n="1" style="text-direction:up"/>
@@ -160,14 +164,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab> 
                 </div>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">O</unclear>VV<gap reason="lost" extent="unknown" unit="character"/>QM<gap reason="lost" extent="unknown" unit="character"/>C<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             
-            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga" resp="#LH">
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="xpi-Latn" resp="#LH">
                 <div type="textpart" n="2">
                     <ab>
                     <lb n="1" style="text-direction:right"/>PIDARNOIN
@@ -178,7 +182,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listApp>
                 <app n="1">
                     <note>Macalister (1940, 200) read:</note>        
-                    <rdg>Ogham: VUN[I]MSETTOR BRE[---EN]N</rdg>
+                    <rdg source="MAC1940"><lb/>Ogham: VUN[I]MSETTOR BRE[---EN]N</rdg>
+                    <rdg>
+                    <lb n="1"/>Roman: RURTES [I]
+                    <lb n="2"/>P IDARNOIN</rdg>
                 </app>
                 </listApp>
             </div>
@@ -186,7 +193,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>An exact translation of the inscription cannot be readily determined.</p>
             </div>
             <div type="commentary">
-<p>Information about the ogham inscription is limited due to a lack of publications.</p>
+<p>Information about the ogham inscription is limited due to a lack of publications. Although Macalister (1940, 198) supplied a suggested segmented reading of the inscription, he did not offer any interpretation, noting that the ogham is <q>very difficult and requires prolonged study</q>. Regarding the roman text, however, Macalister (ibid.) remarked that <q>IDARNOIN is evidently the EDDARRNONN of the Scoonie stone and IP appears to be an abbreviation for IPE. It should, no doubt, have been IPENN or IPEVOR; but it seems that in Pictish the suffixes could be omitted when the sense was clear</q>.  </p>
             </div>
             <div type="bibliography">
                  <listBibl>
