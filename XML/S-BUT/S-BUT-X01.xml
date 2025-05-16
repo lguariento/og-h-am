@@ -64,7 +64,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                            <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>
+                              <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> -->
+                              <!--<textLang mainLang="gd-Ogam">Possibly Scottish Gaelic written in ogham script</textLang>-->
                            <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
                            </msItem>
@@ -85,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A large irregularly shaped cave divided into two aisles by a rock buttress. There are opposing rows of small holes cut into the rock about 1 1/2-2m above the present floor which have been interpreted as sockets for small bars of wood (Forsyth 1996, 94). The walls of the cave are full of natural fissures but the south aisle of the cave also exhibits two ogham inscriptions (S-BUT-001 - S-BUT-002), an ogham text written in pigment (S-BUT-003), and what appears to be another ogham inscription but may be natural fissures (S-BUT-X01). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="other" rend="stemline_fissure">Forsyth (1996, 95) observed what appears <q>to be further ogham-like marking</q> on what Fisher (2001, 66) described as <q>a shorter natural stem-line</q> to the left of the Blackwaterfoot 1 (S-BUT-001) ogham inscription on the left-hand wall of the cave, about <height unit="m">2m</height> above the present floor. 
+                                <layout style="other" rend="stemline_up">Forsyth (1996, 95) observed what appears <q>to be further ogham-like marking</q> on what Fisher (2001, 66) described as <q>a shorter natural stem-line</q> to the left of the Blackwaterfoot 1 (S-BUT-001) ogham inscription on the left-hand wall of the cave, about <height unit="m">2m</height> above the present floor. 
                                     </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -125,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
                 <language ident="xpi">Pictish</language>   
+                <language ident="gd">Scottish Gaelic</language>
             </langUsage>
             <textClass>    
                 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -147,6 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-18" who="#POC">Added key to objectType, added decoration section, updated layout and condition, added line to translation, corrected filename.</change>
                 <change when="2025-03-19" who="#POC">Added country to origPlace, added style attribute to layout for arris, updated objectType key attribute value, added CISP link, encoded decorative elements </change>
                 <change when="2025-03-27" who="#POC">Updated decoration attributes for filtering, updated provenance</change>
+            <change when="2025-05-16" who="#POC">Added code for undetermined language</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -159,13 +163,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#NW">              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                 </ab>
