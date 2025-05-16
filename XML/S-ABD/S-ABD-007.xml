@@ -58,9 +58,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang> 
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                          <msItem>  
+                              <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>   
+                            <!--<textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang> 
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>      -->                         
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -117,7 +118,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="sga">Old Irish</language>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
-<language ident="xpi">Pictish</language>   
+<language ident="xpi">Pictish</language>
+<language ident="gd">Scottish Gaelic</language> 
 </langUsage>
 <textClass>
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -155,7 +157,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" cert="low" xml:space="preserve" resp="#LH">              
+             <div type="edition" subtype="ogham" xml:lang="und-Ogam" cert="low" xml:space="preserve" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>ᚐᚂᚂ<gap reason="lost" extent="unknown" unit="character"/>    
                     
@@ -178,7 +180,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" cert="low" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>ALL<gap reason="lost" extent="unknown" unit="character"/>
                     
