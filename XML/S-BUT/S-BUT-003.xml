@@ -63,8 +63,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                          <msItem>   
+                              <textLang mainLang="gd-Ogam">Arguably Gaelic written in ogham script</textLang>
+                            <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> -->
                            <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
                            </msItem>
@@ -85,12 +86,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A large irregularly shaped cave divided into two aisles by a rock buttress. There are opposing rows of small holes cut into the rock about 1 1/2-2m above the present floor which have been interpreted as sockets for small bars of wood (Forsyth 1996, 94). The walls of the cave are full of natural fissures but the south aisle of the cave also exhibits two ogham inscriptions (S-BUT-001 - S-BUT-002), an ogham text written in pigment (S-BUT-003), and what appears to be another ogham inscription but may be natural fissures (S-BUT-X01). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="other" rend="stemline_painted">The pigment-based Blackwaterfoot 3 (S-BUT-003) inscription is painted parallel to and to the right of the Blackwaterfoot 1 inscription (S-BUT-001) on the left-hand wall of the cave, about <height unit="m">2m</height> above the present floor. 
+                                <layout style="other" rend="stemline_up">The pigment-based Blackwaterfoot 3 (S-BUT-003) inscription is painted parallel to and to the right of the Blackwaterfoot 1 inscription (S-BUT-001) on the left-hand wall of the cave, about <height unit="m">2m</height> above the present floor. 
                                     </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <q>not cut into the rock but seems to be scribed in pencil or some kind of ink</q> (Forsyth 1996, 95). Jackson attributes this <rs type="execution" key="painted">painted</rs> ogham inscription to a <q>recent vandal</q> (1973, 95).  <!--<height></height>-->
+                            <handNote>The inscription is <q>not cut into the rock but seems to be scribed in pencil or some kind of ink</q> (Forsyth 1996, 95). Jackson attributes this <rs type="execution" key="other">painted</rs> ogham inscription to a <q>recent vandal</q> (1973, 95).  <!--<height></height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -124,7 +125,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="sga">Old Irish</language>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
-                <language ident="xpi">Pictish</language>   
+                <language ident="xpi">Pictish</language> 
+                <language ident="gd">Scottish Gaelic</language>
             </langUsage>
             <textClass>    
                 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -149,6 +151,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-19" who="#POC">Update objectType key attribute value, added country to origPlace, encoded decorative elements, added style attribute to layout with the stemline  value</change>
             <change when="2025-03-27" who="#POC">Updated decoration attributes for filtering</change>
             <change when="2025-05-12" who="#POC">Condense provenance, added attributes for layout filtering</change>
+           <change when="2025-05-16" who="#POC">Update text lang, update layout attributes and encoding for execution filtering</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -161,13 +164,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <!--<div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!-\-update lang and resp here-\->              
+             <!--<div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" resp="#NW"><!-\-update lang and resp here-\->              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     
                 </ab> 
             </div>-->
-            <!--<div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <!--<div type="edition" subtype="transliteration" xml:lang="gd-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                 </ab>
