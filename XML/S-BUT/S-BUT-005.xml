@@ -63,8 +63,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                               
+                          <msItem>                                 
+                              <textLang mainLang="gd-Ogam">Possibly Scottish Gaelic written in ogham script</textLang>
+                              <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -83,7 +84,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A small piece of slate, roughly rectangular in shape with some fractures and wear, inscribed in both ogham and Latin. The upper portion has a very straight break and appears to have been trimmed. The ogham inscription is incomplete, consisting of only the first ten letters of the alphabet. The Latin inscription is accompanied by some minor scratches which appear to be accidental.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="horizontal" rend="stemline">Face B contains an ogham inscription comprised of the first ten letters of the alphabet as well as decorative features. The ogham inscription runs horizontally across the middle of the slate slab. The drawn-in stem begins about <dim type="length" unit="mm">10mm</dim> from the left edge with the end lost in the fractured top right corner. There are two lines of Latin writing carved on face A.</layout>
+                                <layout style="horizontal" rend="stemlineL-R">Face B contains an ogham inscription comprised of the first ten letters of the alphabet as well as decorative features. The ogham inscription runs horizontally across the middle of the slate slab. The drawn-in stem begins about <dim type="length" unit="mm">10mm</dim> from the left edge with the end lost in the fractured top right corner. There are two lines of Latin writing carved on face A.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -121,7 +122,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="sga">Old Irish</language>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
-                <language ident="xpi">Pictish</language>   
+                <language ident="xpi">Pictish</language>  
+                <language ident="gd">Scottish Gaelic</language>
             </langUsage>
             <textClass>
                 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -145,6 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-19" who="#POC">Added geo coords for repository</change>
                 <change when="2025-04-14" who="#POC">Updated execution type</change>
            <change when="2025-04-28" who="#POC">Added and encoded information from Lowe (2008).</change>
+           <change when="2025-05-16" who="#POC">Update text lang and edition lang code, update layout attribute with text direction</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -154,19 +157,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->    
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" resp="#NW">    
                  <div type="textpart" n="1">
                      <ab>
                     <lb n="1" style="text-direction:l-to-r"/>ᚁᚂᚃᚄᚅᚆᚇᚈᚉ<unclear>ᚊ</unclear>
                 </ab>
                  </div>
-                     <div type="edition" subtype="transliteration" xml:space="preserve">
+                     <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="gd-Ogam" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>BLFSNHDTC<unclear>Q</unclear>
                 </ab>
             </div>
                  </div>
-            <div type="edition" subtype="roman" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
                 <div type="textpart" n="2">
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>ADEPTUS S(AN)C(TU)M PR[E]MIUM
