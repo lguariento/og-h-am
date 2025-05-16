@@ -32,9 +32,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-KER-002</idno>
-                 <idno type="CIIC"></idno>
-                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"></idno>
-                 <idno type="TM" corresp="www.trismegistos.org/text/"></idno>
+                 <idno type="CIIC"/>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"/>
+                 <idno type="TM" corresp="www.trismegistos.org/text/"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
                 </availability>
@@ -43,8 +43,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                          <altIdentifier>
                             <idno type="geo"/>
                         </altIdentifier>
@@ -58,32 +58,37 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support>National Monuments Service SMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">KE020-046030- </ref>
-                                    <material type="stone"></material> 
+                                    <material type="stone"/> 
                                     <objectType ref="monument">Pillar</objectType> 
-                                    <dimensions><dim>0.86 x 0.23 x 0.15m (NW from 3d data)</dim></dimensions></support>
-                                <condition/>
+                                    <dimensions unit="metre" source="3d_data">
+                                        <height>0.86</height>
+                                            <width>0.23</width>
+                                            <depth>0.15m</depth>
+                                           </dimensions>
+                                </support>
+                                <condition>The stone has a rounded and smooth suface at the back. The front is flat with inscribed but badly damaged edges. It is also probably broken at the top, where further text may be lost.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"></layout>
+                                <layout style="vertical" rend="arris">The remains of an inscription are found on two angles (up-down?). On one agle (left, following the chosen orientation), all that remains are two ogham letters before the break at the top. On the second angle (right), the surviving three letters are towards the middle of the angle with probable loss of letters from the B-aicme before and after.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>pocked in bold strokes but very badly damaged. 4 strokes (C) not touching edge but further in towards centre of face<height></height>
+                            <handNote>Pocked in bold strokes where they survive. The four strokes of the C are not touching the arris but are unusually positioned towards the centre of the face.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Ardfert https://www.logainm.ie/en/1411932</placeName>
+                            <origPlace><placeName type="townland">Ardfert (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/1411932">Ard Fhearta</ref></foreign>)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
                                 <geo>52.328817, -9.782728</geo>
                             <note>ITM coordinates: 478493, 621188</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">Fionnbarr before 2007?
+                        <provenance type="found">Discovered incorporated in the fabric of the N wall of Templenagriffin chapel at the probable early ecclesiastical site of <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=226">Ard Ferta (Breanainn)</ref> (Moore, 2007, 37). Remains inside the walled burial ground include a cathedral building [St Brendan's], dated variously from the 11th to the 17th century, based on a study of its architecture. There are two other churches on the site, a late 12th-century church called 'Templenahoe' and a 15th-century chapel called 'Templenagriffin'. It is also the site of a round tower, which fell during a storm in 1771, and two ogham stones (Moore, 2007, 11, 37-8). Ardfert 1 (I-KER-001) is also from this location, though it was found in the middle of a nearby field. 
                         </provenance>
-                        <provenance type="observed">on site in the restored Templenagriffin chapel
+                        <provenance type="observed">On site in the restored Templenagriffin chapel where it was examined and recorded for the Ogham in 3D project in 2014.
                         </provenance>
                     </history>
                 </msDesc>
@@ -116,11 +121,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Jef Bucas autogenerated batch EpiDoc output from spreadsheet
 </change>
     <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+    <change when="2025-05-16" who="#NW">Added more content and image from O3D.</change>
 
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+         <graphic url="IRE/I-KER/I-KER-002_Ardfert_2.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="example.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
         <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
@@ -128,27 +135,30 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
         <body>
            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/><unclear reason="damage">ᚑ</unclear>ᚄ<gap reason="lost" extent="unknown"/>ᚌᚔᚄ<gap reason="lost" extent="unknown"/>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>ỌC[  ̣  ̣   ̣  ̣] [  ̣  ̣  ̣  ̣]GIC[  ̣  ̣ ̣  ̣] 
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/><unclear reason="damage">O</unclear>S<gap reason="lost" extent="unknown"/>GIS<gap reason="lost" extent="unknown"/>
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+               <listApp>
+                   <app n="1"><note>On the first angle, any preceeding lost characters (following the closen orientation) would have probably been vowels or consonants from the H-aicme (D, T, C or Q). on the second angle loss is mainly on the B-aicme side.</note></app>
+                   <app n="2"><note>The surviving letters/strokes could also be read in the opposite direction as CIG and CO.</note></app>
+               </listApp>
             </div>
-            <div type="translation">
-                <p></p>
-            </div>
+            <div type="translation"/>
+               
             <div type="commentary">
-                <p></p>
+                <p>The fragmentary -OS may be a primitive Irish ending of an o-stem name but this is very uncertain.</p>
             </div>
+                
             <div type="bibliography">
                 <listBibl>
-                    <bibl><ptr target="MAC1945"/>
-                        <citedRange>...</citedRange>
+                    <bibl><ptr target="MOO2007"/>
+                        <citedRange>37-38</citedRange>
                     </bibl>
                  </listBibl>
             </div>
