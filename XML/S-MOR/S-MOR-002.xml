@@ -59,8 +59,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
+                            <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>--><textLang mainLang="gd-Ogam" cert="low">Possibly Scottish Gaelic written in ogham script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
@@ -119,6 +119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>   
+<language ident="gd">Scottish Gaelic</language>
 </langUsage>
 <textClass>
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -142,6 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-01" who="#POC">Added images, added attributes for filtering, updated lemma values, updated execution, added type attribute to w element in edition for formula word, added information from Forsyth 1996.</change>
 <change when="2025-05-04" who="#POC">Added project images of Altyre stone</change>
 <change when="2025-05-14" who="#POC">Update measurements from mm to m in layout, added persName encoding to personal name in commentary</change>
+<change when="2025-05-16" who="#POC">Added Scottish Gaelic to text lang</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -157,7 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="low" resp="#LH"><!--update lang here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="low" resp="#LH">             
                 <ab>    
                     <lb n="1" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>ᚐᚋ <w type="formula" lemma="maqqas">ᚋᚐᚊᚊ</w><gap reason="illegible" quantity="1" unit="character"/>ᚐᚂᚂᚋ<gap reason="lost" extent="unknown" unit="character"/>ᚐᚆᚆᚏᚏᚐᚄᚄᚒᚇᚇᚄ
