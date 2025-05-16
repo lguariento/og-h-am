@@ -61,12 +61,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="sga-Ogam" cert="low">Old Irish written in ogham script</textLang> 
+                          <msItem>         
+                              <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>
+                            <!--<textLang mainLang="sga-Ogam" cert="low">Old Irish written in ogham script</textLang> 
                             <textLang mainLang="mga-Ogam" cert="low">Middle Irish written in ogham script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Pictish written in ogham script</textLang>    
-                            <textLang mainLang="non-Ogam" cert="low">Old Norse written in ogham script</textLang>
-<!--<textLang> is unclear and cannot be determined with certainty (Forsyth 2007)-->
+                            <textLang mainLang="non-Ogam" cert="low">Old Norse written in ogham script</textLang>-->
+
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -84,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The plaque is fractured at both ends. Forsyth (2007, 462) observed that the plaque may have originally been considerably longer and that the inscription clearly continued. The extant portion consists of <q>three fragments which fit together exactly</q> (Forsyth 2007, 462). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="other" rend="stemline">The inscription is found on the smooth outer surface of the bone. The stem-line takes up the full length of the plaque and is positioned slightly closer to one long edge than the other. The stem-line is deeply cut and <q>appears to have been drawn free-hand rather than ruled</q> (Forsyth 2007, 462). The inscription is comprised of five evenly-spaced and neatly parallel characters and the first stroke of a sixth one, utilizing the full width of the plaque's surface (Forsyth 2007, 462).</layout>
+                                <layout style="other" rend="stemlineL-R">The inscription is found on the smooth outer surface of the bone. The stem-line takes up the full length of the plaque and is positioned slightly closer to one long edge than the other. The stem-line is deeply cut and <q>appears to have been drawn free-hand rather than ruled</q> (Forsyth 2007, 462). The inscription is comprised of five evenly-spaced and neatly parallel characters and the first stroke of a sixth one, utilizing the full width of the plaque's surface (Forsyth 2007, 462).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -124,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>
 <language ident="non">Old Norse</language>
+<language ident="gd">Scottish Gaelic</language>
 </langUsage>
 <textClass>
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -149,6 +151,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-02" who="#POC">Updated image copyright information</change>
     <change when="2025-05-06" who="#POC">Added repository details and geo coords.</change>
 <change when="2025-05-13" who="#POC">Proofreading updates, update edition with angled I and forfid encoding and language code, moved alternative reading from edition to apparatus, update bibl</change>
+<change when="2025-05-16" who="#POC">Correct edition encoding, updated text lang code, added text direction for reading</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -158,16 +161,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" cert="low" resp="#LH">              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" cert="low" resp="#LH">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>ᚓᚊᚁ<unclear reason="ambiguous"><g ref="angled_I"/></unclear><g ref="forfid_X"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:l-to-r"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>ᚓᚊᚁ<g ref="angled_I"/><g ref="forfid_X"/><gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" cert="low" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="und-Ogam" cert="low" resp="#LH">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>EQB<unclear reason="ambiguous"><g ref="angled_I"/></unclear><g ref="forfid_X" type="interpretation_K"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:l-to-r"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>EQB<g ref="angled_I"/><g ref="forfid_X" type="interpretation_K"/><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
             </div>
             <div type="apparatus">
@@ -175,7 +178,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <app n="1">
                         <note>Alternatively, it was possible that the inscription was meant to be read in the other direction which produces the following reading:
                         </note>
-                        <rdg source="FOR2012">[---]ӾI͕HNE[---] </rdg>
+                        <rdg source="FOR2012">Right to left: [---]ӾI͕HNE[---] </rdg>
                     </app>
                 <app n="2">
 <note>Forsyth identified three major obstacles preventing the inscription's interpretation: <q>the uncertainty concerning the object’s correct orientation, the orthographic uncertainty concerning three of the characters, and the brevity of the surviving section</q> (2012, 271). In extension, the  language of the inscription cannot be identified with certainty and any analysis of the object therefore remains speculative despite the clarity of the extant characters (Forsyth 2007, 467-9).</note>          
