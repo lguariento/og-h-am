@@ -66,7 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="gd-Ogam" cert="low">Possibly Gaelic written in ogham script</textLang>                           
+                            <textLang mainLang="sga-Ogam" cert="low">Old Irish written in ogham script</textLang>                           
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -106,7 +106,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                              </origDate>
                         </origin>
                         <provenance type="found" when="1931">The inscriptions can be found on a small pillar-like object discovered <height unit="m">500 m</height> south-west of the North Lodge at Poltalloch at Bruach an Druimein ('brae of the elder bushes'), a complex multi-period site never fully investigated and still not fully understood (Forsyth 1996, 444). There are indications that the site had been used in the past for ritual and burial purposes, with its earliest non-burial phase being an open-air cooking site with strong evidence of iron-working. J. Hewat Craw discovered the ogham fragment lying on the ground close to the cists in 1931. </provenance>
-                        <provenance type="observed" when="2022">The stone is part of the Poltalloch Collection on loan in the National Museums of Scotland and is currently on display in the Queen Street Antiquities Museum (HPO470). Visited and recorded on 06 May 2022.</provenance>
+                        <provenance type="observed" when="2022">The stone is part of the Poltalloch Collection on loan in the National Museums of Scotland and is currently on display in the Queen Street Antiquities Museum (HPO470). Visited and recorded on 6 May 2022.</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -155,6 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change when="2025-04-14" who="#POC">Update execution encoding, added attributes for layout filtering</change>
           <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
                 <change when="2025-05-09" who="#POC">Proofreading updates, added persName encoding to commentary instead of foreign for personal names</change> 
+            <change when="2025-05-16" who="#POC">Updated textLang and lang in edition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -167,12 +168,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd" resp="#XS"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="low" resp="#XS">           
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚉᚏ<unclear reason="faded" cert="low">ᚑ</unclear>ᚅ<gap reason="lost" extent="unknown" unit="character"/><choice resp="#KF"><unclear reason="ambiguous" cert="low">ᚃ</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="gd" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="low" xml:space="preserve" resp="#KF">
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>CR<unclear reason="faded" cert="low">O</unclear>N<gap reason="lost" extent="unknown" unit="character"/><choice resp="#KF"><unclear reason="ambiguous" cert="low">V</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
@@ -189,7 +190,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <note>Similarly, although <q>there is no way of knowing if the doubtful N was the last letter</q> of the inscription, it is also difficult to determine this character with complete certainty (Forsyth 1996, 450). There is evidence for <q>two short strokes to the right of, and perpendicular to, the stem, with part of a third clearly visible</q> (Forsyth 1996, 449). However, <q>the rest has flaked off, though slight irregularities in the residual surface may be vestiges of further strokes - V, or a subsequent member of the b-aicme: S or, perhaps most likely, N</q> (Forsyth 1996, 449).</note>
                     </app>
                     <app n="4">
-                        <note>Additionally, there is a possibility that immediately preceding the C is the letter Q which <q>opens up the interesting prospect of the Poltalloch ogham conforming to the typical X MAQ Y formula, either MAQ or MAC [McManus 1991 §5.19]</q> (Forsyth 1996, 450). Although, the principal objection to this hypothesis is linguistic, <q>one would expect the name to appear in the genitive case, CRONAIN</q> (ibid.).</note>
+                        <note>Additionally, there is a possibility that immediately preceding the C is the letter Q which <q>opens up the interesting prospect of the Poltalloch ogham conforming to the typical 'X MAQ Y' formula, either MAQ or MAC [McManus 1991 §5.19]</q> (Forsyth 1996, 450). Although, the principal objection to this hypothesis is linguistic, <q>one would expect the name to appear in the genitive case, CRONAIN</q> (ibid.).</note>
                     </app>
                 </listApp>
             </div>
