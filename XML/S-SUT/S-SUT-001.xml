@@ -60,7 +60,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>    
                             <textLang mainLang="sga-Ogam" cert="medium">Probably Old Irish written in ogham script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                             
+                            <!--<textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>      
+                              <textLang mainLang="gd-Ogam" cert="low">Possibly Scottish Gaelic written in ogham script</textLang>-->
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -119,6 +120,7 @@ the impression that the ogham inscription occupies a slightly raised roll-mouldi
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>   
+<language ident="gd">Scottish Gaelic</language>
 </langUsage>
 <textClass>      
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -142,6 +144,7 @@ the impression that the ogham inscription occupies a slightly raised roll-mouldi
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     <change when="2025-05-07" who="#POC">Updated edition, moved information to apparatus and translation, update layout attribute value, added information on names to commentary, added HES images</change>
+<change when="2025-05-16" who="#POC">Updated text direction in edition, added eDIL reference links to commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -158,7 +161,7 @@ the impression that the ogham inscription occupies a slightly raised roll-mouldi
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     ᚐᚂᚂᚆᚆ<g ref="#angled_A"></g>ᚂᚂᚑᚏᚏ<g ref="#forfid_X"/>ᚇᚇ <w lemma="maqqas">ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ</w> <w lemma="nia?">ᚅᚔᚐ</w> ᚃᚃᚆ
-                    <lb n="2" style="text-direction:left" break="yes"/>
+                    <lb n="2" style="text-direction:l-to-r" break="yes"/>
                     <unclear reason="worn">ᚏ</unclear>ᚏᚉ<gap reason="lost" quantity="1" unit="character"/><choice><unclear>ᚅ</unclear><unclear>ᚏ</unclear></choice><choice><unclear>ᚅ</unclear><unclear>ᚏ</unclear></choice>
                 </ab> 
             </div>
@@ -166,7 +169,7 @@ the impression that the ogham inscription occupies a slightly raised roll-mouldi
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     ALLHH<g ref="#angled_A"></g>LLORR<g ref="#forfid_X" type="interpretation_E"/>DD <w lemma="maqqas">M<gap reason="lost" quantity="1" unit="character"/>QQ</w> <w lemma="nia?">NIA</w> VVH
-                    <lb n="2" style="text-direction:left" break="yes"/>
+                    <lb n="2" style="text-direction:l-to-r" break="yes"/>
                     <unclear reason="worn">R</unclear>RC<gap reason="lost" quantity="1" unit="character"/><choice><unclear>N</unclear><unclear>R</unclear></choice><choice><unclear>N</unclear><unclear>R</unclear></choice>
                 </ab>
             </div>
@@ -188,9 +191,9 @@ variety. In addition to the simple straight stroke vowels, there is a hammer-hea
                 <p>An exact interpretation of the text has not been determined, but possible interpretations include: 'the monument of Alored son of the nephew of Fercar' or 'the monument of Alored, MacNia, and Fercar'.</p>
             </div>
             <div type="commentary">
-                <p>The final two syllables of ALLHHALLORREDD, -orredd (-ored), may be compared with the common Brittonic male personal element <foreign xml:lang="cel">-gwared (guored, uoret)</foreign>, meaning 'protection, bulwark, defense' attested in Welsh, Cornish, and Breton. The first syllable, all, might be meant to be read as the Irish word <foreign xml:lang="sga">ail</foreign>, meaning 'rock, boulder, grave-stone, monument'. Within this context, the following word would be a personal name in the genitive.</p>
+                <p>The final two syllables of ALLHHALLORREDD, -orredd (-ored), may be compared with the common Brittonic male personal element <foreign xml:lang="cel">-gwared (guored, uoret)</foreign>, meaning 'protection, bulwark, defense' attested in Welsh, Cornish, and Breton. The first syllable, ALL, might be meant to be read as the Irish word <foreign xml:lang="sga"><ref target="https://dil.ie/954">ail</ref></foreign>, meaning 'rock, boulder, grave-stone, monument'. Within this context, the following word would be a personal name in the genitive.</p>
                 <p>MAQQ OR MEQQ is interpreted as an attempt to render the genitive <foreign xml:lang="sga">maicc</foreign>, meaning 'son'. NIA, <foreign xml:lang="sga">nia</foreign>, which is also Irish has two possible meanings, 'warrior, champion' and 'sister's son'.</p>
-                <p>The final section of the text VARRC[.]RR, might be transliterated as FARRCARR which may be a form of the Irish male personal name <persName xml:lang="sga">Ferchar</persName>, a compound of the elements <foreign xml:lang="sga">fer</foreign> 'man' and <foreign xml:lang="sga">cha(i)r</foreign> 'loving', meaning 'friendly'.</p>
+                <p>The final section of the text VARRC[.]RR, might be transliterated as FARRCARR which may be a form of the Irish male personal name <persName xml:lang="sga">Ferchar</persName>, a compound of the elements <foreign xml:lang="sga"><ref target="https://dil.ie/21665">fer</ref></foreign> 'man' and <foreign xml:lang="sga"><ref target="https://dil.ie/8202">cha(i)r</ref></foreign> 'loving', meaning 'friendly'.</p>
                 <p>The three names at Golspie could be three individuals commemorated equally, or the name of the patron (secular), patron (ecclesiastical), and craftsman, as is found on later Irish crosses such as the Cross of the Scriptures at Clonmacnoise [CIIC 849] or the Market Cross at Tuam [CIIC 523].</p>
                 <p>One of the most interesting features of the Golspie ogham is that it is written without drawn-in stem-line on the arris of the stone. While this is the norm on otherwise undressed and uncarved pillars, it is unique on a highly decorated cross-slab. Since Golspie cannot be as early as the seventh century and is probably no earlier than the middle of the eighth, this is an important reminder that the lack of a stem-line is not necessarily indicative of an early date (Forsyth 1996, 312).</p>
             </div>
