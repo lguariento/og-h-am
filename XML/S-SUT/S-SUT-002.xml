@@ -63,9 +63,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!--edit language, please-->
+                            <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> <!-\-edit language, please-\->
                             <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang> -->
+<textLang mainLang="gd-Ogam" cert="low">Possibly Scottish Gaelic written in ogham script</textLang>                              
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -122,6 +123,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>   
+<language ident="gd">Scottish Gaelic</language>
 </langUsage>
 <textClass>     
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -142,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-26" who="#POC">Added attributes to object type, material and layout for filtering, added decoration section</change>
 <change when="2025-04-03" who="#POC">Simplify material type, and added country placename to origPlace</change>
 <change when="2025-05-08" who="#POC">Updated commentary, updated attributes for layout filtering, change nymRef values from upper to lowercase, updated transliteration, added hammerhead A and s-shaped A to edition, added information to apparatus and commentary, updated layout and condition, added geo coords for NMS.</change>
+<change when="2025-05-16" who="#POC">Added eDIL reference links to commentary, updated language code in edition and textLang, added nymRef value for personal name in edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -151,16 +154,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#LH">   
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" resp="#LH">   
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚁ</unclear> <persName><name nymRef="#?">ᚇᚒ<unclear reason="damage">ᚅ</unclear>ᚅᚑᚇᚅᚅ<g ref="#hammerhead_A"/>ᚈ</name></persName> <w lemma="maqqas">ᚋ<g ref="#s-shaped_A"/>ᚊᚊ</w> <persName><name nymRef="#natu">ᚅᚐ<gap reason="lost" quantity="1" unit="character"/>ᚈ<unclear reason="ambiguous">ᚒ</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚁ</unclear> <persName><name nymRef="#dunnodnnat">ᚇᚒ<unclear reason="damage">ᚅ</unclear>ᚅᚑᚇᚅᚅ<g ref="#hammerhead_A"/>ᚈ</name></persName> <w lemma="maqqas">ᚋ<g ref="#s-shaped_A"/>ᚊᚊ</w> <persName><name nymRef="#natu">ᚅᚐ<gap reason="lost" quantity="1" unit="character"/>ᚈ<unclear reason="ambiguous">ᚒ</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="gd-Ogam" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="2" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B</unclear> <persName><name nymRef="#?">DU<unclear reason="damage">N</unclear>NODNN<g ref="#hammerhead_A"/>T</name></persName> <w lemma="maqqas">M<g ref="#s-shaped_A"/>QQ</w> <persName><name nymRef="#natu">NA<gap reason="lost" quantity="1" unit="character"/>T<unclear reason="ambiguous">U</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B</unclear> <persName><name nymRef="#dunnodnnat">DU<unclear reason="damage">N</unclear>NODNN<g ref="#hammerhead_A"/>T</name></persName> <w lemma="maqqas">M<g ref="#s-shaped_A"/>QQ</w> <persName><name nymRef="#natu">NA<gap reason="lost" quantity="1" unit="character"/>T<unclear reason="ambiguous">U</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -178,7 +181,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>Dunodnat son of Na...?</p>
             </div>
             <div type="commentary">
-                    <p>While the names of the inscription remain debatable, it seems the text follows the formula of 'X MAQQ Y' (Forsyth 1996, 372). At the beginning of the inscription, the first element of DUNNODNNAT, the Irish <foreign xml:lang="sga"><ref target="https://dil.ie/19227">dún</ref></foreign> meaning 'high place, fort' was a common element in compound male personal names. Latheron's Dunod- may be compared with <foreign xml:lang="sga">Dúnadach</foreign> (<foreign xml:lang="sga">Dúnad</foreign> + the adjectival ending -<foreign xml:lang="sga">ach</foreign>), which means 'one who leads on campaigns'. Another possibility is that DUNNOD- could be a form of Irish DUNAIDONAS which is a compound of *<foreign xml:lang="sga">Duna</foreign> and <foreign xml:lang="sga">aidonas</foreign>, meaning 'fiery'. The last element, -NNAT, could be the Irish diminutive suffix -nat/-nait, commonly used to form a female version of a male personal name. </p>
+                    <p>While the names of the inscription remain debatable, it seems the text follows the formula of 'X MAQQ Y' (Forsyth 1996, 372). At the beginning of the inscription, the first element of DUNNODNNAT, the Irish <foreign xml:lang="sga"><ref target="https://dil.ie/19227">dún</ref></foreign> meaning 'high place, fort' was a common element in compound male personal names. Latheron's Dunod- may be compared with <foreign xml:lang="sga"><ref target="https://dil.ie/19231">Dúnadach</ref></foreign> (<foreign xml:lang="sga">Dúnad</foreign> + the adjectival ending -<foreign xml:lang="sga">ach</foreign>), which means 'one who leads on campaigns'. Another possibility is that DUNNOD- could be a form of Irish DUNAIDONAS which is a compound of *<foreign xml:lang="sga">Duna</foreign> and <foreign xml:lang="sga">aidonas</foreign>, meaning 'fiery'. The last element, -NNAT, could be the Irish diminutive suffix -nat/-nait, commonly used to form a female version of a male personal name. </p>
                     <p>The ogham appears contemporary to the rest of the carving and, as Forsyth suggests, therefore likely refers to the patron or honorand of the cross, or less likely the craftsman (1996, 373).</p>
                     
             </div>
