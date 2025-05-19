@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="gd-Ogam" cert="low">Possibly Scottish Gaelic written in ogham script</textLang>                                
+                            <textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang>                                
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -123,7 +123,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
                 <language ident="xpi">Pictish</language>  
-                <language ident="gd">Scottish Gaelic</language>
+
                 </langUsage>
             <textClass>
                 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -147,6 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
     <change when="2025-03-26" who="#POC">Added country to origPlace</change>
     <change when="2025-05-09" who="#POC">Proofreading updates, remove carriage return spaces from edition, added persName encoding to commentary instead of foreign for personal names</change> 
+            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic, update lang code in textLang and edition</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -158,12 +159,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
    <text>
     <body>
-        <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" cert="low" resp="#XS">             
+        <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="low" resp="#XS">             
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" quantity="6" unit="character"/><unclear cert="low">ᚋᚐ</unclear>ᚊ<gap reason="lost" extent="unknown" unit="character"/>ᚉ<unclear cert="low">ᚑᚌᚔᚅ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="gd-Ogam" cert="low" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="low" xml:space="preserve" resp="#KF">
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" quantity="6" unit="character"/><unclear cert="low">MA</unclear>Q<gap reason="lost" extent="unknown" unit="character"/>C<unclear cert="low">OGIN</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     </ab> 

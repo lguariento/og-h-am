@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="gd-Ogam">Possibly Scottish Gaelic written in ogham script</textLang>                            
+                            <textLang mainLang="sga-Ogam">Possibly Old Irish written in ogham script</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -124,7 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
                 <language ident="xpi">Pictish</language>   
-                 <language ident="gd">Scottish Gaelic</language>
+
             </langUsage>
             <textClass>   
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
@@ -146,7 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-26" who="#POC">Added country to origPlace, added monument as key for objectType for filtering,added decoration for the other carvings</change>
             <change when="2025-04-14" who="#POC">Updated execution type</change>
             <change when="2025-05-09" who="#POC">Added missing s-shaped M encoding to edition</change> 
-            <change when="2025-05-16" who="#POC">Updated text direction in layout and edition, added persName encoding to commentary and edition, updated text lang to Scottish Gaelic</change>
+            <change when="2025-05-16" who="#POC">Updated text direction in layout and edition, added persName encoding to commentary and edition, updated text lang to Scottish Gaelic</change>            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic, corrected lang code</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -159,13 +159,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" resp="#XS">              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" resp="#XS">              
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>
                     <choice resp="#KF"><unclear cert="low">᚛</unclear><unclear cert="low">ᚆ</unclear></choice><persName xml:lang="sga"><name nymRef="#mud-mali">ᚋᚒᚇ<g ref="#s-shaped_M"/>ᚐᚂᚔ</name></persName><unclear>ᚇᚋ</unclear>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="gd-Ogam" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>
                      <choice resp="#KF"><unclear cert="low">></unclear><unclear cert="low">H</unclear></choice><persName xml:lang="sga"><name nymRef="#mud-mali">MUD<g ref="#s-shaped_M"/>ALI</name></persName><unclear>DM</unclear>

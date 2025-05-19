@@ -59,10 +59,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <!--<textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang>  -->
-                              <textLang mainLang="gd-Ogam" cert="low">Possibly Scottish Gaelic written in ogham script</textLang> 
-                            <!--<textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>  -->
-                            <!--<textLang mainLang="sga-Latin" cert="medium">Probably Old Irish written in Latin script</textLang>-->
+                            <textLang mainLang="sga-Ogam" cert="medium">Possibly Old Irish written in ogham script</textLang>  
+                               
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>  
+                            <textLang mainLang="sga-Latin" cert="medium">Probably Old Irish written in Latin script</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -123,7 +123,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>   
-<language ident="gd">Scottish Gaelic</language>
+
 </langUsage>
 <textClass>     
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -159,6 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
      <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     <change when="2025-05-09" who="#POC">Move information on symbol stone to commentary, update execution encoding</change>
 <change when="2025-05-15" who="#POC">Added persName encoding to commentary, updated edition with missing R and missing choice encoding for other possible character U at the start of the drawn-in stemline</change>
+<change when="2025-05-19" who="#POC">Reverted incorrect updates to textLang and edition lang code</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -169,7 +170,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" cert="medium" resp="#LH">             
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="medium" resp="#LH">             
                  <div type="textpart" n="1">
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="iddarrnnn">ᚔᚇᚇᚐᚏᚏᚅᚅᚅ</name></persName> <persName><name nymRef="vorrenni">ᚃᚑᚏᚏᚓᚅᚅᚔ</name></persName> <g ref="#forfid_X"/><add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
@@ -177,7 +178,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
                      </div>
             </div> 
-            <div type="edition" subtype="transliteration" xml:lang="gd-Ogam" cert="medium" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="medium" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#iddarrnnn">IDDARRNNN</name></persName> <persName><name nymRef="#vorrenni">VORRENNI</name></persName> <g ref="#forfid_X" type="interpretation_K"/><add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
                     <lb n="2" style="text-direction:up" break="no"/><add place="right"><choice><unclear>U</unclear><unclear>I</unclear></choice>OSR<unclear reason="illegible">R</unclear></add>

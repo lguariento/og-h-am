@@ -61,7 +61,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                             
                             <!--<textLang mainLang="sga-Ogam" cert="medium">Probably Old Irish written in Latin script</textLang>-->
-                              <textLang mainLang="gd-Ogam" otherLangs="xpi-Ogam" cert="medium">Possibly Scottish Gaelic written in ogham script with Pictish personal names</textLang> 
+                              <textLang mainLang="xpi-Ogam" cert="medium">Possibly Pictish written in ogham script</textLang> 
                                                         
                            </msItem>
                     </msContents>
@@ -119,7 +119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>   
-<language ident="gd">Scottish Gaelic</language>
+
 </langUsage>
 <textClass>    
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -150,6 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
 <change when="2025-05-15" who="#POC">Update lang code of edition, added nymRef value to edition, added persName encoding for personal names in commentary</change>    
 <change when="2025-05-16" who="#POC">Update text lang, edition language code, added lang code for personal names in edition</change>
+<change when="2025-05-19" who="#POC">Reverted incorrect updates to textLang and edition lang code</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -159,7 +160,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" cert="medium" resp="#LH">            
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="medium" resp="#LH">            
                 <ab>
                     <lb n="1" style="text-direction:up" type="inner"/>
                     <w lemma="maqqas">ᚋᚐᚊᚊ<g ref="#forfid_OI"/></w> <persName xml:lang="xpi-Ogam"><name nymRef="#talorc?">ᚈᚐ<g ref="#angled_L"/><g ref="#angled_L"/>ᚒᚑᚏᚏ<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
@@ -167,7 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <persName xml:lang="xpi-Ogam"><name nymRef="#nehht">ᚅ<g ref="#forfid_disjoined-X"/>ᚆᚆᚈ</name></persName> ᚃᚏ<g ref="#angled_O"/>ᚁᚁ<g ref="#hammerhead_A"/><unclear reason="illegible">ᚉ</unclear> <placeName cert="low">ᚉ<g ref="#forfid_disjoined-X"/>ᚅᚅᚓ<g ref="#angled_V"/><g ref="#angled_V"/></placeName> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="gd-Ogam" cert="medium" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="medium" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up" type="inner"/>
                     <w lemma="maqqas">MAQQ<g ref="#forfid_OI" type="interpretation_O"/></w> <persName xml:lang="xpi-Ogam"><name nymRef="#talorc?">TA<g ref="#angled_L"/><g ref="#angled_L"/>UORR<g ref="#stemline_space"/><g ref="#angled_H"/></name></persName> 
