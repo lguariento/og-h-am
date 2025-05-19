@@ -61,7 +61,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                           <msItem>                            
                             <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
                             <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
-                            <textLang mainLang="xpi-Ogam">Pictish written in ogham script</textLang>-->                               <textLang mainLang="gd-Ogam">Possibly Scottish Gaelic written in ogham script</textLang>
+                            <textLang mainLang="xpi-Ogam">Pictish written in ogham script</textLang>-->                               <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -118,7 +118,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>   
-<language ident="gd">Scottish Gaelic</language>
+
 </langUsage>
 <textClass>      
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-25" who="#POC">Added and encoded information</change>
 <change when="2025-05-13" who="#POC">Proofreading updates</change>
 <change when="2025-05-16" who="#POC">Added Scottish Gaelic lang codes</change>
+<change when="2025-05-19" who="#POC">Remove Scottish Gaelic, corrected lang code</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,12 +151,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" resp="#LH"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#LH">            
                 <ab>
                     <lb n="1" style="text-direction:up"/>ᚃᚒᚓᚅᚑᚅ<unclear>ᚔᚓ</unclear>ᚈᚓᚇᚑᚃᚒ<unclear>ᚏᚔ</unclear>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="gd-Ogam" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up"/>VUENON<unclear>IE</unclear>TEDOVU<unclear>RI</unclear>
                 </ab>
