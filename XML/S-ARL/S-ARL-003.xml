@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="gd-Ogam">Possibly Scottish Gaelic written in ogham script</textLang>                            
+                            <textLang mainLang="sga-Ogam" cert="low">Possibly Old Irish written in ogham script</textLang>                          
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -124,7 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="mga">Middle Irish</language>
                 <language ident="ga">Irish</language>
                 <language ident="xpi">Pictish</language>
-                <language ident="gd">Scottish Gaelic</language>
+
             </langUsage>
             <textClass>
                 <keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
@@ -146,6 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-03-12" who="#POC">Added attribute values to material</change>
                 <change when="2025-03-26" who="#POC">Added decoration section, added country to origPlace, added monument as key for objectType for filtering, removed whitespace from edition</change>
                 <change when="2025-05-09" who="#POC">Proofreading updates, added missing bibl reference to Zotero and cited page range</change> 
+            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic, corrected lang code</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -155,13 +156,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="gd-Ogam" resp="#XS">     
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" resp="#XS">     
                 <ab>
                     <lb n="1" style="text-direction:right"/>ᚐᚓᚄᚇ<gap reason="lost" extent="unknown" unit="character"/>ᚈ<gap reason="lost" quantity="2" unit="character"/>ᚅᚐ<gap reason="lost" extent="unknown" unit="character"/>ᚈ<gap extent="unknown" reason="illegible"/>
                     <lb n="2" style="text-direction:right"/>ᚃᚔᚏᚏᚋᚑᚅᚐᚔ 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="gd-Ogam" xml:space="preserve" resp="#KF">
+            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
                     <lb n="1" style="text-direction:up"/>AESD<gap reason="lost" extent="unknown" unit="character"/>T<gap reason="lost" extent="unknown" unit="character"/>V<gap reason="lost " quantity="2" unit="character"/>NA<gap reason="lost" extent="unknown" unit="character"/>T
                     <lb n="2" style="text-direction:right"/>VIRRMONAI 
