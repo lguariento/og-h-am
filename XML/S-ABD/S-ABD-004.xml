@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>
-                              <textLang mainLang="gd-Ogam" cert="low">Possibly Scottish Gaelic written in ogham script</textLang> 
+                               
                             <!--<textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang> --><!--check language, please -->                                
                            </msItem>
                     </msContents>
@@ -119,7 +119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
 <language ident="xpi">Pictish</language>   
-<language ident="gd">Scottish Gaelic</language>
+
 </langUsage>
 <textClass>
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -150,6 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-05-06" who="#POC">Encoded personal names in commentary with persName, added layout attributes for filtering</change>
     <change when="2025-05-09" who="#POC">Update execution encoding</change>
 <change when="2025-05-15" who="#POC">Correct edition line numbering, update lang code in edition</change>
+<change when="2025-05-19" who="#POC">Reverted incorrect updates to textLang and edition lang code</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
