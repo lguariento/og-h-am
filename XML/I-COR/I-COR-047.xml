@@ -67,13 +67,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067004-</idno></p> 
                                     <material type="stone">Sandstone</material><!--Not included in Moffat/Parkes survey but seems likely -->
                                     <objectType key="monument">Pillar</objectType> 
-                                     <dimensions unit="m">
-                                            <height>0.91</height>
-                                            <width>0.38</width>
-                                            <depth>0.20</depth><!--(converted from Macalister)-->
+                                     <dimensions unit="m" source="POW1997"><!--3d data agrees-->
+                                            <height>0.90</height> 
+                                            <width>0.40</width>
+                                            <depth>0.20</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>This fine-grained sandstone pillar is quite damaged, especially the inscribed edges.</condition>
+                                <condition>This fine-grained sandstone pillar is quite broken and damaged, especially the inscribed edges. According to Brash (1879, 142) it was a <q>rough unshapely slab</q> of 4ft. 4.5 in. in length (1.33m) when he saw it at Windele's residence. Macalister (1945, 96) recorded the height as 4ft. (1.22m) but the current extent above the display stand is 0.90m.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_upR">The inscription is on three angles of the stone (up-up-down), apparantly starting on the right edge of one of the faces and, as described by Macalister (1945, 95), running <q>round the circumference of the stone clockwise, not counter-clockwise, which is more usual</q>. </layout>
@@ -92,7 +92,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
                         </origin>
-                         <provenance type="found" when="1846">Discovered in 1846 by Cork antiquarians <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain <idno type="SMR">(CO085-067002-)</idno> in the SW quadrant of a ringfort <idno type="SMR">(CO085-067001-)</idno>, with five other ogham stones: I-COR-046, I-COR-048, I-COR-049, I-COR-050 and I-COR-051. In 1849 Windele removed five of the stones, including this one, to his own residence but they were later moved to the museum of the Royal Irish Academy (Brash 1879, 140; Macalister 1945, 92-93). 
+                         <provenance type="found" when="1846">Discovered in 1846 by Cork antiquarians <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain <idno type="SMR">(CO085-067002-)</idno> in the SW quadrant of a ringfort <idno type="SMR">(CO085-067001-)</idno>, with five other ogham stones: I-COR-046, I-COR-048, I-COR-049, I-COR-050 and I-COR-051. In 1849 Windele removed five of the stones, including this one, to his own residence (Blair's Castle, Cork) but they were later moved to the museum of the Royal Irish Academy (Brash 1879, 140; Macalister 1945, 92-93). 
                         </provenance>
                         <provenance type="observed" when="2013">All six stones from Ballyhank are now in the collection of the National Museum of Ireland. This stone is on loan to <ref target="https://westkerrymuseum.com/">Músaem Chorca Dhuibhne</ref> in Ballyferriter, Co. Kerry, where it was recorded in 3d in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref> in 2013 as part of the Ogham in 3D project.
                         </provenance>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-01" who="#NW">Updated encoding of X-forfid</change>    
 <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change>  
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
+    <change when="2025-05-19" who="#NW">Updated support desc.</change>
     
 </listChange>
 </revisionDesc>
