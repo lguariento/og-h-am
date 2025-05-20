@@ -62,8 +62,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>  
-                            <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script (roman capitals)</textLang>  
+                            <textLang mainLang="sga-Ogam">Primitive Irish written in Ogham script</textLang>  
+                            <textLang mainLang="sga-Latn">Primitive Irish written in Latin script (roman capitals)</textLang>  
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -81,11 +81,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_upR">The stone is inscribed with a Roman-letter inscription in the centre of its largest smooth face just beneath a diagonal fault line. The inscription is in one line reading vertically downwards. The stone is also inscribed with an ogham inscription in one line on the right-hand edge of the face inscribed with Roman letters. The ogham inscription reads vertically upwards. (Edwards 2013, 163).</layout>
+                                <layout style="vertical" rend="arris_upR">The stone is inscribed with an ogham inscription which consists of one line and reads vertically upwards. The ogham inscription occupies the right-hand edge of the stone's largest smooth face. In the centre of this face just beneath a diagonal fault line is a Roman-letter inscription. The Roman-letter inscription is in one line reading vertically downwards (Edwards 2013, 163).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Both inscriptions are <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The characters in the Roman-letter inscription are standard capitals. <q>MA are ligatured, the strokes are widely spaced and touch the line; the horizontal of the L slopes downwards below the line and the second smaller I is tucked above; S is larger; final I is horizontal</q> (Tedeschi 2005, 198). Regarding the ogham inscription, the Welsh Corpus notes that the position of the oghams, <q>on the right angle of [the Roman-letter inscribed face] rather than on the left, is less usual, but their closeness to the roman-letter inscription was presumably to indicate that one was the translation of the other</q> (Edwards 2013, 165).
+                            <handNote>Both inscriptions are <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. Regarding the ogham inscription, Edwards (2013, 165) notes that the position of the oghams, on the right angle rather than on the left, is less usual, <q>but their closeness to the roman-letter inscription was presumably to indicate that one was the translation of the other</q>. The characters in the Roman-letter inscription are standard capitals. The <q>MA are ligatured, the strokes are widely spaced and touch the line; the horizontal of the L slopes downwards below the line and the second smaller I is tucked above; S is larger; final I is horizontal</q> (Tedeschi 2005, 198). 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -119,6 +119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="sga">Old Irish</language>
 <language ident="mga">Middle Irish</language>
 <language ident="ga">Irish</language>
+<language ident="cy">Welsh</language>    
 </langUsage>
 <textClass>
  <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
@@ -148,6 +149,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-28" who="#POC">Added CISP link, updated commentary</change>
      <change when="2025-04-11" who="#POC">Updated execution encoding</change>
 <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change> 
+<change when="2025-05-20" who="#POC">Updated content so ogham information is first and roman letter inscription second, update commentary</change>
 </listChange>   
 </revisionDesc>
     </teiHeader>
@@ -157,19 +159,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>           
-              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW" source="EDW2013">
+              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" resp="#NW" source="EDW2013">
                   <div type="textpart" n="1">
                   <ab>
                       <lb n="1" style="text-direction:up"/><persName><name nymRef="#maila-isu"><w>ᚋᚐ<supplied reason="lost">ᚔᚂ</supplied></w><w><supplied reason="lost">ᚔ</supplied>ᚄᚒ</w></name></persName>
                   </ab>    
               </div>  
               </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW" source="EDW2013">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga-Ogam" resp="#NW" source="EDW2013">
                     <ab>
                       <lb n="1" style="text-direction:up"/><persName><name nymRef="#maila-isu"><w>MA<supplied reason="lost">IL</supplied></w><w><supplied reason="lost">I</supplied>SU</w></name></persName>
                   </ab>
             </div>
-             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn" resp="#NW" source="EDW2013">
+             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga-Latn" resp="#NW" source="EDW2013">
                 <div type="textpart" n="2">
                     <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#maila-isu"><hi rend="ligature">MA</hi>ILIS<hi rend="inverted">I</hi></name></persName>
@@ -192,7 +194,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>               
             </div>
             <div type="commentary">
-                       <p>The roman-letter inscription, like the ogham, commemorates a person named <persName>Mailisi</persName> and consists solely of this name. Sims-Williams (Edwards 2013, 165) notes that <q>in theory, MAILISI could be formed from Welsh... [but] the occurrence of ogham on the stone and the fact that the other name from <placeName type="parish">Llanfaelog</placeName> (CVNOGVSI on Llanfaelog 1 (AN12)) is Irish make it much more likely that MAILISI is Irish, presumably with the element <foreign xml:lang="sga"><ref target="https://dil.ie/31244">mael</ref></foreign> 'bald/tonsured one', common in ecclesiastical names... It seems that MAILISI must be a brutal Latinization of <foreign xml:lang="sga">Máel Ísu</foreign> ('bald one of Jesus'), with the ubiquitous Latin 'epigraphic -I' genitive having been added inappropriately to an Irish name, as also in Llanfaelog 1 and elsewhere in Britain</q>.</p> 
+                       <p>The ogham and roman-letter inscription commemorate a person named <persName>Mailisi</persName> and consist solely of this name. Sims-Williams (Edwards 2013, 165) notes that <q>in theory, MAILISI could be formed from Welsh</q>. However, the occurrence of ogham on the stone and the fact that the other name from <placeName type="parish">Llanfaelog</placeName> (CVNOGVSI on Llanfaelog 1 (AN12)) is Irish make it much more likely that MAILISI is Irish, presumably with the element <foreign xml:lang="sga"><ref target="https://dil.ie/31244">mael</ref></foreign> meaning 'bald/tonsured one' and is common in ecclesiastical names. It seems that MAILISI must be a brutal Latinization of <foreign xml:lang="sga">Máel Ísu</foreign> ('bald one of Jesus'), with the ubiquitous Latin 'epigraphic -I' genitive having been added inappropriately to an Irish name, as also in Llanfaelog 1 and elsewhere in Britain.</p> 
                          <p>Sims-Williams (Edwards 2013, 165) also commented that <q>if there is a connection between MAILISI and the name <placeName type="parish"><foreign xml:lang="cy">Llanfaelog</foreign></placeName>, one must assume that the Irish name <persName><foreign xml:lang="sga">Máel Ísu</foreign></persName> was assimilated to the well-known Welsh name <persName><foreign xml:lang="cy">Maelog</foreign></persName>; the latter may have been employed here as a hypocoristic form of <foreign xml:lang="sga">Máel Ísu</foreign></q>.</p>                        
             </div>
             <div type="bibliography">
