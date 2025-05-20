@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D scanned using Artec Eva structured light scanner <date when="2015-01-08"/> and processed using geomagic software</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>NMI</repository>
                         <idno type="invNo">1983.3</idno>
+                         <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,37 +63,37 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term></term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-074----</idno> </p>
-                                    <material/> 
-                                    <objectType/> 
-                                     <dimensions unit="m">
-                                           <!-- <height>2.20</height>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO061-074----</idno> </p>
+                                    <material type="stone">Sandstone</material> <note>Fine grained sandstone (Parkes/Moffat 2011, unpubl survey)</note>
+                                    <objectType key="monument">Pillar</objectType> 
+                                     <dimensions unit="m" source="POW1997">
+                                            <height>2.20</height>
                                             <width>0.30</width>
-                                            <depth>0.15</depth>-->
+                                            <depth>0.15</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>A long narrow stone.</condition>
+                                <condition>A long narrow stone tapering and stained brown at the top.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout/>
+                               <layout style="vertical" rend="arris_up">>Seemingly a palimpsest. The earlier inscription appears to have been pocked on three angles and a later one cut on one angle.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote><height></height>
+                        <handDesc>
+                            <handNote>The ogham strokes are quite finely <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">cut</rs> in the 'Cork style'. The X-forfid is used in this inscription, apparently with vocalic value /e/, rather than its consonantal value /k/ or /x/. With this vocalic usage, <q>late linguistic features tend to be more frequent</q>. There is also <q>a correlation with this usage and that of the ANM formula, which is also symptomatic of late date</q> (McManus 1991, 79; Swift 1997, 83-90). The earlier inscription appears to have been pocked.<height></height>
                             </handNote>
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Bunkilla (<ref target="https://www.logainm.ie/ga/11387"><foreign xml:lang="ga">Bun Coille</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
-                              <geo>51.978115, -8.699242</geo> <!--  Got these coordinates from Historic Environment Viewer-->
+                              <geo>51.978115, -8.699242</geo> 
                             <note>ITM Coordinates: 551963, 580904</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1982">Discovered in 1982 during drainage works. 
+                        <provenance type="found" when="1982">found in 1982 by workmen doing drainage work. It was first brought to Cork Public Museum but is now part of the NMI collection (Power 1997, 166). 
                         </provenance>
-                        <provenance type="observed">This stone is now in the National Museum of Ireland (see <idno type="SMR">DU018-418----</idno>) (Power 1997, no. 7955).
+                        <provenance type="observed">This stone is in the National Museum of Ireland, where it was examined and recorded, in collaboration with the Discovery Programme, for the Ogham in 3D project in 2015.
                         </provenance>
                     </history>
                 </msDesc>
@@ -123,6 +126,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2024-10-01" who="#POC">Added and encoded information, including edition</change>
 <change when="2025-02-11" who="#POC">Added placename to title, deleted note from objectType, added idno element for SMR IDs, updated apparatus</change>
+     <change when="2025-05-20" who="#NW">Updated and added information and encoding throughout, including edition, apparatus and commentary.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -134,12 +139,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1"/>
+                <lb n="1"/><persName><w type="formula" lemma="anmen">ᚐᚅᚋ</w> <space /> <name nymRef="#maqqi-lasire">ᚋᚐᚊᚊᚔ ᚂᚐᚄᚔᚏ<g ref="#forfid_X"/></name> <w type="formula" lemma="maqqas">ᚋᚐᚊ ᚊᚔ</w> <name nymRef="#birracias">ᚁᚔᚏᚏ ᚐᚉ</name></persName>  
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1"/>
+                    <lb n="1"/><persName><w type="formula" lemma="anmen">ANM</w> <name nymRef="#maqqi-lasire">MAQQI LASIR<g ref="#forfid_X" type="interpretation_E"/></name> <w type="formula" lemma="maqqas">MAQQI</w> <name nymRef="#birracias">BIRRAC</name></persName>  
                 </ab>
             </div>
             <div type="apparatus">
@@ -155,23 +160,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note><lb/>However, some of the letters read by Lankford may be from an earlier inscription on the stone.</note>
                 </app>
                     <app n="2">
-                        <note>Another possible interpretation is: </note>
-                        <rdg>
-                            <persName><w type="formula" lemma="anmen">ANM</w> <name nymRef="#maqqi-lasire">MAQQI-LASIRE</name> <w type="formula" lemma="maqqas">MAQQI</w> <name nymRef="#birrac">BIRRAC</name></persName>  
-                        </rdg>
+                        <note>Extra space appears to have been left between the initial formula word ANM and the following personal name. This phenomonen is found elsewhere in the ogham corpus (e.g. I-KER-100, Cunburrin, Co. Kerry and I-COR-069, Monataggart I, Co. Cork). However, in this case it could just as easily be an example of letter division, distinguishing the final M of ANM and the initial M of MAQQI. The use of space in ogham to distinguish letters and words has been discussed by Moffat (2011, 290).</note> 
                     </app>
                 </listApp>
             </div>
             <div type="translation">
                 <p>'name/inscription of Mac-Laisre son of Berrach'</p>
             </div>
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            <div type="commentary">
+                <p>The personal name Mac-Laisre is well attested later and contains OIr las(s)ar, g. laisre 'flame, fire'. The name Berrach is also attested later and occurs as BIRACO (leg. -I) in I-COR-038 (Ballyknock, Co. Cork).</p>               
+            </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="POW1997"/>
                          <citedRange>no. 7955</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MOF2011"/>
+                     <citedRange>281-294</citedRange>
                      </bibl>
                 </listBibl>
             </div>
