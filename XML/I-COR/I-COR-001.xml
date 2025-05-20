@@ -74,11 +74,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>An ogham inscription is recorded on the upright stone of a pair of standing stones (SMR ID: CO106-035----, the second lies prostrate 1.m to E). Macalister (1907, 31-7; 1945, 59) noted that there was a row of three stones here in <date>1879</date>, reduced to two by <date>1907</date>. The inscription was badly damaged some time after <date>1845</date> (Macalister 1945, 59). When examined by <persName>Fionnbarr Moore</persName> in the early <date>1980</date>s only traces of the final four letters of the inscription could be discerned and while these were quite vague they were undoubtedly ogham scores (Ronan 2009, 154).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_upR">The inscription is found on the lower half of the stone on the right angle of the eastern face, and runs up from near the ground to a height of 1.1m.</layout>
+                                <layout style="vertical" rend="arris_upR">The inscription is found on the lower half of the stone on the right angle of the eastern face, and runs up from near the ground to a height of 1.1m. However, most of this is illegible with only traces of ogham strokes remaining.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham scores have been <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">knife-cut</rs>, which is consistent with many Cork ogham inscriptions. The consonant scores are small, measuring from <height unit="cm" min="2">2</height> to <height unit="cm" max="4">4</height>cm in length.
+                            <handNote>The ogham strokes have been <rs type="execution" key="scratched" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">knife-cut</rs>, which is consistent with many Cork ogham inscriptions. The surviving consonant strokes are small, measuring from <height unit="cm" min="2">2</height> to <height unit="cm" max="4">4</height>cm in length.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -144,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-12-06" who="#POC">Added number for the critical apparatus</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title</change>
     <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering</change>
+    <change when="2025-05-20" who="#NW">Updated encoding of illegible text with gap of c.45 strokes to test display.</change>
     
 </listChange>
 </revisionDesc>
@@ -158,13 +159,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
                     <lb n="1" style="text-direction:up"/>
-                    <gap reason="illegible" quantity="90" unit="cm"/><unclear reason="background_noise">ᚈᚓᚈᚐ</unclear>
+                    <gap reason="illegible" quantity="45" unit="stroke" precision="low"/><unclear reason="background_noise">ᚈᚓᚈᚐ</unclear>
                 </ab>
              </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                       <lb n="1" style="text-direction:up"/>
-                    <gap reason="illegible" quantity="90" unit="cm"/><unclear reason="background_noise">TETA</unclear>
+                    <gap reason="illegible" quantity="45" unit="stroke" precision="low"/><unclear reason="background_noise">TETA</unclear>
                 </ab>
             </div>
             <div type="apparatus">
