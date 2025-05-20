@@ -81,10 +81,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions> 
                                     <desc type="decoration">The front is decorated with a <rs type="decoration" key="cross">cross</rs>. Its centre is decorated with <rs type="decoration" key="design">interlace</rs>, the top arm of the cross includes the lower part of a <rs type="decoration" key="zoomorphic">sea monster</rs>, the left arm is decorated with <rs type="decoration" key="design">Stafford knots</rs>, the right arm may have also been carved but is now defaced, and the bottom arm contains a <rs type="decoration" key="HuntingScene">horseman carrying a spear</rs>. Surrounding the bottom arm of the cross are the remainders of a hunting scene, consisting of two more <rs type="decoration" key="HuntingScene">horsemen carrying spears and accompanied by hounds</rs>, as well as a <rs type="decoration" key="PictishSymbol">double-disc and Z-shaped rod symbol</rs>.</desc>
                                 </support>
-                                <condition>The cross-slab is weathered and incomplete. The upper portion and top part of the right-hand side is missing. Rhys (1898b, 348) remarked that the traces of ogham scores <q>are so far gone</q> that nothing could be made of them, while Macalister (1940, 198) described them as <q>frayed and weathered</q>. Regarding the Hiberno-Saxon inscription, Rhys (ibid., 347) noted that <q>only just the lower ends of the letters in the upper line are visible, and that not to the extent of enabling one to make them out</q>.</condition>
+                                <condition>The cross-slab is weathered and incomplete. The upper portion and top part of the right-hand side is missing. Rhys (1898b, 348) remarked that the traces of ogham scores <q>are so far gone</q> that nothing could be made of them, while Macalister (1940, 198) described them as <q>frayed and weathered</q>. Regarding the roman-letter inscription, Rhys (ibid., 347) noted that <q>only just the lower ends of the letters in the upper line are visible, and that not to the extent of enabling one to make them out</q>. Okasha was pessimistic of reading the lower line (1985, 52) but it is quite legible. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="face_up">The ogham inscription runs up the two narrow faces of the slab. Macalister (1940, 198) remarked that there is <q>no traceable stem-line</q>. The top left corner of the slab includes the remnants of an inscription in Hiberno-Saxon miniscules which consisted originally of at least two lines (Rhys 11898b).</layout>
+                                <layout style="vertical" rend="face_up">The remains which have been identified as an ogham inscription run up the two narrow faces of the slab. Macalister (1940, 198) remarked that there is <q>no traceable stem-line</q>. The top left corner of the slab includes the remnants of an inscription in Insular minuscules which consisted originally of at least two lines (Rhys 1898b).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -147,13 +147,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-30" who="#POC">Added and encoded information from Macalister (1940), added execution encoding </change>
 <change when="2025-05-16" who="POC">Updated text language for edition, added information to commentary and apparatus</change>
 <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change> 
-<change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+<change when="2025-05-20" who="#POC">Replace Canmore with Trove link, update roman letter edition with damaged upper line, added updates from Katherine, updated bibl with Okasha reference</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="SCO/S-KCD-002-Fordoun.JPG"><desc>Photo by Megan Kasten</desc></graphic> 
-        <graphic url="SCO/S-KCD-002-Fordoun_HES-full-scan.jpg"><desc>Drawing of Fordoun cross-slab. Copyright: <ref target="https://canmore.org.uk/file/image/1081380">Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS)</ref></desc></graphic>
+        <graphic url="SCO/S-KCD-002-Fordoun_HES-full-scan.jpg"><desc>Drawing of Fordoun cross-slab. Copyright: <ref target="https://www.trove.scot/image/1081380">HES</ref></desc></graphic>
          <media url="YYY" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
@@ -176,13 +176,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="xpi-Latn" resp="#LH">
                 <div type="textpart" n="2">
                     <ab>
-                    <lb n="1" style="text-direction:right"/>PIDARNOIN
+                    <lb n="1" style="text-direction:right"/><gap reason="illegible" quantity="7" unit="character"/>
+                    <lb n="2" style="text-direction:right"/>PIDARNOIN
                 </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1">
+                    <app n="1">
+                        <note>The OG(H)AM project visited the stone in 2021 and could not discern a convincing ogham.</note>
+                    </app>
+                <app n="2">
                     <note>Macalister (1940, 200) read:</note>        
                     <rdg source="MAC1940"><lb/>Ogham: VUN[I]MSETTOR BRE[---EN]N</rdg>
                     <rdg>
@@ -195,7 +199,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>An exact translation of the inscription cannot be readily determined.</p>
             </div>
             <div type="commentary">
-<p>Information about the ogham inscription is limited due to a lack of publications. Although Macalister (1940, 198) supplied a suggested segmented reading of the inscription, he did not offer any interpretation, noting that the ogham is <q>very difficult and requires prolonged study</q>. Regarding the roman text, however, Macalister (ibid.) remarked that <q>IDARNOIN is evidently the EDDARRNONN of the Scoonie stone and IP appears to be an abbreviation for IPE. It should, no doubt, have been IPENN or IPEVOR; but it seems that in Pictish the suffixes could be omitted when the sense was clear</q>.  </p>
+<p>Although Macalister (1940, 198) supplied a suggested segmented reading of the inscription, he did not offer any interpretation, noting that the ogham is <q>very difficult and requires prolonged study</q>. John Borland of the HES prepared a drawing of the supposed ogham but did not offer a reading (see <ref target="https://www.trove.scot/image/1081380">Trove</ref>).</p>
+                <p>Regarding the roman text, however, Macalister (ibid.) linked IDARNOIN with the EDDARRNONN of the Scoonie stone (S-FIF-001) and IP to the IPE on the Drosten Stone from St Vigeans.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -204,6 +209,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </bibl>
                      <bibl><ptr target="MAC1940"/>
                      <citedRange>184-226</citedRange>
+                     </bibl>
+                     <bibl><ptr target="OKA1985"/>
+                     <citedRange>43-69</citedRange>
                      </bibl>
                      <bibl><ptr target="RHY1898b"/>
                      <citedRange>380</citedRange>
