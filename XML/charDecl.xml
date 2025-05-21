@@ -12,7 +12,7 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository>nmi</repository>
+                        <repository>xxx</repository>
                         <idno/>
                     </msIdentifier>
                     <physDesc>
@@ -47,33 +47,33 @@
             <charDecl xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="symbols" xml:base="charDecl.xml">
                  <glyph xml:id="forfid_X">
   <mapping type="ogham">ᚕ</mapping>
-  <mapping type="diplomatic">Ӿ</mapping>
-  <mapping type="interpretation_E">E</mapping>
-  <mapping type="interpretation_EA">EA</mapping> <!--add X and remove EA?-->
-  <mapping type="interpretation_K">K</mapping> 
+  <mapping type="diplomatic">Ӿ</mapping>  
+  <mapping type="interpretation_X">Ӿ</mapping> <!--for unclear interpretation-->
+  <mapping type="interpretation_K">K</mapping> <!--for consonant sound-->
+  <mapping type="interpretation_E">E</mapping> <!--for vowel sound-->
  </glyph>
                   <glyph xml:id="forfid_OI">
   <mapping type="ogham">ᚖ</mapping> 
   <mapping type="diplomatic">Oᴵ</mapping>
-  <mapping type="interpretation_OI">OI</mapping>
-  <mapping type="interpretation_O">O</mapping>  
+  <mapping type="interpretation_OI">Oᴵ</mapping> <!--for unclear interpretation (Scottish) but probably vocalic-->
+  <mapping type="interpretation_TH">TH</mapping> <!--one possible example on stone? (MAC1945)-->
  </glyph>
                   <glyph xml:id="forfid_UI">
   <mapping type="ogham">ᚗ</mapping>  
-  <mapping type="diplomatic">Uᴵ</mapping>
-  <mapping type="interpretation">UI</mapping>
+  <mapping type="diplomatic">Uᴵ</mapping> <!--for unclear interpretation-->
+  <mapping type="interpretation">UI</mapping> <!--only in mss?-->
  </glyph>
                  <glyph xml:id="forfid_I">
-  <mapping type="ogham">ᚘ</mapping>  
+  <mapping type="ogham">ᚘ</mapping> <!--see seperate (earlier?) epigraphic version below -->
   <mapping type="diplomatic">Φ</mapping>
-  <mapping type="interpretation_PH">Ph</mapping> <!--and/or P? or just epigraphic version with single X?-->
-  <mapping type="interpretation_I">I</mapping>
+  <mapping type="interpretation_PH">Ph</mapping> <!--?-->
+  <mapping type="interpretation_I">I</mapping> <!--only in mss?-->
  </glyph>
                  <glyph xml:id="forfid_AE">
   <mapping type="ogham">ᚙ</mapping>  
   <mapping type="diplomatic">Aᴱ</mapping>
-  <mapping type="interpretation">AE</mapping>
- </glyph>
+  <mapping type="interpretation">AE</mapping> <!--only in mss?-->
+  </glyph>
                  <glyph xml:id="forfid_P">
   <mapping type="ogham">ᚚ</mapping>  
   <mapping type="diplomatic">P</mapping>
@@ -81,15 +81,15 @@
  </glyph>                
                  <glyph xml:id="forfid_disjoined-X">
   <mapping type="ogham" rend="babel_special">ᚕ</mapping> 
-  <mapping type="diplomatic">Ж</mapping>  
+  <mapping type="diplomatic">Ж</mapping>    
+  <mapping type="interpretation_X">Ӿ</mapping> <!--for unclear interpretation-->
+  <mapping type="interpretation_K">K</mapping> 
   <mapping type="interpretation_E">E</mapping>
-  <mapping type="interpretation_EA">EA</mapping> <!--same as for X-forfid or different?-->
-<mapping type="interpretation_K">K</mapping>  
  </glyph>                 
                  <glyph xml:id="forfid_rainbow">
   <mapping type="ogham" rend="babel_special">ᚗ</mapping>  
   <mapping type="diplomatic">ↁ</mapping> 
-  <mapping type="interpretation">?</mapping>
+  <mapping type="interpretation">ↁ</mapping>
  </glyph>
                  <glyph xml:id="forfid_epig-I">
   <mapping type="ogham" rend="babel_pictish">ᚘ</mapping>  
@@ -100,97 +100,97 @@
                  <glyph xml:id="angled_A">
   <mapping type="ogham" rend="babel_pictish_italic">ᚐ</mapping>  
   <mapping type="diplomatic">A͕</mapping>
-  <mapping type="interpretation">A</mapping>
+  <mapping type="interpretation">A͕</mapping>
  </glyph>
                 <glyph xml:id="angled_O">
   <mapping type="ogham" rend="babel_pictish_italic">ᚑ</mapping>  
   <mapping type="diplomatic">O͕</mapping>
-  <mapping type="interpretation">O</mapping>
+  <mapping type="interpretation">O͕</mapping>
  </glyph>
                 <glyph xml:id="angled_U">
   <mapping type="ogham" rend="babel_pictish_italic">ᚒ</mapping>  
   <mapping type="diplomatic">U͕</mapping>
-  <mapping type="interpretation">U</mapping>
+  <mapping type="interpretation">U͕</mapping>
  </glyph>
                 <glyph xml:id="angled_E">
   <mapping type="ogham" rend="babel_pictish_italic">ᚓ</mapping>  
   <mapping type="diplomatic">E͕</mapping>
-  <mapping type="interpretation">E</mapping>
+  <mapping type="interpretation">E͕</mapping>
  </glyph>
                 <glyph xml:id="angled_I">
   <mapping type="ogham" rend="babel_pictish_italic">ᚔ</mapping>  
   <mapping type="diplomatic">I͕</mapping>
-  <mapping type="interpretation">I</mapping>
+  <mapping type="interpretation">I͕</mapping>
  </glyph>
                  <glyph xml:id="angled_L">
   <mapping type="ogham" rend="babel_pictish_italic">ᚂ</mapping>  
   <mapping type="diplomatic">L͕</mapping>
-  <mapping type="interpretation">L</mapping>
+  <mapping type="interpretation">L͕</mapping>
  </glyph>
                 <glyph xml:id="angled_H">
   <mapping type="ogham" rend="babel_pictish_italic">ᚆ</mapping>  
   <mapping type="diplomatic">H͕</mapping>
-  <mapping type="interpretation">H</mapping>
+  <mapping type="interpretation">H͕</mapping>
  </glyph>    
                 <glyph xml:id="angled_V">
   <mapping type="ogham" rend="babel_pictish_italic">ᚃ</mapping>  
   <mapping type="diplomatic">V͕</mapping>
-  <mapping type="interpretation">V</mapping>
+  <mapping type="interpretation">V͕</mapping>
  </glyph>
                 <glyph xml:id="bound_S">
   <mapping type="ogham" rend="babel_pictish_bold">ᚄ</mapping>  
   <mapping type="diplomatic">S̱</mapping>
-  <mapping type="interpretation">S</mapping>
+  <mapping type="interpretation">S̱</mapping>
  </glyph>
                 <glyph xml:id="bound_D">
   <mapping type="ogham" rend="babel_pictish_bold">ᚇ</mapping>  
   <mapping type="diplomatic">Ḏ</mapping>
-  <mapping type="interpretation">D</mapping>
+  <mapping type="interpretation">Ḏ</mapping>
  </glyph>
                 <glyph xml:id="bound_T">
   <mapping type="ogham" rend="babel_pictish_bold">ᚈ</mapping>  
   <mapping type="diplomatic">Ṯ</mapping>
-  <mapping type="interpretation">T</mapping>
+  <mapping type="interpretation">Ṯ</mapping>
  </glyph>
                 <glyph xml:id="bound_Q">
   <mapping type="ogham" rend="babel_pictish_bold">ᚊ</mapping>  
   <mapping type="diplomatic">Q̱</mapping>
-  <mapping type="interpretation">Q</mapping>
+  <mapping type="interpretation">Q̱</mapping>
  </glyph>
                 <glyph xml:id="bound_G">
   <mapping type="ogham" rend="babel_pictish_bold">ᚌ</mapping>  
   <mapping type="diplomatic">G̱</mapping>
-  <mapping type="interpretation">G</mapping>
+  <mapping type="interpretation">G̱</mapping>
  </glyph>
                 <glyph xml:id="bound_R">
   <mapping type="ogham" rend="babel_pictish_bold">ᚏ</mapping>  
   <mapping type="diplomatic">Ṟ</mapping>
-  <mapping type="interpretation">R</mapping>
+  <mapping type="interpretation">Ṟ</mapping>
  </glyph>
                 <glyph xml:id="bound_E">
   <mapping type="ogham" rend="babel_pictish_bold">ᚓ</mapping>  
   <mapping type="diplomatic">E̱</mapping>
-  <mapping type="interpretation">E</mapping>
+  <mapping type="interpretation">E̱</mapping>
  </glyph>
                 <glyph xml:id="bound_I">
   <mapping type="ogham" rend="babel_pictish_bold">ᚔ</mapping>  
   <mapping type="diplomatic">I̱</mapping>
-  <mapping type="interpretation">I</mapping>
+  <mapping type="interpretation">I̱</mapping>
  </glyph>
                  <glyph xml:id="s-shaped_A">
   <mapping type="ogham" rend="babel_special">ᚐ</mapping>  
   <mapping type="diplomatic">Aᶴ</mapping>
-  <mapping type="interpretation">A</mapping>
+  <mapping type="interpretation">Aᶴ</mapping>
  </glyph>
                 <glyph xml:id="s-shaped_M">
   <mapping type="ogham" rend="babel_special">ᚋ</mapping>  
   <mapping type="diplomatic">Mᶴ</mapping>
-  <mapping type="interpretation">M</mapping>
+  <mapping type="interpretation">Mᶴ</mapping>
  </glyph>
                  <glyph xml:id="hammerhead_A">
   <mapping type="ogham" rend="babel_pictish_bold">ᚐ</mapping>  
   <mapping type="diplomatic">A̱</mapping>
-  <mapping type="interpretation">A</mapping>
+  <mapping type="interpretation">A̱</mapping>
  </glyph>   
                 <glyph xml:id="rabbit-eared_D">
   <mapping type="ogham" rend="babel_special">ᚇ</mapping>  
@@ -200,7 +200,7 @@
                 <glyph xml:id="crosshatched_R">
   <mapping type="ogham" rend="ogham_special">ᚏ‍ᚏ</mapping>  
   <mapping type="diplomatic">ℝ</mapping>
-  <mapping type="interpretation">R</mapping>
+  <mapping type="interpretation">ℝ</mapping>
  </glyph> 
             </charDecl>
         </encodingDesc>
