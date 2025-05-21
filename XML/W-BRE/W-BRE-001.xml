@@ -78,14 +78,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <depth>0.36</depth>
                                     </dimensions>
                                 </support>
-                                <condition>Badly weathered, the outline of the characters rounded and some completely obliterated (Redknap and Lewis 2007, 178).</condition>
+                                <condition>The stone is badly weathered and the ogham inscription is worn. The vowels in the inscription have largely worn away and some are completely obliterated but the spaces between the legible characters suggest their original presence (Redknap and Lewis 2007, 178). Webley detected a series of weathered horizontal lines potentially representing a vertical Latin inscription which today is illegible (1957, 118-21). </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The stone is inscribed with a worn ogham inscription along the left-hand edge reading vertically upwards. In addition to the ogham inscription, Webley described detecting a series of weathered horizontal lines potentially representing a Latin inscription which today is illegible (Redknap and Lewis 2007, 178; Webley 1957, 118-21).</layout>
+                                <layout style="vertical" rend="arris_up">The stone is inscribed with an ogham inscription along the left-hand edge reading vertically upwards (Redknap and Lewis 2007, 178).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The vowels in the inscription have largely worn away but the spaces between the legible characters suggest their original presence (Redknap and Lewis 2007, 178).
+                            <handNote>The outline of the characters are rounded and the inscription appears to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> (Redknap and Lewis 2007, 178).
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -95,11 +95,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="parish">Llanddeti (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/ff45ec70-3997-4418-94b8-eab1be934f74">Llanddetty</ref></foreign>)</placeName>, <placeName type="county">Brecknockhire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName>, <placeName type="country">Wales</placeName>
                                 <geo>51.809722, -3.346017</geo>
                             <note>National Grid Reference: SO 073 132</note></origPlace>
-                            <origDate notBefore="0400" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">fifth or sixth century A.D.</origDate>
+                            <origDate notBefore="0400" notAfter="0599" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found" when="1695">Found on <foreign xml:lang="cy">Ystrad</foreign> mountain in this parish. Recorded and sketched in 1695 by or on behalf of Lhwyd; published illustration in 1910 by Lhwyd which shows ogham - first reading given by Macalister in 1945. 
+                        <provenance type="found" when="1695">Found on <foreign xml:lang="cy">Ystrad</foreign> mountain in Llanddeti parish. The stone and ogham inscription was recorded and sketched in 1695. The presence of ogham was first mentioned in Lhuyd's 1910 publication but the first reading of the inscription was supplied by Macalister in 1945. The stone was rediscovered again by Webley in 1957.  
                         </provenance>
-                        <provenance type="observed" source="RED2007">On open moorland at 455m above sea level, west of the track from Merthyr Tydfil to Talybont. The present location of the stone is high and may be the same as when it was originally described but there is a slight possibility that the stone has been moved down the hill and re-erected since it was first described (Redknap and Lewis 2007, 178).
+                        <provenance type="observed" source="RED2007">Situated on open moorland at 455m above sea level, west of the track from Merthyr Tydfil to Talybont. The present location of the stone is high and may be the same as when it was originally described but there is a slight possibility that the stone has been moved down the hill and re-erected since it was first described (Redknap and Lewis 2007, 178).
                         </provenance>
                     </history>
                 </msDesc>
@@ -145,6 +145,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-25" who="#NW">Added CIIC ref.</change>
     <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link</change>
     <change when="2025-04-03" who="#POC">Simplified material type</change>
+<change when="2025-05-21" who="#POC">Updated provenance, condition, layout, handNote, commentary, added execution type encoding, added apparatus.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -164,7 +165,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-deceddas"><unclear reason="worn">M</unclear>AQ<unclear reason="worn">I</unclear>D<unclear reason="worn">E</unclear>C<unclear reason="worn">E</unclear>D<unclear reason="worn">A</unclear></name></persName>
                 </ab>
             </div>
-            <div type="apparatus"/>
+            <div type="apparatus">
+               <app n="1">
+                   <note>While the spacing of the inscription supports the genitive ending -I for MAQI, the vowels U or O cannot be ruled out, especially if followed by a slight space (Redknap and Lewis 2007, 178). </note>
+               </app>
+                <app n="2">
+                    <note>Macalister (1945, 321) read: </note>
+                    <rdg source="MAC1945">Q-T-C-D</rdg>
+                </app>
+            </div>
                 
             <div type="translation">
                 <div type="textpart" n="1" source="RED2007" resp="#BM">
@@ -172,7 +181,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             </div>
             <div type="commentary">                
-                        <p>The inscription is in the typical commemorative formula (genitive form), naming an individual with the popular Irish name *Maqqas-Deceddas (later <foreign xml:lang="sga">Mac-Deichet</foreign>), which is also found elsewhere in Ireland and Britain (e.g. I-COR-014 (in ogham): MAQIDECCEDDAS and CIIC 326 (in roman letters) MACCVDECCETI). The Welsh Corpus notes that in other examples from Britain <q>the genitive ending -I has been rounded to U or O by the preceding labiovelar /kʷ/</q> (MAC(C)V). It is uncertain whether that is the case for this inscription, due to its worn nature, but the space available would suggest an I (Redknap and Lewis 2007, 178).</p>
+                        <p>The inscription is in the typical commemorative formula (genitive form), naming an individual with the popular Irish name *<persName xml:lang="pgl">Maqqas-Deceddas</persName> which later becomes the OI <foreign xml:lang="sga">Mac-Deichet</foreign> and means 'son of [the divinity]', and is also found elsewhere in Ireland and Britain (e.g. I-COR-014 (in ogham): MAQIDECCEDDAS and CIIC 326 (in roman letters) MACCVDECCETI). The Welsh Corpus notes that in other examples from Britain <q>the genitive ending -I has been rounded to U or O by the preceding labiovelar /kʷ/</q> (MAC(C)V). It is uncertain whether that is the case for this inscription, due to its worn nature, but the space available would suggest an I (Redknap and Lewis 2007, 178).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
@@ -190,7 +199,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </bibl>
                     <bibl>
                         <ptr target="MAC1945"/>
-                        <citedRange unit="page">322, no. 336</citedRange>
+                        <citedRange unit="page">322</citedRange>
                     </bibl>
                 </listBibl>
                </div>
