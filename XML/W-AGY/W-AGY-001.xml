@@ -61,9 +61,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="sga-Ogam">Primitive Irish written in Ogham script</textLang>  
-                            <textLang mainLang="sga-Latn">Primitive Irish written in Latin script (roman capitals)</textLang>  
+                          <msItem>     
+                              <textLang mainLang="und-Ogam" cert="low">Undetermined language written in ogham script</textLang>
+                            <textLang mainLang="sga-Ogam">Old Irish written in Ogham script</textLang>  
+                            <textLang mainLang="sga-Latn">Old Irish written in Latin script (roman capitals)</textLang>
+                              <textLang mainLang="sga-Latn">Old Irish written in Latin script</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -151,6 +153,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change> 
 <change when="2025-05-20" who="#POC">Updated content so ogham information is first and roman letter inscription second, update commentary</change>
 <change when="2025-05-21" who="#POC">Added brief overview to condition</change>
+<change when="2025-05-22" who="#POC">Updated text lang </change>
 </listChange>   
 </revisionDesc>
     </teiHeader>
