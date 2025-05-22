@@ -62,8 +62,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Unclear written in Ogham script</textLang>  
+                          <msItem>  
+                              <textLang mainLang="und-Ogam" cert="low">Undetermined language written in ogham script</textLang>
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>  
                             <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
                              <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>  
                            </msItem>
@@ -83,11 +84,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The stone is inscribed with a Roman-letter inscription (2) in four lines. The lines are understood to read vertically downwards but with the two top lines read together before the bottom two lines. There is an ogham inscription (1) assumed to start at the stones bottom-left edge, reading vertically upwards (Redknap and Lewis 2007, 233-5).</layout>
+                                <layout style="vertical" rend="arris_up">There is an ogham inscription (1) which starts at the stone's bottom-left edge and reads vertically upwards. The stone is also inscribed with a Roman-letter inscription (2) in four lines. The lines are understood to read vertically downwards but with the two top lines read together before the bottom two lines. The layout of the Roman-letter inscription is irregular and there is no apparent writing line (Redknap and Lewis 2007, 233-5).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The Roman-letter inscription is <q>transcribed as light Roman capitals with ligaturing...it appears that there is an opening two-stroke C in two flat curves, NT join, AT conjoint in PATER, MA ligatured (as in Llywel (Pentre Poeth) 1 (B42), the 'Trecastle Stone'). Complete ligature of IUNT. Irregular layout, no apparent writing line</q> (Redknap and Lewis 2007, 235). The letters in the ogham inscription are widely spaced. The execution of the inscriptions cannot be further discerned as the inscriptions survive only in a drawing (Redknap and Lewis 2007, 233-5).
+                            <handNote>The letters in the ogham inscription are widely spaced. The Roman-letter inscription is <q>transcribed as light Roman capitals with ligaturing</q> Within the Roman-letter inscription there is an opening two-stroke C in two flat curves. The Roman-letter inscription also features joined, conjoined and ligatured letters: NT join, AT conjoint in PATER, and MA are ligatured (as in Llywel (Pentre Poeth) 1 (B42), the 'Trecastle Stone'). There is also the complete ligature of IUNT (Redknap and Lewis 2007, 235). The execution of the ogham and Roman-letter inscriptions cannot be further discerned as the inscriptions survive only in a drawing (Redknap and Lewis 2007, 233-5).
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -99,9 +100,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: ?SN 877 235</note></origPlace>
                             <origDate notBefore="0400" notAfter="0530" precision="low" datingMethod="#julian" evidence="linguistic">Fifth or early sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found"><q>In a garden at <foreign xml:lang="cy">Pentry Goch garreg</foreign> in ye parish of Dyvynog, Brecknock...This formerly belonged to an old chappel by report call'd <foreign xml:lang="cy">Cappel y fynwent</foreign>'</q> (Lhuyd 1910, 85). Nash-Williams (1950, 69), cites Lluyd's 'Parochialia' and adds: <q>`(? = Goch Garreg on the W. outskirts of Crai)</q>. As the stone is lost, we only have the note, letter and drawing of Edward Lhuyd in 1698; which was published in 1910. Macalister was the first to publish a reading in 1945. 
+                        <provenance type="found">According to Lhuyd (1910, 85), the stone was found in a garden at <placeName xml:lang="cy">Pentry Goch garreg</placeName> in Dyvynog, Brecknock parish and had previously belonged to an old chapel known as <placeName xml:lang="cy">Cappel u fynwent</placeName>. Nash-Williams (1950, 69) proposed that the Goch Garreg mentioned by Lhuyd might be <q>on the W. outskirts of Crai</q>. Macalister was the first to provide a reading of the inscription in 1945, although his reading was based on Lhuyd's published account of the stone in 1910. 
                         </provenance>
-                        <provenance type="observed">Lost.
+                        <provenance type="observed">The stone is now lost. The only details we have of the stone are from the note, letter and drawing by Edward Lhuyd in 1698 and the published account in 1910.
                         </provenance>
                     </history>
                 </msDesc>
@@ -131,9 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-<change when="2022-09-28" who="#JB">
-Jef Bucas autogenerated EpiDoc output from spreadsheet
-</change>
+<change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
 <change when="2023-07-03" who="#BM"> Bodil Malmose edited information to incorporate info from Welsh Corpus entry</change>
     <change when="2023-07-10" who="#MK">Megan Kasten edited document to ensure consistency in OGHAM standards</change>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
@@ -151,6 +150,7 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
     <change when="2024-12-05" who="#NW">Changed title from LLywel 2</change>
     <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link</change>
  <change when="2025-04-17" who="#POC">Update material to unknown for now</change>
+<change when="2025-05-22" who="#POC">Update layout, handNote, provenance, textLang, commentary, apparatus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -182,20 +182,28 @@ Jef Bucas autogenerated EpiDoc output from spreadsheet
                 </ab>
                 </div>
             </div>
-            <div type="apparatus"/>
-                
-            
+            <div type="apparatus">
+                <app n="1">
+                    <note>The Welsh Corpus (Redknap and Lewis 2007, 233-5) suggests that the rendering of the ogham script <q>appears to be schematic only, so that it may have corresponded to the Roman script</q>. Thus, it is uncertain what should be taken from the wide spacing of the characters on the drawing. It should be noted that Macalister (1945, 318) read two further initial letters, BM, before the S in the ogham inscription but these are not visible in the drawing. Macalister (1945, 318) also maintained that there seemed to be a FILIVS in the Roman-letter inscription but is was <q>perverted in Lhuyd's copy, where the F appears as R</q>.</note>
+                </app>
+                <app n="2">
+                    <note>Macalister (1945, 318) read:</note>
+                    <rdg><lb/>Ogham: BM(?)-S-N-N-N</rdg>
+                    <rdg><lb/>Roman: CANNTIANI ET I PAE FILIVS MACCVTRENI HIC IACIT</rdg>
+                </app>
+            </div>
             <div type="translation">               
                 <div type="textpart" n="1">
                     <p>Ogham: No translation</p>
                 </div>
                  <div type="textpart" n="2" resp="RED2007">
-                <p>Roman: 'of <foreign xml:lang="la">Canntianus</foreign> and of his father <foreign xml:lang="pgl">Maccu-Treni</foreign>. They lie here.'</p>
+                <p>Roman: 'of <persName xml:lang="la">Canntianus</persName> and of his father <persName xml:lang="pgl">Maccu-Treni</persName>. They lie here.'</p>
                 </div>
             </div>
             <div type="commentary">
-                        <p>The Welsh Corpus (Redknap and Lewis 2007, 233-5) suggests that the rendering of the ogham script <q>appears to be schematic only, so that it may have corresponded to the Roman script</q>. Thus, it is uncertain what should be taken from the wide spacing of the characters on the drawing. It should be noted that Macalister (1945, 318) read two further initial letters, BM, before the S in the inscription but these are not visible on the drawing.</p>
-                         <p>The Welsh Corpus notes that <q>CANNTIANI is the genitive of the name <persName>Cantanius</persName>, which is attested on the Continent as a common name and as the name of a martyr of Aquileia praised by Venantius Fortunatus. It is presumably a Latin derivative... of the name <persName>Cantius</persName>, ultimately from the Celtic name-element *kant-... The father's name, MACVTRENI, is Irish and recurs at Llywel (Pentre Poeth) 1 (B42), MAQITRENI / [M]ACCVTRENI</q>. The inscriptions could be referring to the same person but this is uncertain since the name was apparently popular in Britain and Ireland. The second element of the name may be related to Welsh <foreign xml:lang="cy">trwyn</foreign> in the name <persName>Cyndrwyn</persName> (Redknap and Lewis 2007, 235).</p>
+                         <p>The Welsh Corpus notes that <q>CANNTIANI is the genitive of the name <persName xml:lang="la">Cantanius</persName>, which is attested on the Continent as a common name and as the name of a martyr of Aquileia praised by Venantius Fortunatus. It is presumably a Latin derivative of the name <persName xml:lang="pgl">Cantius</persName>, ultimately from the Celtic name-element *<foreign xml:lang="pgl">kant-</foreign>. The father's name, MACVTRENI, is the Irish personal name <persName xml:lang="pgl">Maccu-Treni</persName> and recurs at Llywel (Pentre Poeth) 1 (B42), MAQITRENI / [M]ACCVTRENI</q>. The inscriptions could be referring to the same person but this is uncertain since the name was apparently popular in Britain and Ireland. </p>
+                <p>Additionally, Redknap and Lewis (2007, 235) noted that the second name-element of MACVTRENI is probably not from the OI <foreign xml:lang="sga"><ref target="https://dil.ie/41798">tren</ref></foreign>, meaning 'strong', since it also appears with a diphthong as <foreign xml:lang="sga">Trian</foreign>- in Old Irish names, whereas <foreign xml:lang="sga">tren</foreign> never does or should. Consequently, this points to a preform *<foreign xml:lang="pgl">treino-</foreign> which is unrelated to <foreign xml:lang="sga">tren</foreign> but may be related Welsh <foreign xml:lang="cy">trwyn</foreign> in the name <foreign xml:lang="cy">Cyndrwyn</foreign>.</p>
+                
            </div>
             <div type="bibliography">
                 <listBibl>
