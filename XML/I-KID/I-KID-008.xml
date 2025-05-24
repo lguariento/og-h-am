@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Domhnach Mór | Donaghmore</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D scanned using Artec Eva structured light scanner <date when="2016-05-12"/></resp>
+                </respStmt>
+                 <respStmt>
+                    <name>Megan Kasten</name>
+                    <orgName>University of Glasgow (OG(H)AM project)</orgName>
+                    <resp>Processed data using updated Artec processing software <date when="2024-07-19"/></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KID-008</idno>
+                 <idno type="CIIC">26</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/DNMOR/1.html">DNMOR/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>NMI</repository>
+                        <idno type="invNo">1931:291</idno>
+                         <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">KD006-005002-</ref>
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">pillar</objectType> 
+                                     <dimensions unit="m" source="3d_data">                                        
+                                            <height>0.74</height>
+                                            <width>0.36</width>
+                                            <depth>0.23</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>This irregular-shaped pillar of fine-grained sandstone is quite damaged, especially along the edges, having suffered flaking or spalling resulting in the loss of some text. There are numerous short marks and long vertical lines on one of the broader faces (to the left of the first inscribed angle), although it is unclear what significance, if any, these might have.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up-up">The inscription runs upwards on both edges of one of the narrower faces, starting on the left angle, commencing 22cm from the bottom, and continuing, at 27cm from the bottom, on the right angle. This layout is not unique in the ogham corpus but is far less common than continuous (up-(across-)down) text. There is a gap of 15cm at the top of the left angle that doesn’t appear to have been inscribed. However, there is some damage here (and across the top of the stone) and so an original final vowel at the end of the first name may have been lost.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The strokes of this inscription are very finely <rs type="execution" key="scored">scored</rs>. The majority of ogham inscriptions, in both Ireland and Britain, show signs of pocking or chiselling. Some, including a high percentage of those from Co. Cork (hence the term ‘cork-style’), display this very different carving technique, possibly using a knife or other long-bladed implement producing a finer stroke (deeper at the centre and trailing at the ends). Further examples of finely scored strokes from the eastern side of the country include Ballybrack, Co. Louth (I-LOU-002) and two of the inscriptions (I-KID-004 and I-KID-005) from Colbinstown, further south in Co. Kildare. 
+                                Word division is not usually a feature of classical ogham, although a few possible cases of extra space following the initial name have been observed (e.g. I-KID-001 Colbinstown 1, Co. Kildare and I-COR-069 Monataggart 1, Co. Cork). In this case, space has been left uninscribed on the upper left angle after the first name and the remaining kin group identification begins on the right angle. Individual strokes of this inscription are quite uneven in length and in spacing. This may be partly due to the rough surface of the stone. Consonant strokes are <height>between 35 and 65mm</height> in length and tend to taper off at the distal tips. The strokes of some consonants, for example the Q, splay outwards slightly rather than been strictly parallel. Vowels, where they survive, are minute (<height>max. 5mm</height>). There is no clear sloping in the strokes from the aicme muine (Ms and Rs).
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Donaghmore (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/25412">Domhnach Mór</ref></foreign>)</placeName>, <placeName type="county">Co. Kildare</placeName>
+                                <geo>53.377093, -6.552943</geo>
+                            <note>ITM Coordinates: 696269, 737287 (approximate)</note>
+                            </origPlace>
+                            <origDate notBefore="0525" notAfter="0575" precision="medium" evidence="linguistic">Approximately mid sixth century</origDate>
+                        </origin>
+                        <provenance type="found" when="1902">Discovered in 1902 by <persName>Lord Walter Fitzgerald</persName> <q>lying under a bush, in front of Brian McBride's headstone (1754), in the north-eastern portion of the churchyard</q> of Donaghmore. It had <q>formerly served as a head-stone to a grave owned by a family named O'Farrell</q> (Fitzgerald 1903-5, 155). The graveyard is also known as <placeName>Grangewilliam</placeName>, taken from the name of the farm it is situated on. 
+Walter Fitzgerald was a leading antiquarian of Kildare in the early 20th century, and founder of the Kildare Archaeological Society. He added the stone to his archaeological collection in his nearby residence at Carton House. After his death it went to the National Museum in Dublin.
+                        </provenance>
+                        <provenance type="observed" when="2016">Now in the collection of the National Museum of Ireland, where it was examined and recorded, in collaboration with the Discovery Programme, for the Ogham in 3D project in 2016.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2025-05-13" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>   
+    <change when="2025-05-23" who="#NW">Added content, including edition and new encoding for facets.</change>
+
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KID/I-KID-008_Donaghmore.jpg"><desc>Photograph courtesy of National Monuments Service ©NMI</desc></graphic>
+          <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>           
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#neta-vraicas">ᚅᚓᚈᚈᚐᚃᚏᚑ<supplied reason="lost" cert="medium" evidence="space">ᚔ</supplied>ᚉᚉ</name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚉᚑᚔ</w> <name nymRef="#trenalugus">ᚈ<unclear reason="damage">ᚏ</unclear>ᚓ<supplied reason="lost" evidence="space">ᚅ</supplied>ᚐ<supplied reason="lost" evidence="space">ᚂᚒ</supplied><unclear reason="damage">ᚌᚌ</unclear><supplied reason="lost">ᚑ</supplied></name></persName>    
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#neta-vraicas">NETTAV<unclear reason="ambiguous">R</unclear>O<supplied reason="lost" cert="medium" evidence="space">I</supplied>CC</name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="muccoviias?">MUCCOI</w> <name nymRef="#trenalugus">T<unclear reason="damage">R</unclear>E<supplied reason="lost" evidence="space">N</supplied>A[<supplied reason="lost" evidence="space">LU</supplied><unclear reason="damage">GG</unclear><supplied reason="lost">O</supplied></name></persName>    
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1"><note>In the first name (NETTA-VROICC), the R is uncertain as it is not distinctively sloped but rather straight and the B-sides of the strokes are fainter and shorter. There is also extra space between the first two strokes of this character. After the R, only 2 vowel strokes are clear on this irregular and damaged part of the angle. Macalister (1945, 30-31) reads an E here but there would be enough room for an I following the O (Rhys (1903, 76) read o i/e). The first C is partially damaged or worn but it isn’t really in doubt.</note></app>
+                    <app n="2"><note>Although there are some ogham-like marks along the right edge before the M of MAQI, Macalister’s (1945, 31) suggested KOI is not convincing. Many of the vowel notches of MAQI MUCCOI are damaged or worn away in places, though not in serious doubt due to the allocated space. The T looks to be followed by a C, or possibly a Q, and 3 vowel notches. Based more on the available space than clear letters, Macalister and Rhys take this to be the remains of TREN. There is some evidence for the TRE remaining, but the B-surface is badly flaked here and although Macalister describes this damage as occurring after the N, Rhys (1903, 78) noted only that there was space for an N, lost through flaking. All the can be seen of the reconstruction NALUGGO is the A notch and four H-surface strokes, which could be the remains of GG.</note></app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>‘of Nad-Fráech (*Neta-Vraicas) son of the descendant/offspring of Trénlug (*Trenalugus)’</p>
+            </div>
+            <div type="commentary">
+                <p>The only chronologically significant sound change that can be recognised in the surviving letters is the loss of the ending -I in the first name, which would have been *NETTA-VRO[I]­CCI at an earlier stage. The vocalism of LU vs. LO and the ending -OS vs. -O would be other indicators of date, but since these bits are missing, our emendations cannot be adduced as argu­ments. The frequent geminate spellings of consonants are perhaps an­other sign of a not-too-old age, but this practice is still too little understood as to be used as a dating criterion. In summary, on linguistic grounds the most likely date of the inscription is around the middle of the 6th century a.d.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>30-31</citedRange>
+                    </bibl>
+                     <bibl><ptr target="FIT1905"/>
+                        <citedRange>155-160</citedRange>
+                    </bibl>
+                     <bibl><ptr target="RHY1903"/>
+                        <citedRange>75-79</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
