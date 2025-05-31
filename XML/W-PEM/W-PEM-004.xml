@@ -10,6 +10,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Cilgerran</title>
              <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -91,7 +92,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="parish"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/995a8a89-beba-4c5f-9889-7db94ec85a5f"><foreign xml:lang="cy">Cilgerran</foreign></ref></placeName>, <placeName type="county">Pembrokeshire</placeName>, <placeName type="country">Wales</placeName> 
                                 <geo>52.056211, -4.640536</geo>
                             <note>National Grid Reference: SN 1906 4305</note></origPlace>
-                            <origDate notBefore="0550" notAfter="0600" precision="low" datingMethod="#julian" evidence="linguistic">Second half of the sixth century A.D.</origDate>
+                            <origDate notBefore="0550" notAfter="0600" precision="medium" evidence="linguistic">Second half of the sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">Roman letter inscription first recorded in a letter in 1698; in 1855 it was standing in its present location and was excavated to reveal both inscriptions.
                         </provenance>
@@ -133,7 +134,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-11" who="#POC">Updated execution encoding, added decoration section and condition</change>
 <change when="2025-04-23" who="#POC">Added text type link.</change>    
     <change when="2025-05-09" who="#POC">Change nymRef values from uppercase to lowercase, added word division to latin edition and added extra w element</change>
-<change when="2025-05-30" who="#POC">Added images and copyright</change>    
+<change when="2025-05-30" who="#POC">Added images and copyright</change>
+    <change when="2025-05-31" who="#NW">Added word division to ogham and removed eDil links from edition.</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,20 +149,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#trenagussus"><supplied reason="undefined">&#x1688;&#x168F;&#x1693;&#x1685;</supplied><unclear reason="illegible">&#x1690;</unclear>&#x168C;&#x1692;&#x1684;<gap reason="illegible" extent="1" unit="character"/></name><w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">&#x168B;&#x1690;&#x168A;&#x1694;</w><name nymRef="#maqqas treni">&#x168B;&#x1690;&#x168A;&#x1694;&#x1688;&#x168F;&#x1693;&#x1685;&#x1694;</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#trenagussus"><supplied reason="undefined">&#x1688;&#x168F;&#x1693;&#x1685;</supplied><unclear reason="illegible">&#x1690;</unclear>&#x168C;&#x1692;&#x1684;<gap reason="illegible" extent="1" unit="character"/></name> <w lemma="#maqqas">&#x168B;&#x1690;&#x168A;&#x1694;</w> <name nymRef="#maqqas treni">&#x168B;&#x1690;&#x168A;&#x1694;&#x1688;&#x168F;&#x1693;&#x1685;&#x1694;</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#trenagussus"><supplied reason="undefined">TREN</supplied><unclear reason="illegible">A</unclear>GUS<gap reason="illegible" extent="1" unit="character"/></name><w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w><name nymRef="#maqqas treni">MAQITRENI</name></persName>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#trenagussus"><supplied reason="undefined">TREN</supplied><unclear reason="illegible">A</unclear>GUS<gap reason="illegible" extent="1" unit="character"/></name> <w lemma="#maqqas">MAQI</w> <name nymRef="#maqqas_treni">MAQITRENI</name></persName>
                     </ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#trenagussus">TRENEGUSSI</name> <w>FILI</w>
-                    <lb n="1" style="text-direction:down"/><name nymRef="#maqqas treni">MACUTRENI</name></persName> <w>HIC</w> <w>IACIT</w>
+                    <lb n="1" style="text-direction:down"/><name nymRef="#maqqas_treni">MACUTRENI</name></persName> <w>HIC</w> <w>IACIT</w>
                 </ab>
                </div>
             </div>            
