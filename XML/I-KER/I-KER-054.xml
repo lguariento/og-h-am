@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cill Fhiontain | Kilfountan</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Emmy Van Den Berg</name>
+                     <orgName>Corca Dhuibhne 3D</orgName>
+                <resp>Recording using photogrammetry in 2016 and processed by the Discovery Programme</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KER-054</idno>
+                 <idno type="CIIC">186</idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/KFNTN/1.html">KFNTN/1</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/www.trismegistos.org/text/172616">www.trismegistos.org/text/172616</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                            <textLang mainLang="sga-Latn">Old Irish written in Latin script</textLang>  
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE043-144005-</idno></p>
+                                    <material type="stone">Grit</material> <!--MAC1945-->
+                                    <objectType ref="monument">Cross-carved pillar </objectType> 
+                                    <dimensions unit="metre"><!--(CUP1986)-->
+                                        <height>1.50</height>
+                                        <width>0.25</width>
+                                        <depth>0.09</depth> 
+                                    </dimensions>
+                                    <desc type="decoration">Only the west face of this tall (tapering towards the base), slender pillar is decorated. <q>The upper part of this face contains an <rs type="decoration" key="cross">equal-armed cross set inside a circle</rs>; the cross has expanded terminals with the lower one joining on to the circle. Above the circle and joined to it by a small stem is a scrolled crest. Beneath the circle and separate from it is an elaborate design ending in a pelta motif. The design comprises a sunken field of inverted triangular shape with a concave upper edge. A short stem issues from its lower apex. At the left and right apices is a large incised oval with a pendant `string' looping to the outer edge of the stone. Also pendant from each apex is a line which runs down to form the pelta. In addition, two short lines curve upwards and outwards from the right oval towards the edge of the stone</q> (Okasha and Forsyth 2001, 162).</desc>
+                                </support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="1" style="vertical" rend="arris_up">The fragmentary ogham inscription is on the lower part of the narrow south-east angle of the stone (right of the cross-carved face). The direction of the text is uncertain but it has tentatively been read upwards. As pointed out by Macalister (1937, 225), the strokes almost reach the whole width of this side but the inscription is probably up the left side of the uninscribed face rather than the right side of the inscribed face.</layout>
+                                <layout n="2">This is one of only two (or possibly three) biscriptal inspritions from Ireland, whereas biscriptial and bilingual inscriptions are very common in SW Britain. The Latin-letter inscription on this stone (also vertical) is beneath the cross design on the face, reading upwards with the bases of the letters to the viewer's right. Macalister (1945, 179-180) read a preceeding line of text, parallel to the surviving line but reading in the opposite direction (downwards with the basses to the left). There are traces of what may have been lettering here but nothing is now legible (Okasha and Forsyth 2001, 162.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote n="1">The ogham inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with the surviving strokes taking up almost all of the narrow side (H aicme) of the stone. The strokes of the Q are more tightly spaced than the other consonant(s).</handNote>
+                            <handNote n="2">The inscription on the face is in Latin half-uncial script and, like the cross design, is cut rather than pocked. The letters vary in size with the uncial E noticably larger (<height unit="mm">75mm</height>) than the other letters. The Ns are quite slender and the T is curved. Only a single stroke remains of what was reasonably read by Macalister as an F. According to Macalister, the first line read downwards and the F was carved horizontally rather than vertically <q>as though to form a pivot on which the two lines of the inscription hinge</q>. 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Kilfountan (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/22654">Cill Fhiontain </ref></foreign>)</placeName>
+                                <placeName type="county">Co. Kerry</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.157745, -10.306548</geo>
+                            <note>ITM coordinates: 442188, 603162</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1848">The stone was first recorded by Windele in September 1848 at Kilfountan Church and Calluragh burial ground (<placeName type="site" xml:lang="ga" ref="https://monasticon.celt.dias.ie/showrecord.php?id=1649">Teampall Fionntain</placeName>, SMR ID: <idno type="SMR">KE043-144002-</idno>). This is a roughly D-shaped or sub-oval enclosure (41m N-S x 28m E-W, KE043-144002-) within which are also found the remains of a dry-stone oratory (in the SE sector) and rectangular hut and a bullaun stone.    
+                        </provenance>
+                        <provenance type="observed" when="2016">The stone remains in situ, set loosely into the W side of a mound of quartz which merges with the collapse from the NE corner of the oratory (Cuppage 1986, no. 849). It was recorded for the Ogham in 3D project in 2016 by Emmy Van Den Berg, a participant on the <ref target="https://cd3d.ie/KE043-144005-kilfountain.php">Corca Dhuibhne 3d project</ref>, using photogrammetry.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>    
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2025-05-19" who="#JB">
+Jef Bucas autogenerated batch EpiDoc output from spreadsheet
+</change>
+    <change when="2025-05-31" who="#NW">Added content and encoding to the generated file.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KER/I-KER-054_Kilfountan.jpg"><desc>Photograph by Emmy Van Den Berg, Corca Dhuibhne 3D</desc></graphic>
+        <graphic url="example.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>            
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">
+                <div type="textpart" n="1">  
+                    <ab>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/>EQ<unclear reason="ambiguous">O</unclear><unclear reason="ambiguous">DD</unclear><supplied reason="lost" evidence="previouseditor" cert="low">I</supplied> 
+                </ab>
+            </div>
+           </div>
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga-Latn" resp="#NW">
+                 <div type="textpart" n="2">
+                <ab>
+                    <lb n="1" style="text-direction:down"/><supplied reason="lost" evidence="previouseditor" cert="low"><g ref="#chi-rho">☧</g></supplied> <w xml:lang="la"><supplied reason="lost" evidence="previouseditor" cert="low"><expan><abbr>SC</abbr><ex>ANT</ex><abbr>I</abbr></expan></supplied></w> 
+                    <lb n="2" style="text-direction:up"/><hi rend="inverted"><unclear reason="faded">F</unclear></hi>INTEN
+                </ab>
+            </div>
+           </div>
+            <div type="apparatus">
+                <p>There is no trace rmaining of Macalister's (1945, 179-180) final I in the ogham inscription. Macalister's DD depends on very subtle spacing between the two sets of two strokes each. This could be read as a C.</p>
+                <p>The chi-rho (☧) and SCI read by Macalister on the face of the stone to the left of FINTEN is no longer legible.</p>
+            </div>
+            <div type="translation">
+                <div type="textpart" n="2">
+                <p>Half uncial inscription: '[St] Fintan'</p>
+            </div>
+            </div>
+            <div type="commentary">
+                <p>The ogham and roman alphabet inscriptions appear to be unrelated and the two do not impinge on one another. While it is impossible to be certain, it would seem that an ogham stone was later re-purposed as an inscribed cross-slab (Okasha and Forsyth 2001, 163-164).</p>
+                <p>The form of the cross design has many parallels on the Dingle and Iveragh Peninsulas, assigned by Henry (1937, 279) to the sixth and seventh centuries.</p>
+                <p><q>The spelling <persName xml:lang="sga">Finten</persName> for the later <persName xml:lang="ga">Fintan</persName> is consevative and implies a comparatively early date, perhaps seventh or early-eighth century... While it is possible that a later reading of the text may have inspired the dedication of Kilfountan/Cill Fionntain, it is more likely that the text is a dedicatory one, recording the donation or dedication of the site to the eponymous saint, although to which of the many St Fintans is not known</q> (Okasha and Forsyth 2001, 163-164).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="CUP1986"/>
+                        <citedRange>no. 849</citedRange>
+                    </bibl>
+                      <bibl><ptr target="MAC1937"/>
+                        <citedRange>221-227</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>179-180</citedRange>
+                    </bibl>
+                    <bibl><ptr target="OKA2001"/>
+                        <citedRange>161-165</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
