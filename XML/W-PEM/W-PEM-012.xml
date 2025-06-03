@@ -131,13 +131,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-14" who="#POC">Corrected execution type encoding</change>
 <change when="2025-04-23" who="#POC">Added text type link.</change>    
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
+<change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="WAL/W-PEM-012-MAC1945-400-Brawdy.jpg"><desc>Drawing by Macalister (1945, 400)</desc></graphic>
         <graphic url="WAL/W-PEM-012-Brawdy3-RCAHMW-a.jpeg"><desc>Brady 3 © Crown copyright: RCAHMW</desc></graphic>
         <graphic url="WAL/W-PEM-012-Brawdy3-RCAHMW-b.jpeg"><desc>Brady 3 © Crown copyright: RCAHMW</desc></graphic>
+        <graphic url="WAL/W-PEM-012-MAC1945-400-Brawdy.jpg"><desc>Drawing by Macalister (1945, 400)</desc></graphic>
         <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -145,7 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#vindagnas">&#x1683;&#x1693;&#x1685;&#x1687;&#x1691;&#x168C;&#x1685;&#x1694;</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#vindagnas">ᚃᚓᚅᚇᚑᚌᚅᚔ</name></persName>
                 </ab>
               </div>
             </div>
@@ -157,8 +158,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1"/><gap reason="lost"></gap><persName><name nymRef="#vindagnas">VENDAGNI<gap reason="lost"></gap></name>
-                    <lb n="2"/><gap reason="lost"></gap><w>FILI</w>V<gap reason="lost" extent="unknown"></gap>NI<gap reason="lost"></gap></persName>
+                    <lb n="1"/><gap reason="lost"/><persName><name nymRef="#vindagnas">VENDAGNI<gap reason="lost"/></name>
+                    <lb n="2"/><gap reason="lost"/><w type="formula" lemma="filius">FILI</w>V<gap reason="lost" extent="unknown"/>NI<gap reason="lost"/></persName>
                 </ab>
                </div>
             </div>
