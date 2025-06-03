@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-02" who="#POC">Added CISP and TM links, added country and county placenames to origPlace, added NGR and secondary location coordinates, corrected bibliography</change>
 <change when="2025-04-10" who="#POC">Updated execution encoding, deleted repository, added drawing by Macalister (1945)</change>
     <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated commentary with language codes. </change>    
+<change when="2025-06-03" who="#POC">Added formula word encoding and word division to edition, change foreign to persName for personal names in commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -139,7 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn">
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name>SO<hi rend="ligature">LI</hi>NI</name>
-                    <lb n="2" style="text-direction:down"/><w><hi rend="ligature">FI</hi><hi rend="ligature">LI</hi>VS</w><name>VEN<hi rend="inverted">D</hi>ONI</name></persName>
+                    <lb n="2" style="text-direction:down"/><w type="formula" lemma="filius"><hi rend="ligature">FI</hi><hi rend="ligature">LI</hi>VS</w> <name>VEN<hi rend="inverted">D</hi>ONI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -151,7 +152,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>'of <foreign xml:lang="la">Solinus</foreign> son of <foreign xml:lang="pgl">Vendonus</foreign>'</p>
             </div>
             <div type="commentary">
-                <p><q><foreign xml:lang="la">Solinus</foreign> is a Latin name... VENDONI has often been regarded as Irish and is sometimes seen as a later form of the Irish name VENDOGNI... There are phonological problems, however, and it may be better to regard it as a spelling of the old Celtic name <foreign xml:lang="sga">Vindonius</foreign> (from Celtic <foreign xml:lang="cel">*Windo-</foreign>, 'white'), and therefore not specifically Irish, Welsh, or Celtic-Latin</q> (Edwards 2007, 314).</p>
+                <p><q><persName xml:lang="la">Solinus</persName> is a Latin name... VENDONI has often been regarded as Irish and is sometimes seen as a later form of the Irish name VENDOGNI... There are phonological problems, however, and it may be better to regard it as a spelling of the old Celtic name <persName xml:lang="sga">Vindonius</persName> (from Celtic <foreign xml:lang="cel">*Windo-</foreign>, 'white'), and therefore not specifically Irish, Welsh, or Celtic-Latin</q> (Edwards 2007, 314).</p>
             </div>
             <div type="bibliography">
                 <listBibl>  
