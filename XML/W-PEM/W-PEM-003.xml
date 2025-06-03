@@ -134,7 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-23" who="#POC">Added text type link, changed hi rend to foreign in commentary.</change>    
     <change when="2025-05-09" who="#POC">Change nymRef values from uppercase to lowercase, added word division to latin edition</change>
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
-<change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
+<change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, added word division to edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,14 +149,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#andegellas">ᚐᚅᚇᚐᚌᚓᚂᚂᚔ</name><w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">ᚋᚐᚉᚒ</w><name nymRef="#cavetas">ᚉᚐᚃᚓᚈᚔ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#andegellas">ᚐᚅᚇᚐᚌᚓᚂᚂᚔ</name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">ᚋᚐᚉᚒ</w> <name nymRef="#cavetas">ᚉᚐᚃᚓᚈᚔ</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#andegellas">ANDAGELLI</name><w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">MACU</w><name nymRef="#cavetas">CAVETI</name></persName>
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#andegellas">ANDAGELLI</name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">MACU</w> <name nymRef="#cavetas">CAVETI</name></persName>
                     </ab>
                 </div>
                </div>
