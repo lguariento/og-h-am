@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change> 
     <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated nymRef values, moved information from commentary to apparatus </change>    
     <change when="2025-05-30" who="#POC">Added image and copyright</change>    
+<change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, corrected edition encoding so that the ogham and transliteration edition matched, added encoding for formula words</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,21 +145,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><w lemma="maqqas">&#x168B;&#x1690;&#x168A;</w><unclear reason="illegible" extent="unknown" unit="character"></unclear><unclear reason="faded" extent="1" unit="character">&#x1687;</unclear><gap reason="lost" extent="unknown" unit="character"></gap>
+                    <lb n="1" style="text-direction:up"/><w lemma="maqqas" type="formula">ᚋᚐᚊ</w><gap reason="illegible" extent="1" unit="character"/><unclear reason="faded" extent="1" unit="character">ᚇ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
               </div>
             </div>   
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><w lemma="maqqas">MAQ</w><gap reason="illegible" extent="1" unit="character"/><unclear reason="faded" extent="1" unit="character">D</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="1" style="text-direction:up"/><w lemma="maqqas" type="formula">MAQ</w><gap reason="illegible" extent="1" unit="character"/><unclear reason="faded" extent="1" unit="character">D</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     </ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1"/><w lemma="maqqas"><supplied reason="lost"><hi rend="ligature">MAC</hi></supplied></w>
+                    <lb n="1"/><w lemma="maqqas" type="formula"><supplied reason="lost"><hi rend="ligature">MAC</hi></supplied></w>
                     <lb n="2"/>CVDICCL
-                    <lb n="3"/>FILIVS
+                    <lb n="3"/><w type="formula" lemma="filius">FILIVS</w>
                     <lb n="4"/><hi rend="ligature">CA</hi>TIC
                     <lb n="5"/><hi rend="ligature">VV</hi>S
                 </ab>
