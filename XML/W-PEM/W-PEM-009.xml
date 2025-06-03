@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change> 
 <change when="2025-04-23" who="#POC">Added text type link, updated nymRef values.</change>      
     <change when="2025-05-30" who="#POC">Added images and copyright</change>        
+<change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, added word element and encoding to FILI in latin edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,7 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#octu">&#x1691;&#x168C;&#x1688;&#x1693;&#x1685;<unclear reason="illegible">&#x1690;&#x1684;</unclear></name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#octu">ᚑᚌᚈᚓᚅ<unclear reason="illegible">ᚐᚄ</unclear></name></persName>
                 </ab>
               </div>
             </div>
@@ -158,7 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name>HOGTI<choice><unclear>V</unclear><unclear>N</unclear></choice>IS</name><hi rend="ligature">FI</hi>LI
+                    <lb n="1" style="text-direction:down"/><persName><name>HOGTI<choice><unclear>V</unclear><unclear>N</unclear></choice>IS</name> <w type="formula" lemma="filius"><hi rend="ligature">FI</hi>LI</w>
                     <lb n="2" style="text-direction:down"/><name>DEMETI</name></persName>
                 </ab>
                </div>
