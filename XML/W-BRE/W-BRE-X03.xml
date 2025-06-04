@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-14" who="#POC">Deleted execution encoding from Latin inscription</change>
  <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated text lang, added word division to edition</change>
 <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
+<change when="2025-06-04" who="#POC">Update foreign to persName for personal name encoding, update edition with word and name encoding</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -138,15 +139,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn">       
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName>CATACVS HIC IAC<hi rend="ligature">IT</hi>
-                    <lb n="2" style="text-direction:up"/>FILIVS TEGERNACVS</persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="catacus">CATACVS</name> <w type="formula">HIC</w> <w type="formula">IAC<hi rend="ligature">IT</hi></w>
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="filius">FILIVS</w> <name nymRef="tegernacus">TEGERNACVS</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <p></p>
             </div>
             <div type="translation">
-                <p>Latin: <foreign xml:lang="pgl">Catacus</foreign> lies here, the son of <foreign xml:lang="pgl">Tegernacus</foreign></p>
+                <p>Latin: <persName xml:lang="pgl">Catacus</persName> lies here, the son of <persName xml:lang="pgl">Tegernacus</persName></p>
             </div>
             <div type="commentary">
                 <p><q>CATACVS... and TEGERNACVS are both Latinized nominatives of Celtic names...formed from stems meaning 'battle' and 'prince'. The suffix could be Irish (cf. <foreign xml:lang="sga">Cathach, Tigernach</foreign>) or Welsh, although the further into the seventh century the inscription is dated the harder it becomes to believe that -ACVS can be Welsh...rather than Irish</q> (Redknap and Lewis 2007, 195). No depth measurement of the stone is possible as it is currently cemented into the recess of a church buttress. With regard to the context of the stone, the Welsh Corpus notes that <q>the position of the stone on high ground about 1.6km from the church of Cwn Du and 200m outside the Roman fort of Pen-y-gaer suggests erection in a position visible from settlement in the valley below</q> (Redknap and Lewis 2007, 196). The Corpus also highlights <q>the conjunction of the name 'Catacus' (<foreign>Cadog</foreign> on the stone with the field-name 'Gwynlhiw' of its find-spot, St Gwynllyw being traditionally the father of St Cadog; while there is no question of the Catacus inscription being St Cadog, it shows the pseudo-historical legends connecting the two being borne out by topography, suggesting that they were not simply the invention of the hagiographer</q> (Redknap and Lewis 2007, 196).</p>
