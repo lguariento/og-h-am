@@ -97,10 +97,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-             <encodingDesc>
-<p>Encoded following the latest EpiDoc guidelines</p>
-<p><!--Taxonomies for OG(H)AM controlled values??--></p>
-</encodingDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
 <profileDesc>
 <calendarDesc>
 <calendar xml:id="julian">
@@ -132,7 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-31" who="#POC">Added CISP and TM links, added county and country placenames to origPlace, updated provenance, added NGR coordinates</change>
     <change when="2025-04-14" who="#POC">Removed execution type encoding, updated commentary and edition, updated bibl ref for Rhys </change>
     <change when="2025-06-04" who="#NW">Replaced HER with NRPN and link to coflein</change>
-    
+    <change when="2025-06-04" who="#POC">Update encoding desc, replace hex codes with glyphs in edition, update foreign to persName for personal names in commentary </change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,7 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" resp="RHY1907a">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:unknown"/><persName><del cause="lost">&#x1694;&#x1690;&#x1689;&#x1691;&#x1685;&#x1694;</del></persName> 
+                    <lb n="1" style="text-direction:unknown"/><persName><del cause="lost">ᚔᚐᚉᚑᚅᚔ</del></persName> 
                 </ab>
             </div>
             </div>
@@ -167,14 +164,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                <p><title>Latin</title>: '<foreign xml:lang="pgl">Iaconus</foreign> (son of) <foreign xml:lang="pgl">Firminus</foreign> lies (here)'</p>
+                <p>Latin: '<persName xml:lang="pgl">Iaconus</persName> (son of) <persName xml:lang="pgl">Firminus</persName> lies (here)'</p>
             </div>
                 <div type="textpart" n="2">
-                <p><title>Ogham</title>: No translation of the proposed Ogham inscription is offered</p>
+                <p>Ogham: No translation of the proposed Ogham inscription is offered</p>
                 </div>
             </div>
             <div type="commentary">
-                        <p>The first name in the Roman-letter inscription, <foreign xml:lang="pgl">Iaconus</foreign> is most likely a derivative of OI. The most straightforward reading of the second name is, <foreign xml:lang="pgl">Firmin(i)us</foreign> which was a popular Latin name seen elsewhere in Britain (Edwards 2013, 313). On the inscribed cross at the top of the stone, the Welsh Corpus comments that <q>the 'monogram' chi-rho cross is one of two in Wales; the other is on Penmachno 4 (CN38)</q> (Edwards 2013, 313).</p>
+                        <p>The first name in the Roman-letter inscription, <persName xml:lang="sga">Iaconus</persName> is most likely a derivative of OI. The most straightforward reading of the second name is, <persName xml:lang="la">Firmin(i)us</persName> which was a popular Latin name seen elsewhere in Britain (Edwards 2013, 313). On the inscribed cross at the top of the stone, the Welsh Corpus comments that <q>the 'monogram' chi-rho cross is one of two in Wales; the other is on Penmachno 4 (CN38)</q> (Edwards 2013, 313).</p>
                         <p>The supposed Ogham inscription was suggested to correspond with the Roman-letter inscription which influenced the interpretation of it reading IACONI (Edwards 2013, 313). Rhys's (1907, 94-95) suggestion should not be considered credible given later investigations of the stone finding nothing but natural ridges and dips in its place (Edwards 2013, 313).</p>
             </div>
             <div type="bibliography">
