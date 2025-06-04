@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-10" who="#POC">Added and encoded information from Edwards (2007) and Macalister (1945), deleted repository, added execution type for ogham, deleted encoding for Latin execution type </change>
     <change when="2025-04-14" who="#POC">Corrected execution attribute value</change>
       <change when="2025-04-23" who="#POC">Added encoding description and text type link</change>   
+<change when="2025-06-04" who="#POC">Update foreign to persName for personal names in translation and commentary, encoded formula word in edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,7 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="la-Latn">
                 <ab>
                     <lb n="1"/><persName><name>QVENVENDAN<hi rend="inverted">I</hi></name>
-                    <lb n="2"/><w><hi rend="ligature">FI</hi><hi rend="ligature">LI</hi></w> <name>BARCVN<hi rend="inverted">I</hi></name></persName>            
+                    <lb n="2"/><w type="formula"><hi rend="ligature">FI</hi><hi rend="ligature">LI</hi></w> <name>BARCVN<hi rend="inverted">I</hi></name></persName>            
                 </ab>
             </div>
             <div type="apparatus">
@@ -155,10 +156,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>               
             </div>
             <div type="translation">
-                <p>'of <foreign xml:lang="pgl">Quenvendanus</foreign> son of <foreign xml:lang="pgl">Barcunus</foreign>'</p>
+                <p>'of <persName xml:lang="pgl">Quenvendanus</persName> son of <persName xml:lang="pgl">Barcunus</persName>'</p>
             </div>
             <div type="commentary">
-                <p>Edwards (2007, 219) notes that both names in the Latin inscription <q>are Irish and relatively late (post-syncope). QVENVENDANI (genitive) is a later form of the name seen in Ireland in ogham</q>, QENOVENDAGNI (see Macalister 1945, 3-4 CIIC: no 2), which is the ancestor of Irish <foreign xml:lang="sga">Cennf(h)innán</foreign>, 'white-headed one'. The second name, BARCVNI,<q> is a Latinized genitive of the ancestor of the Old Irish name <foreign xml:lang="sga">Barrchú</foreign>, 'dog-head' (although theoretically it could be a British name <foreign>*Bargwn).</foreign></q> (Edwards 2007, 219).</p>
+                <p>Edwards (2007, 219) notes that both names in the Latin inscription <q>are Irish and relatively late (post-syncope). QVENVENDANI (genitive) is a later form of the name seen in Ireland in ogham</q>, QENOVENDAGNI (see Macalister 1945, 3-4 CIIC: no 2), which is the ancestor of Irish <persName xml:lang="sga">Cennf(h)innán</persName>, 'white-headed one'. The second name, BARCVNI,<q> is a Latinized genitive of the ancestor of the Old Irish name <persName xml:lang="sga">Barrchú</persName>, 'dog-head' (although theoretically it could be a British name <persName xml:lang="cel">*Bargwn).</persName></q> (Edwards 2007, 219).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
