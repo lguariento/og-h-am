@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <change when="2025-04-15" who="#POC">Update layout and handnote</change>    
       <change when="2025-04-16" who="#POC">Move information from provenance to layout, remove info in repository</change>    
  <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated text lang</change>
+       <change when="2025-06-04" who="#POC">Update foreign to persName for personal names in translation, added encoding for latin formula word in commentary </change> 
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,8 +148,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn">
                 <ab>
                     <lb n="1"/><persName><name>VELVOR<gap reason="lost" extent="unknown" unit="character"/></name>
-                    <lb n="2"/><w><hi rend="ligature">FI</hi>LIA</w> 
-                    <lb n="3"/><name>BROHO<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                    <lb n="2"/><w type="formula"><hi rend="ligature">FI</hi>LIA</w> 
+                    <lb n="3"/><name xml:lang="owl">BROHO<gap reason="lost" extent="unknown" unit="character"/></name></persName>
                 </ab>
                     
             </div>
@@ -156,10 +157,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>
             <div type="translation">
-                <p><foreign xml:lang="la">Velvor...</foreign>daughter of <foreign xml:lang="pgl">Broho</foreign></p>
+                <p><persName xml:lang="la">Velvor...</persName>daughter of <persName xml:lang="owl">Broho</persName></p>
             </div>
             <div type="commentary">
-                <p>VELVOR can be compared with VELVE, VELVALIS and VELVINNA. VELVOR[IA] is therefore a sensible reconstruction given the previous comparisons, <q>with <hi rend="italic">-o-ria</hi> being the feminine latinized equivalent of celtic <hi rend="italic">-o-rix</hi> (Edwards 2007, 161).</q> It is one of a small group commemorating women, in this case using filia 'daughter' in the nominative case. <q>BROHO is no doubt the same welsh name as BROHOMAGLI and BROHCMAIL.(Edwards 2007, 161).</q> No ogam is visible on the stone; the inscription is entirely in Latin script.</p>
+                <p>No ogham is visible on the stone; the only observable inscription is entirely in the Latin script. VELVOR can be compared with VELVE, VELVALIS and VELVINNA. VELVOR[IA] is therefore a sensible reconstruction given the previous comparisons, <q>with <hi rend="italic">-o-ria</hi> being the feminine latinized equivalent of Celtic <hi rend="italic">-o-rix</hi> (Edwards 2007, 161).</q> It is one of a small group commemorating women, in this case using <foreign xml:lang="la">filia</foreign> 'daughter' in the nominative case. <q>BROHO is no doubt the same Welsh name as BROHOMAGLI and BROHCMAIL (Edwards 2007, 161).</q> </p>
             </div>
             <div type="bibliography">
                 <p><bibl><ptr target="EDW2007"/>
