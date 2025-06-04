@@ -65,7 +65,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>  
-                            <textLang mainLang="la-Latn" otherLangs="pgl-Latn">Latin written in Latin script with some Irish personal names</textLang>                                                  <textLang><ref target="https://ontology.inscriptiones.org/bilingualism#bilingualism.biversion.partial/">Partial bi-version bilingual text (Versions say partly the same thing, but one says more)</ref></textLang>
+                            <textLang mainLang="la-Latn" otherLangs="pgl-Latn">Latin written in Latin script with some Irish personal names</textLang>                                                  
+                              <textLang><ref target="https://ontology.inscriptiones.org/bilingualism#bilingualism.biversion.partial/">Partial bi-version bilingual text (Versions say partly the same thing, but one says more)</ref></textLang>
                           </msItem>
                     </msContents>
                     <physDesc>
@@ -146,7 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-21" who="#NW">Textlang update.</change>
     <change when="2025-05-09" who="#POC">Change nymRef values from uppercase to lowercase, added word division in Latin edition</change>
     <change when="2025-05-21" who="#NW">Added biversion bilingual to textLang with link to FAIR ontology as test</change>
-    
+       <change when="2025-06-04" who="#POC">Update foreign to persName for personal names in translation </change> 
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -172,7 +173,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <div type="textpart" n="2">
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#trenacatus" xml:lang="pgl">TRENACATVS</name> 
-                    <lb n ="2" style="text-direction:down"/><w>IC</w> <w>IACIT</w> <w>FILIVS</w>
+                    <lb n ="2" style="text-direction:down"/><w>IC</w> <w type="formula">IACIT</w> <w type="formula">FILIVS</w>
                     <lb n ="3" style="text-direction:down"/><name nymRef="maglagnus" xml:lang="pgl">MAGLAGNI</name></persName> 
                 </ab>
                </div>  
@@ -184,15 +185,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                <p>Ogham: 'of <foreign xml:lang="pgl">Trenaccatus</foreign>'</p>
+                <p>Ogham: 'of <persName xml:lang="pgl">Trenaccatus</persName>'</p>
                 </div>               
               <div type="textpart" n="2">
-                  <p>Roman: '<foreign xml:lang="pgl">Trenacatus</foreign>, here he lies, the son of <foreign xml:lang="pgl">Maglagnus</foreign>'</p>
+                  <p>Roman: '<persName xml:lang="pgl">Trenacatus</persName>, here he lies, the son of <persName xml:lang="pgl">Maglagnus</persName>'</p>
                 </div>
             </div>
             <div type="commentary">
                         <p>The ogham inscription consists simply of the name of the person commemorated (Trenacatus), the Irish equivalent of the Latin, presumably in the genitive case but with a spelling error.</p>
-                        <p><q>The Latin inscription consists of the 'X son of Y' formula, with the first name and <foreign xml:lang="la">FILIVS</foreign> in the nominative and the second name in the genitive case, together with an abbreviated form of the Christian <foreign xml:lang="la">[h]ic iacit</foreign> formulae... The name <persName><foreign xml:lang="pgl">TRENACATVS</foreign></persName> is distinctively Irish and not identical with MW <persName><foreign xml:lang="cy">Tringat</foreign></persName>...There are three examples of MAILAGNI> OI <persName><foreign xml:lang="sga">Máelán/Móelán</foreign></persName> in the ogham corpus (Macalister 1945, 64, 154-155, 253-254: Nos 60, 160, 258) and MAGLAGNI could be a Welsh rendering of this... It is more straightforward, however, to take MAGLAGNI at face value as an Irish name derived from *Maglas, 'prince'... The combination of the 'X son of Y' and the abbreviated <foreign xml:lang="la">hic iacit</foreign> formulae suggests that the Latin inscription is not very early in the series... However, only capitals, though some with rather exaggerated forms, are used, and there are no typologically later epigraphic features.</q> (Edwards 2007, 180)</p>
+                        <p><q>The Latin inscription consists of the 'X son of Y' formula, with the first name and <foreign xml:lang="la">FILIVS</foreign> in the nominative and the second name in the genitive case, together with an abbreviated form of the Christian <foreign xml:lang="la">[h]ic iacit</foreign> formulae... The name <persName xml:lang="pgl">TRENACATVS</persName> is distinctively Irish and not identical with MW <persName xml:lang="cy">Tringat</persName>...There are three examples of MAILAGNI OI <persName xml:lang="sga">Máelán/Móelán</persName> in the ogham corpus (Macalister 1945, 64, 154-155, 253-254: Nos 60, 160, 258) and MAGLAGNI could be a Welsh rendering of this... It is more straightforward, however, to take MAGLAGNI at face value as an Irish name derived from *<foreign xml:lang="sga">pgl</foreign>, 'prince'... The combination of the 'X son of Y' and the abbreviated <foreign xml:lang="la">hic iacit</foreign> formulae suggests that the Latin inscription is not very early in the series... However, only capitals, though some with rather exaggerated forms, are used, and there are no typologically later epigraphic features.</q> (Edwards 2007, 180)</p>
                     </div>
             <div type="bibliography">                 
                 <listBibl>  
