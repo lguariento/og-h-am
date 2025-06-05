@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-05-09" who="#POC">Change nymRef values from uppercase to lowercase, added word division to latin edition</change>
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, added word division to edition</change>
+<change when="2025-06-05" who="#POC">Move eDIL reference in edition to commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,22 +150,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#andegellas">ᚐᚅᚇᚐᚌᚓᚂᚂᚔ</name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">ᚋᚐᚉᚒ</w> <name nymRef="#cavetas">ᚉᚐᚃᚓᚈᚔ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#andegellas">ᚐᚅᚇᚐᚌᚓᚂᚂᚔ</name> <w lemma="#maqqas" type="formula">ᚋᚐᚉᚒ</w> <name nymRef="#cavetas">ᚉᚐᚃᚓᚈᚔ</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#andegellas">ANDAGELLI</name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">MACU</w> <name nymRef="#cavetas">CAVETI</name></persName>
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#andegellas">ANDAGELLI</name> <w lemma="#maqqas" type="formula">MACU</w> <name nymRef="#cavetas">CAVETI</name></persName>
                     </ab>
                 </div>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#andegellas">ANDAGELL<hi rend="inverted">I</hi></name> <w>IACIT</w>
-                    <lb n="2" style="text-direction:down"/><w><hi rend="ligature">FI</hi>LI</w> <name nymRef="#cavetas">C<hi rend="ligature">AV</hi>ET<hi rend="inverted">I</hi></name></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#andegellas">ANDAGELL<hi rend="inverted">I</hi></name> <w type="formula">IACIT</w>
+                    <lb n="2" style="text-direction:down"/><w type="formula" lemma="filius"><hi rend="ligature">FI</hi>LI</w> <name nymRef="#cavetas">C<hi rend="ligature">AV</hi>ET<hi rend="inverted">I</hi></name></persName>
                 </ab>
                </div>
             </div>            
@@ -173,15 +174,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p>Ogham: 'of <foreign xml:lang="pgl">Andagellus</foreign> son of <foreign xml:lang="pgl">Cavetus</foreign>'</p>
+                    <p>Ogham: 'of <persName xml:lang="pgl">Andagellus</persName> son of <persName xml:lang="pgl">Cavetus</persName>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p>Latin: 'of <foreign xml:lang="pgl">Andagellus</foreign>, (here) he lies, son of <foreign xml:lang="pgl">Cavetus</foreign>'</p>
+                  <p>Latin: 'of <persName xml:lang="pgl">Andagellus</persName>, (here) he lies, son of <persName xml:lang="pgl">Cavetus</persName>'</p>
             </div>
             <div type="commentary">
                         <p>Edwards (2007, 331) explains that the name ANDAGELLI <q>is probably not British but a preform of the poorly attested OI <foreign xml:lang="sga">Indgall</foreign>, 'very yellow'. The initial A- has been regarded as British or British-influenced, but could be an archaic Irish feature, since OI <foreign xml:lang="sga">Ind-</foreign> developed from <foreign xml:lang="sga">*Ande-</foreign></q>. The name can alternatively be segmented AN-DAG-ELLI, 'little bad one' (Edwards 2007, 331).</p>
-                        <p></p>
+                <p>The first personal name ANDAGELLI is followed by MACU for <foreign xml:lang="sga"><ref target="https://dil.ie/31166">mac</ref></foreign> 'son' which is followed by the second personal name CAVETI.</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
