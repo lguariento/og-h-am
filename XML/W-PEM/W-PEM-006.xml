@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-23" who="#POC">Added text type link, updated nymRef values.</change>
 <change when="2025-05-30" who="#POC">Added images and copyright</change>        
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images</change>
+<change when="2025-06-05" who="#POC">Move eDIL reference in edition to commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,12 +148,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1"/><persName><name nymRef="#nets_sagri">ᚅᚓᚈᚈᚐᚄᚐᚌᚏ<unclear reason="worn">ᚔ</unclear></name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">ᚋᚐᚊᚔ</w> <w>ᚋᚒᚉᚑ<unclear reason="worn">ᚔ</unclear></w> <name nymRef="#brigacas">ᚁᚏ<unclear reason="worn">ᚔᚐ</unclear>ᚉᚔ</name></persName>
+                    <lb n="1"/><persName><name nymRef="#nets_sagri">ᚅᚓᚈᚈᚐᚄᚐᚌᚏ<unclear reason="worn">ᚔ</unclear></name> <w lemma="#maqqas" type="formula">ᚋᚐᚊᚔ</w> <w type="formula">ᚋᚒᚉᚑ<unclear reason="worn">ᚔ</unclear></w> <name nymRef="#brigacas">ᚁᚏ<unclear reason="worn">ᚔᚐ</unclear>ᚉᚔ</name></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
                 <ab>
-                    <lb/><persName><name nymRef="#nets_sagri">NETTASAGR<unclear reason="worn">I</unclear></name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w> <w>MUCO<unclear reason="worn">I</unclear></w> <name nymRef="#brigacas">BR<unclear reason="worn">IA</unclear>CI</name></persName>
+                    <lb/><persName><name nymRef="#nets_sagri">NETTASAGR<unclear reason="worn">I</unclear></name> <w lemma="#maqqas" type="formula">MAQI</w> <w type="formula">MUCO<unclear reason="worn">I</unclear></w> <name nymRef="#brigacas">BR<unclear reason="worn">IA</unclear>CI</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -160,12 +161,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>Edwards (2007, 291-3) notes that the <q>first stroke of the N is extremely worn, but the rest of the first name is clear, apart from the last letter</q> which has previously been interpreted as a U or an I. There are three clearly visible vowel-notches <q>which might at first glance suggest a U, but there is certainly room for five, and slight traces of two further notches can be tentatively made out, making the identification of an I more likely</q> (Edwards 2007, 293). MAQI is clear as is the majority of MUCOI except for the final letter, <q>where again the vowel-notches are placed at an uneven point on the angle of the stone</q> (Edwards 2007, 293). For the final word the first two letters BR <q>can be detected with some confidence</q> and the ending is clearly CI (Edwards 2007, 293). </note></app>
             </div>
             <div type="translation">
-                <p>'of <foreign xml:lang="pgl">Nettasagri</foreign> son of the kindred of <foreign xml:lang="pgl">Briaci</foreign>'</p>
+                <p>'of <persName xml:lang="pgl">Nettasagri</persName> son of the kindred of <persName xml:lang="pgl">Briaci</persName>'</p>
             </div>
             <div type="commentary">
-                <p>Edwards (2007, 293) explains that <q>NETTASAGRI is an Irish compound name in the genitive case, *Neta(s)-Sagri, OI <foreign xml:lang="sga">Nad Sáir</foreign></q>, meaning 'champion of a leader'. Furthermore, the <q>personal name embodied in the kindred name was read by Macalister as BRIACI</q>, however,but *BRIGACI for OI <foreign xml:lang="sga"><ref target="https://dil.ie/6814">Brígach</ref></foreign> would be expected in ogham (Edwards 2007, 290). </p>
+                <p>Edwards (2007, 293) explains that <q>NETTASAGRI is an Irish compound name in the genitive case, *Neta(s)-Sagri, OI <foreign xml:lang="sga"><ref target="https://dil.ie/33151">Nad</ref> Sáir</foreign></q>, meaning 'champion of a leader'. Furthermore, the <q>personal name embodied in the kindred name was read by Macalister as BRIACI</q>, however,but *BRIGACI for OI <foreign xml:lang="sga"><ref target="https://dil.ie/6814">Brígach</ref></foreign> would be expected in ogham (Edwards 2007, 290). </p>
                 <p>McManus (1991, 67, 111, 180, n. 56) interpreted the final name as BRECI or SLECI, proposing that <q>MUCOI BRECI may be identical with the <foreign xml:lang="sga">Brecraige</foreign>, a subject people of the Uí Néill in Co. Meath</q> (Edwards 2007, 293).</p>
-                <p>According to Edwards (2007, 290-293), this <q>is the only ogam-inscribed monument from Wales which certainly uses the <foreign xml:lang="sga">maqi mucoi</foreign> ('son of the kindred of') formula, which is much more common in Ireland</q>.</p>
+                <p>According to Edwards (2007, 290-293), this <q>is the only ogam-inscribed monument from Wales which certainly uses the <foreign xml:lang="sga">maqi mucoi</foreign> ('son of the kindred of') formula, which is much more common in Ireland</q>. Within the maqi mucoi formula, the MAQI stands for <foreign xml:lang="sga"><ref target="https://dil.ie/31166">mac</ref></foreign> 'son'.</p>
             </div>
             <div type="bibliography">
                 <listBibl>  
