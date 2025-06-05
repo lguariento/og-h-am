@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-30" who="#POC">Replaced uppercase nymRef values with lowercase, added IANA language codes to foreign in commentary, updated textLang</change>     
 <change when="2025-05-30" who="#POC">Added images and copyright</change>      
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
+<change when="2025-06-05" who="#POC">Move eDIL reference in edition to commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,39 +147,41 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#sagragnas">ᚄᚐᚌᚏᚐᚌᚅᚔ</name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">ᚋᚐᚊᚔ</w> <name nymRef="#kunatamas">ᚉᚒᚅᚐᚈᚐᚋᚔ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#sagragnas">ᚄᚐᚌᚏᚐᚌᚅᚔ</name> <w lemma="#maqqas" type="patronym">ᚋᚐᚊᚔ</w> <name nymRef="#kunatamas">ᚉᚒᚅᚐᚈᚐᚋᚔ</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Latn">
                     <ab>
-                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#sagragnas">SAGRANI</name> <w lemma="#maqqas" type="patronym" corresp="http://www.dil.ie/31166">MAQI</w> <name nymRef="#kunatamas">CUNATAMI</name></persName>
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#sagragnas">SAGRANI</name> <w lemma="#maqqas" type="formula">MAQI</w> <name nymRef="#kunatamas">CUNATAMI</name></persName>
                     </ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="la-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#sagragnas">SAGRANI</name> <w>FILI</w>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#sagragnas">SAGRANI</name> <w type="formula" lemma="filius">FILI</w>
                     <lb n="2" style="text-direction:down"/><name nymRef="#kunatamas">CVNOTAMI</name></persName>
                 </ab>
                </div>
             </div>            
             <div type="apparatus">
                 <app n="1">
+                    <note>The stone was <q>known, rather grandiloquently, as the 'the Ogham Rosetta stone'</q> because it was <q>one of the first of the bilateral inscriptions to be discovered</q> (Macalister 1945, 426).</note>
+                </app>
+                <app n="2">
                     <note>Both the ogham and Latin inscriptions use the 'X son of Y' formula in the genitive case.</note>
                 </app>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: 'of Sagragnus son of Cunatamus'</p>
+                    <p>Ogham: 'of <persName xml:lang="pgl">Sagragnus</persName> son of <persName xml:lang="owl">Cunatamus</persName>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Sagranus</foreign> son of <foreign xml:lang="pgl">Cunotamus</foreign>'</p>
+                  <p>Latin: 'of <persName xml:lang="pgl">Sagranus</persName> son of <persName xml:lang="owl">Cunotamus</persName>'</p>
             </div>
-            <div type="commentary">
-                <p>Macalister (1945, 426) recounts how the stone was <q>known, rather grandiloquently, as the 'the Ogham Rosetta stone'</q> because it was <q>one of the first of the bilateral inscriptions to be discovered</q>.</p>        
-                <p>In regards to the ogham inscription, Edwards (2007, 462) states that while <q>the patronymic is typically Welsh, SAGRA(G)NI is presumably OI <foreign xml:lang="sga">Sárán</foreign>, not a hypothetical Welsh *<foreign xml:lang="cy">Haeron</foreign></q>. Edwards (2007, 462) points out that the ogham spelling <q>SAGRAGNI is more conservative than the roman SAGRANI</q> and how it is <q>odd that G is still shown in the first syllable but in Ireland CIIC: no. 317 MAGLANI is comparable</q> (see Macalister 1945, 305-306). <q>Further evidence for the Irish name in Britain is provided by SAGRANVI on the reverse of the ogam stone from Fardel, Devon (Macalister 1945, 468-469; Okasha 1993, 13), perhaps a hybrid of Irish SAGRAN- with the well-known Brittonic termination <foreign xml:lang="cel">-wy</foreign></q> (Edwards 2007, 462).</p>
+            <div type="commentary">        
+                <p>In regards to the first element of the ogham inscription, Edwards (2007, 462) states that while <q>the patronymic is typically Welsh, SAGRA(G)NI is presumably OI <foreign xml:lang="sga">Sárán</foreign>, not a hypothetical Welsh *<foreign xml:lang="cy">Haeron</foreign></q>. Edwards (2007, 462) points out that the ogham spelling <q>SAGRAGNI is more conservative than the roman SAGRANI</q> and how it is <q>odd that G is still shown in the first syllable but in Ireland CIIC: no. 317 MAGLANI is comparable</q> (see Macalister 1945, 305-306). <q>Further evidence for the Irish name in Britain is provided by SAGRANVI on the reverse of the ogam stone from Fardel, Devon (Macalister 1945, 468-469; Okasha 1993, 13), perhaps a hybrid of Irish SAGRAN- with the well-known Brittonic termination <foreign xml:lang="cel">-wy</foreign></q> (Edwards 2007, 462). The first personal name SAGRAGNI is followed by MAQI for <foreign xml:lang="sga"><ref target="https://dil.ie/31166">mac</ref></foreign> 'son'.</p>
                 <p>The second name in both inscriptions inscribed as CVNOTAMI in the roman-letter inscription <q>is typically British, OW <foreign xml:lang="owl">Condaf</foreign>, MW <foreign xml:lang="wlm">Cyndaf</foreign>, and means something like 'most hound-like'.</q> (Edwards 2007, 462). Edwards (2007, 462) suggests that the <q>T rather than D in CUNATAMI may be copied from the roman-letter form</q>.</p>
                         
                     </div>
