@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-23" who="#POC">Added text type link, changed hi rend to foreign in commentary, update nymRef value.</change>    
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images</change>
+<change when="2025-06-05" who="#POC">Replace foreign with persName</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,16 +145,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="la-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#aeternus">ᚓᚈᚈᚓᚏᚅ<gap reason="lost" extent="unknown" unit="character"></gap></name>
-                    <lb n="2" style="text-direction:down"/><name nymRef="#victor"><gap reason="lost"></gap>ᚈᚑᚏ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#aeternus">ᚓᚈᚈᚓᚏᚅ<gap reason="lost" extent="unknown" unit="character"/></name>
+                    <lb n="2" style="text-direction:down"/><name nymRef="#victor"><gap reason="lost"/>ᚈᚑᚏ</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="la-Ogam">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#aeternus">ETTERN<gap reason="lost" extent="unknown" unit="character"></gap></name>
-                    <lb n="2" style="text-direction:down"/><name nymRef="#victor"><gap reason="lost"></gap>TOR</name></persName>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#aeternus">ETTERN<gap reason="lost" extent="unknown" unit="character"/></name>
+                    <lb n="2" style="text-direction:down"/><name nymRef="#victor"><gap reason="lost"/>TOR</name></persName>
                     </ab>
                 </div>
                </div>
@@ -171,15 +172,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p>Ogham: 'of <foreign xml:lang="pgl">Etternus</foreign> son of <foreign xml:lang="pgl">Victor</foreign>'</p>
+                    <p>Ogham: 'of <persName xml:lang="pgl">Etternus</persName> son of <persName xml:lang="pgl">Victor</persName>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
                   <p>Latin: ' of <foreign xml:lang="la">Etternus</foreign> son of <foreign xml:lang="la">Victor</foreign>'</p>
             </div>
             <div type="commentary">
-                        <p></p>
-                        <p><q>In the Latin <foreign xml:lang="la">Etterni</foreign> and <foreign xml:lang="la">fili</foreign> are in the genitive case; <foreign xml:lang="la">Victor</foreign> may be in the nominative. The names are both Latin, which is unusual on monuments with bilingual inscriptions... though both were naturalized in Welsh (Nash-Williams 1950, nos. 97, 271). <foreign xml:lang="la">(A)eternus</foreign> gave Welsh <foreign xml:lang="cy">Edyrn</foreign> (beside <foreign xml:lang="cy">Edern</foreign>... <foreign xml:lang="la">Victor</foreign> instead of genitive <foreign xml:lang="la">Victoris</foreign> is not necessarily an indication of post-apocope date, as it may be an example of nominative for genitive</q> (Edwards 2007, 317-318).</p>
+                        <p><q>In the Latin <persName xml:lang="la">Etterni</persName> and <foreign xml:lang="la">fili</foreign> are in the genitive case; <persName xml:lang="la">Victor</persName> may be in the nominative. The names are both Latin, which is unusual on monuments with bilingual inscriptions... though both were naturalized in Welsh (Nash-Williams 1950, nos. 97, 271). <foreign xml:lang="la">(A)eternus</foreign> gave Welsh <foreign xml:lang="cy">Edyrn</foreign> (beside <foreign xml:lang="cy">Edern</foreign>... <foreign xml:lang="la">Victor</foreign> instead of genitive <foreign xml:lang="la">Victoris</foreign> is not necessarily an indication of post-apocope date, as it may be an example of nominative for genitive</q> (Edwards 2007, 317-318).</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
