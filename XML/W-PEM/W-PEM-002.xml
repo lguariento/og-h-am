@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-09" who="#POC">Change nymRef values from uppercase to lowercase, added word division in Latin edition</change>
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images</change>
+<change when="2025-06-05" who="#POC">Update foreign to persName for personal names in commentary and translation</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -164,7 +165,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#duvvatucas">DOB<gap reason="lost" extent="1" unit="character"></gap>TVCI</name>
-                    <lb n="2" style="text-direction:down"/><w>FILIVS</w> <name>EVOLENG<unclear reason="illegible">I</unclear></name></persName>
+                    <lb n="2" style="text-direction:down"/><w type="formula">FILIVS</w> <name>EVOLENG<unclear reason="illegible">I</unclear></name></persName>
                 </ab>
                </div>
             </div>  
@@ -173,14 +174,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p><title>Ogham</title>: 'Dovatucis / Dovatuceas'</p>
+                    <p>Ogham: 'Dovatucis / Dovatuceas'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p><title>Latin</title>: 'of <foreign xml:lang="pgl">Dov<gap reason="lost" extent="1" unit="character"></gap>tucus son of Evolengus</foreign>'</p>
+                  <p>Latin: 'of <persName xml:lang="pgl">Dov<gap reason="lost" extent="1" unit="character"></gap>tucus</persName> son of <persName xml:lang="pgl">Evolengus</persName>'</p>
             </div>
             <div type="commentary">
-                        <p><q>The precise form of the name in ogam is unclear. There is room on the angle of the stone for three vowel-notches between the T and C, thereby suggesting a U, which would tally with the form of the name in the roman. There appear to be traces of four vowel-notches between the C and the S, but room for five, and either an I or an EA seem possible, giving a reading of <foreign xml:lang="pgl">Dovat[u]c[i]s</foreign> or <foreign xml:lang="pgl">Dovat[u]c[ea]s</foreign>. McManus (1991, 67) has sugested the latter, in the genitive case, is more likely (Edwards 2007, 321).</q></p>
+                        <p><q>The precise form of the name in ogam is unclear. There is room on the angle of the stone for three vowel-notches between the T and C, thereby suggesting a U, which would tally with the form of the name in the roman. There appear to be traces of four vowel-notches between the C and the S, but room for five, and either an I or an EA seem possible, giving a reading of <persName xml:lang="pgl">Dovat[u]c[i]s</persName> or <persName xml:lang="pgl">Dovat[u]c[ea]s</persName>. McManus (1991, 67) has sugested the latter, in the genitive case, is more likely (Edwards 2007, 321).</q></p>
                         <p>The <q>roman-letter, Latin inscription uses the 'X son of Y' formula; the names are in the genitive case, while <foreign xml:lang="la">filivs</foreign> is in the nominative. The reading is clear, apart from the form of the first name, which may be either DOBTVCI or DOBITVCI. There is room for an I, which may have been destroyed by the later carving</q> (Edwards 2007, 320-321).</p>
                     </div>
             <div type="bibliography">
