@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-23" who="#POC">Added text type link, updated nymRef values.</change>
     <change when="2025-05-30" who="#POC">Added images and copyright</change>      
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
+<change when="2025-06-06" who="#POC">Replace foreign with persName for personal names in translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -166,15 +167,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p>Ogham: 'of <foreign xml:lang="la">Vitalianus</foreign>'</p>
+                    <p>Ogham: 'of <persName xml:lang="la">Vitalianus</persName>'</p>
                 </div>
                </div>
               <div type="textpart" n="2"> <!--not displaying!-->
-                  <p>Latin: 'of <foreign xml:lang="la">Vitalianus</foreign> <foreign xml:lang="la">Emeretus</foreign>'</p> 
+                  <p>Latin: 'of <persName xml:lang="la">Vitalianus</persName> <persName xml:lang="la">Emeretus</persName>'</p> 
             </div>
             <div type="commentary">
-                        <p><q><foreign xml:lang="la">Vitalianus</foreign> is a Latin name which could have been used by both the Irish and the British, as <foreign  xml:lang="la">Vitalinus</foreign> certainly was... Vitalianus may well have been Irish, in view of the use of ogham, but there is nothing in the form of his name to prove this... The use of T rather than D in the ogham may be influenced by the Latin spelling, or the name may have been borrowed into Irish before lenition of /t/ to /d/ had occurred in British Latin</q> (Edwards 2007, 394).</p>
-                        <p><q>The combination of an ogham inscription with a horizontal roman-letter inscription is comparatively rare... Both inscriptions consist of the same Latin name in the genitive case, with the addition of EMERETO in the roman. The disposition of the roman inscription would suggest that a compound name, Vitalianus Emeritus, is the most likely interpretation despite the lack of grammatical agreement... EMERETO for <foreign xml:lang="la">Emeritus</foreign> shows Vulgar Latin... <foreign xml:lang="la">-o</foreign> for <foreign xml:lang="la">-us</foreign>. If the nominative -O is taken seriously, we should perhaps consider the ogham inscription as primary, commemorating Vitalianus, and the roman one as secondary, commemorating Emeritus son of Vitalianus...</q> (Edwards 2007, 394).</p>
+                        <p><q><persName xml:lang="la">Vitalianus</persName> is a Latin name which could have been used by both the Irish and the British, as <persName  xml:lang="la">Vitalinus</persName> certainly was... Vitalianus may well have been Irish, in view of the use of ogham, but there is nothing in the form of his name to prove this... The use of T rather than D in the ogham may be influenced by the Latin spelling, or the name may have been borrowed into Irish before lenition of /t/ to /d/ had occurred in British Latin</q> (Edwards 2007, 394).</p>
+                        <p><q>The combination of an ogham inscription with a horizontal roman-letter inscription is comparatively rare... Both inscriptions consist of the same Latin name in the genitive case, with the addition of EMERETO in the roman. The disposition of the roman inscription would suggest that a compound name, Vitalianus Emeritus, is the most likely interpretation despite the lack of grammatical agreement... EMERETO for <persName xml:lang="la">Emeritus</persName> shows Vulgar Latin... <foreign xml:lang="la">-o</foreign> for <foreign xml:lang="la">-us</foreign>. If the nominative -O is taken seriously, we should perhaps consider the ogham inscription as primary, commemorating Vitalianus, and the roman one as secondary, commemorating Emeritus son of Vitalianus...</q> (Edwards 2007, 394).</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
