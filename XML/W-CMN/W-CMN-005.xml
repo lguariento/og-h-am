@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Castell Dwyran</title>
              <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>
+                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>  
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -60,6 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
                             <textLang mainLang="la-Latn" otherLangs="cel-Latn">Latin written in Latin script with some Insular Celtic personal names</textLang>
+                             <textLang><ref target="https://ontology.inscriptiones.org/bilingualism#bilingualism.biversion.partial/">Partial bi-version (Versions say partly the same thing, but one says more) trilingual text (Latin, Primitive Irish and Brittonic/British Celtic)</ref></textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -130,14 +133,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-06-07" who="#MK"> Editing to ensure consistency with OG(H)AM format.</change>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>   
     <change when="2023-07-27" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>
-<change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
+    <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
     <change when="2025-04-01" who="#NW">Updated layout, handnote and commentary - need to check Welsh corpus for further updates.</change>
     <change when="2025-04-04" who="#POC">Moved geo info in condition to note after material</change>
     <change when="2025-04-21" who="#NW">Edition corrections: textparts, text direction.</change>    
     <change when="2025-04-23" who="#POC">Added text type link, updated nymRef values and textLang, added IANA language codes to foreign in commentary</change>     
-        <change when="2025-04-30" who="#POC">Added IANA language code to foreign in commentary</change>     
-<change when="2025-05-30" who="#POC">Added images and copyright</change>    
-<change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, remove 1 from title</change>
+    <change when="2025-04-30" who="#POC">Added IANA language code to foreign in commentary</change>     
+    <change when="2025-05-30" who="#POC">Added images and copyright</change>    
+    <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, remove 1 from title</change>
+    <change when="2025-06-06" who="#NW">Added biversion trilingual to textLang with link to FAIR ontology</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
