@@ -130,7 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-23" who="#POC">Added text type link.</change>    
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images</change>
-<change when="2025-06-06" who="#POC">Added eDIL links to commentary, replace foreign with persName in translation</change>
+<change when="2025-06-06" who="#POC">Added eDIL links to commentary, replace foreign with persName in translation, updated edition encoding with word, name, and persName elements</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,13 +144,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" source="EDW2007">
                 <ab>
-                    <lb n="1"/><gap reason="lost"/>ᚐᚊ<space quantity="1" unit="character"/>
-ᚊᚐ<space quantity="1" unit="character"/>ᚌᚈᚓ<gap reason="lost"/>
+                    <lb n="1"/><gap reason="lost"/><persName><w type="formula" lemma="maqqas" cert="medium">ᚐᚊ</w><space quantity="1" unit="character"/>
+<name nymRef="#cacht" xml:lang="pgl">ᚊᚐ<space quantity="1" unit="character"/>ᚌᚈᚓ</name><gap reason="lost"/></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" source="EDW2007">
                 <ab>
-                    <lb n="1"/><gap reason="lost"/>AQ QA GTE<gap reason="lost"/>
+                    <lb n="1"/><gap reason="lost"/><persName><w type="formula" lemma="maqqas" cert="medium">AQ</w> <name nymRef="#cacht" xml:lang="pgl">QA GTE</name><gap reason="lost"/></persName>
                 </ab>
             </div>
             <div type="apparatus">
