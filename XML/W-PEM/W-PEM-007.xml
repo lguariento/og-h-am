@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-23" who="#POC">Added text type link, updated nymRef values.</change>
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
+<change when="2025-06-06" who="#POC">Add language codes to commentary, add persName for personal name in translation, update gap element in edition and translation to be self closing since it wasn't surrounding any information, added eDIL links</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -153,7 +154,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
                     <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#magladubracu">MAGL<gap reason="lost" extent="unknown"/>DUBR<gap reason="lost" extent="unknown"/></name>
-                        <lb n="2" style="text-direction:down"/><gap reason="lost" extent="unknown"></gap>QI<gap reason="lost" extent="unknown"></gap></persName> 
+                        <lb n="2" style="text-direction:down"/><gap reason="lost" extent="unknown"/>QI<gap reason="lost" extent="unknown"/></persName> 
                     </ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
@@ -175,16 +176,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                     <p>Ogham: <lb n="1" style="text-direction:up"/>'MAGLI<gap reason="lost" extent="unknown"></gap>DUBR<gap reason="lost" extent="unknown"></gap>
-                        <lb n="2" style="text-direction:down"/><gap reason="lost" extent="unknown"></gap>QI<gap reason="lost" extent="unknown"></gap>'</p>
+                     <p>Ogham: <lb n="1" style="text-direction:up"/>'MAGLI<gap reason="lost" extent="unknown"/>DUBR<gap reason="lost" extent="unknown"/>
+                        <lb n="2" style="text-direction:down"/><gap reason="lost" extent="unknown"/>QI<gap reason="lost" extent="unknown"/>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p>Latin: 'With the sign of the cross I fashioned on that [?] I ask all walking there that they pray for the soul of <foreign xml:lang="pgl">Catuoconus</foreign>'</p>
+                  <p>Latin: 'With the sign of the cross I fashioned on that [?] I ask all walking there that they pray for the soul of <persName xml:lang="pgl">Catuoconus</persName>'</p>
               </div>
             <div type="commentary">
-                        <p><q>The surviving ogam letters suggest a compound personal name: (i) MAGL[-]DUBR, and (ii) -QI-, which could be part of <foreign xml:lang="sga">maqi</foreign>... The inscription is unlikely to be other than Irish, in view of the use of ogam and the presence of Q... Both DUBAR[CUNAS] and... DUBR[ACUNAS].. seem possible restorations, both being possible spellings of Old Irish <foreign xml:lang="sga">doborchú</foreign>, gen. <foreign xml:lang="sga">doborchon</foreign>, 'water-dog, otter'</q> (Edwards 2007, 296).</p>
-                        <p>CATUOCONI is later Welsh <foreign>Cadwgan</foreign>, a compound of <foreign rend="italic">cad</foreign>, 'battle', and <foreign>g(w)ogawn</foreign>, 'glory', with a Latin genitive ending added. Both the lettering and the content of the Latin inscription suggest a high level of literacy, though case endings are not always correct... The meaning of <foreign>illam</foreign><q>...cannot be satisfactorily resolved. It has also been cogently argued that some of the unusual features of the Caldy Island 1 inscription can be explained because it is set to metre in the form of rhythmic syllabic adonics, of which it may be the earliest known example</q> (Edwards 2007, 298).</p>
+                        <p><q>The surviving ogam letters suggest a compound personal name: (i) MAGL[-]DUBR, and (ii) -QI-, which could be part of <foreign xml:lang="sga"><ref target="https://dil.ie/31166">maqi</ref></foreign>... The inscription is unlikely to be other than Irish, in view of the use of ogam and the presence of Q... Both DUBAR[CUNAS] and... DUBR[ACUNAS].. seem possible restorations, both being possible spellings of Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/17278">doborchú</ref></foreign>, gen. <foreign xml:lang="sga">doborchon</foreign>, 'water-dog, otter'</q> (Edwards 2007, 296).</p>
+                        <p>CATUOCONI is later Welsh <foreign xml:lang="wlm">Cadwgan</foreign>, a compound of <foreign xml:lang="owl">cad</foreign>, 'battle', and <foreign xml:lang="owl">g(w)ogawn</foreign>, 'glory', with a Latin genitive ending added. Both the lettering and the content of the Latin inscription suggest a high level of literacy, though case endings are not always correct... The meaning of <foreign xml:lang="la">illam</foreign><q>...cannot be satisfactorily resolved. It has also been cogently argued that some of the unusual features of the Caldy Island 1 inscription can be explained because it is set to metre in the form of rhythmic syllabic adonics, of which it may be the earliest known example</q> (Edwards 2007, 298).</p>
             </div>
             <div type="bibliography">
                 <listBibl>  
