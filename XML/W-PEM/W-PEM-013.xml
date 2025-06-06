@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated nymRef values, replaced hi rend with foreign in commentary</change>    
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images, remove number from title</change>
+<change when="2025-06-06" who="#POC">Replace foreign with persName</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -159,7 +160,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/>TIGERNACI
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#tigernacas">TIGERNACI</name></persName>
                     <lb n="2" style="text-direction:down"/><persName><name nymRef="#duvvagnas">DOBAGNI</name></persName>
                 </ab>
                </div>
@@ -169,15 +170,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p>Ogham: 'of <foreign xml:lang="pgl">Dovagnus</foreign>'</p>
+                    <p>Ogham: 'of <persName xml:lang="pgl">Dovagnus</persName>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p>Latin: '<foreign xml:lang="pgl">Tigernaci</foreign> <foreign xml:lang="pgl">Dobagni </foreign>'</p>
+                  <p>Latin: '<persName xml:lang="pgl">Tigernaci</persName> <persName xml:lang="pgl">Dobagni </persName>'</p>
             </div>
             <div type="commentary">
-                        <p><q>The ogam inscription consists of a personal name DOVAGNI in the genitive case... DOVAGNI/DOBAGNI is OI <foreign xml:lang="sga">Dubán</foreign>...'black'. Possible evidence of the Irish name in Wales is the place-name <foreign xml:lang="cy">Merthyr Dyfan (Dovan)</foreign> in Glamorgan</q> (Edwards 2007 , 326-327).</p>
-                        <p><q>DOVAGNI and DOBAGNI are clearly the same person, and the roman and ogam inscriptions have been placed side by side which draws attention to this... The ogam inscription may commemorate the father while the roman inscription commemorates his son, with the name and patronym only, rather than the Latin 'X son of Y' formula. Secondly, the same person may be commemorated in both the roman and ogam inscriptions, but TIGERNACI has been placed above DOBAGNI, rather than below, in order to show the relationship of the latter to the ogam letters</q> (Edwards 2007 , 326-327).</p>
+                        <p><q>The ogam inscription consists of a personal name DOVAGNI in the genitive case... DOVAGNI/DOBAGNI is OI <foreign xml:lang="sga">Dubán</foreign>...'black'. Possible evidence of the Irish name in Wales is the place-name <placeName xml:lang="cy">Merthyr Dyfan (Dovan)</placeName> in Glamorgan</q> (Edwards 2007 , 326-327).</p>
+                        <p><q>DOVAGNI and DOBAGNI are clearly the same person, and the roman and ogam inscriptions have been placed side by side which draws attention to this... The ogam inscription may commemorate the father while the roman inscription commemorates his son, with the name and patronym only, rather than the Latin 'X son of Y' formula. Secondly, the same person may be commemorated in both the roman and ogam inscriptions, but TIGERNACI has been placed above DOBAGNI, rather than below, in order to show the relationship of the latter to the ogam letters</q> (Edwards 2007, 326-327).</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
