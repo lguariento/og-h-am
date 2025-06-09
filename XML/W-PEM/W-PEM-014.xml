@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated nymRef values, replaced hi rend with foreign in commentary</change>    
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
+<change when="2025-06-09" who="#POC">Replace foreign with persName for personal names in translation and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,7 +149,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#maglacu">ᚋᚐᚌᚂᚔᚉᚒᚅᚐᚄ</name> <w lemma="maqqas">ᚋᚐᚊᚔ</w>
+                    <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#maglacu">ᚋᚐᚌᚂᚔᚉᚒᚅᚐᚄ</name> <w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w>
                         <name nymRef="#klutarigs">ᚉᚂᚒᚈᚐ
                     <lb n="2" style="text-direction:across"/><unclear reason="damage">ᚏ</unclear><gap reason="lost" extent="unknown"/></name></persName>
                 </ab>
@@ -178,14 +179,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p>Ogham: 'of <foreign xml:lang="pgl">Maglicu</foreign> son of <foreign xml:lang="pgl">Clutar</foreign>'</p>
+                    <p>Ogham: 'of <persName xml:lang="pgl">Maglicu</persName> son of <persName xml:lang="pgl">Clutar</persName>'</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p>Latin: '<foreign xml:lang="pgl">Maglocu</foreign> son of <foreign xml:lang="pgl">Clutorius</foreign>'</p>
+                  <p>Latin: '<persName xml:lang="pgl">Maglocu</persName> son of <persName xml:lang="pgl">Clutorius</persName>'</p>
             </div>
             <div type="commentary">
-                        <p><q>In the ogam inscription the first name is in the genitive case. The end of the second name is missing but CLUTA at the beginning is clear. The next letter is incomplete. It now consists of four partially visible diagonal strokes and, if it is the same as the roman inscription, there was almost certainly a fifth, thereby identifying it as an R... (Rhys 1910, 328) reconstructed the name as the genitive CLUTA[RI], thereby reflecting the roman inscription... (Jackson 1953, 624) and (McManus 1991, 91) have suggested an alternative genitive CLUTA[RIGAS]... These Celtic names are either British with Irish influence on the spelling or Irish with British influence on the spelling... The first name is either W. <foreign xml:lang="cy">Meilyg/Maelgwn</foreign>, 'prince-hound', or Ir. <foreign xml:lang="ga">Máelchú</foreign>, gen. <foreign xml:lang="ga">Máelchon</foreign>...</q> (Edwards 2007, 391-392).</p>
+                        <p><q>In the ogam inscription the first name is in the genitive case. The end of the second name is missing but CLUTA at the beginning is clear. The next letter is incomplete. It now consists of four partially visible diagonal strokes and, if it is the same as the roman inscription, there was almost certainly a fifth, thereby identifying it as an R... (Rhys 1910, 328) reconstructed the name as the genitive CLUTA[RI], thereby reflecting the roman inscription... (Jackson 1953, 624) and (McManus 1991, 91) have suggested an alternative genitive CLUTA[RIGAS]... These Celtic names are either British with Irish influence on the spelling or Irish with British influence on the spelling... The first name is either W. <persName xml:lang="cy">Meilyg/Maelgwn</persName>, 'prince-hound', or Ir. <persName xml:lang="ga">Máelchú</persName>, gen. <persName xml:lang="ga">Máelchon</persName>...</q> (Edwards 2007, 391-392).</p>
                         <p>The last letter of the first name in the roman-letter inscription has been alternately identified as either a reversed N or a conjoined VI. If an N, the name reads as MAGLOCVN(i) which reflects the spelling of the ogam inscription. Otherwise, the spelling MAGLOCVVI would be the Latinized genitive of the Irish name Maglocu in the nominative  (Edwards 2007, 391-392).</p>
                     </div>
             <div type="bibliography">

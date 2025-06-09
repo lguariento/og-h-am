@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated nymRef values, moved information from commentary to apparatus </change>    
     <change when="2025-05-30" who="#POC">Added image and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, corrected edition encoding so that the ogham and transliteration edition matched, added encoding for formula words, remove 1 in title since there's only one Mathry stone</change>
+<change when="2025-06-09" who="#POC">Update foreign to persName for personal name in translation and commentary, update translation section for ogham</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -175,14 +176,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                    <p>Ogham: 'MAQ<unclear reason="illegible" extent="1" unit="character"/><unclear reason="faded" extent="1" unit="character">D</unclear><gap reason="lost" extent="unknown" unit="character"></gap>'</p>
+                    <p>Ogham: The surviving inscription is insufficient to produce a translation.</p>
                 </div>
                </div>
               <div type="textpart" n="2">
-                  <p>Latin: '<foreign xml:lang="pgl">Maccudiccl</foreign> son of <foreign xml:lang="pgl">Caticuus</foreign>'</p>
+                  <p>Latin: '<persName xml:lang="pgl">Maccudiccl</persName> son of <persName xml:lang="pgl">Caticuus</persName>'</p>
             </div>
             <div type="commentary">
-                        <p><q>It is possible that the ogham inscription originally read MAQID- and could therefore be the beginning of a slightly different form of Maccudiccl... It seems possible that CATICVVS is OI <foreign xml:lang="sga">Cathchú</foreign> ('battle-hound'), with VV representing the Irish long vowel and only the -S being Latin</q> (Edwards 2007, 382).</p>
+                        <p><q>It is possible that the ogham inscription originally read MAQID- and could therefore be the beginning of a slightly different form of Maccudiccl. It seems possible that CATICVVS is OI <persName xml:lang="sga">Cathchú</persName> ('battle-hound'), with VV representing the Irish long vowel and only the -S being Latin</q> (Edwards 2007, 382).</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
