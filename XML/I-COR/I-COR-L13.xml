@@ -84,8 +84,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Knockyrourke (<ref target="https://www.logainm.ie/ga/11394"><foreign xml:lang="ga">Cnoc Uí Ruairc</foreign></ref>)</placeName>, <placeName type="county">Co. Cork</placeName> <placeName type="country">Ireland</placeName>
-                                <geo/>
-                            <!--<note>ITM Coordinates: 0,0</note>--></origPlace>
+                                <geo>51.993410, -8.762792</geo>
+                            <note>Approximate</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found" when="1906">The location of the stone is described (Condon, 1916, 142) as <q>'in the third or fourth field at the left side of the road when going from Stuake to Barrahaurin'</q>. 
@@ -126,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-09-30" who="#POC">Updated file name in publication statement</change>
 <change when="2025-02-11" who="#POC">Added placename to title, commented out media and handDesc</change>
 <change when="2025-03-28" who="#NW">Removed geo coorrds (mid ocean). Added country and attributes for indexing.</change>
+    <change when="2025-06-08" who="#NW">Added approximate coords and fixed refs</change>
     
 </listChange>
 </revisionDesc>
@@ -149,7 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>At a later date Macalister re-examined the stone and concluded <q>'that the apparent scores upon it are illusionary'</q> and withdrew it from the record (145, 116).</note>
+                    <note>At a later date Macalister re-examined the stone and concluded <q>that the apparent scores upon it are illusionary</q> and withdrew it from the record (1945, 116).</note>
                 </app>
                 </listApp>
             </div>
@@ -163,6 +164,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <listBibl>
                      <bibl><ptr target="MAC1906"/>
                         <citedRange>261</citedRange>
+                    </bibl>
+                      <bibl><ptr target="MAC1945"/>
+                        <citedRange>116</citedRange>
                     </bibl>
                      <bibl><ptr target="POW1997"/>
                      <citedRange>no. 7995</citedRange>
