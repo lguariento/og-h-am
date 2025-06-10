@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inis Mhic Aoibhleáin | Inishvickillane</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D laser scanned using Artec Eva scanner <date when="2016-05-12"/> and later processed
+                        using Geomagic software</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KER-053</idno>
+                 <idno type="CIIC">185</idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/INVIC/1.html">INVIC/1</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/www.trismegistos.org/text/172599">www.trismegistos.org/text/172599</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>TCD</repository>
+                        <idno type="invNo"></idno>
+                         <altIdentifier>
+                            <idno type="geo">53.344047, -6.256315</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE061-006008-</idno></p> 
+                                    <material type="stone">Slate</material> <!--Rhys 1903-->
+                                    <objectType key="monument">Cross-carved pillar</objectType> 
+                                    <dimensions unit="m" source="CUP1986">
+                                        <height>1.05</height> 
+                                        <width>0.15</width> 
+                                        <depth>0.18</depth>
+                                    </dimensions>
+                                <desc type="decoration">Each of the four faces has a <rs type="decoration" key="cross">cross</rs> of different form. A plain Latin cross is carved on each of two opposed narrower faces. A third face bears a swastika motif, elongated to resemble a cross; the crossing of the arms and shaft is enclosed by a square. The fourth face bears a Latin cross, the head and shaft of which bifurcate to form triangular terminals. The junction of shaft and arms is formed by a square and the arms by equilateral triangles attached to each side of this; each of these triangles is divided by a line into two right-angles.</desc>
+                                </support>
+                                <condition>The inscribed stone has suffered much flaking and, according to Macalistr (1945, 179), <q>intentional mutilation</q>, especially the H aicme (to the left of the stem-line/arris). Rhys (1903, 81. fn 1) describes the stone as <q>a laminated clay slate from the Lower Silurian beds, the surface of which is showing a tendancy to split along the lines of stratification, and, as usual in stone of this formation, there is transverse cleavage, which will cause further disintegration</q>. When last seen it was attached to the display stand by a metal bracket.</condition>                                
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The ogham inscription (inverted with respect to the crosses) runs up on the dexter (left) edge of one of the slightly narrower faces.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription is <rs type="execution" key="scored">scored</rs> in very fine <q>knife cut</q>s, of the kind common in Co. Cork (Macalister 1945, 179), unlike the crosses which are pocked.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Inishvickillane (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/22582">Inis Mhic Aoibhleáin</ref></foreign>)</placeName>
+                                <placeName type="county">Co. Kerry</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.044062 , -10.606102</geo>
+                            <note>ITM coordinates: 421241, 591216</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" notAfter="1849">This stone was found at the remains of an early monastic settlement (<ref target="https://monasticon.celt.dias.ie/3961"><foreign xml:lang="sga">Inis Meic Oíbléin</foreign></ref>) at the south-east end of the island of Inishvickillane. <q>The site, although apparently lacking formal enclosure, comprises the ruins of a dry-stone oratory, a graveyard, a leacht [and stone cross], a possible beehive hut-sit, and a holy well dedicated to St Brendan</q> (Okasha and Forsyth 2001, 156). Macalister (1949, 44) also recorded <q>an inscribed stone lying on the S wall of the oratory but this is now missing. It bore a small cross followed by the inscription: OR DO MAC RUED U DALAC[H]</q> 'A prayer for Mac-Ruaid, grandson of Dálach'. A second stone inscribed with a <q>plain cross of two lines</q> lay within the graveyard (Macalister 1902, 46; Cuppage et al, 1986, 301). There is some disaggreement regrading who first discovered this stone. According to Brash (1879, 226; see also Rhys 1903, 80), it was Windele [c.1849] and according to Graves (1878, 41; see also Macalister 1945, 178) it was Hitchcock who made the discovery. Nevertheless, accounts agree that the cross-carved ogham stone lay in front of the oratory at this time but by 1901 it had been placed as a lintel in that building (Macalister 1902, 44) and in 1902 it was removed to Trinity College, Dublin (Cuppage et al, 1986, 301).  
+                        </provenance>
+                       <provenance type="observed" when="2014">Now on display in the library of Trinity College Dublin where it was examined and recorded in 3d in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref> in 2014 as part of the Ogham in 3D project.  
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>    
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2025-05-19" who="#JB">
+Jef Bucas autogenerated batch EpiDoc output from spreadsheet
+</change>
+    <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+    <change when="2025-06-10" who="#NW">Updated and added information and encoding throughout.</change> 
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KER/I-KER-053_Inishvickillane.jpg"><desc>Screenshot from 3d model</desc></graphic>
+        <graphic url="IRE/I-KER/I-KER-053_InishvickillaneMAC1945.jpg"><desc>Drawing from Macalister (1945)</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" cert="low"/><unclear reason="eccentric_ductus">ᚁᚁ</unclear><gap reason="lost" cert="low" unit="stroke" atLeast="5"/> <w type="formula" cert="low"><supplied reason="lost" cert="low">ᚐ</supplied>ᚃ<supplied reason="lost" cert="medium">ᚔ</supplied></w> <name><unclear reason="ambiguous">ᚃᚂ</unclear><supplied reason="lost" cert="medium">ᚐᚈ</supplied>ᚔ<unclear reason="damage">ᚋ</unclear>ᚔ</name> <w type="formula"><unclear reason="damage">ᚋ</unclear>ᚐ<supplied reason="lost" cert="medium">ᚊ</supplied><gap reason="lost" extent="unknown"/></w>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" cert="low"/><unclear reason="eccentric_ductus">BB</unclear><gap reason="lost" cert="low" unit="stroke" atLeast="5"/> <w type="formula" cert="low"><supplied reason="lost" cert="low">A</supplied>V<supplied reason="lost" cert="medium">I</supplied></w> <name><unclear reason="ambiguous">VL</unclear><supplied reason="lost" cert="medium">AT</supplied>I<unclear reason="damage">M</unclear>I</name> <w type="formula"><unclear reason="damage">M</unclear>A<supplied reason="lost" cert="medium">Q</supplied><gap reason="lost" extent="unknown"/></w>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app n="1"><note>Regarding a possible inital name, Macalister (1945, 179) says that <q>everything but the two B's is flaked away: I do not agree with Rhys in including these among some modern graffiti which have been inflicted on the stone</q>. He continues that the VL of VLATIAMI is <q>hardly distinguishable from an N, which latter was my reading when I first saw the stone in its former position in the island oratory. The T is reduced to tiny pin-scrapes: the Q is visible only in a strong cross-light. Rhys found a G near the top of the stone : this I could not identify</q>. The T and the Q are no longer evident.</note></app>
+                    <app n="2"><note>Macalister (1945, 179) read:</note>
+                    <rdg source="MAC1945">[CO]BB[A?] AVI VLATIAMI MAQ[</rdg>
+                    </app>
+                    <app n="3"><note>Brash (1879, 226) supplied</note>
+                    <rdg>ᚃᚅᚇᚔᚐᚁᚔᚁᚑ  ᚈ (VNDIABIBO  T)</rdg></app>
+                </listApp>                
+            </div>
+            <div type="translation"/>                
+            
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="CUP1986"/>
+                        <citedRange>301</citedRange>
+                    </bibl>
+                    <bibl><ptr target="GRA1878"/>
+                        <citedRange>41-46</citedRange>
+                    </bibl>
+                     <bibl><ptr target="MAC1902"/>
+                        <citedRange>44, 46</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>178-179</citedRange>
+                    </bibl>
+                      <bibl><ptr target="RHY1903"/>
+                        <citedRange>79-87</citedRange>
+                    </bibl>
+                    <bibl><ptr target="ZIE1994"/> 
+                         <citedRange>249</citedRange>
+                     </bibl> 
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
