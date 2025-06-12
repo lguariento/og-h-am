@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
      <change when="2025-02-13" who="#NW">Updated support desc.</change>
      <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
      <change when="2025-05-14" who="#NW">Added apparatus note regarding use of Gʷ character and updating reading (from 3d model).</change>
+     <change when="2025-06-10" who="#NW">Added tentative nymref to edition and changed foreign to persname encoding of names</change>
     
 </listChange>
 </revisionDesc>
@@ -150,7 +151,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                     ᚂ<unclear reason="damaged">ᚓᚌᚌ</unclear><gap reason="lost" unit="stroke" quantity="15"/>ᚄᚇ<supplied reason="lost" cert="low" evidence="space">ᚔ</supplied>ᚒᚂᚓᚍ<unclear reason="faded">ᚓᚄᚉᚐ</unclear><supplied reason="lost" evidence="previouseditor">ᚇ</supplied>                 
                     <lb n="2" style="text-direction:up"/>
-                    <persName><w lemma="maqqas">ᚋᚐᚊ</w> <name nymRef="#?">ᚉᚑᚏᚏᚁ<unclear reason="damaged">ᚏ</unclear>ᚔ</name> <w lemma="maqqas">ᚋᚐᚊ</w> <name nymRef="#?">ᚐᚋᚋᚂ<unclear reason="damaged">ᚂᚑᚌ</unclear><supplied reason="lost">ᚔ</supplied><unclear reason="damaged">ᚈ</unclear>ᚈ</name></persName>
+                    <persName><w lemma="maqqas">ᚋᚐᚊ</w> <name nymRef="#corberias?">ᚉᚑᚏᚏᚁ<unclear reason="damaged">ᚏ</unclear>ᚔ</name> <w lemma="maqqas">ᚋᚐᚊ</w> <name nymRef="#?">ᚐᚋᚋᚂ<unclear reason="damaged">ᚂᚑᚌ</unclear><supplied reason="lost">ᚔ</supplied><unclear reason="damaged">ᚈ</unclear>ᚈ</name></persName>
                 </ab>
             </div>
             <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
@@ -158,7 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                    L<unclear reason="damaged">EGG</unclear><gap reason="lost" unit="stroke" quantity="15"/>SD<supplied reason="lost" cert="low" evidence="space">I</supplied>ULEGʷ<unclear reason="faded">ESCA</unclear><supplied reason="lost" evidence="previouseditor">D</supplied>                 
                     <lb n="2" style="text-direction:up"/>
-                    <persName><w lemma="maqqas">MAQ</w> <name nymRef="#?">CORRB<unclear reason="damaged">Ṛ</unclear>I</name> <w lemma="maqqas">MAQ</w> <name nymRef="#?">AMML<unclear reason="damaged">LOG</unclear><supplied reason="lost">I</supplied><unclear reason="damaged">T</unclear>T</name></persName>
+                    <persName><w lemma="maqqas">MAQ</w> <name nymRef="#corberias?">CORRB<unclear reason="damaged">R</unclear>I</name> <w lemma="maqqas">MAQ</w> <name nymRef="#?">AMML<unclear reason="damaged">LOG</unclear><supplied reason="lost">I</supplied><unclear reason="damaged">T</unclear>T</name></persName>
                 </ab>
             </div>         
            
@@ -168,10 +169,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>
             <div type="translation">
-                <p>... of the son of <foreign xml:lang="sga">Coirpre</foreign> son of <foreign xml:lang="sga">Amalgaid</foreign>?</p>
+                <p>... of the son of <persName xml:lang="sga">Coirpre</persName> son of <persName xml:lang="sga">Amalgaid</persName>?</p>
             </div>
             <div type="commentary">
-                <p>Little can be said about the unintelligible reading of the first (SE) angle. With regard to the second (NE) angle, the father’s name (possibly <foreign xml:lang="sga">Amalgaid</foreign>, or the like) was previously identified by Macalister and others with a king of Connacht who died between 440 and 450 AD but the linguistic forms in the inscription rather suggest a late sixth or even early seventh century date. However, since <foreign xml:lang="sga">Amalgaid</foreign> could be the grandfather of the commemorated person, a 6th-century date isn’t beyond possibility.</p>
+                <p>Little can be said about the unintelligible reading of the first (SE) angle. With regard to the second (NE) angle, the father’s name (possibly <persName xml:lang="sga">Amalgaid</persName>, or the like) was previously identified by Macalister and others with a king of Connacht who died between 440 and 450 AD but the linguistic forms in the inscription rather suggest a late sixth or even early seventh century date. However, since <persName xml:lang="sga">Amalgaid</persName> could be the grandfather of the commemorated person, a 6th-century date isn’t beyond possibility.</p>
             </div>
             <div type="bibliography">
               <listBibl>
