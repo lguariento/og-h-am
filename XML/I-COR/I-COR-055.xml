@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Megan Kasten</name>
+                     <orgName>University of Glasgow</orgName>
+                <resp>Capture: photogrammetry <date when="2025-06-06"/>; Software: Agisoft Metashape</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository><ref target="https://www.britishmuseum.org/collection/object/H_1884-0609-1">British Museum</ref></repository>
                         <idno type="invNo">18840609.1</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.51897, -0.12650036</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -76,9 +79,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <layout style="vertical" rend="arris_up-up">The inscription reads upwards on two angles of the stone, and <q>the upper ends of the two lines of writing overlap awkwardly on the top of the stone</q> (Macalister 1945, 108). </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--<handDesc>
-                            <handNote/>
-                        </handDesc>-->
+                        <handDesc>
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in quite large and well-spaced strokes and there is extra space left between the end of the first name and the following MAQI. The vowel strokes are wedge-shaped notches.</handNote>
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -91,7 +94,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1826">This stone was discovered in 1826 <q>in the entrenchment of an old burial-ground on this townland</q> and later presented to the Royal Cork Institution (Macalister 1945, 107). Brash (1869, 254) gave the find spot as <q>in a killeen at Leades, on the townland of Deelish, and parish of <placeName type="parish">Aghabulloge</placeName></q>, but then added <q>the actual place where the stone was found is known as Killberehert</q>. There is no known burial ground in Deelish (Leades is name of house at S end of Deelish) but the burial ground of 'Killberehert' <idno type="SMR">(CO060-122----)</idno> is 1 mile to the W of Deelish in the townland of <placeName type="townland">Kilberrihert</placeName>. The exact findspot is therefore not certain. 
                         </provenance>
-                        <provenance type="observed">Now in the British Museum.
+                        <provenance type="observed">Now in the <ref target="https://www.britishmuseum.org/collection/object/H_1884-0609-1">British Museum</ref>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -129,8 +132,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out media and empty commentary and handDesc</change>
     <change when="2025-02-06" who="#POC">Added townland coordinates to geo for a more accurate/relevant map display, fixed placename display</change>
- <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
+    <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
     <change when="2025-05-09" who="#POC">Remove ? from nymRef values</change>
+    <change when="2025-06-10" who="#NW">Updated edition based on team reading from newly-captured 3d model and added handnote, 3d resp and BM coords.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,12 +147,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coelabuts">ᚉᚑᚂᚐᚁᚑᚈ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#maqqas_riteas"><w>ᚋᚐᚊᚔ</w> <w>ᚏᚔᚈᚓ</w></name> <w type="formula">ᚋᚐᚊᚔ</w> <w type="formula">ᚋᚒᚉᚑᚔ</w> <name nymRef="#corberias">ᚉᚑᚏᚔᚁᚔᚏᚔ</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coelabuts"><supplied reason="lost" cert="low">ᚉᚑᚂᚐᚁ</supplied>ᚑᚈ</name><space/> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#maqqas_riteas"><w>ᚋᚐᚊᚔ</w><w>ᚏᚔᚈᚓ</w></name> 
+                    <lb n="2" style="text-direction:up"/><supplied reason="lost" cert="low"><w type="formula">ᚋᚐᚊᚔ</w></supplied> <w type="formula"><supplied reason="lost">ᚋᚒ</supplied>ᚉᚑᚔ</w> <name nymRef="#corberias">ᚉᚑᚏᚔᚁᚔᚏ<unclear reason="eccentric_ductus">ᚔ</unclear></name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coelabuts">COLABOT</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#maqqas_riteas"><w>MAQI</w> <w>RITE</w></name> <w type="formula">MAQI</w> <w type="formula">MUCOI</w> <name nymRef="#corberias">CORIBIRI</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#coelabuts"><supplied reason="lost" cert="low">COLAB</supplied>OT</name><space/> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#maqqas_riteas"><w>MAQI</w><w>RITE</w></name> 
+                    <lb n="2" style="text-direction:up"/><supplied reason="lost" cert="low"><w type="formula">MAQI</w></supplied> <w type="formula"><supplied reason="lost">MU</supplied>COI</w> <name nymRef="#corberias">CORIBIR<unclear reason="eccentric_ductus">I</unclear></name></persName>
                 </ab>
             </div>
             <!--<div type="apparatus">
@@ -156,10 +163,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>-->
             <div type="translation">
-                <p>of <foreign xml:lang="sga">Cóelub/Cóelboth</foreign> son of <foreign xml:lang="sga">Mac Rithe?</foreign> son of the sept/litter of <foreign xml:lang="sga">Coirpre?</foreign></p>
+                <p>of <persName xml:lang="sga">Cóelub/Cóelboth</persName> son of <persName xml:lang="sga">Mac Rithe?</persName> son of the sept/litter of <persName xml:lang="sga">Coirpre?</persName></p>
             </div>
             <!--<div type="commentary">
-                <p></p>
+                <p>cf. I-KER-114 Rockfield Middle 2</p>
             </div>-->
             <div type="bibliography">
                  <listBibl>
