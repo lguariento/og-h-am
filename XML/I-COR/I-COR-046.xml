@@ -140,6 +140,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-20" who="#NW">Added dating info and encoding test.</change>
 <change when="2025-04-15" who="#POC">Update execution encoding in handNote</change>    
     <change when="2025-06-03" who="#NW">Execution type updated to scored</change> 
+    <change when="2025-06-14" who="#NW">Added nymrefs to edition</change>
+
    
 </listChange>
 </revisionDesc>
@@ -152,11 +154,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">               
                     <ab>
-                         <lb n="1" style="text-direction:up-across-down"/><persName><name><gap reason="lost" extent="unknown"/>ᚐᚂᚂ<supplied reason="lost" cert="low">ᚐ</supplied></name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="?">ᚃᚑᚏᚏᚈᚔ<unclear reason="faded">ᚌ</unclear>ᚒ<supplied reason="lost" evidence="previouseditor">ᚏ</supplied>ᚅ</name></persName>                </ab>               
+                         <lb n="1" style="text-direction:up-across-down"/><persName><name><gap reason="lost" extent="unknown"/>ᚐᚂᚂ<supplied reason="lost" cert="low">ᚐ</supplied></name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#vortigernas">ᚃᚑᚏᚏᚈᚔ<unclear reason="faded">ᚌ</unclear>ᚒ<supplied reason="lost" evidence="previouseditor">ᚏ</supplied>ᚅ</name></persName>                
+                    </ab>               
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">                
                     <ab>
-                     <lb n="1" style="text-direction:up-across-down"/><persName><name nymRef="?"><gap reason="lost" extent="unknown"/>ALL<supplied reason="lost" cert="low">A</supplied></name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="?">VORRTI<unclear reason="faded">G</unclear>U<supplied reason="lost" evidence="previouseditor">R</supplied>N</name></persName>
+                     <lb n="1" style="text-direction:up-across-down"/><persName><name nymRef="?"><gap reason="lost" extent="unknown"/>ALL<supplied reason="lost" cert="low">A</supplied></name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#vortigernas">VORRTI<unclear reason="faded">G</unclear>U<supplied reason="lost" evidence="previouseditor">R</supplied>N</name></persName>
                 </ab>              
             </div>
             <div type="apparatus">
