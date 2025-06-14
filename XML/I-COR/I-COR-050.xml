@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>Capture: Artec EVA Scanner <date when="2015-01-08"/>; Software: Artec, Geomagic Studio</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>NMI</repository>
                         <idno type="invNo">1872.2</idno>
+                        <altIdentifier>
+                            <idno type="geo">53.340304, -6.255115</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -60,26 +63,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067007-</idno></p> 
-                                    <material type="stone">Clay slate</material> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO085-067007-</idno></p> 
+                                    <material type="stone">Siltstone</material> <note>Fine grained, slaty siltstone (Parkes/Moffat 2011, unpubl survey)</note>
                                     <objectType key="monument">Pillar</objectType> 
-                                     <dimensions unit="m">
-                                         <dim/><!--(converted from Macalister)-->
-                                            <height>1.42</height>
-                                            <width>0.53</width>
-                                            <depth>0.41</depth>
+                                     <dimensions unit="m" source="3d_model">
+                                            <height>1.46</height>
+                                            <width>0.52</width>
+                                            <depth>0.42</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused in a souterrain, <q>the stone is rough and irregular, and it is difficult to discriminate between letters and natural markings on its surface</q> (Macalister 1945, 100). Additionally, in the middle of the inscription, <q>there is a vertical series of marks which has every appearance of being a long Ogham graffito</q> (Macalister 1945, 100).</condition>
+                                <condition>Reused as a lintel in a souterrain, <q>the stone is rough and irregular, and it is difficult to discriminate between letters and natural markings on its surface</q> (Macalister 1945, 100).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_upR">The inscription is <q>inscribed on the dexter angle of the main face, running over the top diagonally, and down the dexter angle of the parallel face</q> of the stone (Macalister 1945, 98). Macalister noted: <q>On the angle intercepted between the two which bear the main inscription, there is a line of enigmatical characters</q> (1945, 99).</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is <q>inscribed on the dexter angle of the main face, running over the top diagonally, and down the dexter angle of the parallel face</q> of the stone (Macalister 1945, 98). Macalister (1945, 100) also describes what he calls <q>ogham graffito</q> in the middle of the B-surface.</layout>
                             </layoutDesc>
                         </objectDesc>
-                       <!-- <handDesc>
-                            <handNote/>
+                        <handDesc>
+                            <handNote>The inscription is coarsely <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in bold, well-spaced strokes. Macalister's <q>graffito</q> is impossible to decipher (or even to be sure of) considering the roughness of the stone.</handNote>
                             
-                        </handDesc>-->
+                        </handDesc>
                     </physDesc>
                     <history>
                         <origin>
@@ -89,9 +91,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1846">Discovered in 1846 built into a souterrain <idno type="SMR">(CO085-067002-)</idno> with five other ogham stones <idno type="SMR">(I-COR-046)</idno>; <idno type="SMR">(I-COR-047)</idno>; <idno type="SMR">(I-COR-048)</idno>; <idno type="SMR">(I-COR-049)</idno>; <idno type="SMR">(I-COR-051)</idno>.
+                        <provenance type="found" when="1846">Discovered in 1846 by Cork antiquarians <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain <idno type="SMR">(CO085-067002-)</idno> in the SW quadrant of a ringfort <idno type="SMR">(CO085-067001-)</idno>, with five other ogham stones: I-COR-046, I-COR-048, I-COR-049, I-COR-050 and I-COR-051. In 1849 Windele removed five of the stones, including this one, to his own residence (Blair's Castle, Cork) but they were later moved to the museum of the Royal Irish Academy (Brash 1879, 140; Macalister 1945, 92-93). 
                         </provenance>
-                        <provenance type="observed">Now in the collection of the National Museum of Ireland (see <idno type="SMR">DU018-373----</idno>).
+                        <provenance type="observed" when="2015">All six stones from Ballyhank are now in the collection of the National Museum of Ireland. This stone was recorded in 3d in 2015 as part of the Ogham in 3D project in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -128,7 +130,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, uncommented ITM coordinates.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty handDesc, translation and commentary</change>
-<change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
+<change when="2025-04-17" who="#POC">Added attributes for filtering</change>
+    <change when="2025-06-14" who="#NW">Updated and added information throughout.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -139,27 +143,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?">ᚋᚐᚊᚔ ᚓᚄᚓᚐ</name> <w type="formula">ᚋᚐᚊᚔ</w> <name nymRef="?">ᚇᚑᚋᚐᚅᚓᚊᚔ</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-esea?"><w>ᚋᚐᚊᚔ</w><w>ᚓᚄᚓᚐ</w></name> <w type="formula"><supplied reason="lost" cert="medium">ᚋᚐᚊᚔ</supplied></w> <name nymRef="?"><unclear reason="background_noise">ᚇ</unclear>ᚑᚋᚐ<unclear reason="eccentric_ductus">ᚅ</unclear>ᚓᚊᚔ</name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?">MAQI ESEA</name> <w type="formula">MAQI</w> <name nymRef="?">DOMANEQI</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-esea?"><w>MAQI</w><w>ESEA</w></name> <w type="formula"><supplied reason="lost" cert="medium">MAQ</supplied>I</w> <name nymRef="?"><unclear reason="background_noise">D</unclear>OMA<unclear reason="eccentric_ductus">N</unclear>EQI</name></persName> 
                 </ab>
             </div>
-           <!-- <div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app n="1"></app>
+                <app n="1"><note>DOMANEQI may be an error for DOMANENI.</note></app>
                 </listApp>
-            </div>-->
-            <!--<div type="translation">
-                <p></p>
-            </div>-->
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            </div>
+            <div type="translation">
+                <p>of Mac-Es? son of Domnach?</p>
+            </div>
+            <div type="commentary">
+                <p>The personal names in this inscription do not seem to be attested elsewhere in the ogham corpus.</p>
+            </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
@@ -168,6 +172,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl><ptr target="POW1997"/>
                         <citedRange>no. 7952</citedRange>
                     </bibl>
+                     <bibl><ptr target="ZIE1994"/> 
+                         <citedRange>168, 180</citedRange>
+                     </bibl>
                 </listBibl>
             </div>
         </body>
