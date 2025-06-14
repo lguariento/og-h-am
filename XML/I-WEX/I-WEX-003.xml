@@ -133,6 +133,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, moved logainm reference to around Irish placename, added citation details to image description.</change>
     <change when="2025-04-10" who="#POC">Updated execution encoding</change>
     <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
+    <change when="2025-06-14" who="#NW">Added nymrefs to edition</change>   
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,12 +146,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>           
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="*?">ᚄᚓᚇᚐᚅ<supplied reason="lost">ᚔ</supplied></name> <w lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied><unclear reason="damage">ᚊ</unclear><supplied reason="lost">ᚔ</supplied></w> <name nymRef="*?"><supplied reason="lost">ᚉᚐ<lb n="2" style="text-direction:across" break="no"/>ᚈ</supplied><unclear reason="damage">ᚈ</unclear>ᚐᚁᚁᚑ<lb n="3" style="text-direction:down" break="no"/>ᚈᚈ</name> <w lemma="avias">ᚐᚃᚃᚔ</w> <name nymRef="*?">ᚇᚓ<unclear reason="damage">ᚏᚉ</unclear>ᚋᚐᚄᚑᚉ</name></persName>                    
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#sedanias">ᚄᚓᚇᚐᚅ<supplied reason="lost">ᚔ</supplied></name> <w lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied><unclear reason="damage">ᚊ</unclear><supplied reason="lost">ᚔ</supplied></w> <name nymRef="#catubuts"><supplied reason="lost">ᚉᚐ<lb n="2" style="text-direction:across" break="no"/>ᚈ</supplied><unclear reason="damage">ᚈ</unclear>ᚐᚁᚁᚑ<lb n="3" style="text-direction:down" break="no"/>ᚈᚈ</name> <w lemma="avias">ᚐᚃᚃᚔ</w> <name nymRef="#?">ᚇᚓ<unclear reason="damage">ᚏᚉ</unclear>ᚋᚐᚄᚑᚉ</name></persName>                    
                      </ab>
                      </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>  
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="*?">SEDAN<supplied reason="lost">I</supplied></name> <w lemma="maqqas"><supplied reason="lost">MA</supplied><unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied></w> <name nymRef="*?"><supplied reason="lost">CA<lb n="2" style="text-direction:across" break="no"/>T</supplied><unclear reason="damage">T</unclear>ABBO<lb n="3" style="text-direction:down" break="no"/>TT</name> <w lemma="avias">AVVI</w> <name nymRef="*?">DE<unclear reason="damage">RC</unclear>MASOC</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#sedanias">SEDAN<supplied reason="lost">I</supplied></name> <w lemma="maqqas"><supplied reason="lost">MA</supplied><unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied></w> <name nymRef="#catubuts"><supplied reason="lost">CA<lb n="2" style="text-direction:across" break="no"/>T</supplied><unclear reason="damage">T</unclear>ABBO<lb n="3" style="text-direction:down" break="no"/>TT</name> <w lemma="avias">AVVI</w> <name nymRef="#?">DE<unclear reason="damage">RC</unclear>MASOC</name></persName>
                 </ab>
             </div>
             <div type="apparatus">
