@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cill Maoilchéadair | Kilmalkedar</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Robert Shaw</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>Capture: Artec Eva scanner <date when="2013-05-29"/>; Software: Artec, Geomagic Studio</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KER-055</idno>
+                 <idno type="CIIC">187</idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/KMKDR/3.html">KMKDR/3</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/www.trismegistos.org/text/172874">www.trismegistos.org/text/172874</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"/>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE042-026001-</idno></p> 
+                                    <material type="stone">Sandstone</material> <!-- MAC1945: grit (grit is a hard, coarse-grained, siliceous sandstone?)-->
+                                    <objectType key="monument">Pillar</objectType> 
+                                    <dimensions unit="m" source="3d_data">
+                                        <height>1.78</height>
+                                        <width>0.20</width>
+                                        <depth>0.24</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>A tall, narrow pillar (rhombus in section) with the inscription worn in places. <q>An hourglass-shaped perforation near the top of the stone measures .12m in depth and .07m in maximum diameter</q> (Cuppage 1986, no. 855).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_upR">The inscription, which is quite worn at the beginning, runs up the sinister angle and down the dexter. The remains of a presumably earlier ogham inscription is located lower down on a third angle (not accurate in Macalister's drawing).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Macalister describes the inscription as cut but it appears rather <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. However, the vowels do appear wedge-shaped and cut. The final two Ns have extra space between them, which may be to avoid an uneven surface on the stone.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Kilmalkedar (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/22685">Cill Maoilchéadair</ref></foreign>)</placeName>
+                                <placeName type="county">Co. Kerry</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.184760, -10.336555</geo>
+                            <note>ITM coordinates: 440220, 606235</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1856">Found at the Early Christian and Medieval ecclesiastical complex at <ref target="https://monasticon.celt.dias.ie/1881">Cell Máel-Chétair</ref> / Kilmalkedar (<idno type="SMR">KE042-026----</idno>, National Monument No. 65.). <q>Although reputedly founded by Máel-Chétair in the seventh century, the site is associated with St Brendan. The church was probably built in the mid twelfth century and remained important throughout the medieval period. Existing remains from the early Christian period include a corbelled building, perhaps a cell, some 50 m from the church... the sundial stone, the alphabet stone, a plain stone cross and some bullaun stones. There is also St Brendan's oratory, situated some 400 m from the church. Existing buildings dating from medieval times include the Romanesque church with some fine architectural sculpture, St Brendan's House and the Chancellor's House. There are also two wells and a number of cross-inscribed stones in the graveyard</q> (Okasha and Forsyth 2001, 171). Allen (1892, 265) noted that the ogham stone stood at that time (as it does now) at the north side of the cross in the graveyard. Allen (1892, 265-266) is the first published account of the ogham stone but he notes that Du Noyer sketched the inscription in 1856.</provenance>
+                        <provenance type="observed" when="2013">In situ, on the N side of the pathway leading through the graveyard to the church. This stone was recorded in 3d in 2013 as part of the Ogham in 3D project in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref>.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>    
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2025-05-19" who="#JB">
+Jef Bucas autogenerated batch EpiDoc output from spreadsheet
+</change>
+    <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+    <change when="2025-06-16" who="#NW">Added content and encoding to the generated file.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="IRE/I-KER/I-KER-055_Kilmalkedar.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <graphic url="example.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                    <lb n="1" style="text-direction:up"/>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><w type="formula" lemma="anmen"><supplied reason="lost">A</supplied><unclear reason="faded">N</unclear>M</w> <persName><name nymRef="#maila_eniberi">M<supplied reason="lost">A</supplied><unclear reason="faded">I</unclear>L<g ref="#forfid_X" type="interpretation_E"/>INBIR</name> <w type="formula" lemma="maqqas">MACI</w> <name nymRef="#broccagnas">BROCANN</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p><note>The remains of ANM, or possibly M and Q of MAQI (reading down instead of up), survives alone on a third (damaged) angle and is presumably from an earlier text on the stone.</note></p>
+            </div>
+            <div type="translation">
+                <p>Name/soul of Máel-Inbir son of Broccán</p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                     <bibl><ptr target="ALL1892"/>
+                        <citedRange>265-267</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>181</citedRange>
+                    </bibl>
+                     <bibl><ptr target="OKA2001"/>
+                        <citedRange>171</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
