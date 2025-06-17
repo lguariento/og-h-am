@@ -75,8 +75,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p> <ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record</ref> (PRN): <idno type="PRN">699</idno></p>
-                                    <material type="stone" source="RED2007">Conglomerate and sandstone</material> <note>Pale red imbedded conglomerate and sandstone</note>
+                                <support><p><ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record</ref> (PRN): <idno type="PRN">699</idno></p>
+                                    <material type="stone" source="RED2007">Sandstone</material> <note>Pale red imbedded conglomerate and sandstone</note>
                                     <objectType key="monument">Pillar</objectType> 
                                     <dimensions unit="m" source="RED2007">
                                         <height>2.20</height>
@@ -84,14 +84,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <depth>0.27</depth>
                                     </dimensions>
                                 </support>
-                                <condition/>
+                                <condition>According to Redknapp and Lewis (2007, 160), the stone is complete and in good condition. There is some weathering to letters on the left which is more pronounced at the top. The central section of the ogham inscription is worn, presumably by cattle.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_up">The ogham insciption starts at the bottom left edge continuing upwards along the top of the stone, and ending one third of the way along the top. The stone is inscribed with a corresponding roman-letter inscription in four lines reading vertically downwards. The first and final line in the inscription are the final words of the middle lines due to lack of space. This layout is similar to the Brynkir inscription and shows the letter-cutters' understanding of Roman convention for inscriptions of more than one line to be right-justified a certain height above the ground. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham and Latin inscriptions are <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. Macalister (1945, 314) described the inscriptions as <q>well cut, not pocked, and in broad lines</q>. According to Redknap and Lewis (2007, 160-1), some letters were carved with a bevel. The letters seem to reflect a higher degree of care put into the carving of TURPILLI, the name of the dead, than in the rest given more cramped letters in the rest of the inscription. In the ogham inscription, the fourth letter seems to be X, a variation of a character to represent P (Redknap and Lewis 2007, 160-1). 
+                            <handNote>The ogham and Latin inscriptions are <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. Macalister (1945, 314) described the inscriptions as <q>well cut, not pocked, and in broad lines</q>. According to Redknap and Lewis (2007, 160-1), some letters were cut with a bevel. In the ogham inscription, the fourth letter seems to be X, a variation of the forfeda character to represent P (Redknap and Lewis 2007, 161). The roman letter inscription features coarse capitals with one minuscule d. The cross-bar of the A in line three is angled; the Ns are reversed and the Rs have open loops with bars. In the roman letter inscription, there seems to be a higher degree of care in the execution of TURPILLI, the name of the dead, <q>which has competent horizontal spacing</q> than in the rest of the text given the more cramped letters in the rest of the inscription (Redknap and Lewis 2007, 161). 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -103,9 +103,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SO 225 193</note></origPlace>
                             <origDate notBefore="0500" notAfter="0599" evidence="linguistic" precision="medium">Sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found" when="1776">Ogham recorded in sketch in Archaeologia volume iv (1776). First recorded 1 mile NE of Crickhowell in a field belonging to Mr John Powel of Llangenny, removed and neglected by the side of a ploughed field in 1777.
+                        <provenance type="found" when="1776">The ogham-inscribed stone was first recorded 1 mile NE of Crickhowell <q>in a field belonging to Mr John Powel of Llangenny</q>, removed in 1777 and left <q>neglected by the side of a ploughed field</q> (Redknapp and Lewis 2007, 159). According to Brash (1871, 158-62), the stone was used as a foot-stone across a ditch. In 1948, the stone was acquired by Brecknock Museum. The ogham inscription was first recorded in a sketch in Archaeologia volume iv in 1776. 
                         </provenance>
-                        <provenance type="observed"><ref target="https://www.brecknocksociety.wales/brecknock-museum-art-gallery">Brecknock Museum, Brecon</ref>.
+                        <provenance type="observed">Now in <ref target="https://www.brecknocksociety.wales/brecknock-museum-art-gallery">Brecknock Museum, Brecon</ref>.
                         </provenance>
                     </history>
                 </msDesc>
@@ -161,6 +161,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-05-16" who="#NW">Edition update - changed X-forfid encoding to epigraphic variant of I-forfid (an X under or to right of the stem-line).</change>       
     <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
 <change when="2025-06-12" who="#POC">Added images</change>
+<change when="2025-06-17" who="#POC">Update provenance, add condition, update material, update commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -186,13 +187,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <div type="textpart" n="2">
                         <ab>                           
                             <lb n="1" style="text-direction:down"/><persName><name nymRef="#turpilius">TVR<g ref="#forfid_epig-I"/>ILLI</name> <w><supplied reason="omitted">H</supplied>IC</w> <w>IA<add place="above">CIT</add></w>
-                            <lb n="2" style="text-direction:down"/><w>PVVERI</w> <name nymRef="#trillunas">TRILVNI</name> <name nymRef="#dunacatus?">DVNOCA<add place="below"><hi rend="ligature">TI</hi></add></name></persName>
+                            <lb n="2" style="text-direction:down"/><w>PVVERI</w> <name nymRef="#trillunas">TRILVNI</name> <name nymRef="#dunacatus">DVNOCA<add place="below"><hi rend="ligature">TI</hi></add></name></persName>
                         </ab>                               
                     </div>           
             </div>
-              <div type="apparatus"/>
-                
-            
+              <div type="apparatus">
+                  <app n="1">
+                      <note>The ogham inscription consists of the same commemoration as the roman-letter inscription, except that the latter adds the formula <foreign xml:lang="la">hic iacit</foreign> 'here lies' and an extra name (<persName>Dunacatos</persName>) at the end. The ogham corresponding to TRILVNI has been read in various ways including T[RA]LL[O]NI but TRILLUNI is more likely. The ogham inscription is <q>notable for containing the symbol 'X', a rare attempt to represent the Latin P</q> (Redknapp and Lewis, 2007 162).  </note>
+                  </app>
+              </div>
             <!--Needs #DS/#KF attention--> 
             <div type="translation">
                 <div type="textpart" n="1" resp="RED2007">
@@ -203,11 +206,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="commentary">
-                <p>The ogham inscription consists of the same commemoration as the roman-letter inscription, except that the latter adds the formula <foreign xml:lang="la">hic iacit</foreign> 'here lies' and an extra name (<persName>Dunacatos</persName>) at the end. Dating depends on <q>the significance of the use of U for /u/>/ö/ in TVRPILLI... Assuming that the name DVNOCATI is Irish; if it were British, the insription would be very early and probably incompatible with the epigraphic date... The first name is either <persName>Turpilius</persName> or <persName>Turpilus</persName> both well attested. They are originally pejorative Latin names from <foreign xml:lang="la">turpis</foreign> and would have been borne by a Welshman or an Irishman</q> (Redknap and Lewis 2007, 161). The ogham corresponding to TRILVNI has been read in various ways including T[RA]LL[O]NI but TRILLUNI is more likely. <q>Various Welsh etymologies can be suggested, such as 'of three forms' (Rhys 1879, 381-2), 'very abundant' (<foreign xml:lang="cy">trylawn</foreign>), 'very strong' (<foreign xml:lang="cy">trylonn</foreign> or 'of three moons', perhaps referrring to the time of birth</q> (Redknap and Lewis 2007, 162). It is also possible that TRILVNI is a mis-transcription of the ogham with the L symbol potentially really representing a BB in TRIBBUNI and BB standing in for /b/ or P. The ogham inscription is <q>notable for containing the symbol 'X', a rare attempt to represent the Latin P... <persName>Dunacatus</persName> is made up of Irish elements, but is a name not found in ogham inscriptions, though it developed later into the Old Irish name <persName xml:lang="sga">Dúnchad</persName></q> (Redknap and Lewis 2007, 161-2).</p>
-                   <p>Corresponding to the ogham inscription's MOSAC (as read and interpreted by Macalister 1945, 315), the Latin inscription has PVVERI instead of Classical Latin <foreign xml:lang="la">pueri</foreign>, 'of the boy'. Here the VV denotes the British pronunciation /uṷ/. <q>Charles Thomas (1994, 124) suggests that TRILVNI was intended for TRIBUNI, as in CIIC. 476/Okasha 1993: no. 45, TRIBVNI (Latin <foreign xml:lang="la">tribunus</foreign> or personal name <persName>Tribunus</persName>), with Roman B miscopied as L, and suggests that it is the same name as <persName>Triphun</persName> in the Dyfed king-list... DVNOCATI (also attested in Britain in CIIC. 457/Okasha 1993: no. 18 DVNOCATI with Irish patronymic) can be the ancestor of either Irish <persName xml:lang="sga">Dúnchad</persName> or Old Welsh <persName xml:lang="owl">Din(a)cat</persName>, Middle Welsh <persName xml:lang="wlm">Din(o)gat</persName>, both well attested personal names. It is probably Irish since /u:/ has already changed via /ü:/ to /i:/ in Britonnic in the <q>middle of the fifth century</q> according to Jackson... The Primitive Irish genitive would be *<foreign xml:lang="pgl">Dūnacatōs</foreign>, but Latinate -I can be expected to replace the Irish -OS in Britain. It is less likely that DVNOCATI is a place-name (functioning like SALICIDVNI in the Llywel inscription) although a place in south Wales called <placeName xml:lang="cy">Brehant Din Cat</placeName>, '<foreign xml:lang="la">guttur receptaculum pugnae</foreign>' is mentioned by the ninth-century Breton hagiographer Wrmonoc.</q> (Redknap and Lewis 2007, 161-2).</p> 
+                <p>Sim-Williams (Redknapp and Lewis 2007, 161) notes that <q>the first name is either <persName>Turpilius</persName> or <persName>Turpilus</persName> both well attested. They are originally pejorative Latin names from <foreign xml:lang="la">turpis</foreign> and would have been borne by a Welshman or an Irishman</q>. According to Sims-Williams, the suggested second word, MOSAC ('servant'?), is obscure but possibly connected with OI <foreign xml:lang="sga"><ref target="https://dil.ie/32600">mosach</ref></foreign> 'stinking'. Regarding the second personal name, <persName>Trillunus</persName>, there are various possible Welsh etymologies <q>such as 'of three forms' (Rhys 1879, 381-2), 'very abundant' (<foreign xml:lang="cy">trylawn</foreign>), 'very strong' (<foreign xml:lang="cy">trylonn</foreign> or 'of three moons', perhaps referrring to the time of birth</q> (Redknapp and Lewis 2007, 161).</p>
+                <p>The name <q><persName>Dunacatus</persName> in the roman letter inscription is made up of Irish elements, but is a name not found in ogham inscriptions, though it developed later into the Old Irish name <persName xml:lang="sga">Dúnchad</persName></q> (Redknap and Lewis 2007, 161-2). DVNOCATI (also attested in Britain in CIIC. 457/Okasha 1993: no. 18 DVNOCATI with Irish patronymic) can be the ancestor of either Irish <persName xml:lang="sga">Dúnchad</persName> or Old Welsh <persName xml:lang="owl">Din(a)cat</persName>, Middle Welsh <persName xml:lang="wlm">Din(o)gat</persName>, both well attested personal names. It is probably Irish and the Primitive Irish genitive would be *<foreign xml:lang="pgl">Dūnacatōs</foreign>, but Latinate -I can be expected to replace the Irish -OS in Britain. It is less likely that DVNOCATI is a place-name (functioning like SALICIDVNI in the Llywel inscription) although a place in south Wales called <placeName xml:lang="cy">Brehant Din Cat</placeName>, '<foreign xml:lang="la">guttur receptaculum pugnae</foreign>' is mentioned by the ninth-century Breton hagiographer Wrmonoc. (Redknap and Lewis 2007, 161-2).</p>
             </div>
             <div type="bibliography">
-                <listBibl>                
+                <listBibl>
+                    <bibl><ptr target="BRA1871"/>
+                        <citedRange unit="page">158-62</citedRange>
+                    </bibl>
                 <bibl><ptr target="MAC1945"/>
                      <citedRange unit="page">314-316, no. 327</citedRange>
                 </bibl>
