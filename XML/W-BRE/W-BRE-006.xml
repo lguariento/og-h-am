@@ -72,19 +72,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <objectType key="monument">Slab</objectType>
                                     <dimensions unit="m" source="RED2007">
                                         <height>1.82</height>
-                                        <width>0.60</width>
+                                        <width max="0.60" min="0.38">0.60</width>
                                         <depth>0.14</depth>
                                     </dimensions>
                                     <desc type="decoration">The stone is inscribed on one side and decorated with <rs type="decoration" key="Pictograph">pictographs</rs> on the other. A <rs type="decoration" key="cross">Latin cross</rs> was subsequently inserted at the centre of the Latin inscription. The stone was later inverted and the back decorated with a series of three vertical panels, each containing a pictogram with a human figure (see Redknap and Lewis 2007 for discussion).</desc>
                                 </support>
-                                <condition>Top missing and bottom trimmed.</condition>
+                                <condition>The top of the stone is missing and the bottom has been trimmed. The rest of the stone is in good condition except for an unfinished drilled hole on its inscribed face. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_upR">An ogham inscription runs along the right-hand edge, reading vertically upwards. A corresponding Latin inscription runs vertically down the middle of the stone in one line reading downwards. </layout>
+                                <layout style="vertical" rend="arris_upR">The ogham inscription runs along the right-hand edge, reading vertically upwards. A corresponding Latin inscription runs vertically down the middle of the stone in one line reading downwards. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham inscription is neatly <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The Roman capitals are <q>well-spaced, but with no writing-line. Economy of effort shown in making the second inverted V of the opening M to serve also as the A of MACUTRENI, as in Llywel (Crai) 1 (B41). Both in the LICI and NI of tthe SALICIDUNI the design has allowed breathing space for the Is, showing that he had some training</q> (Redknap and Lewis 2007, 238).
+                            <handNote>The ogham inscription is neatly <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The roman letter inscription consists of well-spaced capitals but there is <q>no writing-line</q> (Redknap and Lewis 2007, 238). Redknap and Lewis (2007, 238) also note that there is an <q>economy of effort shown in making the second inverted V of the opening M to serve also as the A of MACUTRENI, as in Llywel (Crai) 1 (B41). Both in the LICI and NI of the SALICIDUNI the designer has allowed breathing space for the Is</q>, demonstrating that the lapidary had some training.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -96,9 +96,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SN 8829 2645</note></origPlace>
                             <origDate notBefore="0500" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic"></origDate>
                         </origin>
-                        <provenance type="found">The stone was first recognised as significant by Revd Lewis Price, vicar of Llywel in April 1876. <q>The monument stood on the side of the road from Trecastle to Glasfynydd upon a heap of stones with which it seems at one time to have been covered; and it was rescued from being converted to a gatepost just in time. Soon afterwards it was transferred to the British Musuem</q> (Macalister 1945, 326). Known as the Llywel or Trecastle Stone.
+                        <provenance type="found" when="1876">Known as the Llywel or Trecastle Stone, it was first recognised as significant by Revd Lewis Price, vicar of Llywel in April 1876. According to Macalister (1945, 326), <q>the monument stood on the side of the road from Trecastle to Glasfynydd upon a heap of stones with which it seems at one time to have been covered; and it was rescued from being converted to a gatepost just in time.</q> The stone was sold to the British Museum on 11 February 1878.
                         </provenance>
-                        <provenance type="observed"><ref target="https://www.britishmuseum.org/collection/object/H_1878-1102-1">The British Museum</ref>, London.
+                        <provenance type="observed">Now in <ref target="https://www.britishmuseum.org/collection/object/H_1878-1102-1">The British Museum</ref>, London.
                         </provenance>
                     </history>
                 </msDesc>
@@ -120,9 +120,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <language ident="ga">Irish</language>
 </langUsage>
 <textClass>
-<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
-<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
-</keywords>-->
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
 </textClass>
     <creation>Transcription from previous editor.</creation>
 </profileDesc>
@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-14" who="#POC">Updated execution type, updated layout attribute value</change>
 <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
 <change when="2025-06-04" who="#POC">Update edition with glyphs instead of hex codes</change>
+<change when="2025-06-18" who="#POC">Update all sections</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -169,7 +170,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note>As Redknapp and Lewis (2007, 238) recount, Macalister (1945, 326) read G for C in the roman-letter Saliciduni, but there seems to be no grounds for doubting the C reading. Macalister (1945, 326) also notes the use of double C in MACCV in the roman-letter inscription to correspond with the Q in MAQI in the ogham inscription. </note>
+                </app>
             </div>
              <div type="translation">
                 <div type="textpart" n="1" resp="RED2007">
@@ -180,7 +183,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </div>
             </div>
                         <div type="commentary">
-                            <p>The name MAQITRENI / [M]ACCVTRENI is Irish and the same as that inscribed on Llywel (Crai) B41. According to the Welsh Corpus this could <q>conceivably [be] the same person (if so, he must be named as the father, rather than the deceased, on at least one of the two stones!)</q> (Redknap and Lewis 2007, 238) The two stones could indicate the placement of the estate of Maccutrenus or they could have <q>formed the nucleus of an early Christian burial-ground</q> (Redknap and Lewis 2007, 238). However, this is not certain as the name also appears to have been popular in Britain and Ireland. The second element of the name may be related to Welsh <foreign xml:lang="cy">trwyn</foreign> in the name <persName>Cyndrwyn</persName>. On the second half of the inscription, the Welsh Corpus notes that <q>SALICIDUNI / SALICIDVNI may be Welsh or Irish... the name means 'willow fort', and could be a personal name or a place-name, Salicidunum, associated with the deceased</q> (Redknap and Lewis 2007, 238). On the context of this stone, the Welsh Corpus notes that <q>this stone belongs to a small group (Crickhowell 1 (B2), Defynnog 1(B4), Llywel 1 (B41) and Trallwng 1 (B45)) in the Upper Usk Valley commemorating men with Irish names, some of which are also found in north-west Pembrokeshire (Nash-Williams 1950, no 425)</q>.</p>
+                            <p>The name MAQITRENI / [M]ACCVTRENI is Irish and the same as that inscribed on Llywel (Crai) B41. According to Sims-Williams (Redknapp and Lewis 2007, 238), this could conceivably be the same person. The two stones could indicate the placement of the estate of Maccutrenus or they could have <q>formed the nucleus of an early Christian burial-ground</q> (Redknap and Lewis 2007, 238). However, this is not certain as the name also appears to have been popular in Britain and Ireland. The second element of the name may be related to Welsh <foreign xml:lang="cy">trwyn</foreign> in the name <persName>Cyndrwyn</persName>. Regarding the name SALICIDUNI / SALICIDVNI, Sims-Williams notes that it may be Welsh or Irish. SALICIDUNI / SALICIDVNI means 'willow fort', and could be a personal name or a place-name, Salicidunum, associated with the deceased (Redknap and Lewis 2007, 238).</p>    
+                            <p>On the context of this stone, Redknapp and Lewis (2007, 238) note that <q>this stone belongs to a small group (Crickhowell 1 (B2), Defynnog 1(B4), Llywel 1 (B41) and Trallwng 1 (B45)) in the Upper Usk Valley commemorating men with Irish names, some of which are also found in north-west Pembrokeshire (Nash-Williams 1950, no 425)</q>.</p>
                         </div>
             <div type="bibliography">
                 <listBibl>
