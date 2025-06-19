@@ -70,17 +70,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <objectType key="monument">Pillar</objectType>
                                     <dimensions unit="m" source="RED2007">
                                         <height>1.82</height>
-                                        <width>0.33</width>
-                                        <depth>0.24</depth></dimensions>
+                                        <width max="0.33" min="0.28">0.33</width>
+                                        <depth max="0.24" min="0.14">0.24</depth>
+                                    </dimensions>
                                 </support>
-                                <condition/>
+                                <condition>Redknap and Lewis (2007, 231) note that <q>there is some damage to the top of the stone, and longitudinal lamination along bedding plane at right angles to the face, so that the stone is in two halves</q>. The right side shows signs of weathering. The ogham inscription obliterates part of the Latin inscription. The Latin inscription is fragmentary as a result, with only the right edge of the inscription surviving. The Latin inscription was <q>partially removed by the chamfering of both edges of the lower half of the stone</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="other">The Ogham inscription is apparently <q>not cut in relation to any precise arris, as for most of its height the edge of a chamfer is not obvious on this side</q> (Redknap and Lewis 2007, 231-2). The Ogham inscription reads vertically upwards across the chamfer of the upper left edge of the stone, using the inner edge of the chamfer as an arris. The Ogham inscription was cut after the roman-letter inscription, obliterating part of it. The roman-letter inscription is in five lines, reading horizontally across. The third and fourth lines are apparently underscored. The roman-letter inscription was partially removed when the stone was chamfered on both edges of the stone. </layout>
+                                <layout style="vertical" rend="other">The ogham inscription is apparently <q>not cut in relation to any precise arris, as for most of its height the edge of a chamfer is not obvious on this side</q> (Redknap and Lewis 2007, 231-2). The ogham inscription reads vertically upwards across the chamfer of the upper left edge of the stone, using the inner edge of the chamfer as an arris. The ogham inscription was cut after the roman-letter inscription. The roman-letter inscription is in five lines, reading horizontally across. The third and fourth lines are apparently underscored. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Both inscriptions appear <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The Roman-letter inscription is described in the Welsh Corpus as <q>crude...showing no signs of regular ruling or letter-spacing...Of the three horizontal score-marks, only the third line of letters appears to use one as a guide. The three terminal Ss are different, the strokes put on so freely that the two diagonals of the last V do not meet</q> (Redknap and Lewis 2007, 231-2).  
+                            <handNote>Both inscriptions appear <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The Roman-letter inscription consists of <q>crude</q> capitals and shows <q>no signs of regular ruling or letter-spacing. Of the three horizontal score-marks, only the third line of letters appears to use one as a guide</q> (Redknap and Lewis 2007, 231). Redknap and Lewis (2007, 231) note that the three terminal Ss are different, the strokes put on so freely that the two diagonals of the last V do not meet.  
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -92,9 +93,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </origPlace>
                             <origDate notBefore="0520" notAfter="0580" datingMethod="#julian" evidence="linguistic">Mid-sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found">Recognised in 1954, forming part of a drystone hedge blocking a disused trackway along the south side of the river Usk at Aberhydfer. Initial reading published 1975.
+                        <provenance type="found" when="1954">The stone was recognised in 1954, forming part of a drystone hedge blocking a disused trackway along the south side of the river Usk at <placeName>Aberhydfer</placeName>. The stone was subsequently moved into Llywel Church. The first reading of the inscription was published 1975.
                         </provenance>
-                        <provenance type="observed">Fixed against the west wall of the nave in St David's parish church, Llywel (NE of the findspot). <!--51.957741, -3.647164-->
+                        <provenance type="observed">The stone is now fixed against the west wall of the nave in St David's parish church, Llywel (NE of the findspot). <!--51.957741, -3.647164-->
                         </provenance>
                     </history>
                 </msDesc>
@@ -139,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-04" who="#NW">Added current location coordintes in comment</change>
     <change when="2025-06-04" who="#POC">Update edition with glyphs instead of hex codes</change>
 <change when="2025-06-12" who="#POC">Added images</change>
+<change when="2025-06-19" who="#POC">Update all sections</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,21 +154,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve">
                <div type="textpart" n="1" >
                     <ab>
-                      <lb n="1" style="text-direction:up"/><persName><name nymRef="#taricoras?">ᚈᚐᚏᚔᚉᚑᚏ
-                       <choice>
-                            <unclear reason="broken">ᚑ</unclear>
-                            <unclear reason="broken">ᚐ</unclear>
-                      </choice></name></persName>                               
+                      <lb n="1" style="text-direction:up"/><persName><name nymRef="#taricoras?">ᚈᚐᚏᚔᚉᚑᚏ<choice><unclear reason="broken">ᚑ</unclear><unclear reason="broken">ᚐ</unclear></choice></name></persName>                               
                     </ab>
                 </div>
             </div>            
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve">               
                     <ab>
-                       <lb n="1" style="text-cirection:up"/><persName><name nymRef="#taricoras?">TARICOR
-                           <choice>
-                               <unclear reason="broken">O</unclear>
-                               <unclear reason="broken">A</unclear>
-                           </choice></name></persName>
+                       <lb n="1" style="text-cirection:up"/><persName><name nymRef="#taricoras?">TARICOR<choice><unclear reason="broken">O</unclear><unclear reason="broken">A</unclear></choice></name></persName>
                     </ab>
             </div>
               <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve">
@@ -181,7 +175,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </div>
               </div>
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note>The ogham inscription is remarkable in being the only known example of an ogham inscription overlying a Latin one. It is further notable in that the two inscriptions do not appear to be related. </note>
+                </app>
             </div>
             <div type="translation">               
                 <div type="textpart" n="1" source="RED2007">
@@ -192,8 +188,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="commentary">
-                        <p>It is impossible to recreate the first line of the Roman-letter inscription '[...]CIVS' as this is a very common name-ending. There are also a number of possible suggestions for the last name, including <persName xml:lang="la">Maurianus</persName>, <persName xml:lang="la">Taurianus</persName> and <persName xml:lang="la">Scaurianus</persName>. Thus, the recreation of the inscription for translation to English is subject to debate. Tomlin (1975) suggested that <q>with its arrangement in short horizontal lines, the medial stop after the S in the second line and the purely Latin character of its word-endings, this inscription appears to [be] sub-Roman rather than 'Early Christian' in character</q> (Redknap and Lewis 2007, 231-3).</p>
-                    <p>The ogham inscription is remarkable in being the only known example of an ogham inscription overlying a Latin one. It is further notable in that the two inscriptions do not appear to be related. The word/name in the inscription, TARICORO, is obscure but likely Irish. Thomas (1994) compares TARICORO with OI <foreign xml:lang="sg">Tairmesc</foreign> in which <foreign>Tair-</foreign> is prepositional. The Welsh Corpus notes that <q>a possible second element is *<foreign>kor-</foreign> 'cast, throw' (Old Irish <foreign xml:lang="sga">cuir-</foreign>)</q> (Redknap and Lewis 2007, 231-3).</p>
+                    <p>Sims-Williams (Redknap and Lewis 2007, 231) maintains that TARICORO is obscure but likely Irish. Thomas (1994, 119) compares TARICORO with OI <foreign xml:lang="sga">Tairmesc</foreign> in which <foreign xml:lang="sga">Tair-</foreign> is prepositional. Sims-Williams (Redknap and Lewis 2007, 231) also notes that <q>a possible second element is *<foreign xml:lang="sga">kor-</foreign> 'cast, throw' (Old Irish <foreign xml:lang="sga">cuir-</foreign>)</q>.</p>
+                <p>It is impossible to restore the first line of the Roman-letter inscription '[...]CIVS' as this is a very common name-ending. Sims-Williams (Redknap and Lewis 2007, 231) also notes that there are a number of possible suggestions for the last name, including <persName xml:lang="la">Maurianus</persName>, <persName xml:lang="la">Taurianus</persName> and <persName xml:lang="la">Laurianus</persName>. Tomlin (1975) suggested that <q>with its arrangement in short horizontal lines, the medial stop after the S in the second line and the purely Latin character of its word-endings</q>, the roman-letter inscription appears to be <q>sub-Roman rather than 'Early Christian' in character</q> (Redknap and Lewis 2007, 231).</p>
             </div>
            <div type="bibliography">                          
                 <listBibl>
