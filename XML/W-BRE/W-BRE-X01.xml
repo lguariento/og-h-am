@@ -70,14 +70,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <width>unknown</width>
                                         <depth>unknown</depth>
                                     </dimensions>--></support>
-                                <condition>No inscriptions are visible on the stone today. The inscriptions recorded by Macalister were fragmentary as it was assumed that cattle rubbing had removed further letters from the stone. RCAHMW recorded scratches on the stone but these are suggested to be from wire chafing.</condition>
+                                <condition>No inscriptions are visible on the stone today. The inscriptions recorded by Macalister (1945, 324) were fragmentary as it was assumed that cattle rubbing had removed further letters from the stone. According to Macalister (1945, 324) only three letters of the ogham inscription could be seen and the roman inscription was <q>so completely worn down by cattle and weather, that it was quite impossible to feel any certainty about</q> the letters. RCAHMW recorded scratches on the stone but these are suggested to be from wire chafing.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">Macalister suggested the presence of an Ogham inscription on the north-west angle of the stone as well as a Roman-letter inscription on the south-face of the stone <q>below the modern socket cut in the middle of the face 1.3m above the ground</q>(Redknap and Lewis 2007, 542). However, he has stated that his suggestion of the presence of the Roman-letter inscription was given <q>without any conviction</q> (MacAlister 1922, 542). If the inscriptions were present, the Ogham likely would have read vertically upwards and the Roman-letter inscription likely would have read vertically downwards but this is uncertain. </layout>                            
+                                <layout style="vertical" rend="arris_up">Macalister (1945, 324) suggested the presence of an ogham inscription on the north-west angle of the stone as well as a Roman-letter inscription on the south-face of the stone <q>below the modern socket cut in the middle of the face 1.3m above the ground</q>(Redknap and Lewis 2007, 542). However, Macalister (1945, 324) stated that his suggestion of the presence of the Roman-letter inscription was given <q>without any conviction</q> (see also Macalister 1922, 219). If the inscriptions were present, the ogham likely would have read vertically upwards and the Roman-letter inscription likely would have read vertically downwards but this is uncertain. </layout>                            
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>There is no evidence to indicate how the inscriptions might have been carved, so the execution technique remains <rs type="execution" key="other">unknown</rs>. 
+                            <handNote>There is no evidence to indicate how these alleged inscriptions might have been carved, so the execution technique remains <rs type="execution" key="other">unknown</rs>. 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -87,9 +87,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.884656, -3.236375</geo></origPlace>
                             <origDate></origDate>
                         </origin>
-                        <provenance type="found" when="1922">Ogham recorded by Macalister in 1922; no letters now visible. Macalister made the assessment <q>without any conviction</q>.
+                        <provenance type="found" when="1922">Also known as the Llygadwy Stone, the stone stands in a field on the east side of <placeName>Bwlch</placeName>. The possibility that this stone once bore an ogham inscription was first suggested by Macalister in 1922 and a reading of the fragmentary ogham inscription was published in 1945. 
                         </provenance>
-                        <provenance type="observed">Stands in a field on the east side of Bwlch.
+                        <provenance type="observed">In situ.
                         </provenance>
                     </history>
                 </msDesc>
@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <change when="2025-04-23" who="#POC">Added encoding description and text type link</change>
 <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
     <change when="2025-06-04" who="#POC">Update edition with glyphs instead of hex codes</change>
+<change when="2025-06-19" who="#POC">Update with information from Macalister 1945 and Redknap and Lewis 2007</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -139,19 +140,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" resp="MAC1922">
+            <div type="edition" subtype="ogham" xml:space="preserve" resp="MAC1945">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
                     <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unknown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>ᚐᚋᚓ<gap reason="lost" extent="unknown" unit="character"/></del> 
                 </ab>
                 </div>
             </div>
-              <div type="edition" subtype="transliteration" xml:space="preserve" resp="MAC1922">
+              <div type="edition" subtype="transliteration" xml:space="preserve" resp="MAC1945">
                     <ab>
                         <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unknown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>AME<gap reason="lost" extent="unknown" unit="character"/></del> 
                     </ab>
             </div>
-            <div type="edition" subtype="roman" xml:space="preserve" resp="MAC1922">
+            <div type="edition" subtype="roman" xml:space="preserve" resp="MAC1945">
                 <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
                     <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unkown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>LII<gap reason="lost" extent="unknown" unit="character"/></del>
@@ -159,23 +160,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p>The RCAHMW determined that <q>no such inscriptions can now be seen</q> (Redknap and Lewis 2007, 542). </p>
             </div>
             <div type="translation">
                 <p>No translation given</p>
             </div>
             <div type="commentary">
-                <p> The stone may have been a lost monastic marker (Morgan 1983) but it has also been suggested that it may be post-medieval due to its smooth sides, function as a rubbing-post and due to evidence of post-medieval quarrying nearby. The Welsh Corpus comments on the name of the stone stating that <q>the name <persName>Llygadwy</persName> (earlier <foreign>Llygadyw</foreign>, possibly <foreign>Llygad Duw</foreign>, 'eye of God') is derived from a nearby ruin, which appears on OS maps with this name</q> (Redknap and Lewis 2007, 542).</p>
+                <p>According to Morgan (1983: 43), the stone may have been a lost monastic marker and that <q>the smooth-sided form of the stone, its rubbing-post function and the evidence of quarrying to the south might indicate a postmedieval date</q>. Redknap and Lewis (2007, 542) note that the name of the stone <q><foreign xml:lang="cy">Llygadwy</foreign> (earlier <foreign xml:lang="wlm">Llygadyw</foreign>, possibly <foreign xml:lang="owl">Llygad Duw</foreign>, 'eye of God') is derived from a nearby ruin, which appears on OS maps with this name</q> (Redknap and Lewis 2007, 542).</p>
             </div>
             <div type="bibliography">
-                
                 <listBibl>
                     <bibl><ptr target="RED2007"/>
                         <citedRange unit="page">542</citedRange>
                     </bibl>
                     <bibl><ptr target="MAC1922"/>
+                        <citedRange unit="page">219</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange unit="page">324</citedRange>
                     </bibl>
                     <bibl><ptr target="MOR1983"/>
+                        <citedRange>43</citedRange>
                     </bibl>
                 </listBibl>
             </div>
