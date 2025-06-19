@@ -65,17 +65,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p>Maen Llia <term>rejected monument</term> <ref target="https://archwilio.org.uk/">CPAT Regional Historic Environment Record</ref>: <idno type="HER">3225</idno></p>
                                     <material type="stone">Unknown</material> 
                                     <objectType key="monument">Slab</objectType> 
-                                    <!--<dimensions unit="m">
-                                        <height>unknown</height>
-                                        <width>unknown</width>
-                                        <depth>unknown</depth>
-                                    </dimensions>-->
+                                    <dimensions unit="m" source="MAC1945">
+                                        <height>3.40</height>
+                                        <width>2.54</width>
+                                        <depth>0.30</depth>
+                                    </dimensions>
                                 </support>
-                                <condition>Neither inscription is visible on the stone today.</condition>
+                                <condition>Neither the ogham or roman-letter inscription is visible on the stone today. Macalister (1945, 329) states that he detected traces of both ogham and roman letters upon the stone but that <q>the lettering—if it be lettering—is reduced practically to evanescence</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1922, 202) suggested the presence of both an Ogham and a Roman-letter inscription on the stone:
-                                    <q>On the broad face towards the road, a little to the right of the central axis, he detected a Latin inscription in two vertical lines reading downwards...he also detected an ogam inscription on the south angle</q> (Redknap and Lewis 2007, 547). </layout>
+                                <layout style="vertical" rend="arris_up">According to Macalister (1922, 202), the broad face of the stone which is turned towards the road is incised with both an ogham and roman-letter inscription. The ogham inscription occupied the south angle of the stone, presumably reading upwards, and the <q>surviving letters are just above the angle in the edge of the stone</q> (Macalister 1945, 330). The roman-letter inscription consists of two lines, reading top downwards, but not vertical. Instead the two lines are <q>more or less parallel with the sinister edge below the angle just mentioned</q> (Macalister 1945, 330). 
+</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -89,9 +89,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.860975, -3.563928</geo> </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">Ogham and Latin inscription suggested Roman and Ogham inscriptions in 1922, pg 202; Welsh Corpus suggests 'unconvincing' and lists it as a 'Rejected monument'.
+                        <provenance type="found">The stone stands on moorland at 430 m above ordnance datum at the head of the pass between Fan Llia and Fan Nedd, near the spring source of the little river Llia. Macalister (1922, 202) was the first to suggest the presence of ogham and roman-letter inscriptions. 
                         </provenance>
-                        <provenance type="observed">Stands on moorland at 430 m above ordnance datum at the head of the pass between Fan Llia and Fan Nedd, near the spring source of the little river Llia.
+                        <provenance type="observed">In situ.
                         </provenance>
                     </history>
                 </msDesc>
@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <change when="2025-04-23" who="#POC">Added encoding description and text type link</change>
 <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
 <change when="2025-06-04" who="#POC">Update edition with glyphs instead of hex codes</change>
+<change when="2025-06-19" who="#POC">Added information converted measurements from Macalister</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -162,13 +163,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
             </div>
             <div type="apparatus">
-                <p></p>
+                <app n="1">
+                    <note>Macalister (1945, 330) provided the following tentative reading:</note>
+                    <rdg>Ogham: VASSO(G?)</rdg>
+                    <rdg><lb n="1"/>Roman: ROVEVI
+                    <lb n="2"/>S....SOVI</rdg>
+                </app>
             </div>
             <div type="translation">
                 <p>No translation is offered for either inscription</p>
             </div>
             <div type="commentary">
-                <p>Macalister expanded the two Ogham characters he read to interpret the inscription as VASSO(G?) with uncertain grounds. Neither the Ogham nor the Roman-letter inscriptions were given further interpretation or translation. The Welsh Corpus is unconvinced of the presence of inscription, describing evidence for their presence today as <q>unconvincing</q> while also stating that <q>the assumption must be that the stone is prehistoric: certainly the kinds of legend frequently associated with such stones seems to have accumulated around it. One claims that whenever a cock crows, the stone moves off to drink in the river Nedd; in another the stone visits the river Mellte on Midsummer morning</q> (Redknap and Lewis 2007, 547; Grinsell 1976, 59).
+                <p>Redknapp and Lewis (2007, 547) maintain that the evidence for the ogham and roman-letter inscriptions is <q>unconvincing</q> and list the stone as a 'Rejected monument'. According to Redknap and Lewis (2007, 547), <q>the assumption must be that the stone is prehistoric: certainly the kinds of legend frequently associated with such stones seem to have accumulated around it. One claims that whenever a cock crows, the stone moves off to drink in the river Nedd; in another the stone visits the river Mellte on Midsummer morning</q> (Grinsell 1976, 59).
                 </p>
             </div>
             <div type="bibliography">
@@ -179,6 +185,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                    <bibl><ptr target="MAC1922"/>
                        <citedRange unit="page">202</citedRange>
                    </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                    <citedRange>329-30</citedRange>
+                    </bibl>
                     <bibl><ptr target="GRI1976"/>
                         <citedRange unit="page">59</citedRange>
                     </bibl>
