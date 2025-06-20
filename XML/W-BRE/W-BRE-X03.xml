@@ -67,15 +67,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <dimensions unit="m">
                                         <height>1.63</height>
                                         <width>0.28</width>
+                                        <depth>No depth measurement of the stone is possible as it is currently cemented into the recess of a church buttress.</depth>
                                         </dimensions></support>
-                                <condition/>
+                                <condition>The slab is covered by a small amount of lichen (Redknap and Lewis, 2007 194). Macalister (1945, 322) notes that the roman letters are in <q>good condition</q> and the reading is <q>quite clear</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The presence of ogham is not mentioned. The stone is inscribed with a Roman letter inscription in two lines, reading vertically upwards. </layout>
+                                <layout>The presence of ogham is not mentioned. The stone is inscribed with a roman-letter inscription in two lines, reading vertically upwards.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="roman">The inscription is described as <q>boldly worked</q> likely carved (Redknap and Lewis 2007, 194). The inscription is in <q>mixed capitals, having a general similarity to insular geometric forms. The As have angled cross-bars, the uprights intersecting at the top; similarly the uprights of the Vs extend below the body of the letter, and have a forked serif at the base; the Cs are rectangular also enlarged Ss with exaggerated curves, the final S of <foreign xml:lang="la">Tegernacus</foreign> reversed; quasi-miniscule F and H (of rectangular form); N with horizontal middle stroke, and R with tail angled above the horizontal...[the cutter's] Ss are perhaps a special demonstration of skill...the inscription suggests an experienced stone-carver unused to lettering, for he shows no awareness of the parallel bands of a writing-line, or the repeat patterning of an alphabet with a rectangular core-form</q> (Redknap and Lewis 2007, 194).
+                            <handNote script="roman">The roman-letter inscription is described as <q>boldly worked</q> (Redknap and Lewis 2007, 194). The inscription is in <q>mixed capitals, having a general similarity to insular geometric forms. The As have angled cross-bars, the uprights intersecting at the top; similarly the uprights of the Vs extend below the body of the letter, and have a forked serif at the base; the Cs are rectangular also enlarged Ss with exaggerated curves, the final S of <foreign xml:lang="la">Tegernacus</foreign> reversed; quasi-miniscule F and H (of rectangular form); N with horizontal middle stroke, and R with tail angled above the horizontal. </q> According to Redknap and Lewis (2007, 194), the <q>Ss are perhaps a special demonstration of skill</q> and <q>the inscription suggests an experienced stone-carver unused to lettering, for he shows no awareness of the parallel bands of a writing-line, or the repeat patterning of an alphabet with a rectangular core-form</q>.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -85,9 +86,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.889481, -3.204539</geo></origPlace>
                             <origDate notBefore="0600" notAfter="0640" precision="low" datingMethod="#julian" evidence="linguistic">Early seventh century A.D.</origDate>
                         </origin>
-                        <provenance type="found">I think this is the correct stone, despite the difference in OS coordinates provided by Babelstone vs the Corpus; the OS coordinates from the Welsh corpus place it close to the Roman fort of Pen-y-gaer, while the coordinates from Babelstone place it closer to Bwlch. The marker on the Ogham stones Google Map suggests that the OS coordinates provided by Babelstone could be a typo. However there is no mention of the presence of ogham on this stone, or postulated ogham inscriptions, apart from its mention as an Ogham stone on the OS Map of Britain in the Dark Ages.
+                        <provenance type="found">The original site of the stone is unknown but a bronze plate at the slab's present location records that the stone <q>was removed from a field called <placeName xml:lang="cy">Tir Gwenlli</placeName>, about one mile S.S.W. of this Church of St. Michael Cwmdu</q> (Macalister 1945, 322). There is no mention of the presence of ogham on this stone, or postulated ogham inscriptions, apart from its mention as an ogham stone on the OS Map of Britain in the Dark Ages. <!--I think this is the correct stone, despite the difference in OS coordinates provided by Babelstone vs the Corpus; the OS coordinates from the Welsh corpus place it close to the Roman fort of Pen-y-gaer, while the coordinates from Babelstone place it closer to Bwlch. The marker on the Ogham stones Google Map suggests that the OS coordinates provided by Babelstone could be a typo.-->
                         </provenance>
-                        <provenance type="observed">Built into a buttress on the south side of the church since 1830.
+                        <provenance type="observed">The stone was built into a buttress on the south side of the church in 1830.
                         </provenance>
                     </history>
                 </msDesc>
@@ -128,6 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
  <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated text lang, added word division to edition</change>
 <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
 <change when="2025-06-04" who="#POC">Update foreign to persName for personal name encoding, update edition with word and name encoding</change>
+<change when="2025-06-20" who="#POC">Add and encode more information from Macalister and Welsh Corpus</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,19 +146,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <app n="1"><note>An earlier reading of the inscription was recorded by Maskelyne (Redknap and Lewis 2007, 196):</note>
+                <rdg><lb n="1"/>CATXCVS HIC IA. CP
+                <lb n="2"/>FILIVS PSSESE RHACVS</rdg>
+                </app>
             </div>
             <div type="translation">
                 <p>Roman: <persName xml:lang="pgl">Catacus</persName> lies here, the son of <persName xml:lang="pgl">Tegernacus</persName></p>
             </div>
             <div type="commentary">
-                <p><q>CATACVS... and TEGERNACVS are both Latinized nominatives of Celtic names...formed from stems meaning 'battle' and 'prince'. The suffix could be Irish (cf. <foreign xml:lang="sga">Cathach, Tigernach</foreign>) or Welsh, although the further into the seventh century the inscription is dated the harder it becomes to believe that -ACVS can be Welsh...rather than Irish</q> (Redknap and Lewis 2007, 195). No depth measurement of the stone is possible as it is currently cemented into the recess of a church buttress. With regard to the context of the stone, the Welsh Corpus notes that <q>the position of the stone on high ground about 1.6km from the church of Cwn Du and 200m outside the Roman fort of Pen-y-gaer suggests erection in a position visible from settlement in the valley below</q> (Redknap and Lewis 2007, 196). The Corpus also highlights <q>the conjunction of the name 'Catacus' (<foreign>Cadog</foreign> on the stone with the field-name 'Gwynlhiw' of its find-spot, St Gwynllyw being traditionally the father of St Cadog; while there is no question of the Catacus inscription being St Cadog, it shows the pseudo-historical legends connecting the two being borne out by topography, suggesting that they were not simply the invention of the hagiographer</q> (Redknap and Lewis 2007, 196).</p>
+                <p>According to Sims-Williams (Redknap and Lewis 2007, 195), CATACVS and TEGERNACVS are both Latinized nominatives of Celtic names in *<foreign xml:lang="cel">-akos</foreign>, formed from stems meaning 'battle' and 'prince'. <q>The suffix could be Irish (cf. <foreign xml:lang="sga">Cathach, Tigernach</foreign>) or Welsh, although the further into the seventh century the inscription is dated the harder it becomes to believe that -ACVS can be Welsh</q> rather than Irish (Redknap and Lewis 2007, 195). With regard to the context of the stone, the Redknap and Lewis (2007, 196) note that <q>the position of the stone on high ground about 1.6km from the church of Cwn Du and 200m outside the Roman fort of <placeName>Pen-y-gaer</placeName> suggests erection in a position visible from settlement in the valley below</q>. Redknap and Lewis (2007, 196) also highlight <q>the conjunction of the name '<persName>Catacus</persName>' (<foreign>Cadog</foreign>) on the stone with the field-name 'Gwynlhiw' of its find-spot, St Gwynllyw being traditionally the father of St Cadog; while there is no question of the Catacus inscription being St Cadog, it shows the pseudo-historical legends connecting the two being borne out by topography, suggesting that they were not simply the invention of the hagiographer</q> (Redknap and Lewis 2007, 196).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
                     <bibl><ptr target="RED2007"/>
                         <citedRange>194-6</citedRange>
                     </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                    <citedRange>322</citedRange></bibl>
                 </listBibl>
             </div>
         </body>
