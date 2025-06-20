@@ -131,6 +131,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images</change>
 <change when="2025-06-05" who="#POC">Replace foreign with persName</change>
+    <change when="2025-06-20" who="#NW">Updated edition encoding and added space between words.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,23 +147,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="la-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#aeternus">ᚓᚈᚈᚓᚏᚅ<gap reason="lost" extent="unknown" unit="character"/></name>
-                    <lb n="2" style="text-direction:down"/><name nymRef="#victor"><gap reason="lost"/>ᚈᚑᚏ</name></persName>
+                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#aeternus">ᚓᚈᚈᚓᚏᚅ<gap reason="lost" extent="unknown"/></name>
+                    <name nymRef="#victor"><gap reason="lost" unit="character" quantity="3"/>ᚈᚑᚏ</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="la-Ogam">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#aeternus">ETTERN<gap reason="lost" extent="unknown" unit="character"/></name>
-                    <lb n="2" style="text-direction:down"/><name nymRef="#victor"><gap reason="lost"/>TOR</name></persName>
+                        <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#aeternus">ETTERN<gap reason="lost" extent="unknown"/></name>
+                    <name nymRef="#victor"><gap reason="lost" unit="character" quantity="3"/>TOR</name></persName>
                     </ab>
                 </div>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="la-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#aeternus"><unclear reason="illegible">E</unclear>TTERN<hi rend="inverted">I</hi></name><w><hi rend="ligature">FIL</hi>I</w><name nymRef="#victor">VICTOR</name></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#aeternus"><unclear reason="illegible">E</unclear>TTERN<hi rend="inverted">I</hi></name> <w><hi rend="ligature">FIL</hi>I</w> <name nymRef="#victor">VICTOR</name></persName>
                 </ab>
                </div>
             </div>         
