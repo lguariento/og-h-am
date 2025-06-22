@@ -134,7 +134,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-05" who="#POC">Proofreading changes</change>
 <change when="2025-01-23" who="#POC">Removed note from objectType to fix display (the information was displaying on a new line), added lb to apparatus, numbered apparatus, added images and licence information, closed height element within dimensions because the database is outputting an x before the width measurement</change>
 <change when="2025-03-19" who="#NW">Added country (England) to orig place. Added attributes to material, object type and layout for facets. Moved 'decoration' to its own section.</change>
-<change when="2025-06-03" who="#POC">Update execution type</change>    
+<change when="2025-06-03" who="#POC">Update execution type</change>  
+     <change when="2025-06-22" who="#NW">Added unicode feathermarks as not in chardecl and don't need to be?</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,12 +149,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1"/><w><g ref="#feathermark"/>ᚐᚈᚃᚉ<choice><unclear>ᚐ</unclear><unclear>ᚋ</unclear></choice><g ref="#feathermark_rev"/></w>
+                    <lb n="1"/><w><g ref="#feathermark">᚛</g>ᚐᚈᚃᚉ<choice><unclear>ᚐ</unclear><unclear>ᚋ</unclear></choice><g ref="#feathermark_rev">᚜</g></w>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1"/><w><g ref="#feathermark"/>ATFC<choice><unclear>A</unclear><unclear>M</unclear></choice><g ref="#feathermark_rev"/></w>
+                    <lb n="1"/><w><g ref="#feathermark">᚛</g>ATFC<choice><unclear>A</unclear><unclear>M</unclear></choice><g ref="#feathermark_rev">᚜</g></w>
                 </ab>
             </div>
             <div type="apparatus">
