@@ -138,8 +138,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
       <change when="2025-06-16" who="#POC">Added and encoded information, including edition and images</change>
     <change when="2025-06-22" who="#POC">Update edition, add word division and word and name encoding</change>
-    <change when="2025-06-22" who="#NW">Added unicode double_dot as not in chardecl and don't need to be?</change>
-   
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,13 +154,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><w>ᚉᚏᚏ<unclear reason="damage">ᚑ</unclear>ᚄᚉᚉ</w> <g ref="#punctuation_double">᛬</g> <persName><name>ᚅᚓᚆᚆᚈᚃᚃᚇᚇᚐ<g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/>ᚄ</name> <g ref="#punctuation_double">᛬</g> <w>ᚇᚐᚈᚈᚏᚏ</w> <g ref="#punctuation_double">᛬</g> <name><g ref="#angled_A"/>ᚅᚅ</name>
+                    <lb n="1" style="text-direction:up"/><w>ᚉᚏᚏ<unclear reason="damage">ᚑ</unclear>ᚄᚉᚉ</w><g ref="#punctuation_double"/> <persName><name>ᚅᚓᚆᚆᚈᚃᚃᚇᚇᚐ<g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/>ᚄ</name><g ref="#punctuation_double"/> <w>ᚇᚐᚈᚈᚏᚏ</w><g ref="#punctuation_double"/> <name><g ref="#angled_A"/>ᚅᚅ</name>
                     <lb n="2" style="text-direction:up"/><name>ᚁᚓᚅᚅ<g ref="#s-shaped_I"/>ᚄᚓᚄ</name> <w type="formula" lemma="maqqas">ᚋᚓᚊᚊ</w> <name>ᚇᚇ<g ref="#crosshatched_R"/><g ref="forfid_OI"/>ᚐᚅᚅ</name></persName>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><w>CRR<unclear reason="damage">O</unclear>SCC</w> <g ref="#punctuation_double">᛬</g> <persName><name>NEHHTVVDDA<g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/>S</name> <g ref="#punctuation_double">᛬</g> <w>DATTRR</w> <g ref="#punctuation_double">᛬</g> <name><g ref="#angled_A"/>NN</name>
+                    <lb n="1" style="text-direction:up"/><w>CRR<unclear reason="damage">O</unclear>SCC</w><g ref="#punctuation_double"/> <persName><name>NEHHTVVDDA<g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/>S</name><g ref="#punctuation_double"/> <w>DATTRR</w><g ref="#punctuation_double"/> <name><g ref="#angled_A"/>NN</name>
                     <lb n="2" style="text-direction:up"/><name>BENN<g ref="#s-shaped_I"/>SES</name> <w type="formula" lemma="maqqas">MEQQ</w> <name>DD<g ref="#crosshatched_R"/><g ref="forfid_OI" type="interpretation_OI"/>ANN</name></persName>
                 </ab>
             </div>
