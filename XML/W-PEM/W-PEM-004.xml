@@ -56,10 +56,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
-                              
-                             <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                              
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>                              
+                             <textLang mainLang="la-Latn" otherLangs="pgl">Latin written in Latin script with some Primitive Irish names</textLang>                              
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -136,8 +134,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-05-09" who="#POC">Change nymRef values from uppercase to lowercase, added word division to latin edition and added extra w element</change>
 <change when="2025-05-30" who="#POC">Added images and copyright</change>
     <change when="2025-05-31" who="#NW">Added word division to ogham and removed eDil links from edition.</change>    
-<change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
-<change when="2025-06-05" who="#POC">Replace foreign with persName</change>
+    <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
+    <change when="2025-06-05" who="#POC">Replace foreign with persName</change>
+    <change when="2025-06-22" who="#NW">Updated textLang</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -161,7 +161,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
-                    <div type="textpart" n="2" xml:lang="pgl-Latn"> <!--divide name elements into words here too? Align nymrefs or remove from Latin?-->
+                    <div type="textpart" n="2" xml:lang="la-Latn"> <!--remove script code? divide name elements into words here too? Align nymrefs or remove from Latin?-->
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#trenagussus">TRENEGUSSI</name> <w type="formula" lemma="filius">FILI</w>
                     <lb n="1" style="text-direction:down"/><name nymRef="#maqqas_treni">MACUTRENI</name></persName> <w type="formula">HIC</w> <w type="formula">IACIT</w>
