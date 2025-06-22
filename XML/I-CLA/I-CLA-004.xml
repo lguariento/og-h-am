@@ -124,8 +124,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker, proofreading updates, added citation details to image</change>
     <change when="2025-03-19" who="#NW">Added 'Ireland' placename to origPlace and attributes to material, object type and layout. Moved decoration to its own section 'desc type' and encoded runic inscription using rs type=runic.</change>
      <change when="2025-04-01" who="#NW">Updated encoding of X-forfid. Moved runic translation to apparatus with rest of runic text.</change>
-    <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change>
-    <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
+     <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change>
+     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
+     <change when="2025-06-22" who="#NW">Replaced ᚛ wth glyph tag in ogham edition.</change>
     
 </listChange>
 </revisionDesc>
@@ -154,9 +155,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="mga" resp="#NW">
                 <ab>
-                     <lb n="1" style="text-direction:down"/>᚛<w>B<g ref="#forfid_X" type="interpretation_E"/>NDAC<supplied reason="omitted">H</supplied>T</w>
+                     <lb n="1" style="text-direction:down"/><g ref="#feathermark"/><w>B<g ref="#forfid_X" type="interpretation_E"/>NDAC<supplied reason="omitted">H</supplied>T</w>
                      <lb n="2" style="text-direction:down"/><w><unclear reason="eccentric_ductus">FO</unclear>R</w> <persName><g ref="#forfid_X" type="interpretation_E"/>N<unclear reason="damage">E</unclear><gap reason="lost" extent="unknown"/></persName>                    
-                </ab>
+                </ab>               
             </div>             
             <div type="apparatus">
                 <listApp>
