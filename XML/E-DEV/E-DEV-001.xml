@@ -141,6 +141,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-01-14" who="#NW">Corrected error in edition adding second line break in ogham.</change>    
 <change when="2025-01-21" who="#POC">Corrected typo and added lb elements to commentary for layout</change>    
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link</change>
+    <change when="2025-06-23" who="#NW">Updated edition, roman/Latin text and xml lang.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -153,29 +155,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <div type="textpart" n="1">
                 <ab>                   
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni">ᚄᚃᚐ<choice><corr>ᚅᚅ</corr><sic>ᚊᚊ</sic></choice>ᚒᚉᚔ</name> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni?">ᚄᚃᚐ<choice><corr>ᚅᚅ</corr><sic>ᚊᚊ</sic></choice>ᚒᚉᚔ</name> 
                     <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#qici">ᚊᚔᚉᚔ</name></persName>
                 </ab>
             </div>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW"> 
                 <ab>                                     
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#fanoni">SVA<choice><corr>NN</corr><sic>QQ</sic></choice>UCI</name> 
-                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#qici">QICI</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#savaqqucus?">SVAQQUCI</name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#qicus?">QICI</name></persName>
                 </ab>
             </div>
-            <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">   
+            <div type="edition" subtype="roman" xml:lang="la" xml:space="preserve" resp="#NW">   
                 <div type="textpart" n="2" >
                     <ab>
-                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#fanoni">FANONI</name> 
-                         <lb n="2" style="text-direction:down"/><w type="formula" lemma="maqqas">MAQVI</w> <name nymRef="#rini">RINI</name></persName>
+                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#fanoni">Fanoni</name> 
+                         <lb n="2" style="text-direction:down"/><w type="formula" lemma="maqqas">maqui</w> <name nymRef="#rini">Rini</name></persName>
                     </ab>
             </div>
             </div>
-                <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">   
+                <div type="edition" subtype="roman" xml:lang="la" xml:space="preserve" resp="#NW">   
                 <div type="textpart" n="3" >
                     <ab>
-                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#sagranvi">SAGRANVI</name></persName>
+                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#sagranvi">Sagranui</name></persName>
                     </ab>
             </div>
             </div>
@@ -196,7 +198,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </app>
                 </listApp>
             </div>
-            <div type="translation" source="OKA1993">
+            <div type="translation" source="OKA1993"> <!--David?-->
                 <p>Ogham (1): [the stone] of Safaqqucus, the son of Qicus</p>
                 <p>Latin (2): of Fanonus, son of Rinus </p>
                 <p>Latin (3): of Sagranuus</p>
