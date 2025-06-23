@@ -136,6 +136,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-29" who="#POC">Added missing target attribute to ref element in support which was preventing display of "Historic Environment Record ID" text. Added separate handNote for Latin inscription. Added script attribute to both handNotes to distinguish between them. Proofreading changes, including correcting typos.</change>    
 <change when="2024-12-06" who="#POC">Proofreading changes, added nymRef to name.</change>
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM links</change>
+    <change when="2025-06-23" who="#NW">Updated roman/latin inscription - input interpretive form with lang="la" to test Gabby's tweek to stylesheet.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -157,10 +159,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <lb n="1"/><persName><name nymRef="iusti"><supplied reason="lost">I</supplied><unclear reason="damage">U</unclear>STI</name></persName>
                     </ab>
                 </div>
-            <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="roman" xml:lang="la" xml:space="preserve" resp="#NW">
                 <div type="textpart" n="2" >
                 <ab>
-                     <lb n="1"/><persName><name>Ivsti</name></persName>
+                     <lb n="1"/><persName><name>Iusti</name></persName>
                 </ab>
             </div>
             </div>
