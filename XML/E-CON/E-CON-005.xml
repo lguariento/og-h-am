@@ -64,7 +64,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><!--<term>portabilia</term>--><ref target="https://finds.org.uk/database/artefacts/record/id/596422">Portable Antiquities Scheme</ref> <idno type="PAS">PAS ID: CORN-E8C291</idno></p>
+                                <support><p><ref target="https://finds.org.uk/database/artefacts/record/id/596422">Portable Antiquities Scheme</ref> <idno type="PAS">PAS ID: CORN-E8C291</idno></p>
                                     <material type="stone">Slate</material> 
                                     <objectType key="portableObject">Fragment</objectType> 
                                      <dimensions unit="m">
@@ -138,7 +138,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-18" who="#NW">Edition update - left interpretation of x-forfid as X in transliteration as not clearly E or K.</change>
     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     <change when="2025-06-03" who="#POC">Update execution type</change>
-<change when="2025-06-23" who="#POC">Add missing s to lang code and textLang lang code</change>
+    <change when="2025-06-23" who="#POC">Add missing s to lang code and textLang lang code</change>
+    <change when="2025-06-23" who="#NW">Tentaively updated edition and apparatus</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,21 +151,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="low" resp="#NW">
-                <ab>
+                <!--<ab>
                     <lb n="1" style="text-direction:l-to-r"/><choice><unclear>Λ</unclear><unclear><g ref="#forfid_X"/></unclear></choice>ᚄ
                     <lb n="2" style="text-direction:l-to-r"/><choice><unclear>ᚒ</unclear><unclear>ᚓ</unclear><unclear>ᚔ</unclear></choice><unclear><g ref="#forfid_X"/></unclear><choice><unclear>ᚃ</unclear><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice>
+                </ab>-->
+                 <ab>
+                    <lb n="1" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/><unclear reason="damage"><g ref="#forfid_epig-I"/>ᚄ</unclear>  
+                    <lb n="2" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/>ᚒ<g ref="#forfid_X"/>ᚂ<gap reason="lost" extent="unknown"/>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga-Ogam" cert="low" resp="#NW">
-                <ab>
+               <!-- <ab>
                    <lb n="1"/><choice><unclear>Λ</unclear><unclear>X</unclear></choice>S
                     <lb n="2"/><choice><unclear>U</unclear><unclear>E</unclear><unclear>I</unclear></choice><unclear><g ref="#forfid_X"/></unclear><choice><unclear>V</unclear><unclear>S</unclear><unclear>N</unclear></choice>
+                </ab>-->
+                 <ab>
+                   <lb n="1" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/><unclear reason="damage"><g ref="#forfid_epig-I"/>S</unclear><space unit="character" atLeast="2"/>
+                   <lb n="2" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/>U<unclear reason="eccentric_ductus">X</unclear>L<gap reason="lost" extent="unknown"/>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>The bottom line has a vowel (U, E or I) then a forfid (supplementary letter) shaped like a Λ descending from the stem-line, perhaps with the meaning /p/. Finally, there are two, or probably three, strokes of a b-aicme consonant (so, V, S or N). The line above has the remains of the lower part of either another Λ or an X forfid, followed by S and then a blank stem-line. A downward stroke intersecting with a long horizontal bar can be discerned away to the right. It is somewhat lighter than the rest so may not be intended as lettering. </note>
+                    <note>Line 1 has the remains of the lower part of either an epigraphic I-forfid (representing /p/) or possibly an X forfid (usually representing /K/, /X/ or /E/), followed by S (unless the remains of an E as the other side of the stem-line is lost) and then a blank stem-line. A downward stroke intersecting with a long horizontal bar can be discerned away to the right. It is somewhat lighter than the rest so may not be intended as lettering.</note>
+                    </app>
+                    <app n="2"><note>Line 2 has a vowel (U, or possibly E or I, if strokes have been lost at the beginning) then what appears to be another forfid, shaped like a Λ, descending from the stem-line, perhaps a badly executed X-forfid, or an epigraphic I-forfid with the meaning /p/ as in line 1. Finally, there are two, or probably three, strokes of a b-aicme consonant (V, or possibly S or N, if strokes have been lost at the end). </note>
                 </app>
                 </listApp>
             </div>
@@ -171,7 +183,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p></p>
             </div>-->
             <div type="commentary">
-                <p>The presence of a stem-line is not necessarily an indication of later date: the Newgrange ogham, which could be as early as the fourth century, is written on a stem-line. In this instance, the stem-line is perhaps explained simply by the thin nature of the slate ruling out the use of an arris. The value /p/ is assigned only tentatively. There are three instances of a similar forfid in use epigraphically (Crickhowell, Margam, and Cool East) but these appear to have two inward leaning strokes intersecting just below the stem, whereas this one is definitely on the stem-line (with one stroke projecting a little beyond).</p>
+                <p>The presence of a stem-line is not necessarily an indication of later date: the Newgrange ogham, which could be as early as the fourth century, is written on a stem-line. In this instance, the stem-line is perhaps explained simply by the thin nature of the slate ruling out the use of an arris. The value /p/ is assigned only tentatively. There are three instances of a similar forfid in use epigraphically (Crickhowell, Margam, and Cool East) but these appear to have two inward leaning strokes intersecting just below the stem, whereas one of these is definitely on the stem-line (with one stroke projecting a little beyond, giving more of an un-side-down Y-shape).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
