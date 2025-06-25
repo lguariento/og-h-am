@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-03" who="#POC">Update execution type</change>
     <change when="2025-06-23" who="#POC">Add missing s to lang code and textLang lang code</change>
     <change when="2025-06-23" who="#NW">Tentaively updated edition and apparatus</change>
+    <change when="2025-06-25" who="#NW">Added ab (string without diacritics) for display list to edition.</change>
     
 </listChange>
 </revisionDesc>
@@ -156,7 +157,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="2" style="text-direction:l-to-r"/><choice><unclear>ᚒ</unclear><unclear>ᚓ</unclear><unclear>ᚔ</unclear></choice><unclear><g ref="#forfid_X"/></unclear><choice><unclear>ᚃ</unclear><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice>
                 </ab>-->
                  <ab>
-                    <lb n="1" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/><unclear reason="damage"><g ref="#forfid_epig-I"/>ᚄ</unclear>  
+                    <lb n="1" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/><unclear reason="illegible"><g ref="#forfid_epig-I"/>ᚄ</unclear>  
                     <lb n="2" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/>ᚒ<g ref="#forfid_X"/>ᚂ<gap reason="lost" extent="unknown"/>
                 </ab>
             </div>
@@ -166,9 +167,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="2"/><choice><unclear>U</unclear><unclear>E</unclear><unclear>I</unclear></choice><unclear><g ref="#forfid_X"/></unclear><choice><unclear>V</unclear><unclear>S</unclear><unclear>N</unclear></choice>
                 </ab>-->
                  <ab>
-                   <lb n="1" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/><unclear reason="damage"><g ref="#forfid_epig-I"/>S</unclear><space unit="character" atLeast="2"/>
+                   <lb n="1" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/><unclear reason="illegible"><g ref="#forfid_epig-I"/>S</unclear><space unit="character" atLeast="2"/>
                    <lb n="2" style="text-direction:l-to-r"/><gap reason="lost" extent="unknown"/>U<unclear reason="eccentric_ductus">X</unclear>L<gap reason="lost" extent="unknown"/>
                 </ab>
+                <ab type="list">[---]PS  [---]UXL[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
