@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ballaqueeney 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">M-IOM-001</idno>
+                 <idno type="CIIC">503</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/rushn_1.html">RUSHN/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Isle of Man</country>
+                        <repository>Manx Museum</repository>
+                        <idno type="invNo">Category: MM 1</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://isleofmanher.im/report/d1faa39b-f1b5-45a3-9037-932aacff6084">Isle of Man Historic Environment Record</ref> (IOMHER): <idno type="IOMHER">0024.50</idno></p>
+                                    <material type="stone">Unknown</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height></height>
+                                            <width></width>
+                                            <depth></depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>The slab is water-worn.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The ogham inscription runs up the angle of one edge of the stone and round the top.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="parish">Rushen</placeName>, <placeName type="sheading">Rushen</placeName>, <placeName type="country">Isle of Man</placeName>
+                                <geo>54.076378, -4.752794</geo>
+                            <note>National Grid Reference: SC 2000 6800</note>
+                            </origPlace>
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1874">The slab was found re-used in a lintel grave close to a chapel in 1874 during the construction of the nearby railway line.<!--According to Kermode (1911, 96), the stone was discovered during excavations <q>at the Cronk</q> to obtain ballast for the railroad from <q>an ancient burial ground</q> and the <q>stone formed the side of one of the graves, its inscribed edge uppermost and its head to the head of the grave</q> Can't find the reference to Kermode 1911-->
+                        </provenance>
+                        <provenance type="observed">Now in the Manx Museum (Category: MM 1).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
+   <change when="2026-06-22" who="#POC">Added and encoded information</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"/>
+        <media url="https://skfb.ly/6CYKO" mimeType="text/html"><desc>3d model by Manx National Heritage on SketchFab</desc></media>
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName nymRef="dovaidona"><name>ᚇᚑᚃᚐᚔᚇᚑᚅᚐ</name> <w type="formula" lemma="maqqas">ᚋᚐ ᚊᚔ</w> 
+                    <lb n="2" style="text-direction:up"/><name nymRef="droata">ᚇᚏᚑᚐᚈᚐ</name></persName>
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName nymRef="dovaidona"><name>DOVAIDONA</name> <w type="formula" lemma="maqqas">MA QI</w>
+                    <lb n="2" style="text-direction:up"/><name nymRef="droata">DROATA</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+<note>Another possible reading:</note>  
+                    <rdg>
+                        <lb/>DOVAIDONA MA QI 
+                        <lb/>DRUTA
+                    </rdg>
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>(the stone) of Dubaed, son of Droata</p>
+            </div>
+            <div type="commentary">
+                 <p></p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <!--<bibl><ptr target="KER1911"/>
+                     <citedRange>96</citedRange>
+                     </bibl>-->
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange></citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
