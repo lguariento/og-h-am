@@ -161,12 +161,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-15" who="#POC">Added persName encoding to commentary, updated edition with missing R and missing choice encoding for other possible character U at the start of the drawn-in stemline</change>
 <change when="2025-05-19" who="#POC">Reverted incorrect updates to textLang and edition lang code</change>
 <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+<change when="2025-06-26" who="#POC">Add ab (string without diacritics) for display list to edition, update (shorten) image file names and path.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="SCO/S-ABD-001-Newton-Ogham.jpg"><desc>Photograph by Megan Kasten</desc></graphic>
-        <graphic url="SCO/S-ABD-001-Newton-SymbolStone.jpg"><desc>Photograph by Megan Kasten</desc></graphic>
+        <graphic url="SCO/S-ABD-001-Newton-a.jpg"><desc>Photograph by Megan Kasten</desc></graphic>
+        <graphic url="SCO/S-ABD-001-Newton-b.jpg"><desc>Photograph by Megan Kasten</desc></graphic>
          <media url="https://sketchfab.com/3d-models/ogham-stone-cast-aberdeen-scotland-0059af6fd0284cfd886a13fd50c57163" mimeType="text/html"><desc>3D model by Megan Kasten on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -184,6 +185,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#iddarrnnn">IDDARRNNN</name></persName> <persName><name nymRef="#vorrenni">VORRENNI</name></persName> <g ref="#forfid_X" type="interpretation_K"/><add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
                     <lb n="2" style="text-direction:up" break="no"/><add place="right"><choice><unclear>U</unclear><unclear>I</unclear></choice>OSR<unclear reason="illegible">R</unclear></add>
                 </ab>
+                <ab type="list">IDDARRNNN VORRENNI KUIE UIOSRR</ab>
             </div>
                        
             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga-Latin" resp="#LH">
