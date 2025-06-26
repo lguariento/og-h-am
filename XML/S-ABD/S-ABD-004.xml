@@ -153,6 +153,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-19" who="#POC">Reverted incorrect updates to textLang and edition lang code</change>
 <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
 <change when="2025-06-11" who="#POC">Update translation</change>
+<change when="2025-06-26" who="#POC">Add ab (string without diacritics) for display list to edition, added word division to edition as suggested by Clancy</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -165,28 +166,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="low" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    ᚔᚏᚐᚈᚐᚇᚇᚑᚐᚏᚓᚅᚄ<gap reason="lost" extent="unknown" unit="character"/>
+                    ᚔ <w>ᚏᚐᚈ</w> <persName><name nymRef="addoaren">ᚐᚇᚇᚑᚐᚏᚓᚅ</name></persName> ᚄ<gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    IRATADDOARENS<gap reason="lost" extent="unknown" unit="character"/>
+                    I <w>RAT</w> <persName><name nymRef="addoaren">ADDOAREN</name></persName> S<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
+                <ab type="list">I RAT ADDOAREN S[---] </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
                         <note>While the transliteration of the ogham inscription is unambiguous, the interpretation remains uncertain. The most likely interpretation is a single personal name, taking into consideration the length of the text. However, it is uncertain whether the thirteen letters are a complete text as they are, or whether there are any letters missing from the end (Forsyth 1996, 112-3).</note>
                     </app>
-                    <app n="2">
-                        <note>Thomas Clancy proposed to segment the text as follows:</note>
-                        <rdg>I RAT ADDOAREN S-</rdg>
-                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>Clancy suggested an Old Irish interpretation of the text <foreign xml:lang="sga">i rath Aduarén s-</foreign> of which the most likely translation is: this is the property of Adúarén [pers. comm.].</p>
+                <p>Thomas Clancy suggested an Old Irish interpretation of the text <foreign xml:lang="sga">i rath Aduarén s-</foreign> of which the most likely translation is: this is the property of Adúarén [pers. comm.].</p>
             </div>
             <div type="commentary">
 <p>The original orientation of the stone is assumed to have been vertical. Given that the ogham inscription is situated vertically relative to the intact sides of the stone, it is further assumed that the original orientation of the inscription was vertical as well despite its current diagonal axis (Forsyth 1996, 104). Forsyth noted that precise measurements of the stone are difficult to obtain given its irregular shape (ibid. 103-4).</p>
