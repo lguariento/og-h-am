@@ -149,6 +149,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-14" who="#POC">Update edition to remove underdot signs underneath characters in transliteration</change>
 <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
 <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+<change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>     
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -158,7 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <graphic url="SCO/S-MOR-001-Brodie-c.jpg"><desc>Image by Megan Kasten</desc></graphic> 
         <graphic url="SCO/S-MOR-001-Brodie-d.jpg"><desc>Image by Megan Kasten</desc></graphic> 
         <graphic url="SCO/S-MOR-001-Brodie_HES-full-scan.jpg"><desc>Drawing of Brodie stone. Copyright: <ref target="http://canmore.org.uk/collection/1358361">Royal Commission on the Ancient and Historical Monuments of Scotland (RCAHMS)</ref></desc></graphic>
-         <media url="https://skfb.ly/6tXOC" mimeType="text/html"><desc>3D model by <!--Eleanor Harrison? -->on SketchFab</desc></media> 
+         <media url="https://skfb.ly/6tXOC" mimeType="text/html"><desc>3D model by Eleanor Harrison on SketchFab</desc></media> 
         <!--Archaeoptix has this dataset from 2010 (for NTS) - may be interesting to compare? current model not sufficiently detailed for groove analysis-->
     </facsimile>    
     <text>
@@ -168,7 +169,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/> 
                     <gap reason="lost" extent="unknown" unit="character"/>ᚏᚏ<choice><unclear>ᚋ</unclear><unclear>ᚐ</unclear></choice><choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice>ᚊ<unclear reason="damage">ᚊ</unclear>ᚇᚔ<unclear reason="damage">ᚈ</unclear>ᚈ<g ref="#angled_O"/>ᚄᚄᚄ<gap reason="lost" extent="unknown" unit="character"/> 
                     <lb n="2" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#eddarrnonn"></name>ᚓᚇᚇ<g ref="#s-shaped_A"/>ᚏᚏᚅᚑᚅ</persName><unclear reason="ambiguous">ᚃ</unclear><gap reason="lost" extent="unknown" unit="character"/>ᚈᚆᚔᚆᚐᚂ<gap reason="lost" extent="unknown" unit="character"/>ᚔᚏᚏ<gap reason="lost" extent="unknown" unit="character"/>ᚒᚔᚁᚒ<unclear reason="ambiguous"></unclear>ᚎ<gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#eddarrnonn">ᚓᚇᚇ<g ref="#s-shaped_A"/>ᚏᚏᚅᚑᚅ</name></persName><unclear reason="ambiguous">ᚃ</unclear><gap reason="lost" extent="unknown" unit="character"/>ᚈᚆᚔᚆᚐᚂ<gap reason="lost" extent="unknown" unit="character"/>ᚔᚏᚏ<gap reason="lost" extent="unknown" unit="character"/>ᚒᚔᚁᚒ<unclear reason="ambiguous"></unclear>ᚎ<gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3" style="text-direction:up"/>
                     <unclear reason="ambiguous">ᚄ</unclear>ᚑᚅ<choice><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice><unclear reason="damage">ᚓ</unclear>ᚂᚉᚉ<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
@@ -178,10 +179,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/>RR<choice><unclear>M</unclear><unclear>A</unclear></choice><choice><unclear>O</unclear><unclear>G</unclear></choice>Q<unclear reason="damage">Q</unclear>DI<unclear reason="damage">T</unclear>T<g ref="#angled_O"/>SSS<gap reason="lost" extent="unknown" unit="character"/>     
                     <lb n="2" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#eddarrnonn"></name>EDD<g ref="#s-shaped_A"/>RRNON</persName> <unclear reason="ambiguous">V</unclear><gap reason="lost" extent="unknown" unit="character"/>THIHAL<gap reason="lost" extent="unknown" unit="character"/>IRR<gap reason="lost" extent="unknown" unit="character"/>UIBU<unclear reason="ambiguous">Z</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><persName><name nymRef="#eddarrnonn">EDD<g ref="#s-shaped_A"/>RRNON</name></persName> <unclear reason="ambiguous">V</unclear><gap reason="lost" extent="unknown" unit="character"/>THIHAL<gap reason="lost" extent="unknown" unit="character"/>IRR<gap reason="lost" extent="unknown" unit="character"/>UIBU<unclear reason="ambiguous">Z</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3" style="text-direction:up"/>
                     <unclear reason="ambiguous">S</unclear>ON<choice><unclear>S</unclear><unclear>N</unclear></choice><unclear reason="damage">E</unclear>LCC<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/>            
                 </ab>
+                <ab type="list">[---]RRMOQQDITTOSSS[---] [---]EDDARRNON V[---]THIHAL[---]IRR[---]UIBUZ[---] SONSELCCO[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
