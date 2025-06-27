@@ -147,6 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
 <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
 <change when="2025-05-26" who="#POC">Update image link</change>
+<change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>     
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -165,14 +166,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" cert="low" resp="#LH">             
                 <ab>    
                     <lb n="1" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>ᚐᚋ <w type="formula" lemma="maqqas">ᚋᚐᚊᚊ</w><gap reason="illegible" quantity="1" unit="character"/>ᚐᚂᚂᚋ<gap reason="lost" extent="unknown" unit="character"/>ᚐᚆᚆᚏᚏᚐᚄᚄᚒᚇᚇᚄ
+                    <gap reason="lost" extent="unknown" unit="character"/>ᚐᚋ <w type="formula" lemma="maqqas">ᚋᚐᚊᚊ</w> <gap reason="illegible" quantity="1" unit="character"/>ᚐᚂᚂᚋ<gap reason="lost" extent="unknown" unit="character"/>ᚐᚆᚆᚏᚏᚐᚄᚄᚒᚇᚇᚄ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" cert="low" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="2" style="text-direction:up"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>AM <w type="formula" lemma="maqqas">MAQQ</w><gap reason="illegible" quantity="1" unit="character"/>ALLM<gap reason="lost" extent="unknown" unit="character"/>AHHRRASSUDDS
+                    <gap reason="lost" extent="unknown" unit="character"/>AM <w type="formula" lemma="maqqas">MAQQ</w> <gap reason="illegible" quantity="1" unit="character"/>ALLM<gap reason="lost" extent="unknown" unit="character"/>AHHRRASSUDDS
                 </ab>
+                <ab type="list">[---]AM MAQQ [.]ALLM[---]AHHRRASSUDDS</ab>
             </div>
             <div type="apparatus">
                 <listApp>
