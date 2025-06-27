@@ -149,13 +149,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
             <change when="2025-05-21" who="#POC">Corrected execution type, updated condition, origDate, provenance, apparatus, commentary, edition, translation and decoration, update image link</change>
             <change when="2025-06-04" who="#POC">Update execution encoding key to graffiti and remove graffiti reference from object type value</change>
+           <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>       
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="SCO/S-PER-004-Duncroisk.jpg"><desc>Screenshot of Duncroisk 3D model</desc></graphic>
         <graphic url="SCO/S-PER-004-Duncroisk-HES-scan.jpg"><desc>Drawing of Duncroisk. Copyright: <ref target="https://www.trove.scot/image/2206977">HES</ref></desc></graphic>
-         <media url="https://skfb.ly/o6Luq" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
+         <media url="https://skfb.ly/o6Luq" mimeType="text/html"><desc>3d model <!--by Megan/Gary/? -->on SketchFab/3dhop</desc></media>
     </facsimile>    
     <text>
         <body>
@@ -166,8 +167,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>LA<g ref="#forfid_OI" type="interpretation_O"/><unclear>D</unclear>
+                    <lb n="1" style="text-direction:up"/>LA<g ref="#forfid_OI" type="interpretation_OI"/><unclear>D</unclear>
                 </ab>
+                <ab type="list">LAOID</ab>
             </div>
             <div type="apparatus">
                 <listApp>
