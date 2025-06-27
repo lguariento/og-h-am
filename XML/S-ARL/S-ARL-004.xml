@@ -147,7 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change when="2025-04-14" who="#POC">Updated execution type</change>
             <change when="2025-05-09" who="#POC">Added missing s-shaped M encoding to edition</change> 
             <change when="2025-05-16" who="#POC">Updated text direction in layout and edition, added persName encoding to commentary and edition, updated text lang to Scottish Gaelic</change>            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic, corrected lang code</change>
-             <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>           
+             <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>                  <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition, add encoding for feather mark</change>     
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -163,14 +163,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" resp="#XS">              
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>
-                    <choice resp="#KF"><unclear cert="low">᚛</unclear><unclear cert="low">ᚆ</unclear></choice><persName xml:lang="sga"><name nymRef="#mud-mali">ᚋᚒᚇ<g ref="#s-shaped_M"/>ᚐᚂᚔ</name></persName><unclear>ᚇᚋ</unclear>
+                    <choice resp="#KF"><unclear cert="low"><g ref="#feathermark"/></unclear><unclear cert="low">ᚆ</unclear></choice><persName xml:lang="sga"><name nymRef="#mud-mali">ᚋᚒᚇ<g ref="#s-shaped_M"/>ᚐᚂᚔ</name></persName><unclear>ᚇᚋ</unclear>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>
-                     <choice resp="#KF"><unclear cert="low">></unclear><unclear cert="low">H</unclear></choice><persName xml:lang="sga"><name nymRef="#mud-mali">MUD<g ref="#s-shaped_M"/>ALI</name></persName><unclear>DM</unclear>
+                     <choice resp="#KF"><unclear cert="low"><g ref="#feathermark"/></unclear><unclear cert="low">H</unclear></choice><persName xml:lang="sga"><name nymRef="#mud-mali">MUD<g ref="#s-shaped_M"/>ALI</name></persName><unclear>DM</unclear>
                 </ab>
+                <ab type="list">᚛MUDMALIDM</ab>
             </div>
             <div type="apparatus">
                <listApp>
