@@ -136,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-19" who="#NW">Added country (England) to orig place. Added attributes to material, object type and layout for facets. Moved 'decoration' to its own section.</change>
 <change when="2025-06-03" who="#POC">Update execution type</change>    
 <change when="2025-06-26" who="#POC">Update image file name and path</change>
+<change when="2025-06-26" who="#POC">Add ab (string without diacritics) for display list to edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,12 +156,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1"/><w><g ref="#feathermark"/>ATFC<choice><unclear>A</unclear><unclear>M</unclear></choice><g ref="#feathermark_rev"/></w>
                 </ab>
+                <ab type="list">᚛ATFCA᚜</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Johnson (2020) read:</note>
-                    <rdg><lb/>ATFC[A/M]</rdg>
+                    <note>The final letter is unclear, it could be either a single vowel notch for A or it is also possible that it could be the worn remnant of an M stoke as Johnson (2020) read:</note>
+                    <rdg>ATFC[A/M]</rdg>
                 </app>
                 </listApp>
             </div>
