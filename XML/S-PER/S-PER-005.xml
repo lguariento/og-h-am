@@ -88,7 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                            <handNote>Although the extant inscription is short, it contains an example of a supplementary letter, the X forfid, and also shows evidence for the use of angled strokes to distinguish the second of the two O vowels in the inscription.<!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -150,7 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
          <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>  
             <change when="2025-06-05" who="#POC">Update with information and reading from OotM on Old Kilmaddock, added 3d image from OotM</change>
-            <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>           
+            <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition, update forfid interpretation in transliteration as the EA has been removed from charDecl, moved information from apparatus to handNot as it was empty and used apparatus to discuss different interpretations of X forfid</change>           
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -169,14 +169,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                     <gap reason="lost" extent="unknown" unit="character"/><unclear>N</unclear>N<choice><unclear><g ref="#forfid_X" type="interpretation_E"/></unclear><unclear><g ref="#forfid_X" type="interpretation_EA"/></unclear><unclear><g ref="#forfid_X" type="interpretation_K"/></unclear></choice><gap reason="lost" quantity="1" unit="character"/>QC<gap reason="lost" extent="unknown" unit="character"/>OTT<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/>
+                     <gap reason="lost" extent="unknown" unit="character"/><unclear>N</unclear>N<choice><unclear><g ref="#forfid_X" type="interpretation_E"/></unclear><unclear><g ref="#forfid_X" type="interpretation_K"/></unclear><unclear><g ref="#forfid_X" type="interpretation_K"/></unclear></choice><gap reason="lost" quantity="1" unit="character"/>QC<gap reason="lost" extent="unknown" unit="character"/>OTT<g ref="#angled_O"/><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
                 <ab type="list">[---]NNE[.]QC[---]OTTO[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">   
-                    <note>Although the extant inscription is short, it contains an example of a supplementary letter, the X forfid, and also shows evidence for the use of angled strokes to distinguish the second of the two O vowels in the inscription.</note>
+                    <note>The interpretation of the X forfid is uncertain as it can represent /K/, /X/ or /E/. Given the context, it is possible that the most likely interpretation of the X forfid is /E/, but this is by no means certain.</note>
                 </app>
                 </listApp>
             </div>
