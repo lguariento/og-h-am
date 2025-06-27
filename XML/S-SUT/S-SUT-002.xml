@@ -87,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham inscription appears to have been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The letters are well-spaced and component strokes are mostly of equal length and are generally evenly spaced; however, between letters there is considerable difference between the more generously spaced and the more cramped. Vowels consist of long strokes occupying the whole width of the ogham band.
+                            <handNote>The ogham inscription appears to have been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. The letters are well-spaced and component strokes are mostly of equal length and are generally evenly spaced; however, between letters there is considerable difference between the more generously spaced and the more cramped. Vowels consist of long strokes occupying the whole width of the ogham band. The extant inscription contains two supplementary letters, a hammerhead A and S-shaped A.
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -145,6 +145,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-16" who="#POC">Added eDIL reference links to commentary, updated language code in edition and textLang, added nymRef value for personal name in edition</change>
 <change when="2025-05-19" who="#POC">Remove Scottish Gaelic, corrected lang code</change> 
 <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+       <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -165,11 +166,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="2" style="text-direction:up"/>
                     <gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B</unclear> <persName><name nymRef="#dunnodnnat">DU<unclear reason="damage">N</unclear>NODNN<g ref="#hammerhead_A"/>T</name></persName> <w lemma="maqqas">M<g ref="#s-shaped_A"/>QQ</w> <persName><name nymRef="#natu">NA<gap reason="lost" quantity="1" unit="character"/>T<unclear reason="ambiguous">U</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>
                 </ab>
+                <ab type="list">[---]B DUNNODNNAT MAQQ NA[.]TU[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>The extant inscription contains two supplementary letters, a hammerhead A and S-shaped A. The Latheron ogham text is unique in using a forfid, the S-shaped A, within MAQQ. </note>                    
+<note>The Latheron ogham text is unique in using a forfid, the S-shaped A, within MAQQ. </note>                    
                 </app>
                     <app n="2">
                         <note>Macalister (1940, 206-7) read:</note>
