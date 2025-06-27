@@ -150,6 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-15" who="#POC">Corrected line numbering in edition, added nymRef value, added language code to edition, added images,updated layout attribute encoding</change>
          <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
 <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+         <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -171,11 +172,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                     <persName xml:lang="xpi-Ogam"><name nymRef="#nehtetreb">NEHTETR<choice><unclear>I</unclear><unclear>EB</unclear></choice></name></persName>
                 </ab>
+                 <ab type="list">NEHTETRI</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>The group of strokes at the end of the inscription has previously been interpreted as a group of five vowel strokes across the stem, - I, due to <q>the frequency with which final (genitive) -I is encountered</q> (Forsyth 1996, 16-17). However, Forsyth (1996, 17) highlights that <q>the final stroke is thicker than the previous four and separated from them by a distance greater than that which separates the four from one another</q>. Furthermore, <q>the upper (left-hand) portion of the final stroke appears to cross the stem only barely, certainly less than the previous four strokes</q>. This differentiation from the other four strokes might indicate that this group of five strokes might be interpreted as two letters, <q>the first must be E, and the second probably B</q>. </note>
+                    <note>The group of strokes at the end of the inscription has previously been interpreted as a group of five vowel strokes across the stem, - I, due to <q>the frequency with which final (genitive) -I is encountered</q> (Forsyth 1996, 16-17). However, Forsyth (1996, 17) highlights that <q>the final stroke is thicker than the previous four and separated from them by a distance greater than that which separates the four from one another</q>. Furthermore, <q>the upper (left-hand) portion of the final stroke appears to cross the stem only barely, certainly less than the previous four strokes</q>. This differentiation from the other four strokes might indicate that this group of five strokes might be interpreted as two letters, <q>the first must be E, and the second probably B</q>, resulting in the following reading: </note>
+                    <rdg>NEHTETREB</rdg>
                 </app>
                 </listApp>
             </div>
