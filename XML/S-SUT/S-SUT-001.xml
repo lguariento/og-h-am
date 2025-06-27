@@ -147,6 +147,7 @@ the impression that the ogham inscription occupies a slightly raised roll-mouldi
 <change when="2025-05-16" who="#POC">Updated text direction in edition, added eDIL reference links to commentary</change>
            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
             <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+       <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -162,7 +163,7 @@ the impression that the ogham inscription occupies a slightly raised roll-mouldi
           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="medium" resp="#LH">           
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    ᚐᚂᚂᚆᚆ<g ref="#angled_A"></g>ᚂᚂᚑᚏᚏ<g ref="#forfid_X"/>ᚇᚇ <w lemma="maqqas">ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ</w> <w lemma="nia?">ᚅᚔᚐ</w> ᚃᚃᚆ
+                    ᚐᚂᚂᚆᚆ<g ref="#angled_A"></g>ᚂᚂᚑᚏᚏ<g ref="#forfid_X"/>ᚇᚇ <w type="formula" lemma="maqqas">ᚋ<gap reason="lost" quantity="1" unit="character"/>ᚊᚊ</w> <w lemma="nia?">ᚅᚔᚐ</w> ᚃᚃᚆ
                     <lb n="2" style="text-direction:l-to-r" break="yes"/>
                     <unclear reason="worn">ᚏ</unclear>ᚏᚉ<gap reason="lost" quantity="1" unit="character"/><choice><unclear>ᚅ</unclear><unclear>ᚏ</unclear></choice><choice><unclear>ᚅ</unclear><unclear>ᚏ</unclear></choice>
                 </ab> 
@@ -170,10 +171,11 @@ the impression that the ogham inscription occupies a slightly raised roll-mouldi
             <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="medium" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    ALLHH<g ref="#angled_A"></g>LLORR<g ref="#forfid_X" type="interpretation_E"/>DD <w lemma="maqqas">M<gap reason="lost" quantity="1" unit="character"/>QQ</w> <w lemma="nia?">NIA</w> VVH
+                    ALLHH<g ref="#angled_A"></g>LLORR<g ref="#forfid_X" type="interpretation_E"/>DD <w type="formula" lemma="maqqas">M<gap reason="lost" quantity="1" unit="character"/>QQ</w> <w lemma="nia?">NIA</w> VVH
                     <lb n="2" style="text-direction:l-to-r" break="yes"/>
                     <unclear reason="worn">R</unclear>RC<gap reason="lost" quantity="1" unit="character"/><choice><unclear>N</unclear><unclear>R</unclear></choice><choice><unclear>N</unclear><unclear>R</unclear></choice>
                 </ab>
+                <ab type="list">ALLHHALLORREDD M[.]QQ NIA VVH RRC[.]NN</ab>
             </div>
                         <!--<div type="edition" subtype="english" xml:space="preserve" xml:lang="eng">
                 <ab><lb n="1"/><sic>HEIR</sic> IS THE BURIAL <sic>PLEAC</sic> TO ROBERT GORDON ELDEST SON TO ALEX GORDON OF SUTHE<expan><ex>RLAND</ex></expan></ab>
