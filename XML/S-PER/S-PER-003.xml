@@ -166,6 +166,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
            <change when="2025-05-16" who="#POC">Updated text language in edition and textLang</change>
            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>  
           <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>  
+         <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>       
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -209,22 +210,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/>ETTLIETREN<unclear><g ref="#forfid_OI" type="interpretation_OI"/></unclear>IDDORS
                 </ab>
+                    <ab type="list">ETTLIETRENOIIDDORS</ab>
                     </div>
                 <div type="textpart" n="2" xml:lang="und-Ogam">
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">U</unclear>HTUA<gap reason="lost" quantity="1" unit="character"/>G<unclear>E</unclear>D<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
+                    <ab type="list">[---]UHTUA[.]GED[---] </ab>
                 </div>
                 <div type="textpart" n="3" xml:lang="und-Ogam">
                     <ab>
                     <lb n="1" style="text-direction:up"/>INEHHETESCIE<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>
                     <lb n="2" style="text-direction:up" break="no"/>INNE
                     </ab>
+                    <ab type="list">INEHHETESCIE[..] INNE</ab>
                     </div>
                 <div type="textpart" n="4" xml:lang="und-Ogam">
                     <ab>
                     <lb n="1" style="text-direction:up"/><choice><unclear>S</unclear><unclear>N</unclear></choice>ET<unclear reason="ambiguous">U</unclear>
                 </ab>
+                    <ab type="list">SETU</ab>
                 </div>
             </div>
             <div type="apparatus">
