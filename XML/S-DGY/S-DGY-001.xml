@@ -148,6 +148,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change when="2025-05-15" who="#POC">Added image, updated layout attribute </change>
            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
             <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+                 <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>     
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -166,6 +167,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/>AM<choice resp="#KF"><unclear cert="low">M</unclear><unclear>G</unclear></choice>H<unclear reason="ambiguous">T</unclear><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
+                <ab type="list">AMMHT[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
