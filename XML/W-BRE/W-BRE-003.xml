@@ -158,6 +158,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
 <change when="2025-06-11" who="#POC">Added information to condition and commentary, update provenance and apparatus, add line to translation, added eDIL link</change>
 <change when="2025-06-12" who="#POC">Added image</change>
+       <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition, remove white space from edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -170,23 +171,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#BM" source="RED2007">
                <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#gluvocas?">ᚌᚂ 
-                    <unclear reason="ambiguous">ᚒ</unclear>
-                    <choice><unclear reason="illegible">ᚃ</unclear>
-                        <unclear reason="illegible">ᚄ</unclear></choice>
-                    <unclear reason="ambiguous">ᚑ</unclear>
-                    ᚉ<gap reason="lost" extent="unknown" unit="character"/></name></persName>                  
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#gluvocas?">ᚌᚂ<unclear reason="ambiguous">ᚒ</unclear><choice><unclear reason="illegible">ᚃ</unclear><unclear reason="illegible">ᚄ</unclear></choice><unclear reason="ambiguous">ᚑ</unclear>ᚉ<gap reason="lost" extent="unknown" unit="character"/></name></persName>                  
                 </ab>
             </div>
            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#BM" source="RED2007"> 
                <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#gluvocas?">GL 
-                     <unclear reason="ambiguous">U</unclear>
-                    <choice><unclear reason="illegible">V</unclear>
-                        <unclear reason="illegible">S</unclear></choice>
-                     <unclear reason="ambiguous">O</unclear>
-                        C<gap reason="lost" extent="unknown" unit="character"/></name></persName>                   
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#gluvocas?">GL<unclear reason="ambiguous">U</unclear><choice><unclear reason="illegible">V</unclear><unclear reason="illegible">S</unclear></choice><unclear reason="ambiguous">O</unclear>C<gap reason="lost" extent="unknown" unit="character"/></name></persName>                   
                 </ab>
+               <ab type="list">GLUVOC[---] </ab>
             </div>
             <div type="apparatus">
                <listApp>
