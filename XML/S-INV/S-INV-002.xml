@@ -154,6 +154,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-16" who="#POC">Correct edition encoding, updated text lang code, added text direction for reading</change>
            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
 <change when="2025-06-11" who="#POC">Move information from translation to commentary, update translation</change>
+                 <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition, correct forfid and variant letter encoding, added word division and encoding</change>     
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -166,14 +167,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" cert="low" resp="#LH">              
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>ᚓᚊᚁ<g ref="angled_I"/><g ref="forfid_X"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><w type="formula" lemma="maqqas">ᚓᚊ</w> <name nymRef="becc">ᚁ<g ref="#angled_I"/><g ref="#forfid_X"/></name><gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="und-Ogam" cert="low" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/>
-                    <gap reason="lost" extent="unknown" unit="character"/>EQB<g ref="angled_I"/><g ref="forfid_X" type="interpretation_K"/><gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><w type="formula" lemma="maqqas">EQ</w> <name nymRef="becc">B<g ref="#angled_I"/><g ref="#forfid_X" type="interpretation_K"/></name><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
+                <ab type="list">[---]EQ BIK[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
