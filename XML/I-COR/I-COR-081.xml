@@ -125,6 +125,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, deleted note from within objectType, commented out media, updated apparatus</change>
  <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,14 +144,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="veqoanai">VEQOANAI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="eqod">EQOD<gap reason="lost" extent="unknown" unit="character"/></name></persName> 
                 </ab>
+                <ab type="list">VEQOANAI MAQI EQOD[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 128) did not see the stone but according to him <q>all copyists are agreed on the reading</q> which he gives as: </note>
-                    <rdg source="MAC1945">
+                    <note>Macalister (1945, 128) did not see the stone but according to him <q>all copyists are agreed on the reading</q> above.</note>
+                    <!--<rdg source="MAC1945">
                         <persName><name nymRef="veqoanai">VEQOANAI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="eqod">EQOD<gap reason="lost" extent="unknown" unit="character"/></name></persName>
-                    </rdg>
+                    </rdg>-->
                 </app>
                 </listApp>
             </div>
