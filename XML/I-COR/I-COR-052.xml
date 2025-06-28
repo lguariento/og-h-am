@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-07" who="#POC">Commented out idno invNo because it was displaying empty, deleted lb from apparatus, fixed placename display</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 <change when="2025-06-04" who="#POC">Update execution type and encoding </change>
+<change when="2025-06-28" who="#POC">There's no reading in the edition, moved McManus' reading to the edition for now.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -139,14 +140,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC" source="MCM2004">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚉᚐᚏᚏᚈᚈᚐᚉᚉ</name> <w type="formula" lemma="maqqas">ᚋᚋᚐᚊᚔ</w> <w type="formula" lemma="mucoi">ᚋᚒ</w> <name nymRef="#?">ᚉᚐᚌᚌ<supplied reason="lost">ᚔ</supplied></name></persName>
             </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#POC" source="MCM2004">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CARRTTACC</name> <w type="formula" lemma="maqqas">MMAQI</w> <w type="formula" lemma="mucoi">MU</w> <name nymRef="#?">CAGG<supplied reason="lost">I</supplied></name></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -154,15 +155,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1945, 102) read:</note>
                 <rdg source="MAC1945">
-                <persName><name nymRef="#?">CARRTTACC</name> <w type="formula" lemma="maqqas">GAQI</w> <w type="formula" lemma="mucoi">MU</w> <name nymRef="#?">CAGG<supplied reason="lost">I</supplied></name></persName>
+                CARRTTACC GAQI MU CAGGI
                 </rdg>
                 </app>
-                    <app n="2">
+                    <!--<app n="2">
                         <note>McManus (2004, 14-15) read: </note>
                         <rdg source="MCM2004">
                             <persName><name nymRef="#?">CARRTTACC</name> <w type="formula" lemma="maqqas">MMAQI</w> <w type="formula" lemma="mucoi">MU</w> <name nymRef="#?">CAGG<supplied reason="lost">I</supplied></name></persName>
                         </rdg>
-                    </app>
+                    </app>-->
                 </listApp>
             </div>
             <!--<div type="translation">
