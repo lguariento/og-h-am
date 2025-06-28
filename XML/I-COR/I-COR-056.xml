@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-07" who="#POC">Proofreading updates, fixed placename display</change>
     <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change> 
     <change when="2025-04-14" who="#POC">Simplified execution encoding</change>
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,6 +151,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CUNAGUSSOS</name> <w>MA<gap reason="lost" extent="unknown" unit="character"/></w></persName>
                 </ab>
+                <ab type="list">CUNAGUSSOS MA[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
