@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-07" who="#POC">Commented out idno invNo because it was displaying empty, fixed placename display</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 <change when="2025-06-04" who="#POC">Update execution type and encoding, replace scratched with scored and knife-cut to knife-scored.</change>
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, also added Macalister's reading to edition since there's no reading in the edition, needs to be replaced with OGHAM reading, I expect</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,15 +144,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚌᚏᚔᚋᚔᚌᚌᚅ<supplied reason="lost" resp="MAC1945">ᚔ</supplied></name> <w type="formula" lemma="maqqas"><supplied reason="lost" resp="MAC1945">ᚋᚐᚊ</supplied>ᚔ</w> <name nymRef="#?">ᚉᚓᚏᚉ<supplied reason="lost">ᚉ</supplied><gap reason="lost" quantity="2" unit="character"/></name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">GRIMIGGN<supplied reason="lost" resp="MAC1945">I</supplied></name> <w type="formula" lemma="maqqas"><supplied reason="lost" resp="MAC1945">MAQ</supplied>I</w> <name nymRef="#?">CERC<supplied reason="lost">C</supplied><gap reason="lost" quantity="2" unit="character"/></name></persName>
                 </ab>
+                <ab type="list">GRIMIGGNI MAQI CERCC[..]</ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
                 <app n="1">
                     <note>Macalister (1945, 114) read: </note>
@@ -160,7 +162,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </rdg>
                 </app>
                 </listApp>
-            </div>
+            </div>-->
             <!--<div type="translation">
                 <p></p>
             </div>-->
