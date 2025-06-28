@@ -131,6 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in findspot, added citation details to image description, commented out empty apparatus, translation, and commentary, added Macalister's reading to edition for now, uncommented creation because the transcription is from Macalister</change>
     <change when="2025-02-07" who="#POC">Fixed placename display</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,6 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#lugudiks">LUGUDUC</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#maqqas_oc...ci?"><w>MAQI</w> <w>OC<gap reason="lost" unit="stroke" quantity="12" cert="low"/>CI</w></name></persName>
                 </ab>
+                <ab type="list">LUGUDUC MAQI MAQI OC[---]CI</ab>
             </div>
             <!--<div type="apparatus">
                 <listApp>
