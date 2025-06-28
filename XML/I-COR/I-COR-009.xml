@@ -141,6 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
     <change when="2025-04-15" who="#POC">Added attributes for filtering, updated execution encoding</change>
     <change when="2025-04-15" who="#NW">Updated layout.</change>
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -158,8 +159,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#olagnas?">OLAGNI</name> <w type="formula" lemma="maqqas">MA<unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied><gap reason="lost"/></w></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#olagnas?">OLAGNI</name> <w type="formula" lemma="maqqas">MA<unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied><gap reason="lost" extent="unknown"/></w></persName> 
                 </ab>
+                <ab type="list">OLAGNI MAQI[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
