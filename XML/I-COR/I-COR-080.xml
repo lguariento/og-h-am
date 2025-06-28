@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, moved logainm ref around Irish placename, added citation details to image description</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,21 +145,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <lb n="2" style="text-direction: across" break="no"/>
-                    <lb n="3" style="text-direction:up" break="no"/>
-                    <lb n="4" style="text-direction:across" break="no"/> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">ᚇᚑᚃᚓᚈᚔ</name> <w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied>ᚊ<supplied reason="lost">ᚔ</supplied></w> <name nymRef="#">ᚂᚑᚉᚐᚏᚓᚅᚐ
+                    <lb n="2" style="text-direction:across" break="no"/>ᚄ</name> 
+                    <lb n="3" style="text-direction:up"/><w type="formula" lemma="celi">ᚉ<supplied reason="lost">ᚓᚂ</supplied>ᚔ</w> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost">ᚐ</supplied>ᚊ<supplied reason="lost">ᚔ</supplied></w> <name nymRef="#">ᚉᚒᚂᚔᚇ
+                    <lb n="4" style="text-direction:across" break="no"/>ᚑᚃᚔ</name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <lb n="2" style="text-direction: across" break="no"/>
-                    <lb n="3" style="text-direction:up" break="no"/>
-                    <lb n="4" style="text-direction:across" break="no"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">DOVETI</name> <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">LOCARENA
+                        <lb n="2" style="text-direction:across" break="no"/>S</name> 
+                    <lb n="3" style="text-direction:up"/><w type="formula" lemma="celi">C<supplied reason="lost">EL</supplied>I</w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">CULID
+                        <lb n="4" style="text-direction:across" break="no"/>OVI</name></persName>
                 </ab>
+                <ab type="list">DOVETI MAQI LOCARENAS CELI MAQI CULIDOVI</ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
                 <app n="1">
                     <note>Macalister (1945, 127) read:</note>
@@ -170,13 +172,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </rdg>
                 </app>
                 </listApp>
-            </div>
-            <div type="translation">
+            </div>-->
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
+            </div>-->
+            <!--<div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
