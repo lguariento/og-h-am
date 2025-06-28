@@ -136,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-30" who="#POC">Added images and copyright</change>    
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
 <change when="2025-06-09" who="#POC">Replace foreign with persName for personal names in translation and commentary</change>
+       <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, correct edition display by correcting edition div structure </change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,20 +150,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#maglacu">ᚋᚐᚌᚂᚔᚉᚒᚅᚐᚄ</name> <w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w>
-                        <name nymRef="#klutarigs">ᚉᚂᚒᚈᚐ
+                    <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#maglacu">ᚋᚐᚌᚂᚔᚉᚒᚅᚐᚄ</name> <w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w> <name nymRef="#klutarigs">ᚉᚂᚒᚈᚐ
                     <lb n="2" style="text-direction:across"/><unclear reason="damage">ᚏ</unclear><gap reason="lost" extent="unknown"/></name></persName>
                 </ab>
               </div>
+                </div>
                 <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#maglacu">MAGLICUNAS</name><w lemma="maqqas">MAQI</w><name nymRef="#klutarigs">CLUTA
+                        <lb n="1" style="text-direction:up" break="no"/><persName><name nymRef="#maglacu">MAGLICUNAS</name> <w lemma="maqqas" type="formula">MAQI</w> <name nymRef="#klutarigs">CLUTA
                         <lb n="2" style="text-direction:across"/><unclear reason="illegible" extent="1" unit="character">R</unclear><gap reason="lost" extent="unknown"/></name></persName>
                     </ab>
+                    <ab type="list">MAGLICUNAS MAQI CLUTA R[---]</ab>
                 </div>
                </div>
-            </div>
                  <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
