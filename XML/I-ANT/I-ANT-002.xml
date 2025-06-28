@@ -138,7 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-19" who="#NW">Added 'Northern Ireland' placename to origPlace and repository coordinates using altIdentifier and attributes to material, object type and layout.</change>    
     <change when="2025-04-15" who="#POC">Update execution encoding in handNote</change>
     <change when="2025-06-03" who="#NW">Execution type updated to scored</change>
-        
+    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, add alternative reading of first name to apparatus</change>          
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -151,19 +151,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>            
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><choice><unclear>ᚉ</unclear><unclear>ᚈ</unclear></choice>ᚐ<unclear reason="faded">ᚌ</unclear>ᚔᚅ<unclear reason="background_noise">ᚐ</unclear><choice><unclear>ᚇᚔ</unclear><unclear>ᚈᚓ</unclear></choice></name> <w lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#vobarracas">ᚃᚑᚁᚐᚏᚐᚉᚔ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><choice><unclear>ᚉ</unclear><unclear>ᚈ</unclear></choice>ᚐ<unclear reason="faded">ᚌ</unclear>ᚔᚅ<unclear reason="background_noise">ᚐ</unclear><choice><unclear>ᚇᚔ</unclear><unclear>ᚈᚓ</unclear></choice></name> <w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w> <name nymRef="#vobarracas">ᚃᚑᚁᚐᚏᚐᚉᚔ</name></persName>
                    </ab>
             </div>
             <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><choice><unclear>C</unclear><unclear>T</unclear></choice>A<unclear reason="faded">G</unclear>IN<unclear reason="background_noise">A</unclear><choice><unclear>DI</unclear><unclear>TE</unclear></choice></name> <w lemma="maqqas">MAQI</w> <name nymRef="#vobarracas">VOBARACI</name></persName>                
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><choice><unclear>C</unclear><unclear>T</unclear></choice>A<unclear reason="faded">G</unclear>IN<unclear reason="background_noise">A</unclear><choice><unclear>DI</unclear><unclear>TE</unclear></choice></name> <w lemma="maqqas" type="formula">MAQI</w> <name nymRef="#vobarracas">VOBARACI</name></persName>                
                 </ab>
+                <ab type="list">CAGINADI MAQI VOBARACI </ab>
             </div>         
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app></app>
+                <app n="1">
+                    <note>An alternative reading of the first name is also possible:</note>
+                    <rdg>TAGINATE MAQI VOBARACI</rdg>
+                </app>
                 </listApp>
-            </div>-->
+            </div>
             <div type="translation">
                 <p>of ? son of *<persName xml:lang="sga">Fobrach</persName></p>
             </div>
