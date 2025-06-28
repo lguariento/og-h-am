@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-27" who="#POC">Added Irish placename to title, moved origPlace closing tag to fix ITM coordinates display, correct typos, added ogham space marker</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -158,6 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas_treni"><w>MAQI</w><w>TRENI</w></name> <w type="formula" lemma="avias"><supplied reason="omitted">A</supplied>VI</w> <w><unclear reason="damage">T</unclear><gap reason="lost" extent="unknown"/></w></persName> 
                 </ab>
+                <ab type="list">MAQITRENI AVI T[---] </ab>
             </div>
             <div type="apparatus">
                 <listApp>
