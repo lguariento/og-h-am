@@ -126,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, updated apparatus, deleted note element from object type, commented out media and origDate</change>
  <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 <change when="2025-06-04" who="#POC">Update execution type and encoding</change>
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,8 +145,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqi-bri">MAQI-BRI<gap reason="lost" extent="unknown" unit="character"/></name><w type="formula" lemma="celi">CELI</w> <name nymRef="#">ALACA<gap reason="lost" extent="unknown" unit="character"/></name></persName> 
                 </ab>
+                <ab type="list">MAQI-BRI[---]CELI ALACA[---]</ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
                 <app n="1"><note>Macalister (1945, 120) read: </note>
                     <rdg source="MAC1945">
@@ -153,7 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </rdg>
                 </app>
                 </listApp>
-            </div>
+            </div>-->
             <!--<div type="translation">
                 <p></p>
             </div>-->
