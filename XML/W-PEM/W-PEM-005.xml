@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-06-05" who="#POC">Replace foreign with persName</change>
     <change when="2025-06-20" who="#NW">Updated edition encoding and added space between words.</change>
     <change when="2025-06-26" who="#POC">Update image file name and path</change>
+       <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,17 +148,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="la-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#aeternus">ᚓᚈᚈᚓᚏᚅ<gap reason="lost" extent="unknown"/></name>
-                    <name nymRef="#victor"><gap reason="lost" unit="character" quantity="3"/>ᚈᚑᚏ</name></persName>
+                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#aeternus">ᚓᚈᚈᚓᚏᚅ<gap reason="lost" extent="unknown"/></name><name nymRef="#victor"><gap reason="lost" unit="character" quantity="3"/>ᚈᚑᚏ</name></persName>
                 </ab>
               </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="la-Ogam">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#aeternus">ETTERN<gap reason="lost" extent="unknown"/></name>
-                    <name nymRef="#victor"><gap reason="lost" unit="character" quantity="3"/>TOR</name></persName>
+                        <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#aeternus">ETTERN<gap reason="lost" extent="unknown"/></name><name nymRef="#victor"><gap reason="lost" unit="character" quantity="3"/>TOR</name></persName>
                     </ab>
+                    <ab type="list">ETTERN[---][ ...]TOR</ab>
                 </div>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
