@@ -141,7 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-15" who="#POC">Update execution encoding in handNote</change>    
     <change when="2025-06-03" who="#NW">Execution type updated to scored</change> 
     <change when="2025-06-14" who="#NW">Added nymrefs to edition</change>
-
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, correct bibl reference</change>         
    
 </listChange>
 </revisionDesc>
@@ -160,7 +160,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">                
                     <ab>
                      <lb n="1" style="text-direction:up-across-down"/><persName><name nymRef="?"><gap reason="lost" extent="unknown"/>ALL<supplied reason="lost" cert="low">A</supplied></name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#vortigernas">VORRTI<unclear reason="faded">G</unclear>U<supplied reason="lost" evidence="previouseditor">R</supplied>N</name></persName>
-                </ab>              
+                </ab>     
+                <ab type="list">[---]ALLA MAQI VORRTIGURN</ab>
             </div>
             <div type="apparatus">
                 <listApp>
