@@ -138,7 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change>  
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
     <change when="2025-05-19" who="#NW">Updated support desc.</change>
-    
+    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, correct bibl reference</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -160,6 +160,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="corbagnas">C<unclear reason="damage">O</unclear><damage>R</damage>BAGN<unclear reason="damage">I</unclear></name>
                      <lb n="2" style="text-direction:up-down"/><w type="formula" lemma="koi"><g ref="#forfid_X" type="interpretation_K"/><supplied reason="lost" cert="medium">OI</supplied></w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied><damage>Q</damage><supplied reason="lost">I</supplied></w> <w type="formula" lemma="muccoias">M<unclear reason="damage">OCC</unclear>OI</w> <name nymRef="?"><unclear reason="damage">C</unclear>ORO<unclear reason="damage">T</unclear>ANI</name></persName>
                 </ab>
+                <ab type="list">CORBAGNI KOI MAQI MOCCOI COROTANI</ab>
             </div>
             <div type="apparatus">
                 <listApp>
@@ -180,7 +181,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                       <bibl><ptr target="BRA1879"/>
+                       <bibl><ptr target="BRA1879a"/>
                         <citedRange>140,142-143</citedRange>
                     </bibl>
                      <bibl><ptr target="MAC1945"/>
