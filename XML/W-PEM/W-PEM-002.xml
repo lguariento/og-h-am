@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images</change>
 <change when="2025-06-05" who="#POC">Update foreign to persName for personal names in commentary and translation</change>
 <change when="2025-06-26" who="#POC">Update image file name and path</change>
+<change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, update edition, remove white space</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,19 +148,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#duvvatucas">ᚇᚑᚃᚐᚈ<unclear reason="worn" extent="1" unit="character">ᚒ</unclear>ᚉ
-                    <choice><unclear reason="worn">ᚔ</unclear>
-                            <unclear reason="worn">ᚓᚐ</unclear></choice>ᚄ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#duvvatucas">ᚇᚑᚃᚐᚈ<unclear reason="worn" extent="1" unit="character">ᚒ</unclear>ᚉ<choice><unclear reason="worn">ᚔ</unclear><unclear reason="worn">ᚓᚐ</unclear></choice>ᚄ</name></persName>
                 </ab>
               </div>
             </div>  
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                 <div type="textpart" n="1">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#duvvatucas">DOVAT<unclear reason="worn" extent="1" unit="character">U</unclear>C
-                    <choice><unclear reason="worn">I</unclear>
-                            <unclear reason="worn">EA</unclear></choice>S</name></persName>
+                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#duvvatucas">DOVAT<unclear reason="worn" extent="1" unit="character">U</unclear>C<choice><unclear reason="worn">I</unclear><unclear reason="worn">EA</unclear></choice>S</name></persName>
                     </ab>
+                    <ab type="list">DOVATUCIS</ab>
                 </div>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
