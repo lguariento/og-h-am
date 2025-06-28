@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty translation, and commentary, fixed placename display</change>
 <change when="2025-04-16" who="#POC">Update handnote, added attributes for filtering</change>    
+<change when="2025-06-28" who="#POC">Added in reading for time being, needs to be replaced by OGHAM reading I expect</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,23 +144,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="colli">ᚉᚑᚂᚂᚔ</name></persName> 
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="colli">COLLI</name></persName> 
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app n="1">
+                    <!--<app n="1">
                         <note>McManus (2004, 15) read: </note>
                         <rdg source="MCM2004">
                             <persName>COLLI</persName> 
                         </rdg>
-                    </app>
-                <app n="2">
+                    </app>-->
+                <app n="1">
                     <note>Macalister (1945, 116) read: </note>
                     <rdg source="MAC1945">
                         <persName>COLLOS</persName>
