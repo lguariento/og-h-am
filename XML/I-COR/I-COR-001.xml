@@ -146,13 +146,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering</change>
     <change when="2025-05-20" who="#NW">Updated encoding of illegible text with gap of c.45 strokes to test display.</change>
     <change when="2025-06-03" who="#NW">Execution type updated to scored</change>
-    
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="IRE/I-COR/I-COR-001-Coomleagh-East_site.jpg"><desc>Photograph by Nora White</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-001-Coomleagh-East_Inscription.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-001-Coomleagh-East-a.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-001-Coomleagh-East-b.jpg"><desc>Photograph by Nora White</desc></graphic>
         <media url="https://sketchfab.com/3d-models/co106-064-coomleagh-east-f01816e79f994896a9415862874f2fd9" mimeType="text/html"><desc>3d model by Gary Dempsey on SketchFab</desc></media>
     </facsimile>    
     <text>
@@ -168,6 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                       <lb n="1" style="text-direction:up"/>
                     <gap reason="illegible" quantity="45" unit="stroke" precision="low"/><unclear reason="background_noise">TETA</unclear>
                 </ab>
+                <ab type="list">[---]TETA</ab>
             </div>
             <div type="apparatus">
                <listApp>
