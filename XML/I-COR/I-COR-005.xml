@@ -138,13 +138,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-27" who="#POC">Added Irish placename to title, add citation details to image description</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
+       <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, updated image file names and image path</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
-        <graphic url="IRE/I-COR/I-COR-005-MAC1945-63-Ballynabortagh-I.jpg"><desc>Sketch by Macalister (1945, 63)</desc></graphic>
-        <graphic url="IRE/I-COR/I-COR-005-Ballynabortagh-I_stone.jpg"/>
-        <graphic url="IRE/I-COR/I-COR-005-Ballynabortagh-I_Inscription.jpg"/>
+    <facsimile>      
+        <graphic url="IRE/I-COR/I-COR-005-Ballynabortagh1-a.jpg"><desc>Image by Nora White</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-005-Ballynabortagh1-b.jpg"><desc>Image by Nora White</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-005-MAC1945-63-Ballynabortagh1.jpg"><desc>Sketch by Macalister (1945, 63)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ballynabortagh-ogham-stone-3c947a7d128b4783abe836e47bdf4858" mimeType="text/html"><desc>3d model by Nora White on SketchFab.</desc></media>
     </facsimile>    
     <text>
@@ -160,11 +161,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/><name nymRef="#?"><gap reason="lost" unit="cm" atMost="60"/><unclear reason="damaged">U</unclear><gap reason="illegible" unit="cm" extent="8"/><unclear reason="damaged" cert="low">IAI</unclear>BODAS</name>
                         <lb n="2" style="text-direction:up"/><gap reason="lost" unit="cm" atMost="50"/><name nymRef="#...rthagnas">RTAGNI</name> 
                 </ab>
+                <ab type="list">[---]U[---]IAIBODAS [---]RTAGNI</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Reading by Macalister 1945:</note> 
+                    <note>Reading by Macalister (1945):</note> 
                     <rdg source="MAC1945"><lb n="1" style="text-direction:up"/><gap reason="lost"/>U<unclear reason="damaged">IV</unclear>AIBES
                     </rdg>
                 </app>
