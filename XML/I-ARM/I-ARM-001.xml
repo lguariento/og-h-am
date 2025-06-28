@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-19" who="#NW">Added 'Northern Ireland' placename to origPlace and repository coordinates using altIdentifier.</change>
         <change when="2025-04-03" who="#POC">Moved geological information in material to note</change>
       <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change>    
+       <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,14 +150,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="?">ᚇᚐᚓᚅ<unclear reason="damage">ᚓ</unclear>ᚌᚂ<unclear reason="damage">ᚑ</unclear></name>
-                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">ᚋᚐᚊ<unclear reason="damage">ᚔ</unclear></w> <name nymRef="?">ᚊ<supplied reason="lost">ᚓ</supplied>ᚈᚐᚔ<gap reason="lost"/></name></persName>
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">ᚋᚐᚊ<unclear reason="damage">ᚔ</unclear></w> <name nymRef="?">ᚊ<supplied reason="lost" extent="unknown">ᚓ</supplied>ᚈᚐᚔ<gap reason="lost"/></name></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                      <lb n="1" style="text-direction:up"/><persName><name nymRef="?">DAEN<unclear reason="damage">E</unclear>GL<unclear reason="damage">O</unclear></name>
-                     <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">MAQ<unclear reason="damage">I</unclear></w> <name nymRef="?">Q<supplied reason="lost">E</supplied>TAI<gap reason="lost"/></name></persName>
+                     <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">MAQ<unclear reason="damage">I</unclear></w> <name nymRef="?">Q<supplied reason="lost">E</supplied>TAI<gap reason="lost" extent="unknown"/></name></persName>
                 </ab>
+                <ab type="list">DAENEGLO MAQI Q[E]TAI[---]</ab>
             </div>
             <div type="apparatus">
                <app n="1"><note>Macalister (1945) read the following, with the final S all broken away except the proximal ends of the first two strokes (which could not been identified on inspection):</note>
