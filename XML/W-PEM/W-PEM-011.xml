@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images</change>
 <change when="2025-06-06" who="#POC">Added eDIL links to commentary, replace foreign with persName in translation, updated edition encoding with word, name, and persName elements</change>
 <change when="2025-06-26" who="#POC">Update image file name and path</change>
+       <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,14 +146,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" source="EDW2007">
                 <ab>
-                    <lb n="1"/><gap reason="lost"/><persName><w type="formula" lemma="maqqas" cert="medium">ᚐᚊ</w><space quantity="1" unit="character"/>
-<name nymRef="#cacht" xml:lang="pgl">ᚊᚐ<space quantity="1" unit="character"/>ᚌᚈᚓ</name><gap reason="lost"/></persName>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="stroke"/><persName><w type="formula" lemma="maqqas" cert="medium">ᚐᚊ</w><space quantity="1" unit="character"/>
+<name nymRef="#cacht" xml:lang="pgl">ᚊᚐ<space quantity="1" unit="character"/>ᚌᚈᚓ</name><gap reason="lost" extent="unknown" unit="stroke"/></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" source="EDW2007">
                 <ab>
-                    <lb n="1"/><gap reason="lost"/><persName><w type="formula" lemma="maqqas" cert="medium">AQ</w> <name nymRef="#cacht" xml:lang="pgl">QA GTE</name><gap reason="lost"/></persName>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="stroke"/><persName><w type="formula" lemma="maqqas" cert="medium">AQ</w> <name nymRef="#cacht" xml:lang="pgl">QA GTE</name><gap reason="lost" extent="unknown" unit="stroke"/></persName>
                 </ab>
+                <ab type="list">[---]AQ QA GTE[---] </ab>
             </div>
             <div type="apparatus">
                 <app n="1">
