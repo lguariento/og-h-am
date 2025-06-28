@@ -135,7 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-14" who="#NW">Added attribute 'key=cross' to decoration.</change>
     <change when="2025-03-22" who="#NW">Added country and attributes for indexing.</change>
     <change when="2025-06-03" who="#NW">Execution type updated to scored</change>
-    
+    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,6 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><w type="formula">ANM</w> <persName><name nymRef="#?">TENAS</name> <w type="formula" lemma="maqqas">MACI</w> V<gap reason="lost" extent="unknown"/></persName></supplied>
                 </ab>
+                <ab type="list">ANM TENAS MACI V[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
