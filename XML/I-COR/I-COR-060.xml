@@ -128,6 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, commented out empty facsimile (no drawing or media), translation, and commentary</change>
 <change when="2025-02-07" who="#POC">Commented out idno invNo because it was displaying empty, uncommented facsimile to fix database display, fixed placename display</change>
  <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,6 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>I <w type="formula" lemma="maqqas">MAQI</w> <gap reason="lost" extent="unknown" unit="character"/>C<gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
+                <ab type="list">[---]I MAQI [---]C[---]</ab>
             </div>
             <!--<div type="apparatus">
                 <listApp>
@@ -160,7 +162,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>-->
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="BRA1879"/>
+                     <bibl><ptr target="BRA1879a"/>
                          <citedRange>132</citedRange>
                      </bibl>
                      <!--<bibl><ptr target="HAR1939"/>
