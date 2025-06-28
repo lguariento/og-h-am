@@ -132,6 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-07" who="#POC">Commented out idno invNo because it was displaying empty, updated handNote, fixed placename display</change>
  <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 <change when="2025-06-04" who="#POC">Update execution type and encoding</change>
+<change when="2025-06-28" who="#POC">Added in reading for time being, needs to be replace by OGHAM reading I expect</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,15 +144,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚉᚒᚂᚏᚔᚌᚐᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#?">ᚋᚓᚅᚒᚋᚐᚊ<supplied reason="lost" resp="MAC1945">ᚔ</supplied></name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CULRIGAI</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">MENUMAQ<supplied reason="lost" resp="MAC1945">I</supplied></name></persName>
                 </ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
                 <app n="1">
                     <note>Macalister (1945, 114) read: </note>
@@ -160,7 +161,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </rdg>
                 </app>
                 </listApp>
-            </div>
+            </div>-->
             <!--<div type="translation">
                 <p></p>
             </div>-->
