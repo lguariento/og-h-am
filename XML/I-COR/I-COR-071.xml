@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.27</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Macalister (1945, 119) described the surface of the stone as <q>'rather rough'</q> but the inscription is <q>'perfectly legible'</q>.</condition>
+                                <condition>Macalister (1945, 119) described the surface of the stone as <q>rather rough</q> but the inscription is <q>perfectly legible</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_up"/>
@@ -88,7 +88,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM Coordinates: 545879, 580808</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1872">This stone is one of two ogham stones (see also I-COR-070) discovered reused in a souterrain (<idno type="SMR">CO061-022001-</idno>) where it formed one of the <q>'upright stones'</q> (Quarry 1896, 382). Two other ogham stones (I-COR-069, I-COR-072) were also discovered at this site.
+                        <provenance type="found" when="1872">This stone is one of two ogham stones (see also I-COR-070) discovered reused in a souterrain (<idno type="SMR">CO061-022001-</idno>) where it formed one of the <q>upright stones</q> (Quarry 1896, 382). Two other ogham stones (I-COR-069, I-COR-072) were also discovered at this site.
                         </provenance>
                         <provenance type="observed">This stone was purchased by the Royal Irish Academy and is now part of the collection of the National Museum of Ireland (see <idno type="SMR">DU018-368----</idno>). 
                         </provenance>
@@ -126,7 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, proofreading changes, updated apparatus, deleted note element from object type, commented out translation and commentary</change>
     <change when="2025-04-01" who="#NW">Updated encoding of X-forfid and added indexing attributes.</change>
-    
+             <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>           
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,17 +143,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#broinienas">BROINIENAS</name> <w type="formula">KOI</w> <name nymRef="#netta-ttrenalugos">NETTATTRENALUGOS</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#broinienas">BROINIENAS</name> <w type="formula"><g ref="#forfid_X" type="interpretation_K"/>OI</w> <name nymRef="#netta-ttrenalugos">NETTATTRENALUGOS</name></persName>
                 </ab>
+                <ab type="list">BROINIENAS KOI NETTATTRENALUGOS</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note n="1">Macalister (1945, 119) read:</note>
+                    <!--<note n="1">Macalister (1945, 119) read:</note>
                     <rdg source="MAC1945">
                         <persName><name nymRef="#broinienas">BROINIENAS</name> <w type="formula">KOI</w> <name nymRef="#netta-ttrenalugos">NETTA-TTRENALUGOS</name></persName>
-                    </rdg>
-                    <note n="2"><lb/>According to Macalister (1945, 119), <q>'this is the only case of the combination of KOI with NETA'</q>.</note>
+                    </rdg>-->
+                    <note>According to Macalister (1945, 119), <q>this is the only case of the combination of KOI with NETA</q>.</note>
                 </app>
                     <app n="2">
                         <note n="1">McManus (1991, 66) had difficulty reading the final U, O and S.</note>
