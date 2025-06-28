@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-06" who="#NW">Updated commentary and dating and added translation.</change> 
 <change when="2025-03-22" who="#NW">Added country and attributes for indexing.</change>
 <change when="2025-04-14" who="#POC">Simplified execution encoding</change>
+<change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition,correct edition by removing white space, added sic reading to apparatus</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,67 +148,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#vecreg?">
-                        <choice>
-                            <sic>ᚈ</sic>
-                            <corr>ᚃ</corr>
-                        </choice>ᚓ<choice>
-                        <sic>ᚅ</sic>
-                        <corr>ᚊ</corr>
-                    </choice>ᚏᚓ<choice>
-                         <sic>ᚅ</sic>
-                        <corr>ᚊ</corr>
-                    </choice></name> <space unit="mm" quantity="110"/> <w type="formula" lemma="muccoviias">ᚋᚑ<choice>
-                        <sic>ᚅ</sic>
-                        <corr>ᚊ</corr>
-                    </choice>ᚑᚔ</w> <name nymRef="#glunlegget?">ᚌ<choice>
-                        <sic>ᚇ</sic>
-                        <corr>ᚂ</corr>
-                    </choice>ᚒ<choice>
-                        <sic>ᚊ</sic>
-                        <corr>ᚅ</corr>
-                    </choice><choice>
-                        <sic>ᚇ</sic>
-                        <corr>ᚂ</corr>
-                    </choice>ᚓᚌᚌᚓ<choice>
-                        <sic>ᚃ</sic>
-                        <corr>ᚈ</corr>
-                    </choice></name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#vecreg?"><choice><sic>ᚈ</sic><corr>ᚃ</corr></choice>ᚓ<choice><sic>ᚅ</sic><corr>ᚊ</corr></choice>ᚏᚓ<choice><sic>ᚅ</sic><corr>ᚊ</corr></choice></name> <space unit="mm" quantity="110"/> <w type="formula" lemma="muccoviias">ᚋᚑ<choice><sic>ᚅ</sic><corr>ᚊ</corr></choice>ᚑᚔ</w> <name nymRef="#glunlegget?">ᚌ<choice><sic>ᚇ</sic><corr>ᚂ</corr></choice>ᚒ<choice><sic>ᚊ</sic><corr>ᚅ</corr></choice><choice><sic>ᚇ</sic><corr>ᚂ</corr></choice>ᚓᚌᚌᚓ<choice><sic>ᚃ</sic><corr>ᚈ</corr></choice></name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#vecreg?">
-                        <choice>
-                            <sic>T</sic>
-                            <corr>V</corr>
-                        </choice>E<choice>
-                        <sic>N</sic>
-                        <corr>Q</corr>
-                    </choice>RE<choice>
-                         <sic>N</sic>
-                        <corr>Q</corr>
-                    </choice></name> <space unit="mm" quantity="110"/> <w type="formula" lemma="muccoviias">MO<choice>
-                        <sic>N</sic>
-                        <corr>Q</corr>
-                    </choice>OI</w> <name nymRef="#glunlegget?">G<choice>
-                        <sic>D</sic>
-                        <corr>L</corr>
-                    </choice>U<choice>
-                        <sic>Q</sic>
-                        <corr>N</corr>
-                    </choice><choice>
-                        <sic>D</sic>
-                        <corr>L</corr>
-                    </choice>EGGE<choice>
-                        <sic>V</sic>
-                        <corr>T</corr>
-                    </choice></name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#vecreg?"><choice><sic>T</sic><corr>V</corr></choice>E<choice><sic>N</sic><corr>Q</corr></choice>RE<choice><sic>N</sic>
+<corr>Q</corr></choice></name> <space unit="mm" quantity="110"/> <w type="formula" lemma="muccoviias">MO<choice><sic>N</sic><corr>Q</corr></choice>OI</w> <name nymRef="#glunlegget?">G<choice><sic>D</sic><corr>L</corr></choice>U<choice><sic>Q</sic><corr>N</corr></choice><choice><sic>D</sic><corr>L</corr></choice>EGGE<choice><sic>V</sic><corr>T</corr></choice></name></persName> 
                 </ab>
+                <ab type="list">VEQREQ (vac.) MOQOI GLUNLEGGET</ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                    <app n="1"><note>Although there are traces of what looks like a faint stroke between the final character of the first name and the M of the following word (closer to the M), it does not seem to be part of the inscription.</note></app>
+                    <app n="1">
+                        <note>The inscription was incorrectly written as:</note>
+                        <rdg>TENREN (vac.) MONOI GDUQDEGGEV</rdg>
+                    </app>
+                    <app n="2">
+                        <note>Although there are traces of what looks like a faint stroke between the final character of the first name and the M of the following word (closer to the M), it does not seem to be part of the inscription.</note>
+                    </app>
                 </listApp>
             </div>               
             
@@ -220,7 +179,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                      <bibl><ptr target="BRA1879"/>
+                      <bibl><ptr target="BRA1879a"/>
                         <citedRange>160-162</citedRange>
                     </bibl>
                      <bibl><ptr target="MAC1945"/>
