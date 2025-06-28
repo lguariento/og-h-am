@@ -132,7 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, moved Macalister drawing to the end of images</change>
 <change when="2025-06-06" who="#POC">Added eDIL links to commentary, replace foreign with persName in translation, updated edition encoding with word, name, and persName elements</change>
 <change when="2025-06-26" who="#POC">Update image file name and path</change>
-       <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+       <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, add space encoding to transliteration, added (vac.) to ab type list for display?</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,9 +152,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" source="EDW2007">
                 <ab>
-                    <lb n="1"/><gap reason="lost" extent="unknown" unit="stroke"/><persName><w type="formula" lemma="maqqas" cert="medium">AQ</w> <name nymRef="#cacht" xml:lang="pgl">QA GTE</name><gap reason="lost" extent="unknown" unit="stroke"/></persName>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="stroke"/><persName><w type="formula" lemma="maqqas" cert="medium">AQ</w><space quantity="1" unit="character"/><name nymRef="#cacht" xml:lang="pgl">QA<space quantity="1" unit="character"/>GTE</name><gap reason="lost" extent="unknown" unit="stroke"/></persName>
                 </ab>
-                <ab type="list">[---]AQ QA GTE[---] </ab>
+                <ab type="list">[---]AQ(vac.)QA(vac.)GTE[---] </ab>
             </div>
             <div type="apparatus">
                 <app n="1">
