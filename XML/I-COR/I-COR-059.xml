@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-06" who="#POC">Added Irish placename to title and origPlace, moved logainm ref link to surround the Irish placename in origPlace, commented out empty facsimile (no drawing or picture), translation, and commentary, uncommented creation because the transcription is Macalister's reading</change>
 <change when="2025-02-07" who="#POC">Commented out idno invNo because it was displaying empty, uncommented facsimile to fix database display, moved closing placename tag to fix Irish placename display</change>
  <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,15 +146,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <ab>
                 <lb n="1" style="text-direction:up"/>B<gap reason="lost" extent="unknown" unit="character"/>Q<gap reason="lost" extent="unknown" unit="character"/>HAGA<gap reason="lost" extent="unknown" unit="character"/>DL 
             </ab>
+                <ab type="list">B[---]Q[---]HAGA[---]DL</ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
                 <app n="1">
                     <note>Macalister (1945, 111) read:</note>
                 <rdg>B<gap reason="lost" extent="unknown" unit="character"/>Q<gap reason="lost" extent="unknown" unit="character"/>HAGA<gap reason="lost" extent="unknown" unit="character"/>DL </rdg>
                 </app>
                 </listApp>
-            </div>
+            </div>-->
             <!--<div type="translation">
                 <p></p>
             </div>-->
