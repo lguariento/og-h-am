@@ -124,6 +124,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-10-02" who="#POC">Added and encoded information, including edition</change>
 <change when="2025-02-11" who="#POC">Added placename to title, updated apparatus</change>
  <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,17 +143,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1"/>AF<choice><unclear>G</unclear><unclear>M</unclear></choice>OLA <!--(Check!)-->
                 </ab>
+                <ab type="list">AFGOLA</ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
                 <app n="1">
                     <note>Power et al. (1992 no. 1035) read:</note>
                     <rdg>
-                        AF<choice><unclear>G</unclear><unclear>M</unclear></choice>OLA <!--(Check!)-->
+                        AF<choice><unclear>G</unclear><unclear>M</unclear></choice>OLA <!-\-(Check!)-\->
                     </rdg>
                 </app>
                 </listApp>
-            </div>
+            </div>-->
             <!--<div type="translation">
                 <p></p>
             </div>-->
