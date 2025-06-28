@@ -130,6 +130,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-06" who="#POC">Added Irish placename to title, moved logainm ref link to surround the Irish placename in origPlace, added citation details to image description, commented out empty handDesc, translation, and commentary</change>
 <change when="2025-02-07" who="#POC">Deleted break attribute from lb element in edition to fix database display, commented out idno invNo because it was displaying empty, fixed placename display</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
+<change when="2025-06-28" who="#POC">Added in reading for time being, needs to be replace by OGHAM reading I expect</change>
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -141,17 +143,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <lb n="2" style="text-direction:down"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚁᚏᚐᚅᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚊᚔ</w> <w type="formula" lemma="mucoi">ᚋᚒᚉᚉ
+                            <lb n="2" style="text-direction:down" break="no"/><supplied reason="lost" resp="MAC1945">ᚑᚔ</supplied></w> <gap reason="lost" quantity="2" unit="character"/>ᚏ<supplied reason="lost" resp="MAC1945">ᚐ</supplied>ᚂ<gap reason="lost" quantity="2" unit="character"/></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                    <lb n="2" style="text-direction:down"/>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">BRANI</name> <w type="formula" lemma="maqqas">MAQQI</w> <w type="formula" lemma="mucoi">MUCC
+                            <lb n="2" style="text-direction:down" break="no"/><supplied reason="lost" resp="MAC1945">OI</supplied></w> <gap reason="lost" quantity="2" unit="character"/>R<supplied reason="lost" resp="MAC1945">A</supplied>L<gap reason="lost" quantity="2" unit="character"/></persName>
                 </ab>
+                <ab type="list">BRANI MAQQI MUCCOI[..]RAL[..]</ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
                 <app n="1">
                     <note>Macalister (1945, 115) read:</note>
@@ -161,7 +164,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </rdg>
                 </app>
                 </listApp>
-            </div>
+            </div>-->
             <!--<div type="translation">
                 <p></p>
             </div>-->
