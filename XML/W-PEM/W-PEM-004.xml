@@ -137,7 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
     <change when="2025-06-05" who="#POC">Replace foreign with persName</change>
     <change when="2025-06-22" who="#NW">Updated textLang</change>
-    
+           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -159,6 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <ab>
                         <lb n="1" style="text-direction:up"/><persName><name nymRef="#trenagussus"><w><supplied reason="undefined">TREN</supplied><unclear reason="illegible">A</unclear></w><w>GUS<gap reason="illegible" extent="1" unit="character"/></w></name> <w lemma="maqqas" type="formula">MAQI</w> <name nymRef="#maqqas_treni"><w>MAQI</w><w>TRENI</w></name></persName>
                     </ab>
+                <ab type="list">TRENAGUS[.] MAQI MAQITRENI</ab>
                </div>
             <div type="edition" subtype="roman" xml:space="preserve">
                     <div type="textpart" n="2" xml:lang="la-Latn"> <!--remove script code? divide name elements into words here too? Align nymrefs or remove from Latin?-->
