@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-30" who="#NW">Added new attributes for filtering. Added country placename to origPlace</change>
           <change when="2025-04-16" who="#POC">Updated execution encoding</change>    
     <change when="2025-05-08" who="#POC">Updated commentary</change>
+           <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>  
@@ -146,18 +147,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#allatis">ᚐᚂ<unclear reason="faded">ᚐ</unclear>ᚈᚈᚑᚄ</name>
-                    <w lemma="maqqas">ᚋᚐᚊᚔ</w>
-                    <name>ᚁᚏ<gap reason="lost" extent="unknown"/></name></persName>                     
+                    <persName><name nymRef="#allatis">ᚐᚂ<unclear reason="faded">ᚐ</unclear>ᚈᚈᚑᚄ</name> <w lemma="maqqas">ᚋᚐᚊᚔ</w> <name>ᚁᚏ<gap reason="lost" extent="unknown"/></name></persName>                     
                    </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#allatis">AL<unclear reason="faded">A</unclear>TTOS</name>
-                    <w lemma="maqqas">MAQI</w>
-                    <name>BR<gap reason="lost" extent="unknown"/></name></persName>                     
+                    <persName><name nymRef="#allatis">AL<unclear reason="faded">A</unclear>TTOS</name> <w lemma="maqqas">MAQI</w> <name>BR<gap reason="lost" extent="unknown"/></name></persName>                     
                    </ab>
+                <ab type="list">ALATTOS MAQI BR[---] </ab>
             </div>
             <div type="apparatus"/>                 
             
