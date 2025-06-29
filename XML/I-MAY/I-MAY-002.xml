@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-14" who="#POC">Proofreading changes</change>
     <change when="2025-04-04" who="#NW">Added new attributes for filtering. Added repository coordinates using altIdentifier.</change> 
    <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change> 
+           <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition, fix bibl reference</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -176,6 +177,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <ab>
                         <lb n="1" style="text-direction:up-top-down"/><orig>DDISIMO<space quantity="2" unit="stroke"/>CQUSEL</orig>                    
                     </ab>
+                     <ab type="list">DDISIMO (vac.) CQUSEL</ab>
                 </div>
             <div type="apparatus"/>
                  
@@ -202,7 +204,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <citedRange>65, 79, 95, 96,
                             103, 113, 116, 117, 120, 122, 181</citedRange>
                     </bibl>
-                    <bibl><ptr target="RHY1907"/>
+                    <bibl><ptr target="RHY1907b"/>
                         <citedRange>61-68</citedRange>
                     </bibl>
                     <bibl>
