@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-14" who="#POC">Deleted quotation marks from within q element</change>
     <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
         <change when="2025-05-08" who="#POC">Updated commentary</change>
+           <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition, and updated edition subtype value</change>         
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -143,7 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>
     <text>
         <body>
-             <div type="edition" subtype="transcription" xml:space="preserve" xml:lang="pgl" resp="#NW">
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up-down"/>
                     <persName><name nymRef="#cunalenga">ᚉ<unclear reason="damage">ᚒᚅ</unclear>ᚐᚂᚓᚌ<choice><unclear>ᚔ</unclear><unclear>ᚓᚐ</unclear></choice></name>
@@ -159,6 +160,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <space quantity="1" unit="stroke"/><w lemma="avias">A<unclear reason="damage">V</unclear><supplied reason="lost">I</supplied></w>
                     <name nymRef="#cunacanis"><choice><corr>C</corr><sic>Q</sic></choice>UNACANOS</name></persName>                   
                    </ab>
+                <ab type="list">CUNALEGI (vac.) AVI CUNACANOS</ab>
             </div>
             <div type="apparatus">
                 <app n="1">
