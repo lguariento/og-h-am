@@ -75,14 +75,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions> 
                                     <desc type="decoration">The surviving portion bears a <rs type="decoration" key="cross">Celtic cross</rs> and ring set within a rectangular panel. The soft stone has been the target of pilgrims' graffiti, and is marked with Christian symbols - birds' heads, a monk, a lamb, and several small crosses followed by pilgrims' names. </desc>
                                 </support>
-                                <condition>This fragment of an altar panel was broken when found. According to Kermode (1911, 73), <q>this piece has been flaked off a slab</q>. Kermode (1911, 73) observed three scores <q>which have all the appearance of being the remains</q> of an ogham inscription. Macalister (1949, 191) does not mention any difficulty in reading the ogham or roman-letter names.</condition>
+                                <condition>This fragment of an altar-frontal was broken when found. According to Kermode (1912, 73), <q>this piece has been flaked off a slab</q>. Kermode (1912, 73) observed three scores <q>which have all the appearance of being the remains</q> of an ogham inscription. Kasten (2024) notes that <q>the grain of the stone, its weathering pattern and the accumulation of different types of damage make it difficult to be certain of the reading</q> of the ogham and roman-letter inscriptions.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>Macalister (1949, 191) states that the ogham letters are found on the <q>dexter arm</q> of the cross or as Kermode (1911, 73) explains the ogham is found <q>on  the  left  edge,  as  one  faces  the  cross</q>. The ogham is accompanied by other pilgrims' names written in roman letters on the intersection, the upper arm, and between the marginal lines on the top of the cross as well as on the upper margin of the enclosing frame.</layout>
+                                <layout style="horizontal" rend="stemline">Macalister (1949, 191) states that the ogham letters are found on the <q>dexter arm</q> of the cross or as Kermode (1912, 73) explains the ogham is found <q>on  the  left  edge,  as  one  faces  the  cross</q>. Kasten (2024) observes that several horizontal lines are evident <q>which give the appearance of two different stem-lines, though the most consistent stem-line does not offer much clarity</q>. The ogham is accompanied by other pilgrims' names written in roman letters on the intersection, the upper arm, and between the marginal lines on the top of the cross as well as on the upper margin of the enclosing frame.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Kermode (1911, 73) describes the ogham as <q>three carefully chiselled scores</q>. According to Macalister (1949, 191), the ogham letters were <q>cut with knives</q>. The ogham graffiti was likely <rs type="execution"  key="graffiti">knife-scored</rs>. Kermode (1911, 73) notes that the Latin graffiti consists of <q>mixed minuscules and capitals</q>. <!--<height>length of ogham stroke, if known</height>-->
+                            <handNote>Kermode (1912, 73) describes the ogham as <q>three carefully chiselled scores</q>. According to Macalister (1949, 191), the ogham letters were <q>cut with knives</q>. The ogham graffiti was likely <rs type="execution"  key="graffiti">knife-scored</rs>. According to Kasten (2024) the lengths of the strokes vary considerably. The last two strokes of the inscription are much shorter than the preceding stroke. Kermode (1911, 73) notes that the Latin graffiti consists of <q>mixed minuscules and capitals</q>. <!--<height>length of ogham stroke, if known</height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -92,9 +92,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>54.378889, -4.373056</geo>
                             <note>National Grid Reference: NX 45970 00740</note>
                             </origPlace>
-                            <origDate source="TRE1985">Second quarter of the eighth century</origDate>
+                            <origDate>Eighth to ninth century</origDate>
                         </origin>
-                        <provenance type="found" when="1911">Originally the front panel of an altar, this incised slab was discovered at Ballavarkish keeill (IOMHER 0402.00) during excavations undertaken by the Manx Archaeological Survey in 1911. The ogham was first mentioned by Kermode (1911, 53-76) in PSAS, although the ogham was not shown in the published drawing.
+                        <provenance type="found" when="1912">Originally the front panel of an altar, this incised slab was discovered at Ballavarkish keeill (IOMHER 0402.00) during excavations undertaken by the Manx Archaeological Survey in 1912. The ogham was first mentioned by Kermode (1912, 53-76), although the ogham was not shown in the published drawing.
                         </provenance>
                         <provenance type="observed">Now in the Manx Museum.
                         </provenance>
@@ -131,8 +131,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listChange>
     <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
-   <change when="2026-06-22" who="#POC">Added and encoded information, but need to still add information to apparatus and commentary as well as confirm the text type and which FAIR vocabulary link to use</change>
-<change when="2026-06-23" who="#POC">Added textpart divs for Latin inscriptions</change>
+   <change when="2025-06-22" who="#POC">Added and encoded information, but need to still add information to apparatus and commentary as well as confirm the text type and which FAIR vocabulary link to use</change>
+<change when="2025-06-23" who="#POC">Added textpart divs for Latin inscriptions</change>
+<change when="2025-06-30" who="#POC">Add and encode reading from OGHAM blog</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -151,19 +152,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC"><!--update lang here and text direction below -->              
                 <div type="textpart" n="1">
                     <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name>ᚂᚐᚌᚒᚁᚓᚏᚔ</name></persName>
+                    <lb n="1" style="text-direction:l-to-r"/><persName><name>ᚂᚑᚌᚌᚐᚁ<choice><unclear>ᚌᚌ</unclear><unclear>ᚏ</unclear></choice>(<choice><unclear>ᚌᚐᚌ</unclear><unclear>ᚏ</unclear></choice>)ᚑᚌᚐᚋᚂ</name></persName>
                 </ab></div> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
                <div type="textpart" n="1"> 
                    <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name>LAGUBERI</name></persName>
-                </ab></div>
+                    <lb n="1" style="text-direction:l-to-r"/><persName><name>LOGGAB<choice><unclear>GG</unclear><unclear>R</unclear></choice><choice><unclear>GAG</unclear><unclear>R</unclear></choice>OGAML</name></persName>
+                </ab>
+               <ab type="list">LOGGABGGGAGOGAML</ab>
+               </div>
             </div>
             <div type="edition" subtype="roman" xml:space="preserve" source="EDW2007">
                 <div type="textpart" n="2">
                     <ab>
-                        <lb n="1" style="text-direction:l-to-r"/><persName><name>M<gap reason="lost" extent="unknown" unit="character"/>LAREI SCRIBA</name></persName>
+                        <lb n="1" style="text-direction:l-to-r"/><persName><name>MAILBREI SCRIBA</name></persName>
                     </ab>
                 </div>
                 <div type="textpart" n="3">
@@ -189,20 +192,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app>                    
+                <app n="1">
+<note>Interpretation of the ogham inscription is problematised by the areas of the stone where the surface has been lost which makes <q>identifying how long or short a stroke was intended to be</q> very difficult (Kasten 2024). It is also possible that the multiple strokes interpreted in the above reading as Gs should read as Rs instead: </note>                    
+                    <rdg>LOGGABRROGAML</rdg>
                 </app>
+                    <app n="2"><note>Alternatively, if the lower of the two horizontal lines is to be interpreted as the stem-line, the ogham inscription may read something more like:</note>
+                    <rdg>OTDDAB(GG/R)GAGAOGAML</rdg>
+                    </app>
+                    <app n="3">
+                        <note>Macalister (1945, 191) offered two possible readings of which the second is more plausible as it accounts for most of the strokes visible in the RTI image of the stone. However, it ought to be noted that Macalister appears to have standardised the lengths of the strokes in his drawing. </note>
+                        <rdg>LAGUBERI</rdg>
+                        <rdg>LAGUBEηLOMO (listed in footnote)</rdg>
+                    </app>
+                    <app n="4">
+                        <note>The RTI imaging of the fragment might have revealed a second ogham inscription, but it is very difficult to interpret (Kasten 2024).</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
                 <p>No translation provided.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>Despite the difficulty in its interpretation, the presence of the ogham inscription confirms ogham literacy in the area in the eighth or ninth centuries.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1949"/>
                      <citedRange>191</citedRange>
+                     </bibl>
+                     <bibl><ptr target="KAS2024"/>
                      </bibl>
                      <bibl><ptr target="KER1912"/>
                      <citedRange>53-76</citedRange>
