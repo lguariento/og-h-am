@@ -68,23 +68,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Mail Cemetery <ref target="https://www.trove.scot/place/938">Trove</ref>: <idno type="trove">938</idno></p>
-                                    <material type="stone">Stone type unknown</material> 
+                                    <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Slab</objectType>                                     
                                     <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height>0.3</height>
+                                            <width>0.19</width>
+                                            <depth>0.65</depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
-                                <condition></condition>
+                                <condition>A fragment of a larger monument, with two fragments of an ogham inscription. The stone has been severely trimmed. The ogham on the face is well-preserved but the ogham on the arris is badly damaged. It is impossible to determine how much has been lost beyond the fracture.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout style="other">One ogham inscription fragment is along an edge of the stone and the other fragement is across the broad face of the slab on an artificial stemline parallel to the edge of the stone. If the slab had stood upright then the two ogham fragments would have read vertically upwards.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                            <handNote>Both ogham fragments are written in the same hand and form a single text. The slope of the consonants indicate that both fragments are to be read in the same direction. The script consists of long, thin strokes. The component strokes of letters are evenly, though closely, spaced but the letters are very tightly packed. <!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -136,11 +136,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
       <change when="2025-06-23" who="#POC">Added and encoded information from Excel spreadsheet</change>
        <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+<change when="2025-07-01" who="#POC">Add information from Babelstone blog, add sketch</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="SCO/S-SHE-003-AllenAnderson1903_10.jpg"><desc>Allen and Anderson (1903, fig.10) </desc></graphic>
         <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
@@ -161,21 +162,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab type="list">[---]EHTECONMOR S[---] [---]DUV[.]DDRS[.][---] </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app>                    
+                <listApp>
+                <app n="1">
+<note>Whether the ogham fragments are to be taken separately or sequentially, and if the latter, in which order, is hard to determine.</note>                    
                 </app>
-                </listApp>-->
+                </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>A translation cannnot be provided.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>Forsyth suggests that the second line, "EHTECONMOR[S]", may represent Pictish <foreign xml:lang="xpi">ette-conmor-s</foreign> "this is as great as" (cf. "ETTECUHETTS" <foreign xml:lang="xpi">ette-cuhett-s</foreign> "this is far as" of LTING/1), where <foreign xml:lang="xpi">ette</foreign> means "this is", <foreign xml:lang="xpi">conmor</foreign> means "big", and s is an affixed demonstrative. On the other hand, "EHTE" is reminiscent of the supposed Pictish personal names "NEHTETRI" of Ackergill, "NEHHTV" of Formaston, "NAHHTVVDDADDS" of Bressay, and "NEHHTON[N]" of Lunnasting (West 2013).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
+                     <bibl><ptr target="ALL1903"/>
+                     <citedRange>Fig. 11</citedRange>
+                     </bibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>213-218</citedRange>
+                     </bibl>
+                     <bibl><ptr target="WES2013"/>
                      </bibl>
                  </listBibl>
             </div>
