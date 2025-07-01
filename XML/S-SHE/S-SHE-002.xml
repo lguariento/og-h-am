@@ -68,24 +68,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Mail Cemetery <ref target="https://www.trove.scot/place/938">Trove</ref>: <idno type="trove">938</idno></p>
-                                    <material type="stone">Stone type unknown</material> 
+                                    <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Slab</objectType>                                     
                                     <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height>0.24</height>
+                                            <width>0.2</width>
+                                            <depth>0.45</depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
-                                     </dimensions>         
+                                     </dimensions>
+                                    <desc type="decoration">One side of the slab features part of a design in a square border.</desc>
                                 </support>
-                                <condition></condition>
+                                <condition>The slab is a fragment of a larger monument and preserves a short fragment of an ogham inscription on one side and a partial design on the other. The slab is in very poor condition and is heavily laminated in thick layers (Forsyth 1996, 210).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout rend="stemline">The ogham inscription is on an artificial stemline on one side of the slab. The surviving portion of the stemline is 225mm long and clearly continued beyond what is now currently visible. The angle of the third letter indicates the direction in which the text is to be read.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> -->
-                                <height></height>
+                            <handNote>The individual ogham strokes have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>, and the stem-line cut again on top of the cross-strokes (Forsyth 1996, 210). The individual strokes are evenly carved and the letters spaciously arranged. The ogham inscription is written with bind oghams. Forsyth states that the two angular strokes are bound at the tips and the bind line extends beyond the second angled stroke. 
+                                <height>The maximum length of the long strokes is 65mm.</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -97,7 +98,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found">First recognised by Robert Cogle in 1875.
+                        <provenance type="found">First recognised by Robert Cogle in 1875 when the slab was found in the chapel graveyard.
                         </provenance>
                         <provenance type="observed">Now in the National Museums of Scotland (IB114).
                         </provenance>
@@ -136,42 +137,52 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
       <change when="2025-06-23" who="#POC">Added and encoded information from Excel spreadsheet</change>
        <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+<change when="2025-07-01" who="#POC">Add information from Babelstone blog and Forsyth 1996, update edition with variant letter encoding, add sketch of inscription</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="SCO/S-SHE-002-AllenAnderson1903_11.jpg"><desc>Allen and Anderson (1903, fig.11)</desc></graphic>
         <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚔᚏ<unclear reason="ambiguous">ᚒ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_I"/><g ref="#bound_R"/><unclear reason="ambiguous"><g ref="#bound_U"/></unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>IR<unclear reason="ambiguous">U</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_I"/><g ref="#bound_R"/><unclear reason="ambiguous"><g ref="#bound_U"/></unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
                 <ab type="list">[---]IRU[---]</ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app>                    
+                <listApp>
+                <app n="1">
+<note> Forsyth (1996, 211) indicates the possibility of a letter (H or D) between the I and the R that is not shown in Allen and Anderson's (1903, fig. 11) drawing. </note>
+<rdg source="FOR1996">[--]I[H^D]R[U!][--]</rdg>                    
                 </app>
-                </listApp>-->
+                    <app n="2">
+                        <note>The slight gap between the I and R is unlikely to mark word-division because where indicated, this is shown with pairs of dots on either side of the stem, not by spacing of letters.</note>
+                    </app>
+                </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>A translation cannot be provided.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                <p>It is not clear whether the contrast between 'straight' and 'angled' vowels is a purely stylistic variation in script, or whether it was intended to differentiate between vowel sounds. However, since both commonly appear in the same inscription, often along with further supplementary vowel letters, it may well be the latter. Angled vowels occur on Birsay 1, Burrian, Cunningsburgh 3, Formaston, Lunnasting, and possibly on Golspie.</p> 
+                <p>Since so little survives, and from the middle of a possibly extensive text, it is difficult to extract linguistic information from this inscription. There is nothing about the sequence which requires or precludes interpretation as Celtic (Forsyth 1996, 212).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
+                     <bibl><ptr target="ALL1903"/>
+                     <citedRange>Fig. 11</citedRange>
+                     </bibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>206-212</citedRange>
                      </bibl>
                  </listBibl>
             </div>
