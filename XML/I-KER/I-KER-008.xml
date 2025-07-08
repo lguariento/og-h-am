@@ -24,9 +24,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Robert Shaw</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>Capture: Artec Eva structured light scanner <date when="2016-05-13"/>; Software: Artec, Geomagic Studio</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -58,27 +58,33 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE054-032003-</idno></p> 
-                                    <material type="stone">Fine grained sandstone (Moffat/Parkes)</material> 
-                                    <objectType key="monument">Cross carved slab</objectType> 
-                                    <dimensions><dim>0.88m x 0.25m x 0.05m (converted from Macalister)</dim></dimensions></support>
-                                <condition/>
+                                     <material type="stone">Sandstone</material> <!--Parkes/Moffat 2011: Fine grained sandstone-->
+                                    <objectType key="monument">Cross-carved slab</objectType> 
+                                    <dimensions unit="m" source="MAC1945">
+                                        <height>0.88</height>
+                                        <width>0.25</width>
+                                        <depth>0.05</depth>
+                                    </dimensions>
+                                    <desc type="decoration">The stone was later (6th-9th century) repurposed when it was inverted (in relation to the ogham) and a cross added. It is a <rs type="decoration" key="cross">cross-of-arcs</rs> within a circle, with the arms of the cross sunken in relation to its spandrels. Below the circular frame there is an arrow-like stem flanked by two swastikas (Seaver, Ó Riain and Sikora 2025, 204).</desc>
+                                </support>
+                                <condition>As noted by Macalister (1945, 137), this slab was <q>trimmed</q> when the cross was later added.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">On two angles, up-down (anti-clockwise). Ringed cross of arcs beneath which there is a vertical linear groove surmounted by a triangle and flanked on either side by a small swastika motif, inverted with regard to ogham</layout>
+                                <layout style="vertical" rend="arris_upR">On two angles, unusually, beginning upwards on the right (left of the cross) and continuing downwards on the left (right of the cross). Note that the inscription is inverted when the cross is at the top.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Pocked in bold, well-spaced strokes. Vowel strokes wedge-shaped and possibly chisel-cut.<height></height>
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in bold, well-spaced strokes. Vowel strokes wedge-shaped and possibly chisel-cut.<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Aglish https://www.logainm.ie/en/22749</placeName>
+                            <origPlace><placeName type="townland">Aglish (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/22749">An Eaglais</ref></foreign>)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
-                                <geo>52.136060, -10.137728 (approx. only)</geo>
-                            <note>ITM coordinates: 453672, 600395 </note></origPlace>
+                                <geo>52.13606, -10.13772 </geo>
+                            <note>ITM coordinates: 453672, 600395 approximate</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">1848 Hitchcock
@@ -116,6 +122,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Jef Bucas autogenerated batch EpiDoc output from spreadsheet
 </change>
     <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+    <change when="2025-07-08" who="#NW">Updated and added information and encoding up to Provenance.</change> 
 
 </listChange>
 </revisionDesc>
@@ -148,7 +155,10 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
             <div type="bibliography">
                 <listBibl>
                     <bibl><ptr target="MAC1945"/>
-                        <citedRange>...</citedRange>
+                        <citedRange>137-138</citedRange>
+                    </bibl>
+                    <bibl><ptr target="SEA2025"/>
+                        <citedRange>204-205</citedRange>
                     </bibl>
                  </listBibl>
             </div>
