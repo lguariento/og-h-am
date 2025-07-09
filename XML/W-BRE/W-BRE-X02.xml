@@ -53,12 +53,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                         <idno type="invNo"></idno>
                     </msIdentifier>
-                    <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
-                              <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                           </msItem>
-                    </msContents>
+                    <msContents/>
+                                              
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
@@ -117,7 +113,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
 </keywords>
 </textClass>
-    <creation>Transcription from previous editor.</creation>
+    <creation>Transcription from previous editor (Macalister 1922, 202).</creation>
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
@@ -145,20 +141,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" resp="MAC1922">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unknown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>ᚄ<gap reason="lost" extent="unkown" unit="character"/>ᚌ<gap reason="lost" extent="unknown" unit="character"/></del> 
+                    <lb n="1" style="text-direction:unknown"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">ᚄ</supplied><gap reason="lost" extent="unkown" unit="character"/><supplied reason="lost" cert="low">ᚌ</supplied><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
                 </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" resp="MAC1922">
                 <ab>
-                    <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unknown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" extent="unkown" unit="character"/>G<gap reason="lost" extent="unknown" unit="character"/></del> 
+                    <lb n="1" style="text-direction:unknown"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">S</supplied><gap reason="lost" extent="unkown" unit="character"/><supplied reason="lost" cert="low">G</supplied><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
             </div>
             <div type="edition" subtype="roman" xml:space="preserve" resp="MAC1922">
                 <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><del cause="weathered" extent="unknown" unit="character">ROVEVI</del>
-                    <lb n="2" style="text-direction:down"/><del cause="weathered" extent="unknown" unit="character">S<gap reason="lost" extent="unknown" unit="character"/>SOVI</del>
+                    <lb n="1" style="text-direction:down"/><supplied reason="lost" cert="low">ROVEVI</supplied>
+                    <lb n="2" style="text-direction:down"/><supplied reason="lost" cert="low">S</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">SOVI</supplied>
                 </ab>
                 </div>
             </div>

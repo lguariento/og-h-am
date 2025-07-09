@@ -53,12 +53,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <repository/>
                         <idno type="invNo"></idno>
                     </msIdentifier>
-                    <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>  
-                              <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                           </msItem>
-                    </msContents>
+                    <msContents/>
+                    
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
@@ -143,28 +139,28 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" resp="MAC1945">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unknown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>ᚐᚋᚓ<gap reason="lost" extent="unknown" unit="character"/></del> 
+                    <lb n="1" style="text-direction:unknown"/><gap reason="lost" extent="unknown"/><supplied reason="lost" cert="low">ᚐᚋᚓ</supplied><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
                 </div>
             </div>
               <div type="edition" subtype="transliteration" xml:space="preserve" resp="MAC1945">
                     <ab>
-                        <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unknown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>AME<gap reason="lost" extent="unknown" unit="character"/></del> 
+                        <lb n="1" style="text-direction:unknown"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">AME</supplied><gap reason="lost" extent="unknown" unit="character"/> 
                     </ab>
             </div>
             <div type="edition" subtype="roman" xml:space="preserve" resp="MAC1945">
                 <div type="textpart" n="2" xml:lang="pgl-Latn">
                 <ab>
-                    <lb n="1" style="text-direction:unknown"/><del cause="weathered" extent="unkown" unit="character"><gap reason="lost" extent="unknown" unit="character"/>LII<gap reason="lost" extent="unknown" unit="character"/></del>
+                    <lb n="1" style="text-direction:unknown"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">LII</supplied><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
                 </div>
             </div>
             <div type="apparatus">
                 <p>The RCAHMW determined that <q>no such inscriptions can now be seen</q> (Redknap and Lewis 2007, 542). </p>
             </div>
-            <div type="translation">
-                <p>No translation given</p>
-            </div>
+            <div type="translation"/>
+                
+            
             <div type="commentary">
                 <p>According to Morgan (1983: 43), the stone may have been a lost monastic marker and that <q>the smooth-sided form of the stone, its rubbing-post function and the evidence of quarrying to the south might indicate a postmedieval date</q>. Redknap and Lewis (2007, 542) note that the name of the stone <q><foreign xml:lang="cy">Llygadwy</foreign> (earlier <foreign xml:lang="wlm">Llygadyw</foreign>, possibly <foreign xml:lang="owl">Llygad Duw</foreign>, 'eye of God') is derived from a nearby ruin, which appears on OS maps with this name</q> (Redknap and Lewis 2007, 542).</p>
             </div>
