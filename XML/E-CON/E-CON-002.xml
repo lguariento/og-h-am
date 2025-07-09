@@ -55,7 +55,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="la-Ogam" cert="medium">Probably Latin written in ogham script</textLang>
                             <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
                            </msItem>
                     </msContents>
@@ -78,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script="ogham">Macalister surmised that the ogham inscription (1) was <q>probably pocked on the stone, but it is in very bad condition, and the technical details cannot be determined with certainty</q> (1945, 443-4). 
+                            <handNote script="ogham">Macalister surmised that the ogham inscription (1) was <q>probably <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> on the stone, but it is in very bad condition, and the technical details cannot be determined with certainty</q> (1945, 443-4). 
                             </handNote>
                             <handNote script="roman">Okasha noted that the Latin inscription (2) was <q>"inscribed without framing-lines or panels"</q> (1993, 146).
                                 <height min="5" max="8" unit="cm" source="OKA1993">The Latin letters measure from 5 to 8 cm.</height></handNote>
@@ -93,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </origPlace>
                             <origDate>Fifth century or possibly early sixth century</origDate>
                         </origin>
-                        <provenance type="found" when="1892">The stone was discovered buried deeply on the south side of St Martin's churchyard at Lewannick by Langdon in 1892 and the inscriptions were later published by Langdon and Allen in 1895. <!--<placeName type="site"></placeName>,-->
+                        <provenance type="found" when="1892">The stone was discovered buried deeply on the south side of St Martin's churchyard at Lewannick by Langdon in 1892 and the inscriptions were later published by Langdon and Allen in 1895. 
                         </provenance>
                         <provenance type="observed">Re-erected, the stone's current location is a few metres west of the lych-gate in St Martin's Churchyard.
                         </provenance>
@@ -140,6 +140,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM links</change>
     <change when="2025-06-23" who="#NW">Updated edition, roman/Latin text and xml lang.</change>
     <change when="2025-06-26" who="#POC">Update image file name and path</change>
+    <change when="2025-07-09" who="#NW">Updated edition, translation and xml lang and added ref to bibl.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,16 +152,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" xml:space="preserve" subtype="ogham" xml:lang="pgl-Ogam" resp="#NW">
+            <div type="edition" xml:space="preserve" subtype="ogham" xml:lang="la-Ogam" resp="#NW">
                   <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name>ᚔᚌᚓᚅᚐᚃᚔ</name></persName> <w>ᚋᚓᚋᚑᚏ</w><!--check what visible on 3d with Megan/Katherine-->
+                    <lb n="1" style="text-direction:up"/><persName><name><unclear reason="underground">ᚔ</unclear>ᚌᚓᚅᚐᚃᚔ</name></persName> <w>ᚋᚓᚋᚑ<unclear reason="eccentric_ductus">ᚏ</unclear></w><!--check what visible on 3d with Megan/Katherine-->
                 </ab>
             </div>
             </div>
                 <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                     <ab>
-                         <lb n="1" style="text-direction:up"/><persName><name>IGENAVI</name></persName> <w>MEMOR</w>
+                         <lb n="1" style="text-direction:up"/><persName><name><unclear reason="underground">I</unclear>GENAVI</name></persName> <w>MEMO<unclear reason="eccentric_ductus">R</unclear></w>
                     </ab>
                 </div>
                 <div type="edition" subtype="roman" xml:lang="la" xml:space="preserve" resp="#NW">
@@ -174,19 +176,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1">                    
+                <app n="1">  
+                    <note>Although the stone is very worn, using the captured 3d data it was possible to identify traces of almost all the letters read by Macalister (1945, 443-444).</note>
+                </app>
+                    <app n="2">  
                     <note>The horizontally written Latin inscription (2) is a feature usually associated elsewhere in Britain either with an early date or (sometimes) an ecclesiastical context.</note>
                 </app>
                 </listApp>
             </div>
-            <div type="translation">
-                <div type="textpart" n="2" resp="MAC1945">
-                    <p>Roman: the memorial of Ingenuus</p>                
-                </div>
+            <div type="translation">               
+                    <p>Ogham and Roman: the memorial of Ingenuus</p>                
             </div>
             <div type="commentary">
                 <p><persName xml:lang="la">Ingenuus</persName> is a Latin name which comes from a legal term for someone free-born (rather than manumitted from legal slavery).</p>
-                <p>The spelling of the ogham (1), with G for the sound /ŋg/, shows that it is not simply a calque on the written Latin, but is an independent spelling of how it sounded to Irish ears. As Sims-Williams points out, it also shows that the value ‘NG’ given for the character [ᚍ] must have been a later accretion (2003, 221). If it were available at the time, this value would have been the perfect time to use it. The Latin word <foreign xml:lang="la">memoria</foreign> is found frequently in Continental palaeo-Christian inscriptions of late fourth century onwards, and also occurs on the famous Voteporix stone from Castell Dwyran, Carmarthenshire (CIIC 358) and at Yarrow, Selkirkshire (CIIC 492). The word was adopted into Irish (<foreign xml:lang="ga">memra</foreign>, <foreign xml:lang="mga">mebair</foreign>). Palaeographically, Tedeschi suggests a date in the fifth century (2005, 242) but acknowledges that linguistic dating points a bit later (Sims-Williams 2003, 361), so possibly early 6th century.</p>
+                <p>The spelling of the ogham (1), with G for the sound /ŋg/, shows that it is not simply a calque on the written Latin, but is an independent spelling of how it sounded to Irish ears. As Sims-Williams (2003, 221) points out, it also shows that the value ‘NG’ given for the character [ᚍ] must have been a later accretion. If it were available at the time, this value would have been the perfect time to use it. The Latin word <foreign xml:lang="la">memoria</foreign> is found frequently in Continental palaeo-Christian inscriptions of late fourth century onwards, and also occurs on the famous Voteporix stone from Castell Dwyran, Carmarthenshire (CIIC 358) and at Yarrow, Selkirkshire (CIIC 492). The word was adopted into Irish (<foreign xml:lang="ga">memra</foreign>, <foreign xml:lang="mga">mebair</foreign>). Palaeographically, Tedeschi suggests a date in the fifth century (2005, 242) but acknowledges that linguistic dating points a bit later (Sims-Williams 2003, 361), so possibly early 6th century.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -197,6 +200,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl>
                           <ptr target="OKA1993"/>
                         <citedRange>146-149, no. 23</citedRange>                          
+                     </bibl>
+                      <bibl>
+                          <ptr target="SIM2003"/>
+                        <citedRange>221, 361</citedRange>                          
+                     </bibl>
+                     <bibl>
+                           <ptr target="TED2005"/>
+                        <citedRange>242</citedRange>                          
                      </bibl>
                 </listBibl>
             </div>
