@@ -53,16 +53,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <repository/>
                         <idno type="invNo"/>
                     </msIdentifier>
-                    <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
-                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
-                           </msItem>
-                    </msContents>
+                    <msContents/>   
+                        
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><!--<term>monument?</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER"> NRHE HOB UID: 926316</idno></p>
+                                <support><p><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER"> NRHE HOB UID: 926316</idno></p>
                                     <material type="stone">Stone type unknown</material> 
                                     <objectType key="monument">Boulder</objectType> 
                                      <dimensions unit="m">
@@ -130,6 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-20" who="#POC">Added and encoded information, including geo coordinates, condition, layout and provenance. Closed unused elements for CISP and CIIC numbers, origDate, and commented out keywords because there isn't an ogham inscription. Also commented out media.</change>
 <change when="2024-12-04" who="#POC">Proofreading updates, commented out empty elements including edition, apparatus and commentary.</change>
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace</change>
+    <change when="2025-07-09" who="#NW">Removed text lang as no text.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
