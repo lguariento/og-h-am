@@ -61,11 +61,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>     
-                              <textLang mainLang="und-Ogam" cert="low">Undetermined language written in ogham script</textLang>
-                            <textLang mainLang="sga-Ogam">Old Irish written in Ogham script</textLang>  
-                            <textLang mainLang="sga-Latn">Old Irish written in Latin script (roman capitals)</textLang>
-                              <textLang mainLang="sga-Latn">Old Irish written in Latin script</textLang>
+                          <msItem> 
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>  
+                            <textLang mainLang="pgl-Latn">Primitive Irish name written in Latin script (roman capitals)</textLang>                              
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -155,7 +153,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-21" who="#POC">Added brief overview to condition</change>
 <change when="2025-05-22" who="#POC">Updated text lang </change>
 <change when="2025-05-29" who="#POC">Updated encoding in translation from foreign to persName for personal names in inscription, moved the lang code to persName element and removed foreign for personal names</change>
-<change when="2025-05-30" who="#POC">Added images and copyright</change>    
+<change when="2025-05-30" who="#POC">Added images and copyright</change> 
+    <change when="2025-07-09" who="#NW">Updated xml lang.</change>
+    
 </listChange>   
 </revisionDesc>
     </teiHeader>
@@ -167,19 +167,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>           
-              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" resp="#NW" source="EDW2013">
+              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW" source="EDW2013">
                   <div type="textpart" n="1">
                   <ab>
                       <lb n="1" style="text-direction:up"/><persName><name nymRef="#maila-isu"><w>ᚋᚐ<supplied reason="lost">ᚔᚂ</supplied></w><w><supplied reason="lost">ᚔ</supplied>ᚄᚒ</w></name></persName>
                   </ab>    
               </div>  
               </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga-Ogam" resp="#NW" source="EDW2013">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW" source="EDW2013">
                     <ab>
                       <lb n="1" style="text-direction:up"/><persName><name nymRef="#maila-isu"><w>MA<supplied reason="lost">IL</supplied></w><w><supplied reason="lost">I</supplied>SU</w></name></persName>
                   </ab>
             </div>
-             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga-Latn" resp="#NW" source="EDW2013">
+             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn" resp="#NW" source="EDW2013">
                 <div type="textpart" n="2">
                     <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#maila-isu"><hi rend="ligature">MA</hi>ILIS<hi rend="inverted">I</hi></name></persName>
