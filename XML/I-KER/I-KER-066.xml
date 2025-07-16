@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,8 +24,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name/>
-                     <orgName/>
+                    <name></name>
+                     <orgName></orgName>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
@@ -40,8 +43,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository/>
-                        <idno type="invNo"/>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
                          <altIdentifier>
                             <idno type="geo"/>
                         </altIdentifier>
@@ -55,7 +58,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE065-078003-</idno></p> 
-                                    <material type="stone"/> 
+                                    <material type="stone"></material> 
                                     <objectType key="monument">Pillar</objectType> 
                                     <dimensions><dim>2.10 x 0.52 x 0.20m (O'Sullivan et al 1996, no. 863)</dim></dimensions></support>
                                 <condition/>
@@ -65,7 +68,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Pocked in short, broad, evenly-spaced strokes. None of the H-aicme strokes reach the angle. The S at the end of the first word appears to have been omitted initally and subsequently added on the face of the stone beside the O, which is closely followed by the M of MAQI. Use of the X-forfd with consonant value.<height/>
+                            <handNote>Pocked in short, broad, evenly-spaced strokes. None of the H-aicme strokes reach the angle. The S at the end of the first word appears to have been omitted initally and subsequently added on the face of the stone beside the O, which is closely followed by the M of MAQI. Use of the X-forfd with consonant value.<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -74,8 +77,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                             <origPlace><placeName type="townland">Coolmagort (Cúil Má Gort https://www.logainm.ie/en/23373)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
-                                
-                            <note>ITM coordinates: 487974, 591098</note><geo>52.060500, -9.633728</geo><tei:note xmlns:tei="http://www.tei-c.org/ns/1.0">(souterrain according to OS maps, no surface trace)</tei:note></origPlace>
+                                <geo>52.060500, -9.633728 (souterrain according to OS maps, no surface trace)</geo>
+                            <note>ITM coordinates: 487974, 591098</note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">1838  (reused as outermost lintel of the souterrain)
@@ -86,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-               <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
         <profileDesc>  
 <calendarDesc>
 <calendar xml:id="julian">
@@ -134,13 +137,13 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 </ab>
             </div>
             <div type="apparatus">
-                <p/>
+                <p></p>
             </div>
             <div type="translation">
-                <p/>
+                <p></p>
             </div>
             <div type="commentary">
-                <p/>
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

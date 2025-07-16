@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,8 +24,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name/>
-                     <orgName/>
+                    <name></name>
+                     <orgName></orgName>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
@@ -31,7 +34,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                 <idno type="filename">I-KER-129</idno>
                  <idno type="CIIC">256A</idno>
                  <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/TRALE/1.html">TRALE/1</idno>
-                 <idno type="TM" corresp="www.trismegistos.org/text/"/>
+                 <idno type="TM" corresp="www.trismegistos.org/text/"></idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
                 </availability>
@@ -40,8 +43,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository/>
-                        <idno type="invNo"/>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
                          <altIdentifier>
                             <idno type="geo"/>
                         </altIdentifier>
@@ -54,18 +57,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR"/></p> 
-                                    <material type="stone"/> 
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR"></idno></p> 
+                                    <material type="stone"></material> 
                                     <objectType key="monument">Fragment</objectType> 
-                                    <dimensions><dim/></dimensions></support>
+                                    <dimensions><dim></dim></dimensions></support>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"/>
+                                <layout style="vertical" rend="arris_up"></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister/1945, 252: `The three scores here rendered Gw slope the wrong way. The concluding B, which is close to the fracture, might be part of a fourth cross-line score, indicating that the last letter was R'. <height/>
+                            <handNote>Macalister/1945, 252: `The three scores here rendered Gw slope the wrong way. The concluding B, which is close to the fracture, might be part of a fourth cross-line score, indicating that the last letter was R'. <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -74,8 +77,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                             <origPlace><placeName type="townland">Cloonalour (Cluain na Lobhar https://www.logainm.ie/en/24828)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
-                                
-                            <note>ITM coordinates: </note><geo>52.274656, -9.694814</geo><tei:note xmlns:tei="http://www.tei-c.org/ns/1.0">(approx. according to Mac White's account)</tei:note></origPlace>
+                                <geo>52.274656, -9.694814 (approx. according to Mac White's account)</geo>
+                            <note>ITM coordinates: </note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">1945 MacWhite, E. - as CIIC going to publ (fragment built into a wall)
@@ -86,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-               <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
         <profileDesc>  
 <calendarDesc>
 <calendar xml:id="julian">
@@ -134,13 +137,13 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 </ab>
             </div>
             <div type="apparatus">
-                <p/>
+                <p></p>
             </div>
             <div type="translation">
-                <p/>
+                <p></p>
             </div>
             <div type="commentary">
-                <p/>
+                <p></p>
             </div>
             <div type="bibliography">
                 <listBibl>

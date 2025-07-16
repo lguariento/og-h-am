@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Silchester</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">E-HAM-001</idno>
+                 <idno type="CIIC">496</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/silch_1.html">SILCH/1</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/172377">172377</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>    
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>England</country>
+                        <repository>Reading Museum</repository>
+                        <idno type="invNo">1995.1.24</idno>
+                        <altIdentifier>
+                            <idno type="geo">51.456914, -0.969760</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                            <textLang mainLang="la-Latn">Latin written in Latin script</textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><!--<term>monument</term>--><ref target="https://www.heritagegateway.org.uk/Gateway/">Historic Environment Record ID</ref>: <idno type="HER">Hob UID: 24336</idno></p>
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument"><ref target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-elsewhere.html">Reused column</ref></objectType> 
+                                     <dimensions unit="m">
+                                            <height>0.60</height>
+                                            <width>0.36</width>
+                                            <depth>0.36</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>A Roman column bearing a two-line ogham inscription. Described by Macalister (1945, 473) as <q>like the finial of a large balustrade</q>, the cone-shaped pillar widens upwards and narrows towards the top. The top of the pillar has broken off, damaging the inscription, particularly, at the end of the first name, the beginning of the second line, as well as the latter portion of the ogham text. However, Macalister (1945, 473) maintained that <q>there can be no doubt whatever about the reading, so far as it is preserved</q>. The stone was repurposed as a memorial by an Irish family which <q>may have settled on the site in the post-Roman interval</q> (Macalister 1945, 475).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="stemline_up">Since the repurposed Roman column did not have any angular edges, the inscription was written <q>on two vertical lines provided for the purpose</q> (Macalister 1945, 473). The two artificial stemlines run vertically up the face of the stone (West 2009b).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="ogham">The ogham inscription appears to have been <rs type="execution" key="scored">scored</rs>. Macalister (1945, 473) described the ogham inscription as <q>scratched</q> and <q>roughly</q> cut. <!--<height></height>-->
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="parish">Silchester Roman Town</placeName>, <placeName type="county">Hampshire</placeName> <placeName type="country">England</placeName>
+                                <geo>51.357914, -1.019333</geo>
+                            <note>National Grid Reference: SU 6838 6255</note>
+                                </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1893">Discovered during an archaeological excavation of the Late Iron Age oppidum and roman town <placeName type="site">Calleva Atrebatum</placeName> in 1893 by Fox, the stone was found placed upsidedown at the bottom of a well by the west end of the southern corridor of House 1, Insula IX <ref target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-elsewhere.html"></ref>(Babelstone 2009). 
+                        </provenance>
+                        <provenance type="observed">Now in Reading Museum. The stone is not on display, but stored in the Reading Museum storage facility.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Unable_to_determine">Unable to Determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-24" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+<change when="2024-01-22" who="NW">Nora White updated template, including removing # from bibl tag</change>
+<change when="2024-10-02" who="NW">Nora White updated template for data from England</change> 
+<change when="2024-11-03" who="#JB">Autogenerated EpiDoc output from spreadsheet</change>   
+<change when="2024-11-20" who="#POC">Corrected CIIC number, added paragraph to support updated objectType, added placeName, commented out media, add bibl details including CIIC number.</change>
+<change when="2024-11-21" who="#POC">Added geo coords, added information to condition, layout, handNote, apparatus, commentary and updated provenance.</change>
+<change when="2024-11-22" who="#POC">Updated provenance and closed empty material element, updated keyword term to 'Unable to determine' because the OG(H)AM reading seems much more deteriorated, updated edition</change>
+<change when="2024-11-25" who="#POC">Updated condition</change>
+<change when="2024-12-04" who="#POC">Proofreading updates, adding quotations. Added material, translation, apparatus, all information from Babelstone blog</change>
+<change when="2024-12-05" who="#POC">Added more information to commentary, condition and provenance from Babelstone blog.</change>
+<change when="2024-12-18" who="#POC">Added bibl details for Babelstone blog</change>
+<change when="2025-01-23" who="#POC">Proofreading changes, added image from M. Fulford and shared on Babelstone website</change>
+<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link, added secondary location coordinates</change>
+<change when="2025-06-04" who="#POC">Update execution type and encoding and layout, update encoding of personal names in commentary and add language codes</change>
+<change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition </change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="ENG/E-HAM-001-Silchester.jpg"><desc>Image © M. Fulford</desc></graphic>
+       <!--<media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1"/><persName>ᚓᚁᚔᚉᚐᚈᚑ<unclear reason="ambiguous">ᚁ</unclear><gap reason="lost" unit="character"/>
+                    <lb n="2"/><gap reason="lost" unit="character"/><unclear reason="ambiguous">ᚆ</unclear>ᚔ ᚋᚒᚉᚑ<gap reason="lost" extent="unknown" unit="character"/></persName>    
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1"/><persName>EBICATO<unclear reason="ambiguous">B</unclear><gap reason="lost" unit="character"/> 
+                    <lb n="2"/><gap reason="lost" unit="character"/><unclear reason="ambiguous">H</unclear>I MUCO<gap reason="lost" extent="unknown" unit="character"/></persName>    
+                </ab>
+                                <ab type="list">EBICATOB[---]HI MUCO[---]</ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+                    <note>Macalister (1945, 473-474) read:</note>
+                    <rdg source="MAC1945">EBICATO[S MAQ]I MUCO[....</rdg>
+                    <note>and remarked that the <q>last three scores of the S of EBICATOS</q> have been carried away by the fracture at the top of the stone. Additionally, the <q>M, A, and part of the Q at the beginning of the second line are flaked away</q> and the vowel notches at the end of MUCOI as well as the scores of the following name are lost (Macalister 1945, 474).</note>
+                </app>
+                    <app n="2">
+                        <note>Handley (2000, 11) read:</note>
+                        <rdg>TEBICATO[S] | [MAQ]IMUC[--</rdg>
+                    </app>
+                    <app n="3">
+                        <note>The name <persName xml:lang="cel">Tebicatos</persName> appears to be British (Brythonic) rather than Irish (Goidelic). Although the initial element Teb- is of uncertain meaning, it is paralleled in the name of <persName xml:lang="cel">Tibatto</persName>, leader of the Bacaudae in Farther Gaul, who led a rebellion in 435-437; and it may also be related to the medial element in the names <persName xml:lang="cel">Vortipor</persName> and <persName xml:lang="cel">Votiporigis</persName>. The final element <foreign xml:lang="cel">-catos</foreign> means 'battle" (Old Irish <foreign xml:lang="sga">cath</foreign>, Old Welsh <foreign xml:lang="owl">cat</foreign>), and is attested in names such as <persName xml:lang="cel">Ambicatos</persName> 'having battle around himself', son of <persName xml:lang="cel">Rocatos</persName> (ANDRS/1), and <persName xml:lang="cel">Ambigatos</persName>, king of the Bituriges in central Gaul. Perhaps <persName xml:lang="cel">Tebicatos</persName> was an Irish immigrant who adopted a British name (or Brythonifed his original name) or perhaps he was the member of an Irish family who was born in Silchester and so had a British name <ref target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-elsewhere.html" </ref>(Babelstone 2009).</note>
+                    </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>Ogham: "Of Tebicatos, son of the descendant of ..."</p>
+            </div>
+            <div type="commentary">
+                <p>Macalister (1945, 473) noted that the inscription is <q>not a mere graffito: the formal statement of the name in the genitive case links it to the rest of the Ogham sepulchral literature</q>. Additionally, Macalister (1945, 475) ascertained that <q>"the date of the stone cannot be fixed by the objects which were in association with it"</q>. However, a <q>"re-excavation of the site in 1998-2000 unearthed some fragments of oak at the bottom of the well, which have been radiocarbon-dated to 130-380 and 320-540, giving a probable date for the closing of the well of about 350-425. Archaeologists working on the Silchester site believe that the depositing of the Ogham-inscribed stone in the well marked both the sealing of the well, and the end of occupation of the associated building. They further suggest that the stone was used as a mark of ownership of the associated late Roman dwelling by an Irish immigrant named Tebicatos"</q> <ref target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-elsewhere.html" </ref>(Babelstone 2009)</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>473-475, no. 496</citedRange>
+                    </bibl>
+                     <bibl><ptr target="WES2009b"/>
+                     <citedRange target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-elsewhere.html"/></bibl>
+                </listBibl>
+                    <bibl><ptr target="FUL2000"/>
+                      <citedRange>1-23</citedRange>
+                    </bibl>
+            </div>
+        </body>
+    </text>
+</TEI>

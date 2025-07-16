@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -35,8 +38,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-MAY-009</idno>
-                 <idno type="CIIC"/>
-                <idno type="CISP"/>
+                 <idno type="CIIC"></idno>
+                <idno type="CISP"></idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -72,7 +75,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The strokes near the ground are slanted and probably <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> but only evident on the B side (<foreign xml:lang="ga">Aicme Beithe</foreign>) of the angle.
+                            <handNote>The strokes near the ground are slanted and probably <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> but only evident on the B side (<foreign xml:lang="ga">Aicme Beithe</foreign>) of the angle.
                                 <height/><!--letter-heights-->
                             </handNote>
                         </handDesc>
@@ -147,7 +150,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                     <unclear reason="weathered">ᚂ</unclear><gap reason="lost" unit="stroke" quantity="5"/><unclear reason="weathered">ᚏ</unclear><gap reason="illegible" unit="stroke" quantity="6"/><unclear reason="weathered">ᚃ</unclear><gap reason="lost" unit="stroke" quantity="4"/><unclear reason="damage">ᚅ</unclear><gap reason="lost" unit="stroke" quantity="6"/><unclear reason="damage">ᚐᚋᚒ</unclear>ᚁᚐ
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
                     <lb n="1" style="text-direction:up"/>
                     <unclear reason="weathered">L</unclear><gap reason="lost" unit="stroke" quantity="5"/><unclear reason="weathered">R</unclear><gap reason="illegible" unit="stroke" quantity="6"/><unclear reason="weathered">V</unclear><gap reason="lost" unit="stroke" quantity="4"/><unclear reason="damage">N</unclear><gap reason="lost" unit="stroke" quantity="6"/><unclear reason="damage">AMU</unclear>BA

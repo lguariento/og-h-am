@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,8 +30,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name/>
-                     <orgName/>
+                    <name></name>
+                     <orgName></orgName>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
@@ -61,7 +64,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                                 <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">1212</idno> Clydau, Clydey; St Clydai's Church</p>
                                     <material type="stone">Dolerite</material> <note>Comprised of <q>pyroxene-rich dolerite with sparse feldspar phenocrysts. Melanocratic, clearly defined pyroxene crystals and accessory minerals</q> (Edwards 2007, 314).</note>
                                     <objectType key="monument">Pillar</objectType> 
-                                    <dimensions unit="m">
+                                    <dimensions unit='m'>
                                         <height>1.63</height>
                                         <width>0.29</width>
                                         <depth>0.32</depth>
@@ -75,7 +78,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                         </objectDesc>
                         <handDesc>
                             <handNote>There is no evidence to indicate how the ogham inscription might have been carved, so the execution technique remains <rs type="execution" key="other">unknown</rs>. The Latin inscription, however, is in capitals which were incised, using a broad punched line (Edwards 2007, 314). <q>FI and LI (twice) are conjoined with small I's. In line 1 the first vertical of the N extends below the line. In line 2 D is reversed and the V's slightly curved... The vertical stroke of the reversed D projects slightly, but it is not a miniscule form...</q> (Edwards 2007, 314).
-                                <height/>
+                                <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -158,7 +161,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-
                 <bibl><ptr target="EDW2007"/>
                     <citedRange unit="page">314-315</citedRange>
                 </bibl>
-                <bibl><ptr target="MAC1922b"/>
+                <bibl><ptr target ="MAC1922b"/>
                     <citedRange unit="page">29</citedRange>
                 </bibl>
                     <bibl><ptr target="MAC1945"/>
