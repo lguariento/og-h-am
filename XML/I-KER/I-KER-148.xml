@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
-    <teiHeader>
+   schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
                 <title>An Cnoc Breac | Knockbrack</title>
@@ -24,17 +22,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
+                    <name/>
+                     <orgName/>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-KER-148</idno>
-                 <idno type="CIIC"></idno>
-                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"></idno>
-                 <idno type="TM" corresp="www.trismegistos.org/text/"></idno>
+                 <idno type="CIIC"/>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"/>
+                 <idno type="TM" corresp="www.trismegistos.org/text/"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
                 </availability>
@@ -43,8 +41,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                          <altIdentifier>
                             <idno type="geo"/>
                         </altIdentifier>
@@ -58,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE047-105001-</idno></p> 
-                                    <material type="stone"></material> 
+                                    <material type="stone"/> 
                                     <objectType key="monument">rock outcrop with rock art</objectType> 
                                     <dimensions><dim>2.3m E-W; 2.1m N-S; H 0.55m</dim></dimensions></support>
                                 <condition/>
@@ -68,7 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The scores (L 7cm; T 1cm) and notches (L 3cm) are cut deeply into the rock, with 1cm between each (Moore in Condit and Corlett 2005, 21-36) <height></height>
+                            <handNote>The scores (L 7cm; T 1cm) and notches (L 3cm) are cut deeply into the rock, with 1cm between each (Moore in Condit and Corlett 2005, 21-36) <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -77,8 +75,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="townland">Knockbrack (An Cnoc Breac https://www.logainm.ie/en/23610)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
-                                <geo>52.196909, -9.648659 </geo>
-                            <note>ITM coordinates: 487295, 606295</note></origPlace>
+                                
+                            <note>ITM coordinates: 487295, 606295</note><geo>52.196909, -9.648659</geo><tei:note> </tei:note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">Moore in Condit and Corlett 2005, 21-36
@@ -89,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+               <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
         <profileDesc>  
 <calendarDesc>
 <calendar xml:id="julian">
@@ -120,11 +118,11 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0">
         <graphic url="example.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
         <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
-    <text>
+    <text xmlns="http://www.tei-c.org/ns/1.0">
         <body>
            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
@@ -137,13 +135,13 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p/>
             </div>
             <div type="translation">
-                <p></p>
+                <p/>
             </div>
             <div type="commentary">
-                <p></p>
+                <p/>
             </div>
             <div type="bibliography">
                 <listBibl>
@@ -154,4 +152,4 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
             </div>
         </body>
     </text>
-</TEI>
+</tei:TEI>

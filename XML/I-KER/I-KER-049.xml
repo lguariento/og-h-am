@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
-    <teiHeader>
+   schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
                 <title>Imleach an Daingin | Emlagh West</title>
@@ -24,8 +22,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
+                    <name/>
+                     <orgName/>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
@@ -33,7 +31,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-KER-049</idno>
                  <idno type="CIIC">181</idno>
-                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"></idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"/>
                  <idno type="TM" corresp="www.trismegistos.org/text/www.trismegistos.org/text/172560">www.trismegistos.org/text/172560</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
@@ -44,7 +42,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>Músaem Chorca Dhuibhne</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                          <altIdentifier>
                             <idno type="geo">52.1665, -10.4059</idno>
                         </altIdentifier>
@@ -58,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE053-016002-</idno></p> 
-                                    <material type="stone"></material> 
+                                    <material type="stone"/> 
                                     <objectType key="monument">Pillar</objectType> 
                                     <dimensions><dim>1.08 x 0.36 x 0.24m (CUP1986)</dim></dimensions></support>
                                 <condition/>
@@ -68,7 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Pocked in fairly neat, evenly-spaced (though not not quite even in length) strokes, as far as it survives.<height></height>
+                            <handNote>Pocked in fairly neat, evenly-spaced (though not not quite even in length) strokes, as far as it survives.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -77,8 +75,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="townland">Emlagh West (Imleach an Daingin https://www.logainm.ie/en/22554)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
-                                <geo>52.136316, -10.269093 (approximate)</geo>
-                            <note>ITM coordinates: </note></origPlace>
+                                
+                            <note>ITM coordinates: </note><geo>52.136316, -10.269093</geo><tei:note>(approximate)</tei:note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">1848 Windele (Pillar - lower part only?)
@@ -89,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+               <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
         <profileDesc>  
 <calendarDesc>
 <calendar xml:id="julian">
@@ -120,11 +118,11 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0">
         <graphic url="example.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
         <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
-    <text>
+    <text xmlns="http://www.tei-c.org/ns/1.0">
         <body>
            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
@@ -137,13 +135,13 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p/>
             </div>
             <div type="translation">
-                <p></p>
+                <p/>
             </div>
             <div type="commentary">
-                <p></p>
+                <p/>
             </div>
             <div type="bibliography">
                 <listBibl>
@@ -154,4 +152,4 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
             </div>
         </body>
     </text>
-</TEI>
+</tei:TEI>
