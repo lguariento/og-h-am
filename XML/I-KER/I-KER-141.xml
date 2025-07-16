@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
-    <teiHeader>
+   schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
                 <title>Com an Lóndraigh |  Coumlanders</title>
@@ -24,17 +22,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
+                    <name/>
+                     <orgName/>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-KER-141</idno>
-                 <idno type="CIIC"></idno>
-                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"></idno>
-                 <idno type="TM" corresp="www.trismegistos.org/text/"></idno>
+                 <idno type="CIIC"/>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"/>
+                 <idno type="TM" corresp="www.trismegistos.org/text/"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
                 </availability>
@@ -44,7 +42,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>Músaem Chorca Dhuibhne</repository> <!--(not NMI?)-->
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                          <altIdentifier>
                             <idno type="geo">52.1665, -10.4059</idno>
                         </altIdentifier>
@@ -58,17 +56,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE054-094----</idno></p> 
-                                    <material type="stone"></material> 
+                                    <material type="stone"/> 
                                     <objectType key="monument">Pillar</objectType> 
                                     <dimensions><dim> 1.09m x 0.35m x 0.19m (dimensions taken from 3d pdf).</dim></dimensions></support>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"></layout>
+                                <layout style="vertical" rend="arris_up"/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Deeply pocked in bold brokes<height></height>
+                            <handNote>Deeply pocked in bold brokes<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -77,8 +75,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="townland">Coumlanders (Com an Lóndraigh https://www.logainm.ie/en/22748)  </placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
-                                <geo>52.125601, -10.175898 (approx. to townland)</geo>
-                            <note>ITM coordinates: </note></origPlace>
+                                
+                            <note>ITM coordinates: </note><geo>52.125601, -10.175898</geo><tei:note>(approx. to townland)</tei:note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">1989 (viii in McManus, p. 72) - found in the townland of Coumlanders (OS 6-inch map 54) near Lispole in 1989 embedded in the gable wall of an outhouse belonging to Eoghan O Griffín
@@ -89,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+               <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
         <profileDesc>  
 <calendarDesc>
 <calendar xml:id="julian">
@@ -120,11 +118,11 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
 </listChange>
 </revisionDesc>
     </teiHeader>
-    <facsimile>
+    <facsimile xmlns="http://www.tei-c.org/ns/1.0">
         <graphic url="example.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
         <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
-    <text>
+    <text xmlns="http://www.tei-c.org/ns/1.0">
         <body>
            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
@@ -137,13 +135,13 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p/>
             </div>
             <div type="translation">
-                <p></p>
+                <p/>
             </div>
             <div type="commentary">
-                <p></p>
+                <p/>
             </div>
             <div type="bibliography">
                 <listBibl>
@@ -154,4 +152,4 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
             </div>
         </body>
     </text>
-</TEI>
+</tei:TEI>
