@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,7 +28,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
+                    <name/>
                     <name>Gary Dempsey</name>
                      <orgName>Digital Heritage Age</orgName>
                 <resp>Artec Eva structured light scanner used to digitise stone <date when="2022-09-10"/>.</resp>
@@ -40,8 +37,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-COR-008</idno>
-                 <idno type="CIIC"></idno>
-                <idno type="CISP"></idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
                 </availability>
@@ -77,7 +74,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes appear to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. The surviving consonant strokes (all from the aicme húatha) are slanted rather than straight.<height></height>
+                            <handNote>The ogham strokes appear to have been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. The surviving consonant strokes (all from the aicme húatha) are slanted rather than straight.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -166,7 +163,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listApp>
                 <app n="1">
                     <note>Reading supplied in Ronan (2009, 153, no. 16163): </note>
-                    <rdg source="RON2009"><space unit="cm" quantity="4"/>L<gap reason="lost" unit="cm" quantity="14"></gap>CA<gap reason="lost" unit="cm" quantity="14"/>CIOT</rdg>
+                    <rdg source="RON2009"><space unit="cm" quantity="4"/>L<gap reason="lost" unit="cm" quantity="14"/>CA<gap reason="lost" unit="cm" quantity="14"/>CIOT</rdg>
                 </app>
                     <app n="2">
                         <note>The first relatively clear letter is C but there appeared to be a single stroke from the same <foreign xml:lang="ga">aicme (húatha)</foreign> visible just above ground level (and just below the 4 C-strokes) on examination (and in imagery) from 2022. An earlier photograph of the stone by the National Monuments Service <!--(2005? ground level slightly lower?)--> shows signs of 2 strokes here, which would make a D or, if more strokes survive below ground, a T, C or Q. However, this is not mentioned in the Archaeological Inventory description (Ronan 2009, 153). What is mentioned here is two strokes to the right of the stemline (<foreign xml:lang="ga">aicme beithe</foreign>) 4cm above then ground level, probably an L, followed by a gap of 14cm before the 4 C-strokes. Therefore, ground level must have been almost 20cm lower than in 2022.</note>
