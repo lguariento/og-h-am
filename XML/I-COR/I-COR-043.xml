@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -129,7 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-07-29" who="#POC">Added paragraph element to support, moved the ref element to enclose NMS only and not ID, closed unused elements, added ITM coordinates, numbered apparatus, added idno elements for SMR numbers, added description for image.</change>
 <change when="2024-11-04" who="#POC">Added CISP link</change>
 <change when="2025-01-21" who="#NW">Added Irish version to title. Updated support desc from Barry and added refs to bibl. Corrected placename tags, added image path, updated edition, apparatus and commentary.</change>    
-<change when ="2025-02-04" who="#POC">Corrected typos, added citation details to image description, added missing opening round bracket for Irish placename, commented out empty translation</change>  
+<change when="2025-02-04" who="#POC">Corrected typos, added citation details to image description, added missing opening round bracket for Irish placename, commented out empty translation</change>  
 <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>  
      <change when="2025-06-03" who="#NW">Execution type updated to scored</change>
               <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>          
@@ -145,12 +142,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/><persName><name nymRef="?">ᚇ<gap reason="lost" unit="stroke" atMost="7"></gap>ᚋᚋ<gap reason="lost" unit="stroke" atMost="5"></gap></name> <w type="formula" lemma="maqqas">ᚋᚐᚉᚔ</w> <name nymRef="#?"><supplied reason="lost">ᚃ</supplied><unclear reason="illegible">ᚓ</unclear>ᚇᚒ<unclear reason="illegible">ᚉ</unclear>ᚓᚏᚔ</name></persName>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="?">ᚇ<gap reason="lost" unit="stroke" atMost="7"/>ᚋᚋ<gap reason="lost" unit="stroke" atMost="5"/></name> <w type="formula" lemma="maqqas">ᚋᚐᚉᚔ</w> <name nymRef="#?"><supplied reason="lost">ᚃ</supplied><unclear reason="illegible">ᚓ</unclear>ᚇᚒ<unclear reason="illegible">ᚉ</unclear>ᚓᚏᚔ</name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?">D<gap reason="lost" unit="stroke" atMost="7"></gap>MM<gap reason="lost" unit="stroke" atMost="5"></gap></name> <w type="formula" lemma="maqqas">MACI</w> <name nymRef="#?"><supplied reason="lost">V</supplied><unclear reason="illegible">E</unclear>DU<unclear reason="illegible">C</unclear>ERI</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="?">D<gap reason="lost" unit="stroke" atMost="7"/>MM<gap reason="lost" unit="stroke" atMost="5"/></name> <w type="formula" lemma="maqqas">MACI</w> <name nymRef="#?"><supplied reason="lost">V</supplied><unclear reason="illegible">E</unclear>DU<unclear reason="illegible">C</unclear>ERI</name></persName>
                 </ab>
                 <ab type="list">D[---]MM[---] MACI VEDUCERI </ab>
             </div>

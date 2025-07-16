@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,17 +21,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
+                    <name/>
+                     <orgName/>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-KER-144</idno>
-                 <idno type="CIIC"></idno>
-                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"></idno>
-                 <idno type="TM" corresp="www.trismegistos.org/text/"></idno>
+                 <idno type="CIIC"/>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"/>
+                 <idno type="TM" corresp="www.trismegistos.org/text/"/>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
                 </availability>
@@ -43,8 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                          <altIdentifier>
                             <idno type="geo"/>
                         </altIdentifier>
@@ -64,11 +61,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"></layout>
+                                <layout style="vertical" rend="arris_up"/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The first three words of the inscription are very neatly executed in fine, evenly spaced, well chiselled scores. The consonant strokes average 1cm in width, 7-8cm in length on either side of the stemline and 10-11cm where they cross it. The average length of the vowel strokes is 4-5cm and they are the same width as the consonant strokes (Moore 2017b, 26-27)<height></height>
+                            <handNote>The first three words of the inscription are very neatly executed in fine, evenly spaced, well chiselled scores. The consonant strokes average 1cm in width, 7-8cm in length on either side of the stemline and 10-11cm where they cross it. The average length of the vowel strokes is 4-5cm and they are the same width as the consonant strokes (Moore 2017b, 26-27)<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -77,8 +74,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="townland">Bunbinnia (Bun Binne https://www.logainm.ie/en/23310)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
-                                <geo>51.96767 , -9.722726 </geo>
-                            <note>ITM coordinates: 481627, 580914 </note></origPlace>
+                                
+                            <note>ITM coordinates: 481627, 580914 </note><geo>51.96767, -9.722726</geo><tei:note xmlns:tei="http://www.tei-c.org/ns/1.0"> </tei:note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">1995 Fionnbarr Moore (2017b): 24. 'The sharp contrast between the lower part of the stone and the slender upper portion, with its sharper angles, suggests that the stone may have been roughly dressed for the purpose of being inscribed.' Found  lying in the bed of a nearby stream when discovered, was subsequently erected adjacent to the place of discovery by the OPW (Invent vol. 1).
@@ -89,7 +86,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+               <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
         <profileDesc>  
 <calendarDesc>
 <calendar xml:id="julian">
@@ -137,13 +134,13 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p/>
             </div>
             <div type="translation">
-                <p></p>
+                <p/>
             </div>
             <div type="commentary">
-                <p></p>
+                <p/>
             </div>
             <div type="bibliography">
                 <listBibl>

@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,8 +29,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
+                    <name/>
+                     <orgName/>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
@@ -71,7 +68,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://archwilio.org.uk/">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">3731</idno> St Teilo's Church</p>
                                     <material type="stone">Tuff</material> <note>Described as <q>Crystal lithic tuff. Brown (10YR 5/3) weathered surface, due to presence of mafic minerals</q> (Edwards 2007, 204)</note>
                                     <objectType key="monument">Pillar</objectType> 
-                                    <dimensions unit='m'>
+                                    <dimensions unit="m">
                                         <height>2.11</height>
                                         <width>0.71</width>
                                         <depth>0.28</depth>
@@ -84,7 +81,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>The Latin inscription is described as being lightly incised, whereas the Ogham inscription is <q>medium-to-lightly-incised</q> (Edwards 2007, 204-205). The roman letters are in capitals and those in line 1 <q>are slightly smaller than those in lines 2 and 3.</q> The M's in line 1 have <q>widely spaced strokes that meet on the line. In line 2 G is sickle-shaped. The R's in line 1 and 3 have separate diagonal strokes; that at the beginning of line 3 may also have an open loop. The Ogham strokes are small and short.</q> (Edwards 2007, 205).
-                                 <height></height>
+                                 <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -169,20 +166,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <div type="textpart" n="2">
                 <ab>
                     <lb n="1"/><w>MEMORIA</w>
-                    <lb n ="2"/><persName><name nymRef="#voteqarigis">VOTEPORIGIS</name>
-                    <lb n ="3"/><w>PROTICTORIS</w></persName>
+                    <lb n="2"/><persName><name nymRef="#voteqarigis">VOTEPORIGIS</name>
+                    <lb n="3"/><w>PROTICTORIS</w></persName>
                 </ab>
                </div>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p/>
             </div>
             <div type="translation">               
                 <p>Ogham: of Votecorix</p>            
                 <p>Roman: The memorial tomb/tomb of Voteporix the Protector</p>
                 </div>
             <div type="commentary">
-                        <p>The Ogham inscription denotes only the name of the person commemorated, in the genitive case. The name VOTECORIGAS derives from the genitive Celtic *<foreign xml:lang="cel">Votek<hi rend="superscript">w</hi>orīgos></foreign>, 'refuge-king', and shares the element *<foreign xml:lang="cel">tek<hi rend="superscript">w</hi>o-></foreign> with the Silchester Ogham TEBICATOS, and the prefix *<foreign xml:lang="cel">wo-</foreign> with the Old Welsh name <persName xml:lang="owl">Guotepauc</persName>. <q>It is not clear whether the Irish form translates the Welsh or vice versa: while the ogham O may copy the Brittonic composition vowel, it could be an independent Irish development due to the rounding influence of *Q > C. The preservation of -S despite the destabilization of *Q may betray archaization in the ogham</q> (Edwards 2007, 205-206).</p>
+                        <p>The Ogham inscription denotes only the name of the person commemorated, in the genitive case. The name VOTECORIGAS derives from the genitive Celtic *<foreign xml:lang="cel">Votek<hi rend="superscript">w</hi>orīgos&gt;</foreign>, 'refuge-king', and shares the element *<foreign xml:lang="cel">tek<hi rend="superscript">w</hi>o-&gt;</foreign> with the Silchester Ogham TEBICATOS, and the prefix *<foreign xml:lang="cel">wo-</foreign> with the Old Welsh name <persName xml:lang="owl">Guotepauc</persName>. <q>It is not clear whether the Irish form translates the Welsh or vice versa: while the ogham O may copy the Brittonic composition vowel, it could be an independent Irish development due to the rounding influence of *Q &gt; C. The preservation of -S despite the destabilization of *Q may betray archaization in the ogham</q> (Edwards 2007, 205-206).</p>
                         <p>The Latin inscription includes the term <foreign xml:lang="la">protectoris</foreign> which <q>is a title and originally referred to a member of the Roman imperial bodyguard... It has been suggested that <foreign xml:lang="la">protectoris</foreign> on this monument could be a hereditary title which might ultimately go back to the period of the Roman occupation (Alcock 1971, 122-123). The use of a Roman imperial title might be seen as a sign of continuing or adopted <foreign xml:lang="la">Romanitas</foreign> or as a means of providing legitimacy to a post-Roman ruler</q>. This inscription <q>is the only example of the use of the Latin <foreign xml:lang="la">memoria</foreign> in Wales</q> (Edwards 2007, 205).</p>
 
             </div>   
@@ -195,7 +192,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <citedRange unit="page">203-206</citedRange>
                 </bibl> 
                 </listBibl>
-                <p></p>
+                <p/>
             </div>
         </body>
     </text>

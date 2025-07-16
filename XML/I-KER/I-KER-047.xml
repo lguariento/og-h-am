@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,8 +21,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
+                    <name/>
+                     <orgName/>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
@@ -33,7 +30,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <authority>OG(H)AM</authority>
                 <idno type="filename">I-KER-047</idno>
                  <idno type="CIIC">179</idno>
-                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"></idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"/>
                  <idno type="TM" corresp="www.trismegistos.org/text/www.trismegistos.org/text/172540">www.trismegistos.org/text/172540</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
@@ -43,8 +40,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Ireland</country>
-                        <repository></repository>
-                        <idno type="invNo"></idno>
+                        <repository/>
+                        <idno type="invNo"/>
                          <altIdentifier>
                             <idno type="geo"/>
                         </altIdentifier>
@@ -58,17 +55,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE043-224027-</idno></p> 
-                                    <material type="stone"></material> 
+                                    <material type="stone"/> 
                                     <objectType key="monument">Fragment</objectType> 
-                                    <dimensions><dim></dim></dimensions></support>
+                                    <dimensions><dim/></dimensions></support>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"></layout>
+                                <layout style="vertical" rend="arris_up"/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
+                            <handNote><height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -77,8 +74,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="townland">Dingle (Daingean Uí Chúis https://www.logainm.ie/en/22553)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
-                                <geo>52.141376, -10.264474 (very approximate)</geo>
-                            <note>ITM coordinates: </note></origPlace>
+                                
+                            <note>ITM coordinates: </note><geo>52.141376, -10.264474</geo><tei:note xmlns:tei="http://www.tei-c.org/ns/1.0">(very approximate)</tei:note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">1896 -   top of a pillar, lying in the schoolhouse ('found in the bed of a stream which runs past the parochial school of Dingle' MAC1945). By 1945 in parish church (St. James'?)
@@ -89,7 +86,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+               <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
         <profileDesc>  
 <calendarDesc>
 <calendar xml:id="julian">
@@ -137,13 +134,13 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p/>
             </div>
             <div type="translation">
-                <p></p>
+                <p/>
             </div>
             <div type="commentary">
-                <p></p>
+                <p/>
             </div>
             <div type="bibliography">
                 <listBibl>

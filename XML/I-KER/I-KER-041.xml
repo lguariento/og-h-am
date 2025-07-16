@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,8 +21,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
+                    <name/>
+                     <orgName/>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
@@ -44,7 +41,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Ireland</country>
                         <repository>Músaem Chorca Dhuibhne</repository>
-                        <idno type="invNo"></idno>
+                        <idno type="invNo"/>
                          <altIdentifier>
                             <idno type="geo">52.1665, -10.4059</idno>
                         </altIdentifier>
@@ -58,17 +55,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE045-081002-</idno></p> 
-                                    <material type="stone"></material> 
+                                    <material type="stone"/> 
                                     <objectType key="monument">fragment</objectType> 
-                                    <dimensions><dim></dim></dimensions></support>
+                                    <dimensions><dim/></dimensions></support>
                                 <condition/>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"></layout>
+                                <layout style="vertical" rend="arris_up"/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><height></height>
+                            <handNote><height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -77,8 +74,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="townland">Brackloon (An Bhreac-chluain https://www.logainm.ie/en/22457)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
-                                <geo>52.149426, -10.045703 </geo>
-                            <note>ITM coordinates: 460006, 601705 (possible findspot) </note></origPlace>
+                                
+                            <note>ITM coordinates: 460006, 601705 (possible findspot) </note><geo>52.149426, -10.045703</geo><tei:note xmlns:tei="http://www.tei-c.org/ns/1.0"> </tei:note></origPlace>
                             <origDate/>
                         </origin>
                         <provenance type="found">1848 Hitchcock (Hitchcock's notebook records that this stone was found about 1848 in the souterrain of a fort in a field called `Parkalassa' (parc a' leasa, `the field of the fort') on the townland of Brackaloon').  Cuppage et al/1986, 124: Pairc na Claishe, not Pairc an Leasa, ... it is possible that Hitchcock confused the two names'? This (only surviving) fragment was for many years preserved in the grounds of Ballinagroun House, near Inch, before being moved to Musáem Chorca Dhuibhne in Ballyferriter (Cuppage 1986, 124). 
@@ -89,7 +86,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+               <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
         <profileDesc>  
 <calendarDesc>
 <calendar xml:id="julian">
@@ -137,13 +134,13 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 </ab>
             </div>
             <div type="apparatus">
-                <p></p>
+                <p/>
             </div>
             <div type="translation">
-                <p></p>
+                <p/>
             </div>
             <div type="commentary">
-                <p></p>
+                <p/>
             </div>
             <div type="bibliography">
                 <listBibl>

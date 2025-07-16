@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,8 +27,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
+                    <name/>
+                     <orgName/>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
@@ -65,7 +62,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://archwilio.org.uk/">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">3906</idno> Church of St Oudoceus (Euddogwy)</p>
                                     <material type="stone">Sandstone</material> <note><q>Fine, well-sorted, pinkish-grey (7.5YR 6/2) sandstone with quartz content. Local bedrock. Red marl and sandstone</q> (Edwards 2007, 232).</note>
                                     <objectType key="monument">Slab</objectType>  
-                                    <dimensions unit='m'>
+                                    <dimensions unit="m">
                                         <height>1.38</height>
                                         <width>0.30</width>
                                         <depth>0.10</depth>
@@ -78,7 +75,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>The inscriptions are <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and described as being incised with visible <q>punchmarks</q> (Edwards 2007, 232-233). On the Ogham inscription, <q>the V in line 1 of the roman inscription incorporates the second diagonal bar of the ogam D... and the second R overlies the diagonal stroke of the M... The T in line 3 of the roman inscription... cuts through the last three strokes of the ogam Q</q> (Edwards 2007, 232-234). Of the roman-letter inscription, <q>Line 1 is very evenly set out but the letters at the end of line 2 and those in line 3 are significantly smaller than the rest. The A's have an angle-bar; E's have clubbed serifs; R's have open loops and slightly shortened diagonals. In line 1 the final I is horizontal. In line 2 FI are conjoined and the I is small; S is reversed</q> (Edwards 2007, 233). 
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -165,13 +162,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <div type="textpart" n="2" xml:lang="la-Latn" source="EDW2007">
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name>BARRIVEND<hi rend="inverted">I</hi></name>
-                    <lb n ="2" style="text-direction:down"/><w><hi rend="ligature">FI</hi>LIV<hi rend="reversed">S</hi></w> <space quantity="1" unit="character"></space> <name>VENDVBARI</name></persName>
-                    <lb n ="3" style="text-direction:down"/><w>HIC</w> <w>IACIT</w>
+                    <lb n="2" style="text-direction:down"/><w><hi rend="ligature">FI</hi>LIV<hi rend="reversed">S</hi></w> <space quantity="1" unit="character"/> <name>VENDVBARI</name></persName>
+                    <lb n="3" style="text-direction:down"/><w>HIC</w> <w>IACIT</w>
                 </ab>
                </div>
             </div>            
             <div type="apparatus">
-                <p></p>
+                <p/>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
@@ -190,7 +187,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <bibl><ptr target="EDW2007"/>
                     <citedRange>232-234</citedRange>
                 </bibl>             
-                <bibl><ptr target ="MAC1945"/>
+                <bibl><ptr target="MAC1945"/>
                     <citedRange>351-352</citedRange>
                 </bibl>
                 </listBibl>

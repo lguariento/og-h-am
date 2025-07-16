@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,8 +27,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
+                    <name/>
+                     <orgName/>
                 <resp><!--3d recording, technique and software used--></resp>
                 </respStmt>
             </titleStmt>
@@ -69,7 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">3943</idno> St Gwinio's Church</p>
                                     <material type="stone">Gabbro</material> <note>Described as <q>dark grey gabbro, 20 per cent feldspar phenocrysts, 5 per cent of which are weathered, much chlorite. Weathered surface is light brown (7.5YR 6/2 - 6/4).</q> (Edwards 2007, 264).</note>
                                     <objectType key="monument">Pillar</objectType> 
-                                    <dimensions unit='m'>
+                                    <dimensions unit="m">
                                         <height>1.14</height>
                                         <width>0.38</width>
                                         <depth>0.305</depth>
@@ -84,7 +81,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </objectDesc>
                         <handDesc>
                             <handNote>The two ogham inscriptions are <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> or as Edwards (2007, 265) describes <q>deeply incised, using broad strokes</q>. According to Edwards (2007, 264), the roman-letter inscription is <q>incised, using very broad lines</q> or as Macalister (1945, 359) noted <q>pocked and rubbed smooth</q>. The roman-letter inscription consists of capitals. The <q>letters in line 3 are smaller than the rest, owing to a lack of space. Three of the I's have triangular serifs. In line 1 VA are ligatured and the stroke of the V joins the A at the level of the crossbar; the second I is horizontal. In line 2 the A and V are rather rounded and the V is placed diagonally; the second B has separate loops. The V in line 3 is flattened and slightly rounded</q> (Edwards 2007, 264-265).
-                                <height></height>
+                                <height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -171,7 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#bivadias">BI<hi rend="ligature">VA</hi>D<hi rend="inverted">I</hi></name>
                     <lb n="2" style="text-direction:down"/><w type="formula" lemma="avias">AVI</w> <name nymRef="#bodibivas">BODIBE
-                    <lb n="3"  break="no" style="text-direction:down"/>VE</name></persName>
+                    <lb n="3" break="no" style="text-direction:down"/>VE</name></persName>
                 </ab>
                </div>
             </div>          
