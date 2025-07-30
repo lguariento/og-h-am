@@ -8,6 +8,8 @@
                 <title>Baile Uí Bhaoithín | Ballywiheen</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -56,32 +58,37 @@
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE042-093003-</idno></p> 
-                                    <material type="stone">smooth grey sandstone with a purple grain running through it' (Moore , unpub MA thesis) </material> 
+                                    <material type="stone">Smooth grey sandstone with a purple grain running through it (Moore , unpub MA thesis). </material> 
                                     <objectType key="monument">Slab </objectType> 
-                                    <dimensions><dim>1.92m x 0.46m x 0.16m (Moore , unpub MA thesis)</dim></dimensions></support>
-                                <condition/>
+                                    <dimensions unit="m">
+                                        <height>1.92</height>
+                                        <width>0.46</width>
+                                        <depth>0.16</depth> <!--(Moore , unpub MA thesis) -->
+                                    </dimensions>
+                                </support>
+                                <condition><q>The stone was smashed into 3 pieces in the 1880's (in search of gold) and one fragment was lost</q> (Cuppage 1986, 194) taking with it the last three letters (-TOS).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_up"/>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription appears to have been v-cut and is in neat, evenly-spaced strokes. The vowels are not much shorter than the consonants.<height/>
+                            <handNote>The inscription appears to have been v-cut and is in neat, evenly-spaced strokes. The vowels are not much shorter than the consonants. Apart from the loss of the last three letters, <q>the inscription is otherwise perfect</q> (Macalister 1945, 165). Inspection of the inscription with Fionnbarr Moore at the time of scanning found that the initial T is faint but discernible. The M of MAQI is at the point of the break in the stone but the lower half of the M, towards the back of the stone, is clear. A spall has removed the upper half. SAGARRET is clear.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Ballywiheen https://www.logainm.ie/en/22742 (possibly originated at nearby Raingiléis, GPS coords 52.158683 , -10.407357)</placeName>
+                            <origPlace><placeName type="townland">Ballywiheen (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/22742">Baile Uí Bhaoithín</ref></foreign>) (possibly originated at nearby Raingiléis, GPS coords 52.158683 , -10.407357)</placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
                                 
                             <note>ITM coordinates: 435281, 603210 </note><geo>52.156204, -10.407534</geo><tei:note>(current location)</tei:note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">1855 Rev Goodman (Gippert: https://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm). Broken in 3, 1 frag missing.
+                        <provenance type="found">Rev. J. Goodman discovered the stone in 1855 (Macalister 1945, 165). According to Hitchcock (1856, 439-441; Macalister 1945, 165), it was found lying beside Cathair na gCat and placed inside the fort by the discoverer 'for protection'. According to Curran (OPW file) it was discovered acting as the entrance lintel to the souterrain within the cashel. He was of the opinion that the ogham stone had been taken from the nearby ancient cemetery called the Raingiléis. In 1887 Ferguson stated that the stone had been found in an adjoining killeen (Cuppage 1986, 194-195). Townland of Ballywiheen and barony of Corkaguiney. <!-- (Gippert: https://titus.fkidg1.uni-frankfurt.de/ogam/frame.htm). Broken in 3, 1 frag missing. -->
                         </provenance>
-                        <provenance type="observed">in situ 
+                        <provenance type="observed">In situ. Lying on top of Cathair na gCat fort in two pieces
                         </provenance>
                     </history>
                 </msDesc>
@@ -114,6 +121,7 @@
 Jef Bucas autogenerated batch EpiDoc output from spreadsheet
 </change>
     <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+     <change when="2025-07-30" who="#THN">Added discovery, letters, biblio, commentary, translation from Ogham in 3D website.</change>
 
 </listChange>
 </revisionDesc>
@@ -138,15 +146,29 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 <p/>
             </div>
             <div type="translation">
-                <p/>
+                <p>of Toicthech son of Sáraid?</p>
             </div>
             <div type="commentary">
-                <p/>
+                <p>In this inscription we appear to have an example of an <q>erroneous...addition of a single score</q> with SAGARETTOS for expected SAGRETTOS (Sáraid?) (McManus 1991, 7, 108).</p>
+                <p>According to McManus (1991, 84) the name TOGITTACC was formed from the word for 'good luck' with an adjectival suffix -ākos. The spelling of TOGITTACC (for an expected TOGETTACC[I]) may reflect the falling together of unstressed /e/ and /i/ prior to syncope (McManus 1991, 82, 118).</p>
+                <p>This inscription may be dated to the first half of the sixth century based on the preservation of -OS (though now lost) in SAGARETTOS and the loss of -I in TOGITTACC (McManus 1991, 94, 97).</p>
             </div>
             <div type="bibliography">
-                <listBibl>
+                 <listBibl>
+                    <bibl><ptr target="BEN1995"/>
+                        <citedRange>9</citedRange>
+                    </bibl>
+                    <bibl><ptr target="CUP1986"/>
+                        <citedRange>194-195</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MAC1898"/>
+                        <citedRange>15-20</citedRange>
+                    </bibl>
                     <bibl><ptr target="MAC1945"/>
-                        <citedRange>...</citedRange>
+                        <citedRange>165-166</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MCM1991"/>
+                        <citedRange>7, 66, 82, 84, 87, 89, 108, 118, 123</citedRange>
                     </bibl>
                  </listBibl>
             </div>
