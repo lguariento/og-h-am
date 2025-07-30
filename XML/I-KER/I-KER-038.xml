@@ -8,6 +8,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>An Baile Riabhach | Ballymorereagh</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+             <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -58,15 +60,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE043-140008-</idno></p> 
                                     <material type="stone"/> 
                                     <objectType key="monument">Pillar </objectType> 
-                                    <dimensions><dim>1.68m x 0.46m x 0.28m (Converted from Macalister) 1.75m (Okasha and Forsyth, 138)</dim></dimensions></support>
-                                <condition/>
+                                    <dimensions unit="m" source="MAC1945">
+                                        <height>1.68 (or 1.75 (Okasha and Forsyth 2001, 138))</height>
+                                        <width>0.46</width>
+                                        <depth>0.28</depth>
+                                    </dimensions>
+                                </support>
+                                <condition> <q>The top has been broken and battered away... So far as it goes the inscription is perfectly clear, though some of the vowels are damaged</q> (Macalister 1945, 163).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">Two equal-armed crosses, one with an expanded, sub-triangular head? `a cross with equal arms, expanding regularly, is cut on the face, on the dexter side of the inscription, while another cross, with expanding terminals...is cut on the surface of the opposite face' (MAC1945) </layout>
+                                <layout style="vertical" rend="arris_up">Two equal-armed crosses, one with an expanded, sub-triangular head? <q>A cross with equal arms, expanding regularly, is cut on the face, on the dexter side of the inscription, while another cross, with expanding terminals...is cut on the surface of the opposite face</q> (Macalister 1945, 163-164). Macalister (1945, 163-164) sees the crosses on this stone as a later attempt at Christianisation but see McManus (1991, 54-61) for a valid counter argument to this theory. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham inscription appears to be v-cut in neat, evenly-spaced strokes with clear seperation of characters (particularly vowels in this case). Vowels are shorter but similarily executed to consonants. Macalister (1945, 163-164) notes that 'a grafitto is scratched in a line parallel with the ogham in crudely made half-unicals. It reads FECT QUENILOC followed by a word too defaced to read'. No trace of this can be found.<height/>
+                            <handNote>The ogham inscription appears to be v-cut in neat, evenly-spaced strokes with clear seperation of characters (particularly vowels in this case). Vowels are shorter but similarily executed to consonants. Macalister (1945, 163-164) notes that <q>a grafitto is scratched in a line parallel with the ogham in crudely made half-unicals. It reads FECT QUENILOC followed by a word too defaced to read</q>. No trace of this can be found. Regarding the C of MUC[OI], three of the four scores are visible on the 3D model.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -79,9 +86,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM coordinates: 440472, 602847</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">1845 Petrie
+                        <provenance type="found">Macalister (1945, 163) cites Petrie (1845, 136) as the first recording of the stone in 1845. The stone was found at Teampall Geal early ecclesiastical site in the townland of Ballymorereagh and barony of Corkaguiney.
                         </provenance>
-                        <provenance type="observed">in situ 
+                        <provenance type="observed">In situ, in front of the oratory at Teampall Geal, secured within a metal fence and standing on a platform of concrete.
                         </provenance>
                     </history>
                 </msDesc>
@@ -114,7 +121,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Jef Bucas autogenerated batch EpiDoc output from spreadsheet
 </change>
     <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
-
+    <change when="2025-07-30" who="#THN">Added discovery, letters, biblio, commentary, translation from Ogham in 3D website.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -138,15 +145,32 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
                 <p/>
             </div>
             <div type="translation">
-                <p/>
+                <p>of Cellach son of Mac-Áine? descendant of?</p>
             </div>
             <div type="commentary">
-                <p/>
+                <p>QENN- (OIr <ref target="https://dil.ie/8622"><foreign xml:lang="ga">cenn</foreign></ref> `head'): ... QENILOCI (Cellach) (McManus 1991, 103).</p>
+                <p>It is tempting to equate the name MAQI-AINIA with the goddess Áine but, as McManus (1991, 109, 115, 179 n. 47) points out, <q>if so AI must be an error for A as the first syllable does not contain the diphthong ai</q> and palatalisation is not written in ogham.</p>
+                <p>The retention of the -I in QENILOCI in combination with the loss of -S in MAQI-AINIA suggests dating this inscription to the first half of the sixth century (McManus 1991, 95, 97).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
+                    <bibl><ptr target="BEN1995"/>
+                        <citedRange>13</citedRange>
+                    </bibl>
+                    <bibl><ptr target="CUP1986"/>
+                        <citedRange>268-270</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MAC1937"/>
+                        <citedRange>221-228</citedRange>
+                    </bibl>
                     <bibl><ptr target="MAC1945"/>
-                        <citedRange>...</citedRange>
+                        <citedRange>163</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MCM1991"/>
+                        <citedRange>95, 103, 109, 115, 118</citedRange>
+                    </bibl>
+                     <bibl><ptr target="OKA2001"/>
+                        <citedRange>138</citedRange>
                     </bibl>
                  </listBibl>
             </div>
