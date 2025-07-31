@@ -5,7 +5,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tigh na hAille | Tinnahally I</title>
+                <title>Tigh na hAille | Tinnahally 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -22,9 +22,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name/>
-                     <orgName/>
-                <resp><!--3d recording, technique and software used--></resp>
+                   <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>Capture: Artec Eva structured light scanner <date when="2017-02-16"/>; Software: Artec, Geomagic Studio</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -56,7 +56,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE057-105001-</idno></p> 
-                                    <material type="stone">Clay-slate' (MAC1945)</material> 
+                                    <material type="stone">Sandstone</material> <!--'Clay-slate' (MAC1945)-->
                                     <objectType key="monument">Pillar</objectType> 
                                     <dimensions><dim>"1.83m x 0.30m x 0.28m (converted from Macalister); Brash 7' 6"" (2.29 x 0.33-0.38 x 0.23-0.17)"</dim></dimensions></support>
                                 <condition/>
@@ -76,12 +76,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
                                 <geo>52.126506, -9.749639</geo>
-                            <note>ITM coordinates: 480206 , 598633</note></origPlace>
+                            <note>ITM coordinates: 480206, 598633</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">1848 Windele (Brash 1873) Found in souterrain
+                        <provenance type="found" when="1848">1848 Windele (Brash 1873) Found in souterrain
                         </provenance>
-                        <provenance type="observed">NMI <!--(Daingean)-->
+                        <provenance type="observed" when="2017">In the collection of the National Museum of Ireland. Recorded in 3D in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref> in 2017 as part of the Ogham in 3D project. <!--(Daingean)-->
                         </provenance>
                     </history>
                 </msDesc>
