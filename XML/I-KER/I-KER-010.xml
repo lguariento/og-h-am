@@ -22,9 +22,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name/>
-                     <orgName/>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Nora White</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                 <resp>Capture: Photogrammetry <date when="2017-01-11"/>; Processing software: Agisoft Metashape</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -58,30 +58,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE044-065003-</idno></p> 
                                     <material type="stone">Sandstone</material>  <!--sandstone grit (MAC1945)-->
                                     <objectType key="monument">Fragment</objectType> 
-                                    <dimensions><dim>0.42 x 0.10 x 0.06m (converted from MAC1945), bit missing and now only 0.30m L (more like 2cm in depth, if not more,  but can't find measurements)</dim></dimensions></support>
-                                <condition/>
+                                    <dimensions unit="m" source="CUP1986">
+                                        <height>0.30</height>
+                                        <width>0.10</width>
+                                        <depth>0.04</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>Macalister (1945, 139) gave the dimensions of this fragment as 41.91 x 10.16 x 05.71cm (1' 4 1/2" X o' 4" X o' 2 1/4" in feet and inches) but the current length (height) is 30cm, showing that a piece has broken off since Macalister recorded the fragment. This is also clear on comparing his drawing with recent images.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"/>
+                                <layout style="vertical" rend="arris">The fragment is too small is say much about the layout of the inscription other than that it is on the arris of the stone and that the surviving letters appear to read up on the right or down on the left.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Pocked but vowel strokes appear to be cut and wedge-shaped<height/>
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in bold consonant strokes while the vowel strokes are wedge-shaped and possibly made with a flat chisel at an angle from either side.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Annagap https://www.logainm.ie/en/22479</placeName>
+                            <origPlace><placeName type="townland">Annagap (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/22479">Áth na gCeap</ref></foreign>) </placeName>
                                 <placeName type="county">Co. Kerry</placeName>
                                 <placeName type="country">Ireland</placeName>
                                 <geo>52.16010, -10.05993</geo>
-                            <note>ITM coordinates (approximate): 459066, 602920 </note></origPlace>
+                            <note>ITM coordinates (approximate): 459066, 602920</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">1940. From Lisnakilla/Lios na Cille enclosure, incorrectly recorded as 'Parkalassa' ringfort.
+                        <provenance type="found" notAfter="1940">Bought by University College Cork in 1940 from Mr. Garret Fitzgerald and its provenance was given as Parkalassa Fort, Annagap (UCC). No ringfort in the townland is known by this name but the N half of <placeName type="site">Lisnakilla (<foreign xml:lang="ga">Lios na Cille</foreign>)</placeName> enclosure (<idno type="SMR">KE044-065001-</idno>) was owned by Mr. Fitzgerald and the present landowner confirms that it was from here that the ogham stone originally came. The ecclesiastical nature of the site is suggested by its name ('enclosure of the church'), and by the discovery there of the ogham stone and bullaun stones (Cuppage 1986, no. 811). 
                         </provenance>
-                        <provenance type="observed">Cork Public Museum
+                        <provenance type="observed" when="2017">Now in Cork Public Museum, where it was examined and recorded using photogrammetry for the Ogham in 3D project in 2017.
                         </provenance>
                     </history>
                 </msDesc>
@@ -114,11 +119,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Jef Bucas autogenerated batch EpiDoc output from spreadsheet
 </change>
     <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+    <change when="2025-07-31" who="#NW">Added info and encoding throughout and an image</change>
 
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-KER/I-KER-010_Annagap.jpg"><desc>Photograph by Nora White</desc></graphic>        
         <graphic url="example.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
         <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
@@ -126,16 +133,18 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
         <body>
            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                    <lb n="1" style="text-direction:up"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/><supplied reason="lost" evidence="previouseditor">ᚈᚐ</supplied>ᚊ <w type="formula" lemma="maqqas" cert="medium">ᚋᚐᚊ<unclear reason="damage">ᚔ</unclear></w><gap reason="lost" extent="unknown"/>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>]TAQMAQO[
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown"/><supplied reason="lost" evidence="previouseditor">TA</supplied>Q <w type="formula" lemma="maqqas" cert="medium">MAQ<unclear reason="damage">I</unclear></w><gap reason="lost" extent="unknown"/>
                 </ab>
             </div>
             <div type="apparatus">
-                <p/>
+               <listApp>
+                   <app n="1"><note>The portion of the stone which bore the first 2 letters (Macalister 1945, 139) is now missing and only the first 2 strokes of a probable I remain.</note></app>
+               </listApp>
             </div>
             <div type="translation">
                 <p/>
@@ -145,9 +154,12 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
             </div>
             <div type="bibliography">
                 <listBibl>
-                    <bibl><ptr target="MAC1945"/>
-                        <citedRange>...</citedRange>
+                    <bibl><ptr target="CUP1986"/>
+                        <citedRange>no. 811</citedRange>
                     </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>139</citedRange>
+                    </bibl>                    
                  </listBibl>
             </div>
         </body>
