@@ -53,12 +53,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Isle of Man</country>
                         <repository>Manx Museum</repository>
                         <idno type="invNo">MM 145</idno>
+                        <altIdentifier>
+                            <idno type="geo">54.15459, -4.48127</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                            <textLang mainLang="ga-Ogam" cert="medium">Possibly Irish written in ogham script</textLang>                        
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -71,7 +72,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <height></height>
                                             <width></width>
                                             <depth></depth>
-                                        <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
                                 <condition>The stone is broken. The ogham inscription is incomplete, the end of the text is lost. The Norse inscription appears complete.</condition>
@@ -88,7 +88,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Kirk Maughold</placeName>, <placeName type="sheading">Garff</placeName>, <placeName type="country">Isle of Man</placeName>
+                            <origPlace><placeName type="parish">Kirk Maughold</placeName> 
+                                <placeName type="sheading">Garff</placeName> 
+                                <placeName type="country">Isle of Man</placeName>
                                 <geo>54.297719, -4.317214</geo>
                             <note>National Grid Reference: SC 4930 9160</note>
                             </origPlace>

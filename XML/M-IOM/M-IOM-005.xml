@@ -53,12 +53,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Isle of Man</country>
                         <repository>Manx Museum</repository>
                         <idno type="invNo">MM 130</idno>
+                        <altIdentifier>
+                            <idno type="geo">54.15459, -4.48127</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                            <textLang mainLang="ga-Ogam" cert="medium">Possibly Irish written in ogham script</textLang>                           
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -71,7 +72,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <height></height>
                                             <width></width>
                                             <depth></depth>
-                                        <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>    
                                     <desc type="decoration">The slab bears a <rs type="decoration" key="cross">cross</rs> carved in low relief on one face. The decorated side shows a shafted cross with limbs connected by a ring. Both the shaft and circle have a cable border ending at the foot in the head and tail of a serpent. In the centre of the cross is a circle of ring-chain, while each limb contains two interlinked rings bound by a diamond-shaped ring, and ends in four linked triquetras. The shaft is decorated with panels containing plaits of nine and seven strands. To the left of the shaft are a hart and hound, and a robed priest with arms raised, supported by a staff. On the right side are the worn remains of what may possibly be another hart and hound. Below them a seated man plays a harp to the right of whom another figure carries what appears to be a drinking horn. Below the harpist is another priest with uplifted arms, again holding a staff (<ref target="https://isleofmanher.im/report/e9ea88ba-e2ca-49dd-b230-33d481f9762f">IOMHER</ref>).</desc>
                                 </support>
@@ -89,11 +89,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Kirk Michael</placeName>, <placeName type="sheading">Michael</placeName>, <placeName type="country">Isle of Man</placeName>
+                            <origPlace><placeName type="parish">Kirk Michael</placeName> 
+                                <placeName type="sheading">Michael</placeName> 
+                                <placeName type="country">Isle of Man</placeName>
                                 <geo>54.285039, -4.586922</geo>
                             <note>National Grid Reference: SC 3170 9080</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate/>
                         </origin>
                         <provenance type="found">This large slab was discovered in use as a lintel above a window in the old church in 1772. The first ogham text was first described by Lord Southesk in 1887, the second ogham text was discovered in 1907. Gibson (1722) only recorded the runes.
                         </provenance>

@@ -53,12 +53,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Isle of Man</country>
                         <repository>Manx Museum</repository>
                         <idno type="invNo">MM 52</idno>
+                         <altIdentifier>
+                            <idno type="geo">54.15459, -4.48127</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                            <textLang mainLang="sga-Ogam" cert="low">Old Irish written in ogham script</textLang>                                
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -70,8 +71,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <dimensions unit="m">                                         
                                             <height>0.58</height>
                                             <width>0.51</width>
-                                            <depth>0.037</depth>
-                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                            <depth>0.037</depth>                                      
                                      </dimensions> 
                                     <desc type="decoration">The surviving portion bears a <rs type="decoration" key="cross">Celtic cross</rs> and ring set within a rectangular panel. The soft stone has been the target of pilgrims' graffiti, and is marked with Christian symbols - birds' heads, a monk, a lamb, and several small crosses followed by pilgrims' names. </desc>
                                 </support>
@@ -88,7 +88,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Bride</placeName>, <placeName type="sheading">Ayre</placeName>, <placeName type="country">Isle of Man</placeName>
+                            <origPlace><placeName type="townland">Bride</placeName> 
+                                <placeName type="sheading">Ayre</placeName> 
+                                <placeName type="country">Isle of Man</placeName>
                                 <geo>54.378889, -4.373056</geo>
                             <note>National Grid Reference: NX 45970 00740</note>
                             </origPlace>
@@ -163,7 +165,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <ab type="list">LOGGABGGGAGOGAML</ab>
                </div>
             </div>
-            <div type="edition" subtype="roman" xml:space="preserve" source="EDW2007">
+            <div type="edition" subtype="roman" xml:space="preserve" source="???">
                 <div type="textpart" n="2">
                     <ab>
                         <lb n="1" style="text-direction:l-to-r"/><persName><name>MAILBREI SCRIBA</name></persName>

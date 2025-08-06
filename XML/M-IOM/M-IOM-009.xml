@@ -53,12 +53,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Isle of Man</country>
                         <repository>Manx Museum</repository>
                         <idno type="invNo">Category: MM 205</idno>
+                         <altIdentifier>
+                            <idno type="geo">54.15459, -4.48127</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                            <textLang mainLang="ga-Ogam">Possibly Irish written in ogham script</textLang>                              
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -70,8 +71,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <dimensions unit="m">                                         
                                             <height></height>
                                             <width></width>
-                                            <depth></depth>
-                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                            <depth></depth>                                      
                                      </dimensions>         
                                 </support>
                                 <condition>The ogham inscription is damaged. </condition>
@@ -88,15 +88,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Santon</placeName>, <placeName type="sheading">Middle</placeName>, <placeName type="country">Isle of Man</placeName>
+                            <origPlace><placeName type="parish">Santon</placeName> 
+                                <placeName type="sheading">Middle</placeName> 
+                                <placeName type="country">Isle of Man</placeName>
                                 <geo>54.139086, -4.559436</geo>
                             <note>National Grid Reference: SC 3290 7450</note>
                             </origPlace>
-                            <origDate>Tenth to eleventh century</origDate><!--usually not known-->
+                            <origDate>Tenth to eleventh century</origDate>
                         </origin>
                         <provenance type="found">This broken slab was found at Speke Keeill (IOMHER 0699.00) during excavations in 2006 (see <ref target="https://www.scribd.com/document/12247576/Speke-Keeill-Isle-of-Man">Report (2007, 17)</ref>). The slate was found to the north of a grave.
                         </provenance>
-                        <provenance type="observed">Now in Manx Museum (Category: MM 205).
+                        <provenance type="observed">Now in Manx Museum
                         </provenance>
                     </history>
                 </msDesc>
@@ -170,11 +172,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="FOR2007"/>
+                     <bibl><ptr target="FOR2007"/> <!--really?-->
                          <citedRange></citedRange>
-                     </bibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
                      </bibl>
                  </listBibl>
             </div>
