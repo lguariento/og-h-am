@@ -53,50 +53,53 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Isle of Man</country>
                         <repository>Manx Museum</repository>
                         <idno type="invNo">Category: MM 2</idno>
+                         <altIdentifier>
+                            <idno type="geo">54.15459, -4.48127</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                                          
                            </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://isleofmanher.im/report/8a643369-b198-4373-b7d9-89f5d1290ae4">Isle of Man Historic Environment Record</ref> (IOMHER): <idno type="IOMHER">0024.60</idno></p>
-                                    <material type="stone">Stone type unknown</material> 
-                                    <objectType key="monument">Pillar</objectType>                                     
-                                    <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
-                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                    <material type="stone">Sandstone?</material> <!--Kermode/1907, 98: `ordinary clay-slate of the district'-->
+                                    <objectType key="monument">Boulder</objectType>                                     
+                                    <dimensions unit="m" source="KER1907">                                         
+                                            <height>0.52</height>
+                                            <width>0.12</width>
+                                            <depth>0.10</depth>                                       
                                      </dimensions>         
                                 </support>
                                 <condition>The boulder was already broken when found. The ogham inscription is incomplete.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The ogham inscription runs up one edge and onto the top. </layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription runs up one edge and onto the top.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                            <handNote>The inscription was described by Macalister (1945, 480) as <q>finely
+<rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs>, with a V-shaped section</q>.
                                 <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="parish">Rushen</placeName>, <placeName type="sheading">Rushen</placeName>, <placeName type="country">Isle of Man</placeName>
+                            <origPlace><placeName type="parish">Rushen</placeName> 
+                                <placeName type="sheading">Rushen</placeName> 
+                                <placeName type="country">Isle of Man</placeName>
                                 <geo>54.076378, -4.752794</geo>
                             <note>National Grid Reference: SC 2000 6800</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate notBefore="0400" notAfter="0500" precision="medium" datingMethod="#julian" evidence="linguistic">Probably fifth century AD</origDate>
                         </origin>
                         <provenance type="found" when="1874">This rounded boulder was discovered close to Ballaqueeney chapel. It was recovered during the quarrying of gravel for railway ballast in 1874.<!-- Can't find this reference for Zotero 'at the Cronk' to obtain ballast for the railroad from 'an ancient burial ground'. 'Many lintel graves were met….out of one of these rolled the smaller Ogam stone' - Kermode 1911: 96-->
                         </provenance>
-                        <provenance type="observed">Now in Manx Museum (Category: MM 2).
+                        <provenance type="observed">Now in Manx Museum.
                         </provenance>
                     </history>
                 </msDesc>
@@ -131,7 +134,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listChange>
     <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
-   <change when="2026-06-22" who="#POC">Added and encoded information</change>
+    <change when="2026-06-22" who="#POC">Added and encoded information</change>
+    <change when="2025-08-06" who="#NW">updated edition and commentary and added museum coords and refs. More updates needed on support desc here and in other IOM filesa</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -141,34 +146,41 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">             
                 <ab>
-                    <lb n="1" style="text-direction:up-across"/><persName><name nymRef="bivaidonas">ᚁᚔᚃᚐᚔ<supplied reason="lost">ᚇᚑ</supplied>ᚅᚐᚄ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="mucoi">ᚋᚒᚉᚑᚔ</w> <name nymRef="cunava">ᚉᚒᚅᚐᚃᚐ</name></persName><gap reason="lost" extent="unknown" unit="stroke"/>
+                    <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#bivaidū">ᚁᚔᚃᚐᚔ<supplied reason="lost">ᚇᚑ</supplied>ᚅᚐᚄ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚑᚔ</w> <name nymRef="#cunavalas?" cert="medium">ᚉᚒᚅᚐᚃᚐ<supplied reason="lost" cert="medium">ᚂᚔ</supplied></name></persName>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up-across"/><persName><name nymRef="bivaidonas">BIVAI<supplied reason="lost">DO</supplied>NAS</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="mucoi">MUCOI</w> <name nymRef="cunava">CUNAVA</name></persName><gap reason="lost" extent="unknown" unit="stroke"/> 
+                    <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#bivaidū">BIVAI<supplied reason="lost">DO</supplied>NAS</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="muccoviias?">MUCOI</w> <name nymRef="#cunavalas?" cert="medium">CUNAVA<supplied reason="lost" cert="medium">LI</supplied></name></persName> 
                 </ab>
-                <ab type="list">BIVAIDONAS MAQI MUCOI CUNAVA[---]</ab>
+                <ab type="list">BIVAIDONAS MAQI MUCOI CUNAVA[LI]</ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app>                    
+                <listApp>
+                <app n="1"><note>The end is broken off. Rhys suggests CUNAVALI, which is as good a restoration as any (Macalister 1945, 482).</note>                   
                 </app>
-                </listApp>-->
+                </listApp>
             </div>
             <div type="translation">
-                <p>(the stone) of Beoaed, son of the tribe of Cunava</p>
+                <p>of Béoáed, son of the descendants of Conall(?)</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>The personal name BIVAIDONAS, attested elsewhere in the corpus (e.g. I-WAT-024) and in later sources (as Béoáed), is a compound of the o-stem adjective *biu̯o- ‘alive, living’ (OIr. <ref target="https://dil.ie/5671">béo</ref>) and the common n-stem second element *ai̯don- ‘having fire’, a derivative of *ai̯du- ‘fire’ (cf. OIr. <ref target="https://dil.ie/613">áed</ref>) (Ziegler 1994,137-138; McManus 1991, 103, 105). This example has the final syllable intact suggesting that it is quite early.</p>
+                <p>The kin-group name (MUCOI CUNAVA[LI]) is uncertain due to the loss of letters at the end but the restored -LI is possible and has a parallel in an inscription in Latin script from Cornwall (CIIC 468: RIALOBRANI CVNOVALI FILI). This name consists of the commonly found element CUNA- (OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/13291">cú</ref></foreign> 'hound') and possibly a parallel of Gaulish -<foreign xml:lang="xtg">valo</foreign>- 'powerful, strong' (Ziegler 1994, 161; cf. 'Catuvalos' in an inscription from Nîmes: <ref target="https://riig.huma-num.fr/documents/GAR-10-08">RIIG, GAR-10-08</ref>).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
+                     <bibl><ptr target="KER1907"/>
+                     <citedRange>73-74, 98-99</citedRange>
                      </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>480; 482</citedRange>
+                     </bibl>
+                       <bibl><ptr target="ZIE1994"/>
+                        <citedRange>137-138; 161</citedRange>
+                    </bibl>                     
                  </listBibl>
             </div>
         </body>
