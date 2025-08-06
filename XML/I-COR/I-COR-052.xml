@@ -33,9 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                   <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 in <date when="2003-09-15"/> and <date when="2006-04-20"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -68,36 +68,36 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CO050-045003-</idno></p> 
                                     <material type="stone">Sandstone</material>
                                     <objectType key="monument">Pillar</objectType>
-                                     <dimensions unit="m">
-                                         <dim/>
-                                            <height>1.42</height>
-                                            <width>0.38</width>
-                                            <depth>0.1</depth>
+                                     <dimensions unit="m" source="#NW">
+                                            <height>1.30</height>
+                                            <width>0.42</width>
+                                            <depth>0.12</depth>
                                      </dimensions>
                                 </support>
-                                <condition>Reused in a souterrain, some of the final letters of the inscription have been knocked off (Macalister 1945, 103).</condition>
+                                <condition>Reused as a lintel in a souterrain. Macalister (1945, 103) noted damage to the end of the inscription. According to Macalister (1945, 102), the height of the stone was 1.42m (4ft. 8in.) but only 1.30m is currently accessible. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">Macalister (1945, 102) noted that the inscription commences 0.38m (15in.) from the base and runs over one angle of the stone.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription commences 0.38m (15in.) from the base and runs up one angle of the stone (Macalister 1945, 102).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is comprised of <q>finely <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> scores</q> (Macalister 1945, 102).<height/> Macalister (1945, 102) writes <q>U is slightly larger than the other two notches, but not sufficiently so to make it into a consonant score. 1 Between MU and CAGGI there is a blank space of 2 inches</q>.
+                            <handNote>The inscription is comprised of <q>finely <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs></q> strokes (Macalister 1945, 102).<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="townland">Barrahaurin (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11454">Barr an Chárthainn</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
+                                <placeName type="townland">Barrahaurin (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11454">Barr an Chárthainn</ref></foreign>)</placeName> 
+                                <placeName type="county">Co. Cork</placeName> 
+                                <placeName type="country">Ireland</placeName>
                                 <geo>51.999993, -8.813893</geo>
                             <note>ITM Coordinates: 544112, 583414</note></origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found" when="1845">Discovered when a souterrain (<idno type="SMR">CO050-045002-</idno>) was uncovered in a ringfort (<idno type="SMR">CO050-045001-</idno>) and later purchased by the antiquarian <persName>John Windele</persName> (Macalister 1945, 102-103).
+                        <provenance type="found" when="1845">Discovered when a souterrain (<idno type="SMR">CO050-045002-</idno>) was uncovered in a ringfort (<idno type="SMR">CO050-045001-</idno>). The souterrain was dismantled in 1845 (during the Great Famine in Ireland) when the ringfort it was in was cultivated as a cabbage-garden; apparently a number of lintels were raised and <q>laid on the rampart of the fort for subsequent disposal</q>, however one bearing an ogham inscription was carried off by night and sold to the antiquarian John Windele for £1 (Macalister 1945, 102-103).
                         </provenance>
-                        <provenance type="observed">The stone is now part of the collection of University College Cork (see <idno type="SMR">CO074-145----</idno>).
-                        </provenance>
+                         <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork, where it was examined for the OG(H)AM project in May 2024.</provenance>
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -137,23 +137,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-06-04" who="#POC">Update execution type and encoding </change>
 <change when="2025-06-28" who="#POC">There's no reading in the edition, moved McManus' reading to the edition for now.</change>
     <change when="2025-07-15" who="#THN">Added information to Letters and Critical Apparatus.</change>
+    <change when="2025-06-17" who="#NW">Updated and added information throughout and photo.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-052_Barrahaurin.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-052-MAC1945-103-Barrahaurin.jpg"><desc>Drawing by Macalister (1945, 103)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC" source="MCM2004">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚉᚐᚏᚏᚈᚈᚐᚉᚉ</name> <w type="formula" lemma="maqqas">ᚋᚋᚐᚊᚔ</w> <w type="formula" lemma="mucoi">ᚋᚒ</w> <name nymRef="#?">ᚉᚐᚌᚌ<supplied reason="lost">ᚔ</supplied></name></persName>
+                <lb n="1" style="text-direction:up"/><persName><name nymRef="#Carthach">ᚉ<supplied reason="lost" cert="high">ᚐ</supplied>ᚏᚏᚈᚈᚐᚉᚉ</name> <w type="formula" lemma="maqqas">ᚋᚋᚐᚊᚔ</w> <w type="formula" lemma="mucoi" cert="medium">ᚋᚒ</w> <space unit="cm" quantity="6"/> <name nymRef="#?">ᚉᚐᚌᚌ<supplied reason="lost">ᚔ</supplied><gap reason="lost" extent="unknown"/></name></persName>
             </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#POC" source="MCM2004">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CARRTTACC</name> <w type="formula" lemma="maqqas">MMAQI</w> <w type="formula" lemma="mucoi">MU</w> <name nymRef="#?">CAGG<supplied reason="lost">I</supplied></name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#Carthach">C<supplied reason="lost" cert="high">A</supplied>RRTTACC</name> <w type="formula" lemma="maqqas">MMAQI</w> <w type="formula" lemma="mucoi" cert="medium">MU</w> <space unit="cm" quantity="6"/> <name nymRef="#?">CAGG<supplied reason="lost" cert="low">I</supplied><gap reason="lost" extent="unknown"/></name></persName>
                 </ab>
             </div>
             <div type="apparatus">
@@ -161,25 +164,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <app n="1">
                     <note>Macalister (1945, 102) read:</note>
                 <rdg source="MAC1945">
-                CARRTTACC GAQI MU CAGGI. Macalister (1945, 102) writes <q>GAQI MU is not a blunder ... it is a deliberate "camouflage" of the tabooed formula MAQI MUCOI</q>.
-                </rdg>
+                CARRTTACC GAQI MU CAGG[I]</rdg> <note>but the second word was rightly read as MMAQI by McManus (2004, 14).</note>
                 </app>
-                    <!--<app n="2">
-                        <note>McManus (2004, 14-15) read: </note>
-                        <rdg source="MCM2004">
-                            <persName><name nymRef="#?">CARRTTACC</name> <w type="formula" lemma="maqqas">MMAQI</w> <w type="formula" lemma="mucoi">MU</w> <name nymRef="#?">CAGG<supplied reason="lost">I</supplied></name></persName>
-                        </rdg>
-                    </app>-->
+                <app n="2"><note>Macalister (1945, 102) commented that the third U stroke is slightly larger than the first two, <q>but not sufficiently so to make it into a consonant</q> stroke (H). He also noted that <q>between MU and CAGGI there is a blank space of 2 inches</q> (approx. 6cm), although there is an uneven arris at this point.</note>
+                </app>                    
                 </listApp>
             </div>
-            <!--<div type="translation">
-                <p></p>
-            </div>-->
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>of Carthach son of ?</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription appears to commemorate an individual named <persName>Carthach</persName> (anglicised in the surname <surname>(Mc)Carthy</surname>). It is unclear here if MU is short for the formula word MUCOI 'descendant/offspring' or the possessive (<foreign xml:lang="sga">mo</foreign>) ‘my’, which is later quite commonly used with personal names in a hypocoristic form or pet name (especially clerical names, e.g. <persName>Mo Chuta</persName>, hypocoristic form of <persName>Carthach</persName>). CAGG[I], which may be incomplete, appears to be the same element found in NETA-CAGI ‘champion of C?’ from Casteltimon in Co. Wicklow (I-WIC-001), but has not been identified in the later manuscript tradition (McManus 2004, 14). This inscription is a good example of the doubling of consonants sometimes found in ogham (see Harvey 1987), although the doubling of the initial M of MAQI may be unique, or at least very rare. </p>
+            </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="HAR1987b"/>
+                         <citedRange>45-71</citedRange>
+                     </bibl>
                     <bibl><ptr target="MAC1945"/>
                         <citedRange>102-103, no. 103</citedRange>
                     </bibl>
