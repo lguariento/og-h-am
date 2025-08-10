@@ -157,13 +157,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-04" who="#POC">Simplify execution type</change>
     <change when="2025-04-14" who="#POC">Updated execution type, updated commentary</change>
 <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change> 
-     <change when="2025-04-18" who="#NW">Edition update - corrected X-forfid encoding but left transliteration as P (without encoding) as not E or K - add alternative?</change>
-    <change when="2025-05-16" who="#NW">Edition update - changed X-forfid encoding to epigraphic variant of I-forfid (an X under or to right of the stem-line).</change>       
-    <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
-<change when="2025-06-12" who="#POC">Added images</change>
-<change when="2025-06-17" who="#POC">Update provenance, add condition, update material, update commentary</change>
-<change when="2025-06-18" who="#POC">Add information from Macalister</change>
+    <change when="2025-04-18" who="#NW">Edition update - corrected X-forfid encoding but left transliteration as P (without encoding) as not E or K - add alternative?</change>
+    <change when="2025-05-16" who="#NW">Edition update - changed X-forfid encoding to epigraphic variant of I-forfid (an X under or to right of the stem-line).</change>         <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
+    <change when="2025-06-12" who="#POC">Added images</change>
+    <change when="2025-06-17" who="#POC">Update provenance, add condition, update material, update commentary</change>
+    <change when="2025-06-18" who="#POC">Add information from Macalister</change>
     <change when="2025-07-09" who="#NW">Updated edition, apparatus and text lang.</change>
+    <change when="2025-08-10" who="#NW">Added epig_I-forfid to ogham transliteration</change>
     
 </listChange>
 </revisionDesc>
@@ -183,7 +183,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#BM" source="RED2007"> 
                      <ab>
-                         <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#turpilius">TURP<unclear reason="worn">I</unclear>L<unclear reason="worn">L</unclear><unclear reason="worn">I</unclear></name> <gap reason="illegible" unit="stroke" atMost="28"/>L<unclear reason="worn">U</unclear>N<unclear reason="worn">I</unclear></persName>
+                         <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#turpilius">TUR<g ref="#forfid_epig-I"/><unclear reason="worn">I</unclear>L<unclear reason="worn">L</unclear><unclear reason="worn">I</unclear></name> <gap reason="illegible" unit="stroke" atMost="28"/>L<unclear reason="worn">U</unclear>N<unclear reason="worn">I</unclear></persName>
                      </ab>
                  </div>
             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="la-Latn" resp="#BM" source="RED2007">
