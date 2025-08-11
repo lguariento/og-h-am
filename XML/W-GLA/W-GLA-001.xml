@@ -138,7 +138,7 @@ Historic Environment Record</ref>: <idno type="HER">00788w
     <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
     <change when="2025-06-12" who="#POC">Added image</change>
     <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
-    <change when="2025-08-10" who="#NW">Updated edition (ogham) from X-forfid to epig_I-forfid</change>
+    <change when="2025-08-10" who="#NW">Updated edition (ogham) from X-forfid to epig_I-forfid and updated encoding from Redknap 2007 (unclear to supplied tages for p[o]p[ias]) and added Macalister readings to apparatus and added ref to bibl (commentary still needs updating - see Redknap 2007).</change>
        
 </listChange>
 </revisionDesc>
@@ -150,23 +150,23 @@ Historic Environment Record</ref>: <idno type="HER">00788w
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve">
-                <div type="textpart" n="1" xml:lang="pgl-Ogam">
+                <div type="textpart" n="1" xml:lang="pgl-Ogam" source="RED2007">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#pompius"><g ref="#forfid_epig-I"/><unclear reason="worn">ᚑ</unclear><g ref="#forfid_epig-I"/><unclear reason="worn">ᚔᚐᚄ</unclear></name>
+                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#pompius?"><unclear reason="damage"><g ref="#forfid_epig-I"/></unclear><supplied reason="lost">ᚑ</supplied><unclear><g ref="#forfid_epig-I"/></unclear><supplied reason="lost">ᚔᚐᚄ</supplied></name>
                     <lb n="2" style="text-direction:down"/><name nymRef="#rolacu">ᚏ<choice><unclear reason="lost">ᚑ</unclear><unclear reason="lost">ᚐ</unclear></choice>ᚂ<gap reason="lost" extent="unknown" unit="character"/>ᚅ</name>ᚋ<gap reason="lost" extent="unknown" unit="character"/>ᚊ<gap reason="lost" extent="unknown" unit="character"/><name nymRef="#ilu"><gap reason="lost" extent="unknown" unit="character"/>ᚂᚂ<gap reason="lost" quantity="1" unit="character"/>ᚅᚐ</name></persName>
                 </ab>
                     </div>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve">
+            <div type="edition" subtype="transliteration" xml:space="preserve" source="RED2007">
                 <div type="textpart" n="1" xml:lang="pgl-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#pompius"><g ref="#forfid_epig-I"/><unclear reason="worn">O</unclear><g ref="#forfid_epig-I"/><unclear reason="worn">IAS</unclear></name>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#pompius?"><unclear reason="damage"><g ref="#forfid_epig-I"/></unclear><supplied reason="lost">O</supplied><unclear><g ref="#forfid_epig-I"/></unclear><supplied reason="lost">IAS</supplied></name>
                     <lb n="2" style="text-direction:down" break="yes"/><name nymRef="#rolacu">R<choice><unclear reason="lost">O</unclear><unclear reason="lost">A</unclear></choice>L<gap reason="lost" extent="unknown" unit="character"/>N</name>M<gap reason="lost" extent="unknown" unit="character"/>Q<gap reason="lost" extent="unknown" unit="character"/><name nymRef="#ilu"><gap reason="lost" extent="unknown" unit="character"/>LL<gap reason="lost" quantity="1" unit="character"/>NA</name></persName>
                 </ab>
-                    <ab type="list">POPIAS ROL[---]NM[---]Q[---]LL[.]NA</ab>
+                    <ab type="list">P[O]P[IAS] ROL[---]NM[---]Q[---]LL[.]NA</ab>
                     </div>
             </div>
-            <div type="edition" subtype="roman" xml:space="preserve">
+            <div type="edition" subtype="roman" xml:space="preserve" source="RED2007">
                     <div type="textpart" n="2" xml:lang="la-Latn">
                         <ab>
                         <lb n="1" style="text-direction:down"/><persName><name nymRef="#pompius">P<hi rend="ligature">VM</hi>PEIVS</name>
@@ -175,24 +175,30 @@ Historic Environment Record</ref>: <idno type="HER">00788w
                 </div>
                 </div>
             <div type="apparatus">
-                <p></p>
+                <listApp>
+                    <app n="1"><note><q>The Latin Pumpeius (for Pompeius) seems likely to have been rendered in the ogham but there seems to be no correlation in the remainder of the two inscriptions. The Ps appear to be represented by crosses of three lines, a variation on one of the forfed signs (restored by Macalister</q> 1945, 385-388) (Redknap and Lewis 2007, 440).</note></app>
+                    <app n="2"><note>Macalister (1945, 388) initally restored the name as POPES but later revised this to PAMPES.</note></app>
+                </listApp>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                <p>Ogham: No complete translation is suggested for the Ogham inscription <q><persName xml:lang="pgl">Pumpeius</persName> seems likely to have been rendered in the ogam but there seems to be no correlation to the remainder of the two inscriptions</q> (Redknap and Lewis 2007, 440).</p>
+                <p>Ogham: No complete translation is suggested for the Ogham inscription</p>
                 </div>
                 <div type="textpart" n="2">
                     <p>Roman: <persName xml:lang="pgl">Pumpeius</persName> <persName xml:lang="pgl">Carantorius</persName> (lies here)</p>
                 </div>
             </div>
             <div type="commentary">
-                        <p>The Ogham inscription appears to correspond to the Roman-letter inscription in its first half <q>the ogam P[O]P[, if correctly restored...may preserve the original vowel <foreign xml:lang="la">Pompeius</foreign>...[most likely] the omission of the /m/ is due to Vulgar Latin as in SEPRONIVS (<hi rend="italic">RIB 1:</hi> no. 686), and Continental forms such as <foreign xml:lang="la">Popeianus</foreign> and <foreign xml:lang="la">Pepeia</foreign>...If POPIAS is the correct reading, the -AS may be the Irish nominative ending corresponding to Latin <foreign xml:lang="la">-us</foreign> and IA rather than EA could be a hypercorrect spelling...The <foreign xml:lang="sga">forfid</foreign><!--NEED TO CHECK IMAGES OF THIS ONE!--> for P is one of the additional ogam letters invented for this un-Irish sound</q> (Redknap and Lewis 2007, 440-441). The rest of the inscription does not appear to correspond to the Roman-letter inscription. <q>ROLACUN...offers the Irish etymology *<foreign xml:lang="pgl">Ro-ola-kun-</foreign>, 'very large hound'... ILLUNA could be related to the OI name <foreign xml:lang="pgl">Illan(n), Elann</foreign> and word <foreign xml:lang="pgl">ela</foreign> 'swan', as in <hi rend="italic">CIIC:</hi> no. 79, ELUNA in Ireland</q> (Redknap and Lewis 2007, 441).</p>
+                        <p>The Ogham inscription appears to correspond to the Roman-letter inscription in its first half <q>the ogham P[O]P[, if correctly restored...may preserve the original vowel <foreign xml:lang="la">Pompeius</foreign>...[most likely] the omission of the /m/ is due to Vulgar Latin as in SEPRONIVS (<hi rend="italic">RIB 1:</hi> no. 686), and Continental forms such as <foreign xml:lang="la">Popeianus</foreign> and <foreign xml:lang="la">Pepeia</foreign>...If POPIAS is the correct reading, the -AS may be the Irish nominative ending corresponding to Latin <foreign xml:lang="la">-us</foreign> and IA rather than EA could be a hypercorrect spelling...The <foreign xml:lang="sga">forfid</foreign><!--NEED TO CHECK IMAGES OF THIS ONE!--> for P is one of the additional ogham letters invented for this un-Irish sound</q> (Redknap and Lewis 2007, 440-441). The rest of the inscription does not appear to correspond to the Roman-letter inscription. <q>ROLACUN...offers the Irish etymology *<foreign xml:lang="pgl">Ro-ola-kun-</foreign>, 'very large hound'... ILLUNA could be related to the OI name <foreign xml:lang="pgl">Illan(n), Elann</foreign> and word <foreign xml:lang="pgl">ela</foreign> 'swan', as in <hi rend="italic">CIIC:</hi> no. 79, ELUNA in Ireland</q> (Redknap and Lewis 2007, 441).</p>
                         <p>In the Roman-letter inscription, <q>PVMPEIVS for <foreign xml:lang="la">Pompeius</foreign> may show the Welsh development of /um/ [from] /om/...CARANTORIVS is definitely not Irish; it is the forerunner of OW <foreign xml:lang="owl">Cerenhir</foreign>, W. <foreign xml:lang="cy">Cerennhyr</foreign>...such names in <foreign>-orius</foreign> have been much discussed</q> but no definitive interpretation of its significance is offered (Redknap and Lewis 2007, 440-441).</p>
             </div>
             <div type="bibliography">
                 <listBibl>
                     <bibl><ptr target="BRA1869b"/>
                         <citedRange unit="page">151-153</citedRange>
+                    </bibl>
+                      <bibl><ptr target="MAC1945"/>
+                        <citedRange>385-388</citedRange>
                     </bibl>
                     <bibl><ptr target="RED2007"/>
                         <citedRange unit="page">438-441</citedRange>
