@@ -130,12 +130,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-06-30" who="#MK">Megan Kasten edited formatting and added information to match OG(H)AM formatting. </change>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
     <change when="2023-07-27" who="#MM">Molly McKendrick edited formatting and added lemma mark-up in edition and transliteration.</change>    
-        <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
-<change when="2025-04-03" who="#POC">Moved geological information to note</change>
-      <change when="2025-04-15" who="#POC">Update layout and handnote</change>    
-      <change when="2025-04-16" who="#POC">Move information from provenance to layout, remove info in repository</change>    
- <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated text lang</change>
-       <change when="2025-06-04" who="#POC">Update foreign to persName for personal names in translation, added encoding for latin formula word in commentary </change> 
+    <change when="2025-03-31" who="#POC">Added CISP and TM links, added country and county placenames and NGR coordinates to origPlace, added secondary location coordinates</change>
+    <change when="2025-04-03" who="#POC">Moved geological information to note</change>
+    <change when="2025-04-15" who="#POC">Update layout and handnote</change>    
+    <change when="2025-04-16" who="#POC">Move information from provenance to layout, remove info in repository</change>    
+    <change when="2025-04-23" who="#POC">Added encoding description, text type link, updated text lang</change>
+    <change when="2025-06-04" who="#POC">Update foreign to persName for personal names in translation, added encoding for latin formula word in commentary </change> 
+    <change when="2025-08-10" who="#NW">Added missing listBibl tags</change>
+        
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -154,7 +156,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
             </div>
             <div type="apparatus">
-                <app n="1"><note>Traces of ogam inscription were first noted by Macalister in 1922 and again in 1945. However, the ogham inscription described by Macalister was later dismissed by McManus (1991, 68). According to Edwards (2007, 159), <q>there is no evidence</q> that an ogham inscription ever existed.</note> </app>
+                <app n="1"><note>Traces of an ogham inscription were first noted by Macalister in 1922 and again in 1945 (<q>the surviving traces — the mere distal tips of the scores of the Ogham suggest a V and an R, probably relics of the name [VEL]V[O]R[IGES]</q>). However, the ogham inscription described by Macalister was later dismissed by McManus (1991, 68). According to Edwards (2007, 159), <q>there is no evidence</q> that an ogham inscription ever existed.</note> </app>
                 <app n="2">
                     <note>Whether the roman-letter inscription was originally horizontal or vertical is uncertain. Edwards (2007, 159) contends that the inscription was most likely <q>read vertically downwards because it consists of a variation of the 'X son of Y' formula</q> in this format. Despite its incomplete state, the inscription exhibits <q>several letter forms, notably miniscule H, which suggest it is typologically late in the series</q> (Edwards 2007, 161).</note>
                 </app>
@@ -166,6 +168,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>According to Sims-Williams (Edwards 2007, 161),  VELVOR can be compared with VELVE, VELVALIS and VELVINNA; the first element may be the preform of W. <foreign xml:lang="cy">gwelw</foreign> 'pale'. Sims-Williams (Edwards 2007, 161), therefore, suggests VELVOR[IA] as a sensible reconstruction, <q>with <foreign xml:lang="la">-o-ria</foreign> being the feminine Latinized equivalent of Celtic <foreign xml:lang="cel">-o-rix</foreign>.</q> The second name in the inscription, BROHO, Sims-Williams (Edwards 2007, 161) maintains is no doubt the same Welsh name as BROHOMAGLI and BROHCMAIL, W. <foreign xml:lang="cy">Brochfael</foreign> *<foreign xml:lang="cy">Brokkomaglos</foreign> 'badger prince'. The inscription is one of a small group commemorating women, in this case using <foreign xml:lang="la">filia</foreign> 'daughter' in the nominative case. </p>
             </div>
             <div type="bibliography">
+                <listBibl>
                <bibl><ptr target="EDW2007"/>
                     <citedRange unit="page">159-161</citedRange>
                 </bibl>
@@ -178,6 +181,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <bibl><ptr target="MCM1991"/>
                 <citedRange>68</citedRange>
                 </bibl>
+                </listBibl>
             </div>
         </body>
     </text>
