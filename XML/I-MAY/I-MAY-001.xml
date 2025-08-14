@@ -57,7 +57,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <supportDesc>
                                 <support>
                                    <p><ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">National Monuments Service</ref> Record Number: <idno type="SMR">MA093-038001-</idno></p> 
-                                        <material type="stone" resp="MAC1945">Grit</material><!--(check with Fionnbarr)-->
+                                        <material type="stone">Sandstone</material> <!--(Mac 1945: grit - check with Fionnbarr)-->
                                         <objectType key="monument">Pillar</objectType> 
                                          <dimensions unit="m" source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=MA093-038001-">
                                             <height>1.80</height>
@@ -132,8 +132,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-13" who="#NW">moved details on reading from condition to apparatus.</change>
     <change when="2025-02-14" who="#POC">Deleted quotation marks from within q element</change>
     <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
-        <change when="2025-05-08" who="#POC">Updated commentary</change>
-           <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition, and updated edition subtype value</change>         
+    <change when="2025-05-08" who="#POC">Updated commentary</change>
+    <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition, and updated edition subtype value</change> 
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,7 +149,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up-down"/>
                     <persName><name nymRef="#cunalenga">ᚉ<unclear reason="damage">ᚒᚅ</unclear>ᚐᚂᚓᚌ<choice><unclear>ᚔ</unclear><unclear>ᚓᚐ</unclear></choice></name>
-                        <space quantity="1" unit="stroke"/><w lemma="avias" pos="">ᚐ<unclear reason="damage">ᚃ</unclear><supplied reason="lost">ᚔ</supplied></w>
+                        <space quantity="1" unit="stroke"/><w lemma="avias">ᚐ<unclear reason="damage">ᚃ</unclear><supplied reason="lost">ᚔ</supplied></w>
                         <name nymRef="#cunacanis"><choice><corr>ᚉ</corr><sic>ᚊ</sic></choice>ᚒᚅᚐᚉᚐᚅᚑᚄ</name>
                     </persName>
                 </ab>
@@ -163,9 +164,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab type="list">CUNALEGI (vac.) AVI CUNACANOS</ab>
             </div>
             <div type="apparatus">
+                <listApp>
                 <app n="1">
                <note>Macalister (1945, 5) noted that <q>AVI (except the A notch and distal ends of the V) and parts of some other scores are chipped away : a flake about 2-in. (5.1cm) wide (measured at right angles to the arris) has here been broken off. The space available does not confirm Rhys's contention that the second word should be AVE, not AVI</q>. Some letters in the first name are also damaged. Only one clear notch of the U remains, one damaged and three full strokes to the right follow before the A notch. However, the space allows for a more likely UN reading. The last name is remarkably clear and undamaged.</note>  
                 </app>
+                   <app n="2" type="alternative"><lem>CUNALEGI</lem><rdg>CUNALEGEA</rdg> <note>(an alternative reading of the first name)</note></app>  
+                </listApp>
             </div>
             <div type="translation">
                 <p>of <persName xml:lang="sga">Conlang</persName>, grandson/descendant of <persName xml:lang="sga">Conchaín</persName></p>
