@@ -26,9 +26,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <resp>batch conversion to EpiDoc</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                     <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D laser scanned using Artec Eva scanner <date when="2013-06-19"/> and later processed
+                        using Geomagic software</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -36,7 +37,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <idno type="filename">I-KER-012</idno>
                  <idno type="CIIC">145</idno>
                  <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/ARRAG/1.html">ARRAG/1</idno>
-                <!-- <idno type="TM" corresp="www.trismegistos.org/text/www.trismegistos.org/text/172441 (Dup or 2nd (eoman alphabet?)  indcribed stone: 172781)">www.trismegistos.org/text/172441 (Dup or 2nd (eoman alphabet?)  indcribed stone: 172781)</idno>-->
+                 <idno type="TM" corresp="www.trismegistos.org/text/www.trismegistos.org/text/172441">www.trismegistos.org/text/172441</idno>
                  <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
                 </availability>
@@ -63,18 +64,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <material type="stone">Sandstone</material> <!-- (MAC1945)-->
                                     <objectType key="monument">Cross-carved pillar</objectType> 
                                     <dimensions unit="m" source="MAC1945">
-                                            <height>1.91, (1.45 above ground level)</height>
+                                            <height>1.91 (1.45 above ground level)</height>
                                             <width>0.35</width>
                                             <depth>0.20</depth>
-                                    </dimensions></support>
-                                <condition/>
+                                    </dimensions>
+                                     <desc type="decoration">Both faces are carved with with crosses and <q>there appears to have been some dressing of the stone to prepare surfaces for the carvings. One face bears a Maltese cross with a hook-like expansion at the right side of the upper arm: this is a monogram form of the chi-rho [more correctly a Tau-Rho?] symbol. The opposite face bears a Maltese cross within a circle; the lower arm is linked to the circle by a short, straight stem</q> (Cuppage 1986, 248). McManus (1991, 172) notes that this ogham stone is <q>discussed by Henry (1937, 276 and 1940, 29), where it is described an an imitation of the Brito-Roman type of funerary monument</q>.</desc>
+                                </support>
+                                <condition>The top of the stone is broken with some damage to letters.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up"><q>Both faces are inscribed with crosses and there appears to have been some dressing of the stone to prepare surfaces for the carvings. One face bears a Maltese cross with a hook-like expansion at the right side of the upper arm: this is a monogram form of the chi-rho symbol. The opposite face bears a Maltese cross within a circle; the lower arm is linked to the circle by a short, straight stem</q> (Cuppage 1986, 248). McManus (1991, 172) notes that this ogham stone is <q>discussed by Henry (1937, 276 and 1940, 29), where it is described an an imitation of the Brito-Roman type of funerary monument</q>.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is on the arris (up-top-down) surrounding the face with the un-encircled cross. 
+                                    Extra space has been left between the initial word (QRIMITIR) and the following name (RONAN), which may be taken as an example of word division in ogham. This phenomonen is found elsewhere in the ogham corpus (e.g. I-KER-069 Monataggart I, Co. Cork). However, in this case it could just as easily be an example of letter division, distinguishing the final R of QRIMITIR and the initial R of RONAN. The use of space in ogham to distinguish letters and words has been discussed by Moffat (2011, 290).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Pocked and worn, but vowel strokes appear to be wedge-shaped and cut. Confused orientation of B and H <foreign xml:lang="ga">aicme</foreign><height></height>
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">Pocked</rs> and worn, but vowel strokes appear to be wedge-shaped and cut with a flat chisel. On the downward arris, the orientation of the B and H <foreign xml:lang="ga">aicme</foreign> are confused.<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -86,11 +90,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="country">Ireland</placeName>
                                 <geo>52.257799, -10.248991</geo>
                             <note>ITM coordinates: 446495, 614181</note></origPlace>
-                            <origDate/>
+                            <origDate notBefore="0550" notAfter="0600" precision="medium" evidence="linguistic">Second half of the sixth century</origDate>
                         </origin>
-                        <provenance type="found">The stone was found upright on Mt Brandon but buried in peat up to within 61cm (2ft.) of the top in the townland of Arraglen and barony of Corkaguiney (Macalister 1945, 141). <!--1871 *PRIA 15: 48, 54 (Ferguson and C. Graves)? check SCS Lib? -->
+                        <provenance type="found" notAfter="1850">The stone was found on Mt Brandon, possibly on an old pilgrims' path. <q>From Hitchcock's notebook we learn that he found this stone upright in the 1840's, when he visited it, but buried, in peat, up to within 2" of the top : he caused it to be dug out</q> (Macalister 1945, 141).  It had fallen again by 1937 (Henry 1937, 276), and eventually became buried beneath an accumulation of hillwash and a thin sod cover (NMS/Archaeological Survey of Ireland record, SMR ID: <idno type="SMR">KE025-002001-</idno>). <!--1871 *PRIA 15: 48, 54 (Ferguson and C. Graves)? check SCS Lib? -->
                         </provenance>
-                        <provenance type="observed">In situ, re-erected in 1980s just a few meters from find spot on Mount Brandon (Fionnbarr Moore, pers. comm.).
+                        <provenance type="observed" when="2013">It was rediscovered and re-erected in 1982 and again following winter storms in 1995. At that time it was re-erected in a more secure location 4.4m to the NW. The stone now stands in the elevated and exposed gap between Masatiompan and the steep N slopes of Brandon Mountain, and commands a dramatic view to both sides of the mountain range (NMS/Archaeological Survey of Ireland record, SMR ID: <idno type="SMR">KE025-002001-</idno>). This stone was recorded in 3D in collaboration with the <ref target="https://discoveryprogramme.ie/">Discovery Programme</ref> in 2013 as part of the Ogham in 3D project.
                         </provenance>
                     </history>
                 </msDesc>
@@ -124,6 +128,8 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
 </change>
     <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
     <change when="2025-07-28" who="#THN">Added discovery, text, letters, apparatus, commentary, blibio from Ogham in 3D website.</change>
+    <change when="2025-08-15" who="#NW">Updated information and added edition and 3d recording details.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -135,28 +141,30 @@ Jef Bucas autogenerated batch EpiDoc output from spreadsheet
         <body>
            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                    <lb n="1" style="text-direction:up"/>
+                  <lb n="1" style="text-direction:up-top-down"/><w lemma="#cruimther">ᚊᚏᚔᚋᚔᚈᚔᚏ</w> <space quantity="2" unit="stroke"/> <persName><name nymRef="#ronagnas">ᚏᚑ<damage>ᚅ</damage><supplied reason="lost">ᚐ</supplied><unclear reason="damage">ᚅ</unclear><choice><sic>ᚊ</sic><corr>ᚅ</corr></choice></name> <w type="formula" lemma="maqqas">ᚋᚐ <choice><sic>ᚅ</sic><corr>ᚊ</corr></choice></w> <name nymRef="#comogagnas"><choice><sic>ᚄ</sic><corr>ᚉ</corr></choice>ᚑᚋᚑᚌᚐ<choice><sic>ᚊᚊ</sic><corr>ᚅᚅ</corr></choice></name></persName>  
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>QRIMITIRvac. RO/Ṇ[A]ṆN MA⸢Q⸣ ⸢C⸣OMOGA⸢NN⸣ <!--(confused orientation of B and H aicme`)-->.
-                </ab>
+                    <lb n="1" style="text-direction:up-top-down"/><w lemma="#cruimther">QRIMITIR</w> <space quantity="2" unit="stroke"/> <persName><name nymRef="#ronagnas">RO<damage>N</damage><supplied reason="lost">A</supplied><unclear reason="damage">N</unclear><choice><sic>Q</sic><corr>N</corr></choice></name> <w type="formula" lemma="maqqas">MA <choice><sic>N</sic><corr>Q</corr></choice></w> <name nymRef="#comogagnas"><choice><sic>S</sic><corr>C</corr></choice>OMOGA<choice><sic>QQ</sic><corr>NN</corr></choice></name></persName>                    
+                </ab>                
             </div>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note><q>The turn of the angle has confused him (the carver], so that on the sinister edge he has inverted the side-scores</q> giving MAN SOMOGAQQ where presumably MAQ COMOGANN was intended (Macalister 1945, 141).<q>The top right hand corner is damaged and the AN recorded by Macalister is unclear as is the Q further down the same edge. Otherwise the scores are clearly legible</q> (Cuppage 1986, 248). This reading was confirmed on inspection of the 3D data.</note>
-                    </app>
-                    <app n="2"><note>Regarding the unclear penultimate N of RONANN, two of the five scores are visible on the 3D model. Nothing remains of the preceding A. Extra space has been left between initial word QRIMITIR and the following name RONAN, which may be taken as an example of word division in ogham. This phenomonen is found elsewhere in the ogham corpus (e.g. CIIC 229 Cunburrin, Co. Kerry and CIIC 118 Monataggart I, Co. Cork). However, in this case it could just as easily be an example of letter division, distinguishing the final R of QRIMITIR and the initial R of RONAN. The use of space in ogham to distinguish letters and words has been discussed by Moffat (2011, 290).</note>
+                        <note>The end of the inscription (after it turns downwards at the top and with the B and H <foreign xml:lang="sga">aicmi</foreign> confused) incorrectly reads:</note>
+                        <rdg>Q MAN SOMOGAQQ</rdg>
+                    </app>                    
+                    <app n="2"><note>Regarding the unclear penultimate N of RONANN, two of the five strokes remain at the broken top of the stone. However, they too are </note>
                     </app>
                 </listApp>
                 <p></p>
             </div>
             <div type="translation">
-                <p>of the priest Rónán son of Comgán</p>
+                <p>of the <w pos="Nc">priest</w> <persName><name xml:lang="sga">Rónán</name> son of <name xml:lang="sga">Comgán</name></persName></p>
             </div>
             <div type="commentary">
+                <p>This is one of the few ogham inscriptions (see also I-KER-123) to contain extra information, other than names and formula words, with the word QRIMITIR (Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/13223">cruimther</ref></foreign> 'priest'), a loan word from Latin <foreign xml:lang="la">presbiter</foreign>.</p>
                 <p>Macalister's (1954, 141) claims of evidence of Christianisation of this ogham stone are rightly argued against by McManus (1991, 56-57). McManus (1991, 91, 117) also points out that <q>genitive forms often have the appearance of nominatives and Macalister was mislead by this in the case of (this ogham stone), which he described as a (Christian) "signature" as opposed to a (pagan) "epitaph". Here RONANN, MAQ and COMOGANN have the deceptive appearance of nominatives but QRIMITIR with -IR, not -ER, is quite clearly genitive</q>.</p>
                 <p>The personal names RONANN and COMOGANN come from  <foreign xml:lang="ga"><ref target="https://dil.ie/35528">rón</ref></foreign> 'seal' and com- `with' + ag 'leads' (Gailsh Comagus) (McManus 1991, 107) and both ending with a late form of the diminutive suffix -AN(N) (earlier -AGNI).</p>
                 <p>In this inscription all endings are lost, including in the formula word (MAQ, earlier MAQ(Q)I) but syncope has not yet taken place. This linguistic evidnece suggests a date of approximately the second half of the sixth century (McManus 1991, 96-97).</p>
