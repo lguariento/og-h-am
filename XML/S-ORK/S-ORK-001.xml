@@ -33,9 +33,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                    <name ref="https://orcid.org/0000-0003-1011-7539" xml:id="MK">Megan Kasten</name>
+                     <orgName>University of Glasgow (OG(H)AM project)</orgName>
+                    <resp>Capture: Photogrammetry  <date when="2021-11-30"/>; Software: Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -100,7 +100,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1870">The ogham-inscribed slab was discovered in 1870 during excavation of the Broch of Burrian. It was in the third and final phase of use of the site, characterised by early Christian activity, that the ogham slab was discovered <q>towards the south side of the broch, where the wall was so low that, though the slab lay not much above the floor of the tower, it was also not far from the surface</q> (Traill 1890, 346). As early as 1871 Sir Henry Dryden had solicited Brash's views on the ogham. This is the first mention of ogham in print and Brash's is the first illustration (Forsyth 1996, 187).
                         </provenance>
-                        <provenance type="observed">The stone was donated to the National Museum of Scotland (<ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=143736">X.GB 1</ref>).
+                        <provenance type="observed">The stone was donated to the National Museum of Scotland (<ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=143736">X.GB 1</ref>). It was recorded by OG(H)AM team on 30 November 2021.
                         </provenance>
                     </history>
                 </msDesc>
@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-25" who="#NW">Added ab (string without diacritics) for display list to edition.</change>
     <change when="2025-06-26" who="#POC">Add ref and target for link to NMS record page and update museum reference number, update image file name and path</change>
 <change when="2025-05-26" who="#POC">Update image file name and path</change>
+  <change when="2025-08-19" who="#MK">Added 3D resp and provenance.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
