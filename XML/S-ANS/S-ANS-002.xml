@@ -36,9 +36,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                    <name ref="https://orcid.org/0000-0003-1011-7539" xml:id="MK">Megan Kasten</name>
+                     <orgName>University of Glasgow (OG(H)AM project)</orgName>
+                    <resp>Capture: Photogrammetry  <date when="2025-06-10"/>; Software: Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -100,7 +100,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1787">Also known as Kirriemuir 2, the first recording of the ogham inscription is an illustration by John Borland as part of the Records of the Royal Commission on the Ancient and Historical Monuments of Scotland collection published online on <ref target="https://canmore.org.uk/site/32300/kirriemuir">Canmore</ref>. The stone was re-used for the foundations of the old <placeName>Parish Church of Kirriemuir</placeName> and was found in <date>1787</date> when the church was being demolished (Stuart 1856, 14).
                         </provenance>
-                        <provenance type="observed">Recorded in <placeName>Meffan Museum and Gallery, Forfar</placeName>. <!--on <date></date>-->
+                        <provenance type="observed">Recorded in <placeName>Meffan Museum and Gallery, Forfar</placeName> on 10 June 2025 to 3D record the stone for OG(H)AM.
                         </provenance>
                     </history>
                 </msDesc>
@@ -147,6 +147,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-05-16" who="#POC">Updated textLang and lang in edition for undetermined language, added line to translation</change>
 <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
 <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+    <change when="2025-08-19" who="#MK">Added 3D resp.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
