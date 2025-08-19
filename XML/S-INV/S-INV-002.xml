@@ -36,9 +36,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                    <name ref="https://orcid.org/0000-0003-1011-7539" xml:id="MK">Megan Kasten</name>
+                     <orgName>University of Glasgow (OG(H)AM project)</orgName>
+                    <resp>Capture: Photogrammetry  <date when="2025-06-19"/>; Software: Agisoft Metashape. Capture: Reflectance Transformation Imaging<date when="2025-06-19"/>; Software: Relight. </resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -103,7 +103,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1996">Discovered in <date>1996</date> during the excavation of a large multi-period settlement site led by Niall Sharples (Forsyth 2007, 461). The ogham-inscribed plaque was found in an unstratified context, along with <q>other midden material</q> including bone, pot, and slag (Forsyth 2007, 462). 
                         </provenance>
-                        <provenance type="observed">Recorded at the <placeName>University of Cardiff</placeName>. Now in the Museum nan Eilean in Steòrnabhagh (Stornoway).
+                        <provenance type="observed">Observed at the <placeName>University of Cardiff</placeName>. Now in the Museum nan Eilean in Steòrnabhagh (Stornoway), where the OG(H)AM team recorded it on 2025-06-19.
                         </provenance>
                     </history>
                 </msDesc>
@@ -155,6 +155,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
 <change when="2025-06-11" who="#POC">Move information from translation to commentary, update translation</change>
                  <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition, correct forfid and variant letter encoding, added word division and encoding</change>     
+<change when="2025-08-19" who="#MK">Added 3D and RTI resp. and provenance</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
