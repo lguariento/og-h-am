@@ -158,6 +158,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change when="2025-06-04" who="#POC">Update execution encoding key to graffiti and remove graffiti reference from object type value</change>
                 <change when="2025-05-26" who="#POC">Update image link</change>
             <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>
+                <change when="2025-08-19" who="#MK">Renumbering of Bute/Arran inscriptions; all inscriptions from Blackwaterfoot will be listed under S-BUT-001. Inchmarnock slates will occupy S-BUT-002, 3 and 4.</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -171,9 +172,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" source="JAC1973" resp="XS"> 
+                <div type="textpart" n="1">
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚋᚓᚊ<choice resp="KF"><unclear cert="low">ᚓ</unclear><unclear cert="low">ᚔ</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
+            </div>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" xml:space="preserve" resp="#KF">
                 <ab>
@@ -181,33 +184,103 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
                 <ab type="list">[---]MEQE[---]</ab>
             </div>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#XS">   
+                <div type="textpart" n="2">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚃᚒᚓᚇᚂᚐ
+                </ab>
+                </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#KF">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>VUEDLA
+                </ab>
+                <ab type="list">[---]VUEDLA</ab>
+            </div>
+        <!--<div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#NW"><!-\-update lang and resp here-\->     
+            <div type="textpart" n="3">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    
+                </ab> 
+            </div>
+            </div>-->
+            <!--<div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                </ab>
+            </div>-->
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#NW"> 
+                 <div type="textpart" n="4">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    
+                </ab> 
+            </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                </ab>
+            </div>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>Jackson (1973, 54) observed that the <q>inscription lacks any typically Pictish features such as the frequent opposing diagonal slope in the H-series versus the B-series of consonants, the not uncommon line linking the ends of all strokes ("bind-ogams"), the appearance of the  <foreign xml:lang="ga">forfeda</foreign>, or the use of the "feather symbol" at the beginning and ends</q>.</note>
+                        <note>For the first inscription, Jackson (1973, 54) observed that the <q>inscription lacks any typically Pictish features such as the frequent opposing diagonal slope in the H-series versus the B-series of consonants, the not uncommon line linking the ends of all strokes ("bind-ogams"), the appearance of the  <foreign xml:lang="ga">forfeda</foreign>, or the use of the "feather symbol" at the beginning and ends</q>.</note>
                     </app>
                     <app n="2">
-                     <note>Jackson (1973, 53) read:  </note>
+                     <note>For the first inscription, Jackson (1973, 53) read:  </note>
                         <rdg>EOMEDTE or EOMEQE</rdg>
                     </app>
                     <app n="3">
-                        <note>In the unlikely event of the text being read downwards, Jackson (1973, 53) also read: </note>
+                        <note>For the first inscription, in the unlikely event of the text being read downwards, Jackson (1973, 53) also read: </note>
                         <rdg>EVLEMOE or ENEMOE</rdg>
                     </app>
                     <app n="4">
-                        <note>Forsyth (1996, 96) proposed the following reading: </note>
+                        <note>For the first inscription, Forsyth (1996, 96) proposed the following reading: </note>
                         <rdg>H(i/e)OMEQ(i/e)[~]</rdg>
                     </app>
+                    <app n="5">
+                        <note>For the second inscription, as Forsyth (1996, 98) remarks, precedent is firmly against a top-down reading of the inscription which would produce:</note>
+                        <rdg source="FOR1996">ADLEUV</rdg>
+                    </app>
+                <app n="6">  
+                    <note>For the second inscription, the first letter consists of three strokes to the right - V. However, the second stroke appears to run obliquely. The divergence of the second stroke to the first letter raises the possibility that this group of three strokes is meant to be interpreted as two letters from the same  <foreign xml:lang="ga">aicme</foreign>, B and L, which would yield the following reading:</note>
+                    <rdg source="FOR1996">BLUEDLA</rdg>
+                </app>
+                    <app n="7">
+                        <note>For the second inscription, Fisher (2001, 66) maintains that <q>several of the horizontal lines which abut or span</q> the inscription <q>are probably natural cracks</q> and that <q>no interpretation can be suggested for the possible reading</q>:</note>
+                        <rdg source="FIS2001">LUEDBH</rdg></app>
+                    <app n="8">
+                        <note>For the third inscription, Jackson (1973, 54) considered this <q>a piece of modern vandalism</q> and did not supply a reading (Forsyth 1996, 95).</note>  </app>
+                    <app n="9">  
+                    <note>For the fourth inscription, Fisher (2001) maintained that <q>no transcription can be suggested</q> and did not provide a reading.</note>
+                </app>
+            
                 </listApp>
             </div>
             <div type="translation">
-                <p>? son of ?</p>
+                <div type="textpart" n="1">
+                <p>1: ? son of ?</p>
+            </div>
+                <div type="textpart" n="2">
+                <p>2: No translation can be provided.</p>
+                </div>
+                 <div type="textpart" n="3">
+                     <p>No translation can be provided.</p>
+                 </div>
+                 <div type="textpart" n="4">
+                     <p>No translation can be provided.</p>
+                 </div>
             </div>
             <div type="commentary">      
-                <p>The MEQ may represent OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/31166">maicc</ref></foreign> (gen. of macc) which means 'son' (Forsyth 1996, 96). It is likely that the inscription followed the traditional formula 'X MAQQI Y', but only <q>the last two letters of the first name, and at most, the first letter of the second</q> survive (Forsyth 1996, 96).</p>
+                <p>For the first inscription, the MEQ may represent OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/31166">maicc</ref></foreign> (gen. of macc) which means 'son' (Forsyth 1996, 96). It is likely that the inscription followed the traditional formula 'X MAQQI Y', but only <q>the last two letters of the first name, and at most, the first letter of the second</q> survive (Forsyth 1996, 96).</p>
+                <p>For the second inscription, the name Vuedla calls to mind the uidlua, 'wise woman, witch' from *<foreign xml:lang="xtg">wid</foreign> which means 'to see, to know', of the famous Gaulish inscription from Larzac. The Irish reflex (*<foreign xml:lang="sga">widlma</foreign>) appears as the name of the seeress <persName xml:lang="sga">Fedelm</persName>, in <title>Táin Bó Cuailgne</title>, and of a number of famous early Irish women, legendary and historical (Forsyth 1996, 99).</p>
                 <p>As Forsyth observed (1996, 97), if the inscription is as late as the eighth century, the -eo could be the genitival ending of an i-stem personal name, eg. <persName xml:lang="sga">Fedlimd</persName>, <persName xml:lang="sga">Fedlimtheo</persName>. Alternatively, it could be the end of the nominative of a name such as <persName xml:lang="sga">Reo</persName>, <persName xml:lang="sga">Buaidbeo</persName> or one of the compounds with second element <foreign xml:lang="sga"><ref target="https://dil.ie/33151">Nia/Nio</ref></foreign>, such as <persName xml:lang="sga">Flaithnia</persName> and <persName xml:lang="sga">Maicnio</persName>.</p>
                                 <p>That the Blackwaterfoot 1 and Blackwaterfoot 2 (S-BUT-002) ogham inscriptions are contemporary with one another or with any other of the carvings in the cave cannot be proved (Forsyth 1996, 95). However, it is clear that both are examples of casual graffiti.</p> 
                 <p>According to Forsyth (19996, 99), the Blackwaterfoot inscriptions <q>could be as early as the Pool ogham (sixth century) or later than Dunadd (late eighth century?)</q>.</p>
+                <p>For the third inscription, the OG(H)AM team's examination of the 3D model confirmed that the ogham text is written in pigment and not incised. </p>
+                <p>For the fourth inscription, information about the inscription and its possible language and meaning is limited due to lack of publications.</p>
             </div>
             <div type="bibliography">
                 <listBibl>
