@@ -69,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.18</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The top of the pillar has broken away in antiquity and the back of the stone, in particular, is weathered and lichen covered. The continuation of the inscription on the back of the stone is no longer legible. The middle part of the inscription is lost where the top of the stone was broken off (Power et al. 1992, no. 1040)</condition>.
+                                <condition>The top of the pillar has broken away in antiquity and the back of the stone, in particular, is weathered and lichen covered. The continuation of the inscription on the back of the stone is no longer legible. The middle part of the inscription is lost where the top of the stone was broken off (Power et al. 1992, no. 1040).</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_up">The inscription runs diagonally over the head of the stone (up-down), <q>so that it is on the dexter angle of both faces</q> (Macalister 1945, 73).</layout>
@@ -131,8 +131,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-01-27" who="#POC">Added Irish placename in Irish, added ogham space marker, proofreading changes</change>
     <change when="2025-01-28" who="#POC">Deleted ogham space marker</change>
     <change when="2025-01-29" who="#POC">Deleted typos</change>
- <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
-           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+    <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
+    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>
+    <change when="2025-08-22" who="#NW">Updated edition, apparatus and commentary.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -145,28 +147,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#luguqritas">ᚂᚒ<unclear reason="damage">ᚌ</unclear><unclear reason="ambiguous">ᚐ</unclear><space atMost="2" unit="stroke" cert="low"/>ᚒᚊᚏᚔᚈ<supplied reason="lost" resp="#MAC1945">ᚈᚔ</supplied></name> <supplied reason="lost" resp="#MAC1945"><w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w></supplied> <name nymRef="#?"><supplied reason="lost" resp="MAC1945">ᚐᚇᚇᚔ</supplied><supplied reason="undefined" evidence="previouseditor" resp="#MAC1945">ᚂᚑᚅᚐᚄ</supplied></name></persName> 
+                <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#luguqritias?">ᚂ<unclear reason="damage">ᚒᚌᚒ</unclear>ᚊᚏᚔᚈ<supplied reason="lost" resp="#MAC1945">ᚈᚔ</supplied></name> <supplied reason="lost" resp="#MAC1945"><w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w></supplied> <name nymRef="#?"><supplied reason="lost" resp="MAC1945">ᚐᚇᚇᚔ</supplied><supplied reason="undefined" evidence="previouseditor" resp="#MAC1945">ᚂᚑᚅᚐᚄ</supplied></name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#luguqritas">LU<unclear reason="damage">G</unclear><unclear reason="ambiguous">A</unclear><space atMost="2" unit="stroke" cert="low"/>UQRIT<supplied reason="lost" resp="#MAC1945">TI</supplied></name> <supplied reason="lost" resp="#MAC1945"><w lemma="maqqas" type="formula">MAQI</w></supplied> <name nymRef="#?"><supplied reason="lost" resp="MAC1945">ADDI</supplied><supplied reason="undefined" evidence="previouseditor" resp="#MAC1945">LONAS</supplied></name></persName> 
+                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#luguqritias?">L<unclear reason="damage">UGU</unclear>QRIT<supplied reason="lost" resp="#MAC1945">TI</supplied></name> <supplied reason="lost" resp="#MAC1945"><w lemma="maqqas" type="formula">MAQI</w></supplied> <name nymRef="#?"><supplied reason="lost" resp="MAC1945">ADDI</supplied><supplied reason="undefined" evidence="previouseditor" resp="#MAC1945">LONAS</supplied></name></persName> 
                 </ab>
-                <ab type="list">LUGA (vac.) UQRITTI MAQI ADDILONAS</ab>
+                <ab type="list">LUGUQRIT[TI MAQI ADDI]LONAS</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Only the <foreign xml:lang="ga">aicme húatha</foreign> side of the G is evident. Following this, there appears to be a single vowel notch, space enough for two more strokes and then three vowel strokes. It is difficult to explain this, as a U is all that would be expected here between the G and the Q.</note>
+                    <note>Only the H-<foreign xml:lang="ga">aicme</foreign> side of the G is evident. There are traces of vowel notches either side of the G, which could both be U, although there is enough space for more than 3 strokes, especially in the case of the second U.</note>
+                </app>
+                    <app n="2">
+                    <note>Although there are definite traces of ogham strokes on the second angle, they are too weathered and lichen covered to confirm Macalister's reading.</note>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>of <persName xml:lang="sga">Luccreth</persName> [son of *<persName xml:lang="sga">Aidliu</persName>]</p>
+                <p>of <persName><name xml:lang="sga">Luccreth</name> [son of *<name xml:lang="sga">Aidliu</name>]</persName></p>
             </div>
             <div type="commentary">
-                <p>The name LUGUQRIT<!--(?)--> is a compound of the mythological/deity name <foreign xml:lang="sga">Lug</foreign> and <foreign xml:lang="sga"><ref target="https://dil.ie/12885">creth</ref></foreign> 'craftmanship, skilled work, poet. It is also found at Kilcoolaght East (I-KER-076: [.?.]ECC MAQI L[UGUQ]RRIT) and Ballineanig/Reask (I-KER-013: LUGUQRIT MA[QI] QRITT[I]) both in Co. Kerry<!-- (also poss I-KER-083)-->.</p>
-                <p>Macalister (1945, 241) restored the missing portion of the father's name with reference to a name found in the Kilbonane inscription (I-KER-111: ADDỊLONA).</p>
+                <p>LUGUQRIT[TI] is a compound of the mythological/deity name <foreign xml:lang="sga">Lug</foreign> and probably the word <foreign xml:lang="sga"><ref target="https://dil.ie/12885">creth</ref></foreign> 'craftmanship, skilled work, poetical art', which is later attested as Luccreth, Lucridh (AU 753) and Luccraid (CGH S. 676) (Ziegler 1994, 199, 223). This name is also found at Reask/Ballineanig (I-KER-013: LUGUQRIT MA[QI] QRITT[I]) and possibly also at Kilcoolaght East (I-KER-076: [.?.]ECC MAQI L[UGUQ]RRIT) and Kilgobnet (I-KER-083: LUGUQQRITTAS, if correct) in Co. Kerry.</p>
+                <p>Macalister (1945, 241) reconstructed the missing portion of the father's name with reference to a name found in the Kilbonane inscription (I-KER-111: ADDỊLONA).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
