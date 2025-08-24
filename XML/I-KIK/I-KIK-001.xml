@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Baile Uí Spealáin | Ballyspellan</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                 <respStmt>
+                    <name ref="https://orcid.org/0000-0003-1011-7539" xml:id="MK">Megan Kasten</name>
+                     <orgName>University of Glasgow (OG(H)AM project)</orgName>
+                    <resp>Capture: Photogrammetry <!--<date when="2022-02-15"/>-->; Software: Agisoft Metashape. Capture: Reflectance Transformation Imaging <!--<date when="2022-02-17"/>-->; Software: RTI Builder. </resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-001</idno>
+                 <idno type="CIIC">27</idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"></idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>NMI</repository>
+                        <idno type="invNo">R89</idno>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR"></idno></p> 
+                                    <material type="stone">Silver</material> 
+                                    <objectType key="portableObject">Penannular brooch</objectType> 
+                                   <dimensions unit="cm">
+                                       <dim type="diameter">ring diameter: 11.49cm</dim>
+                                   </dimensions>
+                                </support>
+                                <condition/>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="other" rend="stemline"><q>On the reverse sides of the triangular expansions, which terminate the ring of the brooch... very neatly traced (on stem-lines) — three lines on one terminal and the fourth on the other</q> (Macalister 1945, 32). All stem-lines begin at a rivet and all but 4 (which runs past the rivet and continues after the text finishes) also end at a rivet. Lines 1 and 2 are roughly parallel (converging a little at end), running roughly horizontally L-R towards lowest rivet. The two stem-lines are the same length (aligned so start at same level), though the lower text (2) is shorter. The stem line extends all the way to the rivet but only ¾ ends up used. Line 3 rises vertically from the top of this same rivet. Line 4 (on the opposite terminal) starts at the lower rivet near the edge and runs roughly horizontally L-R towards the rim of the ring.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>As noted by Macalister (1945, 32), <q>the X-forfid is used for all the E's except the first, and a feather-mark is prefixed to every word</q>. Lines 1 and 2 appear to be both by the same hand, more lightly incised than 3 and 4, and more delicate letters. 3 has slightly larger and bolder lettering, 4 has distinctive, stubbier letters and a more deeply carved stem-line. The feather-mark (᚛) is used for indicating the start and direction of reading but also to indicate word/name division in 1 and 2 (but not in 4, the longest inscription, where you’d expect it). The X-forfid is used to write E in all but the first occurrence (CNAEMSXCH).<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Ballyspellan (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/27449">Baile Uí Spealáin</ref></foreign>)</placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.761, -7.511</geo>
+                            <note>approximate</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1806">Found in 1806 by a peasant digging at Hill of Ballyspellan (Macalister 1945, 32)
+                        </provenance>
+                        <provenance type="observed" when="2023">National Museum of Ireland, where it was examined and recorded by the OG(H)AM team in November 2023.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass> 
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2025-08-08" who="#JB">
+Jef Bucas autogenerated batch EpiDoc output from spreadsheet
+</change>
+    <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+    <change when="2025-08-24" who="#NW">Updated information and added edition and 3d recording details - check with MK.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:l-to-r"/><g ref="#feathermark"/><persName><name nymRef="#cnáimsech">ᚉᚅᚐᚓᚋᚄ<g ref="#forfid_X"/>ᚉᚆ</name></persName>
+                    <g ref="#feathermark"/><persName><name nymRef="#cellach">ᚉ<g ref="#forfid_X"/>ᚂᚂᚐᚉᚆ</name></persName>
+                    <lb n="2"/><g ref="#feathermark"/><persName type="unattested"><name nymRef="#Minodor">ᚋᚔᚅᚑᚇᚑᚏ</name>
+                    <g ref="#feathermark"/><name nymRef="#Muad">ᚋᚒᚐᚇ</name></persName>    
+                    <lb n="3"/><handShift/>
+                    <g ref="#feathermark"/><persName type="unattested"><name nymRef="#Máel-Maire">ᚋᚐ<g ref="#forfid_X"/>ᚂᚋᚐᚔᚏ<g ref="#forfid_X"/></name>  
+                    <lb n="4"/><g ref="#feathermark"/><name nymRef="#Máel-Úadach" type="unattested">ᚋᚐ<g ref="#forfid_X"/>ᚂᚒᚐᚇᚐᚔᚌᚋᚐ<g ref="#forfid_X"/>ᚂᚋᚐᚔᚏ<g ref="#forfid_X"/></name></persName>
+                </ab>
+            </div>
+        <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga" resp="#NW">
+                <ab>
+                    <lb n="1"/>
+                    <g ref="#feathermark"/><persName><name nymRef="#cnáimsech">CNAEMS<g ref="#forfid_X" type="interpretation_E"/>CH</name></persName>
+                    <g ref="#feathermark"/><persName><name nymRef="#cellach">C<g ref="#forfid_X" type="interpretation_E"/>LLACH</name></persName>
+                    <lb n="2"/><g ref="#feathermark"/><persName type="unattested"><name nymRef="#Minodor">MINODOR</name>
+                    <g ref="#feathermark"/><name nymRef="#Muad">MUAD</name></persName><space quantity="4" unit="character"/>
+                    <lb n="3"/><handShift/>
+                    <g ref="#feathermark"/><persName type="unattested"><name nymRef="#Máel-Maire">MA<g ref="#forfid_X" type="interpretation_E"/>LMAIR<g ref="#forfid_X" type="interpretation_E"/></name>                   
+                    <lb n="4"/><g ref="#feathermark"/><name nymRef="#Máel-Úadach" type="unattested">MA<g ref="#forfid_X" type="interpretation_E"/>LUADAIG</name>
+                        <name nymRef="#Máel-Maire">MA<g ref="#forfid_X" type="interpretation_E"/>LMAIR<g ref="#forfid_X" type="interpretation_E"/></name></persName>
+                </ab>           
+        </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <listBibl>                    
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>32-33</citedRange>
+                    </bibl>
+                    <bibl><ptr target="RYA1990"/>
+                        <citedRange>103-104</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
