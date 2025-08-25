@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Clárach an Teampaill | Churchclara 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-002</idno>
+                 <idno type="CIIC">28</idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/CHLAR/1.html">CHLAR/1</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/https://www.trismegistos.org/text/172501">https://www.trismegistos.org/text/172501</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KK020-017003-</idno></p> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
+                                    <dimensions><dim>dims. 1.55m x 0.22m (ASI)</dim></dimensions>
+                                </support>
+                                <condition>This red sandstone pillar is reused as a window sill in the church. It was inserted in the E gable in the late 12th/early 13th century, replacing the original window (Ó Carragáin 2010, 158, fig. 166). Macalister (1945, 33-4) noted that <q>the top of the stone is broken off, and the first angle is spalled</q>.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription runs up one angle and down the other.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Macalister (1945, 34) describes the inscription as <q>chisel cut</q> but it appears to be <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Churchclara (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/26739">Clárach an Teampaill</ref></foreign>)</placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.655447, -7.145906 </geo>
+                            <note>ITM Coordinates: 657786, 656371</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1869">This ogham stone, first noted in 1869 (Prim 1868-9, 281-2; Macalister 1945, 33-4), was reused as a sill for a round-headed window in the church, which <q>is clearly a <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=2501">pre-Norman foundation</ref> as indicated by the antae (projecting side walls) on the chancel. There is a holy well nearby and two bullaun stones are associated with the site. According to Carrigan the church was dedicated to a <persName type="saint">St Colmán</persName> whose feast day was 16 October. The Martyrology of Oengus (written around AD 800) records a St Colmán of Cell Ruaid (<placeName>Kilroot, Co Antrim</placeName>) on that date. A list of homonymous saints in the Book of Leinster and other manuscripts has reference to a Colmán Cláraig, but has no other information about him. This is most likely to be the Clara in question, the only place of the name with a definite pre-Norman chirch and the only civil parish of the name in the country. In addition its former importance is indicated by the fact that it gave its name to one of the deaneries of the medieval diocese. The <persName type="saint">Ségéne of Clárach</persName>, whose death is recorded in <date>749</date> is likely to have been connected with this church</q> (Manning and Moore 1997, 370-371). A second ogham stone (I-KIK-003) was discovered at the site by Con Manning in the late 1970s (Manning and Moore 1997, 371).
+                        </provenance>
+                        <provenance type="observed">In situ in the East gable of the church, now partly concealed by a modern tombstone erected against the wall. In 2017 both ogham stones were recorded in 3d using photogrammetry and in June 2020 digitised here as an action of the County Kilkenny Heritage Plan Programme, funded by the Heritage Office of Kilkenny County Council and the Heritage Council.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass> 
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2025-08-08" who="#JB">
+Jef Bucas autogenerated batch EpiDoc output from spreadsheet
+</change>
+    <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+    <change when="2025-08-25" who="#NW">Added information from O3D and images.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KIK/I-KIK-002_Churchclara1.jpg"><desc>Photoraph by Nora White</desc></graphic>
+        <graphic url="IRE/I-KIK/I-KIK-002_Churchclara_MAC1945.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
+        <graphic url="IRE/I-KIK/I-KIK-002_Churchclara_drawing_MAC1945.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                    <lb n="1" style="text-direction:up"/>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>TAṢ[EGA]GN[I] [MAQ(?)]Ị MUC[O]Ị MAC̣[O]Ṛ[BO]
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p></p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>33-34</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
