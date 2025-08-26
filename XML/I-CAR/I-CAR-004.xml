@@ -1,0 +1,176 @@
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tuca Mín | Tuckamine</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                   <name>David Jackson</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                <resp>3D laser scanned using Polhemus FastSCAN Cobra scanner <date when="2011-05-11"/> and afterwards processed
+                        using Rapidform software</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-CAR-004</idno>
+                 <idno type="CIIC">17</idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/TMINE/1.html">TMINE/1</idno>
+                 <idno type="TM" corresp="https://www.trismegistos.org/text/172719">172719</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>National Museum of Ireland</repository>
+                        <idno type="invNo">1938:9738</idno>
+                        <altIdentifier>
+                            <idno type="geo">53.3403, -6.2551</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CW003-023----</idno></p> 
+                                    <material type="stone">Granite</material> 
+                                    <objectType key="monument">Pillar</objectType> 
+                                    <dimensions unit="m" source="MAC1945">
+                                        <height>1.07</height>
+                                        <width>0.30</width>
+                                        <depth>0.25</depth>
+                                    </dimensions>
+                                </support>
+                                <condition><q>Originally a rounded pillar of pulvinar shape, but now split longitudinally, so that the horizontal cross-section is roughly semicircular</q> (Macalister 1945, 20). Broken at the end with probable loss of vowel strokes.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">Along the length of the rounded surface. According to Macalister (1945, 20), <q>there must have been two lines of writing, up-up</q>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription is <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and the vowel strokes are circular punched marks.<height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Tuckamine (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/23480">Tuca Mín</ref></foreign>) </placeName>
+                                <placeName type="county">Co. Carlow</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.84355, -6.72916</geo>
+                            <note>Possible original location</note>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" notAfter="1938">Discovered c.1938 by Edward O'Toole on the land of a Mr. William Hopkins, where it had been used to build up a gateway or gap in the fence by the roadside (O'Toole 1938, 304). Suggested by O'Toole (1938, 304) that it may have originally come from the nearby graveyard at <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=1681">Kilmagarvoge</ref> (<placeName xml:lang="ga"><ref target="https://www.logainm.ie/en/3521">Cill Mogharbhóg</ref></placeName>), of which no visible surface traces remain (Brindley and Kilfeather 1993, 68). Also described and drawn by Price in 1938 (Notebook 17, Corlett 2002).
+                        </provenance>
+                        <provenance type="observed">National Mumeum of Ireland (examined and 3D scanned in <date>May 2011</date> as part of the Ogham in 3D project).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>    
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2025-05-19" who="#JB">
+Jef Bucas autogenerated batch EpiDoc output from spreadsheet
+</change>
+    <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+    <change when="2025-08-26" who="#NW">Added details from old Ogham in 3D website.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-CAR/I-CAR-004_Tuckamine_MAC1945.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                   <lb n="1" style="text-direction:up"/><persName><gap reason="lost" unit="line" quantity="1" cert="medium"/>
+                   <lb n="2" style="text-direction:up"/><w type="formula" lemma="muccoviias?">ᚋᚒᚉᚑᚔ</w> <name nymRef="#mucc-?">ᚋᚒᚉᚉ<unclear reason="damage">ᚔ</unclear></name><gap reason="lost" extent="unknown"/></persName>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><gap reason="lost" unit="line" quantity="1" cert="medium"/>
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="muccoviias?">MUCOI</w> <name nymRef="#mucc-?">MUCC<unclear reason="damage">I</unclear></name><gap reason="lost" extent="unknown"/></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+               <listApp>
+                   <app n="1"><note>There are at least two and, possibly three, faint vowel strokes at the broken end, which may represent O, U, E or I.</note></app>
+               </listApp>
+            </div>
+            <div type="translation">
+                <p>[of ...] descendant of Mucc[...]</p>
+            </div>            
+            <div type="commentary">
+                <p>Not enough survives of this inscription to say more than that we appear to have a kin-group name, consisting of the formula word MUCOI ('descendant, litter of') and presumably the beginning of a personal name MUCC-.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="BRI1993"/>
+                        <citedRange>68</citedRange>
+                    </bibl>
+                    <bibl><ptr target="COR2002"/>
+                        <citedRange></citedRange>
+                    </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>20</citedRange>
+                    </bibl>
+                    <bibl><ptr target="OTO1938"/>
+                        <citedRange>304-305</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
