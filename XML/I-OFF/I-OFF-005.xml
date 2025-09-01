@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Liath Beag | Leabeg</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-OFF-005</idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP"/>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                      <repository>National Museum of Ireland</repository>
+                        <idno type="invNo">2012:263</idno>
+                         <altIdentifier>
+                          <idno type="geo">53.3403, -6.2551</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <!--<p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID : <idno type="SMR"></idno></p>-->
+                                   <material type="wood">Yew wood</material> 
+                                    <objectType key="portableObject">Weaver’s weft-beater</objectType> 
+                                     <dimensions unit="cm" source="SIK2020">                                         
+                                            <height>25.50</height>
+                                            <width>13.00</width>
+                                            <depth>2.50</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>From single piece of yew (the wood is a bright red-orange colour with a smooth surface), some damage but what survives is in good condition with geometric motifs on both faces and an ogham inscription on one side of the rounded handle. <q>It is clear that the object was used as a tool, perhaps a type of beater used in textile production</q> (Sikora and Moore 2020, 63-65)</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="other" rend="stemline">The inscription is on a stem-line which is positioned lengthways along the handle. It appears to commences at the base of the handle which measures 8cm in length. <q>The inscription is 4cm in length but the stem-line extends beyond that, suggesting a longer inscription may have been intended</q> (Sikora and Moore 2020, 78-79).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription is very delicately incised or <rs type="execution" key="scored">scored</rs> with shorter strokes for the vowels. The X-forfid is used, probably to represent E rather than K.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="townland">Leabeg (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/41148">An Liath Beag</ref></foreign>)</placeName>
+                                <placeName type="county">Co. Offaly</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>53.302, -7.731 </geo>
+                            <note>approximate location only</note></origPlace>
+                             <origDate notBefore="0900" notAfter="1000" precision="medium" evidence="material-context">Possibly tenth century AD</origDate>
+                        </origin>
+                        <provenance type="found" when="2012">Discovered in June 2012 by Joseph Egan of Bord na Móna, in the Lemanaghan Bog complex. <q>As the object was discovered some months prior to reporting, it was not possible to establish any further details of its exact find spot or context</q> (Sikora and Moore 2020, 63).
+                        </provenance>
+                        <provenance type="observed">National Museum of Ireland
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+    <change when="2025-09-01" who="#NW">Updated information and added edition.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-OFF/I-OFF-005_SikoraMoore_drawing.jpg"><desc>Drawing from Sikora and Moore (2020)</desc></graphic>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#NW">
+                 <ab>
+                     <lb n="1"/>ᚁᚐᚅᚋᚐᚉᚐᚔ<unclear reason="faded">ᚂ</unclear><g ref="#forfid_X"/>
+                 </ab>
+             </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga" resp="#NW">
+                <ab>
+                    <lb n="1"/>BANMACAI<unclear reason="faded">L</unclear><g ref="#forfid_X" type="interpretation_E"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1"><note>The letter before the X-forfid could be read as V, with 3 rather than two strokes.</note></app>
+                </listApp>
+            </div>
+            <div type="translation"/>
+            
+            <div type="commentary">
+                <p>Moore (Sikora and Moore 2020, 78) suggests that <q>the reading <foreign xml:lang="sga">Ban Macaile</foreign> could mean fair, pure, holy or blessed Macaile</q> and historically MacCaille is associated with Croghan Hill (Cruachu of Brí Éile) in Offaly which overlooks Lemanaghan Bog. However, this interpretation is not entirely straightforward.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="SIK2020"/>
+                        <citedRange>63-89</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
