@@ -16,6 +16,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <orgName>University of Glasgow</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -91,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham and Latin inscriptions are <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. Macalister (1945, 314) described the inscriptions as <q>well cut, not pocked, and in broad lines</q>. According to Redknap and Lewis (2007, 160-161), some letters were cut with a bevel. In the ogham inscription, the fourth letter seems to be X, a variation of the <foreign xml:lang="ga">forfeda</foreign> character to represent P (Redknap and Lewis 2007, 161). The roman letter inscription features coarse capitals with one minuscule d. The cross-bar of the A in line three is angled; the Ns are reversed and the Rs have open loops with bars. In the roman letter inscription, there seems to be a higher degree of care in the execution of TURPILLI, the name of the dead, <q>which has competent horizontal spacing</q> than in the rest of the text given the more cramped letters in the rest of the inscription (Redknap and Lewis 2007, 161). 
+                            <handNote>The ogham and Latin inscriptions are <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. Macalister (1945, 314) described the inscriptions as <q>well cut, not pocked, and in broad lines</q>. According to Redknap and Lewis (2007, 160-161), some letters were cut with a bevel. The roman letter inscription features coarse capitals with one minuscule d. There seems to be a higher degree of care in the execution of TURPILLI, the name of the dead, <q>which has competent horizontal spacing</q> than in the rest of the text given the more cramped letters in the rest of the inscription (Redknap and Lewis 2007, 161). 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -164,6 +166,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-18" who="#POC">Add information from Macalister</change>
     <change when="2025-07-09" who="#NW">Updated edition, apparatus and text lang.</change>
     <change when="2025-08-10" who="#NW">Added epig_I-forfid to ogham transliteration</change>
+    <change when="2025-09-04" who="#THN">Removed unrelated British information and moved information into letters</change>
     
 </listChange>
 </revisionDesc>
@@ -200,6 +203,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <rdg>TURPILI MOSAC TRALLONI</rdg>                                                      
                   </app>
                   <app n="2">
+                    <note>In the ogham inscription, the fourth letter seems to be X, a variation of the <foreign xml:lang="ga">forfeda</foreign> character to represent P (Redknap and Lewis 2007, 161).</note>
+                </app>
+                  <app n="3">
                       <note>The ogham inscription appears to consist of the same commemoration as the roman-letter inscription, except that the latter adds the formula <foreign xml:lang="la">hic iacit</foreign> 'here lies' and an extra name (<persName>Dunacatos</persName>) at the end. The ogham corresponding to TRILVNI has been read in various ways including T[RA]LL[O]NI (Macalister 1945, 315) but TRILLUNI is more likely. The ogham inscription is <q>notable for containing the symbol "X", a rare attempt to represent the Latin P</q> (Redknap and Lewis, 2007 162).</note>
                       </app>                     
               </div>
