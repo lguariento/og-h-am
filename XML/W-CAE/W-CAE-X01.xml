@@ -12,6 +12,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <orgName>University of Glasgow</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -78,7 +80,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>According to Macalister (1945, 373), the Latin inscription <q>has been chiselled</q>. Edwards (2013, 312) described the roman-letter inscription as medium incised and <q>neatly but unevenly set out</q>. The second line of the inscription begins towards the end of the first line. The inscription consists of <q>several closely packed letters</q> and <q>capitals with miniscule S</q> (Edwards 2013, 312). Tedeschi  (Edwards 2013, 312) describes the letters as follows: <q>In line 1, the left diagonal of A is longer, extending beneath the I and the right diagonal is raised; C is large and angular; O is smaller and rises above the top of C; both N's lean towards the left; V is narrow; the top stroke of miniscule S projects over F which is cursive and has a curving upper horizontal, the second is conjoined with a small I; R has a closed loop and the tail curves upwards above the horizontal; M has widely spaced strokes which meet on the line; final I is horizontal and set above the line. In line 2, C is angular, the second I is smaller and the horizontal of T projects above it</q>.
+                            <handNote>The ogam inscription does not survive so information on the execution of the letters. According to Macalister (1945, 373), the Latin inscription <q>has been chiselled</q>. Edwards (2013, 312) described the roman-letter inscription as medium incised and <q>neatly but unevenly set out</q>. The second line of the inscription begins towards the end of the first line. The inscription consists of <q>several closely packed letters</q> and <q>capitals with miniscule S</q> (Edwards 2013, 312).</q>.
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -131,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-04" who="#NW">Replaced HER with NRPN and link to coflein</change>
     <change when="2025-06-04" who="#POC">Update encoding desc, replace hex codes with glyphs in edition, update foreign to persName for personal names in commentary </change>
 <change when="2025-06-20" who="#POC">Updates</change>
+ <change when="2025-09-04" who="#THN">Condensed information on letters and reorganised the translations</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -171,14 +174,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
-                <p>Roman: <persName xml:lang="pgl">Iaconus</persName> (son of) <persName xml:lang="pgl">Firminus</persName> lies (here)</p>
+                    <p>Ogham: No translation of the purported ogham inscription is offered</p>
             </div>
                 <div type="textpart" n="2">
-                <p>Ogham: No translation of the purported ogham inscription is offered</p>
+                    <p>Roman: <persName xml:lang="pgl">Iaconus</persName> (son of) <persName xml:lang="pgl">Firminus</persName> lies (here)</p>
+               
                 </div>
             </div>
             <div type="commentary">
-                <p>The first name in the roman-letter inscription, <persName xml:lang="sga">Iaconus</persName> is most likely a derivative of OI <foreign xml:lang="sga"><ref target="https://dil.ie/20128">éo</ref></foreign>, gen. <foreign xml:lang="sga">iach</foreign> 'salmon'. Rhys (1907, 96) also suggested that it could be from *<foreign xml:lang="sga">iakk-</foreign> (W. <foreign xml:lang="cy">iach</foreign>, 'healthy', OI <foreign xml:lang="sga"><ref target="https://dil.ie/27149">ícc</ref></foreign>. The most straightforward reading of the second name is, <persName xml:lang="la">Firmin(i)us</persName> which was a popular Latin name seen elsewhere in Britain (Edwards 2013, 313). On the inscribed cross at the top of the stone, Edwards (2013, 313) point out that <q>the 'monogram' chi-rho cross is one of two in Wales; the other is on Penmachno 4 (CN38)</q>.</p>
+                <p>The first name in the roman-letter inscription, <persName xml:lang="sga">Iaconus</persName> is most likely a derivative of OI <foreign xml:lang="sga"><ref target="https://dil.ie/20128">éo</ref></foreign>, gen. <foreign xml:lang="sga">iach</foreign> 'salmon'. Rhys (1907, 96) also suggested that it could be from *<foreign xml:lang="sga">iakk-</foreign> (W. <foreign xml:lang="cy">iach</foreign>, 'healthy', OI <foreign xml:lang="sga"><ref target="https://dil.ie/27149">ícc</ref></foreign>. The most straightforward reading of the second name is, <persName xml:lang="la">Firmin(i)us</persName> which was a popular Latin name seen elsewhere in Britain (Edwards 2013, 313).</p>
                         
             </div>
             <div type="bibliography">
