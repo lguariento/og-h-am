@@ -12,6 +12,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <orgName>University of Glasgow</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -78,7 +80,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham and Latin inscriptions are <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. The roman-letter inscription was <q>incised using a punch</q> and consists of capitals (Edwards 2007, 319). <q>In line 1 the loops of the B do not meet on the vertical line. In line 2 F is an unusual form with an extended diagional top-stroke and a loop, the horizontal of the L slopes downwards; S is angular, G sickle-shaped, and the final I appears to be horizontal</q> (Edwards 2007, 319).
+                            <handNote>The ogham and Latin inscriptions are <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. The roman-letter inscription was <q>incised using a punch</q> and consists of capitals (Edwards 2007, 319). 
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -134,6 +136,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-06-05" who="#POC">Update foreign to persName for personal names in commentary and translation</change>
 <change when="2025-06-26" who="#POC">Update image file name and path</change>
 <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, update edition, remove white space</change>
+ <change when="2025-09-09" who="#THN">Condensed letters information and reorganised commentary and critical apparatus</change>
+
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -169,7 +173,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </div>
             </div>  
             <div type="apparatus">
-                <p></p>
+                <listApp>
+                    <app n="1"><note><q>The precise form of the name in ogam is unclear. There is room on the angle of the stone for three vowel-notches between the T and C, thereby suggesting a U, which would tally with the form of the name in the roman. There appear to be traces of four vowel-notches between the C and the S, but room for five, and either an I or an EA seem possible, giving a reading of <persName xml:lang="pgl">Dovat[u]c[i]s</persName> or <persName xml:lang="pgl">Dovat[u]c[ea]s</persName>. McManus (1991, 67) has sugested the latter, in the genitive case, is more likely</q> (Edwards 2007, 321).</note></app>
+                    <app n="2"><note>The <q>roman-letter, Latin inscription uses the 'X son of Y' formula; the names are in the genitive case, while <foreign xml:lang="la">filivs</foreign> is in the nominative. The reading is clear, apart from the form of the first name, which may be either DOBTVCI or DOBITVCI. There is room for an I, which may have been destroyed by the later carving</q> (Edwards 2007, 320-321).</note></app>
+                        </listApp>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
@@ -180,8 +187,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p>Roman: of <persName xml:lang="pgl">Dov<gap reason="lost" extent="1" unit="character"/>tucus</persName> son of <persName xml:lang="pgl">Evolengus</persName></p>
             </div>
             <div type="commentary">
-                        <p><q>The precise form of the name in ogam is unclear. There is room on the angle of the stone for three vowel-notches between the T and C, thereby suggesting a U, which would tally with the form of the name in the roman. There appear to be traces of four vowel-notches between the C and the S, but room for five, and either an I or an EA seem possible, giving a reading of <persName xml:lang="pgl">Dovat[u]c[i]s</persName> or <persName xml:lang="pgl">Dovat[u]c[ea]s</persName>. McManus (1991, 67) has sugested the latter, in the genitive case, is more likely </q>(Edwards 2007, 321).</p>
-                        <p>The <q>roman-letter, Latin inscription uses the 'X son of Y' formula; the names are in the genitive case, while <foreign xml:lang="la">filivs</foreign> is in the nominative. The reading is clear, apart from the form of the first name, which may be either DOBTVCI or DOBITVCI. There is room for an I, which may have been destroyed by the later carving</q> (Edwards 2007, 320-321).</p>
+                        <p></p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
