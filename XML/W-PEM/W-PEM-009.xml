@@ -12,6 +12,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <orgName>University of Glasgow</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -64,7 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><term>monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">2404</idno> Little Trefgarn (Treffgarne) Farm</p>
+                                <support><p><term>Monument</term> <ref target="https://archwilio.org.uk/her/chi3/arch.php?lang=eng">Dyfed Archaeological Trust Historic Environment Record</ref>: <idno type="HER">2404</idno> Little Trefgarn (Treffgarne) Farm</p>
                                     <material type="stone" source="EDW2007">Dacite lava</material> <note>Comprised of <q>feldspar-phyric dacite lava. Weathered light grey (2.5Y N6/0)</q> (Edwards 2007, 473).</note>
                                     <objectType key="monument">Pillar</objectType> 
                                     <dimensions unit='m'>
@@ -80,7 +82,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham inscription is <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. Macalister (1945, 428) described the ogham inscription as cut and the roman letters as <q>pocked and rubbed</q>. The roman-letter inscription consists of small capitals, and according to Edwards (2007, 473), the <q>form of G is unusual; F is cursive and conjoined with I; L has a sloping horizontal, and M has widely spaced outer strokes and the inner strokes meet on the line</q>.
+                            <handNote>The ogham inscription is <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. Macalister (1945, 428) described the ogham inscription as cut and the roman-letters as <q>pocked and rubbed</q> and consists of small capitals (Edwards 2007, 473).
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -92,7 +94,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SM 964 242</note></origPlace>
                             <origDate notBefore="0470" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">End of the fifth or first half of the sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found" when="1875">Found by J R Allen in 1875 reused as a gatepost beside the road on the east side of Treffgarne Gorge.
+                        <provenance type="found" when="1875">The stone was found by J R Allen in 1875 and reused as a gatepost beside the road on the east side of Treffgarne Gorge.
                         </provenance>
                         <provenance type="observed">At St Dogwell's Church, standing in the churchyard against the west boundary wall.
                         </provenance>
@@ -135,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-05-30" who="#POC">Added images and copyright</change>        
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, added word element and encoding to FILI in latin edition</change>
 <change when="2025-06-06" who="#POC">Replace foreign with persName in translation</change>
+ <change when="2025-09-09" who="#THN">Condensed and reorganised letters, critical apparatus and commentary information</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -166,7 +169,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </div>
             </div>           
             <div type="apparatus">
-                <p></p>
+                <listApp>
+                   <app n="1"><note>Linguistically, the most likely reading of the ogham inscription is OGTENAS: <q>a notch for the A is just visible and the final four strokes of the inscription could be interpreted as an S. If this is correct, the inscription is simply the name of the deceased in the genitive case</q> (Rhys 1918, 189) suggested that <q>GT is an unusual variant spelling of Irish <foreign xml:lang="sga">cht</foreign>, as in QAGTE or QEGTE... In that case OGT- may be the stem seen in OI <foreign xml:lang="sga">Ochtach, Ochtbran</foreign>, etc.</q> (Edwards 2007, 473).</note></app>
+                   <app n="2"><note><q>The Latin inscription consists of the "X son of Y" formula in the genitive case. In the past the first name has been consistently read as HOGTIVIS, which visually appears the most likely. However, it has recently been suggested that, in order to match the ogham inscription, it should be read HOGTINIS (McManus 1991, 65), the N being reversed and ligatured with the following I... It is also possible that HOGTIVIS was written by mistake for HOGTINIS. The patronym DEMETI may refer in some way to the kingdom of Dyfed (Thomas 1994, 76)</q> (Edwards 2007, 473).</note></app>
+                </listApp>
             </div>
             <div type="translation">
                 <div type="textpart" n="1">
@@ -177,8 +183,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <p>Roman: of <persName xml:lang="pgl">Hogtivis (or Hogtinis)</persName> son of <persName xml:lang="pgl">Demetus (or Demetius</persName></p>
             </div>
             <div type="commentary">
-                        <p>Linguistically, the most likely reading of the ogam inscription is OGTENAS: <q>a notch for the A is just visible and the final four strokes of the inscription could be interpreted as an S. If this is correct, the inscription is simply the name of the deceased in the genitive case</q> (Rhys 1918, 189) suggested that <q>GT is an unusual variant spelling of Irish <foreign xml:lang="sga">cht</foreign>, as in QAGTE or QEGTE... In that case OGT- may be the stem seen in OI <foreign xml:lang="sga">Ochtach, Ochtbran</foreign>, etc.</q> (Edwards 2007, 473).</p>
-                        <p><q>The Latin inscription consists of the "X son of Y" formula in the genitive case. In the past the first name has been consistently read as HOGTIVIS, which visually appears the most likely. However, it has recently been suggested that, in order to match the ogam inscription, it should be read HOGTINIS (McManus 1991, 65), the N being reversed and ligatured with the following I... It is also possible that HOGTIVIS was written by mistake for HOGTINIS. The patronym DEMETI may refer in some way to the kingdom of Dyfed (Thomas 1994, 76)</q> (Edwards 2007, 473).</p>
                     </div>
             <div type="bibliography">
                 <listBibl>  
