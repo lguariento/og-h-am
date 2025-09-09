@@ -89,8 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="parish">Caldy Island</placeName>, <placeName type="county">Pembrokeshire</placeName>, <placeName type="country">Wales</placeName>
                                 <geo>51.634675, -4.689097</geo>
                             <note>National Grid Reference: SS 140 963</note></origPlace>
-                                    <origDate type="textpart" n="1" notBefore="0400" notAfter="0500" precision="low" datingMethod="#julian" evidence="linguistic">Ogham inscription is fifth century A.D.</origDate>
-                                    <origDate type="textpart" n="2" notBefore="0700" notAfter="0840" precision="low" datingMethod="#julian">Roman-letter inscription is eighth or early ninth century A.D.</origDate>
+                                    <origDate/>
                         </origin>
                         <provenance type="found">The stone was first mentioned by Fenton in 1810, but makes no mention of the ogham. The stones was then reported to have been dug up many years before in the ruins of the priory. Rhys provides a reading of the ogham inscription in 1873 (Edwards 2007, 294).
                         </provenance>
@@ -137,8 +136,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes</change>
 <change when="2025-06-06" who="#POC">Add language codes to commentary, add persName for personal name in translation, update gap element in edition and translation to be self closing since it wasn't surrounding any information, added eDIL links</change>
        <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
- <change when="2025-09-09" who="#THN">Condensed letters and commentary information</change>
-
+       <change when="2025-09-09" who="#THN">Condensed letters and commentary information</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -177,21 +176,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
                </div>
             </div>   
-            <div type="apparatus">
-                <p></p>
-            </div>
-            <div type="translation">
-                <div type="textpart" n="1">
-                     <p>Ogham: <lb n="1" style="text-direction:up"/>MAGLI<gap reason="lost" extent="unknown"/>DUBR<gap reason="lost" extent="unknown"/>
-                        <lb n="2" style="text-direction:down"/><gap reason="lost" extent="unknown"/>QI<gap reason="lost" extent="unknown"/></p>
-                </div>
-               </div>
-              <div type="textpart" n="2">
+            <div type="apparatus"/>
+            
+            <div type="translation">             
                   <p>Roman: With the sign of the cross I fashioned on that [?] I ask all walking there that they pray for the soul of <persName xml:lang="pgl">Catuoconus</persName></p>
-              </div>
+            </div>
             <div type="commentary">
-                        <p><q>The surviving ogam letters suggest a compound personal name: (i) MAGL[-]DUBR, and (ii) -QI-, which could be part of <foreign xml:lang="sga"><ref target="https://dil.ie/31166">maqi</ref></foreign>... The inscription is unlikely to be other than Irish, in view of the use of ogam and the presence of Q... Both DUBAR[CUNAS] and... DUBR[ACUNAS].. seem possible restorations, both being possible spellings of Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/17278">doborchú</ref></foreign>, gen. <foreign xml:lang="sga">doborchon</foreign>, "water-dog, otter"</q> (Edwards 2007, 296).</p>
-                        <p>CATUOCONI is later Welsh <foreign xml:lang="wlm">Cadwgan</foreign>, a compound of <foreign xml:lang="owl">cad</foreign>, 'battle', and <foreign xml:lang="owl">g(w)ogawn</foreign>, 'glory', with a Latin genitive ending added. The meaning of <foreign xml:lang="la">illam</foreign> <q>...cannot be satisfactorily resolved.</q> (Edwards 2007, 298).</p>
+                        <p><q>The surviving ogham letters suggest a compound personal name: (i) MAGL[-]DUBR, and (ii) -QI-, which could be part of MAQI. The inscription is unlikely to be other than Irish, in view of the use of ogham and the presence of Q... Both DUBAR[CUNAS] and... DUBR[ACUNAS].. seem possible restorations, both being possible spellings of Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/17278">doborchú</ref></foreign>, gen. <foreign xml:lang="sga">doborchon</foreign>, "water-dog, otter"</q> (Edwards 2007, 296).</p>
+                        <p>CATUOCONI is later Welsh <foreign xml:lang="wlm">Cadwgan</foreign>, a compound of <foreign xml:lang="owl">cad</foreign>, 'battle', and <foreign xml:lang="owl">g(w)ogawn</foreign>, 'glory', with a Latin genitive ending added. The meaning of <foreign xml:lang="la">illam</foreign> <q>...cannot be satisfactorily resolved</q> (Edwards 2007, 298).</p>
             </div>
             <div type="bibliography">
                 <listBibl>  
