@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>Mathry</title>
              <editor role="editor" xml:id="MM"><persName>Molly McKendrick</persName>                  
                  <orgName>University of Glasgow</orgName></editor>
+                 <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
@@ -73,14 +75,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <depth>0.18</depth>
                                         </dimensions></support> 
 
-                                <condition>The top of the slab is missing, along with the first line of the roman-letter, Latin inscription. This is preserved in BL Stowe MS 1024, fos. 52-53.</condition>
+                                <condition>The top of the slab is missing, along with the first line of the Latin inscription. This is preserved in BL Stowe MS 1024, fos. 52-53.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_up"><q>Towards the top of the left angle is a fragmentary incised ogam inscription, which reads upwards</q> (Edwards 2007, 380-382). The surviving four horizontal lines of the Latin inscription are described as being finely incised on the remaining upper half of the slab.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham inscription is <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> or as Edwards (2007, 382) described, incised. The roman-letter inscription consists of capitals. <q>The original drawing shows MAC (line 1) conjoined (BL Stowe MS 1024, fo. 52); CA (line 4) and VV (line 5) are conjoined. The S's (lines 3, 5) are raised above the line and are in the form of reversed Greek <foreign>sigmas</foreign>, one with curved strokes, one with straight lines. The V's (lines 2, 5) and A (line 4) have very widely spaced diagonal strokes. The horizontals of the L's slope steeply downwards. In line 2 the upper horizontal of the F slopes upwards and there is a third horizontal stroke at the bottom</q> (Edwards 2007, 381-382).
+                            <handNote>The ogham inscription is <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> or as Edwards (2007, 382) described, incised. The roman-letter inscription consists of capital (Edwards 2007, 381-382).
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -92,7 +94,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: SM 879 320</note></origPlace>
                             <origDate notBefore="0500" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic"> A.D.</origDate>
                         </origin>
-                        <provenance type="found">In 1698 Lhuyd and his assistants recorded Latin; did not record ogham - earliest reference to ogham seems to be Nash-Williams in 1937 (Edwards 2007, 380).
+                        <provenance type="found">In 1698 Lhuyd and his assistants recorded Latin but the ogham was not noted until 1937 by Nash-William (Edwards 2007, 380).
                         </provenance>
                         <provenance type="observed">Standing in the church porch, set into the floor.
                         </provenance>
@@ -135,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, corrected edition encoding so that the ogham and transliteration edition matched, added encoding for formula words, remove 1 in title since there's only one Mathry stone</change>
 <change when="2025-06-09" who="#POC">Update foreign to persName for personal name in translation and commentary, update translation section for ogham</change>
        <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+       <change when="2025-09-10" who="#THN">Condensed letters information</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
