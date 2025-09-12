@@ -51,6 +51,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>National Museum of Ireland</repository>
                         <idno type="invNo">1970.16</idno>
+                          <altIdentifier>
+                            <idno type="geo">53.3403, -6.2551</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -125,6 +128,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-11" who="#POC">Added placename to title, deleted note from objectType, commented out media for now as it invalidated document, added idno element for SMR IDs</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 <change when="2025-06-04" who="#POC">Update execution type and encoding, replace scratched with scored and knife-cut to knife-scored.</change>
+    <change when="2025-09-12" who="#NW">Undated edition</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -136,20 +141,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1"/><persName><name nymRef="adarun"><supplied reason="lost" cert="low">ᚐ</supplied>ᚇᚐᚏᚒᚅ</name> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost" cert="low">ᚐ</supplied>ᚉᚔ</w> <name nymRef="colali">ᚉᚑᚂᚐᚂ<supplied reason="lost" cert="low">ᚔ</supplied></name></persName>
+                <lb n="1"/><persName><name nymRef="#odaragnas"><unclear reason="damage">ᚐ</unclear>ᚇᚐᚏᚐᚌᚅ</name> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost">ᚐ</supplied>ᚉᚔ</w> <name nymRef="#?">ᚉᚑᚂᚐᚂ<supplied reason="lost" cert="low">ᚔ</supplied></name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                <lb n="1"/><persName><name nymRef="#adarun"><supplied reason="lost" cert="low">A</supplied>DARUN</name> <w type="formula" lemma="maqqas">M<supplied reason="lost" cert="low">A</supplied>CI</w> <name nymRef="#colali">COLAL<supplied reason="lost" cert="low">I</supplied></name></persName>
-                </ab>
+                <lb n="1"/><persName><name nymRef="#odaragnas"><unclear reason="damage">A</unclear>DARAGN</name> <w type="formula" lemma="maqqas">M<supplied reason="lost" cert="low">A</supplied>CI</w> <name nymRef="#?">COLAL<supplied reason="lost" cert="low">I</supplied></name></persName>
+                </ab>                
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>O'Kelly and Shee (1968, 43) and McManus (1991, 72-73) also read:</note>
+                    <note>O'Kelly and Shee (1968, 43) and McManus (1991, 72-73) read:</note>
                     <rdg>
-                    <persName><name nymRef="#adarun"><supplied reason="lost" cert="low">A</supplied>DARUN</name> <w type="formula" lemma="maqqas">M<supplied reason="lost" cert="low">A</supplied>CI</w> <name nymRef="#colali">COLAL<supplied reason="lost" cert="low">I</supplied></name></persName>
+                    <persName><name><supplied reason="lost">A</supplied>DARUN</name> <w>M<supplied reason="lost">A</supplied>CI</w> <name>COLAL<supplied reason="lost">I</supplied></name></persName>
                     </rdg>
                 </app>
                 </listApp>
@@ -157,9 +162,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!--<div type="translation">
                 <p></p>
             </div>-->
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            <div type="commentary">
+                <p>The earlier reading of the inital name, ADARUN, is perhaps rather a misreading for AꜝDARAGN = ỌDARAGN = OIr. Odrán, ModIr. Odhrán (Oran, Orin) (*udro- ‘water-related; otter’ + *-agno-).</p>
+            </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MCM1991"/>
