@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cluain Mhic Nóis | Clonmacnoise</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-OFF-001</idno>
+                 <idno type="CIIC">749</idno>
+                <idno type="CISP">CLMAC/152</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>                         
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">OF005-023018-</idno></p>
+                                    <material type="stone">Bone</material> 
+                                    <objectType key="monument">Cross-slab</objectType> 
+                                     <dimensions unit="m" source="SMR">
+                                         <height>0.30</height>
+                                          <width>0.56</width>
+                                         <depth>0.05</depth>
+                                     </dimensions> 
+                                    <desc type="decoration">Linear cross with wedge shaped terminals.</desc>
+                                </support>
+                                <condition>Badly worn with natural fissure. Cement damage (SMR record <idno type="SMR">OF005-023018-</idno>).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                 <layout style="horizontal" rend="stemlineR-L">On a stem-line on the face of the cross-slab beneath the Latin-letter inscription.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="townland">Clonmacnoise (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/41215">Cluain Mhic Nóis</ref></foreign>)</placeName> 
+                                <placeName type="county">Co. Offaly</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>53.32577, -7.98755</geo>
+                            <note>ITM Coordinates: 600829, 730613</note>
+                            </origPlace>
+                             <origDate/>
+                           </origin>
+                        <provenance type="found" when="1822">First discovered by Petrie in 1822. Lost before 1872 and refound probably between 1954 and 1958. One of hundreds of cross-slabs discovered at St. Ciarán's<ref target="https://monasticon.celt.dias.ie/2773">monastery of Clonmacnoise</ref>.
+                        </provenance>
+                        <provenance type="observed">On display at the Visitors Centre Clonmacnoise. 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<!--<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>-->
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+     <change when="2025-09-16" who="#NW">Added details and refs throughout and edition.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <!--<facsimile>
+      <!-\-  <graphic url="IRE/I-OFF/"><desc></desc></graphic>-\->
+      <!-\-  <media url="" mimeType="text/html"><desc><!-\\-3d model by Megan/Gary/? on SketchFab/3dhop-\\-></desc></media>-\->
+    </facsimile>  -->  
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:r-to-l"/><g ref="#feathermark"/>ᚁᚑᚉᚆᚈ<g ref="#feathermark"/>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:r-to-l"/>bocht<g ref="#feathermark"/>
+                </ab>
+            </div>
+           <!-- <div type="apparatus">
+                <listApp>
+                <app></app>
+                </listApp>
+            </div>-->
+            <div type="translation">
+                <p>5</p>
+            </div>
+           <!-- <div type="commentary">
+                <p></p>
+            </div>-->
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="LIO1961"/>
+                        <citedRange>98</citedRange>
+                    </bibl>
+                      <bibl><ptr target="MAC1949"/>
+                        <citedRange>59</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
