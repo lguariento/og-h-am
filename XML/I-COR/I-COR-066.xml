@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                     <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 in <date when="2003-09-16"/> and <date when="2006-04-20"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -73,14 +73,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.3</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Reused as a lintel in a souterrain, a section of the inscription measuring 0.45m (1ft. 6in.) in length <q>which would hold about 24 scores</q> is damaged on the second angle of the stone (Macalister 1945, 114). </condition>
+                                <condition>Reused as a lintel in a souterrain, a section of the inscription measuring 0.45m (1ft. 6in.) in length <q>which would hold about 24 scores</q> is damaged on the second angle of the stone (Macalister 1945, 114).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The inscription is on the flanking angles of one of the narrow edges of the stone and reads up-down (Macalister 1945, 114). The inscription begins 1.17m from the bottom of the first angle of the stone and there are traces of scores also visible further down the right hand angle (Archaeological Survey of Ireland, Field Report).</layout>
+                                <layout style="vertical" rend="arris">The inscription is on the flanking angles of one of the narrow edges of the stone and reads up-down (Macalister 1945, 114). The inscription begins 1.17m from the bottom of the first angle of the stone and there are traces of strokes on the right hand angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The execution technique of the inscription is <rs type="execution" key="other">unknown</rs>.</handNote>
+                            <handNote>This inscription appears to be <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">chisel cut</rs>.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -93,8 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1910">This stone was the seventh lintel and is one of six ogham stones (also <idno type="SMR">I-COR-062</idno>, <idno type="SMR">I-COR-063</idno>, <idno type="SMR">I-COR-064</idno>, <idno type="SMR">I-COR-065</idno>, <idno type="SMR">I-COR-067</idno>) used in the construction of a souterrain (<idno type="SMR">CO072-078002-</idno>) and was discovered in 1911. Two years later it was dismantled and moved to University College Cork.
                         </provenance>
-                        <provenance type="observed">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork (see <idno type="SMR">CO074-137----</idno>).
-                        </provenance>
+                        <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork, where it was examined for the OG(H)AM project in May 2024.</provenance>                        
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -134,11 +133,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-07" who="#POC">Deleted break attribute from lb element in edition to fix database display, commented out idno invNo because it was displaying empty, fixed placename display</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
 <change when="2025-06-28" who="#POC">Added in reading for time being, needs to be replace by OGHAM reading I expect</change>
-           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
+    <change when="2025-09-23" who="#NW">Edition update including removing extra lbs. Added app, translation and Archaeoptics 3d resp.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-066_Knockshanawee5.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-066-MAC1945-115-Knockshanawee-116.jpg"><desc>Drawing by Macalister (1945, 115)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
@@ -146,32 +148,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚁᚏᚐᚅᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚊᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚉ
-                            <lb n="2" style="text-direction:down" break="no"/><supplied reason="lost" resp="MAC1945">ᚑᚔ</supplied></w> <gap reason="lost" quantity="2" unit="character"/>ᚏ<supplied reason="lost" resp="MAC1945">ᚐ</supplied>ᚂ<gap reason="lost" quantity="2" unit="character"/></persName>
+                    <lb n="1" style="text-direction:up-top"/><persName><name nymRef="#branas">ᚁᚏᚐᚅᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚊᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚉ<supplied reason="lost" cert="medium">ᚑᚔ</supplied></w> <gap reason="lost" extent="unknown"/></persName>
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">BRANI</name> <w type="formula" lemma="maqqas">MAQQI</w> <w type="formula" lemma="muccoviias?">MUCC
-                            <lb n="2" style="text-direction:down" break="no"/><supplied reason="lost" resp="MAC1945">OI</supplied></w> <gap reason="lost" quantity="2" unit="character"/>R<supplied reason="lost" resp="MAC1945">A</supplied>L<gap reason="lost" quantity="2" unit="character"/></persName>
+                    <lb n="1" style="text-direction:up-top"/><persName><name nymRef="#branas">BRANI</name> <w type="formula" lemma="maqqas">MAQQI</w> <w type="formula" lemma="muccoviias?">MUCC<supplied reason="lost" cert="medium">OI</supplied></w> <gap reason="lost" extent="unknown"/></persName>
                 </ab>
-                <ab type="list">BRANI MAQQI MUCCOI[..]RAL[..]</ab>
+                <ab type="list">BRANI MAQQI MUCC[OI..]</ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 115) read:</note>
-                    <rdg source="MAC1945">
-                        <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">BRANI</name> <w type="formula" lemma="maqqas">MAQQI</w> <w type="formula" lemma="mucoi">MUCC
-                            <lb n="2" style="text-direction:down" break="no"/><supplied reason="lost" resp="MAC1945">OI</supplied></w> <gap reason="lost" quantity="2" unit="character"/>R<supplied reason="lost" resp="MAC1945">A</supplied>L<gap reason="lost" quantity="2" unit="character"/></persName>
-                    </rdg>
+                    <note>Macalister (1945, 115) read <q>the lower distal ends of a reversed R, followed by the tips of an L</q> (R[A]L) around the middle of the opposite angle. While there are traces of what may have been ogham strokes here, they are no longer legible. Macalister adds that <q>all of the lost consonants of the second name must have been of the H-group</q>. </note>                    
                 </app>
                 </listApp>
-            </div>-->
-            <!--<div type="translation">
-                <p></p>
-            </div>-->
-            <!--<div type="commentary">
+            </div>
+            <div type="translation">
+                <p>of Bran son of [the descendant of ...]</p>
+            </div>
+           <!-- <div type="commentary">
                 <p></p>
             </div>-->
             <div type="bibliography">
