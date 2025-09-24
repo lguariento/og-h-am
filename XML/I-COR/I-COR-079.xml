@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 in <date when="2003-09-18"/>, <date when="2006-04-19"/> and <date when="2006-04-20"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.45</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>Macalister (1945, 124) noted that the stone bears <q>unmistakable evidence of the attacks of a sledge-hammer or of some similar tool</q>. According to Macalister (1945, 126), <q>there has unquestionably been an earlier inscription on the stone, and the severe battering which has left evident marks has completely destroyed it</q>.</condition>
+                                <condition>Macalister (1945, 124) noted that the stone bears <q>unmistakable evidence of the attacks of a sledge-hammer or of some similar tool</q>. He also suggested (1945, 126) that <q>there has unquestionably been an earlier inscription on the stone, and the severe battering which has left evident marks has completely destroyed it</q>.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_up-up">The inscription is comprised of two lines reading up on both the dexter and sinister angles of the stone.</layout>
@@ -95,8 +95,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1841">Found by <persName>Mr. E. Hawkesworth</persName> and transferred to the Royal Cork Institution.
                         </provenance>
-                        <provenance type="observed">Now in University College Cork. 
-                        </provenance>
+                         <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork, where it was examined for the OG(H)AM project in May 2024.</provenance>            
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -135,11 +134,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, added p element to support, moved logainm ref around Irish placename, added citation details to image description</change>
 <change when="2025-04-15" who="#POC">Update execution key from punched to pocked, added attributes for filtering</change>
- <change when="2025-04-18" who="#POC">Updated material</change>
+<change when="2025-04-18" who="#POC">Updated material</change>
+<change when="2025-09-24" who="#NW">Edition update, including removing word division in lb, based on autopsy notes. Updated app and added 3d resp.</change>
+         
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-079_TulligMore.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-079-MAC1945-125-TulligMore-127.jpg"><desc>Drawing by Macalister (1945, 127)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
@@ -147,40 +149,41 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> ᚂᚐᚄ<unclear reason="ambiguous" quantity="1" unit="character"/>ᚑᚌ 
-                <lb n="2" style="text-direction:up" break="no"/><choice><unclear>ᚁ</unclear><unclear>ᚋ</unclear></choice><gap reason="lost" quantity="1" unit="character"/>ᚈᚈᚋ<gap reason="lost" quantity="1" unit="character"/>ᚉ<unclear>ᚌᚓ</unclear></persName>
+                <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name cert="medium">ᚂᚐᚄ<unclear quantity="1" unit="character"/>ᚑᚌ</name> 
+                <lb n="2" style="text-direction:up"/><choice><unclear>ᚁ</unclear><unclear>ᚋ</unclear></choice><gap reason="lost" quantity="1" unit="character"/>ᚈᚈᚋ<supplied reason="lost" cert="medium">ᚐ</supplied>ᚉᚇᚓ</persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>                    
-                    <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">MAQI</w> LAS<unclear reason="ambiguous" quantity="1" unit="character"/>OG 
-                    <lb n="2" style="text-direction:up" break="no"/><choice><unclear>B</unclear><unclear>M</unclear></choice><gap reason="lost" quantity="1" unit="character"/>TTM<gap reason="lost" quantity="1" unit="character"/>C<unclear>GE</unclear></persName>
+                    <lb n="1" style="text-direction:up"/><persName cert="medium"><w type="formula" lemma="maqqas">MAQI</w> <name cert="medium">LAS<unclear quantity="1" unit="character"/>OG</name> 
+                    <lb n="2" style="text-direction:up"/><choice><unclear>B</unclear><unclear>M</unclear></choice><gap reason="lost" quantity="1" unit="character"/>TTM<supplied reason="lost" cert="medium">A</supplied>CDE</persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                <!--<app n="1">
+                <app n="1">
                     <note>McManus (2004, 20) read:</note>
                     <rdg source="MCM2004">
-                        <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="maqqas">MAQI</w> LAS<unclear reason="ambiguous" quantity="1" unit="character"/>OG 
-                            <lb n="2" style="text-direction:up" break="no"/><choice><unclear>B</unclear><unclear>M</unclear></choice><gap reason="lost" quantity="1" unit="character"/>TTM<gap reason="lost" quantity="1" unit="character"/>C<unclear>GE</unclear></persName>                     
+                        <lb n="1" style="text-direction:up"/>MAQI LAS?OG 
+                        <lb n="2" style="text-direction:up"/>B/M[ ]TTM[ ]Cge                    
                     </rdg>
-                </app>-->
+                </app>
                     <app n="1">
                         <note>Macalister (1945, 124) read:</note>
                         <rdg source="MAC1945">
-                            <lb n="1" style="text-direction:up"/><persName>MAQILASPOG
-                <lb n="2" style="text-direction:up" break="no"/>B<gap reason="lost" quantity="1" unit="character"/>TTMACDE</persName>
+                            <lb n="1" style="text-direction:up"/>MAQILASPOG
+                            <lb n="2" style="text-direction:up"/>B TTMACDE
                         </rdg>
                     </app>
+                    <app n="2"><note>The character following the S in the first name is unclear and is obscured by the supporting bracket. Macalister (1945, 125) suggested taking this as a error for the epigrpahic I-forfid (an X shape to the right of the stemline) and suggested the interpretation MAQIL ASPOG BENEDICAT MAC DE (Translation: May the son of God bless Bishop Maqil), which is very doubtful. McManus tentatively favoured Macalister's initial reading of this character as a disjoined X-forfid.</note></app>
                 </listApp>
             </div>
-            <div type="translation">
+           <!-- <div type="translation">
                 <p></p>
             </div>
             <div type="commentary">
                 <p></p>
-            </div>
+            </div>-->
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
