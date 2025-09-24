@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Alistair Carty</name>
+                     <orgName>Archaeoptics</orgName>
+                <resp>Laser scanning of UCC ogham collection with Minolta VI900 in <date when="2003-09-18"/> and <date when="2006-04-20"/> (before and after conservation) but most of the (proprietary) data remains unprocessed.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -67,20 +67,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <material type="stone">Sandstone</material> <!--Laminated green medium-grained sandstone (Dr Ivor McCarthy, UCC 2000)-->
                                     <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
-                                         <dim/>
-                                            <height>1.6</height>
-                                            <width>0.23</width>
-                                            <depth>0.23</depth>
+                                            <height>1.60</height>
+                                            <width>0.22</width>
+                                            <depth>0.20</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The inscription is in poor condition, the letters are <q>worn and spalled, but all legible with a little trouble</q> (Macalister 1945, 126-127). Macalister (1945, 127) noted that the inscription on the sinister edge, <q>in the second word all but the Q is lost by spalling</q> and on the dexter edge, <q>the EL of the first word, the vowels of MAQI, and the first I of CULIDOVI are broken</q>.</condition>
+                                <condition>The inscription is in poor condition, the letters are <q>worn and spalled, but all legible with a little trouble</q> (Macalister 1945, 126-127). Macalister (1945, 84) recorded the height of the stone as 1.60m (5 ft. 3 in.) but only 1.24m are currently accessible. All of the ogham stones in the UCC collection underwent conservation in 2006. The stones are currently in display cases and held in position by brackets.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up-up">The inscriptions begins on the sinister edge and continues on the dexter edge. The inscription runs up on both edges of the stone.</layout>
+                                <layout style="vertical" rend="arris_up-up">Macalister (1945, 127) suggested that the inscriptions begins on the sinister (right) edge, running upwards) and continues on the dexter edge (also running upwards).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>.<height/>
+                            <handNote>The inscription appears to be <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. The strokes are of medium length and quite evenly spaced.<height/>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -88,15 +87,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Carrigagulla (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/11451">Carraig an Ghiolla</ref></foreign>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
-                                <geo/>
-                            <note>Coordinates unknown</note>
+                                <geo>52.015, -8.909</geo>
+                            <note>Coordinates approximate to townland</note>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">The precise original location is unknown. The stone was found while digging peat in a bog in this townland and was purchased by Cork Public Museum in <date>1940</date>.
+                        <provenance type="found">The precise original location is unknown. The stone was found while digging peat in a bog in this townland and was purchased by Cork Public Museum in <date>1940</date> (Macalister 1945, 126). This stone was not included in Canon Power’s account of the ogham stones at University College Cork in 1932, but it was present in 1945 when Macalister published his Corpus.
                         </provenance>
-                        <provenance type="observed">Now in University College Cork.
-                        </provenance>
+                        <provenance type="observed" when="2024">Now on permanent display in the Stone Corridor (‘Rúin na gCloch / Stories in Stone’ exhibition), University College Cork, where it was examined for the OG(H)AM project in May 2024.</provenance>            
                     </history>
                 </msDesc>
             </sourceDesc>
@@ -136,11 +134,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-07" who="#POC">Added placename to title, moved logainm ref around Irish placename, added citation details to image description</change>
 <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
-           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+<change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>  
+<change when="2025-09-24" who="#NW">Edition update, including removing word division in lb. Updated apparatus, translation and added 3d resp and approx coords.</change>    
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+         <graphic url="IRE/I-COR/I-COR-080_Carrigagulla.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-COR/I-COR-080-MAC1945-127-Carrigagulla-128.jpg"><desc>Drawing by Macalister (1945, 127)</desc></graphic>
         <media url="https://archive.archaeopticscloud.com/permalink/assemblages/ucc_ogham" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
@@ -148,45 +149,38 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">ᚇᚑᚃᚓᚈᚔ</name> <w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied>ᚊ<supplied reason="lost">ᚔ</supplied></w> <name nymRef="#">ᚂᚑᚉᚐᚏᚓᚅᚐ
-                    <lb n="2" style="text-direction:across" break="no"/>ᚄ</name> 
-                    <lb n="3" style="text-direction:up"/><w type="formula" lemma="celi">ᚉ<supplied reason="lost">ᚓᚂ</supplied>ᚔ</w> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost">ᚐ</supplied>ᚊ<supplied reason="lost">ᚔ</supplied></w> <name nymRef="#">ᚉᚒᚂᚔᚇ
-                    <lb n="4" style="text-direction:across" break="no"/>ᚑᚃᚔ</name></persName> 
+                    <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#dovet(i)as">ᚇᚑᚃᚓᚈᚔ</name> <w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied><unclear reason="damage">ᚉ</unclear><supplied reason="lost">ᚔ</supplied></w> <name nymRef="#l?">ᚂ<unclear reason="damage">ᚑ</unclear>ᚉ<supplied reason="lost">ᚐ</supplied>ᚏᚓᚅᚐᚄ</name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="celias">ᚉ<supplied reason="lost">ᚓᚂ</supplied><damage>ᚔ</damage></w> <w type="formula" lemma="maqqas">ᚋᚐᚊ<supplied reason="lost">ᚔ</supplied></w> <name nymRef="#culidovas">ᚉᚒᚂ<damage>ᚔ</damage>ᚇᚑᚃᚔ</name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">DOVETI</name> <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">LOCARENA
-                        <lb n="2" style="text-direction:across" break="no"/>S</name> 
-                    <lb n="3" style="text-direction:up"/><w type="formula" lemma="celi">C<supplied reason="lost">EL</supplied>I</w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">CULID
-                        <lb n="4" style="text-direction:across" break="no"/>OVI</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#dovet(i)as">DOVETI</name> <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied><unclear reason="damage">C</unclear><supplied reason="lost">I</supplied></w> <name nymRef="#l?">L<unclear reason="damage">O</unclear>C<supplied reason="lost">A</supplied>RENAS</name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="celias">C<supplied reason="lost">EL</supplied><damage>I</damage></w> <w type="formula" lemma="maqqas">MAQ<supplied reason="lost">I</supplied></w> <name nymRef="#culidovas">CUL<damage>I</damage>DOVI</name></persName>
                 </ab>
-                <ab type="list">DOVETI MAQI LOCARENAS CELI MAQI CULIDOVI</ab>
+                <ab type="list">DOVETI MACI LOCARENAS CELI MAQI CULIDOVI</ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 127) read:</note>
-                <rdg source="MAC1945">
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#">DOVETI</name> <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">LOCARENA
-                        <lb n="2" style="text-direction:across" break="no"/>S</name> 
-                    <lb n="3" style="text-direction:up"/><w type="formula" lemma="celi">C<supplied reason="lost">EL</supplied>I</w> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied>Q<supplied reason="lost">I</supplied></w> <name nymRef="#">CULID
-                        <lb n="4" style="text-direction:across" break="no"/>OVI</name></persName>
-                </rdg>
-                </app>
+                    <note>Macalister (1945, 127) noted, regarding the inscription on the sinister edge (line 1), that <q>in the second word all but the Q is lost by spalling</q>. In fact only the remains of four strokes (C) are disernible.</note>
+                </app>                
                 </listApp>
-            </div>-->
-            <!--<div type="translation">
-                <p></p>
-            </div>-->
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            </div>
+            <div type="translation">
+                <p>of Dubad (or Dubthae) son of L... client (or PN Céile) son of Cúldub</p>
+            </div>
+            <div type="commentary">
+                <p>Two of the names in this inscriptions appear to correspond to names found later (DOVETI as Dubad (o-stem) or Dubthae (io-stem) and CULIDOVI as Cúldub), both containing the word <foreign xml:lang="sga"><ref target="https://dil.ie/18985">dub</ref></foreign> 'black' and the second also probably containing the word <foreign xml:lang="sga"><ref target="https://dil.ie/13749">cúl</ref></foreign> 'back (of head)'. The name LOCARENAS has not been identified.</p>
+            </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>126-127, no. 128</citedRange>
                     </bibl>
+                     <bibl><ptr target="MCM2004"/>
+                         <citedRange>22, no. 25</citedRange>
+                     </bibl>
                 </listBibl>
             </div>
         </body>
