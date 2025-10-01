@@ -136,8 +136,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <change when="2025-02-13" who="#POC">Proofreading changes</change>
     <change when="2025-02-14" who="#POC">Proofreading changes</change>
     <change when="2025-04-04" who="#NW">Added new attributes for filtering. Added repository coordinates using altIdentifier.</change> 
-   <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change> 
-           <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition, fix bibl reference</change>         
+    <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change> 
+    <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition, fix bibl reference</change>  
+    <change when="2025-10-01" who="#NW">Removed orig tags from edition and added app instead. Removed ab list.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -169,19 +171,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">    
                  <div type="textpart" n="2">
                     <ab>
-                        <lb n="1" style="text-direction:up-top-down"/><orig>ᚇᚇᚔᚄᚔᚋᚑ<space quantity="2" unit="stroke"/>ᚉᚊᚒᚄᚓᚂ</orig>                     
+                        <lb n="1" style="text-direction:up-top-down"/>ᚇᚇᚔᚄᚔᚋᚑ<space quantity="2" unit="stroke"/>ᚉᚊᚒᚄᚓᚂ                     
                     </ab>
                 </div>
             </div>
                  <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga" resp="#NW">
                     <ab>
-                        <lb n="1" style="text-direction:up-top-down"/><orig>DDISIMO<space quantity="2" unit="stroke"/>CQUSEL</orig>                    
-                    </ab>
-                     <ab type="list">DDISIMO (vac.) CQUSEL</ab>
+                        <lb n="1" style="text-direction:up-top-down"/>DDISIMO<space quantity="2" unit="stroke"/>CQUSEL                    
+                    </ab>                    
                 </div>
-            <div type="apparatus"/>
-                 
-            
+            <div type="apparatus">
+                <listApp>
+                    <app n="1"><note>The inscription around the second face (2) is clear but incomprehensible.</note></app>
+                </listApp>
+            </div>       
             <div type="translation">
                 <div type="textpart" n="1">
                 <p>1: of <persName xml:lang="sga">Lugáed</persName> son of <persName xml:lang="sga">Luguid</persName></p>
