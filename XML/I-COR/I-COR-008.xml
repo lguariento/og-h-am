@@ -143,7 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#POC">Added attributes for filtering</change> 
     <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>  
     <change when="2025-08-22" who="#NW">Added character unit to gap in edition (test).</change>
-    
+    <change when="2025-10-08" who="#NW">added precision to gap quantity (stroke) in edition.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,12 +155,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="obscured">ᚇ</unclear>ᚉᚐ<gap reason="lost" unit="stroke" atMost="5"/>ᚉᚔᚑᚈ
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="obscured">ᚇ</unclear>ᚉᚐ<gap reason="lost" quantity="5" unit="stroke" precision="medium"/>ᚉᚔᚑᚈ
                 </ab>
              </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="obscured">D</unclear>CA<gap reason="lost" unit="stroke" atMost="5"/>CIOT
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="obscured">D</unclear>CA<gap reason="lost" quantity="5" unit="stroke" precision="medium"/>CIOT
                 </ab>
                 <ab type="list">[---]DCA[---]CIOT</ab>
             </div>
