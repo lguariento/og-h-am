@@ -85,7 +85,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <origin>
                             <origPlace corresp="#findspot">
                                 <placeName type="townland">Ardocheasty (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/50546">Ard Ó Séasta</ref></foreign>)</placeName>, <placeName type="town">Ardmore (<foreign xml:lang="ga">Aird Mhór</foreign>)</placeName> <placeName type="county">Co. Waterford</placeName>, <placeName type="country">Ireland</placeName>
-                                <geo>51.948752, -7.725680</geo>
+                                <geo>51.948696, -7.725633</geo>
                                 <note>ITM Coordinates (approximate): 618842, 577448</note>
                             </origPlace>
                             <origDate/>
@@ -130,13 +130,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added ITM coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, moved logainm ref around Irish placecname, added citation details to image description, updated eDIL refs in commentary</change>
-     <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
- <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change> 
-           <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering.</change>
+    <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change> 
+    <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition</change>     
+    <change when="2025-10-21" who="#NW">Updated find coords and added image path to photo.</change>
+
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+         <graphic url="IRE/I-WAT/I-WAT-002_Ardmore1.jpg"><desc>Photograph by Nora White</desc></graphic>
         <graphic url="IRE/I-WAT/I-WAT-002-MAC1945-259-Ardocheasty.jpg"><desc>Drawing by Macalister (1945, 259)</desc></graphic>
        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by the Discovery Programme not currently on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
