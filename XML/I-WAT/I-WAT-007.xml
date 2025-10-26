@@ -7,7 +7,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>An Drom Mór | Dromore 3</title>
+                <title>An Drom Mór | Dromore 3 (Cill Tíre)</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -64,7 +64,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA029-042010-</idno></p>
-                                    <material type="stone">Sandstone</material> 
+                                    <material type="stone">Sandstone</material> <!--'fine-grained sandstone' (Parkes/Moffat 2011, unpubl survey)-->
                                     <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                          <height>1.42</height>
@@ -86,15 +86,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <history>
                         <origin>
                             <origPlace corresp="#findspot">
-                                <placeName type="ecclesiastical_site">Kiltera/Kilteera (<foreign xml:id="ga"><ref target="https://www.logainm.ie/en/1421662">Cell Tíre</ref></foreign>)</placeName>, <placeName type="townland">Dromore (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/49454">An Drom Mór</ref></foreign>)</placeName>, <placeName type="county">Co. Waterford</placeName>, <placeName type="country">Ireland</placeName>
+                                <placeName type="ecclesiastical_site">Kiltera/Kilteera (<foreign xml:id="ga"><ref target="https://www.logainm.ie/en/1421662">Cill Tíre</ref></foreign>)</placeName>, <placeName type="townland">Dromore (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/49454">An Drom Mór</ref></foreign>)</placeName>, <placeName type="county">Co. Waterford</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>52.0743, -7.8477</geo>
                             <note>ITM Coordinates (approximate): 610460, 591390</note>
                             </origPlace>
                             <origDate notBefore="0525" notAfter="0575" precision="low" datingMethod="#julian" evidence="linguistic">mid sixth century A.D.</origDate>
                         </origin>
-                        <provenance type="found" when="1934">Found at Kiltera burial ground during investigation by <persName><surname>Macalister</surname></persName> (1935, 1-16) in <date>1934</date>. A fragment of an ogham stone (I-WAT-L01) with one letter was also found (Macalister 1935, 8), but its whereabouts is now unknown.
+                        <provenance type="found" when="1934">Found in Kiltera/Cill Tíre burial ground (WA029-042002-) during investigation by <persName><surname>Macalister</surname></persName> (1935, 1-16) in <date>1934</date>. The burial ground is part of a possible early ecclesiastical site (<ref target="https://monasticon.celt.dias.ie/2372">Cell Tíre</ref>) although there is no visible evidence of a church. Marked as a D-shaped graveyard (dims. c. 35m N-S; c. 40m E-W) with the straight edge at the west on the 1840 ed. of the OS 6-inch map. There are two previously discovered ogham stones (I-WAT-005 and I-WAT-006) still on site, which form part of the bank of stone and trees at the western end of the enclosure. A fragment of an ogham stone (I-WAT-L01) with one letter (possibly D or L) was also found (Macalister 1935, 8), but its whereabouts is now unknown.
                         </provenance>
-                        <provenance type="observed" when="2013">National Museum of Ireland (examined and recorded in 3D in <date>January 2013</date>). 
+                        <provenance type="observed" when="2013">In the National Museum of Ireland collection. Examined and recorded in 3D by Discovery Programme in <date>January 2013</date> as part of the Ogham in 3D project. 
                         </provenance>
                     </history>
                 </msDesc>
@@ -134,7 +134,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-10-09" who="#NW">Added mention of lost fragment I-WAT-L01</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, added citation details to image description</change>
     <change when="2025-04-04" who="#NW">Added new attributes for filtering. Added repository coordinates using altIdentifier.</change> 
-      <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change>  
+    <change when="2025-04-15" who="#POC">Update execution key from punched to pocked</change> 
+    <change when="2025-10-26" who="#NW">Updated orig place, provenance and added Cill Tíre to title and Parkes/Moffat ref to material</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
