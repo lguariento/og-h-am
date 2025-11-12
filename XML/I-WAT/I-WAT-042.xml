@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An tOileán | Island</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>                
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                   <name>Gary Devlin</name>
+                     <orgName>Discovery Programme</orgName>
+                <resp>3D laser scanned using Polhemus FastSCAN Cobra scanner <date when="2012-10-25"/> and later processed
+                        using Geomagic software</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WAT-042</idno>
+                 <idno type="CIIC">300</idno>
+                <idno type="CISP">OLDIS/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA032-029002</idno></p>
+                                    <material type="stone">Sandstone</material> <!--'Slate' (MAC1945); 'clay-slate' (Brash)-->
+                                    <objectType key="monument">Slab</objectType> 
+                                     <dimensions unit="m" source="BRA1879">
+                                         <height>1.78</height>
+                                            <width>0.48</width>
+                                            <depth>0.15</depth> <!--(converted from Brash, Macalister similar)-->                                          
+                                     </dimensions>                                   
+                                </support>
+                                <condition>The stone is broken into two fragments.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">Inscribed up-top-down clockwise. <q>Commencing on the left angle, 2' 6" (0.76m) from the base</q> (Brash 1879, 254)</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription has been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in quite bold strokes. The vowel strokes, where they survive, are distinctively notched or wedge-shaped.
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot">
+                                <placeName type="townland">Island (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/ga/................">An Drom Mór</ref></foreign>)</placeName> 
+                                <placeName type="county">Co. Waterford</placeName> 
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.0743, -7.8477</geo>
+                            <note>ITM Coordinates (approximate): 610460, 591390</note>
+                            </origPlace>
+                            <origDate notBefore="0400" notAfter="0475" precision="low" evidence="linguistic">First half of early second half of the fifth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1879">Brash (1879, 254) notes that he saw the stone <q>broken across</q> and lying alone in the centre of the enclosure, which is situated just below the summit of a gentle NE-facing slope, with sea cliffs c. 130m to the S. This is probably an early ecclesiastical site (SMR ID: <idno type="SMR">WA032-029001-</idno>). The enclosure is a large, grass-covered circular area (diam. 85.5m E-W; 83.5m N-S) defined by an overgrown earthen field bank with internal and external stone-facing. The entrance at W is possibly modern (NMS database, SMR ID: <idno type="SMR">WA032-029001-</idno>). Brash (1879, 253) and Westropp (1906, 250) also both mention a local tradition that there was a killeen (unbaptised children's burial ground) at the site.
+                        </provenance>
+                        <provenance type="observed" when="2012">Remains in situ, lying just inside the perimeter close to the modern entrance with a small cross-carved stone (SMR ID: <idno type="SMR">WA032-029004-</idno>) lying beside it (ASI database, www.archaeology.ie. Examined and recorded in 3D by Discovery Programme in <date>2012</date> as part of the Ogham in 3D project. 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
+    <change when="2025-11-07" who="#NW">Added and encoded details, including edition.</change>
+    
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+         <graphic url="IRE/I-WAT/I-WAT-005_Dromore1.jpg"><desc>Photograph by Nora White</desc></graphic> 
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by the Discovery Programme not currently on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body> <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>
+                    <persName><name nymRef="#coelabuts">ᚉᚑᚂᚂᚐᚁᚑᚈ</name><space unit="stroke" quantity="1"/><w type="formula" lemma="muccoviias?">ᚋᚒᚉ<supplied reason="lost">ᚑ</supplied><damage>ᚔ</damage></w> <name nymRef="#lugus?">ᚂ<unclear reason="damage">ᚒ</unclear>ᚌ<supplied reason="lost" cert="low">ᚐ</supplied></name>                    
+                        <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">ᚋᚐ<damage>ᚊ</damage><supplied reason="lost">ᚔ</supplied></w> <name nymRef="#lobacunas">ᚂᚑᚁᚐ<damage>ᚉᚉ</damage>ᚑᚅ<unclear reason="damage">ᚐ</unclear></name></persName>
+                    </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>CUN[A]NETAS MAQI MMUC[OI] NETASEGAMONAS 
+                     <persName><name nymRef="#coelabuts">COLLABOT</name><space unit="stroke" quantity="1"/><w type="formula" lemma="muccoviias?">MUC<supplied reason="lost">O</supplied><damage>I</damage></w> <name nymRef="#lugus?">L<unclear reason="damage">U</unclear>G<supplied reason="lost" cert="low">A</supplied></name>
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas">MA<damage>Q</damage><supplied reason="lost">I</supplied></w> <name nymRef="#lobacunas">LOBA<damage>CC</damage>ON<unclear reason="damage">A</unclear></name></persName>
+               </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1"><note>As McManus indicates in his reading, there is space for an expected A between the two Ns of CUN[A]NETAS. It makes more sense to read MM than G for the two strokes before UC[OI] (McManus 1991 7, 94).</note></app>                
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>of <persName xml:lang="sga">Conda</persName> son of the descendant of <persName xml:lang="sga">Nad-Segamon</persName></p>
+            </div>
+            <div type="commentary">
+                <p>This is one of the inscriptions listed by McManus (1991, 93-4) to be among the earliest in the corpus, with pre-apocope -as endings and showing no trace of vowel affection. It may be dated to the first half, or the early second half, of the fifth century (McManus 1991, 97). The personal name CUN[A]NETAS (OIr. <persName xml:lang="sga">Conda</persName> for Conne) contains the commonly occuring element CUNA- and may be translated 'champion of wolves' (McManus 1991, 102, 106).</p>
+                 <p>The inscription continues on the second angle with a kin group or sept name, MUC[OI] NETASEGAMONAS ‘the kin of <foreign xml:lang="sga"><ref target="https://dil.ie/33151">Nad</ref>-Segamon</foreign> (‘champion of *<foreign>Segamū</foreign>')'. It is noteworthy that a <persName xml:lang="sga">Nia Segamon</persName> is listed in the historical sources as a prehistoric king of Cashel and that his 'supposed grandson, <persName xml:lang="sga">Lugaid Luaigni</persName>, is also listed as a prehistoric king of Munster and Ireland' (Bhreathnach 2014, 43-44). Although it is impossible to say for certain, it may be that this inscription commemorates this important king. The fact that MUCOI NETASEGAMONAS is also found on an ogham stone at nearby Ardmore (I-WAT-002) and possibly also Knockboy (I-WAT-033) may suggest that this was a dynasty which controlled the area of west Waterford in the 5th century. </p>
+            </div>
+            <div type="bibliography">
+                 <listBibl> 
+                     <bibl><ptr target="BRA1879"/>
+                        <citedRange>253-254</citedRange>
+                    </bibl>
+                      <bibl><ptr target="WES1906"/>
+                        <citedRange>250-251</citedRange>
+                    </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>290</citedRange>
+                    </bibl>
+                      <bibl><ptr target="MCM1991"/>
+                        <citedRange>93-4, 97, 102, 106</citedRange>
+                    </bibl>
+                     <bibl><ptr target="MOO1999"/>
+                     <citedRange>197</citedRange>
+                     </bibl>                                    
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
