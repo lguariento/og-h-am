@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition, not sure how to represent the alternative uilleann or rainbow forfid in the ab list so I left a question mark and added a short sentence to highlight its presence in the apparatus</change>         
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and added Forsyth ref and provenance observed details.</change>
+    <change when="2025-11-22" who="#NW">Updated edition encoding adding glyphs where missing, especially bound characters (most).</change>
     
 </listChange>
 </revisionDesc>
@@ -150,19 +151,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><g ref="#forfid_X"/>ᚈᚈ<g ref="#forfid_rainbow"/>ᚉᚒᚆ<unclear reason="worn"><g ref="#forfid_X"/></unclear>ᚈᚈᚄ<g ref="#punctuation_double"/> <g ref="#hammerhead_A"/>ᚆ<g ref="#forfid_X"/>ᚆᚆᚈᚈ<g ref="#s-shaped_A"/>ᚅᚅᚅ<g ref="#punctuation_double"/> ᚆᚉᚉᚃᚃ<g ref="#angled_E"/>ᚃᚃ<g ref="#punctuation_double"/> ᚅᚓᚆᚆᚈᚑ<unclear reason="worn">ᚅ</unclear>
+                    <lb n="1" style="text-direction:up"/><w><g ref="#forfid_X"/><g ref="#bound_T"/><g ref="#bound_T"/><g ref="#forfid_rainbow"/><g ref="#bound_C"/><g ref="#bound_U"/>ᚆ<g ref="#forfid_disjoined-X"/><g ref="#bound_T"/><g ref="#bound_T"/><g ref="#bound_S"/></w><g ref="#punctuation_double"/> <w><g ref="#hammerhead_A"/>ᚆ<g ref="#forfid_disjoined-X"/>ᚆᚆ<g ref="#bound_T"/><g ref="#bound_T"/><g ref="#s-shaped_A"/><g ref="#bound_N"/><g ref="#bound_N"/><g ref="#bound_N"/></w><g ref="#punctuation_double"/> <w>ᚆ<g ref="#bound_C"/><g ref="#bound_C"/><g ref="#bound_V"/><g ref="#bound_V"/><g ref="#angled_E"/><g ref="#bound_V"/><g ref="#bound_V"/></w><unclear reason="eccentric_ductus"><g ref="#punctuation_double"/></unclear> <w><g ref="#bound_N"/><g ref="#bound_E"/>ᚆᚆ<g ref="#bound_T"/><g ref="#bound_O"/><g ref="#bound_N"/><unclear reason="worn"><g ref="#bound_N"/></unclear></w>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>XTT<g ref="#forfid_rainbow"/>CUH<unclear reason="worn">X</unclear>TTS<g ref="#punctuation_double"/> <g ref="#hammerhead_A"/>HXHHTT<g ref="#s-shaped_A"/>NNN<g ref="#punctuation_double"/> HCCVV<g ref="#angled_E"/>VV<g ref="#punctuation_double"/> NEHHTO<unclear reason="worn">N</unclear>
+                    <lb n="1" style="text-direction:up"/><w><g ref="#forfid_X" type="interpretation_X"/><g ref="#bound_T"/><g ref="#bound_T"/><g ref="#forfid_rainbow"/><g ref="#bound_C"/><g ref="#bound_U"/>H<g ref="#forfid_disjoined-X"/><g ref="#bound_T"/><g ref="#bound_T"/><g ref="#bound_S"/></w><g ref="#punctuation_double"/> <w><g ref="#hammerhead_A"/>H<g ref="#forfid_disjoined-X"/>HH<g ref="#bound_T"/><g ref="#bound_T"/><g ref="#s-shaped_A"/><g ref="#bound_N"/><g ref="#bound_N"/><g ref="#bound_N"/></w><g ref="#punctuation_double"/> <w>H<g ref="#bound_C"/><g ref="#bound_C"/><g ref="#bound_V"/><g ref="#bound_V"/><g ref="#angled_E"/><g ref="#bound_V"/><g ref="#bound_V"/></w><unclear reason="eccentric_ductus"><g ref="#punctuation_double"/></unclear> <w><g ref="#bound_N"/><g ref="#bound_E"/>HH<g ref="#bound_T"/><g ref="#bound_O"/><g ref="#bound_N"/><unclear reason="damage"><g ref="#bound_N"/></unclear></w>
                 </ab>
-                <ab type="list">XTT?CUHXTTS: AHXHHTTANNN: HCCVVEVV: NEHHTON</ab>
+               <!-- <ab type="list">XTT?CUHXTTS: AHXHHTTANNN: HCCVVEVV: NEHHTON</ab>-->
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>The third letter of the inscription is the alternative Uilleann (UI) forfid. The phonetic value of this letter is uncertain.</note>                    
+<note>The third letter of the inscription looks like the alternative Uilleann (UI) forfid. The phonetic value of this letter is uncertain.</note>                    
                 </app>
                 </listApp>
             </div>
