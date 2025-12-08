@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition</change>     
     <change when="2025-10-21" who="#NW">Updated find coords and added image path to photo.</change>
     <change when="2025-11-08" who="#NW">Added approx. date and updated persname segmentation.</change>
+    <change when="2025-12-08" who="#NW">Updated lbs in edition</change>
 
 
 </listChange>
@@ -152,21 +153,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>
-                     <persName><name nymRef="#lugudics">ᚂᚒᚌᚒᚇᚓᚉᚉᚐᚄ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊ<unclear reason="faded">ᚔ</unclear><gap reason="lost" extent="unknown"/></w>
-                    <lb n="2" style="text-direction:down"/>
-                        <w type="formula" lemma="muccoviias?"><supplied reason="lost" cert="high">ᚋᚒ</supplied><unclear reason="damage">ᚉ</unclear>ᚑᚔ</w> <name nymRef="#neta-Segamū">ᚅᚓᚈᚐᚄᚓᚌᚐᚋᚑᚅᚐᚄ</name></persName>
-                    <lb n="3" style="text-direction:up"/>                         
+                    <lb n="1" style="text-direction:up-down"/>
+                     <persName><name nymRef="#lugudics">ᚂᚒᚌᚒᚇᚓᚉᚉᚐᚄ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊ<unclear reason="faded">ᚔ</unclear><gap reason="lost" extent="unknown"/></w> <w type="formula" lemma="muccoviias?"><supplied reason="lost" cert="high">ᚋᚒ</supplied><unclear reason="damage">ᚉ</unclear>ᚑᚔ</w> <name nymRef="#neta-Segamū">ᚅᚓᚈᚐᚄᚓᚌᚐᚋᚑᚅᚐᚄ</name></persName>
+                    <lb n="2" style="text-direction:up"/>                         
                         <orig>ᚇᚑᚂᚐᚈᚔᚁᚔᚌ<unclear>ᚐᚔ</unclear>ᚄᚌᚑ</orig><gap reason="lost" extent="unknown"/>
                     </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>  
-                    <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#lugudics">LUGUDECCAS</name> <w type="formula" lemma="maqqas">MAQ<unclear reason="faded">I</unclear><gap reason="lost" extent="unknown"/></w>
-                    <lb n="2" style="text-direction:down"/>
-                        <w type="formula" lemma="muccoviias?"><supplied reason="lost" cert="high">MU</supplied><unclear reason="damage">C</unclear>OI</w> <name nymRef="#neta-Segamū">NETASEGAMONAS</name></persName>
-                    <lb n="3" style="text-direction:up"/>                         
+                    <lb n="1" style="text-direction:up-down"/>
+                    <persName><name nymRef="#lugudics">LUGUDECCAS</name> <w type="formula" lemma="maqqas">MAQ<unclear reason="faded">I</unclear></w><gap reason="lost" extent="unknown"/> <w type="formula" lemma="muccoviias?"><supplied reason="lost" cert="high">MU</supplied><unclear reason="damage">C</unclear>OI</w> <name nymRef="#neta-Segamū">NETASEGAMONAS</name></persName>
+                    <lb n="2" style="text-direction:up"/>                         
                         <orig>DOLATIBIG<unclear>AI</unclear>SGO</orig><gap reason="lost" extent="unknown"/>
                 </ab>
                 <ab type="list">LUGUDECCAS MAQI[---] MUCOI NETASEGAMONAS DOLATIBIGAISGO[---] </ab>
