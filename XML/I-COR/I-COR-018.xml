@@ -79,7 +79,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham strokes are quite finely <rs type="execution" key="scored">scored</rs> in the 'Cork style' and, despite the slightly over-lapping lines on the face (noted above), the layout is mainly even and neat, except for the erratic R near the top of the stone. The vowel strokes are quite long, almost as long as some of the consonant strokes. This, along with the absence of a clear stemline, makes reading the text a bit difficult but the reading is quite certain.
+                            <handNote>The ogham strokes are quite finely <rs type="execution" key="scored">scored</rs> in the 'Cork style' and, despite the slightly over-lapping lines on the face (noted above), the layout is mainly even and neat, except for the erratic R near the top of the stone. The vowel strokes are quite long, almost as long as some of the consonant strokes. This, along with the absence of a clear stemline, makes following the text a bit difficult but the reading is quite certain.
                                 <height/>
                             </handNote>
                         </handDesc>
@@ -91,7 +91,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.681206, -8.847020</geo>
                             <note>ITM Coordinates: 541423, 547985</note>
                             </origPlace>
-                            <origDate notBefore="0400" notAfter="0475" precision="medium" evidence="linguistic">First half, or early second half, of the fifth century</origDate>
+                            <origDate notBefore="0400" notAfter="0500" precision="medium" evidence="linguistic">Probably fifth century</origDate>
                         </origin>
                         <provenance type="found" when="1841">Found by <persName>Z. Hawkes</persName> and <persName>Windele</persName> in a souterrain (<idno type="SMR">CO122-049002-</idno>) in <date>1841</date>. Two other ogham stones (I-COR-017- and I-COR-019) were discovered in the souterrain. This stone is the seventh and last lintel in the souterrain. All three stones were <q>'taken out of the cave sometime toward the end of the nineteenth century, by the proprietor, the late Mr. R. Bence Jones, and placed on a rockery in his garden: but afterwards acquired from him by the Royal Irish Academy'</q> (Macalister 1945, 73). 
                         </provenance>
@@ -140,6 +140,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change>
     <change when="2025-05-20" who="#NW">Updated support desc (stone type, height and layout encoding) and added repository coordinates.</change>
     <change when="2025-05-20" who="#NW">Updated execution encoded text from chiselled to scored</change>
+    <change when="2025-12-15" who="#NW">Added David's linguistic analysis</change>
+
     
 </listChange>
 </revisionDesc>
@@ -153,23 +155,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunagusus">ᚉᚒᚅᚐᚌᚒᚄᚑᚄ</name> 
-                    <lb n="2" style="text-direction:up-across"/><w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚑᚔ</w> <name nymRef="#viragnas">ᚃᚔᚏᚐᚌᚅᚔ</name></persName>    
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunagussus">ᚉᚒᚅᚐᚌᚒᚄᚑᚄ</name> 
+                    <lb n="2" style="text-direction:up-across"/><w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚑᚔ</w> <name nymRef="#viragnas">ᚃᚔ<unclear reason="eccentric_ductus">ᚏ</unclear>ᚐᚌᚅᚔ</name></persName>    
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunagusus">CUNAGUSOS</name> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunagussus">CUNAGUSOS</name> 
                     <lb n="2" style="text-direction:up-across"/><w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="muccoviias?">MUCOI</w> <name nymRef="#viragnas">VI<unclear reason="eccentric_ductus">R</unclear>AGNI</name></persName> 
                 </ab>
             </div>
             <div type="apparatus"/>
             
             <div type="translation">
-                <p>of <persName xml:lang="sga">Congus</persName> son of the descendant of <persName xml:lang="sga">Ferán/Fírán</persName>?</p>
+                <p>of <persName xml:lang="sga">Congus</persName> (<persName xml:lang="pgl">*Cunagussus</persName>) son of the descendant of <persName xml:lang="sga">*Ferán/*Fírán</persName> (<persName xml:lang="pgl">*Viragnas/*Vīragnas</persName>)</p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p>CUNAGUSOS is attested in OIr. as <persName xml:lang="sga">Congus</persName> ‘having a hound’s power’. It is a compound of the nominal stems *kun- ‘dog, hound’ &lt; PIE *k̑un- and *gustu- ‘power, violence’ &lt; PIE *g̑us-tu- ‘choice, quality condition’. The name is attested a second time as CUNAGUSSOS in I-COR-056 (= CIIC 107; Glenagloch, Co. Cork). Since vowel length cannot be expressed in ogham and the name is not continued in Old Irish, it is formally undecidable if VIRAGNI stands for *u̯iragno- ‘dear man, little man’ (OIr. *Ferán) or *u̯īragno- ‘true one’ (OIr. *Fírán). However, the etymon *u̯iro- ‘man’ &lt; PIE *u̯iHro- ‘young man’ is much more common in Celtic onomastics than *u̯īro- ‘true’ &lt; PIE *u̯eh₁-ro-. The name is probably also attested as VIRR[c. 2]ANNI in I-KER-075 (= CIIC 206; Kilcoolaght, Co. Kerry). All Primitive Irish endings are preserved and there is no sign of vowel affection. The inscription therefore appears to belong to the earliest phase of ogham in the 5th century.
+</p>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -181,8 +184,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </bibl>
                      <bibl><ptr target="POW1992"/>
                      <citedRange>124, no. 1029</citedRange>
-                     </bibl>
-                </listBibl>
+                     </bibl>                     
+                    <bibl><ptr target="ZIE1994"/>
+                        <citedRange>159, 248</citedRange>
+                    </bibl>                
+                 </listBibl>
             </div>
         </body>
     </text>
