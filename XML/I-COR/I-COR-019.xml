@@ -91,7 +91,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.681206, -8.847020</geo>
                             <note>ITM Coordinates: 541423, 547985</note>
                             </origPlace>
-                            <origDate/>
+                            <origDate notBefore="0525" notAfter="0575" precision="medium" evidence="linguistic">Mid sixth century</origDate>
                         </origin>
                         <provenance type="found" when="1868">Found by <persName>Brash</persName> in <date>1868</date> reused as a support stone in a souterrain (<idno type="SMR">SMR No. CO122-049002-</idno>) where two other ogham stones (I-COR-017 and I-COR-018) had previously been discovered used as lintels. The inscription was not accessible until the stone had been removed from the souterrain. All three stones were <q>taken out of the cave sometime toward the end of the nineteenth century, by the proprietor, the late Mr. R. Bence Jones, and placed on a rockery in his garden: but afterwards acquired from him by the Royal Irish Academy</q> (Macalister 1945, 73). 
                         </provenance>
@@ -140,7 +140,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#POC">Updated execution encoded text from cut to chiselled</change>
     <change when="2025-05-20" who="#NW">Added repository coordinates.</change>
     <change when="2025-05-20" who="#NW">Updated execution encoded text from chiselled to scored</change>
-               <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>     
+    <change when="2025-12-15" who="#NW">Added David's linguistic analysis</change>  
+    
 </listChange>    
 </revisionDesc>
     </teiHeader>
@@ -168,10 +170,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>-->
             <!--</div>-->
             <div type="translation">
-                <p>of <persName xml:lang="sga">Cóemán</persName> son of the sept/litter?...</p>
+                <p>of <persName xml:lang="sga">Cóemán</persName> (<persName xml:lang="pgl">*Coimagnas</persName>) son of the kin-group of G...</p>
             </div>
             <div type="commentary">
-                <p></p>
+                <p>COIMAGNI corresponds to the OIr. name <persName xml:lang="sga">Cóemán</persName>. It consists of the adjective OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/7590">cóem</ref></foreign> ‘dear, beloved, fair’ &lt; PC *koi̯mo- &lt; PIE *k̑oi̯mo- ‘belonging to the home’ and the individualising and hypocoristic suffix -án &lt; *-agno-, i.e. ‘dear one’. The name is also attested in I-KER-034 (= CIIC 166; Ballinvoher, Co. Kerry). The name of the kin-group remains unclear. Endings and the *g of the suffix *-agnī are preserved, but the lowering of the first vowel in MOCOI points to the middle of the 6th century.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -184,6 +186,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl><ptr target="POW1992"/>
                      <citedRange>124, no. 1030</citedRange>
                      </bibl>
+                     <bibl><ptr target="ZIE1994"/>
+                        <citedRange>152</citedRange>
+                    </bibl>
                 </listBibl>
             </div>
         </body>
