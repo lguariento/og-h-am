@@ -58,12 +58,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="sga-Ogam" cert="medium">Possibly Old Irish written in ogham script</textLang>  
-                               
+                          <msItem>  
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>  
-                            <textLang mainLang="sga-Latin" cert="medium">Probably Old Irish written in Latin script</textLang>
-                           </msItem>
+                            <textLang mainLang="pgl-Ogam" cert="low">Possibly Primitive Irish written in ogham script</textLang>                            
+                            <textLang mainLang="pgl-Latn" cert="low">Possibly Primitive Irish written in Latin script</textLang>                             
+                          </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -98,7 +97,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <origPlace><placeName type="parish">Culsalmond</placeName>, <placeName type="county">Aberdeenshire</placeName>, <placeName type="country">Scotland</placeName>
                                 <geo>57.356667, -2.562778</geo>
                             <note>National Grid Reference: NJ 6623 2972</note></origPlace>
-                            <origDate notAfter="0800" precision="low">Early seventh century</origDate>
+                            <origDate notBefore="0500" notAfter="0700" precision="medium" evidence="textual-context">Sixth or seventh century A.D.</origDate>
                         </origin>
                         <provenance type="found" when="1803">Found around <date>1803</date> and first recorded by John Stuart in <date>1835</date> in a wood about a mile from Newton House, and subsequently moved to the grounds of the house by the 1850s (Forsyth 1996, 420-422). The ogham stone is closely associated with the Newton symbol stone which, allegedly, <q>originally stood half a mile west of the inscribed stone</q> and was later moved behind Newton House in 1794 (Forsyth 1996, 421). In 1873, both the inscribed stone and symbol stone were moved again and positioned side by side on the lawn of Newton house.
                         </provenance>
@@ -156,13 +155,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-24" who="#POC">Removed decoration section, updated condition with description of the symbol stone, updated object type from menhir to pillar</change>
     <change when="2025-04-17" who="#NW">Edition update - Added X-forfid glyphs.</change>
     <change when="2025-04-18" who="#NW">Edition update - added interpretation type to forfid.</change>
-     <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
+    <change when="2025-04-19" who="#NW">Updated language code and cert.</change>
     <change when="2025-05-09" who="#POC">Move information on symbol stone to commentary, update execution encoding</change>
-<change when="2025-05-15" who="#POC">Added persName encoding to commentary, updated edition with missing R and missing choice encoding for other possible character U at the start of the drawn-in stemline</change>
-<change when="2025-05-19" who="#POC">Reverted incorrect updates to textLang and edition lang code</change>
-<change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
-<change when="2025-06-26" who="#POC">Add ab (string without diacritics) for display list to edition, update (shorten) image file names and path.</change>
+    <change when="2025-05-15" who="#POC">Added persName encoding to commentary, updated edition with missing R and missing choice encoding for other possible character U at the start of the drawn-in stemline</change>
+    <change when="2025-05-19" who="#POC">Reverted incorrect updates to textLang and edition lang code</change>
+    <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+    <change when="2025-06-26" who="#POC">Add ab (string without diacritics) for display list to edition, update (shorten) image file names and path.</change>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
+    <change when="2025-12-18" who="#NW">Updated edition and dating.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -173,7 +174,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="medium" resp="#LH">             
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#LH">             
                  <div type="textpart" n="1">
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="iddarrnnn">ᚔᚇᚇᚐᚏᚏᚅᚅᚅ</name></persName> <persName><name nymRef="vorrenni">ᚃᚑᚏᚏᚓᚅᚅᚔ</name></persName> <g ref="#forfid_X"/><add place="overstrike">ᚒ</add><del rend="erasure">ᚔᚓ<gap reason="lost" quantity="2" unit="character"/></del>
@@ -181,23 +182,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </ab>
                      </div>
             </div> 
-            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="medium" xml:space="preserve" resp="#LH">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#LH">
                 <ab>
                     <lb n="1" style="text-direction:down"/><persName><name nymRef="#iddarrnnn">IDDARRNNN</name></persName> <persName><name nymRef="#vorrenni">VORRENNI</name></persName> <g ref="#forfid_X" type="interpretation_K"/><add place="overstrike">U</add><del rend="erasure">IE<gap reason="lost" quantity="2" unit="character"/></del>
                     <lb n="2" style="text-direction:up" break="no"/><add place="right"><choice><unclear>U</unclear><unclear>I</unclear></choice>OSR<unclear reason="illegible">R</unclear></add>
                 </ab>
-                <ab type="list">IDDARRNNN VORRENNI KUIE UIOSRR</ab>
+                <ab type="list">IDDARRNNN VORRENNI KOI ROSRR</ab>
             </div>
                        
-            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="sga-Latin" resp="#LH">
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn" resp="#LH" source="DIA1922">
                 <div type="textpart" n="2">
                 <ab>
-                    <lb n="1" style="text-direction:across"/>ETTE
-                    <lb n="2" style="text-direction:across"/>EVAGAINNIAS
-                    <lb n="3" style="text-direction:across"/>CIGONOVOCOI
-                    <lb n="4" style="text-direction:across"/>URAELISI
-                    <lb n="5" style="text-direction:across"/>MAQQI
-                    <lb n="6" style="text-direction:across"/>NOVIOGRUTA
+                    <lb n="1"/>ETTE
+                    <lb n="2"/>EVAGAINNIAS
+                    <lb n="3"/>CIGONOVOCOI
+                    <lb n="4"/>URAELISI
+                    <lb n="5"/>MAQQI
+                    <lb n="6"/>NOVIOGRUTA
                 </ab>
                 </div>
             </div>
@@ -225,12 +226,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="DIA1922"/>
+                     <citedRange>40-44</citedRange>
+                     </bibl>
                      <bibl><ptr target="FOR1996"/>
                      <citedRange>420-442</citedRange>
                      </bibl>
                      <bibl><ptr target="GOR1956"/>
-                     <citedRange>40-44</citedRange>
-                     </bibl>
+                     <citedRange></citedRange>
+                     </bibl>                     
                  </listBibl>
             </div>
         </body>
