@@ -142,6 +142,8 @@ Historic Environment Record</ref>: <idno type="HER">00788w
     <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
     <change when="2025-08-10" who="#NW">Updated edition (ogham) from X-forfid to epig_I-forfid and updated encoding from Redknap 2007 (unclear to supplied tages for p[o]p[ias]) and added Macalister readings to apparatus and added ref to bibl (commentary still needs updating - see Redknap 2007).</change>
     <change when="2025-09-08" who="#THN">Condensed letters information</change>
+    <change when="2025-12-18" who="#NW">Udated edition and dating</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -168,11 +170,11 @@ Historic Environment Record</ref>: <idno type="HER">00788w
                     <ab type="list">P[O]P[IAS] ROL[---]NM[---]Q[---]LL[.]NA</ab>
                     </div>
             </div>
-            <div type="edition" subtype="roman" xml:space="preserve" source="RED2007">
-                    <div type="textpart" n="2" xml:lang="la-Latn">
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="la" source="RED2007">
+                    <div type="textpart" n="2">
                         <ab>
-                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#pompius">P<hi rend="ligature">VM</hi>PEIVS</name>
-                            <lb n="2" style="text-direction:down"/>CA<hi rend="ligature">RA</hi>NTORIVS</persName>
+                        <lb n="1" style="text-direction:down"/><persName><name nymRef="#pompius">P<hi rend="ligature">um</hi>peius</name> <!--PVMPEIVS-->
+                            <lb n="2" style="text-direction:down"/>Ca<hi rend="ligature">ra</hi>ntorius</persName> <!--CARANTORIVS-->
                         </ab>
                 </div>
                 </div>
@@ -187,7 +189,7 @@ Historic Environment Record</ref>: <idno type="HER">00788w
                 <p>Ogham: No complete translation is suggested for the ogham inscription</p>
                 </div>
                 <div type="textpart" n="2">
-                    <p>Roman: <persName xml:lang="pgl">Pumpeius</persName> <persName xml:lang="pgl">Carantorius</persName> (lies here)</p>
+                    <p>Roman: <persName xml:lang="la">Pumpeius</persName> <persName xml:lang="und">Carantorius</persName> (lies here)</p>
                 </div>
             </div>
             <div type="commentary">

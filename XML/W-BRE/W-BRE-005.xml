@@ -100,7 +100,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="parish"><foreign><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/c8fd5c9e-35b2-4a4f-bda9-c78eb1bd467d">Trallwng</ref></foreign></placeName>, <placeName type="county">Brecknockshire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName>, <placeName type="country">Wales</placeName>
                                 <geo>51.955282, -3.505871</geo>
                             <note>National Grid Reference: SN 96 29</note></origPlace>
-                            <origDate notBefore="0500" notAfter="0550" precision="low" datingMethod="#julian" evidence="linguistic">First half of the sixth century A.D.</origDate>
+                            <origDate notBefore="0500" notAfter="0550" precision="medium" evidence="textual-context">First half of the sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found">The stone was discovered c. 1860 before the rebuilding of St David's Church in 1861. Previously used as <q>a jambstone in one of the windows</q> (Macalister 1945, 328) and as <q>a footstool by the bell-ringer</q> (Redknap and Lewis 2007, 242), the stone was moved to its present position before 1909. A reading of the ogham inscription was first published in 1862 by Jones.
                         </provenance>
@@ -139,7 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-10" who="#MK">Megan Kasten edited formatting and information to match OG(H)AM formatting.</change>
     <change when="2023-07-19" who="#MK"> Megan Kasten checked formatting to ensure it matched OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>
-     <change when="2024-06-12" who="#MK">Megan edited formatting to ensure consistency with OGHAM standards.</change>
+    <change when="2024-06-12" who="#MK">Megan edited formatting to ensure consistency with OGHAM standards.</change>
     <change when="2024-06-18" who="#MK">Remove repository info, monument tag, removed unnecessary bibl ptrs and titles - need to check placename info and translation</change>
     <change when="2024-09-03" who="#POC">Added paragraph to support, added NGR coordinates, closed unused elements</change>
     <change when="2024-10-10" who="#NW">Updated edition putting transliteration after ogham and then latin text. Fixed placename link</change>
@@ -156,6 +156,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-18" who="#POC">Update all sections</change>
     <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>
     <change when="2025-07-09" who="#NW">Updated text lang</change>
+    <change when="2025-12-18" who="#NW">Udated edition and dating</change>
     
 </listChange>
 </revisionDesc>
@@ -180,11 +181,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </ab>
                  <ab type="list">CUNACENNI AV[.] ILVVETO</ab>
             </div>
-            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="la-Latn" resp="RED2007">
+            <div type="edition" subtype="roman" xml:space="preserve" xml:lang="la" resp="RED2007">
                 <div type="textpart" n="2">
                     <ab>
-                        <lb n="1" style="text:direction:down"/><persName><name nymRef="#cunacenas">CVNOCENNI</name> <w>FILIVS</w> 
-                        <lb n="2" style="text-direction:down"/><name nymRef="#cunagenas">CVNOGENI</name></persName> <w>HIC</w> <w>IACIT</w>
+                        <lb n="1" style="text:direction:down"/><persName><name nymRef="#cunacenas">Cunocenni</name> <w>filius</w> <!--CVNOCENNI FILIVS-->
+                        <lb n="2" style="text-direction:down"/><name nymRef="#cunagenas">Cunogeni</name></persName> <w>hic</w> <w>iacit</w> <!--CVNOGENI HIC IACIT-->
                     </ab>
                 </div>               
             </div>                     

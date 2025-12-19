@@ -14,7 +14,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <orgName>University of Glasgow</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
-                 <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
+                <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
@@ -63,8 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>   
-                              <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                              <textLang otherLangs="pgl-Latn">Primitive Irish name written in Latin script</textLang>  
+                            <textLang mainLang="pgl-Latn">Primitive Irish names written in Latin script</textLang>                              
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -97,7 +96,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="parish"><foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/0ead4636-55e5-4003-9e90-bf1eb4b46549">Llywel</ref></foreign></placeName>, <placeName type="county">Brecknockshire (<foreign xml:lang="cy"><ref target="https://historicplacenames.rcahmw.gov.uk/placenames/recordedname/6d25abb9-918e-4aca-98ce-9c921395aec5">Brycheiniog</ref></foreign>)</placeName>, <placeName type="country">Wales</placeName>
                                 <geo>51.925325, -3.625936</geo>
                             <note>National Grid Reference: SN 8829 2645</note></origPlace>
-                            <origDate notBefore="0500" notAfter="0540" precision="low" datingMethod="#julian" evidence="linguistic"></origDate>
+                            <origDate notBefore="0400" notAfter="0500" precision="medium" evidence="textual-context">Fifth century A.D.</origDate>
                         </origin>
                         <provenance type="found" when="1876">Known as the Llywel or Trecastle Stone, it was first recognised as significant by Revd Lewis Price, vicar of Llywel in April 1876. According to Macalister (1945, 326), <q>the monument stood on the side of the road from Trecastle to Glasfynydd upon a heap of stones with which it seems at one time to have been covered; and it was rescued from being converted to a gatepost just in time</q>. The stone was sold to the British Museum on 11 February 1878.
                         </provenance>
@@ -137,17 +136,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2023-07-20" who="#MK">Megan Kasten checked formatting to ensure it matched new OGHAM standards.</change>
     <change when="2023-07-24" who="#BM">Bodil Malmose edited formatting and added lemma mark-up in edition and transliteration.</change>  
     <change when="2024-12-09" who="#NW">Updated file in line with more recent standards, such as those for bilingual inscriptions. Added British Museum, CISP and placename links. Changed title from Llywel 3.</change>
-        <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary</change>
-<change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link, added secondary location coordinates</change>
-<change when="2025-04-03" who="#POC">Simplified material type</change>
-<change when="2025-04-14" who="#POC">Updated execution type, updated layout attribute value</change>
-<change when="2025-06-03" who="#POC">Correct county placename spelling</change>
-<change when="2025-06-04" who="#POC">Update edition with glyphs instead of hex codes</change>
-<change when="2025-06-18" who="#POC">Update all sections, added images</change>
-<change when="2025-06-19" who="#POC">Correct image paths and update image descriptions</change>
-     <change when="2025-07-09" who="#NW">Updated text lang</change>
+    <change when="2025-03-26" who="#POC">Added attributes for filtering, updated commentary</change>
+    <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link, added secondary location coordinates</change>
+    <change when="2025-04-03" who="#POC">Simplified material type</change>
+    <change when="2025-04-14" who="#POC">Updated execution type, updated layout attribute value</change>
+    <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
+    <change when="2025-06-04" who="#POC">Update edition with glyphs instead of hex codes</change>
+    <change when="2025-06-18" who="#POC">Update all sections, added images</change>
+    <change when="2025-06-19" who="#POC">Correct image paths and update image descriptions</change>
+    <change when="2025-07-09" who="#NW">Updated text lang</change>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2025-09-04" who="#THN">Reordered apparatus information</change>
+    <change when="2025-12-18" who="#NW">Added dating</change>
     
 </listChange>
 </revisionDesc>
@@ -163,7 +163,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="RED2007">
                 <div type="textpart" n="1">   
                     <ab>
-                 <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas treni"><w>ᚋᚐᚊᚔ</w><w>ᚈᚏᚓᚅᚔ</w></name> <name nymRef="#salicadunas">ᚄᚐᚂᚔᚉᚔᚇᚒᚅᚔ</name></persName>
+                 <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-treni"><w>ᚋᚐᚊᚔ</w><w>ᚈᚏᚓᚅᚔ</w></name> <name nymRef="#salicadunas">ᚄᚐᚂᚔᚉᚔᚇᚒᚅᚔ</name></persName>
                 </ab>
             </div>
                 </div>           
@@ -172,7 +172,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-treni"><w>MAQI</w><w>TRENI</w></name> <name nymRef="#salicadunas">SALICIDUNI</name></persName>
                 </ab>                
             </div>
-             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="la-Latn" resp="RED2007">
+             <div type="edition" subtype="roman" xml:space="preserve" xml:lang="pgl-Latn" resp="RED2007">
                 <div type="textpart" n="2">
                     <ab>
                         <lb n="1" style="text-direction:down"/><persName><name nymRef="#maqqas-treni"><hi rend="ligature"><unclear reason="damage">M</unclear>A</hi>CCVTRENI</name> <name nymRef="#salicadunas">SALICIDVNI</name></persName>

@@ -14,7 +14,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  <orgName>University of Glasgow</orgName></editor>
                  <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
-                 <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
+                <editor role="editor" xml:id="THN"><persName>Truc Ha Nguyen</persName>
                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
@@ -60,7 +60,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msContents>
                           <msItem>                            
                             <textLang mainLang="pgl-Ogam">Primitive Irish written in Ogham script</textLang>
-                              <textLang mainLang="la-Latn">Latin written in Roman/Latin script</textLang>
+                            <textLang mainLang="la-Latn">Latin written in Roman/Latin script</textLang>
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -93,7 +93,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>51.936972, -3.661125</geo>
                                 <note>National Grid Reference: SN 859 278</note>
                             </origPlace>
-                            <origDate notBefore="0520" notAfter="0580" datingMethod="#julian" evidence="linguistic">Mid-sixth century A.D.</origDate>
+                            <origDate notBefore="0520" notAfter="0580" precision="medium" evidence="textual-context">Mid-sixth century A.D.</origDate>
                         </origin>
                         <provenance type="found" when="1954">The stone was recognised in 1954, forming part of a drystone hedge blocking a disused trackway along the south side of the river Usk at <placeName>Aberhydfer</placeName>. The stone was subsequently moved into Llywel Church. The first reading of the inscription was published 1975.
                         </provenance>
@@ -141,10 +141,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-03" who="#POC">Correct county placename spelling</change>
     <change when="2025-06-04" who="#NW">Added current location coordintes in comment</change>
     <change when="2025-06-04" who="#POC">Update edition with glyphs instead of hex codes</change>
-<change when="2025-06-12" who="#POC">Added images</change>
-<change when="2025-06-19" who="#POC">Update all sections</change>
-       <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
-       <change when="2025-09-04" who="#THN">Condensed information</change>        
+    <change when="2025-06-12" who="#POC">Added images</change>
+    <change when="2025-06-19" who="#POC">Update all sections</change>
+    <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
+    <change when="2025-09-04" who="#THN">Condensed information</change>   
+    <change when="2025-12-18" who="#NW">Udated dating</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -168,14 +170,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </ab>
                 <ab type="list">TARICORO</ab>
             </div>
-              <div type="edition" subtype="roman" xml:lang="la-Latn" xml:space="preserve">
+              <div type="edition" subtype="roman" xml:lang="la" xml:space="preserve">
                 <div type="textpart" n="2">
                 <ab>
-                    <lb n="1" style="text-direction:across"/><persName><del cause="overwritten" quantity="3" unit="character"/>CIVS
-                    <lb n="2" style="text-direction:across"/><del cause="overwritten" quantity="3" unit="character"/><unclear reason="damage">V</unclear>S<g type="interpunct"/>
-                   <lb n="3" style="text-direction:across"/><hi rend="underline"><del cause="overwritten" quantity="2" unit="character"/>AV<unclear reason="damage">R</unclear></hi>
-                    <lb n="4" style="text-direction:across"/><hi rend="underline"><del cause="overwritten" extent="unknown" unit="character"/><unclear reason="damage">A</unclear>NVS</hi>                    
-                    <lb n="5" style="text-direction:across"/><supplied reason="lost" cert="low">HIC IACIT</supplied></persName>                 
+                    <lb n="1" style="text-direction:across"/><persName><del cause="overwritten" quantity="3" unit="character"/>cius <!--CIVS-->
+                    <lb n="2" style="text-direction:across"/><del cause="overwritten" quantity="3" unit="character"/><unclear reason="damage">s</unclear>s<g type="interpunct"/> <!--VS-->
+                   <lb n="3" style="text-direction:across"/><hi rend="underline"><del cause="overwritten" quantity="2" unit="character"/>au<unclear reason="damage">r</unclear></hi> <!--AVR-->
+                    <lb n="4" style="text-direction:across"/><hi rend="underline"><del cause="overwritten" extent="unknown" unit="character"/><unclear reason="damage">a</unclear>nus</hi> <!-- ANVS -->                 
+                    <lb n="5" style="text-direction:across"/><supplied reason="lost" cert="low">hic iacit</supplied></persName>                 
                 </ab>                
               </div>
               </div>
@@ -194,7 +196,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="commentary">
                     <p>Sims-Williams (Redknap and Lewis 2007, 231) maintains that TARICORO is obscure but likely Irish. Thomas (1994, 119) compares TARICORO with OI <foreign xml:lang="sga">Tairmesc</foreign> in which <foreign xml:lang="sga">Tair-</foreign> is prepositional. Sims-Williams (Redknap and Lewis 2007, 231) also notes that <q>a possible second element is *<foreign xml:lang="sga">kor-</foreign> "cast, throw" (Old Irish <foreign xml:lang="sga">cuir-</foreign>)</q>.</p>
-                <p>It is impossible to restore the first line of the Roman-letter inscription '[...]CIVS' as this is a very common name-ending. Sims-Williams (Redknap and Lewis 2007, 231) also notes that there are a number of possible suggestions for the last name, including <persName xml:lang="la">Maurianus</persName>, <persName xml:lang="la">Taurianus</persName> and <persName xml:lang="la">Laurianus</persName>.</p>
+                <p>It is impossible to confidently restore the first line of the Roman-letter inscription '[...]CIVS' as this is a very common name-ending. Sims-Williams (Redknap and Lewis 2007, 231) also notes that there are a number of possible suggestions for the last name, including <persName xml:lang="la">Maurianus</persName>, <persName xml:lang="la">Taurianus</persName> and <persName xml:lang="la">Laurianus</persName>.</p>
             </div>
            <div type="bibliography">                          
                 <listBibl>
