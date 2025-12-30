@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cluain Mhór | Clonmore</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Nora White</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                <resp>Capture: 3D laser scanned using Polhemus FastSCAN Cobra scanner <date when="2010-05-14"/></resp>
+                </respStmt>
+                <respStmt>
+                    <name>Thierry Daubos</name>
+                    <orgName>Irish Inscribed Stones Project, Moore Institute, Galway</orgName>
+                    <resp>Processing Software: Rapidform.</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-CAR-001</idno>
+                 <idno type="CIIC">15</idno>
+                <idno type="CISP">CLMOR/1</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam" cert="medium">Probably Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">CW009-028021-</idno></p>
+                                    <material type="stone">Granite</material> 
+                                    <objectType key="monument">Pillar</objectType>
+                                     <dimensions unit="m" source="HAR1991">                                         
+                                            <height>0.78</height>
+                                            <width>0.30</width>
+                                            <depth>0.22</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>This small pillar is so weathered and lichen covered that only very faint traces of the ogham inscription remain on the SE angle. Harbison (1991, 185, no. 11) mentions <q>faint traces of a ringed cross in relief on the west face</q> but not discernible on the stone or on the 3D model.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                 <layout style="vertical" rend="arris">There are traces of an ogham inscription on one angle (<ref target="https://ogham.celt.dias.ie/version2013/resources/sites/Clonmore/15._Clonmore_3Danalysis.pdf">Analysis of 3d data by Dr Thierry Daubos of the Irish Inscribed Stones project at the Moore Institute, Galway in 2010</ref>.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>It is difficult to be sure due to much weathering but it is likely that the inscription was <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. The strokes appear to be of average length and spacing.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="ecclesiastical_site">Clonmore (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/3008">Cluain Mhór</ref></foreign>)</placeName> 
+                                <placeName type="townland">Glebe</placeName> 
+                                <placeName type="county">Co. Carlow</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.827268, -6.57009</geo>
+                           </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1940">First noted in 1940 by Eddie McDonald (Harbison 1991, 185, No. 11). Harbison (1991, 185) also noted the possibility of a second ogham stone, lost since the 1940s. The inscribed pillar was discovered in the graveyard, beside the grave of a certain W. Murphy, at the <ref target="https://monasticon.celt.dias.ie/2775">early ecclesiastical site <placeName xml:lang="sga">Cluain mhór Maedóg</placeName></ref>. Early features include two large granite solid-wheeled crosses, nineteen cross-cavred stones, a holy well and two bullaun stones (Brindley and Kilfeather 1993, 54-5). The ogham stone, located in the graveyard , is not mentioned in the Archaeolgical Inventory of Co. Carlow.
+                        </provenance>
+                        <provenance type="observed" when="2010">In situ, where it was examined and recorded in 3d for the Ogham in 3D project in 2010.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc><xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->
+</textClass>
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+     <change when="2025-12-30" who="#NW">Added info and refs throughout, updated encoding and added image.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+       <graphic url="IRE/I-CAR/I-CAR-001_Clonmore.jpg"><desc>Photograph by Nora White</desc></graphic>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>   
+    <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                   <lb n="1" style="text-direction:up"/><unclear reason="faded" cert="low">ᚌᚒ</unclear><unclear reason="faded" cert="medium">ᚄᚉ</unclear><unclear reason="faded" cert="low">ᚒ</unclear>
+            </ab>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><unclear reason="faded" cert="low">GU</unclear><unclear reason="faded" cert="medium">SC</unclear><unclear reason="faded" cert="low">U</unclear>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1"><note>Macalister (1945, 18) read:</note> <rdg>RENI</rdg></app>
+                <app n="2"><note>The reading is very uncertain, although a B-aicme letter (probably S) followed by a H-aicme letter (probably C) is likely. The initial G could be the remains of an R or another letter from the M-aicme with more than two strokes where some of the strokes are now below ground.</note></app>
+                </listApp>
+            </div>
+            <div type="translation"/>                
+                   
+            <div type="commentary"/>                
+            
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="BRI1993"/>
+                        <citedRange>54-55</citedRange>
+                    </bibl>
+                      <bibl><ptr target="HAR1991"/>
+                        <citedRange>177-200</citedRange>
+                    </bibl>
+                       <bibl><ptr target="MAC1945"/>
+                        <citedRange>18, no.15</citedRange>
+                    </bibl>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
