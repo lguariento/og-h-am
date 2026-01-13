@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Baile Choilbín | Colbinstown 4</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <!-- <editor>Add name, id etc here</editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>                
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Nora White</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                 <resp>Photogrammetry used to 3d record stone <date when="2018-04-08"/> and processed using Agisoft Metashape.</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KID-004</idno>
+                 <idno type="CIIC">22</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/COLIN/4.html">COLIN/4</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>                         
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>  
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>National Monuments Service SMR/NISMR ID: <ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">KD032-044004-</ref>
+                                    <material type="stone">Greywacke?</material> <!--'silurian grit' (MAC1945, but NMI stones from site 'greywacke' (Moffat/Parkes)-->
+                                    <objectType key="monument">Pillar</objectType> 
+                                     <dimensions unit="m" source="MAC1945l"> <!--ASI: H 1.2m; Wth 0.5m E-W; T 0.3m-->
+                                            <height>1.60</height>
+                                            <width>0.48</width>
+                                            <depth>0.41</depth>
+                                     </dimensions>                                   
+                                </support>
+                                <condition>This stone is in reasonably good condition but <q>wear and some fractures</q> have resulted in a partially surviving inscription (Macalister 1945, 26-27).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription runs up the dexter edge. Macalister (1945, 27) read further letters across the top but these are not now discernible.
+                                    </layout>                                
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The strokes are quite finely chisel <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs> (or possibly even scored in the Cork style), of medium length and spacing. The M-aicme strokes slope in the opposite direstion to usual. 
+                                </handNote>                          
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName type="graveyard">Killeencormack (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/109036">Cillín Chormaic</ref></foreign>)</placeName>
+                                <placeName type="townland">Colbinstown (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/25125">Baile Choilbín</ref></foreign>) </placeName> 
+                                <placeName type="county">Co. Kildare</placeName> 
+                                <placeName type="country">Ireland</placeName>
+                                <geo>53.028539, -6.760976</geo> 
+                            <note>ITM Coordinates: 683113, 698258</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1929">Discovered during excavation at the site of <ref target="https://monasticon.celt.dias.ie/4129">Cillín Chormaic</ref> in 1929 (Macalister and Praeger 1929, 257). It was found almost completely buried, on the side of the mound just to the west of the entrance-gate. In total, seven ogham stones (or fragments) were found here. This is the largest collection of ogham stones found at a single site in Leinster. Four complete ogham stones and two fragments survive today. A geophysical survey carried out in the surrounding fields in 2012 revealed traces of a trivallate enclosure (max. diam. 205m) surrounding the burial ground, which occupies the centre of a much more extensive early medieval ecclesiastical site (Greene 2013, 37-40). In addition to the ogham stones, a number of other notable monuments (some of granite) have also been discovered at the site, including numerous (uninscribed) pillar stones and three probable cross slabs (Greene 2013, 33-36; Macalister and Praeger 1928-9, 253-61). One of the pillar stones (KD032-044016-), a slender earthfast stone (H 1.3m; L 0.35m N-S; Wth 0.25m), has a lightly carved bust on the upper N face: a head, with a very pointed chin, is shown with a possible hooded-cloak and the figure carries a cross over its left shoulder.
+                        </provenance>
+                        <provenance type="observed" when="2018">This ogham remains in situ, where it was examined and recorded using photogrammetry for the Ogham in 3D project in 2018.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+             <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/#type_of_inscription">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>    
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2023-11-26" who="#JB">
+Jef Bucas autogenerated EpiDoc output from spreadsheet
+</change>
+     <change when="2026-01-11" who="#NW">Added detail throughout, including edition and image path.</change>
+     
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>      
+       <graphic url="IRE/I-KID/I-KID-004_Colbinstown_4.jpg"><desc>Photograph by Nora White</desc></graphic>
+       <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+   <text>
+        <body>
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW" source="MAC1945">                
+                    <ab>
+                    <lb n="1" style="text-direction:up-top"/><persName><name nymRef="#...ignias?"><gap reason="lost" extent="unknown"/>ᚓᚌᚅᚔ</name> <w type="formula" lemma="koi"><g ref="#forfid_X"/>ᚑᚔ</w> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒ<unclear reason="damage">ᚉ</unclear><supplied reason="lost">ᚑᚔ</supplied></w> <name nymRef="#a"><unclear reason="faded">ᚐ</unclear><gap reason="lost" unit="character" quantity="1"/><unclear reason="faded">ᚔ</unclear><gap reason="lost" extent="unknown"/></name></persName>   
+                </ab>
+                 </div>
+               <div type="edition" subtype="transliteration" xml:space="preserve" resp="#NW" source="MAC1945">
+                   <ab>
+                    <lb n="1" style="text-direction:up-top"/><persName><name nymRef="#...ignias?"><gap reason="lost" extent="unknown"/>EGNI</name> <w type="formula" lemma="koi"><g ref="#forfid_X" type="interpretation_K"/>OI</w> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="muccoviias?">MU<unclear reason="damage">C</unclear><supplied reason="lost">OI</supplied></w> <name nymRef="#a"><unclear reason="faded">A</unclear><gap reason="lost" unit="character" quantity="1"/><unclear reason="faded">I</unclear><gap reason="lost" extent="unknown"/></name></persName>                      
+                   </ab>
+            </div> 
+            <div type="apparatus">
+                <listApp>
+                <app n="1"><note>Macalister (1945, 27) noted that <q>the letters before the present beginning must have been vowels and B consonants (BLVNS), for the H-surface is intact and shows no marking</q>.</note>
+                </app>
+                    <app n="2"><note>Macalister (1945, 27) reconstructs the final name on the top of the stone as A[L]I[NI] <q>by considering the positions and widths of the fractures which have destroyed them</q>, but this is quite doubtful.</note></app>
+                </listApp>
+            </div>
+            <div type="translation">                 
+                    <p>of [...]ine? here, son of the descendant of A?</p>                
+            </div>
+            <div type="commentary">
+                <p><q>KOI, which is invariably written with the first supplementary character (the X-forfid) and is alone among formula words in not being attested later, has been explained as a word defining locality, <q>here</q>, analogous to HIC IACIT in the British inscriptions though it is never used in these</q> (McManus 1991, 119).</p>                
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="GRE2013"/>
+                        <citedRange>26-47</citedRange>
+                    </bibl>
+                     <bibl><ptr target="MAC1928"/>
+                        <citedRange>247-261</citedRange>
+                    </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                        <citedRange>26-27</citedRange>
+                    </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                        <citedRange>118</citedRange>
+                    </bibl>   
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
