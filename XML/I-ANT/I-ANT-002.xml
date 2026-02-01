@@ -75,7 +75,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>One of two ogham-inscribed pillars (see also I-ANT-001) reused as lintels in a souterrain.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris">The inscription runs along one edge for <q>'14 inches'</q> or approximately 35cm. (Buick 1900, 266)</layout>
+                                <layout style="vertical" rend="arris">The inscription runs along one edge for <q>'14 inches'</q> or approximately 35cm (Buick 1900, 266).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -138,7 +138,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-19" who="#NW">Added 'Northern Ireland' placename to origPlace and repository coordinates using altIdentifier and attributes to material, object type and layout.</change>    
     <change when="2025-04-15" who="#POC">Update execution encoding in handNote</change>
     <change when="2025-06-03" who="#NW">Execution type updated to scored</change>
-    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, add alternative reading of first name to apparatus</change>          
+    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, add alternative reading of first name to apparatus</change> 
+    <change when="2026-02-01" who="#NW">Updated edition and apparatus following further examination of imagery and descriptions. Added (provisional) linguistic commentary by DS</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -151,25 +153,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>            
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><choice><unclear>ᚉ</unclear><unclear>ᚈ</unclear></choice>ᚐ<unclear reason="faded">ᚌ</unclear>ᚔᚅ<unclear reason="background_noise">ᚐ</unclear><choice><unclear>ᚇᚔ</unclear><unclear>ᚈᚓ</unclear></choice></name> <w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w> <name nymRef="#vobarracas">ᚃᚑᚁᚐᚏᚐᚉᚔ</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚉᚐ<unclear reason="faded">ᚌ</unclear>ᚔᚅ<unclear reason="background_noise">ᚐ</unclear><choice><unclear>ᚇᚔ</unclear><unclear>ᚈᚓ</unclear></choice></name> <w lemma="maqqas" type="formula">ᚋᚐᚊᚔ</w> <name nymRef="#vobarracas">ᚃᚑᚁᚐᚏᚐᚉᚔ</name></persName>
                    </ab>
             </div>
             <div type="edition"  subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><choice><unclear>C</unclear><unclear>T</unclear></choice>A<unclear reason="faded">G</unclear>IN<unclear reason="background_noise">A</unclear><choice><unclear>DI</unclear><unclear>TE</unclear></choice></name> <w lemma="maqqas" type="formula">MAQI</w> <name nymRef="#vobarracas">VOBARACI</name></persName>                
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">CA<unclear reason="faded">G</unclear>IN<unclear reason="background_noise">A</unclear><choice><unclear>DI</unclear><unclear>TE</unclear></choice></name> <w lemma="maqqas" type="formula">MAQI</w> <name nymRef="#vobarracas">VOBARACI</name></persName>                
                 </ab>
                 <ab type="list">CAGINADI MAQI VOBARACI</ab>
             </div>         
             <div type="apparatus">
                 <listApp>
-                <app n="1" type="alternative"><lem>CAGINADI</lem><rdg>TAGINATE</rdg> <note>(an alternative reading of the first name)</note></app>
+                <app n="1"><note>The strokes are very faint and the identification of the letters, especially in the first word, is very difficult.</note>
+                </app>
+                <app n="2"><lem>CAGINADI</lem><rdg>CALINADI</rdg> <note>(alternative reading of the first name). Macalister (1945: 297) noted that the third letter is ‘docked rather short on the H-side’, which could mean that an L was intended.</note></app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>of ? son of *<name xml:lang="sga">Fobrach</name></p>
+                <p>of C...? son of *<name xml:lang="sga" cert="unknown">Fobrach (*<name xml:lang="pgl" cert="unknown">Vobarrācas</name>)</name></p>
             </div>
-            <div type="commentary"/>
-              
+            <div type="commentary">
+                <p>This inscription consists of an individual name, the formula word ‘son’ and a patronym. Macalister’s reading of the first name CAGINADI has no exact parallel in OIr. However, the ogam corpus contains several examples of a formally reminiscent name, even though the ambiguities of the script do not allow us to determine their exact relationship with CAGINADI. One approximate parallel is the simplex name CAGG[I] (I-COR-052 = CIIC 103; Barachaurin, Co. Cork) and perhaps CAGI (S-ARL-001 = CIIC 506; Gigha, Argyllshire; very uncertain reading). The same name appears as the second element of the binomial name NETA-CAGI (I-WIC-001 = CIIC 47; Castletimon, Co. Wicklow). CAGI can be analysed as the genitive of an o- or a i̭o-stem. These names appear to contain the same root element as CAGINADI, but their interpretations are unclear. It is most likely that the sequence -AG- represents *-ag- in all of them. <!--This sequence cannot continue older pre-Goidelic *-ank- since that would result in PrimIr. *-ēgg-, which would be reflected in ogam as *-EG- or *-EGG-; cf. the treatment of the sequence *-ant- > *-ēdd- in DECCEDDAS < *dekantos. Ziegler (1994: 144) compares CAGI­NADI  with words for ‘goat’ in Germanic languages? 
+Motta (1983: 299 ff.) compares OIr. coig, coic ‘advice’, Gaul. Cogidumno ???
+Another possible connection is with Gaul. Cagius ??? < *kagi̭o- ‘???’, Endlicher’s Glossary caio, Germ. Hag… Any of these attempts at an etymology leaves the suffix -NADI of CAGINADI unexplained. In the absence of a simple noun of the required shape in OIr., CAGINADI is hardly to be analysed as a compound name, unless *nad is the root found in nascaid ‘to bind’ < *nad-ske/o- and naidm ‘binding’ < *nadman. The other readings of the name (CALINADI, TAGINADI) do not have parallels.--></p>
+                <p>The most straightforward analysis of VOBARACI is as *u̯o-barr-āko-, a prepositional governing compound ‘he who is underneath (*u̯o-) the top (*barro-)’. The corresponding OIr. name *Fobrach is unattested. The connection with OIr. Foibrech/Fabrech &lt; *u̯o-ber-āko- or Fobrecc &lt; *u̯o-brikk-, proposed by Ziegler (1994: 249), is unlikely since in an early inscription like this, those names would be expected to appear as *VOBERACI or *VOBRICCI. The retention of all endings, if correct, points to an early date.</p>
+            </div>
             <div type="bibliography">
                  <listBibl>
                       <bibl><ptr target="BUI1900"/>
@@ -178,6 +186,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl><ptr target="MAC1945"/>
                         <citedRange>297-298</citedRange>
                     </bibl>
+                     <bibl><ptr target="ZIE1994"/>
+                        <citedRange>144, 249</citedRange>
+                    </bibl>  
                 </listBibl>
             </div>
         </body>
