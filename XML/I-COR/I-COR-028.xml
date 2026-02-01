@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.19</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>The stone is weathered with layers having flaked away. It has also suffered from been reused at least twice: once in the construction of a souterrain and subsequently as a door jamb in a farm building where it was whitewashed and embedded in the ground (obscuring the end of the inscription when it was in position).</condition>
+                                <condition>The stone is weathered with layers having flaked away. It has also suffered from being reused at least twice: once in the construction of a souterrain and subsequently as a door jamb in a farm building, where it was whitewashed and embedded in the ground, obscuring the end of the inscription when it was in position.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="arris_up">The inscription reads upwards on the dexter angle of one of the broad faces and continues across the uneven top of the stone. </layout>
@@ -134,7 +134,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-11-04" who="#POC">Added CISP link</change>
     <change when="2025-01-30" who="#POC">Added Irish placename to title, proofreading updates, added citation details to image description, commented out translation and commentary as they are both empty</change>
     <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering and country</change>
-           <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>             
+    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
+    <change when="2026-02-01" who="#NW">Updated edition and apparatus following further examination of imagery and descriptions.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,14 +148,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
             <ab>
-                <lb n="1" style="text-direction:up"/><persName><name><unclear>ᚈᚒ</unclear>ᚂᚓᚅ<unclear>ᚐ</unclear></name> <w>ᚋᚒᚉ<gap reason="lost" atMost="8" unit="stroke"></gap></w> <unclear>ᚉᚑᚒ</unclear></persName>
+                <lb n="1" style="text-direction:up"/><persName><name><unclear reason="eccentric_ductus">ᚔ</unclear>ᚂ<unclear reason="background_noise">ᚒ</unclear>ᚅ<unclear>ᚐ</unclear></name> <w>ᚋᚒᚉ<gap reason="lost" atMost="8" unit="stroke"></gap></w> <unclear>ᚉᚑᚒ</unclear></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name><unclear>TU</unclear>LEN<unclear>A</unclear></name> <w>MUC<gap reason="lost" atMost="8" unit="stroke"/></w> <unclear>COU</unclear></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name><unclear reason="eccentric_ductus">I</unclear>L<unclear reason="background_noise">U</unclear>N<unclear>A</unclear></name> <w>MUC<gap reason="lost" atMost="8" unit="stroke"/></w> <unclear>COU</unclear></persName>
                 </ab>
-                <ab type="list">TULENA MUC[---] COU</ab>
+                <ab type="list">ILUNA MUC[---]COU</ab>
             </div>
             <div type="apparatus">
                 <listApp>
@@ -170,7 +172,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <rdg source="MAC1945">TULENA MU[C--</rdg>
                 </app>
                     <app n="4">
-                        <note>It is unclear if there were once more stokes than currently survive. There is a gap (approximately 16cm) at the top of the stone, possibly due to damage, between the C (or remains of a Q) running up the edge and the last few letters running across the top.</note>
+                        <note>As the various readings suggest, it is very difficult to be sure of some of the letters. There appears to be 6 short strokes/notches before the L, although the stemline is not clear. The first three are more to the left (hence the T reading, although only the first is long enough for a consonant stroke). Of the next three, the last is especially short and may just be damage (hence the rading I). Likewise, after the L, there appears to be 4 strokes but the first is not as pronounced and perhaps should not be read as a vowel notch. The final A of this name is not at all certain.</note>
+                    </app>
+                    <app n="5">
+                        <note>It is also unclear if there were once more stokes than currently survive. There is a gap (approximately 16cm) at the top of the stone, possibly due to damage, between the C (or remains of a Q) running up the edge and the last few letters running across the top.</note>
                     </app>
                 </listApp>
             </div>
