@@ -52,7 +52,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Scotland</country>
                         <repository>National Museums of Scotland</repository>
-                        <idno type="invNo">X.2015.23</idno>
+                        <idno type="invNo">X.2015.27</idno>
                         <altIdentifier>
                             <idno type="geo">55.946991, -3.1891831</idno>
                         </altIdentifier>
@@ -68,23 +68,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.trove.scot/place/1797">Trove</ref>: <idno type="trove">1797</idno></p>
-                                    <material type="stone">Sandstone</material> 
+                                    <material type="stone">Orkney flag</material> 
                                     <objectType key="monument">Slab</objectType>                                     
                                     <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height>0.63</height>
+                                            <width>0.31</width>
+                                            <depth>0.12</depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
-                                <condition></condition>
+                                <condition>According to Padel (1972, 55) the stone has been broken and the two pieces cemented together.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout rend="stemline">The ogham inscription is along the narrow face of the stone. The inscription starts several inches in from the left edge and runs parallel with the long edges to within an inch or two of the right edge (Forsyth 1996, 77). The stemline is 495mm in length though the inscription is only 370mm. The letters are placed centrally on the stem, so the clear stem at the end may perhaps be a stylistic feature. The letters are generally fairly tightly spaced, though successive letters of the same <foreign xml:lang="ga">aicme</foreign> are clearly differentiated. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><rs type="execution"  key="graffiti">unknown</rs>.
+                            <handNote>The inscription features angled vowel strokes and a hammerhead A albeit <q>carelessly carved</q> (Forsyth 1996, 79). The letters are <q>squarish</q> in outline. The execution technique is <rs type="execution"  key="graffiti">unknown</rs>.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -95,11 +95,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>59.136389, -3.330278</geo>
                             <note>National Grid Reference: HY 2398 2850</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>Sixth to twelfth century</origDate>
                         </origin>
                         <provenance type="found">Found during the 1934+ excavations re-used as a building stone.
                         </provenance>
-                        <provenance type="observed">Now in National Museums of Scotland (<ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=725121">X.2015.23</ref>).
+                        <provenance type="observed">Now in National Museums of Scotland (<ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=725127">X.2015.27</ref>).
                         </provenance>
                     </history>
                 </msDesc>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <change when="2025-06-24" who="#POC">Added and encoded information, including edition and images</change>
 <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>    
   <change when="2025-08-19" who="#MK">Added 3D resp.</change>
+    <change when="2026-10-02" who="#POC">Added correct image, idno, reading, and information for Birsay 1 (had been Birsay 2), also updated bibl</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,34 +147,38 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><unclear reason="ambiguous">ᚁ</unclear>ᚊ<g ref="#s-shaped_I"/><g ref="#punctuation_double"/> ᚐ<unclear reason="ambiguous">ᚁ</unclear><gap reason="lost" extent="unknown" unit="stroke"/>
+                    <lb n="1" style="text-direction:up"/><unclear reason="worn">ᚋ</unclear><g ref="#angled_O"/><unclear reason="worn">ᚅ</unclear>ᚅ<g ref="#angled_O"/>ᚏᚏ<g ref="#hammerhead_A"/>ᚃ<choice><unclear reason="worn">ᚃ</unclear><unclear>ᚅ</unclear></choice>ᚏᚏ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><unclear reason="ambiguous">B</unclear>Q<g ref="#s-shaped_I"/><g ref="#punctuation_double"/> A<unclear reason="ambiguous">B</unclear><gap reason="lost" extent="unknown" unit="stroke"/>
+                    <lb n="1" style="text-direction:up"/><unclear reason="worn">M</unclear><g ref="#angled_O"/><unclear reason="worn">N</unclear>N<g ref="#angled_O"/>RR<g ref="#hammerhead_A"/>V<choice><unclear reason="worn">V</unclear><unclear>N</unclear></choice>RR
                 </ab>
-                <ab type="list">[---]BQI: AB[---]</ab>
+                <ab type="list">MONNORRAVVRR</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>The inscription preserves evidence of the double dot which marks word division and aids the segmentation of the text.</note>                    
+                    <note>Three features combine to give an unambiguous indication of the direction of reading - the forward slope of b- and h-aicme consonants, the hammer-head A and several angled vowels (Forsyth 1996, 77).</note>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>The meaning of the text remains unclear.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>The text appears to be complete and may represent a single personal name.</p>
+            <p>Padel (1972, 60) suggested the text might represent Old Norse <foreign xml:lang="non">Norænn</foreign> 'Norse, Norwegian', though, as he admitted the interpretation is unlikely because the adjective would not end in -r. Likewise his suggestion that 0 is Old Norse <foreign xml:lang="non">ó</foreign> 'from' is not very likely (Forsyth 1996, 80).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>76-81</citedRange>
+                     </bibl>
+                     <bibl><ptr target="PAD1972"/>
+                     <citedRange>54-58</citedRange>
                      </bibl>
                  </listBibl>
             </div>

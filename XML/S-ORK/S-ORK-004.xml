@@ -52,7 +52,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Scotland</country>
                         <repository>National Museums of Scotland</repository>
-                        <idno type="invNo">X.2015.27</idno>
+                        <idno type="invNo">X.2015.23</idno>
                         <altIdentifier>
                             <idno type="geo">55.946991, -3.1891831</idno>
                         </altIdentifier>
@@ -68,23 +68,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.trove.scot/place/1797">Trove</ref>: <idno type="trove">1797</idno></p>
-                                    <material type="stone">Stone type unknown</material> 
+                                    <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Slab</objectType>                                     
                                     <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height>0.37</height>
+                                            <width>0.24</width>
+                                            <depth>0.05</depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
-                                <condition></condition>
+                                <condition>The ogham text is badly weathered and fragmentary.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout>The ogham inscription is along the flat edge of the very irregularly shaped slab. The stem is visible for approximately 80mm and wavers, but the stone is too badly weathered to indicate how much has been lost (Forsyth 1996, 82).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><rs type="execution"  key="graffiti">unknown</rs>.
+                            <handNote>The execution technique remains <rs type="execution"  key="graffiti">unknown</rs>, but the stem appears to be more finely incised than the letter strokes. The extant text may preserve evidence of an angled vowel.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -95,11 +95,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>59.136389, -3.330278</geo>
                           <note>National Grid Reference: HY 2398 2850</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>Sixth to twelfth century</origDate>
                         </origin>
                         <provenance type="found">Found on the beach below the eroding Norse buildings during the 1934+ excavations.
                         </provenance>
-                        <provenance type="observed">Now in the National Musems of Scotland (<ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=725127">X.2015.27</ref>).
+                        <provenance type="observed">Now in the National Museums of Scotland (<ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=725121">X.2015.23</ref>).
                         </provenance>
                     </history>
                 </msDesc>
@@ -137,6 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <change when="2025-06-24" who="#POC">Added and encoded information, including edition and images</change>
 <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>     
   <change when="2025-08-19" who="#MK">Added 3D resp.</change>
+    <change when="2026-10-02" who="#POC">Added correct image, idno, reading and information for Birsay 2 (had been Birsay 1), also updated bibl</change>
 
 </listChange>
 </revisionDesc>
@@ -149,31 +150,39 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><unclear reason="worn">ᚋ</unclear><g ref="#angled_O"/><unclear reason="worn">ᚅ</unclear>ᚅ<g ref="#angled_O"/>ᚏᚏ<g ref="#hammerhead_A"/>ᚃ<choice><unclear reason="worn">ᚃ</unclear><unclear>ᚅ</unclear></choice>ᚏᚏ
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><unclear reason="ambiguous">ᚁ</unclear>ᚊ<g ref="#s-shaped_I"/><g ref="#punctuation_double"/> ᚐ<unclear reason="ambiguous">ᚁ</unclear><gap reason="lost" extent="unknown" unit="stroke"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><unclear reason="worn">M</unclear><g ref="#angled_O"/><unclear reason="worn">N</unclear>N<g ref="#angled_O"/>RR<g ref="#hammerhead_A"/>V<choice><unclear reason="worn">V</unclear><unclear>N</unclear></choice>RR
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><unclear reason="ambiguous">B</unclear>Q<g ref="#s-shaped_I"/><g ref="#punctuation_double"/> A<unclear reason="ambiguous">B</unclear><gap reason="lost" extent="unknown" unit="stroke"/>
                 </ab>
-                <ab type="list">MONNORRAVVRR</ab>
+                <ab type="list">[---]BQI: AB[---]</ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app>                    
+                <listApp>
+                    <app n="1">
+                        <note>The direction of the reading is determined by the forward slope of the second letter in the extant text.</note>
+                    </app>
+                <app n="2">
+                    <note>The inscription may preserve evidence of the double dot which marks word division and aids the segmentation of the text.</note>                    
                 </app>
-                </listApp>-->
+                </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>The text is incomplete and it is not possible to determine its meaning.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>The scale of the letters and the extant reading imply that this is only a short section of a larger text. However, there is no clue to determine where in the sequence this portion occurred (Forsyth 1996, 82). </p>
+                <p>It is possible that the letters AQI could be Old Irish MAQI. If so, this would be the only Scottish example of the word spelled with a single Q (Forsyth 1996, 85).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>81-85</citedRange>
+                     </bibl>
+                     <bibl><ptr target="PAD1972"/>
+                     <citedRange>58-61</citedRange>
                      </bibl>
                  </listBibl>
             </div>
