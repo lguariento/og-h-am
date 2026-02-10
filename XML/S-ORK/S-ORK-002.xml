@@ -68,24 +68,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.trove.scot/place/2201">Trove</ref>: <idno type="trove">2201</idno></p>
-                                    <material type="stone">Stone type unknown</material> 
+                                    <material type="bone">Bone</material> 
                                     <objectType key="portableObject">Knife-handle</objectType>                                     
-                                    <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                    <dimensions unit="mm">                                         
+                                            <height>72</height>
+                                            <width>15</width>
+                                            <depth>12</depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
-                                <condition></condition>
+                                <condition>A small iron knife blade with an ogham inscribed bone handle. The blade is very corroded and broken off flush with the socket and the very tip of the blade is missing.The two lines of ogham are well-preserved and clear except for a small portion lost near the haft (Forsyth 1996, 323).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout>There is no stem-line. Furthermore, although the base of the handle was trimmed to provide two well-defined ridges, these were not utilised as stem-lines. The longer of the two lines of ogham was inscribed across the indistinct ridge between the two broad faces, and the shorter line across the flat base (Forsyth 1996, 323). Padel (1972, 99) notes that the angles of the knife-handle were used in a somewhat haphazard or perhaps unplanned way, resulting in the cramped appearance of the inscription. The shorter line is preceded by a little cross. The longer line of the inscription reads towards the blade. Both lines of the inscription show considerable evidence of overlap. Padel (1972, 100) remarks that there is <q>less reason</q> for the overlap in the second line <q>since the whole length of the handle was available.</q> </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> -->
-                                <height></height>
+                            <handNote>The ogham inscription was carved on a minute scale. The longest strokes are a mere <height>10mm</height> in length, and most are only a few milimetres long. The scores have been lightly <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> with a sharp blade which has produced a fine V-section. Forsyth (1996, 324) notes that several individual letter-strokes have been cut and re-cut and the re-cut strokes are clearly intended merely to improve the definition of strokes imperfectly cut with the first stroke. The vowels are short straight lines, consonants are longer in length and M-group letters in particular are very long (Padel 1972, 99). 
+                                
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -95,9 +95,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>59.123889, -3.081111</geo>
                             <note>National Grid Reference: HY 38179 26850</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>Fifth to eighth century</origDate><!--usually not known-->
                         </origin>
-                        <provenance type="found" when="1931">Discovered in 1931?
+                        <provenance type="found" when="1931">The Gurness knife was found in 1931 during excavation of the Broch of Gurness at Aikerness on the mainland of Orkney. The knife came from the post-broch occupation layers in the southern part of the site in the area of the dwellings known as the 'Shamrock' and 'Annexe'. This post-broch settlement coincides with the Pictish period.
                         </provenance>
                         <provenance type="observed">Now in National Museums of Scotland (<ref target="https://www.nms.ac.uk/search-our-collections/collection-search-results?entry=709651">X. GAA 252</ref>).
                         </provenance>
@@ -136,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
       <change when="2025-06-24" who="#POC">Added and encoded information, including edition and images</change>
   <change when="2025-08-19" who="#MK">Added 3D resp.</change>
+    <change when="2026-02-09" who="#POC">Added and encoded information from Padel 1972 and Forsyth 1996, updated material type, added execution type, updated text direction, added layout, handNote, condition, translation, commmentary, apparatus, provenance, date range.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,32 +151,40 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/>ᚔᚅᚓᚔᚈᚈᚓᚋᚑᚅ 
-                    <lb n="2" style="text-direction:up"/>ᚋᚐᚈᚄ
+                    <lb n="1" style="text-direction:l-to-r"/>ᚔᚅᚓᚔᚈᚈᚓᚋᚑᚅ 
+                    <lb n="2" style="text-direction:l-to-r"/>ᚋᚐᚈᚄ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/>INEITTEMON
-                    <lb n="2" style="text-direction:up"/>MATS
+                    <lb n="1" style="text-direction:l-to-r"/>INEITTEMON
+                    <lb n="2" style="text-direction:l-to-r"/>MATS
                 </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app>                    
+                <listApp>
+                <app n="1"> 
+                    <note>Padel (1972, 100) reasoned that the shorter line of the inscription <q>could be read in either direction depending on whether the cross is taken as a finishing or a continuation mark</q>. If the shorter line was read in the opposite direction it would read:</note>
+                    <rdg source="PAD1972">CVAM</rdg>
                 </app>
-                </listApp>-->
+                </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>Although several segmentations could be suggested, the readings of the Gurness text are doubtful and its meaning remains unclear.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>Though individual strokes are clear, there is doubt over certain letters because of the cramped spacing, and in some cases overlapping, of strokes. A further difficulty is in ascertaining the direction of reading of the two lines of the text and their relationship to one another. There is no slope or distinctive letter-form to indicate the direction of reading, though the slight decrease in spacing towards the blade may indicate it was carved, and read, in that direction. The shorter line opposite, consists of a further four letters squashed in hard against the socket. These are in the same 'hand' as the longer line and it has been assumed, because of their position, that they represent a 'run-on' line. A more pronounceable sequence is retrieved if the shorter text is read towards the blade. Additionally, it would be hard to account for the over-lapping in the shorter line were they not being carved towards the blade (Forsyth 1996, 324-5). </p>
+            <p>Among the Scottish oghams, the script of Gurness is most closely similar to that of Gigha (S-ARL-001) and Poltalloch (S-ARL-002). It differs from Bac Mhic Connain (S-INV-001) in having shorter vowels and sloping m-aicme consonants, furthermore Bac Mhic Connain is carved in a far finer 'hand' than that of Gurness, or at least with a far finer blade. (Forsyth 1996, 328).</p>
+                <p>Gurness is unlike any of the other Orkney oghams and on typological grounds, if on no other, may be the earliest of the group.</p>
+                <p>A text of this length may be expected to be a personal name, either with or without filiation, referring to the owner, maker or donor. Or alternatively, an invocation to the object to perform its task well, or to the owner. </p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>321-332</citedRange>
+                     </bibl>
+                     <bibl><ptr target="PAD1972"/>
+                     <citedRange>98-100</citedRange>
                      </bibl>
                  </listBibl>
             </div>
