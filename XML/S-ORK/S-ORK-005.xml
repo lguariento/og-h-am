@@ -77,15 +77,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
-                                <condition></condition>
+                                <condition>The spindle whorl is intact and in good condition and the ogham inscription is complete and well-preserved.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="other" rend="stemline_circular">The ogham inscription is arranged in a circle round the face of the whorl.</layout>
+                                <layout style="other" rend="stemline_circular">The ogham inscription is arranged in a circle round the face of the whorl. The stemline is <q>fairly haphazardly placed</q> (Forsyth 1995, 680).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> -->
-                                <height></height>
+                            <handNote>The ogham inscription was <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs> and described as <q>lightly, though clearly, incised with a fine sharp blade</q> (Forsyth 1995, 680). The stemline measures 120 mm and the individual letter strokes are <height>3-4 mm</height> in length except for the serifed A which is 5 mm and the M which is 12 mm. The letters were cut with one knife-score each and there appears to have been no re-cutting or augmentation of the strokes.
+                                
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -95,9 +95,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>59.134167, -3.323333</geo>
                                 <note>National Grid Reference: HY 2436 2823</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>Seventh, eighth or early ninth century</origDate>
                         </origin>
-                        <provenance type="found">The whorl was found just outside the door of the main room of the large Pictish house at Buckquoy, Birsay during excavations in 1972. This was a rescue excavation, as the site was being lost to coastal erosion.
+                        <provenance type="found">The spindle whorl was found just outside the door of the main room of the large Pictish house at Buckquoy, Birsay during excavations in 1970. This was a rescue excavation, as the site was being lost to coastal erosion (Forsyth 1995).
                         </provenance>
                         <provenance type="observed">Now in Orkney Museum (<ref target="https://www.orkneymuseums.co.uk/our-collections/archaeology/">1976.056.84</ref>).<!-- Can't find exact record page on Orkney Museum, seems to only be listed on the highlights page with no set link -->
                         </provenance>
@@ -138,7 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>  
     <change when="2025-08-19" who="#MK">Added 3D and RTI resp.</change>
     <change when="2025-10-17" who="#NW">Update to app and bibl - check with KF</change>
-    
+    <change when="2026-02-11" who="#POC">Updated bibl, app, origDate, condition, handNote, added back the original image, added eDIL references to commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -161,23 +161,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1">
-<note>Forsyth 1996:</note> <rdg source="FOR1995b">ENDDACTANIM(v/lb) or possibly bENDDACTANIMl</rdg>
-    <note>Though the letters are relatively clear, it is difficult to know where to start. Proposed (Gaelic) readings include:
-VENDDACTANIM; or T’ANIM VENDDAC, meaning ‘(from) your dear Findach’ (Rodway 2017); or BENDDACTANIML ‘a blessing on the soul of L’ (Forsyth 1995).</note>
+                <app n="1"> 
+                    <note>Though the letters are relatively clear, it is difficult to know where to start. Forsyth (1995, 684) takes the X forfid as the first letter and reads anti-clockwise:</note>
+                    <rdg source="FOR1995b">ENDDACTANIM(v/lb) or possibly bENDDACTANIMl.</rdg>
+ <note>Proposed (Gaelic) readings include: VENDDACTANIM; or T’ANIM VENDDAC (Rodway 2017); or BENDDACTANIML (Forsyth 1995).</note>   
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>Possible translations of the text include VENDDACTANIM; or T’ANIM VENDDAC, meaning ‘(from) your dear Findach’ (Rodway 2017); or if the text is read as BENDDACTANIML or BENDDACT ANIM L‘a blessing on the soul of L’ (Forsyth 1996, 176)</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>Forsyth (1995, 688) confirms that there is slight doubt over the twelfth letter which is probably LB but could possibly be interpreted as F or V, but the rest ENDDACTANIM- is secure. Interpreting the text as BENDDACT ANIM L, BENDDACT is Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/5661">bendacht</ref></foreign>, 'a blessing', from Latin <foreign xml:lang="la">benedictum</foreign>, and ANIM, Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/1402">anim</ref></foreign> 'soul'. This word is not to be confused with Old Irish <foreign xml:lang="sga">ainm</foreign> 'name', which occurs in its older form ANM on a number of ogham pillars in Southern Ireland.</p>
+                <p>The formula <foreign xml:lang="sga">bendacht for anim N.</foreign>, 'a blessing on the soul of N.', is well attested in the Irish epigraphic record, mainly on recumbent cross-slabs. </p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="FOR1995b"/>
                      <citedRange>677-696</citedRange>
+                     </bibl>
+                     <bibl><ptr target="FOR1996"/>
+                         <citedRange>160-186</citedRange>
                      </bibl>
                       <bibl><ptr target="ROD2017"/>
                      <citedRange>103-116</citedRange>
