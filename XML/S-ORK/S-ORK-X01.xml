@@ -75,16 +75,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <width></width>
                                             <depth></depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
-                                     </dimensions>         
+                                     </dimensions>   
+                                    <desc type="decoration">Decorated with Pictish symbols. On the side presumed to be the front are two motifs; an incomplete double disc and z-rod. On the other side at the top is an incomplete rectangular design.</desc>
                                 </support>
-                                <condition></condition>
+                                <condition>The top of the pin is broken and the remainder has a high overall gloss from extensive handling.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout>Near the point, on side that appears to be the front of the pin, there are three incised lines and two pits which resemble ogham.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> -->
+                            <handNote>The incised lines are fairly soft and rounded, and are not the result of sharp knife cuts. <!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> -->
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -137,7 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-24" who="#POC">Added and encoded information, including edition?? and image</change>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref, shortened museum coords and provenance observed details.</change>
-    <change when="2026-02-12" who="#POC">Replaced scaled image with original</change>
+    <change when="2026-02-12" who="#POC">Replaced scaled image with original, added decoration section, added information from Orkney Museum site</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -157,25 +158,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                 </ab>
             </div>
-           <!-- <div type="apparatus">
-               <!-\- <listApp>
-                <app>                    
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+<note>The incised lines near the top of the pin do not appear to be ogham.</note>                    
                 </app>
-                </listApp>-\->
+                </listApp>
             </div>
-            <div type="translation">
+            <!--<div type="translation">
                 <p></p>
-            </div>
-            <div type="commentary">
-                 <p></p>
             </div>-->
-            <div type="bibliography">
-                 <!--<listBibl>
-                <!-\-     <bibl><ptr target="MAC1945"/>
+            <div type="commentary">
+                 <p>The incised lines on the pin are not consistent with ogham and are likely decorative features. </p>
+            </div>
+            <!--<div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>
                      <citedRange></citedRange>
                      </bibl>
-                 </listBibl>-\->-->
-            </div>
+                 </listBibl>
+            </div>-->
         </body>
     </text>
 </TEI>
