@@ -67,14 +67,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                             <depth>0.2</depth>
                                      </dimensions>                                   
                                 </support>
-                                <condition>A large boulder used as a foundation stone for a wall. The back of the boulder is partly buried under a soil build up but the face of the boulder allegedly contained an ogham inscription. The linear marks are probably not an ogham inscription but marks made by ploughing before the stone was built into the wall. </condition>
+                                <condition>A large scarred and scratched boulder used as a foundation stone for a wall. The back of the boulder is partly buried under a soil build up. The scarred linear marks on the face of the boulder were mistaken for ogham writing.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The southern face and western edge of the boulder are scarred with linear scratches which were believed to an ogham inscription.</layout>
+                                <layout>The southern face and western edge of the boulder allegedly contained an ogham inscription.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Okasha (1993, 349) excluded this stone from her corpus on the grounds that <q>these markings are not inscriptions</q>.<height></height>
+                            <handNote>The markings consist of linear scratches and are not ogham.<height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -127,6 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-12-04" who="#POC">Proofreading updates, commented out empty elements including edition, apparatus and commentary.</change>
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace</change>
     <change when="2025-07-09" who="#NW">Removed text lang as no text.</change>
+    <change when="2026-02-12" who="#POC">Added information to the other sections </change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,17 +147,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1"/>
                 </ab>
             </div>-->
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
-                <app></app>
+                <app n="1">
+                    <note>Okasha (1993, 349) excluded this stone from her corpus on the grounds that <q>these markings are not inscriptions</q>.</note>
+                </app>
                 </listApp>
-            </div>-->
+            </div>
             <!--<div type="translation">
                 <p></p>
             </div>-->
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            <div type="commentary">
+                <p>The linear marks are not ogham but likely made by ploughing before the stone was built into the wall. </p>
+            </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="OKA1993"/>
