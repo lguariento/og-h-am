@@ -77,14 +77,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
-                                <condition></condition>
+                                <condition>The inscription appears to be complete, but the letters are worn.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout style="horizontal" rend="face_stemline">Three ogham letters are visible on the flat face of the stone. There is a clear stemline which is roughly medially placed. Two of the three ogham letters are placed very closely together, while the first or last letter is separated by a gap.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote> <!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> -->
+                            <handNote>The ogham characters and stemline appear to have been roughly <rs type="execution"  key="graffiti">scored</rs>.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -136,7 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
     <change when="2025-06-24" who="#POC">Added and encoded information, including edition and image</change>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
-    <change when="2026-02-12" who="#POC">Replaced scaled image with original</change>
+    <change when="2026-02-12" who="#POC">Replaced scaled image with original. Attempted to add information from what I can ascertain from the image and model, nothing published that I can cite.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,33 +148,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><unclear reason="worn">ᚁ</unclear><unclear reason="worn">ᚐ</unclear><unclear reason="worn">ᚁ</unclear>
+                    <lb n="1" style="text-direction:l-to-r"/><unclear reason="worn">ᚁ</unclear><unclear reason="worn">ᚐ</unclear><unclear reason="worn">ᚁ</unclear>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><unclear reason="worn">B</unclear><unclear reason="worn">A</unclear><unclear reason="worn">B</unclear>
+                    <lb n="1" style="text-direction:l-to-r"/><unclear reason="worn">B</unclear><unclear reason="worn">A</unclear><unclear reason="worn">B</unclear>
                 </ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app>                    
-                </app>
-                </listApp>-->
+                <listApp>
+                <app n="1">
+<note>The direction of reading is dependent on the position in which the stone is held. Regardless of the direction in which the inscription is read, it does not yield and particular sense. One possible reading is:</note>                    
+               <rdg>BAB</rdg>
+                </app>   
+                </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>The text is most likely an example of casual graffiti.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>It is possible that this object was a gaming piece. If so, the ogham characters of Birsay 4 might offer further evidence for ogham literacy in a recreational context. The use of ogham in a recreational context is also attested in Inchmarnock 2 (S-BUT-003) and Inchmarnock 3 (S-BUT-004).</p>
             </div>
-            <div type="bibliography">
+            <!--<div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="MAC1945"/>
                      <citedRange></citedRange>
                      </bibl>
                  </listBibl>
-            </div>
+            </div>-->
         </body>
     </text>
 </TEI>
