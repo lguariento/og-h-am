@@ -52,7 +52,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Scotland</country>
                         <repository>Orkney Museum</repository>
-                        <idno type="invNo"/>
+                        <!--<idno type="invNo"/>-->
                         <altIdentifier>
                             <idno type="geo">58.98144, -2.96124</idno>
                         </altIdentifier>
@@ -139,7 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>
     <change when="2025-06-30" who="#POC">Update reading in edition, add information from blog, update text lang and lang code</change>    
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
-    <change when="2026-02-12" who="#POC">Replaced scaled image with original</change>
+    <change when="2026-02-12" who="#POC">Replaced scaled image with original, commented out empty inventory number</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -167,11 +167,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>
             <div type="translation">
-                <p>inheritance of/from Orkney’ [or ‘of an Orcadian’]</p>
+                <p>'inheritance of/from Orkney' [or 'of an Orcadian']</p>
             </div>
             <div type="commentary">
-                 <p>Forsyth (1996, 456-459) drew attention to the correspondence between ORC and the local tribal/geographic name <name>Orc</name>, as in <foreign xml:lang="pgl">fecht Orc</foreign> (‘expedition to Orkney’, Annals of Ulster 580.3) and <foreign xml:lang="pgl">bellum for Orcaib</foreign> (‘battle against the Orcadians’, Annals of Ulster 708).</p>
-                <p>According to David Stifter, the most straightforward interpretation appears to be Old Norse: <foreign xml:lang="non">arf af Orc</foreign>, with <foreign xml:lang="non">arf</foreign> understood as the accusative of ‘inheritance’. This interpretation means that the large blank spaces before and after <foreign xml:lang="non">af</foreign> were intentional and separated the words of the inscription.</p>
+                 <p>Forsyth (1996, 456-459) drew attention to the correspondence between ORC and the local tribal/geographic name <name>Orc</name>, as in <foreign xml:lang="pgl">fecht Orc</foreign> ('expedition to Orkney', Annals of Ulster 580.3) and <foreign xml:lang="pgl">bellum for Orcaib</foreign> ('battle against the Orcadians', Annals of Ulster 708).</p>
+                <p>According to David Stifter, the most straightforward interpretation appears to be Old Norse: <foreign xml:lang="non">arf af Orc</foreign>, with <foreign xml:lang="non">arf</foreign> understood as the accusative of 'inheritance'. This interpretation means that the large blank spaces before and after <foreign xml:lang="non">af</foreign> were intentional and separated the words of the inscription.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
