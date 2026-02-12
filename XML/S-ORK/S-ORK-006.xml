@@ -71,20 +71,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <material type="stone">Siltstone</material> 
                                     <objectType key="monument">Building block</objectType>                                     
                                     <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height>0.31</height>
+                                            <width>0.35</width>
+                                            <depth>0.065</depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
-                                <condition>The ogham inscription is incomplete.</condition>
+                                <condition>The ogham inscription is incomplete.Only the middle section of the inscription survives, some individual strokes are badly worn and the top of the third letter is lost.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The ogham inscription is on the narrow flat face.</layout>
+                                <layout rend="face_stemline">The short ogham inscription is on the narrow flat face. The stemline runs roughly parallel with the long edge, wavering slightly.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><rs type="execution"  key="graffiti">unknown</rs>
+                            <handNote>The ogham inscription was <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. Forsyth (1996, 86) describes the letters as having been sharply and fairly deeply incised with a blade. The extant inscription displays some significant features, the bind-strokes on the consonants and angled vowels.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -95,7 +95,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>59.136389, -3.330278</geo>
                                 <note>National Grid Reference: HY 2398 2850</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>Mid-seventh century</origDate><!--usually not known-->
                         </origin>
                         <provenance type="found">Found during excavation in 1980, re-used as a paving stone in a context dated by radiocarbon analysis.
                         </provenance>
@@ -137,7 +137,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2025-06-24" who="#POC">Added and encoded information, including edition and images</change>
 <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>  
   <change when="2025-08-19" who="#MK">Added 3D resp.</change>
-        <change when="2026-02-12" who="#POC">Replaced scaled image with original</change>
+        <change when="2026-02-12" who="#POC">Replaced scaled image with original, added origDate, measurements, apparatus, commentary, bibl, condition, layout, handNote.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -159,21 +159,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab type="list">[---] MAQQ HOB[---]</ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app>                    
+                <listApp>
+                <app n="1">
+<note>The direction of reading is not in doubt, since the slope of all letters but the first is diagnostic. However, the fragmentary state of the text renders interpretation difficult. Forsyth (1996, 88) reasons that the most plausible reading of the text is:</note>                    
+                <rdg source="FOR1996">[---] MAQQ HOB[---]</rdg>
                 </app>
-                </listApp>-->
+                </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>The inscription likely consists of a solitary compound personal name of the common Irish type <foreign xml:lang="ga">Mac-N</foreign>.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>MAQQ can be taken as a form of Irish MAQQI, later Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/31166">macc</ref></foreign> meaning 'son'. MAQQ is attested elsewhere in Scotland at Latheron (S-SUT-002).</p>
+                <p>The main significance of the Birsay 3 inscription is its evidence for bind-strokes and angled vowels already being in use by the mid-seventh century.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>85-91</citedRange>
                      </bibl>
                  </listBibl>
             </div>
