@@ -139,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-19" who="#MK">Added 3D and RTI resp.</change>
     <change when="2025-10-17" who="#NW">Update to app and bibl - check with KF</change>
     <change when="2026-02-11" who="#POC">Updated bibl, app, origDate, condition, handNote, added back the original image, added eDIL references to commentary</change>
+    <change when="2026-02-12" who="#POC">Updated reading direction in edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,12 +151,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><g ref="#forfid_X"/>ᚅ<g ref="#bound_D"/>ᚇ<g ref="#hammerhead_A"/>ᚉᚈᚐ<unclear reason="worn">ᚅ</unclear>ᚔᚋᚂᚁ
+                    <lb n="1" style="text-direction:l-to-r"/><g ref="#forfid_X"/>ᚅ<g ref="#bound_D"/>ᚇ<g ref="#hammerhead_A"/>ᚉᚈᚐ<unclear reason="worn">ᚅ</unclear>ᚔᚋᚂᚁ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><g ref="#forfid_X" type="interpretation_E"/>N<g ref="#bound_D"/>D<g ref="#hammerhead_A"/>CTA<unclear reason="worn">N</unclear>IMLB
+                    <lb n="1" style="text-direction:l-to-r"/><g ref="#forfid_X" type="interpretation_E"/>N<g ref="#bound_D"/>D<g ref="#hammerhead_A"/>CTA<unclear reason="worn">N</unclear>IMLB
                 </ab>
                 <ab type="list">XNDDACTANIMLB</ab>
             </div>
