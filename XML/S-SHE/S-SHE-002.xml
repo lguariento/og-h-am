@@ -140,7 +140,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-07-01" who="#POC">Add information from Babelstone blog and Forsyth 1996, update edition with variant letter encoding, add sketch of inscription</change>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and provenance observed details.</change>
-    
+    <change when="2026-02-14" who="#NW">Replaced incorrect bound U with bound angled U. Added unclear H^D</change>
+        
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,19 +153,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_I"/><g ref="#bound_R"/><unclear reason="ambiguous"><g ref="#bound_U"/></unclear><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_I"/><choice><unclear reason="damage">H</unclear><unclear reason="damage">D</unclear></choice><g ref="#bound_R"/><unclear reason="ambiguous"><g ref="#bound_angled_U"/></unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_I"/><g ref="#bound_R"/><unclear reason="ambiguous"><g ref="#bound_U"/></unclear><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_I"/><choice><unclear reason="damage">H</unclear><unclear reason="damage">D</unclear></choice><g ref="#bound_R"/><unclear reason="ambiguous"><g ref="#bound_angled_U"/></unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
-                <ab type="list">[---]IRU[---]</ab>
+                <ab type="list">[--]IH^DRU![--]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note> Forsyth (1996, 211) indicates the possibility of a letter (H or D) between the I and the R that is not shown in Allen and Anderson's (1903, fig. 11) drawing. </note>
+<note> Forsyth (1996, 211) indicates the possibility of a letter (H or D) between the I and the R that is not shown in Allen and Anderson's (1903, fig. 11) drawing. She also notes that the final three angular strokes are bound at the tips and the bind line extends beyond the last angled stroke so that this might be the remains of an E or I.</note>
 <rdg source="FOR1996">[--]I[H^D]R[U!][--]</rdg>                    
                 </app>
                     <app n="2">
