@@ -59,12 +59,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>
+                          <msItem>   
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>
-                              <textLang mainLang="non-Ogam" cert="low">Possibly Old Norse written in ogham script</textLang>
-                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                            -->                               
+                              <textLang mainLang="non-Ogam" cert="low">Possibly Old Norse written in ogham script</textLang>                          
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -143,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-07-01" who="#POC">Add information from OOTM (October 2023)</change>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2026-02-13" who="#POC">Replaced scaled images with originals</change>
+    <change when="2026-02-13" who="#NW">Corrected error in edition (2nd word NEHH- corr to NAHH) and replaced normal consonants with angled variants</change>
     
 </listChange>
 </revisionDesc>
@@ -158,25 +156,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" source="FOR1996"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><w>ᚉᚏᚏ<unclear reason="damage">ᚑ</unclear>ᚄᚉᚉ</w><g ref="#punctuation_double"/> <persName><name>ᚅᚓᚆᚆᚈᚃᚃᚇᚇᚐ<g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/>ᚄ</name><g ref="#punctuation_double"/> <w>ᚇᚐᚈᚈᚏᚏ</w><g ref="#punctuation_double"/> <name><g ref="#angled_A"/>ᚅᚅ</name>
-                    <lb n="2" style="text-direction:up"/><name>ᚁᚓᚅᚅ<g ref="#s-shaped_I"/>ᚄᚓᚄ</name> <w type="formula" lemma="maqqas">ᚋᚓᚊᚊ</w> <name>ᚇᚇ<g ref="#crosshatched_R"/><g ref="#forfid_OI"/>ᚐᚅᚅ</name></persName>
+                    <lb n="1" style="text-direction:up"/><w>ᚉᚏᚏ<unclear reason="damage">ᚑ</unclear><g ref="#angled_S"/>ᚉᚉ</w><g ref="#punctuation_double"/> <persName><name><g ref="#angled_N"/>ᚐᚆᚆᚈ<g ref="#angled_V"/><g ref="#angled_V"/><g ref="#angled_D"/><g ref="#angled_D"/>ᚐ<g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/><g ref="#angled_S"/></name><g ref="#punctuation_double"/> <w><g ref="#angled_D"/>ᚐᚈᚈᚏᚏ</w><g ref="#punctuation_double"/> <name><g ref="#angled_A"/><g ref="#angled_N"/></name>
+                    <lb n="2" style="text-direction:up"/><name><g ref="#angled_B"/>ᚓ<g ref="#angled_N"/><g ref="#angled_N"/><g ref="#s-shaped_I"/><unclear reason="faded"><g ref="#angled_S"/></unclear>ᚓ<g ref="#angled_S"/></name> <w type="formula" lemma="maqqas">ᚋᚓ<g ref="#angled_Q"/><g ref="#angled_Q"/></w> <name><g ref="#angled_D"/><g ref="#angled_D"/><g ref="#crosshatched_R"/><g ref="#forfid_OI"/>ᚐ<g ref="#angled_N"/><g ref="#angled_N"/></name></persName>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" source="1996">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><w>CRR<unclear reason="damage">O</unclear>SCC</w><g ref="#punctuation_double"/> <persName><name>NEHHTVVDDA<g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/>S</name><g ref="#punctuation_double"/> <w>DATTRR</w><g ref="#punctuation_double"/> <name><g ref="#angled_A"/>NN</name>
-                    <lb n="2" style="text-direction:up"/><name>BENN<g ref="#s-shaped_I"/>SES</name> <w type="formula" lemma="maqqas">MEQQ</w> <name>DD<g ref="#crosshatched_R"/><g ref="#forfid_OI" type="interpretation_OI"/>ANN</name></persName>
+                    <lb n="1" style="text-direction:up"/><w>CRR<unclear reason="damage">O</unclear><g ref="#angled_S"/>CC</w><g ref="#punctuation_double"/> <persName><name><g ref="#angled_N"/>AHHT<g ref="#angled_V"/><g ref="#angled_V"/><g ref="#angled_D"/><g ref="#angled_D"/>A<g ref="#rabbit-eared_D"/><g ref="#rabbit-eared_D"/><g ref="#angled_S"/></name><g ref="#punctuation_double"/> <w><g ref="#angled_D"/>ATTRR</w><g ref="#punctuation_double"/> <name><g ref="#angled_A"/><g ref="#angled_N"/><g ref="#angled_N"/></name>
+                    <lb n="2" style="text-direction:up"/><name><g ref="#angled_B"/>E<g ref="#angled_N"/><g ref="#angled_N"/><g ref="#s-shaped_I"/><unclear reason="faded"><g ref="#angled_S"/></unclear>E<g ref="#angled_S"/></name> <w type="formula" lemma="maqqas">ME<g ref="#angled_Q"/><g ref="#angled_Q"/></w> <name><g ref="#angled_D"/><g ref="#angled_D"/><g ref="#crosshatched_R"/><g ref="#forfid_OI" type="interpretation_O"/>A<g ref="#angled_N"/><g ref="#angled_N"/></name></persName>
                 </ab>
-                <ab type="list">CRROSCC: NEHHTVVDDADDS: DATTRR: ANN BENNISES MEQQ DDROIANN </ab>
+                <ab type="list">CRROSCC: NAHHTVVDDADDS: DATTRR: ANN BENNISES MEQQ DDROIANN </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
 <note>The interpretation of the Bressay text remains uncertain, especially in regards to the order in which the two sides of the slab ought to be read, <q>if indeed they are meant to be taken sequentially</q> (Forsyth 1996, 129). Forsyth (1996, 127) suggests that one possible reading is to <q>take the longer line first</q>, however, <q>it could be that the two are separate sense units and it does not matter which goes first, certainly no indication is given on the inscription itself</q>. The interpretation of the longer text on the right edge is aided by the presence of word-divison dots.</note>  
-                    <!--<rdg source="FOR1996"><lb n="1"/>CRROSCC NEHHTVVDDAD̎D̎S DATTRR ANN
-                        <lb n="2"/>BENNIᶴSES MEQQ DDℝOᴵANN
+                    <!--<rdg source="FOR1996"><lb n="1"/>CRRO( /s)SCC : NAHHTW DDAddS : DATTRR : aNN(-)
+                        <lb n="2"/>BENiSESMEQQDDRoANN(-) (Forsyth 1996, 124, 126)
                     </rdg>-->
                     
                 </app>
