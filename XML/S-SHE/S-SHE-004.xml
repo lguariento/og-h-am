@@ -68,23 +68,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.trove.scot/place/587">Trove</ref>: <idno type="trove">587</idno></p>
-                                    <material type="stone">Stone type unknown</material> 
+                                    <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Slab</objectType>                                     
-                                    <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                    <dimensions unit="mm">                                         
+                                            <height>760</height>
+                                            <width>265</width>
+                                            <depth>45</depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
-                                <condition></condition>
+                                <condition>The ogham inscription is well-preserved for the most part except for a potentially substantial portion missing from the beginning. The end of the inscription, however, appears to be complete despite the fracture at the upper edge of the slab. The two broad faces are severely laminated and large chunks of the surface have been lost. </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout style="vertical" rend="stemline_up">The inscription is carved up the entire length of the narrow edge of the stone. The inscription begins mid-letter. There is 30mm of stem visible after the final letter which suggests that no lettering has been lost at the end.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                            <handNote>The inscription has been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs>. Forsyth (1996, 472) notes that little attention has been given to smoothing as the <q>pocks are still clearly visible</q>. The strokes are well-defined but not deep, they have rounded ends and a curved cross-section. The stemline has been re-cut on top of the letter strokes. The inscription is very neat and regular, the letters are clearly differentiated by size, slope, and spacing.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -138,7 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition, added word division around and encoded Meqq, added short explantation to apparatus</change>   
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and added Forsyth ref and provenance observed details.</change>
-    
+    <change when="2026-02-18" who="#POC">Added dimensions, condition, layout, material, handNote, execution, apparatus, translation, commentary, bibl</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -162,20 +162,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>The inscription could include the Gaelic word for 'son' in the genitive case, which could then be expected to be followed by a personal name in the genitive case. </note>                   
+                    <note>The direction of reading is indicated by the slope of the b- and h-<foreign>aicme</foreign> consonants which is consistent. The inscription lacks forfeda, bind-strokes, or word-division. The inscription could include the Gaelic word for 'son' in the genitive case, which could then be expected to be followed by a personal name in the genitive case. The extant segment of the first name is too short for analysis beyond noting that -<emph>nes</emph>, and -<emph>les</emph> are perfectly possible syllables for personal names in both Gaelic and Brittonic languages. Note also that <persName xml:lang="pgl">Nes</persName> was an Irish male personal name in its own right. The final name is rather long for a single name and further segmentation might be required.
+            </note>                   
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>'... son of unblemished choice?'</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>MEQQ also occurs as MAQQ in mainland Scotland is a form of Irish MAQ(Q)I, 'son'. This allows the preceding and succeeding letters to be interpreted as personal names. The final syllable of the final word appears to be a form of Pictish -<foreign xml:lang="xpi">(g)uist</foreign> from Celtic <foreign xml:lang="cel">gustus</foreign> meaning 'choice'. The final personal name appears to be Pictish rather than Gaelic as it appears to lack the expected Irish genitive ending -<foreign xml:lang="sga">guso</foreign>, while Pictish -<foreign xml:lang="xpi">(g)uist</foreign> appears in both nominative and genitive position. Working backwards from the final element in the final word, if the preceding O represents a composition vowel, then it has clear implications for dating. Such syllables were lost in Brittonic in the first half of the sixth century <q>and in Gaelic slightly later</q>, but this seems rather early for the St. Ninian's Isle text (Jackson 1955, 166). Regarding the first element of the last personal name, perhaps St. Ninian's Isle's <foreign>Nanamo</foreign> is a reduplicated form of Celtic <foreign xml:lang="cel">Namo</foreign>- which Evans (1967, 369) interprets as WCB <foreign>nam</foreign> 'defect, blemish, fault, vice'. If the initial NA- is a negative prefix, the final name might mean 'unblemished choice'.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="FOR1996"/>
                      <citedRange>472-479</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GOU1878"/>
+                         <citedRange>20-32</citedRange>
+                     </bibl>
+                     <bibl><ptr target="JAC1955"/>
+                         <citedRange></citedRange>
                      </bibl>
                  </listBibl>
             </div>
