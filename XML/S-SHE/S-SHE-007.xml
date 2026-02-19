@@ -68,24 +68,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.trove.scot/place/1190">Trove</ref>:  <idno type="trove">1190</idno></p>
-                                    <material type="stone">Stone type unknown</material> 
+                                    <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Slab</objectType>                                     
                                     <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                            <height>1.12</height>
+                                            <width min="0.2" max="0.3">0.2-0.3</width>
+                                            <depth>0.04</depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
-                                     </dimensions>         
+                                     </dimensions>
+                                    <desc type="decoration">Apart from the ogham inscription, the stone bears a cruciform mark in the left-hand corner of the inscribed face. Goudie (1878, 26) described this mark as resembling a runic character. However, the alleged resemblance to a runic letter is slight and probably coincidental, and the mark is more readily interpreted as a form of the cross. </desc>
                                 </support>
-                                <condition></condition>
+                                <condition>Only a very small portion of the inscription is lost. One or two strokes may have been lost at the end but no more. The ogham is otherwise clearly legible. The stone appears intact and in overall good condition, but the edges have been chipped to varying degrees..</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout style="vertical" rend="stemline_up">The inscription is placed centrally on the broad face and starts about a third of the way up the stone, occupying the whole of the upper two-thirds of the slab. The incised stemline continues for 680mm before terminating in a patch of wear about 20mm before the edge of the stone. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
-                                <height></height>
+                            <handNote>The inscription is carefully carved. There is some variation in the length of the strokes. The short strokes vary between <height min="7" max="15" unit="mm">7-15mm</height> in length and the long strokes are between <height min="20" max="25" unit="mm">20-25mm</height>. The component strokes are neatly parallel and well-spaced.  The overall impression of the Lunnasting ogham seems very much of a manuscript-derived ogham aesthetic.<!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                                
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -95,7 +96,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>60.366389, -1.167778</geo>
                             <note>National Grid Reference: HU 46 65</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>Eighth to ninth century</origDate>
                         </origin>
                         <provenance type="found" when="1876">Found one month after the St. Ninian's slabs, about 1.5m down in a peat bog in the parish of Lunnasting in 1876 and taken to a nearby cottage. It was presented to the museum that same year.
                         </provenance>
@@ -139,7 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and added Forsyth ref and provenance observed details.</change>
     <change when="2025-11-22" who="#NW">Updated edition encoding adding glyphs where missing, especially bound characters (most).</change>
-    
+    <change when="2026-02-19" who="#POC">Added dimensions, condition, layout, handNote, material, apparatus, date, commentary, decoration, updated bibl</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -163,20 +164,30 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>The third letter of the inscription looks like the alternative Uilleann (UI) forfid. The phonetic value of this letter is uncertain.</note>                    
+<note>The inscription features a number of forfeda, bound ogham letters, angled vowels, and word division is also indicated with pairs of dots. The slope of the letters, especially the angled vowels, indicates that the inscription is to be read from the bottom up. The fourth letter of the inscription looks like the alternative Uilleann (UI) forfid and the phonetic value of this letter is uncertain. Doubt arises over the correct transliteration of the letters H and V as well as the six forfeda in the inscription. As the text is clearly separated by dots, the division of the text into four words must be taken as authoritative. Forsyth (1996, 408) gives the following reading:</note>                    
+                <rdg source="FOR1996">XTT?CUHXTTS: AHXHHTTANNN: HCCVVEVV: NEHHTON</rdg>
+                <note>In the first word, there is doubt over the correct transliteration of atleast three of the four vowels, a possible transliteration is Eatt(o?)cuheatts. The second word could be transliterated as <foreign>Aiheahhttannn</foreign> or <foreign>Aicheachtan</foreign>. The third word presents a major problem since there is doubt over the correct value of every single letter. Depending on whether the final letter of the final word consists of four of five strokes, the final word could be interpreted as NEHHTONN or possibly NEHHTONS. A tentative transliteration of the Lunnasting inscription may be:</note>
+                    <rdg source="FOR1996">Eatt(o?)cuheatts Aiheahhttannn HCCVVEVV Nehhtonn</rdg>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>While it is agreed that the final word is the personal name <persName xml:lang="cy">Nechtan/Naiton</persName>, there is no satisfactory translation for the previous three words.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>The Lunnasting inscription has thirty-eight characters, making it the longest single stretch of ogham text in Scotland (Forsyth 1996, 404). While the Bressay (S-SHE-001) text is ten characters longer, it is divided between the two edges of the slab. The first word might be <foreign>Ette-cuhett-s</foreign> meaning 'this is/these are as long as', perhaps indicating that this slab might have functioned as a territorial marker. The second word could be transliterated as <foreign>Aiheahhttannn</foreign> or <foreign>Aicheachtan</foreign>, Irish <foreign xml:lang="ga">Echuiden</foreign> or even a reduplicated form of <foreign xml:lang="ga">Achtan</foreign> are possibilities for the word. For the third word HCCVVEVV, Padel (1972, 123) observes that the rather unpronounceable initial group HCCVV <q>could in fact be a fairly good attempt to render such a sound as Welsh <foreign xml:lang="cy">chw</foreign></q> yet the word still defies interpretation. If the final word is interpreted as NEHHTONN, then it may be understood as a form of the Celtic male personal name <persName xml:lang="cy">Nechton</persName> which is well-attested in Pictish sources in various spellings.</p>
+            <p>Comparison with related ogham texts may provide some insight into the meaning of the other words in the Lunnasting inscription. On analogy with the Bressay inscription which follows the formula inscribed object : personal name : relationship : personal name, ETTECUHETTS might similarly refer to the stone itself or a grave and possibly mean 'grave-stone' or 'memorial'. The -TANN of the second word suggests that it might also be a personal name, in which case the third word might indicate a familial relationship. Alternatively, the four words may represent grammatically unconnected personal names.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="FOR1996"/>
-                     <citedRange>402</citedRange>
+                     <citedRange>402-419</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GOU1878"/>
+                         <citedRange>24-26</citedRange>
+                     </bibl>
+                     <bibl><ptr target="PAD1972"/>
+                     <citedRange>120-4</citedRange>
                      </bibl>
                  </listBibl>
             </div>
