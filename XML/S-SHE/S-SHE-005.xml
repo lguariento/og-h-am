@@ -70,21 +70,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://www.trove.scot/place/587">Trove</ref>: <idno type="trove">587</idno></p>
                                     <material type="stone">Stone type unknown</material> 
                                     <objectType key="monument">Slab</objectType>                                     
-                                    <dimensions unit="m">                                         
+                                    <!--<dimensions unit="m">                                         
                                             <height></height>
                                             <width></width>
                                             <depth></depth>
-                                        <!--<dim type="diameter">if circular, etc</dim>-->
-                                     </dimensions>         
+                                        <!-\-<dim type="diameter">if circular, etc</dim>-\->
+                                     </dimensions>-->         
                                 </support>
-                                <condition></condition>
+                                <condition>A fragment of an ogham inscription that Goudie (1878, 24) describes as being <q>somewhat defaced by exposure</q>..</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout>Goudie (1878) gives no indication of the size or nature of the fragment.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                            <handNote>Goudie (1878) does not describe the inscription.<!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -97,7 +97,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found">Goudie found two other fragments of ogham inscriptions but does not describe them and left them on site.
+                        <provenance type="found">One of two ogham inscription fragments found by Gilbert Goudie in the sands at St. Ninian's Isle in 1876. Goudie left the fragments on site.
                         </provenance>
                         <provenance type="observed">The stone is now lost.
                         </provenance>
@@ -136,7 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
     <change when="2025-06-23" who="#POC">Added and encoded information from Excel spreadsheet</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and added Forsyth ref.</change>
-    
+    <change when="2026-02-19" who="#POC">Added information to condition, layout, handNote, updated provenance and bibl.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -156,22 +156,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <lb n="1" style="text-direction:up"/>
                 </ab>
             </div>
-            <div type="apparatus">
-               <!-- <listApp>
+            <!--<div type="apparatus">
+                <listApp>
                 <app>                    
                 </app>
-                </listApp>-->
-            </div>
+                </listApp>
+            </div>-->
             <div type="translation">
-                <p></p>
+                <p>No translation can be provided.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>Forsyth (1996, 467) notes there is no reason to doubt Goudie's identification of the two ogham fragments and, <q>as a known and respected local antiquary, his testimony may be deemed reliable</q>.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="FOR1996"/>
                      <citedRange>467</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GOU1878"/>
+                         <citedRange>20-32</citedRange>
+                     </bibl>
+                     <bibl><ptr target="WES2013"/>
                      </bibl>
                  </listBibl>
             </div>
