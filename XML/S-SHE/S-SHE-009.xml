@@ -59,16 +59,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                            <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>--> 
+                            <!--<textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>-->
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Mail Cemetery <ref target="https://www.trove.scot/place/938">Trove</ref>: <idno type="trove">938</idno></p>
-                                    <material type="stone">Stone type unknown</material> 
+                                    <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Slab</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.44</height>
@@ -141,24 +141,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>    
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and added Forsyth ref and provenance observed details.</change>
-    <change when="2026-02-20" who="#POC">Added material, dimensions, condition, layout, handNote, edition, update textLang and lang in edition, updated current repo which is listed by West as NMS</change>
+    <change when="2026-02-20" who="#POC">Added material, dimensions, condition, layout, handNote, edition, update textLang and lang in edition, added image paths</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="SCO/S-SHE-009-Cunningsburgh4-a.png"><desc>Drawing by Forsyth (1996, 226)</desc></graphic>
+        <graphic url="SCO/S-SHE-009-Cunningsburgh4-b.png"><desc>Drawing by Forsyth (1996, 226)</desc></graphic>
         <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#NW"><!--update lang and resp here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/><g ref="#forfid_X"/>ᚈᚈ<g ref="#angled_E"/>ᚉ<unclear reason="ambiguous">ᚌ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚃᚃ<unclear reason="worn">ᚏ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚃ<g ref="#punctuation_double"/> ᚇᚐᚈᚈᚃ<unclear reason="ambiguous">ᚁ</unclear><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>XTT<g ref="#angled_E"/>C<unclear reason="ambiguous">G</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>VV<unclear reason="worn">R</unclear><gap reason="lost" extent="unknown" unit="character"/> 
@@ -169,7 +170,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1"> 
-                    <note>A pair of dots preserved in the middle section indicates word-division. The inscription also preserves two supplementary letters, the X-forfid and the angled vowel A. The three lines of ogham text may have been entirely separate, but the curving stem of the middle line seems to indicate that second and third lines were joined. The three lines can be interpreted as one continuous line but in the form of a spiral. This would require reading the lines in the sequence 1, 3, 2, with perhaps at least five letters missing between the third and second lines and an unknown number of letters lost at the end. Forsyth (1996, 224) supplies two possible interpretations:</note>
+                    <note>A pair of dots preserved in the middle section indicates word-division. The inscription also preserves two supplementary letters, the X-forfid and the angled vowel A. The three lines of ogham text may have been entirely separate, but the curving stem of the middle line seems to indicate that second and third lines were joined. The three lines can be interpreted as one continuous line but in the form of a spiral. There are perhaps at least five letters missing between the third and second lines and an unknown number of letters lost at the end. Forsyth (1996, 224) supplies two possible interpretations:</note>
                <rdg source="FOR1996">Etteco-[ ]-affr-[ ]-af : dattur</rdg>
                <rdg source="FOR1996">Etteco-[ ]-aw(w)r-[ ]-aw: dattw(w)</rdg>
                 </app>
