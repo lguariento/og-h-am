@@ -51,11 +51,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <msDesc>
                     <msIdentifier>
                          <country>Scotland</country>
-                        <repository>National Museums of Scotland</repository>
-                        <idno type="invNo">IB182</idno>
-                        <altIdentifier>
-                            <idno type="geo">55.946991, -3.1891831</idno>
-                        </altIdentifier>
+                        <repository/>
+                        <idno type="invNo"/>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -71,21 +68,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Slab</objectType>                                     
                                     <dimensions unit="m">                                         
-                                            <height>0.44</height>
-                                            <width>0.26</width>
-                                            <depth>0.05</depth>
+                                            <height></height>
+                                            <width></width>
+                                            <depth></depth>
                                         <!--<dim type="diameter">if circular, etc</dim>-->
                                      </dimensions>         
                                 </support>
-                                <condition>Three sections of ogham survive. The stone is severely trimmed and much of the immediate surface is lost to lamination.</condition>
+                                <condition>.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="other" rend="stemline_spiral">The inscription consists of three lines of ogham. The three lines are straight and roughly parallel except for the lower end of the middle line, which curves towards the centre.</layout>
+                                <layout></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham scores are deep incisions with U-section and rounded ends.<!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> -->
-                                The strokes vary in length from <height min="7" max="16" unit="mm">7-16mm</height> are short and widely spaced, giving the letters a squat, stumpy appearance. 
+                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                                <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -98,7 +95,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </origin>
                         <provenance type="found" when="1903">Found during grave-digging in Mail churchyard in 1903.
                         </provenance>
-                        <provenance type="observed"><!--Stayed in Clarke's possession (Forsyth 1996, 206).-->Currently in the National Museum of Scotland [IB 182] (West 2013).
+                        <provenance type="observed">The stone is now lost. The last record of the stone was while it was in Clarke's possession (Forsyth 1996, 206).
                         </provenance>
                     </history>
                 </msDesc>
@@ -135,7 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
     <change when="2025-06-23" who="#POC">Added and encoded information from Excel spreadsheet</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and added Forsyth ref.</change>
-    <change when="2026-02-19" who="#POC">Added material, dimensions, condition, layout, handNote, edition, update textLang and lang in edition, updated current repo which is listed by West as NMS</change>
+    <change when="2026-02-20" who="#POC">Add correct information for lost Cunningsburgh stone</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,41 +144,38 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#NW"><!--update lang and resp here-->              
                  <ab>
-                    <lb n="1" style="text-direction:up"/><g ref="#forfid_X"/>ᚈᚈ<g ref="#angled_E"/>ᚉ<choice><unclear>ᚑ</unclear><unclear>ᚌ</unclear></choice><gap reason="lost" unit="stroke"/>
-                    <lb n="2" style="text-direction:down"/><g ref="#angled_A"/>ᚃ<g ref="#punctuation_double"/> ᚇᚐᚈᚈ<choice><unclear>ᚃ</unclear><unclear>ᚒ</unclear></choice><unclear reason="ambiguous">ᚃ</unclear><gap reason="lost" unit="stroke"/>
-                    <lb n="3" style="text-direction:up"/><gap reason="lost" unit="stroke"/><choice><unclear reason="ambiguous">ᚐ</unclear><unclear reason="ambiguous">ᚋ</unclear></choice>ᚃᚃᚏ<gap reason="lost" unit="stroke"/>
+                    <lb n="1" style="text-direction:up"/>
+                    <lb n="2" style="text-direction:up"/>
+                    <lb n="3" style="text-direction:up"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><g ref="#forfid_X"/>TT<g ref="#angled_E"/>C<choice><unclear>O</unclear><unclear>G</unclear></choice><gap reason="lost" unit="stroke"/>
-                    <lb n="2" style="text-direction:down"/><g ref="#angled_A"/>V<g ref="#punctuation_double"/> DATT<choice><unclear>V</unclear><unclear>U</unclear></choice><unclear reason="ambiguous">V</unclear><gap reason="lost" unit="stroke"/>
-                    <lb n="3" style="text-direction:up"/><gap reason="lost" unit="stroke"/><choice><unclear reason="ambiguous">A</unclear><unclear reason="ambiguous">M</unclear></choice>VVR<gap reason="lost" unit="stroke"/>
+                    <lb n="1" style="text-direction:up"/>
+                    <lb n="2" style="text-direction:up"/>
+                    <lb n="3" style="text-direction:up"/>
                 </ab>
-                <ab type="list">XTTECO[- AV: DATTVV[- -]AVVR[-</ab>
             </div>
-            <div type="apparatus">
+            <!--<div type="apparatus">
                 <listApp>
-                <app n="1"> 
-                    <note>A pair of dots preserved in the middle section indicates word-division. The inscription also preserves two supplementary letters, the X-forfid and the angled vowel A. The three lines of ogham text may have been entirely separate, but the curving stem of the middle line seems to indicate that second and third lines were joined. The three lines can be interpreted as one continuous line but in the form of a spiral. This would require reading the lines in the sequence 1, 3, 2, with perhaps at least five letters missing between the third and second lines and an unknown number of letters lost at the end. Forsyth (1996, 224) supplies two possible interpretations:</note>
-               <rdg source="FOR1996">Etteco-[ ]-affr-[ ]-af : dattur</rdg>
-               <rdg source="FOR1996">Etteco-[ ]-aw(w)r-[ ]-aw: dattw(w)</rdg>
+                <app>
+                    
                 </app>
                 </listApp>
-            </div>
+            </div>-->
             <div type="translation">
-                <p>Forsyth (1996, 225) reasons that the text may possibly mean something similar to 'this is as far as (the territory of) X'.</p>
+                <p></p>
             </div>
             <div type="commentary">
-                 <p>The opening sequence may be compared with EHHTECON- of Cunningsburgh 2 and ETTECU- of Lunnasting which would imply a Brittonic interpretation. In this context <foreign>Etteco</foreign> might also mean something similar to 'this is/these are as long as', perhaps indicating that this fragment might have functioned as a territorial marker aswell. The remaining fragments of text are too short to give much clue as to meaning. The final segment recollects Bressay's DATTRR: which has been compared with ON <foreign xml:lang="non">dottir</foreign> 'daughter' but insufficient remains of the Cunningsburgh 3 text on which to base such a reconstruction. Similarly -<foreign xml:lang="non">affr</foreign> could be a Norse male personal name in the nominative.</p>
+                 <p></p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="FOR1996"/>
-                     <citedRange>219-226</citedRange>
+                     <citedRange></citedRange>
                      </bibl>
                      <bibl><ptr target="PAD1972"/>
-                     <citedRange>85-8</citedRange>
+                     <citedRange></citedRange>
                      </bibl>
                  </listBibl>
             </div>
