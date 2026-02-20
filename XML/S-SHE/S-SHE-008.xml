@@ -65,23 +65,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p>Mail Cemetery <ref target="https://www.trove.scot/place/938">Trove</ref>: <idno type="trove">938</idno></p>
-                                    <material type="stone">Sandstone</material> 
+                                    <material type="stone">Stone type unknown</material> 
                                     <objectType key="monument">Slab</objectType>                                     
-                                    <dimensions unit="m">                                         
+                                    <!--<dimensions unit="m">                                         
                                             <height></height>
                                             <width></width>
                                             <depth></depth>
-                                        <!--<dim type="diameter">if circular, etc</dim>-->
-                                     </dimensions>         
+                                        <!-\-<dim type="diameter">if circular, etc</dim>-\->
+                                     </dimensions>-->         
                                 </support>
-                                <condition>.</condition>
+                                <condition>The ogham-bearing fragment is described by Goudie (1904, 53) as being <q>smaller</q> than Cunningsburgh 2 (S-SHE-003). Goudie does not provide any details on the state of the inscription.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout></layout>
+                                <layout>Goudie (1904, 53) does not offer any information into how the ogham text was arranged on the fragment.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote><!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
+                            <handNote>Goudie (1904, 53) does not describe the ogham writing on the fragment. <!--<rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>-->
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -93,9 +93,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>National Grid Reference: HU 4330 2790</note></origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found" when="1903">Found during grave-digging in Mail churchyard in 1903.
+                        <provenance type="found" when="1874">According to Goudie (1904, 53), this fragment was discovered by Rev. George Clark <q>at the same place and about the same time</q> as Cunningsburgh 2 (S-SHE-003) which was found in 1874 or 1875 close-by the burial-ground at Mail.
                         </provenance>
-                        <provenance type="observed">The stone is now lost. The last record of the stone was while it was in Clarke's possession (Forsyth 1996, 206).
+                        <provenance type="observed">The stone is now lost. The last record of the stone was while it was in Clark's possession (Forsyth 1996, 206).
                         </provenance>
                     </history>
                 </msDesc>
@@ -132,7 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
     <change when="2025-06-23" who="#POC">Added and encoded information from Excel spreadsheet</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and added Forsyth ref.</change>
-    <change when="2026-02-20" who="#POC">Add correct information for lost Cunningsburgh stone</change>
+    <change when="2026-02-20" who="#POC">Add correct information for lost Cunningsburgh stone, update bibl, condition, layout, handNote, commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,40 +142,49 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#NW"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#POC"><!--update lang and resp here-->              
                  <ab>
                     <lb n="1" style="text-direction:up"/>
                     <lb n="2" style="text-direction:up"/>
                     <lb n="3" style="text-direction:up"/>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
                     <lb n="2" style="text-direction:up"/>
                     <lb n="3" style="text-direction:up"/>
                 </ab>
             </div>
-            <!--<div type="apparatus">
+            <div type="apparatus">
                 <listApp>
                 <app>
-                    
+                   <note>Goudie (1904, 53) does not supply a reading.</note> 
                 </app>
                 </listApp>
-            </div>-->
+            </div>
             <div type="translation">
-                <p></p>
+                <p>No translation can be provided.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>There is a dispute over whether this ogham-inscribed fragment from Cunningsburgh exists. Padel (1972, 88) discounts the existence of this ogham fragment, deeming it a myth borne from a misunderstanding of Goudie's (1904, 53) statement in his book. However, four ogham-inscribed fragments were recovered from Cunningsburgh. The smaller fragment mentioned by Goudie (1904, 53) cannot be Cunningsburgh 1 (S-SHE-002) because by then it was already in the National Museum of Scotland. Similarly, it cannot be Cunningsburgh 4 (S-SHE-009) which was not discovered until 1903. Brash (1879, 366) also corroborates the existence of this ogham-inscribed fragment. According to Forsyth (1996, 206), Gilbert Goudie informed Brash that this ogham-fragment was one of two which had been discovered quite recently and since Brash died in January 1876, it must mean that there were two ogham-inscribed fragments found in 1874 or 1875.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="BRA1879"/>
+                         <citedRange>366</citedRange>
+                     </bibl>
                      <bibl><ptr target="FOR1996"/>
-                     <citedRange></citedRange>
+                     <citedRange>206</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GOU1879"/>
+                         <citedRange>136-64</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GOU1904"/>
+                     <citedRange>53-55</citedRange>
                      </bibl>
                      <bibl><ptr target="PAD1972"/>
-                     <citedRange></citedRange>
+                     <citedRange>88</citedRange>
                      </bibl>
                  </listBibl>
             </div>
