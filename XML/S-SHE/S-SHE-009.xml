@@ -62,7 +62,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>--> 
                             <!--<textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>-->
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
-                           </msItem>
+                            <textLang mainLang="non-Ogam" cert="low">Possibly Old Norse written in ogham script</textLang> 
+                          </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
@@ -142,6 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and added Forsyth ref and provenance observed details.</change>
     <change when="2026-02-20" who="#POC">Added material, dimensions, condition, layout, handNote, edition, update textLang and lang in edition, added image paths, add Macalister reading and reference</change>
+    <change when="2026-02-23" who="#POC">Update textLang and resp in edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,14 +154,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#NW"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#POC">            
                 <ab>
                     <lb n="1" style="text-direction:up"/><g ref="#forfid_X"/>ᚈᚈ<g ref="#angled_E"/>ᚉ<unclear reason="ambiguous">ᚌ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚃᚃ<unclear reason="worn">ᚏ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="3" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚃ<g ref="#punctuation_double"/> ᚇᚐᚈᚈᚃ<unclear reason="ambiguous">ᚁ</unclear><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up"/>XTT<g ref="#angled_E"/>C<unclear reason="ambiguous">G</unclear><gap reason="lost" extent="unknown" unit="character"/>
                     <lb n="2" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>VV<unclear reason="worn">R</unclear><gap reason="lost" extent="unknown" unit="character"/> 
