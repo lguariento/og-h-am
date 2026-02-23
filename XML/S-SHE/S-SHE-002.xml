@@ -58,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                          <msItem>  
+                              <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>
+<!--                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> -->
                            <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
                            </msItem>
@@ -126,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
 </keywords>-->    
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
-<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
 </keywords>
 </textClass>
    <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
@@ -143,7 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2026-02-14" who="#NW">Replaced incorrect bound U with bound angled U. Added unclear H^D</change>
     <change when="2026-02-15" who="#NW">Alternative encoding test for unclear bound angled U with cert in glyph</change>
     <change when="2026-02-15" who="#NW">Test bound angled vowels and replaced unclear D^H with supplied D.</change>
-        
+    <change when="2026-02-23" who="#POC">Add textLang, update lang and resp of edition and text type</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -153,12 +154,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#POC">             
                 <ab>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_I"/><supplied reason="lost"><g ref="#bound_D"/></supplied><g ref="#bound_R"/><unclear reason="ambiguous"><g ref="#bound_angled_U"/></unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><g ref="#bound_I"/><supplied reason="lost"><g ref="#bound_D"/></supplied><g ref="#bound_R"/><unclear reason="ambiguous"><g ref="#bound_angled_U"/></unclear><gap reason="lost" extent="unknown" unit="character"/>     
                 </ab>
