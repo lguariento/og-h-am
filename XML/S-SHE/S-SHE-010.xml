@@ -58,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                          <msItem> 
+                                <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>   
+                            <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>--> 
                            <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
                            </msItem>
@@ -81,11 +82,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>One small section of a larger inscription, a portion of the ogham is damaged. The stone has been severely trimmed down, but the carving is generally clear.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical">The extant inscription consists of four or five ogham letters. The ogham letters are contained in a 50mm wide border. It appears that the border was designed to take the ogham and that the text is an integral part of the composition. The original extent of the inscription cannot now be determined.</layout>
+                                <layout style="vertical" rend="stemline_up">The extant inscription consists of four or five ogham letters. The ogham letters are contained in a 50mm wide border. It appears that the border was designed to take the ogham and that the text is an integral part of the composition. The original extent of the inscription cannot now be determined.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The individual ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed and have a broad open U-section. 
+                            <handNote>The individual ogham strokes appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and rubbed and have a broad open U-section. The components strokes are generously and evenly spaced with ample room between successive letters of the same <foreign xml:lang="ga">aicme</foreign>. All appropriate letters are bound. The letter strokes are rather short which, combined with the measured spacing, gives a rather squat profile to the letters.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -96,7 +97,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>60.182500, -1.304722</geo>
                             <note>National Grid Reference: HU 3866 4442</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>Ninth to tenth century</origDate>
                         </origin>
                         <provenance type="found" notBefore="1938">Fragment IB.256 was found during grave-digging in the kirkyard in 1938 or 1939 and was presented to the museum in Edinburgh in 1946 by Peter Moar, a Shetland antiquary. He had previously found fragment ARC 8057 ‘in refuse’ in the graveyard around 1940, which he presented to the museum in Lerwick in 1980, apparently not having realised that it was part of the same stone. The join between the two fragments was proved physically in 2008, when IB.256 was taken to Lerwick on temporary loan. Stevenson knew nothing of the Lerwick fragment when he discussed IB.256 (1981), though the ‘unpublished fragment in the County Museum’ to which he refers on page 286 and which he had evidently not seen may in fact be ARC 8057.
                         </provenance>
@@ -126,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
 </keywords>-->    
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
-<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
 </keywords>
 </textClass>
    <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
@@ -140,7 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2025-08-26" who="#MK">Removed CIIC ref</change>
     <change when="2026-02-20" who="#POC">Update material, dimensions, condition, apparatus, </change>
-    
+    <change when="2026-02-23" who="#POC">Update reading direction in layout, apparatus, bibl, commentary, origDate, text type, update mainLang and lang in edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,12 +151,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#POC"><!--update lang and resp here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage"><g ref="#bound_N"/></unclear><g ref="#bound_N"/><unclear reason="worn"><g ref="#bound_D"/></unclear>ᚐ<g ref="#bound_R"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage"><g ref="#bound_N"/></unclear><g ref="#bound_N"/><unclear reason="worn"><g ref="#bound_D"/></unclear>A<g ref="#bound_R"/><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
@@ -164,22 +165,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>The forward slope of the ogham consonants indicates the direction of reading, but since the orientation of the fragment is unknown it could be taken in any of four positions, and therefore read in either of two directions.</note>                    
+<note>The inscription features bind oghams. The forward slope of the ogham consonants indicates the direction of reading, but since the orientation of the fragment is unknown it could be taken in any of four positions, and therefore read in either of two directions. Forsyth (1996, 500) provides the following two possible readings: </note>                    
+                <rdg source="FOR1996">[---]NNDAR[---]</rdg>
+                    <rdg source="FOR1996">[---]RALQQ[---]</rdg>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
+                <p>Too few letters have survived to allow for interpretation.</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>The sequence -NNAR could represent a Norse personal name. RAQQ- would be more difficult to interpret. Double N is a common enough ending for Celtic personal names, EDDARNONN, for example. AR might represent, for instance, the beginning of a Celtic name such as <persName xml:lang="cel">Art-</persName> or a Norse one <foreign xml:lang="non">Arn-</foreign>. </p>
+                <p>The significant features of the ogham script used are the bind strokes, though it is interesting to notes that the hammer-headed bound form of A is not employed. The appearance of word-dividing dots would imply a ninth century or later date.</p>
             </div>
             <div type="bibliography">
-                 <!--<listBibl>
-                     <!-\-<bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
-                     </bibl>-\->
-                 </listBibl>-->
+                 <listBibl>
+                     <bibl><ptr target="FOR1996"/>
+                     <citedRange>495-502</citedRange>
+                     </bibl>
+                 </listBibl>
             </div>
         </body>
     </text>
