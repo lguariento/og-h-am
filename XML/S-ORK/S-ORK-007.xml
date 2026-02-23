@@ -58,8 +58,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                          <msItem> 
+                              <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>
+<!--                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> -->
                            <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
                            </msItem>
@@ -125,7 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
 </keywords>-->    
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
-<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
 </keywords>
 </textClass>
    <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
@@ -147,12 +148,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#POC">              
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/><unclear reason="worn">ᚁ</unclear><unclear reason="worn">ᚐ</unclear><unclear reason="worn">ᚁ</unclear>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:l-to-r"/><unclear reason="worn">B</unclear><unclear reason="worn">A</unclear><unclear reason="worn">B</unclear>
                 </ab>
