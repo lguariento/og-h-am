@@ -59,9 +59,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                            <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>--> 
+                            <!--<textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>-->
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>                               
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-26" who="#MK">Removed CIIC ref and added Forsyth ref and provenance observed details.</change>
     <change when="2026-02-18" who="#POC">Added dimensions, condition, layout, material, handNote, execution, apparatus, translation, commentary, bibl</change>
     <change when="2026-02-19" who="#POC">Added origDate and updated bibl</change>
+    <change when="2026-02-23" who="#POC">Updated textLang and lang and resp in edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,12 +150,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#POC">              
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚁ</unclear>ᚓᚄ <w type="formula" lemma="maqqas">ᚋᚓᚊᚊ</w> ᚅᚐᚅᚅᚐᚋᚋᚑᚃᚃᚓᚎ
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B</unclear>ES <w type="formula" lemma="maqqas">MEQQ</w> NANNAMMOVVEZ
                 </ab>
