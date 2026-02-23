@@ -58,8 +58,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                          <msItem> 
+                              <textLang mainLang="und-Ogam">Undetermined language written in ogham script</textLang>
+                              <textLang mainLang="non-Ogam" cert="low">Possibly Old Norse written in ogham script</textLang>
+                              <!--<textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>--> 
                            <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
                             <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
                            </msItem>
@@ -125,7 +127,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
 </keywords>-->    
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
-<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
 </keywords>
 </textClass>
    <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
@@ -139,7 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2026-10-02" who="#POC">Added correct image, idno, reading, and information for Birsay 1 (had been Birsay 2), also updated bibl</change>
     <change when="2026-02-11" who="#NW">Replaced Ns and Vs with angled Ns and Vs in edition</change>
-    
+    <change when="2026-02-23" who="#POC">Update text type, textLang and lang in edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,12 +151,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" resp="#POC">              
                 <ab>
                     <lb n="1" style="text-direction:up"/><unclear reason="worn">ᚋ</unclear><g ref="#angled_O"/><g ref="#angled_N"/><g ref="#angled_N"/><g ref="#angled_O"/>ᚏᚏ<g ref="#hammerhead_A"/><g ref="#angled_V"/><choice><unclear reason="worn"><g ref="#angled_V"/></unclear><unclear>ᚅ</unclear></choice>ᚏᚏ
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up"/><unclear reason="worn">M</unclear><g ref="#angled_O"/><g ref="#angled_N"/><g ref="#angled_N"/><g ref="#angled_O"/>RR<g ref="#hammerhead_A"/><g ref="#angled_V"/><choice><unclear reason="worn"><g ref="#angled_V"/></unclear><unclear>N</unclear></choice>RR
                 </ab>
