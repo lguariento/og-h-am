@@ -140,6 +140,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-30" who="#POC">Update reading in edition, add information from blog, update text lang and lang code</change>    
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2026-02-12" who="#POC">Replaced scaled image with original, commented out empty inventory number</change>
+    <change when="2026-02-24" who="#POC">Added cert to edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -150,12 +151,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="non-Ogam" resp="#POC"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="non-Ogam" resp="#POC" cert="low">            
                 <ab>
                     <lb n="1" style="text-direction:up"/><g ref="#feathermark"/><w>ᚐᚏᚃ</w> <w>ᚐᚃ</w> <placeName>ᚑᚏᚉ</placeName><gap reason="lost" extent="unknown" unit="stroke"/>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="non-Ogam" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="non-Ogam" xml:space="preserve" resp="#POC" cert="low">
                 <ab>
                     <lb n="1" style="text-direction:up"/><g ref="#feathermark"/><w>ARV</w> <w>AV</w> <placeName>ORC</placeName><gap reason="lost" extent="unknown" unit="stroke"/>
                 </ab>
