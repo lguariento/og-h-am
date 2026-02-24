@@ -68,21 +68,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://isleofmanher.im/report/d1faa39b-f1b5-45a3-9037-932aacff6084">Isle of Man Historic Environment Record</ref> (IOMHER): <idno type="IOMHER">0024.50</idno></p>
                                     <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Slab</objectType>                                     
-                                    <dimensions unit="m" source="MAC1945">                                         
-                                            <height>0.96</height>
-                                            <width>0.35</width>
-                                            <depth>0.14</depth>                                      
+                                    <dimensions unit="m" source="BRO2021">                                         
+                                            <height>1.13</height>
+                                            <width>0.37</width>
+                                            <depth>0.13</depth>                                      
                                      </dimensions>         
                                 </support>
                                 <condition>The ogham scores are in good condition despite the slab being water-worn.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The ogham inscription runs up the angle of one edge of the stone and round the top. Macalister (1945, 481) notes that an outcrop of quartz occupies the middle of the inscribed edge and this resulted in the dividing of the word MAQI into two halves. The inscription begins 0.22m from the bottom of the stone.</layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription runs up the angle of one edge of the stone and round the top. The inscription begins 0.33m from the bottom of the stone and is divided into three sections of eleven, two, and six letters respectively. The first eleven letters of the ogham inscription are divided from the upper letters by an outcrop of quartz (Macalister 1945, 481).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote>The inscription was <rs type="execution" key="scored">scored</rs> and described by Macalister (1945, 480) as <q>cut as with a knife</q>.
-                                <height></height>
+                                Broderick (2021, 8) notes that the ogham letters are on average <height unit="metre">0.050m</height> long, 0.0015m wide and lying 0.006 to 0.009m apart. 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -94,9 +94,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>54.076378, -4.752794</geo>
                             <note>National Grid Reference: SC 2000 6800</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate>Late fifth to first half of the sixth century.</origDate>
                         </origin>
-                        <provenance type="found" when="1874">The slab was found re-used in a lintel grave close to a chapel in 1874 during the construction of the nearby railway line.                        </provenance>
+                        <provenance type="found" when="1874">The slab was found re-used in a lintel grave close to a chapel in 1874 during the construction of the nearby railway line. The slab was kept at Ballaqueeney farm-house until c.1907 when it was added to the Manx Museum collection.                       </provenance>
                         <provenance type="observed">Now in the Manx Museum (Category: MM 1). Recorded by OG(H)AM team in June 2024.
                         </provenance>
                     </history>
@@ -135,7 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-22" who="#POC">Added and encoded information</change>
     <change when="2025-08-06" who="#NW">A few quick updates, including edition nymrefs - more work needed</change>
     <change when="2025-08-19" who="#MK">Added 3D resp. and edited provenance.</change>
-    <change when="2026-02-24" who="#POC">Added information to condition, layout, material, bibl, translation, commentary</change>
+    <change when="2026-02-24" who="#POC">Added information to condition, layout, material, bibl, translation, commentary. Added information from BRO2021</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -166,14 +166,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>
             <div type="translation">
-                <p>'(the stone) of Dubaed, son of Droata?' </p>
-                <p>Kermode (1910, 437) provides the following translation: '(the stone) of Dovaidu, son of the Druid'</p>
+                <p>'[the memorial stone] of Dubáed, son of Droata' (Broderick 2021, 9).  </p>
+                <p>Kermode (1910, 437) provides the following translation: '(the stone) of Dovaidu, son of the Druid'.</p>
             </div>
             <div type="commentary">
-                 <p>Kermode (1907) takes <foreign xml:lang="sga">droata</foreign> as a variant of <foreign xml:lang="sga">druada</foreign> 'druid', but later authorities read <persName xml:lang="sga">Droata</persName> as a personal name.</p>
+                 <p>Kermode (1907) takes <foreign xml:lang="sga">droata</foreign> as a variant of <foreign xml:lang="sga">druada</foreign> 'druid', but later authorities read <persName xml:lang="sga">Droata</persName> as a personal name. The first element of the first name DOV- may be influenced by Old Irish word <foreign xml:lang="sga"><ref target="https://dil.ie/18985">dub</ref></foreign> meaning 'black'. The second element of the first personal name -AIDONA may be Old Irish <foreign xml:lang="sga"><ref target="dil.ie/613">Áed</ref></foreign>, meaning 'fiery' with the individualising suffix *-<foreign xml:lang="sga">ón</foreign>. The personal name <persName xml:lang="sga">Dubáed</persName> might mean akin to 'having dark fire' (Broderick 2021, 10). MAQI is a form of MAQQI, later Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/31166">macc</ref></foreign> meaning 'son'. DROATA is possibly Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/18911">drúth</ref></foreign> meaning 'professional jester'.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="BRO2021"/>
+                     <citedRange>8-10</citedRange>
+                     </bibl>
                      <bibl><ptr target="KER1907"/>
                      </bibl>
                      <bibl><ptr target="KER1910"/>
