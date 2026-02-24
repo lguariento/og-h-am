@@ -66,25 +66,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://isleofmanher.im/report/8a643369-b198-4373-b7d9-89f5d1290ae4">Isle of Man Historic Environment Record</ref> (IOMHER): <idno type="IOMHER">0024.60</idno></p>
-                                    <material type="stone">Sandstone?</material> <!--Kermode/1907, 98: `ordinary clay-slate of the district'-->
-                                    <objectType key="monument">Boulder</objectType>                                     
-                                    <dimensions unit="m" source="KER1907">                                         
+                                    <material type="stone" source="KER1910">Clay slate</material> 
+                                    <objectType key="monument" source="WES2011">Pillar</objectType>                                     
+                                    <dimensions unit="m" source="BRO2021">                                         
                                             <height>0.52</height>
-                                            <width>0.12</width>
-                                            <depth>0.10</depth>                                       
+                                            <width>0.14</width>
+                                            <depth>0.15</depth>                                       
                                      </dimensions>         
                                 </support>
-                                <condition>The boulder was already broken when found. The ogham inscription is incomplete.</condition>
+                                <condition>The ogham inscription is incomplete. The first section of the ogham inscription is clearly legible, except for two letters which are missing. The end portion of the inscription is now broken off. The stone was already broken when found. It was extensively fractured and subsequent exposure to weathering led to its disintegration and loss of part of the inscription that had previously been read. It was subsequently reassembled and reconstructed where necessary in accordance with Rev. Grant's early reading (Kermode 1907, 96).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The ogham inscription runs up one edge and onto the top.</layout>
+                                <layout style="vertical" rend="arris_up">The ogham inscription runs up one edge and onto the top. The first section of the inscription consists of nineteen letters, only two of which are now missing.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription was described by Macalister (1945, 480) as <q>finely
+                            <handNote>The inscription was described by Macalister (1945, 482) as <q>finely
 <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">cut</rs>, with a V-shaped section</q>.
-                                <height></height>
-                            </handNote>
+                                The ogham letters are on average <height min="0.02" max="0.05" unit="m">0.02-0.05m</height> long and 0.001.5-0.002m wide. Letters are spaced on an average of 0.008m apart. Words are not specifically marked by separation.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -95,9 +94,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>54.076378, -4.752794</geo>
                             <note>National Grid Reference: SC 2000 6800</note>
                             </origPlace>
-                            <origDate notBefore="0400" notAfter="0500" precision="medium" datingMethod="#julian" evidence="linguistic">Probably fifth century AD</origDate>
+                            <origDate notBefore="0400" notAfter="0500" precision="medium" datingMethod="#julian" evidence="linguistic" source="BRO2021">Middle of the fifth century</origDate>
                         </origin>
-                        <provenance type="found" when="1874">This rounded boulder was discovered close to Ballaqueeney chapel. It was recovered during the quarrying of gravel for railway ballast in 1874.<!-- Can't find this reference for Zotero 'at the Cronk' to obtain ballast for the railroad from 'an ancient burial ground'. 'Many lintel graves were met….out of one of these rolled the smaller Ogam stone' - Kermode 1911: 96-->
+                        <provenance type="found" when="1874">Recovered close to Ballaqueeney chapel during the quarrying of gravel for railway ballast in 1874. Kept at Ballaqueeney farmhouse until c.1907 when it was added to the Manx Museum collection.
                         </provenance>
                         <provenance type="observed">Now in Manx Museum. Recorded by OG(H)AM project in June 2024.
                         </provenance>
@@ -137,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2026-06-22" who="#POC">Added and encoded information</change>
     <change when="2025-08-06" who="#NW">updated edition and commentary and added museum coords and refs. More updates needed on support desc here and in other IOM filesa</change>
     <change when="2025-08-19" who="#MK">Added 3D resp and edited provenance.</change>
+    <change when="2026-02-24" who="#POC">Update dimensions, material, provenance, commentary, origDate, condition, layout, handNote</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -146,12 +146,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">             
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">             
                 <ab>
                     <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#bivaidū">ᚁᚔᚃᚐᚔ<supplied reason="lost">ᚇᚑ</supplied>ᚅᚐᚄ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚑᚔ</w> <name nymRef="#cunavalas?" cert="medium">ᚉᚒᚅᚐᚃᚐ<supplied reason="lost" cert="medium">ᚂᚔ</supplied></name></persName>
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up-across"/><persName><name nymRef="#bivaidū">BIVAI<supplied reason="lost">DO</supplied>NAS</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="muccoviias?">MUCOI</w> <name nymRef="#cunavalas?" cert="medium">CUNAVA<supplied reason="lost" cert="medium">LI</supplied></name></persName> 
                 </ab>
@@ -159,7 +159,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1"><note>The end is broken off. Rhys suggests CUNAVALI, which is as good a restoration as any (Macalister 1945, 482).</note>                   
+                <app n="1"><note>The end of the inscription is lost. Macalister (1945, 482) adopts Rhys' suggestion of CUNAVALI stating it is <q>as good a restoration as any</q>.</note>                   
                 </app>
                 </listApp>
             </div>
@@ -167,20 +167,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>of Béoáed, son of the descendants of Conall(?)</p>
             </div>
             <div type="commentary">
-                 <p>The personal name BIVAIDONAS, attested elsewhere in the corpus (e.g. I-WAT-024) and in later sources (as Béoáed), is a compound of the o-stem adjective *biu̯o- ‘alive, living’ (OIr. <ref target="https://dil.ie/5671">béo</ref>) and the common n-stem second element *ai̯don- ‘having fire’, a derivative of *ai̯du- ‘fire’ (cf. OIr. <ref target="https://dil.ie/613">áed</ref>) (Ziegler 1994,137-138; McManus 1991, 103, 105). This example has the final syllable intact suggesting that it is quite early.</p>
+                 <p>The personal name BIVAIDONAS, attested elsewhere in the corpus (e.g. I-WAT-024) and in later sources (as <persName xml:lang="sga">Béoáed</persName>), is a compound of the o-stem adjective *<foreign xml:lang="sga">biu̯o</foreign>- ‘alive, living’ (OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/5671">béo</ref></foreign>) and the common n-stem second element *<foreign xml:lang="sga">ai̯don</foreign>- ‘having fire’, a derivative of *<foreign xml:lang="sga">ai̯du</foreign>- ‘fire’ (cf. OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/613">áed</ref></foreign>) (Ziegler 1994,137-138; McManus 1991, 103, 105). This example has the final syllable intact suggesting that it is quite early.</p>
                 <p>The kin-group name (MUCOI CUNAVA[LI]) is uncertain due to the loss of letters at the end but the restored -LI is possible and has a parallel in an inscription in Latin script from Cornwall (CIIC 468: RIALOBRANI CVNOVALI FILI). This name consists of the commonly found element CUNA- (OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/13291">cú</ref></foreign> 'hound') and possibly a parallel of Gaulish -<foreign xml:lang="xtg">valo</foreign>- 'powerful, strong' (Ziegler 1994, 161; cf. 'Catuvalos' in an inscription from Nîmes: <ref target="https://riig.huma-num.fr/documents/GAR-10-08">RIIG, GAR-10-08</ref>).</p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="BRO2021"/>
+                     <citedRange>11-14</citedRange>
+                     </bibl>
                      <bibl><ptr target="KER1907"/>
-                     <citedRange>73-74, 98-99</citedRange>
+                     <citedRange>73-74; 96; 98-99</citedRange>
                      </bibl>
                      <bibl><ptr target="MAC1945"/>
                      <citedRange>480; 482</citedRange>
                      </bibl>
-                       <bibl><ptr target="ZIE1994"/>
-                        <citedRange>137-138; 161</citedRange>
-                    </bibl>                     
+                     <bibl><ptr target="MCM1991"/>
+                         <citedRange>103; 105</citedRange>
+                     </bibl>
+                     <bibl><ptr target="ZIE1994"/>
+                     <citedRange>137-138; 161</citedRange>
+                     </bibl>
+                     <bibl><ptr target="WES2011"/></bibl>                     
                  </listBibl>
             </div>
         </body>
