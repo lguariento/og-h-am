@@ -63,7 +63,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="ga-Ogam" cert="medium">Possibly Irish written in ogham script</textLang>                           
+                            <textLang mainLang="pgl-Ogam" cert="medium">Possibly Primitive Irish written in ogham script</textLang>                           
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -79,14 +79,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      </dimensions>    
                                     <desc type="decoration">The slab bears a <rs type="decoration" key="cross">cross</rs> carved in low relief on one face. The decorated side shows a shafted cross with limbs connected by a ring. Both the shaft and circle have a cable border ending at the foot in the head and tail of a serpent. In the centre of the cross is a circle of ring-chain, while each limb contains two interlinked rings bound by a diamond-shaped ring, and ends in four linked triquetras. The shaft is decorated with panels containing plaits of nine and seven strands. To the left of the shaft are a hart and hound, and a robed priest with arms raised, supported by a staff. On the right side are the worn remains of what may possibly be another hart and hound. Below them a seated man plays a harp to the right of whom another figure carries what appears to be a drinking horn. Below the harpist is another priest with uplifted arms, again holding a staff (<ref target="https://isleofmanher.im/report/e9ea88ba-e2ca-49dd-b230-33d481f9762f">IOMHER</ref>).</desc>
                                 </support>
-                                <condition>The ogham inscriptions are legible.</condition>
+                                <condition>The ogham alphabet inscription on the front of the slab is just legible by <q>close scrutiny</q> (Kermode 1910, 441). The second ogham inscription on the back of the slab, however, is now <q>so badly weathered, as to be quite illegible</q> (Kermode 1910, 441).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout>The first ogham inscription consists of the ogham alphabet and is incised vertically in the space below the cross shaft. The second ogham inscription is placed centrally near the top of the slab. The other face of the slab bears a long runic inscription to the right and a shorter one to the left. </layout>
+                                <layout style="vertical" rend="stemline_up">The first ogham inscription consists of the twenty letters of the ogham alphabet and is incised vertically on an artificial stemline in the space below the cross shaft and reads from below upwards (Kermode 1910, 441). The second ogham inscription is placed centrally between two runic inscriptions on the back of the slab near the top. The longer runic inscription is on the right and the shorter is to the left. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The second ogham inscription is only lightly <rs type="execution" key="scored">scored</rs>.
+                            <handNote>The stemline for the ogham alphabet inscription has been deeply cut but the scores have been <q>very finely made</q>(Kermode 1910, 441). The second ogham inscription is only lightly <rs type="execution" key="scored">scored</rs> or <q>finely scratched</q> as Kermode (1910, 441) notes.
                                 <height></height>
                             </handNote>
                         </handDesc>
@@ -101,7 +101,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </origPlace>
                             <origDate/>
                         </origin>
-                        <provenance type="found">This large slab was discovered in use as a lintel above a window in the old church in 1772. The first ogham text was first described by Lord Southesk in 1887, the second ogham text was discovered in 1907. Gibson (1722) only recorded the runes.
+                        <provenance type="found" when="1887">This large slab was discovered in use as a lintel above a window in the old church in 1772. The first ogham text was first described by Lord Southesk in 1887, the second ogham text was discovered in 1907. Gibson (1722) only recorded the runes.
                         </provenance>
                         <provenance type="observed">In the north transept of Kirk Michael church (MM 130).
                         </provenance>
@@ -138,8 +138,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listChange>
     <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
     <change when="2024-06-14" who="#NW">Updated template and added extra guidance and examples</change>
-   <change when="2026-06-22" who="#POC">Added and encoded information</change>
-  <change when="2025-08-19" who="#MK">Added 3D (Archaeovision) RTI (me) resp and edited repository (not in Manx Museum).</change>
+    <change when="2026-06-22" who="#POC">Added and encoded information</change>
+    <change when="2025-08-19" who="#MK">Added 3D (Archaeovision) RTI (me) resp and edited repository (not in Manx Museum).</change>
+    <change when="2026-02-25" who="#POC">Updated edition with bind oghams, updated bibl, apparatus, commentary, layout, condition, handNote, provenance.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,41 +150,58 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
                 
                     <ab>
-                    <lb n="1" style="text-direction:up"/>ᚁᚂᚃᚄᚅᚆᚇᚈᚉᚊᚋᚌᚍᚎᚏᚐᚑᚒᚓᚔ
-                    <lb n="1" style="text-direction:up"/>ᚋᚒᚒᚉᚑᚋᚐᚂᚂᚐᚃᚔᚒᚐᚋᚒᚂᚂᚌᚒᚉ
+                    <lb n="1" style="text-direction:up"/><g ref="#bound_B"/><g ref="#bound_L"/><g ref="#bound_V"/><g ref="#bound_S"/><g ref="#bound_N"/><g ref="#bound_H"/><g ref="#bound_D"/><g ref="#bound_T"/><g ref="#bound_C"/><g ref="bound_Q"/><g ref="#bound_M"/><g ref="#bound_G"/><g ref="#bound_NG"/><g ref="#bound_St"/><g ref="#bound_S"/><g ref="#bound_A"/><g ref="#bound_O"/><g ref="#bound_U"/><g ref="#bound_E"/><g ref="#bound_I"/>
+                    <lb n="2" style="text-direction:up"/>ᚋᚒᚒᚉᚑᚋᚐᚂᚂᚐᚃᚔᚒᚐᚋᚒᚂᚂᚌᚒᚉ
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up"/>BLVSNHDTCQMGNGStRAOUEI
-                    <lb n="1" style="text-direction:up"/>MUUCOMALLAFIUAMULLGUC
+                    <lb n="2" style="text-direction:up"/>MUUCOMALLAFIUAMULLGUC
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="2">  
-                    <note>Runic inscription:</note>
-                    <rdg>MAL: LUMKUN: RAISTI: KRUS: ThENA: EFTER: MAL: MURU: FUSTRA: SINE: TOTIRTUFKALS: KONA: IS: AThISL: ATI+</rdg>
+                    <app n="1">
+                        <note>The complete Ogham alphabet is carved using bind letters. The ogham inscriptions do not appear to have any relation to the Runic inscriptions.</note>
+                    </app>
+                    <app n="2">
+                        <note>Southesk (1887, 359) published the following reading:</note>
+                        <rdg source="SOU1887">MUUCOMALL AVI UA MULLGUC</rdg>
+                    </app>
+                <app n="3">  
+                    <note>West (2011) provides the following reading of the runic inscription:</note>
+                    <rdg source="WES2011">MAL: LUMKUN: RAISTI: KRUS: ThENA: EFTER: MAL: MURU: FUSTRA: SINE: TOTIRTUFKALS: KONA: IS: AThISL: ATI+</rdg>
                 </app>
+                    <app n="4">
+                        <note>West (2011) provides the following reading of the runic inscription:</note>
+                        <rdg source="WES2011">[B]ETRA : ES : LAIFA : FUSTRA : KUÞAN : ÞAN : SON : ILAN + </rdg>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
                 <p>1) Ogham: The ogham alphabet</p>
-                <p>2) Ogham: No translation can be provided.</p>
+                <p>2) Ogham: Mucomael grandson of O'Maelguc (Southesk 1887, 359).</p>
                 <p>3) Runic: Mael Lomchon raised this cross to the memory of Malmura his foster mother, daughter of Dugald the wife whom Athisl had</p>
                 <p>4) Runic: Better is it to leave a good foster-son than a bad son</p>
             </div>
             <div type="commentary">
-                 <p></p>
+                 <p>Later authorities have been unable to confirm Southesk's reading of the ogham text because of the poor legibility of the inscription. Kermode (1907, 101) notes that he was <q>unable to make anything of it, except that it undoubtedly</q> was an ogham inscription.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
-                     <bibl><ptr target="MAC1945"/>
-                     <citedRange></citedRange>
+                     <bibl><ptr target="KER1910"/>
+                     <citedRange>441-442</citedRange>
                      </bibl>
+                     <bibl><ptr target="SOU1887"/>
+                     <citedRange>359–361</citedRange>
+                     </bibl>
+                     <bibl><ptr target="WES2011"/>
+                     </bibl>
+                     
                  </listBibl>
             </div>
         </body>
