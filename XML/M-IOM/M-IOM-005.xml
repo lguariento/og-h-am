@@ -72,10 +72,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://isleofmanher.im/report/e9ea88ba-e2ca-49dd-b230-33d481f9762f">Isle of Man Historic Environment Record</ref> (IOMHER): <idno type="IOMHER">1075.02</idno></p>
                                     <material type="stone">Stone type unknown</material> 
                                     <objectType key="monument">Cross-slab</objectType>                                     
-                                    <dimensions unit="m">                                         
-                                            <height></height>
-                                            <width></width>
-                                            <depth></depth>
+                                    <dimensions unit="m" source="WES2011">                                         
+                                            <height>1.77</height>
+                                            <width>0.43</width>
+                                            <!--<depth></depth>-->
                                      </dimensions>    
                                     <desc type="decoration">The slab bears a <rs type="decoration" key="cross">cross</rs> carved in low relief on one face. The decorated side shows a shafted cross with limbs connected by a ring. Both the shaft and circle have a cable border ending at the foot in the head and tail of a serpent. In the centre of the cross is a circle of ring-chain, while each limb contains two interlinked rings bound by a diamond-shaped ring, and ends in four linked triquetras. The shaft is decorated with panels containing plaits of nine and seven strands. To the left of the shaft are a hart and hound, and a robed priest with arms raised, supported by a staff. On the right side are the worn remains of what may possibly be another hart and hound. Below them a seated man plays a harp to the right of whom another figure carries what appears to be a drinking horn. Below the harpist is another priest with uplifted arms, again holding a staff (<ref target="https://isleofmanher.im/report/e9ea88ba-e2ca-49dd-b230-33d481f9762f">IOMHER</ref>).</desc>
                                 </support>
@@ -99,7 +99,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>54.285039, -4.586922</geo>
                             <note>National Grid Reference: SC 3170 9080</note>
                             </origPlace>
-                            <origDate/>
+                            <origDate source="WES2011">Eleventh century or later</origDate>
                         </origin>
                         <provenance type="found" when="1887">This large slab was discovered in use as a lintel above a window in the old church in 1772. The first ogham text was first described by Lord Southesk in 1887, the second ogham text was discovered in 1907. Gibson (1722) only recorded the runes.
                         </provenance>
@@ -189,10 +189,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>4) Runic: Better is it to leave a good foster-son than a bad son</p>
             </div>
             <div type="commentary">
-                 <p>Later authorities have been unable to confirm Southesk's reading of the ogham text because of the poor legibility of the inscription. Kermode (1907, 101) notes that he was <q>unable to make anything of it, except that it undoubtedly</q> was an ogham inscription.</p>
+                 <p>Later authorities have been unable to confirm Southesk's reading of the ogham text because of the poor legibility of the inscription. Kermode (1907, 101) notes that he was <q>unable to make anything of it, except that it undoubtedly</q> was an ogham inscription. The first element of the first name is a variation of the formula word MUCOI meaning 'descendant, litter of'. Southesk (1887, 360) notes that sometimes as a proper name it might represent a priestly designation. In both Welsh and Gaelic <foreign xml:lang="sga">Mael</foreign> or <foreign>Maol</foreign> signifies a servitor or attendant, more especially a tonsured servant, or the votary of a holy person (Southesk 1887, 359). In earlier compound names <foreign>Mal</foreign> more frequently represented <foreign>Maglo</foreign> or <foreign xml:lang="sga"><ref target="https://dil.ie/31461">Mál</ref></foreign>, meaning 'a noble, a prince, a king'. <foreign xml:lang="sga">Mael</foreign> appears twice in the inscription as an element in each name. It is the suffix of the first name <persName xml:lang="sga">Mucomael</persName> and the prefix of the final name <persName xml:lang="sga">Maelguc</persName>. The general meaning of AFI or AVI appears to be Old Irish <foreign xml:lang="sga"><ref target="dil.ie/42573">úa</ref></foreign> 'grandson', but it may sometimes signify nephew or descendent (Southesk 1887, 360).</p> 
+            <p>The Norse inscription commemorating the errection of the cross dates the monument to the 11th century, and the Ogham inscriptions were evidently scratched onto the finished monument sometime later, so must date to the 11th century or later.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="KER1907"/>
+                     <citedRange>100-101</citedRange>  
+                     </bibl>
                      <bibl><ptr target="KER1910"/>
                      <citedRange>441-442</citedRange>
                      </bibl>
