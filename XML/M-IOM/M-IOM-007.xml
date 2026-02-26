@@ -39,7 +39,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name ref="https://orcid.org/0000-0003-1011-7539" xml:id="MK">Megan Kasten</name>
+                    <name ref="https://orcid.org/0000-0003-1011-7539">Megan Kasten</name>
                      <orgName>University of Glasgow (OG(H)AM project)</orgName>
                     <resp>Capture: Photogrammetry  <date when="2024-06-25"/>; Software: Agisoft Metashape</resp>
                 </respStmt>
@@ -74,20 +74,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://isleofmanher.im/report/5dfc68aa-6803-485d-b48f-a9d375107b3e">Isle of Man Historic Environment Record</ref> (IOMHER): <idno type="IOMHER">0343.40</idno></p>
                                     <material type="stone">Slate</material> 
                                     <objectType key="monument">Pillar</objectType>                                     
-                                    <dimensions unit="m">                                         
-                                            <height>1.57</height>
-                                            <width>0.48</width>
-                                            <depth>0.12</depth>
+                                    <dimensions unit="m" source="BRO2021">                                         
+                                            <height>1.75</height>
+                                            <width>0.37</width>
+                                            <depth>0.02</depth>
                                      </dimensions>         
                                 </support>
-                                <condition>The stone is damaged and the ogham inscription is consequently incomplete, <q>some of the vowels are lost, as well as the proximal ends of some of the side scores</q> (Macalister 1945, 480). However, Macalister (1945, 480) maintains that it is <q>possible to recover the whole inscription</q>. Macalister (1945, 479) also notes that the ends of the lines of the Roman inscription are a <q>little battered</q> but the letters are still <q>clearly legible</q>. </condition>
+                                <condition>The stone is damaged and the ogham inscription is consequently incomplete, <q>some of the vowels are lost, as well as the proximal ends of some of the side scores</q> (Macalister 1945, 480). However, Macalister (1945, 480) maintains that it is <q>possible to recover the whole inscription</q>. Broderick (2021, 4) describes the initial two letters as <q>extensively worn but visible</q>, and concurs that the other damaged letters <q>may be safely reconstructed</q>. Macalister (1945, 479) also notes that the ends of the lines of the Roman inscription are a <q>little battered</q> but the letters are still <q>clearly legible</q>. </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout style="vertical" rend="other_up">According to Macalister (1945, 480), the ogham inscription is <q>not actually on an angle, but on the edge of the stone, which is rounded like a ridge</q> and reads upwards. The Roman inscription consists of three lines reading horizontally across the face of the stone.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham scores are <q>as fine as pin-scrapes</q> and are lightly <rs type="execution" key="scored">scored</rs> (Macalister 1945, 480). Macalister (1945, 480) also highlights that the <q>cross-scores are sloped in the wrong direction</q>. In comparison, the Roman letters <q>have been well cut in grooves of a V-shaped section</q> (Macalister 1945, 479). <!--<height>length of ogham stroke, if known</height>-->
+                            <handNote>The ogham scores are <q>as fine as pin-scrapes</q> and are lightly <rs type="execution" key="scored">scored</rs> (Macalister 1945, 480). Macalister (1945, 480) also highlights that the <q>cross-scores are sloped in the wrong direction</q>. Broderick (2021, 4) notes that the ogham scores range from <height min="0.035" max="0.012" unit="m">0.035m to 0.012m</height> high and 0.001m wide. In comparison, the Roman letters <q>have been well cut in grooves of a V-shaped section</q> (Macalister 1945, 479). <!--<height>length of ogham stroke, if known</height>-->
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -101,9 +101,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>54.390192, -4.459517</geo>
                             <note>National Grid Reference: NX 4040 0220</note>
                             </origPlace>
-                            <origDate/><!--usually not known-->
+                            <origDate source="BRO2021">Late fifth to sixth century</origDate>
                         </origin>
-                        <provenance type="found" when="1909">Discovered in 1909 during the investigation of the ancient church site of Knoc of Doonee. The inscribed pillar was recovered from a spot just west of the keeill. The first publication referencing the stone was by Kermode (1911-12).
+                        <provenance type="found" when="1909">Discovered in 1909 during the investigation of the ancient church site of Knoc y Doonee. The inscribed pillar was recovered from a spot just west of the keeill. The first publication referencing the stone was by Kermode (1911).
                         </provenance>
                         <provenance type="observed">Now in Manx Museum.
                         </provenance>
@@ -142,6 +142,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-06" who="#NW">A few quick updates - more work needed</change>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2026-02-25" who="#POC">Update bibl ref</change>
+    <change when="2026-02-26" who="#POC">Correct validation error, update bibl, dimensions, origDate, condition, handNote, add readings to apparatus and translations and commentary</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -151,14 +152,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
                 <div type="textpart" n="1">
                  <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#ambicatus"><supplied reason="lost">ᚐᚋ</supplied>ᚁ<supplied reason="lost">ᚔ</supplied>ᚉᚐᚈᚑᚄ</name> <w type="formula" lemma="maqqas">ᚋ<supplied reason="lost">ᚐ</supplied>ᚊᚔ</w> <name nymRef="#rocatus">ᚏ<supplied reason="lost">ᚑ</supplied>ᚉ<supplied reason="lost">ᚐ</supplied>ᚈ<supplied reason="lost">ᚑ</supplied>ᚄ</name></persName>
                 </ab> 
             </div>
              </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#ambicatus"><supplied reason="lost">AM</supplied>B<supplied reason="lost">I</supplied>CATOS</name> <w type="formula" lemma="maqqas">M<supplied reason="lost">A</supplied>QI</w> <name nymRef="#rocatus">R<supplied reason="lost">O</supplied>C<supplied reason="lost">A</supplied>T<supplied reason="lost">O</supplied>S</name></persName>
                 </ab>
@@ -173,19 +174,30 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </div>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app>                    
+                <listApp>
+                <app n="1">
+<note>Broderick (2021, 4) gives the following reading of the ogham inscription:</note>
+    <rdg source="BRO2021">IMB[I]CATOS MAQI RICATOS</rdg>
                 </app>
-                </listApp>-->
+                    <app n="2">
+                        <note>Broderick (2021, 3) gives the following reading of the Latin inscription:</note>
+                        <rdg source="BRO2021">AMMECAT[I] FILIUS ROCAT[I] HIC IACIT</rdg>
+                    </app>
+                </listApp>
             </div>
-            <div type="translation">
-                <p/>
+            <div type="translation" source="BRO2021">
+                <p>1) Ogham: [the grave] of Imbchadh, son of Richadh.<lb/>
+                    2) Roman: Here lies [the body] of Ammecatus, son of Rocatus
+                </p>
             </div>
             <div type="commentary">
-                 <p/>
+                 <p><persName xml:lang="sga">Imbchadh</persName> (OIr. <foreign xml:lang="sga">Imchad</foreign>) OIr. <foreign>imb, imm-</foreign> 'around' <persName xml:lang="sga">Richadh</persName> (OIr. <foreign xml:lang="sga">Richad</foreign>)</p>
             </div>
             <div type="bibliography">
                  <listBibl>
+                     <bibl><ptr target="BRO2021"/>
+                     <citedRange>2-7</citedRange>   
+                     </bibl>
                      <bibl><ptr target="KER1911"/>
                      <citedRange>53-76</citedRange>
                      </bibl>
