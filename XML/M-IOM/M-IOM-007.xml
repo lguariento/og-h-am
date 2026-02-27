@@ -87,7 +87,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The ogham scores are <q>as fine as pin-scrapes</q> and are lightly <rs type="execution" key="scored">scored</rs> (Macalister 1945, 480). Macalister (1945, 480) also highlights that the <q>cross-scores are sloped in the wrong direction</q>. Broderick (2021, 4) notes that the ogham scores range from <height min="0.035" max="0.012" unit="m">0.035m to 0.012m</height> high and 0.001m wide. In comparison, the Roman letters <q>have been well cut in grooves of a V-shaped section</q> (Macalister 1945, 479). <!--<height>length of ogham stroke, if known</height>-->
+                            <handNote>The ogham scores are <q>as fine as pin-scrapes</q> and are lightly <rs type="execution" key="scored">scored</rs> (Macalister 1945, 480). Macalister (1945, 480) also highlights that the <q>cross-scores are sloped in the wrong direction</q>. Broderick (2021, 4) notes that the ogham scores range from <height min="0.035" max="0.012" unit="m">0.035m to 0.012m</height> high and 0.001m wide. In comparison, the Roman letters <q>have been well cut in grooves of a V-shaped section</q> (Macalister 1945, 479). 
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -143,6 +143,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2026-02-25" who="#POC">Update bibl ref</change>
     <change when="2026-02-26" who="#POC">Correct validation error, update bibl, dimensions, origDate, condition, handNote, add readings to apparatus and translations and need to finish commentary</change>
+    <change when="2026-02-27" who="#POC">Update commentary, bibl</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -176,8 +177,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>Broderick (2021, 4) gives the following reading of the ogham inscription:</note>
-    <rdg source="BRO2021">IMB[I]CATOS MAQI RICATOS</rdg>
+                    <note>Broderick (2021, 4) gives the following reading of the ogham inscription:</note>
+                    <rdg source="BRO2021">IMB[I]CATOS MAQI RICATOS</rdg>
                 </app>
                     <app n="2">
                         <note>Broderick (2021, 3) gives the following reading of the Latin inscription:</note>
@@ -186,17 +187,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>
             <div type="translation" source="BRO2021">
-                <p>1) Ogham: [the grave] of Imbchadh, son of Richadh.<lb/>
-                    2) Roman: Here lies [the body] of Ammecatus, son of Rocatus
-                </p>
+                <p>1) Ogham: [the grave] of Imbchadh, son of Richadh.</p>
+                <p>2) Roman: Here lies [the body] of Ammecatus, son of Rocatus</p>
             </div>
             <div type="commentary">
-                 <p><persName xml:lang="sga">Imbchadh</persName> (OIr. <foreign xml:lang="sga">Imchad</foreign>) OIr. <foreign>imb, imm-</foreign> 'around' <persName xml:lang="sga">Richadh</persName> (OIr. <foreign xml:lang="sga">Richad</foreign>)</p>
+                 <p>West (2011) notes that the first name in the ogham inscription has been variously read as Ebicatos (Macalister 1945), Imbicatos (Jackson 1950) or Ambicatos (Jackson 1953). The name <persName xml:lang="pgl">Rocatos</persName> is probably Goidelic, but the first name is possibly the Brittonisized, <persName>Ammecatus</persName> or <persName>Ambicatos</persName>, equivalent to the Irish <persName xml:lang="sga">Imbicatos</persName>. The first element of the first name IMBI-, later <persName xml:lang="pgl">Imbchadh</persName> or <foreign xml:lang="sga">Imchad</foreign>, corresponds to Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/27635">imb, imm-</ref></foreign> 'around'. The second element of the first name -CATOS corresponds to Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/8344">cath</ref></foreign> meaning 'fight, battle'. The first name IMBICATOS means 'everywhere on the battlefield, agile in battle, or ambidextrous in battle' (Broderick 2021, 7). CATOS occurs again in the second name ROCATOS, later <persName xml:lang="sga">Richadh</persName> or <persName xml:lang="sga">Richad</persName>, but is this time preceded by the intensive prefix RO- from Old Irish <foreign xml:lang="sga">ro</foreign>- 'very', meaning 'energetic in battle'.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="BRO2021"/>
                      <citedRange>2-7</citedRange>   
+                     </bibl>
+                     <bibl><ptr target="JAC1950"/>
+                     </bibl>
+                     <bibl><ptr target="JAC1953"/>
                      </bibl>
                      <bibl><ptr target="KER1911"/>
                      <citedRange>53-76</citedRange>
