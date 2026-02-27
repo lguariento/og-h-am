@@ -59,7 +59,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="sga-Ogam" cert="low">Old Irish written in ogham script</textLang>                                
+                            <textLang mainLang="pgl-Ogam" cert="low">Possibly Primitive Irish written in ogham script</textLang>                                
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -121,7 +121,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 </langUsage>
 <textClass>    
 <keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
-<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
 </keywords>
     <!--<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
         <term ref="https://ontology.inscriptiones.org/type_of_inscription/Souvenir_inscription ">Souvenir</term>
@@ -139,7 +139,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-19" who="#MK">Added 3D resp and RTI, and edited provenance (Not in Manx Museum).</change>
     <change when="2026-02-05" who="#POC">Replaced scaled images with original images.</change>
     <change when="2026-02-25" who="#POC">Update bibl ref</change>
-    <change when="2026-02-27" who="#POC">Update commentary, refs, add source to origDate</change>
+    <change when="2026-02-27" who="#POC">Update commentary, refs, add source to origDate, update text type and textLang, and lang in edition, added eDIL reference to commentary</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,13 +156,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC"><!--update lang here and text direction below -->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
                 <div type="textpart" n="1">
                     <ab>
                     <lb n="1" style="text-direction:l-to-r"/><persName><name>ᚂᚑᚌᚌᚐᚁ<choice><unclear>ᚌᚌ</unclear><unclear>ᚏ</unclear></choice>(<choice><unclear>ᚌᚐᚌ</unclear><unclear>ᚏ</unclear></choice>)ᚑᚌᚐᚋᚂ</name></persName>
                 </ab></div> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                <div type="textpart" n="1"> 
                    <ab>
                     <lb n="1" style="text-direction:l-to-r"/><persName><name>LOGGAB<choice><unclear>GG</unclear><unclear>R</unclear></choice><choice><unclear>GAG</unclear><unclear>R</unclear></choice>OGAML</name></persName>
@@ -219,7 +220,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>No translation provided.</p>
             </div>
             <div type="commentary">
-                 <p>Despite the difficulty in its interpretation, the presence of the ogham inscription confirms ogham literacy in the area in the eighth or ninth centuries. It is striking that the ogham inscription appears to contain the sequence OGAM, and it is tempting to speculate that this could be a reference to the script in which it is written. </p>
+                 <p>Despite the difficulty in its interpretation, the presence of the ogham inscription confirms ogham literacy in the area in the eighth or ninth centuries. It is striking that the ogham inscription appears to contain the sequence OGAM (Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/33582">ogum, ogom</ref></foreign>), and it is tempting to speculate that this could be a reference to the script in which it is written. </p>
             </div>
             <div type="bibliography">
                  <listBibl>
