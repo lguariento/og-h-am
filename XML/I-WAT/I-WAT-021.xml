@@ -144,7 +144,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, added citation details to image description</change>
     <change when="2025-04-04" who="#NW">Added new attributes for filtering. Added repository coordinates using altIdentifier.</change> 
     <change when="2025-04-15" who="#POC">Updated execution encoding to align with filter</change>
-           <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+    <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
+    <change when="2026-03-02" who="#NW">Updated edition encoding of O for A from unclear A to choice - corr A, sic O and I of AVI supplied rather than unclear.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -158,20 +160,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1"/>
-                     <gap reason="lost" extent="unknown"/><w lemma="avias"><supplied reason="lost">ᚐ</supplied><unclear reason="ambiguous">ᚃ</unclear><unclear reason="damage">ᚔ</unclear></w> <name nymRef="*daimagnas">ᚇᚐᚔᚋ<unclear reason="ambiguous">ᚐ</unclear>ᚌ<unclear reason="damage">ᚅ</unclear>ᚔ</name>
+                     <gap reason="lost" extent="unknown"/><w lemma="avias"><supplied reason="lost">ᚐ</supplied><unclear reason="ambiguous">ᚃ</unclear><supplied reason="lost">ᚔ</supplied></w> <name nymRef="*daimagnas">ᚇᚐᚔᚋ<choice><corr>ᚐ</corr><sic>ᚑ</sic></choice>ᚌ<unclear reason="damage">ᚅ</unclear>ᚔ</name>
                 </ab>
             </div>
              <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>  
                     <lb n="1"/>                     
-                     <gap reason="lost" extent="unknown"/><w lemma="avias"><supplied reason="lost">A</supplied><unclear reason="ambiguous">V</unclear><unclear reason="damage">I</unclear></w> <name nymRef="*daimagnas">DAIM<unclear reason="ambiguous">A</unclear>G<unclear reason="damage">N</unclear>I</name>
+                     <gap reason="lost" extent="unknown"/><w lemma="avias"><supplied reason="lost">A</supplied><unclear reason="ambiguous">V</unclear><supplied reason="lost">I</supplied></w> <name nymRef="*daimagnas">DAIM<choice><corr>A</corr><sic>O</sic></choice>G<unclear reason="damage">N</unclear>I</name>
                 </ab>
-                 <ab type="list">[---]AVI DAIMAGNI </ab>
+                 <ab type="list">[--A]V[I] DAIMAGNI</ab>
             </div>       
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>The beginning of the inscription is lost. The first visible signs are two strokes of the B-<foreign xml:lang="ga">aicme</foreign>, probably the remains of a V (3 strokes) and part of the formula word AVI. Macalister (1945, 278; 1935, 150) recorded the ‘distal tip’ of a third stroke (preceeding the two) but this is not clear. Regarding the final I of a possible AVI, Macalister (1935, 150) describes it as <q>much worn, the first and third notches being effaced</q>.</note>
+                    <note>The beginning of the inscription is presumably lost. The first visible signs are two strokes of the B-<foreign xml:lang="ga">aicme</foreign>, possibly the remains of a V (3 strokes) and part of the formula word AVI. Macalister (1945, 278; 1935, 150) recorded the ‘distal tip’ of a third stroke (preceeding the two) but this is not clear. Nothing remains of a final I but there is just about enough space for 5 vowel strokes.</note>
                 </app>  
                     <app n="2">
                         <note>Regarding DAIMAGNI, Macalister (1935, 150) notes that <q>DAI is quite clear. The B-half of the M (which is drawn at right angles to the edge, not sloped) is broken. The vowel following M looks at first sight like O, but the second notch, on careful examination with a strong electric lamp, is seen to be an accidental fracture and the first notch is centrally placed between the M and the G. The G is quite clear, but a spall has carried off all but the butts of the following N-scores, so that a careless reader might take the letter for I. The final I is quite clear</q>.</note>
@@ -179,7 +181,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>
             <div type="translation">
-                <p>of the descendant of *<persName>Dáemán</persName></p>
+                <p>of the descendant of *<persName>Dáemán</persName> (*<persName xml:lang="pgl">Daimagnas</persName>)</p>
             </div>
             <div type="commentary">
                 <p>Since all other occurrences of AVI are preceded by an individual name and sometimes also by a patronym, it is very likely that this inscription must have originally also contained an individual name, which has been lost through damage to the stone.</p>
