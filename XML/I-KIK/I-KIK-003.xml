@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Clárach an Teampaill | Churchclara 2</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-003</idno>
+                 <idno type="CIIC"/>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/CHLAR/2.html">CHLAR/2</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KK020-017010-</idno></p> 
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
+                                    <dimensions>
+                                        <height>1.14</height>
+                                        <width>0.24</width>
+                                        <!--<depth></depth>-->
+                                    </dimensions>
+                                </support>
+                                <condition>Manning and Moore (1997, 371) note that the exposed face of the stone has been partly dressed by the medieval builders and this has damaged some of the ogham letters, especially some of the vowel notches. </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription is on one of the visible angles of the stone. Two pairs of long diagonal strokes (both G) stand out best on the face, but some other consonant strokes running the other way can be detected in the masonry joint on the upper face of the stone. The inscription appears to begin after a blank 33 cm at the right hand end. The end of the inscription is on likely on the edge of the stone that is hidden by the wall.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham letters are <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Churchclara (<placeName xml:lang="ga"><ref target="https://www.logainm.ie/en/26739">Clárach an Teampaill</ref></placeName>)</placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.655485, -7.146098</geo>
+                            <note>ITM Coordinates: 657773, 656375</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1978">Discovered by Con Manning in the late 1970s (Manning and Moore 1997, 371). This second ogham stone is situated just above present ground level, built into the external face of the north wall of the nave, immediately east of the north doorway of the ruined church, and is in a horizontal position (Manning and Moore 1997, 371).</provenance>
+                        <provenance type="observed">In situ. Built into lower north wall of the nave.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass> 
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2025-08-08" who="#JB">Jef Bucas autogenerated batch EpiDoc output from spreadsheet</change>
+    <change when="2026-03-03" who="#POC">Added information from O3D and images</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KIK/I-KIK-003_Churchclara2.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">
+            <ab>
+                    <lb n="1" style="text-direction:up"/><persName>ᚌ<supplied reason="lost">ᚓ</supplied>ᚂ<unclear reason="damage">ᚐ</unclear>ᚌᚅ<supplied reason="lost">ᚔ</supplied></persName> <w type="formula" lemma="avias"><supplied reason="lost">ᚐ</supplied>ᚃ<supplied reason="lost">ᚔ</supplied></w> <gap reason="lost" extent="unknown" unit="stroke"/>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName>G<supplied reason="lost">E</supplied>L<unclear reason="damage">A</unclear>GN<supplied reason="lost">I</supplied></persName> <w type="formula" lemma="avias"><supplied reason="lost">A</supplied>V<supplied reason="lost">I</supplied></w> <gap reason="lost" extent="unknown" unit="stroke"/>
+                </ab>
+                <ab type="list">G[E]LAGN[I A]V[I ---̣]</ab>
+            </div>
+            <div type="apparatus">
+                <app n="1">
+                    <note>The inscription appears to begin with a G, followed by a damaged section which could have held 5, or more likely, 4 vowel strokes (E?), than an L followed by a damaged vowel stroke (A), then G and N followed by 5 or 6 damaged vowel strokes. Finally, there is a V and 2 vowel strokes running up to the broken corner of the stone. The remainder of the inscription cannot be read as it is on an edge of the stone that is hidden by the wall.</note>
+                </app>
+            </div>
+            <div type="translation">
+                <p>'of Gelán grandson of..?'</p>
+            </div>
+            <div type="commentary">
+                <p>As Manning and Moore (1997, 372) suggest regarding GELAGNI, <q>if a long é was intended (Gellagni) would be cognate with Old Irish <persName xml:lang="sga"><ref target="https://dil.ie/25799">Gíallán</ref></persName>, related to <foreign xml:lang="sga"><ref target="https://dil.ie/25788">gíall</ref></foreign> `a hostage'. If a short e was intended (Gelagni), it would be congante with Old Irish *<foreign xml:lang="sga"><ref target="https://dil.ie/25570">Gelán</ref></foreign>, related to <foreign xml:lang="sga"><ref target="https://dil.ie/25565">gel</ref></foreign> 'bright'</q>. The former is actually attested as a personal name in the <title type="book">Félire Óengusso</title>. AVI is a common formula word found in the ogham corpus, from Old Irish <foreign xml:lang="sga"><ref target="dil.ie/42573">úa</ref></foreign> 'grandson, descendant'</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="MAN1997"/>
+                    <citedRange>370-372</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
