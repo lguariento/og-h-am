@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Feadán Uachtarach | Fiddaun Upper</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-006</idno>
+                 <idno type="CIIC">31</idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/FIDUP_1.html">FIDUP/1</idno>
+                 <idno type="TM" corresp="https://www.trismegistos.org/text/172564">https://www.trismegistos.org/text/172564</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KK029-020----</idno></p> 
+                                    <material type="stone" source="PIL1940">Grit</material> 
+                                    <objectType key="monument">Pillar</objectType> 
+                                    <dimensions unit="m" source="MAC1945">
+                                        <height>2.06</height>
+                                        <width>0.76</width>
+                                        <depth>0.50</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>The ogham inscription is considerably worn by weather and cattle scratching. Macalister (Pilsworth and Macalister 1940, 92) speculates that <q>the second angle has been wilfully mutilated</q>.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription is on both angles of the west face of the stone and reads upwards on the left and downwards on the right.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription appears to be <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in broad shallow scores.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Fiddaun Upper (<placeName xml:lang="ga"><ref target="https://www.logainm.ie/en/27197)">An Feadán Uachtarach)</ref></placeName></placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.522596, -7.037871</geo>
+                            <note>ITM Coordinates: 665293, 641684</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1940">Discovered by W.J. Pilsworth around 1940 and first published shortly afterwards (Pilsworth and Macalister 1940, 92-3). It was found in a field over 1km uphill from the road on private land. The landowner commented (June 2020) that there is a local tradition that the stone was moved to this spot from somewhere else but there is no written record of this. </provenance>
+                        <provenance type="observed" when="2020">In situ and protected by a small wooden fence. The stone was recorded in 3d (in collaboration with Digital Heritage Age) in 2020 as an action of the County Kilkenny Heritage Plan Programme, funded by the Heritage Office of Kilkenny County Council and the Heritage Council.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass> 
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2025-08-08" who="#JB">Jef Bucas autogenerated batch EpiDoc output from spreadsheet</change>
+    <change when="2026-03-03" who="#POC">Added information from O3D 2013 and spreadsheet.</change>
+   
+    
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KIK/I-KIK-006_Fiddaun_Upper.jpg"><desc>Photograph by Nora White</desc></graphic>
+        <graphic url="IRE/I-KIK/I-KIK-006_Fiddaun_MAC1945.jpg"><desc>Drawing by Macalister (1945, 36)</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">
+            <ab> 
+                <lb n="1" style="text-direction:up-down"/><persName>ᚇᚏᚒ<unclear reason="damage">ᚌ</unclear><supplied reason="lost">ᚅᚑ</supplied></persName> <w type="formula" lemma="maqqas"><unclear reason="damage">ᚋᚐ</unclear>ᚊ<supplied reason="lost">ᚔ</supplied></w> <w type="formula" lemma="muccoviias">ᚋ<supplied reason="lost">ᚒ</supplied><unclear reason="damage">ᚉ</unclear>ᚑ<unclear reason="damage">ᚔ</unclear></w> <gap extent="unknown" reason="lost"/><unclear reason="damage">ᚅ</unclear>ᚐᚋ<unclear reason="damage">ᚔ</unclear>
+            </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up-down"/><persName>DRU<unclear reason="damage">G</unclear><supplied reason="lost">NO</supplied></persName> <w type="formula" lemma="maqqas"><unclear reason="damage">MA</unclear>Q<supplied reason="lost">I</supplied></w> <w type="formula" lemma="muccoviias">M<supplied reason="lost">U</supplied><unclear reason="damage">C</unclear>O<unclear reason="damage">I</unclear></w> <gap extent="unknown" reason="lost"/><unclear reason="damage">N</unclear>AM<unclear reason="damage">I</unclear>
+                </ab>
+                <ab type="list">DRUG[NO] MAQ[I] M[U]COI [---]NAMI</ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app></app>
+
+                </listApp>               
+            </div>
+            <div type="translation">
+                <p>'of Drón son of the descendant of...'</p>
+            </div>
+            <div type="commentary">
+                <p>Macalister (Pilsworth and Macalister 1940, 93) suggested that <q>the name DRUGNO is identical with that of the family of Uí Dróna, whose territory (the Carlow baronies of Idrone) extend to within seven miles of the site of the stone</q> (see also (McManus 1991, 179, n.34). This name is also found in inscription I-KER-035 (CIIC 167): DROGNO (Ballyandreen, Co. Kerry) and also possibly in I-KER-033 (CIIC 165): [D]ROGNO (Ballintermon, Co. Kerry). </p>
+                    
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>35-6</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MCM1991"/>
+                        <citedRange>107</citedRange>
+                    </bibl>
+                    <bibl><ptr target="PIL1940"/>
+                        <citedRange>92-3</citedRange>
+                    </bibl>
+                     <bibl><ptr target="ZIE1994"/> 
+                         <citedRange>172</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
