@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gabhrán | Gowran</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-007</idno>
+                 <idno type="CIIC">32</idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/GOWRN/1.html">GOWRN/1</idno>
+                 <idno type="TM" corresp="https://www.trismegistos.org/text/173403">https://www.trismegistos.org/text/173403</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KK020-060007-</idno></p> 
+                                    <material type="stone" source="MAC1945">Grit</material> 
+                                    <objectType key="monument">Pillar</objectType> 
+                                    <dimensions unit="m" source="MAC1945">
+                                        <height>1.50</height>
+                                        <width>0.38</width>
+                                        <depth>0.30</depth>
+                                    </dimensions>
+                                    <desc type="decoration">According to Macalister (1945, 38), <q>a large cross potent, crookedly set out, is cut on the original base of the inscribed face</q>.</desc>
+                                </support>
+                                <condition>The inscription is in generally good condition but is chipped in places.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription reads upwards on both angles of the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription appears to be <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Gowran (<placeName xml:lang="ga"><ref target="https://www.logainm.ie/en/1411890">Gabhrán</ref></placeName>)</placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.628928, -7.064571</geo>
+                            <note>ITM Coordinates: 663307, 653483</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1849">The ogham inscription was first noticed in 1849 du G.V. Noyer. The stone was found in the foundations of the chancel of the medieval parish church of St Mary's Gowran (KK020-060006-), when the chancel was demolished in 1827 to make way for a Church of Ireland church (Brash 1872-3; 437; Dolan 2000, vol. 3, 112). The stone had lain prostrate for a long time in the ruined nave (Macalister 1945, 38). </provenance>
+                        <provenance type="observed">On site in the rebuilt chancel. </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass> 
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2025-08-08" who="#JB">Jef Bucas autogenerated batch EpiDoc output from spreadsheet</change>
+    <change when="2026-03-04" who="#POC">Added information from O3D.</change>
+
+    
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!--<graphic url="IRE/I-KIK/I-KIK-007_Gowran.jpg"><desc>Photograph by Nora White</desc></graphic>-->
+        <graphic url="IRE/I-KIK/I-KIK-007_Gowran_MAC1945.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">
+            <ab> 
+                <lb n="1" style="text-direction:up-up"/><w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐᚊ</supplied><unclear reason="damage">ᚔ</unclear></w> <persName>ᚓᚏᚐᚉ<unclear reason="damage">ᚔ</unclear>ᚐᚄ</persName> <w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied><unclear reason="damage">ᚊᚔ</unclear></w> <persName>ᚇ<unclear reason="damage">ᚔ</unclear>ᚋ<unclear reason="damage">ᚐ</unclear>ᚊ<unclear reason="damage">ᚐ</unclear></persName> <w type="formula" lemma="muccoviias">ᚋᚒᚉ<unclear reason="damage">ᚑ</unclear><supplied reason="lost">ᚔ</supplied></w>
+            </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up-up"/><w type="formula" lemma="maqqas"><supplied reason="lost">MAQ</supplied><unclear reason="damage">I</unclear></w> <persName>ERAC<unclear reason="damage">I</unclear>AS</persName> <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied><unclear reason="damage">QI</unclear></w> <persName>D<unclear reason="damage">I</unclear>M<unclear reason="damage">A</unclear>Q<unclear reason="damage">A</unclear></persName> <w type="formula" lemma="muccoviias">MUC<unclear reason="damage">O</unclear><supplied reason="lost">I</supplied></w>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app n="1"><note>On the scanned model five notches (I of MAQI) are barely visible before the E of ERACIAS and possibly part of the final Q score. The first two notches of the I after the C in ERACIAS are relatively clear. Also, although there is no trace of the following MA, five partial scores (Q) can be made out on the top of the stone, followed by faint traces of at least three of the five notches of the final I. The vowels of DIMAQA are very unclear but the C of a possible MUCOI and at least one following vowel notch are discernible.</note></app>
+                </listApp>               
+            </div>
+            <div type="translation">
+                <p>son of X son of Y kindred of ...</p>
+            </div>
+            <div type="commentary">
+                <p>The inscription contains formula words commonly found in the ogham corpus such as MAQI, Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/31166">macc</ref></foreign>'son' and, according to Stifter (2025), MUCOI which might possibly be related to Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/31187">maccu, moccu</ref></foreign> 'belonging to the gens or family of'.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                     <bibl><ptr target="BRA1873b"/>
+                        <citedRange>437</citedRange>
+                    </bibl>
+                    <bibl><ptr target="DOL2000"/> 
+                         <citedRange>112</citedRange>
+                     </bibl>
+                    <bibl><ptr target="MAC1945"/>
+                        <citedRange>37-8</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MCM1991"/>
+                        <citedRange>66</citedRange>
+                    </bibl>
+                    <bibl><ptr target="STI2025b"/>
+                    </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
