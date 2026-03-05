@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lamóg | Lamoge 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-011</idno>
+                 <idno type="CIIC">36</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/lamog_1.html">LAMOG/1</idno>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/172645">https://www.trismegistos.org/text/172645</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">KK034-013003-</idno></p>
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m" source="MAC1945">                                         
+                                            <height>1.37</height>
+                                            <width>0.66</width>
+                                            <depth>0.30</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>The top of the stone is damaged resulting in the loss of a presumed formula word such as MAQI or MUCOI.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription starts from the bottom left hand angle of the exposed face of the stone and continues on to the other angle. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription is <rs type="execution"  key="mixed">chiselled and punched</rs>. Macalister (1945, 41) describes the initial two letters as chiselled and the remaining letters as <q>punched and rubbed</q>. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Lamoge (<placeName><ref target="https://www.logainm.ie/en/26343">Lamóg</ref></placeName>)</placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.44656, -7.36596</geo>
+                            <note>ITM Coordinates (approximate): 643095, 632978</note>
+                            </origPlace>
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1891">Discovered serving as a modern headstone in the graveyard. According to Macalister (1945, 40) the stone was first discovered and mentioned in 1891 by Shelley. Barry (1896, 122) notes that he first heard of these ogham stones from Rev. Denis Murphy in 1891 and then again in 1892 from Mr. John Cummins. Barry visited the site and saw the stones in 1892 and again in 1893, when photographs were taken of both ogham stones standing upright. This stone was discovered shortly after the first, which was lying close by. 
+                        </provenance>
+                        <provenance type="observed" when="2020">On site in the position in which it was discovered, although no longer upright. Both stones were recorded in 3d (in collaboration with Digital Heritage Age) in June 2020 as an action of the County Kilkenny Heritage Plan Programme, funded by the Heritage Office of Kilkenny County Council and the Heritage Council.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-03-05" who="#POC">Added information from O3D</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KIK/I-KIK-011_Lamoge1.jpg"><desc>Photo by Nora White</desc></graphic>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up-top-down"/><persName>ᚄᚓᚃᚓᚏᚏᚔ<unclear reason="damage">ᚈ<gap extent="unknown" reason="lost" unit="stroke"/></persName> <supplied reason="lost"><w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w></supplied> <persName><supplied reason="lost">ᚏᚑ</supplied><unclear reason="damage">ᚈᚈ</unclear>ᚐᚔᚄ</persName>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up-top-down"/><persName>SEVERRI<unclear reason="damage">T<gap extent="unknown" reason="lost" unit="stroke"/></persName> <supplied reason="lost"><w type="formula" lemma="maqqas">MAQI</w></supplied> <persName><supplied reason="lost">RO</supplied><unclear reason="damage">TT</unclear>AIS</persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+<note>Damage to the top of the stone makes the final letter(s) of the first personal name unclear. We would also expect a formula word to follow, most commonly MAQI 'son of'.</note>                    
+                </app>
+                    <app n="2">
+                        <note>Macalister (1945, 40) suggests the following restoration of the inscription:</note>
+                        <rdg source="MAC1945">SEVERRIT MAOI MUCOI ROTTAIS</rdg>
+                    </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>'of Severus(?) son of [Roth(a)]'</p>
+            </div>
+            <div type="commentary">
+                <p>The name of the person commemorated, SEVERRIT[..., may be related to the Latin name <persName xml:lang="la">Severus</persName>, meaning 'strict, stern' (Ziegler 1994, 232, 91). On the second angle, only the end of the father's/ancestor's name survives: TTAIS. Macalister (1945, 277), notes the similarity with the final name in (I-WAT-016) Drumlohan VI: BIR MAQI MUCOI ROTTAIS, and suggests the same name here. The -AIS/-AI genitive ending, of which there are a dozen or so examples, seems to belong to i̯o-stem or perhaps i-stem nouns, but we still do not have a fully satisfying explanation (Ziegler 1994, 55-58).</p> 
+                <p>McManus (1991, 68) classifies this as a <q>restored inscription</q>, and consequently untrustworthy, but perhaps he is referring to Lamoge II (I-KIK-012) which does appear to have been erased and re-cut but possibly by the original carver or soon afterwards.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="BAR1896"/>
+                     <citedRange>122-35</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>40-41</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                     <citedRange>68</citedRange>
+                     </bibl>
+                     <bibl><ptr target="ZIE1994"/>
+                     <citedRange>55-58, 91, 228, 232</citedRange>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
