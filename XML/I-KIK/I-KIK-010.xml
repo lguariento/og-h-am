@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Tulaigh Thirim | Tullaherin 2</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-010</idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP" corresp="http://www.ucl.ac.uk/archaeology/cisp/database/site/tulhe.html">TULHE</idno><!-- Not sure about this CISP reference -->
+                <idno type="TM"/>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">KK024-062009-</idno></p>
+                                    <material type="stone">Stone type unknown</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m" source="MAC1945">                                         
+                                            <height>1.56</height>
+                                            <width>0.51</width>
+                                            <depth>0.26</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>The inscription is badly damaged, particularly the vowels. Damage to the stone has removed <q>scores which might have been present</q> and <q>the arris on both sides are fractured and rugged, making an accurate reading of vowels impossible</q> (McManus 1991, 75). Additionally, the face of the stone has been spalled away both at the top and the bottom (McManus 1991, 75).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris-up">The inscription is on the two angles of the stone and may have read upwards on each angle and finishing along the top edge of the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham letters are <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in broad short scores. 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Tullaherin (<placeName xml:lang="ga"><ref target="https://www.logainm.ie/en/27360">An Tulaigh Thirim</ref></placeName>)</placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.579246, -7.130021</geo>
+                            <note>ITM Coordinates: 658963, 647906</note>
+                            </origPlace>
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1983">One of two ogham stones (see also I-KIK-009) at this early church site, which also has a round tower (KK024-062004-). Believed to have been removed from Tullaherin monastic site and used as a gate post on lands of Lar Mahon at Loughboreen for 30 years until re-discovered and recorded by Fionnbarr Moore in 1983 and returned to Tullaherin.  
+                        </provenance>
+                        <provenance type="observed">On site at Tullaherin, erected close to the round tower in 1983. Situated immediately S of the S wall of the nave of the medieval church (KK024-062001-) at the W end.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/Unable_to_determine">Unable to determine</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-03-05" who="#POC">Added information from O3D and spreadsheet</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KIK/I-KIK-010_Tullaherin2.jpg"><desc>Image by Nora White</desc></graphic>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up-up"/>ᚇ<gap extent="unknown" unit="stroke" reason="damage"/>ᚈ <w type="formula" lemma="muccoviias">ᚋ<supplied reason="lost">ᚒ</supplied>ᚉ<supplied reason="lost">ᚑᚔ</supplied></w> <gap extent="unknown" unit="stroke" reason="damage"/> ᚏ<gap extent="unknown" unit="stroke" reason="damage"/>ᚌ<gap extent="unknown" unit="stroke" reason="damage"/>ᚅ
+                </ab> 
+            </div>
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up-up"/>D<gap extent="unknown" unit="stroke" reason="damage"/>T <w type="formula" lemma="muccoviias">M<supplied reason="lost">U</supplied>C<supplied reason="lost">OI</supplied></w> <gap extent="unknown" unit="stroke" reason="damage"/> R<gap extent="unknown" unit="stroke" reason="damage"/>G<gap extent="unknown" unit="stroke" reason="damage"/>N
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">    
+                    <note>In addition to McManus' reading D ... T up one angle and M[U]C[OI ... R ... G up the second, an extra five scores (N) can be made out on the top of the stone, presumably a continuation of M[U]C[OI ... R ... G. This also suggests that the D ... T on the first angle may be the remains of a seperate inscription. While there is enough space for another letter between the G and the N, nothing now remains.</note>                   
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>X kindred of Y</p>
+            </div>
+            <div type="commentary">
+                 <p>Despite the damage to the inscription the formula word MUCOI can be discerned with a good degree of certainty. According to Stifter (2025), MUCOI which might possibly be related to Old Irish <foreign xml:lang="sga"><ref target="https://dil.ie/31187">maccu, moccu</ref></foreign> 'belonging to the gens or family of'.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MCM1991"/>
+                     <citedRange>75</citedRange>
+                     </bibl>
+                     <bibl><ptr target="STI2025"/>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
