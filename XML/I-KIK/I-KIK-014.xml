@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An tSeanchill |Shankill</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-014</idno>
+                 <idno type="CIIC"/>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/shank_1.html">SHANK/1</idno>
+                <idno type="TM"/>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>Rothe House Museum</repository>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <idno type="geo">52.65424, -7.25484</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">KK016-013----</idno></p>
+                                    <material type="stone">Limestone</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>0.57</height>
+                                            <width>0.14</width>
+                                            <depth>0.05</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>The end of the inscription on the first angle is obscured by the wooden base upon which the stone is mounted. </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_down">The inscription is on three angles of the stone and reads downwards on all three angles.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham letters are <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Shankill (<placeName xml:lang="sga"><ref target="https://www.logainm.ie/en/27060">An tSeanchill</ref></placeName>)</placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.6873, -7.0094</geo>
+                            <!--<note>ITM Coordinates: 0 , 0 </note>-->
+                            </origPlace>
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1960">Discovered on the townland boundary between Shankill, Co. Kilkenny (barony of Gowran) and Wells, Co. Carlow (barony of Idrone West) by Captain M. Doyle (Curragh Co. Kildare) in 1960 and donated to Rothe House Museum (Lannigan 1969, 101, entry 60/6). 
+                        </provenance>
+                        <provenance type="observed">Now in the 'Old Library' at Rothe House Museum, Kilkenny. The stone was recorded in 3d by Gary Dempsey (Digital Heritage Age) and helpers during a workshop on photogrammetry in Rothe House in November 2018. Added to the O3D website in July 2020 as an action of the County Kilkenny Heritage Plan Programme, funded by the Heritage Office of Kilkenny County Council and the Heritage Council.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-03-06" who="#POC">Added information to O3D.</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KIK/I-KIK-014_Shankill.jpg"><desc>Photo by Nora White</desc></graphic>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:down"/><persName>ᚋᚐᚊᚔᚉᚒᚅᚐᚂᚔᚌ<unclear reason="damage">ᚓᚐᚄ</unclear></persName> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <persName>ᚉᚑᚔᚂᚂᚔ</persName> <w type="formula" lemma="muccoviias">ᚋᚒᚉᚑᚔ</w> <persName>ᚉᚑᚄᚉ<unclear reason="damage">ᚔᚓᚐᚄ</unclear></persName>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:down"/><persName>MAQICUNALIG<unclear reason="damage">EAS</unclear></persName> <w type="formula" lemma="maqqas">MAQI</w> <persName>COILLI</persName> <w type="formula" lemma="muccoviias">MUCOI</w> <persName>COSC<unclear reason="damage">IEAS</unclear></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+<note>According to McManus (1991, 75), the <q>transcription in the museum (which appears to have been made before the stone was mounted) reads -GIN at the end of the first angle but only one vowel notch is clear after the G and another just before the last consonant [although there is space for 4/5]. Of the latter, only two scores (of the B series) are visible above the mounting. In view of 275 CUNALEGEA, therefore, one wonders whether the reading was CUNALIGIAS or CUNALIGEAS, but this cannot be verified. The C of CUNA looks more like DD, the spacing being similar to that found in the LL of the second angle, but C is probably the intended reading... The last notch of the I of COSCIS/N is unclear and four scores of the final letter can be read with certainity, a fifth being debatable owing to damage below the letter</q>.</note>                    
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>'of Mac-Conlach/Conlang son of Cóel descendant of Cosc'</p>
+            </div>
+            <div type="commentary">
+                 <p>Although the last few letters are uncertain, the initial personal name here appears to be a form of MAQI-CUNALEGEA(S), with a first element MAQ(Q)I- 'devotee, follower' (compare CIIC 40. MAQI-CAIRATINI, (I-COR-014) MAQI-DECCEDDAS, etc) (McManus 1991, 108-9). CUNALEGEA without MAQI- occurs in CIIC 275. Drumlohan IV, Co. Waterford and (I-MAY-001) (CUNALEGI/-EA?) Island, Co. Mayo. This name contains the commonly occuring element CUNA- (OIr. <foreign xml:lang="sga"><ref target="https://dil.ie/13291">cú</ref></foreign>) 'dog, hound' and an uncertain second element (McManus 1991, 102; Ziegler 1994, 159).</p>
+                <p>The father's name, COILLI, 'looks like the gen. of the name later attested as <persName xml:lang="sga">Cóel</persName>, <foreign xml:lang="sga"><ref target="https://dil.ie/7578">cóel</ref></foreign> 'thin, slender'. If the intended reading was -IAS or -EAS [as in the case of the first name above], COSCIAS/COSCEAS might be gen. of a fem. ā-stem *<foreign>Coscā</foreign>' (McManus 1991, 76).</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="LAN1969"/>
+                     <citedRange>100-106</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                     <citedRange>75-6, 102, 108-9</citedRange>
+                     </bibl>
+                     <bibl><ptr target="ZIE1994"/>
+                     <citedRange>159</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
