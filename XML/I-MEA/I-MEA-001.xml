@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Baile Phaghain | Painestown</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-MEA-001</idno>
+                 <idno type="CIIC">40</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/paint_1.html">PAINT/1</idno>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/172672">https://www.trismegistos.org/text/172672</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>National Museum of Ireland</repository>
+                        <idno type="invNo">1970.6</idno>
+                        <altIdentifier>
+                            <idno type="geo">53.3403, -6.2551</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">ME026-009----</idno></p>
+                                    <material type="stone">Stone type unknown</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m" source="MAC1945">                                         
+                                            <height>2.24</height>
+                                            <width>0.76</width>
+                                            <depth>0.33</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>The inscription is clearly legible but the second D has apparently been tampered with. According to Macalister (1945, 45) its very neat scores have been <q>roughly lengthened downward</q>.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="up">The inscription consists of two lines on the face of the stone and reads upwards for each line. No stemlines appear to have been cut for the inscription.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription appears to have been <rs type="execution" key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Painestown (<placeName xml:lang="sga"><ref target="https://www.logainm.ie/ga/38701">Baile Phaghain</ref></placeName>)</placeName>
+                                <placeName type="county">Co. Meath</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>53.667656, -6.565704</geo><note>(approx.)</note>
+                            <note>ITM Coordinates: 694779, 769306</note>
+                            </origPlace>
+                            <origDate>First half of the sixth century</origDate>
+                        </origin>
+                        <provenance type="found" when="1898">Found lying in a field near Seneschalstown House (Macalister 1947, 45). First recognised in 1898 by Rhys, J. Afterwards removed for a time to the grounds of Piltown House, near Drogheda (Macalister 1947, 45).
+                        </provenance>
+                        <provenance type="observed">Now in the National Museum of Ireland.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-03-06" who="#POC">Added information from O3D.</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <!--<facsimile>
+        <graphic url="example.jpg"/>
+        <!-\-<media url="3D Data" mimeType="text/html"><desc><!-\\-3d model by Megan/Gary/? on SketchFab/3dhop-\\-></desc></media>-\->
+    </facsimile>-->    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up-up"/><persName><name>ᚋᚐᚊᚔ ᚉᚐᚔᚏᚐᚈᚔᚅᚔ</name> <w type="formula" lemma="avias">ᚐᚃᚔ</w> <name>ᚔᚅᚓᚊᚐᚌᚂᚐᚄ</name></persName>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up-up"/><persName><name>MAQI CAIRATINI</name> <w type="formula" lemma="avias">AVI</w> <name>INEQAGLAS</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>
+<note>According to Macalister (1945, 45) the face of the stone was used for the inscription because there was once an older inscription on the edge of the stone which had continued over the top and concluded on the opposite edge. This older inscription had been intentionally removed, leaving nothing but a few vague traces from which only a bare suggestion that it was in the A maqi mucoi B formula can be recovered. </note>                    
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>'of Mac-Cáirthinn Uí Enechglais'</p>
+            </div>
+            <div type="commentary">
+                 <p>MAQI- (gen. of MAQ(Q)AS), as a first element meaning 'devotee' or the like, rather than 'son' and <foreign xml:lang="sga"><ref target="https://dil.ie/7652">cáerthann</ref></foreign> 'rowan tree' (McManus 1991, 108-9). INEQAGLAS, for ENEQ- with addition of a score, (eponym <foreign>Bresal Enechglas</foreign>) 'having a grey face' (McManus 1991, 7, 106). </p>
+                <p>The person commemorated here has been identified with a <persName xml:lang="sga">Mac-Cáirthinn</persName> of a Leinster poem who was an <persName xml:lang="sga">Uí Enechglais</persName> king of Leinster and Tara (Carney 1971, 69. n2; Ó Corráin 1985, 62-3; Byrne 1973, 137-8). Although the <persName xml:lang="sga">Uí Enechglais</persName> are located in county Wicklow and this stone comes from Co. Meath, it has been argued that the relegation to the Wicklow coast may have been later (Byrne 1973, 138, 142). This may also be the same <persName xml:lang="sga">Mac-Cárthinn mac Cóelbath</persName> mentioned in the annals in 446, a date which does not fit with the linguistic assessment (McManus 1991, 53, 112). However, a recent possible emendation of the date of the annals puts the entry concerning <persName xml:lang="sga">Mac-Cárthinn mac Cóelbath</persName> to in or around 530, which fits well with the linguistic dating (Eogan and Moore 2008, 304).</p>
+                <p>This inscription may be dated to the first half of the sixth century based on the loss of the final -I of INEQAGLAS and its retention in MAQI-CAIRATINI (McManus 1991, 94-5).</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="BYR1973"/>
+                     <citedRange>137-8, 142</citedRange>
+                     </bibl>
+                     <bibl><ptr target="CAR1971"/>
+                     <citedRange>69, n2</citedRange>
+                     </bibl>
+                     <bibl><ptr target="EOG2008"/>
+                     <citedRange>297–314</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>45-46</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                     <citedRange>7, 53, 94, 103, 105-106, 111-112, 117, 121</citedRange>
+                     </bibl>
+                     <bibl><ptr target="OCO1985"/>
+                     <citedRange>62-3</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
