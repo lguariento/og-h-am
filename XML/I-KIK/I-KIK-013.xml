@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Baile Mhuadáin | Ballyboodan</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-013</idno>
+                 <idno type="CIIC">38</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/balbo_1.html">BALBO/1</idno>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/172457">https://www.trismegistos.org/text/172457</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">KK031-058----</idno></p>
+                                    <material type="stone">Slate</material> 
+                                    <objectType key="monument">Slab</objectType>                                     
+                                    <dimensions unit="m" source="MAC1945">                                         
+                                            <height>2.31</height>
+                                            <width>1.75</width>
+                                            <depth>0.23</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>The inscription is in good condition but worn (Macalister 1945, 42). The top of the slab is broken away.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The ogham inscription is on the N edge of the upper face, along the eastern portion for a length of c. 1.15m from the E edge.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Macalister (1945, 42) describes the inscription as <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Ballyboodan (<placeName xml:lang="sga"><ref target="https://www.logainm.ie/en/27279">Baile Mhuadáin</ref></placeName>)</placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.470078, -7.222619</geo>
+                            <note>ITM Coordinates: 652816, 635691 </note>
+                            </origPlace>
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1841">This ogham inscribed slab was found in the field close to where it is now situated. <q>Brash erroneously ascribes the discovery of the stone to Hitchcock: but it was well-known as early as 1841, when it was standing erect. Some time after that date, however, it fell, inscription side downward, as a result of the operations of treasure-seekers. Hitchcock visited the monument in 1849, when he was obliged to employ 20 men to turn it over: after which he replaced it as he found it, so that it had to be turned again to check his copy of the inscription</q> (Macalister 1945, 42-4).
+                        </provenance>
+                        <provenance type="observed">In its own enclosure, lying in a corner of a field by the side of the road.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-03-06" who="#POC">Added information to O3D</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KIK/I-KIK-013_Ballyboodan-a.jpg"><desc>Photo by Nora White</desc></graphic>
+        <graphic url="IRE/I-KIK/I-KIK-013_Ballyboodan-b.jpg"><desc>Photo by Nora White</desc></graphic>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName>ᚉᚑᚏ<unclear reason="damage">ᚁᚔ</unclear></persName> <w type="formula" lemma="koi"><unclear reason="damage"><g ref="#forfid_X"/></unclear>ᚑᚔ</w> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <persName>ᚂᚐᚁᚏᚔ<unclear reason="damage">ᚇ</unclear></persName><gap extent="unknown" reason="lost" unit="stroke"/>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName>COR<unclear reason="damage">BI</unclear></persName> <w type="formula" lemma="koi"><unclear reason="damage"><g ref="#forfid_X" type="interpretation_K"/></unclear>OI</w> <w type="formula" lemma="maqqas">MAQI</w> <persName>LABRI<unclear reason="damage">D</unclear></persName><gap extent="unknown" reason="lost" unit="stroke"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>  
+                    <note>The -B- of CORBI is very faint and only two of the -I's vowel notches remain. The K is also very worn and difficult to be certain of, as is the final D where only possible partial scores remain.</note>
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>'of Corb here son of Labraid?'</p>
+            </div>
+            <div type="commentary">
+                 <p>The person commemorated here is <persName xml:lang="sga">Corb</persName> (possibly related to <foreign xml:lang="sga"><ref target="https://dil.ie/12436">corbaid</ref></foreign> 'defiles' (McManus 1991, 107), cf. (I-KER-021) Ballinrannig, Co. Kerry, where it is the second element in the name MAQQI-CORBBI and in (I-KER-029) Ballintaggart VIII, Co. Kerry, where it is the name of the ancestor of the kindred, forming part of the sept name introduced by the formula word AVI (Mod Ir. <persName xml:lang="ga">Uí Chuirb</persName> 'grandson/descendant of Corb'). </p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>42-44</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                     <citedRange>79, 107</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
