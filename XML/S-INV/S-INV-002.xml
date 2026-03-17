@@ -55,7 +55,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <msIdentifier>
                          <country>Scotland</country>
                         <repository ref="https://outerhebridesheritage.org.uk/museum/museum-nan-eilean-stornoway/">Museum nan Eilean in Steòrnabhagh | Stornoway</repository>
-                        <idno type="invNo"/>
+                        <!--<idno type="invNo"/>-->
                         <altIdentifier>
                             <idno type="geo">58.21192070532494, -6.394716198147583</idno>
                         </altIdentifier>
@@ -73,7 +73,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://canmore.org.uk/site/108290/south-uist-bornish">Canmore</ref> <idno type="Canmore">108290</idno></p>
+                                <support><p><ref target="https://www.trove.scot/place/108290">Trove</ref> <idno type="Trove">108290</idno></p>
                                     <material type="bone">Bone</material> 
                                     <objectType key="portableObject">Plaque</objectType>                                     
                                     <dimensions unit="cm">                                         
@@ -147,15 +147,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-09-10" who="#POC">Added paragraph to support and National Grid reference details, closed unused elements, commented out apparatus and translation</change>
     <change when="2025-03-27" who="#POC">Added attributes for filtering, added country to origPlace, updated commentary, moved information to apparatus and translation</change>
     <change when="2025-04-14" who="#POC">Updated execution type, added attributes to layout</change>
-<change when="2025-04-24" who="#POC">Added and encoded information, added image from Babelstone blog</change>
-<change when="2025-05-02" who="#POC">Updated image copyright information</change>
+    <change when="2025-04-24" who="#POC">Added and encoded information, added image from Babelstone blog</change>
+    <change when="2025-05-02" who="#POC">Updated image copyright information</change>
     <change when="2025-05-06" who="#POC">Added repository details and geo coords.</change>
-<change when="2025-05-13" who="#POC">Proofreading updates, update edition with angled I and forfid encoding and language code, moved alternative reading from edition to apparatus, update bibl</change>
-<change when="2025-05-16" who="#POC">Correct edition encoding, updated text lang code, added text direction for reading</change>
-           <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
-<change when="2025-06-11" who="#POC">Move information from translation to commentary, update translation</change>
-                 <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition, correct forfid and variant letter encoding, added word division and encoding</change>     
-<change when="2025-08-19" who="#MK">Added 3D and RTI resp. and provenance</change>
+    <change when="2025-05-13" who="#POC">Proofreading updates, update edition with angled I and forfid encoding and language code, moved alternative reading from edition to apparatus, update bibl</change>
+    <change when="2025-05-16" who="#POC">Correct edition encoding, updated text lang code, added text direction for reading</change>
+    <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
+    <change when="2025-06-11" who="#POC">Move information from translation to commentary, update translation</change>
+    <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition, correct forfid and variant letter encoding, added word division and encoding</change>     
+    <change when="2025-08-19" who="#MK">Added 3D and RTI resp. and provenance</change>
+    <change when="2026-03-17" who="#POC">Replace Canmore with Trove, add Trove link, comment out repository idno because there is no inventory number</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
