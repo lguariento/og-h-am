@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Dromainn | Drummin 1</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-ROS-001</idno>
+                 <idno type="CIIC">11</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/drumm_1.html">DRUMM/1</idno>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/172550">https://www.trismegistos.org/text/172550</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">RO015-051001-</idno></p>
+                                    <material type="stone">Sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>1.09</height>
+                                            <width>0.41</width>
+                                            <depth>0.51</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>Macalister (1945, 16) notes that <q>there is a fracture at the end of the inscription, but it seems to be complete</q>. Gippert (2000) remarks that <q>by 1996, the angle seems to have suffered more levelling so that the B-strokes of the N have become even harder to trace</q>.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription is on the angle of the stone and reads upwards/</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The letters appear to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Drummin (<placeName xml:lang="sga"><ref target="https://www.logainm.ie/ga/43413">An Dromainn</ref></placeName>)</placeName>,
+                                <placeName type="county">Co. Roscommon</placeName>,
+                                <placeName type="country">Ireland</placeName>
+                                <geo>53.834347, -8.369948</geo>
+                            <note>ITM Coordinates: 575649, 787271</note>
+                            </origPlace>
+                            <origDate source="MCM1991">First half of the sixth century</origDate>
+                        </origin>
+                        <provenance type="found" when="1914">Discovered in the <foreign xml:lang="ga">rath</foreign>/ringfort sometime before 1914. According to Macalister (1914, 139) the stone was found by <q>Mr Igoe, of the Ordinance Survey, and by him communicated to Dr. Douglas Hyde</q>.</provenance>
+                        <provenance type="observed">Still standing in situ.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-03-17" who="#POC">Added info and image from O3D 2013</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-ROS/I-ROS-001_Drummin1.jpg"><desc>Image by Nora White</desc></graphic>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name>ᚉᚒ<unclear reason="damage">ᚅ</unclear><supplied reason="lost">ᚑᚃ</supplied>ᚐᚈᚑ</name></persName>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name>CU<unclear reason="damage">N</unclear><supplied reason="lost">OV</supplied>ATO</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app>  
+                    <note>Gippert (2001) observes that <q>of Macalister's reading, neither the medial O nor his V can be ascertained</q>.</note>
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>The inscription could be a personal name.</p>
+            </div>
+            <div type="commentary">
+                 <p>This is one of the inscriptions listed by McManus (1991, 94-5) in which apocope (loss of final consonants or syllables) begins to show itself (CUNOVATO (earlier -os). <q>The final S has been dropped but lowering has not taken place in the first syllable</q>. On this basis it may be dated to the first half of the sixth century (McManus 1991, 97, 176 note 40). However, although Macalister (1945, 16) notes that the inscription <q>seems to be complete</q>, an original CUNOVATOS is possible considering that the end of the stone is fractured. This would make the estimated date even earlier.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="GIP2001"/>
+                     </bibl>
+                     <bibl><ptr target="MAC1914b"/>
+                     <citedRange>138-48</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>16</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                     <citedRange>94-7</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
