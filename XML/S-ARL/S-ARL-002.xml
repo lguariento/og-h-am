@@ -146,26 +146,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-07-10" who="#XS">Xenia Spanachi edited the transliteration and transcription to fit the updated reading spreadsheet</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
                 <change when="2024-09-04" who="#POC">Added paragraph to support, added National Grid Reference, updated handNote by moving rs element around execution technique term, commented out apparatus and translation</change>
-            <change when="2025-02-19" who="#POC">Proofreading updates, moved information from layout to condition and provenance</change>                       
-            <change when="2025-02-20" who="#POC">Proofreading updates, added information to provenance, condition, apparatus, and commentary</change>
-            <change when="2025-03-03" who="#POC">Proofreading updates, added eDIL reference to commentary, added more information to layout and apparatus, added HES images.</change>
+                <change when="2025-02-19" who="#POC">Proofreading updates, moved information from layout to condition and provenance</change>                       
+                <change when="2025-02-20" who="#POC">Proofreading updates, added information to provenance, condition, apparatus, and commentary</change>
+                <change when="2025-03-03" who="#POC">Proofreading updates, added eDIL reference to commentary, added more information to layout and apparatus, added HES images.</change>
                 <change when="2025-03-12" who="#POC">Added attribute values to material and objectType</change>
-                    <change when="2025-03-26" who="#POC">Added secondary location coords, added country to origPlace</change>
-                    <change when="2025-03-27" who="#POC">Removed whitespace from edition, removed attribute from layout for now</change>
-            <change when="2025-04-14" who="#POC">Update execution encoding, added attributes for layout filtering</change>
-          <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
+                <change when="2025-03-26" who="#POC">Added secondary location coords, added country to origPlace</change>
+                <change when="2025-03-27" who="#POC">Removed whitespace from edition, removed attribute from layout for now</change>
+                <change when="2025-04-14" who="#POC">Update execution encoding, added attributes for layout filtering</change>
+                <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
                 <change when="2025-05-09" who="#POC">Proofreading updates, added persName encoding to commentary instead of foreign for personal names</change> 
-            <change when="2025-05-16" who="#POC">Updated textLang and lang in edition</change>
-            <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
-        <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>    
-          <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>  
+                <change when="2025-05-16" who="#POC">Updated textLang and lang in edition</change>
+                <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
+                <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>    
+                <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>  
                 <change when="2025-08-19" who="#MK">Added 3D resp.</change>
+                <change when="2026-03-17" who="#POC">Replace Canmore references with Trove, correct edition error</change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="SCO/S-ARL-002-Poltalloch-HES-image.jpg"><desc>Poltalloch fragment ogham inscription. Copyright: <ref target="http://canmore.org.uk/collection/2260071">Historic Environment Scotland</ref></desc></graphic>
-        <graphic url="SCO/S-ARL-002-Poltalloch-HES-scan.jpg"><desc>Drawing of Poltalloch fragment ogham inscription. Copyright: <ref target="http://canmore.org.uk/collection/554362">Historic Environment Scotland</ref></desc></graphic>
+        <graphic url="SCO/S-ARL-002-Poltalloch-HES-image.jpg"><desc>Poltalloch fragment ogham inscription. Copyright: <ref target="https://www.trove.scot/image/2260071">Historic Environment Scotland</ref></desc></graphic>
+        <graphic url="SCO/S-ARL-002-Poltalloch-HES-scan.jpg"><desc>Drawing of Poltalloch fragment ogham inscription. Copyright: <ref target="https://www.trove.scot/image/554362">Historic Environment Scotland</ref></desc></graphic>
         <media url="Complete" mimeType="text/html">
             <desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc>
         </media>
@@ -174,12 +175,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" cert="low" resp="#XS">           
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚉᚏ<unclear reason="faded" cert="low">ᚑ</unclear>ᚅ<gap reason="lost" extent="unknown" unit="character"/><choice resp="#KF"><unclear reason="ambiguous" cert="low">ᚃ</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>ᚉᚏ<unclear reason="faded" cert="low">ᚑ</unclear>ᚅ<gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous" cert="low" resp="#KF">ᚃ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" cert="low" xml:space="preserve" resp="#KF">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>CR<unclear reason="faded" cert="low">O</unclear>N<gap reason="lost" extent="unknown" unit="character"/><choice resp="#KF"><unclear reason="ambiguous" cert="low">V</unclear></choice><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/>CR<unclear reason="faded" cert="low">O</unclear>N<gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous" cert="low" resp="#KF">V</unclear><gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
                 <ab type="list">[---]CRON[---]V[---] </ab>
             </div>
