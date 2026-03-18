@@ -132,7 +132,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-05" who="#POC">Updated title with Irish placename, moved logainm ref to surround Irish placename, proofreading changes, added citation details to image description, commented out empty translation.</change>
 <change when="2025-02-07" who="#POC">Fixed placename display</change>
 <change when="2025-03-26" who="#POC">Added object type and material attributes for filtering</change>
-<change when="2026-03-18" who="#POC">Added lemma for ANM</change>    
+<change when="2026-03-18" who="#POC">Added lemma for ANM, add ? as placeholder for lemma value of MAQVI</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -144,12 +144,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="anmen">ᚐᚅᚋ</w> <name nymRef="?">ᚉᚑᚏᚏᚓ</name> <w type="formula">ᚋᚐᚊᚃᚔ</w> <name nymRef="?">ᚒᚇᚇ<supplied reason="lost">ᚌᚂᚑ</supplied>ᚓᚈᚈ</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="anmen">ᚐᚅᚋ</w> <name nymRef="?">ᚉᚑᚏᚏᚓ</name> <w type="formula" lemma="?">ᚋᚐᚊᚃᚔ</w> <name nymRef="?">ᚒᚇᚇ<supplied reason="lost">ᚌᚂᚑ</supplied>ᚓᚈᚈ</name></persName> 
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="anmen">ANM</w> <name nymRef="?">CORRE</name> <w type="formula">MAQVI</w> <name nymRef="?">UDD<supplied reason="lost">GLO</supplied>METT</name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><w type="formula" lemma="anmen">ANM</w> <name nymRef="?">CORRE</name> <w type="formula" lemma="?">MAQVI</w> <name nymRef="?">UDD<supplied reason="lost">GLO</supplied>METT</name></persName>
                 </ab>
             </div>
             <!--<div type="apparatus">
