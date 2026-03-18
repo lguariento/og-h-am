@@ -135,7 +135,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-03-14" who="#NW">Added attribute 'key=cross' to decoration.</change>
     <change when="2025-03-22" who="#NW">Added country and attributes for indexing.</change>
     <change when="2025-06-03" who="#NW">Execution type updated to scored</change>
-    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+    <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>
+    <change when="2026-03-18" who="#POC">Add lemma for ANM, add missing unclear element in transliteration</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,12 +148,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
             <ab>
-                <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><w type="formula"><unclear reason="worn">ᚐᚅᚋ</unclear></w> <persName><name nymRef="#?">ᚈᚓᚅᚐᚄ</name> <w type="formula" lemma="maqqas">ᚋᚐᚉᚔ</w> ᚃ<gap reason="lost" extent="unknown"/></persName></supplied>
+                <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><w type="formula" lemma="anmen"><unclear reason="worn">ᚐᚅᚋ</unclear></w> <persName><name nymRef="#?">ᚈᚓᚅᚐᚄ</name> <w type="formula" lemma="maqqas">ᚋᚐᚉᚔ</w> ᚃ<gap reason="lost" extent="unknown"/></persName></supplied>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW" source="MAC1945">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><w type="formula">ANM</w> <persName><name nymRef="#?">TENAS</name> <w type="formula" lemma="maqqas">MACI</w> V<gap reason="lost" extent="unknown"/></persName></supplied>
+                    <lb n="1" style="text-direction:up"/><supplied reason="undefined" evidence="previouseditor"><w type="formula" lemma="anmen"><unclear reason="worn">ANM</unclear></w> <persName><name nymRef="#?">TENAS</name> <w type="formula" lemma="maqqas">MACI</w> V<gap reason="lost" extent="unknown"/></persName></supplied>
                 </ab>
                 <ab type="list">ANM TENAS MACI V[---]</ab>
             </div>
