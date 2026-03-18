@@ -138,6 +138,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2026-03-06" who="#POC">Added information to O3D.</change>
     <change when="2026-03-16" who="#POC">Update edition, wrap inscription with persName</change>         
     <change when="2026-03-18" who="#POC">Replaced placeName with distinct in origPlace</change>
+    <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,12 +150,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name>ᚋᚐᚊᚔᚉᚒᚅᚐᚂᚔᚌ<unclear reason="damage">ᚓᚐᚄ</unclear></name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name>ᚉᚑᚔᚂᚂᚔ</name> <w type="formula" lemma="muccoviias">ᚋᚒᚉᚑᚔ</w> <name>ᚉᚑᚄᚉ<unclear reason="damage">ᚔᚓᚐᚄ</unclear></name></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#?">ᚋᚐᚊᚔᚉᚒᚅᚐᚂᚔᚌ<unclear reason="damage">ᚓᚐᚄ</unclear></name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#?">ᚉᚑᚔᚂᚂᚔ</name> <w type="formula" lemma="muccoviias">ᚋᚒᚉᚑᚔ</w> <name nymRef="#?">ᚉᚑᚄᚉ<unclear reason="damage">ᚔᚓᚐᚄ</unclear></name></persName>
                 </ab> 
             </div>                    
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:down"/><persName><name>MAQICUNALIG<unclear reason="damage">EAS</unclear></name> <w type="formula" lemma="maqqas">MAQI</w> <name>COILLI</name> <w type="formula" lemma="muccoviias">MUCOI</w> <name>COSC<unclear reason="damage">IEAS</unclear></name></persName>
+                    <lb n="1" style="text-direction:down"/><persName><name nymRef="#?">MAQICUNALIG<unclear reason="damage">EAS</unclear></name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">COILLI</name> <w type="formula" lemma="muccoviias">MUCOI</w> <name nymRef="#?">COSC<unclear reason="damage">IEAS</unclear></name></persName>
                 </ab>
             </div>
             <div type="apparatus">

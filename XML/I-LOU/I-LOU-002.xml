@@ -111,7 +111,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
     <change when="2026-01-14" who="#NW">Manually converted from O3D schema/8.13</change>
-    
+    <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition, add encoding for formula words</change>        
     
 </listChange>
 </revisionDesc>
@@ -122,20 +122,20 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">                
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">                
                     <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#"><w>ᚋᚐᚊᚔ</w><w>ᚉᚑᚏ<unclear reason="faded">ᚐ</unclear>ᚁᚔᚏ</w></name> <w lemma="maqqas">ᚋ<unclear reason="damage">ᚐ</unclear>ᚊ<unclear>ᚔ</unclear></w> <name nymRef="#tan...?">ᚈᚐᚅ<gap reason="lost" unit="character" quantity="1"/><unclear reason="damage">ᚁ</unclear><gap reason="lost" extent="unknown"/></name></persName>
-                    <lb n="1" style="text-direction:up"/>
-                    <persName><name><w>ᚅ<unclear reason="faded">ᚓ</unclear>ᚈ<unclear reason="faded">ᚐ</unclear></w><w>ᚄ<unclear reason="faded">ᚐ</unclear>ᚂ<unclear reason="faded">ᚐ</unclear>ᚌᚔ<unclear reason="faded">ᚐ</unclear></w></name> <w>ᚋᚐᚊ<unclear reason="faded">ᚔ</unclear></w> <w>ᚋ<unclear reason="faded">ᚒ</unclear>ᚉ<unclear reason="faded">ᚑᚔ</unclear></w><gap reason="lost" extent="unknown"/></persName>
+                    <persName><name nymRef="#?"><w>ᚋᚐᚊᚔ</w><w>ᚉᚑᚏ<unclear reason="faded">ᚐ</unclear>ᚁᚔᚏ</w></name> <w type="formula" lemma="maqqas">ᚋ<unclear reason="damage">ᚐ</unclear>ᚊ<unclear>ᚔ</unclear></w> <name nymRef="#tan...?">ᚈᚐᚅ<gap reason="lost" unit="character" quantity="1"/><unclear reason="damage">ᚁ</unclear><gap reason="lost" extent="unknown"/></name></persName>
+                    <lb n="2" style="text-direction:up"/>
+                    <persName><name nymRef="#?"><w>ᚅ<unclear reason="faded">ᚓ</unclear>ᚈ<unclear reason="faded">ᚐ</unclear></w><w>ᚄ<unclear reason="faded">ᚐ</unclear>ᚂ<unclear reason="faded">ᚐ</unclear>ᚌᚔ<unclear reason="faded">ᚐ</unclear></w></name> <w type="formula" lemma="maqqas">ᚋᚐᚊ<unclear reason="faded">ᚔ</unclear></w> <w type="formula" lemma="muccoviias">ᚋ<unclear reason="faded">ᚒ</unclear>ᚉ<unclear reason="faded">ᚑᚔ</unclear></w><gap reason="lost" extent="unknown"/></persName>
                    </ab>
             </div>            
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><name nymRef="#"><w>MAQI</w><w>COR<unclear reason="faded">A</unclear>BIR</w></name> <w lemma="maqqas">M<unclear reason="damage">A</unclear>Q<unclear>I</unclear></w> <name nymRef="#tan...?">TAN<gap reason="lost" unit="character" quantity="1"/><unclear reason="damage">B</unclear><gap reason="lost" extent="unknown"/></name></persName>
-                    <lb n="1" style="text-direction:up"/>
-                    <persName><name><w>N<unclear reason="faded">E</unclear>T<unclear reason="faded">A</unclear></w><w>S<unclear reason="faded">A</unclear>L<unclear reason="faded">A</unclear>GI<unclear reason="faded">A</unclear></w></name> <w>MAQ<unclear reason="faded">I</unclear></w> <w>M<unclear reason="faded">U</unclear>C<unclear reason="faded">OI</unclear></w><gap reason="lost" extent="unknown"/></persName>
+                    <persName><name nymRef="#/"><w>MAQI</w><w>COR<unclear reason="faded">A</unclear>BIR</w></name> <w type="formula" lemma="maqqas">M<unclear reason="damage">A</unclear>Q<unclear>I</unclear></w> <name nymRef="#tan...?">TAN<gap reason="lost" unit="character" quantity="1"/><unclear reason="damage">B</unclear><gap reason="lost" extent="unknown"/></name></persName>
+                    <lb n="2" style="text-direction:up"/>
+                    <persName><name nymRef="#?"><w>N<unclear reason="faded">E</unclear>T<unclear reason="faded">A</unclear></w><w>S<unclear reason="faded">A</unclear>L<unclear reason="faded">A</unclear>GI<unclear reason="faded">A</unclear></w></name> <w type="formula" lemma="maqqas">MAQ<unclear reason="faded">I</unclear></w> <w type="formula" lemma="muccoviias">M<unclear reason="faded">U</unclear>C<unclear reason="faded">OI</unclear></w><gap reason="lost" extent="unknown"/></persName>
                    </ab>
             </div>          
             <div type="apparatus">
