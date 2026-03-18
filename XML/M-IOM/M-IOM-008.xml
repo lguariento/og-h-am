@@ -141,6 +141,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2026-02-25" who="#POC">Update bibl ref</change>
     <change when="2026-02-27" who="#POC">Update commentary, refs, add source to origDate, update text type and textLang, and lang in edition, added eDIL reference to commentary</change>
     <change when="2026-03-03" who="#POC">Updated textLang and edition lang</change>    
+    <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -159,13 +160,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" resp="#POC">              
                 <div type="textpart" n="1">
                     <ab>
-                    <lb n="1" style="text-direction:l-to-r"/><persName><name>ᚂᚑᚌᚌᚐᚁ<choice><unclear>ᚌᚌ</unclear><unclear>ᚏ</unclear></choice>(<choice><unclear>ᚌᚐᚌ</unclear><unclear>ᚏ</unclear></choice>)ᚑᚌᚐᚋᚂ</name></persName>
+                    <lb n="1" style="text-direction:l-to-r"/><persName><name nymRef="#?">ᚂᚑᚌᚌᚐᚁ<choice><unclear>ᚌᚌ</unclear><unclear>ᚏ</unclear></choice>(<choice><unclear>ᚌᚐᚌ</unclear><unclear>ᚏ</unclear></choice>)ᚑᚌᚐᚋᚂ</name></persName>
                 </ab></div> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" xml:space="preserve" resp="#POC">
                <div type="textpart" n="1"> 
                    <ab>
-                    <lb n="1" style="text-direction:l-to-r"/><persName><name>LOGGAB<choice><unclear>GG</unclear><unclear>R</unclear></choice><choice><unclear>GAG</unclear><unclear>R</unclear></choice>OGAML</name></persName>
+                    <lb n="1" style="text-direction:l-to-r"/><persName><name nymRef="#?">LOGGAB<choice><unclear>GG</unclear><unclear>R</unclear></choice><choice><unclear>GAG</unclear><unclear>R</unclear></choice>OGAML</name></persName>
                 </ab>
                <ab type="list">LOGGABGGGAGOGAML</ab>
                </div>

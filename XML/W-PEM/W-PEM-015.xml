@@ -130,6 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-05-30" who="#POC">Added images and copyright</change>    
     <change when="2025-06-09" who="#POC">Update foreign to persName for personal name in translation</change>
     <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+    <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -142,12 +143,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam"> <!--needs checking against Welsh corpus/images-->
                 <ab>
-                    <lb n="1" style="text-direction:up"/><w>ᚔᚍ<unclear reason="damage">ᚓ</unclear>ᚄᚄ<unclear reason="faded">ᚐ</unclear></w> <persName><name>ᚍ<gap reason="lost" extent="unknown"/>ᚐᚄ<unclear reason="faded">ᚒ</unclear>ᚌ<unclear reason="faded">ᚅ</unclear><gap reason="illegible" extent="unknown"/></name></persName>
+                    <lb n="1" style="text-direction:up"/><w>ᚔᚍ<unclear reason="damage">ᚓ</unclear>ᚄᚄ<unclear reason="faded">ᚐ</unclear></w> <persName><name nymRef="#?">ᚍ<gap reason="lost" extent="unknown"/>ᚐᚄ<unclear reason="faded">ᚒ</unclear>ᚌ<unclear reason="faded">ᚅ</unclear><gap reason="illegible" extent="unknown"/></name></persName>
                 </ab>
               </div>          
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam">
                     <ab>
-                        <lb n="1" style="text-direction:up"/><w>IGʷ<unclear reason="damage">E</unclear>SS<unclear reason="faded">A</unclear></w> <persName><name>Gʷ<gap reason="lost" extent="unknown"/>AS<unclear reason="faded">U</unclear>G<unclear reason="faded">N</unclear><gap reason="illegible" extent="unknown"/></name></persName>
+                        <lb n="1" style="text-direction:up"/><w>IGʷ<unclear reason="damage">E</unclear>SS<unclear reason="faded">A</unclear></w> <persName><name nymRef="#?">Gʷ<gap reason="lost" extent="unknown"/>AS<unclear reason="faded">U</unclear>G<unclear reason="faded">N</unclear><gap reason="illegible" extent="unknown"/></name></persName>
                     </ab>
                 <ab type="list">IGʷESSA Gʷ[---]ASUGN[---]</ab>
                </div>

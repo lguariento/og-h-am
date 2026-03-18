@@ -137,6 +137,7 @@ Historic Environment Record</ref>: <idno type="HER">00646m
     <change when="2025-06-03" who="#POC">Update edition with glyphs instead of hex codes, update encoding of personal names in commentary</change>
     <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
     <change when="2025-09-08" who="#THN">Condensed letters and commentary information</change>
+    <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -149,13 +150,13 @@ Historic Environment Record</ref>: <idno type="HER">00646m
             <div type="edition" subtype="ogham" xml:space="preserve" resp="MAC1945">
                <div type="textpart" n="1" xml:lang="pgl-Ogam">
                   <ab>
-                      <lb n="1" style="text-direction:up"/><persName><name><del cause="lost">ᚈᚓᚌᚓ<gap reason="lost" extent="unknown"/></del></name></persName>
+                      <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><del cause="lost">ᚈᚓᚌᚓ<gap reason="lost" extent="unknown"/></del></name></persName>
                   </ab> 
                </div>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" resp="MAC1945">
                   <ab>
-                      <lb n="1" style="text-direction:up"/><persName><name><del cause="lost">TEGE<gap reason="lost" extent="unknown"/></del></name></persName>
+                      <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><del cause="lost">TEGE<gap reason="lost" extent="unknown"/></del></name></persName>
                   </ab> 
                 <ab type="list">TEGE[---]</ab>
             </div>
