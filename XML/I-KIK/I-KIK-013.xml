@@ -135,6 +135,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2026-03-06" who="#POC">Added information to O3D</change>
     <change when="2026-03-16" who="#POC">Update edition, wrap inscription with persName</change>      
     <change when="2026-03-18" who="#POC">Replaced placeName with distinct in origPlace</change>
+    <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -147,12 +148,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name>ᚉᚑᚏ<unclear reason="damage">ᚁᚔ</unclear></name> <w type="formula" lemma="koi"><unclear reason="damage"><g ref="#forfid_X"/></unclear>ᚑᚔ</w> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name>ᚂᚐᚁᚏᚔ<unclear reason="damage">ᚇ</unclear></name><gap extent="unknown" reason="lost" unit="stroke"/></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚉᚑᚏ<unclear reason="damage">ᚁᚔ</unclear></name> <w type="formula" lemma="koi"><unclear reason="damage"><g ref="#forfid_X"/></unclear>ᚑᚔ</w> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#?">ᚂᚐᚁᚏᚔ<unclear reason="damage">ᚇ</unclear></name><gap extent="unknown" reason="lost" unit="stroke"/></persName>
                 </ab> 
             </div>                    
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name>COR<unclear reason="damage">BI</unclear></name> <w type="formula" lemma="koi"><unclear reason="damage"><g ref="#forfid_X" type="interpretation_K"/></unclear>OI</w> <w type="formula" lemma="maqqas">MAQI</w> <name>LABRI<unclear reason="damage">D</unclear></name><gap extent="unknown" reason="lost" unit="stroke"/></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">COR<unclear reason="damage">BI</unclear></name> <w type="formula" lemma="koi"><unclear reason="damage"><g ref="#forfid_X" type="interpretation_K"/></unclear>OI</w> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">LABRI<unclear reason="damage">D</unclear></name><gap extent="unknown" reason="lost" unit="stroke"/></persName>
                 </ab>
             </div>
             <div type="apparatus">
