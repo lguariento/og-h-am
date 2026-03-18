@@ -120,7 +120,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-05" who="#NW">Added details and encoding throughpout and uploaded to github</change>
     <change when="2025-08-19" who="#MK">Edited 3D resp.</change>
     <change when="2026-01-20" who="#NW">edition and apparatus update</change>
-    
+    <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition</change>    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -132,12 +132,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚇ<damage>ᚑ</damage>ᚈ<damage>ᚓ</damage>ᚈᚈ<unclear reason="illegible">ᚑ</unclear></name> <w lemma="maqqas">ᚋᚐᚊ<unclear reason="faded">ᚔ</unclear></w>  <name><unclear reason="faded">ᚋᚐᚌᚂᚐ</unclear>ᚅ<supplied reason="lost" cert="low">ᚔ</supplied></name></persName>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚇ<damage>ᚑ</damage>ᚈ<damage>ᚓ</damage>ᚈᚈ<unclear reason="illegible">ᚑ</unclear></name> <w lemma="maqqas">ᚋᚐᚊ<unclear reason="faded">ᚔ</unclear></w>  <name nymRef="#?"><unclear reason="faded">ᚋᚐᚌᚂᚐ</unclear>ᚅ<supplied reason="lost" cert="low">ᚔ</supplied></name></persName>
                    </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">D<damage>O</damage>T<damage>E</damage>TT<unclear reason="illegible">O</unclear></name> <w lemma="maqqas">MAQ<unclear reason="faded">I</unclear></w>  <name><unclear reason="faded">MAGLA</unclear>N<supplied reason="lost" cert="low">I</supplied></name></persName>                
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">D<damage>O</damage>T<damage>E</damage>TT<unclear reason="illegible">O</unclear></name> <w lemma="maqqas">MAQ<unclear reason="faded">I</unclear></w>  <name nymRef="#?"><unclear reason="faded">MAGLA</unclear>N<supplied reason="lost" cert="low">I</supplied></name></persName>                
                 </ab>
                 <ab type="list">DOTETTO MAQỊ MAGLAN[I(?)]</ab>
             </div>         
