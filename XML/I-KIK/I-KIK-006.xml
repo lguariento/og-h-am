@@ -126,7 +126,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2026-03-03" who="#POC">Added information from O3D 2013 and spreadsheet.</change>
     <change when="2026-03-04" who="#POC">Updated apparatus and commentary, correct logainm URL</change>
     <change when="2026-03-16" who="#POC">Update edition, wrap inscription with persName</change>
-    <change when="2026-03-18" who="#POC">Replaced placeName with distinct in origPlace</change>
+    <change when="2026-03-18" who="#POC">Replaced placeName with distinct in origPlace, add nymRef</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -139,12 +139,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">
             <ab> 
-                <lb n="1" style="text-direction:up-down"/><persName><name>ᚇᚏᚒ<unclear reason="damage">ᚌ</unclear><supplied reason="lost">ᚅᚑ</supplied></name> <w type="formula" lemma="maqqas"><unclear reason="damage">ᚋᚐ</unclear>ᚊ<supplied reason="lost">ᚔ</supplied></w> <w type="formula" lemma="muccoviias">ᚋ<supplied reason="lost">ᚒ</supplied><unclear reason="damage">ᚉ</unclear>ᚑ<unclear reason="damage">ᚔ</unclear></w> <name><gap extent="unknown" reason="lost"/><unclear reason="damage">ᚅ</unclear>ᚐᚋ<unclear reason="damage">ᚔ</unclear></name></persName>
+                <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#?">ᚇᚏᚒ<unclear reason="damage">ᚌ</unclear><supplied reason="lost">ᚅᚑ</supplied></name> <w type="formula" lemma="maqqas"><unclear reason="damage">ᚋᚐ</unclear>ᚊ<supplied reason="lost">ᚔ</supplied></w> <w type="formula" lemma="muccoviias">ᚋ<supplied reason="lost">ᚒ</supplied><unclear reason="damage">ᚉ</unclear>ᚑ<unclear reason="damage">ᚔ</unclear></w> <name nymRef="#?"><gap extent="unknown" reason="lost"/><unclear reason="damage">ᚅ</unclear>ᚐᚋ<unclear reason="damage">ᚔ</unclear></name></persName>
             </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up-down"/><persName><name>DRU<unclear reason="damage">G</unclear><supplied reason="lost">NO</supplied></name> <w type="formula" lemma="maqqas"><unclear reason="damage">MA</unclear>Q<supplied reason="lost">I</supplied></w> <w type="formula" lemma="muccoviias">M<supplied reason="lost">U</supplied><unclear reason="damage">C</unclear>O<unclear reason="damage">I</unclear></w> <name><gap extent="unknown" reason="lost"/><unclear reason="damage">N</unclear>AM<unclear reason="damage">I</unclear></name></persName>
+                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#?">DRU<unclear reason="damage">G</unclear><supplied reason="lost">NO</supplied></name> <w type="formula" lemma="maqqas"><unclear reason="damage">MA</unclear>Q<supplied reason="lost">I</supplied></w> <w type="formula" lemma="muccoviias">M<supplied reason="lost">U</supplied><unclear reason="damage">C</unclear>O<unclear reason="damage">I</unclear></w> <name nymRef="#?"><gap extent="unknown" reason="lost"/><unclear reason="damage">N</unclear>AM<unclear reason="damage">I</unclear></name></persName>
                 </ab>
                 <ab type="list">DRUG[NO] MAQ[I] M[U]COI [---]NAMI</ab>
             </div>
