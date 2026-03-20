@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ráth Cruachan | Rathcroghan 2</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-ROS-004</idno>
+                 <idno type="CIIC">13</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/rcrog_2.html">RCROG/2</idno>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/172814">https://www.trismegistos.org/text/172814</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">RO022-057084-</idno></p>
+                                    <material type="stone">Stone type unknown</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m">                                         
+                                            <height>1.40</height>
+                                            <width>0.56</width>
+                                            <depth>0.25</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>The top end of the stone is broken off. Macalister (1945, 17) notes that the edge of the stone had been exposed to wear before being reused as a lintel and the <q>vowels are almost completely effaced</q>, but some of the other ogham characters can be determined.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription is on the angle. The visible portion extends beyond and into the side wall of the passage. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription appears to have been <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="site">Rathcroghan (<distinct xml:lang="sga"><ref target="https://www.logainm.ie/en/110097">Ráth Cruachan</ref></distinct>)</placeName>,
+                                <placeName type="townland">Glenballythomas</placeName>,
+                                <placeName type="county">Co. Roscommon</placeName>,
+                                <placeName type="country">Ireland</placeName>
+                                <geo>53.797308, -8.310569</geo>
+                            <note>ITM Coordinates: 579544, 783125</note>
+                            </origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1864">Found reused as a lintel in the souterrain, known as Oweynagat ('the cave of the cats'), which is part of the larger complex of monuments at Rathcroghan. This ogham-inscribed lintel is at the entrance to the now blind passage to the right after entering the souterrain. The inscription was first discovered by Ferguson in 1864.</provenance>
+                        <provenance type="observed">In situ as a lintel to the right inside the entrance to the souterrain at Oweynagat cave.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-03-17" who="#POC">Added info and image from O3D 2013</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-ROS/I-ROS-004_Rathcroghan2.jpg"><desc>Image by Nora White</desc></graphic>
+        <graphic url="IRE/I-ROS/I-ROS-Rathcroghan_site.jpg"><desc>Image by Nora White</desc></graphic>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName>̣<gap reason="lost" extent="unknown" unit="stroke"/><w type="formula" lemma="maqqas" cert="low"><supplied reason="lost" cert="low">ᚋᚐ</supplied>ᚊ</w> ᚏ<unclear reason="worn">ᚓ</unclear><supplied reason="lost">ᚐ</supplied>ᚄ <w type="formula" lemma="muccoviias">ᚋᚒ<supplied reason="lost">ᚉᚑᚔ</supplied></w> <gap reason="lost" extent="unknown" unit="stroke"/></persName>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName>̣<gap reason="lost" extent="unknown" unit="stroke"/><w type="formula" lemma="maqqas" cert="low"><supplied reason="lost" cert="low">MA</supplied>Q</w> R<unclear reason="worn">E</unclear><supplied reason="lost">A</supplied>S <w type="formula" lemma="muccoviias">MU<supplied reason="lost">COI</supplied></w> <gap reason="lost" extent="unknown" unit="stroke"/></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">  
+                    <note>The inscription is too incomplete to enable a confident reading, but the above reconstruction might be suggested. The MU of a possible MUCOI is in a position inaccessible for photography or 3d imaging. </note>
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>The inscription likely follows the formula X son of Y family of...</p>
+            </div>
+            <div type="commentary">
+                 <p>The inscription might contain two common formula words MAQ for 'son' and MUCOI may be related to Early OIr. <distinct xml:lang="sga"><ref target="https://dil.ie/31187">moccu, maccu</ref></distinct> ‘belonging to the gens or family of’.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="CON2003"/>
+                     </bibl>
+                     <bibl><ptr target="FER1864"/>
+                     <citedRange>155-70</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GIP2001"/>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>16-17</citedRange>
+                     </bibl> 
+                     <bibl><ptr target="MCM1991"/>
+                     <citedRange>107; 122</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
