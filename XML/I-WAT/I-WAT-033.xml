@@ -10,6 +10,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <title>An Cnoc Buí | Knockboy 1</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                 
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                  <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
                 <funder>
                 <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
@@ -17,7 +19,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <respStmt>
                 <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
                 <resp>data collection, editing and encoding</resp>
-                </respStmt>                
+                </respStmt>  
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
                  <respStmt>
                     <name xml:id="JB">Jef Bucas</name>
                       <orgName>Dublin Institute for Advanced Studies</orgName>
@@ -32,11 +38,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>OG(H)AM</authority>
-                <idno type="filename">I-WAT-042</idno>
-                 <idno type="CIIC">300</idno>
-                <idno type="CISP">OLDIS/1</idno>
+                <idno type="filename">I-WAT-033</idno>
+                 <idno type="CIIC">292</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/knboy_1.html">KNBOY/1</idno>
+                <idno type="TM" corresp="www.trismegistos.org/text/172699">www.trismegistos.org/text/172699</idno>
                  <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -49,48 +56,47 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <idno type="geo"/>
                         </altIdentifier>
                     </msIdentifier>
-                    <msContents>
-                          <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
-                           </msItem>
+                    <msContents>   
+                        <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA032-029002</idno></p>
-                                    <material type="stone">Sandstone</material> <!--'Slate' (MAC1945); 'clay-slate' (Brash)-->
-                                    <objectType key="monument">Slab</objectType> 
-                                     <dimensions unit="m" source="BRA1879">
-                                         <height>1.78</height>
-                                            <width>0.48</width>
-                                            <depth>0.15</depth> <!--(converted from Brash, Macalister similar)-->                                          
-                                     </dimensions>                                   
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA013-034006-</idno></p>
+                                    <material type="stone">Greenstone</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m" source="MAC1945">                                         
+                                            <height>1.78</height>
+                                            <width>0.56</width>
+                                            <depth>0.23</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
                                 </support>
-                                <condition>The stone is broken into two fragments and quite weathered.</condition>
+                                <condition>The beginning of the inscription is lost, nothing remains before the present initial letter. The B surface of the inscription has been chipped away to such an extent that the letters that Macalister (1945, 286) supplied, and the B-half of the letter R, have disappeared.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">Inscribed up-top-down clockwise. <q>Commencing on the left angle, 2' 6" (0.76m) from the base</q> (Brash 1879, 254)</layout>
+                                <layout style="vertical" rend="arris_up">The inscription is on two angles of the stone, reading up one angle and down the other angle. The inscription begins on the right-hand edge, on the face turned toward the inside of the church. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription has been <rs type="execution" key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in quite bold strokes. The vowel strokes, where they survive, are distinctively notched or wedge-shaped.
+                            <handNote>Macalister (1945, 286) describes the inscription as <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>.  <height></height>
+>>>>>>> 73bbcd2e34021b55ab9ddecc65e06caccb45315c
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace corresp="#findspot">
-                                <placeName type="townland">Island (<foreign xml:lang="ga"><ref target="https://www.logainm.ie/en/49839">An tOileán</ref></foreign>)</placeName> 
-                                <placeName type="county">Co. Waterford</placeName> 
-                                <placeName type="country">Ireland</placeName>
-                                <geo>52.1138, -7.4816</geo>
-                            <note>ITM Coordinates (approximate): 610460, 591390</note>
+                            <origPlace><placeName type="townland">Knockboy (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/49621">An Cnoc Buí</ref></distinct>)</placeName>, <placeName type="county">Co. Waterford</placeName>, <placeName type="country">Ireland</placeName>
+                                <geo>52.194752, -7.684811</geo>
+                            <note>ITM Coordinates: 621545, 604820</note>
                             </origPlace>
-                            <origDate notBefore="0400" notAfter="0475" precision="low" evidence="linguistic">First half of early second half of the fifth century A.D.</origDate>
+                            <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found" notAfter="1879">Brash (1879, 254) notes that he saw the stone <q>broken across</q> and lying alone in the centre of the enclosure, which is situated just below the summit of a gentle NE-facing slope, with sea cliffs c. 130m to the S. This is probably an early ecclesiastical site (SMR ID: <idno type="SMR">WA032-029001-</idno>). The enclosure is a large, grass-covered circular area (diam. 85.5m E-W; 83.5m N-S) defined by an overgrown earthen field bank with internal and external stone-facing. The entrance at W is possibly modern (NMS database, SMR ID: <idno type="SMR">WA032-029001-</idno>). Brash (1879, 253) and Westropp (1906, 250) also both mention a local tradition that there was a killeen (unbaptised children's burial ground) at the site.
-                        </provenance>
-                        <provenance type="observed" when="2012">Remains in situ, lying just inside the perimeter close to the modern entrance with a small cross-carved stone (SMR ID: <idno type="SMR">WA032-029004-</idno>) lying beside it. Examined and recorded in 3D by Discovery Programme in <date>2012</date> as part of the Ogham in 3D project. 
+                        <provenance type="found" when="1851">Discovered in 1851 by G. V. du Noyer. Found acting as an inner lintel of the north window, next to the east gable, of the ruin of Seskinan parish church (Macalister 1945, 286). This and the six other ogham stones on site were recorded in 3d using photogrammetry by Simon Dowling.</provenance>
+                        <provenance type="observed">Still acting as lintel over the north window of the church at Knockboy. The lintel and surrounding wall underwent urgent stabilisation work by Tom Pollard and his team in 2019 as part of the Knockboy Conservation Project, thanks to funding and support from the Heritage Office at Waterford County Council, the Heritage Council, the National Monuments Service and the Adopt a Monument Scheme.
+>>>>>>> 73bbcd2e34021b55ab9ddecc65e06caccb45315c
                         </provenance>
                     </history>
                 </msDesc>
@@ -115,62 +121,74 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
 </keywords>
 </textClass>
-   <!-- <creation>Transcription from previous editor.</creation>-->
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
 </profileDesc>
 <revisionDesc status="draft">
 <listChange>
-    <change when="2023-11-26" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>   
-    <change when="2025-11-07" who="#NW">Added and encoded details, including edition.</change>
-    
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-03-23" who="#NW">Added and encoded details, including edition.</change>
+    <change when="2026-03-31" who="#POC">Added information and images from O3D.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-         <graphic url="IRE/I-WAT/I-WAT-042_Island.jpg"><desc>Photograph by Nora White</desc></graphic> 
-        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by the Discovery Programme not currently on SketchFab/3dhop-\-></desc></media>-->
+        <graphic url="IRE/I-WAT/I-WAT-033_Knockboy1.jpg"><desc>Image by Nora White</desc></graphic>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
-        <body> <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
                 <ab>
-                   <persName><name>ᚉᚒᚅ<supplied reason="lost" cert="medium">ᚐ</supplied>ᚅᚓᚈᚐᚄ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒᚉ<supplied reason="lost">ᚑᚔ</supplied><damage></damage></w> <name>ᚅᚓᚈᚐᚄᚓᚌᚐᚋᚑᚅᚐᚄ</name></persName>
-                    </ab>
-            </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown" unit="stroke"/>ᚓᚏ<supplied reason="lost">ᚐ</supplied>ᚈ<supplied reason="lost">ᚔ</supplied></name> <w type="formula" lemma="muccoviias">ᚋ<supplied reason="lost">ᚒ</supplied>ᚉ<supplied reason="lost">ᚑᚔ</supplied></w> <name nymRef="#?"><w>ᚅᚓᚈᚐ</w> <w>ᚄ
+                    <lb n="2" style="text-direction:down"/><supplied reason="lost">ᚓᚌᚐᚋ</supplied>ᚑᚅᚐᚄ</w></name></persName>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up-top-down"/> 
-                     <persName><name>CUN<supplied reason="lost" cert="medium">A</supplied>NETAS</name> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="muccoviias?">MUC<supplied reason="lost">OI</supplied><damage></damage></w> <name>NETASEGAMONAS</name></persName>
-               </ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown" unit="stroke"/>ER<supplied reason="lost">A</supplied>T<supplied reason="lost">I</supplied></name> <w type="formula" lemma="muccoviias">M<supplied reason="lost">U</supplied>C<supplied reason="lost">OI</supplied></w> <name nymRef="#?"><w>NETA</w> <w>S
+                    <lb n="2" style="text-direction:down"/><supplied reason="lost">EGAM</supplied>ONAS</w></name></persName>
+                </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1"><note>As McManus indicates in his reading, there is space for an expected A between the two Ns of CUN[A]NETAS. It makes more sense to read MM than G (Macalister's reading) for the two strokes before UC[OI] (McManus 1991 7, 94).</note></app>                
+                    <app n="1">
+                        <note>The presence of the formula word MUCOI followed by a kindred name, suggests that the beginning of the inscription contained the personal name of the individual being commemmorated.</note>
+                    </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>of <persName xml:lang="sga">Conda</persName> son of the descendant of <persName xml:lang="sga">Nad-Segamon</persName></p>
+                <p>'...? descendant of Nad-Segamon'</p> 
             </div>
             <div type="commentary">
-                <p>This is one of the inscriptions listed by McManus (1991, 93-4) to be among the earliest in the corpus, with pre-apocope -as endings and showing no trace of vowel affection. It may be dated to the first half, or the early second half, of the fifth century (McManus 1991, 97). The personal name CUN[A]NETAS (OIr. <persName xml:lang="sga">Conda</persName> for Conne) contains the commonly occuring element CUNA- and may be translated 'champion of wolves' (McManus 1991, 102, 106).</p>
-                 <p>The inscription continues on the second angle with a kin group or sept name, MUC[OI] NETASEGAMONAS ‘the kin of <foreign xml:lang="sga"><ref target="https://dil.ie/33151">Nad</ref>-Segamon</foreign> (‘champion of *<foreign>Segamū</foreign>')'. It is noteworthy that a <persName xml:lang="sga">Nia Segamon</persName> is listed in the historical sources as a prehistoric king of Cashel and that his 'supposed grandson, <persName xml:lang="sga">Lugaid Luaigni</persName>, is also listed as a prehistoric king of Munster and Ireland' (Bhreathnach 2014, 43-44). Although it is impossible to say for certain, it may be that this inscription commemorates this important king. The fact that MUCOI NETASEGAMONAS is also found on an ogham stone at nearby Ardmore (I-WAT-002) and possibly also Knockboy (I-WAT-033) may suggest that this was a dynasty which controlled the area of west Waterford in the 5th century. </p>
+                <p>The kindred or sept name NETA-SEGAMONAS consists of the element <distinct xml:lang="sga"><ref target="https://dil.ie/33151">Nad</ref></distinct>- 'sister's son, champion' and a personal name <persName xml:lang="sga">Segamon</persName> (McManus 1991, pp 109-10, 112). One theory is that this may be the Gaulish name <persName xml:lang="cel-gaulish">Segomo</persName> (McManus 1991, 179 n. 46). It is noteworthy that a <persName xml:lang="sga">Nia-Segamon</persName> is listed in the historical sources as a prehistoric king of Cashel (Bhreathnach 2014, 43-4). The fact that MUCOI NETA-SEGAMONAS '(of) the descendant of Nad/Nia-Segamon' is also found on an ogham stone at nearby Ardmore I (I-WAT-002) and at Island (I-WAT-042) may suggest that this was a dynasty which controlled the area of west Waterford in the 5th century.</p>
             </div>
             <div type="bibliography">
-                 <listBibl> 
-                     <bibl><ptr target="BRA1879"/>
-                        <citedRange>253-254</citedRange>
-                    </bibl>
-                      <bibl><ptr target="WES1906"/>
-                        <citedRange>250-251</citedRange>
-                    </bibl>
+                 <listBibl>
+                     <bibl><ptr target="BHR2014"/>
+                     </bibl>
+                     <bibl><ptr target="BRA1869"/>
+                     <citedRange>118-30</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1907"/>
+                     <citedRange>205-13</citedRange>
+                     </bibl>
                      <bibl><ptr target="MAC1945"/>
-                        <citedRange>290</citedRange>
-                    </bibl>
-                      <bibl><ptr target="MCM1991"/>
-                        <citedRange>93-4, 97, 102, 106</citedRange>
-                    </bibl>
+                     <citedRange>286</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                     </bibl>
                      <bibl><ptr target="MOO1999"/>
-                     <citedRange>197</citedRange>
-                     </bibl>                                    
-                </listBibl>
+                     </bibl>
+                     <bibl><ptr target="POW1898"/>
+                     <citedRange>83-95, 195-219</citedRange>
+                     </bibl>
+                     <bibl><ptr target="RED1885"/>
+                     <citedRange>418-9</citedRange>
+                     </bibl>
+                     <bibl><ptr target="WIL1868"/>
+                     <citedRange>35-9</citedRange>
+                     </bibl>
+                 </listBibl>
             </div>
         </body>
     </text>
