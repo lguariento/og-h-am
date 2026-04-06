@@ -1,0 +1,165 @@
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Chíillín Liathí | Killeenleagh</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name/>
+                     <orgName/>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KER-154</idno>
+                 <idno type="CIIC"/>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/.html"/>
+                 <idno type="TM" corresp="www.trismegistos.org/text/"/>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KE089-010002-</idno></p> 
+                                    <material type="stone"/> 
+                                    <objectType key="monument">Cross-slab</objectType> 
+                                    <dimensions unit="m" source="SMR">
+                                            <height>1.45</height>
+                                            <width>0.35</width>
+                                            <depth>0.07</depth>
+                                    </dimensions>
+                                      <desc type="decoration">There is an ringed <rs type="decoration" key="cross" ref="crosses.xml#cross-of-Arcs" >cross-of-arcs</rs> on the upper face of the stone. <q>The grooved circle does not quite attain compass-drawn perfection, nor do the arcs of the unevenly recessed cross which throws the four background truncated petals into relief. If not a natural feature, the small curve (or hook) which extends from the sinister side of the upper arm of the cross may represent the rho element of the chi-rho symbol</q> (O'Sullivan and Sheehan 1996, no. 957). This is perhaps more correctly to be identified with the <ref target="https://en.wikipedia.org/wiki/Staurogram"><rs type="symbol">Tau-Rho or Staurogram (⳨)</rs></ref> (Ó Ragáin, forthcoming IIAC, Cork 2025 Proceedings).</desc>
+                                </support>
+                                <condition>The stone is of regular rectangular elevation and it inclines strongly to the south.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up"/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Killeenleagh (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/1394104">An Chillín Liath</ref></distinct>)</placeName>
+                                <placeName type="county">Co. Kerry</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>51.908253, -10.058009</geo>
+                            <note>ITM coordinates: 458404, 574903</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found">A short distance to the west of the childrens burial ground (KE089-010003-) is the low cairn and cross-carved ogham stone.
+                        </provenance>
+                        <provenance type="observed">
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>  
+    <creation>Transcription from previous editor</creation>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2025-05-19" who="#JB">Jef Bucas autogenerated batch EpiDoc output from spreadsheet</change>
+    <change when="2026-04-06" who="#NW">Added basic info from spreadsheet and SMR record.</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="example.jpg"><desc></desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW" source="OSU1996">
+            <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#dovatucas">ᚇᚑᚃᚐ<unclear reason="background_noise">ᚈ</unclear>ᚈᚐᚉ</name> <w type="formula" lemma="avias">ᚐᚃ<unclear reason="damage">ᚔ</unclear></w> <gap reason="lost" extent="unknown"/>ᚔᚂᚓᚆ</persName>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW" source="OSU1996">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#dovatucas">DOVA<unclear reason="background_noise">T</unclear>TAC</name> <w type="formula" lemma="avias">AV<unclear reason="damage">I</unclear></w> <gap reason="lost" extent="unknown"/>ILEH</persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app n="1"><note>The first T is difficult to discern because of the rough quartz surface on the edge of the stone. Spalling of the edge has also removed some of the notches of the first I. The area preceding the second I is also eroded (O'Sullivan and Sheehan 1996, no. 957).</note></app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>of Dubthach grandson/descendant of ...</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="SHE1990"/>
+                        <citedRange>168</citedRange>
+                    </bibl>
+                     <bibl><ptr target="OSU1996"/>
+                        <citedRange>298-299, no. 957</citedRange>
+                    </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
