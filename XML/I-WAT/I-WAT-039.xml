@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Cnoc Buí | Knockboy 7</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WAT-039</idno>
+                 <idno type="CIIC">298</idno>
+                <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/knboy_7.html">KNBOY/7</idno>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/172992">https://www.trismegistos.org/text/172992</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA013-034005-</idno></p>
+                                    <material type="stone">Slate</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m" source="BRA1869">                                         
+                                            <height>1.02</height>
+                                            <width>0.23</width>
+                                            <depth>0.17</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>  
+                                    <desc type="decoration">A small plain cross is cut into the lower face between the third and fourth inscribed angles. </desc>
+                                </support>
+                                <condition>There is damage to the top of the stone and down one of the angles. </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription is on four angles, grouped two and two, and reads up-top-down. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription is likely <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>.  <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Knockboy (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/49621">An Cnoc Buí</ref></distinct>)</placeName>, <placeName type="county">Co. Waterford</placeName>, <placeName type="country">Ireland</placeName>
+                                <geo>52.194723, -7.685075</geo>
+                            <note>ITM Coordinates: 621541, 604819</note>
+                            </origPlace>
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1851">Found by Macalister (1907, 210-11) <q>buried almost to its head, marking a modern grave</q>, presumably in the graveyard of Seskinan parish church.</provenance>
+                        <provenance type="observed">The stone is currently upright in the ground in the NW corner of the church ruin.</provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-04-06" who="#POC">Added information and images from O3D.</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-WAT/I-WAT-039_Knockboy7.jpg"><desc>Image by Nora White</desc></graphic>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚃᚓᚇᚐᚁᚐ<unclear reason="damage">ᚏ</unclear></name> <w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied><unclear reason="damage">ᚊ</unclear><supplied reason="lost">ᚔ</supplied></w>  <gap reason="lost" extent="unknown"̣ unit="stroke"/>ᚂᚄ<supplied reason="lost">ᚋ</supplied>
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="muccoviias">ᚋᚑᚉᚑᚔ</w> <name nymRef="#?">ᚑᚇᚏ</name>
+                    <lb n="3" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/>ᚏᚓᚐ</persName>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">VEDABA<unclear reason="damage">R</unclear></name> <w type="formula" lemma="maqqas"><supplied reason="lost">MA</supplied><unclear reason="damage">Q</unclear><supplied reason="lost">I</supplied></w>  <gap reason="lost" extent="unknown"̣ unit="stroke"/>LS<supplied reason="lost">M</supplied>
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="muccoviias">MOCOI</w> <name nymRef="#?">ODR</name>
+                    <lb n="3" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/>REA</persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app n="1">
+                        <note>Macalister notes that the H-half of 1R gone: only three scores of the Q remaining. Room for the I of MAQI and seven more scores (H-scores and vowels only) : H-half of 2M gone - this letter, which is at the bottom of the second line, is, in any case, faintly scratched and doubtful. The third line of writing (MOCOI ODR) perfect: no vowel between the D and the R. Top of fourth line of writing chipped away - room for 14 scores (B-scores and vowels only) (1945, 288-9). Macalister's M of MAQI, along with the second M following LS, are not discernible on the 3d model.</note>
+                    </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>'of Fíadbarr son of ? descendant of Odr...?'</p> 
+            </div>
+            <div type="commentary">
+                <p>The personal name appears to be a compound with the element <distinct xml:lang="sga"><ref target="https://dil.ie/5416">barr</ref></distinct> 'top, head (chief?), hair of the head', commonly occurring in ogham inscriptions (McManus 1991, 102-3) and the element <distinct xml:lang="sga"><ref target="https://dil.ie/21886">fíad</ref></distinct> 'wild' (Ziegler 1994, 242, 118), applied to wild animals in particular and with <distinct xml:lang="sga">barr</distinct> 'antlers?' here possibly referring to a stag. Unfortunately, the kin group name doesn't survive in tact but perhaps refers to the <distinct xml:lang="sga">Odraige</distinct> (McManus 1991, 111).</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="BRA1869"/>
+                     <citedRange>118-30</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1907"/>
+                     <citedRange>210-1</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>288-9</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MCM1991"/>
+                     </bibl>
+                     <bibl><ptr target="MOO1999"/>
+                     </bibl>
+                     <bibl><ptr target="POW1898"/>
+                     <citedRange>83-95, 195-219</citedRange>
+                     </bibl>
+                     <bibl><ptr target="RED1885"/>
+                     <citedRange>418-9</citedRange>
+                     </bibl>
+                     <bibl><ptr target="ZIE1994"/>
+                     <citedRange>118, 242</citedRange>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
