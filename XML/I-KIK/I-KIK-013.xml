@@ -136,6 +136,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2026-03-16" who="#POC">Update edition, wrap inscription with persName</change>      
     <change when="2026-03-18" who="#POC">Replaced placeName with distinct in origPlace</change>
     <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition</change>    
+    <change when="2026-04-06" who="#POC">Add ab type list to edition</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -155,6 +156,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">COR<unclear reason="damage">BI</unclear></name> <w type="formula" lemma="koi"><unclear reason="damage"><g ref="#forfid_X" type="interpretation_K"/></unclear>OI</w> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">LABRI<unclear reason="damage">D</unclear></name><gap extent="unknown" reason="lost" unit="stroke"/></persName>
                 </ab>
+                <ab type="list">CORBI KOI MAQI LABRID[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
