@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cáisleán tSíomoin | Castletimon</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WIC-001</idno>
+                 <idno type="CIIC">47</idno>
+                <idno type="CISP"/>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/172498">https://www.trismegistos.org/text/172498</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">WI036-010----</idno></p>
+                                    <material type="stone">Granite</material> 
+                                    <objectType key="monument">Pillar</objectType>                                     
+                                    <dimensions unit="m" source="MAC1945">                                         
+                                            <height>1.50</height>
+                                            <width>0.48</width>
+                                            <depth>0.25</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>         
+                                </support>
+                                <condition>According to Macalister (1945, 51) the inscription is <q>quite clear, though worn, owing to the stone being used as a seat by weary wayfarers</q>.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up">The inscription is cut on the rounded angle and reads continuously upwards and across the top. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription appears to be <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Castletimon (<distinct><ref target="https://www.logainm.ie/en/55352">Cáisleán tSíomoin</ref></distinct>)</placeName>, <placeName type="county">Co. Wicklow</placeName>, <placeName type="country">Ireland</placeName>
+                                <geo>52.904532, -6.071241</geo>
+                            <note>ITM Coordinates: 729745, 685487</note>
+                            </origPlace>
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found" when="1854">Known locally as 'the Giant's Stone', the stone was found lying in a niche at the side of the road overlooking the Potter's River valley near Brittas Bay. The inscription was identified by J.C. Toumey in 1854. 
+                        </provenance>
+                        <provenance type="observed">Still at the find site, situated at the edge of the road on level ground overlooking the Potter's River valley.  
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-04-10" who="#POC">Added information and images from O3D.</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-WIC/I-WIC-001_Castletimon_a.jpg"><desc>Image by Nora White</desc></graphic>
+        <graphic url="IRE/I-WIC/I-WIC-001_Castletimon_b.jpg"><desc>Image by Nora White</desc></graphic>
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">ᚅᚓᚈᚐᚉᚐᚏᚔ</name> <space unit="stroke" quantity="1"/> <name nymRef="#?">ᚅᚓᚈᚐᚉᚐ<unclear reason="worn">ᚌᚔ</unclear></name></persName>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?">NETACARI</name> <space unit="stroke" quantity="1"/> <name nymRef="#?">NETACA<unclear reason="worn">GI</unclear></name></persName>
+                </ab>
+               <!-- <ab type="list"></ab>-->
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+<note>There appears to be a slight space between the -I of NETA-CARI and the N of the following name.</note>                    
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>'of Nad Cair of Nad Caige (?)'</p>
+            </div>
+            <div type="commentary">
+                 <p>NET(T)A 'champion' (later falling together with NIOT(T)A 'sister's son' when both became <distinct xml:lang="sga"><ref target="https://dil.ie/33151">Nad</ref></distinct>-) is frequently found as an element in personal/kin group names (eg. NETA-SEGAMONAS on (I-WAT-002) Ardmore I and (I-WAT-042) Island). In this case, the NETA spelling would suggest the word meaning 'champion', rather than NIOT(T)A, which can be used alone as a formula word meaning 'sister's son' (cf. (I-KER-124) Gurrane, Co. Kerry).</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="GRO1997"/>
+                     </bibl>
+                     <bibl><ptr target="MAC1916"/>
+                     <citedRange>230–2</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>51–2</citedRange>
+                     </bibl>
+                     <bibl><ptr target="TUO1854"/>
+                     <citedRange>191–4</citedRange>    
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
