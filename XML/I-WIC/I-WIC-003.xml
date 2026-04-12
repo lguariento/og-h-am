@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bealach Conglais | Baltinglass</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+<!--                 <editor role="editor" xml:id="">Add name here and initials to tag</editor><persName></persName> testing
+                <orgName>University of Glasgow</orgName></editor>-->
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-5880-4704">Patricia O Connor</name>
+                <resp>editing and encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used, date e.g. <date when="2003-09-17"/>--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WIC-003</idno>
+                 <idno type="CIIC">49</idno>
+                <idno type="CISP"/>
+                <idno type="TM" corresp="https://www.trismegistos.org/text/172471">https://www.trismegistos.org/text/172471</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>   
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository>National Museum of Ireland</repository>
+                        <idno type="invNo">1872:6a</idno>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
+                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
+                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">WI027-079----</idno></p>
+                                    <material type="stone">Granite</material> 
+                                    <objectType key="monument">Fragment</objectType>                                     
+                                    <dimensions unit="m" n="1">                                         
+                                            <height>0.67</height>
+                                            <width>0.57</width>
+                                            <depth>0.24</depth>
+                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                     </dimensions>   
+                                    <dimensions unit="m" n="2">
+                                        <height>0.67</height>
+                                        <width>0.51</width>
+                                        <depth>0.03</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>Macalister (1945, 53) notes that The monument has been intentionally broken up (probably for wall-building), <q>as is evident from a crow-bar mark on one of the fragments</q>. The monument has been intentionally broken up (probably for wall-building), as is evident from a crow-bar mark on one of the fragments. The lettering on the second fragment is badly injured by spalling. </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout rend="arris_up" style="vertical">The first of the two fragments reads downwards while the second fragment was evidently the top of the stone.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The inscription is <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> in bold scores.<height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Baltinglass (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/1416543">Bealach Conglais</ref></distinct>)</placeName>, <placeName type="county">Co. Wicklow</placeName>, <placeName type="country">Ireland</placeName>
+                                <geo>-6.711032, 52.940557</geo><note>(approx.)</note>
+                            </origPlace>
+                            <origDate/><!--usually not known-->
+                        </origin>
+                        <provenance type="found">Macalister (1945, 53), states that <q>Nothing is recorded of the history of the stone, except the statement in the [National] Museum Register, that the fragments came from the neighbourhood of Baltinglass</q>. Brash (1879, 324), however, gives the 'neighbourhood of Donard' as the find location but without further details. Gippert (2001, 49) records that the second fragment could not be found in the National Museum in 1988. David Jackson, Technical Assistant on the Ogham in 3D project, discovered the second fragment in March 2011, lying quite close to the first and exhibiting the same markings, probably made by a modern drill.
+                        </provenance>
+                        <provenance type="observed">National Museum of Ireland (NMI Ref. 1872:6a), Dublin.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+             
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<!-\-<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>-\->
+</keywords>-->    
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass>
+   <!-- <creation>Transcription from previous editor</creation> if not read by OG(H)AM team-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+    <change when="2022-09-28" who="#JB">Jef Bucas autogenerated EpiDoc output from spreadsheet</change>
+    <change when="2026-04-12" who="#POC">Added information from O3D</change>
+   
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!--<graphic url="example.jpg"/>-->
+        <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><gap reason="damage" unit="stroke" extent="unknown"/><unclear reason="worn">ᚉ</unclear>ᚉᚔ <w type="formula" lemma="maqqas">ᚋᚐᚊ</w><gap reason="damage" unit="stroke" extent="unknown"/>
+                    <lb n="2" style="text-direction:across"/><gap reason="damage" unit="stroke" extent="unknown"/><unclear reason="worn">ᚔᚅᚔ</unclear><gap reason="damage" unit="stroke" extent="unknown"/></persName>
+                </ab> 
+            </div>                    
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><gap reason="damage" unit="stroke" extent="unknown"/><unclear reason="worn">C</unclear>CI <w type="formula" lemma="maqqas">MAQ</w><gap reason="damage" unit="stroke" extent="unknown"/>
+                    <lb n="2" style="text-direction:across"/><gap reason="damage" unit="stroke" extent="unknown"/><unclear reason="worn">INI</unclear><gap reason="damage" unit="stroke" extent="unknown"/></persName>
+                </ab>
+                <ab type="list">[...]C̣CI MAQ[...] [...]ỊṆỊ[...] </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app n="1">
+<note>For the second fragment, Macalister (1945, 54) suggested a reading INI and while there does appear to be 2 or possibly 3 notches, it is unclear whether 4 or 5 scores follow, before a further possible 2 notches.</note>                    
+                </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>... son of ...?</p>
+            </div>
+            <div type="commentary">
+                 <p>The extant inscription does not support linguistic analysis. However, the presence of MAQ suggests that the inscription might have contained the common formula word MAQI or MAQQI for <distinct xml:lang="sga"><ref target="https://dil.ie/31166">mac, macc</ref></distinct> 'son'.</p>
+            </div>
+            <div type="bibliography">
+                 <listBibl>
+                     <bibl><ptr target="BRA1879"/>
+                      <citedRange>324</citedRange>   
+                     </bibl>
+                     <bibl><ptr target="MAC1919"/>
+                     <citedRange>400-404</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>53-4</citedRange>
+                     </bibl>
+                     <bibl><ptr target="GRO1997"/>
+                     <citedRange>160</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
