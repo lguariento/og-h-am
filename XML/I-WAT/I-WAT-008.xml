@@ -131,7 +131,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
     <change when="2026-04-15" who="#POC">Added and encoded information from spreadsheet</change>
-   
+    <change when="2026-04-17" who="#POC">Update apparatus, add source attribute to edition for Macalister reference.</change>
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -141,13 +141,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC" source="MAC1945"><!--update lang and resp here-->              
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><gap reason="lost" extent="unknown" unit="stroke"/> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <w type="formula" lemma="muccoviias">ᚋᚒᚉᚑᚔ</w> 
                     <lb n="1" style="text-direction:down"/><name nymRef="#?">ᚔᚃᚑᚇᚐᚉᚉᚐ</name></persName>
                 </ab> 
             </div>                    
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC" source="MAC1945">
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><gap reason="lost" extent="unknown" unit="stroke"/> <w type="formula" lemma="maqqas">MAQI</w> <w type="formula" lemma="muccoviias">MUCOI</w> 
                     <lb n="1" style="text-direction:down"/><name nymRef="#?">IVODACCA</name></persName>
@@ -157,7 +157,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>According to Macalister (1945, 265), only the concluding letters of the first name remained which were apparently DI. Atkinson (1884, 309) maintains that there is a feathermark following the concluding name but Macalister dismisses it. </note>                    
+<note>The above reading of the inscription is supplied by Macalister (1945, 265). According to Macalister (1945, 265), only the concluding letters of the first name remained which were apparently DI. Atkinson (1884, 309) maintains that there is a feathermark following the concluding name but Macalister dismisses it. </note>                    
                 </app>
                 </listApp>
             </div>
