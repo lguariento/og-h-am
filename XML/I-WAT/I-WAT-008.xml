@@ -8,7 +8,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>An Ghráinsigh | Grange</title>
+                <title>Ceathrú an Teampaill | Mill and Churchquarter (Grange)</title>
              <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
                  <orgName>Maynooth University, Department of Early Irish</orgName></editor>
                 <editor role="editor" xml:id="POC"><persName>Patricia O Connor</persName>
@@ -57,16 +57,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang> 
-                           <!-- <textLang mainLang="pgl-Latn">Primitive Irish written in Latin script</textLang>
-                            <textLang mainLang="xpi-Ogam" cert="low">Possibly Pictish written in ogham script</textLang>-->                               
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                                                       
                            </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">WA038-026003-</idno></p>
-                                    <material type="stone">Stone type unknown</material> 
+                                    <material type="stone">Old Red Sandstone</material> Atkinson 1884, 309) 
                                     <objectType key="monument">Cross-carved pillar</objectType>                                     
                                     <dimensions unit="m" source="MAC1945">                                         
                                             <height>1.07</height>
@@ -89,13 +87,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Grange (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/50631">An Ghráinsigh</ref></distinct>)</placeName>, <placeName type="county">Co. Waterford</placeName>, <placeName type="country">Ireland</placeName>
-                                <geo>51.980100, -7.753920</geo><note>(approx.)</note>
+                            <origPlace><placeName type="townland">Mill and Churchquarter (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/50638">Ceathrú an Teampaill</ref></distinct>)</placeName> <placeName type="parish">Lisgenan or Grange parish</placeName> <placeName type="county">Co. Waterford</placeName> <placeName type="country">Ireland</placeName>
+                                <geo>51.98010, -7.75392</geo><note>approximate</note>
                             <note>ITM Coordinates: 616905, 580920</note>
                             </origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found" when="1884">The ogham inscription was first mentioned in 1884 by Atkinson. When Macalister visited the stone in 1901, it was lying prostrate in the cementary.
+                        <provenance type="found" when="1884"><!--The ogham inscription was first mentioned in 1884 by Atkinson. Lisgennan church site (WA038-026002-) --> When Macalister visited the stone in 1901, it was lying prostrate in the cementary.
                         </provenance>
                         <provenance type="observed">In situ, re-erected as a grave-marker inside the perimeter of the graveyard at the west end.
                         </provenance>
@@ -132,6 +130,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <listChange>
     <change when="2026-04-15" who="#POC">Added and encoded information from spreadsheet</change>
     <change when="2026-04-17" who="#POC">Update apparatus, add source attribute to edition for Macalister reference.</change>
+    <change when="2026-04-28" who="#NW">Updated title, townland name, etc. More to update after visit May 2026.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -157,15 +157,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-<note>The above reading of the inscription is supplied by Macalister (1945, 265). According to Macalister (1945, 265), only the concluding letters of the first name remained which were apparently DI. Atkinson (1884, 309) maintains that there is a feathermark following the concluding name but Macalister dismisses it. </note>                    
+<note>The above reading of the inscription is supplied by Macalister (1945, 265). When Atkinson (1884, 308-309) examined the stone, traces of the concluding letters of the first name remained and were read as -DI. Atkinson (1884, 309) also maintained that there is a feathermark following IVODACCA, which he read in the opposite direction (ANSALOTI) but Macalister dismissed this.</note>                    
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>...X son of the kindred of ?</p>
+                <p>of ... son of the kindred of ?</p>
             </div>
             <div type="commentary">
-                 <p>The inscription contains the common formula words MAQI and MUCOI. MAQI is related to <distinct xml:lang="sga"><ref target="https://dil.ie/31166">mac, macc</ref></distinct> 'son', and MUCOI is possibly related to <distinct xml:lang="sga"><ref target="https://dil.ie/31187">maccu, moccu</ref></distinct> 'belonging to the family of'.</p>
+                 <p>The inscription contains the common formula words MAQI (Old Irish <distinct xml:lang="sga"><ref target="https://dil.ie/31166">mac, macc</ref></distinct> 'son') and MUCOI (see Stifter 2025. MUCOI did not survive into the later language but related to <distinct xml:lang="sga"><ref target="https://dil.ie/31187">maccu, moccu</ref></distinct> 'belonging to the family of'.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
