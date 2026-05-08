@@ -77,11 +77,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>The beginning of the inscription is lost, nothing remains before the present initial letter. The B surface of the inscription has been chipped away to such an extent that the letters that Macalister (1945, 286) supplied, and the B-half of the letter R, have disappeared.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The inscription is on two angles of the stone, reading up one angle and down the other angle. The inscription begins on the right-hand edge, on the face turned toward the inside of the church. </layout>
+                                <layout style="vertical" rend="arris_upR">The inscription is on two angles of the stone, unusually (though not uniquely) reading up on the right angle and down the left angle. The inscription begins on the face turned toward the inside of the church in its current position and continues over the top to the right. </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>Macalister (1945, 286) describes the inscription as <rs type="execution"  key="chiselled" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chiselled</rs>.  <height></height>
+                            <handNote>The inscription is <rs type="execution" key="v-cut" ref="https://www.eagle-network.eu/voc/writing/lod/203.html">v-cut</rs>.  <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
@@ -128,6 +128,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2026-03-31" who="#POC">Added information and images from O3D.</change>
     <change when="2026-04-03" who="#POC">Added ab type list to edition.</change>  
     <change when="2026-04-06" who="#POC">Update ab type list</change>
+    <change when="2026-05-08" who="#NW">Updated layout, handnote, edition and apparatus</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -137,23 +139,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown" unit="stroke"/>ᚓᚏ<supplied reason="lost">ᚐ</supplied>ᚈ<supplied reason="lost">ᚔ</supplied></name> <w type="formula" lemma="muccoviias">ᚋ<supplied reason="lost">ᚒ</supplied>ᚉ<supplied reason="lost">ᚑᚔ</supplied></w> <name nymRef="#?"><w>ᚅᚓᚈᚐ</w> <w>ᚄ
-                    <lb n="2" style="text-direction:down"/><supplied reason="lost">ᚓᚌᚐᚋ</supplied>ᚑᚅᚐᚄ</w></name></persName>
+                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown"/>ᚓ<damage>ᚏ</damage><supplied reason="lost" cert="medium">ᚑ</supplied>ᚈ<supplied reason="lost" cert="low">ᚔ</supplied></name> <w type="formula" lemma="muccoviias">ᚋ<supplied reason="lost" cert="high">ᚒ</supplied>ᚉ<supplied reason="lost" cert="high">ᚑᚔ</supplied></w> <name nymRef="#neta-Segamū"><w>ᚅᚓᚈᚐ</w><w>ᚄ<supplied reason="lost">ᚓᚌᚐᚋ</supplied>ᚑᚅᚐᚄ</w></name></persName>
                 </ab> 
             </div>                    
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown" unit="stroke"/>ER<supplied reason="lost">A</supplied>T<supplied reason="lost">I</supplied></name> <w type="formula" lemma="muccoviias">M<supplied reason="lost">U</supplied>C<supplied reason="lost">OI</supplied></w> <name nymRef="#?"><w>NETA</w> <w>S
-                    <lb n="2" style="text-direction:down"/><supplied reason="lost">EGAM</supplied>ONAS</w></name></persName>
+                    <lb n="1" style="text-direction:up-down"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown"/>E<damage>R</damage><supplied reason="lost" cert="medium">O</supplied>T<supplied reason="lost" cert="low">I</supplied></name> <w type="formula" lemma="muccoviias">M<supplied reason="lost" cert="high">U</supplied>C<supplied reason="lost" cert="high">OI</supplied></w> <name nymRef="#neta-Segamū"><w>NETA</w><w>S<supplied reason="lost">EGAM</supplied>ONAS</w></name></persName>
                 </ab>
-                <ab type="list">[-?-̣]ER[A]T[I] M[U]C[OI] NETA S[EGAM]ONAS</ab>
+                <ab type="list">[-?-̣]ER[O]T[I] M[U]C[OI] NETA S[EGAM]ONAS</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>The presence of the formula word MUCOI followed by a kindred name, suggests that the beginning of the inscription contained the personal name of the individual being commemmorated.</note>
+                        <note>Presumably some letters are missing from the beginning of the inscription, but there is no trace of any strokes on the H-aicme immediately preceeding the ER[.]T. The B side and the arris itself are more battered, so perhsps some B-aicme consonanats and/or vowels have been lost. Between the R and the T, there is space enough for 2 or 3 vowel notches. Although there is space for a final I, no trace survives. The formula word MUCOI, though badly damaged, can be fairly confidently reconstructed. There is also damage to the original top of the stone, where the inscription continues over and down the other side, resulting in the loss of some letters. Macalister's suggested EGAM appears to fit and completes a name attested in two other west Waterford inscriptions (see commentary below).</note>
                     </app>
                 </listApp>
             </div>
@@ -161,7 +161,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>'...? descendant of Nad-Segamon'</p> 
             </div>
             <div type="commentary">
-                <p>The kindred or sept name NETA-SEGAMONAS consists of the element <distinct xml:lang="sga"><ref target="https://dil.ie/33151">Nad</ref></distinct>- 'sister's son, champion' and a personal name <persName xml:lang="sga">Segamon</persName> (McManus 1991, pp 109-10, 112). One theory is that this may be the Gaulish name <persName xml:lang="cel-gaulish">Segomo</persName> (McManus 1991, 179 n. 46). It is noteworthy that a <persName xml:lang="sga">Nia-Segamon</persName> is listed in the historical sources as a prehistoric king of Cashel (Bhreathnach 2014, 43-4). The fact that MUCOI NETA-SEGAMONAS '(of) the descendant of Nad/Nia-Segamon' is also found on an ogham stone at nearby Ardmore I (I-WAT-002) and at Island (I-WAT-042) may suggest that this was a dynasty which controlled the area of west Waterford in the 5th century.</p>
+                <p>The kin-group name ia almost certainly MUCOI NETASEGAMONAS ‘the kin of <distinct xml:lang="sga"><ref target="https://dil.ie/33151">Nad</ref>-Segamon</distinct> (‘champion of *<distinct>Segamū</distinct>')'. One theory is that this may be the Gaulish name <persName xml:lang="cel-gaulish">Segomo</persName> (McManus 1991, 179 n. 46). It is noteworthy that a <persName xml:lang="sga">Nia-Segamon</persName> is listed in the historical sources as a prehistoric king of Cashel (Bhreathnach 2014, 43-4). The fact that MUCOI NETA-SEGAMONAS '(of) the descendant of Nad/Nia-Segamon' is also found on an ogham stone at nearby Ardmore I (I-WAT-002) and at Island (I-WAT-042) may suggest that this was a dynasty which controlled the area of west Waterford in the 5th century.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
