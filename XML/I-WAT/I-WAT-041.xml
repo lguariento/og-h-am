@@ -54,6 +54,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          <country>Ireland</country>
                         <repository>National Museum of Ireland</repository>
                         <idno type="invNo">2022:23:00</idno>
+                         <altIdentifier>
+                            <idno type="geo">53.3403, -6.2551</idno>
+                        </altIdentifier>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
@@ -66,7 +69,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <objectDesc>
                             <supportDesc>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER"></idno></p>
-                                    <material type="stone">Stone type unknown</material> 
+                                    <material type="stone">Sandstone</material> 
                                     <objectType key="monument">Fragment</objectType>                                     
                                     <dimensions unit="m">                                         
                                             <height>0.20</height>
@@ -82,19 +85,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is likely <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> <height></height>
+                            <handNote>The surviving few letters are neatly <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and evenly spaced, with typical wedge-shaped vowel notches. <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Knockboy (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/49621">An Cnoc Buí</ref></distinct>)</placeName>, <placeName type="county">Co. Waterford</placeName>, <placeName type="country">Ireland</placeName>
+                            <origPlace><placeName type="townland">Knockboy (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/49621">An Cnoc Buí</ref></distinct>)</placeName> <placeName type="county">Co. Waterford</placeName> <placeName type="country">Ireland</placeName>
                                 <geo>52.194667, -7.684895</geo>
                             <!--<note>ITM Coordinates: </note>-->
                             </origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found" when="2021">Found reused as building material in the medieval parish church by stonemason, Tom Pollard, in 2021.
+                        <provenance type="found" when="2021">Discovered in the fabric of the church (bottom of south wall) by stone mason Tom Pollard during conservation work in 2021.
                         </provenance>
                         <provenance type="observed">Currently in the National Museum of Ireland (2022:23:00).
                         </provenance>
@@ -130,33 +133,34 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
     <change when="2026-04-22" who="#POC">Added information from Excel spreadsheet</change>
-    <change></change>
+    <change when="2026-05-09" who="#NW">Updated generally and added image</change>
    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="example.jpg"/>
+         <graphic url="IRE/I-WAT/I-WAT-041_Knockboy_9.jpg"><desc>Image by Abarta Heritage</desc></graphic>        
         <!--<media url="3D Data" mimeType="text/html"><desc><!-\-3d model by Megan/Gary/? on SketchFab/3dhop-\-></desc></media>-->
     </facsimile>    
     <text>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/>ᚅᚌᚒ<gap reason="lost" extent="unknown" unit="stroke"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><damage>ᚅ</damage>ᚌᚒ<gap reason="lost" extent="unknown" unit="stroke"/>
                 </ab> 
             </div>                    
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/>NGU<gap reason="lost" extent="unknown" unit="stroke"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><damage>N</damage>G<choice><unclear>U</unclear><unclear>E</unclear><unclear>I</unclear></choice> <gap reason="lost" extent="unknown" unit="stroke"/>
                 </ab>
                 <ab type="list">[---]NGU[---]</ab>
             </div>
             <div type="apparatus">
-               <!-- <listApp>
-                <app>                    
+                <listApp>
+                <app n="1"><note>Although the arris is damaged at this point, the 5 N strokes are clear and evenly spaced. If read in the opposite direction, this would be a Q, but this is unlikely next to a G. Three notches survive after the G, which could be a U or the remains of an E or I. This could be the middle part (-NGE-) of a name like DOMNGEN, which is found in an ogham inscription in Co. Cork (I-COR-021, Carhoovauler 1).</note>                    
                 </app>
-                </listApp>-->
+                </listApp>
             </div>
             <div type="translation">
                 <p></p>
