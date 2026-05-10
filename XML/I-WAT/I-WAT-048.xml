@@ -130,7 +130,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
     <change when="2022-04-22" who="#POC">Added information from spreadsheet</change>
-    <change></change>
+    <change when="2026-05-10" who="#NW">Added images, updated edition and translation - commentary still to do</change>
    
 </listChange>
 </revisionDesc>
@@ -142,29 +142,29 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC"><!--update lang and resp here-->              
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">             
                 <ab>
-                    <lb n="1" style="text-direction:up-top-down"/><persName><name nymRef="#?">ᚋᚑᚇᚇᚐᚌᚅ<supplied reason="lost">ᚔ</supplied></name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#?">ᚌᚐᚈᚈᚐᚌᚅ<supplied reason="lost">ᚔ</supplied></name> <w type="formula" lemma="muccoviias">ᚋᚒᚉᚑᚔ</w> <name nymRef="#?">ᚂᚒᚌᚒᚅᚔ</name></persName>
+                    <lb n="1" style="text-direction:up-top-down"/><persName><name nymRef="#moddagnas"><supplied reason="undefined" evidence="previouseditor">ᚋᚑᚇᚇᚐᚌᚅ</supplied><supplied reason="lost">ᚔ</supplied></name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#gattagnas">ᚌᚐᚈ<supplied reason="lost">ᚈ</supplied>ᚐᚌᚅ<supplied reason="lost">ᚔ</supplied></name> <w type="formula" lemma="muccoviias">ᚋ<unclear reason="faded">ᚒ</unclear>ᚉᚑᚔ</w> <name nymRef="#lugunias?">ᚂᚒᚌ<supplied reason="undefined" evidence="previouseditor">ᚒᚅᚔ</supplied></name></persName>
                 </ab> 
             </div>                    
-            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up-top-down"/><persName><name nymRef="#?">MODDAGN<supplied reason="lost">I</supplied></name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#?">GATTAGN<supplied reason="lost">I</supplied></name> <w type="formula" lemma="muccoviias">MUCOI</w> <name nymRef="#?">LUGUNI</name></persName>
+                    <lb n="1" style="text-direction:up-top-down"/><persName><name nymRef="#moddagnas"><supplied reason="undefined" evidence="previouseditor"> MODDAGN</supplied><supplied reason="lost">I</supplied></name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#gattagnas">GAT<supplied reason="lost">T</supplied>AGN<supplied reason="lost">I</supplied></name> <w type="formula" lemma="muccoviias">M<unclear reason="faded">U</unclear>COI</w> <name nymRef="#lugunias?">LUG<supplied reason="undefined" evidence="previouseditor">UNI</supplied></name></persName>
                 </ab>
                <!-- <ab type="list"></ab>-->
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">   
-                    <note>The inscription conforms to the 'X son of Y belonging to the family of Z' formula.</note>
+                    <note>The inscribed stone isn't fully accessible in situ and the first name (MODDAGN[I]) and some of the last (-UNI), read by Macalister (1945, 295) are beneath ground level.</note>
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>'? son of ? belonging to the family of ?'</p>
+                <p>of Múadán son of Gáethíne(?) of the kin-group of Luigne(?)</p>
             </div>
             <div type="commentary">
-                 <p>The inscription contains the formula words MAQI and MUCOI. MAQI is related to <distinct xml:lang="sga"><ref target="https://dil.ie/31166">mac, macc</ref></distinct> 'son', and MUCOI is possibly related to <distinct xml:lang="sga"><ref target="https://dil.ie/31187">maccu, moccu</ref></distinct> 'belonging to the family of' (Stifter 2025). </p>
+                <!-- <p>The inscription contains the formula words MAQI and MUCOI. MAQI is related to <distinct xml:lang="sga"><ref target="https://dil.ie/31166">mac, macc</ref></distinct> 'son', and MUCOI is possibly related to <distinct xml:lang="sga"><ref target="https://dil.ie/31187">maccu, moccu</ref></distinct> 'belonging to the family of' (Stifter 2025). </p>-->
             </div>
             <div type="bibliography">
                  <listBibl>
@@ -173,6 +173,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </bibl>
                      <bibl><ptr target="STI2025"/>
                          <citedRange>46-59</citedRange>
+                     </bibl>
+                      <bibl><ptr target="ZIE1994"/>
+                        <citedRange>198-199, 208</citedRange>
                      </bibl>
                  </listBibl>
             </div>
