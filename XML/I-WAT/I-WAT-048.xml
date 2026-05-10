@@ -68,35 +68,34 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="HER">WA003-007004-</idno></p>
                                     <material type="stone">Slate</material> 
                                     <objectType key="monument">Pillar</objectType>                                     
-                                    <dimensions unit="m">                                         
+                                    <dimensions unit="m" source="#NW">                                         
                                             <height>0.79</height>
                                             <width>0.30</width>
-                                            <depth>0.14</depth>
-                                        <!--<dim type="diameter">if circular, etc</dim>-->
+                                            <depth precision="low">0.14</depth>
                                      </dimensions>         
                                 </support>
-                                <condition>The inscription is in <q>fair condition</q> except for <q>slight scaling</q> (Macalister 1945, 295).</condition>
+                                <condition>The inscription is damaged in places and partially inaccessible.</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The inscription reads continuously upwards on one angle, continues across the top, and downwards on the other angle.</layout>
+                                <layout style="vertical" rend="arris_up">The inscription reads upwards on the left angle, continuing across the top and down the other angle. According to Brash (1879, 268) it commences <q>1 ft. 2in. from the bottom [0.35m]...finishing within 1ft. 5in. [0.43m] of the bottom</q>.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote>The inscription is <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. <height></height>
+                            <handNote>The inscription is quite broadly and deeply <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs>. <height></height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace><placeName type="townland">Windgap (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/49060">Bearna na Gaoithe</ref></distinct>)</placeName>, <placeName type="county">Co. Waterford</placeName>, <placeName type="country">Ireland</placeName>
+                            <origPlace><placeName type="townland">Windgap (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/49060">Bearna na Gaoithe</ref></distinct>)</placeName> <placeName type="county">Co. Waterford</placeName> <placeName type="country">Ireland</placeName>
                                 <geo>52.34163, -7.49245</geo>
                             <note>ITM Coordinates: 634584, 621224</note>
                             </origPlace>
                             <origDate/><!--usually not known-->
                         </origin>
-                        <provenance type="found" when="1851">Found reused as lintel in a souterrain in 1851 by Du Noyer.
+                        <provenance type="found" when="1851">Found associated with a souterrain (WA003-007005-), possibly a displaced lintel, in a rath (WA003-007001-) in 1851 by Du Noyer (1857, 251). One of possibly two from this site. Macalister (1945, 296, no. 308) notes that a statement in Hitchcock's notebook records the fact that he had heard from Windele of a second inscribed stone at this place; but that when he went in search of it he learned that it had been turned into a roller for agricultural purposes, and that the inscription had thus been destroyed. 
                         </provenance>
-                        <provenance type="observed">Displaced and now in the NW quadrant of the interior of a rath. Reported missing by Colmǽn Etchingham in 2022, but identified and recorded in September 2025.
+                        <provenance type="observed">In the north-west quadrant of the interior of the rath. Examined and photographed in September 2025 as part of the OG(H)AM project.
                         </provenance>
                     </history>
                 </msDesc>
@@ -130,7 +129,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <revisionDesc status="draft">
 <listChange>
     <change when="2022-04-22" who="#POC">Added information from spreadsheet</change>
-    <change when="2026-05-10" who="#NW">Added images, updated edition and translation - commentary still to do</change>
+    <change when="2026-05-10" who="#NW">Added images, updated edition and translation - commentary still to do. Updated provenance and added ref.</change>
    
 </listChange>
 </revisionDesc>
@@ -161,13 +160,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </listApp>
             </div>
             <div type="translation">
-                <p>of Múadán son of Gáethíne(?) of the kin-group of Luigne(?)</p>
+                <p>of Múadán son of Gáethíne(?) descendant of Luigne(?)</p>
             </div>
             <div type="commentary">
                 <!-- <p>The inscription contains the formula words MAQI and MUCOI. MAQI is related to <distinct xml:lang="sga"><ref target="https://dil.ie/31166">mac, macc</ref></distinct> 'son', and MUCOI is possibly related to <distinct xml:lang="sga"><ref target="https://dil.ie/31187">maccu, moccu</ref></distinct> 'belonging to the family of' (Stifter 2025). </p>-->
             </div>
             <div type="bibliography">
                  <listBibl>
+                      <bibl><ptr target="DUN1857"/>
+                     <citedRange>251</citedRange>
+                     </bibl>
+                     <bibl><ptr target="BRA1879"/>
+                     <citedRange>268</citedRange>
+                     </bibl>
                      <bibl><ptr target="MAC1945"/>
                      <citedRange>295</citedRange>
                      </bibl>
