@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Cnoc Buí | Knockboy 8</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-WAT-040</idno>
+                 <idno type="CIIC">299</idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/KNBOY/8.html">KNBOY/8</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/https://www.trismegistos.org/text/172997">https://www.trismegistos.org/text/172997</idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository/>
+                        <idno type="invNo"/>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">WA013-034015-</idno></p> 
+                                    <material type="stone">Old red sandstone</material> 
+                                    <objectType key="monument">Pillar</objectType> 
+                                    <dimensions unit="m" source="BRA1879">                                         
+                                            <height>0.66</height>
+                                            <width>0.28</width>
+                                            <depth>0.10</depth>
+                                    </dimensions>
+                                </support>
+                                <condition>Macalister (1945, 289) described the stone as 'the broken-off top of a pillar-stone'. Despite a spall on the face near the top of the stone, the remaining inscription appeared to be in tact (Redmond 1885-6, 418-9).</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up-top-down">The inscription read up-top-down, beginning on the left-hand angle at the broken end.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Knockboy (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/49621">An Cnoc Buí</ref></distinct>)</placeName> <placeName type="county">Co. Waterford</placeName> <placeName type="country">Ireland</placeName>
+                                <geo>52.1947, -7.6850</geo>
+                            <note>ITM Coordinates: </note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1869">Found in 1869 by Brash (1879, 270) <q>lying on a low wall in the pleasure ground at the west side</q> of Salterbridge House (the residence of the Chearnley Family who were proprietors of the estate, which included the church and graveyard at Knockboy).
+                        </provenance>
+                        <provenance type="observed"> Redmond recorded and sketched the stone in 1885 (1885-6, 418-9) and a description with photograph appeared in Macalister's Studies in Irish Epigraphy in 1907 (213). The stone was reported lost by 1940 when Macalister (1945, 289) revisited Salterbridge. 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass> 
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2026-05-04" who="#JB">
+Jef Bucas autogenerated batch EpiDoc output from spreadsheet
+</change>
+    
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-WAT/I-WAT-040_Knockboy_8a.jpg"><desc>Macalister 1907, 212</desc></graphic>
+        <graphic url="IRE/I-WAT/I-WAT-040_Knockboy_8b.jpg"><desc>Redmond 1885</desc></graphic>
+        <graphic url="IRE/I-WAT/I-WAT_KnockboyChurch.jpg"><desc>Image by Nora White</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                    <lb n="1" style="text-direction:up"/>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up"/>[MAQ]Ị MOG̣ʷ̣EDIAS/ MAQI/ MUIBITI
+                </ab>
+            </div>
+            <div type="apparatus">
+                 <listApp>
+                    <app n="1">
+                        <note><q>The prefixed MAQI is purely conjectural: nothing is left of it but the last two vowel-notches</q> (Macalister 1945, 289)</note>
+                    </app></listApp>
+            </div>
+            <div type="translation">
+                <p></p>
+            </div>
+            <div type="commentary">
+                <p>Neither of the personal names appear to be attested elsewhere but David Stifter has suggested Old Irish Mac-Mo-Guide* 'son-of-my-prayer' and Mo-Ibaite* 'my-drunken-one' (?).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="BRA1869"/>
+                     <citedRange>270</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1907"/>
+                     <citedRange>212-213</citedRange>
+                     </bibl>
+                     <bibl><ptr target="MAC1945"/>
+                     <citedRange>289</citedRange>
+                     </bibl>
+                    <bibl><ptr target="RED1885"/>
+                     <citedRange>418-419</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
