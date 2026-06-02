@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Nora White (with help from Orla Murphy, UCC)</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2017-07-18"/> and processed using Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -54,13 +54,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                            <textLang mainLang="sga-Ogam">Early Old Irish written in ogham script</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO039-062004-</idno></p>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO039-062004-</idno></p>
                                     <material type="stone">Stone type unknown</material> 
                                     <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
@@ -88,9 +88,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <note>ITM Coordinates: 528271, 589435</note></origPlace>
                              <origDate notBefore="0550" notAfter="0650" precision="medium" evidence="linguistic">Late sixth or early seventh century</origDate>
                         </origin>
-                        <provenance type="found" when="1981">This is the original location for one of two ogham stones (see also CO039-062005-) discovered in 1981 when a souterrain (<idno type="SMR">CO039-062002-</idno>) within a ringfort (<idno type="SMR">CO039-062001-</idno>) was uncovered during quarrying. The site was subsequently excavated and the two stones which acted as lintels in chamber 2 of the souterrain, were removed to Millstreet Community School.
+                        <provenance type="found" when="1981">This is the original location for one of two ogham stones (see also CO039-062005-) discovered in 1981 when a souterrain (<idno type="SMR">CO039-062002-</idno>) within a ringfort (<idno type="SMR">CO039-062001-</idno>) was uncovered during quarrying. The site was subsequently excavated and the two stones which acted as lintels in chamber 2 of the souterrain, were removed to Millstreet Museum and Millstreet Community School.
                         </provenance>
-                        <provenance type="observed">This stone was subsequently moved to Millstreet Museum where it is on display (see <idno type="SMR">CO039-244001-</idno>). 
+                        <provenance type="observed" when="2017">This stone was subsequently moved to Millstreet Museum where it was examined and 3d recorded using photogrammetry for the Ogham in 3D project in 2017 (funded by a grant from Cork Historical and Archaeological Society).
                         </provenance>
                     </history>
                 </msDesc>
@@ -126,23 +126,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-02-11" who="#POC">Added placename to title, deleted note from objectType, added idno element for SMR IDs, updated apparatus, commented out empty material element</change>
 <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 <change when="2025-06-04" who="#POC">Update execution type and encoding, replace scratched with scored.</change>
-<change when="2026-06-02" who="#NW">Typo fix and nymRef corrections. Added translation, commentary and dating</change>
+<change when="2026-06-02" who="#NW">Typo fix and nymRef corrections. Added translation, commentary, lang (early sga) and dating. Added photo from Millstreet and 3d recording details.</change>
     
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
+        <graphic url="IRE/I-COR/I-COR-091_Liscahane1.jpg"><desc>Photograph by Nora White</desc></graphic> 
         <graphic url="example.jpg"/>
         <media url="https://sketchfab.com/3d-models/liscahane-i-ogham-stone-710b699fd0834329b758810c1b0ca802" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#NW">
                 <ab>
                     <lb n="1"/><persName><name nymRef="#colomagnas">ᚉᚑᚂᚋᚐᚅᚅ</name> <w type="formula" lemma="maqqas">ᚋᚐᚉᚔ</w> <name nymRef="comogagnas">ᚉᚑᚋᚌᚌᚐᚅᚅ</name></persName>
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga" resp="#NW">
                 <ab>
                     <lb n="1"/><persName><name nymRef="#colomagnas">COLMANN</name> <w type="formula" lemma="maqqas">MACI</w> <name nymRef="comogagnas">COMGGANN</name></persName>
                 </ab>
