@@ -31,9 +31,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <resp>editing and encoding</resp>
                 </respStmt>
                 <respStmt>
-                    <name></name>
-                     <orgName></orgName>
-                <resp><!--3d recording, technique and software used--></resp>
+                    <name>Nora White (with help from Orla Murphy, UCC)</name>
+                     <orgName>Dublin Institute for Advanced Studies</orgName>
+                <resp>Photogrammetry used to digitally document stone <date when="2017-07-18"/> and processed using Agisoft Metashape.</resp>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -54,15 +54,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                            <textLang mainLang="sga-Ogam">Early Old Irish written in ogham script</textLang>                            
                            </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><!--<term>monument</term>--> <p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO039-062005-</idno></p>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> <idno type="SMR">SMR ID: CO039-062005-</idno></p>
                                     <material type="stone">Stone type unknown</material> 
-                                    <objectType key="monument">Pillar</objectType> <note>reused in souterrain - chamber 2</note>
+                                    <objectType key="monument">Pillar</objectType> 
                                      <dimensions unit="m">
                                             <height>2.00</height>
                                             <width>0.60</width>
@@ -72,7 +72,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>One of two ogham stones acting as lintels in chamber 2 of the souterrain. The inscription on this stone was hidden when the lintel was in place (pers. comm. B. Ó Donnabháin).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The inscription reads upwards on the left-hand angle in its current position (Power et al. 1997, no. 7977).</layout>
+                                <layout style="vertical" rend="arris_up">The inscription reads upwards on the left-hand angle.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -86,11 +86,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="townland">Liscahane (<ref target="https://www.logainm.ie/ga/12681"><distinct xml:lang="ga">Lios Catháin</distinct></ref>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>52.052268, -9.045799</geo>
                             <note>ITM Coordinates: 528271, 589435</note></origPlace>
-                            <origDate/>
+                            <origDate notBefore="0550" notAfter="0650" precision="medium" evidence="linguistic">Late sixth or early seventh century</origDate>
                         </origin>
-                        <provenance type="found" when="1981">This is the original location for one of two ogham stones (see also I-COR-091) discovered in 1981 when a souterrain (<idno type="SMR">CO039-062002-</idno>) within a ringfort (<idno type="SMR">CO039-062001-</idno>) was uncovered during quarrying. The site was subsequently excavated and the two stones, which acted as lintels in chamber 2 of the souterrain, were removed to Millstreet Community School (see <idno type="SMR">CO039-244002-</idno>).
+                        <provenance type="found" when="1981">This is the original location for one of two ogham stones (see also I-COR-091) discovered in 1981 when a souterrain (<idno type="SMR">CO039-062002-</idno>) within a ringfort (<idno type="SMR">CO039-062001-</idno>) was uncovered during quarrying. The site was subsequently excavated and the two stones, which acted as lintels in chamber 2 of the souterrain, were removed to Millstreet Museum and Millstreet Community School.
                         </provenance>
-                        <provenance type="observed"><!--now in Millstreet Museum ? Or is it still in the Community School?-->The other stone was later moved to Millstreet Museum where it is on permanent display (see <idno type="SMR">CO039-244001-</idno>). 
+                        <provenance type="observed" when="2017"><!--now in Millstreet Museum ? Or is it still in the Community School?-->This stone was moved to Millstreet Community School, where it was examined and 3d recorded using photogrammetry for the Ogham in 3D project in 2017 (funded by a grant from Cork Historical and Archaeological Society).
                         </provenance>
                     </history>
                 </msDesc>
@@ -124,25 +124,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2024-10-01" who="#POC">Added and encoded information, including edition</change>
 <change when="2024-11-06" who="#POC">Added CISP link.</change>
 <change when="2025-02-11" who="#POC">Added placename to title, deleted note from objectType, added idno element for SMR IDs, updated apparatus</change>
- <change when="2025-04-18" who="#POC">Added attributes for filtering</change>
+<change when="2025-04-18" who="#POC">Added attributes for filtering</change>
 <change when="2025-06-04" who="#POC">Update execution type and encoding, replace scratched with scored.</change>
+<change when="2026-06-02" who="#NW">nymRef corrections. Added translation, commentary and dating. Added photo from Millstreet.</change>    
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
-        <graphic url="example.jpg"/>
+        <graphic url="IRE/I-COR/I-COR-092_Liscahane2.jpg"><desc>Photograph by Nora White</desc></graphic> 
         <media url="https://sketchfab.com/3d-models/liscahane-ii-ogham-stone-436653d8865d4f1780e04f94f7f60bcf" mimeType="text/html"><desc><!--3d model by Megan/Gary/? on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
-            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#croccan">ᚉᚏᚑᚉᚉᚐᚅ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#domonigart">ᚇᚑᚋᚑᚅᚔᚌᚐᚏᚈ</name></persName>  
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#croccagni">ᚉᚏᚑᚉᚉᚐᚅ</name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#domongartas">ᚇᚑᚋᚑᚅᚔᚌᚐᚏᚈ</name></persName>  
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="sga" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#croccan">CROCCAN</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#domonigart">DOMONIGART</name></persName>  
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#croccagni">CROCCAN</name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#domongartas">DOMONIGART</name></persName>  
                 </ab>
             </div>
             <!--<div type="apparatus">
@@ -155,12 +157,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </app>
                 </listApp>
             </div>-->
-            <!--<div type="translation">
-                <p></p>
-            </div>-->
-            <!--<div type="commentary">
-                <p></p>
-            </div>-->
+            <div type="translation">
+                <p>of Croccán son of Domongart</p>
+            </div>
+            <div type="commentary">
+                <p>The name <persName>Croccán</persName> doesn't appear to be attested in later sources but is presumably the substantivised adjective <distinct xml:lang="sga"><ref target="https://dil.ie/13035">crocc</ref></distinct> with the -AGNI/-án suffix, meaning 'short one'. The father's name <persName><ref target="https://dil.ie/18151">Domongart</ref></persName> 'world-head?' is well attested later.</p>
+            </div>
             <div type="bibliography">
                  <listBibl>
                      <bibl><ptr target="POW1997"/>
