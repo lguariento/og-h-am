@@ -140,6 +140,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-10-17" who="#NW">Update to app and bibl - check with KF</change>
     <change when="2026-02-11" who="#POC">Updated bibl, app, origDate, condition, handNote, added back the original image, added eDIL references to commentary</change>
     <change when="2026-02-12" who="#POC">Updated reading direction in edition</change>
+    <change when="2026-06-02" who="#NW">Updated and hopefully clarified edition, appartatus, translation and commentary.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -151,30 +153,30 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
                 <ab>
-                    <lb n="1" style="text-direction:l-to-r"/><g ref="#forfid_X"/>ᚅ<g ref="#bound_D"/>ᚇ<g ref="#hammerhead_A"/>ᚉᚈᚐ<unclear reason="worn">ᚅ</unclear>ᚔᚋᚂᚁ
+                    <lb n="1" style="text-direction:circular"/><w>ᚁ<g ref="#forfid_X"/>ᚅ<g ref="#bound_D"/>ᚇ<g ref="#hammerhead_A"/>ᚉᚈ</w> <w>ᚐ<unclear reason="worn">ᚅ</unclear>ᚔᚋ</w> ᚂ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:l-to-r"/><g ref="#forfid_X" type="interpretation_E"/>N<g ref="#bound_D"/>D<g ref="#hammerhead_A"/>CTA<unclear reason="worn">N</unclear>IMLB
-                </ab>
-                <ab type="list">XNDDACTANIMLB</ab>
+                    <lb n="1" style="text-direction:circular"/><w>B<g ref="#forfid_X" type="interpretation_E"/>N<g ref="#bound_D"/>D<g ref="#hammerhead_A"/>CT</w> <w>A<unclear reason="worn">N</unclear>IM</w> L
+                </ab><!--
+                <ab type="list">XNDDACTANIMLB</ab>-->
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1"> 
-                    <note>Though the letters are relatively clear, it is difficult to know where to start. Forsyth (1995, 684) takes the X forfid as the first letter and reads anti-clockwise:</note>
-                    <rdg source="FOR1995b">ENDDACTANIM(v/lb) or possibly bENDDACTANIMl.</rdg>
- <note>Proposed (Gaelic) readings include: VENDDACTANIM; or T’ANIM VENDDAC (Rodway 2017); or BENDDACTANIML (Forsyth 1995).</note>   
+                    <note>Though the letters are relatively clear, it is difficult to know where to start. Forsyth (1995, 684) takes the X forfid as the first or second letter and reads anti-clockwise:</note>
+                    <rdg source="FOR1995b">ENDDACTANIM(v/lb) or bENDDACTANIMl.</rdg>
+ <note>An alternative reading (by Rodway 2017) is:</note> <rdg source="ROD2017">VENDDACTANIM</rdg>    
                 </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>Possible translations of the text include VENDDACTANIM; or T’ANIM VENDDAC, meaning ‘(from) your dear Findach’ (Rodway 2017); or if the text is read as BENDDACTANIML or BENDDACT ANIM L ‘a blessing on the soul of L’ (Forsyth 1996, 176)</p>
+                <p>Possible translations of the text are BENDDACT ANIM L ‘a blessing on the soul of L’ (Forsyth 1996, 176); or if the text is read as VENDDAC T'ANIM or T’ANIM VENDDAC, ‘(from) your dear Findach’ (Rodway 2017)</p>
             </div>
             <div type="commentary">
-                 <p>Forsyth (1995, 688) confirms that there is slight doubt over the twelfth letter which is probably LB but could possibly be interpreted as F or V, but the rest ENDDACTANIM- is secure. Interpreting the text as BENDDACT ANIM L, BENDDACT is Old Irish <distinct xml:lang="sga"><ref target="https://dil.ie/5661">bendacht</ref></distinct>, 'a blessing', from Latin <distinct xml:lang="la">benedictum</distinct>, and ANIM, Old Irish <distinct xml:lang="sga"><ref target="https://dil.ie/1402">anim</ref></distinct> 'soul'. This word is not to be confused with Old Irish <distinct xml:lang="sga"><ref target="https://dil.ie/1471">ainm</ref></distinct> 'name', which occurs in its older form ANM on a number of ogham pillars in Southern Ireland.</p>
-                <p>The formula <distinct xml:lang="sga">bendacht for anim N.</distinct>, 'a blessing on the soul of N.', is well attested in the Irish epigraphic record, mainly on recumbent cross-slabs. </p>
+                 <p>Forsyth (1995, 688) confirms that there is some doubt around what follows the M. It is probably LB but could alternatively be interpreted as F (or V), but the rest ENDDACTANIM- is secure. Interpreting the text as BENDDACT ANIM L, BENDDACT is Old Irish <distinct xml:lang="sga"><ref target="https://dil.ie/5661">bendacht</ref></distinct>, 'a blessing', from Latin <distinct xml:lang="la">benedictum</distinct>, and ANIM, Old Irish <distinct xml:lang="sga"><ref target="https://dil.ie/1402">anim</ref></distinct> 'soul'. This word is not to be confused with Old Irish <distinct xml:lang="sga"><ref target="https://dil.ie/1471">ainm</ref></distinct> 'name', which occurs in its older form ANM on a number of ogham pillars in Southern Ireland.</p>
+                <p>The formula <distinct xml:lang="sga">bendacht for anim N.</distinct>, 'a blessing on the soul of N.', is well attested in the Irish epigraphic record, mainly on recumbent cross-slabs.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
