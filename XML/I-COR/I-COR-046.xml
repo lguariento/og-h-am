@@ -143,25 +143,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-14" who="#NW">Added nymrefs to edition</change>
     <change when="2025-06-28" who="#POC">Add ab (string without diacritics) for display list to edition, correct bibl reference</change>   
     <change when="2026-01-11" who="#NW">Slight change (regarding 3rd R) to edition and apparatus.</change>
-    <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition, update edition lang to pgl-Ogam</change>    
+    <change when="2026-03-18" who="#POC">Add nymRef with ? to name in edition, update edition lang to pgl-Ogam</change> 
+    <change when="2026-06-18" who="#NW">Added sketch from Brash, update to edition and app</change>
    
 </listChange>
 </revisionDesc>
     </teiHeader>
     <facsimile>
         <graphic url="IRE/I-COR/I-COR-046-MAC1945-94-Ballyhank-97.jpg"><desc>Drawing by Macalister (1945, 94)</desc></graphic>
+        <graphic url="IRE/I-COR/I-COR-046_Ballyhank1_Brash.jpg"><desc>Drawing from Brash (1879, pl IV, fig. 4)</desc></graphic>
         <media url="https://sketchfab.com/3d-models/ballyhank-97-ogham-stone-223326e7b5dd4d139ec7ab3cd8481a70" mimeType="text/html"><desc><!--3d model by Discovery Progamme on SketchFab/3dhop--></desc></media>
     </facsimile>    
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#NW">               
                     <ab>
-                         <lb n="1" style="text-direction:up-across-down"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown"/>ᚐᚂᚂ<supplied reason="lost" cert="low">ᚐ</supplied></name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#vortigernas">ᚃᚑᚏᚏᚈᚔ<unclear reason="faded">ᚌ</unclear>ᚒ<supplied reason="lost">ᚏ</supplied>ᚅ</name></persName>                
+                         <lb n="1" style="text-direction:up-across-down"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown"/>ᚐᚂᚂ<supplied reason="lost" cert="low">ᚐ</supplied></name> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="#vortigernas">ᚃᚑᚏᚏᚈᚔ<unclear>ᚌ</unclear>ᚒ<supplied reason="lost" evidence="previouseditor">ᚏ</supplied>ᚅ</name></persName>                
                     </ab>               
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">                
                     <ab>
-                     <lb n="1" style="text-direction:up-across-down"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown"/>ALL<supplied reason="lost" cert="low">A</supplied></name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#vortigernas">VORRTI<unclear reason="faded">G</unclear>U<supplied reason="lost" >R</supplied>N</name></persName>
+                     <lb n="1" style="text-direction:up-across-down"/><persName><name nymRef="#?"><gap reason="lost" extent="unknown"/>ALL<supplied reason="lost" cert="low">A</supplied></name> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="#vortigernas">VORRTI<unclear>G</unclear>U<supplied reason="lost" evidence="previouseditor" >R</supplied>N</name></persName>
                 </ab>     
                 <ab type="list">[---]ALLA MAQI VORRTIGURN</ab>
             </div>
@@ -174,7 +176,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>Brash (1879, 141) adds an A between the two Rs of VORRTIGURN but it seems likely that he mistook slight damage to the stone at this point as a vowel notch.</note>                    
                 </app>
                     <app n="3">
-                    <note>A spall at the top right corner of the stone has resulted in the almost complete loss of the penultimate character R, which previous editors seemed to be able to read and of which just two possible, partial strokes remain.</note>                    
+                    <note>A spall at the top right corner of the stone has resulted in the almost complete loss of the penultimate character R, which previous editors seemed to be able to read (see illustrations) and of which just two possible, partial strokes remain.</note>                    
                 </app>
                 </listApp>
             </div>
