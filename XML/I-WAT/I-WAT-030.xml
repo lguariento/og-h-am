@@ -133,10 +133,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2024-06-27" who="#POC">Added idno element for SMR number, deleted titles in edition, deleted free text in bibl</change>
     <change when="2024-08-16" who="#NW">Added ITM coords and paragraph to support. Moved NMS ref and added dates to provenance.</change>
     <change when="2025-02-17" who="#POC">Added Irish placename to title, proofreading updates, moved logainm reference to around Irish placename, moved information from commentary to apparatus, updated commentary</change>
-     <change when="2025-04-04" who="#NW">Added new attributes for filtering and simplified content.</change>
-        <change when="2025-04-10" who="#POC">Updated execution encoding</change>
-        <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
-           <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition</change>         
+    <change when="2025-04-04" who="#NW">Added new attributes for filtering and simplified content.</change>
+    <change when="2025-04-10" who="#POC">Updated execution encoding</change>
+    <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
+    <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
+    <change when="2026-06-19" who="#NW">Removed extra lbs from edition as continuous text. Added encoding to intial U.</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -148,21 +150,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <body> 
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><gap reason="lost" extent="unknown"/>ᚒ <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="*comiggodias?">ᚉᚒᚋᚒᚌᚑᚇ<unclear reason="ambiguous">ᚒ</unclear>
-                        <lb n="2" style="text-direction:across" break="no"/><unclear reason="ambiguous">ᚒ</unclear></name> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚑ<supplied reason="lost">ᚔ</supplied></w><gap reason="lost" extent="unknown"/></persName>
+                    <lb n="1" style="text-direction:up-top"/><persName><gap reason="lost" extent="unknown"/><w part="F"><unclear reason="broken">ᚒ</unclear></w> <w type="formula" lemma="maqqas">ᚋᚐᚊᚔ</w> <name nymRef="*comiggodias?">ᚉᚒᚋᚒᚌᚑᚇ<unclear reason="ambiguous">ᚒᚒ</unclear></name> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚑ<supplied reason="lost">ᚔ</supplied></w><gap reason="lost" extent="unknown"/></persName>
                 </ab>
                      </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><gap reason="lost" extent="unknown"/>U <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="*comiggodias?">CUMUGOD<unclear reason="ambiguous">U</unclear>
-                        <lb n="2" style="text-direction:across" break="no"/><unclear reason="ambiguous">U</unclear></name> <w type="formula" lemma="muccoviias?">MUCO<supplied reason="lost">I</supplied></w><gap reason="lost" extent="unknown"/></persName>
+                    <lb n="1" style="text-direction:up-top"/><persName><gap reason="lost" extent="unknown"/><w part="F"><unclear reason="broken">U</unclear></w> <w type="formula" lemma="maqqas">MAQI</w> <name nymRef="*comiggodias?">CUMUGOD<unclear reason="ambiguous">UU</unclear></name> <w type="formula" lemma="muccoviias?">MUCO<supplied reason="lost">I</supplied></w><gap reason="lost" extent="unknown"/></persName>
                 </ab>
                 <ab type="list">[---]U MAQI CUMUGODUU MUCOI[---] </ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>The three vowel strokes at the beginning are perhaps the remnants of an I, the genitive ending of the preceding, lost name. At end of the name CUMUGODU|U, after the D, six vowel strokes are written, three on either side of a 90° angle of the stone. The six strokes are here provisionally rendered as U|U, but they could also represent IA or perhaps a supernumerary spelling of I. </note>
+                    <note>The three vowel strokes at the beginning are perhaps the remnants of an I, the genitive ending of the lost name. At end of the name CUMUGODU|U, after the D, six vowel strokes are written, three on either side of a 90° angle of the stone. The six strokes are here provisionally rendered as U|U, but they could also represent IA or perhaps a supernumerary spelling of I. </note>
                 </app>
                     <app n="2">
                         <note>The inscription contains the fragment of an IN, a PN, and the two formula words MAQI and MUCO[I]. After MUCOI another name must have followed to complete the gentilic formula.</note>
