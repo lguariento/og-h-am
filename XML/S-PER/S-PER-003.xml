@@ -168,6 +168,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>  
                 <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>
                 <change when="2026-03-17" who="#POC">Update obsolete copyright links, correct image paths</change>
+                <change when="2026-06-30" who="#NW">Removed 'ambiguous' from unclear but edition needs re-doing really</change>
+                
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -183,7 +185,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" cert="low" resp="#NW">             
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" cert="low">             
                 <div type="textpart" n="1" xml:lang="und-Ogam">
                  <ab>
                     <lb n="1" style="text-direction:up"/>ᚓᚈᚈᚂᚔᚓᚈᚏᚓᚅ<unclear><g ref="#forfid_OI"/></unclear>ᚔᚇᚇᚑᚏᚄ
@@ -191,7 +193,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </div>
                  <div type="textpart" n="2" xml:lang="und-Ogam">
                  <ab>   
-                 <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚒ</unclear>ᚆᚈᚒᚐ<gap reason="lost" quantity="1" unit="character"/>ᚌ<unclear>ᚓ</unclear>ᚇ<gap reason="lost" extent="unknown" unit="character"/>
+                 <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ᚒ</unclear>ᚆᚈᚒᚐ<gap reason="lost" quantity="1" unit="character"/>ᚌ<unclear>ᚓ</unclear>ᚇ<gap reason="lost" extent="unknown" unit="character"/>
                  </ab>
                  </div>
                     <div type="textpart" n="3" xml:lang="und-Ogam">
@@ -202,11 +204,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                  </div>
                     <div type="textpart" n="4" xml:lang="und-Ogam">
                     <ab>
-                     <lb n="1" style="text-direction:up"/><choice><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice>ᚓᚈ<unclear reason="ambiguous">ᚒ</unclear>
+                     <lb n="1" style="text-direction:up"/><choice><unclear>ᚄ</unclear><unclear>ᚅ</unclear></choice>ᚓᚈ<unclear>ᚒ</unclear>
                 </ab> 
                 </div>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" cert="low" xml:space="preserve" resp="#NW">
+            <div type="edition" subtype="transliteration" xml:lang="und-Ogam" cert="low" xml:space="preserve">
                 <div type="textpart" n="1" xml:lang="und-Ogam">
                 <ab>
                     <lb n="1" style="text-direction:up"/>ETTLIETREN<unclear><g ref="#forfid_OI" type="interpretation_OI"/></unclear>IDDORS
@@ -215,7 +217,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </div>
                 <div type="textpart" n="2" xml:lang="und-Ogam">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">U</unclear>HTUA<gap reason="lost" quantity="1" unit="character"/>G<unclear>E</unclear>D<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear>U</unclear>HTUA<gap reason="lost" quantity="1" unit="character"/>G<unclear>E</unclear>D<gap reason="lost" extent="unknown" unit="character"/>
                 </ab>
                     <ab type="list">[---]UHTUA[.]GED[---] </ab>
                 </div>
@@ -228,7 +230,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </div>
                 <div type="textpart" n="4" xml:lang="und-Ogam">
                     <ab>
-                    <lb n="1" style="text-direction:up"/><choice><unclear>S</unclear><unclear>N</unclear></choice>ET<unclear reason="ambiguous">U</unclear>
+                    <lb n="1" style="text-direction:up"/><choice><unclear>S</unclear><unclear>N</unclear></choice>ET<unclear>U</unclear>
                 </ab>
                     <ab type="list">SETU</ab>
                 </div>

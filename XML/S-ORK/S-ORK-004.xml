@@ -139,6 +139,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-08-19" who="#MK">Added 3D resp.</change>
     <change when="2026-10-02" who="#POC">Added correct image, idno, reading and information for Birsay 2 (had been Birsay 1), also updated bibl</change>
     <change when="2026-02-11" who="#NW">Updated edition (s-shaped to normal I)</change>
+    <change when="2026-06-30" who="#NW">Added Katherine's reading in app and updated edition</change>
 
 </listChange>
 </revisionDesc>
@@ -151,19 +152,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><unclear reason="ambiguous">ᚁ</unclear>ᚊᚔ<g ref="#punctuation_double"/> ᚐ<unclear reason="ambiguous">ᚁ</unclear><gap reason="lost" extent="unknown" unit="stroke"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><choice><unclear>ᚋ</unclear><unclear>ᚁ</unclear></choice><unclear>ᚐ</unclear>ᚊᚔ<g ref="#punctuation_double"/>ᚐ<unclear>ᚁ</unclear><gap reason="lost" extent="unknown" unit="stroke"/>
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><unclear reason="ambiguous">B</unclear>QI<g ref="#punctuation_double"/> A<unclear reason="ambiguous">B</unclear><gap reason="lost" extent="unknown" unit="stroke"/>
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="stroke"/><choice><unclear>M</unclear><unclear>B</unclear></choice><unclear>A</unclear>QI<g ref="#punctuation_double"/>A<unclear>B</unclear><gap reason="lost" extent="unknown" unit="stroke"/>
                 </ab>
-                <ab type="list">[---]BQI: AB[---]</ab>
+                <ab type="list">MAQI:AB[---]</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                     <app n="1">
-                        <note>The direction of the reading is determined by the forward slope of the second letter in the extant text.</note>
+                        <note>The direction of the reading is determined by the forward slope of the second letter in the extant text. Forsyth (1996, 84) supplies the tentative reading: </note> <rdg source="FOR1996">-(b+/a+/m +)(a/ )QI(:/ )(t/ )A(b+/a+/m +)-</rdg>
                     </app>
                 <app n="2">
                     <note>The inscription may preserve evidence of the double dot which marks word division and aids the segmentation of the text.</note>                    
