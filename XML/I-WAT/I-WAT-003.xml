@@ -144,6 +144,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
     <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition, correct bibl reference</change>  
     <change when="2025-10-21" who="#NW">Updated provenance observed, 3d resp and added apparatus note.</change>
+    <change when="2026-06-26" who="#NW">Updated edition from unclear 'reason="ambiguous"' to "broken" to indicate could be any character from this aicme</change>
     
 </listChange>
 </revisionDesc>
@@ -157,13 +158,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1" style="text-direction:up"/>
-                    <persName><gap reason="lost" extent="unknown"/><name nymRef="*…nacas"><unclear reason="ambiguous">ᚐ</unclear>ᚅᚐᚉᚔ</name> <w lemma="maqqas">ᚋᚐᚊᚔ</w><gap reason="lost" extent="unknown"/></persName>
+                    <persName><gap reason="lost" extent="unknown"/><name nymRef="*…nacas"><unclear reason="broken">ᚐ</unclear>ᚅᚐᚉᚔ</name> <w lemma="maqqas">ᚋᚐᚊᚔ</w><gap reason="lost" extent="unknown"/></persName>
                     </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab> 
                     <lb n="1" style="text-direction:up"/>
-                     <persName><gap reason="lost" extent="unknown"/><name nymRef="*…nacas"><unclear reason="ambiguous">A</unclear>NACI</name> <w lemma="maqqas">MAQI</w><gap reason="lost" extent="unknown"/></persName>
+                     <persName><gap reason="lost" extent="unknown"/><name nymRef="*…nacas"><unclear reason="broken">A</unclear>NACI</name> <w lemma="maqqas">MAQI</w><gap reason="lost" extent="unknown"/></persName>
                 </ab>
                 <ab type="list">[---]ANACI MAQI[---]</ab>
             </div>

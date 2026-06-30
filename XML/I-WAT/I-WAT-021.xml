@@ -146,6 +146,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-15" who="#POC">Updated execution encoding to align with filter</change>
     <change when="2025-06-29" who="#POC">Add ab (string without diacritics) for display list to edition</change> 
     <change when="2026-03-02" who="#NW">Updated edition encoding of O for A from unclear A to choice - corr A, sic O and I of AVI supplied rather than unclear.</change>
+    <change when="2026-06-26" who="#NW">Updated edition from unclear 'reason="ambiguous"' to "broken" to indicate could be any character from this aicme</change>
     
 </listChange>
 </revisionDesc>
@@ -160,13 +161,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>
                     <lb n="1"/>
-                     <gap reason="lost" extent="unknown"/><w lemma="avias"><supplied reason="lost">ᚐ</supplied><unclear reason="ambiguous">ᚃ</unclear><supplied reason="lost">ᚔ</supplied></w> <name nymRef="*daimagnas">ᚇᚐᚔᚋ<choice><corr>ᚐ</corr><sic>ᚑ</sic></choice>ᚌ<unclear reason="damage">ᚅ</unclear>ᚔ</name>
+                     <gap reason="lost" extent="unknown"/><w lemma="avias"><supplied reason="lost">ᚐ</supplied><unclear reason="broken">ᚃ</unclear><supplied reason="lost">ᚔ</supplied></w> <name nymRef="*daimagnas">ᚇᚐᚔᚋ<choice><corr>ᚐ</corr><sic>ᚑ</sic></choice>ᚌ<unclear reason="damage">ᚅ</unclear>ᚔ</name>
                 </ab>
             </div>
              <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
                 <ab>  
                     <lb n="1"/>                     
-                     <gap reason="lost" extent="unknown"/><w lemma="avias"><supplied reason="lost">A</supplied><unclear reason="ambiguous">V</unclear><supplied reason="lost">I</supplied></w> <name nymRef="*daimagnas">DAIM<choice><corr>A</corr><sic>O</sic></choice>G<unclear reason="damage">N</unclear>I</name>
+                     <gap reason="lost" extent="unknown"/><w lemma="avias"><supplied reason="lost">A</supplied><unclear reason="broken">V</unclear><supplied reason="lost">I</supplied></w> <name nymRef="*daimagnas">DAIM<choice><corr>A</corr><sic>O</sic></choice>G<unclear reason="damage">N</unclear>I</name>
                 </ab>
                  <ab type="list">[--A]V[I] DAIMAGNI</ab>
             </div>       

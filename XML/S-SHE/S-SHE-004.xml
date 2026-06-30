@@ -141,6 +141,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2026-02-18" who="#POC">Added dimensions, condition, layout, material, handNote, execution, apparatus, translation, commentary, bibl</change>
     <change when="2026-02-19" who="#POC">Added origDate and updated bibl</change>
     <change when="2026-02-23" who="#POC">Updated textLang and lang and resp in edition</change>
+    <change when="2026-06-26" who="#NW">Updated edition from unclear 'reason="ambiguous"' to "broken" to indicate could be any character from this aicme</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,12 +154,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
              <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="xpi-Ogam" resp="#POC">              
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">ᚁ</unclear>ᚓᚄ <w type="formula" lemma="maqqas">ᚋᚓᚊᚊ</w> ᚅᚐᚅᚅᚐᚋᚋᚑᚃᚃᚓᚎ
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="broken">ᚁ</unclear>ᚓᚄ <w type="formula" lemma="maqqas">ᚋᚓᚊᚊ</w> ᚅᚐᚅᚅᚐᚋᚋᚑᚃᚃᚓᚎ
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="xpi-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="ambiguous">B</unclear>ES <w type="formula" lemma="maqqas">MEQQ</w> NANNAMMOVVEZ
+                    <lb n="1" style="text-direction:up"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="broken">B</unclear>ES <w type="formula" lemma="maqqas">MEQQ</w> NANNAMMOVVEZ
                 </ab>
                 <ab type="list">[---]BES MEQQ NANNAMMOVVEZ</ab>
             </div>

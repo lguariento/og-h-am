@@ -77,7 +77,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>A Roman column bearing a two-line ogham inscription. Described by Macalister (1945, 473) as <q>like the finial of a large balustrade</q>, the cone-shaped pillar widens upwards and narrows towards the top. The top of the pillar has broken off, damaging the inscription, particularly, at the end of the first name, the beginning of the second line, as well as the latter portion of the ogham text. However, Macalister (1945, 473) maintained that <q>there can be no doubt whatever about the reading, so far as it is preserved</q>. The stone was repurposed as a memorial by an Irish family which <q>may have settled on the site in the post-Roman interval</q> (Macalister 1945, 475).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="stemline_up">Since the repurposed Roman column did not have any angular edges, the inscription was written <q>on two vertical lines provided for the purpose</q> (Macalister 1945, 473). The two artificial stemlines run vertically up the face of the stone (West 2009).</layout>
+                                <layout style="vertical" rend="stemline_up-up">Since the repurposed Roman column did not have any angular edges, the inscription was written <q>on two vertical lines provided for the purpose</q> (Macalister 1945, 473). The two artificial stemlines run vertically up the face of the stone (West 2009).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -141,6 +141,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <change when="2025-03-28" who="#POC">Added attributes for filtering, added country to origPlace, added CISP and TM link, added secondary location coordinates</change>
 <change when="2025-06-04" who="#POC">Update execution type and encoding and layout, update encoding of personal names in commentary and add language codes</change>
 <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition </change>
+<change when="2026-06-30" who="#NW">Corrected edition adding names and words and changing unclear 'reason="ambiguous"' to "broken" to indicate could be any character from this aicme</change>
+    
 </listChange>
 </revisionDesc>
     </teiHeader>
@@ -152,37 +154,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <div type="edition" subtype="ogham" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1"/><persName>ᚓᚁᚔᚉᚐᚈᚑ<unclear reason="ambiguous">ᚁ</unclear><gap reason="lost" unit="character"/>
-                    <lb n="2"/><gap reason="lost" unit="character"/><unclear reason="ambiguous">ᚆ</unclear>ᚔ ᚋᚒᚉᚑ<gap reason="lost" extent="unknown" unit="character"/></persName>    
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#tebicatus">ᚈᚓᚁᚔᚉᚐᚈᚑ<unclear reason="broken">ᚄ</unclear></name>
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="maqqas"><supplied reason="lost">ᚋᚐ</supplied><unclear>ᚊ</unclear>ᚔ</w> <w type="formula" lemma="muccoviias?">ᚋᚒᚉᚑ<supplied reason="lost">ᚔ</supplied></w> <gap reason="lost" extent="unknown" unit="character"/></persName>    
                 </ab>
             </div>
             <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#NW">
                 <ab>
-                    <lb n="1"/><persName>EBICATO<unclear reason="ambiguous">B</unclear><gap reason="lost" unit="character"/> 
-                    <lb n="2"/><gap reason="lost" unit="character"/><unclear reason="ambiguous">H</unclear>I MUCO<gap reason="lost" extent="unknown" unit="character"/></persName>    
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#tebicatus">TEBICATO<unclear reason="broken">S</unclear></name> 
+                    <lb n="2" style="text-direction:up"/><supplied reason="lost">MA</supplied><unclear reason="broken">Q</unclear>I <w type="formula" lemma="muccoviias?">MUCO<supplied reason="lost">I</supplied></w> <gap reason="lost" extent="unknown" unit="character"/></persName>     
                 </ab>
-                                <ab type="list">EBICATOB[---]HI MUCO[---]</ab>
+                                <ab type="list">TEBICATOS MAQI MUCOI ...</ab>
             </div>
             <div type="apparatus">
                 <listApp>
                 <app n="1">
-                    <note>Macalister (1945, 473-474) read:</note>
-                    <rdg source="MAC1945">EBICATO[S MAQ]I MUCO[....</rdg>
-                    <note>and remarked that the <q>last three scores of the S of EBICATOS</q> have been carried away by the fracture at the top of the stone. Additionally, the <q>M, A, and part of the Q at the beginning of the second line are flaked away</q> and the vowel notches at the end of MUCOI as well as the scores of the following name are lost (Macalister 1945, 474).</note>
-                </app>
+                    <note>What survives reads</note> <rdg type="diplomatic">TEBICATOḄ[.. ? ..]ḤIMUCO[---]</rdg> <note>with a single stroke surviving at both the end of the first name and again after the break (B and H), but Macalister (1945, 473-474) reasonably interprets this as the remains of an S and a Q and remarked that the <q>last three scores of the S of EBICATOS</q> (his reading of TEBICATOS) have been carried away by the fracture at the top of the stone. Additionally, the <q>M, A, and part of the Q at the beginning of the second line are flaked away</q> and the vowel notches at the end of MUCOI as well as the scores of the following name are lost (Macalister 1945, 474).</note>
+                </app> 
                     <app n="2">
-                        <note>Handley (2000, 11) read:</note>
-                        <rdg>TEBICATO[S] | [MAQ]IMUC[--</rdg>
-                    </app>
-                    <app n="3">
-                        <note>The name <persName xml:lang="cel">Tebicatos</persName> appears to be British (Brythonic) rather than Irish (Goidelic). Although the initial element Teb- is of uncertain meaning, it is paralleled in the name of <persName xml:lang="cel">Tibatto</persName>, leader of the Bacaudae in Farther Gaul, who led a rebellion in 435-437; and it may also be related to the medial element in the names <persName xml:lang="cel">Vortipor</persName> and <persName xml:lang="cel">Votiporigis</persName>. The final element <distinct xml:lang="cel">-catos</distinct> means 'battle" (Old Irish <distinct xml:lang="sga">cath</distinct>, Old Welsh <distinct xml:lang="owl">cat</distinct>), and is attested in names such as <persName xml:lang="cel">Ambicatos</persName> 'having battle around himself', son of <persName xml:lang="cel">Rocatos</persName> (ANDRS/1), and <persName xml:lang="cel">Ambigatos</persName>, king of the Bituriges in central Gaul. Perhaps <persName xml:lang="cel">Tebicatos</persName> was an Irish immigrant who adopted a British name (or Brythonifed his original name) or perhaps he was the member of an Irish family who was born in Silchester and so had a British name <ref target="https://www.babelstone.co.uk/Blog/2009/11/ogham-stones-of-elsewhere.html">(Babelstone 2009)</ref>.</note>
-                    </app>
+                        <note>Handley (Fulford et al. 2000) correctly read an initial T: </note> <rdg source="FUL2000">TEBICATO[S]</rdg></app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>Ogham: "Of Tebicatos, son of the descendant of ..."</p>
+                <p>Of <persName xml:lang="pgl">Tebicatus</persName>, son of the descendant of ...</p>
             </div>
             <div type="commentary">
+                <p>The name <persName xml:lang="cel">Tebicatos</persName> was previously thought to be British or Brythonic rather than Irish or Goidelic (West 2009). However, TEBI- is probably to be analysed as the verbal stem *to-eχs-bī-, corresponding to OIr. <distinct xml:lang="sga">do·eipen</distinct> ‘to excise, cut out, cut off’, compounded here with -CATOS *katu- ‘battle, war’ (Bergin 1932: 142–143), giving a meaning something like ‘cutting in battle’. </p>
                 <p>Macalister (1945, 473) noted that the inscription is <q>not a mere graffito: the formal statement of the name in the genitive case links it to the rest of the Ogham sepulchral literature</q>. Additionally, Macalister (1945, 475) ascertained that <q>"the date of the stone cannot be fixed by the objects which were in association with it"</q>. However, a <q>"re-excavation of the site in 1998-2000 unearthed some fragments of oak at the bottom of the well, which have been radiocarbon-dated to 130-380 and 320-540, giving a probable date for the closing of the well of about 350-425. Archaeologists working on the Silchester site believe that the depositing of the Ogham-inscribed stone in the well marked both the sealing of the well, and the end of occupation of the associated building. They further suggest that the stone was used as a mark of ownership of the associated late Roman dwelling by an Irish immigrant named Tebicatos"</q> (West 2009).</p>
             </div>
             <div type="bibliography">
