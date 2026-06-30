@@ -140,16 +140,19 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <change when="2024-06-19" who="#NW">Updated template for Scottish oghams autogeneration from spreadsheet</change>
                 <change when="2024-07-11" who="#XS">Xenia Spanachi added and encoded further data, including information on publication content, layout, execution, provenance and condition</change>
                 <change when="2024-07-25" who="#POC">Added encodingDesc for character encoding.</change>
-                <change when="2024-09-06" who="#POC">Added paragraph to support and National Grid Reference details, closed unused elements, commented out apparatus and translation</change>    <change when="2025-03-27" who="#POC">Added secondary location coordinates, added attributes for filtering, added country to origPlace, updated commentary, moved information from commentary to apparatus and layout</change>
-    <change when="2025-04-14" who="#POC">Updated execution type</change>
-    <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
-           <change when="2025-04-22" who="#POC">Added decoration section, added and encoded information</change>
-            <change when="2025-05-12" who="#POC">Move information from layout to commentary, update layout attributes</change>
-            <change when="2025-05-15" who="#POC">Added image, updated layout attribute </change>
-           <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
-            <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
-                 <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>   
+                <change when="2024-09-06" who="#POC">Added paragraph to support and National Grid Reference details, closed unused elements, commented out apparatus and translation</change>    
+                <change when="2025-03-27" who="#POC">Added secondary location coordinates, added attributes for filtering, added country to origPlace, updated commentary, moved information from commentary to apparatus and layout</change>
+                <change when="2025-04-14" who="#POC">Updated execution type</change>
+                <change when="2025-04-17" who="#POC">Updated execution encoding key from v-cut to chiselled</change>
+                <change when="2025-04-22" who="#POC">Added decoration section, added and encoded information</change>
+                <change when="2025-05-12" who="#POC">Move information from layout to commentary, update layout attributes</change>
+                <change when="2025-05-15" who="#POC">Added image, updated layout attribute </change>
+                <change when="2025-05-19" who="#POC">Remove Scottish Gaelic</change>
+                <change when="2025-05-20" who="#POC">Replace Canmore with Trove link</change>
+                <change when="2025-06-27" who="#POC">Add ab (string without diacritics) for display list to edition</change>   
                 <change when="2025-08-19" who="#MK">Added 3D resp.</change>
+                <change when="2026-06-30" who="#NW">Commented out edition as inscription cannot be clearly read</change> 
+                
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -159,17 +162,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" cert="low" resp="#XS">            
+            <!-- <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="und-Ogam" cert="low" resp="#XS">            
                 <ab>
-                    <lb n="1" style="text-direction:up"/>ᚐᚋ<choice resp="#KF"><unclear cert="low">ᚋ</unclear><unclear>ᚌ</unclear></choice>ᚆ<unclear reason="ambiguous">ᚈ</unclear><gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="1" style="text-direction:up"/>ᚐᚋ<choice resp="#KF"><unclear cert="low">ᚋ</unclear><unclear>ᚌ</unclear></choice>ᚆ<unclear>ᚈ</unclear><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab> 
             </div>
             <div type="edition" subtype="transliteration" xml:lang="und-Ogam" cert="low" xml:space="preserve" resp="#KF">   
                 <ab>
-                    <lb n="1" style="text-direction:up"/>AM<choice resp="#KF"><unclear cert="low">M</unclear><unclear>G</unclear></choice>H<unclear reason="ambiguous">T</unclear><gap reason="lost" extent="unknown" unit="character"/> 
+                    <lb n="1" style="text-direction:up"/>AM<choice resp="#KF"><unclear cert="low">M</unclear><unclear>G</unclear></choice>H<unclear>T</unclear><gap reason="lost" extent="unknown" unit="character"/> 
                 </ab>
-                <ab type="list">AMMHT[---]</ab>
-            </div>
+                
+            </div>-->
             <div type="apparatus">
                 <listApp>
                     <app n="1">
@@ -182,9 +185,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <note>Another issue that arises with the form is the use of both short perpendicular and short oblique strokes which otherwise one of the two is usually used. When both are in use, Forsyth (1996, 523) comments, oghamists <q>rarely differentiate so sharply between the two kinds, but rather have strokes which slope either a little or not at all</q>. As such if the lines are ogham, the oghamist <q>was either innovative or inept</q> (Forsyth 1996, 524).</note></app>
                 </listApp>
             </div>
-            <div type="translation">
-                <p>An exact translation of the inscription cannot be readily determined.</p>
-            </div>
+            <div type="translation"/>                
+            
             <div type="commentary">   
                 <p>In terms of its morphology, parallels with the <name xml:id="S-DGY-001">Lochnaw</name> ogham inscription are found along the western and northern seaboard of Scotland: the undecorated slab from Pool and the two oghams on the wall of King's Cave, Blackwaterfoot (Forsyth 1996, 523). Moreover, Lochnaw is, according to Forsyth (1996, 524), <q>well placed to participate cultural dissemination along the sea routes between Ireland, Mann and the west Coast of Scotland</q>.</p>
             </div>
