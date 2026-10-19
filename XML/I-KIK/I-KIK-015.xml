@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cloch an Bhródaigh | Cloghabrody</title>
+             <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Irish Research Council (grant no. IRC/W001985/1) and Arts and Humanities Research Council (grant no. AH/W001985/1)</funder>
+                <funder>
+                <ref target="https://research.ie/funding/uk-ireland-collaboration-in-the-digital-humanities-research-grants%e2%80%af/?f=principal-investigator-led">UK-Ireland Collaboration in the Digital Humanities Research Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+                 <respStmt>
+                    <name xml:id="JB">Jef Bucas</name>
+                      <orgName>Dublin Institute for Advanced Studies</orgName>
+                    <resp>batch conversion to EpiDoc</resp>
+                </respStmt>
+                <respStmt>
+                    <name></name>
+                     <orgName></orgName>
+                <resp><!--3d recording, technique and software used--></resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>OG(H)AM</authority>
+                <idno type="filename">I-KIK-015</idno>
+                 <idno type="CIIC"></idno>
+                 <idno type="CISP" corresp="https://www.ucl.ac.uk/archaeology/cisp/database/stone/THOTO/1.html">THOTO/1</idno>
+                 <idno type="TM" corresp="www.trismegistos.org/text/"></idno>
+                 <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>  
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                         <country>Ireland</country>
+                        <repository></repository>
+                        <idno type="invNo"></idno>
+                         <altIdentifier>
+                            <idno type="geo"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                          <msItem>                            
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><ref target="https://www.archaeology.ie/archaeological-survey-ireland/historic-environment-viewer-application">National Monuments Service</ref> SMR ID: <idno type="SMR">KK028-101----</idno></p> 
+                                    <material type="stone"></material> 
+                                    <objectType key="monument">Pillar</objectType> 
+                                    <dimensions unit="m" source="MCM1991">
+                                         <height>1.46</height>
+                                            <width>0.31</width>
+                                            <depth>0.20</depth>
+                                        </dimensions>
+                                </support>
+                                <condition>Complete and in good condition.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout style="vertical" rend="arris_up-top-down-up">The inscription is on four angles of the pillar. The first line reads up the left-hand arris of the main face, across the top and down the right (boustrophedon fashion). A second line reads upwards on the rear arris, just behind the the beginning of the first line. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The ogham strokes were initially <rs type="execution"  key="pocked" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and possibly subsequently rubbed or otherwise defined. The vowel strokes are almost as long as the consonant strokes, particularly the U of MUCOI at the top of the first angle on the left. <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace><placeName type="townland">Cloghabrody (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/en/27351">Cloch an Bhródaigh</ref></distinct></placeName>
+                                <placeName type="county">Co. Kilkenny</placeName>
+                                <placeName type="country">Ireland</placeName>
+                                <geo>52.5317, -7.1286</geo>
+                            <note>Approximate only</note></origPlace>
+                            <origDate/>
+                        </origin>
+                        <provenance type="found" when="1969">Discovered in a field called the ‘monk's field’ on the west bank of a stream that separates the townlands of Cloghabrody and Columbkille (as well as the parishes of Thomastown and Columbkille). According to McManus (1991, 73), it was found <q>by G. Doyle in 1969 by the bank of a small tributary to the river Nore (no further information is supplied regarding the site of discovery) and has since been erected against an arch at the entrance to the now largely demolished chancel of Thomastown Church, Co. Kilkenny</q>. 
+                        </provenance>
+                        <provenance type="observed">In 2014 the stone was moved to its current location in the Prior's room at <ref target="http://monastic.ie/history/jerpoint-cistercian-abbey/">Jerpoint Abbey</ref> where it was recorded in 3d in 2020 (in collaboration with Digital Heritage Age, as an action of the County Kilkenny Heritage Plan Programme, funded by the Heritage Office of Kilkenny County Council and the Heritage Council).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+               <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="../charDecl.xml" parse="xml" xpointer="symbols"/></encodingDesc>
+        <profileDesc>  
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="pgl">Primitive Irish</language>
+<language ident="sga">Old Irish</language>
+<language ident="mga">Middle Irish</language>
+<language ident="ga">Irish</language>
+</langUsage>
+<textClass>
+<keywords scheme="https://ontology.inscriptiones.org/type_of_inscription/#vocabularies">
+<term ref="https://ontology.inscriptiones.org/type_of_inscription/#Commemorative">Commemorative</term>
+</keywords>
+</textClass> 
+   <!-- <creation>Transcription from previous editor.</creation>-->
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2025-08-08" who="#JB">
+Jef Bucas autogenerated batch EpiDoc output from spreadsheet
+</change>
+    <change when="2025-03-12" who="#NW">Added new indexing and filtering attributes to material, object type and layout. Also added CISP and TM links and IDs.</change>
+    <change when="2026-10-19" who="#NW">Added and updated details throughout and uploaded to github</change>
+
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="IRE/I-KIK/I-KIK-015_Cloghabrody.jpg"><desc>Photo by Nora White</desc></graphic>
+        <graphic url="example.jpg"><desc>Drawing by Macalister (1945)</desc></graphic>
+        <!-- <media url="" mimeType="text/html"><desc><!-\-3d model by Discovery Programme, not on SketchFab/3dhop-\-></desc></media>-->
+    </facsimile>    
+    <text>
+        <body>
+           <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+            <ab>
+                    <lb n="1" style="text-direction:up-top-down"/><persName><name nymRef="#vedelmiatis">ᚃᚓᚇᚇᚓᚂᚂᚓᚋᚓᚈᚈᚑ</name> <w type="formula" lemma="muccoviias" cert="medium">ᚋᚒᚉᚔ</w> <name nymRef="#?">ᚂᚑᚌᚔᚇᚇᚓᚐᚄ</name>
+                <lb n="2" style="text-direction:up"/><w type="formula" lemma="avias">ᚐᚃᚃᚔ</w> <name nymRef="#municú?">ᚋᚒᚅᚔᚉᚉᚑᚅᚐ</name></persName>
+                </ab>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:up-top-down"/><persName><name nymRef="#vedelmiatis">VEDDELLEMETTO</name> <w type="formula" lemma="muccoviias" cert="medium">MUCI</w> <name nymRef="#?">LOGIDDEAS</name> 
+                    <lb n="2" style="text-direction:up"/><w type="formula" lemma="avias">AVVI</w> <name nymRef="#municú?">MUNICCONA</name></persName>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p></p>
+            </div>
+            <div type="translation">
+                 <p>of Fedelmid/Feidlimid (*Vedelmiatis) kin-son of Loígde? grandson of Muinchú?</p>
+            </div>
+            <div type="commentary">
+                <p>Regarding the first name, compare <ref target="https://ogham.celt.dias.ie/I-WAT-050">I-WAT-050</ref>, Knockmahon 2: VEDILIMETO MAQI TOQITAQ and <ref target="https://ogham.celt.dias.ie/I-KER-075">I-KER-075</ref> Kilcoolaght I, Co. Kerry: [C]EDATTOQ[A] MAQI TELEDMEV... (read: VEDELMET[TO]). <q>The name of the commemorand is undoubtedly an early form of <persName xml:lang="ga">Fedelmid/Feidlimid</persName>, an i-stem derivative of the female name <persName xml:lang="ga">Fedelm</persName> (Latinised and Anglicised Fidelma). The third E of VEDDELLEMETTO, therefore, may be erroneous (as Fedelm, Fedelmid cannot come from *Vedelm-, which would have given *Feidelm, with lenited m) [unless] we may have to do here with a svarabhakti vowel</q> (McManus 1991, 75, n 6. 28).</p>
+<p>MUCI is presumably an error for MUCOI rather than MAQI/MACI and <q>the O of LOGIDDEAS might be taken as a variant of the dipthong OI and the equation with the <name type="kingroup" xml:lang="sga">Corcu Loígde</name> would suggest itself</q> (McManus 1991, 73-4). The sept name AVVI MUNICONNA (*Ui Muinchon?) does not appear to be attested elsewhere. McManus (1991, 75) suggests that <q>one might consider the possibility that the N is an error for R (cp. Muirchú)</q>. </p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl><ptr target="PIL1972"/>
+                        <citedRange>70</citedRange>
+                    </bibl>
+                    <bibl><ptr target="MCM1991"/>
+                     <citedRange>73-75</citedRange>
+                     </bibl>
+                    <bibl><ptr target="ZIE1994"/>
+                     <citedRange>159</citedRange>
+                     </bibl>
+                 </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
