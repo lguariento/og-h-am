@@ -75,7 +75,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <condition>Reused as a lintel in a souterrain, <q>the stone is rough and irregular, and it is difficult to discriminate between letters and natural markings on its surface</q> (Macalister 1945, 100).</condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout style="vertical" rend="arris_up">The inscription is <q>inscribed on the dexter angle of the main face, running over the top diagonally, and down the dexter angle of the parallel face</q> of the stone (Macalister 1945, 98). Macalister (1945, 100) also describes what he calls <q>ogham graffito</q> in the middle of the B-surface.</layout>
+                                <layout style="vertical" rend="arris_up">There appear to be two inscriptions on this stone. The longer inscription (1) is <q>inscribed on the dexter angle of the main face, running over the top diagonally, and down the dexter angle of the parallel face</q> of the stone (Macalister 1945, 98). The second, shorter inscriptions (2) runs upwards on the angle in between. Macalister (1945, 100) also describes what he calls <q>ogham graffito</q> in the middle of the B-surface (i.e. to the right of the shorter inscription (2).</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -133,6 +133,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-04-17" who="#POC">Added attributes for filtering</change>
     <change when="2025-06-14" who="#NW">Updated and added information throughout.</change>
     <change when="2026-03-18" who="#POC">Added lemma to MAQI</change>
+    <change when="2026-11-07" who="#NW">Updated layout and reading (from NMS images and 3d data) and added line 2</change>
     
 </listChange>
 </revisionDesc>
@@ -145,25 +146,40 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                 <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-esea?"><w>ᚋᚐᚊᚔ</w><w>ᚓᚄᚓᚐ</w></name> <w type="formula" lemma="maqqas"><supplied reason="lost" cert="medium">ᚋᚐᚊᚔ</supplied></w> <name nymRef="#?"><unclear reason="background_noise">ᚇ</unclear>ᚑᚋᚐ<unclear reason="eccentric_ductus">ᚅ</unclear>ᚓᚊᚔ</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-esea?"><w>ᚋᚐᚊᚔ</w><w>ᚓᚄᚓᚐ</w></name> <w type="formula" lemma="maqqas"><unclear>ᚋᚐᚊ</unclear>ᚔ</w> <name nymRef="#?"><unclear>ᚇ</unclear>ᚑᚋᚐᚅᚓᚊᚔ</name></persName> 
+                </ab>
+                 </div>
+            </div>            
+            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">                
+                <ab>
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-esea?"><w>MAQI</w><w>ESEA</w></name> <w type="formula" lemma="maqqas"><unclear>MAQ</unclear>I</w> <name nymRef="#?"><unclear>D</unclear>OMANEQI</name></persName> 
                 </ab>
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">
-                <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-esea?"><w>MAQI</w><w>ESEA</w></name> <w type="formula" lemma="maqqas"><supplied reason="lost" cert="medium">MAQ</supplied>I</w> <name nymRef="#?"><unclear reason="background_noise">D</unclear>OMA<unclear reason="eccentric_ductus">N</unclear>EQI</name></persName> 
+            
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                <div type="textpart" n="2">
+                      <ab>
+                          <lb n="1" style="text-direction:up"/><w type="formula" lemma="maqqas">ᚋᚐᚊ</w><space/><persName cert="medium">ᚋᚐᚇ</persName>
+                      </ab>
+                </div>
+            </div>
+            <div type="edition" subtype="transliteration" xml:space="preserve" xml:lang="pgl" resp="#NW">
+                      <ab>
+                    <lb n="1" style="text-direction:up"/><w type="formula" lemma="maqqas">MAQ</w><space/><persName cert="medium">MAD</persName>
                 </ab>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1"><note>DOMANEQI may be an error for DOMANENI. Considering its location on the stone, as the inscription turns downwards from the top, the carver may have confused the orientation of the scores, as seen in other examples (e.g. I-KER-012 Arraglen, Co. Kerry). </note></app>
+                <app n="1"><note>Macalister suggests that DOMANEQI may be an error for DOMANENI. Considering its location on the stone, as the inscription turns downwards from the top, the carver may have confused the orientation of the scores, as seen in other examples (e.g. I-KER-012 Arraglen, Co. Kerry).</note></app>
                 </listApp>
             </div>
             <div type="translation">
                 <p>of Mac-Es? son of Domnach?</p>
             </div>
             <div type="commentary">
-                <p>The personal names in this inscription do not seem to be attested elsewhere in the ogham corpus.</p>
+                <p>The personal names in inscription (1) do not seem to be attested elsewhere in the ogham corpus.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
