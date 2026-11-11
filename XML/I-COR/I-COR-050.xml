@@ -89,7 +89,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <placeName type="townland">Ballyhank (<distinct xml:lang="ga"><ref target="https://www.logainm.ie/ga/9212">Baile Sheanc</ref></distinct>)</placeName>, <placeName type="county">Co. Cork</placeName>, <placeName type="country">Ireland</placeName>
                                 <geo>51.831516, -8.609832</geo>
                             <note>ITM Coordinates: 557971, 564534</note></origPlace>
-                            <origDate/>
+                             <origDate notBefore="0540" notAfter="0575" precision="medium" evidence="linguistic">Possibly mid to early second half of the sixth century</origDate>
                         </origin>
                         <provenance type="found" when="1846">Discovered in 1846 by Cork antiquarians <persName>Windele</persName>, <persName>Abell</persName>, and <persName>Hawkes</persName> in a souterrain <idno type="SMR">(CO085-067002-)</idno> in the SW quadrant of a ringfort <idno type="SMR">(CO085-067001-)</idno>, with five other ogham stones: I-COR-046, I-COR-047, I-COR-048, I-COR-049 and I-COR-051. In 1849 Windele removed five of the stones, including this one, to his own residence (Blair's Castle, Cork) but they were later moved to the museum of the Royal Irish Academy (Brash 1879, 140; Macalister 1945, 92-93). 
                         </provenance>
@@ -134,6 +134,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <change when="2025-06-14" who="#NW">Updated and added information throughout.</change>
     <change when="2026-03-18" who="#POC">Added lemma to MAQI</change>
     <change when="2026-11-07" who="#NW">Updated layout and reading (from NMS images and 3d data) and added line 2</change>
+    <change when="2026-11-11" who="#NW">Added translations, dating and commentary from DS</change>
     
 </listChange>
 </revisionDesc>
@@ -148,13 +149,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl" resp="#NW">
                  <div type="textpart" n="1">
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-esea?"><w>ᚋᚐᚊᚔ</w><w>ᚓᚄᚓᚐ</w></name> <w type="formula" lemma="maqqas"><unclear>ᚋᚐᚊ</unclear>ᚔ</w> <name nymRef="#?"><unclear>ᚇ</unclear>ᚑᚋᚐᚅᚓᚊᚔ</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-essias"><w>ᚋᚐᚊᚔ</w><w>ᚓᚄᚓᚐ</w></name> <w type="formula" lemma="maqqas"><unclear>ᚋᚐᚊ</unclear>ᚔ</w> <name nymRef="#dumnākas?"><unclear>ᚇ</unclear>ᚑᚋᚐᚅᚓᚊᚔ</name></persName> 
                 </ab>
                  </div>
             </div>            
             <div type="edition" subtype="transliteration" xml:lang="pgl" xml:space="preserve" resp="#NW">                
                 <ab>
-                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-esea?"><w>MAQI</w><w>ESEA</w></name> <w type="formula" lemma="maqqas"><unclear>MAQ</unclear>I</w> <name nymRef="#?"><unclear>D</unclear>OMANEQI</name></persName> 
+                    <lb n="1" style="text-direction:up"/><persName><name nymRef="#maqqas-essias"><w>MAQI</w><w>ESEA</w></name> <w type="formula" lemma="maqqas"><unclear>MAQ</unclear>I</w> <name nymRef="#dumnākas?"><unclear>D</unclear>OMANEQI</name></persName> 
                 </ab>
             </div>
             
@@ -172,14 +173,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </div>
             <div type="apparatus">
                 <listApp>
-                <app n="1"><note>Macalister suggests that DOMANEQI may be an error for DOMANENI. Considering its location on the stone, as the inscription turns downwards from the top, the carver may have confused the orientation of the scores, as seen in other examples (e.g. I-KER-012 Arraglen, Co. Kerry).</note></app>
+                <app n="1"><note>In the main inscription (1), Macalister (1945, 99) suggests that DOMANEQI may be an error for DOMANENI. Considering its location on the stone, as the inscription turns downwards from the top, the carver may have confused the orientation of the scores, as seen in other examples (e.g. I-KER-012 Arraglen, Co. Kerry).</note></app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>of Mac-Es? son of Domnach?</p>
+                <div type="textpart" n="1">
+                    <p>1. of *<persName xml:lang="sga">Mac-Eisse</persName> (?) (*<persName xml:lang="pgl">Maqqas-Essias</persName>) son of *<persName xml:lang="sga">Domnach</persName> (*<persName xml:lang="pgl">Dumnākas?</persName>)</p>
+                </div>
+                 <div type="textpart" n="2">
+                     <p>2. of the son of Mad?</p>
+                 </div>
             </div>
             <div type="commentary">
-                <p>The personal names in inscription (1) do not seem to be attested elsewhere in the ogham corpus.</p>
+                <p>The binomial name MAQI-ESEA is not continued in Old Irish and so the name Mac-Eisse is unattested (indicated by the *). None of Ziegler’s (1994, 180) tentative suggestions for its interpretation, i.e., containing <distinct xml:lang="sga">es</distinct> ‘waterfall’ or <distinct xml:lang="sga">es</distinct> ‘stoat, weasel’, are convincing. However, alternative explanations of ESEA are formally possible. It could be the genitive of Old Irish <distinct xml:lang="sga">és</distinct> ‘track, trace’, or it could be the genitive of <distinct xml:lang="sga">éissi</distinct> ‘reins’.</p>
+                <p>If taken at face value, the Q of DOMANEQI can be a hypercorrect spelling for the common Old Irish adjectival suffix -<distinct xml:lang="sga">ch</distinct>, that would normally be written with C (ᚉ) in ogham. The name would thus be an adjectival derivative in -<distinct xml:lang="sga">ach</distinct> of <distinct xml:lang="sga">domun</distinct> &lt; *<distinct xml:lang="cel">dubno-</distinct> ‘deep, world’ (which has some probelms), or an early representative of Old Irish <distinct xml:lang="sga">domnach</distinct> ‘Sunday; church’, ultimately from Latin <distinct xml:lang="la">dominicus</distinct>. The analysis as a formation from *<distinct xml:lang="cel">dubno-</distinct> entails the assumption of an anaptyctic or intrusive vowel (Eska 2010–2: 3). This analysis, however, leaves a number of issues unaddressed. If the identification of the suffix is correct, the spelling with E is unusual, unless it is a lowered *i, perhaps shortened from *ī, and thus presupposing an original suffix *-iko- or *-īko-, not *-āko-. 
+                    Also, <persName xml:lang="sga">Domnach</persName> (&lt; Lat. <distinct xml:lang="la">dominicus</distinct>) does not seem to be attested as a personal name in Old Irish. Ziegler (1994: 168) cites it as the name of a Pictish king in the Irish translation of <title xml:lang="sga">Nennius’ Historia Britonum</title> (<persName xml:lang="la">Gartnait f. Domnach</persName>; eDIL dil.ie/18125), but this is an error for <persName xml:lang="sga">Gartnait mac Domnaill</persName>. The saints’ name <persName xml:lang="sga">Mo Domnóc</persName> is outwardly similar (Fél. 13 Feb., 18 May), but differs in having the British loan suffix -<distinct xml:lang="sga">óc</distinct> instead of the native Irish -<distinct xml:lang="sga">ach</distinct>. Macalister (1945, 99) offers no analysis for his alternative reading of the name as DOMANENI. It could be compared with the population name <name type="population">Fir Domnann</name> and the British <name type="population">Dumnonii</name> (&gt; *<distinct xml:lang="cel">dubnon-(i̭)o-</distinct>, even though the suffixal vowels do not match). This analysis likewise entails the assumption of A being an anaptyctic vowel.</p>
+                <p>For the obscure element MAD in the second inscription, the only approximate parallel in Old Irish is the kin-group name <name type="kingroup">Uí Maidnáin</name> (CGH 481), maybe related to the root *<distinct xml:lang="sga">mad</distinct>- ‘to break’ (cf. OIr. <distinct xml:lang="sga">maidid</distinct> ‘to break’).</p>
+                <p>The analysis of DOMANEQI as a name with the suffix *-ko- would date the inscription after the merger of *ku̯ and *k in the early 6th century. If the name continues *<distinct xml:lang="cel">dubno-</distinct> ‘world’, it presupposes lowering of *u &gt; *o, and perhaps also shortening of *ī &gt; *i and the subsequent lowering to *e. ESEA also seems to display lowering of *i &gt; *e in the suffix, whatever its etymology is. This speaks more for the mid-6th century or its early second half. In this case, the retained -I of DOMANEQI must be viewed as a conscious archaisation.</p>
             </div>
             <div type="bibliography">
                  <listBibl>
