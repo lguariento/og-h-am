@@ -58,7 +58,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </msIdentifier>
                     <msContents>
                           <msItem>                            
-                            <textLang mainLang="sga-Ogam">Old Irish written in ogham script</textLang>                             
+                            <textLang mainLang="pgl-Ogam">Primitive Irish written in ogham script</textLang>                             
                            </msItem>
                     </msContents>
                     <physDesc>
@@ -92,7 +92,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 <geo>54.099614, -4.679378</geo>
                             <note>National Grid Reference: SC 2490 7040</note>
                             </origPlace>
-                            <origDate>Second half or late fifth century</origDate>
+                            <origDate notBefore="0451" notAfter="0499" precision="medium" evidence="linguistic">Possibly late fifth century</origDate>
                         </origin>
                         <provenance type="found" when="1885">The stone was discovered built into the south wall at the Bimakin Friary by the Reverend Savage in 1885. It had probably been re-used as a lintel. <!--Kermode 1911 #3, pg 99.-->
                         </provenance>
@@ -145,12 +145,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </facsimile>    
     <text>
         <body>
-             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="sga-Ogam" resp="#POC">           
+             <div type="edition" subtype="ogham" xml:space="preserve" xml:lang="pgl-Ogam" resp="#POC">           
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunamaglas">ᚉᚒᚅᚐᚋᚐᚌᚂᚔ</name> <w type="formula" lemma="maqqas">ᚋᚐ<supplied reason="lost">ᚊ</supplied></w><gap reason="lost" extent="unknown" unit="stroke"/></persName> 
                 </ab> 
             </div>
-            <div type="edition" subtype="transliteration" xml:lang="sga-Ogam" xml:space="preserve" resp="#POC">
+            <div type="edition" subtype="transliteration" xml:lang="pgl-Ogam" xml:space="preserve" resp="#POC">
                 <ab>
                     <lb n="1" style="text-direction:up"/><persName><name nymRef="#cunamaglas">CUNAMAGLI</name> <w type="formula" lemma="maqqas">MA<supplied reason="lost">Q</supplied></w><gap reason="lost" extent="unknown" unit="stroke"/></persName> 
                 </ab>
